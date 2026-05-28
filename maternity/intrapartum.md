@@ -5,8 +5,6 @@
 
 # Intrapartum
 
-# Intrapartum
-
 ## Overview
 
 **Intrapartum** refers to the period of labor and birth. During this time, the nurse monitors both the mother and fetus, supports coping and pain management, identifies complications early, and responds quickly to changes in maternal or fetal status.
