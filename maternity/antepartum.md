@@ -1,5 +1,24 @@
-**[← Back to Maternity](../maternity.md)**
 # Antepartum
+
+**[← Back to Maternity](../maternity.html)**
+
+## Page Directory
+
+- [Big Picture of Pregnancy](#1-big-picture-of-pregnancy)
+- [Confirming Pregnancy](#2-confirming-pregnancy)
+- [Pregnancy Terms and GTPAL](#3-pregnancy-terms-and-gtpal)
+- [Naegele’s Rule](#4-naegeles-rule)
+- [Initial Prenatal Visit](#5-initial-prenatal-visit)
+- [Routine Prenatal Visits](#6-routine-assessment-at-each-prenatal-visit)
+- [Normal Physiological Changes](#7-normal-physiological-changes-in-pregnancy)
+- [Common Discomforts](#8-common-discomforts-of-pregnancy-and-teaching)
+- [Danger Signs](#9-danger-signs-of-pregnancy)
+- [Psychological Adaptation](#10-psychological-adaptation-to-pregnancy)
+- [Nutrition](#11-nutrition-during-pregnancy)
+- [Prenatal Diagnostic Testing](#12-prenatal-diagnostic-testing)
+- [Antepartum Fetal Surveillance](#13-antepartum-fetal-surveillance)
+- [Diagnostic Testing Considerations](#14-diagnostic-testing-considerations)
+- [TORCH Infections](#15-torch-infections)
 
 ---
 
