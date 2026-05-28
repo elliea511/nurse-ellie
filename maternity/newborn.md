@@ -1,3 +1,10 @@
+---
+layout: default
+title: Newborn
+---
+
+**[← Back to Maternity](../maternity.html)**
+
 # Newborn Care
 
 ## Big Picture: What the Newborn Is Adapting To
