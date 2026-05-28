@@ -4,5 +4,9 @@
 - [Intrapartum](maternity/intrapartum.md)
 - [Postpartum](maternity/postpartum.md)
 - [Newborn](maternity/newborn.md)
-- ## Extra Practice
+  ## Study Tools
+- [Maternity Quizlets](maternity/study/quizlets.md)
+- [Practice Questions](maternity/study/practice-questions.md)
+- [Test Review Sheets](maternity/study/test-review.md)
+## Done already? 
 - [Back to Home](index.md)
