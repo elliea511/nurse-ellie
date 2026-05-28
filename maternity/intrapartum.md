@@ -1,4 +1,6 @@
-
+---
+layout: default
+title: Intrapartum
 ---
 
 **[← Back to Maternity](../maternity.html)**
