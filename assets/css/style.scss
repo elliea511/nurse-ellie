@@ -1,0 +1,59 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+body {
+  background: #fff7fb;
+  color: #3f2a36;
+}
+
+.page-header {
+  background: linear-gradient(135deg, #f9a8d4, #fbcfe8, #fde2f3);
+  color: #3f2a36;
+}
+
+.project-name {
+  font-weight: 800;
+}
+
+.project-tagline {
+  color: #5b3449;
+}
+
+.main-content h1,
+.main-content h2,
+.main-content h3 {
+  color: #be185d;
+}
+
+.main-content h2 {
+  background: #fce7f3;
+  padding: 10px 14px;
+  border-radius: 12px;
+  border-left: 6px solid #f472b6;
+}
+
+.main-content table {
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.main-content th {
+  background: #fbcfe8;
+  color: #831843;
+}
+
+.main-content blockquote {
+  border-left: 6px solid #ec4899;
+  background: #fdf2f8;
+  color: #5b3449;
+  padding: 12px 18px;
+  border-radius: 10px;
+}
+
+.main-content a {
+  color: #db2777;
+  font-weight: 700;
+}
