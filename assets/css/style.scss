@@ -9,10 +9,9 @@ body {
 }
 
 .page-header {
-  background: linear-gradient(135deg, #fce7f3, #fdf2f8, #fff7fb);
-  color: #831843;
+  background: linear-gradient(135deg, #f9a8d4, #fbcfe8, #fde2f3);
+  color: #3f2a36;
   padding: 2rem 1rem;
-  border-bottom: 4px solid #f9a8d4;
 }
 
 .project-name {
@@ -21,6 +20,73 @@ body {
 
 .project-tagline {
   color: #5b3449;
+}
+
+/* Whole page layout */
+.page-wrapper {
+  display: flex;
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  gap: 2rem;
+}
+
+/* Sidebar directory */
+.sidebar {
+  width: 250px;
+  flex-shrink: 0;
+  position: sticky;
+  top: 20px;
+  align-self: flex-start;
+  background: #fdf2f8;
+  border: 2px solid #fbcfe8;
+  border-radius: 18px;
+  padding: 1rem;
+  max-height: 85vh;
+  overflow-y: auto;
+  box-shadow: 0 4px 12px rgba(190, 24, 93, 0.12);
+}
+
+.sidebar h2 {
+  color: #be185d;
+  font-size: 1.25rem;
+  margin-top: 0;
+}
+
+.sidebar h3 {
+  color: #831843;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.sidebar a {
+  display: block;
+  color: #be185d;
+  text-decoration: none;
+  font-weight: 700;
+  padding: 0.35rem 0.2rem;
+  border-radius: 8px;
+}
+
+.sidebar a:hover {
+  background: #fce7f3;
+  color: #831843;
+}
+
+.sidebar hr {
+  border: none;
+  border-top: 1px solid #f9a8d4;
+  margin: 1rem 0;
+}
+
+/* Main notes area */
+.main-content {
+  flex: 1;
+  max-width: 900px;
+  background: white;
+  padding: 2rem;
+  border-radius: 18px;
+  box-shadow: 0 4px 12px rgba(190, 24, 93, 0.08);
 }
 
 .main-content h1,
@@ -58,4 +124,22 @@ body {
 .main-content a {
   color: #db2777;
   font-weight: 700;
+}
+
+/* Makes it work on phones */
+@media screen and (max-width: 900px) {
+  .page-wrapper {
+    display: block;
+  }
+
+  .sidebar {
+    position: relative;
+    width: auto;
+    max-height: none;
+    margin-bottom: 1.5rem;
+  }
+
+  .main-content {
+    padding: 1rem;
+  }
 }
