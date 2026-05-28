@@ -1,7 +1,14 @@
-## Main Topics
-
-- [Maternity](maternity.md)
+## Welcome Ladies
 
 <p align="center">
-  <img width="430" height="480" alt="nursing-notes" src="https://github.com/user-attachments/assets/a7976fe0-1f00-4656-9987-3dcbd4877a90" />
+  <img src="nursing-notes.png" alt="Nursing Notes" width="400">
 </p>
+
+
+## Main Topics
+
+- [Maternity](maternity.html)
+
+## Study Tools
+
+- [Antepartum Quizlet Study Guide](https://quizlet.com/study-guides/comprehensive-antepartum-nursing-care-and-fetal-monitoring-eb13736e-4fd9-4744-bc56-b28a5f07984d?i=1rfril&x=13qt)
