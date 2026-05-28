@@ -151,3 +151,39 @@ body {
     padding: 1rem;
   }
 }
+.page-wrapper {
+  display: flex;
+  align-items: flex-start;
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  gap: 2rem;
+}
+
+.sidebar {
+  width: 230px;
+  min-width: 230px;
+  max-width: 230px;
+  flex: 0 0 230px;
+  position: sticky;
+  top: 20px;
+  align-self: flex-start;
+  background: #fff0f7;
+  border: 2px solid #f9a8d4;
+  border-radius: 18px;
+  padding: 1rem;
+  max-height: 80vh;
+  overflow-y: auto;
+  box-shadow: 0 4px 12px rgba(190, 24, 93, 0.12);
+  font-size: 0.95rem;
+}
+
+.main-content {
+  flex: 1;
+  min-width: 0;
+  max-width: 900px;
+  background: white;
+  padding: 2rem;
+  border-radius: 18px;
+  box-shadow: 0 4px 12px rgba(190, 24, 93, 0.08);
+}
