@@ -3,6 +3,8 @@ layout: default
 title: Postpartum
 ---
 
+<a class="back-button" href="{{ '/maternity/' | relative_url }}">← Back to Maternity</a>
+
 # Postpartum
  
 ---
@@ -2064,3 +2066,5 @@ Think:
 [3]: https://www.cdc.gov/rubella/hcp/vaccine-considerations/index.html?utm_source=chatgpt.com "Rubella Vaccine Recommendations"
 [4]: https://www.acog.org/clinical/clinical-guidance/practice-advisory/articles/2024/03/management-of-obstetric-gynecologic-patients-during-a-measles-outbreak?utm_source=chatgpt.com "Measles, Mumps, Rubella (MMR) Vaccination and ..."
 [5]: https://www.acog.org/womens-health/experts-and-stories/the-latest/3-conditions-to-watch-for-after-childbirth?utm_source=chatgpt.com "3 Conditions to Watch for After Childbirth"
+
+<a class="back-button" href="{{ '/maternity/' | relative_url }}">← Back to Maternity</a>
