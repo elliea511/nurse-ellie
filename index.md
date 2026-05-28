@@ -1,9 +1,9 @@
-
 # Nursing Notes
 
-<img width="430" height="480" alt="nursing-notes" src="https://github.com/user-attachments/assets/dc704a07-5760-45e7-bece-fe2ba9f82655" />
+<img width="430" height="480" alt="nursing-notes" src="https://github.com/user-attachments/assets/a7976fe0-1f00-4656-9987-3dcbd4877a90" />
 
-You bitches better be excited. 
+
+you bitches better be excited
 
 ## Main Topics
 
