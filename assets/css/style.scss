@@ -91,7 +91,44 @@ body {
   border-top: 1px solid #f9a8d4;
   margin: 0.9rem 0;
 }
+.sidebar details {
+  margin: 0.8rem 0;
+  background: #fdf2f8;
+  border: 1px solid #f9a8d4;
+  border-radius: 12px;
+  padding: 0.4rem;
+}
 
+.sidebar summary {
+  cursor: pointer;
+  color: #831843;
+  font-weight: 800;
+  padding: 0.5rem;
+  border-radius: 8px;
+  list-style: none;
+}
+
+.sidebar summary:hover {
+  background: #fce7f3;
+}
+
+.sidebar summary::-webkit-details-marker {
+  display: none;
+}
+
+.sidebar summary::before {
+  content: "▸ ";
+  color: #be185d;
+}
+
+.sidebar details[open] summary::before {
+  content: "▾ ";
+}
+
+.sidebar details a {
+  margin-left: 0.7rem;
+  font-size: 0.9rem;
+}
 /* Main notes area */
 .main-content {
   flex: 1;
