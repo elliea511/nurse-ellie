@@ -1,5 +1,15 @@
+# Nursing Notes
 
-## Nursing Notes
-<img width="430" height="480" alt="nursing-notes" src="https://github.com/user-attachments/assets/a3f44777-d21f-448c-a0d2-132492a678c4" />
+Welcome to my nursing notes website.
 
-You bitches better be excited about this. 
+## Main Topics
+
+- [Maternity](maternity.md)
+
+## Study Tools
+
+- [Antepartum Quizlet Study Guide](https://quizlet.com/study-guides/comprehensive-antepartum-nursing-care-and-fetal-monitoring-eb13736e-4fd9-4744-bc56-b28a5f07984d?i=1rfril&x=13qt)
+
+## About
+
+These notes are organized by nursing topic to make studying easier.  
