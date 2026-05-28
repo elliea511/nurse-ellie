@@ -33,39 +33,47 @@ body {
 
 /* Sidebar directory */
 .sidebar {
-  width: 250px;
+  width: 230px;
   flex-shrink: 0;
   position: sticky;
   top: 20px;
   align-self: flex-start;
-  background: #fdf2f8;
-  border: 2px solid #fbcfe8;
+  background: #fff0f7;
+  border: 2px solid #f9a8d4;
   border-radius: 18px;
   padding: 1rem;
-  max-height: 85vh;
+  max-height: 80vh;
   overflow-y: auto;
   box-shadow: 0 4px 12px rgba(190, 24, 93, 0.12);
+  font-size: 0.95rem;
 }
 
 .sidebar h2 {
   color: #be185d;
-  font-size: 1.25rem;
+  font-size: 1.15rem;
   margin-top: 0;
+  margin-bottom: 0.75rem;
+  text-align: center;
 }
 
 .sidebar h3 {
   color: #831843;
-  font-size: 1rem;
-  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+  margin-top: 1rem;
+  margin-bottom: 0.4rem;
+  border-bottom: 1px solid #f9a8d4;
+  padding-bottom: 0.2rem;
 }
 
 .sidebar a {
   display: block;
   color: #be185d;
   text-decoration: none;
-  font-weight: 700;
-  padding: 0.35rem 0.2rem;
+  font-weight: 600;
+  padding: 0.35rem 0.45rem;
+  margin: 0.1rem 0;
   border-radius: 8px;
+  line-height: 1.25;
 }
 
 .sidebar a:hover {
@@ -76,7 +84,7 @@ body {
 .sidebar hr {
   border: none;
   border-top: 1px solid #f9a8d4;
-  margin: 1rem 0;
+  margin: 0.9rem 0;
 }
 
 /* Main notes area */
