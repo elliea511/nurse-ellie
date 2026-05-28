@@ -1,11 +1,9 @@
 # Nursing Notes
 
-Welcome to my nursing notes website.
+![Nursing notes homepage picture](assets/images/nursing-notes.png)
 
-## Main Sections
+You bitches better be grateful. 
 
-- [Fundamentals](fundamentals.md)
+## Main Topics
+
 - [Maternity](maternity.md)
-- [Pharmacology](pharmacology.md)
-- [Med-Surg](med-surg.md)
-- [Lab Values](lab-values.md)
