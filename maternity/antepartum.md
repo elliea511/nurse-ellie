@@ -1,4 +1,4 @@
-[← Back to Maternity](../maternity.md)
+**[← Back to Maternity](../maternity.md)**
 # Antepartum
 
 ---
@@ -1275,4 +1275,4 @@ Rubella may cause mild illness in the mother but serious fetal effects.
 | Iron                     | Take with vitamin C; avoid milk/coffee/tea |
 | Decreased fetal movement | Always evaluate                            |
 
-[← Back to Maternity](../maternity.md)
+**[← Back to Maternity](../maternity.md)**
