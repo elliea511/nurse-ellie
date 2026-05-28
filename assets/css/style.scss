@@ -129,6 +129,61 @@ body {
   margin-left: 0.7rem;
   font-size: 0.9rem;
 }
+/* Dropdown sidebar menu */
+.sidebar details {
+  margin: 0.7rem 0;
+}
+
+.sidebar summary {
+  cursor: pointer;
+  font-weight: 800;
+  color: #831843;
+  padding: 0.55rem 0.65rem;
+  border-radius: 10px;
+  list-style: none;
+}
+
+.sidebar summary:hover {
+  background: #fce7f3;
+}
+
+.sidebar summary::-webkit-details-marker {
+  display: none;
+}
+
+.sidebar summary::before {
+  content: "▸ ";
+  color: #be185d;
+}
+
+.sidebar details[open] > summary::before {
+  content: "▾ ";
+}
+
+/* Big Maternity dropdown */
+.menu-group {
+  background: #fff0f7;
+  border: 2px solid #f9a8d4;
+  border-radius: 14px;
+  padding: 0.35rem;
+}
+
+/* Antepartum/Intrapartum dropdowns inside Maternity */
+.submenu-group {
+  margin-left: 0.7rem;
+  background: #fdf2f8;
+  border: 1px solid #fbcfe8;
+  border-radius: 12px;
+  padding: 0.25rem;
+}
+
+/* Topic links inside Antepartum/Intrapartum */
+.submenu-group a {
+  display: block;
+  margin-left: 1rem;
+  font-size: 0.9rem;
+  padding: 0.35rem 0.5rem;
+}
 /* Main notes area */
 .main-content {
   flex: 1;
