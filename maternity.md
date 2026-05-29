@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Maternity Notes
+has_children: true
+nav_order: 1
 ---
 
 # Maternity Notes
