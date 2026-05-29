@@ -8,7 +8,11 @@ nav_order: 5
 
 # OB Medications
 
-## Select an Individual Medication
+
+## Overview
+* [OB Medication Exam Comparison](./ob-med-comparison.html)
+
+## Select a Medication
 
 * [Methergine](./methergine.html)
 * [Vitamin K](./vitamin-k.html)
@@ -16,6 +20,6 @@ nav_order: 5
 * [Magnesium Sulfate](./magnesium-sulfate.html)
 * [Hemabate](./hemabate.html)
 * [Hepatitis B Vaccine](./hepatitis-b-vaccine.html)
+* [Erythromycin Eye Ointment](./erythromycin-eye-ointment.html)
 * [Betamethasone](./betamethasone.html)
 * [RhoGAM](./rhogam.html)
-* [OB Medication Exam Comparison](./ob-med-comparison.html)
