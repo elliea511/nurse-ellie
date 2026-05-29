@@ -8,21 +8,14 @@ nav_order: 5
 
 # OB Medications
 
-<div class="med-select-list">
+## Select an Individual Medication
 
-<a class="med-select" href="./methergine.html">Methergine</a>
-
-<a class="med-select" href="./vitamin-k.html">Vitamin K</a>
-
-<a class="med-select" href="./oxytocin.html">Oxytocin</a>
-
-<a class="med-select" href="./magnesium-sulfate.html">Magnesium Sulfate</a>
-
-<a class="med-select" href="./hemabate.html">Hemabate</a>
-
-<a class="med-select" href="./hepatitis-b-vaccine.html">Hepatitis B Vaccine</a>
-
-<a class="med-select" href="./betamethasone.html">Betamethasone</a>
-
-<a class="med-select" href="./rhogam.html">RhoGAM</a>
-
+* [Methergine](./methergine.html)
+* [Vitamin K](./vitamin-k.html)
+* [Oxytocin](./oxytocin.html)
+* [Magnesium Sulfate](./magnesium-sulfate.html)
+* [Hemabate](./hemabate.html)
+* [Hepatitis B Vaccine](./hepatitis-b-vaccine.html)
+* [Betamethasone](./betamethasone.html)
+* [RhoGAM](./rhogam.html)
+* [OB Medication Exam Comparison](./ob-med-comparison.html)
