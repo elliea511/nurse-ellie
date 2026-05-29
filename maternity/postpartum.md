@@ -4,8 +4,6 @@ title: Postpartum
 ---
 
 <a class="back-button" href="{{ '/maternity/' | relative_url }}">← Back to Maternity</a>
-
-# Postpartum
  
 ---
 
