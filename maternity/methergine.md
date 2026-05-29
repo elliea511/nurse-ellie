@@ -1,20 +1,21 @@
 ---
+
 layout: default
 title: Methergine
 parent: Medications
 grand_parent: Maternity Notes
 nav_order: 1
----
+------------
 
 # Methergine
 
 ## Medication
 
-| ATI Template Section | Key Exam Info               |
-| -------------------- | --------------------------- |
-| Medication Name      | Methergine                  |
-| Generic Name         | Methylergonovine            |
-| Category/Class       | Uterotonic / ergot alkaloid |
+|                 |                             |
+| --------------- | --------------------------- |
+| Medication Name | Methergine                  |
+| Generic Name    | Methylergonovine            |
+| Category/Class  | Uterotonic / ergot alkaloid |
 
 ## Purpose / Expected Action
 
@@ -26,6 +27,12 @@ nav_order: 1
 
 * Postpartum hemorrhage
 * Uterine atony after delivery
+
+## Route
+
+* IM
+* PO
+* IV only in emergency situations because it can cause severe hypertension
 
 ## Complications / Side Effects
 
@@ -75,4 +82,5 @@ Methergine is used for postpartum hemorrhage, but it is **held if the patient ha
 ## Memory Hook
 
 **Methergine = Makes uterus firm, but raises BP.**
+
 
