@@ -21,8 +21,6 @@ nav_order: 1
 ## Study Tools
 
 - [Maternity Quizlets](maternity/study/quizlets.html)
-- [Practice Questions](maternity/study/practice-questions.html)
-- [Test Review Sheets](maternity/study/test-review.html)
 
 ## Done already?
 
