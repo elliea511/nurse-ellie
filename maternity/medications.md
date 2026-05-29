@@ -20,6 +20,6 @@ nav_order: 5
 * [Magnesium Sulfate](./magnesium-sulfate.html)
 * [Hemabate](./hemabate.html)
 * [Hepatitis B Vaccine](./hepatitis-b-vaccine.html)
-* [Erythromycin Eye Ointment](./erythromycin-eye-ointment.html)
 * [Betamethasone](./betamethasone.html)
 * [RhoGAM](./rhogam.html)
+* [Erythromycin Eye Ointment](./erythromycin-eye-ointment.html)
