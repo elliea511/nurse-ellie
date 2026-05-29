@@ -2,11 +2,9 @@
 layout: default
 title: Antepartum
 parent: Maternity Notes
-has_children: true
 nav_order: 1
 ---
 
-# Antepartum
 **[← Back to Maternity]({{ '/maternity' | relative_url }})**
 
 # Antepartum
