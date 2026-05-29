@@ -4,7 +4,7 @@ layout: default
 title: Erythromycin Eye Ointment
 parent: Medications
 grand_parent: Maternity Notes
-nav_order: 10
+nav_order: 9
 ---
 
 # Erythromycin Eye Ointment
