@@ -8,16 +8,21 @@ nav_order: 5
 
 # OB Medications
 
-## Medication Directory
+<div class="med-select-list">
 
-| Medication | Link |
-|---|---|
-| Methergine | [Methergine](./methergine.html) |
-| Vitamin K | [Vitamin K](./vitamin-k.html) |
-| Oxytocin | [Oxytocin](./oxytocin.html) |
-| Magnesium Sulfate | [Magnesium Sulfate](./magnesium-sulfate.html) |
-| Hemabate | [Hemabate](./hemabate.html) |
-| Hepatitis B Vaccine | [Hepatitis B Vaccine](./hepatitis-b-vaccine.html) |
-| Betamethasone | [Betamethasone](./betamethasone.html) |
-| RhoGAM | [RhoGAM](./rhogam.html) |
-| OB Medication Exam Comparison | [OB Medication Exam Comparison](./ob-med-comparison.html) |
+<a class="med-select" href="./methergine.html">Methergine</a>
+
+<a class="med-select" href="./vitamin-k.html">Vitamin K</a>
+
+<a class="med-select" href="./oxytocin.html">Oxytocin</a>
+
+<a class="med-select" href="./magnesium-sulfate.html">Magnesium Sulfate</a>
+
+<a class="med-select" href="./hemabate.html">Hemabate</a>
+
+<a class="med-select" href="./hepatitis-b-vaccine.html">Hepatitis B Vaccine</a>
+
+<a class="med-select" href="./betamethasone.html">Betamethasone</a>
+
+<a class="med-select" href="./rhogam.html">RhoGAM</a>
+
