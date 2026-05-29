@@ -3,7 +3,7 @@ layout: default
 title: Postpartum
 ---
 
-<a class="back-button" href="{{ '/maternity' | relative_url }}">← Back to Maternity</a>
+**[← Back to Maternity]({{ '/maternity' | relative_url }})**
  
 ---
 
