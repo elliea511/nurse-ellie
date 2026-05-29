@@ -8,108 +8,71 @@ nav_order: 1
 
 # Methergine
 
-<div class="ati-drug-card" markdown="1">
+## Medication
 
-<div class="ati-header" markdown="1">
+| ATI Template Section | Key Exam Info               |
+| -------------------- | --------------------------- |
+| Medication Name      | Methergine                  |
+| Generic Name         | Methylergonovine            |
+| Category/Class       | Uterotonic / ergot alkaloid |
 
-**Generic:** Methylergonovine
+## Purpose / Expected Action
 
-</div>
+* Causes strong, sustained uterine contractions.
+* Helps firm the uterus after birth.
+* Decreases postpartum bleeding caused by uterine atony.
 
-<div class="ati-grid" markdown="1">
+## Therapeutic Use
 
-<div class="ati-box" markdown="1">
+* Postpartum hemorrhage
+* Uterine atony after delivery
 
-### Category / Class
+## Complications / Side Effects
 
-- Uterotonic
-- Ergot alkaloid
+* Hypertension
+* Headache
+* Nausea/vomiting
+* Abdominal cramping
+* Chest pain if severe reaction occurs
 
-</div>
+## Contraindications / Precautions
 
-<div class="ati-box" markdown="1">
+Do not give with:
 
-### Purpose / Expected Action
+* Hypertension
+* Preeclampsia
+* Eclampsia
+* Severe cardiac disease
 
-- Causes strong uterine contractions
-- Helps firm the uterus
-- Decreases postpartum bleeding
+## Nursing Interventions
 
-</div>
+* Check blood pressure before giving.
+* Assess fundal tone.
+* Monitor lochia and amount of bleeding.
+* Massage fundus as ordered.
+* Monitor for severe headache, chest pain, or elevated BP.
+* Hold medication and notify provider if patient has hypertension.
 
-<div class="ati-box" markdown="1">
+## Client Education
 
-### Therapeutic Use
+* Cramping is expected because the medication makes the uterus contract.
+* Report severe headache, chest pain, dizziness, or heavy bleeding.
+* Explain that the medication helps the uterus firm up and decrease bleeding.
 
-- Postpartum hemorrhage
-- Uterine atony
+## Evaluation of Medication Effectiveness
 
-</div>
+Medication is effective if:
 
-<div class="ati-box" markdown="1">
+* Fundus is firm.
+* Bleeding decreases.
+* Vital signs remain stable.
+* No signs of continued hemorrhage.
 
-### Complications / Side Effects
+## NCLEX / ATI Must Know
 
-- Hypertension
-- Headache
-- Nausea/vomiting
-- Cramping
-- Chest pain if severe
+Methergine is used for postpartum hemorrhage, but it is **held if the patient has hypertension or preeclampsia**.
 
-</div>
+## Memory Hook
 
-<div class="ati-box" markdown="1">
+**Methergine = Makes uterus firm, but raises BP.**
 
-### Contraindications / Precautions
-
-- Hypertension
-- Preeclampsia
-- Eclampsia
-- Severe cardiac disease
-
-</div>
-
-<div class="ati-box" markdown="1">
-
-### Nursing Interventions
-
-- Check blood pressure before giving
-- Assess fundal tone
-- Monitor lochia/bleeding
-- Massage fundus as ordered
-- Hold and notify provider for high BP
-
-</div>
-
-<div class="ati-box" markdown="1">
-
-### Client Education
-
-- Cramping is expected because the uterus is contracting
-- Report severe headache, chest pain, or heavy bleeding
-- Explain that medication helps prevent excessive bleeding
-
-</div>
-
-<div class="ati-box" markdown="1">
-
-### Evaluation of Medication Effectiveness
-
-- Fundus firm
-- Bleeding decreases
-- Vital signs stable
-- No signs of hemorrhage
-
-</div>
-
-</div>
-
-<div class="ati-nclex" markdown="1">
-
-### NCLEX / ATI Must Know
-
-Methergine is used for postpartum hemorrhage, but it is **held for hypertension or preeclampsia**.
-
-</div>
-
-</div>
