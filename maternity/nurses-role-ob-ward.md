@@ -6,10 +6,6 @@
 
 ---
 
-# Nurse's Role When a Patient Presents to the OB Ward to Give Birth
-
-← Back to Maternity
-
 ## Overview
 
 When a patient presents to the OB ward to give birth, the nurse’s role is to quickly determine if the mother and fetus are stable, identify whether the patient is in true labor, monitor for complications, support the labor process, assist with birth, provide immediate newborn care, and continue postpartum assessment and teaching.
