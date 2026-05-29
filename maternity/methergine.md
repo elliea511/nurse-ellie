@@ -12,10 +12,6 @@ nav_order: 1
 
 <div class="ati-header" markdown="1">
 
-## Medication
-
-# Methergine
-
 **Generic:** Methylergonovine
 
 </div>
