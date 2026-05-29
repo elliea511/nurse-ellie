@@ -5,6 +5,8 @@ title: Newborn
 
 **[← Back to Maternity]({{ '/maternity' | relative_url }})**
 
+# Newborn
+
 ## Big Picture: What the Newborn Is Adapting To
 
 At birth, the newborn has to quickly transition from being supported by the placenta to independently maintaining:
