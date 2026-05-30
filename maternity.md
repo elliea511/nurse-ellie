@@ -9,7 +9,7 @@ nav_order: 1
 
 - [Overview: Nurse’s Role When Patient Presents to OB Ward](maternity/nurses-role-ob-ward.html)
 - [OB Medications](maternity/medications.html)
-
+- [Maternity Labs](maternity/maternity-labs.html)
 
 ## Sections
 
