@@ -7,6 +7,8 @@ title: Maternity Labs
 
 These are the main maternity labs to know for antepartum, intrapartum, postpartum, and newborn nursing care.
 
+[Download Printable Maternity Labs PDF]({{ '/assets/printables/maternity-labs-printable.pdf' | relative_url }})
+
 ---
 
 ## CBC / Blood Labs
