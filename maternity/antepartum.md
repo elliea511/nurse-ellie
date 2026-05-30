@@ -154,7 +154,7 @@ GTPAL describes pregnancy history.
 | **G**  | Gravida: total pregnancies         |
 | **T**  | Term births, greater than 37 weeks |
 | **P**  | Preterm births, less than 37 weeks |
-| **A**  | Abortions, spontaneous or induced  |
+| **A**  | Abortions (less than 20 weeks), spontaneous or induced  |
 | **L**  | Living children                    |
 
 ### Important Multiples Rule
