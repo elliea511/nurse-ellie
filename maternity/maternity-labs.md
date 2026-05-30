@@ -2,54 +2,113 @@
 layout: default
 title: Maternity Labs
 ---
+
 # Maternity Labs
 
 These are the main maternity labs to know for antepartum, intrapartum, postpartum, and newborn nursing care.
 
 ---
 
-| Lab / Test | Normal / Expected Values | What It Checks | Concerning Findings | Nursing / NCLEX Connection |
-|---|---|---|---|---|
-| **CBC** | Depends on each part of CBC | Overall blood status | Infection, anemia, bleeding | Look closely at **Hgb/Hct, WBC, and platelets** |
-| **Hemoglobin / Hematocrit** | **Hgb:** ≥ 11 g/dL in pregnancy<br>**Hct:** ≥ 33% in pregnancy | Anemia or blood loss | Low Hgb/Hct = anemia or hemorrhage | Watch for fatigue, dizziness, pallor, tachycardia, and heavy bleeding |
-| **WBC** | **Adult normal:** 5,000–10,000/mm³<br>**Pregnancy/labor/postpartum:** can be elevated<br>**Labor/postpartum:** around 15,000 can be expected | Infection/inflammation | Very high WBC **with symptoms** may indicate infection | Do **not** diagnose infection from WBC alone in postpartum. Assess temp, lochia, uterine tenderness, chills, tachycardia, wound drainage |
-| **Platelets** | **150,000–400,000/mm³** | Clotting ability | Low platelets = bleeding risk; possible preeclampsia/HELLP | Low platelets may affect epidural eligibility |
-| **Blood Type / ABO** | A, B, AB, or O | Maternal blood type | Important if transfusion is needed | Know in case of postpartum hemorrhage |
-| **Rh Factor** | Rh-positive or Rh-negative | Whether mother has Rh factor | Rh-negative mother may need Rhogam | Rhogam at **28 weeks** and within **72 hr postpartum** if baby is Rh-positive |
-| **Antibody Screen / Indirect Coombs** | **Negative** | Maternal antibodies against fetal RBCs | Positive = possible sensitization | Rhogam helps only if mother is **not already sensitized** |
-| **Rubella Titer** | Immune/positive | Immunity to rubella | Non-immune = fetal risk if exposed | No live vaccine during pregnancy; give postpartum |
-| **Varicella Titer** | Immune/positive | Immunity to chickenpox | Non-immune = fetal risk if exposed | No live vaccine during pregnancy; give postpartum |
-| **Hepatitis B / HBsAg** | **Negative** | Active hepatitis B infection | Positive = newborn exposure risk | Newborn needs **Hep B vaccine + HBIG** after birth |
-| **HIV** | **Negative** | Maternal HIV status | Positive = transmission risk | Antiretrovirals reduce transmission; avoid breastfeeding in the U.S. |
-| **Syphilis / RPR or VDRL** | **Negative** | Syphilis infection | Positive = fetal complications | Treat during pregnancy, usually with penicillin |
-| **Group B Strep** | **Negative** | Maternal GBS colonization | Positive = newborn infection risk | Give IV antibiotics during labor, usually penicillin G or ampicillin |
-| **Urinalysis** | Depends on finding | Protein, glucose, ketones, blood, infection | Protein, glucose, ketones, nitrites, leukocytes | Screens for preeclampsia, diabetes concerns, dehydration, and UTI |
-| **Urine Protein** | Negative/trace | Kidney involvement/preeclampsia | Proteinuria + hypertension = preeclampsia | Watch headache, vision changes, RUQ pain, and hyperreflexia |
-| **Urine Glucose** | Negative/trace | Glucose spilling into urine | Possible hyperglycemia/GDM | Follow up with glucose screening |
-| **Urine Ketones** | **Negative** | Fat breakdown/dehydration | Starvation, dehydration, poor diabetes control | Important with hyperemesis, diabetes, or poor intake |
-| **Nitrites / Leukocytes** | **Negative** | Possible UTI | Positive nitrites/leukocytes = possible UTI | UTIs in pregnancy can trigger preterm labor |
-| **1-Hour Glucose Challenge** | **Usually less than 130–140 mg/dL** | Screens for gestational diabetes | Elevated = needs 3-hour test | Usually done at **24–28 weeks** |
-| **3-Hour Glucose Tolerance Test** | Should stay below pregnancy glucose cutoffs during fasting, 1-hr, 2-hr, and 3-hr checks | Diagnoses gestational diabetes | Abnormal values = GDM | Risks include macrosomia, shoulder dystocia, neonatal hypoglycemia, and preeclampsia |
-| **AST / ALT** | **AST:** about 10–40 units/L<br>**ALT:** about 7–56 units/L | Liver function | Elevated = liver involvement | High-yield for preeclampsia/HELLP |
-| **Creatinine / BUN** | **Creatinine:** about 0.6–1.1 mg/dL<br>**BUN:** about 7–20 mg/dL | Kidney function | Elevated = kidney involvement | Monitor urine output; **less than 30 mL/hr is concerning** |
-| **LDH** | About **140–280 units/L** | Cell breakdown/hemolysis | Elevated = possible hemolysis | HELLP = hemolysis, elevated liver enzymes, low platelets |
-| **Uric Acid** | About **2.5–6 mg/dL** | Preeclampsia marker | May be elevated in preeclampsia | Supports concern for worsening disease |
-| **Magnesium Level** | **Therapeutic:** 4–7 mEq/L | Magnesium sulfate therapy level | Too high = magnesium toxicity | Monitor DTRs, respirations, and urine output; antidote is **calcium gluconate** |
-| **Nitrazine Test** | Amniotic fluid turns paper **blue** | pH of vaginal fluid | Positive may mean rupture of membranes | False positives: blood, semen, infection |
-| **Fern Test** | Fern-like pattern if positive | Amniotic fluid pattern under microscope | Positive may mean rupture of membranes | Used to confirm ROM |
-| **Fetal Fibronectin** | **Negative is reassuring** | Risk for preterm birth | Positive = possible increased risk | Negative means delivery is unlikely soon |
-| **Kleihauer-Betke** | Minimal/none fetal blood in maternal circulation | Fetal blood in maternal circulation | Fetomaternal hemorrhage | Used after trauma/bleeding; helps determine Rhogam dose |
+## CBC / Blood Labs
+
+| Lab / Test | Normal / Expected Values | Nursing / NCLEX Connection |
+|---|---|---|
+| **CBC** | Depends on each part of CBC | Overall blood status. Look closely at **Hgb/Hct, WBC, and platelets**. |
+| **Hemoglobin / Hematocrit** | **Hgb:** ≥ 11 g/dL in pregnancy<br>**Hct:** ≥ 33% in pregnancy | Low Hgb/Hct can mean **anemia or blood loss**. Watch for fatigue, dizziness, pallor, tachycardia, and heavy bleeding. |
+| **WBC** | **Adult normal:** 5,000–10,000/mm³<br>**Pregnancy/labor/postpartum:** can be elevated<br>**Labor/postpartum:** around 15,000 can be expected | Do **not** diagnose infection from WBC alone postpartum. Look for fever, foul-smelling lochia, uterine tenderness, chills, tachycardia, or wound drainage. |
+| **Platelets** | **150,000–400,000/mm³** | Low platelets increase bleeding risk and can be seen with **preeclampsia/HELLP**. Low platelets may affect epidural eligibility. |
+| **Blood Type / ABO** | A, B, AB, or O | Important if transfusion is needed, especially with postpartum hemorrhage. |
+| **Rh Factor** | Rh-positive or Rh-negative | Rh-negative mothers may need **RhoGAM** at 28 weeks and within 72 hours postpartum if baby is Rh-positive. |
+| **Antibody Screen / Indirect Coombs** | **Negative** | Positive means possible sensitization. RhoGAM helps only if the mother is **not already sensitized**. |
 
 ---
 
+## Infection / Immunity Labs
+
+| Lab / Test | Normal / Expected Values | Nursing / NCLEX Connection |
+|---|---|---|
+| **Rubella Titer** | Immune/positive | If non-immune, give vaccine **postpartum**, not during pregnancy because it is live. |
+| **Varicella Titer** | Immune/positive | If non-immune, give vaccine **postpartum**, not during pregnancy because it is live. |
+| **Hepatitis B / HBsAg** | **Negative** | If mother is positive, newborn needs **Hep B vaccine + HBIG** after birth. |
+| **HIV** | **Negative** | Antiretrovirals reduce transmission risk. Avoid breastfeeding in the U.S. if HIV-positive. |
+| **Syphilis / RPR or VDRL** | **Negative** | Untreated syphilis can cause fetal complications. Treatment is usually penicillin. |
+| **Group B Strep** | **Negative** | Positive GBS means mother needs **IV antibiotics during labor**, usually penicillin G or ampicillin, to prevent newborn infection. |
+
+---
+
+## Urine Labs
+
+| Lab / Test | Normal / Expected Values | Nursing / NCLEX Connection |
+|---|---|---|
+| **Urinalysis** | Depends on finding | Screens for protein, glucose, ketones, blood, and signs of infection. |
+| **Urine Protein** | Negative/trace | Proteinuria with hypertension suggests **preeclampsia**. Watch headache, vision changes, RUQ pain, and hyperreflexia. |
+| **Urine Glucose** | Negative/trace | May suggest hyperglycemia or gestational diabetes risk. Follow up with glucose screening. |
+| **Urine Ketones** | **Negative** | Can indicate dehydration, starvation, hyperemesis, or poor diabetes control. |
+| **Nitrites / Leukocytes** | **Negative** | Positive findings suggest possible UTI. UTIs in pregnancy can trigger preterm labor. |
+
+---
+
+## Gestational Diabetes Labs
+
+| Lab / Test | Normal / Expected Values | Nursing / NCLEX Connection |
+|---|---|---|
+| **1-Hour Glucose Challenge** | Usually less than **130–140 mg/dL** | Screening test for gestational diabetes. Usually done at **24–28 weeks**. Elevated result means the patient needs a 3-hour test. |
+| **3-Hour Glucose Tolerance Test** | Should stay below pregnancy glucose cutoffs during fasting, 1-hour, 2-hour, and 3-hour checks | Diagnostic test for gestational diabetes. GDM increases risk for macrosomia, shoulder dystocia, neonatal hypoglycemia, C-section, and preeclampsia. |
+
+---
+
+<div style="page-break-before: always; break-before: page;"></div>
+
+## Preeclampsia / HELLP Labs
+
+| Lab / Test | Normal / Expected Values | Nursing / NCLEX Connection |
+|---|---|---|
+| **AST / ALT** | **AST:** about 10–40 units/L<br>**ALT:** about 7–56 units/L | Elevated AST/ALT can mean liver involvement. High-yield for **preeclampsia/HELLP**. |
+| **Creatinine / BUN** | **Creatinine:** about 0.6–1.1 mg/dL<br>**BUN:** about 7–20 mg/dL | Elevated levels can mean kidney involvement. Monitor urine output; **less than 30 mL/hr is concerning**. |
+| **LDH** | About **140–280 units/L** | Elevated LDH can indicate hemolysis. Think **HELLP**. |
+| **Uric Acid** | About **2.5–6 mg/dL** | May be elevated in preeclampsia and can support concern for worsening disease. |
+| **Platelets** | **150,000–400,000/mm³** | Low platelets are part of HELLP and increase bleeding risk. |
+
+---
+
+## Magnesium Sulfate Monitoring
+
+| Lab / Test | Normal / Expected Values | Nursing / NCLEX Connection |
+|---|---|---|
+| **Magnesium Level** | **Therapeutic:** 4–7 mEq/L | Used with magnesium sulfate therapy for seizure prevention in preeclampsia. |
+| **Magnesium Toxicity Signs** | Too high = toxicity | Watch for **loss of DTRs, respiratory depression, decreased urine output, extreme weakness, or lethargy**. |
+| **Antidote** | **Calcium gluconate** | Keep available when the patient is receiving magnesium sulfate. |
+
+---
+
+## Rupture of Membranes / Preterm Labor Tests
+
+| Lab / Test | Normal / Expected Values | Nursing / NCLEX Connection |
+|---|---|---|
+| **Nitrazine Test** | Amniotic fluid turns paper **blue** | Tests vaginal fluid pH. Positive may mean rupture of membranes. False positives include blood, semen, and infection. |
+| **Fern Test** | Fern-like pattern if positive | Used to confirm rupture of membranes. |
+| **Fetal Fibronectin** | **Negative is reassuring** | Negative means delivery is unlikely soon. Positive means possible increased risk for preterm birth, but it is less specific. |
+
+---
+
+## Trauma / Bleeding Test
+
+| Lab / Test | Normal / Expected Values | Nursing / NCLEX Connection |
+|---|---|---|
+| **Kleihauer-Betke** | Minimal/none fetal blood in maternal circulation | Checks for fetal blood in maternal circulation. Used after trauma, bleeding, or suspected fetomaternal hemorrhage. Helps determine if extra RhoGAM is needed. |
+
+---
+
+<div style="page-break-before: always; break-before: page;"></div>
+
 ## Newborn Labs
 
-| Lab / Test | Normal / Expected Values | What It Checks | Concerning Findings | Nursing / NCLEX Connection |
-|---|---|---|---|---|
-| **Newborn Blood Glucose** | **Usually should be above 40–45 mg/dL** | Newborn glucose level | Hypoglycemia | Check if jittery, lethargic, poor feeding, cold, IDM, LGA, SGA, or preterm |
-| **Newborn Bilirubin** | Depends on **baby’s age in hours** | Jaundice level | High bilirubin = risk for kernicterus | Encourage feeding/stooling; phototherapy may be ordered |
-| **Direct Coombs** | **Negative** | Antibodies attached to newborn RBCs | Positive = hemolysis risk | Increased risk for jaundice, especially Rh/ABO incompatibility |
-| **Newborn Blood Type / Rh** | Depends on baby | Baby’s blood type/Rh | Rh or ABO incompatibility | Determines if Rh-negative mother needs postpartum Rhogam |
+| Lab / Test | Normal / Expected Values | Nursing / NCLEX Connection |
+|---|---|---|
+| **Newborn Blood Glucose** | Usually should be above **40–45 mg/dL** | Check if newborn is jittery, lethargic, cold, poor feeding, IDM, LGA, SGA, or preterm. |
+| **Newborn Bilirubin** | Rises after birth; usually peaks around **day 3–5** in term newborns | Bilirubin should rise, peak, then gradually decrease as the newborn feeds and stools. **Jaundice in the first 24 hours is concerning/pathologic.** Monitor jaundice progression, feeding, stooling, hydration, weight loss, and risk factors. Phototherapy may be ordered. |
+| **Direct Coombs** | **Negative** | Positive means antibodies are attached to newborn RBCs, increasing risk for hemolysis and jaundice. |
+| **Newborn Blood Type / Rh** | Depends on baby | Helps identify ABO/Rh incompatibility and determines if Rh-negative mother needs postpartum RhoGAM. |
 
 ---
 
