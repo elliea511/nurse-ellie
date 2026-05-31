@@ -1082,7 +1082,7 @@ May be done if NST is nonreactive.
 
 ### Oxytocin Safety
 
-- Always piggyback oxytocin into the main IV line.
+- Always piggyback oxytocin into the main IV line when baby is still in utero. 
 - Never run as the main bag because too much could cause excessive contractions.
 
 Monitor for:
@@ -1115,7 +1115,7 @@ BPP evaluates fetal well-being during the antepartum period.
 It assesses five parameters:
 
 1. Nonstress test
-2. Fetal breathing movements
+2. Fetal breathing movements (practicing breathing)
 3. Gross fetal movements
 4. Fetal tone
 5. Amniotic fluid volume
@@ -1142,7 +1142,7 @@ A normal BPP can allow conservative treatment of high-risk patients and may dela
 | Parameter           | Normal                                  |
 | ------------------- | --------------------------------------- |
 | NST                 | Reactive                                |
-| Fetal breathing     | At least 1 episode in 30 min            |
+| Fetal breathing (practice)    | At least 1 episode in 30 min            |
 | Gross body movement | At least 3 movements in 30 min          |
 | Fetal tone          | At least 1 episode of extension/flexion |
 | Amniotic fluid      | At least one adequate pocket of fluid   |
