@@ -21,7 +21,10 @@ nav_order: 1
 ## Study Tools
 
 - [Maternity Quizlets](maternity/study/quizlets.html)
-- [Practice Questions](maternity/study/practice-questions.html)
+
+## Practice Tests
+
+- [Antepartum Practice Test](maternity/antepartum-practice-test.html)
 
 ## Done already?
 
