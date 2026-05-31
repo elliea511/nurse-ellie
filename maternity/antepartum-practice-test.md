@@ -7,7 +7,7 @@ title: Antepartum Practice Test
 
 # Antepartum Practice Test
 
-These questions are for NCLEX/ATI-style antepartum review. Read each question and choose the best answer. Click **Show Answer** to check yourself.
+Read each question and choose the best answer. Click **Show Answer** to check yourself.
 
 <style>
 .answer-choices p {
