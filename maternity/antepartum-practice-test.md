@@ -1,14 +1,33 @@
 ---
-
 layout: default
 title: Antepartum Practice Test
 ---
 
-[← Back to Maternity](maternity.html)
+[← Back to Maternity](../maternity.html)
 
 # Antepartum Practice Test
 
 These questions are for NCLEX/ATI-style antepartum review. Read each question and choose the best answer. Click **Show Answer** to check yourself.
+
+<style>
+.answer-choices p {
+  margin: 0.45rem 0;
+  line-height: 1.5;
+}
+
+details {
+  margin: 1rem 0 1.5rem;
+  padding: 0.75rem 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #fafafa;
+}
+
+summary {
+  cursor: pointer;
+  font-weight: 600;
+}
+</style>
 
 ---
 
@@ -16,10 +35,12 @@ These questions are for NCLEX/ATI-style antepartum review. Read each question an
 
 A client comes to the clinic reporting nausea, breast tenderness, fatigue, and a missed period. She asks the nurse, “Does this mean I am definitely pregnant?” Which finding would provide positive confirmation of pregnancy?
 
-A. Positive pregnancy test
-B. Bluish discoloration of the cervix
-C. Fetal heartbeat heard by Doppler
-D. Breast tenderness and fatigue
+<div class="answer-choices">
+  <p><strong>A.</strong> Positive pregnancy test</p>
+  <p><strong>B.</strong> Bluish discoloration of the cervix</p>
+  <p><strong>C.</strong> Fetal heartbeat heard by Doppler</p>
+  <p><strong>D.</strong> Breast tenderness and fatigue</p>
+</div>
 
 <details>
 <summary>Show Answer</summary>
@@ -34,10 +55,12 @@ D. Breast tenderness and fatigue
 
 A client who is 30 weeks pregnant tells the nurse, “My feet and ankles are swollen by the end of the day.” The nurse recognizes that some lower-extremity edema can be expected during pregnancy. Which additional finding is most concerning?
 
-A. Mild ankle edema that improves after lying down
-B. Swelling of the hands with a persistent headache
-C. Varicose veins that worsen after prolonged standing
-D. Leg cramps relieved by dorsiflexing the foot
+<div class="answer-choices">
+  <p><strong>A.</strong> Mild ankle edema that improves after lying down</p>
+  <p><strong>B.</strong> Swelling of the hands with a persistent headache</p>
+  <p><strong>C.</strong> Varicose veins that worsen after prolonged standing</p>
+  <p><strong>D.</strong> Leg cramps relieved by dorsiflexing the foot</p>
+</div>
 
 <details>
 <summary>Show Answer</summary>
@@ -52,10 +75,12 @@ D. Leg cramps relieved by dorsiflexing the foot
 
 A pregnant client has been prescribed an oral iron supplement for anemia. The nurse is reviewing teaching about how to take the medication. Which statement by the client indicates correct understanding?
 
-A. “I should take my iron with milk to protect my stomach.”
-B. “Black stools mean I should stop taking the iron.”
-C. “I should take the iron with orange juice if I can tolerate it.”
-D. “Iron is best absorbed when taken with coffee or tea.”
+<div class="answer-choices">
+  <p><strong>A.</strong> “I should take my iron with milk to protect my stomach.”</p>
+  <p><strong>B.</strong> “Black stools mean I should stop taking the iron.”</p>
+  <p><strong>C.</strong> “I should take the iron with orange juice if I can tolerate it.”</p>
+  <p><strong>D.</strong> “Iron is best absorbed when taken with coffee or tea.”</p>
+</div>
 
 <details>
 <summary>Show Answer</summary>
@@ -70,10 +95,12 @@ D. “Iron is best absorbed when taken with coffee or tea.”
 
 A nurse is reviewing the medical record of a pregnant client who is Rh negative. The nurse is determining whether RhoGAM is indicated. Which finding would support the need for RhoGAM?
 
-A. The client is 28 weeks pregnant and has a negative antibody screen.
-B. The client is postpartum, and the newborn is Rh negative.
-C. The client’s antibody screen is positive for Rh sensitization.
-D. The client is Rh negative, and the father of the baby is Rh negative.
+<div class="answer-choices">
+  <p><strong>A.</strong> The client is 28 weeks pregnant and has a negative antibody screen.</p>
+  <p><strong>B.</strong> The client is postpartum, and the newborn is Rh negative.</p>
+  <p><strong>C.</strong> The client’s antibody screen is positive for Rh sensitization.</p>
+  <p><strong>D.</strong> The client is Rh negative, and the father of the baby is Rh negative.</p>
+</div>
 
 <details>
 <summary>Show Answer</summary>
@@ -88,10 +115,12 @@ D. The client is Rh negative, and the father of the baby is Rh negative.
 
 A client in the third trimester is undergoing a nonstress test. The nurse is reviewing the fetal heart rate tracing to determine whether the result is reactive. Which finding would the nurse identify as reactive?
 
-A. Fetal heart rate remains at baseline with no accelerations during fetal movement.
-B. Fetal heart rate accelerations occur with fetal movement during the testing period.
-C. Fetal heart rate decelerations occur after each uterine contraction.
-D. Fetal heart rate variability is absent throughout the entire tracing.
+<div class="answer-choices">
+  <p><strong>A.</strong> Fetal heart rate remains at baseline with no accelerations during fetal movement.</p>
+  <p><strong>B.</strong> Fetal heart rate accelerations occur with fetal movement during the testing period.</p>
+  <p><strong>C.</strong> Fetal heart rate decelerations occur after each uterine contraction.</p>
+  <p><strong>D.</strong> Fetal heart rate variability is absent throughout the entire tracing.</p>
+</div>
 
 <details>
 <summary>Show Answer</summary>
@@ -106,10 +135,12 @@ D. Fetal heart rate variability is absent throughout the entire tracing.
 
 A pregnant client reports feeling dizzy and lightheaded when lying flat during an ultrasound. The nurse explains that the enlarged uterus can compress the vena cava and decrease venous return. Which statement by the client indicates correct understanding of the teaching?
 
-A. “I should lie flat on my back if I feel dizzy.”
-B. “This happens because pregnancy causes my blood pressure to stay high.”
-C. “I should avoid lying on my side because it decreases blood flow.”
-D. “I should lie on my side, preferably my left side, if I feel lightheaded.”
+<div class="answer-choices">
+  <p><strong>A.</strong> “I should lie flat on my back if I feel dizzy.”</p>
+  <p><strong>B.</strong> “This happens because pregnancy causes my blood pressure to stay high.”</p>
+  <p><strong>C.</strong> “I should avoid lying on my side because it decreases blood flow.”</p>
+  <p><strong>D.</strong> “I should lie on my side, preferably my left side, if I feel lightheaded.”</p>
+</div>
 
 <details>
 <summary>Show Answer</summary>
@@ -124,10 +155,12 @@ D. “I should lie on my side, preferably my left side, if I feel lightheaded.�
 
 A client is 24 weeks pregnant and is being seen for a routine prenatal visit. The nurse reviews the assessment findings and determines that one finding requires follow-up. Which finding should the nurse report?
 
-A. Fundal height measuring 18 cm
-B. Fetal heart rate of 112/min
-C. Report of increased urinary frequency without burning
-D. Mild shortness of breath with activity
+<div class="answer-choices">
+  <p><strong>A.</strong> Fundal height measuring 18 cm</p>
+  <p><strong>B.</strong> Fetal heart rate of 112/min</p>
+  <p><strong>C.</strong> Report of increased urinary frequency without burning</p>
+  <p><strong>D.</strong> Mild shortness of breath with activity</p>
+</div>
 
 <details>
 <summary>Show Answer</summary>
@@ -142,10 +175,12 @@ D. Mild shortness of breath with activity
 
 A client in the third trimester calls the clinic and says, “The baby is not moving as much today.” Which instruction should the nurse give first?
 
-A. “Wait until your next prenatal appointment to discuss it.”
-B. “Drink something cold, eat if you have not eaten, and lie on your side.”
-C. “Begin walking for 30 minutes to stimulate fetal movement.”
-D. “Avoid food and fluids until you are evaluated.”
+<div class="answer-choices">
+  <p><strong>A.</strong> “Wait until your next prenatal appointment to discuss it.”</p>
+  <p><strong>B.</strong> “Drink something cold, eat if you have not eaten, and lie on your side.”</p>
+  <p><strong>C.</strong> “Begin walking for 30 minutes to stimulate fetal movement.”</p>
+  <p><strong>D.</strong> “Avoid food and fluids until you are evaluated.”</p>
+</div>
 
 <details>
 <summary>Show Answer</summary>
@@ -160,10 +195,12 @@ D. “Avoid food and fluids until you are evaluated.”
 
 A nurse is teaching a pregnant client about ways to manage common discomforts of pregnancy. Which client statement indicates a need for further teaching?
 
-A. “I can eat small, frequent meals to help with heartburn.”
-B. “I should use saline drops for nasal stuffiness.”
-C. “I can use laxatives or enemas if I am constipated.”
-D. “I can dorsiflex my foot if I have a leg cramp.”
+<div class="answer-choices">
+  <p><strong>A.</strong> “I can eat small, frequent meals to help with heartburn.”</p>
+  <p><strong>B.</strong> “I should use saline drops for nasal stuffiness.”</p>
+  <p><strong>C.</strong> “I can use laxatives or enemas if I am constipated.”</p>
+  <p><strong>D.</strong> “I can dorsiflex my foot if I have a leg cramp.”</p>
+</div>
 
 <details>
 <summary>Show Answer</summary>
@@ -178,10 +215,12 @@ D. “I can dorsiflex my foot if I have a leg cramp.”
 
 A pregnant client reports increased vaginal discharge. The nurse explains that leukorrhea can be an expected finding during pregnancy. Which finding would be most important for the nurse to report?
 
-A. White discharge without itching
-B. Thin discharge that has been present for several weeks
-C. Discharge with vulvar burning and irritation
-D. Increased discharge without abdominal pain
+<div class="answer-choices">
+  <p><strong>A.</strong> White discharge without itching</p>
+  <p><strong>B.</strong> Thin discharge that has been present for several weeks</p>
+  <p><strong>C.</strong> Discharge with vulvar burning and irritation</p>
+  <p><strong>D.</strong> Increased discharge without abdominal pain</p>
+</div>
 
 <details>
 <summary>Show Answer</summary>
@@ -196,10 +235,12 @@ D. Increased discharge without abdominal pain
 
 A pregnant client states, “I know I need to eat for two now.” Which response by the nurse provides the best teaching about calorie needs during pregnancy?
 
-A. “You should increase your intake by about 300 calories per day during pregnancy.”
-B. “You should double your usual food intake because you are eating for two.”
-C. “You should avoid gaining weight during the first trimester.”
-D. “You should gain about 5 pounds per week after the first trimester.”
+<div class="answer-choices">
+  <p><strong>A.</strong> “You should increase your intake by about 300 calories per day during pregnancy.”</p>
+  <p><strong>B.</strong> “You should double your usual food intake because you are eating for two.”</p>
+  <p><strong>C.</strong> “You should avoid gaining weight during the first trimester.”</p>
+  <p><strong>D.</strong> “You should gain about 5 pounds per week after the first trimester.”</p>
+</div>
 
 <details>
 <summary>Show Answer</summary>
@@ -214,10 +255,12 @@ D. “You should gain about 5 pounds per week after the first trimester.”
 
 A client’s prenatal screening shows an elevated maternal serum alpha-fetoprotein level. The client asks the nurse what this means. Which response by the nurse is most appropriate?
 
-A. “This confirms the fetus has a chromosomal abnormality.”
-B. “This result is expected and does not require follow-up.”
-C. “This means fetal lung maturity has been reached.”
-D. “This screening result may require follow-up testing.”
+<div class="answer-choices">
+  <p><strong>A.</strong> “This confirms the fetus has a chromosomal abnormality.”</p>
+  <p><strong>B.</strong> “This result is expected and does not require follow-up.”</p>
+  <p><strong>C.</strong> “This means fetal lung maturity has been reached.”</p>
+  <p><strong>D.</strong> “This screening result may require follow-up testing.”</p>
+</div>
 
 <details>
 <summary>Show Answer</summary>
@@ -232,10 +275,12 @@ D. “This screening result may require follow-up testing.”
 
 A nurse is preparing a client for an amniocentesis. The procedure has been explained by the provider, and the nurse is reviewing the plan of care. Which action should the nurse take before the procedure?
 
-A. Teach the client to report fever, leaking fluid, or contractions.
-B. Verify that informed consent has been obtained.
-C. Monitor the client for vaginal bleeding and uterine cramping.
-D. Assess the client for leaking amniotic fluid.
+<div class="answer-choices">
+  <p><strong>A.</strong> Teach the client to report fever, leaking fluid, or contractions.</p>
+  <p><strong>B.</strong> Verify that informed consent has been obtained.</p>
+  <p><strong>C.</strong> Monitor the client for vaginal bleeding and uterine cramping.</p>
+  <p><strong>D.</strong> Assess the client for leaking amniotic fluid.</p>
+</div>
 
 <details>
 <summary>Show Answer</summary>
@@ -250,10 +295,12 @@ D. Assess the client for leaking amniotic fluid.
 
 During a prenatal nutrition assessment, a client tells the nurse, “I have been craving and eating ice all day.” Which action should the nurse take?
 
-A. Report the finding because it may be associated with nutritional deficiency.
-B. Reassure the client that ice cravings are expected during pregnancy.
-C. Teach the client that pica only refers to eating dirt or clay.
-D. Tell the client to stop taking prenatal vitamins until evaluated.
+<div class="answer-choices">
+  <p><strong>A.</strong> Report the finding because it may be associated with nutritional deficiency.</p>
+  <p><strong>B.</strong> Reassure the client that ice cravings are expected during pregnancy.</p>
+  <p><strong>C.</strong> Teach the client that pica only refers to eating dirt or clay.</p>
+  <p><strong>D.</strong> Tell the client to stop taking prenatal vitamins until evaluated.</p>
+</div>
 
 <details>
 <summary>Show Answer</summary>
@@ -268,10 +315,12 @@ D. Tell the client to stop taking prenatal vitamins until evaluated.
 
 A client asks about chorionic villus sampling because she wants earlier genetic testing. Which statement should the nurse include in the teaching?
 
-A. “This test is usually performed in the third trimester.”
-B. “This test is used mainly to determine fetal lung maturity.”
-C. “This test does not require follow-up for Rh-negative clients.”
-D. “This test samples placental tissue and can be performed earlier than amniocentesis.”
+<div class="answer-choices">
+  <p><strong>A.</strong> “This test is usually performed in the third trimester.”</p>
+  <p><strong>B.</strong> “This test is used mainly to determine fetal lung maturity.”</p>
+  <p><strong>C.</strong> “This test does not require follow-up for Rh-negative clients.”</p>
+  <p><strong>D.</strong> “This test samples placental tissue and can be performed earlier than amniocentesis.”</p>
+</div>
 
 <details>
 <summary>Show Answer</summary>
@@ -279,17 +328,16 @@ D. “This test samples placental tissue and can be performed earlier than amnio
 **Answer: D**
 
 </details>
-
----
-
 ### Question 16
 
 A nurse is teaching a pregnant client about symptoms that should be reported immediately. Which statement by the client indicates correct understanding?
 
-A. “I should report swelling in my face or hands.”
-B. “I should report mild ankle swelling that improves with rest.”
-C. “I should report occasional nausea during early pregnancy.”
-D. “I should report increased urinary frequency in the first trimester.”
+<div class="answer-choices">
+  <p><strong>A.</strong> “I should report swelling in my face or hands.”</p>
+  <p><strong>B.</strong> “I should report mild ankle swelling that improves with rest.”</p>
+  <p><strong>C.</strong> “I should report occasional nausea during early pregnancy.”</p>
+  <p><strong>D.</strong> “I should report increased urinary frequency in the first trimester.”</p>
+</div>
 
 <details>
 <summary>Show Answer</summary>
@@ -304,10 +352,12 @@ D. “I should report increased urinary frequency in the first trimester.”
 
 At the initial prenatal visit, the nurse reviews the client’s laboratory results before providing teaching about Rh incompatibility. Which result is most important for the nurse to check?
 
-A. Rubella nonimmune status
-B. Rh-negative blood type
-C. Low hemoglobin and hematocrit
-D. Positive group B streptococcus screen
+<div class="answer-choices">
+  <p><strong>A.</strong> Rubella nonimmune status</p>
+  <p><strong>B.</strong> Rh-negative blood type</p>
+  <p><strong>C.</strong> Low hemoglobin and hematocrit</p>
+  <p><strong>D.</strong> Positive group B streptococcus screen</p>
+</div>
 
 <details>
 <summary>Show Answer</summary>
@@ -322,10 +372,12 @@ D. Positive group B streptococcus screen
 
 A pregnant client reports constipation during a routine prenatal visit. The nurse reinforces teaching about safe ways to improve bowel regularity. Which statement by the client indicates correct understanding?
 
-A. “I should increase fiber and fluids in my diet.”
-B. “I should reduce walking until my bowel pattern returns to normal.”
-C. “I should limit fluids so I do not urinate as often.”
-D. “I should use an enema as my first treatment when I feel constipated.”
+<div class="answer-choices">
+  <p><strong>A.</strong> “I should increase fiber and fluids in my diet.”</p>
+  <p><strong>B.</strong> “I should reduce walking until my bowel pattern returns to normal.”</p>
+  <p><strong>C.</strong> “I should limit fluids so I do not urinate as often.”</p>
+  <p><strong>D.</strong> “I should use an enema as my first treatment when I feel constipated.”</p>
+</div>
 
 <details>
 <summary>Show Answer</summary>
@@ -340,10 +392,12 @@ D. “I should use an enema as my first treatment when I feel constipated.”
 
 A client who is 11 weeks pregnant is scheduled for an abdominal ultrasound. The client asks why she was told to drink fluids before the test. Which response by the nurse is most appropriate?
 
-A. “Emptying your bladder improves fetal movement during the ultrasound.”
-B. “A full bladder may help improve visualization early in pregnancy.”
-C. “Fluids are needed to determine fetal lung maturity.”
-D. “Drinking fluids helps prevent contractions during the test.”
+<div class="answer-choices">
+  <p><strong>A.</strong> “Emptying your bladder improves fetal movement during the ultrasound.”</p>
+  <p><strong>B.</strong> “A full bladder may help improve visualization early in pregnancy.”</p>
+  <p><strong>C.</strong> “Fluids are needed to determine fetal lung maturity.”</p>
+  <p><strong>D.</strong> “Drinking fluids helps prevent contractions during the test.”</p>
+</div>
 
 <details>
 <summary>Show Answer</summary>
@@ -358,10 +412,12 @@ D. “Drinking fluids helps prevent contractions during the test.”
 
 A nurse is documenting a client’s pregnancy history using GTPAL. The client is currently pregnant. She has one child born at 39 weeks, twins born at 35 weeks, one stillborn infant born at 38 weeks, and one miscarriage at 10 weeks. How should the nurse document the client’s GTPAL?
 
-A. G5 T2 P1 A1 L3
-B. G5 T1 P2 A1 L3
-C. G6 T2 P1 A1 L3
-D. G5 T2 P1 A1 L4
+<div class="answer-choices">
+  <p><strong>A.</strong> G5 T2 P1 A1 L3</p>
+  <p><strong>B.</strong> G5 T1 P2 A1 L3</p>
+  <p><strong>C.</strong> G6 T2 P1 A1 L3</p>
+  <p><strong>D.</strong> G5 T2 P1 A1 L4</p>
+</div>
 
 <details>
 <summary>Show Answer</summary>
@@ -376,10 +432,12 @@ D. G5 T2 P1 A1 L4
 
 A client in the first trimester tells the nurse, “Sometimes I feel excited about the pregnancy, but other times I feel unsure and overwhelmed.” Which response by the nurse is most appropriate?
 
-A. “Ambivalent feelings can be normal during the first trimester.”
-B. “These feelings mean you are not adapting well to the pregnancy.”
-C. “This usually occurs only during the third trimester.”
-D. “You should begin childbirth classes immediately.”
+<div class="answer-choices">
+  <p><strong>A.</strong> “Ambivalent feelings can be normal during the first trimester.”</p>
+  <p><strong>B.</strong> “These feelings mean you are not adapting well to the pregnancy.”</p>
+  <p><strong>C.</strong> “This usually occurs only during the third trimester.”</p>
+  <p><strong>D.</strong> “You should begin childbirth classes immediately.”</p>
+</div>
 
 <details>
 <summary>Show Answer</summary>
@@ -394,10 +452,12 @@ D. “You should begin childbirth classes immediately.”
 
 A client is scheduled for a nonstress test because the provider wants to assess fetal well-being. Which explanation should the nurse give about the purpose of this test?
 
-A. It evaluates fetal heart rate response to fetal movement.
-B. It measures fetal lung maturity using amniotic fluid.
-C. It determines whether the cervix is dilating in response to contractions.
-D. It confirms fetal genetic abnormalities by testing placental tissue.
+<div class="answer-choices">
+  <p><strong>A.</strong> It evaluates fetal heart rate response to fetal movement.</p>
+  <p><strong>B.</strong> It measures fetal lung maturity using amniotic fluid.</p>
+  <p><strong>C.</strong> It determines whether the cervix is dilating in response to contractions.</p>
+  <p><strong>D.</strong> It confirms fetal genetic abnormalities by testing placental tissue.</p>
+</div>
 
 <details>
 <summary>Show Answer</summary>
@@ -412,10 +472,12 @@ D. It confirms fetal genetic abnormalities by testing placental tissue.
 
 A pregnant client asks why her provider is not ordering routine cholesterol and lipid testing during pregnancy. Which response by the nurse is most appropriate?
 
-A. “Lipid levels are often falsely elevated during pregnancy.”
-B. “Lipid testing is avoided because it can stimulate uterine contractions.”
-C. “Cholesterol levels are usually lower during pregnancy due to increased blood volume.”
-D. “Lipid testing is only accurate after fetal lung maturity has been confirmed.”
+<div class="answer-choices">
+  <p><strong>A.</strong> “Lipid levels are often falsely elevated during pregnancy.”</p>
+  <p><strong>B.</strong> “Lipid testing is avoided because it can stimulate uterine contractions.”</p>
+  <p><strong>C.</strong> “Cholesterol levels are usually lower during pregnancy due to increased blood volume.”</p>
+  <p><strong>D.</strong> “Lipid testing is only accurate after fetal lung maturity has been confirmed.”</p>
+</div>
 
 <details>
 <summary>Show Answer</summary>
@@ -430,10 +492,12 @@ D. “Lipid testing is only accurate after fetal lung maturity has been confirme
 
 A pregnant client has a history of varicose veins and reports aching in her legs after standing at work. Which instruction should the nurse include to help reduce complications?
 
-A. “Avoid wearing support hose because they can decrease circulation.”
-B. “Apply heat to the legs at the end of the day to prevent clotting.”
-C. “Use TED hose as prescribed and avoid standing in one position for long periods.”
-D. “Cross your legs while sitting to reduce swelling in the lower extremities.”
+<div class="answer-choices">
+  <p><strong>A.</strong> “Avoid wearing support hose because they can decrease circulation.”</p>
+  <p><strong>B.</strong> “Apply heat to the legs at the end of the day to prevent clotting.”</p>
+  <p><strong>C.</strong> “Use TED hose as prescribed and avoid standing in one position for long periods.”</p>
+  <p><strong>D.</strong> “Cross your legs while sitting to reduce swelling in the lower extremities.”</p>
+</div>
 
 <details>
 <summary>Show Answer</summary>
@@ -448,10 +512,12 @@ D. “Cross your legs while sitting to reduce swelling in the lower extremities.
 
 The nurse needs a clean-catch urine specimen from a pregnant client during a prenatal visit. Which instruction should the nurse give?
 
-A. “Begin urinating into the cup as soon as the urine stream starts.”
-B. “Clean from back to front before collecting the specimen.”
-C. “Touch the inside of the lid only if your hands are clean.”
-D. “Start urinating first, then place the cup into the urine stream.”
+<div class="answer-choices">
+  <p><strong>A.</strong> “Begin urinating into the cup as soon as the urine stream starts.”</p>
+  <p><strong>B.</strong> “Clean from back to front before collecting the specimen.”</p>
+  <p><strong>C.</strong> “Touch the inside of the lid only if your hands are clean.”</p>
+  <p><strong>D.</strong> “Start urinating first, then place the cup into the urine stream.”</p>
+</div>
 
 <details>
 <summary>Show Answer</summary>
@@ -466,10 +532,12 @@ D. “Start urinating first, then place the cup into the urine stream.”
 
 A pregnant client reports urinary frequency and asks why the nurse keeps encouraging her to empty her bladder often. Which response by the nurse is most appropriate?
 
-A. “Holding urine helps strengthen the bladder during pregnancy.”
-B. “Urinary frequency usually means you should restrict fluids.”
-C. “Frequent emptying helps prevent urine from backing up toward the kidneys.”
-D. “Emptying your bladder often prevents fetal movement from decreasing.”
+<div class="answer-choices">
+  <p><strong>A.</strong> “Holding urine helps strengthen the bladder during pregnancy.”</p>
+  <p><strong>B.</strong> “Urinary frequency usually means you should restrict fluids.”</p>
+  <p><strong>C.</strong> “Frequent emptying helps prevent urine from backing up toward the kidneys.”</p>
+  <p><strong>D.</strong> “Emptying your bladder often prevents fetal movement from decreasing.”</p>
+</div>
 
 <details>
 <summary>Show Answer</summary>
@@ -484,10 +552,12 @@ D. “Emptying your bladder often prevents fetal movement from decreasing.”
 
 A pregnant client reports nasal stuffiness and asks what she can safely use at home. Which statement by the client indicates correct understanding of teaching?
 
-A. “Nasal stuffiness usually means I have an infection.”
-B. “I should take over-the-counter decongestants daily until delivery.”
-C. “I should use a heated humidifier at night to open my nasal passages.”
-D. “I can use saline drops and a cool mist humidifier for congestion.”
+<div class="answer-choices">
+  <p><strong>A.</strong> “Nasal stuffiness usually means I have an infection.”</p>
+  <p><strong>B.</strong> “I should take over-the-counter decongestants daily until delivery.”</p>
+  <p><strong>C.</strong> “I should use a heated humidifier at night to open my nasal passages.”</p>
+  <p><strong>D.</strong> “I can use saline drops and a cool mist humidifier for congestion.”</p>
+</div>
 
 <details>
 <summary>Show Answer</summary>
@@ -502,10 +572,12 @@ D. “I can use saline drops and a cool mist humidifier for congestion.”
 
 A pregnant client reports numbness and tingling in her fingers, especially after a long day. The nurse recognizes this may be related to fluid retention during pregnancy. Which pregnancy-related change contributes to this finding?
 
-A. Sodium retention and edema
-B. Decreased clotting factors
-C. Low estrogen levels
-D. Decreased circulating blood volume
+<div class="answer-choices">
+  <p><strong>A.</strong> Sodium retention and edema</p>
+  <p><strong>B.</strong> Decreased clotting factors</p>
+  <p><strong>C.</strong> Low estrogen levels</p>
+  <p><strong>D.</strong> Decreased circulating blood volume</p>
+</div>
 
 <details>
 <summary>Show Answer</summary>
@@ -520,10 +592,12 @@ D. Decreased circulating blood volume
 
 A pregnant client is prescribed liquid iron. The nurse is teaching the client how to take the medication safely. Which instruction should the nurse include?
 
-A. “Stop taking the iron if your stool turns black.”
-B. “Use a straw and rinse your mouth after taking it.”
-C. “Mix the iron with milk to improve absorption.”
-D. “Take the iron with tea if it causes nausea.”
+<div class="answer-choices">
+  <p><strong>A.</strong> “Stop taking the iron if your stool turns black.”</p>
+  <p><strong>B.</strong> “Use a straw and rinse your mouth after taking it.”</p>
+  <p><strong>C.</strong> “Mix the iron with milk to improve absorption.”</p>
+  <p><strong>D.</strong> “Take the iron with tea if it causes nausea.”</p>
+</div>
 
 <details>
 <summary>Show Answer</summary>
@@ -538,10 +612,12 @@ D. “Take the iron with tea if it causes nausea.”
 
 A pregnant client who works at a desk job reports lower-extremity swelling by the end of the workday. Which instruction should the nurse include?
 
-A. “Limit water intake while you are at work.”
-B. “Wear tight socks around the ankles to control swelling.”
-C. “Use a footstool and avoid sitting in one position too long.”
-D. “Sit with your legs crossed to reduce venous pooling.”
+<div class="answer-choices">
+  <p><strong>A.</strong> “Limit water intake while you are at work.”</p>
+  <p><strong>B.</strong> “Wear tight socks around the ankles to control swelling.”</p>
+  <p><strong>C.</strong> “Use a footstool and avoid sitting in one position too long.”</p>
+  <p><strong>D.</strong> “Sit with your legs crossed to reduce venous pooling.”</p>
+</div>
 
 <details>
 <summary>Show Answer</summary>
@@ -550,16 +626,16 @@ D. “Sit with your legs crossed to reduce venous pooling.”
 
 </details>
 
----
-
 ### Question 31
 
 A nurse is reviewing cardiovascular changes of pregnancy with a client. The client asks why pregnancy increases the risk for blood clots. Which response by the nurse is most appropriate?
 
-A. “Blood pressure normally rises steadily throughout pregnancy.”
-B. “Clotting factors increase, which can raise the risk for blood clots.”
-C. “Circulating blood volume decreases near the end of pregnancy.”
-D. “Pregnancy usually lowers the workload of the heart.”
+<div class="answer-choices">
+  <p><strong>A.</strong> “Blood pressure normally rises steadily throughout pregnancy.”</p>
+  <p><strong>B.</strong> “Clotting factors increase, which can raise the risk for blood clots.”</p>
+  <p><strong>C.</strong> “Circulating blood volume decreases near the end of pregnancy.”</p>
+  <p><strong>D.</strong> “Pregnancy usually lowers the workload of the heart.”</p>
+</div>
 
 <details>
 <summary>Show Answer</summary>
@@ -574,10 +650,12 @@ D. “Pregnancy usually lowers the workload of the heart.”
 
 A pregnant client reports right upper abdominal discomfort after eating a high-fat meal. The nurse is reviewing why gallbladder symptoms may occur during pregnancy. Which explanation is most appropriate?
 
-A. “Pregnancy can slow gallbladder emptying and change bile flow.”
-B. “Gallstone attacks are caused by low estrogen levels during pregnancy.”
-C. “Gallstones occur because pregnancy decreases circulating lipids.”
-D. “Gallbladder symptoms are expected and do not need to be reported.”
+<div class="answer-choices">
+  <p><strong>A.</strong> “Pregnancy can slow gallbladder emptying and change bile flow.”</p>
+  <p><strong>B.</strong> “Gallstone attacks are caused by low estrogen levels during pregnancy.”</p>
+  <p><strong>C.</strong> “Gallstones occur because pregnancy decreases circulating lipids.”</p>
+  <p><strong>D.</strong> “Gallbladder symptoms are expected and do not need to be reported.”</p>
+</div>
 
 <details>
 <summary>Show Answer</summary>
@@ -592,10 +670,12 @@ D. “Gallbladder symptoms are expected and do not need to be reported.”
 
 A nurse is assessing skin changes during a prenatal visit. Which finding is consistent with expected integumentary changes of pregnancy?
 
-A. Darkened line extending from the umbilicus toward the pubis
-B. Sudden swelling around the eyes with visual changes
-C. New bruising with bleeding gums and petechiae
-D. Yellowing of the skin with severe itching
+<div class="answer-choices">
+  <p><strong>A.</strong> Darkened line extending from the umbilicus toward the pubis</p>
+  <p><strong>B.</strong> Sudden swelling around the eyes with visual changes</p>
+  <p><strong>C.</strong> New bruising with bleeding gums and petechiae</p>
+  <p><strong>D.</strong> Yellowing of the skin with severe itching</p>
+</div>
 
 <details>
 <summary>Show Answer</summary>
@@ -610,10 +690,12 @@ D. Yellowing of the skin with severe itching
 
 A client at her first prenatal visit asks why the provider documented “Goodell’s sign” in the chart. The nurse explains that this is an expected pregnancy-related cervical change. Which explanation should the nurse give?
 
-A. “It refers to bluish-purple discoloration of the cervix and vagina.”
-B. “It refers to softening of the cervix.”
-C. “It refers to irregular contractions that do not cause cervical change.”
-D. “It refers to softening of the lower uterine segment.”
+<div class="answer-choices">
+  <p><strong>A.</strong> “It refers to bluish-purple discoloration of the cervix and vagina.”</p>
+  <p><strong>B.</strong> “It refers to softening of the cervix.”</p>
+  <p><strong>C.</strong> “It refers to irregular contractions that do not cause cervical change.”</p>
+  <p><strong>D.</strong> “It refers to softening of the lower uterine segment.”</p>
+</div>
 
 <details>
 <summary>Show Answer</summary>
@@ -628,10 +710,12 @@ D. “It refers to softening of the lower uterine segment.”
 
 During a prenatal visit, the provider documents “Chadwick’s sign.” The client asks the nurse what this means. Which explanation should the nurse give?
 
-A. “It refers to ballottement of the fetus during examination.”
-B. “It refers to softening of the lower uterine segment.”
-C. “It refers to bluish-purple discoloration of the cervix and vagina.”
-D. “It refers to softening of the cervix.”
+<div class="answer-choices">
+  <p><strong>A.</strong> “It refers to ballottement of the fetus during examination.”</p>
+  <p><strong>B.</strong> “It refers to softening of the lower uterine segment.”</p>
+  <p><strong>C.</strong> “It refers to bluish-purple discoloration of the cervix and vagina.”</p>
+  <p><strong>D.</strong> “It refers to softening of the cervix.”</p>
+</div>
 
 <details>
 <summary>Show Answer</summary>
@@ -646,10 +730,12 @@ D. “It refers to softening of the cervix.”
 
 A client’s last menstrual period began on July 18, 2026. The nurse uses Naegele’s rule to estimate the date of delivery. Which date should the nurse calculate?
 
-A. March 25, 2027
-B. April 11, 2027
-C. April 25, 2027
-D. May 18, 2027
+<div class="answer-choices">
+  <p><strong>A.</strong> March 25, 2027</p>
+  <p><strong>B.</strong> April 11, 2027</p>
+  <p><strong>C.</strong> April 25, 2027</p>
+  <p><strong>D.</strong> May 18, 2027</p>
+</div>
 
 <details>
 <summary>Show Answer</summary>
@@ -664,10 +750,12 @@ D. May 18, 2027
 
 A pregnant client calls the clinic and says, “I think my water broke, but I’m not sure if it is urine or discharge.” Which finding is most consistent with rupture of membranes?
 
-A. Thick white discharge that increases throughout the day
-B. Clear fluid leaking from the vagina that continues after changing position
-C. Urinary leakage that occurs only when coughing or laughing
-D. Mucus-like vaginal discharge with no continued leaking
+<div class="answer-choices">
+  <p><strong>A.</strong> Thick white discharge that increases throughout the day</p>
+  <p><strong>B.</strong> Clear fluid leaking from the vagina that continues after changing position</p>
+  <p><strong>C.</strong> Urinary leakage that occurs only when coughing or laughing</p>
+  <p><strong>D.</strong> Mucus-like vaginal discharge with no continued leaking</p>
+</div>
 
 <details>
 <summary>Show Answer</summary>
@@ -682,10 +770,12 @@ D. Mucus-like vaginal discharge with no continued leaking
 
 A client may need delivery before 38 weeks, and an amniocentesis is performed to evaluate fetal lung maturity. Which result would best support fetal lung maturity?
 
-A. Lecithin/sphingomyelin ratio of 2:1
-B. Low maternal serum alpha-fetoprotein level
-C. Reactive nonstress test with fetal movement
-D. Normal amniotic fluid index on ultrasound
+<div class="answer-choices">
+  <p><strong>A.</strong> Lecithin/sphingomyelin ratio of 2:1</p>
+  <p><strong>B.</strong> Low maternal serum alpha-fetoprotein level</p>
+  <p><strong>C.</strong> Reactive nonstress test with fetal movement</p>
+  <p><strong>D.</strong> Normal amniotic fluid index on ultrasound</p>
+</div>
 
 <details>
 <summary>Show Answer</summary>
@@ -700,10 +790,12 @@ D. Normal amniotic fluid index on ultrasound
 
 A pregnant client has a history of alcohol use disorder. The nurse is providing nutrition teaching and emphasizes the importance of a nutrient that helps prevent neural tube defects. Which nutrient should the nurse discuss?
 
-A. Vitamin K
-B. Folic acid
-C. Calcium
-D. Sodium
+<div class="answer-choices">
+  <p><strong>A.</strong> Vitamin K</p>
+  <p><strong>B.</strong> Folic acid</p>
+  <p><strong>C.</strong> Calcium</p>
+  <p><strong>D.</strong> Sodium</p>
+</div>
 
 <details>
 <summary>Show Answer</summary>
@@ -718,10 +810,12 @@ D. Sodium
 
 A pregnant client is learning how to monitor fetal movement at home. The client says, “Sometimes I am busy and do not notice the baby moving.” Which statement should the nurse include?
 
-A. “Kick counts are objective because all clients feel fetal movement the same way.”
-B. “A fetus is usually most active while the mother is walking or moving.”
-C. “Fetal movement counting should replace provider evaluation if movement decreases.”
-D. “Some fetal sleep periods are normal, but decreased movement should still be taken seriously.”
+<div class="answer-choices">
+  <p><strong>A.</strong> “Kick counts are objective because all clients feel fetal movement the same way.”</p>
+  <p><strong>B.</strong> “A fetus is usually most active while the mother is walking or moving.”</p>
+  <p><strong>C.</strong> “Fetal movement counting should replace provider evaluation if movement decreases.”</p>
+  <p><strong>D.</strong> “Some fetal sleep periods are normal, but decreased movement should still be taken seriously.”</p>
+</div>
 
 <details>
 <summary>Show Answer</summary>
@@ -736,10 +830,12 @@ D. “Some fetal sleep periods are normal, but decreased movement should still b
 
 A nurse is caring for a pregnant client from an Arab cultural background who states that she does not want a male provider to perform her examination. Which response by the nurse is most appropriate?
 
-A. “Male providers are part of the healthcare team, so the exam must continue.”
-B. “I will document your preference and try to arrange care with a female provider.”
-C. “This exam is required, so cultural preferences cannot be considered right now.”
-D. “You can refuse the exam, but we will not be able to continue prenatal care.”
+<div class="answer-choices">
+  <p><strong>A.</strong> “Male providers are part of the healthcare team, so the exam must continue.”</p>
+  <p><strong>B.</strong> “I will document your preference and try to arrange care with a female provider.”</p>
+  <p><strong>C.</strong> “This exam is required, so cultural preferences cannot be considered right now.”</p>
+  <p><strong>D.</strong> “You can refuse the exam, but we will not be able to continue prenatal care.”</p>
+</div>
 
 <details>
 <summary>Show Answer</summary>
@@ -754,10 +850,12 @@ D. “You can refuse the exam, but we will not be able to continue prenatal care
 
 During a prenatal visit, a nurse notices that a client has bruises in different stages of healing. The client avoids eye contact and gives vague explanations about how the injuries occurred. Which concern should the nurse consider first?
 
-A. Expected skin changes of pregnancy
-B. Iron deficiency anemia
-C. Intimate partner violence
-D. Normal ambivalence about pregnancy
+<div class="answer-choices">
+  <p><strong>A.</strong> Expected skin changes of pregnancy</p>
+  <p><strong>B.</strong> Iron deficiency anemia</p>
+  <p><strong>C.</strong> Intimate partner violence</p>
+  <p><strong>D.</strong> Normal ambivalence about pregnancy</p>
+</div>
 
 <details>
 <summary>Show Answer</summary>
@@ -772,10 +870,12 @@ D. Normal ambivalence about pregnancy
 
 A pregnant client has a history of intimate partner violence. The nurse is reviewing safety concerns during pregnancy. Which statement should the nurse include?
 
-A. “Abuse often improves once pregnancy is confirmed.”
-B. “Pregnancy can increase the risk or severity of abuse.”
-C. “Abuse during pregnancy is usually emotional rather than physical.”
-D. “Screening for abuse is only needed if the client brings it up first.”
+<div class="answer-choices">
+  <p><strong>A.</strong> “Abuse often improves once pregnancy is confirmed.”</p>
+  <p><strong>B.</strong> “Pregnancy can increase the risk or severity of abuse.”</p>
+  <p><strong>C.</strong> “Abuse during pregnancy is usually emotional rather than physical.”</p>
+  <p><strong>D.</strong> “Screening for abuse is only needed if the client brings it up first.”</p>
+</div>
 
 <details>
 <summary>Show Answer</summary>
@@ -790,10 +890,12 @@ D. “Screening for abuse is only needed if the client brings it up first.”
 
 A nurse is caring for a pregnant client who has a history of female genital mutilation. Which concern is most important for the nurse to anticipate during labor and birth?
 
-A. Increased risk for difficulty with vaginal stretching during birth
-B. Decreased need for emotional support during labor
-C. Inability to perform fetal heart rate monitoring
-D. Decreased risk for perineal trauma during delivery
+<div class="answer-choices">
+  <p><strong>A.</strong> Increased risk for difficulty with vaginal stretching during birth</p>
+  <p><strong>B.</strong> Decreased need for emotional support during labor</p>
+  <p><strong>C.</strong> Inability to perform fetal heart rate monitoring</p>
+  <p><strong>D.</strong> Decreased risk for perineal trauma during delivery</p>
+</div>
 
 <details>
 <summary>Show Answer</summary>
@@ -808,10 +910,12 @@ D. Decreased risk for perineal trauma during delivery
 
 A client’s last menstrual period began on November 9, 2026. The nurse uses Naegele’s rule to calculate the estimated date of delivery. Which date should the nurse calculate?
 
-A. July 16, 2027
-B. August 16, 2027
-C. August 2, 2027
-D. September 9, 2027
+<div class="answer-choices">
+  <p><strong>A.</strong> July 16, 2027</p>
+  <p><strong>B.</strong> August 16, 2027</p>
+  <p><strong>C.</strong> August 2, 2027</p>
+  <p><strong>D.</strong> September 9, 2027</p>
+</div>
 
 <details>
 <summary>Show Answer</summary>
