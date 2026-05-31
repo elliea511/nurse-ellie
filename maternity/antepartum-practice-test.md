@@ -7,7 +7,7 @@ title: Antepartum Practice Test
 
 # Antepartum Practice Test
 
-Read each question and choose the best answer. Click **Show Answer** to check yourself.
+These questions are for NCLEX/ATI-style antepartum review. Read each question and choose the best answer. Click **Show Answer** to check yourself.
 
 <style>
 .answer-choices p {
@@ -45,7 +45,7 @@ A client comes to the clinic reporting nausea, breast tenderness, fatigue, and a
 <details>
 <summary>Show Answer</summary>
 
-**Answer: C**
+<p>Answer: C</p>
 
 </details>
 
@@ -65,7 +65,7 @@ A client who is 30 weeks pregnant tells the nurse, “My feet and ankles are swo
 <details>
 <summary>Show Answer</summary>
 
-**Answer: B**
+<p>Answer: B</p>
 
 </details>
 
@@ -85,7 +85,7 @@ A pregnant client has been prescribed an oral iron supplement for anemia. The nu
 <details>
 <summary>Show Answer</summary>
 
-**Answer: C**
+<p>Answer: C</p>
 
 </details>
 
@@ -105,7 +105,7 @@ A nurse is reviewing the medical record of a pregnant client who is Rh negative.
 <details>
 <summary>Show Answer</summary>
 
-**Answer: A**
+<p>Answer: A</p>
 
 </details>
 
@@ -125,7 +125,7 @@ A client in the third trimester is undergoing a nonstress test. The nurse is rev
 <details>
 <summary>Show Answer</summary>
 
-**Answer: B**
+<p>Answer: B</p>
 
 </details>
 
@@ -145,7 +145,7 @@ A pregnant client reports feeling dizzy and lightheaded when lying flat during a
 <details>
 <summary>Show Answer</summary>
 
-**Answer: D**
+<p>Answer: D</p>
 
 </details>
 
@@ -165,7 +165,7 @@ A client is 24 weeks pregnant and is being seen for a routine prenatal visit. Th
 <details>
 <summary>Show Answer</summary>
 
-**Answer: A**
+<p>Answer: A</p>
 
 </details>
 
@@ -185,7 +185,7 @@ A client in the third trimester calls the clinic and says, “The baby is not mo
 <details>
 <summary>Show Answer</summary>
 
-**Answer: B**
+<p>Answer: B</p>
 
 </details>
 
@@ -205,7 +205,7 @@ A nurse is teaching a pregnant client about ways to manage common discomforts of
 <details>
 <summary>Show Answer</summary>
 
-**Answer: C**
+<p>Answer: C</p>
 
 </details>
 
@@ -225,7 +225,7 @@ A pregnant client reports increased vaginal discharge. The nurse explains that l
 <details>
 <summary>Show Answer</summary>
 
-**Answer: C**
+<p>Answer: C</p>
 
 </details>
 
@@ -245,7 +245,7 @@ A pregnant client states, “I know I need to eat for two now.” Which response
 <details>
 <summary>Show Answer</summary>
 
-**Answer: A**
+<p>Answer: A</p>
 
 </details>
 
@@ -265,7 +265,7 @@ A client’s prenatal screening shows an elevated maternal serum alpha-fetoprote
 <details>
 <summary>Show Answer</summary>
 
-**Answer: D**
+<p>Answer: D</p>
 
 </details>
 
@@ -285,7 +285,7 @@ A nurse is preparing a client for an amniocentesis. The procedure has been expla
 <details>
 <summary>Show Answer</summary>
 
-**Answer: B**
+<p>Answer: B</p>
 
 </details>
 
@@ -305,7 +305,7 @@ During a prenatal nutrition assessment, a client tells the nurse, “I have been
 <details>
 <summary>Show Answer</summary>
 
-**Answer: A**
+<p>Answer: A</p>
 
 </details>
 
@@ -325,9 +325,12 @@ A client asks about chorionic villus sampling because she wants earlier genetic 
 <details>
 <summary>Show Answer</summary>
 
-**Answer: D**
+<p>Answer: D</p>
 
 </details>
+
+---
+
 ### Question 16
 
 A nurse is teaching a pregnant client about symptoms that should be reported immediately. Which statement by the client indicates correct understanding?
@@ -342,7 +345,7 @@ A nurse is teaching a pregnant client about symptoms that should be reported imm
 <details>
 <summary>Show Answer</summary>
 
-**Answer: A**
+<p>Answer: A</p>
 
 </details>
 
@@ -362,7 +365,7 @@ At the initial prenatal visit, the nurse reviews the client’s laboratory resul
 <details>
 <summary>Show Answer</summary>
 
-**Answer: B**
+<p>Answer: B</p>
 
 </details>
 
@@ -382,7 +385,7 @@ A pregnant client reports constipation during a routine prenatal visit. The nurs
 <details>
 <summary>Show Answer</summary>
 
-**Answer: A**
+<p>Answer: A</p>
 
 </details>
 
@@ -402,7 +405,7 @@ A client who is 11 weeks pregnant is scheduled for an abdominal ultrasound. The 
 <details>
 <summary>Show Answer</summary>
 
-**Answer: B**
+<p>Answer: B</p>
 
 </details>
 
@@ -422,7 +425,7 @@ A nurse is documenting a client’s pregnancy history using GTPAL. The client is
 <details>
 <summary>Show Answer</summary>
 
-**Answer: A**
+<p>Answer: A</p>
 
 </details>
 
@@ -442,7 +445,7 @@ A client in the first trimester tells the nurse, “Sometimes I feel excited abo
 <details>
 <summary>Show Answer</summary>
 
-**Answer: A**
+<p>Answer: A</p>
 
 </details>
 
@@ -462,7 +465,7 @@ A client is scheduled for a nonstress test because the provider wants to assess 
 <details>
 <summary>Show Answer</summary>
 
-**Answer: A**
+<p>Answer: A</p>
 
 </details>
 
@@ -482,7 +485,7 @@ A pregnant client asks why her provider is not ordering routine cholesterol and 
 <details>
 <summary>Show Answer</summary>
 
-**Answer: A**
+<p>Answer: A</p>
 
 </details>
 
@@ -502,7 +505,7 @@ A pregnant client has a history of varicose veins and reports aching in her legs
 <details>
 <summary>Show Answer</summary>
 
-**Answer: C**
+<p>Answer: C</p>
 
 </details>
 
@@ -522,7 +525,7 @@ The nurse needs a clean-catch urine specimen from a pregnant client during a pre
 <details>
 <summary>Show Answer</summary>
 
-**Answer: D**
+<p>Answer: D</p>
 
 </details>
 
@@ -542,7 +545,7 @@ A pregnant client reports urinary frequency and asks why the nurse keeps encoura
 <details>
 <summary>Show Answer</summary>
 
-**Answer: C**
+<p>Answer: C</p>
 
 </details>
 
@@ -562,7 +565,7 @@ A pregnant client reports nasal stuffiness and asks what she can safely use at h
 <details>
 <summary>Show Answer</summary>
 
-**Answer: D**
+<p>Answer: D</p>
 
 </details>
 
@@ -582,7 +585,7 @@ A pregnant client reports numbness and tingling in her fingers, especially after
 <details>
 <summary>Show Answer</summary>
 
-**Answer: A**
+<p>Answer: A</p>
 
 </details>
 
@@ -602,7 +605,7 @@ A pregnant client is prescribed liquid iron. The nurse is teaching the client ho
 <details>
 <summary>Show Answer</summary>
 
-**Answer: B**
+<p>Answer: B</p>
 
 </details>
 
@@ -622,9 +625,11 @@ A pregnant client who works at a desk job reports lower-extremity swelling by th
 <details>
 <summary>Show Answer</summary>
 
-**Answer: C**
+<p>Answer: C</p>
 
 </details>
+
+---
 
 ### Question 31
 
@@ -640,7 +645,7 @@ A nurse is reviewing cardiovascular changes of pregnancy with a client. The clie
 <details>
 <summary>Show Answer</summary>
 
-**Answer: B**
+<p>Answer: B</p>
 
 </details>
 
@@ -660,7 +665,7 @@ A pregnant client reports right upper abdominal discomfort after eating a high-f
 <details>
 <summary>Show Answer</summary>
 
-**Answer: A**
+<p>Answer: A</p>
 
 </details>
 
@@ -680,7 +685,7 @@ A nurse is assessing skin changes during a prenatal visit. Which finding is cons
 <details>
 <summary>Show Answer</summary>
 
-**Answer: A**
+<p>Answer: A</p>
 
 </details>
 
@@ -700,7 +705,7 @@ A client at her first prenatal visit asks why the provider documented “Goodell
 <details>
 <summary>Show Answer</summary>
 
-**Answer: B**
+<p>Answer: B</p>
 
 </details>
 
@@ -720,7 +725,7 @@ During a prenatal visit, the provider documents “Chadwick’s sign.” The cli
 <details>
 <summary>Show Answer</summary>
 
-**Answer: C**
+<p>Answer: C</p>
 
 </details>
 
@@ -740,7 +745,7 @@ A client’s last menstrual period began on July 18, 2026. The nurse uses Naegel
 <details>
 <summary>Show Answer</summary>
 
-**Answer: C**
+<p>Answer: C</p>
 
 </details>
 
@@ -760,7 +765,7 @@ A pregnant client calls the clinic and says, “I think my water broke, but I’
 <details>
 <summary>Show Answer</summary>
 
-**Answer: B**
+<p>Answer: B</p>
 
 </details>
 
@@ -780,7 +785,7 @@ A client may need delivery before 38 weeks, and an amniocentesis is performed to
 <details>
 <summary>Show Answer</summary>
 
-**Answer: A**
+<p>Answer: A</p>
 
 </details>
 
@@ -800,7 +805,7 @@ A pregnant client has a history of alcohol use disorder. The nurse is providing 
 <details>
 <summary>Show Answer</summary>
 
-**Answer: B**
+<p>Answer: B</p>
 
 </details>
 
@@ -820,7 +825,7 @@ A pregnant client is learning how to monitor fetal movement at home. The client 
 <details>
 <summary>Show Answer</summary>
 
-**Answer: D**
+<p>Answer: D</p>
 
 </details>
 
@@ -840,7 +845,7 @@ A nurse is caring for a pregnant client from an Arab cultural background who sta
 <details>
 <summary>Show Answer</summary>
 
-**Answer: B**
+<p>Answer: B</p>
 
 </details>
 
@@ -860,7 +865,7 @@ During a prenatal visit, a nurse notices that a client has bruises in different 
 <details>
 <summary>Show Answer</summary>
 
-**Answer: C**
+<p>Answer: C</p>
 
 </details>
 
@@ -880,7 +885,7 @@ A pregnant client has a history of intimate partner violence. The nurse is revie
 <details>
 <summary>Show Answer</summary>
 
-**Answer: B**
+<p>Answer: B</p>
 
 </details>
 
@@ -900,7 +905,7 @@ A nurse is caring for a pregnant client who has a history of female genital muti
 <details>
 <summary>Show Answer</summary>
 
-**Answer: A**
+<p>Answer: A</p>
 
 </details>
 
@@ -920,7 +925,7 @@ A client’s last menstrual period began on November 9, 2026. The nurse uses Nae
 <details>
 <summary>Show Answer</summary>
 
-**Answer: B**
+<p>Answer: B</p>
 
 </details>
 
