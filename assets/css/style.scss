@@ -877,28 +877,40 @@ font-size: 1.6rem !important;
 font-size: 0.9rem !important;
 }
 /* =========================================================
-   BACKUP TABLE FIX
+   FINAL TABLE FIX
+   Tables center and stop stretching full-width on desktop
    ========================================================= */
 
+/* Desktop: tables only take the space they need */
 .main-content table {
-  width: auto !important;
-  max-width: 100% !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
   display: table !important;
+  width: auto !important;
+  min-width: unset !important;
+  max-width: 100% !important;
+  margin: 1.2rem auto !important;
   table-layout: auto !important;
+  border-collapse: separate !important;
+  overflow: hidden !important;
 }
 
+/* Cells should not force the table wider than needed */
 .main-content th,
 .main-content td {
   width: auto !important;
+  min-width: unset !important;
+  max-width: none !important;
   white-space: normal !important;
 }
 
+/* Phone/tablet: wide tables can scroll */
 @media screen and (max-width: 900px) {
   .main-content table {
-    width: 100% !important;
     display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    overflow-x: auto !important;
+  }
+}
     overflow-x: auto !important;
   }
 }
