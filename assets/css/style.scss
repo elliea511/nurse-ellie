@@ -876,27 +876,42 @@ font-size: 1.6rem !important;
 .button-subtitle {
 font-size: 0.9rem !important;
 }
-}
 /* =========================================================
-   FIX TABLE WIDTH: CENTER TABLES + ONLY AS WIDE AS NEEDED
+   TABLE FIX: CENTER TABLES + STOP EXTRA WHITE SPACE
    Paste at the VERY BOTTOM of style.css
    ========================================================= */
 
+/* Desktop/tablet: table only as wide as its content */
 .main-content table {
-  width: auto !important;
+  width: fit-content !important;
   max-width: 100% !important;
+  min-width: 0 !important;
   margin-left: auto !important;
   margin-right: auto !important;
   display: table !important;
-  overflow-x: visible !important;
+  table-layout: auto !important;
+  overflow: visible !important;
   white-space: normal !important;
 }
 
-/* Keep wide tables from breaking on phones */
+/* Keep the cells from stretching weirdly */
+.main-content th,
+.main-content td {
+  width: auto !important;
+  white-space: normal !important;
+}
+
+/* Wide tables still behave nicely */
+.main-content table {
+  overflow-x: auto !important;
+}
+
+/* Phone: let wide tables scroll instead of breaking */
 @media screen and (max-width: 900px) {
   .main-content table {
-    display: block !important;
     width: 100% !important;
+    max-width: 100% !important;
+    display: block !important;
     overflow-x: auto !important;
   }
 }
