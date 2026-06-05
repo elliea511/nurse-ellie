@@ -1158,3 +1158,89 @@ margin-left: 0.25rem !important;
   white-space: nowrap !important;
   font-size: 0.95rem !important;
 }
+/* =========================================================
+   NCLEX / PRIORITY / INTERVENTION CALLOUT BOXES
+   Paste at the VERY BOTTOM of style.css
+   ========================================================= */
+
+.main-content .nclex,
+.main-content .danger,
+.main-content .intervention,
+.main-content .memory,
+.main-content .note {
+  margin: 1.4rem 0 !important;
+  padding: 1rem 1.1rem !important;
+  border-radius: 18px !important;
+  box-shadow: 6px 6px 0 rgba(36, 69, 92, 0.08) !important;
+  color: #24455c !important;
+  line-height: 1.6 !important;
+}
+
+/* Yellow NCLEX tip box */
+.main-content .nclex {
+  background: #fff7cf !important;
+  border: 3px solid #ffe7a3 !important;
+}
+
+/* Pink priority/warning box */
+.main-content .danger {
+  background: #fff0f4 !important;
+  border: 3px solid #f8b6c8 !important;
+}
+
+/* Green nursing intervention box */
+.main-content .intervention {
+  background: #effdf2 !important;
+  border: 3px solid #9de0aa !important;
+}
+
+/* Purple memory trick box */
+.main-content .memory {
+  background: #f6f0ff !important;
+  border: 3px solid #d7c3f3 !important;
+}
+
+/* Blue regular note box */
+.main-content .note {
+  background: #eef8ff !important;
+  border: 3px solid #9fd7f5 !important;
+}
+
+/* Automatic labels */
+.main-content .nclex::before,
+.main-content .danger::before,
+.main-content .intervention::before,
+.main-content .memory::before,
+.main-content .note::before {
+  display: block !important;
+  font-weight: 900 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.6px !important;
+  margin-bottom: 0.45rem !important;
+  font-size: 0.95rem !important;
+}
+
+.main-content .nclex::before {
+  content: "NCLEX Tip";
+  color: #b7791f !important;
+}
+
+.main-content .danger::before {
+  content: "Priority / Warning";
+  color: #be185d !important;
+}
+
+.main-content .intervention::before {
+  content: "Nursing Interventions";
+  color: #2f855a !important;
+}
+
+.main-content .memory::before {
+  content: "Memory Trick";
+  color: #6b46c1 !important;
+}
+
+.main-content .note::before {
+  content: "Note";
+  color: #2b6cb0 !important;
+}
