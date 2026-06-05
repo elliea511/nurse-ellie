@@ -1142,4 +1142,19 @@ box-shadow:
 margin-left: 0.25rem !important;
 }
 }
+/* =========================================================
+   SIDEBAR WIDTH FIX
+   Gives long titles like Hematology/Oncology enough room
+   ========================================================= */
 
+.sidebar {
+  width: 260px !important;
+  min-width: 260px !important;
+  max-width: 260px !important;
+  flex: 0 0 260px !important;
+}
+
+.sidebar summary {
+  white-space: nowrap !important;
+  font-size: 0.95rem !important;
+}
