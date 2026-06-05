@@ -419,3 +419,247 @@ body {
 .sidebar details li {
   margin: 4px 0;
 }
+/* =========================================================
+STEP 1: PASTEL OMBRE BACKGROUND + FLOATING CONTENT CARD
+Paste this at the VERY BOTTOM of your current style.css
+========================================================= */
+
+:root {
+--teal: #7fd8d2;
+--teal-dark: #2b8f8b;
+--blue: #9fd7f5;
+--yellow: #ffe7a3;
+--pink: #f8b6c8;
+--pink-dark: #be185d;
+--lavender: #d7c3f3;
+--mint: #c9f2d6;
+--ink: #24455c;
+--paper: rgba(255, 255, 255, 0.92);
+}
+
+/* Whole site ombre background */
+html,
+body {
+min-height: 100%;
+}
+
+body {
+background: linear-gradient(
+180deg,
+#fff7fb 0%,
+#fce7f3 18%,
+#f9d8e9 32%,
+#f7d9c9 46%,
+#fff0b8 60%,
+#dff7d6 74%,
+#d8f2f3 87%,
+#dce8ff 100%
+) !important;
+background-attachment: fixed !important;
+color: var(--ink) !important;
+}
+
+/* Softer top header/banner */
+.page-header {
+background: linear-gradient(
+135deg,
+#f8b6c8 0%,
+#fce7f3 30%,
+#ffe7a3 60%,
+#7fd8d2 100%
+) !important;
+color: var(--ink) !important;
+}
+
+.project-name {
+color: var(--ink) !important;
+font-weight: 900 !important;
+letter-spacing: 1px;
+}
+
+.project-tagline {
+color: #5d7380 !important;
+}
+
+/* Main notes area becomes a floating white card */
+.main-content {
+background: var(--paper) !important;
+border-radius: 22px !important;
+padding: 2.2rem !important;
+box-shadow: 0 12px 34px rgba(36, 69, 92, 0.16) !important;
+border: 2px solid rgba(255, 255, 255, 0.7);
+}
+
+/* Main page title */
+.main-content h1 {
+background: var(--teal) !important;
+color: white !important;
+text-align: center !important;
+text-transform: uppercase !important;
+letter-spacing: 3px !important;
+font-size: 2.4rem !important;
+font-weight: 900 !important;
+padding: 18px 12px !important;
+margin: 0 0 28px 0 !important;
+border-radius: 16px !important;
+border-bottom: none !important;
+box-shadow: 8px 8px 0 rgba(127, 216, 210, 0.25) !important;
+}
+
+/* Section headings */
+.main-content h2 {
+background: #fff7cf !important;
+color: var(--ink) !important;
+padding: 12px 16px !important;
+border-radius: 14px !important;
+border-left: 8px solid var(--yellow) !important;
+border-bottom: none !important;
+margin-top: 2.2rem !important;
+box-shadow: 5px 5px 0 rgba(255, 231, 163, 0.35);
+}
+
+.main-content h2::before {
+content: "✦ ";
+color: #f8b6c8;
+}
+
+.main-content h3 {
+color: var(--teal-dark) !important;
+border-left: 8px solid var(--teal) !important;
+padding: 8px 0 8px 12px !important;
+background: linear-gradient(to right, #eaf6fc, transparent) !important;
+border-radius: 8px;
+}
+
+.main-content h4 {
+color: #be185d !important;
+}
+
+/* Softer links */
+.main-content a {
+color: var(--teal-dark) !important;
+font-weight: 800 !important;
+text-decoration: none !important;
+border-bottom: 2px dotted var(--teal) !important;
+}
+
+.main-content a:hover {
+color: #ee8f8b !important;
+border-bottom-color: #ee8f8b !important;
+}
+
+/* Softer tables */
+.main-content table {
+width: 100% !important;
+border-collapse: separate !important;
+border-spacing: 0 !important;
+margin: 1.2rem 0 !important;
+border: 3px solid var(--teal) !important;
+border-radius: 14px !important;
+overflow: hidden !important;
+box-shadow: 7px 7px 0 rgba(127, 216, 210, 0.18) !important;
+background: white !important;
+}
+
+.main-content th {
+background: var(--teal) !important;
+color: white !important;
+padding: 0.7rem !important;
+text-align: left !important;
+border: 1px solid var(--teal-dark) !important;
+}
+
+.main-content td {
+border: 1px solid #d7e5e4 !important;
+padding: 0.65rem !important;
+vertical-align: top !important;
+}
+
+.main-content tr:nth-child(even) td {
+background: #f7fcfb !important;
+}
+
+.main-content tr:nth-child(odd) td {
+background: white !important;
+}
+
+/* Softer blockquotes / regular tips */
+.main-content blockquote {
+border-left: 8px solid var(--yellow) !important;
+background: #fff7cf !important;
+color: var(--ink) !important;
+border-radius: 14px !important;
+box-shadow: 5px 5px 0 rgba(255, 231, 163, 0.35);
+}
+
+/* Sidebar stays functional but matches the new theme */
+.sidebar {
+background: rgba(255, 255, 255, 0.88) !important;
+border: 3px solid #f8b6c8 !important;
+border-radius: 22px !important;
+box-shadow: 0 10px 28px rgba(36, 69, 92, 0.14) !important;
+}
+
+.sidebar h2 {
+background: #f8b6c8 !important;
+color: white !important;
+border-radius: 14px !important;
+box-shadow: 5px 5px 0 rgba(248, 182, 200, 0.35);
+}
+
+.sidebar details {
+background: #fff7fb !important;
+border: 2px solid #f8b6c8 !important;
+}
+
+.sidebar .submenu-group {
+background: white !important;
+border: 1px solid #d7c3f3 !important;
+}
+
+.sidebar summary {
+color: var(--ink) !important;
+}
+
+.sidebar a {
+color: #be185d !important;
+}
+
+.sidebar a:hover {
+background: #fff7cf !important;
+color: var(--teal-dark) !important;
+}
+
+/* Mobile friendly */
+@media screen and (max-width: 900px) {
+.main-content {
+padding: 1.2rem !important;
+border-radius: 18px !important;
+}
+
+.main-content h1 {
+font-size: 1.8rem !important;
+letter-spacing: 2px !important;
+}
+}
+
+/* Keep print clean */
+@media print {
+body {
+background: white !important;
+}
+
+.main-content {
+background: white !important;
+box-shadow: none !important;
+border: none !important;
+}
+
+.main-content h1,
+.main-content h2,
+.main-content h3,
+.main-content blockquote {
+box-shadow: none !important;
+}
+}
+
