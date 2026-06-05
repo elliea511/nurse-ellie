@@ -877,4 +877,26 @@ font-size: 1.6rem !important;
 font-size: 0.9rem !important;
 }
 }
+/* =========================================================
+   FIX TABLE WIDTH: CENTER TABLES + ONLY AS WIDE AS NEEDED
+   Paste at the VERY BOTTOM of style.css
+   ========================================================= */
 
+.main-content table {
+  width: auto !important;
+  max-width: 100% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  display: table !important;
+  overflow-x: visible !important;
+  white-space: normal !important;
+}
+
+/* Keep wide tables from breaking on phones */
+@media screen and (max-width: 900px) {
+  .main-content table {
+    display: block !important;
+    width: 100% !important;
+    overflow-x: auto !important;
+  }
+}
