@@ -6,34 +6,16 @@ title: Nursing Notes
 
 # Nursing Notes
 
-<div class="home-intro">
+<div class="home-button-grid">
 
-<span class="home-mini-label">Study Dashboard</span>
+  <a class="home-big-button pink" href="{{ '/maternity.html' | relative_url }}">
+    <span class="button-title">Maternity</span>
+    <span class="button-subtitle">tiny humans, big emergencies</span>
+  </a>
 
-Welcome to my nursing study site. Pick a section below to open the notes, study guides, labs, medications, and review tools.
-
-</div>
-
-<div class="section-card-grid">
-
-<div class="section-card pink">
-
-## Maternity
-
-Antepartum, intrapartum, postpartum, newborn, labs, OB medications, and practice review.
-
-[Open Maternity](maternity.html)
-
-</div>
-
-<div class="section-card blue">
-
-## Hematology/Oncology
-
-Anemias, blood transfusions, and future hematology/oncology study guides.
-
-[Open Hematology/Oncology](hematology-oncology.html)
-
-</div>
+  <a class="home-big-button blue" href="{{ '/hematology-oncology.html' | relative_url }}">
+    <span class="button-title">Hematology/Oncology</span>
+    <span class="button-subtitle">blood cells behaving badly</span>
+  </a>
 
 </div>
