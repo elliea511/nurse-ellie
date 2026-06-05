@@ -964,114 +964,182 @@ letter-spacing: 0.5px !important;
 .project-tagline {
 font-size: 0.95rem !important;
 }
-}
+  
 /* =========================================================
-PRETTIER HOMEPAGE TITLE + BUTTON TITLES
-Makes homepage labels more defined and less Word-doc looking
+MODERN COLORFUL SIDEBAR GLOW-UP
+Paste at the VERY BOTTOM of style.css
 ========================================================= */
 
-/* Homepage main question/title */
-.main-content h1 {
-background: linear-gradient(
-135deg,
-#fff4f8 0%,
-#f8b6c8 35%,
-#ffe7a3 70%,
-#d7c3f3 100%
-) !important;
-color: #be185d !important;
-font-family: "Trebuchet MS", "Arial Rounded MT Bold", Arial, sans-serif !important;
-text-align: center !important;
-text-transform: none !important;
-letter-spacing: 1px !important;
-font-size: 2.7rem !important;
-font-weight: 950 !important;
-padding: 22px 18px !important;
-margin: 0 0 34px 0 !important;
+/* Sidebar container */
+.sidebar {
+background: rgba(255, 255, 255, 0.82) !important;
+backdrop-filter: blur(10px) !important;
+border: 3px solid rgba(248, 182, 200, 0.75) !important;
 border-radius: 28px !important;
-border: 4px solid rgba(255, 255, 255, 0.9) !important;
+padding: 1rem !important;
 box-shadow:
-10px 10px 0 rgba(127, 216, 210, 0.22),
-0 8px 24px rgba(36, 69, 92, 0.10) !important;
-text-shadow:
-2px 2px 0 #ffffff,
-4px 4px 0 rgba(127, 216, 210, 0.35) !important;
+10px 10px 0 rgba(127, 216, 210, 0.16),
+0 12px 30px rgba(36, 69, 92, 0.14) !important;
 }
 
-/* Little sparkle stickers around homepage title */
-.main-content h1::before {
-content: "✦ ";
-color: #ffe7a3 !important;
-text-shadow: 2px 2px 0 #ffffff !important;
-}
-
-.main-content h1::after {
-content: " ✦";
-color: #7fd8d2 !important;
-text-shadow: 2px 2px 0 #ffffff !important;
-}
-
-/* Button title text: Maternity + Hematology/Oncology */
-.button-title {
-display: block !important;
+/* Sidebar title */
+.sidebar h2 {
+background: linear-gradient(135deg, #f8b6c8, #ffe7a3, #7fd8d2) !important;
+color: #24455c !important;
 font-family: "Trebuchet MS", "Arial Rounded MT Bold", Arial, sans-serif !important;
-font-size: 2.15rem !important;
+font-size: 1.15rem !important;
 font-weight: 950 !important;
 letter-spacing: 0.5px !important;
-color: #24455c !important;
-background: rgba(255, 255, 255, 0.72) !important;
-padding: 10px 18px !important;
-border-radius: 999px !important;
-border: 3px solid rgba(255, 255, 255, 0.95) !important;
-box-shadow: 5px 5px 0 rgba(36, 69, 92, 0.08) !important;
-margin-bottom: 12px !important;
-text-shadow: 1px 1px 0 #ffffff !important;
-}
-
-/* Subtitle pill under each button */
-.button-subtitle {
-display: block !important;
-font-size: 1rem !important;
-font-weight: 850 !important;
-color: #5d7380 !important;
-background: rgba(255, 255, 255, 0.72) !important;
-padding: 8px 14px !important;
-border-radius: 999px !important;
-border: 2px solid rgba(255, 255, 255, 0.9) !important;
-}
-
-/* Make the buttons themselves feel more like cute cards */
-.home-big-button {
-border-radius: 34px !important;
-border-width: 5px !important;
+text-align: center !important;
+border-radius: 20px !important;
+padding: 0.85rem 0.7rem !important;
+margin: 0 0 1rem 0 !important;
 box-shadow:
-12px 12px 0 rgba(36, 69, 92, 0.10),
-inset 0 0 0 3px rgba(255, 255, 255, 0.55) !important;
+5px 5px 0 rgba(248, 182, 200, 0.28),
+inset 0 0 0 2px rgba(255, 255, 255, 0.65) !important;
+border: none !important;
 }
 
-.home-big-button.pink {
-background:
-radial-gradient(circle at top left, rgba(255, 255, 255, 0.95), transparent 34%),
-linear-gradient(135deg, #fff4f8, #f8b6c8) !important;
+/* Home link at top */
+.sidebar > a {
+background: #fff7cf !important;
+border: 2px solid #ffe7a3 !important;
+border-radius: 999px !important;
+color: #24455c !important;
+font-weight: 900 !important;
+text-align: center !important;
+margin-bottom: 0.9rem !important;
+box-shadow: 4px 4px 0 rgba(255, 231, 163, 0.35) !important;
 }
 
-.home-big-button.blue {
-background:
-radial-gradient(circle at top left, rgba(255, 255, 255, 0.95), transparent 34%),
-linear-gradient(135deg, #eef8ff, #9fd7f5) !important;
+/* Main dropdown groups: Maternity + Hematology/Oncology */
+.sidebar .menu-group {
+background: linear-gradient(135deg, #fff7fb, #ffffff) !important;
+border: 2px solid #f8b6c8 !important;
+border-radius: 20px !important;
+padding: 0.45rem !important;
+margin: 0.8rem 0 !important;
+box-shadow: 5px 5px 0 rgba(248, 182, 200, 0.18) !important;
 }
 
-@media screen and (max-width: 700px) {
-.main-content h1 {
-font-size: 2rem !important;
-padding: 18px 12px !important;
+/* Submenu groups: Antepartum, Intrapartum, Anemias, etc. */
+.sidebar .submenu-group {
+background: rgba(255, 255, 255, 0.88) !important;
+border: 2px solid #d7c3f3 !important;
+border-radius: 18px !important;
+padding: 0.35rem !important;
+margin: 0.55rem 0 0.55rem 0.55rem !important;
+box-shadow: 4px 4px 0 rgba(215, 195, 243, 0.16) !important;
 }
 
-.button-title {
-font-size: 1.55rem !important;
+/* Dropdown labels */
+.sidebar summary {
+color: #24455c !important;
+font-family: "Trebuchet MS", "Arial Rounded MT Bold", Arial, sans-serif !important;
+font-weight: 900 !important;
+letter-spacing: 0.2px !important;
+padding: 0.65rem 0.75rem !important;
+border-radius: 14px !important;
+background: rgba(255, 255, 255, 0.72) !important;
+list-style: none !important;
+cursor: pointer !important;
+transition: all 0.15s ease !important;
 }
 
-.button-subtitle {
-font-size: 0.9rem !important;
+/* Hover on dropdown labels */
+.sidebar summary:hover {
+background: #fff7cf !important;
+color: #be185d !important;
+transform: translateX(2px) !important;
+}
+
+/* Remove default triangle */
+.sidebar summary::-webkit-details-marker {
+display: none !important;
+}
+
+/* Custom cute arrows */
+.sidebar summary::before {
+content: "▸ " !important;
+color: #f8b6c8 !important;
+font-weight: 950 !important;
+}
+
+.sidebar details[open] > summary::before {
+content: "▾ " !important;
+color: #7fd8d2 !important;
+}
+
+/* Links inside sidebar */
+.sidebar a {
+display: block !important;
+color: #5d7380 !important;
+font-weight: 800 !important;
+text-decoration: none !important;
+border-bottom: none !important;
+padding: 0.45rem 0.65rem !important;
+margin: 0.18rem 0 !important;
+border-radius: 12px !important;
+line-height: 1.25 !important;
+transition: all 0.15s ease !important;
+}
+
+/* Sidebar link hover */
+.sidebar a:hover {
+background: linear-gradient(135deg, #fff7cf, #fce7f3) !important;
+color: #be185d !important;
+transform: translateX(4px) !important;
+}
+
+/* Links inside submenus */
+.sidebar .submenu-group a {
+margin-left: 0.5rem !important;
+font-size: 0.88rem !important;
+}
+
+/* Make opened main groups stand out */
+.sidebar .menu-group[open] {
+border-color: #7fd8d2 !important;
+box-shadow: 5px 5px 0 rgba(127, 216, 210, 0.22) !important;
+}
+
+/* Make opened submenu groups stand out */
+.sidebar .submenu-group[open] {
+border-color: #ffe7a3 !important;
+box-shadow: 4px 4px 0 rgba(255, 231, 163, 0.28) !important;
+}
+
+/* Scrollbar styling for sidebar */
+.sidebar::-webkit-scrollbar {
+width: 8px;
+}
+
+.sidebar::-webkit-scrollbar-track {
+background: #fff7fb;
+border-radius: 999px;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+background: #f8b6c8;
+border-radius: 999px;
+}
+
+.sidebar::-webkit-scrollbar-thumb:hover {
+background: #7fd8d2;
+}
+
+/* Mobile sidebar */
+@media screen and (max-width: 900px) {
+.sidebar {
+border-radius: 22px !important;
+margin-bottom: 1.5rem !important;
+box-shadow:
+6px 6px 0 rgba(127, 216, 210, 0.14),
+0 8px 20px rgba(36, 69, 92, 0.10) !important;
+}
+
+.sidebar .submenu-group {
+margin-left: 0.25rem !important;
 }
 }
+
