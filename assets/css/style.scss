@@ -907,29 +907,44 @@ margin-bottom: 14px;
     max-width: 100% !important;
     overflow-x: auto !important;
   }
-}
 /* =========================================================
-FUN WEBSITE TITLE HEADER ONLY
-Changes the "Nursing School - Ellie's Version" part
+WEBSITE HEADER TITLE STYLE
+Styles the top site title from _config.yml
 ========================================================= */
 
+.page-header .project-name,
 .project-name {
-font-family: "Trebuchet MS", "Comic Sans MS", "Arial Rounded MT Bold", cursive !important;
+color: #be185d !important;
+font-family: "Trebuchet MS", "Arial Rounded MT Bold", Arial, sans-serif !important;
 font-size: 3rem !important;
 font-weight: 900 !important;
-letter-spacing: 2px !important;
+letter-spacing: 1px !important;
 text-transform: none !important;
-color: #24455c !important;
 text-shadow:
 3px 3px 0 #ffffff,
-6px 6px 0 rgba(248, 182, 200, 0.55) !important;
+6px 6px 0 rgba(127, 216, 210, 0.55) !important;
 }
 
+.page-header .project-name::before,
+.project-name::before {
+content: "✦ ";
+color: #ffe7a3 !important;
+text-shadow: 2px 2px 0 #ffffff !important;
+}
+
+.page-header .project-name::after,
+.project-name::after {
+content: " ✦";
+color: #f8b6c8 !important;
+text-shadow: 2px 2px 0 #ffffff !important;
+}
+
+.page-header .project-tagline,
 .project-tagline {
-font-family: "Trebuchet MS", "Arial Rounded MT Bold", sans-serif !important;
-font-size: 1.15rem !important;
+color: #24455c !important;
+font-family: "Trebuchet MS", "Arial Rounded MT Bold", Arial, sans-serif !important;
+font-size: 1.1rem !important;
 font-weight: 700 !important;
-color: #5d7380 !important;
 background: rgba(255, 255, 255, 0.55) !important;
 display: inline-block !important;
 padding: 8px 16px !important;
@@ -938,27 +953,17 @@ margin-top: 10px !important;
 }
 
 @media screen and (max-width: 700px) {
+.page-header .project-name,
 .project-name {
 font-size: 2rem !important;
-letter-spacing: 1px !important;
+letter-spacing: 0.5px !important;
 }
 
+.page-header .project-tagline,
 .project-tagline {
 font-size: 0.95rem !important;
 }
-/* =========================================================
-   FUN WEBSITE TITLE COLOR ONLY
-   Keeps the shadow, changes gray title color
-   ========================================================= */
-
-.project-name {
-  color: #be185d !important; /* deep berry pink */
-  text-shadow:
-    3px 3px 0 #ffffff,
-    6px 6px 0 rgba(127, 216, 210, 0.55) !important;
 }
 
-.project-tagline {
-  color: #24455c !important;
-}
+
  
