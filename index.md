@@ -1,15 +1,39 @@
 ---
+
 layout: default
 title: Nursing Notes
----
-
-## Welcome Ladies
-
-<p align="center">
-  <img src="nursing-notes.png" alt="Nursing Notes" width="400">
-</p>
+--------------------
 
 # Nursing Notes
 
-- [Maternity](maternity.html)
-- [Hematology/Oncology](hematology-oncology.html)
+<div class="home-intro">
+
+<span class="home-mini-label">Study Dashboard</span>
+
+Welcome to my nursing study site. Pick a section below to open the notes, study guides, labs, medications, and review tools.
+
+</div>
+
+<div class="section-card-grid">
+
+<div class="section-card pink">
+
+## Maternity
+
+Antepartum, intrapartum, postpartum, newborn, labs, OB medications, and practice review.
+
+[Open Maternity](maternity.html)
+
+</div>
+
+<div class="section-card blue">
+
+## Hematology/Oncology
+
+Anemias, blood transfusions, and future hematology/oncology study guides.
+
+[Open Hematology/Oncology](hematology-oncology.html)
+
+</div>
+
+</div>
