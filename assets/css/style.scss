@@ -998,16 +998,4 @@ text-shadow:
 4px 4px 0 rgba(127, 216, 210, 0.35) !important;
 }
 
-/* Little sparkle stickers around homepage title */
-.main-content h1::before {
-content: "✦ ";
-color: #ffe7a3 !important;
-text-shadow: 2px 2px 0 #ffffff !important;
-}
-
-.main-content h1::after {
-content: " ✦";
-color: #7fd8d2 !important;
-text-shadow: 2px 2px 0 #ffffff !important;
-}
 
