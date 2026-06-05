@@ -961,38 +961,19 @@ font-size: 0.95rem !important;
 .project-tagline {
   color: #24455c !important;
 }
-  /* =========================================================
-   EXTRA SPARKLY WEBSITE TITLE
+ /* =========================================================
+   SAFE SPARKLES AROUND WEBSITE TITLE
+   No animation, no complicated code
    ========================================================= */
 
 .project-name::before {
   content: "✦ ";
-  color: #ffe7a3;
-  animation: sparklePulse 1.6s ease-in-out infinite;
-  text-shadow:
-    0 0 5px #ffffff,
-    0 0 10px #ffe7a3,
-    0 0 16px #f8b6c8;
+  color: #ffe7a3 !important;
+  text-shadow: 2px 2px 0 #ffffff !important;
 }
 
 .project-name::after {
   content: " ✦";
-  color: #f8b6c8;
-  animation: sparklePulse 1.6s ease-in-out infinite reverse;
-  text-shadow:
-    0 0 5px #ffffff,
-    0 0 10px #f8b6c8,
-    0 0 16px #7fd8d2;
-}
-
-@keyframes sparklePulse {
-  0%, 100% {
-    opacity: 0.75;
-    transform: scale(1);
-  }
-
-  50% {
-    opacity: 1;
-    transform: scale(1.18);
-  }
+  color: #f8b6c8 !important;
+  text-shadow: 2px 2px 0 #ffffff !important;
 }
