@@ -909,33 +909,41 @@ margin-bottom: 14px;
   }
 }
 /* =========================================================
-   FUN HOMEPAGE TITLE
-   ========================================================= */
+FUN WEBSITE TITLE HEADER ONLY
+Changes the "Nursing School - Ellie's Version" part
+========================================================= */
 
-.main-content h1 {
-  background: linear-gradient(
-    135deg,
-    #f8b6c8 0%,
-    #ffe7a3 35%,
-    #7fd8d2 70%,
-    #d7c3f3 100%
-  ) !important;
-  color: #24455c !important;
-  text-align: center !important;
-  text-transform: uppercase !important;
-  letter-spacing: 4px !important;
-  font-size: 2.8rem !important;
-  font-weight: 950 !important;
-  padding: 22px 14px !important;
-  border-radius: 24px !important;
-  border: 4px solid white !important;
-  box-shadow: 10px 10px 0 rgba(36, 69, 92, 0.10) !important;
-  text-shadow: 2px 2px 0 rgba(255, 255, 255, 0.55) !important;
+.project-name {
+font-family: "Trebuchet MS", "Comic Sans MS", "Arial Rounded MT Bold", cursive !important;
+font-size: 3rem !important;
+font-weight: 900 !important;
+letter-spacing: 2px !important;
+text-transform: none !important;
+color: #24455c !important;
+text-shadow:
+3px 3px 0 #ffffff,
+6px 6px 0 rgba(248, 182, 200, 0.55) !important;
+}
+
+.project-tagline {
+font-family: "Trebuchet MS", "Arial Rounded MT Bold", sans-serif !important;
+font-size: 1.15rem !important;
+font-weight: 700 !important;
+color: #5d7380 !important;
+background: rgba(255, 255, 255, 0.55) !important;
+display: inline-block !important;
+padding: 8px 16px !important;
+border-radius: 999px !important;
+margin-top: 10px !important;
 }
 
 @media screen and (max-width: 700px) {
-  .main-content h1 {
-    font-size: 2rem !important;
-    letter-spacing: 2px !important;
-  }
+.project-name {
+font-size: 2rem !important;
+letter-spacing: 1px !important;
+}
+
+.project-tagline {
+font-size: 0.95rem !important;
+}
 }
