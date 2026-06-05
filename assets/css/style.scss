@@ -375,3 +375,47 @@ body {
   margin: 0.35rem 0;
   line-height: 1.5;
 }
+
+.sidebar ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.sidebar li {
+  margin: 6px 0;
+}
+
+.sidebar a {
+  text-decoration: none;
+}
+
+.sidebar details {
+  margin: 8px 0;
+}
+
+.sidebar summary {
+  cursor: pointer;
+  font-weight: 600;
+  list-style: none;
+}
+
+.sidebar summary::-webkit-details-marker {
+  display: none;
+}
+
+.sidebar summary::before {
+  content: "▸ ";
+}
+
+.sidebar details[open] summary::before {
+  content: "▾ ";
+}
+
+.sidebar details ul {
+  padding-left: 18px;
+  margin-top: 6px;
+}
+
+.sidebar details li {
+  margin: 4px 0;
+}
