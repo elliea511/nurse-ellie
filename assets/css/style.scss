@@ -1374,3 +1374,74 @@ margin-left: 0.25rem !important;
     display: none !important;
   }
 }
+/* =========================================================
+   PRACTICE QUIZ DROPDOWN FIX
+   Makes answer dropdowns easier to read
+   ========================================================= */
+
+.main-content details {
+  background: #fff7cf !important;
+  border: 3px solid #ffe7a3 !important;
+  border-radius: 18px !important;
+  padding: 0.9rem 1rem !important;
+  margin: 1.4rem 0 2rem 0 !important;
+  box-shadow: 6px 6px 0 rgba(255, 231, 163, 0.28) !important;
+}
+
+.main-content details summary {
+  cursor: pointer !important;
+  font-weight: 900 !important;
+  color: #24455c !important;
+  background: white !important;
+  border-radius: 999px !important;
+  padding: 0.65rem 0.9rem !important;
+  list-style: none !important;
+  display: inline-block !important;
+  border: 2px solid #7fd8d2 !important;
+  box-shadow: 4px 4px 0 rgba(127, 216, 210, 0.22) !important;
+}
+
+.main-content details summary::-webkit-details-marker {
+  display: none !important;
+}
+
+.main-content details summary::before {
+  content: "▸ " !important;
+  color: #be185d !important;
+}
+
+.main-content details[open] summary::before {
+  content: "▾ " !important;
+  color: #2b8f8b !important;
+}
+
+.main-content details p,
+.main-content details li {
+  line-height: 1.8 !important;
+  margin-top: 0.7rem !important;
+  margin-bottom: 0.7rem !important;
+}
+
+.main-content details strong {
+  color: #be185d !important;
+}
+
+.main-content details[open] {
+  padding-bottom: 1.2rem !important;
+}
+/* =========================================================
+   PRACTICE QUESTION ANSWER CHOICE SPACING
+   ========================================================= */
+
+.main-content h2 + p,
+.main-content h3 + p {
+  margin-top: 1rem !important;
+}
+
+.main-content p {
+  line-height: 1.75 !important;
+}
+
+.main-content br {
+  line-height: 1.9 !important;
+}
