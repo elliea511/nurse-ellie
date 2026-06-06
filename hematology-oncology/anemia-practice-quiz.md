@@ -24,9 +24,10 @@ Try to answer each question before opening the dropdown. For priority questions,
 
 ## Question 1
 
-A nurse is planning care for a client who has a Hgb of 7.5 g/dL and Hct of 21.5%.
+A nurse is caring for a client admitted with fatigue, dizziness with position changes, and shortness of breath with activity. The morning laboratory results show Hgb 7.5 g/dL and Hct 21.5%.
 
 **Which actions should the nurse include in the plan of care? Select all that apply.**
+
 
 <p class="answer-choice"><strong>A.</strong> Provide assistance with ambulation.</p>
 
@@ -52,9 +53,10 @@ A nurse is planning care for a client who has a Hgb of 7.5 g/dL and Hct of 21.5%
 
 ## Question 2
 
-A nurse is teaching a client who has a new prescription for ferrous sulfate.
+A nurse is providing medication teaching to a client who has a new prescription for ferrous sulfate. The client asks how to take the medication at home.
 
 **Which information should the nurse include in the teaching?**
+
 
 <p class="answer-choice"><strong>A.</strong> Stools will become dark red.</p>
 
@@ -78,9 +80,10 @@ A nurse is teaching a client who has a new prescription for ferrous sulfate.
 
 ## Question 3
 
-A nurse is providing discharge teaching to a client who had a gastrectomy for stomach cancer.
+A nurse is providing discharge teaching to a client after gastric surgery. The client asks whether any long-term vitamin replacement will be needed.
 
 **Which information should the nurse include? Select all that apply.**
+
 
 <p class="answer-choice"><strong>A.</strong> “You will need monthly injections of vitamin B12 for the rest of your life.”</p>
 
@@ -106,9 +109,10 @@ A nurse is providing discharge teaching to a client who had a gastrectomy for st
 
 ## Question 4
 
-A nurse is completing an integumentary assessment of a client who has anemia.
+A nurse is assessing a client who reports fatigue, weakness, and shortness of breath with activity. The nurse is completing a focused skin and nail assessment.
 
 **Which finding should the nurse expect?**
+
 
 <p class="answer-choice"><strong>A.</strong> Absent skin turgor.</p>
 
@@ -132,9 +136,10 @@ A nurse is completing an integumentary assessment of a client who has anemia.
 
 ## Question 5
 
-A nurse in a clinic receives a phone call from a client seeking information about a new prescription for erythropoietin alfa.
+A client calls the clinic about a new prescription for epoetin alfa. The client asks what laboratory monitoring will be needed while taking the medication.
 
 **Which information should the nurse review with the client?**
+
 
 <p class="answer-choice"><strong>A.</strong> The client needs an erythrocyte sedimentation rate weekly.</p>
 
@@ -158,9 +163,10 @@ A nurse in a clinic receives a phone call from a client seeking information abou
 
 ## Question 6
 
-A client who has anemia reports increased fatigue and occasional palpitations at rest.
+A client reports worsening fatigue and occasional palpitations even while resting. The nurse reviews the client’s laboratory results.
 
-**Which laboratory finding should the nurse expect?**
+**Which laboratory finding is consistent with the client’s symptoms?**
+
 
 <p class="answer-choice"><strong>A.</strong> Normal RBC indices.</p>
 
@@ -184,7 +190,10 @@ A client who has anemia reports increased fatigue and occasional palpitations at
 
 ## Question 7
 
-**Which menu choice indicates that a client understands teaching about dietary choices for iron-deficiency anemia?**
+A client is choosing breakfast from the menu after receiving nutrition teaching for anemia. The nurse reviews the client’s selections.
+
+**Which menu choice indicates that the teaching was effective?**
+
 
 <p class="answer-choice"><strong>A.</strong> Omelet and whole wheat toast.</p>
 
@@ -208,9 +217,10 @@ A client who has anemia reports increased fatigue and occasional palpitations at
 
 ## Question 8
 
-A client who is receiving methotrexate develops megaloblastic anemia.
+A nurse is reviewing the medication list for a client who has developed a megaloblastic anemia. The client takes methotrexate.
 
 **The nurse should anticipate teaching the client about increasing oral intake of which nutrient?**
+
 
 <p class="answer-choice"><strong>A.</strong> Iron.</p>
 
@@ -234,9 +244,10 @@ A client who is receiving methotrexate develops megaloblastic anemia.
 
 ## Question 9
 
-A 52-year-old client has a new diagnosis of pernicious anemia.
+A nurse is reinforcing teaching for a client with a new diagnosis of pernicious anemia. The nurse asks the client to describe the treatment options.
 
 **Which statement indicates the client understands the disorder?**
+
 
 <p class="answer-choice"><strong>A.</strong> “I need to start eating more red meat or liver.”</p>
 
@@ -260,7 +271,10 @@ A 52-year-old client has a new diagnosis of pernicious anemia.
 
 ## Question 10
 
-**After teaching a client about taking oral ferrous sulfate, which statement indicates that additional teaching is needed?**
+A nurse teaches a client how to take oral ferrous sulfate and then asks the client to repeat the instructions.
+
+**Which client statement indicates that additional instruction is needed?**
+
 
 <p class="answer-choice"><strong>A.</strong> “I will call the provider if my stools start to turn black.”</p>
 
@@ -284,7 +298,10 @@ A 52-year-old client has a new diagnosis of pernicious anemia.
 
 ## Question 11
 
-**Which statement by a client who has sickle cell anemia indicates good understanding of teaching about preventing sickle cell crisis?**
+A nurse is teaching a client who has sickle cell anemia about ways to reduce the risk for future crises.
+
+**Which statement by the client indicates good understanding of the teaching?**
+
 
 <p class="answer-choice"><strong>A.</strong> “Home oxygen therapy is frequently used to decrease sickling.”</p>
 
@@ -308,9 +325,10 @@ A 52-year-old client has a new diagnosis of pernicious anemia.
 
 ## Question 12
 
-A nurse is planning discharge teaching for a client admitted with a sickle cell crisis.
+A nurse is preparing discharge instructions for a client who was hospitalized for a sickle cell crisis.
 
 **Which instruction should the nurse include?**
+
 
 <p class="answer-choice"><strong>A.</strong> Limit fluids to 2 to 3 quarts per day.</p>
 
@@ -334,9 +352,10 @@ A nurse is planning discharge teaching for a client admitted with a sickle cell 
 
 ## Question 13
 
-A nurse is caring for a client who has pernicious anemia.
+A nurse is reviewing anemia disorders with a client who asks about pernicious anemia.
 
 **Which deficiency is associated with this disorder?**
+
 
 <p class="answer-choice"><strong>A.</strong> Vitamin C deficiency.</p>
 
@@ -360,9 +379,10 @@ A nurse is caring for a client who has pernicious anemia.
 
 ## Question 14
 
-A nurse is planning care for a client who has pernicious anemia.
+A nurse is planning care for a client who has pernicious anemia and reports fatigue, a sore tongue, and numbness in the feet.
 
 **Which intervention should the nurse anticipate?**
+
 
 <p class="answer-choice"><strong>A.</strong> Administer oral iron with orange juice.</p>
 
@@ -386,9 +406,10 @@ A nurse is planning care for a client who has pernicious anemia.
 
 ## Question 15
 
-A nurse is teaching a client who has a prescription for epoetin alfa.
+A nurse is teaching a client about a new prescription for epoetin alfa.
 
 **Which statement should the nurse include?**
+
 
 <p class="answer-choice"><strong>A.</strong> “This medication is used to dissolve blood clots.”</p>
 
@@ -412,9 +433,10 @@ A nurse is teaching a client who has a prescription for epoetin alfa.
 
 ## Question 16
 
-A nurse is caring for a child who has sickle cell anemia and is experiencing a vaso-occlusive crisis.
+A nurse is caring for a child admitted with a vaso-occlusive crisis. The child reports severe pain and is receiving prescribed medications and fluids.
 
 **Which intervention should the nurse include in the plan of care?**
+
 
 <p class="answer-choice"><strong>A.</strong> Apply cold compresses to painful joints.</p>
 
@@ -442,6 +464,7 @@ A nurse is preparing to administer packed RBCs to a client.
 
 **Which action should the nurse take first?**
 
+
 <p class="answer-choice"><strong>A.</strong> Prime the blood tubing with lactated Ringer’s solution.</p>
 
 <p class="answer-choice"><strong>B.</strong> Begin the transfusion at a rapid rate.</p>
@@ -464,9 +487,10 @@ A nurse is preparing to administer packed RBCs to a client.
 
 ## Question 18
 
-A nurse is teaching a client who has iron deficiency anemia about increasing dietary iron.
+A nurse is teaching a client about foods that can help increase iron intake.
 
 **Which food should the nurse recommend?**
+
 
 <p class="answer-choice"><strong>A.</strong> Greek yogurt.</p>
 
@@ -490,9 +514,10 @@ A nurse is teaching a client who has iron deficiency anemia about increasing die
 
 ## Question 19
 
-A nurse is assessing a client who has aplastic anemia.
+A nurse is assessing a client who has bone marrow failure affecting all blood cell lines.
 
 **Which finding should the nurse expect?**
+
 
 <p class="answer-choice"><strong>A.</strong> Flushed skin and hypertension.</p>
 
@@ -516,13 +541,14 @@ A nurse is assessing a client who has aplastic anemia.
 
 ## Question 20
 
-A nurse is providing discharge teaching to a client who has aplastic anemia.
+A nurse is providing discharge teaching to a client who has low blood cell counts and is at risk for infection and bleeding.
 
 **Which statement indicates understanding of the teaching?**
 
+
 <p class="answer-choice"><strong>A.</strong> “I should take aspirin if I develop body aches.”</p>
 
-<p class="answer-choice"><strong>B.</strong> “I should floss aggressively to prevent gum infection.”</p>
+<p class="answer-choice"><strong>B.</strong> “I should floss frequently to prevent gum infection.”</p>
 
 <p class="answer-choice"><strong>C.</strong> “I should eliminate uncooked foods from my diet for now.”</p>
 
@@ -546,7 +572,7 @@ A nurse is preparing to administer IM iron dextran.
 
 **Which action should the nurse take?**
 
-<p class="answer-choice"><strong>A.</strong> Use a 20-gauge needle and administer the medication using the Z-track method.</p>
+<p class="answer-choice"><strong>A.</strong> Administer the medication using the Z-track method.</p>
 
 <p class="answer-choice"><strong>B.</strong> Massage the injection site after administration.</p>
 
@@ -568,9 +594,10 @@ A nurse is preparing to administer IM iron dextran.
 
 ## Question 22
 
-A nurse is teaching a client who has pernicious anemia about dietary sources of vitamin B12.
+A nurse is teaching a client about dietary sources of vitamin B12.
 
 **Which food should the nurse include?**
+
 
 <p class="answer-choice"><strong>A.</strong> Eggs.</p>
 
@@ -594,9 +621,10 @@ A nurse is teaching a client who has pernicious anemia about dietary sources of 
 
 ## Question 23
 
-A nurse is caring for a client who has ulcerative colitis and reports increasing fatigue, dizziness, and shortness of breath with activity. The client’s Hgb is 8.9 g/dL.
+A nurse is caring for a client who has a history of ulcerative colitis and now reports fatigue, dizziness, and shortness of breath with activity. The client’s Hgb is 8.9 g/dL.
 
 **Which finding should the nurse expect?**
+
 
 <p class="answer-choice"><strong>A.</strong> Increased ferritin level.</p>
 
@@ -620,9 +648,10 @@ A nurse is caring for a client who has ulcerative colitis and reports increasing
 
 ## Question 24
 
-A nurse is collecting a fecal occult blood test for a client who has suspected iron deficiency anemia.
+A nurse is preparing to collect a stool specimen for occult blood testing.
 
 **Which action should the nurse take?**
+
 
 <p class="answer-choice"><strong>A.</strong> Collect the stool specimen from the toilet water after the client has a bowel movement.</p>
 
@@ -646,9 +675,10 @@ A nurse is collecting a fecal occult blood test for a client who has suspected i
 
 ## Question 25
 
-A nurse is teaching a client who has iron deficiency anemia and reports nausea when taking oral ferrous sulfate.
+A client who is prescribed oral ferrous sulfate reports nausea when taking the medication before meals. The client asks how to decrease stomach upset while still helping the medication work.
 
 **Which instruction should the nurse include?**
+
 
 <p class="answer-choice"><strong>A.</strong> Take the medication with milk to decrease stomach irritation.</p>
 
@@ -672,9 +702,10 @@ A nurse is teaching a client who has iron deficiency anemia and reports nausea w
 
 ## Question 26
 
-A nurse is teaching a client who has iron deficiency anemia and recently started oral ferrous sulfate.
+A client started oral ferrous sulfate 1 week ago and tells the nurse, “I still feel tired, so I don’t think this is helping.”
 
-**The client states, “I have been taking this for a week, but I still feel tired.” Which response should the nurse make?**
+**Which response should the nurse make?**
+
 
 <p class="answer-choice"><strong>A.</strong> “You should stop taking the medication since it is not helping.”</p>
 
@@ -698,9 +729,10 @@ A nurse is teaching a client who has iron deficiency anemia and recently started
 
 ## Question 27
 
-A nurse is precepting a newly licensed nurse who is assisting with a 24-hour urine collection for a Schilling test.
+A nurse is precepting a newly licensed nurse who is assisting with a 24-hour urine collection.
 
 **Which statement by the newly licensed nurse requires correction?**
+
 
 <p class="answer-choice"><strong>A.</strong> “If one urine specimen is missed, we should continue the test and document it.”</p>
 
@@ -724,9 +756,10 @@ A nurse is precepting a newly licensed nurse who is assisting with a 24-hour uri
 
 ## Question 28
 
-A nurse is teaching a client who has folic acid deficiency anemia.
+A nurse is reviewing diet choices with a client who has a megaloblastic anemia related to folate deficiency.
 
 **Which meal choice indicates the client understands the teaching?**
+
 
 <p class="answer-choice"><strong>A.</strong> Grilled chicken, white rice, and milk.</p>
 
@@ -750,11 +783,11 @@ A nurse is teaching a client who has folic acid deficiency anemia.
 
 ## Question 29
 
-A nurse is teaching an adolescent who has sickle cell anemia about preventing a vaso-occlusive crisis.
+A nurse is teaching an adolescent who has sickle cell anemia about preventing future episodes while participating in school and sports.
 
 **Which statement indicates understanding?**
 
-<p class="answer-choice"><strong>A.</strong> “I should drink extra fluids when I exercise or when the weather is hot.”</p>
+<p class="answer-choice"><strong>A.</strong> “I should drink extra fluids when the weather is hot.”</p>
 
 <p class="answer-choice"><strong>B.</strong> “I should limit fluids when I feel short of breath.”</p>
 
@@ -776,9 +809,10 @@ A nurse is teaching an adolescent who has sickle cell anemia about preventing a 
 
 ## Question 30
 
-A nurse is providing discharge teaching to a client who has aplastic anemia and neutropenia.
+A nurse is reviewing food safety instructions with a client who has severe neutropenia.
 
 **Which food choice indicates the client needs further teaching?**
+
 
 <p class="answer-choice"><strong>A.</strong> Canned peaches.</p>
 
@@ -802,9 +836,10 @@ A nurse is providing discharge teaching to a client who has aplastic anemia and 
 
 ## Question 31
 
-A nurse is teaching the parent of a child who has thalassemia and receives frequent blood transfusions.
+A nurse is teaching the parent of a child who receives frequent blood transfusions for a chronic inherited anemia. The nurse discusses complications of repeated transfusions.
 
 **Which statement by the parent indicates understanding?**
+
 
 <p class="answer-choice"><strong>A.</strong> “I should give my child an iron supplement every morning.”</p>
 
@@ -828,9 +863,10 @@ A nurse is teaching the parent of a child who has thalassemia and receives frequ
 
 ## Question 32
 
-A nurse is teaching a client who has G6PD deficiency.
+A nurse is teaching a client who has an inherited enzyme deficiency that can cause hemolysis after certain exposures.
 
 **Which statement by the client indicates a need for further teaching?**
+
 
 <p class="answer-choice"><strong>A.</strong> “I should ask my provider before taking new medications.”</p>
 
@@ -854,9 +890,10 @@ A nurse is teaching a client who has G6PD deficiency.
 
 ## Question 33
 
-A nurse is caring for a child who has sickle cell anemia and reports chest pain. The child has a temperature of 38.6° C (101.5° F), cough, tachypnea, and decreased oxygen saturation.
+A nurse is caring for a child who has sickle cell anemia. The child reports chest pain and has a fever, cough, tachypnea, and decreased oxygen saturation.
 
 **Which complication should the nurse suspect?**
+
 
 <p class="answer-choice"><strong>A.</strong> Splenic sequestration.</p>
 
@@ -880,9 +917,10 @@ A nurse is caring for a child who has sickle cell anemia and reports chest pain.
 
 ## Question 34
 
-A nurse is caring for a client who has sickle cell anemia and is experiencing a vaso-occlusive crisis. The client reports severe generalized pain, has dry mucous membranes, oxygen saturation of 92%, and temperature of 37.8° C (100° F).
+A nurse is caring for a client who has sickle cell anemia and is experiencing severe pain. The client has dry mucous membranes, oxygen saturation of 92%, and a temperature of 37.8° C (100° F). Several prescriptions are available.
 
 **Which action should the nurse take first?**
+
 
 <p class="answer-choice"><strong>A.</strong> Initiate IV fluid therapy as prescribed.</p>
 
@@ -906,9 +944,10 @@ A nurse is caring for a client who has sickle cell anemia and is experiencing a 
 
 ## Question 35
 
-A nurse is caring for a client who has aplastic anemia.
+A nurse is caring for a client who has aplastic anemia. The nurse reviews the client’s assessment findings.
 
 **Which finding is the priority to report to the provider?**
+
 
 <p class="answer-choice"><strong>A.</strong> Fatigue with activity.</p>
 
@@ -932,7 +971,10 @@ A nurse is caring for a client who has aplastic anemia.
 
 ## Question 36
 
-**A client receiving packed RBCs reports chills, low back pain, and feeling “something is wrong.” Which action should the nurse take first?**
+A client receiving packed RBCs reports chills, low back pain, and states, “Something is wrong.”
+
+**Which action should the nurse take first?**
+
 
 <p class="answer-choice"><strong>A.</strong> Notify the blood bank.</p>
 
@@ -956,9 +998,10 @@ A nurse is caring for a client who has aplastic anemia.
 
 ## Question 37
 
-A nurse is caring for a client who has blood loss anemia. The client is pale and diaphoretic with a blood pressure of 86/50 mm Hg and heart rate of 124/min.
+A nurse is caring for a client who has acute blood loss. The client is pale and diaphoretic, with a blood pressure of 86/50 mm Hg and heart rate of 124/min.
 
 **Which action should the nurse take first?**
+
 
 <p class="answer-choice"><strong>A.</strong> Teach the client to increase iron-rich foods.</p>
 
@@ -982,9 +1025,10 @@ A nurse is caring for a client who has blood loss anemia. The client is pale and
 
 ## Question 38
 
-A nurse is caring for a client who has pernicious anemia.
+A nurse is caring for a client who has pernicious anemia and reviews the client’s assessment findings.
 
 **Which finding is the priority for the nurse to address?**
+
 
 <p class="answer-choice"><strong>A.</strong> Unsteady gait and numbness in both feet.</p>
 
@@ -1008,9 +1052,10 @@ A nurse is caring for a client who has pernicious anemia.
 
 ## Question 39
 
-A nurse is caring for a client who has iron deficiency anemia. The client reports dizziness when standing, shortness of breath with activity, and fatigue. The client’s Hgb is 8.2 g/dL.
+A nurse is caring for a client who has anemia and reports dizziness when standing, shortness of breath with activity, and fatigue. The client’s Hgb is 8.2 g/dL.
 
 **Which action should the nurse take first?**
+
 
 <p class="answer-choice"><strong>A.</strong> Obtain a stool specimen for occult blood.</p>
 
@@ -1034,9 +1079,10 @@ A nurse is caring for a client who has iron deficiency anemia. The client report
 
 ## Question 40
 
-A nurse is caring for a client who has aplastic anemia and Hgb of 6.9 g/dL.
+A nurse is caring for a client who has severe anemia. The provider prescribes packed RBCs, but the client refuses the transfusion due to religious beliefs.
 
-**The provider prescribes packed RBCs, but the client states, “I am a Jehovah’s Witness, and I do not accept blood transfusions.” Which action should the nurse take first?**
+**Which action should the nurse take first?**
+
 
 <p class="answer-choice"><strong>A.</strong> Ask the provider to prescribe epoetin alfa as an alternative.</p>
 
@@ -1064,6 +1110,7 @@ A nurse is teaching a client who has sickle cell trait and is planning a pregnan
 
 **Which statement should the nurse include?**
 
+
 <p class="answer-choice"><strong>A.</strong> “Sickle cell disease is an autosomal recessive disorder.”</p>
 
 <p class="answer-choice"><strong>B.</strong> “Sickle cell disease is an X-linked recessive disorder.”</p>
@@ -1086,9 +1133,10 @@ A nurse is teaching a client who has sickle cell trait and is planning a pregnan
 
 ## Question 42
 
-A nurse is monitoring a client who has heart failure and is receiving packed RBCs for severe anemia.
+A nurse is monitoring a client who has heart failure while the client is receiving packed RBCs.
 
 **Which finding is the priority for the nurse to report?**
+
 
 <p class="answer-choice"><strong>A.</strong> Blood pressure increased from 118/72 mm Hg to 138/84 mm Hg.</p>
 
@@ -1112,9 +1160,10 @@ A nurse is monitoring a client who has heart failure and is receiving packed RBC
 
 ## Question 43
 
-A nurse is teaching a client who has pernicious anemia and is receiving cyanocobalamin injections.
+A nurse is teaching a client who receives cyanocobalamin injections. The client asks about a change in urine color after treatment.
 
 **Which statement by the client indicates understanding?**
+
 
 <p class="answer-choice"><strong>A.</strong> “I should stop the injections if my urine turns bright yellow.”</p>
 
@@ -1142,6 +1191,7 @@ A nurse is reviewing prescriptions for a client who has G6PD deficiency.
 
 **Which prescription should the nurse question?**
 
+
 <p class="answer-choice"><strong>A.</strong> Acetaminophen for mild pain.</p>
 
 <p class="answer-choice"><strong>B.</strong> Sulfamethoxazole-trimethoprim for infection.</p>
@@ -1164,9 +1214,10 @@ A nurse is reviewing prescriptions for a client who has G6PD deficiency.
 
 ## Question 45
 
-A nurse is caring for a client who has macrocytic anemia. The client reports fatigue and glossitis but denies numbness, tingling, or gait problems. The client takes phenytoin for seizure control.
+A nurse is caring for a client who has macrocytic anemia, fatigue, and glossitis. The client denies numbness, tingling, or gait problems and takes phenytoin.
 
 **Which deficiency should the nurse suspect?**
+
 
 <p class="answer-choice"><strong>A.</strong> Iron deficiency.</p>
 
@@ -1193,6 +1244,7 @@ A nurse is caring for a client who has macrocytic anemia. The client reports fat
 A nurse is caring for a client who had acute blood loss and received IV isotonic fluids. The client’s blood pressure has improved, but repeat Hgb and Hct are lower than the initial results.
 
 **Which explanation should the nurse understand?**
+
 
 <p class="answer-choice"><strong>A.</strong> The IV fluids restored circulating volume but diluted the remaining blood.</p>
 
