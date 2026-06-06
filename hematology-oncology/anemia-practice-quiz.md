@@ -8,13 +8,15 @@ title: Anemia Practice Quiz
 
 <div class="note" markdown="1">
 
+
+Forty-six ATI/NCLEX-style practice questions covering anemia care, iron deficiency, pernicious anemia, folic acid deficiency, aplastic anemia, sickle cell anemia, G6PD deficiency, thalassemia, blood loss anemia, and blood transfusions.
+
+</div>
+
 <div class="nclex" markdown="1">
 
-Try to answer each question before opening the dropdown. 
 
-
-
-For priority questions, ask what is most urgent: oxygenation, circulation, infection, bleeding, safety, or patient rights.
+Try to answer each question before opening the dropdown. For priority questions, ask what is most urgent: oxygenation, circulation, infection, bleeding, safety, or patient rights.
 
 </div>
 
@@ -26,23 +28,23 @@ A nurse is planning care for a client who has a Hgb of 7.5 g/dL and Hct of 21.5%
 
 **Which actions should the nurse include in the plan of care? Select all that apply.**
 
-A. Provide assistance with ambulation.
+<p class="answer-choice"><strong>A.</strong> Provide assistance with ambulation.</p>
 
-B. Monitor oxygen saturation.
+<p class="answer-choice"><strong>B.</strong> Monitor oxygen saturation.</p>
 
-C. Weigh the client weekly.
+<p class="answer-choice"><strong>C.</strong> Weigh the client weekly.</p>
 
-D. Obtain a stool specimen for occult blood.
+<p class="answer-choice"><strong>D.</strong> Obtain a stool specimen for occult blood.</p>
 
-E. Schedule daily rest periods.
+<p class="answer-choice"><strong>E.</strong> Schedule daily rest periods.</p>
 
 <details>
 <summary>Click to see answer and rationale</summary>
 
 
-**Answer: A, B, D, E**
+<p class="quiz-answer"><strong>Answer: A, B, D, E</strong></p>
 
-**Rationale:** Clients who have anemia can experience dizziness, fatigue, and decreased oxygen-carrying capacity. The nurse should assist with ambulation to prevent falls, monitor oxygen saturation, assess for possible blood loss such as occult GI bleeding, and schedule rest periods to conserve energy. Weekly weights are not a priority intervention for anemia.
+<p class="quiz-rationale"><strong>Rationale:</strong> Clients who have anemia can experience dizziness, fatigue, and decreased oxygen-carrying capacity. The nurse should assist with ambulation to prevent falls, monitor oxygen saturation, assess for possible blood loss such as occult GI bleeding, and schedule rest periods to conserve energy. Weekly weights are not a priority intervention for anemia.</p>
 
 </details>
 
@@ -54,21 +56,21 @@ A nurse is teaching a client who has a new prescription for ferrous sulfate.
 
 **Which information should the nurse include in the teaching?**
 
-A. Stools will become dark red.
+<p class="answer-choice"><strong>A.</strong> Stools will become dark red.</p>
 
-B. Take the medication with a glass of milk if gastrointestinal distress occurs.
+<p class="answer-choice"><strong>B.</strong> Take the medication with a glass of milk if gastrointestinal distress occurs.</p>
 
-C. Foods high in vitamin C will promote absorption.
+<p class="answer-choice"><strong>C.</strong> Foods high in vitamin C will promote absorption.</p>
 
-D. Take the medication for 14 days.
+<p class="answer-choice"><strong>D.</strong> Take the medication for 14 days.</p>
 
 <details>
 <summary>Click to see answer and rationale</summary>
 
 
-**Answer: C**
+<p class="quiz-answer"><strong>Answer: C</strong></p>
 
-**Rationale:** Vitamin C enhances iron absorption in the intestinal tract. Stools can become black or dark green, not dark red. Milk decreases iron absorption. Iron therapy usually continues longer than 14 days and should be taken as prescribed.
+<p class="quiz-rationale"><strong>Rationale:</strong> Vitamin C enhances iron absorption in the intestinal tract. Stools can become black or dark green, not dark red. Milk decreases iron absorption. Iron therapy usually continues longer than 14 days and should be taken as prescribed.</p>
 
 </details>
 
@@ -80,23 +82,23 @@ A nurse is providing discharge teaching to a client who had a gastrectomy for st
 
 **Which information should the nurse include? Select all that apply.**
 
-A. “You will need monthly injections of vitamin B12 for the rest of your life.”
+<p class="answer-choice"><strong>A.</strong> “You will need monthly injections of vitamin B12 for the rest of your life.”</p>
 
-B. “Using the nasal spray form of vitamin B12 daily can be an option.”
+<p class="answer-choice"><strong>B.</strong> “Using the nasal spray form of vitamin B12 daily can be an option.”</p>
 
-C. “An oral supplement of vitamin B12 taken daily can be an option.”
+<p class="answer-choice"><strong>C.</strong> “An oral supplement of vitamin B12 taken daily can be an option.”</p>
 
-D. “You should increase your intake of animal proteins, legumes, and dairy products to increase vitamin B12 in your diet.”
+<p class="answer-choice"><strong>D.</strong> “You should increase your intake of animal proteins, legumes, and dairy products to increase vitamin B12 in your diet.”</p>
 
-E. “Add soy milk fortified with vitamin B12 to your diet to decrease the risk of pernicious anemia.”
+<p class="answer-choice"><strong>E.</strong> “Add soy milk fortified with vitamin B12 to your diet to decrease the risk of pernicious anemia.”</p>
 
 <details>
 <summary>Click to see answer and rationale</summary>
 
 
-**Answer: A, B**
+<p class="quiz-answer"><strong>Answer: A, B</strong></p>
 
-**Rationale:** After gastrectomy, the client lacks intrinsic factor needed to absorb vitamin B12. The client will need lifelong vitamin B12 replacement, usually injections. Intranasal cyanocobalamin can be used for maintenance in some clients. Oral B12 and diet alone are not reliable if intrinsic factor is absent.
+<p class="quiz-rationale"><strong>Rationale:</strong> After gastrectomy, the client lacks intrinsic factor needed to absorb vitamin B12. The client will need lifelong vitamin B12 replacement, usually injections. Intranasal cyanocobalamin can be used for maintenance in some clients. Oral B12 and diet alone are not reliable if intrinsic factor is absent.</p>
 
 </details>
 
@@ -108,21 +110,21 @@ A nurse is completing an integumentary assessment of a client who has anemia.
 
 **Which finding should the nurse expect?**
 
-A. Absent skin turgor.
+<p class="answer-choice"><strong>A.</strong> Absent skin turgor.</p>
 
-B. Spoon-shaped nails.
+<p class="answer-choice"><strong>B.</strong> Spoon-shaped nails.</p>
 
-C. Shiny, hairless legs.
+<p class="answer-choice"><strong>C.</strong> Shiny, hairless legs.</p>
 
-D. Yellow mucous membranes.
+<p class="answer-choice"><strong>D.</strong> Yellow mucous membranes.</p>
 
 <details>
 <summary>Click to see answer and rationale</summary>
 
 
-**Answer: B**
+<p class="quiz-answer"><strong>Answer: B</strong></p>
 
-**Rationale:** Spoon-shaped nails, also called koilonychia, can occur with iron deficiency anemia. Absent turgor suggests dehydration. Shiny, hairless legs suggest peripheral arterial disease. Yellow mucous membranes are more associated with jaundice.
+<p class="quiz-rationale"><strong>Rationale:</strong> Spoon-shaped nails, also called koilonychia, can occur with iron deficiency anemia. Absent turgor suggests dehydration. Shiny, hairless legs suggest peripheral arterial disease. Yellow mucous membranes are more associated with jaundice.</p>
 
 </details>
 
@@ -134,21 +136,21 @@ A nurse in a clinic receives a phone call from a client seeking information abou
 
 **Which information should the nurse review with the client?**
 
-A. The client needs an erythrocyte sedimentation rate weekly.
+<p class="answer-choice"><strong>A.</strong> The client needs an erythrocyte sedimentation rate weekly.</p>
 
-B. The client should have hemoglobin checked twice a week.
+<p class="answer-choice"><strong>B.</strong> The client should have hemoglobin checked twice a week.</p>
 
-C. Oxygen saturation levels should be monitored every 4 hr.
+<p class="answer-choice"><strong>C.</strong> Oxygen saturation levels should be monitored every 4 hr.</p>
 
-D. Folic acid production will increase.
+<p class="answer-choice"><strong>D.</strong> Folic acid production will increase.</p>
 
 <details>
 <summary>Click to see answer and rationale</summary>
 
 
-**Answer: B**
+<p class="quiz-answer"><strong>Answer: B</strong></p>
 
-**Rationale:** Hemoglobin and hematocrit are monitored during erythropoietin alfa therapy until the target level is reached. Erythropoietin alfa stimulates RBC production, but it does not increase folic acid production.
+<p class="quiz-rationale"><strong>Rationale:</strong> Hemoglobin and hematocrit are monitored during erythropoietin alfa therapy until the target level is reached. Erythropoietin alfa stimulates RBC production, but it does not increase folic acid production.</p>
 
 </details>
 
@@ -160,21 +162,21 @@ A client who has anemia reports increased fatigue and occasional palpitations at
 
 **Which laboratory finding should the nurse expect?**
 
-A. Normal RBC indices.
+<p class="answer-choice"><strong>A.</strong> Normal RBC indices.</p>
 
-B. Hematocrit of 38%.
+<p class="answer-choice"><strong>B.</strong> Hematocrit of 38%.</p>
 
-C. Hemoglobin of 8.6 g/dL.
+<p class="answer-choice"><strong>C.</strong> Hemoglobin of 8.6 g/dL.</p>
 
-D. RBC count of 4,500,000/mm³.
+<p class="answer-choice"><strong>D.</strong> RBC count of 4,500,000/mm³.</p>
 
 <details>
 <summary>Click to see answer and rationale</summary>
 
 
-**Answer: C**
+<p class="quiz-answer"><strong>Answer: C</strong></p>
 
-**Rationale:** Fatigue and palpitations at rest are consistent with moderate anemia. A hemoglobin of 8.6 g/dL is low. The other values are generally within expected adult ranges.
+<p class="quiz-rationale"><strong>Rationale:</strong> Fatigue and palpitations at rest are consistent with moderate anemia. A hemoglobin of 8.6 g/dL is low. The other values are generally within expected adult ranges.</p>
 
 </details>
 
@@ -184,21 +186,21 @@ D. RBC count of 4,500,000/mm³.
 
 **Which menu choice indicates that a client understands teaching about dietary choices for iron-deficiency anemia?**
 
-A. Omelet and whole wheat toast.
+<p class="answer-choice"><strong>A.</strong> Omelet and whole wheat toast.</p>
 
-B. Cantaloupe and cottage cheese.
+<p class="answer-choice"><strong>B.</strong> Cantaloupe and cottage cheese.</p>
 
-C. Strawberry and banana fruit plate.
+<p class="answer-choice"><strong>C.</strong> Strawberry and banana fruit plate.</p>
 
-D. Cornmeal muffin and orange juice.
+<p class="answer-choice"><strong>D.</strong> Cornmeal muffin and orange juice.</p>
 
 <details>
 <summary>Click to see answer and rationale</summary>
 
 
-**Answer: A**
+<p class="quiz-answer"><strong>Answer: A</strong></p>
 
-**Rationale:** Eggs and whole grain breads contain iron. The other options may contain helpful nutrients, but they are not the best choice for iron-deficiency anemia. Dairy can decrease iron absorption.
+<p class="quiz-rationale"><strong>Rationale:</strong> Eggs and whole grain breads contain iron. The other options may contain helpful nutrients, but they are not the best choice for iron-deficiency anemia. Dairy can decrease iron absorption.</p>
 
 </details>
 
@@ -210,21 +212,21 @@ A client who is receiving methotrexate develops megaloblastic anemia.
 
 **The nurse should anticipate teaching the client about increasing oral intake of which nutrient?**
 
-A. Iron.
+<p class="answer-choice"><strong>A.</strong> Iron.</p>
 
-B. Folic acid.
+<p class="answer-choice"><strong>B.</strong> Folic acid.</p>
 
-C. Cobalamin, vitamin B12.
+<p class="answer-choice"><strong>C.</strong> Cobalamin, vitamin B12.</p>
 
-D. Ascorbic acid, vitamin C.
+<p class="answer-choice"><strong>D.</strong> Ascorbic acid, vitamin C.</p>
 
 <details>
 <summary>Click to see answer and rationale</summary>
 
 
-**Answer: B**
+<p class="quiz-answer"><strong>Answer: B</strong></p>
 
-**Rationale:** Methotrexate can interfere with folic acid metabolism and contribute to folic acid deficiency anemia. Folic acid supplementation is commonly needed.
+<p class="quiz-rationale"><strong>Rationale:</strong> Methotrexate can interfere with folic acid metabolism and contribute to folic acid deficiency anemia. Folic acid supplementation is commonly needed.</p>
 
 </details>
 
@@ -236,21 +238,21 @@ A 52-year-old client has a new diagnosis of pernicious anemia.
 
 **Which statement indicates the client understands the disorder?**
 
-A. “I need to start eating more red meat or liver.”
+<p class="answer-choice"><strong>A.</strong> “I need to start eating more red meat or liver.”</p>
 
-B. “I will stop having a glass of wine with dinner.”
+<p class="answer-choice"><strong>B.</strong> “I will stop having a glass of wine with dinner.”</p>
 
-C. “I will need to take a proton pump inhibitor like omeprazole.”
+<p class="answer-choice"><strong>C.</strong> “I will need to take a proton pump inhibitor like omeprazole.”</p>
 
-D. “I would rather use the nasal spray than get injections of vitamin B12.”
+<p class="answer-choice"><strong>D.</strong> “I would rather use the nasal spray than get injections of vitamin B12.”</p>
 
 <details>
 <summary>Click to see answer and rationale</summary>
 
 
-**Answer: D**
+<p class="quiz-answer"><strong>Answer: D</strong></p>
 
-**Rationale:** Pernicious anemia prevents normal absorption of vitamin B12 due to lack of intrinsic factor. Vitamin B12 must be replaced by injection or sometimes intranasal therapy. Diet alone will not correct pernicious anemia caused by lack of intrinsic factor.
+<p class="quiz-rationale"><strong>Rationale:</strong> Pernicious anemia prevents normal absorption of vitamin B12 due to lack of intrinsic factor. Vitamin B12 must be replaced by injection or sometimes intranasal therapy. Diet alone will not correct pernicious anemia caused by lack of intrinsic factor.</p>
 
 </details>
 
@@ -260,21 +262,21 @@ D. “I would rather use the nasal spray than get injections of vitamin B12.”
 
 **After teaching a client about taking oral ferrous sulfate, which statement indicates that additional teaching is needed?**
 
-A. “I will call the provider if my stools start to turn black.”
+<p class="answer-choice"><strong>A.</strong> “I will call the provider if my stools start to turn black.”</p>
 
-B. “I will take a stool softener if I feel constipated occasionally.”
+<p class="answer-choice"><strong>B.</strong> “I will take a stool softener if I feel constipated occasionally.”</p>
 
-C. “I should take the iron with orange juice about an hour before eating.”
+<p class="answer-choice"><strong>C.</strong> “I should take the iron with orange juice about an hour before eating.”</p>
 
-D. “I should increase my fluid and fiber intake while I am taking iron tablets.”
+<p class="answer-choice"><strong>D.</strong> “I should increase my fluid and fiber intake while I am taking iron tablets.”</p>
 
 <details>
 <summary>Click to see answer and rationale</summary>
 
 
-**Answer: A**
+<p class="quiz-answer"><strong>Answer: A</strong></p>
 
-**Rationale:** Black stools are expected when taking iron and do not require calling the provider. Constipation can occur, so fluids, fiber, and stool softeners may be appropriate. Orange juice improves absorption because it contains vitamin C.
+<p class="quiz-rationale"><strong>Rationale:</strong> Black stools are expected when taking iron and do not require calling the provider. Constipation can occur, so fluids, fiber, and stool softeners may be appropriate. Orange juice improves absorption because it contains vitamin C.</p>
 
 </details>
 
@@ -284,21 +286,21 @@ D. “I should increase my fluid and fiber intake while I am taking iron tablets
 
 **Which statement by a client who has sickle cell anemia indicates good understanding of teaching about preventing sickle cell crisis?**
 
-A. “Home oxygen therapy is frequently used to decrease sickling.”
+<p class="answer-choice"><strong>A.</strong> “Home oxygen therapy is frequently used to decrease sickling.”</p>
 
-B. “There are no effective medications that can help prevent sickling.”
+<p class="answer-choice"><strong>B.</strong> “There are no effective medications that can help prevent sickling.”</p>
 
-C. “Routine continuous-dose narcotics are prescribed to prevent a crisis.”
+<p class="answer-choice"><strong>C.</strong> “Routine continuous-dose narcotics are prescribed to prevent a crisis.”</p>
 
-D. “My risk for a crisis can be lowered by having an annual influenza vaccination.”
+<p class="answer-choice"><strong>D.</strong> “My risk for a crisis can be lowered by having an annual influenza vaccination.”</p>
 
 <details>
 <summary>Click to see answer and rationale</summary>
 
 
-**Answer: D**
+<p class="quiz-answer"><strong>Answer: D</strong></p>
 
-**Rationale:** Infection is a major trigger for sickle cell crisis. Vaccinations, including influenza, pneumococcal, meningococcal, and hepatitis vaccines, help decrease infection risk.
+<p class="quiz-rationale"><strong>Rationale:</strong> Infection is a major trigger for sickle cell crisis. Vaccinations, including influenza, pneumococcal, meningococcal, and hepatitis vaccines, help decrease infection risk.</p>
 
 </details>
 
@@ -310,21 +312,21 @@ A nurse is planning discharge teaching for a client admitted with a sickle cell 
 
 **Which instruction should the nurse include?**
 
-A. Limit fluids to 2 to 3 quarts per day.
+<p class="answer-choice"><strong>A.</strong> Limit fluids to 2 to 3 quarts per day.</p>
 
-B. Take a daily multivitamin with iron.
+<p class="answer-choice"><strong>B.</strong> Take a daily multivitamin with iron.</p>
 
-C. Avoid exposure to crowds as much as possible.
+<p class="answer-choice"><strong>C.</strong> Avoid exposure to crowds as much as possible.</p>
 
-D. Drink only one or two caffeinated beverages daily.
+<p class="answer-choice"><strong>D.</strong> Drink only one or two caffeinated beverages daily.</p>
 
 <details>
 <summary>Click to see answer and rationale</summary>
 
 
-**Answer: C**
+<p class="quiz-answer"><strong>Answer: C</strong></p>
 
-**Rationale:** Exposure to crowds increases infection risk, and infection can trigger a sickle cell crisis. Clients should stay well hydrated and should not routinely take iron unless prescribed.
+<p class="quiz-rationale"><strong>Rationale:</strong> Exposure to crowds increases infection risk, and infection can trigger a sickle cell crisis. Clients should stay well hydrated and should not routinely take iron unless prescribed.</p>
 
 </details>
 
@@ -336,21 +338,21 @@ A nurse is caring for a client who has pernicious anemia.
 
 **Which deficiency is associated with this disorder?**
 
-A. Vitamin C deficiency.
+<p class="answer-choice"><strong>A.</strong> Vitamin C deficiency.</p>
 
-B. Folic acid deficiency.
+<p class="answer-choice"><strong>B.</strong> Folic acid deficiency.</p>
 
-C. Iron deficiency.
+<p class="answer-choice"><strong>C.</strong> Iron deficiency.</p>
 
-D. Vitamin B12 deficiency.
+<p class="answer-choice"><strong>D.</strong> Vitamin B12 deficiency.</p>
 
 <details>
 <summary>Click to see answer and rationale</summary>
 
 
-**Answer: D**
+<p class="quiz-answer"><strong>Answer: D</strong></p>
 
-**Rationale:** Pernicious anemia occurs when the client lacks intrinsic factor and cannot absorb vitamin B12 properly.
+<p class="quiz-rationale"><strong>Rationale:</strong> Pernicious anemia occurs when the client lacks intrinsic factor and cannot absorb vitamin B12 properly.</p>
 
 </details>
 
@@ -362,21 +364,21 @@ A nurse is planning care for a client who has pernicious anemia.
 
 **Which intervention should the nurse anticipate?**
 
-A. Administer oral iron with orange juice.
+<p class="answer-choice"><strong>A.</strong> Administer oral iron with orange juice.</p>
 
-B. Restrict intake of animal protein.
+<p class="answer-choice"><strong>B.</strong> Restrict intake of animal protein.</p>
 
-C. Initiate weekly injections of vitamin B12.
+<p class="answer-choice"><strong>C.</strong> Initiate weekly injections of vitamin B12.</p>
 
-D. Prepare the client for platelet transfusion.
+<p class="answer-choice"><strong>D.</strong> Prepare the client for platelet transfusion.</p>
 
 <details>
 <summary>Click to see answer and rationale</summary>
 
 
-**Answer: C**
+<p class="quiz-answer"><strong>Answer: C</strong></p>
 
-**Rationale:** Pernicious anemia is treated with vitamin B12 replacement, usually by injection initially and then monthly for life.
+<p class="quiz-rationale"><strong>Rationale:</strong> Pernicious anemia is treated with vitamin B12 replacement, usually by injection initially and then monthly for life.</p>
 
 </details>
 
@@ -388,21 +390,21 @@ A nurse is teaching a client who has a prescription for epoetin alfa.
 
 **Which statement should the nurse include?**
 
-A. “This medication is used to dissolve blood clots.”
+<p class="answer-choice"><strong>A.</strong> “This medication is used to dissolve blood clots.”</p>
 
-B. “This medication can cause hypoglycemia.”
+<p class="answer-choice"><strong>B.</strong> “This medication can cause hypoglycemia.”</p>
 
-C. “Hypertension is a common adverse effect of this medication.”
+<p class="answer-choice"><strong>C.</strong> “Hypertension is a common adverse effect of this medication.”</p>
 
-D. “You should take this medication with milk.”
+<p class="answer-choice"><strong>D.</strong> “You should take this medication with milk.”</p>
 
 <details>
 <summary>Click to see answer and rationale</summary>
 
 
-**Answer: C**
+<p class="quiz-answer"><strong>Answer: C</strong></p>
 
-**Rationale:** Epoetin alfa stimulates RBC production and can increase blood pressure. Hemoglobin and hematocrit should be monitored during therapy.
+<p class="quiz-rationale"><strong>Rationale:</strong> Epoetin alfa stimulates RBC production and can increase blood pressure. Hemoglobin and hematocrit should be monitored during therapy.</p>
 
 </details>
 
@@ -414,21 +416,21 @@ A nurse is caring for a child who has sickle cell anemia and is experiencing a v
 
 **Which intervention should the nurse include in the plan of care?**
 
-A. Apply cold compresses to painful joints.
+<p class="answer-choice"><strong>A.</strong> Apply cold compresses to painful joints.</p>
 
-B. Decrease the child’s oral fluid intake.
+<p class="answer-choice"><strong>B.</strong> Decrease the child’s oral fluid intake.</p>
 
-C. Maintain the child on bed rest.
+<p class="answer-choice"><strong>C.</strong> Maintain the child on bed rest.</p>
 
-D. Administer meperidine for pain.
+<p class="answer-choice"><strong>D.</strong> Administer meperidine for pain.</p>
 
 <details>
 <summary>Click to see answer and rationale</summary>
 
 
-**Answer: C**
+<p class="quiz-answer"><strong>Answer: C</strong></p>
 
-**Rationale:** Bed rest decreases oxygen demand during a vaso-occlusive crisis. Cold compresses cause vasoconstriction and can worsen sickling. Fluids are encouraged. Meperidine is generally avoided for sickle cell pain.
+<p class="quiz-rationale"><strong>Rationale:</strong> Bed rest decreases oxygen demand during a vaso-occlusive crisis. Cold compresses cause vasoconstriction and can worsen sickling. Fluids are encouraged. Meperidine is generally avoided for sickle cell pain.</p>
 
 </details>
 
@@ -440,21 +442,21 @@ A nurse is preparing to administer packed RBCs to a client.
 
 **Which action should the nurse take first?**
 
-A. Prime the blood tubing with lactated Ringer’s solution.
+<p class="answer-choice"><strong>A.</strong> Prime the blood tubing with lactated Ringer’s solution.</p>
 
-B. Begin the transfusion at a rapid rate.
+<p class="answer-choice"><strong>B.</strong> Begin the transfusion at a rapid rate.</p>
 
-C. Witness the informed consent document.
+<p class="answer-choice"><strong>C.</strong> Witness the informed consent document.</p>
 
-D. Obtain a post-transfusion hemoglobin level.
+<p class="answer-choice"><strong>D.</strong> Obtain a post-transfusion hemoglobin level.</p>
 
 <details>
 <summary>Click to see answer and rationale</summary>
 
 
-**Answer: C**
+<p class="quiz-answer"><strong>Answer: C</strong></p>
 
-**Rationale:** Before administering blood, the nurse must verify that informed consent has been obtained. Blood should be administered with 0.9% sodium chloride, started slowly, and monitored closely.
+<p class="quiz-rationale"><strong>Rationale:</strong> Before administering blood, the nurse must verify that informed consent has been obtained. Blood should be administered with 0.9% sodium chloride, started slowly, and monitored closely.</p>
 
 </details>
 
@@ -466,21 +468,21 @@ A nurse is teaching a client who has iron deficiency anemia about increasing die
 
 **Which food should the nurse recommend?**
 
-A. Greek yogurt.
+<p class="answer-choice"><strong>A.</strong> Greek yogurt.</p>
 
-B. Bran cereal.
+<p class="answer-choice"><strong>B.</strong> Bran cereal.</p>
 
-C. Peanut butter.
+<p class="answer-choice"><strong>C.</strong> Peanut butter.</p>
 
-D. Dried fruit.
+<p class="answer-choice"><strong>D.</strong> Dried fruit.</p>
 
 <details>
 <summary>Click to see answer and rationale</summary>
 
 
-**Answer: D**
+<p class="quiz-answer"><strong>Answer: D</strong></p>
 
-**Rationale:** Dried fruit can provide iron. Dairy can decrease iron absorption, and bran can interfere with absorption.
+<p class="quiz-rationale"><strong>Rationale:</strong> Dried fruit can provide iron. Dairy can decrease iron absorption, and bran can interfere with absorption.</p>
 
 </details>
 
@@ -492,21 +494,21 @@ A nurse is assessing a client who has aplastic anemia.
 
 **Which finding should the nurse expect?**
 
-A. Flushed skin and hypertension.
+<p class="answer-choice"><strong>A.</strong> Flushed skin and hypertension.</p>
 
-B. Productive cough and wheezing.
+<p class="answer-choice"><strong>B.</strong> Productive cough and wheezing.</p>
 
-C. Dependent edema and crackles.
+<p class="answer-choice"><strong>C.</strong> Dependent edema and crackles.</p>
 
-D. Petechiae and ecchymosis.
+<p class="answer-choice"><strong>D.</strong> Petechiae and ecchymosis.</p>
 
 <details>
 <summary>Click to see answer and rationale</summary>
 
 
-**Answer: D**
+<p class="quiz-answer"><strong>Answer: D</strong></p>
 
-**Rationale:** Aplastic anemia causes pancytopenia. Low platelets increase bleeding risk, which can cause petechiae, bruising, and ecchymosis.
+<p class="quiz-rationale"><strong>Rationale:</strong> Aplastic anemia causes pancytopenia. Low platelets increase bleeding risk, which can cause petechiae, bruising, and ecchymosis.</p>
 
 </details>
 
@@ -518,21 +520,21 @@ A nurse is providing discharge teaching to a client who has aplastic anemia.
 
 **Which statement indicates understanding of the teaching?**
 
-A. “I should take aspirin if I develop body aches.”
+<p class="answer-choice"><strong>A.</strong> “I should take aspirin if I develop body aches.”</p>
 
-B. “I should floss aggressively to prevent gum infection.”
+<p class="answer-choice"><strong>B.</strong> “I should floss aggressively to prevent gum infection.”</p>
 
-C. “I should eliminate uncooked foods from my diet for now.”
+<p class="answer-choice"><strong>C.</strong> “I should eliminate uncooked foods from my diet for now.”</p>
 
-D. “I should avoid all fluids after 6 p.m.”
+<p class="answer-choice"><strong>D.</strong> “I should avoid all fluids after 6 p.m.”</p>
 
 <details>
 <summary>Click to see answer and rationale</summary>
 
 
-**Answer: C**
+<p class="quiz-answer"><strong>Answer: C</strong></p>
 
-**Rationale:** Aplastic anemia can cause low WBCs, so infection prevention is important. A neutropenic diet may include avoiding raw or uncooked foods depending on facility policy. Aspirin should be avoided because of bleeding risk.
+<p class="quiz-rationale"><strong>Rationale:</strong> Aplastic anemia can cause low WBCs, so infection prevention is important. A neutropenic diet may include avoiding raw or uncooked foods depending on facility policy. Aspirin should be avoided because of bleeding risk.</p>
 
 </details>
 
@@ -544,21 +546,21 @@ A nurse is preparing to administer IM iron dextran.
 
 **Which action should the nurse take?**
 
-A. Use a 20-gauge needle and administer the medication using the Z-track method.
+<p class="answer-choice"><strong>A.</strong> Use a 20-gauge needle and administer the medication using the Z-track method.</p>
 
-B. Massage the injection site after administration.
+<p class="answer-choice"><strong>B.</strong> Massage the injection site after administration.</p>
 
-C. Administer the medication into the deltoid muscle.
+<p class="answer-choice"><strong>C.</strong> Administer the medication into the deltoid muscle.</p>
 
-D. Mix the medication with lidocaine in the same syringe.
+<p class="answer-choice"><strong>D.</strong> Mix the medication with lidocaine in the same syringe.</p>
 
 <details>
 <summary>Click to see answer and rationale</summary>
 
 
-**Answer: A**
+<p class="quiz-answer"><strong>Answer: A</strong></p>
 
-**Rationale:** IM iron dextran should be administered using the Z-track method to prevent leakage into subcutaneous tissue, which can cause irritation and staining.
+<p class="quiz-rationale"><strong>Rationale:</strong> IM iron dextran should be administered using the Z-track method to prevent leakage into subcutaneous tissue, which can cause irritation and staining.</p>
 
 </details>
 
@@ -570,21 +572,21 @@ A nurse is teaching a client who has pernicious anemia about dietary sources of 
 
 **Which food should the nurse include?**
 
-A. Eggs.
+<p class="answer-choice"><strong>A.</strong> Eggs.</p>
 
-B. Squash.
+<p class="answer-choice"><strong>B.</strong> Squash.</p>
 
-C. Kale.
+<p class="answer-choice"><strong>C.</strong> Kale.</p>
 
-D. Tofu.
+<p class="answer-choice"><strong>D.</strong> Tofu.</p>
 
 <details>
 <summary>Click to see answer and rationale</summary>
 
 
-**Answer: A**
+<p class="quiz-answer"><strong>Answer: A</strong></p>
 
-**Rationale:** Vitamin B12 is found in animal products such as eggs, meat, fish, and dairy. Plant foods are not reliable sources unless fortified.
+<p class="quiz-rationale"><strong>Rationale:</strong> Vitamin B12 is found in animal products such as eggs, meat, fish, and dairy. Plant foods are not reliable sources unless fortified.</p>
 
 </details>
 
@@ -596,21 +598,21 @@ A nurse is caring for a client who has ulcerative colitis and reports increasing
 
 **Which finding should the nurse expect?**
 
-A. Increased ferritin level.
+<p class="answer-choice"><strong>A.</strong> Increased ferritin level.</p>
 
-B. Macrocytic red blood cells.
+<p class="answer-choice"><strong>B.</strong> Macrocytic red blood cells.</p>
 
-C. Positive stool occult blood.
+<p class="answer-choice"><strong>C.</strong> Positive stool occult blood.</p>
 
-D. Decreased total iron-binding capacity.
+<p class="answer-choice"><strong>D.</strong> Decreased total iron-binding capacity.</p>
 
 <details>
 <summary>Click to see answer and rationale</summary>
 
 
-**Answer: C**
+<p class="quiz-answer"><strong>Answer: C</strong></p>
 
-**Rationale:** Ulcerative colitis can cause chronic GI bleeding, which can lead to iron deficiency anemia. Iron deficiency anemia is associated with low ferritin, high TIBC, and microcytic/hypochromic RBCs.
+<p class="quiz-rationale"><strong>Rationale:</strong> Ulcerative colitis can cause chronic GI bleeding, which can lead to iron deficiency anemia. Iron deficiency anemia is associated with low ferritin, high TIBC, and microcytic/hypochromic RBCs.</p>
 
 </details>
 
@@ -622,21 +624,21 @@ A nurse is collecting a fecal occult blood test for a client who has suspected i
 
 **Which action should the nurse take?**
 
-A. Collect the stool specimen from the toilet water after the client has a bowel movement.
+<p class="answer-choice"><strong>A.</strong> Collect the stool specimen from the toilet water after the client has a bowel movement.</p>
 
-B. Label the outside of the biohazard bag after placing the specimen inside.
+<p class="answer-choice"><strong>B.</strong> Label the outside of the biohazard bag after placing the specimen inside.</p>
 
-C. Collect stool from two different areas of the specimen and apply it to the test card.
+<p class="answer-choice"><strong>C.</strong> Collect stool from two different areas of the specimen and apply it to the test card.</p>
 
-D. Perform a digital rectal exam and use stool from the glove for testing.
+<p class="answer-choice"><strong>D.</strong> Perform a digital rectal exam and use stool from the glove for testing.</p>
 
 <details>
 <summary>Click to see answer and rationale</summary>
 
 
-**Answer: C**
+<p class="quiz-answer"><strong>Answer: C</strong></p>
 
-**Rationale:** The nurse should collect stool from two different areas of the specimen and apply it to the fecal occult blood test card. The specimen should not be collected from toilet water. The card or container itself should be labeled. Stool from a digital rectal exam can cause a false positive due to tissue trauma.
+<p class="quiz-rationale"><strong>Rationale:</strong> The nurse should collect stool from two different areas of the specimen and apply it to the fecal occult blood test card. The specimen should not be collected from toilet water. The card or container itself should be labeled. Stool from a digital rectal exam can cause a false positive due to tissue trauma.</p>
 
 </details>
 
@@ -648,21 +650,21 @@ A nurse is teaching a client who has iron deficiency anemia and reports nausea w
 
 **Which instruction should the nurse include?**
 
-A. Take the medication with milk to decrease stomach irritation.
+<p class="answer-choice"><strong>A.</strong> Take the medication with milk to decrease stomach irritation.</p>
 
-B. Take the medication at bedtime.
+<p class="answer-choice"><strong>B.</strong> Take the medication at bedtime.</p>
 
-C. Stop taking the medication if stools become black.
+<p class="answer-choice"><strong>C.</strong> Stop taking the medication if stools become black.</p>
 
-D. Take the medication after a small meal with orange juice.
+<p class="answer-choice"><strong>D.</strong> Take the medication after a small meal with orange juice.</p>
 
 <details>
 <summary>Click to see answer and rationale</summary>
 
 
-**Answer: D**
+<p class="quiz-answer"><strong>Answer: D</strong></p>
 
-**Rationale:** Iron is absorbed best on an empty stomach, but if GI upset occurs, the client can take it with a small amount of food. Vitamin C, such as orange juice, increases iron absorption. Milk decreases absorption, and black stools are expected.
+<p class="quiz-rationale"><strong>Rationale:</strong> Iron is absorbed best on an empty stomach, but if GI upset occurs, the client can take it with a small amount of food. Vitamin C, such as orange juice, increases iron absorption. Milk decreases absorption, and black stools are expected.</p>
 
 </details>
 
@@ -674,21 +676,21 @@ A nurse is teaching a client who has iron deficiency anemia and recently started
 
 **The client states, “I have been taking this for a week, but I still feel tired.” Which response should the nurse make?**
 
-A. “You should stop taking the medication since it is not helping.”
+<p class="answer-choice"><strong>A.</strong> “You should stop taking the medication since it is not helping.”</p>
 
-B. “You may need to take the medication with milk to improve absorption.”
+<p class="answer-choice"><strong>B.</strong> “You may need to take the medication with milk to improve absorption.”</p>
 
-C. “You should feel completely better within the first few days of therapy.”
+<p class="answer-choice"><strong>C.</strong> “You should feel completely better within the first few days of therapy.”</p>
 
-D. “It can take several weeks of treatment before your energy level improves.”
+<p class="answer-choice"><strong>D.</strong> “It can take several weeks of treatment before your energy level improves.”</p>
 
 <details>
 <summary>Click to see answer and rationale</summary>
 
 
-**Answer: D**
+<p class="quiz-answer"><strong>Answer: D</strong></p>
 
-**Rationale:** Oral iron therapy works slowly. Hemoglobin may begin to rise within a few weeks, but symptom improvement can take time. Milk decreases iron absorption, and no major improvement after one week does not mean the medication is ineffective.
+<p class="quiz-rationale"><strong>Rationale:</strong> Oral iron therapy works slowly. Hemoglobin may begin to rise within a few weeks, but symptom improvement can take time. Milk decreases iron absorption, and no major improvement after one week does not mean the medication is ineffective.</p>
 
 </details>
 
@@ -700,21 +702,21 @@ A nurse is precepting a newly licensed nurse who is assisting with a 24-hour uri
 
 **Which statement by the newly licensed nurse requires correction?**
 
-A. “If one urine specimen is missed, we should continue the test and document it.”
+<p class="answer-choice"><strong>A.</strong> “If one urine specimen is missed, we should continue the test and document it.”</p>
 
-B. “The client should void at the start time, and that first urine should be discarded.”
+<p class="answer-choice"><strong>B.</strong> “The client should void at the start time, and that first urine should be discarded.”</p>
 
-C. “All urine after the start time should be collected for the next 24 hours.”
+<p class="answer-choice"><strong>C.</strong> “All urine after the start time should be collected for the next 24 hours.”</p>
 
-D. “The client should void at the end of the 24-hour period, and that urine should be included.”
+<p class="answer-choice"><strong>D.</strong> “The client should void at the end of the 24-hour period, and that urine should be included.”</p>
 
 <details>
 <summary>Click to see answer and rationale</summary>
 
 
-**Answer: A**
+<p class="quiz-answer"><strong>Answer: A</strong></p>
 
-**Rationale:** If any urine specimen is missed during a 24-hour urine collection, the test must be restarted. The first void is discarded, all urine after that is collected, and the final void at the end of the 24-hour period is included.
+<p class="quiz-rationale"><strong>Rationale:</strong> If any urine specimen is missed during a 24-hour urine collection, the test must be restarted. The first void is discarded, all urine after that is collected, and the final void at the end of the 24-hour period is included.</p>
 
 </details>
 
@@ -726,21 +728,21 @@ A nurse is teaching a client who has folic acid deficiency anemia.
 
 **Which meal choice indicates the client understands the teaching?**
 
-A. Grilled chicken, white rice, and milk.
+<p class="answer-choice"><strong>A.</strong> Grilled chicken, white rice, and milk.</p>
 
-B. Spinach salad with kidney beans and orange slices.
+<p class="answer-choice"><strong>B.</strong> Spinach salad with kidney beans and orange slices.</p>
 
-C. Cheese omelet with coffee.
+<p class="answer-choice"><strong>C.</strong> Cheese omelet with coffee.</p>
 
-D. Baked fish with yogurt and white toast.
+<p class="answer-choice"><strong>D.</strong> Baked fish with yogurt and white toast.</p>
 
 <details>
 <summary>Click to see answer and rationale</summary>
 
 
-**Answer: B**
+<p class="quiz-answer"><strong>Answer: B</strong></p>
 
-**Rationale:** Folic acid is found in green leafy vegetables, dried beans, nuts, citrus fruits, liver, yeast, and enriched grains. Spinach, kidney beans, and oranges are the best folate-rich option.
+<p class="quiz-rationale"><strong>Rationale:</strong> Folic acid is found in green leafy vegetables, dried beans, nuts, citrus fruits, liver, yeast, and enriched grains. Spinach, kidney beans, and oranges are the best folate-rich option.</p>
 
 </details>
 
@@ -752,21 +754,21 @@ A nurse is teaching an adolescent who has sickle cell anemia about preventing a 
 
 **Which statement indicates understanding?**
 
-A. “I should drink extra fluids when I exercise or when the weather is hot.”
+<p class="answer-choice"><strong>A.</strong> “I should drink extra fluids when I exercise or when the weather is hot.”</p>
 
-B. “I should limit fluids when I feel short of breath.”
+<p class="answer-choice"><strong>B.</strong> “I should limit fluids when I feel short of breath.”</p>
 
-C. “I should take iron every day to prevent anemia.”
+<p class="answer-choice"><strong>C.</strong> “I should take iron every day to prevent anemia.”</p>
 
-D. “I should avoid drinking water before physical activity.”
+<p class="answer-choice"><strong>D.</strong> “I should avoid drinking water before physical activity.”</p>
 
 <details>
 <summary>Click to see answer and rationale</summary>
 
 
-**Answer: A**
+<p class="quiz-answer"><strong>Answer: A</strong></p>
 
-**Rationale:** Dehydration is a major trigger for sickling. Clients should increase fluids during illness, exercise, and hot weather. Iron is not given routinely for sickle cell anemia.
+<p class="quiz-rationale"><strong>Rationale:</strong> Dehydration is a major trigger for sickling. Clients should increase fluids during illness, exercise, and hot weather. Iron is not given routinely for sickle cell anemia.</p>
 
 </details>
 
@@ -778,21 +780,21 @@ A nurse is providing discharge teaching to a client who has aplastic anemia and 
 
 **Which food choice indicates the client needs further teaching?**
 
-A. Canned peaches.
+<p class="answer-choice"><strong>A.</strong> Canned peaches.</p>
 
-B. Scrambled eggs cooked until firm.
+<p class="answer-choice"><strong>B.</strong> Scrambled eggs cooked until firm.</p>
 
-C. Fresh strawberries from a salad bar.
+<p class="answer-choice"><strong>C.</strong> Fresh strawberries from a salad bar.</p>
 
-D. Individually packaged crackers.
+<p class="answer-choice"><strong>D.</strong> Individually packaged crackers.</p>
 
 <details>
 <summary>Click to see answer and rationale</summary>
 
 
-**Answer: C**
+<p class="quiz-answer"><strong>Answer: C</strong></p>
 
-**Rationale:** A client with neutropenia should avoid foods that increase infection risk, such as raw or unwashed produce and salad bar items. Cooked, canned, or packaged foods are safer choices.
+<p class="quiz-rationale"><strong>Rationale:</strong> A client with neutropenia should avoid foods that increase infection risk, such as raw or unwashed produce and salad bar items. Cooked, canned, or packaged foods are safer choices.</p>
 
 </details>
 
@@ -804,21 +806,21 @@ A nurse is teaching the parent of a child who has thalassemia and receives frequ
 
 **Which statement by the parent indicates understanding?**
 
-A. “I should give my child an iron supplement every morning.”
+<p class="answer-choice"><strong>A.</strong> “I should give my child an iron supplement every morning.”</p>
 
-B. “I should increase my child’s intake of iron-fortified cereal.”
+<p class="answer-choice"><strong>B.</strong> “I should increase my child’s intake of iron-fortified cereal.”</p>
 
-C. “The transfusions will prevent iron from building up.”
+<p class="answer-choice"><strong>C.</strong> “The transfusions will prevent iron from building up.”</p>
 
-D. “My child may need medication to remove extra iron from the body.”
+<p class="answer-choice"><strong>D.</strong> “My child may need medication to remove extra iron from the body.”</p>
 
 <details>
 <summary>Click to see answer and rationale</summary>
 
 
-**Answer: D**
+<p class="quiz-answer"><strong>Answer: D</strong></p>
 
-**Rationale:** Frequent transfusions can cause iron overload. Chelation therapy may be prescribed to bind excess iron and help remove it from the body. Extra iron supplementation is not appropriate unless specifically prescribed.
+<p class="quiz-rationale"><strong>Rationale:</strong> Frequent transfusions can cause iron overload. Chelation therapy may be prescribed to bind excess iron and help remove it from the body. Extra iron supplementation is not appropriate unless specifically prescribed.</p>
 
 </details>
 
@@ -830,21 +832,21 @@ A nurse is teaching a client who has G6PD deficiency.
 
 **Which statement by the client indicates a need for further teaching?**
 
-A. “I should ask my provider before taking new medications.”
+<p class="answer-choice"><strong>A.</strong> “I should ask my provider before taking new medications.”</p>
 
-B. “I can eat fava beans as long as I drink extra water.”
+<p class="answer-choice"><strong>B.</strong> “I can eat fava beans as long as I drink extra water.”</p>
 
-C. “I should wear a medic-alert bracelet.”
+<p class="answer-choice"><strong>C.</strong> “I should wear a medic-alert bracelet.”</p>
 
-D. “Certain medications can trigger red blood cell breakdown.”
+<p class="answer-choice"><strong>D.</strong> “Certain medications can trigger red blood cell breakdown.”</p>
 
 <details>
 <summary>Click to see answer and rationale</summary>
 
 
-**Answer: B**
+<p class="quiz-answer"><strong>Answer: B</strong></p>
 
-**Rationale:** Fava beans can trigger hemolysis in G6PD deficiency and should be avoided. Extra water does not prevent the hemolytic reaction.
+<p class="quiz-rationale"><strong>Rationale:</strong> Fava beans can trigger hemolysis in G6PD deficiency and should be avoided. Extra water does not prevent the hemolytic reaction.</p>
 
 </details>
 
@@ -856,21 +858,21 @@ A nurse is caring for a child who has sickle cell anemia and reports chest pain.
 
 **Which complication should the nurse suspect?**
 
-A. Splenic sequestration.
+<p class="answer-choice"><strong>A.</strong> Splenic sequestration.</p>
 
-B. Aplastic crisis.
+<p class="answer-choice"><strong>B.</strong> Aplastic crisis.</p>
 
-C. Acute chest syndrome.
+<p class="answer-choice"><strong>C.</strong> Acute chest syndrome.</p>
 
-D. Hemolytic transfusion reaction.
+<p class="answer-choice"><strong>D.</strong> Hemolytic transfusion reaction.</p>
 
 <details>
 <summary>Click to see answer and rationale</summary>
 
 
-**Answer: C**
+<p class="quiz-answer"><strong>Answer: C</strong></p>
 
-**Rationale:** Acute chest syndrome is a serious complication of sickle cell disease. Findings include fever, chest pain, cough, tachypnea, decreased oxygen saturation, and a new infiltrate on chest X-ray. This is urgent because it can progress to respiratory failure.
+<p class="quiz-rationale"><strong>Rationale:</strong> Acute chest syndrome is a serious complication of sickle cell disease. Findings include fever, chest pain, cough, tachypnea, decreased oxygen saturation, and a new infiltrate on chest X-ray. This is urgent because it can progress to respiratory failure.</p>
 
 </details>
 
@@ -882,21 +884,21 @@ A nurse is caring for a client who has sickle cell anemia and is experiencing a 
 
 **Which action should the nurse take first?**
 
-A. Initiate IV fluid therapy as prescribed.
+<p class="answer-choice"><strong>A.</strong> Initiate IV fluid therapy as prescribed.</p>
 
-B. Administer prescribed opioid pain medication.
+<p class="answer-choice"><strong>B.</strong> Administer prescribed opioid pain medication.</p>
 
-C. Apply oxygen as prescribed.
+<p class="answer-choice"><strong>C.</strong> Apply oxygen as prescribed.</p>
 
-D. Obtain a blood sample for CBC and reticulocyte count.
+<p class="answer-choice"><strong>D.</strong> Obtain a blood sample for CBC and reticulocyte count.</p>
 
 <details>
 <summary>Click to see answer and rationale</summary>
 
 
-**Answer: A**
+<p class="quiz-answer"><strong>Answer: A</strong></p>
 
-**Rationale:** All actions may be appropriate, but dehydration worsens sickling and vaso-occlusion. IV fluids are the priority to improve circulation and decrease further sickling. Pain medication and oxygen are important, but correcting dehydration is first when dehydration cues are present.
+<p class="quiz-rationale"><strong>Rationale:</strong> All actions may be appropriate, but dehydration worsens sickling and vaso-occlusion. IV fluids are the priority to improve circulation and decrease further sickling. Pain medication and oxygen are important, but correcting dehydration is first when dehydration cues are present.</p>
 
 </details>
 
@@ -908,21 +910,21 @@ A nurse is caring for a client who has aplastic anemia.
 
 **Which finding is the priority to report to the provider?**
 
-A. Fatigue with activity.
+<p class="answer-choice"><strong>A.</strong> Fatigue with activity.</p>
 
-B. Pale conjunctiva.
+<p class="answer-choice"><strong>B.</strong> Pale conjunctiva.</p>
 
-C. Temperature of 38.3° C (101° F).
+<p class="answer-choice"><strong>C.</strong> Temperature of 38.3° C (101° F).</p>
 
-D. Scattered bruising on the arms.
+<p class="answer-choice"><strong>D.</strong> Scattered bruising on the arms.</p>
 
 <details>
 <summary>Click to see answer and rationale</summary>
 
 
-**Answer: C**
+<p class="quiz-answer"><strong>Answer: C</strong></p>
 
-**Rationale:** Aplastic anemia causes pancytopenia. Infection is the priority concern because WBCs are low. Fever can indicate infection or sepsis.
+<p class="quiz-rationale"><strong>Rationale:</strong> Aplastic anemia causes pancytopenia. Infection is the priority concern because WBCs are low. Fever can indicate infection or sepsis.</p>
 
 </details>
 
@@ -932,21 +934,21 @@ D. Scattered bruising on the arms.
 
 **A client receiving packed RBCs reports chills, low back pain, and feeling “something is wrong.” Which action should the nurse take first?**
 
-A. Notify the blood bank.
+<p class="answer-choice"><strong>A.</strong> Notify the blood bank.</p>
 
-B. Stop the transfusion.
+<p class="answer-choice"><strong>B.</strong> Stop the transfusion.</p>
 
-C. Obtain a urine specimen.
+<p class="answer-choice"><strong>C.</strong> Obtain a urine specimen.</p>
 
-D. Recheck the client’s temperature.
+<p class="answer-choice"><strong>D.</strong> Recheck the client’s temperature.</p>
 
 <details>
 <summary>Click to see answer and rationale</summary>
 
 
-**Answer: B**
+<p class="quiz-answer"><strong>Answer: B</strong></p>
 
-**Rationale:** The first action for a suspected transfusion reaction is to stop the transfusion immediately. Then keep the IV open with normal saline using new tubing and notify the provider and blood bank.
+<p class="quiz-rationale"><strong>Rationale:</strong> The first action for a suspected transfusion reaction is to stop the transfusion immediately. Then keep the IV open with normal saline using new tubing and notify the provider and blood bank.</p>
 
 </details>
 
@@ -958,21 +960,21 @@ A nurse is caring for a client who has blood loss anemia. The client is pale and
 
 **Which action should the nurse take first?**
 
-A. Teach the client to increase iron-rich foods.
+<p class="answer-choice"><strong>A.</strong> Teach the client to increase iron-rich foods.</p>
 
-B. Obtain a stool specimen for occult blood.
+<p class="answer-choice"><strong>B.</strong> Obtain a stool specimen for occult blood.</p>
 
-C. Schedule rest periods throughout the day.
+<p class="answer-choice"><strong>C.</strong> Schedule rest periods throughout the day.</p>
 
-D. Maintain IV access and prepare to administer fluids.
+<p class="answer-choice"><strong>D.</strong> Maintain IV access and prepare to administer fluids.</p>
 
 <details>
 <summary>Click to see answer and rationale</summary>
 
 
-**Answer: D**
+<p class="quiz-answer"><strong>Answer: D</strong></p>
 
-**Rationale:** The client is showing signs of hypovolemia or shock. Priority is circulation: maintain IV access and prepare for fluid or blood replacement.
+<p class="quiz-rationale"><strong>Rationale:</strong> The client is showing signs of hypovolemia or shock. Priority is circulation: maintain IV access and prepare for fluid or blood replacement.</p>
 
 </details>
 
@@ -984,21 +986,21 @@ A nurse is caring for a client who has pernicious anemia.
 
 **Which finding is the priority for the nurse to address?**
 
-A. Unsteady gait and numbness in both feet.
+<p class="answer-choice"><strong>A.</strong> Unsteady gait and numbness in both feet.</p>
 
-B. Smooth, beefy red tongue.
+<p class="answer-choice"><strong>B.</strong> Smooth, beefy red tongue.</p>
 
-C. Fatigue after walking in the hallway.
+<p class="answer-choice"><strong>C.</strong> Fatigue after walking in the hallway.</p>
 
-D. Decreased appetite.
+<p class="answer-choice"><strong>D.</strong> Decreased appetite.</p>
 
 <details>
 <summary>Click to see answer and rationale</summary>
 
 
-**Answer: A**
+<p class="quiz-answer"><strong>Answer: A</strong></p>
 
-**Rationale:** Neurological symptoms increase fall and injury risk. The nurse should address safety first.
+<p class="quiz-rationale"><strong>Rationale:</strong> Neurological symptoms increase fall and injury risk. The nurse should address safety first.</p>
 
 </details>
 
@@ -1010,21 +1012,21 @@ A nurse is caring for a client who has iron deficiency anemia. The client report
 
 **Which action should the nurse take first?**
 
-A. Obtain a stool specimen for occult blood.
+<p class="answer-choice"><strong>A.</strong> Obtain a stool specimen for occult blood.</p>
 
-B. Assist the client when getting out of bed.
+<p class="answer-choice"><strong>B.</strong> Assist the client when getting out of bed.</p>
 
-C. Monitor the client’s oxygen saturation.
+<p class="answer-choice"><strong>C.</strong> Monitor the client’s oxygen saturation.</p>
 
-D. Review the client’s prescribed iron administration schedule.
+<p class="answer-choice"><strong>D.</strong> Review the client’s prescribed iron administration schedule.</p>
 
 <details>
 <summary>Click to see answer and rationale</summary>
 
 
-**Answer: B**
+<p class="quiz-answer"><strong>Answer: B</strong></p>
 
-**Rationale:** All actions are appropriate, but the immediate priority is safety. The client is dizzy when standing and is at risk for falls. The nurse should assist with ambulation before completing other assessments or teaching.
+<p class="quiz-rationale"><strong>Rationale:</strong> All actions are appropriate, but the immediate priority is safety. The client is dizzy when standing and is at risk for falls. The nurse should assist with ambulation before completing other assessments or teaching.</p>
 
 </details>
 
@@ -1036,21 +1038,21 @@ A nurse is caring for a client who has aplastic anemia and Hgb of 6.9 g/dL.
 
 **The provider prescribes packed RBCs, but the client states, “I am a Jehovah’s Witness, and I do not accept blood transfusions.” Which action should the nurse take first?**
 
-A. Ask the provider to prescribe epoetin alfa as an alternative.
+<p class="answer-choice"><strong>A.</strong> Ask the provider to prescribe epoetin alfa as an alternative.</p>
 
-B. Document the client’s refusal of the blood transfusion.
+<p class="answer-choice"><strong>B.</strong> Document the client’s refusal of the blood transfusion.</p>
 
-C. Notify the hospital ethics committee.
+<p class="answer-choice"><strong>C.</strong> Notify the hospital ethics committee.</p>
 
-D. Explain that the transfusion is necessary to prevent complications.
+<p class="answer-choice"><strong>D.</strong> Explain that the transfusion is necessary to prevent complications.</p>
 
 <details>
 <summary>Click to see answer and rationale</summary>
 
 
-**Answer: B**
+<p class="quiz-answer"><strong>Answer: B</strong></p>
 
-**Rationale:** The nurse should respect the client’s right to refuse treatment and document the refusal. Epoetin alfa may be discussed as an alternative, but the first action is to acknowledge and document the refusal. The nurse should not pressure the client.
+<p class="quiz-rationale"><strong>Rationale:</strong> The nurse should respect the client’s right to refuse treatment and document the refusal. Epoetin alfa may be discussed as an alternative, but the first action is to acknowledge and document the refusal. The nurse should not pressure the client.</p>
 
 </details>
 
@@ -1062,21 +1064,21 @@ A nurse is teaching a client who has sickle cell trait and is planning a pregnan
 
 **Which statement should the nurse include?**
 
-A. “Sickle cell disease is an autosomal recessive disorder.”
+<p class="answer-choice"><strong>A.</strong> “Sickle cell disease is an autosomal recessive disorder.”</p>
 
-B. “Sickle cell disease is an X-linked recessive disorder.”
+<p class="answer-choice"><strong>B.</strong> “Sickle cell disease is an X-linked recessive disorder.”</p>
 
-C. “Sickle cell disease is an autosomal dominant disorder.”
+<p class="answer-choice"><strong>C.</strong> “Sickle cell disease is an autosomal dominant disorder.”</p>
 
-D. “Sickle cell disease is caused by a random mutation and is not inherited.”
+<p class="answer-choice"><strong>D.</strong> “Sickle cell disease is caused by a random mutation and is not inherited.”</p>
 
 <details>
 <summary>Click to see answer and rationale</summary>
 
 
-**Answer: A**
+<p class="quiz-answer"><strong>Answer: A</strong></p>
 
-**Rationale:** Sickle cell disease is autosomal recessive. A child must inherit the sickle cell gene from both parents to have sickle cell disease. If both parents have sickle cell trait, each pregnancy has a 25% chance of disease, 50% chance of trait, and 25% chance of no sickle cell gene.
+<p class="quiz-rationale"><strong>Rationale:</strong> Sickle cell disease is autosomal recessive. A child must inherit the sickle cell gene from both parents to have sickle cell disease. If both parents have sickle cell trait, each pregnancy has a 25% chance of disease, 50% chance of trait, and 25% chance of no sickle cell gene.</p>
 
 </details>
 
@@ -1088,21 +1090,21 @@ A nurse is monitoring a client who has heart failure and is receiving packed RBC
 
 **Which finding is the priority for the nurse to report?**
 
-A. Blood pressure increased from 118/72 mm Hg to 138/84 mm Hg.
+<p class="answer-choice"><strong>A.</strong> Blood pressure increased from 118/72 mm Hg to 138/84 mm Hg.</p>
 
-B. The client reports chills and a headache.
+<p class="answer-choice"><strong>B.</strong> The client reports chills and a headache.</p>
 
-C. New crackles auscultated in the lung bases with increased dyspnea.
+<p class="answer-choice"><strong>C.</strong> New crackles auscultated in the lung bases with increased dyspnea.</p>
 
-D. The client reports anxiety and mild chest tightness.
+<p class="answer-choice"><strong>D.</strong> The client reports anxiety and mild chest tightness.</p>
 
 <details>
 <summary>Click to see answer and rationale</summary>
 
 
-**Answer: C**
+<p class="quiz-answer"><strong>Answer: C</strong></p>
 
-**Rationale:** A client with heart failure is at increased risk for circulatory overload during a blood transfusion. New crackles and worsening dyspnea suggest fluid overload or worsening heart failure and require priority action.
+<p class="quiz-rationale"><strong>Rationale:</strong> A client with heart failure is at increased risk for circulatory overload during a blood transfusion. New crackles and worsening dyspnea suggest fluid overload or worsening heart failure and require priority action.</p>
 
 </details>
 
@@ -1114,21 +1116,21 @@ A nurse is teaching a client who has pernicious anemia and is receiving cyanocob
 
 **Which statement by the client indicates understanding?**
 
-A. “I should stop the injections if my urine turns bright yellow.”
+<p class="answer-choice"><strong>A.</strong> “I should stop the injections if my urine turns bright yellow.”</p>
 
-B. “Bright yellow urine can occur because extra vitamin B12 is excreted in urine.”
+<p class="answer-choice"><strong>B.</strong> “Bright yellow urine can occur because extra vitamin B12 is excreted in urine.”</p>
 
-C. “Dark brown urine means the medication is working.”
+<p class="answer-choice"><strong>C.</strong> “Dark brown urine means the medication is working.”</p>
 
-D. “I should decrease my fluid intake if my urine changes color.”
+<p class="answer-choice"><strong>D.</strong> “I should decrease my fluid intake if my urine changes color.”</p>
 
 <details>
 <summary>Click to see answer and rationale</summary>
 
 
-**Answer: B**
+<p class="quiz-answer"><strong>Answer: B</strong></p>
 
-**Rationale:** Vitamin B12 is water soluble, so excess amounts can be excreted in urine and may cause bright yellow or greenish-yellow urine. This can be expected and does not mean the client should stop treatment.
+<p class="quiz-rationale"><strong>Rationale:</strong> Vitamin B12 is water soluble, so excess amounts can be excreted in urine and may cause bright yellow or greenish-yellow urine. This can be expected and does not mean the client should stop treatment.</p>
 
 </details>
 
@@ -1140,21 +1142,21 @@ A nurse is reviewing prescriptions for a client who has G6PD deficiency.
 
 **Which prescription should the nurse question?**
 
-A. Acetaminophen for mild pain.
+<p class="answer-choice"><strong>A.</strong> Acetaminophen for mild pain.</p>
 
-B. Sulfamethoxazole-trimethoprim for infection.
+<p class="answer-choice"><strong>B.</strong> Sulfamethoxazole-trimethoprim for infection.</p>
 
-C. Docusate sodium for constipation.
+<p class="answer-choice"><strong>C.</strong> Docusate sodium for constipation.</p>
 
-D. Loratadine for seasonal allergies.
+<p class="answer-choice"><strong>D.</strong> Loratadine for seasonal allergies.</p>
 
 <details>
 <summary>Click to see answer and rationale</summary>
 
 
-**Answer: B**
+<p class="quiz-answer"><strong>Answer: B</strong></p>
 
-**Rationale:** Sulfonamides can trigger hemolysis in clients who have G6PD deficiency. The nurse should question this prescription and notify the provider.
+<p class="quiz-rationale"><strong>Rationale:</strong> Sulfonamides can trigger hemolysis in clients who have G6PD deficiency. The nurse should question this prescription and notify the provider.</p>
 
 </details>
 
@@ -1166,21 +1168,21 @@ A nurse is caring for a client who has macrocytic anemia. The client reports fat
 
 **Which deficiency should the nurse suspect?**
 
-A. Iron deficiency.
+<p class="answer-choice"><strong>A.</strong> Iron deficiency.</p>
 
-B. Vitamin B12 deficiency.
+<p class="answer-choice"><strong>B.</strong> Vitamin B12 deficiency.</p>
 
-C. Folic acid deficiency.
+<p class="answer-choice"><strong>C.</strong> Folic acid deficiency.</p>
 
-D. Vitamin C deficiency.
+<p class="answer-choice"><strong>D.</strong> Vitamin C deficiency.</p>
 
 <details>
 <summary>Click to see answer and rationale</summary>
 
 
-**Answer: C**
+<p class="quiz-answer"><strong>Answer: C</strong></p>
 
-**Rationale:** Folic acid deficiency can cause megaloblastic or macrocytic anemia and glossitis but does not cause neurological symptoms. Phenytoin can contribute to folic acid deficiency. Vitamin B12 deficiency is more associated with neurological findings.
+<p class="quiz-rationale"><strong>Rationale:</strong> Folic acid deficiency can cause megaloblastic or macrocytic anemia and glossitis but does not cause neurological symptoms. Phenytoin can contribute to folic acid deficiency. Vitamin B12 deficiency is more associated with neurological findings.</p>
 
 </details>
 
@@ -1192,20 +1194,20 @@ A nurse is caring for a client who had acute blood loss and received IV isotonic
 
 **Which explanation should the nurse understand?**
 
-A. The IV fluids restored circulating volume but diluted the remaining blood.
+<p class="answer-choice"><strong>A.</strong> The IV fluids restored circulating volume but diluted the remaining blood.</p>
 
-B. The IV fluids caused destruction of red blood cells.
+<p class="answer-choice"><strong>B.</strong> The IV fluids caused destruction of red blood cells.</p>
 
-C. The client is developing iron overload from fluid replacement.
+<p class="answer-choice"><strong>C.</strong> The client is developing iron overload from fluid replacement.</p>
 
-D. The client no longer needs evaluation for ongoing bleeding.
+<p class="answer-choice"><strong>D.</strong> The client no longer needs evaluation for ongoing bleeding.</p>
 
 <details>
 <summary>Click to see answer and rationale</summary>
 
 
-**Answer: A**
+<p class="quiz-answer"><strong>Answer: A</strong></p>
 
-**Rationale:** After acute blood loss, IV fluids can restore circulating volume and improve blood pressure. However, fluids do not replace RBCs. They can dilute the remaining blood, causing Hgb and Hct to appear lower. The client still needs monitoring for ongoing bleeding and may need blood replacement depending on severity.
+<p class="quiz-rationale"><strong>Rationale:</strong> After acute blood loss, IV fluids can restore circulating volume and improve blood pressure. However, fluids do not replace RBCs. They can dilute the remaining blood, causing Hgb and Hct to appear lower. The client still needs monitoring for ongoing bleeding and may need blood replacement depending on severity.</p>
 
 </details>
