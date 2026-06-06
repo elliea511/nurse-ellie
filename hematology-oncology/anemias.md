@@ -1494,3 +1494,18 @@ Other possible reaction findings:
 - Stop immediately if reaction occurs.
 
 </div>
+
+# Master Table: High-Yield Anemia Comparison
+
+| Disorder | What’s Happening | Key Clues | Priority Care | NCLEX Trap |
+|---|---|---|---|---|
+| Iron Deficiency Anemia | Not enough iron to make hemoglobin. RBCs are usually microcytic and hypochromic. | Fatigue, pallor, cold sensitivity, palpitations, dizziness, brittle hair/nails, cheilosis. | Assess for blood loss, monitor Hgb/Hct, give iron correctly, teach iron-rich foods. | Milk blocks iron absorption. Vitamin C increases absorption. Black stools are expected. |
+| Pernicious Anemia | Vitamin B12 deficiency caused by lack of intrinsic factor. Megaloblastic anemia. | Beefy red tongue, sore mouth, paresthesia, unsteady gait, depression, psychosis. | Give IM B12 injections, monitor neuro status, fall precautions, lifelong teaching. | Oral B12 is wrong if caused by lack of intrinsic factor. Needs lifelong injections. |
+| Folic Acid Deficiency | Folate deficiency affects DNA/RBC production. Megaloblastic anemia. | Fatigue, pallor, weakness, glossitis possible, no neurological symptoms. | Give folic acid, nutrition teaching, review meds, monitor CBC. | Unlike B12 deficiency, folic acid deficiency does not cause neurological symptoms. |
+| Aplastic Anemia | Bone marrow failure causing pancytopenia: low RBCs, WBCs, and platelets. | Fatigue, fever/infection, petechiae, bruising, bleeding. | Neutropenic precautions, bleeding precautions, monitor CBC, assess for infection/bleeding. | If RBCs, WBCs, and platelets are all low, think aplastic anemia. Priority is infection prevention. |
+| Sickle Cell Anemia | Hgb S causes RBCs to sickle during hypoxia, leading to vaso-occlusion and hemolysis. | Severe pain, jaundice, dactylitis, dyspnea, decreased pulses, abdominal pain. | IV fluids first, oxygen, opioids for pain, infection prevention, avoid triggers. | Crisis priority is hydration. No aspirin. No iron. Fever is urgent. |
+| G6PD Deficiency | X-linked enzyme deficiency causing RBC hemolysis after oxidative stress. | Pallor, fatigue, jaundice after trigger exposure. | Avoid trigger meds/foods, medication safety teaching, medic-alert bracelet. | Avoid aspirin, sulfonamides, antimalarials, and fava beans. Males most affected. |
+| Thalassemia | Inherited disorder where body cannot make enough hemoglobin. RBCs are microcytic and hypochromic. | Failure to thrive, delayed growth, splenomegaly, bronzed skin. | Monitor oxygenation, transfusions as needed, monitor iron overload, chelation therapy. | Repeated transfusions can cause iron overload and organ damage. |
+| Autoimmune Hemolytic Anemia | Antibodies attack and destroy the body’s own RBCs. | Hemolytic anemia symptoms with cold or warm trigger pattern. | Monitor anemia severity, prevent cold exposure if cold type, treat underlying cause. | Cold type is IgM. Warm type is IgG. |
+| Blood Loss Anemia | RBC loss exceeds production due to acute or chronic bleeding. | Tachycardia, hypotension, pale cool clammy skin, low Hgb/Hct, low O2 sat. | Control bleeding, IV fluids, monitor vitals, prepare for transfusion if ordered. | Body may pull fluid into bloodstream to compensate, but this dilutes the blood. |
+| Blood Transfusions | Gives RBCs to improve oxygen-carrying ability. | Used for severe anemia, hemorrhage, sickle cell, thalassemia, aplastic anemia. | Verify order/consent/type, use NS only, stay first 15 minutes, complete within 4 hours. | Stop immediately for reaction. Use new tubing with NS. Notify provider and blood bank. |
