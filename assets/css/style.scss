@@ -1445,3 +1445,35 @@ margin-left: 0.25rem !important;
 .main-content br {
   line-height: 1.9 !important;
 }
+/* =========================================================
+   PRACTICE QUIZ ANSWER + DROPDOWN SPACING FIX
+   ========================================================= */
+
+.answer-choice {
+  display: block !important;
+  margin: 0.75rem 0 !important;
+  line-height: 1.65 !important;
+}
+
+.quiz-answer {
+  margin-top: 1rem !important;
+  margin-bottom: 0.9rem !important;
+  line-height: 1.7 !important;
+  color: #be185d !important;
+}
+
+.quiz-rationale {
+  margin-top: 0.9rem !important;
+  margin-bottom: 0.5rem !important;
+  line-height: 1.8 !important;
+}
+
+.main-content details {
+  margin-top: 1.2rem !important;
+  margin-bottom: 2rem !important;
+}
+
+.main-content details p {
+  display: block !important;
+  margin: 0.85rem 0 !important;
+}
