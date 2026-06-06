@@ -14,7 +14,11 @@
     <h1 class="project-name">{{ site.title }}</h1>
     <h2 class="project-tagline">{{ site.description }}</h2>
   </header>
-
+  
+<input type="checkbox" id="sidebar-toggle" class="sidebar-toggle-checkbox">
+<label for="sidebar-toggle" class="sidebar-toggle-button">Study Menu</label>
+<label for="sidebar-toggle" class="sidebar-overlay"></label>
+  
   <div class="page-wrapper">
     {% include sidebar.html %}
 
