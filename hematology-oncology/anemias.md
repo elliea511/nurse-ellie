@@ -6,34 +6,6 @@ title: Anemias
 
 # Anemias
 
-</div>
-
-<div class="nclex">
-
-
-For NCLEX-style questions, always ask: Is the problem oxygen-carrying ability, bleeding, infection risk, or a crisis/emergency?
-
-</div>
-
-## Quick Jump
-
-- [Quick Overview](#quick-overview)
-- [Normal Lab Values](#normal-lab-values-to-memorize)
-- [Iron Deficiency Anemia](#iron-deficiency-anemia)
-- [Pernicious Anemia](#pernicious-anemia)
-- [Folic Acid Deficiency Anemia](#folic-acid-deficiency-anemia)
-- [Aplastic Anemia](#aplastic-anemia)
-- [Sickle Cell Anemia](#sickle-cell-anemia)
-- [G6PD Deficiency](#g6pd-deficiency)
-- [Thalassemia](#thalassemia)
-- [Autoimmune Hemolytic Anemia](#autoimmune-hemolytic-anemia)
-- [Blood Loss Anemia](#blood-loss-anemia)
-- [Blood Transfusions](#blood-transfusions)
-- [Master Table](#master-table-most-important-anemia-information)
-- [Master NCLEX Tips](#master-nclex-tips)
-
----
-
 ## Quick Overview
 
 Anemia happens when the body does not have enough healthy RBCs or hemoglobin to carry oxygen effectively.
@@ -45,6 +17,13 @@ There are three main causes:
 | Blood loss               | RBCs are lost faster than the body can replace them | Hemorrhage, GI bleed                                         |
 | Hemolytic                | RBCs are destroyed too quickly                      | Sickle cell, thalassemia, G6PD deficiency, autoimmune hemolytic anemia |
 | Manufacturing deficiency | The body does not make enough healthy RBCs          | Iron deficiency, aplastic anemia, pernicious anemia, folic acid deficiency |
+
+<div class="nclex" markdown="1">
+
+
+For NCLEX-style questions, first figure out the cause: blood loss, RBC destruction, or poor RBC production. Then decide the priority: oxygenation, bleeding, infection risk, or crisis/emergency.
+
+</div>
 
 ---
 
@@ -63,7 +42,7 @@ There are three main causes:
 
 # Iron Deficiency Anemia
 
-<div class="note">
+<div class="note" markdown="1">
 
 
 Iron deficiency anemia is the most common type of anemia.
@@ -102,14 +81,12 @@ About two-thirds of the body’s iron is stored in hemoglobin. The remaining one
 - Pallor of skin and mucous membranes
 - Cold sensitivity
 - Palpitations
-
   - Racing
   - Fluttering
   - Skipping heartbeat
 - Dizziness
 - Brittle hair and nails
 - Cheilosis
-
   - Fissures at corners of the mouth
 - Tachycardia
 - Tachypnea
@@ -126,7 +103,7 @@ About two-thirds of the body’s iron is stored in hemoglobin. The remaining one
 | TIBC                   | High                            |
 | Stool for occult blood | Checks for hidden GI bleeding   |
 
-<div class="note">
+<div class="note" markdown="1">
 
 
 Iron supplements can raise Hgb about 2 g/dL in 4 weeks.
@@ -134,9 +111,6 @@ Iron supplements can raise Hgb about 2 g/dL in 4 weeks.
 </div>
 
 ## Nursing Care
-
-<div class=\"intervention\">
-
 
 - Assess for source of blood loss.
 - Monitor Hgb and Hct.
@@ -146,8 +120,6 @@ Iron supplements can raise Hgb about 2 g/dL in 4 weeks.
 - Administer iron as ordered.
 - Use fall precautions if dizzy.
 - Assess for hidden GI bleeding.
-
-</div>
 
 ## Iron Administration
 
@@ -168,7 +140,7 @@ Expected effects:
 - GI upset.
 - Metallic taste.
 
-<div class="nclex">
+<div class="nclex" markdown="1">
 
 
 Black stools are expected with iron supplements and can show that the patient is taking the medication.
@@ -190,12 +162,7 @@ Use the Z-track method.
 | Do not massage                                  | Prevents medication from leaking into tissue      |
 | Aspirate first                                  | Ensures needle is not in a vein                   |
 
-<div class="memory">
-
-
-Z-track keeps iron sealed deep in the muscle. This helps prevent iron from leaking into subcutaneous tissue, which helps prevent stinging and skin staining.
-
-</div>
+Z-track matters because it keeps the iron sealed deep in the muscle. This helps prevent iron from leaking into subcutaneous tissue, which decreases stinging and skin staining.
 
 ### IV Iron
 
@@ -210,17 +177,10 @@ Monitor for:
 - Dizziness
 - Nausea
 
-<div class="danger">
+<div class="danger" markdown="1">
 
 
-IV iron works fastest but has the highest risk for serious reaction.
-
-</div>
-
-<div class="nclex">
-
-
-IV iron requires epinephrine and resuscitation equipment nearby because of anaphylaxis risk. A test dose may be given first, and the patient may be observed for 15–30 minutes before the full infusion.
+IV iron works fastest but has the highest risk for serious reaction. Epinephrine and resuscitation equipment should be nearby because of anaphylaxis risk. A test dose may be given first, and the patient may be observed for 15–30 minutes before the full infusion.
 
 </div>
 
@@ -232,7 +192,7 @@ IV iron requires epinephrine and resuscitation equipment nearby because of anaph
 | IM    | Moderate, days to weeks        | Injection site pain, soreness, possible staining             | Skin staining if Z-track is not done correctly |
 | IV    | Fastest, sometimes 24–48 hours | Flushing, warmth, headache, dizziness, nausea, metallic taste | Anaphylaxis and hypotension                    |
 
-<div class="note">
+<div class="note" markdown="1">
 
 
 Whether an LPN can administer IV iron depends on state scope of practice and facility policy.
@@ -247,7 +207,6 @@ Best iron sources:
 - Organ meat
 - Egg yolks
 - Green leafy vegetables
-
   - Spinach
   - Broccoli
 - Kidney beans
@@ -255,7 +214,7 @@ Best iron sources:
 - Raisins
 - Enriched or fortified breads and cereals
 
-<div class="note">
+<div class="note" markdown="1">
 
 
 Even if something says fortified or enriched, it does not always mean it contains a large amount of iron. Other sources are usually higher in iron.
@@ -273,7 +232,6 @@ Even if something says fortified or enriched, it does not always mean it contain
 ### Great Heme Sources
 
 - Chicken or beef liver
-
   - Highest available source, about 12.8 mg per 3.5 oz.
 - Oysters
 - Clams
@@ -288,7 +246,6 @@ Pair plant sources with vitamin C.
 - Lentils
 - Kidney beans
 - Iron-fortified cereal
-
   - Up to 18 mg per cup; check label
 - Cooked spinach
 - Tofu
@@ -317,21 +274,18 @@ Pair plant sources with vitamin C.
 | Heme iron with non-heme iron | Coffee and tea          |
 | Cooking in cast iron         | Whole wheat bran        |
 
+<div class="nclex" markdown="1">
 
-<div class="nclex">
 
-
-Pick the meal with an iron source plus a vitamin C source and no milk. Scrambled eggs and orange juice is the classic correct answer. Milk in an answer choice is usually a red flag because it blocks iron absorption.
+Pick the meal with an iron source plus a vitamin C source and no milk. Scrambled eggs and orange juice is the classic correct answer. Milk in an answer choice is usually a red flag because it blocks iron absorption. Vitamin C can boost absorption by about 7 times.
 
 </div>
 
-<details>
-<summary>Fecal Occult Blood Test Notes</summary>
-
+## Fecal Occult Blood Test Notes
 
 A fecal occult blood test checks for hidden blood in the stool. This matters in iron deficiency anemia because the patient may have a hidden GI bleed.
 
-## How to Collect
+### How to Collect
 
 1. Patient defecates into a specimen collection hat or bedpan.
 2. Use the wooden applicator to collect stool from two different areas.
@@ -342,7 +296,7 @@ A fecal occult blood test checks for hidden blood in the stool. This matters in 
 7. Apply developer solution to the back of the card.
 8. Blue color means positive for occult blood.
 
-## Avoid for 3 Days Before Collection
+### Avoid for 3 Days Before Collection
 
 | Avoid                       | Why                           |
 | --------------------------- | ----------------------------- |
@@ -351,7 +305,7 @@ A fecal occult blood test checks for hidden blood in the stool. This matters in 
 | Large amounts of vitamin C  | False negative                |
 | Beets, turnips, horseradish | False positive                |
 
-## Label With
+### Label With
 
 - Patient full name.
 - Date of birth.
@@ -361,7 +315,7 @@ A fecal occult blood test checks for hidden blood in the stool. This matters in 
 - Collector’s name or initials.
 - Ordering provider, if required.
 
-## Key Nursing Notes
+### Key Nursing Notes
 
 - Label the specimen container or guaiac card itself.
 - Do not only label the bag.
@@ -375,13 +329,12 @@ A fecal occult blood test checks for hidden blood in the stool. This matters in 
 - Refrigerate if not sending immediately.
 - Do not freeze.
 
-## NCLEX Tip
+<div class="nclex" markdown="1">
 
-If a patient is taking aspirin or NSAIDs, the result may be falsely positive.
 
-A positive FOBT in an anemic patient should prompt a GI workup.
+If a patient is taking aspirin or NSAIDs, the result may be falsely positive. A positive FOBT in an anemic patient should prompt a GI workup.
 
-</details>
+</div>
 
 ## Complications
 
@@ -400,14 +353,10 @@ A positive FOBT in an anemic patient should prompt a GI workup.
 
 # Pernicious Anemia
 
-<div class="note">
+<div class="note" markdown="1">
 
 
-Vitamin B12 deficiency. <div class="note">
-
-Megaloblastic anemia.
-
-</div>
+Vitamin B12 deficiency. Megaloblastic anemia.
 
 </div>
 
@@ -423,27 +372,30 @@ In pernicious anemia:
 - This causes megaloblastic anemia.
 - Vitamin B12 is also needed for the nervous system.
 - Neurological symptoms can develop.
+- Pernicious anemia is an autoimmune disorder because the immune system destroys gastric parietal cells, which decreases intrinsic factor.
 
-<div class="note">
+<div class="note" markdown="1">
 
 
 Most common cause in the United States: lack of intrinsic factor due to autoimmune destruction of parietal cells.
 
 </div>
 
-Nutritional cause is possible in strict vegans, but unless the question specifically says nutritional, assume lack of intrinsic factor.
+<div class="nclex" markdown="1">
 
-Pernicious anemia is a type of autoimmune disorder.
+
+Nutritional B12 deficiency is possible in strict vegans, but unless the question specifically says nutritional deficiency, assume pernicious anemia is from lack of intrinsic factor.
+
+</div>
 
 ## Risk Factors
 
 - Autoimmune history.
 - Gastrectomy or gastric bypass.
-- Strict vegetarianism.
-
-  - No meat, dairy, eggs, or fish.
-- Older adults.
-- Northern European ancestry.
+- Strict vegetarianism
+  - No meat, dairy, eggs, or fish
+- Older adults
+- Northern European ancestry
 
 ## Diagnostics
 
@@ -464,7 +416,7 @@ Pernicious anemia is a type of autoimmune disorder.
 | GI/Oral     | Sore mouth, beefy red smooth tongue, glossitis               |
 | General     | Weight loss                                                  |
 
-<div class="nclex">
+<div class="nclex" markdown="1">
 
 
 Beefy red tongue, also called glossitis, is a hallmark early sign. Neurological and psychiatric symptoms can mimic psych disorders, so B12 deficiency must be considered.
@@ -473,21 +425,11 @@ Beefy red tongue, also called glossitis, is a hallmark early sign. Neurological 
 
 ## Safety Considerations
 
-<div class="danger">
-
-
-Use fall precautions due to unsteady gait and paresthesia. Neuropathy can increase injury risk because the patient may have decreased sensation.
-
-</div>
-
 - Fall precautions due to unsteady gait and paresthesia.
-- Safety education for neuropathy.
+- Safety education for neuropathy because decreased sensation increases injury risk.
 - Good oral hygiene because of mouth and tongue changes.
 
 ## Nursing Care
-
-<div class=\"intervention\">
-
 
 - Administer B12 injections as ordered.
 - Monitor neurological status.
@@ -496,28 +438,22 @@ Use fall precautions due to unsteady gait and paresthesia. Neuropathy can increa
 - Assess for depression or cognitive changes.
 - Monitor CBC.
 
-</div>
-
 ## Medications
 
 ### Cyanocobalamin, Vitamin B12
 
 - Route:
-
   - IM injection.
   - Not oral if caused by lack of intrinsic factor.
 - Schedule:
-
   - Weekly injections initially.
   - Then monthly injections for life.
 - Severe anemia:
-
   - Blood transfusion may be needed.
 - Nasal spray, Calomist:
-
   - Alternative for maintenance.
 
-<div class="nclex">
+<div class="nclex" markdown="1">
 
 
 If a patient says, “I’ll take my B12 pill every day,” this indicates a need for more teaching. Pernicious anemia caused by lack of intrinsic factor requires injections because the gut cannot absorb B12.
@@ -532,20 +468,16 @@ If a patient says, “I’ll take my B12 pill every day,” this indicates a nee
 - Family members can be taught to give injections.
 - Report leg pain or worsening numbness.
 - Vitamin B12 is water soluble.
-
   - Too much can cause radioactive green/yellow urine.
 - Eat foods with iron, vitamin C, and folic acid to support RBC production.
 - Dietary B12 sources:
-
   - Meat
   - Fish
   - Eggs
   - Dairy
   - Fortified soymilk
 
-<details>
-<summary>Schilling Test Explained</summary>
-
+## Schilling Test Explained
 
 The Schilling test answers this question:
 
@@ -553,7 +485,7 @@ Is the patient failing to absorb B12 because they lack intrinsic factor, or for 
 
 It is a diagnostic test, not a treatment.
 
-## Basic Logic
+### Basic Logic
 
 If B12 is absorbed normally:
 
@@ -567,7 +499,7 @@ If B12 is not absorbed:
 - It passes out through stool.
 - Little or none appears in the urine.
 
-## Stage 1
+### Stage 1
 
 | Step | What Happens                                                 | Why                                                          |
 | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -577,14 +509,14 @@ If B12 is not absorbed:
 | 4    | 24-hour urine collection begins                              | Captures absorbed radioactive B12                            |
 | 5    | Urine is analyzed                                            | Determines whether B12 was absorbed                          |
 
-## Results
+### Results
 
 | Result                                             | Meaning                                                      |
 | -------------------------------------------------- | ------------------------------------------------------------ |
 | Radioactive B12 found in urine, greater than 8–10% | B12 was absorbed; likely dietary deficiency, not pernicious anemia |
 | Little to no B12 in urine, less than 8%            | B12 was not absorbed; GI absorption problem                  |
 
-## Stage 2
+### Stage 2
 
 If Stage 1 is abnormal, the test is repeated with intrinsic factor added.
 
@@ -593,7 +525,7 @@ If Stage 1 is abnormal, the test is repeated with intrinsic factor added.
 | B12 now appears in urine | Confirms pernicious anemia due to lack of intrinsic factor   |
 | B12 still absent         | Problem may be malabsorption syndrome, bacterial overgrowth, or ileal disease such as Crohn’s |
 
-## Nursing Responsibility
+### Nursing Responsibility
 
 The nurse’s main job is proper 24-hour urine collection.
 
@@ -609,14 +541,12 @@ Steps:
 8. If any specimen is missed, restart the test.
 9. Do not freeze specimen.
 
-<div class="nclex">
+<div class="nclex" markdown="1">
 
 
 First void equals discard. Last void equals keep. Miss one specimen equals restart.
 
 </div>
-
-</details>
 
 ## Complications
 
@@ -636,7 +566,7 @@ First void equals discard. Last void equals keep. Miss one specimen equals resta
 
 # Folic Acid Deficiency Anemia
 
-<div class="note">
+<div class="note" markdown="1">
 
 
 Megaloblastic anemia.
@@ -656,16 +586,14 @@ In folic acid deficiency:
 
 ## Risk Factors
 
-- Poor nutrition.
-
-  - Most common cause.
-- Alcoholism.
-- Malabsorption syndromes.
+- Poor nutrition
+  - Most common cause
+- Alcoholism
+- Malabsorption syndromes
 - Medications:
-
-  - Anticonvulsants, such as phenytoin.
-  - Oral contraceptives.
-- Pregnancy due to increased folate demand.
+  - Anticonvulsants, such as phenytoin
+  - Oral contraceptives
+- Pregnancy due to increased folate demand
 
 ## Diagnostics
 
@@ -677,16 +605,16 @@ In folic acid deficiency:
 
 ## Expected Findings
 
-- Fatigue.
-- Pallor.
-- Weakness.
-- Glossitis possible.
-- No paresthesia.
-- No neurological symptoms.
-- Slow, compensated onset.
-- Caucasians may develop lemon-yellow skin from pallor plus mild jaundice.
+- Fatigue
+- Pallor
+- Weakness
+- Glossitis possible
+- No paresthesia
+- No neurological symptoms
+- Slow, compensated onset
+- Caucasians may develop lemon-yellow skin from pallor plus mild jaundice
 
-<div class="note">
+<div class="note" markdown="1">
 
 
 Glossitis means inflammation of the tongue. It can cause swelling, bright red color, smooth glossy texture, and trouble chewing, swallowing, or speaking.
@@ -695,27 +623,19 @@ Glossitis means inflammation of the tongue. It can cause swelling, bright red co
 
 ## Nursing Care
 
-<div class=\"intervention\">
-
-
 - Give folic acid supplements.
 - Provide dietary counseling.
 - Review medications that interfere with folate absorption.
 - Monitor CBC.
 - Use fall precautions if fatigued or dizzy.
 
-</div>
-
 ## Medications
 
 - Folic acid supplements:
-
   - Oral or parenteral.
 - Especially important in pregnancy:
-
   - Helps prevent neural tube defects.
 - If medication is the cause:
-
   - Medication may need to be adjusted.
   - Patient may need supplementation.
 
@@ -723,15 +643,15 @@ Glossitis means inflammation of the tongue. It can cause swelling, bright red co
 
 Dietary sources of folic acid:
 
-- Green leafy vegetables.
-- Spinach.
-- Broccoli.
-- Liver.
-- Yeast.
-- Dried beans.
-- Nuts.
-- Citrus fruits.
-- Enriched cereals and breads.
+- Green leafy vegetables
+- Spinach
+- Broccoli
+- Liver
+- Yeast
+- Dried beans
+- Nuts
+- Citrus fruits
+- Enriched cereals and breads
 
 ## Complications
 
@@ -745,13 +665,6 @@ Dietary sources of folic acid:
 - Dietitian.
 - Pharmacist to review medication interactions.
 
-<div class="nclex">
-
-
-B12 deficiency has neurological symptoms. Folic acid deficiency does not.
-
-</div>
-
 ## B12 vs. Folic Acid Quick Compare
 
 | Feature                           | Pernicious Anemia, B12   | Folic Acid Deficiency        |
@@ -763,6 +676,13 @@ B12 deficiency has neurological symptoms. Folic acid deficiency does not.
 | Treatment                         | IM injection, lifelong   | Oral supplement              |
 | Caused by OCPs or anticonvulsants | No                       | Yes                          |
 
+<div class="nclex" markdown="1">
+
+
+B12 deficiency has neurological symptoms. Folic acid deficiency does not.
+
+</div>
+
 ---
 
 # Aplastic Anemia
@@ -773,13 +693,15 @@ Aplastic anemia is bone marrow failure.
 
 The marrow stops producing all blood cell lines, causing pancytopenia.
 
+Pancytopenia means all three major blood cell lines are low:
+
 | Cell Line Decreased | Result                  |
 | ------------------- | ----------------------- |
 | RBCs                | Anemia                  |
 | WBCs                | Immunocompromised state |
 | Platelets           | Bleeding risk           |
 
-<div class="danger">
+<div class="danger" markdown="1">
 
 
 Aplastic anemia is life-threatening because the patient is at risk for infection, bleeding, and severe anemia.
@@ -795,7 +717,6 @@ Aplastic anemia is life-threatening because the patient is at risk for infection
 - Chemotherapy.
 - Viral infections.
 - Unknown cause in about 50% of cases.
-
   - Possibly viral.
 
 ## Diagnostics
@@ -816,7 +737,7 @@ Aplastic anemia is life-threatening because the patient is at risk for infection
 
 ## Safety Considerations
 
-<div class="danger">
+<div class="danger" markdown="1">
 
 
 Priority concerns are infection and bleeding because both WBCs and platelets are low.
@@ -832,13 +753,9 @@ Priority concerns are infection and bleeding because both WBCs and platelets are
 - Fall precautions.
 - Avoid crowds and sick contacts.
 - No fresh fruits or vegetables if on neutropenic diet.
-
   - Institutional protocol varies.
 
 ## Nursing Care
-
-<div class=\"intervention\">
-
 
 - Monitor CBC closely.
 - Assess for infection.
@@ -847,8 +764,6 @@ Priority concerns are infection and bleeding because both WBCs and platelets are
 - Implement bleeding precautions.
 - Provide supportive care.
 - Identify and remove the cause if known.
-
-</div>
 
 ## Medications and Treatments
 
@@ -860,6 +775,8 @@ Priority concerns are infection and bleeding because both WBCs and platelets are
 | Epoetin alfa               | Stimulates RBC production               |
 | Bone marrow transplant     | Potential cure depending on cause       |
 
+A patient with aplastic anemia may require blood transfusions because the bone marrow is not producing enough blood cells.
+
 ### Epoetin Alfa Notes
 
 - Given subcutaneously.
@@ -870,16 +787,9 @@ Priority concerns are infection and bleeding because both WBCs and platelets are
 - Good alternative for Jehovah’s Witness patients.
 - Document all refusal of blood products.
 
-## Blood Transfusion Notes for Aplastic Anemia
-
-- Type and screen required.
-- Normal saline only with blood products.
-- Informed consent required.
-
 ## Complications
 
-- Severe infection or sepsis.
-
+- Severe infection or sepsis:
   - Most dangerous complication.
 - Uncontrolled hemorrhage.
 - Death.
@@ -891,10 +801,10 @@ Priority concerns are infection and bleeding because both WBCs and platelets are
 - Transplant team if bone marrow transplant is indicated.
 - Social work for treatment support.
 
-<div class="nclex">
+<div class="nclex" markdown="1">
 
 
-Aplastic anemia equals pancytopenia. If RBCs, WBCs, and platelets are all decreased, think aplastic anemia. Priority concerns are infection, then bleeding, then anemia.
+Aplastic anemia equals pancytopenia, meaning RBCs, WBCs, and platelets are all decreased. Priority concerns are infection, then bleeding, then anemia.
 
 </div>
 
@@ -902,7 +812,7 @@ Aplastic anemia equals pancytopenia. If RBCs, WBCs, and platelets are all decrea
 
 # Sickle Cell Anemia
 
-<div class="note">
+<div class="note" markdown="1">
 
 
 Hemolytic anemia.
@@ -947,7 +857,7 @@ When both parents are carriers:
 | Carrier, sickle cell trait    | 50%         |
 | Sickle cell disease           | 25%         |
 
-<div class="memory">
+<div class="nclex" markdown="1">
 
 
 Odds reset with every pregnancy. Having one affected child does not change the odds for the next pregnancy.
@@ -957,10 +867,10 @@ Odds reset with every pregnancy. Having one affected child does not change the o
 ## Most Prevalent In
 
 - African ancestry.
+  - About 10% of African Americans carry the gene.
 - Middle Eastern ancestry.
 - Mediterranean ancestry.
 - Southeast Asian ancestry.
-- About 10% of African Americans carry the gene.
 
 ## Pediatric Note
 
@@ -1006,7 +916,7 @@ Symptoms often appear in toddler years as fetal hemoglobin decreases and demand 
 
 ## Safety Considerations
 
-<div class="danger">
+<div class="danger" markdown="1">
 
 
 Avoid anything that causes sickling: dehydration, infection, cold exposure, high altitude, smoking, and aspirin.
@@ -1025,11 +935,7 @@ Avoid anything that causes sickling: dehydration, infection, cold exposure, high
 
 ## Nursing Care
 
-<div class=\"intervention\">
-
-
 - Give IV fluids.
-
   - Priority number one.
 - Administer oxygen.
 - Manage pain with opioids as ordered.
@@ -1038,8 +944,6 @@ Avoid anything that causes sickling: dehydration, infection, cold exposure, high
 - Monitor CBC, bilirubin, and oxygen saturation.
 - Give folic acid to support RBC production.
 - Do not give iron supplements.
-
-</div>
 
 ## Medications
 
@@ -1053,17 +957,17 @@ Avoid anything that causes sickling: dehydration, infection, cold exposure, high
 | Blood transfusions       | Replace sickled cells        | Used in severe anemia or crisis        |
 | Vaccines                 | Prevent infection            | Pneumococcal, meningococcal, influenza |
 
-<div class="note">
+<div class="note" markdown="1">
 
 
 Hydroxyurea can lower WBC, so monitor for infection.
 
 </div>
 
-<div class="danger">
+<div class="danger" markdown="1">
 
 
-Do not give aspirin because salicylic acid can promote acidosis, which can trigger sickling crisis.
+Do not give aspirin because salicylic acid can promote acidosis, which can trigger sickling crisis. Do not give iron because it can accumulate in organs and cause toxicity.
 
 </div>
 
@@ -1087,14 +991,11 @@ Do not give aspirin because salicylic acid can promote acidosis, which can trigg
 ## Therapeutic Procedures
 
 - Blood transfusions:
-
   - Used during acute crisis or severe anemia.
 - Bone marrow or stem cell transplant:
-
   - Only potential cure.
   - Limited by donor availability and risk.
 - Exchange transfusion:
-
   - Replaces sickled blood with donor blood.
   - Used in severe cases.
 
@@ -1122,14 +1023,14 @@ Do not give aspirin because salicylic acid can promote acidosis, which can trigg
 - Genetic counselor.
 - Social work or case management.
 
-<div class="note">
+<div class="note" markdown="1">
 
 
 Average life expectancy is reduced by about 22 years compared with the general population.
 
 </div>
 
-<div class="nclex">
+<div class="nclex" markdown="1">
 
 
 In sickle cell crisis, the priority is IV fluids. Fever is urgent because infection can cause dehydration and trigger crisis. Folic acid helps; iron does not.
@@ -1140,12 +1041,12 @@ In sickle cell crisis, the priority is IV fluids. Fever is urgent because infect
 
 # G6PD Deficiency
 
-Glucose-6-Phosphate Dehydrogenase Deficiency.
+<p style="text-align: center;"><strong>Glucose-6-Phosphate Dehydrogenase Deficiency</strong></p>
 
-<div class="note">
+<div class="note" markdown="1">
 
 
-Hemolytic anemia.
+G6PD deficiency is a hemolytic anemia.
 
 </div>
 
@@ -1159,10 +1060,10 @@ G6PD deficiency is X-linked recessive.
 - When exposed to certain triggers, RBCs break down.
 - This causes hemolytic anemia.
 
-<div class="note">
+<div class="note" markdown="1">
 
 
-Most common type: hemolysis occurs only when triggered. It is not continuous.
+For the most common type, hemolysis happens only after a trigger. This means the patient may be okay until exposure to a trigger such as certain medications, fava beans, fever, or illness.
 
 </div>
 
@@ -1189,23 +1090,18 @@ Most common type: hemolysis occurs only when triggered. It is not continuous.
 
 ## Safety and Teaching
 
-<div class=\"intervention\">
-
-
 - Avoid trigger medications and foods.
 - Request a list of medications to avoid.
 - Ask healthcare provider before taking any new drug or herb.
 - Wear a medic-alert bracelet.
 - Genetic counseling may be indicated.
 
-</div>
-
 ## Interprofessional Care
 
 - Genetic counselor.
 - Pharmacist for medication safety review.
 
-<div class="nclex">
+<div class="nclex" markdown="1">
 
 
 G6PD is X-linked recessive, so males are most affected. Avoid aspirin, sulfonamides, antimalarials, and fava beans.
@@ -1216,7 +1112,7 @@ G6PD is X-linked recessive, so males are most affected. Avoid aspirin, sulfonami
 
 # Thalassemia
 
-<div class="note">
+<div class="note" markdown="1">
 
 
 Hemolytic anemia.
@@ -1254,7 +1150,7 @@ Thalassemia becomes evident in infancy.
 | Later   | Freckles, bronzed skin, headache, anorexia, abdominal pain   |
 | Chronic | Iron deposits in heart, liver, and pancreas causing dysfunction; splenomegaly crowds organs |
 
-<div class="note">
+<div class="note" markdown="1">
 
 
 Bronzed skin occurs from iron deposits that come from destroyed RBCs.
@@ -1263,7 +1159,7 @@ Bronzed skin occurs from iron deposits that come from destroyed RBCs.
 
 ## Safety Considerations
 
-<div class="danger">
+<div class="danger" markdown="1">
 
 
 Repeated transfusions can cause iron overload, which can damage the heart, liver, and pancreas.
@@ -1275,22 +1171,21 @@ Repeated transfusions can cause iron overload, which can damage the heart, liver
 - Monitor for infection risk.
 - Splenomegaly and immunocompromise can increase risk.
 
-## Therapeutic Procedures
-
-<div class=\"intervention\">
+<div class="note" markdown="1">
 
 
-- Frequent blood transfusions:
-
-  - Maintain oxygen-carrying capacity.
-- Iron chelation:
-
-  - Removes iron buildup from organs.
-- Genetic counseling:
-
-  - Recommended for family planning.
+Chelation therapy uses medication to bind extra iron so the body can remove it. It is used when repeated blood transfusions cause iron overload.
 
 </div>
+
+## Therapeutic Procedures
+
+- Frequent blood transfusions:
+  - Maintain oxygen-carrying capacity.
+- Iron chelation:
+  - Removes iron buildup from organs.
+- Genetic counseling:
+  - Recommended for family planning.
 
 ## Interprofessional Care
 
@@ -1299,7 +1194,7 @@ Repeated transfusions can cause iron overload, which can damage the heart, liver
 - Cardiologist if iron deposits affect the heart.
 - Endocrinologist if iron deposits affect the pancreas.
 
-<div class="nclex">
+<div class="nclex" markdown="1">
 
 
 Repeated transfusions can cause iron overload. Monitor for organ damage and anticipate chelation therapy.
@@ -1333,17 +1228,12 @@ There are two types:
 
 ## Treatment
 
-<div class="intervention">
-
-
 - Corticosteroids.
 - Immunotherapy.
 - Chemotherapy as a last resort.
 - Treat the underlying cause.
 
-</div>
-
-<div class="nclex">
+<div class="nclex" markdown="1">
 
 
 Cold autoimmune hemolytic anemia is IgM. Warm autoimmune hemolytic anemia is IgG.
@@ -1354,7 +1244,7 @@ Cold autoimmune hemolytic anemia is IgM. Warm autoimmune hemolytic anemia is IgG
 
 # Blood Loss Anemia
 
-<div class="note">
+<div class="note" markdown="1">
 
 
 Hemorrhagic anemia.
@@ -1376,7 +1266,7 @@ The body temporarily compensates by pulling fluid from tissues into the bloodstr
 - Surgical blood loss.
 - Placental abruption.
 
-<div class="danger">
+<div class="danger" markdown="1">
 
 
 Blood loss anemia can progress quickly if bleeding is active. Priority is to control bleeding and support circulation.
@@ -1394,16 +1284,11 @@ Blood loss anemia can progress quickly if bleeding is active. Priority is to con
 
 ## Nursing Care and Treatment
 
-<div class=\"intervention\">
-
-
 - Control source of bleeding.
 - Give IV fluids.
 - Prepare for blood transfusion if ordered.
 - Monitor Hgb and Hct.
 - Monitor vital signs closely.
-
-</div>
 
 ---
 
@@ -1424,17 +1309,12 @@ Used for:
 
 ## Before Transfusion
 
-<div class=\"intervention\">
-
-
 - Verify provider order.
 - Obtain informed consent.
 - Check type and screen or crossmatch.
 - Use large-bore IV if possible.
 - Use normal saline only with blood.
 - Get baseline vital signs.
-
-</div>
 
 ## Two-Nurse Verification
 
@@ -1456,12 +1336,20 @@ Verify:
 
 ## Monitor for Reaction
 
-<div class="danger">
+<div class="danger" markdown="1">
 
 
-Stop the transfusion if the patient has fever, chills, back or flank pain, chest pain, shortness of breath, itching, hives, rash, hypotension, anxiety or feeling of doom, or dark urine.
+Stop the transfusion immediately if the patient develops fever, chills, back/flank pain, hypotension, shortness of breath, or dark urine.
 
 </div>
+
+Other possible reaction findings:
+
+- Chest pain.
+- Itching.
+- Hives.
+- Rash.
+- Anxiety or feeling of doom.
 
 ## If a Reaction Occurs
 
@@ -1473,37 +1361,28 @@ Stop the transfusion if the patient has fever, chills, back or flank pain, chest
 6. Collect urine and blood samples if ordered.
 7. Document reaction.
 
-<div class="nclex">
+## Transfusion Reminders
 
-
-Blood tubing has a filter. Do not add medications to blood. Only compatible fluid is 0.9% normal saline. Watch closely during the first 15 minutes. Hemolytic reaction is the most dangerous and may cause back pain, fever, hypotension, and dark urine. In sickle cell, transfusions may be used, but priority in crisis is usually hydration and pain control.
-
-</div>
-
----
-
-# Master Table: Most Important Anemia Information
-
-| Disorder                    | Type/Cause                       | Key Patho                                          | Major Clues                                                  | Labs/Diagnostics                                             | Priority Nursing Care                                        | Treatment                                                    | NCLEX Trap                                                   |
-| --------------------------- | -------------------------------- | -------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| Iron Deficiency Anemia      | Manufacturing deficiency         | Not enough iron to make hemoglobin                 | Fatigue, pallor, cold sensitivity, palpitations, dizziness, brittle hair/nails, cheilosis | Low Hgb/Hct, microcytic hypochromic RBCs, low serum iron, low ferritin, high TIBC, stool occult blood | Assess for blood loss, fall precautions, give iron correctly | Oral iron, IM Z-track iron, IV iron, iron-rich diet          | Milk blocks absorption; vitamin C increases absorption; black stools are expected |
-| Pernicious Anemia           | B12 deficiency, megaloblastic    | Lack of intrinsic factor prevents B12 absorption   | Beefy red tongue, sore mouth, paresthesia, unsteady gait, depression, psychosis | Low B12, high MCV, gastric analysis, Schilling test          | Fall precautions, monitor neuro status, give B12 injections  | IM B12 injections lifelong, possible nasal B12 maintenance   | Oral B12 pills are wrong if caused by lack of intrinsic factor |
-| Folic Acid Deficiency       | Folate deficiency, megaloblastic | Folate needed for DNA/RBC production               | Fatigue, pallor, weakness, possible glossitis, no neuro symptoms | Low folate, macrocytic RBCs, normal B12                      | Give folic acid, nutrition teaching, review meds             | Folic acid supplement, folate-rich foods                     | Unlike B12 deficiency, there are no neurological symptoms    |
-| Aplastic Anemia             | Bone marrow failure              | Bone marrow stops making RBCs, WBCs, and platelets | Fatigue, infection, fever, petechiae, bruising, bleeding     | Pancytopenia, bone marrow biopsy                             | Neutropenic precautions, bleeding precautions, monitor CBC   | Transfusions, immunosuppressants, colony-stimulating factors, epoetin alfa, bone marrow transplant | If RBCs, WBCs, and platelets are all low, think aplastic anemia |
-| Sickle Cell Anemia          | Hemolytic, inherited             | Hgb S causes RBCs to sickle with hypoxia           | Severe pain, jaundice, dactylitis, decreased pedal pulses, abdominal pain, dyspnea | Hemoglobin electrophoresis, CBC, bilirubin, newborn screen   | IV fluids first, oxygen, pain control, infection prevention  | IV fluids, opioids, folic acid, hydroxyurea, vaccines, transfusions | Crisis priority is hydration; no aspirin; no iron            |
-| G6PD Deficiency             | Hemolytic, X-linked              | RBCs hemolyze after oxidative stress               | Jaundice, pallor, fatigue after trigger exposure             | Based on history, hemolysis labs, G6PD testing               | Avoid triggers, med safety teaching                          | Avoid offending meds/foods, supportive care                  | Avoid aspirin, sulfonamides, antimalarials, fava beans       |
-| Thalassemia                 | Hemolytic, inherited             | Body cannot produce enough hemoglobin              | Failure to thrive, delayed growth, splenomegaly, bronzed skin | Microcytic hypochromic RBCs, anemia labs, genetic testing    | Monitor oxygenation and iron overload                        | Frequent transfusions, iron chelation, genetic counseling    | Repeated transfusions cause iron overload                    |
-| Autoimmune Hemolytic Anemia | Hemolytic, autoimmune            | Antibodies destroy own RBCs                        | Hemolytic anemia symptoms, cold or warm trigger pattern      | Hemolysis labs, antibody testing                             | Monitor anemia severity, prevent triggers if cold type       | Steroids, immunotherapy, chemotherapy last resort            | Cold type is IgM; warm type is IgG                           |
-| Blood Loss Anemia           | Blood loss                       | RBC loss exceeds production                        | Tachycardia, hypotension, pale cool clammy skin, low O2 sat  | Low Hgb/Hct, source of bleeding                              | Control bleeding, IV fluids, monitor vitals                  | Fluids, transfusion, treat cause                             | Body compensates temporarily by pulling fluid into bloodstream, but this dilutes blood |
+- Blood tubing has a filter.
+- Do not add medications to blood.
+- Only compatible fluid is 0.9% normal saline.
+- Watch closely during the first 15 minutes.
+- Febrile reaction:
+  - Fever and chills.
+- Hemolytic reaction:
+  - Most dangerous.
+  - Think wrong blood type.
+  - Findings include back pain, fever, hypotension, and dark urine.
+- In sickle cell, transfusions may be used, but priority in crisis is usually hydration and pain control.
 
 ---
 
 # Master NCLEX Tips
 
-<div class="nclex">
-
-
 ## Iron Deficiency
+
+<div class="nclex" markdown="1">
+
 
 - Liquid iron goes through a straw.
 - IM iron requires Z-track.
@@ -1514,13 +1393,12 @@ Blood tubing has a filter. Do not add medications to blood. Only compatible flui
 - Milk blocks iron absorption.
 - Vitamin C increases iron absorption.
 
-
 </div>
 
-<div class="nclex">
-
-
 ## Pernicious Anemia
+
+<div class="nclex" markdown="1">
+
 
 - Oral B12 is wrong if the cause is lack of intrinsic factor.
 - IM B12 is needed.
@@ -1528,32 +1406,25 @@ Blood tubing has a filter. Do not add medications to blood. Only compatible flui
 - Schilling test requires 24-hour urine collection.
 - Treatment is lifelong.
 
-
 </div>
-
-<div class="nclex">
-
 
 ## Folic Acid Deficiency
 
-- <div class="note">
+<div class="nclex" markdown="1">
 
-Megaloblastic anemia.
 
-</div>
-
+- Megaloblastic anemia.
 - No neurological symptoms.
 - Poor nutrition and alcoholism are common causes.
 - Anticonvulsants and oral contraceptives can contribute.
 - Important in pregnancy to prevent neural tube defects.
 
-
 </div>
 
-<div class="nclex">
-
-
 ## Aplastic Anemia
+
+<div class="nclex" markdown="1">
+
 
 - Think pancytopenia.
 - Low RBCs, WBCs, and platelets.
@@ -1562,13 +1433,12 @@ Megaloblastic anemia.
 - Watch for bleeding.
 - Bone marrow biopsy is definitive.
 
-
 </div>
 
-<div class="nclex">
-
-
 ## Sickle Cell
+
+<div class="nclex" markdown="1">
+
 
 - IV fluids are priority number one in crisis.
 - Fever is urgent.
@@ -1581,13 +1451,12 @@ Megaloblastic anemia.
 - Hydroxyurea increases fetal hemoglobin.
 - If both parents are carriers, each pregnancy has a 25% chance of disease.
 
-
 </div>
 
-<div class="nclex">
-
-
 ## G6PD
+
+<div class="nclex" markdown="1">
+
 
 - X-linked recessive.
 - Males most affected.
@@ -1595,13 +1464,12 @@ Megaloblastic anemia.
 - Wear medic-alert bracelet.
 - Ask provider before taking new medications or herbs.
 
-
 </div>
 
-<div class="nclex">
-
-
 ## Thalassemia
+
+<div class="nclex" markdown="1">
+
 
 - Inherited hemolytic anemia.
 - Appears in infancy.
@@ -1610,13 +1478,12 @@ Megaloblastic anemia.
 - Chelation may be needed.
 - Genetic counseling is recommended.
 
-
 </div>
 
-<div class="nclex">
-
-
 ## Blood Transfusions
+
+<div class="nclex" markdown="1">
+
 
 - Use normal saline only.
 - Use blood tubing with filter.
