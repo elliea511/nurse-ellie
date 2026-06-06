@@ -1244,3 +1244,133 @@ margin-left: 0.25rem !important;
   content: "Note";
   color: #2b6cb0 !important;
 }
+/* =========================================================
+   COLLAPSIBLE SLIDE-OUT SIDEBAR
+   Notes fill the screen, sidebar opens with button
+   ========================================================= */
+
+/* Hide checkbox */
+.sidebar-toggle-checkbox {
+  display: none !important;
+}
+
+/* Cute button to open sidebar */
+.sidebar-toggle-button {
+  position: fixed !important;
+  top: 18px !important;
+  left: 18px !important;
+  z-index: 9999 !important;
+  background: linear-gradient(135deg, #fff7cf, #f8b6c8, #7fd8d2) !important;
+  color: #24455c !important;
+  font-weight: 900 !important;
+  font-family: "Trebuchet MS", "Arial Rounded MT Bold", Arial, sans-serif !important;
+  border: 3px solid rgba(255, 255, 255, 0.9) !important;
+  border-radius: 999px !important;
+  padding: 10px 16px !important;
+  box-shadow:
+    5px 5px 0 rgba(36, 69, 92, 0.12),
+    0 6px 18px rgba(36, 69, 92, 0.15) !important;
+  cursor: pointer !important;
+}
+
+/* Dark/soft overlay when sidebar is open */
+.sidebar-overlay {
+  display: none !important;
+}
+
+/* Make page content use more room */
+.page-wrapper {
+  max-width: 1350px !important;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
+
+/* Notes area fills the space */
+.main-content {
+  max-width: 1100px !important;
+  width: 100% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* Sidebar hidden by default */
+.sidebar {
+  position: fixed !important;
+  top: 0 !important;
+  left: -310px !important;
+  width: 280px !important;
+  min-width: 280px !important;
+  max-width: 280px !important;
+  height: 100vh !important;
+  max-height: 100vh !important;
+  z-index: 9998 !important;
+  overflow-y: auto !important;
+  transition: left 0.25s ease !important;
+  margin: 0 !important;
+  border-radius: 0 28px 28px 0 !important;
+}
+
+/* When checked, sidebar slides in */
+.sidebar-toggle-checkbox:checked ~ .page-wrapper .sidebar {
+  left: 0 !important;
+}
+
+/* Overlay appears when open */
+.sidebar-toggle-checkbox:checked ~ .sidebar-overlay {
+  display: block !important;
+  position: fixed !important;
+  inset: 0 !important;
+  background: rgba(36, 69, 92, 0.18) !important;
+  z-index: 9997 !important;
+  cursor: pointer !important;
+}
+
+/* Shift button slightly when sidebar is open */
+.sidebar-toggle-checkbox:checked + .sidebar-toggle-button {
+  left: 300px !important;
+}
+
+/* Button text when open */
+.sidebar-toggle-checkbox:checked + .sidebar-toggle-button::after {
+  content: " Close";
+}
+
+/* Mobile */
+@media screen and (max-width: 700px) {
+  .sidebar-toggle-button {
+    top: 12px !important;
+    left: 12px !important;
+    padding: 9px 13px !important;
+    font-size: 0.9rem !important;
+  }
+
+  .sidebar {
+    left: -290px !important;
+    width: 265px !important;
+    min-width: 265px !important;
+    max-width: 265px !important;
+  }
+
+  .sidebar-toggle-checkbox:checked + .sidebar-toggle-button {
+    left: 12px !important;
+    top: 12px !important;
+  }
+
+  .sidebar-toggle-checkbox:checked + .sidebar-toggle-button::after {
+    content: " Close";
+  }
+
+  .main-content {
+    padding-top: 3.5rem !important;
+  }
+}
+
+/* Print stays clean */
+@media print {
+  .sidebar-toggle-button,
+  .sidebar-toggle-checkbox,
+  .sidebar-overlay,
+  .sidebar {
+    display: none !important;
+  }
+}
