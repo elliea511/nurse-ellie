@@ -6,13 +6,6 @@ title: Anemia Practice Quiz
 
 # Anemia Practice Quiz
 
-<div class="note" markdown="1">
-
-
-Forty-six ATI/NCLEX-style practice questions covering anemia care, iron deficiency, pernicious anemia, folic acid deficiency, aplastic anemia, sickle cell anemia, G6PD deficiency, thalassemia, blood loss anemia, and blood transfusions.
-
-</div>
-
 <div class="nclex" markdown="1">
 
 
