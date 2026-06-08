@@ -1477,3 +1477,26 @@ margin-left: 0.25rem !important;
   display: block !important;
   margin: 0.85rem 0 !important;
 }
+/* =========================================================
+   DOWNLOAD BUTTONS
+   ========================================================= */
+
+.download-button {
+  display: inline-block !important;
+  background: linear-gradient(135deg, #fff7cf, #f8b6c8, #7fd8d2) !important;
+  color: #24455c !important;
+  font-weight: 900 !important;
+  text-decoration: none !important;
+  border: 3px solid rgba(255, 255, 255, 0.9) !important;
+  border-radius: 999px !important;
+  padding: 12px 18px !important;
+  margin: 1rem 0 1.5rem 0 !important;
+  box-shadow:
+    5px 5px 0 rgba(36, 69, 92, 0.12),
+    0 6px 18px rgba(36, 69, 92, 0.12) !important;
+}
+
+.download-button:hover {
+  transform: translateY(-2px) !important;
+  filter: brightness(1.03) !important;
+}
