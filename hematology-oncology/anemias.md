@@ -6,6 +6,10 @@ title: Anemias
 
 # Anemias
 
+<a class="download-button" href="{{ '/assets/printables/anemia-master-table.pdf' | relative_url }}" target="_blank">
+  Download Printable Anemia Master Table
+</a>
+
 ## Quick Overview
 
 Anemia happens when the body does not have enough healthy RBCs or hemoglobin to carry oxygen effectively.
