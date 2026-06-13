@@ -155,6 +155,7 @@ D. “Benign tumors become cancerous once anemia develops.”
 
 **Answer: B — Benign tumors can still cause problems because of size, location, bleeding, or pressure**
 
+
 Benign tumors do not metastasize, but they can still create clinically significant problems. This question tries to make “benign” sound automatically harmless. The issue is not spread; the issue is bleeding, compression, pain, and function.
 
 </details>
