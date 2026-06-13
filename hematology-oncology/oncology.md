@@ -5,14 +5,6 @@ title: Oncology
 
 # Oncology
 
-<div class="note" markdown="1">
-
-Study note: These notes are for nursing school review, ATI/NCLEX-style studying, and clinical judgment practice. Follow course materials, instructor guidance, provider orders, and facility policy for clinical practice.
-
-</div>
-
-## Quick Overview
-
 Cancer begins when normal cell growth becomes abnormal and uncontrolled. Only one abnormal cell has to survive, divide, and pass abnormal DNA changes to future cells for cancer development to begin.
 
 Cancer care focuses on:
