@@ -1266,8 +1266,6 @@ Surgery may be used for several purposes.
 
 ### Biopsy Nursing Care
 
-### Types of Biopsy
-
 | Biopsy Type | What It Means | Nursing Focus |
 |---|---|---|
 | Needle biopsy | Tissue or fluid is removed with a needle | Monitor puncture site, bleeding, pain, and infection |
