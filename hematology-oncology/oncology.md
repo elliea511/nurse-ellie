@@ -3455,9 +3455,6 @@ Oncology labs help identify infection risk, bleeding risk, anemia, treatment eff
 
 <div class="note" markdown="1">
 
-Lab values vary slightly by facility, textbook, age, sex, and clinical situation. Use your instructor’s values for exams when provided.
-
-</div>
 
 | Lab | Typical Adult Reference Range | Why It Matters in Oncology | Priority Concern |
 |---|---:|---|---|
@@ -3483,12 +3480,6 @@ Lab values vary slightly by facility, textbook, age, sex, and clinical situation
 | Total bilirubin | 0.1–1.2 mg/dL | Liver/bile processing | High bilirubin may appear with jaundice or liver involvement |
 | Albumin | 3.4–5.4 g/dL | Nutrition status, inflammation, liver function | Low albumin suggests poor nutrition, inflammation, or liver concern |
 | Prealbumin | about 15–36 mg/dL | Shorter-term nutrition marker | Low prealbumin may suggest poor recent nutrition |
-
-<div class="nclex" markdown="1">
-
-For this unit, focus on the concept: **low neutrophils = infection risk**. Exact neutrophil cutoff numbers are lower priority unless your instructor gives them.
-
-</div>
 
 <div class="nclex" markdown="1">
 
