@@ -150,13 +150,16 @@ B. “Benign tumors can still cause problems because of size, location, bleeding
 C. “Benign tumors are treated the same way as malignant tumors.”  
 D. “Benign tumors become cancerous once anemia develops.”  
 
-<details>
-<summary>Click for answer and rationale</summary>
+<details markdown="1">
+<summary><strong>Click for answer and rationale</strong></summary>
+
+<div class="note" markdown="1">
 
 **Answer: B — Benign tumors can still cause problems because of size, location, bleeding, or pressure**
 
-
 Benign tumors do not metastasize, but they can still create clinically significant problems. This question tries to make “benign” sound automatically harmless. The issue is not spread; the issue is bleeding, compression, pain, and function.
+
+</div>
 
 </details>
 
@@ -296,12 +299,16 @@ B. “Any cancer found in the liver is automatically called liver cancer.”
 C. “Cancer that spreads is still named by the original site where it began.”  
 D. “The name changes only after the lymph nodes become involved.”  
 
-<details>
-<summary>Click for answer and rationale</summary>
+<details markdown="1">
+<summary><strong>Click for answer and rationale</strong></summary>
+
+<div class="note" markdown="1">
 
 **Answer: C — Cancer that spreads is still named by the original site where it began**
 
 The tempting answer is to rename the cancer based on the new location, but metastatic cancer is named by the primary tumor site. Colon cancer that spreads to the liver is colon cancer with liver metastasis.
+
+</div>
 
 </details>
 
@@ -357,12 +364,16 @@ B. “High grade means the tumor is benign but fast growing.”
 C. “Grade is only used for blood cancers, not solid tumors.”  
 D. “Grade describes how abnormal the cells look; stage describes how far cancer has spread.”  
 
-<details>
-<summary>Click for answer and rationale</summary>
+<details markdown="1">
+<summary><strong>Click for answer and rationale</strong></summary>
+
+<div class="note" markdown="1">
 
 **Answer: D — Grade describes how abnormal the cells look; stage describes how far cancer has spread**
 
 This question tries to blur grade and stage. Grade is cell appearance and differentiation. Stage describes extent of disease and spread.
+
+</div>
 
 </details>
 
@@ -455,12 +466,6 @@ Examples:
 
 <div class="note" markdown="1">
 
-**Instructor Note: Not on Test**
-
-Chemoprevention is listed as a primary prevention strategy, but it is not testable content for this unit.
-
-</div>
-
 ### Secondary Prevention
 
 Secondary prevention means detecting cancer early through screening.
@@ -487,12 +492,16 @@ B. Avoiding tobacco smoke exposure
 C. Receiving HPV vaccination before exposure  
 D. Wearing sunscreen during outdoor activity  
 
-<details>
-<summary>Click for answer and rationale</summary>
+<details markdown="1">
+<summary><strong>Click for answer and rationale</strong></summary>
+
+<div class="note" markdown="1">
 
 **Answer: A — Completing a recommended screening test before symptoms appear**
 
 Secondary prevention focuses on early detection. The other options are primary prevention because they reduce risk before cancer develops.
+
+</div>
 
 </details>
 
@@ -768,12 +777,16 @@ B. Obtain a temperature and assess for infection patterns promptly
 C. Offer warm fluids and document the expected nadir symptom  
 D. Delay assessment until the next scheduled lab draw  
 
-<details>
-<summary>Click for answer and rationale</summary>
+<details markdown="1">
+<summary><strong>Click for answer and rationale</strong></summary>
+
+<div class="note" markdown="1">
 
 **Answer: B — Obtain a temperature and assess for infection patterns promptly**
 
 The timing suggests nadir, and low neutrophils increase infection risk. Chills may be an early infection cue. Ambulation and comfort may be appropriate later, but assessment for infection is the priority.
+
+</div>
 
 </details>
 
@@ -908,12 +921,16 @@ B. Encourage oral fluids and document expected fatigue
 C. Perform a focused neurologic assessment and evaluate for bleeding risk  
 D. Teach the patient to avoid citrus foods until platelets improve  
 
-<details>
-<summary>Click for answer and rationale</summary>
+<details markdown="1">
+<summary><strong>Click for answer and rationale</strong></summary>
+
+<div class="note" markdown="1">
 
 **Answer: C — Perform a focused neurologic assessment and evaluate for bleeding risk**
 
 The headache may be benign, but in thrombocytopenia, neurologic symptoms raise concern for bleeding. Pain relief may be needed later, but assessment comes first. The question tries to distract with fatigue and a routine medication request.
+
+</div>
 
 </details>
 
@@ -1041,12 +1058,6 @@ Cold exposure decreases blood flow to the mouth tissues, which can reduce how mu
 
 <div class="nclex" markdown="1">
 
-**ATI/NCLEX Tip:** Ice chips may help reduce mucositis with some chemotherapy medications, but this should follow the chemotherapy protocol.
-
-</div>
-
-<div class="nclex" markdown="1">
-
 **Check Your Understanding**
 
 A patient receiving chemotherapy reports mouth pain and decreased fluid intake. The platelet count is low, and the nurse observes dry mucous membranes. Which action is most appropriate?
@@ -1056,12 +1067,16 @@ B. Offer citrus fluids to increase saliva production
 C. Hold oral care until the platelet count improves  
 D. Use gentle oral care and assess hydration status  
 
-<details>
-<summary>Click for answer and rationale</summary>
+<details markdown="1">
+<summary><strong>Click for answer and rationale</strong></summary>
+
+<div class="note" markdown="1">
 
 **Answer: D — Use gentle oral care and assess hydration status**
 
 Mucositis increases pain, infection risk, and poor intake. Low platelets increase bleeding risk, so oral care should be gentle, not avoided. Citrus can irritate mucosa, and flossing may increase bleeding risk.
+
+</div>
 
 </details>
 
@@ -1170,12 +1185,16 @@ B. Encourage the patient to briefly bear weight to assess mobility
 C. Massage the painful area to reduce muscle tension  
 D. Delay repositioning until the next pain medication dose is due  
 
-<details>
-<summary>Click for answer and rationale</summary>
+<details markdown="1">
+<summary><strong>Click for answer and rationale</strong></summary>
+
+<div class="note" markdown="1">
 
 **Answer: A — Reposition using a draw sheet and support the affected extremity**
 
 Bone involvement increases fracture risk, so gentle handling and support are safest. Bearing weight can worsen injury if bone is fragile. Massage can increase trauma. Delaying care does not address safe movement.
+
+</div>
 
 </details>
 
@@ -1265,6 +1284,8 @@ Surgery may be used for several purposes.
 | Reconstruction | Restores appearance or function |
 
 ### Biopsy Nursing Care
+
+### Types of Biopsy
 
 | Biopsy Type | What It Means | Nursing Focus |
 |---|---|---|
@@ -1483,7 +1504,7 @@ Common effects include:
 
 <div class="nclex" markdown="1">
 
-**ATI/NCLEX Tip:** Radiation side effects match the **treatment field**. Do not assume every radiation patient has the same side effects.
+**ATI/NCLEX Tip:** Radiation side effects match the **treatment field**. Do not assume every radiation patient has the same side effects (ex. hair loss).
 
 </div>
 
@@ -1599,12 +1620,16 @@ B. Use long-handled forceps to place the source in the lead container
 C. Pick up the source with double gloves and place it on the bedside table  
 D. Ask the patient to remain still until the source decays naturally  
 
-<details>
-<summary>Click for answer and rationale</summary>
+<details markdown="1">
+<summary><strong>Click for answer and rationale</strong></summary>
+
+<div class="note" markdown="1">
 
 **Answer: B — Use long-handled forceps to place the source in the lead container**
 
 Do not touch the source with bare hands. Use forceps and the lead container according to radiation safety protocol. The patient being stable does not remove the radiation exposure risk.
+
+</div>
 
 </details>
 
@@ -1643,12 +1668,16 @@ B. “Nausea means the cancer has spread to the gastrointestinal tract.”
 C. “Radiation effects are usually related to the treatment field, and pelvic or abdominal areas can affect nearby GI tissues.”  
 D. “Radiation only affects the skin, so nausea is unrelated.”  
 
-<details>
-<summary>Click for answer and rationale</summary>
+<details markdown="1">
+<summary><strong>Click for answer and rationale</strong></summary>
+
+<div class="note" markdown="1">
 
 **Answer: C — Radiation effects are usually related to the treatment field, and pelvic or abdominal areas can affect nearby GI tissues**
 
 Radiation is local, but nearby tissues in the field may be affected. The distractors confuse local effects with systemic effects or cancer spread.
+
+</div>
 
 </details>
 
@@ -1819,12 +1848,16 @@ B. Document that blood return was present before the infusion
 C. Apply a warm blanket and continue monitoring  
 D. Stop the infusion and follow the facility extravasation protocol  
 
-<details>
-<summary>Click for answer and rationale</summary>
+<details markdown="1">
+<summary><strong>Click for answer and rationale</strong></summary>
+
+<div class="note" markdown="1">
 
 **Answer: D — Stop the infusion and follow the facility extravasation protocol**
 
 Tightness, coolness, swelling, or pain at the chemotherapy IV site can indicate extravasation. Prior blood return does not rule out a current problem. Chest pain and shortness of breath are not required for extravasation.
+
+</div>
 
 </details>
 
@@ -2192,12 +2225,16 @@ B. These findings are expected during engraftment and do not require follow-up
 C. The findings suggest mild dehydration only  
 D. The findings are most consistent with a medication side effect from pain therapy  
 
-<details>
-<summary>Click for answer and rationale</summary>
+<details markdown="1">
+<summary><strong>Click for answer and rationale</strong></summary>
+
+<div class="note" markdown="1">
 
 **Answer: A — The findings may indicate graft-versus-host disease and require prompt follow-up**
 
 GVHD can affect the skin, GI tract, and liver. Rash plus diarrhea after allogeneic transplant is concerning. Poor intake alone could suggest dehydration, but the combination changes the priority.
+
+</div>
 
 </details>
 
@@ -2381,12 +2418,16 @@ B. Apply lotion to prevent skin breakdown around bruised areas
 C. Encourage ambulation to prevent venous stasis  
 D. Assess bleeding, apply pressure to puncture sites, and escalate per policy  
 
-<details>
-<summary>Click for answer and rationale</summary>
+<details markdown="1">
+<summary><strong>Click for answer and rationale</strong></summary>
+
+<div class="note" markdown="1">
 
 **Answer: D — Assess bleeding, apply pressure to puncture sites, and escalate per policy**
 
 Oozing, bruising, abnormal coagulation labs, and dropping blood pressure suggest a serious bleeding/clotting problem such as DIC. The priority is bleeding control, assessment, and escalation.
+
+</div>
 
 </details>
 
@@ -2487,12 +2528,16 @@ B. Tumor lysis syndrome
 C. Superior vena cava syndrome  
 D. Hypercalcemia  
 
-<details>
-<summary>Click for answer and rationale</summary>
+<details markdown="1">
+<summary><strong>Click for answer and rationale</strong></summary>
+
+<div class="note" markdown="1">
 
 **Answer: B — Tumor lysis syndrome**
 
 The lab pattern is the key: high potassium, high phosphate, high uric acid, and low calcium after treatment begins. The cramping fits electrolyte disturbance. This is not hypercalcemia because calcium is low.
+
+</div>
 
 </details>
 
@@ -2544,12 +2589,16 @@ B. Offer a heating pad and reassess pain in 30 minutes
 C. Notify the provider promptly and assess neurologic status  
 D. Teach pelvic floor exercises for urinary control  
 
-<details>
-<summary>Click for answer and rationale</summary>
+<details markdown="1">
+<summary><strong>Click for answer and rationale</strong></summary>
+
+<div class="note" markdown="1">
 
 **Answer: C — Notify the provider promptly and assess neurologic status**
 
 Back pain with weakness, gait changes, or bowel/bladder changes suggests spinal cord compression. Comfort measures and bladder teaching do not address the emergency pattern.
+
+</div>
 
 </details>
 
@@ -2574,19 +2623,24 @@ Findings may include:
 - Decreased reflexes
 - Cardiac rhythm changes
 
-Priority concerns include severe dehydration, dysrhythmias, and altered mental status.
+### Hypercalcemia Interventions
 
-<span class="pink-label">Nursing care</span>
+The priority intervention for hypercalcemia is **hydration**. Hydration helps dilute serum calcium and supports kidney excretion of calcium.
 
-- Monitor calcium level.
-- Monitor cardiac rhythm if severe.
-- Encourage safety and fall precautions.
-- Monitor I&O.
-- Monitor hydration.
-- Administer IV fluids as ordered.
-- Report worsening neurologic or cardiac symptoms.
+Nursing care includes:
 
----
+- Encourage or administer fluids as ordered.
+- Monitor intake and output.
+- Monitor kidney function.
+- Monitor cardiac rhythm if calcium is severely elevated.
+- Assess bowel sounds frequently because hypercalcemia can slow GI motility.
+- Implement fall precautions due to weakness, fatigue, and confusion.
+- Avoid thiazide diuretics because they can increase calcium levels.
+
+<div class="nclex" markdown="1">
+
+
+ATI/NCLEX Tip: For hypercalcemia, think **fluids first**. Hydration is the priority before medications because it supports renal calcium excretion.
 
 ## Superior Vena Cava Syndrome
 
@@ -2634,12 +2688,16 @@ B. Place the patient supine and assess abdominal distention
 C. Elevate the head of bed and assess airway and breathing  
 D. Apply compression sleeves to the upper extremities  
 
-<details>
-<summary>Click for answer and rationale</summary>
+<details markdown="1">
+<summary><strong>Click for answer and rationale</strong></summary>
+
+<div class="note" markdown="1">
 
 **Answer: C — Elevate the head of bed and assess airway and breathing**
 
 Facial fullness, neck vein distention, dyspnea when supine, and headache suggest superior vena cava syndrome. The priority is airway/breathing and positioning. Compression may worsen obstruction.
+
+</div>
 
 </details>
 
@@ -2732,12 +2790,16 @@ B. “Fever may be the only sign of infection when white blood cells are low.”
 C. “Children only show infection through respiratory symptoms.”  
 D. “A low-grade fever is expected with all chemotherapy and can be ignored.”  
 
-<details>
-<summary>Click for answer and rationale</summary>
+<details markdown="1">
+<summary><strong>Click for answer and rationale</strong></summary>
+
+<div class="note" markdown="1">
 
 **Answer: B — Fever may be the only sign of infection when white blood cells are low**
 
 Neutropenic children may not show typical infection signs. The question tries to distract with absence of local symptoms, but fever is the priority cue.
+
+</div>
 
 </details>
 
@@ -2965,12 +3027,16 @@ B. “Palpation is safe if the child is not having pain.”
 C. “This should only be done after the child eats.”  
 D. “Avoid pressing on the abdomen because manipulation can increase the risk of spread.”  
 
-<details>
-<summary>Click for answer and rationale</summary>
+<details markdown="1">
+<summary><strong>Click for answer and rationale</strong></summary>
+
+<div class="note" markdown="1">
 
 **Answer: D — Avoid pressing on the abdomen because manipulation can increase the risk of spread**
 
 Wilms tumor questions often test abdominal protection. The caregiver’s action sounds like monitoring, but palpation can increase the risk of tumor rupture or spread.
+
+</div>
 
 </details>
 
@@ -3094,12 +3160,16 @@ B. “That is helpful if pain is uncontrolled, but use heat for only 20 minutes.
 C. “Cut the next patch in half if drowsiness continues.”  
 D. “Apply the next patch over irritated skin so it absorbs more slowly.”  
 
-<details>
-<summary>Click for answer and rationale</summary>
+<details markdown="1">
+<summary><strong>Click for answer and rationale</strong></summary>
+
+<div class="note" markdown="1">
 
 **Answer: A — That can increase medication absorption; remove heat exposure and assess sedation and breathing**
 
 Heat can increase absorption from a transdermal opioid patch and increase overdose risk. Drowsiness requires assessment. Cutting patches and applying over irritated skin are unsafe.
+
+</div>
 
 </details>
 
@@ -3273,12 +3343,16 @@ B. Assess a patient who reports burning at a chemotherapy IV site
 C. Obtain routine vital signs for a stable patient receiving radiation therapy  
 D. Teach a patient with neutropenia which foods to avoid  
 
-<details>
-<summary>Click for answer and rationale</summary>
+<details markdown="1">
+<summary><strong>Click for answer and rationale</strong></summary>
+
+<div class="note" markdown="1">
 
 **Answer: C — Obtain routine vital signs for a stable patient receiving radiation therapy**
 
 Routine vital signs for a stable patient may be delegated. Teaching, evaluating understanding, and assessment of a possible extravasation are RN responsibilities.
+
+</div>
 
 </details>
 
@@ -3312,6 +3386,28 @@ Notify the provider or escalate per facility policy for:
 <div class="nclex" markdown="1">
 
 Report findings that suggest infection, bleeding, neurologic compromise, respiratory compromise, kidney injury, or oncologic emergency.
+
+</div>
+
+---
+
+## Case Study Application
+
+A young adult with lymphoma begins chemotherapy and develops nausea, vomiting, diarrhea, mucositis, dehydration patterns, electrolyte changes, and low blood counts.
+
+Priority nursing considerations include:
+
+1. Assess airway, breathing, circulation, neurologic status, hydration, pain, and mucous membranes.
+2. Review CBC and electrolyte trends.
+3. Recognize neutropenia, anemia, and thrombocytopenia risks.
+4. Prioritize fluids and electrolyte support when dehydration is present.
+5. Use infection and bleeding precautions.
+6. Support oral care and nutrition.
+7. Monitor treatment response and complications.
+
+<div class="nclex" markdown="1">
+
+When dehydration and electrolyte changes are present, fluid and electrolyte support are usually priority themes before lower-priority comfort measures.
 
 </div>
 
@@ -3420,7 +3516,6 @@ In oncology questions, CBC trends are priority because they show infection risk,
 Fever with a low neutrophil count is one of the most important oncology lab-and-assessment combinations.
 
 </div>
----
 
 # Oncology Case Study: Chemotherapy Complications
 
