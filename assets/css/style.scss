@@ -1500,3 +1500,15 @@ margin-left: 0.25rem !important;
   transform: translateY(-2px) !important;
   filter: brightness(1.03) !important;
 }
+.pink-label {
+  display: inline-block;
+  margin: 0.75rem 0 0.35rem;
+  padding: 0.25rem 0.65rem;
+  border-radius: 999px;
+  background: #fde7ef;
+  color: #9f2452;
+  border: 1px solid #f6b8cf;
+  font-weight: 700;
+  font-size: 0.92rem;
+  letter-spacing: 0.01em;
+}
