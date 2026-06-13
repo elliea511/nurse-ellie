@@ -2640,6 +2640,8 @@ Nursing care includes:
 
 ATI/NCLEX Tip: For hypercalcemia, think **fluids first**. Hydration is the priority before medications because it supports renal calcium excretion.
 
+</div>
+
 ## Superior Vena Cava Syndrome
 
 Superior vena cava syndrome occurs when blood flow through the superior vena cava is compressed or obstructed.
