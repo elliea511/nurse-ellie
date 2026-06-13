@@ -464,8 +464,6 @@ Examples:
 - Modify diet and lifestyle
 - Remove at-risk tissue when indicated
 
-<div class="note" markdown="1">
-
 ### Secondary Prevention
 
 Secondary prevention means detecting cancer early through screening.
