@@ -3453,8 +3453,6 @@ When dehydration and electrolyte changes are present, fluid and electrolyte supp
 
 Oncology labs help identify infection risk, bleeding risk, anemia, treatment effects, dehydration, kidney function changes, and oncologic emergencies.
 
-<div class="note" markdown="1">
-
 
 | Lab | Typical Adult Reference Range | Why It Matters in Oncology | Priority Concern |
 |---|---:|---|---|
