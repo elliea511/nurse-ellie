@@ -661,7 +661,7 @@ Pediatric cancer findings may be obvious or subtle.
 
 <div class="nclex" markdown="1">
 
-In children, persistent, unexplained, or worsening symptoms are more concerning than isolated expected childhood complaints.
+In children, persistent, unexplained, or worsening symptoms are more concerning than isolated expected childhood complaints. Enlarged lymph nodes in children are common with minor infections and are not automatically concerning, but lymph nodes that are **persistent, enlarging, hard, fixed, painless, or paired with fever, night sweats, weight loss, fatigue, bruising, or recurrent infection** need follow-up because they may suggest malignancy or another serious condition.
 
 </div>
 
