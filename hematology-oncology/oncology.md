@@ -400,11 +400,6 @@ Cancer development is influenced by:
 | Viral carcinogens | HPV, Hepatitis B, Epstein-Barr virus, HTLV I/II | Vaccination and screening when appropriate |
 | Dietary factors | Low fiber, high red meat, high animal fat, preservatives | Encourage realistic nutrition changes |
 
-<div class="nclex" markdown="1">
-
-Vaccination can be primary prevention. Screening is secondary prevention.
-
-</div>
 
 ---
 
@@ -466,7 +461,7 @@ Examples:
   
 <div class="nclex" markdown="1">
 
-**ATI/NCLEX Tip:** **Gardasil** is the HPV vaccine. HPV vaccination is a form of **primary prevention** because it helps reduce risk before HPV-related cancer develops.
+**ATI/NCLEX Tip:** **Gardasil** is the HPV vaccine. HPV vaccination is a form of **primary prevention** because it helps reduce risk before HPV-related cancer develops (cervical cancer, oral/esophageal cancer). HPV vaccination is routinely recommended at **ages 11–12**, can start as early as **age 9**, and is recommended through **age 26** if not already completed; most who start before age 15 receive **2 doses**, while those starting at age 15 or older or who are immunocompromised need **3 doses**.
 
 </div>
 
