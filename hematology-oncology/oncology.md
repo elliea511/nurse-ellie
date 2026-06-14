@@ -389,33 +389,31 @@ Cancer development is influenced by:
 2. Genetic predisposition
 3. Immune function
 
-### Common Cancers by Group
-
-<div class="note" markdown="1">
-
-These are broad nursing-school incidence patterns. “Common” does **not** mean guaranteed. Risk depends on age, sex, genetics, family history, screening history, immune function, exposures, and lifestyle.
-
-</div>
-
-| Group | Common Cancer Patterns | Nursing Teaching Point |
+| Cancer Type | Groups or Exposures with Higher Concern | Nursing Teaching Point |
 |---|---|---|
-| Adult women | Breast, lung, colorectal | Breast cancer is common in women, but lung and colorectal cancer are also major concerns. |
-| Adult men | Prostate, lung, colorectal | Prostate cancer is common in men, but not every male develops prostate cancer. |
-| Older adults | Prostate, breast, colorectal, lung, bladder, skin | Cancer incidence increases with age, so new or persistent symptoms should not be dismissed as “just aging.” |
-| Children | Leukemia, brain/CNS tumors, lymphoma | Pediatric cancers often show vague symptoms such as fever, bruising, fatigue, bone pain, headache, vomiting, or behavior change. |
-| Adolescents/young adults | Lymphoma, bone tumors, testicular cancer, leukemia | Persistent pain, swelling, painless lumps, or unexplained symptoms need follow-up. |
-| Patients with tobacco exposure | Lung, head/neck, bladder, pancreatic, kidney, cervical, colorectal | Tobacco exposure increases risk for more than lung cancer. |
-| Patients with HPV exposure | Cervical, anal, penile, vulvar/vaginal, oropharyngeal | Gardasil is the HPV vaccine and helps reduce HPV-related cancer risk. |
-| Patients with hepatitis B or C risk | Liver cancer | Hepatitis B vaccination is primary prevention; hepatitis infection history increases liver cancer risk. |
-| Patients with strong family history or genetic mutation | Breast, ovarian, colorectal, prostate, pancreatic depending on mutation | Genetic risk increases concern, but it does not mean the patient currently has cancer. |
-| Immunosuppressed patients | Lymphoma, skin cancers, HPV-related cancers | Persistent infections, skin lesions, or lymph node changes need follow-up. |
+| **Breast cancer** | Women, increasing age, strong family history, BRCA-related genetic risk, Ashkenazi Jewish ancestry, prior chest radiation | Family history or genetic risk does not mean the patient has cancer, but it may change screening or genetic counseling needs. |
+| **Prostate cancer** | Men, increasing age, Black/African American men, family history, some inherited mutations | Prostate cancer is common in men, but not every male develops it. Screening decisions should be individualized. |
+| **Lung cancer** | Tobacco exposure, secondhand smoke, radon, asbestos, silica, diesel exhaust, mining/construction exposures, firefighters | Tobacco increases risk, but occupational and environmental exposures also matter. Ask about work and home exposure history. |
+| **Colorectal cancer** | Increasing age, family history, inherited syndromes, inflammatory bowel disease, low-fiber/high-red-meat diet pattern, tobacco/alcohol exposure | Screening and follow-up matter because colorectal cancer can develop before obvious symptoms. |
+| **Skin cancer / melanoma** | High UV exposure, tanning beds, outdoor workers, fair skin, history of severe sunburns, immunosuppression | Teach sun protection, avoiding tanning beds, and reporting changing or nonhealing skin lesions. |
+| **Cervical cancer** | HPV exposure, lack of HPV vaccination, lack of routine cervical screening, immunosuppression, tobacco exposure | Gardasil is the HPV vaccine. HPV vaccination is primary prevention; Pap/HPV testing is secondary prevention. |
+| **Oropharyngeal/head and neck cancers** | Tobacco, alcohol, HPV exposure, occupational exposures, poor-fitting dentures or chronic irritation patterns | Teach that HPV and tobacco/alcohol exposures can increase head and neck cancer risk. Persistent hoarseness, mouth sores, or swallowing changes need follow-up. |
+| **Bladder cancer** | Tobacco exposure, painters, rubber/dye/chemical industry exposure, some industrial chemical exposures | Hematuria should be reported and evaluated, even if painless. |
+| **Liver cancer** | Hepatitis B or C infection risk, heavy alcohol use, cirrhosis, some toxin exposures | Hepatitis B vaccination is primary prevention. Hepatitis history and liver disease increase follow-up needs. |
+| **Pancreatic cancer** | Tobacco exposure, chronic pancreatitis, family history, some inherited mutations, increasing age | Symptoms may be vague. Persistent unexplained weight loss, jaundice, abdominal/back pain, or new digestive changes need follow-up. |
+| **Ovarian cancer** | Increasing age, family history, BRCA-related genetic risk, Lynch syndrome risk patterns | Symptoms can be vague. Persistent bloating, pelvic/abdominal pain, early satiety, or urinary changes need follow-up. |
+| **Endometrial/uterine cancer** | Increasing age, obesity, unopposed estrogen exposure, tamoxifen use, Lynch syndrome risk patterns | Postmenopausal bleeding is never considered normal and needs follow-up. |
+| **Testicular cancer** | Young adult males, history of undescended testicle, family history | Teach testicular awareness and reporting painless lumps, heaviness, swelling, or persistent testicular changes. |
+| **Leukemia** | Children, older adults, prior chemo/radiation exposure, some genetic syndromes, bone marrow disorders | Watch for fatigue, pallor, bruising, petechiae, fever, recurrent infection, and bone pain. |
+| **Lymphoma** | Children/adolescents, young adults, older adults, immunosuppression, Epstein-Barr virus history, HIV risk | Persistent painless lymph node enlargement, fever, night sweats, weight loss, or itching needs follow-up. |
+| **Brain/CNS tumors in children** | Pediatric age group; symptoms are often location-based | Morning headache, vomiting, behavior change, drowsiness, seizures, gait changes, or vision changes are priority cues. |
+| **Bone tumors** | Adolescents and young adults, especially with persistent bone pain or swelling | Persistent bone pain, swelling, limp, decreased mobility, or fracture after minimal trauma needs follow-up. |
 
 <div class="nclex" markdown="1">
 
-**ATI/NCLEX Tip:** Incidence means **new cases**. A cancer being common in a group means the nurse should encourage screening, prevention, and follow-up — not tell the patient it is inevitable.
+**ATI/NCLEX Tip:** Risk-factor questions are usually asking what the nurse should **assess, teach, screen for, or report**. A risk factor is not a diagnosis.
 
 </div>
-
 ---
 
 ## External Factors Causing Cancer
