@@ -3443,28 +3443,6 @@ Report findings that suggest infection, bleeding, neurologic compromise, respira
 
 ---
 
-## Case Study Application
-
-A young adult with lymphoma begins chemotherapy and develops nausea, vomiting, diarrhea, mucositis, dehydration patterns, electrolyte changes, and low blood counts.
-
-Priority nursing considerations include:
-
-1. Assess airway, breathing, circulation, neurologic status, hydration, pain, and mucous membranes.
-2. Review CBC and electrolyte trends.
-3. Recognize neutropenia, anemia, and thrombocytopenia risks.
-4. Prioritize fluids and electrolyte support when dehydration is present.
-5. Use infection and bleeding precautions.
-6. Support oral care and nutrition.
-7. Monitor treatment response and complications.
-
-<div class="nclex" markdown="1">
-
-When dehydration and electrolyte changes are present, fluid and electrolyte support are usually priority themes before lower-priority comfort measures.
-
-</div>
-
----
-
 ## Key Terms
 
 | Term | Meaning |
