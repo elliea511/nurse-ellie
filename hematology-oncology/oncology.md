@@ -432,6 +432,7 @@ Genetic testing identifies risk. It does not confirm that the patient currently 
 </div>
 
 ---
+
 | Cancer Type | Groups or Exposures with Higher Concern | Nursing Teaching Point |
 |---|---|---|
 | **Breast cancer** | Women, increasing age, strong family history, BRCA-related genetic risk, Ashkenazi Jewish ancestry, prior chest radiation | Family history or genetic risk does not mean the patient has cancer, but it may change screening or genetic counseling needs. |
@@ -457,6 +458,7 @@ Genetic testing identifies risk. It does not confirm that the patient currently 
 **ATI/NCLEX Tip:** Risk-factor questions are usually asking what the nurse should **assess, teach, screen for, or report**. A risk factor is not a diagnosis.
 
 </div>
+
 ---
 
 ## Cancer Prevention
