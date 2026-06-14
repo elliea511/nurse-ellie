@@ -561,7 +561,7 @@ Primary prevention prevents cancer from occurring. Secondary prevention detects 
 
 Cancer assessment focuses on identifying early warning signs, recognizing complications, and noticing changes that may indicate progression or metastasis.
 
-<img width="1200" height="1200" alt="image" src="https://github.com/user-attachments/assets/d043c020-e953-4bc6-936b-8be0bf790a49" />
+<img width="828" height="977" alt="image" src="https://github.com/user-attachments/assets/49033368-1aab-4c82-acb7-4d268d77ad10" />
 
 
 Cancer symptoms can be vague at first, so assessment should focus on findings that are:
