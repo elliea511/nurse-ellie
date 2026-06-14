@@ -3442,11 +3442,20 @@ Report findings that suggest infection, bleeding, neurologic compromise, respira
 
 Cancer incidence means how often new cancer cases occur in a population. Patients may ask questions based on things they have heard, such as “Does everyone get cancer?” or “Do all men get prostate cancer?”
 
-<div class="nclex" markdown="1">
 
-**ATI/NCLEX Tip:** Incidence means **new cases**. Risk means **chance**. A cancer being common does **not** mean everyone in that group will get it.
+When a patient asks a fear-based cancer question, the best response usually combines **therapeutic communication + factual education**.
 
-</div>
+Avoid:
+- “Do not worry.”
+- “Everything will be fine.”
+- “That never happens.”
+- “You should not think that way.”
+
+Use:
+- “That is a common fear.”
+- “Not everyone with cancer dies.”
+- “Risk is not the same as certainty.”
+- “Screening helps detect some cancers early.”
 
 | Fact | Nursing Teaching Point |
 |---|---|
