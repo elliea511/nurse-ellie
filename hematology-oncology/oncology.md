@@ -1397,6 +1397,20 @@ Surgical concerns include:
 - Support body image concerns.
 - Provide discharge teaching.
 
+### IN CLASS MENTION: Mastectomy JP Drain Teaching
+
+After a mastectomy, Jackson-Pratt drains may be used to remove fluid from the surgical area.
+
+Patient teaching includes:
+
+- Empty the drainage tubes and record the amount of drainage **twice each day**.
+- The provider usually removes the drainage tubes around the same time the stitches are removed, often within **7 to 10 days**.
+- Take baths instead of showering until the drainage tubes and stitches are removed, unless instructed otherwise.
+- Normal use of the arm and **nonstrenuous exercise** may be allowed before the drains are removed.
+- More strenuous arm exercises should wait until after the drains are removed.
+- Keep the bulb compressed to maintain suction.
+- Report sudden increase in drainage, bright red bleeding, foul odor, pus, fever, worsening pain, redness, warmth, or if the drain falls out.
+
 ### Lymph Node Removal and Lymphedema
 
 Lymph node removal increases risk for lymphedema.
