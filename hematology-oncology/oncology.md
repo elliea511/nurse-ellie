@@ -3438,6 +3438,78 @@ Report findings that suggest infection, bleeding, neurologic compromise, respira
 
 ---
 
+## Cancer Incidence Facts Nurses Should Know
+
+Cancer incidence means how often new cancer cases occur in a population. Patients may ask questions based on things they have heard, such as “Does everyone get cancer?” or “Do all men get prostate cancer?”
+
+<div class="nclex" markdown="1">
+
+**ATI/NCLEX Tip:** Incidence means **new cases**. Risk means **chance**. A cancer being common does **not** mean everyone in that group will get it.
+
+</div>
+
+| Fact | Nursing Teaching Point |
+|---|---|
+| Cancer is common, but not guaranteed | Many people are diagnosed with cancer, but cancer risk is not the same as certainty. |
+| The most common cancers in men include prostate, lung, and colorectal cancer | Prostate cancer is common in men, but not every male develops it. |
+| The most common cancers in women include breast, lung, and colorectal cancer | Breast cancer is common in women, but risk varies by age, genetics, reproductive history, lifestyle, and screening history. |
+| Lung and colorectal cancers are common in both men and women | Screening, smoking history, symptoms, and follow-up matter. |
+| Prostate cancer is common but often survivable | About 1 in 8 men will be diagnosed with prostate cancer during their lifetime, but most men diagnosed with prostate cancer do not die from it. |
+| Pediatric cancer patterns are different from adult cancer patterns | Leukemia, brain/CNS tumors, and lymphoma are commonly emphasized in children. |
+| Children often have swollen lymph nodes from infections | Lymph nodes become more concerning when persistent, enlarging, hard, fixed, painless, or paired with systemic symptoms. |
+| Age affects cancer incidence | Many adult cancers become more common with increasing age. New or persistent symptoms should still be evaluated. |
+| Family history can increase risk | Family history does not mean cancer is certain, but it may change screening or genetic counseling needs. |
+| HPV-related cancers are preventable in part through vaccination | Gardasil is the HPV vaccine and helps reduce risk for HPV-related cancers. |
+| Tobacco exposure increases cancer incidence | Tobacco is linked to more than lung cancer, including head/neck, bladder, pancreatic, kidney, cervical, and colorectal cancers. |
+| Screening can detect some cancers early | Screening does not diagnose cancer by itself, but abnormal screening results require follow-up. |
+
+<div class="note" markdown="1">
+
+**Test Focus:** Patient questions about cancer incidence usually test whether the nurse can correct misinformation with a simple fact while still acknowledging fear.
+
+</div>
+
+### Patient Questions About Cancer Incidence
+
+| Patient Statement | Best Nursing Response Concept |
+|---|---|
+| “Does everyone with cancer die?” | No. Cancer is serious, but outcomes vary by cancer type, stage, treatment response, and overall health. |
+| “Does everyone eventually get cancer?” | No. Cancer is common, but not everyone develops cancer. Risk depends on many factors. |
+| “I heard every male gets prostate cancer.” | Not every male gets prostate cancer. Prostate cancer is common, but risk is not certainty. |
+| “If prostate cancer is common, does that mean all men die from it?” | No. Most men diagnosed with prostate cancer do not die from it. |
+| “Is breast cancer the only cancer women need to worry about?” | No. Breast cancer is common, but lung and colorectal cancers are also common in women. |
+| “Is lung cancer only a smoker’s disease?” | No. Smoking greatly increases risk, but lung cancer can also occur in people who never smoked. |
+| “If my child has swollen lymph nodes, is it cancer?” | Usually swollen lymph nodes are from infection, but persistent, enlarging, hard, fixed, painless nodes or systemic symptoms need follow-up. |
+| “If my family member had cancer, will I get it too?” | Family history may increase risk, but it does not mean cancer is certain. Screening and follow-up are important. |
+
+<div class="nclex" markdown="1">
+
+**Check Your Understanding**
+
+A patient says, “I heard every man gets prostate cancer eventually, so there is no point in screening or talking about risk.” Which response by the nurse is best?
+
+A. “That is correct, but most prostate cancer does not need treatment.”  
+B. “Not every man gets prostate cancer. Risk increases with age, and screening decisions should be discussed with the provider.”  
+C. “Prostate cancer only occurs in men with a family history, so screening is unnecessary without one.”  
+D. “Screening prevents all prostate cancer if it is started early enough.”  
+
+<details markdown="1">
+<summary><strong>Click for answer and rationale</strong></summary>
+
+<div class="note" markdown="1">
+
+**Answer: B — Not every man gets prostate cancer. Risk increases with age, and screening decisions should be discussed with the provider.**
+
+This response corrects misinformation without dismissing the patient. Prostate cancer is common, but not every man develops it. Screening decisions are individualized.
+
+</div>
+
+</details>
+
+</div>
+
+---
+
 ## Key Terms
 
 | Term | Meaning |
