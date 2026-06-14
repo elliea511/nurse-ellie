@@ -389,6 +389,49 @@ Cancer development is influenced by:
 2. Genetic predisposition
 3. Immune function
 
+## External Factors Causing Cancer
+
+| Factor | Examples | Nursing Teaching |
+|---|---|---|
+| Chemical carcinogens | Tobacco, alcohol, asbestos, pesticides, industrial chemicals | Avoid exposure, use protective equipment |
+| Physical carcinogens | Radiation, UV light, radon, X-rays, chronic irritation | Sun protection, avoid tanning beds, monitor exposure |
+| Viral carcinogens | HPV, Hepatitis B, Epstein-Barr virus, HTLV I/II | Vaccination and screening when appropriate |
+| Dietary factors | Low fiber, high red meat, high animal fat, preservatives | Encourage realistic nutrition changes |
+
+## Immune Function and Cancer Risk
+
+The immune system helps identify and destroy abnormal cells. Decreased immune function increases cancer risk.
+
+Higher-risk groups include:
+
+- Older adults
+- Transplant recipients
+- Patients taking chronic steroids
+- Patients taking immunosuppressive medications
+- Patients with HIV/AIDS
+- Patients with certain viral infections
+
+## Genetic Testing
+
+Genetic testing does **not** diagnose cancer. It provides information about cancer risk.
+
+A genetic counselor should be involved before and after testing.
+
+Patients may experience anxiety about:
+
+- Future cancer risk
+- Family implications
+- Having children
+- Preventive surgery
+- Feeling like cancer is inevitable
+
+<div class="nclex" markdown="1">
+
+Genetic testing identifies risk. It does not confirm that the patient currently has cancer.
+
+</div>
+
+---
 | Cancer Type | Groups or Exposures with Higher Concern | Nursing Teaching Point |
 |---|---|---|
 | **Breast cancer** | Women, increasing age, strong family history, BRCA-related genetic risk, Ashkenazi Jewish ancestry, prior chest radiation | Family history or genetic risk does not mean the patient has cancer, but it may change screening or genetic counseling needs. |
@@ -414,54 +457,6 @@ Cancer development is influenced by:
 **ATI/NCLEX Tip:** Risk-factor questions are usually asking what the nurse should **assess, teach, screen for, or report**. A risk factor is not a diagnosis.
 
 </div>
----
-
-## External Factors Causing Cancer
-
-| Factor | Examples | Nursing Teaching |
-|---|---|---|
-| Chemical carcinogens | Tobacco, alcohol, asbestos, pesticides, industrial chemicals | Avoid exposure, use protective equipment |
-| Physical carcinogens | Radiation, UV light, radon, X-rays, chronic irritation | Sun protection, avoid tanning beds, monitor exposure |
-| Viral carcinogens | HPV, Hepatitis B, Epstein-Barr virus, HTLV I/II | Vaccination and screening when appropriate |
-| Dietary factors | Low fiber, high red meat, high animal fat, preservatives | Encourage realistic nutrition changes |
-
-
----
-
-## Immune Function and Cancer Risk
-
-The immune system helps identify and destroy abnormal cells. Decreased immune function increases cancer risk.
-
-Higher-risk groups include:
-
-- Older adults
-- Transplant recipients
-- Patients taking chronic steroids
-- Patients taking immunosuppressive medications
-- Patients with HIV/AIDS
-- Patients with certain viral infections
-
-
-## Genetic Testing
-
-Genetic testing does **not** diagnose cancer. It provides information about cancer risk.
-
-A genetic counselor should be involved before and after testing.
-
-Patients may experience anxiety about:
-
-- Future cancer risk
-- Family implications
-- Having children
-- Preventive surgery
-- Feeling like cancer is inevitable
-
-<div class="nclex" markdown="1">
-
-Genetic testing identifies risk. It does not confirm that the patient currently has cancer.
-
-</div>
-
 ---
 
 ## Cancer Prevention
