@@ -389,6 +389,33 @@ Cancer development is influenced by:
 2. Genetic predisposition
 3. Immune function
 
+### Common Cancers by Group
+
+<div class="note" markdown="1">
+
+These are broad nursing-school incidence patterns. “Common” does **not** mean guaranteed. Risk depends on age, sex, genetics, family history, screening history, immune function, exposures, and lifestyle.
+
+</div>
+
+| Group | Common Cancer Patterns | Nursing Teaching Point |
+|---|---|---|
+| Adult women | Breast, lung, colorectal | Breast cancer is common in women, but lung and colorectal cancer are also major concerns. |
+| Adult men | Prostate, lung, colorectal | Prostate cancer is common in men, but not every male develops prostate cancer. |
+| Older adults | Prostate, breast, colorectal, lung, bladder, skin | Cancer incidence increases with age, so new or persistent symptoms should not be dismissed as “just aging.” |
+| Children | Leukemia, brain/CNS tumors, lymphoma | Pediatric cancers often show vague symptoms such as fever, bruising, fatigue, bone pain, headache, vomiting, or behavior change. |
+| Adolescents/young adults | Lymphoma, bone tumors, testicular cancer, leukemia | Persistent pain, swelling, painless lumps, or unexplained symptoms need follow-up. |
+| Patients with tobacco exposure | Lung, head/neck, bladder, pancreatic, kidney, cervical, colorectal | Tobacco exposure increases risk for more than lung cancer. |
+| Patients with HPV exposure | Cervical, anal, penile, vulvar/vaginal, oropharyngeal | Gardasil is the HPV vaccine and helps reduce HPV-related cancer risk. |
+| Patients with hepatitis B or C risk | Liver cancer | Hepatitis B vaccination is primary prevention; hepatitis infection history increases liver cancer risk. |
+| Patients with strong family history or genetic mutation | Breast, ovarian, colorectal, prostate, pancreatic depending on mutation | Genetic risk increases concern, but it does not mean the patient currently has cancer. |
+| Immunosuppressed patients | Lymphoma, skin cancers, HPV-related cancers | Persistent infections, skin lesions, or lymph node changes need follow-up. |
+
+<div class="nclex" markdown="1">
+
+**ATI/NCLEX Tip:** Incidence means **new cases**. A cancer being common in a group means the nurse should encourage screening, prevention, and follow-up — not tell the patient it is inevitable.
+
+</div>
+
 ---
 
 ## External Factors Causing Cancer
@@ -535,6 +562,9 @@ Primary prevention prevents cancer from occurring. Secondary prevention detects 
 ## Cancer Assessment
 
 Cancer assessment focuses on identifying early warning signs, recognizing complications, and noticing changes that may indicate progression or metastasis.
+
+<img width="1200" height="1200" alt="image" src="https://github.com/user-attachments/assets/d043c020-e953-4bc6-936b-8be0bf790a49" />
+
 
 Cancer symptoms can be vague at first, so assessment should focus on findings that are:
 
