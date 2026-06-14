@@ -463,6 +463,12 @@ Examples:
 - Receive HPV vaccination when appropriate
 - Modify diet and lifestyle
 - Remove at-risk tissue when indicated
+  
+  <div class="nclex" markdown="1">
+
+**ATI/NCLEX Tip:** **Gardasil** is the HPV vaccine. HPV vaccination is a form of **primary prevention** because it helps reduce risk before HPV-related cancer develops.
+
+</div>
 
 ### Secondary Prevention
 
@@ -1696,7 +1702,7 @@ Radiation-related skin effects may include:
 
 <span class="pink-label">Patient education</span>
 
-- Use gentle skin care, such as Dove soap instead of harsher soaps if recommended.
+- Use gentle skin care, such as Dove soap instead of harsher soaps if recommended. (NO IVORY SOAP!)
 - Avoid friction over treatment area.
 - Avoid lotions or creams unless approved.
 - Protect treatment area from sun exposure.
@@ -2506,12 +2512,24 @@ Priority concerns include dysrhythmias, seizures, and acute kidney injury.
 - Monitor cardiac rhythm.
 - Monitor intake and output.
 - Maintain hydration as ordered.
-- Administer allopurinol or other prescribed medications.
+- Administer allopurinol (uric acid) or other prescribed medications.
 - Report decreased urine output, dysrhythmias, or seizure activity.
 
-<div class="danger" markdown="1">
+<div class="nclex" markdown="1">
 
-Tumor lysis syndrome is a priority because electrolyte shifts can affect the heart, kidneys, and nervous system.
+**ATI/NCLEX Tip: Tumor Lysis Medications**
+
+Tumor lysis syndrome can cause dangerous electrolyte shifts and kidney stress.
+
+Common medication concepts include:
+
+| Medication | Why It May Be Used | Nursing Focus |
+|---|---|---|
+| Kayexalate | Helps lower high potassium | Monitor potassium, bowel function, and cardiac rhythm |
+| Sodium bicarbonate | May be used to help manage acidosis or support urine alkalinization when ordered | Monitor electrolytes, fluid status, and provider orders |
+| Allopurinol | Helps reduce uric acid formation | Monitor uric acid level, kidney function, and hydration |
+
+The nursing priority is to monitor **potassium, calcium, phosphorus, uric acid, creatinine, urine output, and cardiac rhythm**.
 
 </div>
 
@@ -2832,6 +2850,40 @@ Management may include surgery, shunt placement, antiseizure medications, radiat
 - Infection
 - Increased intracranial pressure
 - Neurologic changes
+
+### Shunt Education
+
+Some children with brain tumors may need a shunt to help drain excess cerebrospinal fluid and reduce increased intracranial pressure.
+
+A shunt is a small tube system that moves extra cerebrospinal fluid away from the brain. The fluid usually drains from the ventricles in the brain through tubing under the skin and into another body area, often the abdomen, where the body can reabsorb it.
+
+This helps prevent fluid from building up in the brain and lowers pressure inside the skull.
+
+<span class="pink-label">How it works</span>
+
+- Extra cerebrospinal fluid collects in the brain ventricles.
+- The shunt tubing drains the extra fluid away from the brain.
+- A valve helps control the flow of fluid.
+- The tubing usually carries the fluid under the skin to the abdomen.
+- The abdomen absorbs the drained fluid.
+- If the shunt becomes blocked or infected, fluid can build back up and increased ICP symptoms can return.
+
+<span class="pink-label">Patient and family teaching</span>
+
+- Watch for signs of shunt malfunction.
+- Report headache, vomiting, irritability, drowsiness, or behavior changes.
+- Report fever, redness, swelling, drainage, or tenderness along the shunt tract.
+- Report seizure activity or worsening neurologic changes.
+- Report abdominal swelling, abdominal pain, or unusual abdominal fullness.
+- Avoid rough play or activities that could injure the shunt area.
+- Keep follow-up appointments.
+- Teach caregivers that shunt problems can become urgent.
+
+<div class="nclex" markdown="1">
+
+**ATI/NCLEX Tip:** A shunt does not remove the tumor. It helps drain extra cerebrospinal fluid so pressure does not build up in the brain. Headache, vomiting, drowsiness, irritability, behavior changes, seizure activity, fever, redness along the shunt tract, or abdominal swelling/fullness may indicate shunt malfunction or infection and should be reported promptly.
+
+</div>
 
 ---
 
@@ -3456,16 +3508,16 @@ Oncology labs help identify infection risk, bleeding risk, anemia, treatment eff
 
 | Lab | Typical Adult Reference Range | Why It Matters in Oncology | Priority Concern |
 |---|---:|---|---|
-| WBC | 4,500–11,000 cells/mcL | Overall infection-fighting cells | Low WBC increases infection risk |
+| WBC | 5,000–10,000 cells/mcL | Overall infection-fighting cells | Low WBC increases infection risk |
 | Absolute neutrophil count | Often about 2,500–7,000 cells/mcL | Shows neutrophil level more specifically than total WBC | Low neutrophils mean neutropenia and increased infection risk |
-| Hemoglobin | Female: 12–16 g/dL<br>Male: 13–18 g/dL | Oxygen-carrying protein in RBCs | Low Hgb can cause fatigue, pallor, weakness, dyspnea, and activity intolerance |
-| Hematocrit | Female: 36%–48%<br>Male: 40%–55% | Percentage of blood made of RBCs | Low Hct supports anemia concern |
+| Hemoglobin | Female: 12–16 g/dL<br>Male: 14–18 g/dL | Oxygen-carrying protein in RBCs | Low Hgb can cause fatigue, pallor, weakness, dyspnea, and activity intolerance |
+| Hematocrit | Female: 35%–45%<br>Male: 40%–55% | Percentage of blood made of RBCs | Low Hct supports anemia concern |
 | Platelets | 150,000–400,000/mcL | Clotting support | Low platelets increase bleeding risk |
-| Potassium | 3.7–5.2 mEq/L | Can rise with tumor lysis syndrome or kidney injury | High potassium can cause cardiac rhythm changes |
-| Calcium | 8.5–10.2 mg/dL | May rise with bone involvement or some cancers | High calcium can cause weakness, confusion, constipation, dehydration, and rhythm changes |
+| Potassium | 3.5–5.0 mEq/L | Can rise with tumor lysis syndrome or kidney injury | High potassium can cause cardiac rhythm changes |
+| Calcium | 9.0-11.0 mg/dL | May rise with bone involvement or some cancers | High calcium can cause weakness, confusion, constipation, dehydration, and rhythm changes |
 | Phosphorus | 2.5–4.5 mg/dL | Can rise with tumor lysis syndrome | High phosphorus can worsen calcium imbalance and kidney stress |
 | Uric acid | Female: about 2.4–6.0 mg/dL<br>Male: about 3.4–7.0 mg/dL | Rises with rapid tumor cell breakdown | High uric acid can contribute to kidney injury |
-| Creatinine | 0.6–1.3 mg/dL | Kidney function | Rising creatinine may indicate dehydration, kidney injury, or tumor lysis syndrome |
+| Creatinine | 0.6–1.2 mg/dL | Kidney function | Rising creatinine may indicate dehydration, kidney injury, or tumor lysis syndrome |
 | BUN | 6–20 mg/dL | Kidney function and hydration status | Rising BUN may suggest dehydration or kidney stress |
 | Sodium | 135–145 mEq/L | Important with SIADH | Low sodium can cause confusion, seizures, and neurologic changes |
 | PT | 11–13.5 seconds | Measures clotting pathway | Prolonged PT can increase bleeding concern |
@@ -3506,261 +3558,3 @@ Fever with a low neutrophil count is one of the most important oncology lab-and-
 
 </div>
 
-# Oncology Case Study: Chemotherapy Complications
-
-## Patient Scenario
-
-A 54-year-old client with non-Hodgkin lymphoma is admitted for the first cycle of chemotherapy. The client received chemotherapy yesterday and now reports nausea, weakness, and decreased appetite.
-
-Current assessment findings:
-
-| Assessment Data | Finding |
-|---|---|
-| Temperature | 100.9°F |
-| Heart rate | 112/min |
-| Blood pressure | 98/60 mmHg |
-| Respirations | 22/min |
-| Oxygen saturation | 96% on room air |
-| Urine output | Decreased over the last 6 hours |
-| Mouth | Redness and small oral ulcers |
-| IV site | No redness, swelling, or pain |
-| Neuro | Alert but very fatigued |
-
-Lab results:
-
-| Lab | Result |
-|---|---|
-| WBC | Low |
-| ANC | 450 |
-| Platelets | 78,000 |
-| Hemoglobin | 9.1 g/dL |
-| Potassium | 5.8 mEq/L |
-| Phosphate | Elevated |
-| Uric acid | Elevated |
-| Calcium | Low |
-| BUN/Creatinine | Increasing |
-
----
-
-## Question 1: What is the priority concern?
-
-Which finding is the highest priority?
-
-A. Oral ulcers  
-B. Hair loss risk  
-C. Fever with ANC of 450  
-D. Decreased appetite  
-
-<details>
-<summary>Answer and Rationale</summary>
-
-**Answer: C. Fever with ANC of 450**
-
-The client is neutropenic. Fever may be the only sign of infection in a neutropenic client and should be treated as a priority concern.
-
-**Nursing priority:** Recognize possible infection/sepsis risk and escalate quickly according to facility policy.
-
-</details>
-
----
-
-## Question 2: What complication do the labs suggest?
-
-The client has high potassium, high phosphate, high uric acid, low calcium, and worsening kidney function. What complication is most likely?
-
-A. Tumor lysis syndrome  
-B. SIADH  
-C. Hypercalcemia  
-D. Superior vena cava syndrome  
-
-<details>
-<summary>Answer and Rationale</summary>
-
-**Answer: A. Tumor lysis syndrome**
-
-Tumor lysis syndrome occurs when many cancer cells break down quickly and release intracellular contents into the bloodstream.
-
-Expected lab pattern:
-
-- High potassium
-- High phosphate
-- High uric acid
-- Low calcium
-- Rising BUN/creatinine
-
-**Priority concerns:** Dysrhythmias, seizures, and acute kidney injury.
-
-</details>
-
----
-
-## Question 3: What should the nurse assess first?
-
-The client is at risk for tumor lysis syndrome. Which assessment is most important?
-
-A. Hair loss pattern  
-B. Cardiac rhythm  
-C. Skin dryness  
-D. Appetite preference  
-
-<details>
-<summary>Answer and Rationale</summary>
-
-**Answer: B. Cardiac rhythm**
-
-Hyperkalemia can cause dangerous dysrhythmias. Cardiac monitoring is a priority when potassium is elevated.
-
-**Nursing focus:** Monitor cardiac rhythm, potassium, kidney function, urine output, and neurologic status.
-
-</details>
-
----
-
-## Question 4: What interventions are expected?
-
-Which interventions may be anticipated for tumor lysis syndrome?
-
-A. Fluid restriction and thiazide diuretics  
-B. Hydration, electrolyte monitoring, allopurinol, Kayexalate, and sodium bicarbonate as ordered  
-C. High-calcium diet and bedrest  
-D. Heat application and oral fluid restriction  
-
-<details>
-<summary>Answer and Rationale</summary>
-
-**Answer: B. Hydration, electrolyte monitoring, allopurinol, Kayexalate, and sodium bicarbonate as ordered**
-
-Tumor lysis syndrome treatment focuses on protecting the kidneys and heart.
-
-Nursing care includes:
-
-- Monitor potassium, phosphate, calcium, uric acid, BUN, and creatinine.
-- Monitor cardiac rhythm.
-- Monitor intake and output.
-- Encourage or administer hydration as ordered.
-- Administer allopurinol or other uric-acid-lowering medications as ordered.
-- Administer Kayexalate as ordered for hyperkalemia.
-- Administer sodium bicarbonate as ordered to alkalinize urine.
-- Report decreased urine output, dysrhythmias, seizure activity, or worsening labs.
-
-</details>
-
----
-
-## Question 5: What precautions are needed for low platelets?
-
-The platelet count is 78,000. Which nursing action is appropriate?
-
-A. Use bleeding precautions  
-B. Encourage contact sports  
-C. Use rectal temperatures for accuracy  
-D. Give IM injections routinely  
-
-<details>
-<summary>Answer and Rationale</summary>
-
-**Answer: A. Use bleeding precautions**
-
-Low platelets increase bleeding risk.
-
-Bleeding precautions include:
-
-- Avoid IM injections when possible.
-- Avoid rectal temperatures, enemas, and suppositories.
-- Use a soft toothbrush.
-- Use an electric razor.
-- Apply firm pressure after venipuncture.
-- Monitor for petechiae, bruising, bleeding gums, blood in stool, and blood in urine.
-
-</details>
-
----
-
-## Question 6: What should the nurse teach about mouth care?
-
-The client has oral redness and small ulcers. Which teaching is best?
-
-A. Use alcohol-based mouthwash often  
-B. Eat spicy foods to stimulate appetite  
-C. Use a soft toothbrush and avoid irritating foods  
-D. Stop oral care until ulcers heal  
-
-<details>
-<summary>Answer and Rationale</summary>
-
-**Answer: C. Use a soft toothbrush and avoid irritating foods**
-
-This client has mucositis. Oral care helps reduce pain, infection risk, and poor intake.
-
-Teaching includes:
-
-- Use a soft toothbrush.
-- Avoid alcohol-based mouthwash.
-- Avoid spicy, acidic, rough, or hard foods.
-- Report worsening mouth sores.
-- Report inability to eat or drink.
-
-</details>
-
----
-
-## Question 7: What patient teaching is most important before the next chemotherapy cycle?
-
-The client says, “I usually start feeling better right before I have to come back for chemo again.” What is the best response?
-
-A. “That can happen because your body has had time to recover between cycles.”  
-B. “That means the chemotherapy is not working.”  
-C. “You should skip the next dose if you feel better.”  
-D. “Feeling better means your blood counts are normal.”  
-
-<details>
-<summary>Answer and Rationale</summary>
-
-**Answer: A. “That can happen because your body has had time to recover between cycles.”**
-
-Chemotherapy is often given in cycles. Patients may feel worse during nadir when blood counts are lowest and may feel better near the end of the cycle before the next dose.
-
-</details>
-
----
-
-## Question 8: What findings require provider notification?
-
-Which finding should be reported immediately?
-
-A. Mild fatigue after chemotherapy  
-B. Expected hair thinning  
-C. Decreased appetite  
-D. Fever, decreased urine output, and worsening potassium  
-
-<details>
-<summary>Answer and Rationale</summary>
-
-**Answer: D. Fever, decreased urine output, and worsening potassium**
-
-This combination suggests serious complications: infection risk, tumor lysis syndrome, kidney injury, and dysrhythmia risk.
-
-**Priority nursing action:** Escalate according to facility policy.
-
-</details>
-
----
-
-## Clinical Judgment Summary
-
-This client has multiple priority concerns:
-
-| Problem | Nursing Priority |
-|---|---|
-| Neutropenia with fever | Possible infection/sepsis risk |
-| Tumor lysis syndrome labs | Protect heart and kidneys |
-| Thrombocytopenia | Bleeding precautions |
-| Anemia | Fatigue management and fall prevention |
-| Mucositis | Oral care, pain control, nutrition/hydration |
-| Decreased urine output | Monitor kidney function and report worsening |
-
-<div class="nclex" markdown="1">
-
-ATI/NCLEX Tip: When multiple oncology problems are present, prioritize **infection, dysrhythmias, kidney injury, bleeding, respiratory distress, and new neurologic changes**.
-
-</div>
