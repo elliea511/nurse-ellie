@@ -441,38 +441,6 @@ Higher-risk groups include:
 - Patients with HIV/AIDS
 - Patients with certain viral infections
 
----
-
-## How to Reduce Cancer Risk
-
-Cancer risk cannot be completely eliminated, but many risk factors can be reduced. Nursing teaching should focus on realistic, evidence-based changes the patient can actually maintain.
-
-| Risk-Reduction Strategy | Why It Matters | Nursing Teaching Point |
-|---|---|---|
-| Avoid tobacco | Tobacco increases risk for many cancers, not just lung cancer | Encourage quitting, avoiding secondhand smoke, and using cessation support |
-| Limit alcohol | Alcohol is linked with several cancers, including breast, liver, colorectal, and head/neck cancers | Teach that lower intake means lower risk |
-| Maintain a healthy weight | Excess body weight is linked with increased cancer risk | Encourage realistic nutrition and activity goals |
-| Stay physically active | Physical activity helps reduce risk for some cancers and supports weight control | Encourage regular movement based on ability and safety |
-| Eat a balanced diet | Diet patterns can affect cancer risk | Encourage fruits, vegetables, whole grains, lean proteins, and limiting processed/red meats |
-| Protect skin from UV exposure | UV exposure increases skin cancer risk | Use sunscreen, protective clothing, shade, and avoid tanning beds |
-| Get recommended vaccines | HPV and hepatitis B infections can increase cancer risk | Gardasil is the HPV vaccine; hepatitis B vaccine helps reduce liver cancer risk |
-| Complete recommended screenings | Screening can detect some cancers early | Follow age, risk, family history, and provider-based screening recommendations |
-| Reduce occupational exposures | Asbestos, radiation, diesel exhaust, silica, and chemical exposures can increase cancer risk | Use PPE, follow workplace safety policies, and report persistent symptoms |
-| Practice safer sex | HPV and hepatitis infections are linked with cancer risk | Use prevention strategies and complete recommended vaccines/testing |
-| Manage stress in healthy ways | Stress itself is not usually taught as a direct cancer cause, but chronic stress can affect sleep, coping, activity, nutrition, tobacco use, and alcohol use | Encourage healthy coping, rest, support systems, counseling, relaxation, and physical activity as tolerated |
-
-<div class="note" markdown="1">
-
-**Test Focus:** If stress reduction appears in a question, think of it as supporting healthy coping and lifestyle behaviors rather than as a guaranteed way to prevent cancer.
-
-</div>
-
-<div class="nclex" markdown="1">
-
-**ATI/NCLEX Tip:** The best cancer-risk-reduction answer is usually the one that is specific, realistic, and evidence-based: stop tobacco, limit alcohol, protect from UV exposure, receive HPV/hepatitis B vaccines, maintain healthy weight, stay active, eat a balanced diet, and complete recommended screenings.
-
-</div>
----
 
 ## Genetic Testing
 
@@ -502,24 +470,37 @@ Genetic testing identifies risk. It does not confirm that the patient currently 
 
 Primary prevention means preventing cancer before it occurs.
 
-Examples:
 
-- Avoid tobacco
-- Avoid secondhand smoke
-- Limit alcohol
-- Use sunscreen
-- Avoid tanning beds
-- Reduce chemical exposure
-- Use protective equipment at work
-- Receive HPV vaccination when appropriate
-- Modify diet and lifestyle
-- Remove at-risk tissue when indicated
-  
+Cancer risk cannot be completely eliminated, but many risk factors can be reduced. Nursing teaching should focus on realistic, evidence-based changes the patient can actually maintain.
+
+| Risk-Reduction Strategy | Why It Matters | Nursing Teaching Point |
+|---|---|---|
+| Avoid tobacco | Tobacco increases risk for many cancers, not just lung cancer | Encourage quitting, avoiding secondhand smoke, and using cessation support |
+| Limit alcohol | Alcohol is linked with several cancers, including breast, liver, colorectal, and head/neck cancers | Teach that lower intake means lower risk |
+| Maintain a healthy weight | Excess body weight is linked with increased cancer risk | Encourage realistic nutrition and activity goals |
+| Stay physically active | Physical activity helps reduce risk for some cancers and supports weight control | Encourage regular movement based on ability and safety |
+| Eat a balanced diet | Diet patterns can affect cancer risk | Encourage fruits, vegetables, whole grains, lean proteins, and limiting processed/red meats |
+| Protect skin from UV exposure | UV exposure increases skin cancer risk | Use sunscreen, protective clothing, shade, and avoid tanning beds |
+| Get recommended vaccines | HPV and hepatitis B infections can increase cancer risk | Gardasil is the HPV vaccine; hepatitis B vaccine helps reduce liver cancer risk |
+| Complete recommended screenings | Screening can detect some cancers early | Follow age, risk, family history, and provider-based screening recommendations |
+| Reduce occupational exposures | Asbestos, radiation, diesel exhaust, silica, and chemical exposures can increase cancer risk | Use PPE, follow workplace safety policies, and report persistent symptoms |
+| Practice safer sex | HPV and hepatitis infections are linked with cancer risk | Use prevention strategies and complete recommended vaccines/testing |
+| Manage stress in healthy ways | Stress itself is not usually taught as a direct cancer cause, but chronic stress can affect sleep, coping, activity, nutrition, tobacco use, and alcohol use | Encourage healthy coping, rest, support systems, counseling, relaxation, and physical activity as tolerated |
+
+
 <div class="nclex" markdown="1">
 
-**ATI/NCLEX Tip:** **Gardasil** is the HPV vaccine. HPV vaccination is a form of **primary prevention** because it helps reduce risk before HPV-related cancer develops (cervical cancer, oral/esophageal cancer). HPV vaccination is routinely recommended at **ages 11–12**, can start as early as **age 9**, and is recommended through **age 26** if not already completed; most who start before age 15 receive **2 doses**, while those starting at age 15 or older or who are immunocompromised need **3 doses**.
+**ATI/NCLEX Tip:** The best cancer-risk-reduction answer is usually the one that is specific, realistic, and evidence-based: stop tobacco, limit alcohol, protect from UV exposure, receive HPV/hepatitis B vaccines, maintain healthy weight, stay active, eat a balanced diet, and complete recommended screenings.
 
 </div>
+  
+<div class="note" markdown="1">
+
+**Gardasil** is the HPV vaccine. HPV vaccination is a form of **primary prevention** because it helps reduce risk before HPV-related cancer develops (cervical cancer, oral/esophageal cancer). HPV vaccination is routinely recommended at **ages 11–12**, can start as early as **age 9**, and is recommended through **age 26** if not already completed; most who start before age 15 receive **2 doses**, while those starting at age 15 or older or who are immunocompromised need **3 doses**.
+
+</div>
+
+---
 
 ### Secondary Prevention
 
