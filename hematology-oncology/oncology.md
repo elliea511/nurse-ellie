@@ -464,7 +464,7 @@ Examples:
 - Modify diet and lifestyle
 - Remove at-risk tissue when indicated
   
-  <div class="nclex" markdown="1">
+<div class="nclex" markdown="1">
 
 **ATI/NCLEX Tip:** **Gardasil** is the HPV vaccine. HPV vaccination is a form of **primary prevention** because it helps reduce risk before HPV-related cancer develops.
 
