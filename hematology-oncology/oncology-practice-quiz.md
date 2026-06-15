@@ -1344,31 +1344,6 @@ A nurse is caring for a client with disseminated intravascular coagulation.
 
 ## Question 54
 
-A nurse is reinforcing teaching with a client who has cancer and is prescribed a transdermal opioid patch for pain.
-
-**Which statement by the client indicates an understanding of the teaching?**
-
-<p class="answer-choice"><strong>A.</strong> “I will cut the patch in half if I feel too sleepy.”</p>
-
-<p class="answer-choice"><strong>B.</strong> “I will place a heating pad over the patch for pain.”</p>
-
-<p class="answer-choice"><strong>C.</strong> “I will remove the old patch before applying a new one.”</p>
-
-<p class="answer-choice"><strong>D.</strong> “I will apply the patch to the same site each time.”</p>
-
-<details>
-<summary>Click to see answer and rationale</summary>
-
-<p class="quiz-answer"><strong>Answer: C</strong></p>
-
-<p class="quiz-rationale"><strong>Rationale:</strong> The client should remove the old transdermal opioid patch before applying a new patch to prevent excess medication absorption and overdose risk. A is incorrect because the patch should not be cut. B is incorrect because heat can increase medication absorption. D is incorrect because patch sites should be rotated according to instructions.</p>
-
-</details>
-
----
-
-## Question 55
-
 A client with sepsis asks the nurse, “What does it mean that I might have DIC?”
 
 **Which response should the nurse provide?**
@@ -1392,7 +1367,7 @@ A client with sepsis asks the nurse, “What does it mean that I might have DIC?
 
 ---
 
-## Question 56
+## Question 55
 
 A nurse is caring for a client who has lung cancer.
 
@@ -1417,7 +1392,7 @@ A nurse is caring for a client who has lung cancer.
 
 ---
 
-## Question 57
+## Question 56
 
 A nurse is reinforcing teaching with a client receiving chemotherapy who is at risk for neutropenic sepsis.
 
@@ -1442,7 +1417,7 @@ A nurse is reinforcing teaching with a client receiving chemotherapy who is at r
 
 ---
 
-## Question 58
+## Question 57
 
 A nurse is reviewing parent-reported symptoms for four children.
 
@@ -1467,7 +1442,7 @@ A nurse is reviewing parent-reported symptoms for four children.
 
 ---
 
-## Question 59
+## Question 58
 
 A nurse is reviewing cancer development with a client who has taken long-term estrogen therapy. The client asks, “How can hormones be related to cancer?”
 
@@ -1492,7 +1467,7 @@ A nurse is reviewing cancer development with a client who has taken long-term es
 
 ---
 
-## Question 60
+## Question 59
 
 A client is scheduled to have a benign tumor removed and asks the nurse, “If it is not cancer, why does it need to come out?”
 
@@ -1516,7 +1491,7 @@ A client is scheduled to have a benign tumor removed and asks the nurse, “If i
 </details>
 
 ---
-## Question 61
+## Question 60
 
 A nurse is reviewing health histories for several clients.
 
@@ -1541,7 +1516,7 @@ A nurse is reviewing health histories for several clients.
 
 ---
 
-## Question 62
+## Question 61
 
 A nurse is reviewing health histories for several clients.
 
@@ -1566,7 +1541,7 @@ A nurse is reviewing health histories for several clients.
 
 ---
 
-## Question 63
+## Question 62
 
 A nurse is reviewing food choices for a client who has multiple myeloma and a WBC count of 2,200/mm³.
 
@@ -1591,7 +1566,7 @@ A nurse is reviewing food choices for a client who has multiple myeloma and a WB
 
 ---
 
-## Question 64
+## Question 63
 
 A nurse is reinforcing discharge teaching with an adolescent female client after a bone marrow transplant.
 
@@ -1618,7 +1593,7 @@ A nurse is reinforcing discharge teaching with an adolescent female client after
 
 ---
 
-## Question 65
+## Question 64
 
 A nurse is reinforcing teaching with a client receiving external radiation therapy.
 
@@ -1643,7 +1618,7 @@ A nurse is reinforcing teaching with a client receiving external radiation thera
 
 ---
 
-## Question 66
+## Question 65
 
 A nurse is reviewing chemotherapy adverse effects with a client.
 
@@ -1668,7 +1643,7 @@ A nurse is reviewing chemotherapy adverse effects with a client.
 
 ---
 
-## Question 67
+## Question 66
 
 A nurse is reinforcing teaching about combination chemotherapy.
 
@@ -1693,7 +1668,7 @@ A nurse is reinforcing teaching about combination chemotherapy.
 
 ---
 
-## Question 68
+## Question 67
 
 A nurse is reviewing risk factors for bladder cancer.
 
@@ -1718,7 +1693,7 @@ A nurse is reviewing risk factors for bladder cancer.
 
 ---
 
-## Question 69
+## Question 68
 
 A client asks the nurse what it means that a malignant colon neoplasm is metastasizing.
 
@@ -1743,7 +1718,7 @@ A client asks the nurse what it means that a malignant colon neoplasm is metasta
 
 ---
 
-## Question 70
+## Question 69
 
 A nurse is reinforcing teaching with a client newly diagnosed with breast cancer.
 
@@ -1768,7 +1743,7 @@ A nurse is reinforcing teaching with a client newly diagnosed with breast cancer
 
 ---
 
-## Question 71
+## Question 70
 
 A charge nurse is observing care for a client receiving internal radiation therapy for cervical cancer.
 
@@ -1793,7 +1768,7 @@ A charge nurse is observing care for a client receiving internal radiation thera
 
 ---
 
-## Question 72
+## Question 71
 
 A nurse is reinforcing teaching with a group of clients about Gardasil.
 
@@ -1818,7 +1793,7 @@ A nurse is reinforcing teaching with a group of clients about Gardasil.
 
 ---
 
-## Question 73
+## Question 72
 
 A nurse is assessing a client receiving chemotherapy.
 
@@ -1843,7 +1818,7 @@ A nurse is assessing a client receiving chemotherapy.
 
 ---
 
-## Question 74
+## Question 73
 
 A nurse is assessing a client receiving chemotherapy who reports numbness and tingling.
 
@@ -1868,7 +1843,7 @@ A nurse is assessing a client receiving chemotherapy who reports numbness and ti
 
 ---
 
-## Question 75
+## Question 74
 
 A nurse is caring for a client receiving chemotherapy who has a platelet count of 42,000/mm³.
 
@@ -1893,7 +1868,7 @@ A nurse is caring for a client receiving chemotherapy who has a platelet count o
 
 ---
 
-## Question 76
+## Question 75
 
 A nurse is assessing a client with metastatic cancer.
 
@@ -1918,7 +1893,7 @@ A nurse is assessing a client with metastatic cancer.
 
 ---
 
-## Question 77
+## Question 76
 
 A nurse is reinforcing teaching with a client who has cancer and is receiving chemotherapy.
 
@@ -1943,7 +1918,7 @@ A nurse is reinforcing teaching with a client who has cancer and is receiving ch
 
 ---
 
-## Question 78
+## Question 77
 
 A client is scheduled to receive IV chemotherapy and says, “I had a reaction to this medication during my last treatment.” The prescription states to administer the medication with premedication and emergency equipment available.
 
@@ -1968,7 +1943,7 @@ A client is scheduled to receive IV chemotherapy and says, “I had a reaction t
 
 ---
 
-## Question 79
+## Question 78
 
 A client receiving chemotherapy has a prescription for ondansetron.
 
@@ -1993,7 +1968,7 @@ A client receiving chemotherapy has a prescription for ondansetron.
 
 ---
 
-## Question 80
+## Question 79
 
 A nurse is reinforcing teaching with a client newly diagnosed with myelodysplastic syndrome.
 
@@ -2018,7 +1993,7 @@ A nurse is reinforcing teaching with a client newly diagnosed with myelodysplast
 
 ---
 
-## Question 81
+## Question 80
 
 A nurse is reviewing health histories for several clients.
 
@@ -2045,7 +2020,7 @@ A nurse is reviewing health histories for several clients.
 
 ---
 
-## Question 82
+## Question 81
 
 A client receiving internal radiation therapy for cervical cancer reports feeling something slip out while using the bedpan. The nurse sees the sealed radiation implant in the bedpan.
 
@@ -2070,7 +2045,7 @@ A client receiving internal radiation therapy for cervical cancer reports feelin
 
 ---
 
-## Question 83
+## Question 82
 
 A nurse is reviewing laboratory results for a child with suspected leukemia.
 
@@ -2095,7 +2070,7 @@ A nurse is reviewing laboratory results for a child with suspected leukemia.
 
 ---
 
-## Question 84
+## Question 83
 
 A nurse is assessing a child whose parent reports fatigue, frequent bruising, and “yellow-looking” skin.
 
@@ -2120,7 +2095,7 @@ A nurse is assessing a child whose parent reports fatigue, frequent bruising, an
 
 ---
 
-## Question 85
+## Question 84
 
 A parent asks the nurse why the child is receiving chemotherapy “in the spine” instead of only through the IV.
 
@@ -2145,7 +2120,7 @@ A parent asks the nurse why the child is receiving chemotherapy “in the spine�
 
 ---
 
-## Question 86
+## Question 85
 
 A child with leukemia asks the nurse, “Am I going to die?”
 
@@ -2170,7 +2145,7 @@ A child with leukemia asks the nurse, “Am I going to die?”
 
 ---
 
-## Question 87
+## Question 86
 
 A nurse is reinforcing teaching with the parent of a child scheduled for a hematopoietic stem cell transplant. The parent asks, “Why does my child need radiation before receiving the stem cells?”
 
@@ -2195,7 +2170,7 @@ A nurse is reinforcing teaching with the parent of a child scheduled for a hemat
 
 ---
 
-## Question 88
+## Question 87
 
 A nurse is reviewing the diagnostic plan for a child with suspected cancer.
 
@@ -2220,7 +2195,7 @@ A nurse is reviewing the diagnostic plan for a child with suspected cancer.
 
 ---
 
-## Question 89
+## Question 88
 
 A student nurse asks why sodium bicarbonate may be prescribed for a client with tumor lysis syndrome.
 
@@ -2245,7 +2220,7 @@ A student nurse asks why sodium bicarbonate may be prescribed for a client with 
 
 ---
 
-## Question 90
+## Question 89
 
 A nurse is reinforcing skin care teaching with a client who completed external radiation therapy.
 
@@ -2270,7 +2245,7 @@ A nurse is reinforcing skin care teaching with a client who completed external r
 
 ---
 
-## Question 91
+## Question 90
 
 A nurse is assessing four children with suspected non-Hodgkin lymphoma.
 
@@ -2295,7 +2270,7 @@ A nurse is assessing four children with suspected non-Hodgkin lymphoma.
 
 ---
 
-## Question 92
+## Question 91
 
 A nurse is assessing four children with persistent bone pain.
 
@@ -2320,7 +2295,7 @@ A nurse is assessing four children with persistent bone pain.
 
 ---
 
-## Question 93
+## Question 92
 
 A nurse is reinforcing teaching with the parent of a child diagnosed with Ewing sarcoma of the femur.
 
@@ -2345,7 +2320,7 @@ A nurse is reinforcing teaching with the parent of a child diagnosed with Ewing 
 
 ---
 
-## Question 94
+## Question 93
 
 A nurse is reviewing photographs with the parent of a toddler.
 
@@ -2370,7 +2345,7 @@ A nurse is reviewing photographs with the parent of a toddler.
 
 ---
 
-## Question 95
+## Question 94
 
 A parent asks the nurse, “Why can’t my child receive vaccines during chemotherapy to help prevent illness?”
 
@@ -2395,7 +2370,7 @@ A parent asks the nurse, “Why can’t my child receive vaccines during chemoth
 
 ---
 
-## Question 96
+## Question 95
 
 A nurse is reinforcing teaching with the parents of an adolescent who is scheduled to begin chemotherapy that may affect fertility.
 
@@ -2420,7 +2395,7 @@ A nurse is reinforcing teaching with the parents of an adolescent who is schedul
 
 ---
 
-## Question 97
+## Question 96
 
 A nurse is reviewing laboratory results for a child being evaluated for leukemia.
 
@@ -2445,7 +2420,7 @@ A nurse is reviewing laboratory results for a child being evaluated for leukemia
 
 ---
 
-## Question 98
+## Question 97
 
 A parent asks the nurse, “Can I stay in the treatment room with my child during external radiation therapy?”
 
@@ -2470,7 +2445,7 @@ A parent asks the nurse, “Can I stay in the treatment room with my child durin
 
 ---
 
-## Question 99
+## Question 98
 
 A nurse is reviewing neuroblastoma manifestations with a student nurse.
 
@@ -2495,7 +2470,7 @@ A nurse is reviewing neuroblastoma manifestations with a student nurse.
 
 ---
 
-## Question 100
+## Question 99
 
 A nurse is reinforcing discharge teaching with the parent of a child who had a ventriculoperitoneal shunt placed after treatment for a brain tumor.
 
@@ -2520,7 +2495,7 @@ A nurse is reinforcing discharge teaching with the parent of a child who had a v
 
 ---
 
-## Question 101
+## Question 100
 
 A nurse is reinforcing teaching with a client who has a central venous access device for chemotherapy.
 
