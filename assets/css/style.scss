@@ -1627,3 +1627,50 @@ margin-left: 0.25rem !important;
 .study-card.coming-soon {
   opacity: 0.65;
 }
+/* =========================================================
+   ATI NUTRITION TOPIC HEADERS
+   Use for big topic changes inside a notes section
+   ========================================================= */
+
+.main-content .topic-header {
+  background: linear-gradient(135deg, #fff7cf, #f8b6c8, #d7c3f3, #7fd8d2) !important;
+  color: #24455c !important;
+  text-align: center !important;
+  text-transform: uppercase !important;
+  letter-spacing: 1.5px !important;
+  font-size: 1.55rem !important;
+  font-weight: 950 !important;
+  padding: 16px 18px !important;
+  margin: 2.8rem 0 1.4rem 0 !important;
+  border-radius: 22px !important;
+  border: 4px solid rgba(255, 255, 255, 0.85) !important;
+  box-shadow:
+    8px 8px 0 rgba(127, 216, 210, 0.18),
+    0 8px 20px rgba(36, 69, 92, 0.10) !important;
+}
+
+.main-content .topic-header::before {
+  content: "✦ ";
+  color: #be185d !important;
+}
+
+.main-content .topic-header::after {
+  content: " ✦";
+  color: #2b8f8b !important;
+}
+
+/* Smaller subsection headers inside each topic */
+.main-content .topic-subheader {
+  background: #eef8ff !important;
+  color: #24455c !important;
+  border-left: 8px solid #9fd7f5 !important;
+  border-radius: 14px !important;
+  padding: 10px 14px !important;
+  margin-top: 1.8rem !important;
+  box-shadow: 5px 5px 0 rgba(159, 215, 245, 0.20) !important;
+}
+
+.main-content .topic-subheader::before {
+  content: "➜ ";
+  color: #2b8f8b !important;
+}
