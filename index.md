@@ -18,7 +18,7 @@ title: Nursing Notes
     <span class="button-subtitle">Cells gone wild🤪</span>
   </a>
 
-<a class="home-big-button yellow" href="{{ '/hematology-oncology.html' | relative_url }}">
+<a class="home-big-button green" href="{{ '/hematology-oncology.html' | relative_url }}">
     <span class="button-title">ATI Exam</span>
     <span class="button-subtitle">Grind Time</span>
   </a>
