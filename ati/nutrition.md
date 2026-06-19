@@ -25,6 +25,7 @@ This guide is organized by ATI-style nutrition topics. It focuses on diet teachi
 12. [Practice Questions](#practice-questions)
 
 ---
+```markdown
 ## Nutrition Basics / Foundations
 
 This section covers the basic nutrition concepts that show up across many ATI nutrition questions. These topics are important because they help with disease-specific diet teaching, malnutrition questions, wound healing, electrolyte questions, and priority nursing actions.
@@ -55,7 +56,7 @@ Protein is needed for tissue repair, immune function, muscle strength, and wound
 | **Incomplete protein** | Missing one or more essential amino acids | Legumes, peanut butter, whole grains, nuts, seeds |
 
 <div class="nclex">
-ATI likes to ask for the “best source of protein.” Cottage cheese is a complete protein and may be the best answer if compared with legumes, peanut butter, or whole grain cereal.
+ATI likes to ask for the “best source of protein.” <strong>Cottage cheese</strong> is a complete protein and may be the best answer if compared with legumes, peanut butter, or whole grain cereal.
 </div>
 
 ---
@@ -79,7 +80,7 @@ Protein needs increase when the body is trying to heal, fight infection, or main
 - Parkinson’s disease if muscular rigidity increases calorie needs
 
 <div class="note">
-If the client has poor wound healing, infection, weakness, or protein deficiency, the nurse should usually encourage high-protein foods unless contraindicated by another condition such as severe kidney disease.
+If the client has poor wound healing, infection, weakness, or protein deficiency, the nurse should usually encourage <strong>high-protein foods</strong> unless contraindicated by another condition such as severe kidney disease.
 </div>
 
 ---
@@ -103,7 +104,7 @@ Micronutrients are vitamins and minerals needed in smaller amounts. They do not 
 | **Water-soluble** | Vitamins **B-complex and C** | Not stored in large amounts. Excess is usually excreted in urine. |
 
 <div class="memory">
-Fat-soluble vitamins: **A, D, E, K**.
+Fat-soluble vitamins: <strong>A, D, E, K</strong>.
 </div>
 
 ---
@@ -130,7 +131,7 @@ Vitamin A supports vision, skin, and immune function.
 - Liver
 
 <div class="nclex">
-If the question asks which micronutrient improves night vision, think **vitamin A**.
+If the question asks which micronutrient improves <strong>night vision</strong>, think <strong>vitamin A</strong>.
 </div>
 
 ---
@@ -162,7 +163,7 @@ Vitamin B6 helps with heme formation and neurotransmitter synthesis.
 | Nervous system support | Helps synthesize neurotransmitters. |
 
 <div class="note">
-Vitamin B6 is important, but it is **not** the vitamin that improves night vision.
+Vitamin B6 is important, but it is <strong>not</strong> the vitamin that improves night vision.
 </div>
 
 ---
@@ -185,7 +186,7 @@ Folate is important for red blood cell formation and pregnancy.
 - Lentils
 
 <div class="nclex">
-ATI specifically noted that **3.5 oz of chicken liver** contains a very high amount of folate.
+ATI specifically noted that <strong>3.5 oz of chicken liver</strong> contains a very high amount of folate.
 </div>
 
 ---
@@ -209,7 +210,7 @@ Vitamin C supports wound healing and improves iron absorption.
 - Broccoli
 
 <div class="note">
-Vitamin C helps with iron absorption, but citrus foods can irritate the mouth if the client has mucositis.
+Vitamin C helps with iron absorption, but citrus foods can irritate the mouth if the client has <strong>mucositis</strong>.
 </div>
 
 ---
@@ -248,7 +249,7 @@ Vitamin K is needed for blood clotting.
 - Brussels sprouts
 
 <div class="nclex">
-Do **not** teach the client taking warfarin to avoid all vitamin K. Teach the client to keep vitamin K intake **consistent**.
+Do <strong>not</strong> teach the client taking warfarin to avoid all vitamin K. Teach the client to keep vitamin K intake <strong>consistent</strong>.
 </div>
 
 ---
@@ -275,7 +276,7 @@ Calcium supports bones, teeth, nerve transmission, and muscle contraction.
 - Leafy greens
 
 <div class="nclex">
-ATI specifically noted that **½ cup roasted almonds contains about 185 mg of calcium** and can be a good calcium source.
+ATI specifically noted that <strong>½ cup roasted almonds contains about 185 mg of calcium</strong> and can be a good calcium source.
 </div>
 
 ---
@@ -288,7 +289,7 @@ ATI specifically noted that **½ cup roasted almonds contains about 185 mg of ca
 | **Calcium citrate** | Can be taken with or without food. |
 
 <div class="note">
-Calcium carbonate is often considered economical and should be taken with meals.
+Calcium carbonate is often considered economical and should be taken <strong>with meals</strong>.
 </div>
 
 ---
@@ -304,7 +305,7 @@ Magnesium supports nerve, muscle, and cardiac function.
 | TPN monitoring | Magnesium can drop when electrolytes shift into cells after TPN starts. |
 
 <div class="nclex">
-Clients receiving TPN are at risk for electrolyte imbalances, including **low magnesium**.
+Clients receiving TPN are at risk for electrolyte imbalances, including <strong>low magnesium</strong>.
 </div>
 
 ---
@@ -330,7 +331,7 @@ Potassium is important for heart rhythm, muscle function, and fluid balance.
 - Dried fruits
 
 <div class="danger">
-ACE inhibitors, such as captopril, can retain potassium and cause hyperkalemia. Clients taking ACE inhibitors may need to avoid high-potassium foods such as **cantaloupe**.
+ACE inhibitors, such as captopril, can retain potassium and cause <strong>hyperkalemia</strong>. Clients taking ACE inhibitors may need to avoid high-potassium foods such as <strong>cantaloupe</strong>.
 </div>
 
 ---
@@ -345,7 +346,7 @@ Phosphorus helps form bones and teeth and helps regulate hormone activity.
 | Hormone regulation | Helps regulate hormone activity. |
 
 <div class="note">
-Phosphorus is important for bones and teeth, but it is **not** the micronutrient that improves night vision.
+Phosphorus is important for bones and teeth, but it is <strong>not</strong> the micronutrient that improves night vision.
 </div>
 
 ---
@@ -393,7 +394,7 @@ Prealbumin is often used to evaluate more recent changes in nutritional status.
 | **Low prealbumin** | Can indicate severe malnutrition or recent poor protein intake |
 
 <div class="nclex">
-Prealbumin is a useful marker for severe malnutrition because it reflects more recent nutritional changes than albumin.
+Prealbumin is a useful marker for <strong>severe malnutrition</strong> because it reflects more recent nutritional changes than albumin.
 </div>
 
 ---
@@ -420,7 +421,7 @@ Malnutrition can occur when the body does not get enough calories, protein, vita
 Protein deficiency can cause fluid to shift into the tissues, leading to edema.
 
 <div class="nclex">
-If the client has **lower extremity edema** with signs of poor intake or weight loss, think **protein deficiency/malnutrition**.
+If the client has <strong>lower extremity edema</strong> with signs of poor intake or weight loss, think <strong>protein deficiency/malnutrition</strong>.
 </div>
 
 ---
@@ -468,7 +469,7 @@ Fluid volume deficit can occur from vomiting, diarrhea, fever, sweating, poor in
 | Weakness or dizziness | Poor perfusion |
 
 <div class="danger">
-Vomiting and diarrhea place the client at risk for **fluid volume deficit** and **electrolyte imbalance**.
+Vomiting and diarrhea place the client at risk for <strong>fluid volume deficit</strong> and <strong>electrolyte imbalance</strong>.
 </div>
 
 ---
@@ -532,24 +533,38 @@ General healthy eating focuses on balance, portion control, and nutrient-dense f
 
 ---
 
-## ATI Quick Review
+## Nutrition Basics / Foundations: High-Yield Chart
 
-| Topic | What ATI Wants You to Remember |
-|---|---|
-| Complete protein | Contains all 9 essential amino acids. Cottage cheese is complete. |
-| Incomplete protein | Legumes, peanut butter, and whole grains are incomplete proteins. |
-| Vitamin A | Helps with night vision. |
-| Lutein | Found in leafy greens and supports eye health. |
-| Folate | Chicken liver is a high source. Important for pregnancy and RBC formation. |
-| Vitamin D | Helps calcium absorption. Older adults often need supplementation. |
-| Vitamin K | Keep intake consistent with warfarin. |
-| Calcium | Supports bones. Calcium carbonate should be taken with meals. |
-| Potassium | ACE inhibitors can increase potassium. Avoid high-potassium foods if at risk for hyperkalemia. |
-| Magnesium | Can become low with TPN due to electrolyte shifts. |
-| Prealbumin | Helpful marker for severe or recent malnutrition. |
-| Protein deficiency | Can cause lower extremity edema. |
-| Fluid deficit | Vomiting and diarrhea can cause dehydration. |
-| Weight loss | Healthy goal is 0.5 to 1 lb per week. |
+| Topic | Most Important ATI Info | Exam Clue / What to Pick |
+|---|---|---|
+| **Macronutrients** | Carbs, protein, and fat provide energy and support body function. | Protein is usually the focus for healing, infection, wounds, surgery, cancer, pregnancy, COPD, and older adults. |
+| **Complete Protein** | Contains all 9 essential amino acids. | Choose **cottage cheese, eggs, milk, meat, poultry, fish, yogurt, or cheese** when asked for the best protein source. |
+| **Incomplete Protein** | Missing one or more essential amino acids. | Legumes, peanut butter, whole grains, nuts, and seeds are incomplete proteins. |
+| **Increased Protein Needs** | Needed for tissue repair, immune function, muscle strength, and wound healing. | Think **high-protein diet** with wounds, infection, surgery, burns, cancer, COPD, pregnancy, older adults, and malnutrition. |
+| **Fat-Soluble Vitamins** | Vitamins **A, D, E, K** are stored in the body. | Higher risk for toxicity because they are stored. |
+| **Water-Soluble Vitamins** | Vitamins **B-complex and C** are not stored in large amounts. | Excess is usually excreted in urine. |
+| **Vitamin A** | Supports vision, skin, mucous membranes, and immune function. | If the question says **night vision** or adapting to dim light, pick **vitamin A**. |
+| **Lutein** | Supports eye health and can slow progression of age-related macular degeneration. | Found in **kale, spinach, collards, and mustard greens**. |
+| **Vitamin B6** | Helps with heme formation and neurotransmitter synthesis. | Important, but **not** the vitamin for night vision. |
+| **Folate** | Needed for RBC formation and pregnancy/neural tube defect prevention. | **Chicken liver** is very high in folate. Also found in leafy greens, fortified grains, beans, and lentils. |
+| **Vitamin C** | Supports wound healing and improves iron absorption. | Take iron with vitamin C. Avoid citrus if the client has **mucositis** because it can irritate sores. |
+| **Vitamin D** | Helps the body absorb calcium. | Older adults often need supplementation because they synthesize less vitamin D from sunlight. |
+| **Vitamin K** | Needed for clotting. | With **warfarin**, teach **consistent vitamin K intake**, not complete avoidance. |
+| **Calcium** | Supports bones, teeth, nerve transmission, and muscle contraction. | Used for osteoporosis prevention. **½ cup roasted almonds = about 185 mg calcium**. |
+| **Calcium Carbonate** | Calcium supplement that absorbs better with food. | Teach: **take with meals**. |
+| **Magnesium** | Supports nerve, muscle, and cardiac function. | Can become low with **TPN** due to electrolyte shifts into cells. |
+| **Potassium** | Important for cardiac rhythm, muscle function, and fluid balance. | ACE inhibitors can cause **hyperkalemia**. Avoid high-potassium foods like **cantaloupe** if at risk. |
+| **Phosphorus** | Helps form bones and teeth and regulate hormone activity. | Important, but **not** the nutrient for night vision. |
+| **Iron** | Needed for hemoglobin and oxygen-carrying capacity. | Pregnant clients usually need **30 mg iron daily**. Take with vitamin C; liquid iron can stain teeth. |
+| **Albumin** | Can reflect longer-term protein status but is affected by illness, liver disease, kidney disease, inflammation, and fluid status. | Low albumin can suggest poor protein status but is not always just nutrition. |
+| **Prealbumin** | Reflects more recent nutritional changes. | If ATI asks about **severe/recent malnutrition**, think **prealbumin**. |
+| **Protein Deficiency** | Low protein can cause fluid to shift into tissues. | **Lower extremity edema + poor intake/weight loss = protein deficiency/malnutrition**. |
+| **Malnutrition Signs** | Weight loss, poor intake, edema, dry skin, dry conjunctiva, weak hand grasps, paresthesia, poor wound healing. | Look for physical assessment cues, not just weight. |
+| **Fluid Volume Deficit** | Can occur from vomiting, diarrhea, fever, sweating, poor intake, or diuretics. | Cues: dry mucous membranes, poor skin turgor, tachycardia, hypotension, dark urine, decreased urine output. |
+| **Fluid Volume Excess** | Too much fluid retention. | Cues: edema, crackles, shortness of breath, rapid weight gain, hypertension, bounding pulses. |
+| **Vomiting/Diarrhea** | Causes fluid loss and electrolyte imbalance. | Think **fluid volume deficit** first. |
+| **Healthy Weight Loss** | Safe, realistic weight loss is **0.5 to 1 lb per week**. | Avoid rapid weight loss goals because they increase risk for nutritional deficiencies. |
+| **Weight Loss Teaching** | Use a shopping list, eat low-calorie foods first, eat regular meals, control portions, avoid tasting while cooking. | ATI likes practical behavior changes over extreme restriction. |
 
 ---
 
@@ -599,6 +614,7 @@ General healthy eating focuses on balance, portion control, and nutrient-dense f
 - If the question mentions **edema with poor intake**, think **protein deficiency**.
 - If the question asks about **severe malnutrition**, prealbumin is usually important.
 - If the question asks about healthy weight loss, choose **0.5 to 1 lb per week**.
+
 
 ## Nutrition Basics / Foundations: High-Yield Chart
 
