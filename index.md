@@ -18,7 +18,7 @@ title: Nursing Notes
     <span class="button-subtitle">Cells gone wild🤪</span>
   </a>
   
-<a class="home-big-button rainbow" href="{{ '/ati/' | relative_url }}">
+<a class="home-big-button purple" href="{{ '/ati/' | relative_url }}">
   <span class="button-title">ATI Exam Review</span>
   <span class="button-subtitle">Grind Time</span>
 </a>
