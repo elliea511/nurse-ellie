@@ -2703,3 +2703,522 @@ Choose foods based on the client’s swallowing ability, disease process, and to
 | **Constipation**               | Increase fiber gradually and increase fluids if appropriate                                |
 | **Increased metabolic demand** | Infection, COPD, cancer, burns, wounds, surgery, and rigidity can increase nutrition needs |
 | **Priority nursing action**    | Safety first: prevent aspiration before increasing intake                                  |
+
+<h2 class="section-divider" id="cancer-immunity-and-wound-healing-nutrition">Cancer, Immunity, and Wound Healing Nutrition</h2>
+
+Cancer, immunity, and wound healing nutrition questions on ATI usually focus on **cancer prevention, increased metabolic needs, infection risk, mucositis, altered taste, poor intake, weight loss, protein needs, and food safety**.
+
+These clients often need more nutrition support because the body is under stress. Cancer, infection, wounds, burns, surgery, and poor immune function can all increase calorie and protein needs.
+
+---
+
+## Cancer, Immunity, and Wound Healing Nutrition: Big Picture
+
+| Problem                      | Why Nutrition Matters                                                  |
+| ---------------------------- | ---------------------------------------------------------------------- |
+| **Cancer prevention**        | Nutrition, exercise, and weight management can reduce risk.            |
+| **Cancer**                   | Increases metabolic demand and can decrease appetite.                  |
+| **Chemotherapy/radiation**   | Can cause nausea, vomiting, mucositis, altered taste, and poor intake. |
+| **Mucositis/stomatitis**     | Painful mouth sores make eating difficult.                             |
+| **Neutropenia**              | Increases infection risk, so food safety is important.                 |
+| **Infection**                | Increases metabolic rate and nutrient needs.                           |
+| **Wounds/pressure injuries** | Require protein and calories for tissue repair.                        |
+| **Weight loss/cachexia**     | Can lead to weakness, poor healing, and malnutrition.                  |
+
+<div class="nclex">
+For ATI, if the client has cancer, infection, wounds, burns, surgery, or poor healing, think: <strong>Does this client need more calories, protein, and nutrition support?</strong>
+</div>
+
+---
+
+<h2 class="section-divider small" id="cancer-prevention-nutrition">Cancer Prevention Nutrition</h2>
+
+Cancer prevention nutrition focuses on reducing risk factors and supporting overall health.
+
+Nutrition cannot prevent every cancer, but healthy diet patterns, physical activity, and weight management can help reduce the risk for some cancers. ATI may test cancer prevention by asking which client statement shows understanding of lifestyle changes that reduce risk.
+
+---
+
+## Cancer Prevention Teaching
+
+### Teaching points
+
+* Maintain a healthy weight.
+* Limit high-calorie foods and beverages.
+* Eat fruits, vegetables, whole grains, and lean proteins as appropriate.
+* Limit processed meats and high-fat foods.
+* Avoid or limit alcohol depending on provider guidance.
+* Participate in regular physical activity if able.
+
+<div class="nclex">
+ATI noted that clients should engage in at least <strong>150 minutes of moderate-intensity exercise per week</strong> to help reduce obesity-related cancer risk.
+</div>
+
+<div class="note">
+ATI also connected cancer prevention with limiting <strong>high-calorie foods and beverages</strong> because obesity is a cancer risk factor.
+</div>
+
+---
+
+## Why Weight Management Matters
+
+Excess body weight can increase cancer risk because adipose tissue affects hormones, inflammation, and metabolic function.
+
+For ATI, the key point is not that the client needs an extreme diet. The safest teaching is usually realistic lifestyle change.
+
+### Best teaching focus
+
+* Choose nutrient-dense foods.
+* Limit calorie-dense foods and beverages.
+* Increase activity as tolerated.
+* Focus on long-term habits instead of fad diets.
+* Avoid extreme restrictions unless prescribed.
+
+<div class="note">
+ATI prevention questions usually favor <strong>realistic, sustainable health behaviors</strong>, not crash diets or complete elimination of food groups.
+</div>
+
+---
+
+<h2 class="section-divider small" id="cancer-nutrition-during-treatment">Cancer Nutrition During Treatment</h2>
+
+Cancer can increase the body’s metabolic demand. The client may burn more calories than expected, even if they are eating less.
+
+Cancer and cancer treatments can also make eating harder. Clients may have nausea, vomiting, mouth sores, altered taste, dry mouth, fatigue, early fullness, diarrhea, constipation, or difficulty swallowing.
+
+---
+
+## Why Cancer Increases Nutrition Risk
+
+Clients with cancer are at risk for malnutrition because they may have both **increased needs** and **decreased intake**.
+
+### Common causes of poor intake
+
+* Nausea
+* Vomiting
+* Fatigue
+* Pain
+* Mucositis
+* Stomatitis
+* Dry mouth
+* Altered taste
+* Metallic taste
+* Loss of appetite
+* Early satiety
+* Depression or anxiety
+* Diarrhea or constipation
+
+<div class="danger">
+Cancer clients can lose weight quickly because the body may need more calories while the client is eating less.
+</div>
+
+---
+
+## Cancer Nutrition Goals
+
+Nutrition care focuses on maintaining weight, preserving muscle, supporting immune function, and helping the client tolerate treatment.
+
+### Goals of care
+
+* Prevent or reduce weight loss.
+* Maintain lean muscle mass.
+* Promote wound healing.
+* Support immune function.
+* Reduce treatment-related nutrition problems.
+* Manage symptoms that interfere with eating.
+* Encourage high-calorie, high-protein intake if appropriate.
+
+<div class="nclex">
+For cancer nutrition, ATI often favors <strong>high-calorie, high-protein foods</strong> when the client has poor intake, weight loss, infection, or increased metabolic needs.
+</div>
+
+---
+
+## High-Calorie, High-Protein Intake
+
+Clients with cancer may not be able to eat large meals. Small, frequent, nutrient-dense meals may be easier to tolerate.
+
+### Teaching points
+
+* Eat small frequent meals.
+* Choose high-calorie, high-protein foods.
+* Keep snacks available.
+* Eat when appetite is strongest.
+* Use oral nutrition supplements if prescribed.
+* Manage nausea before meals if prescribed.
+* Avoid filling up on low-calorie fluids if intake is poor.
+* Report ongoing weight loss or inability to eat.
+
+<div class="note">
+For ATI, the priority is often preventing <strong>weight loss, muscle wasting, and malnutrition</strong> during treatment.
+</div>
+
+---
+
+<h2 class="section-divider small" id="mucositis-and-stomatitis">Mucositis and Stomatitis</h2>
+
+Mucositis and stomatitis are inflammation and sores in the mouth or GI mucosa. These are common complications of chemotherapy and radiation.
+
+Mouth sores can make eating painful, which can quickly lead to poor intake, dehydration, weight loss, and malnutrition.
+
+---
+
+## What Mucositis Can Look Like
+
+Clients may report:
+
+* Painful mouth sores
+* Burning mouth pain
+* Difficulty chewing
+* Difficulty swallowing
+* Dry mouth
+* Bleeding gums
+* Decreased appetite
+* Avoidance of food or fluids
+
+<div class="danger">
+Mucositis can become a nutrition problem because the client may avoid eating and drinking due to pain.
+</div>
+
+---
+
+## Foods That Are Better Tolerated With Mucositis
+
+The goal is to choose foods that are soft, moist, bland, cool, and easy to swallow.
+
+### Better choices
+
+* Room-temperature foods
+* Cold foods
+* Soft foods
+* Moist foods
+* Smooth foods
+* High-calorie shakes if tolerated
+* High-protein drinks if tolerated
+* Frozen foods like popsicles if not acidic
+* Foods eaten with a straw if helpful
+
+<div class="nclex">
+ATI noted that <strong>room-temperature or cold foods</strong> are often better tolerated with mucositis.
+</div>
+
+---
+
+## Foods to Avoid With Mucositis
+
+Foods that are spicy, salty, acidic, rough, or very hot can worsen mouth pain.
+
+### Avoid or limit
+
+* Spicy foods
+* Salty foods
+* Citrus fruits and juices
+* Tomato juice
+* Acidic foods
+* Rough or crunchy foods
+* Very hot foods or beverages
+* Alcohol-containing mouthwashes
+
+<div class="danger">
+For mucositis, avoid <strong>spicy, salty, citrus, acidic, and tomato-based foods</strong> because they can irritate mouth sores.
+</div>
+
+---
+
+## Mucositis Oral Care
+
+Oral care is important because mouth sores increase pain and infection risk.
+
+### Teaching points
+
+* Use a soft toothbrush.
+* Rinse mouth with saline or baking soda solution if recommended.
+* Avoid alcohol-based mouthwash.
+* Avoid glycerin swabs.
+* Keep lips moist.
+* Report bleeding, white patches, worsening pain, or inability to eat/drink.
+
+<div class="nclex">
+ATI noted that clients with mucositis should use a <strong>soft toothbrush</strong> and may use <strong>saline or baking soda rinses</strong>.
+</div>
+
+<div class="note">
+ATI also noted to avoid <strong>glycerin swabs</strong> because they can dry or irritate oral tissues.
+</div>
+
+---
+
+## Increasing Intake With Mucositis
+
+Because eating is painful, the nurse should help the client get more nutrition in ways that are easier to tolerate.
+
+### Strategies
+
+* Offer small frequent meals.
+* Offer cold or room-temperature foods.
+* Encourage high-calorie, high-protein drinks.
+* Use a straw if it helps bypass painful areas.
+* Offer soft, moist foods.
+* Avoid foods that burn or scrape the mouth.
+* Encourage fluids unless contraindicated.
+
+<div class="nclex">
+For mucositis, ATI may ask how to maintain intake. Think <strong>high-calorie, high-protein drinks</strong> and foods that are <strong>soft, cold, or room temperature</strong>.
+</div>
+
+---
+
+<h2 class="section-divider small" id="altered-taste-and-poor-appetite">Altered Taste and Poor Appetite</h2>
+
+Cancer treatments can cause altered taste, metallic taste, nausea, dry mouth, and loss of appetite. These problems can reduce intake even when the client understands they need nutrition.
+
+---
+
+## Metallic Taste
+
+Some clients receiving chemotherapy report a metallic taste. This can make meat and other foods unpleasant.
+
+### Teaching
+
+* Use plastic utensils.
+* Try cold foods if odors worsen nausea.
+* Try marinades or flavor changes if tolerated.
+* Maintain oral hygiene.
+* Try high-protein alternatives if meat tastes unpleasant.
+
+<div class="nclex">
+ATI noted that <strong>plastic utensils</strong> may help clients who have a metallic taste during cancer treatment.
+</div>
+
+---
+
+## Poor Appetite
+
+When appetite is poor, the client may not be able to eat three large meals.
+
+### Teaching
+
+* Eat small frequent meals.
+* Choose high-calorie, high-protein foods.
+* Keep easy snacks available.
+* Eat the largest meal when appetite is best.
+* Drink nutrition supplements if prescribed.
+* Avoid filling up on low-calorie beverages.
+* Manage nausea before meals if prescribed.
+
+<div class="note">
+For poor appetite, the goal is not perfect meals. The goal is enough calories and protein in a realistic way.
+</div>
+
+---
+
+## Nausea and Vomiting During Treatment
+
+Nausea and vomiting can quickly reduce intake and increase the risk for dehydration.
+
+### Nursing focus
+
+* Give antiemetics as prescribed before meals or treatment if ordered.
+* Encourage small frequent meals.
+* Avoid strong food odors if they trigger nausea.
+* Offer bland foods if tolerated.
+* Encourage fluids unless contraindicated.
+* Monitor intake and output.
+* Monitor weight.
+* Report persistent vomiting.
+
+<div class="danger">
+Vomiting can cause <strong>fluid volume deficit</strong> and <strong>electrolyte imbalance</strong>, especially if intake is also poor.
+</div>
+
+---
+
+<h2 class="section-divider small" id="neutropenic-nutrition-and-food-safety">Neutropenic Nutrition and Food Safety</h2>
+
+Neutropenia means the client has a low neutrophil count and is at increased risk for infection.
+
+Nutrition teaching focuses on food safety because bacteria, mold, and other organisms in food can cause infection.
+
+---
+
+## Why Food Safety Matters in Neutropenia
+
+A healthy immune system can usually handle small amounts of bacteria from food. A neutropenic client has less ability to fight infection, so safe food handling becomes more important.
+
+The nurse should teach the client to avoid foods that are undercooked, spoiled, contaminated, or improperly stored.
+
+<div class="danger">
+For neutropenic clients, unsafe food handling can lead to serious infection.
+</div>
+
+---
+
+## Neutropenic Food Safety Teaching
+
+### General teaching
+
+* Wash hands before preparing or eating food.
+* Wash fruits and vegetables thoroughly if allowed by facility policy.
+* Avoid raw or undercooked meat, seafood, poultry, and eggs.
+* Avoid unpasteurized dairy or juice.
+* Keep hot foods hot and cold foods cold.
+* Do not eat foods past expiration.
+* Avoid foods with mold.
+* Store leftovers safely.
+* Thaw frozen foods in the refrigerator, not on the counter.
+
+<div class="nclex">
+ATI noted that hot foods should be kept above <strong>140°F / 60°C</strong>.
+</div>
+
+---
+
+## Leftovers and Storage
+
+Food storage matters because bacteria can multiply when food sits too long.
+
+### ATI storage points
+
+| Food Safety Point          | ATI Teaching                                                            |
+| -------------------------- | ----------------------------------------------------------------------- |
+| **Leftovers**              | Use within 24 hr for neutropenic clients                                |
+| **Home-canned foods**      | Use within 1 year and boil/cook for 10 min before eating if appropriate |
+| **Hot foods**              | Keep above 140°F / 60°C                                                 |
+| **Frozen foods**           | Thaw in the refrigerator                                                |
+| **Room-temperature foods** | Do not leave out for extended periods                                   |
+
+<div class="danger">
+ATI specifically noted that neutropenic clients should eat leftovers within <strong>24 hr</strong>.
+</div>
+
+---
+
+<h2 class="section-divider small" id="infection-and-increased-nutrition-needs">Infection and Increased Nutrition Needs</h2>
+
+Infection increases metabolic demand. The body uses more energy and nutrients to support the inflammatory response, immune function, fever response, and tissue repair.
+
+This means clients with infection often need more calories, protein, and fluids.
+
+---
+
+## Why Infection Increases Nutrition Needs
+
+During infection, the body may have:
+
+* Increased metabolic rate
+* Increased temperature
+* Increased protein breakdown
+* Decreased appetite
+* Fluid loss from fever or sweating
+* Increased need for immune support
+
+<div class="nclex">
+ATI noted that a secondary infection, such as <strong>herpes simplex virus infection</strong>, can increase metabolic rate and indicate the need for increased nutritional intake.
+</div>
+
+---
+
+## Nutrition Focus During Infection
+
+### Nursing care
+
+* Monitor intake.
+* Encourage fluids unless contraindicated.
+* Encourage high-calorie, high-protein intake if appropriate.
+* Monitor weight.
+* Monitor signs of dehydration.
+* Treat mouth pain, nausea, or other barriers to eating.
+* Collaborate with a dietitian if intake is poor.
+
+<div class="note">
+If the client has infection plus poor intake, nutrition support becomes more urgent because the body needs fuel to fight infection.
+</div>
+
+---
+
+<h2 class="section-divider small" id="wound-healing-nutrition">Wound Healing Nutrition</h2>
+
+Wound healing requires enough calories, protein, fluids, vitamins, and minerals. If the client does not have enough nutrition, wounds may heal slowly or worsen.
+
+Pressure injuries, surgical wounds, burns, and infected wounds all increase nutrition needs.
+
+---
+
+## Why Protein Is Important for Wound Healing
+
+Protein is needed to build and repair tissue. It also supports immune function and helps maintain skin integrity.
+
+Clients with wounds may need more protein than usual, especially if wounds are large, draining, infected, or slow to heal.
+
+### Signs the client may not be getting enough nutrition
+
+* Poor wound healing
+* Weight loss
+* Weakness
+* Low prealbumin
+* Low albumin if applicable
+* Muscle wasting
+* Poor intake
+* Edema related to protein deficiency
+
+<div class="nclex">
+For wound healing questions, ATI often wants <strong>high-protein foods</strong> unless another condition limits protein.
+</div>
+
+---
+
+## Nutrients Needed for Wound Healing
+
+| Nutrient      | Why It Matters                               |
+| ------------- | -------------------------------------------- |
+| **Protein**   | Builds and repairs tissue                    |
+| **Calories**  | Provide energy for healing                   |
+| **Vitamin C** | Supports collagen formation                  |
+| **Zinc**      | Supports tissue repair and immune function   |
+| **Fluids**    | Supports perfusion and tissue hydration      |
+| **Iron**      | Supports oxygen transport through hemoglobin |
+
+<div class="note">
+Poor wound healing is not only a skin problem. It can be a nutrition problem.
+</div>
+
+---
+
+## Wound Healing Teaching
+
+### Teaching points
+
+* Eat high-protein foods if appropriate.
+* Include calories from nutrient-dense foods.
+* Maintain hydration unless restricted.
+* Include vitamin C sources if tolerated.
+* Take supplements only as prescribed.
+* Report worsening wound drainage, odor, redness, or fever.
+* Monitor weight and intake.
+
+<div class="danger">
+If the client has a wound plus poor intake, watch closely for <strong>malnutrition and delayed healing</strong>.
+</div>
+
+---
+
+<h2 class="section-divider small" id="cancer-immunity-wound-healing-high-yield-review">Cancer, Immunity, and Wound Healing Nutrition: High-Yield Review</h2>
+
+| Topic                                 | What ATI Wants You to Remember                                                                          |
+| ------------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| **Cancer prevention**                 | Maintain healthy weight, limit high-calorie foods/beverages, exercise 150 min/week                      |
+| **Cancer nutrition during treatment** | Increased calorie/protein needs are common due to poor intake and increased metabolism                  |
+| **High-calorie/high-protein intake**  | Helps prevent weight loss, muscle wasting, and poor healing                                             |
+| **Mucositis**                         | Choose cold/room-temperature, soft, moist foods; avoid spicy, salty, citrus, acidic, tomato-based foods |
+| **Mucositis oral care**               | Soft toothbrush; saline or baking soda rinses; avoid glycerin swabs                                     |
+| **Metallic taste**                    | Use plastic utensils                                                                                    |
+| **Poor appetite**                     | Small frequent meals; high-calorie, high-protein foods or drinks                                        |
+| **Nausea/vomiting**                   | Manage symptoms early; monitor hydration and electrolytes                                               |
+| **Neutropenia**                       | Food safety is priority; avoid unsafe foods                                                             |
+| **Leftovers**                         | Use within 24 hr for neutropenic clients                                                                |
+| **Hot foods**                         | Keep above 140°F / 60°C                                                                                 |
+| **Thawing food**                      | Thaw frozen foods in refrigerator                                                                       |
+| **Infection**                         | Increases metabolic rate and nutrition needs                                                            |
+| **HSV infection**                     | ATI connected secondary infection with increased nutritional intake                                     |
+| **Wound healing**                     | Protein, calories, vitamin C, zinc, fluids, and iron support healing                                    |
+
