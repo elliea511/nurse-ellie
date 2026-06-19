@@ -1151,3 +1151,537 @@ Diarrhea can quickly cause <strong>fluid volume deficit</strong> and <strong>ele
 * If the client has an **ileostomy**, monitor fluids, electrolytes, sodium, and B12.
 * If the client is increasing **fiber**, fluids must increase too.
 
+<h2 class="section-divider" id="endocrine-and-diabetes-nutrition">Endocrine and Diabetes Nutrition</h2>
+
+Endocrine nutrition questions on ATI usually focus on **blood glucose regulation, recognizing hypoglycemia vs. hyperglycemia, understanding diabetes complications, and teaching clients how food affects glucose control**.
+
+For the ATI Nutrition exam, diabetes is one of the highest-yield endocrine topics because nutrition, medication timing, illness, exercise, and glucose monitoring all connect together.
+
+---
+
+## Endocrine and Diabetes Nutrition: Big Picture
+
+Diabetes mellitus is a disorder of glucose regulation. The body either does not make enough insulin, does not use insulin effectively, or both.
+
+Insulin is the hormone that helps move glucose from the bloodstream into the cells. When insulin is missing or not working well, glucose stays in the blood instead of moving into the cells where it can be used for energy.
+
+| Concept                | What It Means                                     | ATI Focus                                        |
+| ---------------------- | ------------------------------------------------- | ------------------------------------------------ |
+| **Glucose**            | Main fuel source for the body                     | Too much or too little can become dangerous      |
+| **Insulin**            | Moves glucose from blood into cells               | Low or ineffective insulin causes hyperglycemia  |
+| **Carbohydrates**      | Nutrient that most directly affects blood glucose | Consistency and food choice matter               |
+| **Hypoglycemia**       | Blood glucose too low                             | Priority because brain needs glucose             |
+| **Hyperglycemia**      | Blood glucose too high                            | Can lead to dehydration, DKA, or HHS             |
+| **Nutrition teaching** | Helps stabilize blood glucose                     | Focus on balanced intake, monitoring, and safety |
+
+<div class="nclex">
+For ATI, diabetes nutrition is not just “avoid sugar.” The safer teaching is usually <strong>consistent carbohydrate intake, balanced meals, glucose monitoring, and recognizing symptoms early</strong>.
+</div>
+
+---
+
+<h2 class="section-divider small" id="diabetes-mellitus">Diabetes Mellitus</h2>
+
+Diabetes mellitus affects how the body uses glucose. Glucose builds up in the blood when insulin is not available or not effective.
+
+This matters because cells still need glucose for energy. When glucose cannot enter the cells properly, the client can feel tired, weak, hungry, thirsty, and may urinate frequently.
+
+---
+
+## Type 1 Diabetes
+
+Type 1 diabetes occurs when the pancreas produces little to no insulin. These clients require insulin because their bodies cannot make enough on their own.
+
+Because insulin is required, clients with type 1 diabetes are at higher risk for **diabetic ketoacidosis**, especially if insulin is missed, illness occurs, or blood glucose rises significantly.
+
+### Key teaching points
+
+* Insulin is required.
+* Blood glucose should be monitored as prescribed.
+* Meals, insulin, and activity must be balanced.
+* Illness can increase blood glucose.
+* Missed insulin can lead to DKA.
+* The client should know signs of hypoglycemia and hyperglycemia.
+
+<div class="danger">
+A client with type 1 diabetes who has hyperglycemia, ketones, fruity breath, nausea/vomiting, or deep rapid respirations may be developing <strong>DKA</strong>.
+</div>
+
+---
+
+## Type 2 Diabetes
+
+Type 2 diabetes occurs when the body has insulin resistance. The pancreas may still make insulin, but the body does not use it effectively.
+
+Nutrition teaching focuses on glucose control, weight management if needed, cardiovascular risk reduction, and prevention of long-term complications.
+
+### Key teaching points
+
+* The body is resistant to insulin.
+* Nutrition and activity can improve insulin sensitivity.
+* The client may take oral medications, non-insulin injectables, insulin, or a combination.
+* Cardiovascular disease risk is increased.
+* Consistent eating patterns help prevent glucose swings.
+
+### Nutrition focus
+
+* Eat balanced meals.
+* Choose complex carbohydrates more often than simple sugars.
+* Spread carbohydrates throughout the day.
+* Include lean protein.
+* Include fiber if appropriate.
+* Limit high-calorie foods and beverages.
+* Avoid skipping meals if it leads to overeating or hypoglycemia.
+* Monitor blood glucose as prescribed.
+
+<div class="note">
+For type 2 diabetes, ATI often focuses on realistic lifestyle teaching and recognizing blood glucose problems early.
+</div>
+
+---
+
+<h2 class="section-divider small" id="carbohydrates-and-diabetes">Carbohydrates and Diabetes</h2>
+
+Carbohydrates have the most direct effect on blood glucose because they break down into glucose.
+
+The goal is not to remove all carbohydrates from the diet. The goal is to choose appropriate carbohydrates and eat them consistently.
+
+---
+
+## Simple vs. Complex Carbohydrates
+
+| Type                      | Examples                                                     | Effect on Blood Glucose     |
+| ------------------------- | ------------------------------------------------------------ | --------------------------- |
+| **Simple carbohydrates**  | Candy, regular soda, syrup, sweet tea, desserts, fruit juice | Raise blood glucose quickly |
+| **Complex carbohydrates** | Whole grains, beans, lentils, vegetables, oats, brown rice   | Usually digest more slowly  |
+
+Simple carbohydrates are not always “forbidden,” but they can cause rapid glucose increases. They may also be used intentionally when treating hypoglycemia because they raise glucose quickly.
+
+Complex carbohydrates are usually preferred for routine meals because they provide longer-lasting energy and often contain fiber.
+
+<div class="nclex">
+ATI does not usually want clients with diabetes to eliminate all carbohydrates. ATI wants the client to understand <strong>consistent carbohydrate intake</strong>.
+</div>
+
+---
+
+## Consistent Carbohydrate Intake
+
+Consistent carbohydrate intake means the client eats a similar amount of carbohydrates at meals and snacks each day.
+
+This helps prevent large swings in blood glucose and makes insulin or medication dosing safer and more predictable.
+
+### Teaching points
+
+* Do not skip meals.
+* Eat meals around the same times each day if possible.
+* Pair carbohydrates with protein or healthy fat when appropriate.
+* Read food labels.
+* Watch portion sizes.
+* Avoid large amounts of sugar-sweetened beverages.
+* Monitor blood glucose to see how foods affect levels.
+
+---
+
+## Glycemic Index
+
+The glycemic index ranks carbohydrate-containing foods based on how quickly and how much they raise blood glucose.
+
+High-glycemic foods raise blood glucose faster. Lower-glycemic foods raise blood glucose more gradually.
+
+| Glycemic Index Concept   | Meaning                          |
+| ------------------------ | -------------------------------- |
+| **High glycemic index**  | Raises blood glucose quickly     |
+| **Lower glycemic index** | Raises blood glucose more slowly |
+
+<div class="nclex">
+ATI specifically noted that a <strong>baked potato</strong> has a high glycemic index, around 85 to 90.
+</div>
+
+### Why this matters
+
+A client with diabetes needs to understand that some foods raise blood glucose more quickly than others, even if the food does not taste sweet. A baked potato, for example, can raise glucose significantly because it is a high-glycemic starch.
+
+---
+
+<h2 class="section-divider small" id="blood-glucose-monitoring">Blood Glucose Monitoring</h2>
+
+Blood glucose monitoring helps the client and nurse evaluate whether nutrition, medication, activity, and illness are affecting glucose control.
+
+For ATI, the nurse should recognize symptoms of glucose imbalance and assess the blood glucose level when symptoms occur.
+
+---
+
+## Priority Action With Symptoms
+
+If a client with diabetes has symptoms of hypoglycemia or hyperglycemia, the nurse should check the blood glucose level first when possible.
+
+This follows the nursing process: assess before intervening.
+
+<div class="nclex">
+If a client with diabetes has symptoms of hypo- or hyperglycemia, the nurse should first <strong>check the blood glucose level</strong>.
+</div>
+
+---
+
+## HbA1c
+
+HbA1c reflects the client’s average blood glucose over about the past 2 to 3 months. It helps evaluate long-term glucose control.
+
+| HbA1c                 | Meaning                                                |
+| --------------------- | ------------------------------------------------------ |
+| **Around 6.5% to 7%** | Common goal range for many clients with diabetes       |
+| **8.7%**              | Above expected goal and indicates poor glucose control |
+
+<div class="danger">
+ATI noted that an <strong>HbA1c of 8.7%</strong> is not within the expected goal range for a client with diabetes.
+</div>
+
+### Why this matters
+
+A single blood glucose value shows what is happening right now. HbA1c shows the bigger pattern over time. A client can have an occasional normal blood glucose but still have a high HbA1c if glucose has been high overall.
+
+---
+
+<h2 class="section-divider small" id="hypoglycemia">Hypoglycemia</h2>
+
+Hypoglycemia means the blood glucose is too low. This can become an emergency because the brain depends on glucose for energy.
+
+Hypoglycemia can happen when the client has too much insulin or diabetes medication, delays or skips a meal, eats too little, exercises more than usual, or drinks alcohol without enough food.
+
+---
+
+## Causes of Hypoglycemia
+
+| Cause                          | Why It Lowers Glucose                   |
+| ------------------------------ | --------------------------------------- |
+| Too much insulin or medication | Moves too much glucose out of the blood |
+| Skipped or delayed meal        | Not enough glucose intake               |
+| Increased exercise             | Muscles use more glucose                |
+| Alcohol without food           | Can interfere with glucose regulation   |
+| Poor intake during illness     | Less carbohydrate intake than usual     |
+
+---
+
+## Signs and Symptoms of Hypoglycemia
+
+| Symptom                          | Why It Happens                      |
+| -------------------------------- | ----------------------------------- |
+| Shakiness                        | Sympathetic nervous system response |
+| Sweating                         | Adrenergic response                 |
+| Cool, clammy skin                | Stress response to low glucose      |
+| Hunger                           | Body needs glucose                  |
+| Headache                         | Brain needs glucose                 |
+| Confusion                        | Low glucose to the brain            |
+| Irritability or erratic behavior | Neurologic effect of low glucose    |
+| Weakness                         | Low available energy                |
+| Tachycardia                      | Sympathetic response                |
+
+<div class="danger">
+Confusion, cool clammy skin, erratic behavior, and shakiness are classic ATI cues for <strong>hypoglycemia</strong>.
+</div>
+
+---
+
+## Nursing Focus for Hypoglycemia
+
+The priority is to restore blood glucose safely.
+
+### If the client is awake and able to swallow
+
+* Check blood glucose if possible.
+* Give a fast-acting carbohydrate if glucose is low.
+* Recheck glucose according to facility policy.
+* Follow with a snack or meal if the next meal is not soon.
+
+### If the client is unconscious or cannot swallow
+
+* Do not give oral food or fluids.
+* Follow emergency protocol.
+* Glucagon or IV dextrose may be needed if prescribed.
+
+<div class="nclex">
+Never give oral carbohydrates to a client who is unconscious or unable to swallow because of aspiration risk.
+</div>
+
+---
+
+<h2 class="section-divider small" id="hyperglycemia">Hyperglycemia</h2>
+
+Hyperglycemia means blood glucose is too high.
+
+Hyperglycemia can happen when the client has too little insulin or diabetes medication, eats too many carbohydrates, has infection or illness, experiences stress, or has decreased activity.
+
+---
+
+## Causes of Hyperglycemia
+
+| Cause                        | Why It Raises Glucose                |
+| ---------------------------- | ------------------------------------ |
+| Missed insulin or medication | Not enough glucose moves into cells  |
+| Infection or illness         | Stress hormones raise glucose        |
+| Excess carbohydrate intake   | More glucose enters bloodstream      |
+| Decreased activity           | Less glucose is used by muscles      |
+| Stress                       | Hormones increase glucose production |
+
+---
+
+## Signs and Symptoms of Hyperglycemia
+
+| Symptom            | Why It Happens                            |
+| ------------------ | ----------------------------------------- |
+| Polyuria           | Kidneys try to remove excess glucose      |
+| Polydipsia         | Fluid loss causes thirst                  |
+| Polyphagia         | Cells are not getting glucose effectively |
+| Fatigue            | Cells lack usable energy                  |
+| Blurred vision     | Fluid shifts affect the lens of the eye   |
+| Dry skin           | Dehydration from osmotic diuresis         |
+| Slow wound healing | High glucose impairs healing and immunity |
+
+<div class="note">
+A helpful way to remember: hypoglycemia often looks <strong>cool, clammy, shaky, and confused</strong>. Hyperglycemia often looks <strong>dry, thirsty, tired, and urinating often</strong>.
+</div>
+
+---
+
+## Hyperglycemia and Dehydration
+
+When blood glucose is very high, glucose spills into the urine. Water follows glucose, causing increased urination. This is called osmotic diuresis.
+
+Osmotic diuresis can cause:
+
+* Dehydration
+* Thirst
+* Dry skin
+* Weakness
+* Electrolyte imbalance
+* Hypotension if severe
+
+<div class="danger">
+With severe hyperglycemia, always think about <strong>dehydration</strong> because glucose pulls water into the urine.
+</div>
+
+---
+
+<h2 class="section-divider small" id="diabetic-ketoacidosis">Diabetic Ketoacidosis</h2>
+
+Diabetic ketoacidosis, or DKA, is a serious complication usually associated with type 1 diabetes.
+
+DKA occurs when there is not enough insulin. Without enough insulin, glucose cannot move into the cells. The body thinks it is starving and starts breaking down fat for energy. This produces ketones, which are acidic.
+
+---
+
+## What Is Happening in DKA?
+
+1. Insulin is absent or very low.
+2. Glucose stays in the bloodstream.
+3. Cells cannot use glucose effectively.
+4. The body breaks down fat for energy.
+5. Ketones build up.
+6. Metabolic acidosis develops.
+7. The client becomes dehydrated from osmotic diuresis.
+
+---
+
+## DKA Assessment Cues
+
+| Finding               | Why It Happens                        |
+| --------------------- | ------------------------------------- |
+| Hyperglycemia         | Not enough insulin                    |
+| Ketones               | Fat breakdown                         |
+| Fruity breath         | Ketone buildup                        |
+| Kussmaul respirations | Body tries to compensate for acidosis |
+| Nausea/vomiting       | Acidosis and dehydration              |
+| Abdominal pain        | GI effects of acidosis                |
+| Dehydration           | Osmotic diuresis                      |
+| Altered mental status | Severe dehydration or acidosis        |
+
+<div class="danger">
+In DKA, think <strong>hyperglycemia + ketones + acidosis + dehydration</strong>.
+</div>
+
+---
+
+## DKA Nutrition Connection
+
+During DKA, the immediate priority is not routine nutrition teaching. The priority is stabilization.
+
+However, nutrition and teaching become important after the acute episode.
+
+### Teaching after stabilization
+
+* Do not skip insulin.
+* Monitor glucose as prescribed.
+* Follow sick-day rules.
+* Maintain fluid intake.
+* Check ketones if instructed.
+* Report vomiting, high glucose, or ketones.
+* Understand that illness can increase insulin needs.
+
+---
+
+<h2 class="section-divider small" id="hyperosmolar-hyperglycemic-state">Hyperosmolar Hyperglycemic State</h2>
+
+Hyperosmolar hyperglycemic state, or HHS, is a serious complication usually associated with type 2 diabetes.
+
+HHS involves very high blood glucose and severe dehydration. Unlike DKA, there is little or no ketoacidosis because the client usually has enough insulin to prevent major fat breakdown.
+
+---
+
+## What Is Happening in HHS?
+
+1. The client has some insulin, but not enough to control glucose.
+2. Blood glucose becomes extremely high.
+3. Glucose spills into the urine.
+4. Water follows glucose, causing severe dehydration.
+5. Blood becomes concentrated and hyperosmolar.
+6. Neurologic changes can occur.
+
+---
+
+## HHS Assessment Cues
+
+| Finding                 | Why It Happens                              |
+| ----------------------- | ------------------------------------------- |
+| Very high blood glucose | Severe hyperglycemia                        |
+| Severe dehydration      | Osmotic diuresis                            |
+| Altered mental status   | Hyperosmolar state and dehydration          |
+| Little or no ketones    | Enough insulin prevents major fat breakdown |
+| No significant acidosis | Ketones are not the main problem            |
+
+<div class="danger">
+In HHS, think <strong>type 2 diabetes + very high glucose + severe dehydration + altered mental status</strong>, usually without significant ketones.
+</div>
+
+---
+
+## DKA vs. HHS
+
+| Feature                   | DKA                               | HHS                                  |
+| ------------------------- | --------------------------------- | ------------------------------------ |
+| Most common diabetes type | Type 1                            | Type 2                               |
+| Main problem              | No insulin → ketones and acidosis | Severe hyperglycemia and dehydration |
+| Glucose                   | High                              | Very high                            |
+| Ketones                   | Present                           | Minimal or absent                    |
+| Acidosis                  | Present                           | Usually absent or mild               |
+| Dehydration               | Present                           | Severe                               |
+| Respirations              | Kussmaul respirations possible    | Usually not Kussmaul                 |
+| Mental status changes     | Can occur                         | Common, especially when severe       |
+
+---
+
+<h2 class="section-divider small" id="morning-hyperglycemia-patterns">Morning Hyperglycemia Patterns</h2>
+
+Morning hyperglycemia can occur for different reasons. ATI may test whether you can tell the difference between **Somogyi phenomenon** and **dawn phenomenon**.
+
+Both cause high blood glucose in the morning, but the cause is different.
+
+---
+
+## Somogyi Phenomenon
+
+Somogyi phenomenon is rebound hyperglycemia in the morning caused by hypoglycemia during the night.
+
+The blood glucose drops too low overnight. In response, the body releases hormones that raise blood glucose. By morning, the client wakes up hyperglycemic.
+
+### Somogyi pattern
+
+1. Blood glucose drops too low overnight.
+2. The body releases counterregulatory hormones.
+3. Glucose rebounds too high.
+4. The client wakes up with fasting morning hyperglycemia.
+
+<div class="nclex">
+Somogyi phenomenon is <strong>fasting hyperglycemia in the morning caused by nighttime hypoglycemia</strong>.
+</div>
+
+### Clues that suggest Somogyi
+
+* Morning hyperglycemia
+* Night sweats
+* Headache on waking
+* Restless sleep
+* Nightmares
+* Morning fatigue
+* Low glucose around 2 to 3 AM if checked
+
+---
+
+## Dawn Phenomenon
+
+Dawn phenomenon is morning hyperglycemia caused by early-morning hormone release.
+
+The blood glucose rises in the early morning due to hormonal changes. Unlike Somogyi, the client does not have nighttime hypoglycemia first.
+
+### Dawn pattern
+
+1. Early morning hormones are released.
+2. The liver releases glucose.
+3. Blood glucose rises before breakfast.
+4. There is no preceding nighttime hypoglycemia.
+
+<div class="nclex">
+Dawn phenomenon is <strong>morning hyperglycemia without nighttime hypoglycemia</strong>.
+</div>
+
+---
+
+## Somogyi vs. Dawn Phenomenon
+
+| Feature           | Somogyi Phenomenon                                        | Dawn Phenomenon                   |
+| ----------------- | --------------------------------------------------------- | --------------------------------- |
+| Morning glucose   | High                                                      | High                              |
+| Cause             | Rebound from nighttime hypoglycemia                       | Early morning hormone release     |
+| Overnight glucose | Low around 2 to 3 AM                                      | Normal or high around 2 to 3 AM   |
+| Key clue          | Night sweats, nightmares, headache, hypoglycemia symptoms | No hypoglycemia symptoms          |
+| Main difference   | Low glucose happens first                                 | Low glucose does not happen first |
+
+<div class="note">
+The best way to tell Somogyi from dawn phenomenon is to check a <strong>2 to 3 AM blood glucose</strong> if prescribed.
+</div>
+
+---
+
+<h2 class="section-divider small" id="diabetes-during-illness">Diabetes During Illness</h2>
+
+Illness, infection, and stress can raise blood glucose. This happens because stress hormones increase glucose production and make insulin less effective.
+
+Clients with diabetes need to monitor glucose closely during illness because they are at higher risk for hyperglycemia, dehydration, DKA, and HHS.
+
+---
+
+## Sick-Day Teaching
+
+Clients should be taught to:
+
+* Monitor blood glucose more often as instructed.
+* Continue diabetes medications unless the provider says otherwise.
+* Maintain fluid intake.
+* Try to consume carbohydrates if unable to eat regular meals.
+* Report persistent vomiting.
+* Report moderate or large ketones if instructed to check.
+* Report very high blood glucose.
+* Seek care for signs of dehydration, DKA, or HHS.
+
+<div class="danger">
+Illness can increase the risk for <strong>hyperglycemia, dehydration, DKA, and HHS</strong>.
+</div>
+
+---
+
+<h2 class="section-divider small" id="diabetes-high-yield-review">Diabetes Nutrition: High-Yield Review</h2>
+
+| Topic                  | What ATI Wants You to Remember                                                        |
+| ---------------------- | ------------------------------------------------------------------------------------- |
+| **Type 1 diabetes**    | Little or no insulin production; insulin required; higher DKA risk                    |
+| **Type 2 diabetes**    | Insulin resistance; nutrition/activity improve glucose control                        |
+| **Carbohydrates**      | Most direct effect on glucose; consistency matters                                    |
+| **Glycemic index**     | Baked potato is high glycemic index                                                   |
+| **HbA1c**              | Reflects average glucose over 2 to 3 months; 8.7% is above goal                       |
+| **Hypoglycemia**       | Shaky, sweaty, cool/clammy, confused, erratic behavior                                |
+| **Hyperglycemia**      | Polyuria, polydipsia, polyphagia, dry skin, fatigue                                   |
+| **DKA**                | Type 1; hyperglycemia, ketones, acidosis, fruity breath, Kussmaul respirations        |
+| **HHS**                | Type 2; very high glucose, severe dehydration, altered mental status, minimal ketones |
+| **Somogyi phenomenon** | Morning hyperglycemia caused by nighttime hypoglycemia                                |
+| **Dawn phenomenon**    | Morning hyperglycemia without nighttime hypoglycemia                                  |
+| **Priority action**    | Check blood glucose first when symptoms occur                                         |
