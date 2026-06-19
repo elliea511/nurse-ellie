@@ -615,37 +615,446 @@ General healthy eating focuses on balance, portion control, and nutrient-dense f
 - If the question asks about **severe malnutrition**, prealbumin is usually important.
 - If the question asks about healthy weight loss, choose **0.5 to 1 lb per week**.
 
+## GI Disorders and Diet Therapy
 
-## Nutrition Basics / Foundations: High-Yield Chart
+This section covers ATI-style diet teaching for gastrointestinal disorders. These questions usually focus on what foods the client should avoid, what foods are safe, how to prevent complications, and how to recognize nutrition-related problems.
 
-| Topic | Most Important ATI Info | Exam Clue / What to Pick |
+---
+
+## Celiac Disease / Gluten-Free Diet
+
+Celiac disease is an immune reaction to gluten that damages the small intestine and causes malabsorption.
+
+### Foods That Contain Gluten
+
+Clients with celiac disease should avoid foods containing:
+
+- Wheat
+- Barley
+- Rye
+- Malt
+- Regular flour products
+- Many processed foods unless labeled gluten-free
+
+### Gluten-Free Foods
+
+| Safe Food | ATI Notes |
+|---|---|
+| **Tapioca** | Does not contain gluten. |
+| **Potato flour** | Safe gluten-free flour option. |
+| **Beans and legumes** | Naturally gluten-free and provide fiber. |
+| **Corn** | Naturally gluten-free. |
+| **Quinoa** | Naturally gluten-free. |
+| **Plain rice** | Naturally gluten-free. |
+
+<div class="nclex">
+For celiac disease, ATI may ask which food is safe. Think <strong>tapioca, potato flour, beans, corn, quinoa, and plain rice</strong>.
+</div>
+
+---
+
+## Dumping Syndrome
+
+Dumping syndrome can occur after gastric surgery when food moves too quickly from the stomach into the small intestine. This causes a fluid shift into the intestine and can lead to nausea, cramping, diarrhea, dizziness, and weakness.
+
+### Dumping Syndrome Teaching
+
+| Teaching | Why It Helps |
+|---|---|
+| Eat **small, frequent meals** | Slows gastric emptying and prevents large food volume from entering the intestine quickly. |
+| Drink liquids **between meals** | Helps slow movement of food from the stomach. |
+| Avoid **simple sugars** | Simple sugars make food more hypertonic and worsen fluid shifts. |
+| Avoid **sugar alcohols** | Can worsen symptoms by increasing osmotic effect. |
+| Choose **complex carbohydrates** | Better tolerated than simple carbohydrates. |
+| Eat protein first if post-gastric bypass | Helps meet protein needs and prevent malnutrition. |
+| Lie down after eating | Slows movement of food through the GI system. |
+| Add pectin if recommended | Pectin can delay gastric emptying. |
+
+<div class="danger">
+For dumping syndrome, avoid <strong>simple sugars</strong> and <strong>sugar alcohols</strong>. These increase the hypertonic food mass and worsen fluid shifts.
+</div>
+
+---
+
+## Dumping Syndrome: Foods to Choose vs. Avoid
+
+| Choose / Better Tolerated | Avoid / Limit |
+|---|---|
+| Complex carbohydrates | Simple sugars |
+| Protein foods | Candy, syrup, sweet desserts |
+| Small frequent meals | Large meals |
+| Fluids between meals | Drinking large amounts with meals |
+| Low-fiber grains if directed | High-sugar foods and beverages |
+| Pectin-containing foods if prescribed | Sugar alcohols |
+
+<div class="nclex">
+High-fat foods and high-protein foods are <strong>not</strong> the cause of dumping syndrome. Protein is often encouraged, especially after gastric bypass.
+</div>
+
+---
+
+## Gastric Bypass Nutrition
+
+After gastric bypass, the client is at risk for inadequate intake, dumping syndrome, anemia, dehydration, and vitamin/mineral deficiencies.
+
+### Priority Teaching
+
+| Teaching | ATI Notes |
+|---|---|
+| Begin each meal with **protein** | Helps the client meet protein needs first. |
+| Consume **60 to 120 g protein/day** | Supports healing and prevents muscle loss. |
+| Eat small frequent meals | Prevents intolerance and dumping symptoms. |
+| Avoid simple sugars | Decreases risk of dumping syndrome. |
+| Drink fluids between meals | Prevents overfilling the stomach pouch. |
+| Monitor for anemia | Intake and absorption may be reduced. |
+
+<div class="nclex">
+After gastric bypass, ATI wants you to remember: <strong>protein first</strong> and about <strong>60 to 120 g of protein per day</strong>.
+</div>
+
+---
+
+## Acute Pancreatitis Nutrition
+
+Acute pancreatitis is inflammation of the pancreas. During acute inflammation, pancreatic enzymes can irritate and damage pancreatic tissue.
+
+### Nutrition Concerns
+
+| Concern | Why It Matters |
+|---|---|
+| Decreased insulin production | Can cause increased glucose levels. |
+| Nausea/vomiting | Increases risk for dehydration and electrolyte imbalance. |
+| Severe abdominal pain | May limit oral intake. |
+| Inflammation | Increases metabolic stress. |
+
+### ATI Notes
+
+- The nurse should expect **increased glucose** in acute pancreatitis due to decreased insulin production by the pancreas.
+- Nutrition may be limited during the acute phase depending on provider orders.
+- As the client improves, diet usually progresses gradually.
+
+<div class="danger">
+In acute pancreatitis, watch for <strong>hyperglycemia</strong> because pancreatic inflammation can decrease insulin production.
+</div>
+
+---
+
+## Liver Disease / Cirrhosis Nutrition
+
+Liver disease affects metabolism, protein processing, fluid balance, clotting factors, and nutrient storage.
+
+### Nutrition Concerns With Cirrhosis
+
+| Problem | Nutrition Connection |
+|---|---|
+| Ascites | Often requires sodium restriction and fluid monitoring. |
+| Malnutrition | Common due to poor intake and altered metabolism. |
+| Bleeding risk | Liver produces clotting factors. |
+| Encephalopathy risk | Protein handling may be altered depending on severity. |
+| Fluid retention | Monitor sodium and daily weight. |
+
+### General Teaching
+
+- Avoid alcohol.
+- Follow sodium restriction if ascites or fluid retention is present.
+- Monitor weight and edema.
+- Eat small, frequent meals if early satiety occurs from ascites.
+- Follow provider/dietitian instructions for protein needs.
+
+<div class="note">
+For cirrhosis with ascites, think <strong>sodium restriction</strong>, fluid monitoring, daily weights, and abdominal girth if ordered.
+</div>
+
+---
+
+## Diverticular Disease and Fiber
+
+Diverticular disease involves small pouches in the colon. Nutrition teaching depends on whether the client has diverticulosis or acute diverticulitis.
+
+### Diverticulosis
+
+Diverticulosis means diverticula are present, but not inflamed.
+
+| Teaching | Why |
+|---|---|
+| Increase fiber gradually | Helps prevent constipation and pressure in the colon. |
+| Increase fluids with fiber | Prevents worsening constipation. |
+| Eat fruits, vegetables, and whole grains as tolerated | Adds dietary fiber. |
+
+### Diverticulitis
+
+Diverticulitis means the diverticula are inflamed or infected.
+
+| Teaching | Why |
+|---|---|
+| Low-fiber or low-residue diet during acute flare if prescribed | Decreases bowel stimulation. |
+| Advance diet as inflammation improves | Fiber may be added back gradually after acute symptoms resolve. |
+
+<div class="nclex">
+For diverticular disease, remember the difference: <strong>diverticulosis = high fiber</strong> and <strong>acute diverticulitis = low fiber/low residue if prescribed</strong>.
+</div>
+
+---
+
+## Inflammatory Bowel Disease
+
+Inflammatory bowel disease includes Crohn’s disease and ulcerative colitis. During flares, the bowel is inflamed and may not tolerate high-fiber or difficult-to-digest foods.
+
+### Nutrition Goals
+
+- Decrease bowel irritation during flares.
+- Prevent malnutrition.
+- Maintain hydration.
+- Replace vitamins and minerals if deficient.
+- Support healing.
+
+### Low-Residue Diet
+
+A low-residue diet limits foods that increase stool bulk.
+
+| Low-Residue Diet Focus | Examples / Notes |
+|---|---|
+| Lower fiber intake | Used during flares or bowel inflammation if prescribed. |
+| Avoid raw fruits/vegetables if not tolerated | These can increase stool bulk. |
+| Choose refined grains if prescribed | Easier to digest during flare. |
+| Avoid nuts, seeds, and tough skins if prescribed | Can increase residue. |
+
+<div class="note">
+Low-residue diets are often used when the bowel needs rest, such as with inflammatory bowel disease flares.
+</div>
+
+---
+
+## Crohn’s Disease
+
+Crohn’s disease can affect any part of the GI tract and can cause malabsorption, weight loss, diarrhea, and nutritional deficiencies.
+
+### Nutrition Concerns
+
+| Concern | Why It Matters |
+|---|---|
+| Malabsorption | Nutrients may not be absorbed well. |
+| Diarrhea | Increases risk for dehydration and electrolyte imbalance. |
+| Weight loss | Can indicate poor intake or malabsorption. |
+| Vitamin/mineral deficiencies | May occur with chronic inflammation or bowel surgery. |
+
+### Teaching
+
+- Eat small, frequent meals.
+- Follow low-residue diet during flares if prescribed.
+- Maintain hydration.
+- Avoid foods that worsen symptoms.
+- Monitor weight.
+- Work with a dietitian if intake is poor.
+
+---
+
+## Hydrolyzed or Elemental Formula
+
+Hydrolyzed or elemental formulas provide nutrients in a simpler form that requires little or no digestion.
+
+| Formula Type | Why It May Be Used |
+|---|---|
+| **Hydrolyzed formula** | Protein is partially broken down. Easier to digest. |
+| **Elemental formula** | Nutrients are in simplest form. Requires minimal digestion. |
+
+<div class="nclex">
+Hydrolyzed or elemental formula can be helpful when digestion is impaired, such as with <strong>inflammatory bowel disease</strong>.
+</div>
+
+---
+
+## Irritable Bowel Syndrome
+
+IBS is a functional GI disorder that can cause abdominal pain, bloating, constipation, diarrhea, or alternating bowel patterns.
+
+### IBS Teaching
+
+| Teaching | ATI Notes |
+|---|---|
+| Peppermint oil may help | Relaxes smooth muscle of the GI tract and can decrease symptoms. |
+| Probiotics may help | Can help decrease IBS manifestations. |
+| Avoid high-fructose foods if they trigger symptoms | High fructose can worsen IBS symptoms. |
+| Avoid honey if symptoms worsen | Honey is high in fructose and can be difficult to absorb. |
+
+### Foods That May Worsen IBS
+
+| Food | Why |
+|---|---|
+| Fresh pears | High in fructose. |
+| Honey | High in fructose and difficult to absorb. |
+
+<div class="nclex">
+For IBS, ATI may favor <strong>peppermint oil</strong> and <strong>probiotics</strong>. High-fructose foods like pears and honey can worsen symptoms.
+</div>
+
+---
+
+## Lactose Intolerance
+
+Lactose intolerance occurs when the body does not have enough lactase to digest lactose, the sugar found in milk and dairy products.
+
+### Common Symptoms
+
+- Bloating
+- Abdominal cramping
+- Gas
+- Diarrhea after dairy intake
+
+### Teaching
+
+| Teaching | Why |
+|---|---|
+| Avoid or limit lactose-containing foods | Prevents symptoms. |
+| Use lactose-free milk products | Allows dairy intake without symptoms. |
+| Try lactase enzyme products if appropriate | Helps digest lactose. |
+| Ensure calcium and vitamin D intake | Dairy restriction can reduce calcium/vitamin D intake. |
+
+<div class="note">
+With lactose intolerance, make sure the client still gets enough <strong>calcium</strong> and <strong>vitamin D</strong> from tolerated foods or supplements.
+</div>
+
+---
+
+## Colostomy / Ileostomy Nutrition
+
+Ostomy nutrition depends on the type of ostomy and stool consistency. Ileostomies usually have more liquid output because the colon is bypassed.
+
+### Foods That Thicken Stool
+
+| Food Type | Examples |
+|---|---|
+| Pectin-containing foods | Applesauce, bananas |
+| Starchy foods | Pasta, rice, potatoes |
+| Other thickening foods | Peanut butter, bread, cheese if tolerated |
+
+<div class="nclex">
+ATI noted that clients with ostomies may be taught to consume foods that thicken stool, such as foods containing <strong>pectin</strong>.
+</div>
+
+---
+
+## Ileostomy Teaching
+
+| Teaching | Why |
+|---|---|
+| Eat meals on a schedule | Promotes a more regular elimination pattern. |
+| Increase dietary salt if prescribed | Helps replace sodium lost through ileostomy output. |
+| Increase fluids | Helps prevent dehydration. |
+| Eat stool-thickening foods | Helps manage liquid output. |
+| Monitor for vitamin B12 deficiency | Vitamin B12 may be needed to prevent anemia related to malabsorption. |
+
+<div class="danger">
+Clients with an ileostomy are at increased risk for <strong>fluid and electrolyte loss</strong> because output can be more liquid.
+</div>
+
+---
+
+## Constipation Teaching
+
+Constipation teaching usually focuses on fiber, fluids, activity, and bowel habits.
+
+### Fiber Teaching
+
+| Teaching | Why |
+|---|---|
+| Eat skins on fruits and vegetables | Adds fiber. |
+| Add bran gradually | Prevents gas, bloating, and abdominal discomfort. |
+| Work up to about **3 Tbsp bran/day** | ATI noted this is less than ¼ cup. |
+| Increase fluids as fiber increases | Prevents fiber from worsening constipation. |
+| Replace some meat-based meals with dried peas or beans | Adds fiber. |
+
+<div class="nclex">
+When increasing fiber, also increase <strong>fluid intake</strong> to prevent constipation, abdominal distention, and excessive flatus.
+</div>
+
+---
+
+## Diarrhea Teaching
+
+Diarrhea increases the risk for dehydration, electrolyte imbalance, and skin breakdown.
+
+### Priority Concerns
+
+- Monitor hydration status.
+- Monitor electrolytes.
+- Encourage fluids if not contraindicated.
+- Avoid foods that worsen diarrhea.
+- Monitor weight and intake.
+
+<div class="danger">
+Diarrhea can quickly cause <strong>fluid volume deficit</strong> and <strong>electrolyte imbalance</strong>, especially in older adults, infants, or clients with poor intake.
+</div>
+
+---
+
+## GI Disorders: High-Yield Chart
+
+| Disorder / Topic | Most Important ATI Info | Exam Clue / What to Pick |
 |---|---|---|
-| **Macronutrients** | Carbs, protein, and fat provide energy and support body function. | Protein is usually the focus for healing, infection, wounds, surgery, cancer, pregnancy, COPD, and older adults. |
-| **Complete Protein** | Contains all 9 essential amino acids. | Choose **cottage cheese, eggs, milk, meat, poultry, fish, yogurt, or cheese** when asked for the best protein source. |
-| **Incomplete Protein** | Missing one or more essential amino acids. | Legumes, peanut butter, whole grains, nuts, and seeds are incomplete proteins. |
-| **Increased Protein Needs** | Needed for tissue repair, immune function, muscle strength, and wound healing. | Think **high-protein diet** with wounds, infection, surgery, burns, cancer, COPD, pregnancy, older adults, and malnutrition. |
-| **Fat-Soluble Vitamins** | Vitamins **A, D, E, K** are stored in the body. | Higher risk for toxicity because they are stored. |
-| **Water-Soluble Vitamins** | Vitamins **B-complex and C** are not stored in large amounts. | Excess is usually excreted in urine. |
-| **Vitamin A** | Supports vision, skin, mucous membranes, and immune function. | If the question says **night vision** or adapting to dim light, pick **vitamin A**. |
-| **Lutein** | Supports eye health and can slow progression of age-related macular degeneration. | Found in **kale, spinach, collards, and mustard greens**. |
-| **Vitamin B6** | Helps with heme formation and neurotransmitter synthesis. | Important, but **not** the vitamin for night vision. |
-| **Folate** | Needed for RBC formation and pregnancy/neural tube defect prevention. | **Chicken liver** is very high in folate. Also found in leafy greens, fortified grains, beans, and lentils. |
-| **Vitamin C** | Supports wound healing and improves iron absorption. | Take iron with vitamin C. Avoid citrus if the client has **mucositis** because it can irritate sores. |
-| **Vitamin D** | Helps the body absorb calcium. | Older adults often need supplementation because they synthesize less vitamin D from sunlight. |
-| **Vitamin K** | Needed for clotting. | With **warfarin**, teach **consistent vitamin K intake**, not complete avoidance. |
-| **Calcium** | Supports bones, teeth, nerve transmission, and muscle contraction. | Used for osteoporosis prevention. **½ cup roasted almonds = about 185 mg calcium**. |
-| **Calcium Carbonate** | Calcium supplement that absorbs better with food. | Teach: **take with meals**. |
-| **Magnesium** | Supports nerve, muscle, and cardiac function. | Can become low with **TPN** due to electrolyte shifts into cells. |
-| **Potassium** | Important for cardiac rhythm, muscle function, and fluid balance. | ACE inhibitors can cause **hyperkalemia**. Avoid high-potassium foods like **cantaloupe** if at risk. |
-| **Phosphorus** | Helps form bones and teeth and regulate hormone activity. | Important, but **not** the nutrient for night vision. |
-| **Iron** | Needed for hemoglobin and oxygen-carrying capacity. | Pregnant clients usually need **30 mg iron daily**. Take with vitamin C; liquid iron can stain teeth. |
-| **Albumin** | Can reflect longer-term protein status but is affected by illness, liver disease, kidney disease, inflammation, and fluid status. | Low albumin can suggest poor protein status but is not always just nutrition. |
-| **Prealbumin** | Reflects more recent nutritional changes. | If ATI asks about **severe/recent malnutrition**, think **prealbumin**. |
-| **Protein Deficiency** | Low protein can cause fluid to shift into tissues. | **Lower extremity edema + poor intake/weight loss = protein deficiency/malnutrition**. |
-| **Malnutrition Signs** | Weight loss, poor intake, edema, dry skin, dry conjunctiva, weak hand grasps, paresthesia, poor wound healing. | Look for physical assessment cues, not just weight. |
-| **Fluid Volume Deficit** | Can occur from vomiting, diarrhea, fever, sweating, poor intake, or diuretics. | Cues: dry mucous membranes, poor skin turgor, tachycardia, hypotension, dark urine, decreased urine output. |
-| **Fluid Volume Excess** | Too much fluid retention. | Cues: edema, crackles, shortness of breath, rapid weight gain, hypertension, bounding pulses. |
-| **Vomiting/Diarrhea** | Causes fluid loss and electrolyte imbalance. | Think **fluid volume deficit** first. |
-| **Healthy Weight Loss** | Safe, realistic weight loss is **0.5 to 1 lb per week**. | Avoid rapid weight loss goals because they increase risk for nutritional deficiencies. |
-| **Weight Loss Teaching** | Use a shopping list, eat low-calorie foods first, eat regular meals, control portions, avoid tasting while cooking. | ATI likes practical behavior changes over extreme restriction. |
+| **Celiac disease** | Avoid gluten: wheat, barley, rye, malt. | Safe foods include **tapioca, potato flour, beans, corn, quinoa, and plain rice**. |
+| **Dumping syndrome** | Food moves too quickly into small intestine, causing fluid shift. | Eat small frequent meals, drink liquids between meals, avoid simple sugars and sugar alcohols. |
+| **Gastric bypass** | High risk for inadequate protein and dumping syndrome. | Start meals with **protein**; aim for **60 to 120 g protein/day**. |
+| **Acute pancreatitis** | Pancreatic inflammation can decrease insulin production. | Watch for **increased glucose/hyperglycemia**. |
+| **Cirrhosis/ascites** | Liver disease can cause fluid retention and malnutrition. | Sodium restriction and fluid monitoring may be needed. |
+| **Diverticulosis** | Diverticula are present but not inflamed. | Usually **high-fiber diet** with fluids. |
+| **Diverticulitis** | Diverticula are inflamed/infected. | Low-fiber/low-residue diet during acute flare if prescribed. |
+| **IBD/Crohn’s** | Inflammation can cause diarrhea, malabsorption, and weight loss. | Low-residue during flares if prescribed; monitor hydration and nutrition. |
+| **Elemental formula** | Nutrients are already broken down. | Good for impaired digestion, such as IBD. |
+| **IBS** | Functional bowel disorder with pain, bloating, constipation/diarrhea. | Peppermint oil and probiotics may help; avoid high-fructose triggers. |
+| **Lactose intolerance** | Lactase deficiency causes GI symptoms after dairy. | Use lactose-free foods and maintain calcium/vitamin D intake. |
+| **Colostomy/ileostomy** | Output consistency matters. | Pectin, pasta, and starchy foods can thicken stool. |
+| **Ileostomy** | Higher risk for fluid/electrolyte loss. | Increase fluids, salt if prescribed, and monitor B12. |
+| **Constipation** | Fiber helps, but must be increased gradually. | Increase fluids with fiber; add bran gradually. |
+| **Diarrhea** | Causes fluid/electrolyte loss. | Priority is hydration and electrolyte monitoring. |
+
+---
+
+## Priority Cues to Recognize
+
+### Think Celiac Disease If the Question Mentions:
+
+- Gluten-free diet
+- Chronic diarrhea
+- Malabsorption
+- Wheat, barley, rye, or malt
+- Safe foods like tapioca, potato flour, corn, quinoa, rice, beans
+
+### Think Dumping Syndrome If the Question Mentions:
+
+- History of gastrectomy or gastric bypass
+- Nausea, cramping, diarrhea after meals
+- Dizziness or weakness after eating
+- Simple sugars
+- Drinking fluids with meals
+
+### Think Ileostomy Fluid Loss If the Question Mentions:
+
+- Liquid stool output
+- Dehydration
+- Electrolyte imbalance
+- Need for increased fluids
+- Need for increased salt intake if prescribed
+
+### Think Low-Residue Diet If the Question Mentions:
+
+- IBD flare
+- Crohn’s flare
+- Bowel inflammation
+- Need to decrease stool bulk
+
+---
+
+## Test-Taking Tips
+
+- If the client has **celiac disease**, choose naturally gluten-free foods like **tapioca, potato flour, corn, quinoa, rice, and beans**.
+- If the client has **dumping syndrome**, avoid **simple sugars** and drink fluids **between meals**.
+- If the client had **gastric bypass**, think **protein first**.
+- If the client has **acute pancreatitis**, watch for **hyperglycemia**.
+- If the client has **diverticulosis**, think **high fiber**.
+- If the client has **acute diverticulitis**, think **low fiber/low residue** if prescribed.
+- If the client has **IBS**, avoid high-fructose triggers like **pears and honey**.
+- If the client has an **ileostomy**, watch for **fluid and electrolyte loss**.
+- If the client is increasing **fiber**, they must also increase **fluids**.
+
 
