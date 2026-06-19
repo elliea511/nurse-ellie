@@ -149,6 +149,41 @@ In ATI questions, if the client has infection, wounds, poor healing, cancer, COP
 </div>
 
 ---
+<h2 class="section-divider small" id="braden-scale-nutrition-scoring">Braden Scale: Nutrition Scoring</h2>
+
+The Braden Scale helps assess a client’s risk for pressure injury development. One part of the Braden Scale is the **nutrition** category.
+
+The nutrition score is based on the client’s usual pattern of food intake, protein intake, supplement use, and whether nutrition needs are being met.
+
+<div class="nclex">
+ATI may give a short meal-intake description and ask how the client scores in the <strong>nutrition</strong> category of the Braden Scale.
+</div>
+
+---
+
+## Braden Nutrition Scoring
+
+| Score | Category                | What It Means                     | ATI Clues                                                                                                                                   |
+| ----- | ----------------------- | --------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
+| **1** | **Very Poor**           | Intake is severely inadequate.    | Rarely eats a complete meal; eats only bites of food; poor fluid intake; may be NPO or on clear liquids without adequate nutrition support. |
+| **2** | **Probably Inadequate** | Intake is less than needed.       | Eats only about half of meals; protein intake is limited; occasionally takes supplements; tube feeding/TPN may not meet needs.              |
+| **3** | **Adequate**            | Intake usually meets basic needs. | Eats more than half of most meals; occasionally refuses a meal; usually gets enough protein servings; tube feeding/TPN meets most needs.    |
+| **4** | **Excellent**           | Intake is consistently strong.    | Eats most or all meals; rarely or never refuses meals; gets regular protein servings; does not need supplements to meet needs.              |
+
+---
+
+## Quick Way to Remember
+
+| Intake Pattern                                 | Likely Score                |
+| ---------------------------------------------- | --------------------------- |
+| Eats only bites or very little                 | **1 — Very Poor**           |
+| Eats about half of meals                       | **2 — Probably Inadequate** |
+| Eats more than half of most meals with protein | **3 — Adequate**            |
+| Eats almost all meals and never refuses        | **4 — Excellent**           |
+
+<div class="danger">
+Do not score based on one meal only. Braden nutrition scoring is based on the client’s <strong>usual intake pattern</strong>.
+</div>
 
 ## Fat
 
@@ -1685,3 +1720,986 @@ Illness can increase the risk for <strong>hyperglycemia, dehydration, DKA, and H
 | **Somogyi phenomenon** | Morning hyperglycemia caused by nighttime hypoglycemia                                |
 | **Dawn phenomenon**    | Morning hyperglycemia without nighttime hypoglycemia                                  |
 | **Priority action**    | Check blood glucose first when symptoms occur                                         |
+
+<h2 class="section-divider" id="cardiovascular-and-renal-nutrition">Cardiovascular and Renal Nutrition</h2>
+
+Cardiovascular and renal nutrition are connected because both systems are affected by **fluid balance, sodium, potassium, blood pressure, and overall diet quality**.
+
+ATI questions in this section usually test whether the nurse can recognize foods that affect **blood pressure, cholesterol, fluid retention, electrolyte balance, kidney function, and medication safety**.
+
+---
+
+## Cardiovascular and Renal Nutrition: Big Picture
+
+The heart and kidneys work closely together. The heart pumps blood throughout the body, and the kidneys help regulate fluid volume, sodium, potassium, blood pressure, and waste removal.
+
+When nutrition is not managed well, clients can develop worsening hypertension, fluid overload, electrolyte imbalance, or increased cardiovascular risk.
+
+| Topic                            | Why Nutrition Matters                                                             |
+| -------------------------------- | --------------------------------------------------------------------------------- |
+| **Hypertension**                 | Sodium and fluid retention can increase blood pressure.                           |
+| **Cardiovascular disease**       | Saturated fat, excess sodium, and excess calories can worsen risk.                |
+| **Hyperlipidemia**               | Fat choices affect LDL, triglycerides, and cholesterol levels.                    |
+| **CKD**                          | The kidneys may not regulate fluid, potassium, sodium, phosphorus, or waste well. |
+| **Kidney stones**                | Fluids and diet can affect stone formation.                                       |
+| **Medication-food interactions** | Some foods can interfere with cardiovascular and renal medications.               |
+
+<div class="nclex">
+For ATI, cardiovascular and renal nutrition questions usually come down to this: <strong>control sodium, protect the heart, protect the kidneys, and watch potassium.</strong>
+</div>
+
+---
+
+<h2 class="section-divider small" id="heart-healthy-nutrition">Heart-Healthy Nutrition</h2>
+
+Heart-healthy nutrition focuses on reducing strain on the cardiovascular system. The goal is to lower blood pressure, improve lipid levels, decrease fluid retention when present, and reduce long-term risk for heart disease.
+
+A heart-healthy diet usually emphasizes:
+
+* Fruits and vegetables as appropriate
+* Whole grains as appropriate
+* Lean proteins
+* Plant-based proteins
+* Low-fat dairy if tolerated
+* Healthy fats in appropriate portions
+* Less sodium
+* Less saturated fat
+* Minimal trans fat
+* Fewer high-calorie foods and beverages
+
+---
+
+## Sodium and Blood Pressure
+
+Sodium causes the body to hold onto water. When the body retains more fluid, blood volume can increase. This can increase blood pressure and place more workload on the heart.
+
+Sodium restriction is especially important for clients with:
+
+* Hypertension
+* Heart failure
+* Cardiovascular disease
+* Chronic kidney disease
+* Fluid retention
+* Edema
+* Ascites
+
+| Sodium Teaching                        | Why It Matters                                              |
+| -------------------------------------- | ----------------------------------------------------------- |
+| Avoid adding salt at the table         | Decreases daily sodium intake.                              |
+| Read nutrition labels                  | Sodium is often hidden in packaged foods.                   |
+| Limit canned soups and processed meats | These are often high in sodium.                             |
+| Choose fresh foods when possible       | Fresh foods are usually lower in sodium.                    |
+| Use herbs and spices if allowed        | Adds flavor without salt.                                   |
+| Avoid high-sodium convenience foods    | Frozen meals and packaged foods can be very high in sodium. |
+
+<div class="nclex">
+ATI noted that the greatest decreases in blood pressure are seen when sodium intake is about <strong>1,500 mg/day or less</strong>.
+</div>
+
+---
+
+## Salt Substitutes
+
+Salt substitutes can be risky because many contain potassium instead of sodium.
+
+This matters because some clients cannot safely handle extra potassium, especially clients with kidney disease or clients taking medications that increase potassium.
+
+<div class="danger">
+Low-sodium salt substitutes are <strong>not always sodium-free</strong> and may contain potassium. Use caution with CKD or medications that increase potassium.
+</div>
+
+---
+
+## Potassium and Blood Pressure
+
+Potassium can help lower blood pressure for some clients because it helps balance sodium’s effects. However, potassium is not automatically safe for every client.
+
+Potassium can become dangerous when the kidneys cannot remove it or when medications cause potassium retention.
+
+### High-potassium foods include:
+
+* Bananas
+* Cantaloupe
+* Oranges/orange juice
+* Potatoes
+* Tomatoes
+* Spinach
+* Dried fruits
+
+<div class="note">
+Potassium may support blood pressure control in some clients, but clients with CKD or hyperkalemia risk may need to limit potassium.
+</div>
+
+---
+
+<h2 class="section-divider small" id="cholesterol-and-fat-teaching">Cholesterol and Fat Teaching</h2>
+
+Cardiovascular disease nutrition often focuses on improving cholesterol and triglyceride levels.
+
+The goal is not to remove all fat. The goal is to choose healthier fats and limit fats that increase cardiovascular risk.
+
+---
+
+## Saturated Fat
+
+Saturated fat can raise LDL cholesterol. LDL is often called “bad cholesterol” because high levels can contribute to plaque buildup in blood vessels.
+
+### Foods often high in saturated fat
+
+* Fatty meats
+* Sausage
+* Bacon
+* Full-fat dairy
+* Butter
+* Cream sauces
+* High-fat cheese
+* Some baked goods
+
+### Teaching
+
+* Choose lean meats.
+* Choose lower-fat dairy.
+* Limit butter and cream sauces.
+* Choose baked, grilled, or broiled foods instead of fried foods.
+* Compare food labels for saturated fat.
+
+---
+
+## Trans Fat
+
+Trans fat should be avoided as much as possible because it increases cardiovascular risk.
+
+Clients should check labels for:
+
+* Partially hydrogenated oils
+* Packaged baked goods
+* Some fried foods
+* Some processed snack foods
+
+---
+
+## Unsaturated Fats
+
+Unsaturated fats are generally more heart-friendly when eaten in appropriate portions.
+
+Examples include:
+
+* Olive oil
+* Canola oil
+* Avocado
+* Nuts
+* Seeds
+* Fatty fish
+
+<div class="note">
+Heart-healthy does not mean fat-free. It means choosing the right kind of fat in appropriate amounts.
+</div>
+
+---
+
+## Lower-Fat Food Choices ATI May Test
+
+ATI may ask which food choice shows understanding of cardiovascular diet teaching.
+
+| Instead of This                | Better Choice                                               |
+| ------------------------------ | ----------------------------------------------------------- |
+| High-fat cheese                | Cheese with **3 g fat or less per serving**                 |
+| Higher-saturated-fat margarine | Margarine with **2 g saturated fat or less per tablespoon** |
+| Fatty ground beef              | Ground beef that is **at least 90% lean**                   |
+| Refried beans                  | Canned pinto beans                                          |
+| Pasta with white sauce         | Pasta with red sauce                                        |
+| Sausage                        | Canadian bacon or another lower-fat meat                    |
+| Sweetened fruit yogurt         | Plain fat-free yogurt with fresh fruit                      |
+
+<div class="nclex">
+ATI may test heart-healthy choices by asking which food is lower in saturated fat, total fat, or added sugar.
+</div>
+
+---
+
+## Plant-Based Protein and Heart Health
+
+Plant-based proteins can support heart health because they often contain less saturated fat than animal proteins.
+
+Examples include:
+
+* Beans
+* Lentils
+* Peas
+* Nuts
+* Seeds
+* Soy products
+
+Replacing high-fat animal proteins with plant-based proteins can help lower cholesterol and reduce cardiovascular workload.
+
+<div class="nclex">
+ATI noted that <strong>plant-based protein</strong> can help lower cholesterol, which reduces the workload of the heart.
+</div>
+
+---
+
+## Niacin
+
+Niacin is a B vitamin that can be used to help improve lipid levels.
+
+| Nutrient / Medication | ATI Connection                                 |
+| --------------------- | ---------------------------------------------- |
+| **Niacin**            | Helps lower LDL cholesterol and triglycerides. |
+
+<div class="note">
+ATI connected niacin with lowering <strong>LDL cholesterol</strong> and <strong>triglycerides</strong>.
+</div>
+
+---
+
+## Exercise and Cardiovascular Risk
+
+Exercise supports heart health by helping with weight management, blood pressure control, blood glucose control, lipid improvement, and overall cardiovascular function.
+
+General teaching often includes moderate-intensity exercise if the client is cleared by the provider.
+
+<div class="nclex">
+ATI noted that clients should engage in at least <strong>150 minutes of moderate-intensity exercise each week</strong> to reduce obesity-related cancer and cardiovascular risk.
+</div>
+
+---
+
+## Vitamin Supplements and Cardiovascular Disease
+
+Vitamin supplements do not replace a balanced diet. A client who eats a well-planned diet does not automatically need supplements unless a deficiency or specific need is present.
+
+<div class="note">
+ATI noted that multivitamin supplements do <strong>not</strong> decrease or prevent cardiovascular disease when the diet is otherwise balanced.
+</div>
+
+---
+
+<h2 class="section-divider small" id="medication-food-interactions">Medication and Food Interactions</h2>
+
+Cardiovascular and renal nutrition questions often include medication-food interactions. These are high-yield because the wrong food choice can cause serious complications.
+
+---
+
+## Warfarin and Vitamin K
+
+Warfarin is an anticoagulant. It works by interfering with vitamin K-dependent clotting factors.
+
+Vitamin K is needed for normal clotting. This does not mean the client must avoid all vitamin K foods. The key teaching is consistency.
+
+### High-vitamin K foods include:
+
+* Kale
+* Spinach
+* Collard greens
+* Broccoli
+* Brussels sprouts
+* Other leafy green vegetables
+
+### Warfarin teaching
+
+* Keep vitamin K intake consistent.
+* Do not suddenly increase or decrease leafy greens.
+* Do not avoid all vitamin K unless specifically instructed.
+* Report major diet changes.
+* Monitor INR as prescribed.
+
+<div class="nclex">
+For warfarin, ATI wants <strong>consistent vitamin K intake</strong>, not complete avoidance of vitamin K foods.
+</div>
+
+---
+
+## ACE Inhibitors and Potassium
+
+ACE inhibitors can cause potassium retention, which may lead to hyperkalemia.
+
+Examples include:
+
+* Captopril
+* Enalapril
+* Lisinopril
+
+Because potassium affects cardiac rhythm, hyperkalemia can become dangerous.
+
+### High-potassium foods to watch
+
+* Bananas
+* Cantaloupe
+* Oranges/orange juice
+* Potatoes
+* Tomatoes
+* Spinach
+* Dried fruits
+
+<div class="danger">
+ACE inhibitors, such as captopril, can retain potassium and cause <strong>hyperkalemia</strong>. ATI specifically noted <strong>cantaloupe</strong> as a high-potassium food.
+</div>
+
+---
+
+## Hyperkalemia Safety
+
+Hyperkalemia means potassium is too high. Because potassium affects the heart, abnormal potassium levels can cause dysrhythmias.
+
+### Cues that may suggest potassium problems
+
+* Muscle weakness
+* Paresthesia
+* Nausea
+* Palpitations
+* Dysrhythmias
+* ECG changes
+
+<div class="danger">
+When potassium is abnormal, think <strong>cardiac rhythm risk</strong>.
+</div>
+
+---
+
+## MAOIs and Tyramine
+
+Monoamine oxidase inhibitors, or MAOIs, can interact with tyramine-containing foods and cause hypertensive crisis.
+
+Tyramine is found in many aged, cured, fermented, or pickled foods.
+
+### Foods high in tyramine
+
+* Aged cheeses
+* Cured meats
+* Fermented foods
+* Some pickled foods
+* Certain alcoholic beverages if applicable
+
+<div class="danger">
+ATI noted that clients taking MAOIs should avoid most types of <strong>cheese</strong> and other high-tyramine foods because they can trigger <strong>hypertensive crisis</strong>.
+</div>
+
+---
+
+<h2 class="section-divider small" id="chronic-kidney-disease-nutrition">Chronic Kidney Disease Nutrition</h2>
+
+Chronic kidney disease affects the body’s ability to regulate fluid, electrolytes, acid-base balance, blood pressure, and waste products.
+
+Nutrition teaching for CKD depends on:
+
+* Kidney function
+* Serum potassium
+* Serum phosphorus
+* Sodium needs
+* Fluid status
+* Dialysis status
+* Protein needs
+* Provider/dietitian prescription
+
+<div class="nclex">
+For CKD, never assume every client needs the same diet. Look at <strong>potassium, phosphorus, sodium, fluid status, and dialysis status</strong>.
+</div>
+
+---
+
+## What the Kidneys Normally Regulate
+
+| Kidney Function    | Nutrition Connection                                                   |
+| ------------------ | ---------------------------------------------------------------------- |
+| Fluid balance      | May need fluid restriction if retaining fluid.                         |
+| Sodium balance     | Sodium restriction may help control BP and fluid retention.            |
+| Potassium balance  | Potassium may need restriction if levels are high.                     |
+| Phosphorus balance | Phosphorus may need restriction if levels are high.                    |
+| Waste removal      | Protein recommendations depend on kidney function and dialysis status. |
+
+---
+
+## Sodium in CKD
+
+Sodium restriction is common in CKD because excess sodium can worsen hypertension and fluid retention.
+
+### Teaching
+
+* Avoid adding salt to food.
+* Limit processed foods.
+* Read nutrition labels.
+* Avoid high-sodium canned soups, deli meats, and packaged meals.
+* Use herbs and spices instead of salt if allowed.
+* Be cautious with salt substitutes.
+
+<div class="danger">
+Salt substitutes can contain potassium, which may be unsafe for clients with CKD or clients at risk for hyperkalemia.
+</div>
+
+---
+
+## Potassium in CKD
+
+Potassium needs depend on serum potassium and kidney function.
+
+If the kidneys cannot remove potassium well, potassium can build up in the blood. This can cause cardiac problems.
+
+### If potassium is high, limit foods such as:
+
+* Bananas
+* Cantaloupe
+* Oranges/orange juice
+* Potatoes
+* Tomatoes
+* Spinach
+* Dried fruits
+
+<div class="note">
+Potassium can help lower blood pressure in some clients, but in CKD or hyperkalemia risk, potassium may need to be restricted.
+</div>
+
+---
+
+## Phosphorus in CKD
+
+Phosphorus can build up when kidney function declines. High phosphorus can contribute to bone problems because calcium and phosphorus balance are connected.
+
+### Foods often high in phosphorus
+
+* Dairy products
+* Nuts and seeds
+* Cola drinks
+* Organ meats
+* Processed foods with phosphate additives
+
+<div class="note">
+If ATI mentions CKD with high phosphorus, think about limiting phosphorus and watching bone/mineral balance.
+</div>
+
+---
+
+## Protein in CKD
+
+Protein needs in CKD depend on whether the client is receiving dialysis.
+
+Protein breaks down into waste products that the kidneys help remove. Before dialysis, some clients may need protein restriction if prescribed. Once a client is on dialysis, protein needs are often higher because dialysis removes some protein.
+
+| CKD Situation            | Protein Teaching                                   |
+| ------------------------ | -------------------------------------------------- |
+| CKD not on dialysis      | Protein may be limited if prescribed.              |
+| Dialysis                 | Protein needs are often higher.                    |
+| Wounds or poor nutrition | Protein needs must be balanced with kidney status. |
+
+<div class="nclex">
+Do not automatically choose “high protein” or “low protein” for CKD. ATI questions usually give clues like <strong>dialysis, lab values, wound healing, or provider prescription</strong>.
+</div>
+
+---
+
+## Fluid in CKD
+
+Fluid needs depend on urine output, edema, blood pressure, and dialysis status.
+
+Some clients with CKD retain fluid and may need fluid restriction. Others may not.
+
+### Fluid overload cues
+
+* Rapid weight gain
+* Edema
+* Crackles
+* Shortness of breath
+* Hypertension
+* Decreased urine output
+
+<div class="danger">
+In CKD, rapid weight gain, edema, and crackles can indicate <strong>fluid overload</strong>.
+</div>
+
+---
+
+## Whole Grains and CKD
+
+Whole grains are generally part of a heart-healthy diet because they provide fiber and may support cardiovascular health.
+
+However, clients with CKD may need individualized grain choices depending on phosphorus and potassium levels.
+
+<div class="note">
+ATI noted that whole grains can support cardiovascular health, but CKD teaching still depends on labs and the prescribed diet plan.
+</div>
+
+---
+
+<h2 class="section-divider small" id="kidney-stones-nutrition">Kidney Stones / Nephrolithiasis Nutrition</h2>
+
+Kidney stones form when minerals or other substances crystallize in the urinary tract.
+
+Diet teaching depends on the type of stone, but general teaching often focuses on hydration and reducing urinary concentration.
+
+---
+
+## General Kidney Stone Teaching
+
+| Teaching                                           | Why It Helps                                                 |
+| -------------------------------------------------- | ------------------------------------------------------------ |
+| Increase fluid intake if not contraindicated       | Dilutes urine and reduces stone formation.                   |
+| Follow diet based on stone type                    | Different stones have different restrictions.                |
+| Avoid excessive sodium                             | High sodium can increase calcium excretion in urine.         |
+| Avoid excessive animal protein if prescribed       | Can increase risk for some stone types.                      |
+| Do not severely restrict calcium unless prescribed | Low calcium can increase oxalate absorption in some clients. |
+
+<div class="nclex">
+For nephrolithiasis, the safest general teaching is often <strong>increase fluids</strong> unless contraindicated.
+</div>
+
+---
+
+## Calcium Oxalate Stones
+
+Calcium oxalate stones are common. Teaching may include limiting high-oxalate foods if prescribed while maintaining appropriate calcium intake.
+
+### High-oxalate foods may include:
+
+* Spinach
+* Rhubarb
+* Beets
+* Nuts
+* Chocolate
+* Tea
+
+<div class="note">
+Do not automatically eliminate all calcium for calcium oxalate stones. The provider/dietitian plan matters.
+</div>
+
+---
+
+<h2 class="section-divider small" id="alcohol-teaching">Alcohol Teaching</h2>
+
+Alcohol teaching should be individualized based on the client’s condition, medications, liver function, and safety risks.
+
+For general cardiovascular teaching, alcohol intake should be limited if consumed at all.
+
+### General moderation teaching
+
+* Up to 1 drink/day for female clients
+* Up to 2 drinks/day for male clients
+
+<div class="note">
+ATI noted that alcohol should be consumed in moderation, if at all.
+</div>
+
+---
+
+<h2 class="section-divider small" id="cardiovascular-and-renal-high-yield-review">Cardiovascular and Renal Nutrition: High-Yield Review</h2>
+
+| Topic                      | What ATI Wants You to Remember                                                                    |
+| -------------------------- | ------------------------------------------------------------------------------------------------- |
+| **Hypertension**           | Sodium restriction helps lower blood pressure; ATI noted 1,500 mg/day as a major BP-lowering goal |
+| **Salt substitutes**       | May contain potassium; use caution with CKD or ACE inhibitors                                     |
+| **Plant-based protein**    | Can help lower cholesterol and reduce heart workload                                              |
+| **Saturated fat**          | Limit to reduce LDL cholesterol                                                                   |
+| **Trans fat**              | Avoid as much as possible                                                                         |
+| **Niacin**                 | Helps lower LDL cholesterol and triglycerides                                                     |
+| **Multivitamins**          | Do not prevent cardiovascular disease when diet is otherwise balanced                             |
+| **Exercise**               | 150 minutes moderate-intensity exercise weekly supports heart health                              |
+| **Warfarin**               | Keep vitamin K intake consistent                                                                  |
+| **ACE inhibitors**         | Can cause potassium retention; cantaloupe is high potassium                                       |
+| **MAOIs**                  | Avoid tyramine foods like aged cheese to prevent hypertensive crisis                              |
+| **CKD**                    | Diet depends on potassium, phosphorus, sodium, fluid status, and dialysis status                  |
+| **CKD sodium**             | Restrict sodium if prescribed to reduce fluid retention and hypertension                          |
+| **CKD potassium**          | Restrict potassium if serum potassium is high                                                     |
+| **CKD phosphorus**         | Restrict phosphorus if serum phosphorus is high                                                   |
+| **CKD protein**            | Protein needs depend on dialysis and provider order                                               |
+| **Kidney stones**          | Increase fluids if not contraindicated                                                            |
+| **Calcium oxalate stones** | May limit oxalate foods if prescribed; do not automatically remove all calcium                    |
+
+<h2 class="section-divider" id="respiratory-and-neurologic-nutrition">Respiratory and Neurologic Nutrition</h2>
+
+Respiratory and neurologic nutrition questions on ATI usually focus on **increased calorie needs, swallowing safety, aspiration prevention, fatigue with eating, and disease-related nutrition problems**.
+
+These conditions can make eating harder because the client may have shortness of breath, muscle rigidity, tremors, difficulty swallowing, weakness, or decreased coordination.
+
+---
+
+## Respiratory and Neurologic Nutrition: Big Picture
+
+Respiratory and neurologic disorders can affect nutrition in different ways.
+
+Respiratory disorders can increase the work of breathing. When the body works harder to breathe, it uses more calories. Neurologic disorders can interfere with chewing, swallowing, movement, coordination, and meal independence.
+
+| Condition / Issue       | Nutrition Problem                                   | Nursing Focus                                                    |
+| ----------------------- | --------------------------------------------------- | ---------------------------------------------------------------- |
+| **COPD**                | Increased work of breathing increases calorie needs | High-calorie, high-protein nutrition; prevent fatigue with meals |
+| **Pulmonary disease**   | Eating can increase shortness of breath             | Small frequent meals and rest periods                            |
+| **Parkinson’s disease** | Muscle rigidity and tremors increase energy needs   | High-calorie intake and safe swallowing                          |
+| **Dysphagia**           | Difficulty swallowing increases aspiration risk     | Positioning, food texture, slow feeding, swallow precautions     |
+| **Aspiration risk**     | Food or fluid can enter airway                      | Upright positioning and safe swallowing techniques               |
+| **Weakness/fatigue**    | Client may not finish meals                         | Energy conservation and nutrient-dense foods                     |
+
+<div class="nclex">
+For ATI, respiratory and neurologic nutrition questions often ask: <strong>Can the client safely swallow, and are they getting enough calories and protein?</strong>
+</div>
+
+---
+
+<h2 class="section-divider small" id="copd-and-pulmonary-nutrition">COPD and Pulmonary Nutrition</h2>
+
+COPD can increase nutritional needs because the client has to work harder to breathe. Breathing uses energy, and clients with COPD may burn more calories than expected.
+
+At the same time, eating can make breathing feel harder. A full stomach can push upward on the diaphragm, and chewing can increase fatigue. This means clients with COPD may lose weight, become weak, or develop poor intake.
+
+---
+
+## Why Nutrition Matters in COPD
+
+Clients with COPD may have:
+
+* Increased work of breathing
+* Increased calorie needs
+* Fatigue while eating
+* Shortness of breath during meals
+* Poor appetite
+* Weight loss
+* Muscle wasting
+* Increased protein needs
+
+Poor nutrition can make respiratory problems worse because the respiratory muscles need strength and energy to work effectively.
+
+<div class="danger">
+A client with COPD who is losing weight or becoming weak may need <strong>more calories and protein</strong>, not fewer.
+</div>
+
+---
+
+## COPD Diet Teaching
+
+Nutrition teaching for COPD focuses on helping the client eat enough without increasing shortness of breath.
+
+### Teaching points
+
+* Eat small, frequent meals.
+* Rest before meals.
+* Choose nutrient-dense foods.
+* Eat high-calorie, high-protein foods if underweight or losing weight.
+* Avoid large meals that cause abdominal fullness.
+* Use bronchodilators before meals if prescribed.
+* Choose foods that are easy to chew.
+* Drink fluids between meals if fullness is a problem.
+* Maintain oral care to improve comfort and appetite.
+
+<div class="nclex">
+For COPD nutrition, think <strong>small frequent meals</strong> and <strong>high-calorie, high-protein foods</strong> when intake or weight is poor.
+</div>
+
+---
+
+## Pulmonary Nutrition Formulas
+
+Some pulmonary formulas are designed to be high in calories and protein, lower to moderate in carbohydrates, and higher in fat.
+
+This matters because metabolism of carbohydrates produces more carbon dioxide than fat metabolism. A lower-carbohydrate, higher-fat formula may help reduce carbon dioxide production in some clients with chronic respiratory disease.
+
+| Formula Feature                  | Why It May Help                                        |
+| -------------------------------- | ------------------------------------------------------ |
+| **High calorie**                 | Helps meet increased energy needs                      |
+| **High protein**                 | Supports respiratory muscle strength and tissue repair |
+| **Low to moderate carbohydrate** | May help reduce carbon dioxide production              |
+| **Higher fat**                   | Provides concentrated calories                         |
+
+<div class="nclex">
+ATI connected COPD nutrition with a pulmonary formula that is <strong>high-calorie, high-protein, low-to-moderate carbohydrate, and higher fat</strong>.
+</div>
+
+---
+
+## Foods That May Worsen Breathing Discomfort
+
+Some foods can increase bloating or fullness, which can make breathing feel harder.
+
+Clients may need to limit foods that cause excessive gas or abdominal distention if these worsen symptoms.
+
+Examples may include:
+
+* Carbonated beverages
+* Large meals
+* Gas-producing foods if poorly tolerated
+* Very heavy meals
+* Foods that require excessive chewing when the client is fatigued
+
+<div class="note">
+The goal is not to create unnecessary restrictions. The goal is to help the client eat enough while minimizing fatigue and shortness of breath.
+</div>
+
+---
+
+<h2 class="section-divider small" id="parkinsons-disease-nutrition">Parkinson’s Disease Nutrition</h2>
+
+Parkinson’s disease is a progressive neurologic disorder that affects movement. Clients can have tremors, muscle rigidity, slowed movement, difficulty chewing or swallowing, constipation, and increased energy needs.
+
+ATI specifically connects Parkinson’s disease with increased nutritional needs when muscle rigidity increases the metabolic rate.
+
+---
+
+## Why Nutrition Matters in Parkinson’s Disease
+
+Clients with Parkinson’s disease may have difficulty meeting nutrition needs because of:
+
+* Tremors
+* Muscle rigidity
+* Difficulty chewing
+* Difficulty swallowing
+* Fatigue
+* Slow movement
+* Constipation
+* Decreased independence with meals
+* Medication timing issues
+* Increased calorie needs from constant muscle activity
+
+<div class="nclex">
+ATI noted that clients with Parkinson’s disease may need <strong>high-calorie foods</strong> because muscular rigidity can increase metabolic rate.
+</div>
+
+---
+
+## Parkinson’s Disease Diet Teaching
+
+Nutrition teaching depends on symptoms, swallowing ability, weight trends, and medication schedule.
+
+### Teaching points
+
+* Encourage high-calorie foods if weight loss or increased metabolic needs are present.
+* Encourage high-protein foods if protein needs are increased, while following medication instructions if protein timing matters.
+* Offer small, frequent meals if fatigue occurs.
+* Provide foods that are easy to chew and swallow.
+* Allow extra time for meals.
+* Use adaptive utensils if needed.
+* Encourage fluids and fiber for constipation if appropriate.
+* Monitor for dysphagia and aspiration risk.
+
+<div class="note">
+Parkinson’s nutrition is not just about calories. The nurse must also watch for <strong>safe swallowing, constipation, fatigue, and meal independence</strong>.
+</div>
+
+---
+
+## Constipation in Parkinson’s Disease
+
+Constipation is common in Parkinson’s disease because of slowed GI motility, decreased activity, medications, and reduced fluid intake.
+
+### Teaching for constipation
+
+* Increase fluids if not contraindicated.
+* Increase fiber gradually if appropriate.
+* Encourage activity as tolerated.
+* Establish a regular bowel routine.
+* Monitor for abdominal distention or discomfort.
+* Use stool softeners or laxatives only as prescribed.
+
+<div class="nclex">
+If fiber is increased, fluids should also increase. Fiber without fluid can worsen constipation.
+</div>
+
+---
+
+<h2 class="section-divider small" id="dysphagia-and-aspiration-precautions">Dysphagia and Aspiration Precautions</h2>
+
+Dysphagia means difficulty swallowing. It can occur after stroke, with neurologic disease, with weakness, or with conditions that affect muscles and coordination.
+
+Dysphagia is dangerous because food, fluid, or saliva can enter the airway. This is called aspiration. Aspiration can lead to pneumonia, airway obstruction, or respiratory distress.
+
+---
+
+## Aspiration Risk: What to Watch For
+
+The nurse should monitor for signs that the client is not swallowing safely.
+
+### Signs of aspiration risk
+
+* Coughing during meals
+* Choking
+* Wet or gurgly voice after swallowing
+* Drooling
+* Pocketing food in the cheeks
+* Difficulty chewing
+* Taking a long time to swallow
+* Recurrent pneumonia
+* Watery eyes during meals
+* Throat clearing after swallowing
+
+<div class="danger">
+A wet voice, coughing with meals, or pocketing food can mean the client is at risk for <strong>aspiration</strong>.
+</div>
+
+---
+
+## Positioning for Safe Swallowing
+
+Positioning is one of the most important nursing interventions for aspiration prevention.
+
+### Teaching and nursing actions
+
+* Sit the client upright at **90 degrees** for meals.
+* Keep the head slightly forward or use chin-tuck if recommended.
+* Keep the client upright after meals if prescribed.
+* Do not feed the client while lying flat.
+* Provide a calm environment.
+* Encourage slow eating.
+* Give small bites and sips if allowed.
+* Make sure the client has swallowed before offering more food.
+
+<div class="nclex">
+ATI connected aspiration prevention with positioning the client <strong>upright at 90 degrees</strong> and using <strong>chin tuck/head forward</strong> when appropriate.
+</div>
+
+---
+
+## Food Placement and Swallowing Safety
+
+If a client has weakness on one side of the mouth, food may collect on the weak side. This increases the risk for choking or aspiration.
+
+A common strategy is to place food on the stronger side of the mouth.
+
+### Nursing actions
+
+* Place food on the unaffected or stronger side of the mouth.
+* Check the mouth for pocketed food.
+* Make sure the mouth is clear before offering fluids.
+* Encourage small bites.
+* Avoid rushing the client.
+* Follow speech-language pathology recommendations.
+
+<div class="nclex">
+ATI noted that food should be placed on the side <strong>opposite the affected side</strong> and that the nurse should make sure the mouth is clear before giving liquids.
+</div>
+
+---
+
+## Liquids and Dysphagia
+
+Thin liquids are often harder to control in the mouth and throat. They can move quickly and increase aspiration risk.
+
+Some clients may need thickened liquids if prescribed by speech therapy or the provider.
+
+### Important teaching
+
+* Follow the prescribed liquid consistency.
+* Do not offer thin liquids if thickened liquids are ordered.
+* Avoid using straws unless recommended.
+* Make sure the client is alert before giving oral intake.
+* Stop feeding if the client coughs, chokes, or shows respiratory distress.
+
+<div class="danger">
+If the client is coughing, choking, or has a wet voice during meals, stop and reassess swallowing safety.
+</div>
+
+---
+
+<h2 class="section-divider small" id="stroke-and-neurologic-nutrition">Stroke and Neurologic Nutrition</h2>
+
+Clients with stroke or neurologic impairment may have weakness, decreased coordination, altered level of consciousness, dysphagia, or impaired self-feeding.
+
+Nutrition care focuses on preventing aspiration, maintaining intake, supporting recovery, and preventing complications.
+
+---
+
+## Nutrition Concerns After Stroke
+
+| Concern              | Why It Matters                        |
+| -------------------- | ------------------------------------- |
+| Dysphagia            | Increases aspiration risk             |
+| Weakness on one side | Can cause pocketing of food           |
+| Poor coordination    | Makes self-feeding difficult          |
+| Altered LOC          | Increases aspiration risk             |
+| Poor intake          | Leads to malnutrition and dehydration |
+| Immobility           | Can contribute to constipation        |
+
+---
+
+## Nursing Focus After Stroke
+
+### Before oral intake
+
+* Confirm swallowing ability.
+* Follow speech-language pathology recommendations.
+* Keep the client NPO until swallowing safety is determined if ordered.
+* Check level of consciousness.
+* Assess gag/cough if appropriate.
+
+### During meals
+
+* Sit client upright.
+* Feed slowly.
+* Use small bites.
+* Place food on the stronger side.
+* Check for pocketing.
+* Avoid distractions.
+* Keep suction available if needed.
+
+### After meals
+
+* Check mouth for remaining food.
+* Keep client upright if prescribed.
+* Monitor for coughing or respiratory changes.
+* Document intake.
+
+<div class="nclex">
+For stroke nutrition questions, ATI often focuses on <strong>aspiration prevention</strong> before calorie intake.
+</div>
+
+---
+
+<h2 class="section-divider small" id="nutrition-and-increased-metabolic-demand">Nutrition and Increased Metabolic Demand</h2>
+
+Some conditions increase the body’s metabolic rate. When metabolic rate increases, the client needs more calories and often more protein.
+
+This can happen with infection, burns, cancer, COPD, fever, trauma, surgery, and certain neurologic conditions like Parkinson’s disease with rigidity.
+
+---
+
+## Why Metabolic Demand Matters
+
+When the body is stressed, it uses more energy to heal, fight infection, breathe, or maintain muscle activity.
+
+If intake does not meet the increased demand, the client can develop:
+
+* Weight loss
+* Muscle wasting
+* Weakness
+* Poor wound healing
+* Decreased immunity
+* Fatigue
+* Malnutrition
+
+<div class="nclex">
+ATI noted that muscle rigidity in Parkinson’s disease can increase metabolic rate, so the nurse should recognize the need for <strong>increased calorie intake</strong>.
+</div>
+
+---
+
+## High-Calorie, High-Protein Nutrition
+
+High-calorie and high-protein nutrition may be needed when the client is losing weight, healing, fighting infection, or using more energy than usual.
+
+### Examples of nutrient-dense choices
+
+* Eggs
+* Cottage cheese
+* Greek yogurt
+* Milkshakes or fortified shakes if appropriate
+* Peanut butter if safe to swallow
+* Cheese
+* Lean meats
+* Beans or lentils if tolerated
+* Oral nutrition supplements if prescribed
+
+<div class="note">
+Choose foods based on the client’s swallowing ability, disease process, and tolerance. A high-protein food is only helpful if the client can safely chew and swallow it.
+</div>
+
+---
+
+<h2 class="section-divider small" id="respiratory-neurologic-high-yield-review">Respiratory and Neurologic Nutrition: High-Yield Review</h2>
+
+| Topic                          | What ATI Wants You to Remember                                                             |
+| ------------------------------ | ------------------------------------------------------------------------------------------ |
+| **COPD**                       | Increased work of breathing can increase calorie and protein needs                         |
+| **Pulmonary formula**          | High-calorie, high-protein, low-to-moderate carbohydrate, higher fat                       |
+| **Small frequent meals**       | Help reduce fatigue and shortness of breath with eating                                    |
+| **Parkinson’s disease**        | Muscle rigidity can increase metabolic rate and calorie needs                              |
+| **Dysphagia**                  | Difficulty swallowing increases aspiration risk                                            |
+| **Aspiration precautions**     | Upright 90 degrees, chin tuck/head forward if recommended, slow feeding                    |
+| **Stroke nutrition**           | Assess swallowing safety before oral intake                                                |
+| **Pocketing food**             | Check mouth and place food on stronger/unaffected side                                     |
+| **Liquids**                    | Use prescribed liquid consistency; thin liquids may increase aspiration risk               |
+| **Constipation**               | Increase fiber gradually and increase fluids if appropriate                                |
+| **Increased metabolic demand** | Infection, COPD, cancer, burns, wounds, surgery, and rigidity can increase nutrition needs |
+| **Priority nursing action**    | Safety first: prevent aspiration before increasing intake                                  |
