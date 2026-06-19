@@ -1512,7 +1512,80 @@ margin-left: 0.25rem !important;
   font-size: 0.92rem;
   letter-spacing: 0.01em;
 }
+/* =========================================================
+   HOMEPAGE BUTTON RAINBOW COLOR OPTIONS
+   Use with: class="home-big-button pink"
+   ========================================================= */
+
+/* Red */
+.home-big-button.red {
+  background: linear-gradient(135deg, #fff1f2, #fca5a5) !important;
+  border: 4px solid #fca5a5 !important;
+}
+
+/* Orange */
+.home-big-button.orange {
+  background: linear-gradient(135deg, #fff7ed, #fdba74) !important;
+  border: 4px solid #fdba74 !important;
+}
+
+/* Yellow */
+.home-big-button.yellow {
+  background: linear-gradient(135deg, #fffde7, #ffe7a3) !important;
+  border: 4px solid #ffe7a3 !important;
+}
+
+/* Green */
+.home-big-button.green {
+  background: linear-gradient(135deg, #f0fff2, #9de0aa) !important;
+  border: 4px solid #9de0aa !important;
+}
+
+/* Mint */
+.home-big-button.mint {
+  background: linear-gradient(135deg, #ecfdf5, #7fd8d2) !important;
+  border: 4px solid #7fd8d2 !important;
+}
+
+/* Teal */
+.home-big-button.teal {
+  background: linear-gradient(135deg, #e6fffb, #5eead4) !important;
+  border: 4px solid #5eead4 !important;
+}
+
+/* Blue */
+.home-big-button.blue {
+  background: linear-gradient(135deg, #eef8ff, #9fd7f5) !important;
+  border: 4px solid #9fd7f5 !important;
+}
+
+/* Indigo */
+.home-big-button.indigo {
+  background: linear-gradient(135deg, #eef2ff, #a5b4fc) !important;
+  border: 4px solid #a5b4fc !important;
+}
+
+/* Purple */
 .home-big-button.purple {
   background: linear-gradient(135deg, #f7f2ff, #d7c3f3) !important;
   border: 4px solid #d7c3f3 !important;
+}
+
+/* Pink */
+.home-big-button.pink {
+  background: linear-gradient(135deg, #fff4f8, #f8b6c8) !important;
+  border: 4px solid #f8b6c8 !important;
+}
+
+/* Rose */
+.home-big-button.rose {
+  background: linear-gradient(135deg, #fff1f7, #f9a8d4) !important;
+  border: 4px solid #f9a8d4 !important;
+}
+
+/* Rainbow / ATI vibe */
+.home-big-button.rainbow,
+.home-big-button.ati {
+  background: linear-gradient(135deg, #fff7cf, #f8b6c8, #d7c3f3, #7fd8d2) !important;
+  border: 4px solid #f8b6c8 !important;
 }
