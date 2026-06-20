@@ -4,7 +4,7 @@ title: ATI Nutrition Exam Study Guide
 ---
 
 <div class="note">
-<strong>If you are reading this and thinking to yourself "Ellie this is too much information" Click Here</strong> Use the <a href="nutrition-condensed.html">ATI Nutrition Condensed Review</a> for a shorter exam-focused version.
+<strong>If you are reading this and thinking to yourself "Ellie, this is too much information" Click Here</strong> Use the <a href="nutrition-condensed.html">ATI Nutrition Condensed Review</a> for a shorter exam-focused version.
 </div>
 
 # ATI Nutrition Exam Study Guide
