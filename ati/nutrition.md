@@ -50,6 +50,81 @@ ATI nutrition questions usually fall into one of these categories:
 For ATI, do not just memorize the food. Ask yourself: <strong>What does this nutrient do, and why does this client need or avoid it?</strong>
 </div>
 
+<h2 class="section-divider small" id="rda-dri-and-nutrition-recommendations">RDA, DRI, and Nutrition Recommendations</h2>
+
+Nutrition recommendations help guide how much of a nutrient a healthy person should consume each day.
+
+ATI may use terms like **RDA**, **DRI**, or **recommended intake** when asking about vitamins, minerals, protein, calories, or pregnancy needs.
+
+---
+
+## RDA
+
+RDA stands for **Recommended Dietary Allowance**.
+
+The RDA is the average daily amount of a nutrient that meets the needs of most healthy people in a specific group.
+
+Groups may be based on:
+
+* Age
+* Sex
+* Pregnancy status
+* Lactation status
+
+<div class="nclex">
+If ATI asks what RDA means, think: <strong>recommended daily amount that meets the needs of most healthy people</strong>.
+</div>
+
+---
+
+## DRI
+
+DRI stands for **Dietary Reference Intake**.
+
+DRI is the broader category of nutrition reference values. RDA is one type of DRI.
+
+| Term    | Meaning                                                                   |
+| ------- | ------------------------------------------------------------------------- |
+| **DRI** | Broad set of nutrient reference values                                    |
+| **RDA** | Recommended amount that meets the needs of most healthy people            |
+| **AI**  | Adequate Intake; used when there is not enough evidence for an RDA        |
+| **UL**  | Tolerable Upper Intake Level; highest daily amount unlikely to cause harm |
+
+---
+
+## Why This Matters
+
+Nutrient needs are not the same for every client.
+
+Needs can change with:
+
+* Pregnancy
+* Lactation
+* Infancy
+* Older adulthood
+* Illness
+* Wound healing
+* Burns
+* Infection
+* Malnutrition
+
+<div class="note">
+RDA values are for generally healthy people. Clients who are ill, injured, pregnant, healing, or malnourished may have different needs.
+</div>
+
+---
+
+## Quick Review
+
+| If ATI Mentions...        | Think...                                         |
+| ------------------------- | ------------------------------------------------ |
+| **RDA**                   | Recommended daily amount for most healthy people |
+| **DRI**                   | Broad category of nutrition reference values     |
+| **AI**                    | Estimate used when RDA is not available          |
+| **UL**                    | Highest safe daily intake level                  |
+| **Pregnancy/lactation**   | Nutrient needs may increase                      |
+| **Illness/wound healing** | Protein/calorie needs may increase               |
+
 <h2 class="section-divider small" id="macronutrients-digestion-and-enzymes">Macronutrients, Digestion, and Enzymes</h2>
 
 Macronutrients are nutrients the body needs in large amounts. They provide energy and help maintain body structure and function.
