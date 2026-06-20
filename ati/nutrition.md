@@ -66,14 +66,85 @@ Digestion is the process of breaking these nutrients down into smaller parts so 
 
 ## Macronutrients: Big Picture
 
-| Macronutrient     | Main Purpose                                       | Main Enzyme Type | Broken Down Into         | Nursing/ATI Focus                                                    |
-| ----------------- | -------------------------------------------------- | ---------------- | ------------------------ | -------------------------------------------------------------------- |
-| **Carbohydrates** | Primary energy source                              | **Amylase**      | Simple sugars/glucose   | Blood glucose control, diabetes teaching, dumping syndrome triggers  |
-| **Protein**       | Tissue repair, muscle maintenance, immune function | **Proteases**    | Amino acids              | Wound healing, infection, surgery, burns, malnutrition, older adults |
-| **Fat/Lipids**    | Concentrated energy source and vitamin absorption  | **Lipase**       | Fatty acids and glycerol | Fat-soluble vitamins, pancreatitis, bile problems, malabsorption     |
+| Macronutrient                | Main Purpose                                       | Main Enzyme Type | Broken Down Into         | Nursing/ATI Focus                                                    |
+| ---------------------------- | -------------------------------------------------- | ---------------- | ------------------------ | -------------------------------------------------------------------- |
+| **Carbohydrates / starches** | Primary energy source                              | **Amylase**      | Simple sugars/glucose    | Blood glucose control, diabetes teaching, dumping syndrome triggers  |
+| **Protein**                  | Tissue repair, muscle maintenance, immune function | **Proteases**    | Amino acids              | Wound healing, infection, surgery, burns, malnutrition, older adults |
+| **Fat/Lipids**               | Concentrated energy source and vitamin absorption  | **Lipase**       | Fatty acids and glycerol | Fat-soluble vitamins, pancreatitis, bile problems, malabsorption     |
+
+<div class="nclex">
+ATI may ask which enzyme is needed to digest a certain nutrient. Think: <strong>amylase = carbohydrates/starches</strong>, <strong>protease = protein</strong>, and <strong>lipase = fat</strong>.
+</div>
+
+---
+
+## Macronutrient Functions
+
+Each macronutrient has a main job, but they also support body functions in different ways.
+
+| Macronutrient     | Main Functions                                                                                                                                            | ATI Meaning                                                                                                     |
+| ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
+| **Carbohydrates** | Provide glucose for energy; spare protein from being used as energy; help fuel the brain, muscles, and cells                                              | Carbs are the body’s preferred energy source                                                                    |
+| **Protein**       | Builds and repairs tissue; maintains muscle; supports immune function; forms enzymes/hormones; maintains fluid balance in blood vessels                   | Protein is needed for healing, infection, wounds, surgery, burns, and malnutrition                              |
+| **Fat/Lipids**    | Provides concentrated energy; helps absorb vitamins A, D, E, and K; insulates the body; protects organs; helps with hormone production and cell membranes | Fat supports long-term energy, heat regulation/insulation, organ protection, and fat-soluble vitamin absorption |
 
 <div class="nclex">
 Carbohydrates are mainly for <strong>quick energy</strong>, protein is mainly for <strong>building and repair</strong>, and fat is mainly for <strong>stored energy, insulation, organ protection, and fat-soluble vitamin absorption</strong>.
+</div>
+
+---
+
+## Function Clues ATI May Use
+
+| If ATI Mentions...                    | Think...                                                              |
+| ------------------------------------- | --------------------------------------------------------------------- |
+| **Preferred energy source**           | Carbohydrates/glucose                                                 |
+| **Brain energy**                      | Glucose                                                               |
+| **Protein-sparing effect**            | Carbohydrates provide enough energy so protein can be used for repair |
+| **Wound healing**                     | Protein                                                               |
+| **Immune function**                   | Protein                                                               |
+| **Muscle wasting**                    | Inadequate protein/calories                                           |
+| **Edema with poor intake**            | Possible protein deficiency                                           |
+| **Insulation / heat regulation**      | Fat                                                                   |
+| **Organ protection**                  | Fat                                                                   |
+| **Absorption of vitamins A, D, E, K** | Fat                                                                   |
+| **Concentrated stored energy**        | Fat                                                                   |
+
+---
+
+## Energy Use Order
+
+The body prefers to use nutrients for energy in a general order.
+
+| Energy Source                  | When the Body Uses It                                                | ATI Meaning                                                                         |
+| ------------------------------ | -------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
+| **Glucose from carbohydrates** | First/preferred energy source                                        | The body uses glucose most easily for immediate energy                              |
+| **Protein**                    | Used when carbohydrate intake is inadequate or stress needs are high | Protein should be spared for tissue repair, muscle, enzymes, hormones, and immunity |
+| **Fat**                        | Used for stored/concentrated energy                                  | Fat provides long-term energy and helps absorb fat-soluble vitamins                 |
+
+<div class="nclex">
+The body prefers to use <strong>glucose first</strong> for energy. Protein should be preserved for healing and body function, not used as the main energy source.
+</div>
+
+---
+
+## Protein-Sparing Effect
+
+Carbohydrates help “spare” protein.
+
+This means that when the client gets enough carbohydrates and calories, the body can use protein for its main jobs instead of breaking it down for energy.
+
+Protein is needed for:
+
+* Wound healing
+* Muscle maintenance
+* Immune function
+* Skin integrity
+* Enzymes and hormones
+* Maintaining fluid balance in the blood vessels
+
+<div class="danger">
+If calorie or carbohydrate intake is too low, the body may break down <strong>protein</strong> for energy. This can worsen muscle wasting, weakness, poor wound healing, and malnutrition.
 </div>
 
 ---
@@ -94,7 +165,7 @@ Amylase helps break starches and carbohydrates into smaller sugar molecules. Pan
 
 ### Key point
 
-* **Amylase breaks down carbohydrates.**
+* **Amylase breaks down starches/carbohydrates.**
 
 <div class="note">
 If the question asks about starches, grains, or carbohydrates, think <strong>amylase</strong>.
@@ -171,32 +242,6 @@ The pancreas releases amylase, lipase, and proteases, so pancreatic problems can
 </div>
 
 ---
-## Energy Use Order
-
-The body prefers to use nutrients for energy in a general order.
-
-| Energy Source                  | When the Body Uses It                                                | ATI Meaning                                                                         |
-| ------------------------------ | -------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
-| **Glucose from carbohydrates** | First/preferred energy source                                        | The body uses glucose most easily for immediate energy                              |
-| **Protein**                    | Used when carbohydrate intake is inadequate or stress needs are high | Protein should be spared for tissue repair, muscle, enzymes, hormones, and immunity |
-| **Fat**                        | Used for stored/concentrated energy                                  | Fat provides long-term energy and helps absorb fat-soluble vitamins                 |
-
-<div class="nclex">
-The body prefers to use <strong>glucose first</strong> for energy. Protein should be preserved for healing and body function, not used as the main energy source.
-</div>
-
----
-
-## Protein-Sparing Effect
-
-Carbohydrates help “spare” protein.
-
-This means that when the client gets enough carbohydrates and calories, the body can use protein for its main jobs instead of breaking it down for energy.
-
-<div class="danger">
-If calorie or carbohydrate intake is too low, the body may break down <strong>protein</strong> for energy. This can worsen muscle wasting, weakness, poor wound healing, and malnutrition.
-</div>
-
 
 ## Protein
 
@@ -437,11 +482,11 @@ If the client has diarrhea, cramping, and gas after milk or dairy, think <strong
 
 The pancreas releases several digestive enzymes into the small intestine.
 
-| Pancreatic Enzyme | Digests       |
-| ----------------- | ------------- |
-| **Amylase**       | Carbohydrates |
-| **Lipase**        | Fats          |
-| **Proteases**     | Proteins      |
+| Pancreatic Enzyme | Digests                |
+| ----------------- | ---------------------- |
+| **Amylase**       | Carbohydrates/starches |
+| **Lipase**        | Fats                   |
+| **Proteases**     | Proteins               |
 
 This matters in conditions like pancreatitis, pancreatic insufficiency, and cystic fibrosis because digestion and absorption can be affected.
 
@@ -517,8 +562,6 @@ Celiac disease is a problem of <strong>gluten-triggered villi damage</strong>, w
 | **Clay-colored stool and jaundice** | Bile flow problem                          |
 | **Pancreatitis or cystic fibrosis** | Pancreatic enzyme impairment               |
 | **Celiac disease**                  | Damaged intestinal villi and malabsorption |
-
----
 
 <h2 class="section-divider small" id="micronutrients">Micronutrients</h2>
 
