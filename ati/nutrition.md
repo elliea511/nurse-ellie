@@ -73,7 +73,7 @@ Digestion is the process of breaking these nutrients down into smaller parts so 
 | **Fat/Lipids**    | Concentrated energy source and vitamin absorption  | **Lipase**       | Fatty acids and glycerol | Fat-soluble vitamins, pancreatitis, bile problems, malabsorption     |
 
 <div class="nclex">
-ATI may ask which enzyme is needed to digest a certain nutrient. Think: <strong>amylase = carbohydrates</strong>, <strong>protease = protein</strong>, and <strong>lipase = fat</strong>.
+Carbohydrates are mainly for <strong>quick energy</strong>, protein is mainly for <strong>building and repair</strong>, and fat is mainly for <strong>stored energy, insulation, organ protection, and fat-soluble vitamin absorption</strong>.
 </div>
 
 ---
