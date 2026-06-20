@@ -50,11 +50,9 @@ ATI nutrition questions usually fall into one of these categories:
 For ATI, do not just memorize the food. Ask yourself: <strong>What does this nutrient do, and why does this client need or avoid it?</strong>
 </div>
 
----
+<h2 class="section-divider small" id="macronutrients-digestion-and-enzymes">Macronutrients, Digestion, and Enzymes</h2>
 
-## Macronutrients
-
-Macronutrients are nutrients the body needs in larger amounts. They provide energy and support growth, repair, and normal body function.
+Macronutrients are nutrients the body needs in large amounts. They provide energy and help maintain body structure and function.
 
 The three macronutrients are:
 
@@ -62,47 +60,159 @@ The three macronutrients are:
 * Protein
 * Fat
 
-| Macronutrient     | Main Role                  | ATI Focus                                                                              |
-| ----------------- | -------------------------- | -------------------------------------------------------------------------------------- |
-| **Carbohydrates** | Main energy source         | Affect blood glucose and can worsen dumping syndrome if simple sugars are eaten.       |
-| **Protein**       | Builds and repairs tissue  | Needed for wound healing, immune function, muscle strength, and recovery from illness. |
-| **Fat**           | Concentrated energy source | Helps absorb fat-soluble vitamins and supports normal body function.                   |
+Digestion is the process of breaking these nutrients down into smaller parts so the body can absorb and use them. ATI may test not only what each macronutrient does, but also which enzyme breaks it down and what happens when digestion or absorption is impaired.
+
+---
+
+## Macronutrients: Big Picture
+
+| Macronutrient     | Main Purpose                                       | Main Enzyme Type | Broken Down Into         | Nursing/ATI Focus                                                    |
+| ----------------- | -------------------------------------------------- | ---------------- | ------------------------ | -------------------------------------------------------------------- |
+| **Carbohydrates** | Primary energy source                              | **Amylase**      | Simple sugars/glucose   | Blood glucose control, diabetes teaching, dumping syndrome triggers  |
+| **Protein**       | Tissue repair, muscle maintenance, immune function | **Proteases**    | Amino acids              | Wound healing, infection, surgery, burns, malnutrition, older adults |
+| **Fat/Lipids**    | Concentrated energy source and vitamin absorption  | **Lipase**       | Fatty acids and glycerol | Fat-soluble vitamins, pancreatitis, bile problems, malabsorption     |
+
+<div class="nclex">
+ATI may ask which enzyme is needed to digest a certain nutrient. Think: <strong>amylase = carbohydrates</strong>, <strong>protease = protein</strong>, and <strong>lipase = fat</strong>.
+</div>
 
 ---
 
 ## Carbohydrates
 
-Carbohydrates are the body’s preferred energy source. They break down into glucose, which the body uses for energy.
+Carbohydrates are the body’s preferred source of energy. When carbohydrates are digested, they break down into glucose.
 
-### Simple vs. Complex Carbohydrates
+Glucose is important because the brain, muscles, and cells use it for energy. However, too much glucose in the bloodstream can be a problem for clients with diabetes or impaired glucose regulation.
 
-| Type                      | Meaning                                                     | ATI Connection                                               |
-| ------------------------- | ----------------------------------------------------------- | ------------------------------------------------------------ |
-| **Simple carbohydrates**  | Sugars that digest quickly                                  | Can raise blood glucose quickly and worsen dumping syndrome. |
-| **Complex carbohydrates** | Starches and fiber-containing foods that digest more slowly | Usually better tolerated than simple sugars.                 |
+---
 
-Simple carbohydrates include foods like candy, syrup, sweetened drinks, desserts, and other sugary foods. Complex carbohydrates include foods like whole grains, beans, vegetables, and starches.
+### Carbohydrate Digestion
 
-<div class="nclex">
-If the question mentions <strong>dumping syndrome</strong>, simple sugars are usually the problem because they pull fluid into the intestine and worsen symptoms.
+Carbohydrate digestion begins in the mouth with **salivary amylase**.
+
+Amylase helps break starches and carbohydrates into smaller sugar molecules. Pancreatic amylase continues carbohydrate digestion in the small intestine.
+
+### Key point
+
+* **Amylase breaks down carbohydrates.**
+
+<div class="note">
+If the question asks about starches, grains, or carbohydrates, think <strong>amylase</strong>.
 </div>
 
 ---
 
+### Simple Carbohydrates
+
+Simple carbohydrates are digested quickly and can raise blood glucose quickly.
+
+Examples include:
+
+* Candy
+* Regular soda
+* Sweet tea
+* Syrup
+* Desserts
+* Sweetened cereal
+* Sugary drinks
+* Fruit juice in large amounts
+
+Simple sugars are especially important in **diabetes** and **dumping syndrome** questions.
+
+<div class="danger">
+In dumping syndrome, simple sugars make the intestinal contents more hypertonic. This pulls fluid into the small intestine and worsens cramping, diarrhea, dizziness, and weakness.
+</div>
+
+---
+
+### Complex Carbohydrates
+
+Complex carbohydrates digest more slowly and usually provide more nutrients and fiber.
+
+Examples include:
+
+* Whole grains
+* Beans
+* Lentils
+* Vegetables
+* Oats
+* Brown rice
+* Starchy vegetables
+
+Complex carbohydrates are often better tolerated than simple sugars, but the client’s condition matters. For example, whole grains may be healthy for heart disease, but a client with an acute GI flare may temporarily need a low-residue diet.
+
+<div class="nclex">
+ATI does not usually want clients to eliminate all carbohydrates. The safer teaching is usually <strong>consistent carbohydrate intake</strong> and choosing complex carbohydrates when appropriate.
+</div>
+
+---
+
+### When Carbohydrate Digestion May Be Impaired
+
+Carbohydrate digestion can be affected when pancreatic enzyme production or release is impaired.
+
+Examples include:
+
+* Pancreatitis
+* Pancreatic insufficiency
+* Cystic fibrosis
+* Severe pancreatic disease
+
+Possible signs include:
+
+* Bloating
+* Gas
+* Diarrhea
+* Poor tolerance of some carbohydrate-heavy meals
+* Weight loss if overall digestion is impaired
+
+<div class="note">
+The pancreas releases amylase, lipase, and proteases, so pancreatic problems can affect digestion of <strong>carbohydrates, fats, and proteins</strong>.
+</div>
+
+---
+## Energy Use Order
+
+The body prefers to use nutrients for energy in a general order.
+
+| Energy Source                  | When the Body Uses It                                                | ATI Meaning                                                                         |
+| ------------------------------ | -------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
+| **Glucose from carbohydrates** | First/preferred energy source                                        | The body uses glucose most easily for immediate energy                              |
+| **Protein**                    | Used when carbohydrate intake is inadequate or stress needs are high | Protein should be spared for tissue repair, muscle, enzymes, hormones, and immunity |
+| **Fat**                        | Used for stored/concentrated energy                                  | Fat provides long-term energy and helps absorb fat-soluble vitamins                 |
+
+<div class="nclex">
+The body prefers to use <strong>glucose first</strong> for energy. Protein should be preserved for healing and body function, not used as the main energy source.
+</div>
+
+---
+
+## Protein-Sparing Effect
+
+Carbohydrates help “spare” protein.
+
+This means that when the client gets enough carbohydrates and calories, the body can use protein for its main jobs instead of breaking it down for energy.
+
+<div class="danger">
+If calorie or carbohydrate intake is too low, the body may break down <strong>protein</strong> for energy. This can worsen muscle wasting, weakness, poor wound healing, and malnutrition.
+</div>
+
+
 ## Protein
 
-Protein is one of the most important nutrients for nursing exams because it is connected to healing, immunity, muscle strength, and fluid balance.
+Protein is one of the most heavily tested nutrients because it affects healing, immunity, muscle strength, and fluid balance.
 
 The body uses protein to:
 
-* Repair tissue
-* Build and maintain muscle
+* Build and repair tissue
+* Maintain muscle mass
 * Support immune function
 * Promote wound healing
 * Maintain skin integrity
-* Maintain oncotic pressure in the blood vessels
+* Produce enzymes and hormones
+* Maintain oncotic pressure inside blood vessels
 
-When protein is low, fluid can shift out of the blood vessels and into the tissues, causing edema.
+When protein is low, fluid can move out of the blood vessels and into the tissues. This can cause edema.
 
 <div class="danger">
 A client with poor intake, weight loss, and <strong>lower extremity edema</strong> may have protein deficiency or malnutrition.
@@ -110,96 +220,303 @@ A client with poor intake, weight loss, and <strong>lower extremity edema</stron
 
 ---
 
-## Complete vs. Incomplete Proteins
+### Protein Digestion
 
-A complete protein contains all 9 essential amino acids. These are the amino acids the body cannot make on its own.
+Protein digestion begins in the stomach and continues in the small intestine.
 
-| Type                   | Meaning                                   | Examples                                                        |
+Proteins are broken down by **proteases** into amino acids. Amino acids are then absorbed and used for tissue repair, muscle maintenance, enzymes, hormones, and immune function.
+
+### Key point
+
+* **Proteases break down protein.**
+
+Examples of protease enzymes include:
+
+* Pepsin
+* Trypsin
+* Chymotrypsin
+
+<div class="note">
+If the question asks about protein breakdown, tissue repair, or amino acids, think <strong>protease</strong>.
+</div>
+
+---
+
+### Complete vs. Incomplete Proteins
+
+Proteins are made of amino acids. Some amino acids are “essential,” meaning the body cannot make them and must get them from food.
+
+A **complete protein** contains all 9 essential amino acids.
+
+| Protein Type           | Meaning                                   | Examples                                                        |
 | ---------------------- | ----------------------------------------- | --------------------------------------------------------------- |
-| **Complete protein**   | Contains all 9 essential amino acids      | Meat, poultry, fish, eggs, milk, cheese, yogurt, cottage cheese |
+| **Complete protein**   | Contains all 9 essential amino acids      | Meat, poultry, fish, eggs, milk, yogurt, cheese, cottage cheese |
 | **Incomplete protein** | Missing one or more essential amino acids | Legumes, peanut butter, whole grains, nuts, seeds               |
 
 <div class="nclex">
-ATI may ask for the “best source of protein.” If the options include <strong>cottage cheese</strong>, it can be the best answer because it is a complete protein.
+ATI may ask for the “best source of protein.” If the options include <strong>cottage cheese</strong>, it may be the best answer because it is a complete protein.
 </div>
+
+### Why this matters
+
+A client who is healing from illness, surgery, infection, or wounds needs enough complete protein to repair tissue and maintain strength. Incomplete proteins can still be part of a healthy diet, especially when combined appropriately, but ATI often tests whether you can identify a complete protein source.
 
 ---
 
-## When Protein Needs Increase
+### Conditions That Increase Protein Needs
 
-Protein needs increase when the body is under stress, healing, or trying to maintain muscle mass.
+Protein needs increase when the body is under physical stress.
 
-### Clients who usually need more protein
+Clients often need more protein with:
 
-* Clients with wounds or pressure injuries
-* Clients recovering from surgery
-* Clients with burns
-* Clients with infection
-* Clients receiving cancer treatment
-* Pregnant clients
-* Older adults
-* Clients with COPD or pulmonary disease
-* Clients with malnutrition
-* Clients with Parkinson’s disease who have increased metabolic needs from muscle rigidity
-
-Protein needs should still be individualized. For example, some clients with kidney disease may need protein restrictions depending on the stage and provider orders.
+* Wound healing
+* Pressure injuries
+* Burns
+* Surgery
+* Infection
+* Cancer
+* Pregnancy
+* COPD or pulmonary disease
+* Older adulthood
+* Malnutrition
+* Parkinson’s disease with increased metabolic demand from muscle rigidity
 
 <div class="note">
-In ATI questions, if the client has infection, wounds, poor healing, cancer, COPD, pregnancy, or older-adult frailty, think: <strong>Does this client need more protein?</strong>
+When a client has infection, wounds, poor healing, cancer, COPD, pregnancy, or older-adult frailty, ask: <strong>Does this client need more protein?</strong>
 </div>
 
+### Important exception
+
+Some clients with kidney disease may need protein restrictions depending on the stage of disease and whether they are receiving dialysis. Do not automatically choose a high-protein diet for every client.
+
 ---
-<h2 class="section-divider small" id="braden-scale-nutrition-scoring">Braden Scale: Nutrition Scoring</h2>
 
-The Braden Scale helps assess a client’s risk for pressure injury development. One part of the Braden Scale is the **nutrition** category.
+### When Protein Digestion May Be Impaired
 
-The nutrition score is based on the client’s usual pattern of food intake, protein intake, supplement use, and whether nutrition needs are being met.
+Protein digestion can be impaired when pancreatic enzymes are low or when the intestine cannot absorb nutrients well.
+
+Examples include:
+
+* Pancreatic insufficiency
+* Chronic pancreatitis
+* Cystic fibrosis
+* Severe malabsorption disorders
+* Major GI surgery
+* Severe inflammatory bowel disease flares
+
+Possible signs include:
+
+* Weight loss
+* Muscle wasting
+* Weakness
+* Poor wound healing
+* Low protein status
+* Edema if protein deficiency becomes severe
 
 <div class="nclex">
-ATI may give a short meal-intake description and ask how the client scores in the <strong>nutrition</strong> category of the Braden Scale.
+If the client has poor healing, muscle wasting, or edema with poor intake, think about inadequate <strong>protein intake, digestion, or absorption</strong>.
 </div>
 
 ---
-
-## Braden Nutrition Scoring
-
-| Score | Category                | What It Means                     | ATI Clues                                                                                                                                   |
-| ----- | ----------------------- | --------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
-| **1** | **Very Poor**           | Intake is severely inadequate.    | Rarely eats a complete meal; eats only bites of food; poor fluid intake; may be NPO or on clear liquids without adequate nutrition support. |
-| **2** | **Probably Inadequate** | Intake is less than needed.       | Eats only about half of meals; protein intake is limited; occasionally takes supplements; tube feeding/TPN may not meet needs.              |
-| **3** | **Adequate**            | Intake usually meets basic needs. | Eats more than half of most meals; occasionally refuses a meal; usually gets enough protein servings; tube feeding/TPN meets most needs.    |
-| **4** | **Excellent**           | Intake is consistently strong.    | Eats most or all meals; rarely or never refuses meals; gets regular protein servings; does not need supplements to meet needs.              |
-
----
-
-## Quick Way to Remember
-
-| Intake Pattern                                 | Likely Score                |
-| ---------------------------------------------- | --------------------------- |
-| Eats only bites or very little                 | **1 — Very Poor**           |
-| Eats about half of meals                       | **2 — Probably Inadequate** |
-| Eats more than half of most meals with protein | **3 — Adequate**            |
-| Eats almost all meals and never refuses        | **4 — Excellent**           |
-
-<div class="danger">
-Do not score based on one meal only. Braden nutrition scoring is based on the client’s <strong>usual intake pattern</strong>.
-</div>
 
 ## Fat
 
-Fat provides concentrated calories and helps the body absorb fat-soluble vitamins.
+Fat provides concentrated energy. It also helps the body absorb fat-soluble vitamins.
 
-Fat is not automatically “bad.” The key is knowing when fat needs to be limited and when it is useful for calories.
+Fat helps with:
 
-### Why fat matters
+* Energy storage
+* Cell membrane structure
+* Hormone production
+* Insulation
+* Absorption of vitamins A, D, E, and K
 
-* Provides energy
-* Helps absorb vitamins A, D, E, and K
-* Supports cell membranes
-* Helps hormone production
-* Helps clients meet calorie needs when appetite is poor
+Fat is not always bad. The type of fat and the client’s condition matter.
 
-Some clients may need lower-fat diets, such as clients with certain gallbladder or pancreatic issues. Other clients, such as those with COPD or increased energy needs, may benefit from higher-fat nutrition formulas.
+For example:
+
+* A client with cardiovascular disease may need to limit saturated fat.
+* A client with pancreatitis may need fat restriction depending on the stage and provider orders.
+* A client with COPD may benefit from a higher-fat, lower-carbohydrate formula to help meet calorie needs without increasing carbon dioxide production as much.
+
+<div class="nclex">
+ATI usually does not want “no fat.” It wants the diet that matches the disease process.
+</div>
+
+---
+
+### Fat Digestion
+
+Fat digestion mainly occurs in the small intestine.
+
+Fats are broken down by **lipase** into fatty acids and glycerol. Bile helps emulsify fat, which means it breaks fat into smaller droplets so lipase can work better.
+
+### Key point
+
+* **Lipase breaks down fats/lipids.**
+* **Bile helps emulsify fat but is not an enzyme.**
+
+<div class="danger">
+Do not confuse bile with lipase. <strong>Bile emulsifies fat</strong>, but <strong>lipase chemically digests fat</strong>.
+</div>
+
+---
+
+### When Fat Digestion May Be Impaired
+
+Fat digestion can be impaired if the pancreas does not produce enough lipase or if bile cannot reach the intestine.
+
+Examples include:
+
+* Pancreatitis
+* Pancreatic insufficiency
+* Cystic fibrosis
+* Pancreatic cancer
+* Gallstones
+* Cholecystitis
+* Bile duct obstruction
+* Liver disease or cirrhosis
+
+Possible signs include:
+
+* Greasy stools
+* Foul-smelling stools
+* Floating stools
+* Diarrhea
+* Weight loss
+* Fat intolerance
+* Deficiency of fat-soluble vitamins A, D, E, and K
+
+<div class="danger">
+Greasy, foul-smelling, floating stools suggest <strong>fat malabsorption</strong>. Think lipase or bile flow problems.
+</div>
+
+---
+
+## Lactose Digestion
+
+Lactose is the sugar found in milk and dairy products.
+
+Lactose is broken down by **lactase**. If a client does not have enough lactase, lactose is not digested well and can cause bloating, cramping, gas, and diarrhea.
+
+### Key point
+
+* **Lactase breaks down lactose.**
+
+<div class="nclex">
+For lactose intolerance, the problem is not enough <strong>lactase</strong>.
+</div>
+
+---
+
+### When Lactose Digestion Is Impaired
+
+Lactose digestion is impaired in **lactose intolerance**.
+
+Common symptoms after dairy intake include:
+
+* Bloating
+* Gas
+* Abdominal cramping
+* Diarrhea
+
+Teaching includes:
+
+* Limit lactose-containing foods if symptomatic.
+* Use lactose-free dairy products.
+* Use lactase enzyme products if appropriate.
+* Maintain calcium and vitamin D intake.
+
+<div class="note">
+If the client has diarrhea, cramping, and gas after milk or dairy, think <strong>lactase deficiency</strong>.
+</div>
+
+---
+
+## Pancreatic Enzymes
+
+The pancreas releases several digestive enzymes into the small intestine.
+
+| Pancreatic Enzyme | Digests       |
+| ----------------- | ------------- |
+| **Amylase**       | Carbohydrates |
+| **Lipase**        | Fats          |
+| **Proteases**     | Proteins      |
+
+This matters in conditions like pancreatitis, pancreatic insufficiency, and cystic fibrosis because digestion and absorption can be affected.
+
+<div class="note">
+The pancreas helps digest all three major macronutrients: <strong>carbohydrates, fats, and proteins</strong>.
+</div>
+
+---
+
+## Pancreatic Enzyme Replacement
+
+Pancreatic enzyme replacement may be prescribed when the pancreas does not release enough digestive enzymes.
+
+### Common conditions
+
+* Pancreatic insufficiency
+* Chronic pancreatitis
+* Cystic fibrosis
+* Pancreatic surgery
+
+### Teaching points
+
+* Take enzymes with meals and snacks as prescribed.
+* Do not crush or chew enteric-coated enzyme capsules unless specifically instructed.
+* Monitor stool pattern.
+* Report continued greasy stools, weight loss, or abdominal discomfort.
+* Follow prescribed diet recommendations.
+
+<div class="nclex">
+If pancreatic enzymes are prescribed, they are usually taken <strong>with meals and snacks</strong> to help digest food.
+</div>
+
+---
+
+## Digestion vs. Absorption
+
+Digestion breaks food down. Absorption moves nutrients from the intestine into the bloodstream.
+
+A client can have working enzymes but still have poor absorption if the intestinal lining is damaged.
+
+### Example: Celiac disease
+
+In celiac disease, gluten triggers inflammation and damages the villi in the small intestine. Damaged villi decrease nutrient absorption.
+
+This can lead to:
+
+* Diarrhea
+* Weight loss
+* Bloating
+* Fatigue
+* Iron deficiency
+* Folate deficiency
+* Calcium/vitamin D deficiency
+
+<div class="nclex">
+Celiac disease is a problem of <strong>gluten-triggered villi damage</strong>, which leads to malabsorption.
+</div>
+
+---
+
+## Quick Macronutrient and Enzyme Review
+
+| If ATI Asks About...                | Think...                                   |
+| ----------------------------------- | ------------------------------------------ |
+| **Carbohydrates / starches**        | Amylase                                    |
+| **Proteins**                        | Protease                                   |
+| **Fats / lipids**                   | Lipase                                     |
+| **Lactose / dairy sugar**           | Lactase                                    |
+| **Fat emulsification**              | Bile                                       |
+| **Pancreatic digestion**            | Amylase, lipase, proteases                 |
+| **Greasy, floating stools**         | Fat malabsorption                          |
+| **Gas/diarrhea after dairy**        | Lactase deficiency                         |
+| **Clay-colored stool and jaundice** | Bile flow problem                          |
+| **Pancreatitis or cystic fibrosis** | Pancreatic enzyme impairment               |
+| **Celiac disease**                  | Damaged intestinal villi and malabsorption |
 
 ---
 
@@ -556,6 +873,72 @@ When malnutrition is suspected, nursing care focuses on assessment, safety, inta
 * Encourage high-calorie, high-protein foods if appropriate.
 * Collaborate with a dietitian.
 * Monitor for dehydration and electrolyte imbalance.
+
+---
+<h2 class="section-divider small" id="braden-scale-nutrition-scoring">Braden Scale: Nutrition Scoring</h2>
+
+The Braden Scale helps assess a client’s risk for pressure injury development. One part of the Braden Scale is the **nutrition** category.
+
+This nutrition score is based on the client’s usual pattern of intake, including how much of meals they eat, whether they refuse meals, whether they receive supplements, and whether protein intake is adequate.
+
+<div class="nclex">
+ATI may describe a client’s meal intake and ask how the client scores in the <strong>nutrition</strong> category of the Braden Scale.
+</div>
+
+---
+
+## How to Think Through Braden Nutrition Scoring
+
+When ATI gives a Braden nutrition question, look for:
+
+* How much of each meal the client usually eats
+* Whether the client frequently refuses meals
+* Whether the client receives tube feeding or TPN
+* Whether the client takes supplements
+* Whether the client gets enough protein servings
+* Whether intake is improving, stable, or consistently poor
+
+<div class="note">
+Do not score based on one meal only. Braden nutrition scoring is based on the client’s <strong>usual intake pattern</strong>.
+</div>
+
+---
+
+## Braden Nutrition Scoring
+
+| Score | Category                | What It Means                     | ATI Clues                                                                                                                                                                     |
+| ----- | ----------------------- | --------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **1** | **Very Poor**           | Intake is severely inadequate.    | Rarely eats a complete meal; eats only bites of food; poor fluid intake; may be NPO or on clear liquids without adequate nutrition support.                                   |
+| **2** | **Probably Inadequate** | Intake is less than needed.       | Rarely eats a complete meal and usually eats only about half of food offered; protein intake is limited; occasionally takes supplements; tube feeding/TPN may not meet needs. |
+| **3** | **Adequate**            | Intake usually meets basic needs. | Eats more than half of most meals; occasionally refuses a meal; usually gets enough protein servings; tube feeding/TPN meets most needs.                                      |
+| **4** | **Excellent**           | Intake is consistently strong.    | Eats most or all meals; rarely or never refuses meals; gets regular protein servings; does not require supplementation to meet needs.                                         |
+
+---
+
+## ATI Example
+
+A client who eats **more than half of most meals**, occasionally refuses a meal, and has **four servings of protein each day** would score:
+
+<div class="note">
+<strong>Braden Nutrition Score:</strong> 3 — Adequate
+</div>
+
+This client is not “excellent” because they occasionally refuse meals, but they are not “probably inadequate” because they eat more than half of most meals and has regular protein intake.
+
+---
+
+## Quick Way to Remember
+
+| Intake Pattern                                         | Likely Score                |
+| ------------------------------------------------------ | --------------------------- |
+| Eats only bites or very little                         | **1 — Very Poor**           |
+| Eats about half of meals or has limited protein        | **2 — Probably Inadequate** |
+| Eats more than half of most meals with regular protein | **3 — Adequate**            |
+| Eats almost all meals and rarely refuses               | **4 — Excellent**           |
+
+<div class="danger">
+A low Braden nutrition score increases concern for <strong>pressure injury risk</strong> because the client may not have enough intake to support skin integrity and healing.
+</div>
 
 ---
 
