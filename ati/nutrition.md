@@ -1366,7 +1366,7 @@ HbA1c reflects the client’s average blood glucose over about the past 2 to 3 m
 | HbA1c                 | Meaning                                                |
 | --------------------- | ------------------------------------------------------ |
 | **Around 6.5% to 7%** | Common goal range for many clients with diabetes       |
-| **8.7%**              | Above expected goal and indicates poor glucose control |
+| **Above 7%%**         | Above expected goal and indicates poor glucose control |
 
 <div class="danger">
 ATI noted that an <strong>HbA1c of 8.7%</strong> is not within the expected goal range for a client with diabetes.
@@ -1712,7 +1712,7 @@ Illness can increase the risk for <strong>hyperglycemia, dehydration, DKA, and H
 | **Type 2 diabetes**    | Insulin resistance; nutrition/activity improve glucose control                        |
 | **Carbohydrates**      | Most direct effect on glucose; consistency matters                                    |
 | **Glycemic index**     | Baked potato is high glycemic index                                                   |
-| **HbA1c**              | Reflects average glucose over 2 to 3 months; 8.7% is above goal                       |
+| **HbA1c**              | Reflects average glucose over 2 to 3 months; <7% is the goal                          |
 | **Hypoglycemia**       | Shaky, sweaty, cool/clammy, confused, erratic behavior                                |
 | **Hyperglycemia**      | Polyuria, polydipsia, polyphagia, dry skin, fatigue                                   |
 | **DKA**                | Type 1; hyperglycemia, ketones, acidosis, fruity breath, Kussmaul respirations        |
@@ -3222,3 +3222,2764 @@ If the client has a wound plus poor intake, watch closely for <strong>malnutriti
 | **HSV infection**                     | ATI connected secondary infection with increased nutritional intake                                     |
 | **Wound healing**                     | Protein, calories, vitamin C, zinc, fluids, and iron support healing                                    |
 
+<h2 class="section-divider" id="pregnancy-lactation-infant-and-pediatric-nutrition">Pregnancy, Lactation, Infant, and Pediatric Nutrition</h2>
+
+Pregnancy, lactation, infant, and pediatric nutrition questions on ATI usually focus on **increased nutrient needs, safe weight gain, iron and folate, breastfeeding teaching, breast milk storage, infant growth patterns, and age-appropriate feeding**.
+
+These questions often test whether the nurse can recognize what is expected for each stage and what teaching prevents complications.
+
+---
+
+## Pregnancy, Lactation, Infant, and Pediatric Nutrition: Big Picture
+
+Nutrition needs change during pregnancy, breastfeeding, infancy, and childhood because the body is supporting growth and development.
+
+| Stage                     | Why Nutrition Matters                                                               |
+| ------------------------- | ----------------------------------------------------------------------------------- |
+| **Pregnancy**             | Supports fetal growth, maternal blood volume, placenta, and maternal tissue changes |
+| **Lactation**             | Supports breast milk production and maternal recovery                               |
+| **Newborn period**        | Feeding supports glucose stability, hydration, growth, and bonding                  |
+| **Infancy**               | Rapid growth requires appropriate calories, fluids, and gradual food introduction   |
+| **Childhood/adolescence** | Supports growth, bone development, energy needs, and long-term eating habits        |
+
+<div class="nclex">
+For ATI, pregnancy and pediatric nutrition questions are usually about <strong>growth, safety, timing, and preventing deficiencies</strong>.
+</div>
+
+---
+
+<h2 class="section-divider small" id="pregnancy-nutrition">Pregnancy Nutrition</h2>
+
+Pregnancy increases the need for calories, protein, vitamins, and minerals. The client is not just “eating for two” in the way people usually say it. The goal is nutrient-dense intake that supports fetal growth and maternal health.
+
+Pregnancy nutrition helps support:
+
+* Fetal growth
+* Placental development
+* Increased maternal blood volume
+* Uterine and breast tissue growth
+* Maternal energy needs
+* Prevention of anemia
+* Prevention of neural tube defects
+* Healthy weight gain
+
+---
+
+## Pregnancy Weight Gain
+
+Expected weight gain during pregnancy depends on the client’s **prepregnancy BMI**.
+
+| Prepregnancy BMI | Category | Recommended Total Weight Gain |
+|---|---|---|
+| **Less than 18.5** | Underweight | **28 to 40 lb** |
+| **18.5 to 24.9** | Normal weight | **25 to 35 lb** |
+| **25.0 to 29.9** | Overweight | **15 to 25 lb** |
+| **30.0 or greater** | Obese | **11 to 20 lb** |
+
+<div class="nclex">
+ATI may test that expected pregnancy weight gain depends on the client’s <strong>prepregnancy BMI</strong>. A client who is underweight before pregnancy needs the most weight gain, while a client who is obese before pregnancy needs the least.
+</div>
+
+---
+
+## Underweight Pregnancy
+
+Clients who are underweight before pregnancy are at risk for inadequate maternal stores and inadequate fetal growth if weight gain is too low.
+
+ATI noted that a client who is underweight may gain up to about **40 lb** during pregnancy.
+
+<div class="note">
+If ATI says the client was underweight before pregnancy, do not choose the lowest weight-gain range.
+</div>
+
+---
+
+## Protein Needs During Pregnancy
+
+Protein needs increase during pregnancy because the body is building fetal tissue, placenta, maternal blood volume, uterus, and breast tissue.
+
+Protein supports:
+
+* Fetal growth
+* Maternal tissue growth
+* Blood volume expansion
+* Immune function
+* Healing
+* Placental development
+
+### Protein teaching
+
+* Include protein with meals and snacks.
+* Choose lean meats, poultry, fish low in mercury if allowed, eggs, dairy, beans, lentils, nuts, and seeds as appropriate.
+* Increase protein intake as pregnancy progresses.
+* Follow provider guidance for special conditions.
+
+<div class="nclex">
+ATI notes that pregnancy increases the need for <strong>protein</strong>.
+</div>
+
+---
+
+## Iron During Pregnancy
+
+Iron needs increase during pregnancy because maternal blood volume expands and the fetus needs iron for growth.
+
+Low iron can lead to iron-deficiency anemia, which can cause fatigue, weakness, pallor, shortness of breath, and poor oxygen-carrying capacity.
+
+### Teaching points
+
+* Pregnant clients commonly need **30 mg iron daily**.
+* Take iron with vitamin C to improve absorption.
+* Liquid iron can stain teeth, so use a straw.
+* Iron can cause constipation.
+* Iron can make stools dark.
+* Do not stop iron just because stools become dark.
+
+<div class="nclex">
+ATI noted that pregnant clients should take <strong>30 mg of iron daily</strong> to reduce the risk for iron-deficiency anemia.
+</div>
+
+---
+
+## Folate During Pregnancy
+
+Folate is important for fetal neural tube development and red blood cell formation.
+
+Low folate increases the risk for neural tube defects.
+
+### Food sources
+
+* Fortified grains
+* Leafy green vegetables
+* Beans
+* Lentils
+* Liver
+
+<div class="note">
+Folate is especially important early in pregnancy because neural tube development occurs early.
+</div>
+
+---
+
+## Fat Intake During Pregnancy
+
+Pregnant clients still need dietary fat, but ATI may test reducing excess fat intake if the diet is high in fat or weight gain is excessive.
+
+### Teaching focus
+
+* Avoid extreme fat restriction.
+* Limit high-fat and fried foods if excessive.
+* Choose healthier fats in appropriate portions.
+* Follow provider guidance if weight gain is too high or too low.
+
+<div class="note">
+Pregnancy teaching should not sound like a crash diet. The goal is adequate nutrients with safe weight gain.
+</div>
+
+---
+
+<h2 class="section-divider small" id="hyperemesis-gravidarum-nutrition">Hyperemesis Gravidarum Nutrition</h2>
+
+Hyperemesis gravidarum is severe nausea and vomiting during pregnancy. It can lead to dehydration, electrolyte imbalance, weight loss, and poor intake.
+
+---
+
+## Why Hyperemesis Is a Nutrition Risk
+
+The client may not be able to keep down enough food or fluids to meet pregnancy needs.
+
+Risks include:
+
+* Dehydration
+* Electrolyte imbalance
+* Weight loss
+* Ketosis
+* Poor fetal growth if prolonged or severe
+* Weakness
+* Hospitalization if severe
+
+<div class="danger">
+With severe vomiting in pregnancy, think <strong>fluid volume deficit, electrolyte imbalance, and inadequate nutrition</strong>.
+</div>
+
+---
+
+## Hyperemesis Nutrition Teaching
+
+Teaching depends on severity and provider orders.
+
+### Common nutrition strategies
+
+* Eat small frequent meals.
+* Avoid triggers and strong odors.
+* Try dry bland foods if tolerated.
+* Sip fluids between meals.
+* Avoid large amounts of fluid with meals if it worsens nausea.
+* Take prescribed antiemetics as directed.
+* Report inability to keep fluids down.
+* Report dizziness, decreased urination, or weight loss.
+
+<div class="nclex">
+ATI may connect hyperemesis with the same priority thinking as vomiting/diarrhea: <strong>hydration and electrolytes</strong>.
+</div>
+
+---
+
+<h2 class="section-divider small" id="lactation-and-breastfeeding-nutrition">Lactation and Breastfeeding Nutrition</h2>
+
+Lactation increases nutrition and fluid needs because the body is producing breast milk.
+
+Breastfeeding nutrition focuses on supporting milk production, maternal hydration, and the infant’s growth.
+
+---
+
+## Breastfeeding Frequency
+
+Newborns should feed often because their stomachs are small and breast milk is digested quickly.
+
+### Teaching points
+
+* Breastfeed on demand.
+* Expect about **8 to 12 feedings per day**.
+* Watch infant hunger cues.
+* Avoid rigid schedules in the early period unless instructed.
+* Monitor wet diapers, stools, and weight gain.
+
+<div class="nclex">
+ATI noted that newborns should breastfeed on demand, usually about <strong>8 to 12 times per day</strong>.
+</div>
+
+---
+
+## Breastfeeding in the First Day
+
+Early breastfeeding helps stimulate milk production and supports bonding.
+
+ATI noted that during the first day, the newborn may nurse about **5 minutes on each breast**.
+
+<div class="note">
+Early feeds may be short, but frequent breastfeeding helps establish milk supply.
+</div>
+
+---
+
+## Avoiding Formula, Water, and Artificial Nipples Early
+
+If breastfeeding is the goal, unnecessary formula, water, and artificial nipples can interfere with establishing breastfeeding unless medically indicated.
+
+### Teaching points
+
+* Avoid giving water to newborns.
+* Avoid unnecessary formula supplementation.
+* Avoid artificial nipples early if breastfeeding is being established.
+* Feed on demand.
+* Ask for lactation support if latch is difficult.
+
+<div class="nclex">
+ATI noted to avoid <strong>formula, water, and artificial nipples</strong> when establishing breastfeeding unless medically indicated.
+</div>
+
+---
+
+## Maternal Nutrition During Lactation
+
+Breastfeeding clients should focus on adequate intake rather than restrictive dieting.
+
+### Teaching points
+
+* Eat balanced meals.
+* Drink fluids to thirst.
+* Include protein.
+* Include calcium and vitamin D sources.
+* Continue prenatal vitamins if prescribed.
+* Limit alcohol and caffeine according to provider guidance.
+* Avoid crash dieting because it can affect energy and nutrition quality.
+
+<div class="note">
+Breastfeeding nutrition should support both the infant’s needs and the client’s recovery.
+</div>
+
+---
+
+<h2 class="section-divider small" id="breast-milk-storage-and-thawing">Breast Milk Storage and Thawing</h2>
+
+Breast milk storage is a high-yield ATI topic because incorrect storage or thawing can affect safety.
+
+---
+
+## Thawed Breast Milk
+
+Thawed breast milk should be used within **24 hr** if kept in the refrigerator.
+
+Do not refreeze thawed breast milk.
+
+<div class="danger">
+ATI noted that thawed breast milk should be used within <strong>24 hr</strong> and should <strong>not</strong> be refrozen.
+</div>
+
+---
+
+## Safe Thawing
+
+Breast milk should be thawed safely to preserve quality and reduce risk.
+
+### Safe methods
+
+* Thaw in the refrigerator.
+* Thaw under warm running water.
+* Warm gently if needed.
+
+### Avoid
+
+* Do not microwave breast milk.
+* Do not refreeze thawed milk.
+* Do not leave milk sitting out for long periods.
+* Do not save milk left in the bottle after a feeding.
+
+<div class="nclex">
+ATI noted breast milk should not be microwaved because it can create hot spots and damage milk quality.
+</div>
+
+---
+
+## Frozen Breast Milk
+
+ATI noted that breast milk can be stored in the freezer for **6 months**, with **12 months** being acceptable in some guidance.
+
+For exam purposes, use the safest specific option given in the question and follow facility policy.
+
+<div class="note">
+If ATI gives multiple storage times, choose the option that best matches safe storage rules and the wording of the question.
+</div>
+
+---
+
+## Milk Left in Bottle
+
+Milk left in the bottle after feeding should be discarded because the infant’s saliva can contaminate it.
+
+<div class="danger">
+ATI noted to discard breast milk left in the bottle after feeding.
+</div>
+
+---
+
+<h2 class="section-divider small" id="infant-growth-and-feeding">Infant Growth and Feeding</h2>
+
+Infancy is a period of rapid growth. Nutrition questions may test expected growth patterns and feeding readiness.
+
+---
+
+## Expected Infant Growth
+
+ATI noted key expected growth patterns during infancy.
+
+| Growth Pattern       | Expected Finding                 |
+| -------------------- | -------------------------------- |
+| **Birth weight**     | Regained by about 2 weeks of age |
+| **Weight by 1 year** | Triples birth weight             |
+| **Length by 1 year** | Increases by about 50%           |
+
+<div class="nclex">
+ATI noted that an infant should regain birth weight by about <strong>2 weeks</strong>, triple birth weight by <strong>1 year</strong>, and increase length by about <strong>50%</strong> by 1 year.
+</div>
+
+---
+
+## Introducing Solid Foods
+
+Solid foods should be introduced gradually so caregivers can monitor for signs of allergy or intolerance.
+
+ATI noted that new solid foods can be introduced every **3 to 5 days**.
+
+### Teaching points
+
+* Introduce one new food at a time.
+* Wait 3 to 5 days before adding another new food.
+* Watch for rash, vomiting, diarrhea, wheezing, or swelling.
+* Avoid choking hazards.
+* Continue breast milk or formula as the main nutrition source during early infancy.
+
+<div class="nclex">
+ATI noted that new solid food items can be introduced every <strong>3 to 5 days</strong> to monitor for food allergies.
+</div>
+
+---
+
+## Whole Milk Timing
+
+Whole milk is generally used after 12 months of age because infants younger than 12 months need breast milk or iron-fortified formula.
+
+ATI also noted that children usually receive whole milk until age 2, then can transition to low-fat or skim milk depending on guidance.
+
+<div class="note">
+Whole milk before 12 months is not appropriate. After 12 months, whole milk supports fat needs until around age 2.
+</div>
+
+---
+
+<h2 class="section-divider small" id="cleft-lip-and-feeding">Cleft Lip Feeding</h2>
+
+A cleft lip can make feeding difficult because the infant may have trouble creating an effective seal.
+
+The main nutrition concern is that the infant may not get enough milk due to poor suction or fatigue.
+
+---
+
+## Feeding Problems With Cleft Lip
+
+The infant may have:
+
+* Difficulty creating a seal
+* Poor suction
+* Longer feeding times
+* Fatigue during feeding
+* Increased air swallowing
+* Poor weight gain if intake is inadequate
+
+<div class="danger">
+With cleft lip feeding, monitor for <strong>fatigue, poor intake, and poor weight gain</strong>.
+</div>
+
+---
+
+## Cleft Lip Feeding Teaching
+
+ATI connected cleft lip feeding with strategies that help the infant get enough nutrition safely.
+
+### Teaching points
+
+* Use a special bottle if prescribed.
+* A one-way valve bottle may help.
+* A high-flow nipple may help if recommended.
+* Gently squeeze the cheeks to help create a seal if instructed.
+* Burp often, such as after each ounce or 2 to 3 times per feeding.
+* Allow time for feeding.
+* Monitor intake and weight gain.
+
+<div class="nclex">
+ATI noted that infants with cleft lip may need a <strong>one-way valve bottle</strong>, <strong>high-flow nipple</strong>, cheek support, and frequent burping.
+</div>
+
+---
+
+<h2 class="section-divider small" id="child-and-adolescent-nutrition">Child and Adolescent Nutrition</h2>
+
+Child and adolescent nutrition supports growth, bone development, energy needs, and long-term health habits.
+
+ATI may test whether the nurse can identify healthier food choices.
+
+---
+
+## Healthy Food Choices for Children and Adolescents
+
+| Food Category      | Better ATI Choice                                                         |
+| ------------------ | ------------------------------------------------------------------------- |
+| **Meat**           | Lean meats; adolescent may need about 5 oz/day depending on age and needs |
+| **Ground beef**    | At least 90% lean                                                         |
+| **Beans**          | Pinto beans instead of refried beans                                      |
+| **Pasta**          | Red sauce instead of white cream sauce                                    |
+| **Yogurt**         | Plain fat-free yogurt with fresh fruit instead of sweetened yogurt        |
+| **Breakfast meat** | Canadian bacon instead of sausage                                         |
+| **Cheese**         | Cheese with 3 g fat or less per serving                                   |
+| **Margarine**      | 2 g saturated fat or less per tablespoon                                  |
+
+<div class="nclex">
+ATI often tests child/adolescent nutrition by asking which food choice is lower in fat, saturated fat, or added sugar.
+</div>
+
+---
+
+## Calcium and Bone Health
+
+Children and adolescents need calcium and vitamin D to support bone growth.
+
+### Sources
+
+* Milk
+* Yogurt
+* Cheese
+* Fortified foods
+* Calcium-fortified juices if appropriate
+* Leafy greens if tolerated
+
+<div class="note">
+Adolescence is an important time for bone development, so calcium and vitamin D intake matter.
+</div>
+
+---
+
+<h2 class="section-divider small" id="pregnancy-lactation-pediatric-high-yield-review">Pregnancy, Lactation, Infant, and Pediatric Nutrition: High-Yield Review</h2>
+
+| Topic                       | What ATI Wants You to Remember                                            |
+| --------------------------- | ------------------------------------------------------------------------- |
+| **Pregnancy weight gain**   | Based on prepregnancy BMI                                                 |
+| **Underweight pregnancy**   | May gain up to about 40 lb                                                |
+| **Pregnancy protein**       | Needs increase for fetal and maternal tissue growth                       |
+| **Pregnancy iron**          | 30 mg/day to reduce iron-deficiency anemia risk                           |
+| **Folate**                  | Prevents neural tube defects; supports RBC formation                      |
+| **Hyperemesis**             | Risk for dehydration, electrolyte imbalance, weight loss, and poor intake |
+| **Breastfeeding frequency** | On demand, usually 8 to 12 times/day                                      |
+| **First day breastfeeding** | Newborn may nurse about 5 min on each breast                              |
+| **Early breastfeeding**     | Avoid unnecessary formula, water, and artificial nipples                  |
+| **Thawed breast milk**      | Use within 24 hr; do not refreeze                                         |
+| **Breast milk thawing**     | Thaw in refrigerator or warm running water; no microwave                  |
+| **Milk left in bottle**     | Discard after feeding                                                     |
+| **Infant birth weight**     | Regained by about 2 weeks                                                 |
+| **Infant 1-year growth**    | Triples birth weight; length increases by about 50%                       |
+| **Solid foods**             | Introduce one new food every 3 to 5 days                                  |
+| **Cleft lip feeding**       | One-way valve bottle, high-flow nipple, cheek support, frequent burping   |
+| **Children/adolescents**    | Choose lower-fat, lower-saturated-fat, nutrient-dense options             |
+
+<h2 class="section-divider" id="older-adult-nutrition">Older Adult Nutrition</h2>
+
+Older adult nutrition questions on ATI usually focus on **decreased calorie needs, increased protein needs, hydration risk, vitamin D and calcium, dementia-related poor intake, and barriers to eating safely**.
+
+Older adults may need fewer calories, but they still need nutrient-dense foods, adequate protein, fluids, vitamins, and minerals.
+
+---
+
+## Older Adult Nutrition: Big Picture
+
+| Issue                       | Nutrition Concern                        | Nursing Focus                                |
+| --------------------------- | ---------------------------------------- | -------------------------------------------- |
+| **Decreased calorie needs** | Metabolism and activity may decrease     | Choose nutrient-dense foods                  |
+| **Protein needs**           | Needed for muscle, immunity, and healing | Encourage adequate protein unless restricted |
+| **Hydration risk**          | Thirst response may decrease             | Offer fluids intentionally                   |
+| **Vitamin D and calcium**   | Bone health and fracture prevention      | Supplement/food teaching as prescribed       |
+| **Dementia**                | May forget to eat or have poor intake    | Screening, supervision, easy-to-eat foods    |
+| **After surgery**           | Healing increases nutrition needs        | Adequate calories and protein                |
+
+<div class="nclex">
+For ATI, do not assume older adults need “less nutrition.” They may need <strong>fewer calories</strong>, but they still need enough <strong>protein, fluids, vitamins, and minerals</strong>.
+</div>
+
+---
+
+<h2 class="section-divider small" id="older-adult-protein-needs">Older Adult Protein Needs</h2>
+
+Protein helps maintain muscle mass, strength, immune function, and skin integrity.
+
+ATI noted general protein recommendations for older adults:
+
+| Older Adult Condition        | Protein Need                  |
+| ---------------------------- | ----------------------------- |
+| **Healthy older adult**      | About **1 to 1.2 g/kg/day**   |
+| **Chronic or acute illness** | About **1.2 to 1.5 g/kg/day** |
+
+Protein needs may be higher with illness, wounds, surgery, infection, or frailty, unless another condition such as kidney disease requires restriction.
+
+<div class="nclex">
+ATI connected older adult nutrition with <strong>1 to 1.2 g/kg/day</strong> protein for healthy older adults and <strong>1.2 to 1.5 g/kg/day</strong> for chronic or acute illness.
+</div>
+
+---
+
+<h2 class="section-divider small" id="older-adults-after-surgery">Older Adults After Surgery</h2>
+
+After surgery, older adults need adequate calories and protein to support healing and recovery.
+
+ATI noted that older adults after surgery may need at least **1,500 kcal/day**, depending on needs and provider/dietitian recommendations.
+
+<div class="danger">
+ATI noted that intake around <strong>1,000 kcal below estimated needs</strong> is not enough and can increase risk for poor healing and malnutrition.
+</div>
+
+### Nursing focus after surgery
+
+* Monitor meal intake.
+* Monitor weight.
+* Encourage protein if appropriate.
+* Encourage nutrient-dense foods.
+* Monitor wound healing.
+* Collaborate with dietitian if intake is poor.
+* Address nausea, pain, constipation, or fatigue that limits intake.
+
+---
+
+<h2 class="section-divider small" id="calcium-and-vitamin-d-in-older-adults">Calcium and Vitamin D in Older Adults</h2>
+
+Calcium and vitamin D are important for bone health. Older adults are at risk for bone loss, falls, fractures, and vitamin D deficiency.
+
+Vitamin D helps the body absorb calcium.
+
+---
+
+## Vitamin D Teaching
+
+Older adults may need vitamin D supplementation because the skin becomes less efficient at making vitamin D from sunlight.
+
+ATI noted a common vitamin D supplementation range of **1,000 to 2,000 IU/day**, depending on provider recommendation.
+
+<div class="nclex">
+ATI connected older adult nutrition with <strong>vitamin D 1,000 to 2,000 IU/day</strong> when supplementation is recommended.
+</div>
+
+---
+
+## Calcium Carbonate
+
+Calcium carbonate should be taken with meals because food improves absorption.
+
+<div class="nclex">
+ATI noted that <strong>calcium carbonate</strong> should be taken <strong>with meals</strong>.
+</div>
+
+---
+
+<h2 class="section-divider small" id="hydration-in-older-adults">Hydration in Older Adults</h2>
+
+Older adults are at increased risk for dehydration. They may have a decreased thirst response, take medications that affect fluid balance, or avoid drinking fluids due to urinary concerns.
+
+---
+
+## Why Dehydration Happens
+
+Older adults may drink less because of:
+
+* Decreased thirst
+* Fear of incontinence
+* Difficulty getting drinks
+* Confusion or dementia
+* Diuretics
+* Fever or infection
+* Vomiting or diarrhea
+* Poor appetite
+* Limited mobility
+
+### Dehydration cues
+
+* Dry mucous membranes
+* Poor skin turgor
+* Dark urine
+* Decreased urine output
+* Dizziness
+* Orthostatic hypotension
+* Confusion
+* Weakness
+
+<div class="danger">
+In older adults, dehydration can show up as <strong>confusion, weakness, dizziness, or falls</strong>.
+</div>
+
+---
+
+<h2 class="section-divider small" id="dementia-and-nutrition">Dementia and Nutrition</h2>
+
+Clients with dementia are at risk for poor nutrition because they may forget to eat, become distracted, have difficulty recognizing food, or have trouble using utensils.
+
+They may also have wandering or increased activity, which can increase calorie needs.
+
+---
+
+## Dementia Nutrition Interventions
+
+### Nursing care
+
+* Provide a calm meal environment.
+* Reduce distractions.
+* Offer finger foods if utensils are difficult.
+* Offer small frequent meals or snacks.
+* Use familiar foods when possible.
+* Provide assistance or supervision.
+* Monitor weight.
+* Monitor hydration.
+* Watch for swallowing problems.
+* Keep meals simple and structured.
+
+<div class="note">
+For dementia, nutrition teaching is not just “offer healthy foods.” The nurse must make eating easier, safer, and more consistent.
+</div>
+
+---
+
+<h2 class="section-divider small" id="older-adult-nutrition-high-yield-review">Older Adult Nutrition: High-Yield Review</h2>
+
+| Topic                        | What ATI Wants You to Remember                                         |
+| ---------------------------- | ---------------------------------------------------------------------- |
+| **Older adults**             | Need fewer calories but nutrient-dense foods                           |
+| **Older adult protein**      | Healthy: 1 to 1.2 g/kg/day; chronic/acute illness: 1.2 to 1.5 g/kg/day |
+| **Post-surgery older adult** | Needs adequate intake; at least 1,500 kcal/day may be needed           |
+| **Vitamin D**                | Older adults may need 1,000 to 2,000 IU/day                            |
+| **Calcium carbonate**        | Take with meals                                                        |
+| **Hydration**                | Older adults are at risk for dehydration and may not feel thirsty      |
+| **Dementia**                 | Screen for poor intake; reduce distractions and assist with meals      |
+
+<h2 class="section-divider" id="cultural-considerations-and-special-diets">Cultural Considerations and Special Diets</h2>
+
+Cultural considerations and special diet questions focus on **respecting the client’s food practices, avoiding assumptions, identifying nutrition risks, and adapting the diet plan safely**.
+
+The nurse does not need to memorize every food rule for every culture or religion. The most important nursing skill is to **ask the client what they personally follow**, because practices vary widely between individuals, families, communities, and levels of observance.
+
+<div class="nclex">
+Culturally respectful nutrition care means: <strong>ask first, avoid assumptions, respect beliefs, and individualize the nutrition plan</strong>.
+</div>
+
+---
+
+## Cultural and Religious Nutrition: Big Picture
+
+Food choices may be influenced by:
+
+* Religion
+* Culture
+* Family traditions
+* Fasting practices
+* Ethical beliefs
+* Health beliefs
+* Food access
+* Income
+* Cooking ability
+* Who prepares food at home
+* Preferred flavors, textures, and meal patterns
+
+The nurse should not assume that every client from a certain background follows the same diet. Instead, ask what the client actually eats, avoids, or values.
+
+---
+
+## Nursing Approach to Cultural and Religious Diets
+
+### Nursing care
+
+* Ask about preferred foods.
+* Ask about foods the client avoids.
+* Ask about fasting practices.
+* Ask about religious restrictions.
+* Ask who prepares meals at home.
+* Ask whether the client wants family involved in teaching.
+* Avoid assuming dietary practices based only on culture or religion.
+* Collaborate with a dietitian if the diet is complex.
+* Adapt teaching to fit the client’s usual foods when possible.
+* Respect beliefs while still addressing safety risks.
+
+<div class="note">
+The best nursing response is usually not “you can’t eat that.” It is: <strong>“Tell me what foods you usually eat so we can make the plan work safely.”</strong>
+</div>
+
+---
+
+<h2 class="section-divider small" id="religious-dietary-practices-quick-review">Religious Dietary Practices: Quick Review</h2>
+
+Religious dietary practices vary by individual. Some clients follow strict rules, some follow only certain practices, and some do not follow dietary restrictions at all.
+
+| Religion / Group                                         | Common Diet Practices                                                                                       | Nursing Considerations                                                                           |
+| -------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
+| **Islam / Muslim**                                       | Halal foods; avoidance of pork and alcohol; fasting during Ramadan for many adults                          | Ask about halal needs, pork/alcohol avoidance, medication ingredients, and fasting safety        |
+| **Judaism / Jewish**                                     | Kosher diet; separation of meat and dairy; avoidance of pork and shellfish; specific food preparation rules | Ask about kosher meals, meat/dairy separation, acceptable foods, and level of observance         |
+| **Hinduism / Hindu**                                     | Many avoid beef; some are vegetarian; fasting may occur on certain days or festivals                        | Ask about beef avoidance, vegetarian practices, dairy use, fasting, and protein alternatives     |
+| **Buddhism / Buddhist**                                  | Some are vegetarian or vegan; some avoid alcohol; fasting may vary                                          | Ask about vegetarian practices, fasting, and preferred protein sources                           |
+| **Sikhism / Sikh**                                       | Many avoid halal/kosher-slaughtered meat; some are vegetarian; alcohol/tobacco often avoided                | Ask about meat preferences, vegetarian practices, and acceptable protein choices                 |
+| **Seventh-day Adventist**                                | Many follow vegetarian diets; some avoid pork, shellfish, alcohol, caffeine, and highly processed foods     | Assess B12, iron, protein, calcium, and vitamin D if diet is restrictive                         |
+| **Catholic Christianity**                                | Some avoid meat on Fridays during Lent; fasting/abstinence may occur during certain religious seasons       | Ask about fasting or meat restrictions during Lent and help plan safe alternatives               |
+| **Eastern Orthodox Christianity**                        | Some fast from meat, dairy, eggs, oil, or alcohol during religious periods                                  | Assess protein, iron, B12, calcium, and overall intake during fasting periods                    |
+| **Church of Jesus Christ of Latter-day Saints / Mormon** | Avoid alcohol, coffee, and tea; some avoid caffeine                                                         | Ask about beverage restrictions and medication/supplement preferences                            |
+| **Jehovah’s Witness**                                    | Refusal of blood products is central; no major universal diet restriction                                   | Nutrition teaching is usually standard, but clarify blood-product concerns in treatment planning |
+| **Rastafarian**                                          | Some follow Ital diet; may avoid processed foods, meat, pork, shellfish, alcohol, and additives             | Ask about accepted foods and ensure adequate protein, B12, iron, and calories                    |
+| **Jainism / Jain**                                       | Strict vegetarianism; many avoid root vegetables; strong focus on nonviolence                               | Assess protein, iron, B12, calcium, vitamin D, and acceptable food options                       |
+| **Baha’i Faith**                                         | Fasting may occur during specific periods; no major universal food restrictions                             | Ask about fasting, hydration, medication timing, and medical exemptions                          |
+| **Traditional Indigenous practices**                     | Traditional foods may be important culturally; practices vary widely by tribe/community                     | Ask about preferred traditional foods and avoid assuming one pattern applies to all clients      |
+
+<div class="danger">
+Do not stereotype. A client’s religion or culture gives you a reason to <strong>ask better questions</strong>, not a reason to assume their diet.
+</div>
+
+---
+
+<h2 class="section-divider small" id="common-cultural-food-patterns">Common Cultural Food Patterns</h2>
+
+Cultural food patterns can affect how a client understands “healthy eating.” The nurse should adapt teaching to the client’s usual foods instead of giving generic meal plans that do not fit their life.
+
+| Cultural Pattern / Preference                   | Possible Nutrition Consideration                                    | Nursing Focus                                                |
+| ----------------------------------------------- | ------------------------------------------------------------------- | ------------------------------------------------------------ |
+| **Rice-based meals**                            | Carbohydrate portions may affect glucose control                    | Teach portion sizes and balance with protein/vegetables      |
+| **Tortillas, beans, rice, corn-based meals**    | Can be nutritious but portions and preparation matter               | Encourage fiber, lean protein, and lower-fat preparation     |
+| **High-sodium cured, canned, or pickled foods** | May worsen hypertension, heart failure, or kidney disease           | Teach lower-sodium versions and label reading                |
+| **Fried foods or high-fat traditional foods**   | May affect heart disease, gallbladder disease, or weight management | Modify cooking methods without eliminating cultural foods    |
+| **Spicy foods**                                 | May irritate mouth sores, reflux, or GI symptoms in some clients    | Avoid only if symptomatic or contraindicated                 |
+| **Dairy avoidance or lactose intolerance**      | May reduce calcium/vitamin D intake                                 | Offer lactose-free or fortified alternatives                 |
+| **Family-style eating**                         | Food choices may be made by family or household cook                | Include family in teaching if the client wants               |
+| **Use of herbal/traditional remedies**          | May interact with medications or affect safety                      | Ask nonjudgmentally and notify provider/pharmacist if needed |
+
+<div class="note">
+A culturally realistic diet plan is more likely to work than a “perfect” diet plan the client will not eat.
+</div>
+
+---
+
+<h2 class="section-divider small" id="fasting-and-nutrition-safety">Fasting and Nutrition Safety</h2>
+
+Some clients fast for religious, cultural, or personal reasons. Fasting can affect nutrition, hydration, glucose levels, and medication timing.
+
+Fasting may require special planning for clients who have:
+
+* Diabetes
+* Pregnancy
+* Kidney disease
+* Heart failure
+* Eating disorders
+* Older adult frailty
+* Dehydration risk
+* Medications that must be taken with food
+* Medications that affect glucose or fluid balance
+
+---
+
+## Nursing Focus for Fasting Clients
+
+### Nursing care
+
+* Ask whether the client plans to fast.
+* Assess health risks related to fasting.
+* Encourage discussion with the provider before fasting if the client has a high-risk condition.
+* Plan hydration during non-fasting hours if appropriate.
+* Coordinate medication timing with the provider.
+* Monitor glucose if the client has diabetes.
+* Teach when fasting should be broken for safety if applicable.
+* Respect beliefs while promoting safety.
+
+<div class="danger">
+Fasting can become unsafe if the client develops <strong>hypoglycemia, dehydration, dizziness, confusion, vomiting, or worsening illness</strong>.
+</div>
+
+---
+
+## Ramadan Fasting
+
+During Ramadan, many Muslim clients fast from dawn to sunset. This can affect meal timing, hydration, medication schedules, and blood glucose control.
+
+### Nursing focus
+
+* Ask whether the client plans to fast.
+* Assess whether fasting is medically safe.
+* Discuss hydration during non-fasting hours.
+* Coordinate medication timing with the provider.
+* Monitor glucose if the client has diabetes.
+* Teach signs that fasting should be broken for safety if applicable.
+* Respect the client’s beliefs while helping them plan safely.
+
+<div class="note">
+Ramadan is one example of a fasting practice. Do not assume every Muslim client fasts, and do not assume fasting is safe or unsafe without assessing the individual client.
+</div>
+
+---
+
+## Other Fasting Practices
+
+Fasting is not limited to Ramadan. Clients from several religious or cultural backgrounds may fast or avoid certain foods during specific days or seasons.
+
+| Practice                       | Possible Concern                                              | Nursing Focus                                                       |
+| ------------------------------ | ------------------------------------------------------------- | ------------------------------------------------------------------- |
+| **Lent / Christian fasting**   | Meat avoidance or reduced intake                              | Help choose protein alternatives                                    |
+| **Orthodox Christian fasting** | Avoidance of meat, dairy, eggs, or oil during fasting periods | Monitor protein, calcium, B12, and calories                         |
+| **Hindu fasting**              | May limit certain foods or meal timing                        | Ask what foods are allowed and assess safety                        |
+| **Buddhist fasting**           | May involve vegetarian eating or meal timing changes          | Assess intake and medication timing                                 |
+| **Baha’i fasting**             | Daytime fasting during specific period                        | Assess hydration, medications, diabetes, pregnancy, or illness risk |
+| **Personal/health fasting**    | May reduce calories, fluids, or medication safety             | Assess for hypoglycemia, dehydration, and eating disorder risk      |
+
+---
+
+<h2 class="section-divider small" id="food-restrictions-and-alternative-choices">Food Restrictions and Alternative Choices</h2>
+
+If a client avoids certain foods for cultural, religious, ethical, or personal reasons, the nurse should help identify alternatives that still meet nutrition needs.
+
+| If the Client Avoids...       | Nursing Focus                                                                       |
+| ----------------------------- | ----------------------------------------------------------------------------------- |
+| **Pork**                      | Offer poultry, fish, eggs, beans, dairy, soy, nuts, or seeds if acceptable          |
+| **Beef**                      | Offer poultry, fish, eggs, dairy, beans, lentils, soy, nuts, or seeds if acceptable |
+| **All meat**                  | Assess protein, iron, B12, zinc, and calorie intake                                 |
+| **All animal products**       | Assess B12, calcium, vitamin D, iron, zinc, protein, and omega-3 intake             |
+| **Alcohol**                   | Check liquid medications, extracts, mouthwashes, or supplements if relevant         |
+| **Caffeine**                  | Offer non-caffeinated fluids and assess headache/withdrawal if abrupt change        |
+| **Dairy**                     | Offer lactose-free or fortified non-dairy alternatives                              |
+| **Certain food combinations** | Help plan meals that fit the prescribed diet and the client’s beliefs               |
+
+<div class="nclex">
+The nurse should provide <strong>acceptable alternatives</strong>, not force the client to eat foods that conflict with their beliefs.
+</div>
+
+---
+
+<h2 class="section-divider small" id="vegetarian-and-vegan-nutrition">Vegetarian and Vegan Nutrition</h2>
+
+Vegetarian and vegan diets can be healthy when planned well. The more restrictive the diet, the more important planning becomes.
+
+---
+
+## Vegetarian Diet Types
+
+| Diet Type                | Usually Includes                                     | Usually Avoids             |
+| ------------------------ | ---------------------------------------------------- | -------------------------- |
+| **Lacto-ovo vegetarian** | Plant foods, dairy, eggs                             | Meat, poultry, fish        |
+| **Lacto-vegetarian**     | Plant foods, dairy                                   | Meat, poultry, fish, eggs  |
+| **Ovo-vegetarian**       | Plant foods, eggs                                    | Meat, poultry, fish, dairy |
+| **Pescatarian**          | Plant foods and fish/seafood; may include dairy/eggs | Meat and poultry           |
+| **Vegan**                | Plant foods only                                     | All animal products        |
+
+---
+
+## Nutrients to Watch in Vegetarian Diets
+
+| Nutrient                | Why It Matters                   | Food Sources / Teaching                                                        |
+| ----------------------- | -------------------------------- | ------------------------------------------------------------------------------ |
+| **Protein**             | Muscle, healing, immunity        | Beans, lentils, soy, nuts, seeds, dairy/eggs if included                       |
+| **Vitamin B12**         | RBC formation and nerve function | Found naturally in animal products; vegans may need fortified foods/supplement |
+| **Iron**                | Hemoglobin and oxygen transport  | Beans, lentils, fortified grains, leafy greens; take with vitamin C            |
+| **Calcium**             | Bone health                      | Dairy if included, fortified plant milks, calcium-set tofu, greens             |
+| **Vitamin D**           | Calcium absorption               | Fortified foods or supplement if prescribed                                    |
+| **Zinc**                | Immune function and healing      | Beans, nuts, seeds, whole grains                                               |
+| **Omega-3 fatty acids** | Heart and neurologic health      | Flaxseed, chia, walnuts, fortified foods, algae-based DHA if vegan             |
+
+<div class="nclex">
+For vegetarian diet questions, watch possible gaps like <strong>vitamin B12, iron, calcium, vitamin D, protein, zinc, and omega-3 fatty acids</strong>.
+</div>
+
+---
+
+## Complete Protein and Vegetarian Diets
+
+Animal proteins are usually complete proteins. Plant proteins are often incomplete proteins, but they can still support adequate nutrition when the diet is varied.
+
+Examples of plant proteins include:
+
+* Beans
+* Lentils
+* Peanut butter
+* Whole grains
+* Nuts
+* Seeds
+* Soy foods
+
+<div class="note">
+A vegetarian diet is not automatically protein-deficient. The nurse should assess whether the client is eating enough varied protein sources.
+</div>
+
+---
+
+## Vitamin B12 and Vegan Diets
+
+Vitamin B12 is found naturally in animal products. Clients who follow a vegan diet may need fortified foods or supplements.
+
+Low vitamin B12 can cause anemia and neurologic symptoms.
+
+### Teaching points
+
+* Use fortified foods if vegan.
+* Take B12 supplements if prescribed.
+* Report numbness, tingling, fatigue, weakness, or memory changes.
+* Monitor labs if ordered.
+
+<div class="danger">
+A strict vegan diet without fortified foods or supplementation can increase risk for <strong>vitamin B12 deficiency</strong>.
+</div>
+
+---
+
+<h2 class="section-divider small" id="traditional-remedies-and-supplements">Traditional Remedies and Supplements</h2>
+
+Some clients use herbal remedies, teas, supplements, or traditional healing foods. These may be important to the client and should be discussed respectfully.
+
+The nurse should not shame the client or dismiss the practice. The nurse should assess safety.
+
+---
+
+## Nursing Assessment
+
+Ask:
+
+* “Do you use any herbal remedies, teas, supplements, or traditional medicines?”
+* “How often do you use them?”
+* “What are you using them for?”
+* “Do you take them with your prescribed medications?”
+* “Would you be willing to discuss them with the provider or pharmacist to make sure they are safe?”
+
+<div class="danger">
+Some herbs and supplements can interact with medications, affect bleeding risk, alter glucose, or worsen kidney/liver problems.
+</div>
+
+---
+
+<h2 class="section-divider small" id="food-access-and-functional-barriers">Food Access and Functional Barriers</h2>
+
+Nutrition problems are not always caused by lack of knowledge. Some clients know what to eat but cannot access, prepare, chew, swallow, afford, or remember meals.
+
+---
+
+## Barriers to Adequate Intake
+
+| Barrier                   | Nursing Concern                                     |
+| ------------------------- | --------------------------------------------------- |
+| Limited income            | May not afford nutrient-dense foods                 |
+| Limited transportation    | May not get groceries consistently                  |
+| Dental problems           | May avoid protein foods or fresh produce            |
+| Difficulty swallowing     | Aspiration risk and poor intake                     |
+| Limited mobility          | May not shop or cook easily                         |
+| Depression                | May reduce appetite and motivation                  |
+| Cognitive impairment      | May forget meals or eat unsafely                    |
+| Social isolation          | May reduce meal preparation and intake              |
+| Lack of cooking equipment | May limit ability to follow diet teaching           |
+| Language barriers         | May affect understanding of labels or instructions  |
+| Health literacy barriers  | May affect medication-food safety and diet planning |
+
+<div class="danger">
+If the client’s intake is poor, do not assume they “just need teaching.” Assess the barrier.
+</div>
+
+---
+
+## Nursing Interventions
+
+### Possible interventions
+
+* Refer to dietitian.
+* Refer to social services if food access is limited.
+* Suggest easy-to-prepare nutrient-dense foods.
+* Encourage meal delivery programs if available.
+* Address dental or swallowing issues.
+* Encourage assistance with shopping or cooking.
+* Provide teaching in the client’s preferred language when possible.
+* Use interpreter services when needed.
+* Monitor weight trends.
+* Assess depression or cognitive changes.
+
+<div class="note">
+A nutrition plan only works if the client can realistically follow it.
+</div>
+
+---
+
+<h2 class="section-divider small" id="cultural-special-diets-high-yield-review">Cultural Considerations and Special Diets: High-Yield Review</h2>
+
+| Topic                             | What to Remember                                                                                         |
+| --------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| **Best nursing approach**         | Ask first, avoid assumptions, respect beliefs, and individualize teaching                                |
+| **Islam / Muslim**                | Halal diet; may avoid pork/alcohol; Ramadan fasting may affect hydration, glucose, and medication timing |
+| **Judaism / Jewish**              | Kosher diet; may avoid pork/shellfish and separate meat/dairy                                            |
+| **Hinduism / Hindu**              | Many avoid beef; some are vegetarian; fasting may occur                                                  |
+| **Buddhism / Buddhist**           | Some are vegetarian/vegan or avoid alcohol; practices vary                                               |
+| **Sikhism / Sikh**                | Some vegetarian; some avoid halal/kosher-slaughtered meat                                                |
+| **Seventh-day Adventist**         | Many vegetarian; may avoid pork, shellfish, alcohol, caffeine                                            |
+| **Catholic / Orthodox Christian** | Fasting or meat/dairy restrictions may occur during religious periods                                    |
+| **LDS / Mormon**                  | Avoid alcohol, coffee, and tea                                                                           |
+| **Jainism / Jain**                | Strict vegetarianism; may avoid root vegetables                                                          |
+| **Rastafarian**                   | Some follow Ital diet and avoid processed foods, pork, shellfish, or additives                           |
+| **Vegetarian diets**              | Watch protein, iron, B12, calcium, vitamin D, zinc                                                       |
+| **Vegan diets**                   | B12 needs fortified foods or supplementation                                                             |
+| **Fasting**                       | Assess diabetes, pregnancy, kidney disease, medications, hydration, and safety                           |
+| **Food access**                   | Assess affordability, transportation, ability to shop/cook, language, and functional barriers            |
+<h2 class="section-divider" id="enteral-and-parenteral-nutrition">Enteral and Parenteral Nutrition</h2>
+
+Enteral and parenteral nutrition questions on ATI usually focus on **route of nutrition, aspiration risk, tube feeding safety, feeding intolerance, diarrhea, residuals, TPN complications, glucose changes, electrolyte shifts, and line safety**.
+
+These questions are high-yield because nutrition support can cause serious complications if the nurse does not monitor the client closely.
+
+---
+
+## Enteral and Parenteral Nutrition: Big Picture
+
+Nutrition support is used when the client cannot meet nutrition needs through regular oral intake.
+
+| Type                     | Route          | When It Is Used                                                            |
+| ------------------------ | -------------- | -------------------------------------------------------------------------- |
+| **Enteral nutrition**    | GI tract       | Client has a working GI tract but cannot eat enough by mouth               |
+| **Parenteral nutrition** | IV bloodstream | Client cannot use the GI tract or cannot absorb enough nutrients enterally |
+
+<div class="nclex">
+For ATI, the big difference is: <strong>enteral nutrition uses the GI tract; parenteral nutrition bypasses the GI tract</strong>.
+</div>
+
+---
+
+<h2 class="section-divider small" id="enteral-nutrition">Enteral Nutrition</h2>
+
+Enteral nutrition means nutrition is delivered into the GI tract through a feeding tube.
+
+It may be given through:
+
+* Nasogastric tube
+* Nasoenteric tube
+* Gastrostomy tube
+* Jejunostomy tube
+
+Enteral feeding is preferred when the GI tract works because it helps maintain gut function and is usually safer than parenteral nutrition.
+
+---
+
+## When Enteral Nutrition May Be Needed
+
+Enteral nutrition may be used when the client:
+
+* Cannot swallow safely
+* Has poor oral intake
+* Has neurologic impairment
+* Has severe weakness
+* Needs long-term nutrition support
+* Cannot meet calorie/protein needs by mouth
+* Has a functioning GI tract
+
+<div class="note">
+If the GI tract works, nutrition through the GI tract is usually preferred over IV nutrition.
+</div>
+
+---
+
+## Enteral Feeding Methods
+
+Enteral feedings may be given in different ways depending on the client’s tolerance, aspiration risk, and nutrition needs.
+
+| Feeding Method           | What It Means                              | ATI Focus                                             |
+| ------------------------ | ------------------------------------------ | ----------------------------------------------------- |
+| **Continuous feeding**   | Formula runs slowly over many hours        | Often used for poor tolerance or high aspiration risk |
+| **Intermittent feeding** | Feeding is given several times per day     | More like scheduled meals                             |
+| **Bolus feeding**        | Larger amount is given over a shorter time | Higher risk for intolerance if given too quickly      |
+
+---
+
+## Intermittent Enteral Feedings
+
+Intermittent enteral feedings are given at scheduled times instead of continuously all day.
+
+The nurse should monitor tolerance closely because the client receives a larger amount at once compared with continuous feeding.
+
+### Nursing focus
+
+* Verify tube placement before feeding according to facility policy.
+* Keep the head of bed elevated.
+* Give feeding at prescribed rate.
+* Monitor for nausea, vomiting, cramping, diarrhea, and distention.
+* Flush the tube as prescribed.
+* Monitor intake and output.
+* Monitor weight.
+* Monitor blood glucose if indicated.
+
+<div class="nclex">
+ATI may connect intermittent feedings with intolerance if the feeding is given too fast or the client cannot tolerate the volume.
+</div>
+
+---
+
+<h2 class="section-divider small" id="enteral-feeding-placement-and-positioning">Enteral Feeding Placement and Positioning</h2>
+
+Tube placement and positioning are priority safety concerns because formula can enter the lungs if the tube is displaced or if the client aspirates.
+
+---
+
+## Initial Tube Placement
+
+Before initiating enteral feedings, tube placement must be verified.
+
+The most reliable method for initial placement verification is an X-Ray.
+
+<div class="danger">
+ATI noted that tube placement should be verified by <strong>X-Ray before initiating feedings</strong>.
+</div>
+
+X-Rays are not repeated before every feeding unless there is a reason to suspect displacement, such as coughing, choking, tube movement, respiratory distress, or change in external tube length.
+
+---
+
+## Head of Bed Elevation
+
+The head of bed should be elevated during tube feedings to reduce aspiration risk.
+
+### Teaching and nursing care
+
+* Keep HOB at least 30 to 45 degrees during feeding.
+* Keep HOB elevated after feeding as prescribed.
+* Do not lay the client flat during feeding.
+* Stop feeding and assess if aspiration is suspected.
+
+<div class="nclex">
+ATI noted that the head of bed should be elevated <strong>30 to 45 degrees during feeding and for about 1 hr after feeding</strong>.
+</div>
+
+---
+
+## Aspiration Risk With Tube Feedings
+
+Aspiration occurs when formula or gastric contents enter the airway.
+
+### Signs of possible aspiration
+
+* Coughing
+* Choking
+* Gagging
+* Wet respirations
+* Crackles
+* Dyspnea
+* Oxygen desaturation
+* Fever later if aspiration pneumonia develops
+
+<div class="danger">
+With enteral feedings, respiratory symptoms are always a priority because they may indicate <strong>aspiration</strong>.
+</div>
+
+---
+
+<h2 class="section-divider small" id="gastric-residuals-and-feeding-tolerance">Gastric Residuals and Feeding Tolerance</h2>
+
+Gastric residuals may be checked according to facility policy and provider order. Residuals can give information about delayed gastric emptying and feeding tolerance.
+
+A high residual can mean the stomach is not emptying well. This increases the risk for regurgitation and aspiration.
+
+---
+
+## What Gastric Residuals Can Mean
+
+| Finding                   | Possible Meaning                            |
+| ------------------------- | ------------------------------------------- |
+| **Large residual volume** | Delayed gastric emptying                    |
+| **Nausea or vomiting**    | Feeding intolerance                         |
+| **Abdominal distention**  | Poor tolerance or slowed motility           |
+| **Cramping**              | Feeding intolerance or rapid administration |
+| **Aspiration signs**      | Possible regurgitation/aspiration           |
+
+<div class="nclex">
+ATI connected gastric residuals with <strong>delayed gastric emptying</strong> and increased aspiration risk.
+</div>
+
+---
+
+## If Feeding Intolerance Occurs
+
+The nurse should assess the client and follow facility policy/provider orders.
+
+Possible nursing actions include:
+
+* Stop or hold the feeding if indicated by policy/order.
+* Assess bowel sounds if appropriate.
+* Assess abdominal distention.
+* Assess nausea, vomiting, or cramping.
+* Check tube placement.
+* Keep HOB elevated.
+* Notify provider if intolerance persists or is severe.
+
+<div class="danger">
+Nausea, vomiting, distention, or high residuals during tube feeding require follow-up because they can increase aspiration risk.
+</div>
+
+---
+
+<h2 class="section-divider small" id="diarrhea-with-enteral-feedings">Diarrhea With Enteral Feedings</h2>
+
+Diarrhea is a common complication of enteral feedings.
+
+ATI may test what the nurse should do if a client develops diarrhea during tube feeding. One common cause is the feeding running too fast.
+
+---
+
+## Causes of Diarrhea With Enteral Feedings
+
+| Cause                 | Why It Happens                                |
+| --------------------- | --------------------------------------------- |
+| Feeding rate too fast | GI tract cannot tolerate formula speed        |
+| Formula intolerance   | Client may not tolerate formula type          |
+| Medication effects    | Liquid meds or antibiotics can cause diarrhea |
+| Contamination         | Poor handling can introduce bacteria          |
+| Low fiber formula     | May contribute depending on client needs      |
+| Infection or illness  | May cause diarrhea unrelated to formula       |
+
+<div class="nclex">
+ATI connected diarrhea during enteral feeding with a feeding rate that is too fast. The nurse may need to <strong>decrease the rate</strong> as prescribed or according to protocol.
+</div>
+
+---
+
+## Nursing Focus for Diarrhea
+
+### Nursing care
+
+* Assess stool amount, frequency, and consistency.
+* Assess hydration.
+* Monitor electrolytes if ordered.
+* Review feeding rate.
+* Review formula type.
+* Review medications.
+* Maintain skin care.
+* Follow facility protocol/provider orders for rate changes.
+* Do not automatically stop nutrition unless indicated.
+
+<div class="danger">
+Diarrhea can cause <strong>fluid volume deficit</strong>, electrolyte imbalance, and skin breakdown.
+</div>
+
+---
+
+<h2 class="section-divider small" id="tube-flushing-and-medications">Tube Flushing and Medications</h2>
+
+Tube patency is important because clogged feeding tubes can interrupt nutrition and medication delivery.
+
+Water flushes help keep the tube clear.
+
+---
+
+## Flushing the Feeding Tube
+
+The nurse should flush the tube as prescribed and according to facility policy.
+
+ATI noted flushing with about **30 to 50 mL** of water before and after medications to maintain patency.
+
+<div class="nclex">
+ATI noted that feeding tubes may be flushed with <strong>30 to 50 mL water before and after medication administration</strong> to maintain patency.
+</div>
+
+---
+
+## Medication Administration Through Feeding Tubes
+
+Medication administration through feeding tubes requires caution.
+
+### Nursing care
+
+* Verify that medications can be crushed or given through the tube.
+* Do not crush enteric-coated or extended-release medications.
+* Give medications one at a time.
+* Flush before, between, and after medications as prescribed.
+* Use liquid medications when appropriate.
+* Monitor for diarrhea from sorbitol-containing liquid medications.
+* Pause feeding if required for medication absorption.
+
+<div class="danger">
+Do not crush enteric-coated or extended-release medications for feeding tube administration.
+</div>
+
+---
+
+<h2 class="section-divider small" id="parenteral-nutrition">Parenteral Nutrition</h2>
+
+Parenteral nutrition delivers nutrients directly into the bloodstream through an IV line.
+
+It is used when the GI tract cannot be used or cannot absorb enough nutrition.
+
+Parenteral nutrition may be partial or total.
+
+| Type    | Meaning                                                                                              |
+| ------- | ---------------------------------------------------------------------------------------------------- |
+| **PPN** | Partial parenteral nutrition; usually less concentrated and may be given peripherally                |
+| **TPN** | Total parenteral nutrition; provides most or all nutrition needs and usually requires central access |
+
+<div class="nclex">
+TPN bypasses the GI tract and delivers nutrients directly into the bloodstream, so complications can happen quickly.
+</div>
+
+---
+
+## When TPN May Be Needed
+
+TPN may be used for clients who cannot use the GI tract adequately.
+
+Examples may include:
+
+* Severe malabsorption
+* Bowel obstruction
+* Severe pancreatitis when enteral feeding is not tolerated
+* Short bowel syndrome
+* Severe inflammatory bowel disease with inability to absorb
+* Prolonged inability to eat or absorb nutrients
+* Major GI surgery with inability to use the gut
+
+<div class="note">
+TPN is not used just because a client dislikes hospital food. It is used when the GI tract cannot meet nutrition needs.
+</div>
+
+---
+
+## TPN Line Safety
+
+TPN is usually given through a central venous catheter because it is hypertonic.
+
+Central lines increase the risk for bloodstream infection, so sterile technique and line care are critical.
+
+### Nursing focus
+
+* Use aseptic technique.
+* Monitor insertion site.
+* Monitor temperature.
+* Monitor for signs of infection.
+* Use the dedicated line/lumen if required.
+* Do not use the TPN line for other medications unless allowed by policy.
+* Change tubing and dressing according to policy.
+* Monitor for venous thrombosis.
+
+<div class="danger">
+TPN through central access increases risk for <strong>infection and venous thrombosis</strong>.
+</div>
+
+---
+
+<h2 class="section-divider small" id="tpn-glucose-complications">TPN Glucose Complications</h2>
+
+TPN contains a high concentration of dextrose. Because of this, blood glucose changes are a major concern.
+
+Clients receiving TPN can develop hyperglycemia while it is infusing and hypoglycemia if it is stopped suddenly.
+
+---
+
+## Hyperglycemia With TPN
+
+TPN can raise blood glucose because it delivers dextrose directly into the bloodstream.
+
+### Nursing focus
+
+* Monitor blood glucose as prescribed.
+* Administer insulin as prescribed.
+* Monitor for polyuria, thirst, fatigue, or dehydration.
+* Report persistent hyperglycemia.
+
+<div class="danger">
+TPN can cause <strong>hyperglycemia</strong> because of the high dextrose concentration.
+</div>
+
+---
+
+## Hypoglycemia if TPN Stops Suddenly
+
+If TPN is abruptly stopped, the client may develop hypoglycemia because the body was receiving a continuous high-dextrose infusion.
+
+### Hypoglycemia cues
+
+* Confusion
+* Cool, clammy skin
+* Shakiness
+* Erratic behavior
+* Sweating
+* Weakness
+* Tachycardia
+
+<div class="nclex">
+ATI noted that confusion, cool clammy skin, erratic behavior, and shakiness can indicate <strong>hypoglycemia</strong> if TPN is discontinued abruptly.
+</div>
+
+---
+
+## If TPN Is Interrupted
+
+Follow facility policy and provider orders.
+
+Common nursing actions may include:
+
+* Assess blood glucose.
+* Notify provider if needed.
+* Hang prescribed IV dextrose solution if available per protocol/order.
+* Monitor for hypoglycemia.
+* Resume TPN as prescribed when available.
+
+<div class="danger">
+Do not ignore abrupt TPN interruption. The client can become hypoglycemic.
+</div>
+
+---
+
+<h2 class="section-divider small" id="tpn-electrolyte-complications">TPN Electrolyte Complications</h2>
+
+TPN can cause electrolyte shifts as nutrients move into cells and metabolism changes.
+
+ATI specifically connected TPN with low magnesium risk due to electrolyte shifts.
+
+---
+
+## Electrolytes to Monitor
+
+| Electrolyte    | Why It Matters                                        |
+| -------------- | ----------------------------------------------------- |
+| **Magnesium**  | Nerve, muscle, and cardiac function                   |
+| **Potassium**  | Cardiac rhythm and muscle function                    |
+| **Phosphorus** | Energy metabolism, bone health, and cellular function |
+| **Calcium**    | Bone, muscle, and nerve function                      |
+
+<div class="nclex">
+ATI specifically noted that clients receiving TPN are at risk for <strong>low magnesium</strong> because electrolytes may shift into cells.
+</div>
+
+---
+
+## Refeeding-Like Concerns
+
+Clients who are severely malnourished and then receive aggressive nutrition support can develop dangerous electrolyte shifts.
+
+The major concern is that electrolytes move into cells as the body begins using glucose and rebuilding stores.
+
+### Nursing focus
+
+* Monitor electrolytes.
+* Monitor glucose.
+* Monitor cardiac rhythm if indicated.
+* Start nutrition support gradually if ordered.
+* Report abnormal electrolytes.
+* Monitor for weakness, confusion, dysrhythmias, or respiratory difficulty.
+
+<div class="danger">
+Electrolyte shifts during nutrition support can affect the heart and respiratory muscles.
+</div>
+
+---
+
+<h2 class="section-divider small" id="tpn-lipid-emulsions">TPN Lipid Emulsions</h2>
+
+Lipid emulsions may be added to parenteral nutrition to provide essential fatty acids and calories.
+
+ATI specifically notes that lipid emulsions can contain soybean or safflower oil and egg phospholipid emulsifier.
+
+---
+
+## Lipid Emulsion Allergy Risk
+
+Because lipid emulsions may contain egg phospholipid, clients with egg allergy may be at risk for reaction.
+
+### Nursing focus
+
+* Check allergies before administration.
+* Monitor for allergic reaction.
+* Monitor vital signs as prescribed.
+* Watch for fever, chills, rash, dyspnea, or chest discomfort.
+* Stop infusion and notify provider if reaction occurs.
+
+<div class="danger">
+ATI noted that lipid emulsions may contain an <strong>egg phospholipid emulsifier</strong>, so egg allergy is important.
+</div>
+
+---
+
+<h2 class="section-divider small" id="transitioning-off-tpn">Transitioning Off TPN</h2>
+
+TPN should be discontinued when the client can meet enough nutrition needs by another route, such as oral or enteral intake.
+
+ATI noted that TPN may be discontinued when the client is consuming more than **60% of calories by mouth**.
+
+<div class="nclex">
+ATI connected discontinuing TPN with the client taking in <strong>more than 60% of calories orally</strong>.
+</div>
+
+---
+
+## Nursing Focus During Transition
+
+### Nursing care
+
+* Monitor oral intake.
+* Monitor calorie counts if ordered.
+* Monitor weight.
+* Monitor labs.
+* Monitor glucose as TPN is tapered or stopped.
+* Encourage oral or enteral intake as tolerated.
+* Collaborate with dietitian.
+
+<div class="note">
+The goal is to transition to the safest and most natural nutrition route the client can tolerate.
+</div>
+
+---
+
+<h2 class="section-divider small" id="enteral-parenteral-high-yield-review">Enteral and Parenteral Nutrition: High-Yield Review</h2>
+
+| Topic                          | What ATI Wants You to Remember                                              |
+| ------------------------------ | --------------------------------------------------------------------------- |
+| **Enteral nutrition**          | Uses the GI tract                                                           |
+| **Parenteral nutrition**       | Bypasses the GI tract and goes through IV bloodstream                       |
+| **Initial tube placement**     | Verify by X-Ray before starting feedings                               |
+| **HOB elevation**              | 30 to 45 degrees during feeding and about 1 hr after                        |
+| **Aspiration risk**            | Coughing, choking, wet respirations, crackles, dyspnea, desaturation        |
+| **Gastric residuals**          | Can indicate delayed gastric emptying and aspiration risk                   |
+| **Diarrhea with tube feeding** | May occur if feeding rate is too fast; decrease rate if prescribed/protocol |
+| **Tube flushing**              | Flush 30 to 50 mL before and after medications to maintain patency          |
+| **Medication through tube**    | Do not crush enteric-coated or extended-release medications                 |
+| **TPN**                        | Used when GI tract cannot meet nutrition needs                              |
+| **TPN line risks**             | Infection and venous thrombosis                                             |
+| **TPN hyperglycemia**          | High dextrose concentration raises glucose                                  |
+| **TPN stopped suddenly**       | Risk for hypoglycemia                                                       |
+| **TPN low magnesium**          | Electrolyte shifts can cause low magnesium                                  |
+| **Lipid emulsions**            | May contain egg phospholipid; check egg allergy                             |
+| **Stopping TPN**               | May discontinue when oral intake is more than 60% of calories               |
+
+<h2 class="section-divider" id="medication-and-food-interactions">Medication and Food Interactions</h2>
+
+Medication and food interaction questions on ATI usually focus on **foods that change medication effects, nutrients that affect safety, and client teaching that prevents complications**.
+
+These questions are high-yield because the wrong food choice can cause bleeding, dysrhythmias, hypertensive crisis, hyperkalemia, poor absorption, or worsening adverse effects.
+
+---
+
+## Medication and Food Interactions: Big Picture
+
+Food can affect medications in several ways.
+
+| Interaction Type                          | What Can Happen                                    |
+| ----------------------------------------- | -------------------------------------------------- |
+| **Food increases medication effect**      | Client may develop toxicity or adverse effects     |
+| **Food decreases medication effect**      | Medication may not work well                       |
+| **Medication changes nutrient levels**    | Client may need monitoring or diet changes         |
+| **Medication requires consistent intake** | Sudden diet changes can make the medication unsafe |
+| **Medication must be taken with food**    | Improves absorption or decreases GI upset          |
+| **Medication must avoid certain foods**   | Prevents dangerous reactions                       |
+
+<div class="nclex">
+For ATI, medication-food questions usually ask: <strong>Does this food make the medication unsafe, ineffective, or harder to tolerate?</strong>
+</div>
+
+---
+
+<h2 class="section-divider small" id="warfarin-and-vitamin-k">Warfarin and Vitamin K</h2>
+
+Warfarin is an anticoagulant. It helps prevent blood clots by interfering with vitamin K-dependent clotting factors.
+
+Vitamin K helps the blood clot. Because warfarin and vitamin K work against each other, sudden changes in vitamin K intake can affect INR and bleeding risk.
+
+---
+
+## Key Teaching
+
+The client taking warfarin should not completely avoid vitamin K. Instead, the client should keep vitamin K intake **consistent**.
+
+### High-vitamin K foods include:
+
+* Kale
+* Spinach
+* Collard greens
+* Turnip greens
+* Mustard greens
+* Broccoli
+* Brussels sprouts
+* Other leafy green vegetables
+
+<div class="nclex">
+For warfarin, ATI wants <strong>consistent vitamin K intake</strong>, not complete avoidance of vitamin K foods.
+</div>
+
+---
+
+## Why Consistency Matters
+
+If the client suddenly eats much more vitamin K, warfarin may be less effective, increasing clot risk.
+
+If the client suddenly eats much less vitamin K, warfarin may have a stronger effect, increasing bleeding risk.
+
+### Teaching points
+
+* Keep intake of leafy greens consistent from week to week.
+* Do not suddenly start or stop eating high-vitamin K foods.
+* Report major diet changes to the provider.
+* Monitor INR as prescribed.
+* Report signs of bleeding.
+
+<div class="danger">
+Do not teach a client taking warfarin to avoid all leafy greens. The safer ATI answer is <strong>consistent intake</strong>.
+</div>
+
+---
+
+<h2 class="section-divider small" id="ace-inhibitors-and-potassium">ACE Inhibitors and Potassium</h2>
+
+ACE inhibitors are antihypertensive medications that can cause potassium retention.
+
+Examples include:
+
+* Captopril
+* Enalapril
+* Lisinopril
+
+Because potassium affects cardiac rhythm, potassium retention can become dangerous if the client develops hyperkalemia.
+
+---
+
+## Key Teaching
+
+Clients taking ACE inhibitors may need to avoid high-potassium foods or potassium-containing salt substitutes if potassium is elevated or if the provider gives that instruction.
+
+### High-potassium foods include:
+
+* Cantaloupe
+* Bananas
+* Oranges/orange juice
+* Potatoes
+* Tomatoes
+* Spinach
+* Dried fruits
+
+<div class="danger">
+ATI specifically connected <strong>captopril</strong> with potassium retention and identified <strong>cantaloupe</strong> as a high-potassium food.
+</div>
+
+---
+
+## Salt Substitutes
+
+Many salt substitutes replace sodium with potassium. This can be unsafe for clients who are at risk for hyperkalemia.
+
+Clients should check with the provider before using salt substitutes, especially if they have:
+
+* Chronic kidney disease
+* Hyperkalemia
+* ACE inhibitor therapy
+* ARB therapy
+* Potassium-sparing diuretics
+* Spironolactone use
+
+<div class="nclex">
+If the client takes an ACE inhibitor, ARB, or potassium-sparing diuretic, think: <strong>watch potassium and avoid potassium salt substitutes unless approved</strong>.
+</div>
+
+---
+
+<h2 class="section-divider small" id="maois-and-tyramine">MAOIs and Tyramine</h2>
+
+Monoamine oxidase inhibitors, or MAOIs, can interact with tyramine-containing foods.
+
+Tyramine can increase blood pressure. Normally, monoamine oxidase helps break down tyramine. When a client takes an MAOI, tyramine can build up and trigger severe hypertension.
+
+---
+
+## Why This Is Dangerous
+
+Eating high-tyramine foods while taking an MAOI can cause a **hypertensive crisis**.
+
+### Signs of hypertensive crisis
+
+* Severe headache
+* Very high blood pressure
+* Chest pain
+* Palpitations
+* Neck stiffness
+* Nausea/vomiting
+* Sweating
+* Confusion
+
+<div class="danger">
+MAOIs plus high-tyramine foods can cause <strong>hypertensive crisis</strong>.
+</div>
+
+---
+
+## Foods High in Tyramine
+
+Clients taking MAOIs should avoid aged, cured, fermented, or pickled foods.
+
+### Foods to avoid
+
+* Aged cheeses
+* Some cheeses
+* Cured meats
+* Smoked meats
+* Fermented foods
+* Pickled foods
+* Some alcoholic beverages if applicable
+* Soy sauce or fermented soy products depending on guidance
+
+<div class="nclex">
+ATI specifically noted that clients taking MAOIs should avoid most types of <strong>cheese</strong> because of tyramine.
+</div>
+
+---
+
+<h2 class="section-divider small" id="iron-and-food-interactions">Iron and Food Interactions</h2>
+
+Iron is used to prevent or treat iron-deficiency anemia. Food and fluids can affect iron absorption.
+
+---
+
+## Vitamin C Improves Iron Absorption
+
+Vitamin C helps the body absorb iron better.
+
+### Vitamin C sources
+
+* Orange juice
+* Citrus fruits
+* Strawberries
+* Bell peppers
+* Broccoli
+* Tomatoes
+
+<div class="nclex">
+ATI often pairs iron teaching with <strong>vitamin C</strong> because vitamin C improves iron absorption.
+</div>
+
+---
+
+## Foods and Drinks That Can Decrease Iron Absorption
+
+Some foods and drinks can make iron harder to absorb.
+
+### May decrease absorption
+
+* Milk
+* Calcium supplements
+* Tea
+* Coffee
+* Antacids
+* High-calcium foods taken at the same time
+
+### Teaching points
+
+* Take iron with vitamin C if tolerated.
+* Take with food if GI upset occurs, but absorption may be lower.
+* Avoid taking iron at the same time as calcium, milk, tea, coffee, or antacids if possible.
+* Use a straw for liquid iron.
+* Expect dark stools.
+* Report severe constipation, abdominal pain, or signs of bleeding.
+
+<div class="note">
+If iron causes GI upset, the client may take it with food if instructed, but vitamin C still helps absorption.
+</div>
+
+---
+
+## Liquid Iron
+
+Liquid iron can stain teeth.
+
+### Teaching
+
+* Dilute liquid iron if instructed.
+* Use a straw.
+* Rinse mouth after taking.
+* Keep out of reach of children.
+
+<div class="nclex">
+ATI commonly tests that <strong>liquid iron should be taken through a straw</strong> to prevent staining of teeth.
+</div>
+
+---
+
+<h2 class="section-divider small" id="calcium-supplements">Calcium Supplements</h2>
+
+Calcium supplements may be used to support bone health or treat low calcium intake.
+
+---
+
+## Calcium Carbonate
+
+Calcium carbonate is absorbed best when taken with food.
+
+### Teaching
+
+* Take calcium carbonate with meals.
+* Follow prescribed dose.
+* Do not take extra calcium without provider guidance.
+* Monitor for constipation.
+* Separate from certain medications if instructed.
+
+<div class="nclex">
+ATI noted that <strong>calcium carbonate should be taken with meals</strong>.
+</div>
+
+---
+
+## Calcium and Medication Absorption
+
+Calcium can bind with some medications and decrease absorption.
+
+Clients may need to separate calcium from certain medications, such as:
+
+* Iron
+* Levothyroxine
+* Some antibiotics
+* Bisphosphonates
+
+<div class="note">
+If a medication has absorption concerns, check whether calcium or dairy should be separated from the dose.
+</div>
+
+---
+
+<h2 class="section-divider small" id="grapefruit-and-medications">Grapefruit and Medications</h2>
+
+Grapefruit can interact with several medications by affecting how drugs are metabolized.
+
+This can increase medication levels and raise the risk for adverse effects.
+
+---
+
+## Medications Commonly Associated With Grapefruit Interactions
+
+Grapefruit interactions are medication-specific, but common examples include:
+
+* Some statins
+* Some calcium channel blockers
+* Some antiarrhythmics
+* Some immunosuppressants
+* Some psychiatric medications
+
+<div class="danger">
+If the medication label says to avoid grapefruit, the client should avoid grapefruit and grapefruit juice because medication levels can increase.
+</div>
+
+---
+
+<h2 class="section-divider small" id="diabetes-medications-and-food">Diabetes Medications and Food</h2>
+
+Diabetes medication safety depends on food intake, timing, glucose monitoring, and symptoms.
+
+---
+
+## Insulin and Food Timing
+
+Insulin lowers blood glucose. If a client receives insulin and does not eat enough, hypoglycemia can occur.
+
+### Teaching
+
+* Match insulin timing with meals as instructed.
+* Do not skip meals after taking insulin.
+* Carry a fast-acting carbohydrate if at risk for hypoglycemia.
+* Monitor blood glucose as prescribed.
+* Report frequent low glucose readings.
+
+<div class="danger">
+Insulin without enough food can cause <strong>hypoglycemia</strong>.
+</div>
+
+---
+
+## Hypoglycemia Cues
+
+ATI clues for hypoglycemia include:
+
+* Shakiness
+* Sweating
+* Cool, clammy skin
+* Confusion
+* Erratic behavior
+* Hunger
+* Headache
+* Weakness
+* Tachycardia
+
+<div class="nclex">
+If a client with diabetes has symptoms of hypoglycemia, the nurse should <strong>check blood glucose</strong> when possible.
+</div>
+
+---
+
+## Metformin and Contrast
+
+Metformin can interact with iodinated contrast because of kidney-related safety concerns.
+
+### Teaching / nursing focus
+
+* Metformin may be held before or after contrast studies depending on provider order/facility policy.
+* Kidney function may need to be checked.
+* The client should follow provider instructions before restarting.
+
+<div class="nclex">
+ATI often tests that <strong>metformin may need to be held with contrast dye studies</strong>.
+</div>
+
+---
+
+<h2 class="section-divider small" id="tube-feeding-and-medications">Tube Feeding and Medications</h2>
+
+Medication administration through feeding tubes requires special care because the medication form, tube patency, and formula interactions matter.
+
+---
+
+## Feeding Tube Medication Safety
+
+### Nursing care
+
+* Verify tube placement according to facility policy.
+* Check whether medications can be crushed.
+* Do not crush enteric-coated medications.
+* Do not crush extended-release medications.
+* Give medications one at a time.
+* Flush before and after medications as prescribed.
+* Flush between medications.
+* Monitor for diarrhea from liquid medications.
+
+<div class="danger">
+Do not crush <strong>enteric-coated</strong> or <strong>extended-release</strong> medications for feeding tube administration.
+</div>
+
+---
+
+## Flushing
+
+ATI noted that feeding tubes may be flushed with about **30 to 50 mL water before and after medications** to maintain patency.
+
+<div class="nclex">
+Flush feeding tubes with <strong>30 to 50 mL water before and after medication administration</strong>, or according to facility policy, to help maintain tube patency.
+</div>
+
+---
+
+<h2 class="section-divider small" id="lipid-emulsions-and-allergies">Lipid Emulsions and Allergies</h2>
+
+Lipid emulsions may be used with parenteral nutrition to provide calories and essential fatty acids.
+
+ATI noted that lipid emulsions can contain soybean or safflower oil and egg phospholipid emulsifier.
+
+---
+
+## Egg Allergy Risk
+
+Because lipid emulsions may contain egg phospholipid, the nurse should check for egg allergy before administration.
+
+### Signs of possible reaction
+
+* Rash
+* Itching
+* Fever
+* Chills
+* Dyspnea
+* Chest discomfort
+* Hypotension
+
+<div class="danger">
+ATI noted that lipid emulsions may contain an <strong>egg phospholipid emulsifier</strong>, so an egg allergy is important to identify.
+</div>
+
+---
+
+<h2 class="section-divider small" id="food-medication-high-yield-review">Medication and Food Interactions: High-Yield Review</h2>
+
+| Medication / Topic    | Food or Nutrient Concern | What ATI Wants You to Remember                                                 |
+| --------------------- | ------------------------ | ------------------------------------------------------------------------------ |
+| **Warfarin**          | Vitamin K                | Keep vitamin K intake consistent                                               |
+| **ACE inhibitors**    | Potassium                | Risk for hyperkalemia; watch high-potassium foods like cantaloupe              |
+| **Salt substitutes**  | Potassium                | May be unsafe with CKD, ACE inhibitors, ARBs, or potassium-sparing diuretics   |
+| **MAOIs**             | Tyramine                 | Avoid aged cheese and other tyramine foods to prevent hypertensive crisis      |
+| **Iron**              | Vitamin C                | Vitamin C improves absorption                                                  |
+| **Iron**              | Milk/calcium/tea/coffee  | Can decrease absorption if taken together                                      |
+| **Liquid iron**       | Teeth staining           | Use a straw                                                                    |
+| **Calcium carbonate** | Food                     | Take with meals                                                                |
+| **Calcium**           | Medication absorption    | May need to separate from iron, levothyroxine, antibiotics, or bisphosphonates |
+| **Grapefruit**        | Drug metabolism          | Avoid if medication label/provider says so                                     |
+| **Insulin**           | Food timing              | Skipping meals can cause hypoglycemia                                          |
+| **Metformin**         | Contrast dye             | May need to be held around contrast studies                                    |
+| **Feeding tube meds** | Medication form          | Do not crush enteric-coated or extended-release meds                           |
+| **Tube flushes**      | Patency                  | Flush 30 to 50 mL before and after medications                                 |
+| **Lipid emulsions**   | Egg allergy              | Check allergy because emulsifier may contain egg phospholipid                  |
+
+
+## Honorable Mentions
+| Medication/Class                     | Nutrition Interaction                                               | What to Remember                                                         |
+| ------------------------------------ | ------------------------------------------------------------------- | ------------------------------------------------------------------------ |
+| **Levothyroxine**                    | Food, calcium, iron, antacids can decrease absorption               | Take on an empty stomach; separate from calcium/iron                     |
+| **Bisphosphonates**                  | Food decreases absorption; can irritate esophagus                   | Take with plain water, first thing in morning; stay upright              |
+| **Tetracyclines / fluoroquinolones** | Dairy, calcium, iron, magnesium decrease absorption                 | Separate from dairy/mineral supplements                                  |
+| **Lithium**                          | Sodium and fluid changes affect lithium levels                      | Keep sodium/fluid intake consistent; dehydration increases toxicity risk |
+| **Loop diuretics**                   | Can lower potassium                                                 | May need potassium-rich foods unless contraindicated                     |
+| **Potassium-sparing diuretics**      | Can raise potassium                                                 | Avoid excess potassium/salt substitutes                                  |
+| **Corticosteroids**                  | Can increase glucose, appetite, sodium/fluid retention, bone loss   | Monitor glucose; may need calcium/vitamin D; limit sodium                |
+| **Digoxin**                          | Low potassium increases toxicity risk                               | Monitor potassium; report nausea, vision changes, dysrhythmias           |
+| **Isoniazid**                        | Can cause B6 deficiency; food may affect absorption                 | Vitamin B6/pyridoxine often given                                        |
+| **Phenytoin**                        | Can reduce folate/vitamin D; enteral feedings can reduce absorption | Monitor nutrition/labs; may need timing adjustment with tube feeds       |
+| **Statins**                          | Grapefruit can increase levels for some statins                     | Avoid grapefruit if prescribed/label says so                             |
+
+<h2 class="section-divider" id="ati-quick-review-tables">ATI Quick Review Tables</h2>
+
+This section is for quick review before the ATI Nutrition exam. Use it to connect the condition, nutrition problem, safest teaching, and common ATI clue.
+
+---
+
+## Nutrition Basics: Quick Review
+
+| Topic                  | ATI Clue                      | What to Remember                                                             |
+| ---------------------- | ----------------------------- | ---------------------------------------------------------------------------- |
+| **Complete protein**   | Best protein source           | Contains all 9 essential amino acids; cottage cheese is complete             |
+| **Incomplete protein** | Plant proteins                | Legumes, peanut butter, whole grains, nuts, and seeds are usually incomplete |
+| **Protein deficiency** | Edema with poor intake        | Low protein decreases oncotic pressure and can cause edema                   |
+| **Prealbumin**         | Recent/severe malnutrition    | More useful for recent nutrition changes                                     |
+| **Vitamin A**          | Night vision                  | Supports vision, skin, mucous membranes, and immunity                        |
+| **Lutein**             | Macular degeneration          | Found in leafy greens like kale, spinach, collards, mustard greens           |
+| **Folate**             | Pregnancy/neural tube defects | Supports RBC formation and fetal neural tube development                     |
+| **Vitamin C**          | Iron absorption/wound healing | Improves iron absorption and supports collagen formation                     |
+| **Vitamin D**          | Older adults/bone health      | Helps absorb calcium                                                         |
+| **Vitamin K**          | Warfarin                      | Keep intake consistent                                                       |
+| **Calcium carbonate**  | Supplement teaching           | Take with meals                                                              |
+| **Potassium**          | ACE inhibitors/CKD            | Monitor high-potassium foods and salt substitutes                            |
+| **Iron**               | Pregnancy/anemia              | Pregnant clients commonly need 30 mg/day; take with vitamin C                |
+| **Fluid deficit**      | Vomiting/diarrhea             | Dry mucous membranes, poor turgor, dark urine, low output                    |
+| **Fluid excess**       | Heart/kidney issues           | Edema, crackles, rapid weight gain, hypertension                             |
+
+---
+
+## GI Disorders: Quick Review
+
+| Disorder                | Nutrition Problem                                         | ATI Teaching                                                    |
+| ----------------------- | --------------------------------------------------------- | --------------------------------------------------------------- |
+| **Celiac disease**      | Gluten damages small intestine and causes malabsorption   | Avoid wheat, barley, rye, and malt                              |
+| **Celiac safe foods**   | Gluten-free choices                                       | Tapioca, potato flour, beans, legumes, corn, quinoa, plain rice |
+| **Dumping syndrome**    | Food leaves stomach too fast; fluid shifts into intestine | Small frequent meals, fluids between meals, avoid simple sugars |
+| **Dumping trigger**     | Hypertonic foods                                          | Avoid candy, syrup, sugary drinks, sugar alcohols               |
+| **Gastric bypass**      | Small pouch limits intake                                 | Protein first; 60 to 120 g protein/day                          |
+| **Pancreatitis**        | Pancreas inflamed; insulin production can decrease        | Monitor glucose, hydration, and electrolytes                    |
+| **Cirrhosis/ascites**   | Fluid retention and liver dysfunction                     | Sodium restriction and fluid monitoring may be needed           |
+| **Diverticulosis**      | Colon pouches without inflammation                        | High fiber with fluids                                          |
+| **Diverticulitis**      | Inflamed/infected diverticula                             | Low-fiber/low-residue during acute flare if prescribed          |
+| **IBD/Crohn’s**         | Inflammation and malabsorption                            | Monitor weight, hydration, anemia, and deficiencies             |
+| **Elemental formula**   | Impaired digestion                                        | Nutrients are broken down and require minimal digestion         |
+| **IBS**                 | Functional bowel symptoms                                 | Peppermint oil/probiotics may help; avoid triggers              |
+| **Lactose intolerance** | Lactose not digested                                      | Limit lactose; maintain calcium and vitamin D                   |
+| **Ostomy**              | Stool consistency and fluid loss                          | Pectin/starches thicken stool                                   |
+| **Ileostomy**           | Liquid output and electrolyte loss                        | Increase fluids and salt if prescribed; monitor B12             |
+| **Constipation**        | Low fiber/fluid/activity                                  | Increase fiber gradually and increase fluids                    |
+| **Diarrhea**            | Fluid and electrolyte loss                                | Hydration and electrolytes are priority                         |
+
+---
+
+## Diabetes and Endocrine: Quick Review
+
+| Topic                  | ATI Clue                                             | What to Remember                                     |
+| ---------------------- | ---------------------------------------------------- | ---------------------------------------------------- |
+| **Type 1 diabetes**    | Little/no insulin                                    | Insulin required; higher DKA risk                    |
+| **Type 2 diabetes**    | Insulin resistance                                   | Nutrition/activity improve glucose control           |
+| **Carbohydrates**      | Glucose control                                      | Consistent carbohydrate intake is key                |
+| **Glycemic index**     | Baked potato                                         | Baked potato is high glycemic index                  |
+| **HbA1c**              | Long-term glucose                                    | Reflects average glucose over 2 to 3 months          |
+| **HbA1c >7%%**         | Poor glucose control                                 | Above expected goal range                            |
+| **Hypoglycemia**       | Cool, clammy, shaky, confused, erratic               | Check blood glucose first if possible                |
+| **Hyperglycemia**      | Dry, thirsty, frequent urination, fatigue            | Think dehydration from osmotic diuresis              |
+| **DKA**                | Type 1, ketones, fruity breath, Kussmaul             | Hyperglycemia + ketones + acidosis + dehydration     |
+| **HHS**                | Type 2, very high glucose, severe dehydration        | Minimal/absent ketones; altered mental status common |
+| **Somogyi phenomenon** | Morning hyperglycemia after nighttime hypoglycemia   | Rebound hyperglycemia                                |
+| **Dawn phenomenon**    | Morning hyperglycemia without nighttime hypoglycemia | Early morning hormone release                        |
+
+---
+
+## Cardiovascular and Renal: Quick Review
+
+| Topic                   | ATI Clue              | What to Remember                                          |
+| ----------------------- | --------------------- | --------------------------------------------------------- |
+| **Hypertension**        | Sodium intake         | 1,500 mg/day sodium can help reduce BP                    |
+| **Salt substitutes**    | Low-sodium label      | May contain potassium; caution with CKD/ACE inhibitors    |
+| **Plant-based protein** | Cholesterol reduction | Can lower cholesterol and reduce heart workload           |
+| **Saturated fat**       | LDL risk              | Limit saturated fat                                       |
+| **Trans fat**           | Heart risk            | Avoid as much as possible                                 |
+| **Niacin**              | Lipid management      | Lowers LDL and triglycerides                              |
+| **Multivitamins**       | CVD prevention        | Do not prevent cardiovascular disease if diet is balanced |
+| **Warfarin**            | Leafy greens          | Keep vitamin K intake consistent                          |
+| **ACE inhibitors**      | Captopril/lisinopril  | Can cause potassium retention                             |
+| **High potassium food** | Cantaloupe            | Limit if potassium is elevated or hyperkalemia risk       |
+| **MAOIs**               | Cheese/tyramine       | Avoid aged cheese and tyramine foods                      |
+| **CKD**                 | Diet depends on labs  | Watch sodium, potassium, phosphorus, fluid, protein       |
+| **CKD potassium**       | Hyperkalemia risk     | Restrict potassium if serum potassium is high             |
+| **CKD phosphorus**      | Bone/mineral issues   | Restrict phosphorus if serum phosphorus is high           |
+| **CKD protein**         | Dialysis status       | Protein needs depend on dialysis and provider order       |
+| **Kidney stones**       | Nephrolithiasis       | Increase fluids if not contraindicated                    |
+
+---
+
+## Respiratory and Neurologic: Quick Review
+
+| Topic                      | ATI Clue                          | What to Remember                                             |
+| -------------------------- | --------------------------------- | ------------------------------------------------------------ |
+| **COPD**                   | Weight loss/fatigue with eating   | High-calorie, high-protein foods may be needed               |
+| **Pulmonary formula**      | COPD formula                      | High-calorie, high-protein, low-to-moderate carb, higher fat |
+| **Small frequent meals**   | COPD eating fatigue               | Decreases fullness and shortness of breath                   |
+| **Parkinson’s disease**    | Rigidity/tremors                  | Increased metabolic rate may require high-calorie foods      |
+| **Dysphagia**              | Coughing/wet voice/pocketing food | Aspiration risk                                              |
+| **Aspiration precautions** | Feeding safety                    | Upright 90 degrees; chin tuck/head forward if recommended    |
+| **Stroke nutrition**       | Swallowing concerns               | Assess swallow before oral intake                            |
+| **Food placement**         | Weakness on one side              | Place food on stronger/unaffected side                       |
+| **Before liquids**         | Pocketing food                    | Clear mouth before giving liquids                            |
+| **Thin liquids**           | Aspiration risk                   | May need thickened liquids if prescribed                     |
+
+---
+
+## Cancer, Immunity, and Wound Healing: Quick Review
+
+| Topic                   | ATI Clue                 | What to Remember                                                          |
+| ----------------------- | ------------------------ | ------------------------------------------------------------------------- |
+| **Cancer prevention**   | Lifestyle teaching       | Healthy weight, limit high-calorie foods/beverages, exercise 150 min/week |
+| **Cancer treatment**    | Poor intake/weight loss  | High-calorie, high-protein intake often needed                            |
+| **Mucositis**           | Mouth sores              | Soft, moist, cold/room-temperature foods                                  |
+| **Mucositis avoid**     | Mouth irritation         | Avoid spicy, salty, citrus, acidic, tomato-based foods                    |
+| **Mucositis oral care** | Mouth care               | Soft toothbrush; saline/baking soda rinses                                |
+| **Glycerin swabs**      | Oral care                | Avoid; can dry/irritate tissues                                           |
+| **Metallic taste**      | Chemotherapy             | Use plastic utensils                                                      |
+| **Neutropenia**         | Food safety              | Avoid unsafe/undercooked foods                                            |
+| **Leftovers**           | Neutropenic client       | Use within 24 hr                                                          |
+| **Hot foods**           | Food safety              | Keep above 140°F / 60°C                                                   |
+| **Thawing foods**       | Food safety              | Thaw in refrigerator                                                      |
+| **Infection**           | Increased metabolic rate | Increase nutrition intake if appropriate                                  |
+| **Wound healing**       | Poor healing             | Protein, calories, vitamin C, zinc, fluids, iron                          |
+
+---
+
+## Pregnancy, Lactation, Infant, and Pediatric: Quick Review
+
+| Topic                       | ATI Clue                  | What to Remember                                                        |
+| --------------------------- | ------------------------- | ----------------------------------------------------------------------- |
+| **Pregnancy weight gain**   | Based on prepregnancy BMI | Underweight gains most; obese gains least                               |
+| **Underweight BMI**         | Less than 18.5            | Gain 28 to 40 lb                                                        |
+| **Normal BMI**              | 18.5 to 24.9              | Gain 25 to 35 lb                                                        |
+| **Overweight BMI**          | 25.0 to 29.9              | Gain 15 to 25 lb                                                        |
+| **Obese BMI**               | 30.0 or greater           | Gain 11 to 20 lb                                                        |
+| **Pregnancy iron**          | Anemia prevention         | 30 mg/day                                                               |
+| **Folate**                  | Neural tube defects       | Important early in pregnancy                                            |
+| **Hyperemesis**             | Severe vomiting           | Dehydration, electrolyte imbalance, weight loss                         |
+| **Breastfeeding frequency** | Newborn feeding           | On demand, about 8 to 12 times/day                                      |
+| **First day breastfeeding** | Early feeds               | May nurse about 5 min each breast                                       |
+| **Early breastfeeding**     | Establishing supply       | Avoid unnecessary formula, water, artificial nipples                    |
+| **Thawed breast milk**      | Storage                   | Use within 24 hr; do not refreeze                                       |
+| **Breast milk thawing**     | Safety                    | Thaw in refrigerator or warm running water; no microwave                |
+| **Milk left in bottle**     | After feeding             | Discard                                                                 |
+| **Birth weight**            | Newborn growth            | Regained by about 2 weeks                                               |
+| **1-year growth**           | Infant development        | Triples birth weight; length increases 50%                              |
+| **Solid foods**             | Allergy monitoring        | Introduce one new food every 3 to 5 days                                |
+| **Cleft lip feeding**       | Poor seal                 | One-way valve bottle, high-flow nipple, cheek support, frequent burping |
+| **Whole milk**              | Age teaching              | Not before 12 months; whole milk until age 2                            |
+
+---
+
+## Older Adult Nutrition: Quick Review
+
+| Topic                             | ATI Clue                 | What to Remember                                         |
+| --------------------------------- | ------------------------ | -------------------------------------------------------- |
+| **Older adults**                  | Lower calorie needs      | Need fewer calories but nutrient-dense foods             |
+| **Healthy older adult protein**   | Protein needs            | 1 to 1.2 g/kg/day                                        |
+| **Chronic/acute illness protein** | Higher protein needs     | 1.2 to 1.5 g/kg/day                                      |
+| **Post-surgery older adult**      | Healing                  | At least 1,500 kcal/day may be needed                    |
+| **Very low intake**               | 1,000 kcal below needs   | Not enough for healing/recovery                          |
+| **Vitamin D**                     | Older adult supplement   | 1,000 to 2,000 IU/day if recommended                     |
+| **Calcium carbonate**             | Supplement               | Take with meals                                          |
+| **Dehydration**                   | Confusion/falls/weakness | Older adults may not feel thirsty                        |
+| **Dementia**                      | Poor intake              | Reduce distractions, offer finger foods, supervise meals |
+
+---
+
+## Cultural Considerations and Special Diets: Quick Review
+
+| Topic                             | What to Remember                                                                               |
+| --------------------------------- | ---------------------------------------------------------------------------------------------- |
+| **Best nursing approach**         | Ask first, avoid assumptions, respect beliefs, individualize teaching                          |
+| **Islam / Muslim**                | Halal diet; may avoid pork/alcohol; Ramadan fasting may affect hydration, glucose, medications |
+| **Judaism / Jewish**              | Kosher diet; may avoid pork/shellfish and separate meat/dairy                                  |
+| **Hinduism / Hindu**              | Many avoid beef; some are vegetarian; fasting may occur                                        |
+| **Buddhism / Buddhist**           | Some vegetarian/vegan or avoid alcohol; practices vary                                         |
+| **Sikhism / Sikh**                | Some vegetarian; some avoid halal/kosher-slaughtered meat                                      |
+| **Seventh-day Adventist**         | Many vegetarian; may avoid pork, shellfish, alcohol, caffeine                                  |
+| **Catholic / Orthodox Christian** | Fasting or meat/dairy restrictions may occur during religious periods                          |
+| **LDS / Mormon**                  | Avoid alcohol, coffee, and tea                                                                 |
+| **Jainism / Jain**                | Strict vegetarianism; may avoid root vegetables                                                |
+| **Rastafarian**                   | Some follow Ital diet; may avoid processed foods, pork, shellfish, additives                   |
+| **Vegetarian diets**              | Watch protein, iron, B12, calcium, vitamin D, zinc                                             |
+| **Vegan diets**                   | B12 needs fortified foods or supplementation                                                   |
+| **Fasting**                       | Assess diabetes, pregnancy, kidney disease, medications, hydration, safety                     |
+| **Food access**                   | Assess affordability, transportation, ability to shop/cook, language, functional barriers      |
+
+---
+
+## Enteral and Parenteral Nutrition: Quick Review
+
+| Topic                      | ATI Clue                             | What to Remember                                         |
+| -------------------------- | ------------------------------------ | -------------------------------------------------------- |
+| **Enteral nutrition**      | Feeding tube                         | Uses the GI tract                                        |
+| **Parenteral nutrition**   | TPN/PPN                              | Bypasses the GI tract through IV bloodstream             |
+| **Initial tube placement** | Before first feeding                 | Verify by radiograph/X-ray                               |
+| **HOB elevation**          | Tube feeding                         | 30 to 45 degrees during and about 1 hr after             |
+| **Aspiration risk**        | Coughing, choking, crackles, dyspnea | Stop/assess if suspected                                 |
+| **Gastric residuals**      | Delayed emptying                     | Increased aspiration risk                                |
+| **Tube feeding diarrhea**  | Rate too fast                        | Decrease rate if prescribed/protocol                     |
+| **Tube flushes**           | Med administration                   | 30 to 50 mL before/after meds                            |
+| **Tube meds**              | Crushing meds                        | Do not crush enteric-coated or extended-release meds     |
+| **TPN**                    | GI tract cannot meet needs           | Central line usually required                            |
+| **TPN infection risk**     | Central line                         | Use aseptic technique                                    |
+| **TPN hyperglycemia**      | Dextrose infusion                    | Monitor blood glucose                                    |
+| **TPN stopped suddenly**   | Hypoglycemia                         | Confusion, cool clammy skin, shakiness, erratic behavior |
+| **TPN electrolyte shifts** | Low magnesium                        | Monitor electrolytes                                     |
+| **Lipid emulsions**        | Egg phospholipid                     | Check egg allergy                                        |
+| **Stopping TPN**           | Oral intake                          | May stop when oral intake is more than 60% of calories   |
+
+---
+
+## Medication and Food Interactions: Quick Review
+
+| Medication / Topic                 | Food or Nutrient Concern    | What to Remember                                                       |
+| ---------------------------------- | --------------------------- | ---------------------------------------------------------------------- |
+| **Warfarin**                       | Vitamin K                   | Keep intake consistent                                                 |
+| **ACE inhibitors**                 | Potassium                   | Risk for hyperkalemia; watch high-potassium foods                      |
+| **Salt substitutes**               | Potassium                   | May be unsafe with CKD/ACE inhibitors/ARBs/potassium-sparing diuretics |
+| **MAOIs**                          | Tyramine                    | Avoid aged cheese and tyramine foods                                   |
+| **Iron**                           | Vitamin C                   | Improves absorption                                                    |
+| **Iron**                           | Milk/calcium/tea/coffee     | Can decrease absorption                                                |
+| **Liquid iron**                    | Teeth staining              | Use a straw                                                            |
+| **Calcium carbonate**              | Food                        | Take with meals                                                        |
+| **Levothyroxine**                  | Food, calcium, iron         | Take on empty stomach; separate from minerals                          |
+| **Bisphosphonates**                | Food/esophagus irritation   | Plain water only; stay upright                                         |
+| **Tetracyclines/fluoroquinolones** | Dairy/minerals              | Separate from dairy, calcium, iron, magnesium                          |
+| **Lithium**                        | Sodium/fluid changes        | Keep sodium and fluid intake consistent                                |
+| **Loop/thiazide diuretics**        | Potassium loss              | Monitor potassium; may need potassium-rich foods if prescribed         |
+| **Potassium-sparing diuretics**    | Potassium retention         | Avoid excess potassium/salt substitutes                                |
+| **Digoxin**                        | Low potassium               | Increases toxicity risk                                                |
+| **Corticosteroids**                | Glucose/sodium/bone health  | Monitor glucose; limit sodium; calcium/vitamin D if long-term          |
+| **Isoniazid**                      | Vitamin B6                  | Pyridoxine may be prescribed                                           |
+| **Phenytoin**                      | Folate/vitamin D/tube feeds | Monitor nutrition; tube feeds may reduce absorption                    |
+| **Grapefruit**                     | Drug metabolism             | Avoid if medication label/provider says so                             |
+| **Insulin**                        | Meal timing                 | Skipping meals can cause hypoglycemia                                  |
+| **Metformin**                      | Contrast dye                | May need to be held around contrast studies                            |
+| **Lipid emulsions**                | Egg allergy                 | Check allergy before administration                                    |
+
+---
+
+<h2 class="section-divider small" id="last-minute-ati-nutrition-clues">Last-Minute ATI Nutrition Clues</h2>
+
+| If the Question Says...                                  | Think...                                                   |
+| -------------------------------------------------------- | ---------------------------------------------------------- |
+| **Cool, clammy, shaky, confused**                        | Hypoglycemia                                               |
+| **Dry, thirsty, frequent urination**                     | Hyperglycemia                                              |
+| **Morning hyperglycemia + nighttime hypoglycemia**       | Somogyi phenomenon                                         |
+| **Morning hyperglycemia without nighttime hypoglycemia** | Dawn phenomenon                                            |
+| **Wheat, barley, rye, malt**                             | Not safe for celiac disease                                |
+| **Plain rice, corn, quinoa, potato flour**               | Gluten-free                                                |
+| **Gastrectomy + dizziness/diarrhea after meals**         | Dumping syndrome                                           |
+| **Simple sugars after gastric surgery**                  | Worsen dumping syndrome                                    |
+| **Tube feeding + diarrhea**                              | Rate may be too fast                                       |
+| **Tube feeding + coughing/crackles**                     | Aspiration risk                                            |
+| **TPN stopped suddenly**                                 | Hypoglycemia risk                                          |
+| **TPN + egg allergy**                                    | Lipid emulsion concern                                     |
+| **Warfarin + leafy greens**                              | Consistent vitamin K                                       |
+| **Captopril + cantaloupe**                               | Hyperkalemia risk                                          |
+| **MAOI + cheese**                                        | Tyramine/hypertensive crisis                               |
+| **Mouth sores**                                          | Soft, cold/room-temp foods; avoid citrus/spicy/salty       |
+| **Neutropenia + leftovers**                              | Use within 24 hr                                           |
+| **Older adult + confusion/falls**                        | Consider dehydration                                       |
+| **Poor intake + edema**                                  | Possible protein deficiency                                |
+| **Pressure injury/wound**                                | Protein and calories                                       |
+| **Cleft lip infant**                                     | Poor seal; special bottle, cheek support, frequent burping |
+
+<h2 class="section-divider" id="foods-to-know-for-ati-nutrition">Foods to Know for ATI Nutrition</h2>
+
+ATI Nutrition questions often test whether the nurse can identify the **best food choice**, **food to avoid**, or **food that matches a specific nutrient need**.
+
+This section is a quick review of foods that commonly show up in nutrition questions.
+
+---
+
+## Gluten-Free Foods
+
+Clients with celiac disease must avoid gluten. Gluten is found in wheat, barley, rye, and malt.
+
+| Safe Gluten-Free Foods | Avoid With Celiac Disease                       |
+| ---------------------- | ----------------------------------------------- |
+| Plain rice             | Wheat                                           |
+| Corn                   | Barley                                          |
+| Quinoa                 | Rye                                             |
+| Tapioca                | Malt                                            |
+| Potato flour           | Regular pasta                                   |
+| Beans and legumes      | Regular bread/crackers                          |
+| Fruits and vegetables  | Many processed foods unless labeled gluten-free |
+
+<div class="nclex">
+For celiac disease, safe foods include <strong>plain rice, corn, quinoa, tapioca, potato flour, beans, and legumes</strong>.
+</div>
+
+---
+
+## High-Protein Foods
+
+Protein supports wound healing, muscle maintenance, immune function, and tissue repair.
+
+| High-Protein Foods | ATI Use                                          |
+| ------------------ | ------------------------------------------------ |
+| Cottage cheese     | Complete protein; good wound-healing choice      |
+| Eggs               | Complete protein                                 |
+| Meat               | Complete protein                                 |
+| Poultry            | Complete protein                                 |
+| Fish               | Complete protein                                 |
+| Milk               | Complete protein                                 |
+| Yogurt             | Complete protein                                 |
+| Cheese             | Complete protein                                 |
+| Beans/lentils      | Plant protein; incomplete unless combined/varied |
+| Peanut butter      | Plant protein; incomplete                        |
+
+<div class="nclex">
+If ATI asks for a complete protein and <strong>cottage cheese</strong> is an option, it is often the best choice.
+</div>
+
+---
+
+## Foods for Wound Healing
+
+Wound healing requires calories, protein, fluids, vitamin C, zinc, and iron.
+
+| Nutrient      | Food Sources                                                   |
+| ------------- | -------------------------------------------------------------- |
+| **Protein**   | Eggs, meat, poultry, fish, milk, yogurt, cottage cheese, beans |
+| **Vitamin C** | Citrus fruits, strawberries, bell peppers, broccoli, tomatoes  |
+| **Zinc**      | Meat, beans, nuts, seeds, whole grains                         |
+| **Iron**      | Meat, fortified grains, beans, leafy greens                    |
+| **Calories**  | Nutrient-dense meals, oral supplements if prescribed           |
+
+<div class="note">
+For wound healing questions, ATI usually favors <strong>high-protein foods</strong> unless another condition limits protein.
+</div>
+
+---
+
+## High-Folate Foods
+
+Folate supports red blood cell formation and fetal neural tube development.
+
+| High-Folate Foods      |
+| ---------------------- |
+| Chicken liver          |
+| Leafy green vegetables |
+| Fortified grains       |
+| Beans                  |
+| Lentils                |
+
+<div class="nclex">
+ATI specifically noted that <strong>3.5 oz chicken liver</strong> is very high in folate.
+</div>
+
+---
+
+## Vitamin A / Eye Health Foods
+
+Vitamin A supports night vision, skin integrity, mucous membranes, and immune function.
+
+| Nutrient      | Foods                                                                         |
+| ------------- | ----------------------------------------------------------------------------- |
+| **Vitamin A** | Carrots, sweet potatoes, spinach, kale, collard greens, mustard greens, liver |
+| **Lutein**    | Kale, spinach, collard greens, mustard greens                                 |
+
+<div class="nclex">
+If ATI asks about <strong>night vision</strong>, think vitamin A. If ATI asks about lutein or macular degeneration, think leafy greens.
+</div>
+
+---
+
+## Vitamin C Foods
+
+Vitamin C supports collagen formation, wound healing, immune function, and iron absorption.
+
+| Vitamin C Foods |
+| --------------- |
+| Citrus fruits   |
+| Strawberries    |
+| Bell peppers    |
+| Tomatoes        |
+| Broccoli        |
+
+<div class="danger">
+Vitamin C helps with iron absorption, but citrus/tomato foods can irritate the mouth if the client has <strong>mucositis</strong>.
+</div>
+
+---
+
+## Calcium Foods
+
+Calcium supports bones, teeth, nerve transmission, and muscle contraction.
+
+| Calcium Foods           |
+| ----------------------- |
+| Milk                    |
+| Yogurt                  |
+| Cheese                  |
+| Fortified foods         |
+| Calcium-fortified juice |
+| Almonds                 |
+| Leafy greens            |
+
+<div class="nclex">
+ATI specifically noted that <strong>½ cup roasted almonds</strong> contains about <strong>185 mg calcium</strong>.
+</div>
+
+---
+
+## Iron Foods
+
+Iron supports hemoglobin formation and oxygen transport.
+
+| Iron Foods       |
+| ---------------- |
+| Meat             |
+| Poultry          |
+| Fish             |
+| Fortified grains |
+| Beans            |
+| Lentils          |
+| Leafy greens     |
+
+### Iron absorption teaching
+
+* Take iron with vitamin C to improve absorption.
+* Avoid taking iron with milk, calcium, tea, coffee, or antacids if possible.
+* Use a straw for liquid iron.
+* Expect dark stools.
+
+<div class="nclex">
+Pregnant clients commonly need <strong>30 mg iron daily</strong> to reduce the risk for iron-deficiency anemia.
+</div>
+
+---
+
+## High-Potassium Foods
+
+Potassium affects cardiac rhythm, muscle contraction, and fluid balance.
+
+| High-Potassium Foods |
+| -------------------- |
+| Bananas              |
+| Cantaloupe           |
+| Oranges/orange juice |
+| Potatoes             |
+| Tomatoes             |
+| Spinach              |
+| Dried fruits         |
+
+<div class="danger">
+ACE inhibitors, such as <strong>captopril</strong>, can cause potassium retention. ATI specifically connected <strong>cantaloupe</strong> with high potassium.
+</div>
+
+---
+
+## High-Vitamin K Foods
+
+Vitamin K is important for clotting and interacts with warfarin.
+
+| High-Vitamin K Foods |
+| -------------------- |
+| Kale                 |
+| Spinach              |
+| Collard greens       |
+| Turnip greens        |
+| Mustard greens       |
+| Broccoli             |
+| Brussels sprouts     |
+
+<div class="nclex">
+Clients taking warfarin should keep vitamin K intake <strong>consistent</strong>. They do not need to avoid all leafy greens.
+</div>
+
+---
+
+## High-Tyramine Foods
+
+Clients taking MAOIs should avoid tyramine because it can cause hypertensive crisis.
+
+| High-Tyramine Foods to Avoid With MAOIs                   |
+| --------------------------------------------------------- |
+| Aged cheeses                                              |
+| Cured meats                                               |
+| Smoked meats                                              |
+| Fermented foods                                           |
+| Pickled foods                                             |
+| Some alcoholic beverages                                  |
+| Soy sauce or fermented soy products depending on guidance |
+
+<div class="danger">
+MAOIs plus high-tyramine foods can cause <strong>hypertensive crisis</strong>. ATI specifically connects MAOIs with avoiding most cheeses.
+</div>
+
+---
+
+## Heart-Healthy Food Choices
+
+Heart-healthy choices are usually lower in saturated fat, trans fat, sodium, and added sugar.
+
+| Instead of This              | Better ATI Choice                                       |
+| ---------------------------- | ------------------------------------------------------- |
+| High-fat cheese              | Cheese with 3 g fat or less per serving                 |
+| High-saturated-fat margarine | Margarine with 2 g saturated fat or less per tablespoon |
+| Fatty ground beef            | Ground beef at least 90% lean                           |
+| Refried beans                | Pinto beans                                             |
+| Pasta with white sauce       | Pasta with red sauce                                    |
+| Sausage                      | Canadian bacon                                          |
+| Sweetened fruit yogurt       | Plain fat-free yogurt with fresh fruit                  |
+| Fried foods                  | Baked, grilled, or broiled foods                        |
+
+<div class="nclex">
+ATI often tests heart-healthy choices by asking which food is lower in <strong>saturated fat, total fat, sodium, or added sugar</strong>.
+</div>
+
+---
+
+## Foods to Limit With Hypertension / Fluid Retention
+
+Sodium can worsen hypertension and fluid retention.
+
+| High-Sodium Foods to Limit          |
+| ----------------------------------- |
+| Canned soups                        |
+| Processed meats                     |
+| Deli meats                          |
+| Frozen meals                        |
+| Packaged snacks                     |
+| Fast food                           |
+| Pickled foods                       |
+| Salted crackers                     |
+| Canned vegetables unless low-sodium |
+
+<div class="nclex">
+ATI noted that sodium intake around <strong>1,500 mg/day</strong> can help lower blood pressure.
+</div>
+
+---
+
+## Foods for Dumping Syndrome
+
+Dumping syndrome happens when food leaves the stomach too quickly and pulls fluid into the small intestine.
+
+| Better Choices         | Avoid / Limit                      |
+| ---------------------- | ---------------------------------- |
+| Small frequent meals   | Candy                              |
+| Protein foods          | Syrup                              |
+| Complex carbohydrates  | Sweetened drinks                   |
+| Fluids between meals   | Desserts high in sugar             |
+| Pectin if prescribed   | Sugar alcohols                     |
+| Lying down after meals | Large amounts of fluids with meals |
+
+<div class="danger">
+Simple sugars worsen dumping syndrome because they make intestinal contents more hypertonic and pull fluid into the bowel.
+</div>
+
+---
+
+## Stool-Thickening Foods
+
+These foods can help thicken stool, which may help some clients with ostomies or diarrhea.
+
+| Stool-Thickening Foods  |
+| ----------------------- |
+| Applesauce              |
+| Bananas                 |
+| Pasta                   |
+| Rice                    |
+| Potatoes                |
+| Peanut butter           |
+| Bread                   |
+| Pectin-containing foods |
+
+<div class="nclex">
+ATI connects ostomy output management with foods that thicken stool, especially foods containing <strong>pectin</strong>.
+</div>
+
+---
+
+## High-Fiber Foods
+
+Fiber helps with constipation and diverticulosis, but it may need to be limited during acute GI inflammation.
+
+| High-Fiber Foods            |
+| --------------------------- |
+| Whole grains                |
+| Bran                        |
+| Beans                       |
+| Lentils                     |
+| Fruits with skins           |
+| Vegetables with skins       |
+| Dried peas                  |
+| Nuts and seeds if tolerated |
+
+<div class="nclex">
+For constipation or diverticulosis, think <strong>increase fiber gradually and increase fluids</strong>.
+</div>
+
+---
+
+## Low-Residue / Low-Fiber Foods
+
+Low-residue foods may be used temporarily during acute GI inflammation or flares.
+
+| Low-Residue / Lower-Fiber Choices                |
+| ------------------------------------------------ |
+| White rice                                       |
+| White bread                                      |
+| Refined pasta                                    |
+| Eggs                                             |
+| Tender meat                                      |
+| Strained juices                                  |
+| Cooked vegetables without skins/seeds if allowed |
+| Canned fruit without skins if allowed            |
+
+<div class="danger">
+Do not confuse diverticulosis and diverticulitis: <strong>diverticulosis = high fiber</strong>; acute diverticulitis may require <strong>low fiber/low residue</strong>.
+</div>
+
+---
+
+## Foods Better Tolerated With Mucositis
+
+Mucositis causes painful mouth sores. Foods should be soft, moist, bland, cool, and easy to swallow.
+
+| Better Choices          | Avoid                 |
+| ----------------------- | --------------------- |
+| Cold foods              | Spicy foods           |
+| Room-temperature foods  | Salty foods           |
+| Soft foods              | Citrus                |
+| Moist foods             | Tomato juice          |
+| Smooth foods            | Acidic foods          |
+| High-calorie shakes     | Rough/crunchy foods   |
+| High-protein drinks     | Very hot foods/drinks |
+| Popsicles if not acidic | Alcohol mouthwash     |
+
+<div class="nclex">
+For mucositis, ATI favors <strong>cold or room-temperature foods</strong> and avoiding spicy, salty, citrus, acidic, and tomato-based foods.
+</div>
+
+---
+
+## Neutropenic Food Safety
+
+Neutropenic clients are at higher risk for infection, so safe food handling matters.
+
+| Safer Teaching                     | Avoid / Be Careful With   |
+| ---------------------------------- | ------------------------- |
+| Wash hands before food prep/eating | Raw or undercooked meat   |
+| Cook foods thoroughly              | Raw seafood               |
+| Keep hot foods above 140°F / 60°C  | Raw or undercooked eggs   |
+| Thaw frozen foods in refrigerator  | Unpasteurized dairy/juice |
+| Use leftovers within 24 hr         | Moldy foods               |
+| Check expiration dates             | Food left out too long    |
+
+<div class="danger">
+ATI noted neutropenic clients should use leftovers within <strong>24 hr</strong> and thaw frozen foods in the <strong>refrigerator</strong>.
+</div>
+
+---
+
+## Breastfeeding / Infant Feeding Foods and Rules
+
+| Topic                       | What to Remember                                         |
+| --------------------------- | -------------------------------------------------------- |
+| **Breastfeeding frequency** | On demand, usually 8 to 12 times/day                     |
+| **First day feeds**         | Newborn may nurse about 5 min on each breast             |
+| **Early breastfeeding**     | Avoid unnecessary formula, water, and artificial nipples |
+| **Thawed breast milk**      | Use within 24 hr; do not refreeze                        |
+| **Warming breast milk**     | Warm running water or refrigerator thawing; no microwave |
+| **Milk left in bottle**     | Discard after feeding                                    |
+| **Solid foods**             | Introduce one new food every 3 to 5 days                 |
+| **Whole milk**              | Not before 12 months; whole milk until age 2             |
+
+---
+
+## Vegetarian / Vegan Foods to Know
+
+| Nutrient Concern | Food Sources / Teaching                                             |
+| ---------------- | ------------------------------------------------------------------- |
+| **Protein**      | Beans, lentils, soy, nuts, seeds, dairy/eggs if included            |
+| **Vitamin B12**  | Fortified foods or supplements for vegan clients                    |
+| **Iron**         | Beans, lentils, fortified grains, leafy greens; take with vitamin C |
+| **Calcium**      | Dairy if included, fortified plant milks, calcium-set tofu, greens  |
+| **Vitamin D**    | Fortified foods or supplement if prescribed                         |
+| **Zinc**         | Beans, nuts, seeds, whole grains                                    |
+| **Omega-3**      | Flaxseed, chia, walnuts, algae-based DHA if vegan                   |
+
+<div class="danger">
+Strict vegan diets need attention to <strong>vitamin B12</strong> because B12 is naturally found in animal products.
+</div>
+
+---
+
+## Quick “Food Choice” Exam Clues
+
+| If ATI Mentions...            | Think Food Choice                                    |
+| ----------------------------- | ---------------------------------------------------- |
+| **Celiac disease**            | Plain rice, corn, quinoa, potato flour, tapioca      |
+| **Warfarin**                  | Consistent leafy greens                              |
+| **ACE inhibitor / captopril** | Watch high potassium foods like cantaloupe           |
+| **MAOI**                      | Avoid aged cheese/tyramine                           |
+| **Iron supplement**           | Take with vitamin C; avoid milk/calcium at same time |
+| **Liquid iron**               | Use a straw                                          |
+| **Mucositis**                 | Cold, soft, bland foods                              |
+| **Dumping syndrome**          | Avoid simple sugars; fluids between meals            |
+| **Gastric bypass**            | Protein first                                        |
+| **COPD weight loss**          | High-calorie, high-protein foods                     |
+| **Constipation**              | Fiber plus fluids                                    |
+| **Diverticulosis**            | High fiber                                           |
+| **Diverticulitis flare**      | Low fiber/low residue if prescribed                  |
+| **Ileostomy**                 | Fluids, salt if prescribed, stool-thickening foods   |
+| **Neutropenia**               | Food safety; leftovers within 24 hr                  |
+| **Pregnancy**                 | Iron, folate, protein                                |
+| **Older adult bone health**   | Calcium and vitamin D                                |
+| **Vegan diet**                | Vitamin B12 fortified foods/supplement               |
