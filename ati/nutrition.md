@@ -80,7 +80,7 @@ The GI tract breaks food down so nutrients can be absorbed and used by the body.
 </div>
 
 
-<details class="study-dropdown blue">
+<details class="study-dropdown blue" markdown="1">
 <summary><strong>Follow the food through the GI tract</strong></summary>
 
 
@@ -112,7 +112,7 @@ Digestion happens in two main ways.
 </div>
 
 
-<details class="study-dropdown pink">
+<details class="study-dropdown pink" markdown="1">
 <summary><strong>Why this matters for ATI</strong></summary>
 
 
@@ -143,7 +143,7 @@ Digestion and absorption are not the same thing.
 </div>
 
 
-<details class="study-dropdown blue">
+<details class="study-dropdown blue" markdown="1">
 <summary><strong>ATI examples: digestion vs. absorption</strong></summary>
 
 
@@ -190,7 +190,7 @@ These percentages are general nutrition ranges for healthy adults. In nursing qu
 </div>
 
 
-<details class="study-dropdown orange">
+<details class="study-dropdown orange" markdown="1">
 <summary><strong>Simple way to remember the macro percentages</strong></summary>
 
 
@@ -240,7 +240,7 @@ Do not treat these as strict diet orders. A client with kidney disease, burns, w
 </div>
 
 
-<details class="study-dropdown green">
+<details class="study-dropdown green" markdown="1">
 <summary><strong>The enzyme story in plain language</strong></summary>
 
 
@@ -297,7 +297,7 @@ For ATI, the most important point is the **protein-sparing effect**: enough calo
 </div>
 
 
-<details class="study-dropdown pink">
+<details class="study-dropdown pink" markdown="1">
 <summary><strong>Why protein-sparing matters</strong></summary>
 
 
@@ -375,7 +375,7 @@ Examples include:
 </div>
 
 
-<details class="study-dropdown blue">
+<details class="study-dropdown blue" markdown="1">
 <summary><strong>Carbohydrate digestion and when it may be impaired</strong></summary>
 
 
@@ -434,7 +434,7 @@ A **complete protein** contains all 9 essential amino acids.
 </div>
 
 
-<details class="study-dropdown pink">
+<details class="study-dropdown pink" markdown="1">
 <summary><strong>Why protein affects edema and healing</strong></summary>
 
 
@@ -454,7 +454,7 @@ A client with poor intake, weight loss, and lower extremity edema may have prote
 
 </details>
 
-<details class="study-dropdown blue">
+<details class="study-dropdown blue" markdown="1">
 <summary><strong>Protein digestion and amino acids</strong></summary>
 
 
@@ -472,7 +472,7 @@ If the question asks about protein breakdown, tissue repair, or amino acids, thi
 
 </details>
 
-<details class="study-dropdown green">
+<details class="study-dropdown green" markdown="1">
 <summary><strong>Conditions that increase protein needs</strong></summary>
 
 
@@ -496,7 +496,7 @@ Important exception: Some clients with kidney disease may need protein restricti
 
 </details>
 
-<details class="study-dropdown orange">
+<details class="study-dropdown orange" markdown="1">
 <summary><strong>When protein digestion or absorption may be impaired</strong></summary>
 
 
@@ -545,7 +545,7 @@ Fat provides **concentrated energy**, helps with **insulation and organ protecti
 </div>
 
 
-<details class="study-dropdown blue">
+<details class="study-dropdown blue" markdown="1">
 <summary><strong>Fat digestion explained</strong></summary>
 
 
@@ -561,7 +561,7 @@ Key points:
 
 </details>
 
-<details class="study-dropdown pink">
+<details class="study-dropdown pink" markdown="1">
 <summary><strong>When fat digestion may be impaired</strong></summary>
 
 
@@ -607,7 +607,7 @@ Lactose is the sugar found in milk and dairy products.
 </div>
 
 
-<details class="study-dropdown green">
+<details class="study-dropdown green" markdown="1">
 <summary><strong>Lactose intolerance teaching</strong></summary>
 
 
@@ -665,7 +665,7 @@ Pancreatic enzyme replacement may be prescribed when the pancreas does not relea
 </div>
 
 
-<details class="study-dropdown orange">
+<details class="study-dropdown orange" markdown="1">
 <summary><strong>When pancreatic enzyme replacement may be used</strong></summary>
 
 
@@ -725,7 +725,7 @@ ATI may use terms like **RDA**, **DRI**, **AI**, **UL**, or **recommended intake
 </div>
 
 
-<details class="study-dropdown blue">
+<details class="study-dropdown blue" markdown="1">
 <summary><strong>More about RDA, DRI, AI, UL, and AMDR</strong></summary>
 
 
@@ -821,7 +821,7 @@ Vitamin A supports **vision, skin, mucous membranes, and immune function**.
 </div>
 
 
-<details class="study-dropdown orange">
+<details class="study-dropdown orange" markdown="1">
 <summary><strong>Vitamin A food sources</strong></summary>
 
 
@@ -848,7 +848,7 @@ ATI connected lutein with leafy greens and age-related macular degeneration.
 </div>
 
 
-<details class="study-dropdown green">
+<details class="study-dropdown green" markdown="1">
 <summary><strong>Lutein food sources</strong></summary>
 
 
@@ -893,7 +893,7 @@ Folate is important for **red blood cell formation** and **fetal neural tube dev
 </div>
 
 
-<details class="study-dropdown orange">
+<details class="study-dropdown orange" markdown="1">
 <summary><strong>Folate food sources</strong></summary>
 
 
@@ -923,7 +923,7 @@ Vitamin C supports **wound healing**, **collagen formation**, **immune function*
 </div>
 
 
-<details class="study-dropdown orange">
+<details class="study-dropdown orange" markdown="1">
 <summary><strong>Vitamin C food sources</strong></summary>
 
 
@@ -953,7 +953,7 @@ Vitamin D helps the body absorb calcium, which supports bone health.
 </div>
 
 
-<details class="study-dropdown blue">
+<details class="study-dropdown blue" markdown="1">
 <summary><strong>Vitamin D supplementation note</strong></summary>
 
 
@@ -976,7 +976,7 @@ The biggest ATI connection is **warfarin**. Warfarin works against vitamin K-dep
 </div>
 
 
-<details class="study-dropdown green">
+<details class="study-dropdown green" markdown="1">
 <summary><strong>Vitamin K food sources</strong></summary>
 
 
@@ -1013,7 +1013,7 @@ Calcium supports **bones, teeth, nerve transmission, and muscle contraction**.
 </div>
 
 
-<details class="study-dropdown orange">
+<details class="study-dropdown orange" markdown="1">
 <summary><strong>Calcium food sources and supplement teaching</strong></summary>
 
 
@@ -1067,7 +1067,7 @@ Abnormal potassium levels can be dangerous because they can affect the heart.
 </div>
 
 
-<details class="study-dropdown orange">
+<details class="study-dropdown orange" markdown="1">
 <summary><strong>High-potassium foods</strong></summary>
 
 
@@ -1161,7 +1161,7 @@ Albumin and prealbumin are labs that can help evaluate protein or nutrition stat
 </div>
 
 
-<details class="study-dropdown green">
+<details class="study-dropdown green" markdown="1">
 <summary><strong>Priority nursing focus for malnutrition</strong></summary>
 
 
@@ -1207,7 +1207,7 @@ The Braden Scale helps assess a client’s risk for pressure injury development.
 </div>
 
 
-<details class="study-dropdown blue">
+<details class="study-dropdown blue" markdown="1">
 <summary><strong>How to think through Braden nutrition scoring</strong></summary>
 
 
@@ -1262,7 +1262,7 @@ Fluid volume deficit occurs when the body loses more fluid than it takes in.
 </div>
 
 
-<details class="study-dropdown orange">
+<details class="study-dropdown orange" markdown="1">
 <summary><strong>Common causes of fluid volume deficit</strong></summary>
 
 
@@ -1333,7 +1333,7 @@ Healthy weight loss should prevent nutritional deficiencies and support long-ter
 </div>
 
 
-<details class="study-dropdown green">
+<details class="study-dropdown green" markdown="1">
 <summary><strong>General healthy eating teaching</strong></summary>
 
 
@@ -1401,6 +1401,8 @@ Teaching points:
 * If the question mentions **vomiting or diarrhea**, think fluid volume deficit and electrolyte imbalance.
 * If the question asks about **severe malnutrition**, think prealbumin.
 * If the question asks for a safe weight-loss goal, choose **0.5 to 1 lb/week**.
+
+---
 
 ## GI Nutrition and Diet Therapy
 
