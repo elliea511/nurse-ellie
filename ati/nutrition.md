@@ -29,6 +29,7 @@ This guide is organized by ATI-style nutrition topics. It focuses on diet teachi
 12. [Practice Questions](#practice-questions)
 
 ---
+
 <h2 class="section-divider" id="nutrition-basics--foundations">Nutrition Basics / Foundations</h2>
 
 Nutrition questions on ATI usually are not asking you to memorize random foods. They are testing whether you understand **how food moves through the GI tract**, **how nutrients are broken down**, **where nutrients are absorbed**, and **what happens when digestion or absorption is impaired**.
@@ -40,9 +41,9 @@ Nutrition questions on ATI usually are not asking you to memorize random foods. 
 
 ---
 
-## Big Picture: What ATI Wants You to Recognize
+<h3 id="big-picture-what-ati-wants-you-to-recognize">Big Picture: What ATI Wants You to Recognize</h3>
 
-ATI nutrition questions usually fall into one of these categories:
+ATI nutrition questions usually fall into a few predictable categories.
 
 | Question Type                             | What ATI Is Testing                                          |
 | ----------------------------------------- | ------------------------------------------------------------ |
@@ -53,14 +54,14 @@ ATI nutrition questions usually fall into one of these categories:
 | **Medication-food interaction questions** | Can you identify nutrients that interact with medications?   |
 | **Digestion/absorption questions**        | Can you identify which organ, enzyme, or nutrient is involved? |
 
-<div class="nclex">
-For ATI, do not just memorize the food. Ask yourself: <strong>What does this nutrient do, where is it digested or absorbed, and why does this client need or avoid it?</strong>
+<div class="ati-tip">
+<strong>ATI thinking:</strong> Do not just memorize the food. Ask: <strong>What does this nutrient do, where is it digested or absorbed, and why does this client need or avoid it?</strong>
 </div>
 
 
 ---
 
-## The GI Tract: Simple Flow
+<h3 id="the-gi-tract-simple-flow">The GI Tract: Simple Flow</h3>
 
 The GI tract breaks food down so nutrients can be absorbed and used by the body.
 
@@ -74,12 +75,12 @@ The GI tract breaks food down so nutrients can be absorbed and used by the body.
 | **Liver and gallbladder** | Liver makes bile; gallbladder stores and releases bile.      | Bile helps with fat digestion.                              |
 | **Large intestine/colon** | Absorbs water and forms stool.                               | Think constipation, diarrhea, ostomy output, and hydration. |
 
-<div class="nclex">
-The <strong>small intestine</strong> is the main site for nutrient absorption. The <strong>large intestine</strong> mainly absorbs water and helps form stool.
+<div class="assessment">
+<strong>Assessment cue:</strong> The <strong>small intestine</strong> is the main site for nutrient absorption. The <strong>large intestine</strong> mainly absorbs water and helps form stool.
 </div>
 
 
-<details class="study-dropdown">
+<details class="study-dropdown blue">
 <summary><strong>Follow the food through the GI tract</strong></summary>
 
 
@@ -97,7 +98,7 @@ The leftover waste moves into the large intestine, where water is absorbed and s
 
 ---
 
-## Mechanical vs. Chemical Digestion
+<h3 id="mechanical-vs-chemical-digestion">Mechanical vs. Chemical Digestion</h3>
 
 Digestion happens in two main ways.
 
@@ -106,12 +107,12 @@ Digestion happens in two main ways.
 | **Mechanical digestion** | Physically breaks food into smaller pieces.      | Chewing in the mouth; churning in the stomach.             |
 | **Chemical digestion**   | Uses enzymes and fluids to break nutrients down. | Amylase breaks down carbohydrates; lipase breaks down fat. |
 
-<div class="note">
-Mechanical digestion makes food smaller. Chemical digestion changes food into nutrients the body can absorb.
+<div class="patho">
+<strong>Why it matters:</strong> Mechanical digestion makes food smaller. Chemical digestion changes food into nutrients the body can absorb.
 </div>
 
 
-<details class="study-dropdown">
+<details class="study-dropdown pink">
 <summary><strong>Why this matters for ATI</strong></summary>
 
 
@@ -128,7 +129,7 @@ Examples:
 
 ---
 
-## Digestion vs. Absorption
+<h3 id="digestion-vs-absorption">Digestion vs. Absorption</h3>
 
 Digestion and absorption are not the same thing.
 
@@ -137,12 +138,12 @@ Digestion and absorption are not the same thing.
 | **Digestion**  | Breaking food down into smaller parts.              | Protein breaks down into amino acids.                        |
 | **Absorption** | Moving nutrients from the intestine into the blood. | Amino acids move from the small intestine into the bloodstream. |
 
-<div class="nclex">
-If ATI says <strong>damaged villi</strong>, think absorption problem. If ATI says <strong>low pancreatic enzymes</strong>, think digestion problem.
+<div class="ati-tip">
+<strong>ATI clue:</strong> If ATI says <strong>damaged villi</strong>, think absorption problem. If ATI says <strong>low pancreatic enzymes</strong>, think digestion problem.
 </div>
 
 
-<details class="study-dropdown">
+<details class="study-dropdown blue">
 <summary><strong>ATI examples: digestion vs. absorption</strong></summary>
 
 
@@ -169,7 +170,9 @@ The three macronutrients are:
 * Protein
 * Fat
 
-A general healthy adult diet usually gets calories from these ranges:
+<h3 id="macro-percentages">General Macro Percentages</h3>
+
+A general healthy adult diet usually gets calories from these ranges.
 
 | Macronutrient     | General % of Daily Calories | Main ATI Idea                                                |
 | ----------------- | --------------------------- | ------------------------------------------------------------ |
@@ -182,12 +185,12 @@ These percentages are general nutrition ranges for healthy adults. In nursing qu
 </div>
 
 
-<div class="nclex">
-ATI usually cares more about the <strong>role</strong> of the nutrient than the exact percentage. Think: carbs = energy, protein = repair, fat = stored energy and fat-soluble vitamin absorption.
+<div class="ati-tip">
+<strong>ATI shortcut:</strong> Carbs = energy, protein = repair, fat = stored energy and fat-soluble vitamin absorption.
 </div>
 
 
-<details class="study-dropdown">
+<details class="study-dropdown orange">
 <summary><strong>Simple way to remember the macro percentages</strong></summary>
 
 
@@ -203,7 +206,7 @@ Do not treat these as strict diet orders. A client with kidney disease, burns, w
 
 ---
 
-## Macronutrients: Big Picture
+<h3 id="macronutrients-big-picture">Macronutrients: Big Picture</h3>
 
 | Macronutrient                | Main Purpose                                       | Main Enzyme Type | Broken Down Into         | Nursing/ATI Focus                                            |
 | ---------------------------- | -------------------------------------------------- | ---------------- | ------------------------ | ------------------------------------------------------------ |
@@ -211,14 +214,14 @@ Do not treat these as strict diet orders. A client with kidney disease, burns, w
 | **Protein**                  | Tissue repair, muscle maintenance, immune function | **Proteases**    | Amino acids              | Wound healing, infection, surgery, burns, malnutrition, older adults |
 | **Fat/Lipids**               | Concentrated energy source and vitamin absorption  | **Lipase**       | Fatty acids and glycerol | Fat-soluble vitamins, pancreatitis, bile problems, malabsorption |
 
-<div class="nclex">
-ATI may ask which enzyme is needed to digest a certain nutrient. Think: <strong>amylase = carbohydrates/starches</strong>, <strong>protease = protein</strong>, and <strong>lipase = fat</strong>.
+<div class="memory">
+<strong>Memory trick:</strong> <strong>Amylase = carbs</strong>, <strong>protease = protein</strong>, and <strong>lipase = lipids/fat</strong>.
 </div>
 
 
 ---
 
-## Where Digestion Happens
+<h3 id="where-digestion-happens">Where Digestion Happens</h3>
 
 | Nutrient                   | Where Digestion Begins | Main Place Digestion Continues | Main Enzyme/Helper | What It Becomes          |
 | -------------------------- | ---------------------- | ------------------------------ | ------------------ | ------------------------ |
@@ -228,16 +231,16 @@ ATI may ask which enzyme is needed to digest a certain nutrient. Think: <strong>
 | **Lactose**                | Small intestine        | Small intestine                | **Lactase**        | Glucose and galactose    |
 
 <div class="danger">
-Do not confuse <strong>bile</strong> with <strong>lipase</strong>. Bile helps emulsify fat, but lipase chemically digests fat.
+<strong>Do not mix these up:</strong> Bile helps emulsify fat, but <strong>lipase</strong> chemically digests fat.
 </div>
 
 
-<div class="nclex">
+<div class="ati-tip">
 <strong>Big ATI clue:</strong> The pancreas helps digest all three macronutrients: carbohydrates, proteins, and fats. If pancreatic enzymes are impaired, the client may have malabsorption, weight loss, greasy stools, and poor nutrition.
 </div>
 
 
-<details class="study-dropdown">
+<details class="study-dropdown green">
 <summary><strong>The enzyme story in plain language</strong></summary>
 
 
@@ -253,7 +256,7 @@ Lactose is milk sugar. Lactase breaks lactose down in the small intestine. If la
 
 ---
 
-## Macronutrient Functions
+<h3 id="macronutrient-functions">Macronutrient Functions</h3>
 
 Each macronutrient has a main job, but they also support body functions in different ways.
 
@@ -263,14 +266,9 @@ Each macronutrient has a main job, but they also support body functions in diffe
 | **Protein**       | Builds and repairs tissue; maintains muscle; supports immune function; forms enzymes/hormones; maintains fluid balance in blood vessels | Protein is needed for healing, infection, wounds, surgery, burns, and malnutrition |
 | **Fat/Lipids**    | Provides concentrated energy; helps absorb vitamins A, D, E, and K; insulates the body; protects organs; helps with hormone production and cell membranes | Fat supports long-term energy, heat regulation/insulation, organ protection, and fat-soluble vitamin absorption |
 
-<div class="nclex">
-Carbohydrates are mainly for <strong>quick energy</strong>, protein is mainly for <strong>building and repair</strong>, and fat is mainly for <strong>stored energy, insulation, organ protection, and fat-soluble vitamin absorption</strong>.
-</div>
-
-
 ---
 
-## Function Clues ATI May Use
+<h3 id="function-clues-ati-may-use">Function Clues ATI May Use</h3>
 
 | If ATI Mentions...                    | Think...                                                     |
 | ------------------------------------- | ------------------------------------------------------------ |
@@ -288,18 +286,18 @@ Carbohydrates are mainly for <strong>quick energy</strong>, protein is mainly fo
 
 ---
 
-## Energy Use and Protein-Sparing
+<h3 id="energy-use-and-protein-sparing">Energy Use and Protein-Sparing</h3>
 
 The body prefers glucose from carbohydrates for quick energy.
 
 For ATI, the most important point is the **protein-sparing effect**: enough calories and carbohydrates help preserve protein for wound healing, muscle maintenance, immune function, enzymes, and hormones.
 
-<div class="nclex">
-The body prefers to use <strong>glucose</strong> for quick energy. Protein should be preserved for healing and body function, not used as the main energy source.
+<div class="ati-tip">
+<strong>ATI clue:</strong> The body prefers to use <strong>glucose</strong> for quick energy. Protein should be preserved for healing and body function, not used as the main energy source.
 </div>
 
 
-<details class="study-dropdown">
+<details class="study-dropdown pink">
 <summary><strong>Why protein-sparing matters</strong></summary>
 
 
@@ -322,7 +320,7 @@ If calorie or carbohydrate intake is too low, the body may break down protein fo
 
 ---
 
-## Carbohydrates
+<h3 id="carbohydrates">Carbohydrates</h3>
 
 Carbohydrates are the body’s preferred source of energy. When carbohydrates are digested, they break down into glucose.
 
@@ -333,12 +331,12 @@ Carbohydrates are the body’s preferred source of energy. When carbohydrates ar
 | **Simple sugars raise glucose quickly**    | Important for diabetes and dumping syndrome questions.       |
 | **Consistent carbohydrate intake matters** | Helps prevent glucose swings in diabetes.                    |
 
-<div class="note">
-If the question asks about starches, grains, or carbohydrates, think <strong>amylase</strong>.
+<div class="memory">
+<strong>Remember:</strong> If the question asks about starches, grains, or carbohydrates, think <strong>amylase</strong>.
 </div>
 
 
-### Simple Carbohydrates
+<h4 id="simple-carbohydrates">Simple Carbohydrates</h4>
 
 Simple carbohydrates are digested quickly and can raise blood glucose quickly.
 
@@ -353,14 +351,12 @@ Examples include:
 * Sugary drinks
 * Fruit juice in large amounts
 
-Simple sugars are especially important in **diabetes** and **dumping syndrome** questions.
-
 <div class="danger">
-In dumping syndrome, simple sugars make the intestinal contents more hypertonic. This pulls fluid into the small intestine and worsens cramping, diarrhea, dizziness, and weakness.
+<strong>Dumping syndrome warning:</strong> Simple sugars make intestinal contents more hypertonic. This pulls fluid into the small intestine and worsens cramping, diarrhea, dizziness, and weakness.
 </div>
 
 
-### Complex Carbohydrates
+<h4 id="complex-carbohydrates">Complex Carbohydrates</h4>
 
 Complex carbohydrates digest more slowly and usually provide more nutrients and fiber.
 
@@ -374,12 +370,12 @@ Examples include:
 * Brown rice
 * Starchy vegetables
 
-<div class="nclex">
-ATI does not usually want clients to eliminate all carbohydrates. The safer teaching is usually <strong>consistent carbohydrate intake</strong> and choosing complex carbohydrates when appropriate.
+<div class="teaching">
+<strong>Client teaching:</strong> ATI does not usually want clients to eliminate all carbohydrates. The safer teaching is usually <strong>consistent carbohydrate intake</strong> and choosing complex carbohydrates when appropriate.
 </div>
 
 
-<details class="study-dropdown">
+<details class="study-dropdown blue">
 <summary><strong>Carbohydrate digestion and when it may be impaired</strong></summary>
 
 
@@ -408,7 +404,7 @@ The pancreas releases amylase, lipase, and proteases, so pancreatic problems can
 
 ---
 
-## Protein
+<h3 id="protein">Protein</h3>
 
 Protein is needed for **tissue repair, wound healing, immune function, muscle maintenance, and fluid balance**.
 
@@ -419,12 +415,12 @@ Protein is needed for **tissue repair, wound healing, immune function, muscle ma
 | **Protein supports immunity**                     | Important during infection, cancer, and illness.             |
 | **Protein helps maintain fluid in blood vessels** | Low protein can contribute to edema.                         |
 
-<div class="nclex">
-ATI clue: If the client has <strong>wounds, burns, infection, surgery, poor healing, muscle wasting, or edema with poor intake</strong>, think protein.
+<div class="ati-tip">
+<strong>ATI clue:</strong> If the client has <strong>wounds, burns, infection, surgery, poor healing, muscle wasting, or edema with poor intake</strong>, think protein.
 </div>
 
 
-### Complete vs. Incomplete Proteins
+<h4 id="complete-vs-incomplete-proteins">Complete vs. Incomplete Proteins</h4>
 
 A **complete protein** contains all 9 essential amino acids.
 
@@ -433,12 +429,12 @@ A **complete protein** contains all 9 essential amino acids.
 | **Complete protein**   | Contains all 9 essential amino acids      | Meat, poultry, fish, eggs, milk, yogurt, cheese, cottage cheese |
 | **Incomplete protein** | Missing one or more essential amino acids | Legumes, peanut butter, whole grains, nuts, seeds            |
 
-<div class="nclex">
-ATI may ask for the “best source of protein.” If the options include <strong>cottage cheese</strong>, it may be the best answer because it is a complete protein.
+<div class="ati-tip">
+<strong>ATI food clue:</strong> If the options include <strong>cottage cheese</strong>, it may be the best answer because it is a complete protein.
 </div>
 
 
-<details class="study-dropdown">
+<details class="study-dropdown pink">
 <summary><strong>Why protein affects edema and healing</strong></summary>
 
 
@@ -458,7 +454,7 @@ A client with poor intake, weight loss, and lower extremity edema may have prote
 
 </details>
 
-<details class="study-dropdown">
+<details class="study-dropdown blue">
 <summary><strong>Protein digestion and amino acids</strong></summary>
 
 
@@ -476,7 +472,7 @@ If the question asks about protein breakdown, tissue repair, or amino acids, thi
 
 </details>
 
-<details class="study-dropdown">
+<details class="study-dropdown green">
 <summary><strong>Conditions that increase protein needs</strong></summary>
 
 
@@ -500,7 +496,7 @@ Important exception: Some clients with kidney disease may need protein restricti
 
 </details>
 
-<details class="study-dropdown">
+<details class="study-dropdown orange">
 <summary><strong>When protein digestion or absorption may be impaired</strong></summary>
 
 
@@ -528,7 +524,7 @@ Possible signs include:
 
 ---
 
-## Fat
+<h3 id="fat">Fat</h3>
 
 Fat provides **concentrated energy**, helps with **insulation and organ protection**, and helps the body absorb fat-soluble vitamins.
 
@@ -539,17 +535,17 @@ Fat provides **concentrated energy**, helps with **insulation and organ protecti
 | **Fat helps absorb vitamins A, D, E, and K**          | Fat malabsorption can cause fat-soluble vitamin deficiencies. |
 | **Greasy, floating stools suggest fat malabsorption** | Think pancreatic enzyme or bile flow problem.                |
 
-<div class="nclex">
-ATI usually does not want “no fat.” It wants the diet that matches the disease process.
+<div class="teaching">
+<strong>Client teaching:</strong> ATI usually does not want “no fat.” It wants the diet that matches the disease process.
 </div>
 
 
 <div class="danger">
-Greasy, foul-smelling, floating stools suggest <strong>fat malabsorption</strong>. Think lipase or bile flow problems.
+<strong>Fat malabsorption clue:</strong> Greasy, foul-smelling, floating stools suggest fat malabsorption. Think lipase or bile flow problems.
 </div>
 
 
-<details class="study-dropdown">
+<details class="study-dropdown blue">
 <summary><strong>Fat digestion explained</strong></summary>
 
 
@@ -565,7 +561,7 @@ Key points:
 
 </details>
 
-<details class="study-dropdown">
+<details class="study-dropdown pink">
 <summary><strong>When fat digestion may be impaired</strong></summary>
 
 
@@ -596,7 +592,7 @@ Possible signs include:
 
 ---
 
-## Lactose Digestion
+<h3 id="lactose-digestion">Lactose Digestion</h3>
 
 Lactose is the sugar found in milk and dairy products.
 
@@ -606,12 +602,12 @@ Lactose is the sugar found in milk and dairy products.
 | **Symptoms occur after dairy intake**  | Gas, bloating, cramping, and diarrhea are common. |
 | **Calcium and vitamin D still matter** | Clients avoiding dairy need another source.       |
 
-<div class="nclex">
-For lactose intolerance, the problem is not enough <strong>lactase</strong>.
+<div class="ati-tip">
+<strong>ATI clue:</strong> For lactose intolerance, the problem is not enough <strong>lactase</strong>.
 </div>
 
 
-<details class="study-dropdown">
+<details class="study-dropdown green">
 <summary><strong>Lactose intolerance teaching</strong></summary>
 
 
@@ -637,7 +633,7 @@ If the client has diarrhea, cramping, and gas after milk or dairy, think **lacta
 
 ---
 
-## Pancreatic Enzymes
+<h3 id="pancreatic-enzymes">Pancreatic Enzymes</h3>
 
 The pancreas releases several digestive enzymes into the small intestine.
 
@@ -647,14 +643,14 @@ The pancreas releases several digestive enzymes into the small intestine.
 | **Lipase**        | Fats                   |
 | **Proteases**     | Proteins               |
 
-<div class="note">
-The pancreas helps digest all three major macronutrients: <strong>carbohydrates, fats, and proteins</strong>.
+<div class="patho">
+<strong>Why it matters:</strong> The pancreas helps digest all three major macronutrients: <strong>carbohydrates, fats, and proteins</strong>.
 </div>
 
 
 ---
 
-## Pancreatic Enzyme Replacement
+<h3 id="pancreatic-enzyme-replacement">Pancreatic Enzyme Replacement</h3>
 
 Pancreatic enzyme replacement may be prescribed when the pancreas does not release enough digestive enzymes.
 
@@ -664,12 +660,12 @@ Pancreatic enzyme replacement may be prescribed when the pancreas does not relea
 | **Do not crush or chew enteric-coated capsules** | This can affect how the medication works.                    |
 | **Monitor stools and weight**                    | Ongoing greasy stools or weight loss can mean poor digestion. |
 
-<div class="nclex">
-If pancreatic enzymes are prescribed, they are usually taken <strong>with meals and snacks</strong> to help digest food.
+<div class="med">
+<strong>Medication teaching:</strong> If pancreatic enzymes are prescribed, they are usually taken <strong>with meals and snacks</strong> to help digest food.
 </div>
 
 
-<details class="study-dropdown">
+<details class="study-dropdown orange">
 <summary><strong>When pancreatic enzyme replacement may be used</strong></summary>
 
 
@@ -692,7 +688,7 @@ Teaching points:
 
 ---
 
-## Quick Digestion and Enzyme Review
+<h3 id="quick-digestion-and-enzyme-review">Quick Digestion and Enzyme Review</h3>
 
 | If ATI Asks About...                | Think...                                   |
 | ----------------------------------- | ------------------------------------------ |
@@ -724,12 +720,12 @@ ATI may use terms like **RDA**, **DRI**, **AI**, **UL**, or **recommended intake
 | **UL**   | Tolerable Upper Intake Level; highest daily amount unlikely to cause harm |
 | **AMDR** | Acceptable Macronutrient Distribution Range; general macro calorie ranges |
 
-<div class="nclex">
-If ATI asks what RDA means, think: <strong>recommended daily amount that meets the needs of most healthy people</strong>.
+<div class="ati-tip">
+<strong>ATI clue:</strong> If ATI asks what RDA means, think: <strong>recommended daily amount that meets the needs of most healthy people</strong>.
 </div>
 
 
-<details class="study-dropdown">
+<details class="study-dropdown blue">
 <summary><strong>More about RDA, DRI, AI, UL, and AMDR</strong></summary>
 
 
@@ -764,7 +760,7 @@ RDA values are for generally healthy people. Clients who are ill, injured, pregn
 
 ---
 
-## Quick Recommendation Review
+<h3 id="quick-recommendation-review">Quick Recommendation Review</h3>
 
 | If ATI Mentions...        | Think...                                         |
 | ------------------------- | ------------------------------------------------ |
@@ -789,7 +785,7 @@ Micronutrients are vitamins and minerals. They do not provide calories, but they
 
 ---
 
-## Fat-Soluble vs. Water-Soluble Vitamins
+<h3 id="fat-soluble-vs-water-soluble-vitamins">Fat-Soluble vs. Water-Soluble Vitamins</h3>
 
 Vitamins are grouped based on how they are absorbed and stored.
 
@@ -799,18 +795,18 @@ Vitamins are grouped based on how they are absorbed and stored.
 | **Water-soluble** | B-complex and C | Not stored in large amounts; excess is usually excreted in urine. |
 
 <div class="memory">
-Fat-soluble vitamins are <strong>A, D, E, K</strong>.
+<strong>Memory trick:</strong> Fat-soluble vitamins are <strong>A, D, E, K</strong>.
 </div>
 
 
-<div class="nclex">
-Because fat-soluble vitamins need fat for absorption, fat malabsorption can lead to deficiencies in vitamins <strong>A, D, E, and K</strong>.
+<div class="patho">
+<strong>Why it matters:</strong> Because fat-soluble vitamins need fat for absorption, fat malabsorption can lead to deficiencies in vitamins <strong>A, D, E, and K</strong>.
 </div>
 
 
 ---
 
-## Vitamin A
+<h3 id="vitamin-a">Vitamin A</h3>
 
 Vitamin A supports **vision, skin, mucous membranes, and immune function**.
 
@@ -820,12 +816,12 @@ Vitamin A supports **vision, skin, mucous membranes, and immune function**.
 | Skin and mucous membranes | Helps maintain tissue integrity.                  |
 | Immune support            | Helps protect epithelial barriers.                |
 
-<div class="nclex">
-If ATI asks which micronutrient improves <strong>night vision</strong>, choose <strong>vitamin A</strong>.
+<div class="ati-tip">
+<strong>ATI clue:</strong> If ATI asks which micronutrient improves <strong>night vision</strong>, choose <strong>vitamin A</strong>.
 </div>
 
 
-<details class="study-dropdown">
+<details class="study-dropdown orange">
 <summary><strong>Vitamin A food sources</strong></summary>
 
 
@@ -843,7 +839,7 @@ Food sources include:
 
 ---
 
-## Lutein
+<h3 id="lutein">Lutein</h3>
 
 Lutein is important for **eye health** and can help slow progression of age-related macular degeneration.
 
@@ -852,7 +848,7 @@ ATI connected lutein with leafy greens and age-related macular degeneration.
 </div>
 
 
-<details class="study-dropdown">
+<details class="study-dropdown green">
 <summary><strong>Lutein food sources</strong></summary>
 
 
@@ -867,7 +863,7 @@ Food sources include:
 
 ---
 
-## Vitamin B6
+<h3 id="vitamin-b6">Vitamin B6</h3>
 
 Vitamin B6 helps with **heme formation in hemoglobin** and supports **neurotransmitter synthesis**.
 
@@ -883,7 +879,7 @@ Vitamin B6 is important for blood and nervous system function, but it is <strong
 
 ---
 
-## Folate
+<h3 id="folate">Folate</h3>
 
 Folate is important for **red blood cell formation** and **fetal neural tube development**.
 
@@ -892,12 +888,12 @@ Folate is important for **red blood cell formation** and **fetal neural tube dev
 | Helps form red blood cells             | Prevents folate-deficiency anemia. |
 | Supports fetal neural tube development | Important during pregnancy.        |
 
-<div class="nclex">
-ATI specifically noted that <strong>3.5 oz of chicken liver</strong> is very high in folate.
+<div class="ati-tip">
+<strong>ATI food clue:</strong> ATI specifically noted that <strong>3.5 oz of chicken liver</strong> is very high in folate.
 </div>
 
 
-<details class="study-dropdown">
+<details class="study-dropdown orange">
 <summary><strong>Folate food sources</strong></summary>
 
 
@@ -913,21 +909,21 @@ Food sources include:
 
 ---
 
-## Vitamin C
+<h3 id="vitamin-c">Vitamin C</h3>
 
 Vitamin C supports **wound healing**, **collagen formation**, **immune function**, and **iron absorption**.
 
-<div class="nclex">
-Vitamin C is commonly paired with <strong>iron supplementation</strong> because it improves absorption.
+<div class="ati-tip">
+<strong>ATI clue:</strong> Vitamin C is commonly paired with <strong>iron supplementation</strong> because it improves absorption.
 </div>
 
 
 <div class="danger">
-Citrus foods can irritate the mouth if the client has <strong>mucositis</strong>. The nutrient is helpful, but the food choice may not be appropriate for every client.
+<strong>Safety note:</strong> Citrus foods can irritate the mouth if the client has <strong>mucositis</strong>. The nutrient is helpful, but the food choice may not be appropriate for every client.
 </div>
 
 
-<details class="study-dropdown">
+<details class="study-dropdown orange">
 <summary><strong>Vitamin C food sources</strong></summary>
 
 
@@ -943,7 +939,7 @@ Food sources include:
 
 ---
 
-## Vitamin D
+<h3 id="vitamin-d">Vitamin D</h3>
 
 Vitamin D helps the body absorb calcium, which supports bone health.
 
@@ -952,12 +948,12 @@ Vitamin D helps the body absorb calcium, which supports bone health.
 | Calcium absorption      | Needed for bone strength.             |
 | Older adult bone health | Helps prevent bone loss with calcium. |
 
-<div class="nclex">
-Older adults are at increased risk for low vitamin D because they have decreased ability to synthesize vitamin D from sunlight.
+<div class="assessment">
+<strong>Older adult cue:</strong> Older adults are at increased risk for low vitamin D because they have decreased ability to synthesize vitamin D from sunlight.
 </div>
 
 
-<details class="study-dropdown">
+<details class="study-dropdown blue">
 <summary><strong>Vitamin D supplementation note</strong></summary>
 
 
@@ -969,18 +965,18 @@ A common range is **1,000 to 2,000 IU/day**, depending on provider recommendatio
 
 ---
 
-## Vitamin K
+<h3 id="vitamin-k">Vitamin K</h3>
 
 Vitamin K is needed for **blood clotting**.
 
 The biggest ATI connection is **warfarin**. Warfarin works against vitamin K-dependent clotting factors, so changes in vitamin K intake can affect anticoagulation.
 
-<div class="nclex">
-For clients taking warfarin, do <strong>not</strong> teach them to avoid all vitamin K. Teach them to keep vitamin K intake <strong>consistent</strong>.
+<div class="med">
+<strong>Medication-food interaction:</strong> For clients taking warfarin, do <strong>not</strong> teach them to avoid all vitamin K. Teach them to keep vitamin K intake <strong>consistent</strong>.
 </div>
 
 
-<details class="study-dropdown">
+<details class="study-dropdown green">
 <summary><strong>Vitamin K food sources</strong></summary>
 
 
@@ -1002,7 +998,7 @@ Minerals are important for bones, oxygen transport, fluid balance, cardiac rhyth
 
 ---
 
-## Calcium
+<h3 id="calcium">Calcium</h3>
 
 Calcium supports **bones, teeth, nerve transmission, and muscle contraction**.
 
@@ -1012,12 +1008,12 @@ Calcium supports **bones, teeth, nerve transmission, and muscle contraction**.
 | Nerve transmission | Helps nerves send signals.                |
 | Muscle contraction | Needed for normal muscle function.        |
 
-<div class="nclex">
-ATI specifically noted that <strong>½ cup roasted almonds contains about 185 mg of calcium</strong>.
+<div class="ati-tip">
+<strong>ATI food clue:</strong> ATI specifically noted that <strong>½ cup roasted almonds contains about 185 mg of calcium</strong>.
 </div>
 
 
-<details class="study-dropdown">
+<details class="study-dropdown orange">
 <summary><strong>Calcium food sources and supplement teaching</strong></summary>
 
 
@@ -1043,7 +1039,7 @@ Calcium carbonate is commonly tested because it is economical and should be take
 
 ---
 
-## Magnesium
+<h3 id="magnesium">Magnesium</h3>
 
 Magnesium supports **nerve, muscle, and cardiac function**.
 
@@ -1053,25 +1049,25 @@ Magnesium supports **nerve, muscle, and cardiac function**.
 | Cardiac function       | Supports normal heart rhythm.           |
 | Electrolyte balance    | Can shift during nutrition therapy.     |
 
-<div class="nclex">
-Clients receiving TPN are at risk for electrolyte shifts. ATI specifically connected TPN with <strong>low magnesium</strong>.
+<div class="lab">
+<strong>Lab/electrolyte clue:</strong> Clients receiving TPN are at risk for electrolyte shifts. ATI specifically connected TPN with <strong>low magnesium</strong>.
 </div>
 
 
 ---
 
-## Potassium
+<h3 id="potassium">Potassium</h3>
 
 Potassium is important for **cardiac rhythm, muscle contraction, and fluid balance**.
 
 Abnormal potassium levels can be dangerous because they can affect the heart.
 
-<div class="danger">
-ACE inhibitors, such as captopril, can retain potassium and cause <strong>hyperkalemia</strong>. ATI specifically identified <strong>cantaloupe</strong> as a high-potassium food to avoid if the client is at risk.
+<div class="med">
+<strong>Medication-food interaction:</strong> ACE inhibitors, such as captopril, can retain potassium and cause <strong>hyperkalemia</strong>. ATI specifically identified <strong>cantaloupe</strong> as a high-potassium food to avoid if the client is at risk.
 </div>
 
 
-<details class="study-dropdown">
+<details class="study-dropdown orange">
 <summary><strong>High-potassium foods</strong></summary>
 
 
@@ -1089,7 +1085,7 @@ High-potassium foods include:
 
 ---
 
-## Phosphorus
+<h3 id="phosphorus">Phosphorus</h3>
 
 Phosphorus helps form **bones and teeth** and helps regulate hormone activity.
 
@@ -1105,23 +1101,21 @@ Phosphorus is important for bones and teeth, but ATI does <strong>not</strong> c
 
 ---
 
-## Iron
+<h3 id="iron">Iron</h3>
 
 Iron is needed to make **hemoglobin**, which carries oxygen in the blood.
 
 Low iron can lead to iron-deficiency anemia, causing fatigue, weakness, pallor, shortness of breath, and low hemoglobin/hematocrit.
 
-<div class="nclex">
-ATI noted that pregnant clients should take <strong>30 mg of iron daily</strong> to reduce the risk for iron-deficiency anemia.
+<div class="ati-tip">
+<strong>Pregnancy clue:</strong> ATI noted that pregnant clients should take <strong>30 mg of iron daily</strong> to reduce the risk for iron-deficiency anemia.
 </div>
 
 
-### Iron teaching
+<div class="teaching">
+<strong>Iron teaching:</strong> Take iron with vitamin C, use a straw for liquid iron, expect constipation, and expect dark stools.
+</div>
 
-* Take iron with vitamin C to improve absorption.
-* Liquid iron can stain teeth, so use a straw.
-* Iron can cause constipation.
-* Iron can make stools dark.
 
 ---
 
@@ -1133,7 +1127,7 @@ ATI often tests malnutrition using assessment cues, not just weight.
 
 ---
 
-## Albumin vs. Prealbumin
+<h3 id="albumin-vs-prealbumin">Albumin vs. Prealbumin</h3>
 
 Albumin and prealbumin are labs that can help evaluate protein or nutrition status, but they are not perfect.
 
@@ -1142,14 +1136,14 @@ Albumin and prealbumin are labs that can help evaluate protein or nutrition stat
 | **Albumin**    | Can reflect longer-term protein status | Can be affected by inflammation, liver disease, kidney disease, and fluid status. |
 | **Prealbumin** | Reflects more recent nutrition changes | More useful for recent or severe malnutrition.               |
 
-<div class="nclex">
-If ATI asks about severe or recent malnutrition, think <strong>prealbumin</strong>.
+<div class="lab">
+<strong>Lab clue:</strong> If ATI asks about severe or recent malnutrition, think <strong>prealbumin</strong>.
 </div>
 
 
 ---
 
-## Physical Signs of Malnutrition
+<h3 id="physical-signs-of-malnutrition">Physical Signs of Malnutrition</h3>
 
 | Finding                       | What It Can Suggest                          |
 | ----------------------------- | -------------------------------------------- |
@@ -1163,11 +1157,11 @@ If ATI asks about severe or recent malnutrition, think <strong>prealbumin</stron
 | **Unintentional weight loss** | Inadequate intake, illness, or malabsorption |
 
 <div class="danger">
-Do not ignore edema in a malnourished client. <strong>Edema can be a protein deficiency clue</strong>, even if the client does not look underweight.
+<strong>Priority clue:</strong> Do not ignore edema in a malnourished client. Edema can be a protein deficiency clue, even if the client does not look underweight.
 </div>
 
 
-<details class="study-dropdown">
+<details class="study-dropdown green">
 <summary><strong>Priority nursing focus for malnutrition</strong></summary>
 
 
@@ -1192,14 +1186,14 @@ Nursing actions:
 
 The Braden Scale helps assess a client’s risk for pressure injury development. One part of the Braden Scale is the **nutrition** category.
 
-<div class="nclex">
-ATI may describe a client’s meal intake and ask how the client scores in the <strong>nutrition</strong> category of the Braden Scale.
+<div class="ati-tip">
+<strong>ATI clue:</strong> ATI may describe a client’s meal intake and ask how the client scores in the <strong>nutrition</strong> category of the Braden Scale.
 </div>
 
 
 ---
 
-## Braden Nutrition Scoring
+<h3 id="braden-nutrition-scoring">Braden Nutrition Scoring</h3>
 
 | Score | Category                | What It Means                     | ATI Clues                                                    |
 | ----- | ----------------------- | --------------------------------- | ------------------------------------------------------------ |
@@ -1213,7 +1207,7 @@ ATI may describe a client’s meal intake and ask how the client scores in the <
 </div>
 
 
-<details class="study-dropdown">
+<details class="study-dropdown blue">
 <summary><strong>How to think through Braden nutrition scoring</strong></summary>
 
 
@@ -1249,7 +1243,7 @@ Fluid balance questions are common on ATI because dehydration and fluid overload
 
 ---
 
-## Fluid Volume Deficit
+<h3 id="fluid-volume-deficit">Fluid Volume Deficit</h3>
 
 Fluid volume deficit occurs when the body loses more fluid than it takes in.
 
@@ -1264,11 +1258,11 @@ Fluid volume deficit occurs when the body loses more fluid than it takes in.
 | Weakness or dizziness                  | Decreased perfusion                     |
 
 <div class="danger">
-Vomiting and diarrhea place the client at risk for <strong>fluid volume deficit</strong> and <strong>electrolyte imbalance</strong>.
+<strong>Priority clue:</strong> Vomiting and diarrhea place the client at risk for <strong>fluid volume deficit</strong> and <strong>electrolyte imbalance</strong>.
 </div>
 
 
-<details class="study-dropdown">
+<details class="study-dropdown orange">
 <summary><strong>Common causes of fluid volume deficit</strong></summary>
 
 
@@ -1286,7 +1280,7 @@ Common causes include:
 
 ---
 
-## Fluid Volume Excess
+<h3 id="fluid-volume-excess">Fluid Volume Excess</h3>
 
 Fluid volume excess occurs when the body retains too much fluid.
 
@@ -1301,7 +1295,7 @@ Fluid volume excess occurs when the body retains too much fluid.
 
 ---
 
-## Fluid Deficit vs. Fluid Overload
+<h3 id="fluid-deficit-vs-fluid-overload">Fluid Deficit vs. Fluid Overload</h3>
 
 | Assessment Area  | Fluid Volume Deficit          | Fluid Volume Excess         |
 | ---------------- | ----------------------------- | --------------------------- |
@@ -1323,7 +1317,7 @@ Healthy weight loss should prevent nutritional deficiencies and support long-ter
 
 ---
 
-## Healthy Weight Loss
+<h3 id="healthy-weight-loss">Healthy Weight Loss</h3>
 
 | Teaching                          | Why It Matters                                               |
 | --------------------------------- | ------------------------------------------------------------ |
@@ -1334,12 +1328,12 @@ Healthy weight loss should prevent nutritional deficiencies and support long-ter
 | Avoid tasting foods while cooking | Prevents unplanned extra calories.                           |
 | Control portions                  | More sustainable than eliminating all favorite foods.        |
 
-<div class="nclex">
-If ATI asks for a realistic weight-loss goal, choose <strong>0.5 to 1 lb per week</strong>.
+<div class="ati-tip">
+<strong>ATI clue:</strong> If ATI asks for a realistic weight-loss goal, choose <strong>0.5 to 1 lb per week</strong>.
 </div>
 
 
-<details class="study-dropdown">
+<details class="study-dropdown green">
 <summary><strong>General healthy eating teaching</strong></summary>
 
 
