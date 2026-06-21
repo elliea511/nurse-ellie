@@ -1681,3 +1681,761 @@ margin-left: 0.25rem !important;
   margin: 14px 0;
   border-radius: 8px;
 }
+/* =========================================================
+   RAINBOW VISUAL HIERARCHY OVERRIDE
+   Paste this at the VERY BOTTOM of style.css
+   Purpose:
+   - Makes H1/H2/H3/H4 clearly different
+   - Fixes study dropdown boxes so they don't look like quiz answers
+   - Gives each callout type its own color
+   - Reduces repetitive yellow boxes
+   ========================================================= */
+
+/* ---------- Rainbow color system ---------- */
+:root {
+  --rainbow-red: #fca5a5;
+  --rainbow-orange: #fdba74;
+  --rainbow-yellow: #fde68a;
+  --rainbow-green: #9de0aa;
+  --rainbow-mint: #7fd8d2;
+  --rainbow-blue: #9fd7f5;
+  --rainbow-indigo: #a5b4fc;
+  --rainbow-purple: #d7c3f3;
+  --rainbow-pink: #f8b6c8;
+  --rainbow-rose: #f9a8d4;
+
+  --soft-red: #fff1f2;
+  --soft-orange: #fff7ed;
+  --soft-yellow: #fff9db;
+  --soft-green: #f0fff2;
+  --soft-mint: #ecfdf5;
+  --soft-blue: #eef8ff;
+  --soft-indigo: #eef2ff;
+  --soft-purple: #f7f2ff;
+  --soft-pink: #fff4f8;
+  --soft-rose: #fff1f7;
+
+  --ink: #24455c;
+  --muted-ink: #5d7380;
+  --paper: rgba(255, 255, 255, 0.94);
+}
+
+/* =========================================================
+   PAGE + CONTENT CARD
+   ========================================================= */
+
+body {
+  color: var(--ink) !important;
+}
+
+.main-content {
+  background: var(--paper) !important;
+  border-radius: 24px !important;
+  border: 2px solid rgba(255, 255, 255, 0.75) !important;
+  box-shadow: 0 14px 36px rgba(36, 69, 92, 0.14) !important;
+  padding: 2.35rem !important;
+}
+
+/* =========================================================
+   HEADING HIERARCHY
+   ========================================================= */
+
+/* H1 = page title */
+.main-content h1 {
+  background: linear-gradient(
+    135deg,
+    var(--rainbow-pink),
+    var(--rainbow-yellow),
+    var(--rainbow-mint),
+    var(--rainbow-blue)
+  ) !important;
+  color: var(--ink) !important;
+  text-align: center !important;
+  font-size: 2.45rem !important;
+  font-weight: 950 !important;
+  line-height: 1.1 !important;
+  letter-spacing: 1.5px !important;
+  text-transform: none !important;
+  padding: 1.25rem 1rem !important;
+  margin: 0 0 2rem 0 !important;
+  border: 4px solid rgba(255, 255, 255, 0.95) !important;
+  border-radius: 26px !important;
+  box-shadow:
+    10px 10px 0 rgba(127, 216, 210, 0.18),
+    0 8px 24px rgba(36, 69, 92, 0.10) !important;
+}
+
+/* H2 = major sections */
+.main-content h2 {
+  background: linear-gradient(135deg, #fff4f8, #f7f2ff) !important;
+  color: #7a2450 !important;
+  font-size: 1.75rem !important;
+  font-weight: 900 !important;
+  line-height: 1.2 !important;
+  padding: 0.9rem 1rem !important;
+  margin: 2.8rem 0 1.15rem 0 !important;
+  border-left: 10px solid var(--rainbow-pink) !important;
+  border-right: 0 !important;
+  border-top: 0 !important;
+  border-bottom: 3px solid rgba(248, 182, 200, 0.55) !important;
+  border-radius: 18px !important;
+  box-shadow: 6px 6px 0 rgba(248, 182, 200, 0.18) !important;
+}
+
+.main-content h2::before {
+  content: "🌸 " !important;
+  color: #be185d !important;
+}
+
+/* H3 = main topics inside a section */
+.main-content h3 {
+  background: linear-gradient(to right, #eef8ff, transparent) !important;
+  color: #25617d !important;
+  font-size: 1.35rem !important;
+  font-weight: 850 !important;
+  line-height: 1.25 !important;
+  padding: 0.65rem 0.85rem !important;
+  margin: 2rem 0 0.75rem 0 !important;
+  border-left: 8px solid var(--rainbow-blue) !important;
+  border-radius: 14px !important;
+  box-shadow: none !important;
+}
+
+.main-content h3::before {
+  content: "🩵 " !important;
+}
+
+/* H4 = small subtopics */
+.main-content h4 {
+  color: #6b46a8 !important;
+  font-size: 1.08rem !important;
+  font-weight: 850 !important;
+  line-height: 1.3 !important;
+  margin: 1.3rem 0 0.45rem 0 !important;
+  padding: 0.25rem 0 0.25rem 0.65rem !important;
+  border-left: 5px solid var(--rainbow-purple) !important;
+  background: transparent !important;
+}
+
+/* HTML section divider headings */
+.main-content .section-divider {
+  display: block !important;
+  background: linear-gradient(
+    135deg,
+    var(--rainbow-pink),
+    var(--rainbow-orange),
+    var(--rainbow-yellow),
+    var(--rainbow-green),
+    var(--rainbow-blue),
+    var(--rainbow-purple)
+  ) !important;
+  color: var(--ink) !important;
+  text-align: center !important;
+  font-size: 1.95rem !important;
+  font-weight: 950 !important;
+  letter-spacing: 1px !important;
+  text-transform: uppercase !important;
+  padding: 1rem 1.1rem !important;
+  margin: 3rem 0 1.4rem 0 !important;
+  border-radius: 24px !important;
+  border: 4px solid rgba(255,255,255,0.9) !important;
+  box-shadow:
+    9px 9px 0 rgba(36, 69, 92, 0.10),
+    0 8px 24px rgba(36, 69, 92, 0.10) !important;
+}
+
+.main-content .section-divider::before {
+  content: "✦ " !important;
+}
+
+.main-content .section-divider::after {
+  content: " ✦" !important;
+}
+
+/* Smaller section divider, like subsection banners */
+.main-content .section-divider.small {
+  background: linear-gradient(135deg, #eef8ff, #f7f2ff) !important;
+  color: #375a7f !important;
+  text-align: left !important;
+  font-size: 1.45rem !important;
+  text-transform: none !important;
+  letter-spacing: 0.2px !important;
+  border-left: 9px solid var(--rainbow-blue) !important;
+  border-top: none !important;
+  border-right: none !important;
+  border-bottom: none !important;
+  box-shadow: 6px 6px 0 rgba(159, 215, 245, 0.18) !important;
+}
+
+.main-content .section-divider.small::before {
+  content: "➜ " !important;
+}
+
+.main-content .section-divider.small::after {
+  content: "" !important;
+}
+
+/* Optional custom topic banners */
+.main-content .topic-header {
+  background: linear-gradient(135deg, #fff7cf, #f8b6c8, #d7c3f3, #7fd8d2) !important;
+  color: var(--ink) !important;
+  text-align: center !important;
+  text-transform: uppercase !important;
+  letter-spacing: 1.4px !important;
+  font-size: 1.55rem !important;
+  font-weight: 950 !important;
+  padding: 1rem 1.1rem !important;
+  margin: 2.8rem 0 1.3rem 0 !important;
+  border-radius: 22px !important;
+  border: 4px solid rgba(255,255,255,0.9) !important;
+  box-shadow: 8px 8px 0 rgba(127, 216, 210, 0.16) !important;
+}
+
+.main-content .topic-subheader {
+  background: #eef8ff !important;
+  color: var(--ink) !important;
+  border-left: 8px solid var(--rainbow-blue) !important;
+  border-radius: 14px !important;
+  padding: 0.65rem 0.85rem !important;
+  margin: 1.7rem 0 0.75rem 0 !important;
+  box-shadow: 5px 5px 0 rgba(159, 215, 245, 0.18) !important;
+}
+
+/* =========================================================
+   CALLOUT BOXES
+   Each box type gets a different color and label.
+   ========================================================= */
+
+.main-content .nclex,
+.main-content .ati-tip,
+.main-content .danger,
+.main-content .intervention,
+.main-content .memory,
+.main-content .note,
+.main-content .teaching,
+.main-content .lab,
+.main-content .assessment,
+.main-content .priority,
+.main-content .med,
+.main-content .patho {
+  position: relative !important;
+  color: var(--ink) !important;
+  line-height: 1.6 !important;
+  margin: 1.25rem 0 !important;
+  padding: 1.05rem 1.1rem 1.05rem 1.25rem !important;
+  border-radius: 18px !important;
+  border: 3px solid transparent !important;
+  box-shadow: 6px 6px 0 rgba(36, 69, 92, 0.07) !important;
+}
+
+/* Yellow = ATI / NCLEX tip */
+.main-content .nclex,
+.main-content .ati-tip {
+  background: var(--soft-yellow) !important;
+  border-color: var(--rainbow-yellow) !important;
+}
+
+/* Red = danger / priority warning */
+.main-content .danger,
+.main-content .priority {
+  background: var(--soft-red) !important;
+  border-color: var(--rainbow-red) !important;
+}
+
+/* Green = nursing intervention */
+.main-content .intervention {
+  background: var(--soft-green) !important;
+  border-color: var(--rainbow-green) !important;
+}
+
+/* Purple = memory trick */
+.main-content .memory {
+  background: var(--soft-purple) !important;
+  border-color: var(--rainbow-purple) !important;
+}
+
+/* Blue = regular note */
+.main-content .note {
+  background: var(--soft-blue) !important;
+  border-color: var(--rainbow-blue) !important;
+}
+
+/* Orange = client teaching */
+.main-content .teaching {
+  background: var(--soft-orange) !important;
+  border-color: var(--rainbow-orange) !important;
+}
+
+/* Indigo = labs */
+.main-content .lab {
+  background: var(--soft-indigo) !important;
+  border-color: var(--rainbow-indigo) !important;
+}
+
+/* Mint = assessment */
+.main-content .assessment {
+  background: var(--soft-mint) !important;
+  border-color: var(--rainbow-mint) !important;
+}
+
+/* Pink = medications */
+.main-content .med {
+  background: var(--soft-pink) !important;
+  border-color: var(--rainbow-pink) !important;
+}
+
+/* Rose = patho / why it happens */
+.main-content .patho {
+  background: var(--soft-rose) !important;
+  border-color: var(--rainbow-rose) !important;
+}
+
+/* Automatic labels */
+.main-content .nclex::before,
+.main-content .ati-tip::before,
+.main-content .danger::before,
+.main-content .priority::before,
+.main-content .intervention::before,
+.main-content .memory::before,
+.main-content .note::before,
+.main-content .teaching::before,
+.main-content .lab::before,
+.main-content .assessment::before,
+.main-content .med::before,
+.main-content .patho::before {
+  display: block !important;
+  width: fit-content !important;
+  font-size: 0.78rem !important;
+  font-weight: 950 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.7px !important;
+  padding: 0.25rem 0.65rem !important;
+  margin-bottom: 0.55rem !important;
+  border-radius: 999px !important;
+  background: rgba(255,255,255,0.72) !important;
+}
+
+/* Labels by box type */
+.main-content .nclex::before,
+.main-content .ati-tip::before {
+  content: "ATI / NCLEX Tip" !important;
+  color: #9a6a10 !important;
+  border: 2px solid var(--rainbow-yellow) !important;
+}
+
+.main-content .danger::before,
+.main-content .priority::before {
+  content: "Priority / Safety" !important;
+  color: #b91c1c !important;
+  border: 2px solid var(--rainbow-red) !important;
+}
+
+.main-content .intervention::before {
+  content: "Nursing Action" !important;
+  color: #2f855a !important;
+  border: 2px solid var(--rainbow-green) !important;
+}
+
+.main-content .memory::before {
+  content: "Memory Trick" !important;
+  color: #6b46c1 !important;
+  border: 2px solid var(--rainbow-purple) !important;
+}
+
+.main-content .note::before {
+  content: "Note" !important;
+  color: #25617d !important;
+  border: 2px solid var(--rainbow-blue) !important;
+}
+
+.main-content .teaching::before {
+  content: "Client Teaching" !important;
+  color: #c05621 !important;
+  border: 2px solid var(--rainbow-orange) !important;
+}
+
+.main-content .lab::before {
+  content: "Lab / Diagnostic" !important;
+  color: #4c51bf !important;
+  border: 2px solid var(--rainbow-indigo) !important;
+}
+
+.main-content .assessment::before {
+  content: "Assessment Cue" !important;
+  color: #0f766e !important;
+  border: 2px solid var(--rainbow-mint) !important;
+}
+
+.main-content .med::before {
+  content: "Medication" !important;
+  color: #be185d !important;
+  border: 2px solid var(--rainbow-pink) !important;
+}
+
+.main-content .patho::before {
+  content: "Why It Happens" !important;
+  color: #9f2452 !important;
+  border: 2px solid var(--rainbow-rose) !important;
+}
+
+/* Do not let callout labels make nested boxes weird */
+.main-content details .nclex::before,
+.main-content details .ati-tip::before,
+.main-content details .danger::before,
+.main-content details .priority::before,
+.main-content details .intervention::before,
+.main-content details .memory::before,
+.main-content details .note::before,
+.main-content details .teaching::before,
+.main-content details .lab::before,
+.main-content details .assessment::before,
+.main-content details .med::before,
+.main-content details .patho::before {
+  margin-top: 0 !important;
+}
+
+/* =========================================================
+   DROPDOWN BOXES
+   This fixes your study dropdowns so they are clearly different
+   from practice question answer dropdowns.
+   ========================================================= */
+
+/* Default details = practice quiz answer style */
+.main-content details {
+  background: var(--soft-yellow) !important;
+  border: 3px solid var(--rainbow-yellow) !important;
+  border-radius: 18px !important;
+  padding: 0.95rem 1rem !important;
+  margin: 1.25rem 0 1.75rem 0 !important;
+  box-shadow: 6px 6px 0 rgba(253, 230, 138, 0.28) !important;
+  color: var(--ink) !important;
+}
+
+/* Study dropdowns = purple detail boxes */
+.main-content details.study-dropdown {
+  background: linear-gradient(135deg, #ffffff, var(--soft-purple)) !important;
+  border: 3px solid var(--rainbow-purple) !important;
+  border-radius: 20px !important;
+  padding: 0 !important;
+  margin: 1.15rem 0 1.65rem 0 !important;
+  box-shadow: 7px 7px 0 rgba(215, 195, 243, 0.24) !important;
+  overflow: hidden !important;
+}
+
+/* Study dropdown summary/header */
+.main-content details.study-dropdown > summary {
+  display: block !important;
+  cursor: pointer !important;
+  list-style: none !important;
+  background: linear-gradient(135deg, var(--rainbow-purple), var(--rainbow-blue)) !important;
+  color: var(--ink) !important;
+  font-weight: 950 !important;
+  font-size: 1rem !important;
+  letter-spacing: 0.2px !important;
+  padding: 0.85rem 1rem !important;
+  border: none !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+}
+
+/* Remove marker */
+.main-content details.study-dropdown > summary::-webkit-details-marker {
+  display: none !important;
+}
+
+/* Dropdown icon */
+.main-content details.study-dropdown > summary::before {
+  content: "＋ " !important;
+  color: #ffffff !important;
+  font-weight: 950 !important;
+  text-shadow: 1px 1px 0 rgba(36, 69, 92, 0.2) !important;
+}
+
+.main-content details.study-dropdown[open] > summary::before {
+  content: "− " !important;
+}
+
+/* Content inside study dropdown */
+.main-content details.study-dropdown > *:not(summary) {
+  margin-left: 1rem !important;
+  margin-right: 1rem !important;
+}
+
+.main-content details.study-dropdown > p:first-of-type,
+.main-content details.study-dropdown > ul:first-of-type,
+.main-content details.study-dropdown > ol:first-of-type,
+.main-content details.study-dropdown > table:first-of-type {
+  margin-top: 1rem !important;
+}
+
+.main-content details.study-dropdown > p:last-child,
+.main-content details.study-dropdown > ul:last-child,
+.main-content details.study-dropdown > ol:last-child,
+.main-content details.study-dropdown > table:last-child {
+  margin-bottom: 1rem !important;
+}
+
+.main-content details.study-dropdown[open] {
+  background: linear-gradient(135deg, #ffffff, #fbf7ff) !important;
+}
+
+/* Optional dropdown color variations */
+.main-content details.study-dropdown.blue {
+  border-color: var(--rainbow-blue) !important;
+  box-shadow: 7px 7px 0 rgba(159, 215, 245, 0.22) !important;
+}
+
+.main-content details.study-dropdown.blue > summary {
+  background: linear-gradient(135deg, var(--rainbow-blue), var(--rainbow-mint)) !important;
+}
+
+.main-content details.study-dropdown.green {
+  border-color: var(--rainbow-green) !important;
+  box-shadow: 7px 7px 0 rgba(157, 224, 170, 0.22) !important;
+}
+
+.main-content details.study-dropdown.green > summary {
+  background: linear-gradient(135deg, var(--rainbow-green), var(--rainbow-mint)) !important;
+}
+
+.main-content details.study-dropdown.orange {
+  border-color: var(--rainbow-orange) !important;
+  box-shadow: 7px 7px 0 rgba(253, 186, 116, 0.22) !important;
+}
+
+.main-content details.study-dropdown.orange > summary {
+  background: linear-gradient(135deg, var(--rainbow-orange), var(--rainbow-yellow)) !important;
+}
+
+.main-content details.study-dropdown.pink {
+  border-color: var(--rainbow-pink) !important;
+  box-shadow: 7px 7px 0 rgba(248, 182, 200, 0.22) !important;
+}
+
+.main-content details.study-dropdown.pink > summary {
+  background: linear-gradient(135deg, var(--rainbow-pink), var(--rainbow-rose)) !important;
+}
+
+/* Practice quiz details summary remains pill style */
+.main-content details:not(.study-dropdown) > summary {
+  cursor: pointer !important;
+  font-weight: 950 !important;
+  color: var(--ink) !important;
+  background: white !important;
+  border-radius: 999px !important;
+  padding: 0.65rem 0.95rem !important;
+  list-style: none !important;
+  display: inline-block !important;
+  border: 2px solid var(--rainbow-mint) !important;
+  box-shadow: 4px 4px 0 rgba(127, 216, 210, 0.22) !important;
+}
+
+.main-content details:not(.study-dropdown) > summary::-webkit-details-marker {
+  display: none !important;
+}
+
+.main-content details:not(.study-dropdown) > summary::before {
+  content: "▸ " !important;
+  color: #be185d !important;
+}
+
+.main-content details:not(.study-dropdown)[open] > summary::before {
+  content: "▾ " !important;
+  color: #2b8f8b !important;
+}
+
+/* =========================================================
+   TABLES
+   ========================================================= */
+
+.main-content table {
+  display: table !important;
+  width: auto !important;
+  max-width: 100% !important;
+  margin: 1.2rem auto !important;
+  table-layout: auto !important;
+  border-collapse: separate !important;
+  border-spacing: 0 !important;
+  border: 3px solid var(--rainbow-mint) !important;
+  border-radius: 16px !important;
+  overflow: hidden !important;
+  background: white !important;
+  box-shadow: 6px 6px 0 rgba(127, 216, 210, 0.16) !important;
+}
+
+.main-content th {
+  background: linear-gradient(135deg, var(--rainbow-mint), var(--rainbow-blue)) !important;
+  color: var(--ink) !important;
+  font-weight: 900 !important;
+  border: 1px solid rgba(36, 69, 92, 0.12) !important;
+  padding: 0.72rem !important;
+}
+
+.main-content td {
+  border: 1px solid #d7e5e4 !important;
+  padding: 0.68rem !important;
+  vertical-align: top !important;
+  white-space: normal !important;
+}
+
+.main-content tr:nth-child(even) td {
+  background: #f7fcfb !important;
+}
+
+.main-content tr:nth-child(odd) td {
+  background: #ffffff !important;
+}
+
+/* =========================================================
+   TEXT + LINKS + HR
+   ========================================================= */
+
+.main-content p,
+.main-content li {
+  line-height: 1.72 !important;
+}
+
+.main-content a {
+  color: #2b8f8b !important;
+  font-weight: 850 !important;
+  text-decoration: none !important;
+  border-bottom: 2px dotted var(--rainbow-mint) !important;
+}
+
+.main-content a:hover {
+  color: #be185d !important;
+  border-bottom-color: var(--rainbow-pink) !important;
+}
+
+.main-content hr {
+  border: none !important;
+  height: 4px !important;
+  background: linear-gradient(
+    to right,
+    transparent,
+    var(--rainbow-pink),
+    var(--rainbow-yellow),
+    var(--rainbow-mint),
+    var(--rainbow-purple),
+    transparent
+  ) !important;
+  margin: 2.25rem 0 !important;
+  border-radius: 999px !important;
+}
+
+/* =========================================================
+   SMALL LABELS / BADGES
+   ========================================================= */
+
+.pink-label,
+.topic-label,
+.quick-label {
+  display: inline-block !important;
+  margin: 0.75rem 0 0.35rem !important;
+  padding: 0.28rem 0.72rem !important;
+  border-radius: 999px !important;
+  background: var(--soft-pink) !important;
+  color: #9f2452 !important;
+  border: 2px solid var(--rainbow-pink) !important;
+  font-weight: 850 !important;
+  font-size: 0.9rem !important;
+  letter-spacing: 0.01em !important;
+}
+
+/* =========================================================
+   RESPONSIVE
+   ========================================================= */
+
+@media screen and (max-width: 900px) {
+  .main-content {
+    padding: 1.15rem !important;
+    border-radius: 18px !important;
+  }
+
+  .main-content h1 {
+    font-size: 1.8rem !important;
+    letter-spacing: 0.8px !important;
+  }
+
+  .main-content h2,
+  .main-content .section-divider {
+    font-size: 1.35rem !important;
+  }
+
+  .main-content h3 {
+    font-size: 1.15rem !important;
+  }
+
+  .main-content table {
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    overflow-x: auto !important;
+  }
+}
+
+/* =========================================================
+   PRINT
+   Keeps printing cleaner and less ink-heavy.
+   ========================================================= */
+
+@media print {
+  body {
+    background: white !important;
+    color: black !important;
+  }
+
+  .main-content {
+    background: white !important;
+    color: black !important;
+    border: none !important;
+    box-shadow: none !important;
+    padding: 0.45in !important;
+  }
+
+  .main-content h1,
+  .main-content h2,
+  .main-content h3,
+  .main-content h4,
+  .main-content .section-divider,
+  .main-content .section-divider.small,
+  .main-content .topic-header,
+  .main-content .topic-subheader,
+  .main-content .nclex,
+  .main-content .ati-tip,
+  .main-content .danger,
+  .main-content .priority,
+  .main-content .intervention,
+  .main-content .memory,
+  .main-content .note,
+  .main-content .teaching,
+  .main-content .lab,
+  .main-content .assessment,
+  .main-content .med,
+  .main-content .patho,
+  .main-content details,
+  .main-content details.study-dropdown,
+  .main-content table {
+    background: white !important;
+    color: black !important;
+    border-color: #999 !important;
+    box-shadow: none !important;
+  }
+
+  .main-content h1,
+  .main-content h2,
+  .main-content h3,
+  .main-content h4 {
+    page-break-after: avoid !important;
+  }
+
+  .main-content table,
+  .main-content details,
+  .main-content .nclex,
+  .main-content .danger,
+  .main-content .intervention,
+  .main-content .memory,
+  .main-content .note {
+    page-break-inside: avoid !important;
+  }
+}
