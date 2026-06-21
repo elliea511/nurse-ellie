@@ -2439,3 +2439,38 @@ body {
     page-break-inside: avoid !important;
   }
 }
+/* =========================================================
+   NO-EMOJI HEADING OVERRIDE
+   Paste at the VERY BOTTOM of style.css if your CSS is adding emojis
+   ========================================================= */
+
+.main-content h2::before,
+.main-content h3::before,
+.main-content .section-divider::before,
+.main-content .section-divider::after,
+.main-content .section-divider.small::before,
+.main-content .section-divider.small::after,
+.main-content .topic-header::before,
+.main-content .topic-header::after,
+.main-content .topic-subheader::before {
+  content: "" !important;
+}
+
+/* Optional: clean text-only heading hierarchy */
+.main-content h2::before {
+  content: "" !important;
+}
+
+.main-content h3::before {
+  content: "" !important;
+}
+
+.main-content .section-divider::before,
+.main-content .section-divider::after {
+  content: "" !important;
+}
+
+.main-content .section-divider.small::before,
+.main-content .section-divider.small::after {
+  content: "" !important;
+}
