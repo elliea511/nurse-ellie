@@ -13,6 +13,7 @@ This is the <strong>Enteral &amp; Parenteral Nutrition</strong> section.
 
 - [Big Picture: GI Tract vs. Bloodstream](#big-picture)
 - [Enteral Nutrition](#enteral)
+- [Types of Feeding Tubes](#tube-types)
 - [Tube Placement &amp; Positioning](#placement)
 - [Gastric Residuals &amp; Feeding Tolerance](#residuals)
 - [Diarrhea With Enteral Feedings](#diarrhea)
@@ -22,6 +23,7 @@ This is the <strong>Enteral &amp; Parenteral Nutrition</strong> section.
 - [Transitioning From Enteral to Oral Intake](#transition-oral)
 - [Refeeding Syndrome](#refeeding)
 - [Parenteral Nutrition](#parenteral)
+- [Central Line Catheter Safety](#central-line-safety)
 - [TPN Administration Safety](#tpn-admin)
 - [TPN Glucose Complications](#tpn-glucose)
 - [TPN Electrolyte Complications](#tpn-electrolytes)
@@ -53,6 +55,32 @@ If the GI tract works, enteral nutrition is generally preferred over parenteral 
 
 ---
 
+<h3 id="tube-types">Types of Feeding Tubes</h3>
+
+The tube's location — and whether it ends in the stomach or the small intestine — changes feeding method, aspiration risk, and verification approach.
+
+| Tube | Route | Typical Use |
+|---|---|---|
+| **NG (nasogastric)** | Nose → stomach | Short-term (generally under ~4–6 weeks) |
+| **OG (orogastric)** | Mouth → stomach | Used instead of NG when the nasal route is unsafe (see below) |
+| **NJ (nasojejunal)** | Nose → jejunum (small intestine) | Short-term, when gastric feeding isn't tolerated or aspiration risk is high |
+| **PEG (percutaneous endoscopic gastrostomy) / G-tube** | Abdominal wall → stomach | Long-term (generally beyond ~4–6 weeks) |
+| **PEJ / J-tube (jejunostomy)** | Abdominal wall → jejunum | Long-term, when gastric feeding is contraindicated or poorly tolerated |
+
+<div class="danger">
+<strong>NG tubes are contraindicated with a suspected basilar skull fracture or significant facial/nasal trauma</strong> — there's a risk of the tube passing through a fracture into the cranial vault. An <strong>OG tube</strong> is used instead in this situation.
+</div>
+
+<div class="patho">
+<strong>Gastric tubes (NG, OG, PEG/G-tube)</strong> still carry meaningful aspiration risk and use the residual-checking and HOB-elevation precautions covered below. <strong>Jejunal tubes (NJ, PEJ/J-tube)</strong> bypass the stomach entirely — feeding goes straight into the small intestine, which has little reservoir capacity. This means jejunal feedings are almost always given <strong>continuously</strong> (never bolus) and traditional gastric residual checks don't apply the same way, since there's no real "stomach" to check.
+</div>
+
+<div class="ati-tip">
+If a question describes a client with <strong>severe GERD, delayed gastric emptying, or recurrent aspiration on gastric feeds</strong>, a jejunal tube (NJ or J-tube) is often the safer long-term answer — it bypasses the exact problem causing the aspiration.
+</div>
+
+---
+
 <h3 id="enteral">Enteral Nutrition</h3>
 
 | Feeding Method | What It Means | ATI Focus |
@@ -71,6 +99,22 @@ Verify <strong>initial</strong> tube placement by <strong>X-ray</strong> before 
 
 <div class="nclex">
 Keep the head of the bed elevated <strong>30–45 degrees during the feeding and for about 1 hr after</strong> to reduce aspiration risk.
+</div>
+
+#### Ongoing Placement Checks: pH Testing
+
+X-ray confirms placement once, but you can't X-ray before every single feeding. The bedside method used for ongoing verification is checking the **pH of aspirated gastric contents**.
+
+<div class="ati-tip">
+Aspirate a small amount through the tube and test it with pH paper. A pH of <strong>5.5 or lower</strong> supports gastric placement. A higher pH raises concern the tube may have migrated (e.g., into the respiratory tract or small bowel) and placement should be reassessed — often with an X-ray if there's genuine doubt.
+</div>
+
+<div class="danger">
+The old "<strong>whoosh test</strong>" — injecting air through the tube while listening over the stomach with a stethoscope — is <strong>no longer considered reliable</strong> and shouldn't be used to confirm placement. If ATI describes this method, recognize it as outdated, not the correct action.
+</div>
+
+<div class="note">
+pH testing has real limitations: acid-reducing medications (PPIs, H2 blockers) and ongoing tube feeding itself can both raise gastric pH, making a falsely high reading even when the tube is correctly placed. This is why a single unclear pH reading should prompt clinical correlation (respiratory symptoms, X-ray) rather than an automatic assumption of misplacement.
 </div>
 
 ---
@@ -192,6 +236,32 @@ TPN is used when the GI tract genuinely can't meet nutrition needs (severe malab
 
 ---
 
+<h3 id="central-line-safety">Central Line Catheter Safety</h3>
+
+TPN requires central venous access because it's hypertonic — and the line itself carries risks separate from the TPN solution running through it.
+
+#### Infection Prevention
+
+<div class="danger">
+Central lines bypass the skin's normal barrier, so strict <strong>aseptic technique</strong> applies to every access, dressing change, and tubing change. Watch for <strong>catheter-related bloodstream infection (CLABSI)</strong>: fever, chills, redness, swelling, warmth, or drainage at the insertion site. Report these promptly rather than waiting to see if they resolve.
+</div>
+
+<div class="teaching">
+Dressing changes generally follow a schedule (commonly every 1–2 days for gauze, up to about a week for transparent semipermeable dressings, or any time the dressing becomes damp, loose, or visibly soiled) plus daily site assessment even between scheduled changes.
+</div>
+
+#### Air Embolism
+
+<div class="danger">
+Air embolism is a central line-specific risk, most likely <strong>during insertion, tubing changes, or catheter removal</strong> — anytime the line is open to air. Signs include sudden <strong>shortness of breath, chest pain, cough, hypoxia, or a sense of impending doom.</strong>
+</div>
+
+<div class="teaching">
+Prevention: keep all connections secure and clamp the catheter when not in use; have the client perform a <strong>Valsalva maneuver</strong> (bear down) during line insertion, tubing changes, and removal, if able, to increase intrathoracic pressure and reduce the chance of air being pulled into the vein; prime/flush tubing to remove air before connecting; after removal, apply an <strong>occlusive dressing</strong> and keep the client flat/supine for about 30 minutes, monitoring for embolism symptoms.
+</div>
+
+---
+
 <h3 id="tpn-admin">TPN Administration Safety</h3>
 
 <div class="danger">
@@ -297,7 +367,16 @@ During the taper: continue checking blood glucose as the rate decreases (hypogly
 |---|---|
 | Feeding tube into the GI tract | Enteral nutrition |
 | IV nutrition bypassing the GI tract | Parenteral nutrition (PPN/TPN) |
+| Suspected basilar skull fracture/facial trauma + needs a feeding tube | NG tube contraindicated — use OG instead |
+| Recurrent aspiration, severe GERD, or delayed gastric emptying on gastric feeds | Consider a jejunal tube (NJ or J-tube) — bypasses the stomach |
+| Jejunal tube (NJ, PEJ/J-tube) feeding method | Continuous only — jejunum can't tolerate bolus volume |
+| Checking gastric residuals on a jejunal tube | Doesn't apply the same way — there's no gastric reservoir |
+| Short-term tube need (under ~4–6 weeks) | NG or OG |
+| Long-term tube need (beyond ~4–6 weeks) | PEG/G-tube or PEJ/J-tube |
 | Initial tube placement confirmation | X-ray, before first feeding |
+| Ongoing tube placement check before feedings/meds | Aspirate pH ≤ 5.5 supports gastric placement |
+| "Whoosh test" (air bolus + auscultation) | Outdated — not a reliable verification method |
+| Client on a PPI/H2 blocker + unclear gastric pH reading | Medication can falsely raise pH — correlate clinically, consider X-ray |
 | HOB during/after tube feeding | 30–45 degrees; maintain ~1 hr after |
 | Large gastric residual | Delayed gastric emptying — aspiration risk |
 | Diarrhea during tube feeding | Decrease the rate (osmotic fluid pull from undigested formula) |
@@ -316,6 +395,9 @@ During the taper: continue checking blood glucose as the rate decreases (hypogly
 | Refeeding syndrome hallmark lab finding | Severe hypophosphatemia |
 | Refeeding syndrome mechanism | Insulin surge shifts phosphate/potassium/magnesium into cells |
 | TPN administration | Infusion pump only, never gravity |
+| Fever, redness, or drainage at a central line site | CLABSI concern — report promptly |
+| Sudden dyspnea/chest pain/hypoxia during line insertion, tubing change, or removal | Suspect air embolism |
+| Preventing air embolism during line care | Valsalva maneuver during insertion/removal; clamp when not in use; occlusive dressing + supine 30 min after removal |
 | TPN bag/tubing change | Every 24 hr |
 | TPN bag looks oily/"cracked" | Calcium/phosphorus incompatibility — do not use |
 | TPN infusing | Monitor for hyperglycemia |
