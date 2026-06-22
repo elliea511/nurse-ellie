@@ -32,7 +32,7 @@ Nutrition shows up everywhere on the ATI exam — not just in one obvious "diet"
 <p>Type 1 vs. type 2 diabetes, hypoglycemia/hyperglycemia, DKA vs. HHS, Somogyi and dawn phenomenon, glycemic index, and carbohydrate counting. Coming soon.</p>
 </a>
 
-<a class="study-card coming-soon" href="#">
+<a class="study-card" href="{{ '/ati/nutrition/cardiovascular-renal-disorders.html' | relative_url }}">
 <h2>Cardiovascular &amp; Renal Nutrition</h2>
 <p>Heart-healthy diets, sodium restriction, cholesterol/fat teaching, warfarin and ACE inhibitor interactions, CKD, dialysis, and kidney stones. Coming soon.</p>
 </a>
