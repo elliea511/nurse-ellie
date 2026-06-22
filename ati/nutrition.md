@@ -37,7 +37,7 @@ Nutrition shows up everywhere on the ATI exam — not just in one obvious "diet"
 <p>Heart-healthy diets, sodium restriction, cholesterol/fat teaching, warfarin and ACE inhibitor interactions, CKD, dialysis, and kidney stones. Coming soon.</p>
 </a>
 
-<a class="study-card coming-soon" href="#">
+<a class="study-card" href="{{ '/ati/nutrition/respiratory-neurological-disorders.html' | relative_url }}">
 <h2>Respiratory &amp; Neurologic Nutrition</h2>
 <p>COPD calorie/protein needs, Parkinson's disease, dysphagia, and aspiration precautions. Coming soon.</p>
 </a>
