@@ -1722,3 +1722,505 @@ body {
 .home-big-button.brown {
   background: linear-gradient(135deg, rgba(255,250,246,0.9), rgba(234,209,197,0.74)) !important;
 }
+/* =========================================================
+   COFFEE SHOP PALETTE PATCH
+   Inspired by warm coffee shop palette:
+   cocoa, caramel, cream, blush, sage, soft blue-green
+   Paste at the VERY BOTTOM of style.css
+   ========================================================= */
+
+:root {
+  --coffee-espresso: #754326;
+  --coffee-cocoa: #9d6548;
+  --coffee-mocha: #b98563;
+  --coffee-caramel: #d8ad72;
+  --coffee-latte: #e2c6a4;
+  --coffee-cream: #f6d7ae;
+
+  --coffee-blush: #f1aaa7;
+  --coffee-rose: #e8b7b9;
+  --coffee-pink-soft: #f5d6d5;
+
+  --coffee-yellow: #ffd77d;
+  --coffee-champagne: #efe3c3;
+
+  --coffee-sage: #b8b68b;
+  --coffee-olive-soft: #c5c7a0;
+  --coffee-blue-sage: #b8d3d5;
+
+  --coffee-gray: #d8d8d6;
+  --coffee-taupe: #b39c8e;
+
+  --ink: #4b2d24;
+  --muted-ink: #72584f;
+}
+
+/* Whole site: lighter coffee shop wash with visible variation */
+body {
+  background:
+    radial-gradient(circle at 8% 8%, rgba(241, 170, 167, 0.32), transparent 28%),
+    radial-gradient(circle at 88% 12%, rgba(255, 215, 125, 0.24), transparent 28%),
+    radial-gradient(circle at 12% 86%, rgba(184, 211, 213, 0.28), transparent 30%),
+    radial-gradient(circle at 86% 80%, rgba(184, 182, 139, 0.24), transparent 32%),
+    linear-gradient(
+      180deg,
+      #fff9f2 0%,
+      #f8e0d6 26%,
+      #f5d6d5 48%,
+      #efe3c3 72%,
+      #fff8ef 100%
+    ) !important;
+  color: var(--ink) !important;
+  background-attachment: fixed !important;
+}
+
+/* Header: cute coffee shop sign colors */
+.page-header {
+  background:
+    radial-gradient(circle at 18% 10%, rgba(255, 215, 125, 0.38), transparent 24%),
+    linear-gradient(
+      135deg,
+      #f1aaa7 0%,
+      #d8ad72 36%,
+      #b98563 68%,
+      #754326 100%
+    ) !important;
+}
+
+.page-header .project-name,
+.project-name {
+  color: #fff9f2 !important;
+  text-shadow:
+    0 4px 16px rgba(75, 45, 36, 0.28) !important;
+}
+
+.page-header .project-tagline,
+.project-tagline {
+  color: #fff4df !important;
+}
+
+/* Notes area: cream, not brown */
+.main-content {
+  background:
+    linear-gradient(
+      180deg,
+      rgba(255, 249, 242, 0.92),
+      rgba(250, 239, 228, 0.88)
+    ) !important;
+  color: var(--ink) !important;
+  box-shadow:
+    0 18px 42px rgba(75, 45, 36, 0.08),
+    inset 0 1px 0 rgba(255, 255, 255, 0.82) !important;
+}
+
+/* H1 */
+.main-content h1 {
+  color: #4b2d24 !important;
+  border-bottom: 2px solid rgba(241, 170, 167, 0.55) !important;
+}
+
+/* H2 major topic tabs: rotate through the coffee palette */
+.main-content h2:nth-of-type(8n + 1) {
+  border-left-color: #f1aaa7 !important;
+  background: linear-gradient(to right, rgba(241, 170, 167, 0.34), transparent 82%) !important;
+}
+
+.main-content h2:nth-of-type(8n + 2) {
+  border-left-color: #d8ad72 !important;
+  background: linear-gradient(to right, rgba(216, 173, 114, 0.32), transparent 82%) !important;
+}
+
+.main-content h2:nth-of-type(8n + 3) {
+  border-left-color: #b8b68b !important;
+  background: linear-gradient(to right, rgba(184, 182, 139, 0.30), transparent 82%) !important;
+}
+
+.main-content h2:nth-of-type(8n + 4) {
+  border-left-color: #b8d3d5 !important;
+  background: linear-gradient(to right, rgba(184, 211, 213, 0.34), transparent 82%) !important;
+}
+
+.main-content h2:nth-of-type(8n + 5) {
+  border-left-color: #e8b7b9 !important;
+  background: linear-gradient(to right, rgba(232, 183, 185, 0.34), transparent 82%) !important;
+}
+
+.main-content h2:nth-of-type(8n + 6) {
+  border-left-color: #ffd77d !important;
+  background: linear-gradient(to right, rgba(255, 215, 125, 0.28), transparent 82%) !important;
+}
+
+.main-content h2:nth-of-type(8n + 7) {
+  border-left-color: #c5c7a0 !important;
+  background: linear-gradient(to right, rgba(197, 199, 160, 0.32), transparent 82%) !important;
+}
+
+.main-content h2:nth-of-type(8n + 8) {
+  border-left-color: #b98563 !important;
+  background: linear-gradient(to right, rgba(185, 133, 99, 0.24), transparent 82%) !important;
+}
+
+/* H3 subsections: clearer variation but still calm */
+.main-content h3:nth-of-type(6n + 1) {
+  color: #9d5654 !important;
+  border-left-color: #f1aaa7 !important;
+}
+
+.main-content h3:nth-of-type(6n + 2) {
+  color: #9a673b !important;
+  border-left-color: #d8ad72 !important;
+}
+
+.main-content h3:nth-of-type(6n + 3) {
+  color: #73764d !important;
+  border-left-color: #b8b68b !important;
+}
+
+.main-content h3:nth-of-type(6n + 4) {
+  color: #52787c !important;
+  border-left-color: #b8d3d5 !important;
+}
+
+.main-content h3:nth-of-type(6n + 5) {
+  color: #8c5d64 !important;
+  border-left-color: #e8b7b9 !important;
+}
+
+.main-content h3:nth-of-type(6n + 6) {
+  color: #754326 !important;
+  border-left-color: #b98563 !important;
+}
+
+/* Sidebar: more like soft coffee shop menu, less muddy */
+.sidebar {
+  background:
+    radial-gradient(circle at top left, rgba(255, 215, 125, 0.25), transparent 28%),
+    linear-gradient(
+      180deg,
+      #f5d6d5 0%,
+      #e2c6a4 34%,
+      #efe3c3 68%,
+      #c5c7a0 100%
+    ) !important;
+  color: #4b2d24 !important;
+}
+
+.sidebar h2 {
+  background: rgba(255, 249, 242, 0.58) !important;
+  color: #754326 !important;
+  border-color: rgba(117, 67, 38, 0.18) !important;
+}
+
+/* Sidebar groups rotate colors */
+.sidebar details:nth-of-type(5n + 1),
+.sidebar .menu-group:nth-of-type(5n + 1) {
+  background: rgba(241, 170, 167, 0.22) !important;
+  border-color: rgba(241, 170, 167, 0.35) !important;
+}
+
+.sidebar details:nth-of-type(5n + 2),
+.sidebar .menu-group:nth-of-type(5n + 2) {
+  background: rgba(255, 215, 125, 0.20) !important;
+  border-color: rgba(216, 173, 114, 0.32) !important;
+}
+
+.sidebar details:nth-of-type(5n + 3),
+.sidebar .menu-group:nth-of-type(5n + 3) {
+  background: rgba(184, 211, 213, 0.22) !important;
+  border-color: rgba(184, 211, 213, 0.38) !important;
+}
+
+.sidebar details:nth-of-type(5n + 4),
+.sidebar .menu-group:nth-of-type(5n + 4) {
+  background: rgba(184, 182, 139, 0.22) !important;
+  border-color: rgba(184, 182, 139, 0.38) !important;
+}
+
+.sidebar details:nth-of-type(5n + 5),
+.sidebar .menu-group:nth-of-type(5n + 5) {
+  background: rgba(232, 183, 185, 0.24) !important;
+  border-color: rgba(232, 183, 185, 0.38) !important;
+}
+
+.sidebar a,
+.sidebar summary {
+  color: #4b2d24 !important;
+}
+
+.sidebar a:hover,
+.sidebar summary:hover {
+  background: rgba(255, 249, 242, 0.64) !important;
+  color: #9d5654 !important;
+}
+
+/* Study Menu button */
+.sidebar-toggle-button {
+  background: linear-gradient(135deg, #fff9f2, #f1aaa7, #ffd77d) !important;
+  color: #4b2d24 !important;
+  border-color: rgba(117, 67, 38, 0.18) !important;
+}
+
+.sidebar-toggle-button:hover {
+  background: linear-gradient(135deg, #fff9f2, #ffd77d, #f1aaa7) !important;
+}
+
+/* Callouts: color variation from the palette, still blended */
+.main-content .nclex,
+.main-content .ati-tip {
+  border-left-color: #ffd77d !important;
+  background: rgba(255, 215, 125, 0.20) !important;
+}
+
+.main-content .danger,
+.main-content .priority {
+  border-left-color: #f1aaa7 !important;
+  background: rgba(241, 170, 167, 0.22) !important;
+}
+
+.main-content .intervention {
+  border-left-color: #b8b68b !important;
+  background: rgba(184, 182, 139, 0.20) !important;
+}
+
+.main-content .memory {
+  border-left-color: #e8b7b9 !important;
+  background: rgba(232, 183, 185, 0.22) !important;
+}
+
+.main-content .note,
+.main-content .ati-box {
+  border-left-color: #d8ad72 !important;
+  background: rgba(226, 198, 164, 0.22) !important;
+}
+
+.main-content .teaching {
+  border-left-color: #b98563 !important;
+  background: rgba(185, 133, 99, 0.15) !important;
+}
+
+.main-content .lab {
+  border-left-color: #b8d3d5 !important;
+  background: rgba(184, 211, 213, 0.22) !important;
+}
+
+.main-content .assessment {
+  border-left-color: #c5c7a0 !important;
+  background: rgba(197, 199, 160, 0.20) !important;
+}
+
+.main-content .med {
+  border-left-color: #f1aaa7 !important;
+  background: rgba(241, 170, 167, 0.20) !important;
+}
+
+.main-content .patho {
+  border-left-color: #9d6548 !important;
+  background: rgba(226, 198, 164, 0.22) !important;
+}
+
+/* Tables: more study-chart color, less beige-only */
+.main-content th {
+  background: linear-gradient(135deg, #f5d6d5, #efe3c3) !important;
+  color: #4b2d24 !important;
+}
+
+.main-content tr:nth-child(4n + 1) td {
+  background: rgba(255, 249, 242, 0.78) !important;
+}
+
+.main-content tr:nth-child(4n + 2) td {
+  background: rgba(245, 214, 213, 0.28) !important;
+}
+
+.main-content tr:nth-child(4n + 3) td {
+  background: rgba(239, 227, 195, 0.34) !important;
+}
+
+.main-content tr:nth-child(4n + 4) td {
+  background: rgba(184, 211, 213, 0.18) !important;
+}
+
+/* Dropdowns */
+.main-content details {
+  background: linear-gradient(135deg, rgba(255, 215, 125, 0.20), rgba(245, 214, 213, 0.28)) !important;
+  border-color: rgba(241, 170, 167, 0.35) !important;
+}
+
+.main-content details > summary {
+  background: rgba(255, 249, 242, 0.82) !important;
+  border-color: rgba(117, 67, 38, 0.16) !important;
+}
+
+/* Study dropdowns rotate */
+.main-content details.study-dropdown:nth-of-type(5n + 1) > summary {
+  background: rgba(241, 170, 167, 0.34) !important;
+}
+
+.main-content details.study-dropdown:nth-of-type(5n + 2) > summary {
+  background: rgba(255, 215, 125, 0.28) !important;
+}
+
+.main-content details.study-dropdown:nth-of-type(5n + 3) > summary {
+  background: rgba(184, 211, 213, 0.32) !important;
+}
+
+.main-content details.study-dropdown:nth-of-type(5n + 4) > summary {
+  background: rgba(184, 182, 139, 0.30) !important;
+}
+
+.main-content details.study-dropdown:nth-of-type(5n + 5) > summary {
+  background: rgba(232, 183, 185, 0.34) !important;
+}
+
+/* =========================================================
+   STUDY / HOMEPAGE CARDS
+   Centered titles, smaller subtitles, stronger palette variation
+   ========================================================= */
+
+.study-card,
+.section-card,
+.home-big-button {
+  text-align: center !important;
+  align-items: center !important;
+  justify-content: center !important;
+  min-height: 155px !important;
+  padding: 1.35rem 1.25rem 1.85rem !important;
+}
+
+/* Center titles */
+.study-card h2,
+.section-card h2,
+.home-big-button .button-title {
+  text-align: center !important;
+  width: 100% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  font-size: 1.42rem !important;
+  line-height: 1.12 !important;
+}
+
+/* Smaller explanation fonts */
+.study-card p,
+.section-card p,
+.home-big-button .button-subtitle {
+  text-align: center !important;
+  width: 100% !important;
+  max-width: 30ch !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  font-size: 0.84rem !important;
+  line-height: 1.34 !important;
+  color: #72584f !important;
+}
+
+/* Center hover cue */
+.study-card::after,
+.section-card::after,
+.home-big-button::after {
+  left: 50% !important;
+  transform: translate(-50%, 5px) !important;
+  bottom: 0.85rem !important;
+  white-space: nowrap !important;
+  font-size: 0.8rem !important;
+}
+
+.study-card:hover::after,
+.section-card:hover::after,
+.home-big-button:hover::after {
+  transform: translate(-50%, 0) !important;
+}
+
+/* Card rotation based on the image palette */
+.study-card:nth-child(10n + 1),
+.section-card:nth-child(10n + 1),
+.home-big-button:nth-child(10n + 1),
+.study-card.rose-latte,
+.section-card.pink,
+.home-big-button.pink,
+.home-big-button.rose {
+  background: linear-gradient(135deg, #fff9f2, #f1aaa7) !important;
+  border-color: rgba(241, 170, 167, 0.42) !important;
+}
+
+.study-card:nth-child(10n + 2),
+.section-card:nth-child(10n + 2),
+.home-big-button:nth-child(10n + 2),
+.study-card.caramel,
+.section-card.yellow,
+.home-big-button.yellow,
+.home-big-button.orange {
+  background: linear-gradient(135deg, #fff9f2, #ffd77d) !important;
+  border-color: rgba(255, 215, 125, 0.44) !important;
+}
+
+.study-card:nth-child(10n + 3),
+.section-card:nth-child(10n + 3),
+.home-big-button:nth-child(10n + 3),
+.study-card.sage,
+.section-card.green,
+.home-big-button.green {
+  background: linear-gradient(135deg, #fff9f2, #b8b68b) !important;
+  border-color: rgba(184, 182, 139, 0.42) !important;
+}
+
+.study-card:nth-child(10n + 4),
+.section-card:nth-child(10n + 4),
+.home-big-button:nth-child(10n + 4),
+.study-card.blue-sage,
+.section-card.blue,
+.home-big-button.blue {
+  background: linear-gradient(135deg, #fff9f2, #b8d3d5) !important;
+  border-color: rgba(184, 211, 213, 0.48) !important;
+}
+
+.study-card:nth-child(10n + 5),
+.section-card:nth-child(10n + 5),
+.home-big-button:nth-child(10n + 5),
+.study-card.mauve,
+.section-card.purple,
+.home-big-button.purple {
+  background: linear-gradient(135deg, #fff9f2, #e8b7b9) !important;
+  border-color: rgba(232, 183, 185, 0.46) !important;
+}
+
+.study-card:nth-child(10n + 6),
+.section-card:nth-child(10n + 6),
+.home-big-button:nth-child(10n + 6),
+.study-card.latte,
+.study-card.vanilla {
+  background: linear-gradient(135deg, #fff9f2, #e2c6a4) !important;
+  border-color: rgba(226, 198, 164, 0.44) !important;
+}
+
+.study-card:nth-child(10n + 7),
+.section-card:nth-child(10n + 7),
+.home-big-button:nth-child(10n + 7),
+.study-card.champagne {
+  background: linear-gradient(135deg, #fff9f2, #efe3c3) !important;
+  border-color: rgba(239, 227, 195, 0.48) !important;
+}
+
+.study-card:nth-child(10n + 8),
+.section-card:nth-child(10n + 8),
+.home-big-button:nth-child(10n + 8),
+.study-card.mocha {
+  background: linear-gradient(135deg, #fff9f2, #d8ad72) !important;
+  border-color: rgba(216, 173, 114, 0.44) !important;
+}
+
+.study-card:nth-child(10n + 9),
+.section-card:nth-child(10n + 9),
+.home-big-button:nth-child(10n + 9),
+.study-card.taupe {
+  background: linear-gradient(135deg, #fff9f2, #b39c8e) !important;
+  border-color: rgba(179, 156, 142, 0.38) !important;
+}
+
+.study-card:nth-child(10n + 10),
+.section-card:nth-child(10n + 10),
+.home-big-button:nth-child(10n + 10),
+.study-card.cocoa,
+.home-big-button.brown {
+  background: linear-gradient(135deg, #fff9f2, #b98563) !important;
+  border-color: rgba(185, 133, 99, 0.38) !important;
+}
