@@ -119,7 +119,7 @@ Fatty fish (such as salmon) eaten at least **twice a week** is a recommended sou
 | Lab | What It Means | Desired Direction |
 |---|---|---|
 | **LDL** | “Bad” cholesterol; contributes to plaque buildup | Lower is better (less than 100) |
-| **HDL** | “Good” cholesterol; helps remove cholesterol | Higher is better (less than 50) |
+| **HDL** | “Good” cholesterol; helps remove cholesterol | Higher is better (greater than 50) |
 | **Triglycerides** | Blood fat often affected by excess calories, sugar, alcohol, and diabetes control | Lower is better (less than 150 |
 | **Total cholesterol** | Overall cholesterol number, but less specific than LDL/HDL | Lower is generally better (less than 200) |
 
