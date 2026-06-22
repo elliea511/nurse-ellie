@@ -5,9 +5,7 @@ title: ATI Nutrition Exam Study Guide
 
 # ATI Nutrition Exam Study Guide
 
-<div class="note">
-This is the <strong>Enteral &amp; Parenteral Nutrition</strong> section.
-</div>
+> **Note:** This is the <strong>Enteral &amp; Parenteral Nutrition</strong> section.
 
 ## On This Page
 
@@ -15,19 +13,24 @@ This is the <strong>Enteral &amp; Parenteral Nutrition</strong> section.
 - [Enteral Nutrition](#enteral)
 - [Types of Feeding Tubes](#tube-types)
 - [Tube Placement &amp; Positioning](#placement)
+- [Aspiration Prevention &amp; What to Do If It Happens](#aspiration)
 - [Gastric Residuals &amp; Feeding Tolerance](#residuals)
 - [Diarrhea With Enteral Feedings](#diarrhea)
+- [Formula Safety &amp; Hang Time](#formula-safety)
 - [Other GI Complications: Symptom → Mechanism → Fix](#gi-complications)
 - [Dehydration With Tube Feeding](#dehydration)
 - [Tube Flushing &amp; Medications](#flushing)
+- [Clogged Tube Prevention](#clogged-tube)
 - [Transitioning From Enteral to Oral Intake](#transition-oral)
 - [Refeeding Syndrome](#refeeding)
 - [Parenteral Nutrition](#parenteral)
 - [Central Line Catheter Safety](#central-line-safety)
 - [TPN Administration Safety](#tpn-admin)
+- [TPN Monitoring](#tpn-monitoring)
 - [TPN Glucose Complications](#tpn-glucose)
 - [TPN Electrolyte Complications](#tpn-electrolytes)
 - [TPN Lipid Emulsions](#lipid-emulsions)
+- [TPN Line Use: Dedicated Lumen](#dedicated-lumen)
 - [Transitioning Off TPN](#transition-tpn)
 - [Quick Reference](#quick-reference)
 - [Section Summary &amp; Test-Taking Tips](#section-summary)
@@ -36,9 +39,7 @@ This is the <strong>Enteral &amp; Parenteral Nutrition</strong> section.
 
 <h2 class="section-divider" id="enteral-and-parenteral-nutrition">Enteral &amp; Parenteral Nutrition</h2>
 
-<div class="memory">
-<strong>Enteral nutrition uses the GI tract. Parenteral nutrition bypasses it</strong> and goes straight into the bloodstream. That single distinction predicts almost every complication on this page — enteral problems are mostly GI (diarrhea, aspiration, intolerance); parenteral problems are mostly metabolic/line-related (glucose swings, electrolyte shifts, infection).
-</div>
+> **Memory:** <strong>Enteral nutrition uses the GI tract. Parenteral nutrition bypasses it</strong> and goes straight into the bloodstream. That single distinction predicts almost every complication on this page — enteral problems are mostly GI (diarrhea, aspiration, intolerance); parenteral problems are mostly metabolic/line-related (glucose swings, electrolyte shifts, infection).
 
 ---
 
@@ -49,9 +50,7 @@ This is the <strong>Enteral &amp; Parenteral Nutrition</strong> section.
 | **Enteral nutrition** | Feeding tube into the GI tract | GI tract works, but the client can't/shouldn't eat enough by mouth |
 | **Parenteral nutrition (PPN/TPN)** | IV line into the bloodstream | GI tract can't be used or can't absorb enough |
 
-<div class="note">
-If the GI tract works, enteral nutrition is generally preferred over parenteral — it maintains gut function and carries fewer serious complications than IV nutrition.
-</div>
+> **Note:** If the GI tract works, enteral nutrition is generally preferred over parenteral — it maintains gut function and carries fewer serious complications than IV nutrition.
 
 ---
 
@@ -67,17 +66,11 @@ The tube's location — and whether it ends in the stomach or the small intestin
 | **PEG (percutaneous endoscopic gastrostomy) / G-tube** | Abdominal wall → stomach | Long-term (generally beyond ~4–6 weeks) |
 | **PEJ / J-tube (jejunostomy)** | Abdominal wall → jejunum | Long-term, when gastric feeding is contraindicated or poorly tolerated |
 
-<div class="danger">
-<strong>NG tubes are contraindicated with a suspected basilar skull fracture or significant facial/nasal trauma</strong> — there's a risk of the tube passing through a fracture into the cranial vault. An <strong>OG tube</strong> is used instead in this situation.
-</div>
+> **Priority/Safety:** <strong>NG tubes are contraindicated with a suspected basilar skull fracture or significant facial/nasal trauma</strong> — there's a risk of the tube passing through a fracture into the cranial vault. An <strong>OG tube</strong> is used instead in this situation.
 
-<div class="patho">
-<strong>Gastric tubes (NG, OG, PEG/G-tube)</strong> still carry meaningful aspiration risk and use the residual-checking and HOB-elevation precautions covered below. <strong>Jejunal tubes (NJ, PEJ/J-tube)</strong> bypass the stomach entirely — feeding goes straight into the small intestine, which has little reservoir capacity. This means jejunal feedings are almost always given <strong>continuously</strong> (never bolus) and traditional gastric residual checks don't apply the same way, since there's no real "stomach" to check.
-</div>
+> **Patho:** <strong>Gastric tubes (NG, OG, PEG/G-tube)</strong> still carry meaningful aspiration risk and use the residual-checking and HOB-elevation precautions covered below. <strong>Jejunal tubes (NJ, PEJ/J-tube)</strong> bypass the stomach entirely — feeding goes straight into the small intestine, which has little reservoir capacity. This means jejunal feedings are almost always given <strong>continuously</strong> (never bolus) and traditional gastric residual checks don't apply the same way, since there's no real "stomach" to check.
 
-<div class="ati-tip">
-If a question describes a client with <strong>severe GERD, delayed gastric emptying, or recurrent aspiration on gastric feeds</strong>, a jejunal tube (NJ or J-tube) is often the safer long-term answer — it bypasses the exact problem causing the aspiration.
-</div>
+> **ATI clue:** If a question describes a client with <strong>severe GERD, delayed gastric emptying, or recurrent aspiration on gastric feeds</strong>, a jejunal tube (NJ or J-tube) is often the safer long-term answer — it bypasses the exact problem causing the aspiration.
 
 ---
 
@@ -93,53 +86,63 @@ If a question describes a client with <strong>severe GERD, delayed gastric empty
 
 <h3 id="placement">Tube Placement &amp; Positioning</h3>
 
-<div class="danger">
-Verify <strong>initial</strong> tube placement by <strong>X-ray</strong> before starting feedings. It does not need to be re-confirmed before every feeding — only if there's a reason to suspect displacement (coughing, choking, tube movement, respiratory distress, change in external tube length).
-</div>
+> **Priority/Safety:** Verify <strong>initial</strong> tube placement by <strong>X-ray</strong> before starting feedings. It does not need to be re-confirmed before every feeding — only if there's a reason to suspect displacement (coughing, choking, tube movement, respiratory distress, change in external tube length).
 
-<div class="nclex">
-Keep the head of the bed elevated <strong>30–45 degrees during the feeding and for about 1 hr after</strong> to reduce aspiration risk.
-</div>
+> **NCLEX/ATI clue:** Keep the head of the bed elevated <strong>30–45 degrees during the feeding and for about 1 hr after</strong> to reduce aspiration risk.
 
 #### Ongoing Placement Checks: pH Testing
 
 X-ray confirms placement once, but you can't X-ray before every single feeding. The bedside method used for ongoing verification is checking the **pH of aspirated gastric contents**.
 
-<div class="ati-tip">
-Aspirate a small amount through the tube and test it with pH paper. A pH of <strong>5.5 or lower</strong> supports gastric placement. A higher pH raises concern the tube may have migrated (e.g., into the respiratory tract or small bowel) and placement should be reassessed — often with an X-ray if there's genuine doubt.
-</div>
+> **ATI clue:** Aspirate a small amount through the tube and test it with pH paper. A pH of <strong>5.5 or lower</strong> supports gastric placement. A higher pH raises concern the tube may have migrated (e.g., into the respiratory tract or small bowel) and placement should be reassessed — often with an X-ray if there's genuine doubt.
 
-<div class="danger">
-The old "<strong>whoosh test</strong>" — injecting air through the tube while listening over the stomach with a stethoscope — is <strong>no longer considered reliable</strong> and shouldn't be used to confirm placement. If ATI describes this method, recognize it as outdated, not the correct action.
-</div>
+> **Priority/Safety:** The old "<strong>whoosh test</strong>" — injecting air through the tube while listening over the stomach with a stethoscope — is <strong>no longer considered reliable</strong> and shouldn't be used to confirm placement. If ATI describes this method, recognize it as outdated, not the correct action.
 
-<div class="note">
-pH testing has real limitations: acid-reducing medications (PPIs, H2 blockers) and ongoing tube feeding itself can both raise gastric pH, making a falsely high reading even when the tube is correctly placed. This is why a single unclear pH reading should prompt clinical correlation (respiratory symptoms, X-ray) rather than an automatic assumption of misplacement.
-</div>
+> **Note:** pH testing has real limitations: acid-reducing medications (PPIs, H2 blockers) and ongoing tube feeding itself can both raise gastric pH, making a falsely high reading even when the tube is correctly placed. This is why a single unclear pH reading should prompt clinical correlation (respiratory symptoms, X-ray) rather than an automatic assumption of misplacement.
+
+---
+
+
+#### ATI Addition: Aspiration Prevention & What to Do If It Happens {#aspiration}
+
+| ATI Cue | Nursing Action |
+|---|---|
+| Coughing, choking, gagging, respiratory distress, wet voice, decreased oxygen saturation, or formula in the mouth | Stop the feeding, keep the head of bed elevated, assess respiratory status, and notify the provider per facility policy |
+| High aspiration risk | Keep HOB 30–45 degrees, verify placement, monitor residual/tolerance for gastric tubes, and consider post-pyloric feeding if ordered |
+| Tube displacement suspected | Do not use the tube until placement is verified |
+
+**ATI clue:** Aspiration questions are safety questions first. Stop the feeding and assess the airway/respiratory status before worrying about the nutrition schedule.
 
 ---
 
 <h3 id="residuals">Gastric Residuals &amp; Feeding Tolerance</h3>
 
-<div class="danger">
-A large gastric residual suggests <strong>delayed gastric emptying</strong>, which raises the risk for regurgitation and aspiration. Nausea, vomiting, and abdominal distention are also signs of feeding intolerance and require follow-up, not just continued feeding as ordered.
-</div>
+> **Priority/Safety:** A large gastric residual suggests <strong>delayed gastric emptying</strong>, which raises the risk for regurgitation and aspiration. Nausea, vomiting, and abdominal distention are also signs of feeding intolerance and require follow-up, not just continued feeding as ordered.
 
 ---
 
 <h3 id="diarrhea">Diarrhea With Enteral Feedings</h3>
 
-<div class="nclex">
-The most common testable cause: the feeding rate is <strong>too fast</strong> for the client to tolerate. The typical nursing action is to <strong>decrease the rate</strong> (per order/protocol) — not stop the feeding, switch formula type, or treat it as a nausea problem.
-</div>
+> **NCLEX/ATI clue:** The most common testable cause: the feeding rate is <strong>too fast</strong> for the client to tolerate. The typical nursing action is to <strong>decrease the rate</strong> (per order/protocol) — not stop the feeding, switch formula type, or treat it as a nausea problem.
 
-<div class="patho">
-When formula is delivered faster than the small intestine can absorb it, undigested formula pulls water into the bowel osmotically (the same basic mechanism as dumping syndrome) — this produces watery stool. Slowing the rate gives the gut more time to actually absorb the formula instead of just pushing fluid through.
-</div>
+> **Patho:** When formula is delivered faster than the small intestine can absorb it, undigested formula pulls water into the bowel osmotically (the same basic mechanism as dumping syndrome) — this produces watery stool. Slowing the rate gives the gut more time to actually absorb the formula instead of just pushing fluid through.
 
-<div class="danger">
-Before assuming "rate problem" and stopping there, rule out two other common causes of tube-feeding diarrhea: <strong>contaminated formula</strong> (hung too long — check facility hang-time limits, typically a matter of hours, not a full day) and <strong>medication-induced diarrhea</strong> (many liquid medications are sorbitol-based, and antibiotics disrupt normal gut flora). A rate decrease won't fix diarrhea that's actually coming from one of these other sources.
-</div>
+> **Priority/Safety:** Before assuming "rate problem" and stopping there, rule out two other common causes of tube-feeding diarrhea: <strong>contaminated formula</strong> (hung too long — check facility hang-time limits, typically a matter of hours, not a full day) and <strong>medication-induced diarrhea</strong> (many liquid medications are sorbitol-based, and antibiotics disrupt normal gut flora). A rate decrease won't fix diarrhea that's actually coming from one of these other sources.
+
+---
+
+
+#### ATI Addition: Formula Safety & Hang Time {#formula-safety}
+
+| Safety Point | Why It Matters |
+|---|---|
+| Use clean technique for enteral formula handling unless facility policy requires sterile technique | Reduces contamination risk |
+| Label formula with date/time opened or hung | Helps prevent formula from hanging too long |
+| Follow facility policy for open-system vs. closed-system hang times | Formula contamination can cause diarrhea and infection risk |
+| Do not add new formula to old formula in the bag | Prevents bacterial growth from mixing old and new formula |
+| Refrigerate opened formula if not used immediately | Limits microorganism growth |
+
+**ATI clue:** If diarrhea starts after tube feeding, think beyond the rate. Also check whether formula was contaminated, hung too long, or mixed improperly.
 
 ---
 
@@ -155,49 +158,48 @@ This is one of the most heavily tested patterns in this whole section — ATI fr
 | **Constipation** | Tube-feeding formulas are calorie-dense but relatively low in free water compared to a typical oral diet | Increase free water given with/between feedings |
 | **Cramping** | Formula given too cold, or infused too quickly | Warm formula to room temperature; consider rate |
 
-<div class="ati-tip">
-Read the <strong>specific symptom</strong> in the question stem before picking the intervention. A question describing <strong>diarrhea</strong> wants "decrease the rate" — not "switch to lactose-free," which is the fix for a <em>different</em> symptom (nausea/vomiting) entirely. These get mixed up constantly because they're all "GI complications," but each one has its own mechanism and its own correct fix.
-</div>
+> **ATI clue:** Read the <strong>specific symptom</strong> in the question stem before picking the intervention. A question describing <strong>diarrhea</strong> wants "decrease the rate" — not "switch to lactose-free," which is the fix for a <em>different</em> symptom (nausea/vomiting) entirely. These get mixed up constantly because they're all "GI complications," but each one has its own mechanism and its own correct fix.
 
-<div class="memory">
-A simple way to keep them separate: <strong>too fast → diarrhea → slow it down. Too much fat → distention → lower the fat. Lactose → nausea → remove the lactose. Not enough free water → constipation → add water.</strong> Match the mechanism, not just the food-service common sense.
-</div>
+> **Memory:** A simple way to keep them separate: <strong>too fast → diarrhea → slow it down. Too much fat → distention → lower the fat. Lactose → nausea → remove the lactose. Not enough free water → constipation → add water.</strong> Match the mechanism, not just the food-service common sense.
 
 ---
 
 <h3 id="dehydration">Dehydration With Tube Feeding</h3>
 
-<div class="lab">
-An elevated urine <strong>specific gravity</strong> in a tube-fed client points to dehydration. The fix is to <strong>add more free water</strong> to or between feedings (or request a lower-protein formula) — not to slow the rate (that's for diarrhea) or change formula type for an unrelated reason.
-</div>
+> **Lab clue:** An elevated urine <strong>specific gravity</strong> in a tube-fed client points to dehydration. The fix is to <strong>add more free water</strong> to or between feedings (or request a lower-protein formula) — not to slow the rate (that's for diarrhea) or change formula type for an unrelated reason.
 
 ---
 
 <h3 id="flushing">Tube Flushing &amp; Medications</h3>
 
-<div class="med">
-Flush the tube with about <strong>30–50 mL of water before and after medication administration</strong> (and between multiple medications) to maintain patency and prevent drug interactions in the tube. If flushing an unused feeding tube, use roughly <strong>1.5 times</strong> the usual flush volume.
-</div>
+> **Medication note:** Flush the tube with about <strong>30–50 mL of water before and after medication administration</strong> (and between multiple medications) to maintain patency and prevent drug interactions in the tube. If flushing an unused feeding tube, use roughly <strong>1.5 times</strong> the usual flush volume.
 
-<div class="danger">
-Never crush <strong>enteric-coated</strong> or <strong>extended-release</strong> medications for tube administration — use a liquid form when available, especially for infants/children.
-</div>
+> **Priority/Safety:** Never crush <strong>enteric-coated</strong> or <strong>extended-release</strong> medications for tube administration — use a liquid form when available, especially for infants/children.
+
+---
+
+
+#### ATI Addition: Clogged Tube Prevention {#clogged-tube}
+
+| Prevention | Teaching |
+|---|---|
+| Flush before and after medications | Prevents medication from sitting in the tube |
+| Flush between each medication | Prevents drug interactions and clogging inside the tube |
+| Give medications separately | Avoid mixing medications together unless specifically approved |
+| Use liquid medication when appropriate | Easier to administer and less likely to clog |
+| Do not crush enteric-coated or extended-release medications | Unsafe and can alter medication release |
+
+**ATI clue:** If resistance is met while flushing, do not force it. Forcing fluid can damage the tube or injure the client.
 
 ---
 
 <h3 id="transition-oral">Transitioning From Enteral to Oral Intake</h3>
 
-<div class="teaching">
-A common stepwise approach: hold the enteral feeding for about <strong>1 hr before a meal</strong> to encourage appetite, then gradually increase the number of oral meals as tolerance improves — often moving toward <strong>6 small meals/day</strong>. Once oral intake reaches roughly <strong>500–750 kcal/day</strong>, continuous tube feeding is often shifted to <strong>nighttime only</strong>, allowing daytime hunger to drive more oral intake.
-</div>
+> **Teaching:** A common stepwise approach: hold the enteral feeding for about <strong>1 hr before a meal</strong> to encourage appetite, then gradually increase the number of oral meals as tolerance improves — often moving toward <strong>6 small meals/day</strong>. Once oral intake reaches roughly <strong>500–750 kcal/day</strong>, continuous tube feeding is often shifted to <strong>nighttime only</strong>, allowing daytime hunger to drive more oral intake.
 
-<div class="danger">
-The core safety principle across <strong>every</strong> nutrition-route transition on this page: <strong>overlap, don't swap.</strong> Reduce the old route gradually as the new route proves itself, rather than stopping one abruptly the moment the other technically "starts working." Hitting a calorie threshold <strong>once</strong> is not the same as reliably sustaining it.
-</div>
+> **Priority/Safety:** The core safety principle across <strong>every</strong> nutrition-route transition on this page: <strong>overlap, don't swap.</strong> Reduce the old route gradually as the new route proves itself, rather than stopping one abruptly the moment the other technically "starts working." Hitting a calorie threshold <strong>once</strong> is not the same as reliably sustaining it.
 
-<div class="nclex">
-Before the feeding tube itself is removed (not just the feedings reduced), the client should be <strong>reliably and consistently</strong> meeting nutrition needs orally — confirmed with calorie counts over more than a single day — and swallowing safety should already be established. Don't pull access based on one good meal.
-</div>
+> **NCLEX/ATI clue:** Before the feeding tube itself is removed (not just the feedings reduced), the client should be <strong>reliably and consistently</strong> meeting nutrition needs orally — confirmed with calorie counts over more than a single day — and swallowing safety should already be established. Don't pull access based on one good meal.
 
 ---
 
@@ -205,21 +207,15 @@ Before the feeding tube itself is removed (not just the feedings reduced), the c
 
 Refeeding syndrome is a **potentially fatal** complication that can occur when nutrition (enteral or parenteral) is restarted too aggressively in a client who has been severely malnourished or in a prolonged starvation state.
 
-<div class="patho">
-During starvation, the body shifts to fat/protein breakdown and electrolyte stores (phosphate, potassium, magnesium) become depleted, even if blood levels look normal. When feeding resumes — especially with carbohydrates — <strong>insulin surges</strong>. Insulin drives glucose, phosphate, potassium, and magnesium <strong>into cells</strong> all at once, causing a sudden, dangerous <strong>drop in serum levels</strong> of all three electrolytes, plus fluid shifts and a functional thiamine deficiency.
-</div>
+> **Patho:** During starvation, the body shifts to fat/protein breakdown and electrolyte stores (phosphate, potassium, magnesium) become depleted, even if blood levels look normal. When feeding resumes — especially with carbohydrates — <strong>insulin surges</strong>. Insulin drives glucose, phosphate, potassium, and magnesium <strong>into cells</strong> all at once, causing a sudden, dangerous <strong>drop in serum levels</strong> of all three electrolytes, plus fluid shifts and a functional thiamine deficiency.
 
-<div class="danger">
-This is essentially the same intracellular electrolyte shift mechanism as <strong>DKA treatment</strong> (see Endocrine &amp; Diabetes Nutrition) — except the "insulin surge" here is the body's own response to carbohydrate refeeding rather than administered insulin. <strong>Severe hypophosphatemia</strong> is the hallmark finding and the most dangerous piece — it can cause cardiac arrhythmias, respiratory muscle failure, and rhabdomyolysis.
-</div>
+> **Priority/Safety:** This is essentially the same intracellular electrolyte shift mechanism as <strong>DKA treatment</strong> (see Endocrine &amp; Diabetes Nutrition) — except the "insulin surge" here is the body's own response to carbohydrate refeeding rather than administered insulin. <strong>Severe hypophosphatemia</strong> is the hallmark finding and the most dangerous piece — it can cause cardiac arrhythmias, respiratory muscle failure, and rhabdomyolysis.
 
 | Who's at Risk | Prevention |
 |---|---|
 | Prolonged poor intake/starvation (≥5 days), anorexia nervosa, chronic alcoholism, significant unintentional weight loss, malnourished cancer/elderly clients | Start nutrition <strong>slowly</strong> (low initial calorie/volume, advancing gradually over days, not all at once); monitor phosphate, potassium, and magnesium closely (especially the first week); supplement thiamine; correct electrolytes proactively rather than waiting for symptoms |
 
-<div class="nclex">
-ATI-style teaching: for a malnourished client starting tube feeding, begin with a <strong>limited initial volume</strong> (sometimes phrased as filling formula bags with only a few hours' worth at a time) rather than immediately running the full prescribed rate — this reflects the broader "start low, go slow" refeeding principle.
-</div>
+> **NCLEX/ATI clue:** ATI-style teaching: for a malnourished client starting tube feeding, begin with a <strong>limited initial volume</strong> (sometimes phrased as filling formula bags with only a few hours' worth at a time) rather than immediately running the full prescribed rate — this reflects the broader "start low, go slow" refeeding principle.
 
 ---
 
@@ -230,9 +226,7 @@ ATI-style teaching: for a malnourished client starting tube feeding, begin with 
 | **PPN** | Partial parenteral nutrition — less concentrated, can be given peripherally |
 | **TPN** | Total parenteral nutrition — provides most/all nutrition needs; hypertonic, requires central venous access |
 
-<div class="note">
-TPN is used when the GI tract genuinely can't meet nutrition needs (severe malabsorption, bowel obstruction, short bowel syndrome, severe IBD, major GI surgery) — not simply because a client dislikes hospital food or has temporarily reduced appetite.
-</div>
+> **Note:** TPN is used when the GI tract genuinely can't meet nutrition needs (severe malabsorption, bowel obstruction, short bowel syndrome, severe IBD, major GI surgery) — not simply because a client dislikes hospital food or has temporarily reduced appetite.
 
 ---
 
@@ -242,39 +236,41 @@ TPN requires central venous access because it's hypertonic — and the line itse
 
 #### Infection Prevention
 
-<div class="danger">
-Central lines bypass the skin's normal barrier, so strict <strong>aseptic technique</strong> applies to every access, dressing change, and tubing change. Watch for <strong>catheter-related bloodstream infection (CLABSI)</strong>: fever, chills, redness, swelling, warmth, or drainage at the insertion site. Report these promptly rather than waiting to see if they resolve.
-</div>
+> **Priority/Safety:** Central lines bypass the skin's normal barrier, so strict <strong>aseptic technique</strong> applies to every access, dressing change, and tubing change. Watch for <strong>catheter-related bloodstream infection (CLABSI)</strong>: fever, chills, redness, swelling, warmth, or drainage at the insertion site. Report these promptly rather than waiting to see if they resolve.
 
-<div class="teaching">
-Dressing changes generally follow a schedule (commonly every 1–2 days for gauze, up to about a week for transparent semipermeable dressings, or any time the dressing becomes damp, loose, or visibly soiled) plus daily site assessment even between scheduled changes.
-</div>
+> **Teaching:** Dressing changes generally follow a schedule (commonly every 1–2 days for gauze, up to about a week for transparent semipermeable dressings, or any time the dressing becomes damp, loose, or visibly soiled) plus daily site assessment even between scheduled changes.
 
 #### Air Embolism
 
-<div class="danger">
-Air embolism is a central line-specific risk, most likely <strong>during insertion, tubing changes, or catheter removal</strong> — anytime the line is open to air. Signs include sudden <strong>shortness of breath, chest pain, cough, hypoxia, or a sense of impending doom.</strong>
-</div>
+> **Priority/Safety:** Air embolism is a central line-specific risk, most likely <strong>during insertion, tubing changes, or catheter removal</strong> — anytime the line is open to air. Signs include sudden <strong>shortness of breath, chest pain, cough, hypoxia, or a sense of impending doom.</strong>
 
-<div class="teaching">
-Prevention: keep all connections secure and clamp the catheter when not in use; have the client perform a <strong>Valsalva maneuver</strong> (bear down) during line insertion, tubing changes, and removal, if able, to increase intrathoracic pressure and reduce the chance of air being pulled into the vein; prime/flush tubing to remove air before connecting; after removal, apply an <strong>occlusive dressing</strong> and keep the client flat/supine for about 30 minutes, monitoring for embolism symptoms.
-</div>
+> **Teaching:** Prevention: keep all connections secure and clamp the catheter when not in use; have the client perform a <strong>Valsalva maneuver</strong> (bear down) during line insertion, tubing changes, and removal, if able, to increase intrathoracic pressure and reduce the chance of air being pulled into the vein; prime/flush tubing to remove air before connecting; after removal, apply an <strong>occlusive dressing</strong> and keep the client flat/supine for about 30 minutes, monitoring for embolism symptoms.
 
 ---
 
 <h3 id="tpn-admin">TPN Administration Safety</h3>
 
-<div class="danger">
-TPN must be given via an <strong>infusion pump</strong>, never by gravity — gravity infusion causes rate fluctuations that can swing glucose into hyperglycemia or hypoglycemia.
-</div>
+> **Priority/Safety:** TPN must be given via an <strong>infusion pump</strong>, never by gravity — gravity infusion causes rate fluctuations that can swing glucose into hyperglycemia or hypoglycemia.
 
-<div class="teaching">
-Other administration points: confirm <strong>central line placement by radiology</strong> before starting the infusion; if refrigerated, administer the solution within about <strong>30 minutes</strong> of removing it (don't let it sit at room temperature longer than necessary, which raises infection risk); change the TPN bag and tubing every <strong>24 hr</strong> (not 72 hr) to limit microorganism growth; inspect the solution for an oily layer or "cracked" appearance before hanging — this suggests calcium/phosphorus incompatibility and means the bag should not be used.
-</div>
+> **Teaching:** Other administration points: confirm <strong>central line placement by radiology</strong> before starting the infusion; if refrigerated, administer the solution within about <strong>30 minutes</strong> of removing it (don't let it sit at room temperature longer than necessary, which raises infection risk); change the TPN bag and tubing every <strong>24 hr</strong> (not 72 hr) to limit microorganism growth; inspect the solution for an oily layer or "cracked" appearance before hanging — this suggests calcium/phosphorus incompatibility and means the bag should not be used.
 
-<div class="med">
-Some medications (e.g., heparin) may be added directly into the TPN port per order/protocol — follow facility policy on which medications can and cannot be co-administered through the TPN line.
-</div>
+> **Medication note:** Some medications (e.g., heparin) may be added directly into the TPN port per order/protocol — follow facility policy on which medications can and cannot be co-administered through the TPN line.
+
+---
+
+
+#### ATI Addition: TPN Monitoring {#tpn-monitoring}
+
+| What to Monitor | Why |
+|---|---|
+| Blood glucose | TPN is high in dextrose and can cause hyperglycemia; abrupt interruption can cause hypoglycemia |
+| Daily weight | Best way to track fluid/nutrition changes over time |
+| Intake and output | Detects fluid imbalance |
+| Electrolytes, especially magnesium, potassium, and phosphorus | Electrolyte shifts can occur with nutrition reintroduction and TPN metabolism |
+| Triglycerides if lipids are used | Helps monitor lipid tolerance |
+| Temperature and central line site | Screens for infection/CLABSI |
+
+**ATI clue:** TPN questions are usually not just “nutrition” questions — they are glucose, electrolyte, infection, and central-line safety questions.
 
 ---
 
@@ -287,41 +283,43 @@ TPN's high dextrose concentration cuts both ways.
 | **TPN infusing normally** | Hyperglycemia — monitor glucose regularly, administer insulin as prescribed |
 | **TPN stopped abruptly** | Hypoglycemia — the body was adapted to a continuous high-dextrose infusion |
 
-<div class="nclex">
-If TPN must be interrupted and the next bag isn't ready, the typical action is to hang a prescribed <strong>dextrose-containing IV solution</strong> (e.g., D10W) to prevent hypoglycemia — don't just leave the line without glucose support. Confusion, cool/clammy skin, erratic behavior, and shakiness after TPN is stopped suggest hypoglycemia.
-</div>
+> **NCLEX/ATI clue:** If TPN must be interrupted and the next bag isn't ready, the typical action is to hang a prescribed <strong>dextrose-containing IV solution</strong> (e.g., D10W) to prevent hypoglycemia — don't just leave the line without glucose support. Confusion, cool/clammy skin, erratic behavior, and shakiness after TPN is stopped suggest hypoglycemia.
 
 ---
 
 <h3 id="tpn-electrolytes">TPN Electrolyte Complications</h3>
 
-<div class="lab">
-TPN can cause <strong>low magnesium</strong> as electrolytes shift into cells during nutrient metabolism — the same broad mechanism as refeeding syndrome above, since TPN itself is a form of aggressive nutrition reintroduction. Monitor magnesium, potassium, phosphorus, and calcium.
-</div>
+> **Lab clue:** TPN can cause <strong>low magnesium</strong> as electrolytes shift into cells during nutrient metabolism — the same broad mechanism as refeeding syndrome above, since TPN itself is a form of aggressive nutrition reintroduction. Monitor magnesium, potassium, phosphorus, and calcium.
 
 ---
 
 <h3 id="lipid-emulsions">TPN Lipid Emulsions</h3>
 
-<div class="danger">
-Lipid emulsions in TPN are often made from soybean or safflower oil with <strong>egg phospholipid</strong> as an emulsifier — always check for <strong>egg allergy</strong> before administration and report it to the provider if present.
-</div>
+> **Priority/Safety:** Lipid emulsions in TPN are often made from soybean or safflower oil with <strong>egg phospholipid</strong> as an emulsifier — always check for <strong>egg allergy</strong> before administration and report it to the provider if present.
+
+---
+
+
+#### ATI Addition: TPN Line Use: Dedicated Lumen {#dedicated-lumen}
+
+| Rule | Why |
+|---|---|
+| Use a dedicated lumen for TPN when possible | Reduces contamination and incompatibility risk |
+| Do not routinely piggyback other IV medications through the TPN line unless specifically allowed by facility policy/order | TPN is complex and can be incompatible with other medications |
+| Do not use the TPN lumen for blood draws unless policy allows and there is no better option | Reduces infection and interruption risk |
+| Maintain strict aseptic technique with any access | Central line infection can become bloodstream infection quickly |
+
+**ATI clue:** If the question asks what line to use for TPN, pick the central line/dedicated lumen option when available.
 
 ---
 
 <h3 id="transition-tpn">Transitioning Off TPN</h3>
 
-<div class="ati-tip">
-TPN may be discontinued once the client is taking in more than <strong>60% of estimated calorie needs orally or enterally</strong> — monitor intake, weight, glucose, and labs during the taper rather than stopping abruptly.
-</div>
+> **ATI clue:** TPN may be discontinued once the client is taking in more than <strong>60% of estimated calorie needs orally or enterally</strong> — monitor intake, weight, glucose, and labs during the taper rather than stopping abruptly.
 
-<div class="danger">
-TPN is <strong>tapered down gradually</strong> as oral/enteral intake increases — the rate is decreased in steps over time, not switched off all at once, specifically to avoid the rebound hypoglycemia covered above (the body has adapted to a continuous high-dextrose infusion). The same "overlap, don't swap" principle from enteral-to-oral transition applies here too.
-</div>
+> **Priority/Safety:** TPN is <strong>tapered down gradually</strong> as oral/enteral intake increases — the rate is decreased in steps over time, not switched off all at once, specifically to avoid the rebound hypoglycemia covered above (the body has adapted to a continuous high-dextrose infusion). The same "overlap, don't swap" principle from enteral-to-oral transition applies here too.
 
-<div class="teaching">
-During the taper: continue checking blood glucose as the rate decreases (hypoglycemia risk persists until TPN is fully off); track oral/enteral intake with calorie counts to confirm the 60% threshold is being <strong>sustained</strong>, not just touched once; monitor weight and relevant labs (electrolytes, glucose) throughout; central line access is typically not removed until nutrition is reliably established through the new route and the line is no longer needed for any other purpose.
-</div>
+> **Teaching:** During the taper: continue checking blood glucose as the rate decreases (hypoglycemia risk persists until TPN is fully off); track oral/enteral intake with calorie counts to confirm the 60% threshold is being <strong>sustained</strong>, not just touched once; monitor weight and relevant labs (electrolytes, glucose) throughout; central line access is typically not removed until nutrition is reliably established through the new route and the line is no longer needed for any other purpose.
 
 
 ---
@@ -358,6 +356,20 @@ During the taper: continue checking blood glucose as the rate decreases (hypogly
 | Change bag/tubing every 24 hr | Limits microorganism growth |
 | Check for "cracked"/oily appearance | Calcium/phosphorus incompatibility — don't use |
 | Check egg allergy before lipid emulsion | Emulsifier contains egg phospholipid |
+
+---
+
+
+#### Added ATI Quick Hits
+
+| If ATI Says... | Think... |
+|---|---|
+| Tube feeding client starts coughing or becomes short of breath | Stop feeding and assess airway/respiratory status |
+| Formula has been hanging too long | Contamination risk; possible diarrhea |
+| Tube is hard to flush | Do not force it |
+| Starting nutrition after starvation/malnutrition | Refeeding syndrome risk; start low and go slow |
+| TPN running through a central line | Dedicated lumen, aseptic technique, monitor glucose/electrolytes |
+| TPN suddenly unavailable | Hang prescribed dextrose-containing IV solution to prevent hypoglycemia |
 
 ---
 
