@@ -3,1994 +3,808 @@
 
 @import "{{ site.theme }}";
 
-/* Whole site */
-body {
-  background: #fff7fb;
-  color: #3f2a36;
-}
-
-/* Top header/banner */
-.page-header {
-  background: linear-gradient(135deg, #f9a8d4, #fbcfe8, #fde2f3);
-  color: #3f2a36;
-  padding: 2rem 1rem;
-}
-
-.project-name {
-  font-weight: 800;
-}
-
-.project-tagline {
-  color: #5b3449;
-}
-
-/* Page layout: sidebar + notes */
-.page-wrapper {
-  display: flex;
-  align-items: flex-start;
-  max-width: 1250px;
-  margin: 0 auto;
-  padding: 2rem 1rem;
-  gap: 2rem;
-}
-
-/* Sidebar */
-.sidebar {
-  width: 230px;
-  min-width: 230px;
-  max-width: 230px;
-  flex: 0 0 230px;
-  position: sticky;
-  top: 20px;
-  align-self: flex-start;
-  background: #fff0f7;
-  border: 2px solid #f9a8d4;
-  border-radius: 18px;
-  padding: 1rem;
-  max-height: 80vh;
-  overflow-y: auto;
-  box-shadow: 0 4px 12px rgba(190, 24, 93, 0.12);
-  font-size: 0.95rem;
-}
-
-.sidebar h2 {
-  color: #be185d;
-  font-size: 1.15rem;
-  margin-top: 0;
-  margin-bottom: 0.75rem;
-  text-align: center;
-}
-
-.sidebar h3 {
-  color: #831843;
-  font-size: 0.95rem;
-  margin-top: 1rem;
-  margin-bottom: 0.4rem;
-  border-bottom: 1px solid #f9a8d4;
-  padding-bottom: 0.2rem;
-}
-
-.sidebar a {
-  display: block;
-  color: #be185d;
-  text-decoration: none;
-  font-weight: 600;
-  padding: 0.35rem 0.45rem;
-  margin: 0.1rem 0;
-  border-radius: 8px;
-  line-height: 1.25;
-}
-
-.sidebar a:hover {
-  background: #fce7f3;
-  color: #831843;
-}
-
-.sidebar hr {
-  border: none;
-  border-top: 1px solid #f9a8d4;
-  margin: 0.9rem 0;
-}
-.sidebar details {
-  margin: 0.8rem 0;
-  background: #fdf2f8;
-  border: 1px solid #f9a8d4;
-  border-radius: 12px;
-  padding: 0.4rem;
-}
-
-.sidebar summary {
-  cursor: pointer;
-  color: #831843;
-  font-weight: 800;
-  padding: 0.5rem;
-  border-radius: 8px;
-  list-style: none;
-}
-
-.sidebar summary:hover {
-  background: #fce7f3;
-}
-
-.sidebar summary::-webkit-details-marker {
-  display: none;
-}
-
-.sidebar summary::before {
-  content: "▸ ";
-  color: #be185d;
-}
-
-.sidebar details[open] summary::before {
-  content: "▾ ";
-}
-
-.sidebar details a {
-  margin-left: 0.7rem;
-  font-size: 0.9rem;
-}
-/* Dropdown sidebar menu */
-.sidebar details {
-  margin: 0.7rem 0;
-}
-
-.sidebar summary {
-  cursor: pointer;
-  font-weight: 800;
-  color: #831843;
-  padding: 0.55rem 0.65rem;
-  border-radius: 10px;
-  list-style: none;
-}
-
-.sidebar summary:hover {
-  background: #fce7f3;
-}
-
-.sidebar summary::-webkit-details-marker {
-  display: none;
-}
-
-.sidebar summary::before {
-  content: "▸ ";
-  color: #be185d;
-}
-
-.sidebar details[open] > summary::before {
-  content: "▾ ";
-}
-
-/* Big Maternity dropdown */
-.menu-group {
-  background: #fff0f7;
-  border: 2px solid #f9a8d4;
-  border-radius: 14px;
-  padding: 0.35rem;
-}
-
-/* Antepartum/Intrapartum dropdowns inside Maternity */
-.submenu-group {
-  margin-left: 0.7rem;
-  background: #fdf2f8;
-  border: 1px solid #fbcfe8;
-  border-radius: 12px;
-  padding: 0.25rem;
-}
-
-/* Topic links inside Antepartum/Intrapartum */
-.submenu-group a {
-  display: block;
-  margin-left: 1rem;
-  font-size: 0.9rem;
-  padding: 0.35rem 0.5rem;
-}
-/* Main notes area */
-.main-content {
-  flex: 1;
-  min-width: 0;
-  max-width: 900px;
-  background: white;
-  padding: 2rem;
-  border-radius: 18px;
-  box-shadow: 0 4px 12px rgba(190, 24, 93, 0.08);
-}
-
-/* Headings inside notes */
-.main-content h1,
-.main-content h2,
-.main-content h3 {
-  color: #be185d;
-}
-
-.main-content h1 {
-  border-bottom: 3px solid #fbcfe8;
-  padding-bottom: 0.5rem;
-}
-
-.main-content h2 {
-  background: #fce7f3;
-  padding: 10px 14px;
-  border-radius: 12px;
-  border-left: 6px solid #f472b6;
-  margin-top: 2rem;
-}
-
-.main-content h3 {
-  color: #831843;
-  margin-top: 1.5rem;
-}
-
-/* Paragraphs and lists */
-.main-content p,
-.main-content li {
-  line-height: 1.7;
-}
-
-/* Links */
-.main-content a {
-  color: #db2777;
-  font-weight: 700;
-}
-
-/* Tables */
-.main-content table {
-  width: 100%;
-  border-collapse: collapse;
-  background: white;
-  margin: 1rem 0;
-  display: block;
-  overflow-x: auto;
-}
-
-.main-content th {
-  background: #fbcfe8;
-  color: #831843;
-}
-
-.main-content th,
-.main-content td {
-  border: 1px solid #f3c4d8;
-  padding: 0.6rem;
-  text-align: left;
-}
-
-/* Quotes / NCLEX tips */
-.main-content blockquote {
-  border-left: 6px solid #ec4899;
-  background: #fdf2f8;
-  color: #5b3449;
-  padding: 12px 18px;
-  border-radius: 10px;
-  margin: 1.2rem 0;
-}
-
-/* Code-style text */
-.main-content code {
-  background: #fce7f3;
-  color: #831843;
-  padding: 2px 6px;
-  border-radius: 6px;
-}
-
-/* Images inside notes */
-.main-content img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 12px;
-  display: block;
-  margin: 1rem auto;
-}
-
-/* Divider lines */
-.main-content hr {
-  border: none;
-  border-top: 2px solid #fbcfe8;
-  margin: 2rem 0;
-}
-
-/* Makes anchor jumps not hide under sticky areas */
-.main-content h1,
-.main-content h2,
-.main-content h3 {
-  scroll-margin-top: 20px;
-}
-
-/* Phone/tablet layout */
-@media screen and (max-width: 900px) {
-  .page-wrapper {
-    display: block;
-    padding: 1rem;
-  }
-
-  .sidebar {
-    position: relative;
-    width: auto;
-    min-width: 0;
-    max-width: none;
-    flex: none;
-    max-height: none;
-    margin-bottom: 1.5rem;
-  }
-
-  .main-content {
-    padding: 1rem;
-    max-width: 100%;
-  }
-}
-/* Print / Save as PDF settings */
-@media print {
-  /* Hide the sidebar */
-  .sidebar {
-    display: none !important;
-  }
-
-  /* Hide the big pink website header too */
-  .page-header {
-    display: none !important;
-  }
-
-  /* Make notes take the full page */
-  .page-wrapper {
-    display: block !important;
-    max-width: 100% !important;
-    padding: 0 !important;
-    margin: 0 !important;
-  }
-
-  .main-content {
-    max-width: 100% !important;
-    width: 100% !important;
-    box-shadow: none !important;
-    border-radius: 0 !important;
-    padding: 0.5in !important;
-    margin: 0 !important;
-    background: white !important;
-    color: black !important;
-  }
-
-  /* Make tables print better */
-  table {
-    page-break-inside: avoid;
-  }
-
-  h1, h2, h3 {
-    page-break-after: avoid;
-  }
-
-  img {
-    max-width: 100% !important;
-    page-break-inside: avoid;
-  }
-
-  /* Optional: remove pink backgrounds for cleaner printing */
-  .main-content h2,
-  .main-content blockquote,
-  .main-content code {
-    background: white !important;
-    color: black !important;
-    border-color: #999 !important;
-  }
-}
-.answer-choices p {
-  margin: 0.35rem 0;
-  line-height: 1.5;
-}
-
-.sidebar ul {
-  list-style: none;
-  padding-left: 0;
-}
-
-.sidebar li {
-  margin: 6px 0;
-}
-
-.sidebar a {
-  text-decoration: none;
-}
-
-.sidebar details {
-  margin: 8px 0;
-}
-
-.sidebar summary {
-  cursor: pointer;
-  font-weight: 600;
-  list-style: none;
-}
-
-.sidebar summary::-webkit-details-marker {
-  display: none;
-}
-
-.sidebar summary::before {
-  content: "▸ ";
-}
-
-.sidebar details[open] summary::before {
-  content: "▾ ";
-}
-
-.sidebar details ul {
-  padding-left: 18px;
-  margin-top: 6px;
-}
-
-.sidebar details li {
-  margin: 4px 0;
-}
 /* =========================================================
-STEP 1: PASTEL OMBRE BACKGROUND + FLOATING CONTENT CARD
-Paste this at the VERY BOTTOM of your current style.css
-========================================================= */
-
-:root {
---teal: #7fd8d2;
---teal-dark: #2b8f8b;
---blue: #9fd7f5;
---yellow: #ffe7a3;
---pink: #f8b6c8;
---pink-dark: #be185d;
---lavender: #d7c3f3;
---mint: #c9f2d6;
---ink: #24455c;
---paper: rgba(255, 255, 255, 0.92);
-}
-
-/* Whole site ombre background */
-html,
-body {
-min-height: 100%;
-}
-
-body {
-background: linear-gradient(
-180deg,
-#fff7fb 0%,
-#fce7f3 18%,
-#f9d8e9 32%,
-#f7d9c9 46%,
-#fff0b8 60%,
-#dff7d6 74%,
-#d8f2f3 87%,
-#dce8ff 100%
-) !important;
-background-attachment: fixed !important;
-color: var(--ink) !important;
-}
-
-/* Softer top header/banner */
-.page-header {
-background: linear-gradient(
-135deg,
-#f8b6c8 0%,
-#fce7f3 30%,
-#ffe7a3 60%,
-#7fd8d2 100%
-) !important;
-color: var(--ink) !important;
-}
-
-.project-name {
-color: var(--ink) !important;
-font-weight: 900 !important;
-letter-spacing: 1px;
-}
-
-.project-tagline {
-color: #5d7380 !important;
-}
-
-/* Main notes area becomes a floating white card */
-.main-content {
-background: var(--paper) !important;
-border-radius: 22px !important;
-padding: 2.2rem !important;
-box-shadow: 0 12px 34px rgba(36, 69, 92, 0.16) !important;
-border: 2px solid rgba(255, 255, 255, 0.7);
-}
-
-/* Main page title */
-.main-content h1 {
-background: var(--teal) !important;
-color: white !important;
-text-align: center !important;
-text-transform: uppercase !important;
-letter-spacing: 3px !important;
-font-size: 2.4rem !important;
-font-weight: 900 !important;
-padding: 18px 12px !important;
-margin: 0 0 28px 0 !important;
-border-radius: 16px !important;
-border-bottom: none !important;
-box-shadow: 8px 8px 0 rgba(127, 216, 210, 0.25) !important;
-}
-
-/* Section headings */
-.main-content h2 {
-background: #fff7cf !important;
-color: var(--ink) !important;
-padding: 12px 16px !important;
-border-radius: 14px !important;
-border-left: 8px solid var(--yellow) !important;
-border-bottom: none !important;
-margin-top: 2.2rem !important;
-box-shadow: 5px 5px 0 rgba(255, 231, 163, 0.35);
-}
-
-.main-content h2::before {
-content: "✦ ";
-color: #f8b6c8;
-}
-
-.main-content h3 {
-color: var(--teal-dark) !important;
-border-left: 8px solid var(--teal) !important;
-padding: 8px 0 8px 12px !important;
-background: linear-gradient(to right, #eaf6fc, transparent) !important;
-border-radius: 8px;
-}
-
-.main-content h4 {
-color: #be185d !important;
-}
-
-/* Softer links */
-.main-content a {
-color: var(--teal-dark) !important;
-font-weight: 800 !important;
-text-decoration: none !important;
-border-bottom: 2px dotted var(--teal) !important;
-}
-
-.main-content a:hover {
-color: #ee8f8b !important;
-border-bottom-color: #ee8f8b !important;
-}
-
-/* Softer tables */
-.main-content table {
-width: 100% !important;
-border-collapse: separate !important;
-border-spacing: 0 !important;
-margin: 1.2rem 0 !important;
-border: 3px solid var(--teal) !important;
-border-radius: 14px !important;
-overflow: hidden !important;
-box-shadow: 7px 7px 0 rgba(127, 216, 210, 0.18) !important;
-background: white !important;
-}
-
-.main-content th {
-background: var(--teal) !important;
-color: white !important;
-padding: 0.7rem !important;
-text-align: left !important;
-border: 1px solid var(--teal-dark) !important;
-}
-
-.main-content td {
-border: 1px solid #d7e5e4 !important;
-padding: 0.65rem !important;
-vertical-align: top !important;
-}
-
-.main-content tr:nth-child(even) td {
-background: #f7fcfb !important;
-}
-
-.main-content tr:nth-child(odd) td {
-background: white !important;
-}
-
-/* Softer blockquotes / regular tips */
-.main-content blockquote {
-border-left: 8px solid var(--yellow) !important;
-background: #fff7cf !important;
-color: var(--ink) !important;
-border-radius: 14px !important;
-box-shadow: 5px 5px 0 rgba(255, 231, 163, 0.35);
-}
-
-/* Sidebar stays functional but matches the new theme */
-.sidebar {
-background: rgba(255, 255, 255, 0.88) !important;
-border: 3px solid #f8b6c8 !important;
-border-radius: 22px !important;
-box-shadow: 0 10px 28px rgba(36, 69, 92, 0.14) !important;
-}
-
-.sidebar h2 {
-background: #f8b6c8 !important;
-color: white !important;
-border-radius: 14px !important;
-box-shadow: 5px 5px 0 rgba(248, 182, 200, 0.35);
-}
-
-.sidebar details {
-background: #fff7fb !important;
-border: 2px solid #f8b6c8 !important;
-}
-
-.sidebar .submenu-group {
-background: white !important;
-border: 1px solid #d7c3f3 !important;
-}
-
-.sidebar summary {
-color: var(--ink) !important;
-}
-
-.sidebar a {
-color: #be185d !important;
-}
-
-.sidebar a:hover {
-background: #fff7cf !important;
-color: var(--teal-dark) !important;
-}
-
-/* Mobile friendly */
-@media screen and (max-width: 900px) {
-.main-content {
-padding: 1.2rem !important;
-border-radius: 18px !important;
-}
-
-.main-content h1 {
-font-size: 1.8rem !important;
-letter-spacing: 2px !important;
-}
-}
-
-/* Keep print clean */
-@media print {
-body {
-background: white !important;
-}
-
-.main-content {
-background: white !important;
-box-shadow: none !important;
-border: none !important;
-}
-
-.main-content h1,
-.main-content h2,
-.main-content h3,
-.main-content blockquote {
-box-shadow: none !important;
-}
-}
-/* =========================================================
-STEP 2: CUTE HOMEPAGE SECTION CARDS
-Paste at the VERY BOTTOM of style.css
-========================================================= */
-
-.section-card-grid {
-display: grid;
-grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-gap: 26px;
-margin: 32px 0;
-}
-
-.section-card {
-background: rgba(255, 255, 255, 0.92);
-border-radius: 24px;
-padding: 28px 24px;
-text-align: center;
-box-shadow: 10px 10px 0 rgba(36, 69, 92, 0.08);
-border: 4px solid #7fd8d2;
-transition: transform 0.18s ease, box-shadow 0.18s ease;
-}
-
-.section-card:hover {
-transform: translateY(-4px);
-box-shadow: 12px 12px 0 rgba(36, 69, 92, 0.12);
-}
-
-.section-card.pink {
-border-color: #f8b6c8;
-background: #fff4f8;
-}
-
-.section-card.blue {
-border-color: #9fd7f5;
-background: #eef8ff;
-}
-
-.section-card.yellow {
-border-color: #ffe7a3;
-background: #fff9df;
-}
-
-.section-card.green {
-border-color: #9de0aa;
-background: #f0fff2;
-}
-
-.section-card.purple {
-border-color: #d7c3f3;
-background: #f7f2ff;
-}
-
-.section-card h2 {
-background: transparent !important;
-border: none !important;
-box-shadow: none !important;
-padding: 0 !important;
-margin-top: 0 !important;
-margin-bottom: 12px !important;
-color: #24455c !important;
-font-size: 1.65rem !important;
-}
-
-.section-card h2::before {
-content: "" !important;
-}
-
-.section-card p {
-color: #5d7380;
-margin: 10px 0;
-}
-
-.section-card a {
-display: inline-block;
-margin-top: 12px;
-padding: 10px 18px;
-border-radius: 999px;
-background: white;
-border: 2px solid #7fd8d2 !important;
-color: #24455c !important;
-font-weight: 800;
-text-decoration: none !important;
-box-shadow: 4px 4px 0 rgba(127, 216, 210, 0.25);
-}
-
-.section-card.pink a {
-border-color: #f8b6c8 !important;
-box-shadow: 4px 4px 0 rgba(248, 182, 200, 0.25);
-}
-
-.section-card.blue a {
-border-color: #9fd7f5 !important;
-box-shadow: 4px 4px 0 rgba(159, 215, 245, 0.25);
-}
-
-.section-card.yellow a {
-border-color: #ffe7a3 !important;
-box-shadow: 4px 4px 0 rgba(255, 231, 163, 0.35);
-}
-
-.section-card.green a {
-border-color: #9de0aa !important;
-box-shadow: 4px 4px 0 rgba(157, 224, 170, 0.25);
-}
-
-.section-card.purple a {
-border-color: #d7c3f3 !important;
-box-shadow: 4px 4px 0 rgba(215, 195, 243, 0.25);
-}
-
-.section-card a:hover {
-background: #fff7cf;
-color: #2b8f8b !important;
-transform: translateY(-1px);
-}
-
-.home-intro {
-text-align: center;
-max-width: 720px;
-margin: 0 auto 28px auto;
-color: #5d7380;
-font-size: 1.05rem;
-}
-
-.home-mini-label {
-display: inline-block;
-background: #fff7cf;
-border: 2px solid #ffe7a3;
-border-radius: 999px;
-padding: 6px 12px;
-font-weight: 800;
-color: #24455c;
-margin-bottom: 14px;
-}
-/* =========================================================
-   FUNNY HOMEPAGE LARGE BUTTONS
+   MOCHA CHIC FULL REPLACEMENT CSS
+   Theme: cream, latte, taupe, cocoa, dusty rose, mauve
+   Keeps existing functionality/classes but replaces aesthetics
    ========================================================= */
 
-.home-button-grid {
-  display: grid !important;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)) !important;
-  gap: 30px !important;
-  margin: 42px auto !important;
-  max-width: 880px !important;
-}
+/* ---------- Color System ---------- */
+:root {
+  --cream: #fbf3ea;
+  --cream-soft: #fff9f3;
+  --vanilla: #f7eadc;
+  --latte: #e9d3bf;
+  --latte-soft: #f1dfcf;
+  --caramel: #c9976b;
+  --caramel-soft: #ead1b7;
+  --taupe: #b9a08c;
+  --mushroom: #d8c7b8;
+  --cocoa: #6f4e3d;
+  --espresso: #3f2b24;
+  --mocha: #8a6250;
+  --dusty-rose: #c98f95;
+  --dusty-rose-soft: #f2d6d8;
+  --mauve: #a98491;
+  --mauve-soft: #ead7de;
+  --champagne: #f4e3c1;
+  --sage: #c8d2bd;
+  --sage-soft: #eef3e9;
 
-.home-big-button {
-  display: flex !important;
-  flex-direction: column !important;
-  align-items: center !important;
-  justify-content: center !important;
-  min-height: 175px !important;
-  border-radius: 30px !important;
-  text-align: center !important;
-  color: #24455c !important;
-  text-decoration: none !important;
-  border-bottom: none !important;
-  box-shadow: 12px 12px 0 rgba(36, 69, 92, 0.10) !important;
-  transition: transform 0.18s ease, box-shadow 0.18s ease, filter 0.18s ease !important;
-  padding: 24px !important;
-}
-
-.home-big-button:hover {
-  transform: translateY(-6px) rotate(-1deg) !important;
-  box-shadow: 16px 16px 0 rgba(36, 69, 92, 0.14) !important;
-  filter: brightness(1.03) !important;
-}
-
-.home-big-button.pink {
-  background: linear-gradient(135deg, #fff4f8, #f8b6c8) !important;
-  border: 4px solid #f8b6c8 !important;
-}
-
-.home-big-button.blue {
-  background: linear-gradient(135deg, #eef8ff, #9fd7f5) !important;
-  border: 4px solid #9fd7f5 !important;
-}
-
-.button-title {
-  display: block !important;
-  font-size: 2rem !important;
-  font-weight: 950 !important;
-  letter-spacing: 1px !important;
-  margin-bottom: 10px !important;
-}
-
-.button-subtitle {
-  display: block !important;
-  font-size: 1rem !important;
-  font-weight: 800 !important;
-  color: #5d7380 !important;
-  background: rgba(255, 255, 255, 0.72) !important;
-  padding: 7px 13px !important;
-  border-radius: 999px !important;
-}
-
-@media screen and (max-width: 700px) {
-  .home-button-grid {
-    grid-template-columns: 1fr !important;
-    margin: 28px auto !important;
-  }
-
-  .home-big-button {
-    min-height: 140px !important;
-  }
-
-  .button-title {
-    font-size: 1.6rem !important;
-  }
-
-  .button-subtitle {
-    font-size: 0.9rem !important;
-  }
-}
-/* =========================================================
-FINAL TABLE FIX
-Centers tables and stops extra white space on desktop
-========================================================= */
-
-.main-content table {
-display: table !important;
-width: auto !important;
-max-width: 100% !important;
-margin-left: auto !important;
-margin-right: auto !important;
-table-layout: auto !important;
-border-collapse: separate !important;
-overflow: hidden !important;
-}
-
-.main-content th,
-.main-content td {
-width: auto !important;
-white-space: normal !important;
-}
-
-/* Phone/tablet: wide tables can scroll */
-@media screen and (max-width: 900px) {
-.main-content table {
-display: block !important;
-width: 100% !important;
-max-width: 100% !important;
-overflow-x: auto !important;
-}
+  --ink: #3f2b24;
+  --muted-ink: #725b50;
+  --soft-border: rgba(111, 78, 61, 0.18);
+  --paper: rgba(255, 249, 243, 0.82);
+  --paper-solid: #fffaf5;
 }
 
 /* =========================================================
-WEBSITE HEADER TITLE STYLE
-Styles the top site title from _config.yml
-========================================================= */
+   WHOLE SITE
+   ========================================================= */
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  color: var(--ink) !important;
+  background:
+    radial-gradient(circle at top left, rgba(201, 143, 149, 0.22), transparent 28%),
+    radial-gradient(circle at 90% 10%, rgba(201, 151, 107, 0.18), transparent 26%),
+    linear-gradient(
+      180deg,
+      #fff8f1 0%,
+      #f8e8dd 24%,
+      #ead3c3 52%,
+      #dfc8ba 76%,
+      #f7efe8 100%
+    ) !important;
+  background-attachment: fixed !important;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+/* =========================================================
+   TOP HEADER / BANNER
+   ========================================================= */
+
+.page-header {
+  background:
+    linear-gradient(
+      135deg,
+      #f4d7d5 0%,
+      #d9b1ad 32%,
+      #a77d73 68%,
+      #6f4e3d 100%
+    ) !important;
+  color: var(--cream-soft) !important;
+  padding: 2.6rem 1rem 2.4rem !important;
+  border-bottom: 1px solid rgba(63, 43, 36, 0.16);
+}
 
 .page-header .project-name,
 .project-name {
-color: #be185d !important;
-font-family: "Trebuchet MS", "Arial Rounded MT Bold", Arial, sans-serif !important;
-font-size: 3rem !important;
-font-weight: 900 !important;
-letter-spacing: 1px !important;
-text-transform: none !important;
-text-shadow:
-3px 3px 0 #ffffff,
-6px 6px 0 rgba(127, 216, 210, 0.55) !important;
+  color: #fff8f1 !important;
+  font-family: Georgia, "Times New Roman", serif !important;
+  font-size: clamp(2.1rem, 5vw, 4rem) !important;
+  font-weight: 500 !important;
+  letter-spacing: 0.06em !important;
+  text-transform: uppercase !important;
+  line-height: 1.05 !important;
+  text-shadow: 0 4px 18px rgba(63, 43, 36, 0.28) !important;
+  margin-bottom: 0.65rem !important;
 }
 
 .page-header .project-name::before,
-.project-name::before {
-content: "✦ ";
-color: #ffe7a3 !important;
-text-shadow: 2px 2px 0 #ffffff !important;
-}
-
 .page-header .project-name::after,
+.project-name::before,
 .project-name::after {
-content: " ✦";
-color: #f8b6c8 !important;
-text-shadow: 2px 2px 0 #ffffff !important;
+  content: "" !important;
 }
 
 .page-header .project-tagline,
 .project-tagline {
-color: #24455c !important;
-font-family: "Trebuchet MS", "Arial Rounded MT Bold", Arial, sans-serif !important;
-font-size: 1.1rem !important;
-font-weight: 700 !important;
-background: rgba(255, 255, 255, 0.55) !important;
-display: inline-block !important;
-padding: 8px 16px !important;
-border-radius: 999px !important;
-margin-top: 10px !important;
-}
-
-@media screen and (max-width: 700px) {
-.page-header .project-name,
-.project-name {
-font-size: 2rem !important;
-letter-spacing: 0.5px !important;
-}
-
-.page-header .project-tagline,
-.project-tagline {
-font-size: 0.95rem !important;
-}
-}
-/* =========================================================
-MODERN COLORFUL SIDEBAR GLOW-UP
-Paste at the VERY BOTTOM of style.css
-========================================================= */
-
-/* Sidebar container */
-.sidebar {
-background: rgba(255, 255, 255, 0.82) !important;
-backdrop-filter: blur(10px) !important;
-border: 3px solid rgba(248, 182, 200, 0.75) !important;
-border-radius: 28px !important;
-padding: 1rem !important;
-box-shadow:
-10px 10px 0 rgba(127, 216, 210, 0.16),
-0 12px 30px rgba(36, 69, 92, 0.14) !important;
-}
-
-/* Sidebar title */
-.sidebar h2 {
-background: linear-gradient(135deg, #f8b6c8, #ffe7a3, #7fd8d2) !important;
-color: #24455c !important;
-font-family: "Trebuchet MS", "Arial Rounded MT Bold", Arial, sans-serif !important;
-font-size: 1.15rem !important;
-font-weight: 950 !important;
-letter-spacing: 0.5px !important;
-text-align: center !important;
-border-radius: 20px !important;
-padding: 0.85rem 0.7rem !important;
-margin: 0 0 1rem 0 !important;
-box-shadow:
-5px 5px 0 rgba(248, 182, 200, 0.28),
-inset 0 0 0 2px rgba(255, 255, 255, 0.65) !important;
-border: none !important;
-}
-
-/* Home link at top */
-.sidebar > a {
-background: #fff7cf !important;
-border: 2px solid #ffe7a3 !important;
-border-radius: 999px !important;
-color: #24455c !important;
-font-weight: 900 !important;
-text-align: center !important;
-margin-bottom: 0.9rem !important;
-box-shadow: 4px 4px 0 rgba(255, 231, 163, 0.35) !important;
-}
-
-/* Main dropdown groups: Maternity + Hematology/Oncology */
-.sidebar .menu-group {
-background: linear-gradient(135deg, #fff7fb, #ffffff) !important;
-border: 2px solid #f8b6c8 !important;
-border-radius: 20px !important;
-padding: 0.45rem !important;
-margin: 0.8rem 0 !important;
-box-shadow: 5px 5px 0 rgba(248, 182, 200, 0.18) !important;
-}
-
-/* Submenu groups: Antepartum, Intrapartum, Anemias, etc. */
-.sidebar .submenu-group {
-background: rgba(255, 255, 255, 0.88) !important;
-border: 2px solid #d7c3f3 !important;
-border-radius: 18px !important;
-padding: 0.35rem !important;
-margin: 0.55rem 0 0.55rem 0.55rem !important;
-box-shadow: 4px 4px 0 rgba(215, 195, 243, 0.16) !important;
-}
-
-/* Dropdown labels */
-.sidebar summary {
-color: #24455c !important;
-font-family: "Trebuchet MS", "Arial Rounded MT Bold", Arial, sans-serif !important;
-font-weight: 900 !important;
-letter-spacing: 0.2px !important;
-padding: 0.65rem 0.75rem !important;
-border-radius: 14px !important;
-background: rgba(255, 255, 255, 0.72) !important;
-list-style: none !important;
-cursor: pointer !important;
-transition: all 0.15s ease !important;
-}
-
-/* Hover on dropdown labels */
-.sidebar summary:hover {
-background: #fff7cf !important;
-color: #be185d !important;
-transform: translateX(2px) !important;
-}
-
-/* Remove default triangle */
-.sidebar summary::-webkit-details-marker {
-display: none !important;
-}
-
-/* Custom cute arrows */
-.sidebar summary::before {
-content: "▸ " !important;
-color: #f8b6c8 !important;
-font-weight: 950 !important;
-}
-
-.sidebar details[open] > summary::before {
-content: "▾ " !important;
-color: #7fd8d2 !important;
-}
-
-/* Links inside sidebar */
-.sidebar a {
-display: block !important;
-color: #5d7380 !important;
-font-weight: 800 !important;
-text-decoration: none !important;
-border-bottom: none !important;
-padding: 0.45rem 0.65rem !important;
-margin: 0.18rem 0 !important;
-border-radius: 12px !important;
-line-height: 1.25 !important;
-transition: all 0.15s ease !important;
-}
-
-/* Sidebar link hover */
-.sidebar a:hover {
-background: linear-gradient(135deg, #fff7cf, #fce7f3) !important;
-color: #be185d !important;
-transform: translateX(4px) !important;
-}
-
-/* Links inside submenus */
-.sidebar .submenu-group a {
-margin-left: 0.5rem !important;
-font-size: 0.88rem !important;
-}
-
-/* Make opened main groups stand out */
-.sidebar .menu-group[open] {
-border-color: #7fd8d2 !important;
-box-shadow: 5px 5px 0 rgba(127, 216, 210, 0.22) !important;
-}
-
-/* Make opened submenu groups stand out */
-.sidebar .submenu-group[open] {
-border-color: #ffe7a3 !important;
-box-shadow: 4px 4px 0 rgba(255, 231, 163, 0.28) !important;
-}
-
-/* Scrollbar styling for sidebar */
-.sidebar::-webkit-scrollbar {
-width: 8px;
-}
-
-.sidebar::-webkit-scrollbar-track {
-background: #fff7fb;
-border-radius: 999px;
-}
-
-.sidebar::-webkit-scrollbar-thumb {
-background: #f8b6c8;
-border-radius: 999px;
-}
-
-.sidebar::-webkit-scrollbar-thumb:hover {
-background: #7fd8d2;
-}
-
-/* Mobile sidebar */
-@media screen and (max-width: 900px) {
-.sidebar {
-border-radius: 22px !important;
-margin-bottom: 1.5rem !important;
-box-shadow:
-6px 6px 0 rgba(127, 216, 210, 0.14),
-0 8px 20px rgba(36, 69, 92, 0.10) !important;
-}
-
-.sidebar .submenu-group {
-margin-left: 0.25rem !important;
-}
-}
-/* =========================================================
-   SIDEBAR WIDTH FIX
-   Gives long titles like Hematology/Oncology enough room
-   ========================================================= */
-
-.sidebar {
-  width: 260px !important;
-  min-width: 260px !important;
-  max-width: 260px !important;
-  flex: 0 0 260px !important;
-}
-
-.sidebar summary {
-  white-space: nowrap !important;
-  font-size: 0.95rem !important;
-}
-/* =========================================================
-   NCLEX / PRIORITY / INTERVENTION CALLOUT BOXES
-   Paste at the VERY BOTTOM of style.css
-   ========================================================= */
-
-.main-content .nclex,
-.main-content .danger,
-.main-content .intervention,
-.main-content .memory,
-.main-content .note {
-  margin: 1.4rem 0 !important;
-  padding: 1rem 1.1rem !important;
-  border-radius: 18px !important;
-  box-shadow: 6px 6px 0 rgba(36, 69, 92, 0.08) !important;
-  color: #24455c !important;
-  line-height: 1.6 !important;
-}
-
-/* Yellow NCLEX tip box */
-.main-content .nclex {
-  background: #fff7cf !important;
-  border: 3px solid #ffe7a3 !important;
-}
-
-/* Pink priority/warning box */
-.main-content .danger {
-  background: #fff0f4 !important;
-  border: 3px solid #f8b6c8 !important;
-}
-
-/* Green nursing intervention box */
-.main-content .intervention {
-  background: #effdf2 !important;
-  border: 3px solid #9de0aa !important;
-}
-
-/* Purple memory trick box */
-.main-content .memory {
-  background: #f6f0ff !important;
-  border: 3px solid #d7c3f3 !important;
-}
-
-/* Blue regular note box */
-.main-content .note {
-  background: #eef8ff !important;
-  border: 3px solid #9fd7f5 !important;
-}
-
-/* Automatic labels */
-.main-content .nclex::before,
-.main-content .danger::before,
-.main-content .intervention::before,
-.main-content .memory::before,
-.main-content .note::before {
-  display: block !important;
-  font-weight: 900 !important;
+  color: #fff1e7 !important;
+  font-family: Georgia, "Times New Roman", serif !important;
+  font-size: 1rem !important;
+  font-weight: 400 !important;
+  letter-spacing: 0.12em !important;
   text-transform: uppercase !important;
-  letter-spacing: 0.6px !important;
-  margin-bottom: 0.45rem !important;
-  font-size: 0.95rem !important;
+  opacity: 0.94 !important;
+  background: transparent !important;
+  padding: 0 !important;
+  border-radius: 0 !important;
 }
 
-.main-content .nclex::before {
-  content: "NCLEX Tip";
-  color: #b7791f !important;
-}
-
-.main-content .danger::before {
-  content: "Priority / Warning";
-  color: #be185d !important;
-}
-
-.main-content .intervention::before {
-  content: "Nursing Interventions";
-  color: #2f855a !important;
-}
-
-.main-content .memory::before {
-  content: "Memory Trick";
-  color: #6b46c1 !important;
-}
-
-.main-content .note::before {
-  content: "Note";
-  color: #2b6cb0 !important;
-}
 /* =========================================================
-   COLLAPSIBLE SLIDE-OUT SIDEBAR
-   Notes fill the screen, sidebar opens with button
+   PAGE LAYOUT
    ========================================================= */
 
-/* Hide checkbox */
+.page-wrapper {
+  display: flex;
+  align-items: flex-start;
+  max-width: 1440px !important;
+  margin: 0 auto !important;
+  padding: 2rem 1.2rem 3rem !important;
+  gap: 1.5rem !important;
+}
+
+/* Main notes blend into the page instead of looking like a hard card */
+.main-content {
+  flex: 1;
+  min-width: 0;
+  width: 100%;
+  max-width: 1180px !important;
+  margin: 0 auto !important;
+  background: var(--paper) !important;
+  color: var(--ink) !important;
+  padding: clamp(1.15rem, 2.5vw, 2.35rem) !important;
+  border-radius: 28px !important;
+  border: 1px solid rgba(255, 255, 255, 0.62) !important;
+  box-shadow:
+    0 18px 46px rgba(63, 43, 36, 0.10),
+    inset 0 1px 0 rgba(255, 255, 255, 0.55) !important;
+  backdrop-filter: blur(8px);
+}
+
+/* =========================================================
+   SLIDE-OUT SIDEBAR
+   Keeps current functionality/classes
+   ========================================================= */
+
 .sidebar-toggle-checkbox {
   display: none !important;
 }
 
-/* Cute button to open sidebar */
 .sidebar-toggle-button {
   position: fixed !important;
   top: 18px !important;
   left: 18px !important;
   z-index: 9999 !important;
-  background: linear-gradient(135deg, #fff7cf, #f8b6c8, #7fd8d2) !important;
-  color: #24455c !important;
-  font-weight: 900 !important;
-  font-family: "Trebuchet MS", "Arial Rounded MT Bold", Arial, sans-serif !important;
-  border: 3px solid rgba(255, 255, 255, 0.9) !important;
+  background: #f5e5d8 !important;
+  color: var(--espresso) !important;
+  border: 1px solid rgba(111, 78, 61, 0.26) !important;
   border-radius: 999px !important;
-  padding: 10px 16px !important;
+  padding: 0.7rem 1rem !important;
   box-shadow:
-    5px 5px 0 rgba(36, 69, 92, 0.12),
-    0 6px 18px rgba(36, 69, 92, 0.15) !important;
+    0 8px 22px rgba(63, 43, 36, 0.14),
+    inset 0 1px 0 rgba(255, 255, 255, 0.7) !important;
+  font-family: Georgia, "Times New Roman", serif !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.03em !important;
   cursor: pointer !important;
+  transition: left 0.22s ease, transform 0.18s ease, background 0.18s ease !important;
 }
 
-/* Dark/soft overlay when sidebar is open */
-.sidebar-overlay {
-  display: none !important;
+.sidebar-toggle-button:hover {
+  background: #efd8cc !important;
+  transform: translateY(-1px);
 }
 
-/* Make page content use more room */
-.page-wrapper {
-  max-width: 1350px !important;
-  padding-left: 1rem !important;
-  padding-right: 1rem !important;
-}
-
-/* Notes area fills the space */
-.main-content {
-  max-width: 1100px !important;
-  width: 100% !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
-}
-
-/* Sidebar hidden by default */
-.sidebar {
-  position: fixed !important;
-  top: 0 !important;
-  left: -310px !important;
-  width: 280px !important;
-  min-width: 280px !important;
-  max-width: 280px !important;
-  height: 100vh !important;
-  max-height: 100vh !important;
-  z-index: 9998 !important;
-  overflow-y: auto !important;
-  transition: left 0.25s ease !important;
-  margin: 0 !important;
-  border-radius: 0 28px 28px 0 !important;
-}
-
-/* When checked, sidebar slides in */
-.sidebar-toggle-checkbox:checked ~ .page-wrapper .sidebar {
-  left: 0 !important;
-}
-
-/* Overlay appears when open */
-.sidebar-toggle-checkbox:checked ~ .sidebar-overlay {
-  display: block !important;
-  position: fixed !important;
-  inset: 0 !important;
-  background: rgba(36, 69, 92, 0.18) !important;
-  z-index: 9997 !important;
-  cursor: pointer !important;
-}
-
-/* Shift button slightly when sidebar is open */
 .sidebar-toggle-checkbox:checked + .sidebar-toggle-button {
-  left: 300px !important;
+  left: 310px !important;
 }
 
-/* Button text when open */
 .sidebar-toggle-checkbox:checked + .sidebar-toggle-button::after {
   content: " Close";
 }
 
-/* Mobile */
-@media screen and (max-width: 700px) {
-  .sidebar-toggle-button {
-    top: 12px !important;
-    left: 12px !important;
-    padding: 9px 13px !important;
-    font-size: 0.9rem !important;
-  }
-
-  .sidebar {
-    left: -290px !important;
-    width: 265px !important;
-    min-width: 265px !important;
-    max-width: 265px !important;
-  }
-
-  .sidebar-toggle-checkbox:checked + .sidebar-toggle-button {
-    left: 12px !important;
-    top: 12px !important;
-  }
-
-  .sidebar-toggle-checkbox:checked + .sidebar-toggle-button::after {
-    content: " Close";
-  }
-
-  .main-content {
-    padding-top: 3.5rem !important;
-  }
-}
-
-/* Print stays clean */
-@media print {
-  .sidebar-toggle-button,
-  .sidebar-toggle-checkbox,
-  .sidebar-overlay,
-  .sidebar {
-    display: none !important;
-  }
-}
-/* =========================================================
-   PRACTICE QUIZ DROPDOWN FIX
-   Makes answer dropdowns easier to read
-   ========================================================= */
-
-.main-content details {
-  background: #fff7cf !important;
-  border: 3px solid #ffe7a3 !important;
-  border-radius: 18px !important;
-  padding: 0.9rem 1rem !important;
-  margin: 1.4rem 0 2rem 0 !important;
-  box-shadow: 6px 6px 0 rgba(255, 231, 163, 0.28) !important;
-}
-
-.main-content details summary {
-  cursor: pointer !important;
-  font-weight: 900 !important;
-  color: #24455c !important;
-  background: white !important;
-  border-radius: 999px !important;
-  padding: 0.65rem 0.9rem !important;
-  list-style: none !important;
-  display: inline-block !important;
-  border: 2px solid #7fd8d2 !important;
-  box-shadow: 4px 4px 0 rgba(127, 216, 210, 0.22) !important;
-}
-
-.main-content details summary::-webkit-details-marker {
+.sidebar-overlay {
   display: none !important;
 }
 
-.main-content details summary::before {
-  content: "▸ " !important;
-  color: #be185d !important;
+.sidebar-toggle-checkbox:checked ~ .sidebar-overlay {
+  display: block !important;
+  position: fixed !important;
+  inset: 0 !important;
+  background: rgba(63, 43, 36, 0.20) !important;
+  z-index: 9997 !important;
+  cursor: pointer !important;
 }
 
-.main-content details[open] summary::before {
-  content: "▾ " !important;
-  color: #2b8f8b !important;
+.sidebar {
+  position: fixed !important;
+  top: 0 !important;
+  left: -320px !important;
+  width: 292px !important;
+  min-width: 292px !important;
+  max-width: 292px !important;
+  height: 100vh !important;
+  max-height: 100vh !important;
+  z-index: 9998 !important;
+  overflow-y: auto !important;
+  margin: 0 !important;
+  padding: 1rem !important;
+  border-radius: 0 28px 28px 0 !important;
+  background:
+    linear-gradient(180deg, #e7d4c4, #d8c2b3 54%, #cbb4a4) !important;
+  border: none !important;
+  border-right: 1px solid rgba(63, 43, 36, 0.18) !important;
+  box-shadow: 18px 0 40px rgba(63, 43, 36, 0.22) !important;
+  transition: left 0.25s ease !important;
+  color: var(--espresso) !important;
 }
 
-.main-content details p,
-.main-content details li {
-  line-height: 1.8 !important;
-  margin-top: 0.7rem !important;
-  margin-bottom: 0.7rem !important;
+.sidebar-toggle-checkbox:checked ~ .page-wrapper .sidebar {
+  left: 0 !important;
 }
 
-.main-content details strong {
-  color: #be185d !important;
+.sidebar h2 {
+  color: var(--espresso) !important;
+  background: rgba(255, 249, 243, 0.45) !important;
+  border: 1px solid rgba(111, 78, 61, 0.16) !important;
+  border-radius: 18px !important;
+  padding: 0.8rem 0.7rem !important;
+  margin: 0 0 1rem 0 !important;
+  text-align: center !important;
+  font-size: 1.05rem !important;
+  font-family: Georgia, "Times New Roman", serif !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.07em !important;
+  text-transform: uppercase !important;
+  box-shadow: none !important;
 }
 
-.main-content details[open] {
-  padding-bottom: 1.2rem !important;
-}
-/* =========================================================
-   PRACTICE QUESTION ANSWER CHOICE SPACING
-   ========================================================= */
-
-.main-content h2 + p,
-.main-content h3 + p {
+.sidebar h3 {
+  color: var(--espresso) !important;
+  font-size: 0.92rem !important;
   margin-top: 1rem !important;
+  margin-bottom: 0.35rem !important;
+  border-bottom: 1px solid rgba(111, 78, 61, 0.18) !important;
+  padding-bottom: 0.25rem !important;
 }
+
+.sidebar ul {
+  list-style: none !important;
+  padding-left: 0 !important;
+  margin-left: 0 !important;
+}
+
+.sidebar li {
+  margin: 0.25rem 0 !important;
+}
+
+.sidebar a {
+  display: block !important;
+  color: var(--espresso) !important;
+  text-decoration: none !important;
+  border-bottom: none !important;
+  font-weight: 600 !important;
+  padding: 0.48rem 0.62rem !important;
+  margin: 0.12rem 0 !important;
+  border-radius: 12px !important;
+  line-height: 1.25 !important;
+  transition: background 0.18s ease, color 0.18s ease, transform 0.18s ease !important;
+}
+
+.sidebar a:hover {
+  background: rgba(255, 249, 243, 0.52) !important;
+  color: #7d474d !important;
+  transform: translateX(3px);
+}
+
+.sidebar > a {
+  text-align: center !important;
+  background: rgba(255, 249, 243, 0.42) !important;
+  border: 1px solid rgba(111, 78, 61, 0.14) !important;
+  margin-bottom: 0.85rem !important;
+}
+
+.sidebar details {
+  margin: 0.7rem 0 !important;
+  background: rgba(255, 249, 243, 0.28) !important;
+  border: 1px solid rgba(111, 78, 61, 0.15) !important;
+  border-radius: 16px !important;
+  padding: 0.32rem !important;
+  box-shadow: none !important;
+}
+
+.sidebar summary {
+  cursor: pointer !important;
+  color: var(--espresso) !important;
+  font-weight: 700 !important;
+  padding: 0.58rem 0.66rem !important;
+  border-radius: 12px !important;
+  list-style: none !important;
+  white-space: normal !important;
+  font-size: 0.95rem !important;
+  background: transparent !important;
+  transition: background 0.18s ease, color 0.18s ease !important;
+}
+
+.sidebar summary:hover {
+  background: rgba(255, 249, 243, 0.45) !important;
+  color: #7d474d !important;
+}
+
+.sidebar summary::-webkit-details-marker {
+  display: none !important;
+}
+
+.sidebar summary::before {
+  content: "▸ " !important;
+  color: var(--mocha) !important;
+  font-weight: 700 !important;
+}
+
+.sidebar details[open] > summary::before {
+  content: "▾ " !important;
+  color: #7d474d !important;
+}
+
+.sidebar details ul {
+  padding-left: 0.85rem !important;
+  margin-top: 0.35rem !important;
+}
+
+.sidebar .menu-group {
+  background: rgba(255, 249, 243, 0.22) !important;
+  border: 1px solid rgba(111, 78, 61, 0.16) !important;
+  border-radius: 18px !important;
+  padding: 0.35rem !important;
+  margin: 0.75rem 0 !important;
+}
+
+.sidebar .submenu-group {
+  margin-left: 0.55rem !important;
+  background: rgba(255, 249, 243, 0.22) !important;
+  border: 1px solid rgba(111, 78, 61, 0.12) !important;
+  border-radius: 14px !important;
+  padding: 0.25rem !important;
+}
+
+.sidebar .submenu-group a {
+  margin-left: 0.45rem !important;
+  font-size: 0.88rem !important;
+}
+
+.sidebar hr {
+  border: none !important;
+  border-top: 1px solid rgba(111, 78, 61, 0.20) !important;
+  margin: 0.9rem 0 !important;
+}
+
+.sidebar::-webkit-scrollbar {
+  width: 8px;
+}
+
+.sidebar::-webkit-scrollbar-track {
+  background: rgba(255, 249, 243, 0.28);
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+  background: rgba(111, 78, 61, 0.28);
+  border-radius: 999px;
+}
+
+.sidebar::-webkit-scrollbar-thumb:hover {
+  background: rgba(111, 78, 61, 0.42);
+}
+
+/* =========================================================
+   TYPOGRAPHY
+   ========================================================= */
 
 .main-content p {
-  line-height: 1.75 !important;
-}
-
-.main-content br {
-  line-height: 1.9 !important;
-}
-/* =========================================================
-   PRACTICE QUIZ ANSWER + DROPDOWN SPACING FIX
-   ========================================================= */
-
-.answer-choice {
-  display: block !important;
-  margin: 0.75rem 0 !important;
-  line-height: 1.65 !important;
-}
-
-.quiz-answer {
-  margin-top: 1rem !important;
+  line-height: 1.72 !important;
+  margin-top: 0.75rem !important;
   margin-bottom: 0.9rem !important;
-  line-height: 1.7 !important;
-  color: #be185d !important;
 }
 
-.quiz-rationale {
-  margin-top: 0.9rem !important;
-  margin-bottom: 0.5rem !important;
-  line-height: 1.8 !important;
+.main-content ul,
+.main-content ol {
+  margin-top: 0.55rem !important;
+  margin-bottom: 1rem !important;
 }
 
-.main-content details {
-  margin-top: 1.2rem !important;
-  margin-bottom: 2rem !important;
+.main-content li {
+  line-height: 1.55 !important;
+  margin: 0.22rem 0 !important;
 }
 
-.main-content details p {
-  display: block !important;
-  margin: 0.85rem 0 !important;
-}
-/* =========================================================
-   DOWNLOAD BUTTONS
-   ========================================================= */
-
-.download-button {
-  display: inline-block !important;
-  background: linear-gradient(135deg, #fff7cf, #f8b6c8, #7fd8d2) !important;
-  color: #24455c !important;
-  font-weight: 900 !important;
-  text-decoration: none !important;
-  border: 3px solid rgba(255, 255, 255, 0.9) !important;
-  border-radius: 999px !important;
-  padding: 12px 18px !important;
-  margin: 1rem 0 1.5rem 0 !important;
-  box-shadow:
-    5px 5px 0 rgba(36, 69, 92, 0.12),
-    0 6px 18px rgba(36, 69, 92, 0.12) !important;
+.main-content strong {
+  color: var(--espresso);
 }
 
-.download-button:hover {
-  transform: translateY(-2px) !important;
-  filter: brightness(1.03) !important;
-}
-.pink-label {
-  display: inline-block;
-  margin: 0.75rem 0 0.35rem;
-  padding: 0.25rem 0.65rem;
-  border-radius: 999px;
-  background: #fde7ef;
-  color: #9f2452;
-  border: 1px solid #f6b8cf;
-  font-weight: 700;
-  font-size: 0.92rem;
-  letter-spacing: 0.01em;
-}
-/* =========================================================
-   HOMEPAGE BUTTON RAINBOW COLOR OPTIONS
-   Use with: class="home-big-button pink"
-   ========================================================= */
-
-/* Red */
-.home-big-button.red {
-  background: linear-gradient(135deg, #fff1f2, #fca5a5) !important;
-  border: 4px solid #fca5a5 !important;
+.main-content em {
+  color: var(--mocha);
 }
 
-/* Orange */
-.home-big-button.orange {
-  background: linear-gradient(135deg, #fff7ed, #fdba74) !important;
-  border: 4px solid #fdba74 !important;
-}
-
-/* Yellow */
-.home-big-button.yellow {
-  background: linear-gradient(135deg, #fffde7, #ffe7a3) !important;
-  border: 4px solid #ffe7a3 !important;
-}
-
-/* Green */
-.home-big-button.green {
-  background: linear-gradient(135deg, #f0fff2, #9de0aa) !important;
-  border: 4px solid #9de0aa !important;
-}
-
-/* Mint */
-.home-big-button.mint {
-  background: linear-gradient(135deg, #ecfdf5, #7fd8d2) !important;
-  border: 4px solid #7fd8d2 !important;
-}
-
-/* Teal */
-.home-big-button.teal {
-  background: linear-gradient(135deg, #e6fffb, #5eead4) !important;
-  border: 4px solid #5eead4 !important;
-}
-
-/* Blue */
-.home-big-button.blue {
-  background: linear-gradient(135deg, #eef8ff, #9fd7f5) !important;
-  border: 4px solid #9fd7f5 !important;
-}
-
-/* Indigo */
-.home-big-button.indigo {
-  background: linear-gradient(135deg, #eef2ff, #a5b4fc) !important;
-  border: 4px solid #a5b4fc !important;
-}
-
-/* Purple */
-.home-big-button.purple {
-  background: linear-gradient(135deg, #f7f2ff, #d7c3f3) !important;
-  border: 4px solid #d7c3f3 !important;
-}
-
-/* Pink */
-.home-big-button.pink {
-  background: linear-gradient(135deg, #fff4f8, #f8b6c8) !important;
-  border: 4px solid #f8b6c8 !important;
-}
-
-/* Rose */
-.home-big-button.rose {
-  background: linear-gradient(135deg, #fff1f7, #f9a8d4) !important;
-  border: 4px solid #f9a8d4 !important;
-}
-
-/* Rainbow / ATI vibe */
-.home-big-button.rainbow,
-.home-big-button.ati {
-  background: linear-gradient(135deg, #fff7cf, #f8b6c8, #d7c3f3, #7fd8d2) !important;
-  border: 4px solid #f8b6c8 !important;
-}
-.study-card-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
-  gap: 1rem;
-  margin-top: 1.5rem;
-}
-
-.study-card {
-  display: block;
-  padding: 1.25rem;
-  border-radius: 18px;
-  text-decoration: none;
-  background: linear-gradient(135deg, #fff4f8, #f3ecff);
-  border: 1px solid #eadcf8;
-  box-shadow: 0 4px 12px rgba(120, 90, 140, 0.08);
-  color: #3b2f3f;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-.study-card:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 8px 18px rgba(120, 90, 140, 0.14);
-}
-
-.study-card h2 {
-  margin-top: 0;
-  margin-bottom: 0.5rem;
-  color: #7a4c8f;
-}
-
-.study-card p {
-  margin-bottom: 0;
-  line-height: 1.45;
-}
-
-.study-card.coming-soon {
-  opacity: 0.65;
-}
-/* =========================================================
-   ATI NUTRITION TOPIC HEADERS
-   Use for big topic changes inside a notes section
-   ========================================================= */
-
-.main-content .topic-header {
-  background: linear-gradient(135deg, #fff7cf, #f8b6c8, #d7c3f3, #7fd8d2) !important;
-  color: #24455c !important;
-  text-align: center !important;
-  text-transform: uppercase !important;
-  letter-spacing: 1.5px !important;
-  font-size: 1.55rem !important;
-  font-weight: 950 !important;
-  padding: 16px 18px !important;
-  margin: 2.8rem 0 1.4rem 0 !important;
-  border-radius: 22px !important;
-  border: 4px solid rgba(255, 255, 255, 0.85) !important;
-  box-shadow:
-    8px 8px 0 rgba(127, 216, 210, 0.18),
-    0 8px 20px rgba(36, 69, 92, 0.10) !important;
-}
-
-.main-content .topic-header::before {
-  content: "✦ ";
-  color: #be185d !important;
-}
-
-.main-content .topic-header::after {
-  content: " ✦";
-  color: #2b8f8b !important;
-}
-
-/* Smaller subsection headers inside each topic */
-.main-content .topic-subheader {
-  background: #eef8ff !important;
-  color: #24455c !important;
-  border-left: 8px solid #9fd7f5 !important;
-  border-radius: 14px !important;
-  padding: 10px 14px !important;
-  margin-top: 1.8rem !important;
-  box-shadow: 5px 5px 0 rgba(159, 215, 245, 0.20) !important;
-}
-
-.main-content .topic-subheader::before {
-  content: "➜ ";
-  color: #2b8f8b !important;
-}
-.ati-box {
-  background: #fff4fa;
-  border-left: 5px solid #e8a4c9;
-  padding: 10px 14px;
-  margin: 14px 0;
-  border-radius: 8px;
-}
-/* =========================================================
-   RAINBOW VISUAL HIERARCHY OVERRIDE
-   Paste this at the VERY BOTTOM of style.css
-   Purpose:
-   - Makes H1/H2/H3/H4 clearly different
-   - Fixes study dropdown boxes so they don't look like quiz answers
-   - Gives each callout type its own color
-   - Reduces repetitive yellow boxes
-   ========================================================= */
-
-/* ---------- Rainbow color system ---------- */
-:root {
-  --rainbow-red: #fca5a5;
-  --rainbow-orange: #fdba74;
-  --rainbow-yellow: #fde68a;
-  --rainbow-green: #9de0aa;
-  --rainbow-mint: #7fd8d2;
-  --rainbow-blue: #9fd7f5;
-  --rainbow-indigo: #a5b4fc;
-  --rainbow-purple: #d7c3f3;
-  --rainbow-pink: #f8b6c8;
-  --rainbow-rose: #f9a8d4;
-
-  --soft-red: #fff1f2;
-  --soft-orange: #fff7ed;
-  --soft-yellow: #fff9db;
-  --soft-green: #f0fff2;
-  --soft-mint: #ecfdf5;
-  --soft-blue: #eef8ff;
-  --soft-indigo: #eef2ff;
-  --soft-purple: #f7f2ff;
-  --soft-pink: #fff4f8;
-  --soft-rose: #fff1f7;
-
-  --ink: #24455c;
-  --muted-ink: #5d7380;
-  --paper: rgba(255, 255, 255, 0.94);
+.main-content hr {
+  border: none !important;
+  border-top: 1px solid rgba(111, 78, 61, 0.18) !important;
+  margin: 2.3rem 0 !important;
 }
 
 /* =========================================================
-   PAGE + CONTENT CARD
+   HEADINGS: NOTEBOOK HIERARCHY
+   H2 automatically becomes muted rotating notebook tabs
    ========================================================= */
 
-body {
-  color: var(--ink) !important;
+.main-content h1,
+.main-content h2,
+.main-content h3,
+.main-content h4 {
+  scroll-margin-top: 24px;
 }
 
-.main-content {
-  background: var(--paper) !important;
-  border-radius: 24px !important;
-  border: 2px solid rgba(255, 255, 255, 0.75) !important;
-  box-shadow: 0 14px 36px rgba(36, 69, 92, 0.14) !important;
-  padding: 2.35rem !important;
-}
-
-/* =========================================================
-   HEADING HIERARCHY
-   ========================================================= */
-
-/* H1 = page title */
 .main-content h1 {
-  background: linear-gradient(
-    135deg,
-    var(--rainbow-pink),
-    var(--rainbow-yellow),
-    var(--rainbow-mint),
-    var(--rainbow-blue)
-  ) !important;
-  color: var(--ink) !important;
-  text-align: center !important;
-  font-size: 2.45rem !important;
-  font-weight: 950 !important;
+  color: var(--espresso) !important;
+  background: transparent !important;
+  text-align: left !important;
+  font-family: Georgia, "Times New Roman", serif !important;
+  font-size: clamp(2rem, 4.5vw, 3rem) !important;
+  font-weight: 500 !important;
+  letter-spacing: 0.035em !important;
   line-height: 1.1 !important;
-  letter-spacing: 1.5px !important;
+  padding: 0 0 0.75rem 0 !important;
+  margin: 0 0 1.75rem 0 !important;
+  border: none !important;
+  border-bottom: 2px solid rgba(201, 143, 149, 0.42) !important;
+  box-shadow: none !important;
   text-transform: none !important;
-  padding: 1.25rem 1rem !important;
-  margin: 0 0 2rem 0 !important;
-  border: 4px solid rgba(255, 255, 255, 0.95) !important;
-  border-radius: 26px !important;
-  box-shadow:
-    10px 10px 0 rgba(127, 216, 210, 0.18),
-    0 8px 24px rgba(36, 69, 92, 0.10) !important;
 }
 
-/* H2 = major sections */
 .main-content h2 {
-  background: linear-gradient(135deg, #fff4f8, #f7f2ff) !important;
-  color: #7a2450 !important;
-  font-size: 1.75rem !important;
-  font-weight: 900 !important;
-  line-height: 1.2 !important;
-  padding: 0.9rem 1rem !important;
-  margin: 2.8rem 0 1.15rem 0 !important;
-  border-left: 10px solid var(--rainbow-pink) !important;
-  border-right: 0 !important;
-  border-top: 0 !important;
-  border-bottom: 3px solid rgba(248, 182, 200, 0.55) !important;
-  border-radius: 18px !important;
-  box-shadow: 6px 6px 0 rgba(248, 182, 200, 0.18) !important;
+  position: relative !important;
+  color: var(--espresso) !important;
+  background: transparent !important;
+  font-family: Georgia, "Times New Roman", serif !important;
+  font-size: 1.55rem !important;
+  font-weight: 700 !important;
+  line-height: 1.25 !important;
+  padding: 0.82rem 1rem 0.82rem 1.2rem !important;
+  margin: 2.7rem 0 1.1rem 0 !important;
+  border: none !important;
+  border-left: 14px solid var(--dusty-rose) !important;
+  border-radius: 0 18px 18px 0 !important;
+  box-shadow: none !important;
+  letter-spacing: 0.015em !important;
 }
 
 .main-content h2::before {
-  content: "🌸 " !important;
-  color: #be185d !important;
+  content: "" !important;
+  position: absolute;
+  left: -14px;
+  top: 0;
+  bottom: 0;
+  width: 14px;
+  border-radius: 12px 0 0 12px;
+  background: currentColor;
+  opacity: 0.08;
 }
 
-/* H3 = main topics inside a section */
+.main-content h2::after {
+  content: "" !important;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -5px;
+  height: 1px;
+  background: rgba(111, 78, 61, 0.14);
+}
+
+/* Muted automatic H2 color rotation */
+.main-content h2:nth-of-type(5n + 1) {
+  border-left-color: var(--dusty-rose) !important;
+  background: linear-gradient(to right, rgba(242, 214, 216, 0.56), transparent 78%) !important;
+}
+
+.main-content h2:nth-of-type(5n + 2) {
+  border-left-color: var(--caramel) !important;
+  background: linear-gradient(to right, rgba(234, 209, 183, 0.58), transparent 78%) !important;
+}
+
+.main-content h2:nth-of-type(5n + 3) {
+  border-left-color: var(--mauve) !important;
+  background: linear-gradient(to right, rgba(234, 215, 222, 0.56), transparent 78%) !important;
+}
+
+.main-content h2:nth-of-type(5n + 4) {
+  border-left-color: var(--taupe) !important;
+  background: linear-gradient(to right, rgba(216, 199, 184, 0.56), transparent 78%) !important;
+}
+
+.main-content h2:nth-of-type(5n + 5) {
+  border-left-color: var(--mocha) !important;
+  background: linear-gradient(to right, rgba(185, 160, 140, 0.42), transparent 78%) !important;
+}
+
 .main-content h3 {
-  background: linear-gradient(to right, #eef8ff, transparent) !important;
-  color: #25617d !important;
-  font-size: 1.35rem !important;
-  font-weight: 850 !important;
-  line-height: 1.25 !important;
-  padding: 0.65rem 0.85rem !important;
-  margin: 2rem 0 0.75rem 0 !important;
-  border-left: 8px solid var(--rainbow-blue) !important;
-  border-radius: 14px !important;
+  color: var(--mocha) !important;
+  background: transparent !important;
+  font-family: Georgia, "Times New Roman", serif !important;
+  font-size: 1.22rem !important;
+  font-weight: 700 !important;
+  line-height: 1.3 !important;
+  padding: 0.3rem 0 0.35rem 0.72rem !important;
+  margin: 1.8rem 0 0.72rem 0 !important;
+  border: none !important;
+  border-left: 5px solid rgba(201, 143, 149, 0.62) !important;
+  border-radius: 0 !important;
   box-shadow: none !important;
 }
 
 .main-content h3::before {
-  content: "🩵 " !important;
-}
-
-/* H4 = small subtopics */
-.main-content h4 {
-  color: #6b46a8 !important;
-  font-size: 1.08rem !important;
-  font-weight: 850 !important;
-  line-height: 1.3 !important;
-  margin: 1.3rem 0 0.45rem 0 !important;
-  padding: 0.25rem 0 0.25rem 0.65rem !important;
-  border-left: 5px solid var(--rainbow-purple) !important;
-  background: transparent !important;
-}
-
-/* HTML section divider headings */
-.main-content .section-divider {
-  display: block !important;
-  background: linear-gradient(
-    135deg,
-    var(--rainbow-pink),
-    var(--rainbow-orange),
-    var(--rainbow-yellow),
-    var(--rainbow-green),
-    var(--rainbow-blue),
-    var(--rainbow-purple)
-  ) !important;
-  color: var(--ink) !important;
-  text-align: center !important;
-  font-size: 1.95rem !important;
-  font-weight: 950 !important;
-  letter-spacing: 1px !important;
-  text-transform: uppercase !important;
-  padding: 1rem 1.1rem !important;
-  margin: 3rem 0 1.4rem 0 !important;
-  border-radius: 24px !important;
-  border: 4px solid rgba(255,255,255,0.9) !important;
-  box-shadow:
-    9px 9px 0 rgba(36, 69, 92, 0.10),
-    0 8px 24px rgba(36, 69, 92, 0.10) !important;
-}
-
-.main-content .section-divider::before {
-  content: "✦ " !important;
-}
-
-.main-content .section-divider::after {
-  content: " ✦" !important;
-}
-
-/* Smaller section divider, like subsection banners */
-.main-content .section-divider.small {
-  background: linear-gradient(135deg, #eef8ff, #f7f2ff) !important;
-  color: #375a7f !important;
-  text-align: left !important;
-  font-size: 1.45rem !important;
-  text-transform: none !important;
-  letter-spacing: 0.2px !important;
-  border-left: 9px solid var(--rainbow-blue) !important;
-  border-top: none !important;
-  border-right: none !important;
-  border-bottom: none !important;
-  box-shadow: 6px 6px 0 rgba(159, 215, 245, 0.18) !important;
-}
-
-.main-content .section-divider.small::before {
-  content: "➜ " !important;
-}
-
-.main-content .section-divider.small::after {
   content: "" !important;
 }
 
-/* Optional custom topic banners */
-.main-content .topic-header {
-  background: linear-gradient(135deg, #fff7cf, #f8b6c8, #d7c3f3, #7fd8d2) !important;
-  color: var(--ink) !important;
-  text-align: center !important;
-  text-transform: uppercase !important;
-  letter-spacing: 1.4px !important;
-  font-size: 1.55rem !important;
-  font-weight: 950 !important;
-  padding: 1rem 1.1rem !important;
-  margin: 2.8rem 0 1.3rem 0 !important;
-  border-radius: 22px !important;
-  border: 4px solid rgba(255,255,255,0.9) !important;
-  box-shadow: 8px 8px 0 rgba(127, 216, 210, 0.16) !important;
+.main-content h4 {
+  color: var(--espresso) !important;
+  background: transparent !important;
+  font-size: 1.02rem !important;
+  font-weight: 700 !important;
+  line-height: 1.35 !important;
+  margin: 1.25rem 0 0.45rem 0 !important;
+  padding: 0 !important;
+  border: none !important;
+  letter-spacing: 0.01em !important;
 }
 
+/* Existing custom heading classes supported */
+.main-content .topic-header,
+.main-content .section-divider {
+  position: relative !important;
+  display: block !important;
+  color: var(--espresso) !important;
+  background: linear-gradient(to right, rgba(242, 214, 216, 0.66), rgba(244, 227, 193, 0.34), transparent) !important;
+  font-family: Georgia, "Times New Roman", serif !important;
+  font-size: 1.55rem !important;
+  font-weight: 700 !important;
+  line-height: 1.25 !important;
+  letter-spacing: 0.02em !important;
+  text-align: left !important;
+  text-transform: none !important;
+  padding: 0.85rem 1rem 0.85rem 1.15rem !important;
+  margin: 2.7rem 0 1.2rem 0 !important;
+  border: none !important;
+  border-left: 14px solid var(--dusty-rose) !important;
+  border-radius: 0 18px 18px 0 !important;
+  box-shadow: none !important;
+}
+
+.main-content .topic-header::before,
+.main-content .topic-header::after,
+.main-content .section-divider::before,
+.main-content .section-divider::after {
+  content: "" !important;
+}
+
+.main-content .section-divider.small,
 .main-content .topic-subheader {
-  background: #eef8ff !important;
-  color: var(--ink) !important;
-  border-left: 8px solid var(--rainbow-blue) !important;
-  border-radius: 14px !important;
-  padding: 0.65rem 0.85rem !important;
-  margin: 1.7rem 0 0.75rem 0 !important;
-  box-shadow: 5px 5px 0 rgba(159, 215, 245, 0.18) !important;
+  color: var(--mocha) !important;
+  background: transparent !important;
+  font-size: 1.18rem !important;
+  font-weight: 700 !important;
+  text-align: left !important;
+  text-transform: none !important;
+  letter-spacing: 0.01em !important;
+  padding: 0.35rem 0 0.35rem 0.7rem !important;
+  margin: 1.6rem 0 0.7rem 0 !important;
+  border: none !important;
+  border-left: 5px solid rgba(201, 151, 107, 0.65) !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
 }
 
 /* =========================================================
-   CALLOUT BOXES
-   Each box type gets a different color and label.
+   LINKS + BUTTON-LIKE LINKS
    ========================================================= */
+
+.main-content a {
+  color: #8d4f55 !important;
+  font-weight: 700 !important;
+  text-decoration: none !important;
+  border-bottom: 1px solid rgba(201, 143, 149, 0.55) !important;
+  transition: color 0.18s ease, border-color 0.18s ease, background 0.18s ease !important;
+}
+
+.main-content a:hover {
+  color: var(--espresso) !important;
+  border-bottom-color: var(--espresso) !important;
+}
+
+.download-button,
+.main-content .download-button {
+  display: inline-block !important;
+  background: #f6e5d8 !important;
+  color: var(--espresso) !important;
+  border: 1px solid rgba(111, 78, 61, 0.24) !important;
+  border-bottom: 1px solid rgba(111, 78, 61, 0.24) !important;
+  border-radius: 10px !important;
+  padding: 0.72rem 1rem !important;
+  margin: 1rem 0 1.4rem 0 !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.02em !important;
+  box-shadow: 0 7px 18px rgba(63, 43, 36, 0.08) !important;
+  transition: transform 0.18s ease, background 0.18s ease, border-color 0.18s ease !important;
+}
+
+.download-button:hover,
+.main-content .download-button:hover {
+  transform: translateY(-2px);
+  background: #efd7cb !important;
+  border-color: rgba(201, 143, 149, 0.55) !important;
+}
+
+/* =========================================================
+   TABLES: NOTEBOOK CHART STYLE
+   ========================================================= */
+
+.main-content table {
+  display: table !important;
+  width: auto !important;
+  max-width: 100% !important;
+  margin: 1.2rem auto !important;
+  border-collapse: separate !important;
+  border-spacing: 0 !important;
+  table-layout: auto !important;
+  background: rgba(255, 250, 245, 0.86) !important;
+  border: 1px solid rgba(111, 78, 61, 0.18) !important;
+  border-radius: 14px !important;
+  overflow: hidden !important;
+  box-shadow: none !important;
+}
+
+.main-content th,
+.main-content td {
+  width: auto !important;
+  white-space: normal !important;
+  text-align: left !important;
+  vertical-align: top !important;
+  padding: 0.55rem 0.65rem !important;
+  border: none !important;
+  border-right: 1px solid rgba(111, 78, 61, 0.13) !important;
+  border-bottom: 1px solid rgba(111, 78, 61, 0.13) !important;
+  line-height: 1.45 !important;
+}
+
+.main-content th:last-child,
+.main-content td:last-child {
+  border-right: none !important;
+}
+
+.main-content tr:last-child td {
+  border-bottom: none !important;
+}
+
+.main-content th {
+  background: #ead8c9 !important;
+  color: var(--espresso) !important;
+  font-weight: 700 !important;
+}
+
+.main-content tr:nth-child(even) td {
+  background: rgba(247, 234, 220, 0.45) !important;
+}
+
+.main-content tr:nth-child(odd) td {
+  background: rgba(255, 250, 245, 0.55) !important;
+}
+
+/* =========================================================
+   IMAGES + CODE
+   ========================================================= */
+
+.main-content img {
+  max-width: 100% !important;
+  height: auto !important;
+  border-radius: 16px !important;
+  display: block !important;
+  margin: 1.2rem auto !important;
+}
+
+.main-content code {
+  background: rgba(234, 215, 222, 0.56) !important;
+  color: var(--espresso) !important;
+  padding: 0.12rem 0.38rem !important;
+  border-radius: 6px !important;
+  font-size: 0.94em !important;
+}
+
+.main-content pre {
+  background: rgba(255, 250, 245, 0.75) !important;
+  border: 1px solid rgba(111, 78, 61, 0.16) !important;
+  border-radius: 14px !important;
+  padding: 1rem !important;
+  overflow-x: auto !important;
+}
+
+/* =========================================================
+   BLOCKQUOTES + CALLOUT BOXES
+   Softer/blended, not chunky blocks
+   ========================================================= */
+
+.main-content blockquote {
+  border-left: 4px solid rgba(201, 143, 149, 0.65) !important;
+  background: rgba(255, 249, 243, 0.46) !important;
+  color: var(--muted-ink) !important;
+  padding: 0.85rem 1rem !important;
+  border-radius: 0 14px 14px 0 !important;
+  margin: 1.1rem 0 !important;
+  box-shadow: none !important;
+}
 
 .main-content .nclex,
 .main-content .ati-tip,
 .main-content .danger,
+.main-content .priority,
 .main-content .intervention,
 .main-content .memory,
 .main-content .note,
 .main-content .teaching,
 .main-content .lab,
 .main-content .assessment,
-.main-content .priority,
 .main-content .med,
-.main-content .patho {
+.main-content .patho,
+.main-content .ati-box {
   position: relative !important;
   color: var(--ink) !important;
   line-height: 1.6 !important;
-  margin: 1.25rem 0 !important;
-  padding: 1.05rem 1.1rem 1.05rem 1.25rem !important;
-  border-radius: 18px !important;
-  border: 3px solid transparent !important;
-  box-shadow: 6px 6px 0 rgba(36, 69, 92, 0.07) !important;
+  margin: 1.1rem 0 !important;
+  padding: 0.85rem 1rem 0.9rem 1rem !important;
+  border-radius: 0 14px 14px 0 !important;
+  box-shadow: none !important;
+  border: none !important;
+  border-left: 4px solid var(--taupe) !important;
+  background: rgba(255, 249, 243, 0.42) !important;
 }
 
-/* Yellow = ATI / NCLEX tip */
 .main-content .nclex,
 .main-content .ati-tip {
-  background: var(--soft-yellow) !important;
-  border-color: var(--rainbow-yellow) !important;
+  border-left-color: #c8a56c !important;
+  background: rgba(244, 227, 193, 0.36) !important;
 }
 
-/* Red = danger / priority warning */
 .main-content .danger,
 .main-content .priority {
-  background: var(--soft-red) !important;
-  border-color: var(--rainbow-red) !important;
+  border-left-color: #b46d68 !important;
+  background: rgba(242, 214, 216, 0.34) !important;
 }
 
-/* Green = nursing intervention */
 .main-content .intervention {
-  background: var(--soft-green) !important;
-  border-color: var(--rainbow-green) !important;
+  border-left-color: #9cab8b !important;
+  background: rgba(238, 243, 233, 0.52) !important;
 }
 
-/* Purple = memory trick */
 .main-content .memory {
-  background: var(--soft-purple) !important;
-  border-color: var(--rainbow-purple) !important;
+  border-left-color: var(--mauve) !important;
+  background: rgba(234, 215, 222, 0.34) !important;
 }
 
-/* Blue = regular note */
-.main-content .note {
-  background: var(--soft-blue) !important;
-  border-color: var(--rainbow-blue) !important;
+.main-content .note,
+.main-content .ati-box {
+  border-left-color: var(--taupe) !important;
+  background: rgba(247, 234, 220, 0.38) !important;
 }
 
-/* Orange = client teaching */
 .main-content .teaching {
-  background: var(--soft-orange) !important;
-  border-color: var(--rainbow-orange) !important;
+  border-left-color: var(--caramel) !important;
+  background: rgba(234, 209, 183, 0.34) !important;
 }
 
-/* Indigo = labs */
 .main-content .lab {
-  background: var(--soft-indigo) !important;
-  border-color: var(--rainbow-indigo) !important;
+  border-left-color: #967c73 !important;
+  background: rgba(216, 199, 184, 0.34) !important;
 }
 
-/* Mint = assessment */
 .main-content .assessment {
-  background: var(--soft-mint) !important;
-  border-color: var(--rainbow-mint) !important;
+  border-left-color: var(--mocha) !important;
+  background: rgba(233, 211, 191, 0.34) !important;
 }
 
-/* Pink = medications */
 .main-content .med {
-  background: var(--soft-pink) !important;
-  border-color: var(--rainbow-pink) !important;
+  border-left-color: var(--dusty-rose) !important;
+  background: rgba(242, 214, 216, 0.34) !important;
 }
 
-/* Rose = patho / why it happens */
 .main-content .patho {
-  background: var(--soft-rose) !important;
-  border-color: var(--rainbow-rose) !important;
+  border-left-color: #a76f61 !important;
+  background: rgba(248, 232, 221, 0.52) !important;
 }
 
-/* Automatic labels */
+/* Automatic labels kept, but subtle */
 .main-content .nclex::before,
 .main-content .ati-tip::before,
 .main-content .danger::before,
@@ -2005,365 +819,457 @@ body {
 .main-content .patho::before {
   display: block !important;
   width: fit-content !important;
-  font-size: 0.78rem !important;
-  font-weight: 950 !important;
+  margin-bottom: 0.35rem !important;
+  font-size: 0.76rem !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.08em !important;
   text-transform: uppercase !important;
-  letter-spacing: 0.7px !important;
-  padding: 0.25rem 0.65rem !important;
-  margin-bottom: 0.55rem !important;
-  border-radius: 999px !important;
-  background: rgba(255,255,255,0.72) !important;
+  color: var(--muted-ink) !important;
+  background: transparent !important;
+  border: none !important;
+  padding: 0 !important;
 }
 
-/* Labels by box type */
 .main-content .nclex::before,
 .main-content .ati-tip::before {
   content: "ATI / NCLEX Tip" !important;
-  color: #9a6a10 !important;
-  border: 2px solid var(--rainbow-yellow) !important;
 }
 
 .main-content .danger::before,
 .main-content .priority::before {
   content: "Priority / Safety" !important;
-  color: #b91c1c !important;
-  border: 2px solid var(--rainbow-red) !important;
 }
 
 .main-content .intervention::before {
   content: "Nursing Action" !important;
-  color: #2f855a !important;
-  border: 2px solid var(--rainbow-green) !important;
 }
 
 .main-content .memory::before {
   content: "Memory Trick" !important;
-  color: #6b46c1 !important;
-  border: 2px solid var(--rainbow-purple) !important;
 }
 
 .main-content .note::before {
   content: "Note" !important;
-  color: #25617d !important;
-  border: 2px solid var(--rainbow-blue) !important;
 }
 
 .main-content .teaching::before {
   content: "Client Teaching" !important;
-  color: #c05621 !important;
-  border: 2px solid var(--rainbow-orange) !important;
 }
 
 .main-content .lab::before {
   content: "Lab / Diagnostic" !important;
-  color: #4c51bf !important;
-  border: 2px solid var(--rainbow-indigo) !important;
 }
 
 .main-content .assessment::before {
   content: "Assessment Cue" !important;
-  color: #0f766e !important;
-  border: 2px solid var(--rainbow-mint) !important;
 }
 
 .main-content .med::before {
   content: "Medication" !important;
-  color: #be185d !important;
-  border: 2px solid var(--rainbow-pink) !important;
 }
 
 .main-content .patho::before {
   content: "Why It Happens" !important;
-  color: #9f2452 !important;
-  border: 2px solid var(--rainbow-rose) !important;
 }
 
-/* Do not let callout labels make nested boxes weird */
-.main-content details .nclex::before,
-.main-content details .ati-tip::before,
-.main-content details .danger::before,
-.main-content details .priority::before,
-.main-content details .intervention::before,
-.main-content details .memory::before,
-.main-content details .note::before,
-.main-content details .teaching::before,
-.main-content details .lab::before,
-.main-content details .assessment::before,
-.main-content details .med::before,
-.main-content details .patho::before {
-  margin-top: 0 !important;
+.pink-label {
+  display: inline-block !important;
+  margin: 0.75rem 0 0.35rem !important;
+  padding: 0.25rem 0.65rem !important;
+  border-radius: 999px !important;
+  background: rgba(242, 214, 216, 0.55) !important;
+  color: #7d474d !important;
+  border: 1px solid rgba(201, 143, 149, 0.34) !important;
+  font-weight: 700 !important;
+  font-size: 0.9rem !important;
+  letter-spacing: 0.01em !important;
 }
 
 /* =========================================================
-   DROPDOWN BOXES
-   This fixes your study dropdowns so they are clearly different
-   from practice question answer dropdowns.
+   DETAILS / DROPDOWNS
+   Keeps behavior, recolors styles
    ========================================================= */
 
-/* Default details = practice quiz answer style */
+/* Regular details = quiz answer dropdowns, still noticeable */
 .main-content details {
-  background: var(--soft-yellow) !important;
-  border: 3px solid var(--rainbow-yellow) !important;
-  border-radius: 18px !important;
-  padding: 0.95rem 1rem !important;
+  background: rgba(244, 227, 193, 0.46) !important;
+  border: 1px solid rgba(201, 165, 108, 0.42) !important;
+  border-radius: 16px !important;
+  padding: 0.9rem 1rem !important;
   margin: 1.25rem 0 1.75rem 0 !important;
-  box-shadow: 6px 6px 0 rgba(253, 230, 138, 0.28) !important;
+  box-shadow: none !important;
   color: var(--ink) !important;
 }
 
-/* Study dropdowns = purple detail boxes */
-.main-content details.study-dropdown {
-  background: linear-gradient(135deg, #ffffff, var(--soft-purple)) !important;
-  border: 3px solid var(--rainbow-purple) !important;
-  border-radius: 20px !important;
-  padding: 0 !important;
-  margin: 1.15rem 0 1.65rem 0 !important;
-  box-shadow: 7px 7px 0 rgba(215, 195, 243, 0.24) !important;
-  overflow: hidden !important;
+.main-content details > summary {
+  cursor: pointer !important;
+  font-weight: 700 !important;
+  color: var(--espresso) !important;
+  background: rgba(255, 250, 245, 0.7) !important;
+  border-radius: 999px !important;
+  padding: 0.55rem 0.85rem !important;
+  list-style: none !important;
+  display: inline-block !important;
+  border: 1px solid rgba(111, 78, 61, 0.18) !important;
+  box-shadow: none !important;
 }
 
-/* Study dropdown summary/header */
+.main-content details > summary::-webkit-details-marker {
+  display: none !important;
+}
+
+.main-content details > summary::before {
+  content: "▸ " !important;
+  color: #8d4f55 !important;
+}
+
+.main-content details[open] > summary::before {
+  content: "▾ " !important;
+  color: var(--mocha) !important;
+}
+
+.main-content details p,
+.main-content details li {
+  line-height: 1.62 !important;
+  margin-top: 0.65rem !important;
+  margin-bottom: 0.65rem !important;
+}
+
+.main-content details strong {
+  color: #7d474d !important;
+}
+
+/* Study dropdowns = softer folded notebook sections */
+.main-content details.study-dropdown {
+  background: rgba(255, 249, 243, 0.42) !important;
+  border: 1px solid rgba(111, 78, 61, 0.16) !important;
+  border-left: 4px solid rgba(169, 132, 145, 0.58) !important;
+  border-radius: 0 16px 16px 0 !important;
+  padding: 0 !important;
+  margin: 1.15rem 0 1.65rem 0 !important;
+  overflow: hidden !important;
+  box-shadow: none !important;
+}
+
 .main-content details.study-dropdown > summary {
   display: block !important;
   cursor: pointer !important;
   list-style: none !important;
-  background: linear-gradient(135deg, var(--rainbow-purple), var(--rainbow-blue)) !important;
-  color: var(--ink) !important;
-  font-weight: 950 !important;
+  background: rgba(234, 215, 222, 0.44) !important;
+  color: var(--espresso) !important;
+  font-weight: 700 !important;
   font-size: 1rem !important;
-  letter-spacing: 0.2px !important;
-  padding: 0.85rem 1rem !important;
+  letter-spacing: 0.01em !important;
+  padding: 0.75rem 0.95rem !important;
   border: none !important;
   border-radius: 0 !important;
   box-shadow: none !important;
 }
 
-/* Remove marker */
-.main-content details.study-dropdown > summary::-webkit-details-marker {
-  display: none !important;
-}
-
-/* Dropdown icon */
 .main-content details.study-dropdown > summary::before {
   content: "＋ " !important;
-  color: #ffffff !important;
-  font-weight: 950 !important;
-  text-shadow: 1px 1px 0 rgba(36, 69, 92, 0.2) !important;
+  color: var(--mocha) !important;
 }
 
 .main-content details.study-dropdown[open] > summary::before {
   content: "− " !important;
 }
 
-/* Content inside study dropdown */
 .main-content details.study-dropdown > *:not(summary) {
   margin-left: 1rem !important;
   margin-right: 1rem !important;
 }
 
-.main-content details.study-dropdown > p:first-of-type,
-.main-content details.study-dropdown > ul:first-of-type,
-.main-content details.study-dropdown > ol:first-of-type,
-.main-content details.study-dropdown > table:first-of-type {
-  margin-top: 1rem !important;
-}
-
-.main-content details.study-dropdown > p:last-child,
-.main-content details.study-dropdown > ul:last-child,
-.main-content details.study-dropdown > ol:last-child,
-.main-content details.study-dropdown > table:last-child {
-  margin-bottom: 1rem !important;
-}
-
-.main-content details.study-dropdown[open] {
-  background: linear-gradient(135deg, #ffffff, #fbf7ff) !important;
-}
-
-/* Optional dropdown color variations */
-.main-content details.study-dropdown.blue {
-  border-color: var(--rainbow-blue) !important;
-  box-shadow: 7px 7px 0 rgba(159, 215, 245, 0.22) !important;
-}
-
+/* Existing color variations supported, muted */
 .main-content details.study-dropdown.blue > summary {
-  background: linear-gradient(135deg, var(--rainbow-blue), var(--rainbow-mint)) !important;
-}
-
-.main-content details.study-dropdown.green {
-  border-color: var(--rainbow-green) !important;
-  box-shadow: 7px 7px 0 rgba(157, 224, 170, 0.22) !important;
+  background: rgba(216, 199, 184, 0.42) !important;
 }
 
 .main-content details.study-dropdown.green > summary {
-  background: linear-gradient(135deg, var(--rainbow-green), var(--rainbow-mint)) !important;
-}
-
-.main-content details.study-dropdown.orange {
-  border-color: var(--rainbow-orange) !important;
-  box-shadow: 7px 7px 0 rgba(253, 186, 116, 0.22) !important;
+  background: rgba(238, 243, 233, 0.58) !important;
 }
 
 .main-content details.study-dropdown.orange > summary {
-  background: linear-gradient(135deg, var(--rainbow-orange), var(--rainbow-yellow)) !important;
-}
-
-.main-content details.study-dropdown.pink {
-  border-color: var(--rainbow-pink) !important;
-  box-shadow: 7px 7px 0 rgba(248, 182, 200, 0.22) !important;
+  background: rgba(234, 209, 183, 0.52) !important;
 }
 
 .main-content details.study-dropdown.pink > summary {
-  background: linear-gradient(135deg, var(--rainbow-pink), var(--rainbow-rose)) !important;
+  background: rgba(242, 214, 216, 0.52) !important;
 }
 
-/* Practice quiz details summary remains pill style */
-.main-content details:not(.study-dropdown) > summary {
-  cursor: pointer !important;
-  font-weight: 950 !important;
-  color: var(--ink) !important;
-  background: white !important;
-  border-radius: 999px !important;
-  padding: 0.65rem 0.95rem !important;
-  list-style: none !important;
+/* Practice question spacing */
+.answer-choices p,
+.main-content .answer-choices p {
+  margin: 0.35rem 0 !important;
+  line-height: 1.5 !important;
+}
+
+.answer-choice {
+  display: block !important;
+  margin: 0.65rem 0 !important;
+  line-height: 1.58 !important;
+}
+
+.quiz-answer {
+  margin-top: 1rem !important;
+  margin-bottom: 0.85rem !important;
+  line-height: 1.65 !important;
+  color: #7d474d !important;
+}
+
+.quiz-rationale {
+  margin-top: 0.85rem !important;
+  margin-bottom: 0.5rem !important;
+  line-height: 1.7 !important;
+}
+
+/* =========================================================
+   HOMEPAGE / STUDY CARDS
+   Entire card clickable, no separate button needed
+   ========================================================= */
+
+.home-intro {
+  text-align: center !important;
+  max-width: 760px !important;
+  margin: 0 auto 2rem auto !important;
+  color: var(--muted-ink) !important;
+  font-size: 1.04rem !important;
+  line-height: 1.65 !important;
+}
+
+.home-mini-label {
   display: inline-block !important;
-  border: 2px solid var(--rainbow-mint) !important;
-  box-shadow: 4px 4px 0 rgba(127, 216, 210, 0.22) !important;
+  background: rgba(244, 227, 193, 0.58) !important;
+  border: 1px solid rgba(201, 151, 107, 0.32) !important;
+  border-radius: 999px !important;
+  padding: 0.4rem 0.75rem !important;
+  font-weight: 700 !important;
+  color: var(--espresso) !important;
+  margin-bottom: 0.9rem !important;
+  letter-spacing: 0.04em !important;
+  text-transform: uppercase !important;
+  font-size: 0.8rem !important;
 }
 
-.main-content details:not(.study-dropdown) > summary::-webkit-details-marker {
+.home-button-grid,
+.section-card-grid,
+.study-card-grid {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)) !important;
+  gap: 1.2rem !important;
+  margin: 2rem 0 !important;
+}
+
+.study-card,
+.section-card,
+.home-big-button {
+  position: relative !important;
+  display: block !important;
+  min-height: 145px !important;
+  padding: 1.35rem 1.25rem !important;
+  border-radius: 22px !important;
+  background: rgba(255, 250, 245, 0.72) !important;
+  color: var(--espresso) !important;
+  text-decoration: none !important;
+  border: 1px solid rgba(111, 78, 61, 0.16) !important;
+  border-bottom: 1px solid rgba(111, 78, 61, 0.16) !important;
+  box-shadow:
+    0 10px 24px rgba(63, 43, 36, 0.08),
+    inset 0 1px 0 rgba(255, 255, 255, 0.62) !important;
+  transition:
+    transform 0.18s ease,
+    box-shadow 0.18s ease,
+    border-color 0.18s ease,
+    background 0.18s ease !important;
+  overflow: hidden !important;
+}
+
+.study-card::after,
+.section-card::after,
+.home-big-button::after {
+  content: "View section →" !important;
+  position: absolute !important;
+  left: 1.25rem !important;
+  bottom: 1rem !important;
+  color: #7d474d !important;
+  font-size: 0.88rem !important;
+  font-weight: 700 !important;
+  opacity: 0 !important;
+  transform: translateY(5px) !important;
+  transition: opacity 0.18s ease, transform 0.18s ease !important;
+}
+
+.study-card:hover,
+.section-card:hover,
+.home-big-button:hover {
+  transform: translateY(-4px) !important;
+  border-color: rgba(201, 143, 149, 0.52) !important;
+  box-shadow:
+    0 16px 30px rgba(63, 43, 36, 0.12),
+    inset 0 1px 0 rgba(255, 255, 255, 0.7) !important;
+}
+
+.study-card:hover::after,
+.section-card:hover::after,
+.home-big-button:hover::after {
+  opacity: 1 !important;
+  transform: translateY(0) !important;
+}
+
+.study-card h2,
+.section-card h2,
+.home-big-button .button-title,
+.section-card h2 {
+  color: var(--espresso) !important;
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+  margin: 0 0 0.55rem 0 !important;
+  font-family: Georgia, "Times New Roman", serif !important;
+  font-size: 1.45rem !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.02em !important;
+  line-height: 1.15 !important;
+}
+
+.study-card h2::before,
+.study-card h2::after,
+.section-card h2::before,
+.section-card h2::after {
+  content: "" !important;
   display: none !important;
 }
 
-.main-content details:not(.study-dropdown) > summary::before {
-  content: "▸ " !important;
-  color: #be185d !important;
+.study-card p,
+.section-card p,
+.home-big-button .button-subtitle {
+  color: var(--muted-ink) !important;
+  margin: 0 !important;
+  line-height: 1.45 !important;
+  font-size: 0.98rem !important;
+  font-weight: 400 !important;
+  background: transparent !important;
+  padding: 0 !important;
+  border-radius: 0 !important;
 }
 
-.main-content details:not(.study-dropdown)[open] > summary::before {
-  content: "▾ " !important;
-  color: #2b8f8b !important;
+/* Automatic card color rotation */
+.study-card:nth-child(6n + 1),
+.section-card:nth-child(6n + 1),
+.home-big-button:nth-child(6n + 1),
+.study-card.rose-latte,
+.section-card.pink,
+.home-big-button.pink,
+.home-big-button.rose {
+  background: linear-gradient(135deg, rgba(255,250,245,0.78), rgba(242,214,216,0.72)) !important;
 }
 
-/* =========================================================
-   TABLES
-   ========================================================= */
-
-.main-content table {
-  display: table !important;
-  width: auto !important;
-  max-width: 100% !important;
-  margin: 1.2rem auto !important;
-  table-layout: auto !important;
-  border-collapse: separate !important;
-  border-spacing: 0 !important;
-  border: 3px solid var(--rainbow-mint) !important;
-  border-radius: 16px !important;
-  overflow: hidden !important;
-  background: white !important;
-  box-shadow: 6px 6px 0 rgba(127, 216, 210, 0.16) !important;
+.study-card:nth-child(6n + 2),
+.section-card:nth-child(6n + 2),
+.home-big-button:nth-child(6n + 2),
+.study-card.caramel,
+.section-card.yellow,
+.home-big-button.yellow,
+.home-big-button.orange {
+  background: linear-gradient(135deg, rgba(255,250,245,0.78), rgba(234,209,183,0.76)) !important;
 }
 
-.main-content th {
-  background: linear-gradient(135deg, var(--rainbow-mint), var(--rainbow-blue)) !important;
-  color: var(--ink) !important;
-  font-weight: 900 !important;
-  border: 1px solid rgba(36, 69, 92, 0.12) !important;
-  padding: 0.72rem !important;
+.study-card:nth-child(6n + 3),
+.section-card:nth-child(6n + 3),
+.home-big-button:nth-child(6n + 3),
+.study-card.mauve,
+.section-card.purple,
+.home-big-button.purple {
+  background: linear-gradient(135deg, rgba(255,250,245,0.78), rgba(234,215,222,0.76)) !important;
 }
 
-.main-content td {
-  border: 1px solid #d7e5e4 !important;
-  padding: 0.68rem !important;
-  vertical-align: top !important;
-  white-space: normal !important;
+.study-card:nth-child(6n + 4),
+.section-card:nth-child(6n + 4),
+.home-big-button:nth-child(6n + 4),
+.study-card.taupe,
+.section-card.green,
+.home-big-button.green {
+  background: linear-gradient(135deg, rgba(255,250,245,0.78), rgba(216,199,184,0.76)) !important;
 }
 
-.main-content tr:nth-child(even) td {
-  background: #f7fcfb !important;
+.study-card:nth-child(6n + 5),
+.section-card:nth-child(6n + 5),
+.home-big-button:nth-child(6n + 5),
+.study-card.vanilla,
+.section-card.blue,
+.home-big-button.blue {
+  background: linear-gradient(135deg, rgba(255,250,245,0.84), rgba(244,227,193,0.64)) !important;
 }
 
-.main-content tr:nth-child(odd) td {
-  background: #ffffff !important;
+.study-card:nth-child(6n + 6),
+.section-card:nth-child(6n + 6),
+.home-big-button:nth-child(6n + 6),
+.study-card.cocoa,
+.home-big-button.brown {
+  background: linear-gradient(135deg, rgba(255,250,245,0.82), rgba(185,160,140,0.54)) !important;
 }
 
-/* =========================================================
-   TEXT + LINKS + HR
-   ========================================================= */
-
-.main-content p,
-.main-content li {
-  line-height: 1.72 !important;
-}
-
-.main-content a {
-  color: #2b8f8b !important;
-  font-weight: 850 !important;
+/* Old inner card links will not look like awkward buttons */
+.section-card a,
+.study-card a,
+.home-big-button a {
+  color: inherit !important;
+  border-bottom: none !important;
   text-decoration: none !important;
-  border-bottom: 2px dotted var(--rainbow-mint) !important;
-}
-
-.main-content a:hover {
-  color: #be185d !important;
-  border-bottom-color: var(--rainbow-pink) !important;
-}
-
-.main-content hr {
-  border: none !important;
-  height: 4px !important;
-  background: linear-gradient(
-    to right,
-    transparent,
-    var(--rainbow-pink),
-    var(--rainbow-yellow),
-    var(--rainbow-mint),
-    var(--rainbow-purple),
-    transparent
-  ) !important;
-  margin: 2.25rem 0 !important;
-  border-radius: 999px !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  padding: 0 !important;
 }
 
 /* =========================================================
-   SMALL LABELS / BADGES
+   LEGACY HOME BIG BUTTON SUPPORT
    ========================================================= */
 
-.pink-label,
-.topic-label,
-.quick-label {
-  display: inline-block !important;
-  margin: 0.75rem 0 0.35rem !important;
-  padding: 0.28rem 0.72rem !important;
-  border-radius: 999px !important;
-  background: var(--soft-pink) !important;
-  color: #9f2452 !important;
-  border: 2px solid var(--rainbow-pink) !important;
-  font-weight: 850 !important;
-  font-size: 0.9rem !important;
-  letter-spacing: 0.01em !important;
+.home-big-button {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: flex-start !important;
+  justify-content: flex-start !important;
+  text-align: left !important;
+}
+
+.button-title {
+  display: block !important;
+}
+
+.button-subtitle {
+  display: block !important;
 }
 
 /* =========================================================
-   RESPONSIVE
+   MOBILE / TABLET
    ========================================================= */
 
 @media screen and (max-width: 900px) {
+  .page-wrapper {
+    display: block !important;
+    padding: 1rem !important;
+  }
+
   .main-content {
-    padding: 1.15rem !important;
-    border-radius: 18px !important;
+    max-width: 100% !important;
+    padding: 1.1rem !important;
+    border-radius: 22px !important;
   }
 
   .main-content h1 {
-    font-size: 1.8rem !important;
-    letter-spacing: 0.8px !important;
+    font-size: 2rem !important;
   }
 
-  .main-content h2,
-  .main-content .section-divider {
+  .main-content h2 {
     font-size: 1.35rem !important;
+    padding: 0.72rem 0.8rem 0.72rem 1rem !important;
+    margin-top: 2.2rem !important;
   }
 
   .main-content h3 {
-    font-size: 1.15rem !important;
+    font-size: 1.14rem !important;
   }
 
   .main-content table {
@@ -2372,35 +1278,126 @@ body {
     max-width: 100% !important;
     overflow-x: auto !important;
   }
+
+  .home-button-grid,
+  .section-card-grid,
+  .study-card-grid {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar-toggle-button {
+    top: 12px !important;
+    left: 12px !important;
+    padding: 0.6rem 0.85rem !important;
+    font-size: 0.9rem !important;
+  }
+
+  .sidebar {
+    left: -292px !important;
+    width: 270px !important;
+    min-width: 270px !important;
+    max-width: 270px !important;
+  }
+
+  .sidebar-toggle-checkbox:checked + .sidebar-toggle-button {
+    left: 12px !important;
+  }
+
+  .main-content {
+    padding-top: 3.4rem !important;
+  }
+
+  .page-header {
+    padding-top: 3.4rem !important;
+  }
 }
 
 /* =========================================================
-   PRINT
-   Keeps printing cleaner and less ink-heavy.
+   PRINT / SAVE AS PDF
+   Plain black and white printer-friendly mode
    ========================================================= */
 
 @media print {
   body {
     background: white !important;
     color: black !important;
+    font-family: Georgia, "Times New Roman", serif !important;
+  }
+
+  .sidebar-toggle-button,
+  .sidebar-toggle-checkbox,
+  .sidebar-overlay,
+  .sidebar,
+  .page-header {
+    display: none !important;
+  }
+
+  .page-wrapper {
+    display: block !important;
+    max-width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
   }
 
   .main-content {
+    max-width: 100% !important;
+    width: 100% !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+    border: none !important;
+    padding: 0.45in !important;
+    margin: 0 !important;
     background: white !important;
     color: black !important;
-    border: none !important;
-    box-shadow: none !important;
-    padding: 0.45in !important;
+    backdrop-filter: none !important;
   }
 
   .main-content h1,
   .main-content h2,
   .main-content h3,
-  .main-content h4,
-  .main-content .section-divider,
-  .main-content .section-divider.small,
-  .main-content .topic-header,
-  .main-content .topic-subheader,
+  .main-content h4 {
+    color: black !important;
+    background: white !important;
+    border-color: #999 !important;
+    box-shadow: none !important;
+    page-break-after: avoid !important;
+  }
+
+  .main-content h1 {
+    border-bottom: 2px solid #777 !important;
+  }
+
+  .main-content h2 {
+    border-left: 6px solid #777 !important;
+    border-radius: 0 !important;
+  }
+
+  .main-content h2::before,
+  .main-content h2::after {
+    display: none !important;
+  }
+
+  .main-content table {
+    display: table !important;
+    width: 100% !important;
+    border-collapse: collapse !important;
+    border: 1px solid #777 !important;
+    box-shadow: none !important;
+    page-break-inside: avoid !important;
+  }
+
+  .main-content th,
+  .main-content td {
+    border: 1px solid #777 !important;
+    background: white !important;
+    color: black !important;
+    padding: 0.35rem !important;
+  }
+
+  .main-content blockquote,
+  .main-content details,
   .main-content .nclex,
   .main-content .ati-tip,
   .main-content .danger,
@@ -2413,64 +1410,39 @@ body {
   .main-content .assessment,
   .main-content .med,
   .main-content .patho,
-  .main-content details,
-  .main-content details.study-dropdown,
-  .main-content table {
+  .main-content .ati-box {
     background: white !important;
     color: black !important;
-    border-color: #999 !important;
+    border: 1px solid #999 !important;
+    border-left: 4px solid #777 !important;
+    box-shadow: none !important;
+    page-break-inside: avoid !important;
+  }
+
+  .main-content a {
+    color: black !important;
+    border-bottom: none !important;
+    text-decoration: underline !important;
+  }
+
+  .study-card,
+  .section-card,
+  .home-big-button,
+  .download-button {
+    background: white !important;
+    color: black !important;
+    border: 1px solid #777 !important;
     box-shadow: none !important;
   }
 
-  .main-content h1,
-  .main-content h2,
-  .main-content h3,
-  .main-content h4 {
-    page-break-after: avoid !important;
+  .study-card::after,
+  .section-card::after,
+  .home-big-button::after {
+    display: none !important;
   }
 
-  .main-content table,
-  .main-content details,
-  .main-content .nclex,
-  .main-content .danger,
-  .main-content .intervention,
-  .main-content .memory,
-  .main-content .note {
+  img {
+    max-width: 100% !important;
     page-break-inside: avoid !important;
   }
-}
-/* =========================================================
-   NO-EMOJI HEADING OVERRIDE
-   Paste at the VERY BOTTOM of style.css if your CSS is adding emojis
-   ========================================================= */
-
-.main-content h2::before,
-.main-content h3::before,
-.main-content .section-divider::before,
-.main-content .section-divider::after,
-.main-content .section-divider.small::before,
-.main-content .section-divider.small::after,
-.main-content .topic-header::before,
-.main-content .topic-header::after,
-.main-content .topic-subheader::before {
-  content: "" !important;
-}
-
-/* Optional: clean text-only heading hierarchy */
-.main-content h2::before {
-  content: "" !important;
-}
-
-.main-content h3::before {
-  content: "" !important;
-}
-
-.main-content .section-divider::before,
-.main-content .section-divider::after {
-  content: "" !important;
-}
-
-.main-content .section-divider.small::before,
-.main-content .section-divider.small::after {
-  content: "" !important;
 }
