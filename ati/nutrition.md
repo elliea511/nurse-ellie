@@ -17,12 +17,12 @@ Nutrition shows up everywhere on the ATI exam — not just in one obvious "diet"
 
 <div class="study-card-grid">
 
-<a class="study-card" href="{{ '/nutrition-basics.html' | relative_url }}">
+<a class="study-card" href="{{ '/ati/nutrition/nutrition-basics.html' | relative_url }}">
 <h2>Nutrition Basics &amp; Foundations</h2>
 <p>GI flow, digestion vs. absorption, macronutrients, vitamins, minerals, malnutrition, the Braden Scale, fluid balance, and a full food sources reference. Start here if you're not confident on the fundamentals.</p>
 </a>
 
-<a class="study-card" href="{{ '/gi-disorders.html' | relative_url }}">
+<a class="study-card" href="{{ '/ati/nutrition/gi-disorders.html' | relative_url }}">
 <h2>GI Disorders &amp; Diet Therapy</h2>
 <p>GERD, PUD, celiac disease, dumping syndrome, bariatric surgery, pancreatitis, cirrhosis, diverticular disease, IBD, IBS, and ostomy nutrition.</p>
 </a>
