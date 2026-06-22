@@ -5,13 +5,12 @@ title: ATI Nutrition Exam Study Guide
 
 # ATI Nutrition Exam Study Guide
 
-<div class="note">
-This is the <strong>GI Disorders &amp; Diet Therapy</strong> section. For enzyme/digestion basics, macronutrients, vitamins, minerals, and lactose intolerance, see the <a href="{{ '/nutrition-basics.html' | relative_url }}">Nutrition Basics</a> page — this section builds on that foundation and focuses on specific GI disease states.
-</div>
+> **Section:** GI Disorders & Diet Therapy  
+> For enzyme/digestion basics, macronutrients, vitamins, minerals, and lactose intolerance, see the [Nutrition Basics]({{ '/nutrition-basics.html' | relative_url }}) page. This section builds on that foundation and focuses on specific GI disease states.
 
 ## On This Page
 
-- [Big Picture: The One Question to Ask First](#big-picture)
+- [Big Picture: Matching Condition to Strategy](#big-picture)
 - [GERD](#gerd)
 - [Peptic Ulcer Disease](#pud)
 - [Celiac Disease / Gluten-Free Diet](#celiac)
@@ -24,20 +23,22 @@ This is the <strong>GI Disorders &amp; Diet Therapy</strong> section. For enzyme
 - [Inflammatory Bowel Disease](#ibd)
 - [Elemental / Hydrolyzed Formula](#elemental)
 - [Irritable Bowel Syndrome](#ibs)
-- [Colostomy &amp; Ileostomy Nutrition](#ostomy)
-- [Constipation &amp; Diarrhea Teaching](#constipation-diarrhea)
+- [Colostomy & Ileostomy Nutrition](#ostomy)
+- [Constipation & Diarrhea Teaching](#constipation-diarrhea)
 - [Food Sources Quick Reference](#food-sources)
-- [Section Summary &amp; Test-Taking Tips](#section-summary)
+- [Section Summary & Test-Taking Tips](#section-summary)
 
 ---
 
-<h2 class="section-divider" id="gi-disorders-and-diet-therapy">GI Disorders &amp; Diet Therapy</h2>
+<h2 class="section-divider" id="gi-disorders-and-diet-therapy">GI Disorders & Diet Therapy</h2>
 
-GI nutrition questions on ATI almost always come down to one underlying question, no matter which disease is named in the stem.
+GI nutrition questions on ATI usually come down to one main question:
 
 <div class="memory">
-For every GI condition, ask: <strong>does this client need bowel rest, slower GI movement, faster GI movement, more fiber, less fiber, or improved absorption?</strong> Once you know which of those the disease needs, the "correct" food choice usually follows logically.
+<strong>Ask:</strong> Does this client need bowel rest, slower GI movement, faster GI movement, more fiber, less fiber, or improved absorption?
 </div>
+
+Once you know the goal of the diet, the “best food choice” usually makes more sense.
 
 ---
 
@@ -45,41 +46,75 @@ For every GI condition, ask: <strong>does this client need bowel rest, slower GI
 
 | If the Condition Causes... | The Diet Strategy Is Usually... |
 |---|---|
-| Food moving through the GI tract **too fast** (dumping syndrome) | Slow it down: small meals, fluids between meals, avoid simple sugars |
-| Food moving **too slow** / bowel rest needed (acute flare, post-op) | Low-residue / low-fiber temporarily |
-| **Malabsorption** (celiac, Crohn's, pancreatic insufficiency) | Remove the specific trigger (gluten) or simplify the nutrient form (elemental formula) |
-| **Inflammation/irritation** (GERD, mucositis, IBD flare) | Avoid irritants (acid, fat, spice, caffeine) |
-| **Chronic constipation risk** (diverticulosis, low mobility) | Increase fiber **and** fluids together |
-| **Fluid/sodium retention** (cirrhosis with ascites) | Restrict sodium, monitor fluid |
+| Food moving through the GI tract **too fast** | Slow it down: small meals, fluids between meals, avoid simple sugars |
+| Food moving **too slow** or bowel rest is needed | Low-residue / low-fiber temporarily |
+| **Malabsorption** | Remove the trigger or use nutrients that are easier to absorb |
+| **Inflammation or irritation** | Avoid irritants such as acid, fat, spice, and caffeine |
+| **Chronic constipation risk** | Increase fiber **and** fluids together |
+| **Fluid/sodium retention** | Restrict sodium and monitor fluid status |
+
+### Main GI Nutrition Pattern
+
+| Condition | Main Problem | Nutrition Goal |
+|---|---|---|
+| **GERD** | Acid reflux into esophagus | Avoid LES-relaxing and irritating foods |
+| **PUD** | Erosion of stomach/duodenal lining | Avoid irritants and monitor for bleeding |
+| **Celiac disease** | Gluten damages intestinal villi | Lifelong strict gluten avoidance |
+| **Dumping syndrome** | Food moves into small intestine too fast | Slow gastric emptying |
+| **Bariatric surgery** | Very small stomach pouch | Protein first, small amounts, prevent dumping |
+| **Acute pancreatitis** | Inflamed pancreas | Bowel rest/slow diet advancement |
+| **Chronic pancreatitis** | Enzyme insufficiency | Enzyme replacement, manage fat malabsorption |
+| **Cirrhosis** | Liver damage, ascites, ammonia issues | Sodium restriction, adequate protein |
+| **Diverticulosis** | Colon pouches, constipation risk | High fiber + fluids |
+| **Acute diverticulitis** | Inflamed/infected pouches | Low-fiber/low-residue temporarily |
+| **IBD flare** | Inflamed bowel | Low residue temporarily, monitor nutrition |
+| **IBS** | Functional bowel symptoms | Identify triggers, manage symptoms |
+| **Ileostomy** | Liquid output, fluid loss | Increase fluids, salt if prescribed, monitor B12 |
 
 <div class="ati-tip">
-If you're stuck between two answer choices, ask which one matches the <strong>mechanism</strong> of that specific disease — not just "healthy" vs. "unhealthy" food.
+If you are stuck between two answer choices, pick the one that matches the <strong>mechanism</strong> of the condition — not just the food that sounds generally healthy.
 </div>
 
 ---
 
 <h3 id="gerd">GERD (Gastroesophageal Reflux Disease)</h3>
 
-GERD happens when the lower esophageal sphincter (LES) doesn't close properly, letting stomach acid move back into the esophagus. Diet teaching targets two things: **foods that relax the LES** and **foods that directly irritate the esophageal lining**.
+GERD occurs when the lower esophageal sphincter does not close properly, allowing stomach acid to move back into the esophagus.
+
+### What Is Happening
 
 | Mechanism | Effect |
 |---|---|
-| **LES relaxation** | Lets acid reflux upward more easily |
-| **Direct mucosal irritation** | Worsens heartburn pain even without more reflux |
-| **Delayed gastric emptying** (high-fat meals) | Food sits longer, increasing reflux opportunity |
+| **LES relaxation** | Acid refluxes upward more easily |
+| **Direct mucosal irritation** | Heartburn worsens even if reflux amount does not increase |
+| **Delayed gastric emptying** | Food stays in the stomach longer, increasing reflux risk |
 
-<div class="danger">
-Foods and habits that relax the LES or delay emptying include: <strong>fatty/fried foods, chocolate, peppermint, caffeine, and alcohol.</strong> Acidic foods (citrus, tomato) irritate the esophagus directly even though they don't relax the LES.
-</div>
+### Foods and Habits That Worsen GERD
 
-<div class="teaching">
-Positional and timing teaching matters as much as food choice: eat small, frequent meals; avoid eating within <strong>2–3 hr of lying down or bedtime</strong>; stay upright after eating; elevate the head of the bed; lose weight if overweight (extra abdominal pressure worsens reflux).
-</div>
+| Trigger | Why It Matters |
+|---|---|
+| Fatty/fried foods | Delay gastric emptying |
+| Chocolate | Can relax the LES |
+| Peppermint | Can relax the LES |
+| Caffeine | Can worsen reflux symptoms |
+| Alcohol | Can relax the LES and irritate mucosa |
+| Citrus/tomato foods | Directly irritate the esophagus |
+| Carbonated beverages | Can increase stomach pressure/burping |
+
+### GERD Teaching
+
+| Teaching | Why |
+|---|---|
+| Eat small, frequent meals | Prevents stomach overfilling |
+| Avoid eating within **2–3 hr of lying down or bedtime** | Reduces nighttime reflux |
+| Stay upright after meals | Uses gravity to reduce reflux |
+| Elevate the head of the bed | Helps prevent reflux while sleeping |
+| Lose weight if overweight | Reduces abdominal pressure |
 
 <details class="study-dropdown blue" markdown="1">
-<summary><strong>Dig Deeper: Why "bland diet" isn't the modern answer</strong></summary>
+<summary><strong>Extra note: Why “bland diet” is not the modern answer</strong></summary>
 
-Older teaching pushed a generic "bland diet." Current evidence-based teaching is more targeted: there's no need to eliminate entire food groups — the goal is identifying and avoiding the client's *specific* triggers (often fat, acid, caffeine, alcohol, peppermint, chocolate) while keeping the diet otherwise balanced and enjoyable. ATI test questions usually still test the classic trigger list above, so know it, but don't over-restrict in your own teaching answers beyond what the question is asking.
+Older teaching pushed a generic bland diet. Current teaching is more targeted: the client should identify and avoid their specific triggers, such as fat, acid, caffeine, alcohol, peppermint, and chocolate. ATI usually still tests the classic trigger list, but real teaching should avoid over-restricting foods that do not trigger symptoms.
 
 </details>
 
@@ -87,85 +122,128 @@ Older teaching pushed a generic "bland diet." Current evidence-based teaching is
 
 <h3 id="pud">Peptic Ulcer Disease (PUD)</h3>
 
-PUD involves erosion of the stomach or duodenal lining, most often from *H. pylori* infection or NSAID use. Diet teaching is supportive — it doesn't cure PUD, but it reduces discomfort and irritation.
+Peptic ulcer disease involves erosion of the stomach or duodenal lining. The most common causes are **H. pylori** infection and **NSAID use**.
+
+Diet teaching does not cure PUD, but it can reduce discomfort and irritation.
+
+### Assessment Clues
 
 | Assessment Clue | What It Suggests |
 |---|---|
-| Epigastric pain, especially related to meals | Classic PUD symptom |
-| Tarry, black stools (melena) | Upper GI bleeding — **priority finding** |
-| Anemia on labs | Chronic blood loss from the ulcer |
+| Epigastric pain related to meals | Classic PUD symptom |
+| Tarry, black stools (**melena**) | Upper GI bleeding — priority finding |
+| Anemia on labs | Possible chronic blood loss from the ulcer |
 
 <div class="danger">
-Melena and unexplained anemia in a client with PUD are <strong>priority findings</strong> — they suggest active GI bleeding, not just routine ulcer discomfort.
+<strong>Melena and unexplained anemia in a client with PUD are priority findings.</strong> They suggest GI bleeding, not routine ulcer discomfort.
 </div>
 
-<div class="teaching">
-Avoid or limit irritants: caffeine, alcohol, and spicy/acidic foods if they worsen symptoms. Eat regular meals — skipping meals can worsen acid-related pain. Avoid NSAIDs unless directed otherwise by the provider, since they impair the mucosal lining.
-</div>
+### PUD Teaching
+
+| Teaching | Why |
+|---|---|
+| Avoid or limit caffeine | Can increase discomfort/irritation |
+| Avoid alcohol | Irritates the gastric lining |
+| Avoid spicy/acidic foods if they worsen symptoms | Symptom control |
+| Eat regular meals | Skipping meals can worsen acid-related pain |
+| Avoid NSAIDs unless directed by the provider | NSAIDs impair the protective mucosal lining |
 
 ---
 
 <h3 id="celiac">Celiac Disease / Gluten-Free Diet</h3>
 
-Celiac disease is an immune reaction to gluten that damages the villi of the small intestine, causing malabsorption.
+Celiac disease is an immune reaction to gluten that damages the villi of the small intestine and causes malabsorption.
+
+### Key Concepts
 
 | Concept | Detail |
 |---|---|
-| **Trigger** | Gluten — found in wheat, barley, rye, and malt |
+| **Trigger** | Gluten |
+| **Gluten sources** | Wheat, barley, rye, and malt |
 | **Mechanism** | Immune-mediated villous damage → malabsorption |
-| **Treatment** | Lifelong, strict gluten avoidance (the only effective treatment) |
+| **Treatment** | Lifelong strict gluten avoidance |
 
-<div class="danger">
-Gluten hides in processed foods, sauces, gravies, breaded items, and some seasonings — not just obvious bread and pasta. Teach clients to read labels, not just avoid "obvious" wheat foods.
-</div>
+### Where Gluten Hides
+
+Gluten is not only in bread and pasta. It can hide in:
+
+- Processed foods
+- Sauces
+- Gravies
+- Breaded foods
+- Some seasonings
+- Malt-containing foods
 
 <div class="ati-tip">
-ATI tests whether you can identify a <strong>naturally gluten-free</strong> food choice on a menu (vs. assuming "looks healthy" = safe). See the Food Sources Quick Reference below for the specific naturally gluten-free foods ATI favors.
+ATI often asks for the <strong>naturally gluten-free</strong> food choice, not just the food that “looks healthy.”
 </div>
 
 ---
 
 <h3 id="dumping">Dumping Syndrome</h3>
 
-Dumping syndrome occurs after gastric surgery (or bypass) when food — especially simple sugars — moves from the stomach into the small intestine too quickly.
+Dumping syndrome can occur after gastric surgery or gastric bypass. Food, especially **simple sugars**, moves from the stomach into the small intestine too quickly.
+
+### Pathophysiology
 
 | Step | What Happens |
 |---|---|
 | 1 | Hypertonic food mass enters the small intestine rapidly |
 | 2 | Fluid shifts from the bloodstream **into** the intestine to dilute it |
-| 3 | Intravascular volume drops; intestine distends |
-| 4 | Client develops cramping, diarrhea, dizziness, weakness, tachycardia, sweating |
+| 3 | Intravascular volume drops and the intestine distends |
+| 4 | Client develops cramping, diarrhea, dizziness, weakness, tachycardia, and sweating |
 
-<div class="patho">
-Simple sugars and sugar alcohols are the worst triggers because they make the food mass <strong>more hypertonic</strong>, pulling more fluid into the bowel and worsening the shift described above.
-</div>
+### Major Trigger
 
-<div class="teaching">
-Core teaching: eat small, frequent meals; drink liquids **between** meals, not with them; avoid simple sugars and sugar alcohols; favor complex carbohydrates and protein; lie down for about 30 minutes after eating to slow transit; use pectin if prescribed to delay gastric emptying.
-</div>
+Simple sugars and sugar alcohols are the worst triggers because they make the food mass more hypertonic, pulling more fluid into the bowel.
+
+### Dumping Syndrome Teaching
+
+| Teaching | Why |
+|---|---|
+| Eat small, frequent meals | Prevents large food boluses |
+| Drink liquids **between** meals, not with meals | Slows stomach emptying |
+| Avoid simple sugars and sugar alcohols | Prevents hypertonic fluid shift |
+| Favor complex carbohydrates and protein | Slower digestion and better nutrition |
+| Lie down about 30 min after eating | Slows transit |
+| Use pectin if prescribed | Delays gastric emptying |
 
 <div class="note">
-High-fat foods and a high-protein diet are <strong>not</strong> causes of dumping syndrome — high-protein intake can actually help correct related anemia. Don't let an answer choice trick you into restricting protein or fat for this condition.
+High-fat foods and a high-protein diet are <strong>not</strong> causes of dumping syndrome. High-protein intake can actually help correct related anemia.
 </div>
 
 ---
 
 <h3 id="bariatric">Gastric Bypass / Bariatric Surgery Nutrition</h3>
 
-After bariatric surgery, the stomach pouch is dramatically smaller, so the client can only tolerate small volumes at a time — which raises the risk for inadequate protein, dehydration, dumping syndrome, anemia, and vitamin/mineral deficiencies.
+After bariatric surgery, the stomach pouch is much smaller. The client can only tolerate small volumes at a time, which increases risk for:
+
+- Inadequate protein intake
+- Dehydration
+- Dumping syndrome
+- Anemia
+- Vitamin and mineral deficiencies
+
+### Priority Teaching
 
 <div class="ati-tip">
-The single most important teaching point: <strong>begin each meal with protein first</strong>, before other foods, because the small pouch fills up quickly and protein is the hardest macronutrient to get enough of.
+<strong>Begin each meal with protein first.</strong> The pouch fills quickly, and protein is the hardest macronutrient to get enough of after surgery.
 </div>
 
-<div class="memory">
-Target protein intake post-bypass: <strong>60 to 120 g/day.</strong>
-</div>
+### Post-Bypass Nutrition Points
+
+| Topic | Teaching |
+|---|---|
+| Protein goal | **60–120 g/day** |
+| Meal size | Small, frequent meals |
+| Fluids | Usually taken between meals |
+| Dumping prevention | Avoid simple sugars |
+| Deficiency prevention | Lifelong vitamin/mineral supplementation may be needed depending on provider orders |
 
 <details class="study-dropdown green" markdown="1">
-<summary><strong>Dig Deeper: Why low-fiber grains matter for this population</strong></summary>
+<summary><strong>Extra note: Why low-fiber grains matter</strong></summary>
 
-Clients at risk for dumping syndrome (including post-bariatric clients) tolerate **low-fiber grains** (less than 2 g fiber per serving) better, because fiber speeds gastric emptying — the opposite of what's needed when the goal is slowing food transit into the small intestine.
+Clients at risk for dumping syndrome, including post-bariatric clients, may tolerate **low-fiber grains** better because high fiber can speed gastric emptying. Low-fiber grains are generally under 2 g fiber per serving.
 
 </details>
 
@@ -173,231 +251,330 @@ Clients at risk for dumping syndrome (including post-bariatric clients) tolerate
 
 <h3 id="acute-pancreatitis">Acute Pancreatitis</h3>
 
-The pancreas produces both digestive enzymes and insulin. In acute pancreatitis, inflammation impairs both functions at once.
+The pancreas produces digestive enzymes and insulin. In acute pancreatitis, inflammation can impair both functions.
+
+### Main Concerns
 
 | Concern | Why It Happens |
 |---|---|
 | **Hyperglycemia** | Inflamed pancreas produces less insulin |
-| **Nausea/vomiting** | Pain and inflammation reduce intake and increase fluid loss |
-| **Dehydration / electrolyte imbalance** | From vomiting and poor intake |
+| **Nausea/vomiting** | Pain and inflammation reduce intake |
+| **Dehydration/electrolyte imbalance** | Vomiting and poor intake cause losses |
 
 <div class="danger">
 ATI specifically tests that acute pancreatitis can cause <strong>increased glucose</strong> because the inflamed pancreas produces less insulin — not because of diet.
 </div>
 
-<div class="note">
-The acute phase often requires bowel rest (NPO or clear liquids advancing slowly) to reduce pancreatic stimulation; nutrition support (enteral preferred over parenteral if tolerated) is added based on severity and provider orders.
-</div>
+### Nutrition During Acute Pancreatitis
+
+| Phase | Nutrition Approach |
+|---|---|
+| Acute/severe phase | Often bowel rest: NPO or clear liquids depending on orders |
+| Improving phase | Advance diet slowly as tolerated |
+| If nutrition support needed | Enteral nutrition is preferred over parenteral if tolerated |
 
 ---
 
 <h3 id="chronic-pancreatitis">Chronic Pancreatitis</h3>
 
-Chronic pancreatitis causes ongoing pancreatic enzyme insufficiency, leading to malabsorption, weight loss, and steatorrhea (fatty stools) if untreated.
+Chronic pancreatitis causes ongoing pancreatic enzyme insufficiency. This leads to malabsorption, weight loss, and steatorrhea if untreated.
 
-| Nutrient | ATI-Tested Guidance |
-|---|---|
-| **Fat** | Often taught as limited to about **30–40% of total calories** unless steatorrhea is controlled with enzyme replacement |
-| **Protein** | About **1 to 1.5 g/kg/day** — needed for healing and to offset malabsorption-related weight loss |
-| **Fiber** | Kept **low** — high fiber can bind pancreatic enzymes (including replacement enzymes) and reduce their effectiveness |
-| **Alcohol** | Complete avoidance — a leading cause of ongoing pancreatic damage |
+### Classic Clue
 
-<div class="note">
-<strong>Evolving evidence:</strong> current guidelines increasingly say fat doesn't need strict restriction if enzyme replacement therapy controls steatorrhea. ATI exam questions, however, still test the traditional 30–40% fat limit and "choose the lower-fat option" pattern — know both, but expect the traditional teaching on the exam itself.
+<div class="danger">
+<strong>Greasy, floating, foul-smelling stools = steatorrhea = fat malabsorption.</strong>
 </div>
 
-<div class="teaching">
-Eat small, frequent meals (4–6/day); take pancreatic enzyme replacement **with every meal and snack**; do not crush enteric-coated enzyme capsules; monitor weight and stool pattern for ongoing steatorrhea.
+### Chronic Pancreatitis Diet Guidance
+
+| Nutrient / Topic | ATI-Tested Guidance |
+|---|---|
+| **Fat** | Often taught as limited to about **30–40% of total calories** unless steatorrhea is controlled with enzymes |
+| **Protein** | About **1–1.5 g/kg/day** |
+| **Fiber** | Keep **low** because high fiber can bind pancreatic enzymes and reduce effectiveness |
+| **Alcohol** | Complete avoidance |
+
+### Enzyme Replacement Teaching
+
+| Teaching | Why |
+|---|---|
+| Take pancreatic enzymes **with every meal and snack** | Enzymes must be present when food is eaten |
+| Do not crush enteric-coated capsules | Protects medication delivery |
+| Monitor weight | Shows whether nutrition is improving |
+| Monitor stool pattern | Continued greasy stools suggest poor enzyme effect |
+
+<div class="note">
+<strong>Evolving evidence:</strong> current guidelines increasingly say fat does not need strict restriction if enzyme replacement controls steatorrhea. ATI often still tests the traditional 30–40% fat limit and lower-fat food choice pattern.
 </div>
 
 ---
 
 <h3 id="cirrhosis">Cirrhosis / Liver Disease</h3>
 
-The liver handles protein metabolism, clotting factor production, bile production, and nutrient storage — so liver damage creates wide-reaching nutrition problems.
+The liver handles protein metabolism, clotting factor production, bile production, and nutrient storage. Liver damage can cause broad nutrition problems.
+
+### Complications and Nutrition Connection
 
 | Complication | Nutrition Connection |
 |---|---|
 | **Ascites** | Sodium and fluid retention; early satiety from abdominal distention |
 | **Hepatic encephalopathy** | Ammonia buildup affects mental status |
 | **Bleeding risk** | Liver makes clotting factors |
-| **Malnutrition** | Common from poor intake, altered metabolism, and early satiety |
+| **Malnutrition** | Poor intake, altered metabolism, and early satiety are common |
+
+### Cirrhosis Teaching
+
+| Teaching | Why |
+|---|---|
+| Restrict sodium to about **2,000 mg/day or less** if ascites is present | Helps reduce fluid retention |
+| Monitor fluid status, daily weights, and abdominal girth if ordered | Tracks ascites/fluid changes |
+| Avoid alcohol completely | Prevents further liver injury |
+| Eat small, frequent meals | Helps with early satiety |
+| Include a late-evening high-protein snack | Helps prevent overnight muscle breakdown |
 
 <div class="danger">
-<strong>Do not automatically restrict protein</strong> for hepatic encephalopathy. Current evidence-based practice keeps protein at <strong>1 to 1.5 g/kg/day</strong> even with encephalopathy — protein restriction worsens muscle breakdown without improving mental status. This reverses older teaching some students still encounter.
-</div>
-
-<div class="lab">
-For ascites, sodium is typically restricted to roughly <strong>2,000 mg/day or less</strong>, alongside fluid monitoring and daily weights to track fluid retention.
-</div>
-
-<div class="teaching">
-Other teaching: avoid alcohol completely; eat small, frequent meals (early satiety from ascites); a late-evening high-protein snack helps prevent overnight muscle breakdown; monitor abdominal girth and weight daily if ordered.
+<strong>Do not automatically restrict protein</strong> for hepatic encephalopathy. Current evidence-based practice keeps protein at <strong>1–1.5 g/kg/day</strong>. Protein restriction can worsen muscle breakdown without improving mental status.
 </div>
 
 ---
 
 <h3 id="diverticular">Diverticular Disease</h3>
 
-Diverticular disease means small pouches (diverticula) have formed in the colon wall. Whether they're simply present or actively inflamed changes the diet completely.
+Diverticular disease means small pouches, called diverticula, have formed in the colon wall. Diet depends on whether the pouches are just present or actively inflamed.
+
+### Diverticulosis vs. Diverticulitis
 
 | Term | Meaning | Diet Goal |
 |---|---|---|
-| **Diverticulosis** | Pouches present, **not** inflamed | Prevent constipation and pressure: **high fiber** + fluids |
-| **Diverticulitis** | Pouches **inflamed/infected** | Reduce bowel stimulation during the acute flare: **low-fiber/low-residue** if prescribed, advancing fiber back gradually as symptoms improve |
+| **Diverticulosis** | Pouches present, **not** inflamed | Prevent constipation and pressure: **high fiber + fluids** |
+| **Diverticulitis** | Pouches **inflamed/infected** | Reduce bowel stimulation during flare: **low-fiber/low-residue** if prescribed, then advance fiber gradually |
 
 <div class="nclex">
-Remember the contrast: <strong>diverticulosis = high fiber</strong>; <strong>acute diverticulitis = low fiber/low residue</strong> during the flare.
+<strong>Diverticulosis = high fiber.</strong>  
+<strong>Acute diverticulitis = low fiber/low residue during the flare.</strong>
 </div>
 
-<div class="note">
-<strong>Updated evidence:</strong> nuts, seeds, corn, and popcorn were historically restricted in diverticulosis out of concern they could lodge in the pouches and trigger inflammation. Large studies have since found no such association — current guidelines no longer recommend avoiding them. ATI questions written from older material may still test the avoidance teaching, so be aware both versions exist, but the avoidance is outdated science.
-</div>
+<details class="study-dropdown blue" markdown="1">
+<summary><strong>Extra note: Nuts, seeds, corn, and popcorn</strong></summary>
+
+These were historically restricted in diverticulosis because people thought they could lodge in the pouches and trigger inflammation. Updated evidence does not support this restriction, and current guidelines no longer recommend avoiding them. Some older ATI-style questions may still mention the older avoidance teaching, so be aware that both versions exist.
+
+</details>
 
 ---
 
-<h3 id="ibd">Inflammatory Bowel Disease (Crohn's &amp; Ulcerative Colitis)</h3>
+<h3 id="ibd">Inflammatory Bowel Disease (Crohn's & Ulcerative Colitis)</h3>
 
-IBD causes chronic bowel inflammation, leading to diarrhea, pain, malabsorption, weight loss, and nutrient deficiencies. Crohn's can affect any part of the GI tract; ulcerative colitis is limited to the colon.
+IBD causes chronic bowel inflammation, which can lead to diarrhea, pain, malabsorption, weight loss, and nutrient deficiencies.
+
+### Crohn’s vs. Ulcerative Colitis
+
+| Type | Main Point |
+|---|---|
+| **Crohn’s disease** | Can affect any part of the GI tract |
+| **Ulcerative colitis** | Limited to the colon |
+
+### IBD Concerns
 
 | Concern | Why It Matters |
 |---|---|
 | Diarrhea | Fluid and electrolyte loss |
-| Malabsorption | Nutrients aren't absorbed well, especially in Crohn's |
-| Weight loss | Reflects poor intake or malabsorption |
-| Vitamin/mineral deficiencies | Common with chronic inflammation or after bowel resection |
+| Malabsorption | Nutrients are not absorbed well, especially in Crohn’s |
+| Weight loss | Poor intake or malabsorption |
+| Vitamin/mineral deficiencies | Chronic inflammation or bowel resection increases risk |
 
-#### Low-Residue Diet
+### Low-Residue Diet During a Flare
 
-A low-residue diet limits foods that increase stool bulk — used temporarily during flares or when the bowel needs rest.
+A low-residue diet limits foods that increase stool bulk. It is used temporarily during flares or when the bowel needs rest.
 
-<div class="teaching">
-During a flare: reduce fiber temporarily, choose refined grains, avoid raw fruits/vegetables, nuts, seeds, and tough skins if not tolerated. This is a <strong>temporary</strong> strategy, not a permanent healthy-eating plan — fiber is reintroduced gradually as inflammation improves.
-</div>
+| Choose More Often | Avoid/Limit During Flare |
+|---|---|
+| Refined grains | Raw fruits/vegetables |
+| Low-fiber foods | Nuts and seeds |
+| Easy-to-digest foods | Tough skins/peels |
+| Foods tolerated by the client | High-fiber foods |
 
 <div class="danger">
-IBD flares increase the risk for both <strong>malnutrition</strong> and <strong>fluid/electrolyte imbalance</strong> at the same time — assess both.
+IBD flares increase the risk for <strong>malnutrition</strong> and <strong>fluid/electrolyte imbalance</strong> at the same time.
 </div>
 
 ---
 
 <h3 id="elemental">Elemental / Hydrolyzed Formula</h3>
 
-These formulas provide nutrients in pre-broken-down forms, requiring little to no digestion — useful when digestion itself is impaired.
+Elemental and hydrolyzed formulas provide nutrients in pre-broken-down forms. They require little to no digestion.
+
+### Formula Types
 
 | Formula Type | What It Means |
 |---|---|
 | **Hydrolyzed formula** | Protein is partially broken down already |
-| **Elemental formula** | All nutrients are in their simplest, most basic form |
+| **Elemental formula** | Nutrients are in their simplest, most basic form |
 
 <div class="nclex">
-ATI connects elemental/hydrolyzed formula with conditions where digestion is impaired, such as <strong>inflammatory bowel disease</strong> — the formula does the digestive work the inflamed gut can't do as well.
+ATI connects elemental/hydrolyzed formulas with conditions where digestion is impaired, such as <strong>inflammatory bowel disease</strong>. The formula does some of the digestive work the inflamed gut cannot do as well.
 </div>
 
 ---
 
 <h3 id="ibs">Irritable Bowel Syndrome (IBS)</h3>
 
-IBS is a *functional* bowel disorder — it causes real symptoms (pain, bloating, altered bowel habits) without the structural tissue damage seen in IBD.
+IBS is a **functional bowel disorder**. It causes real symptoms, including pain, bloating, and altered bowel habits, but it does not cause the structural tissue damage seen in IBD.
+
+### IBS Teaching
 
 | Teaching | Why It Helps |
 |---|---|
-| **Peppermint oil** | Relaxes GI smooth muscle, decreasing symptoms |
-| **Probiotics** | May reduce IBS symptoms for some clients |
-| **Limit high-fructose foods** | Fructose is poorly absorbed and can worsen bloating/diarrhea in sensitive clients |
+| Peppermint oil | Relaxes GI smooth muscle and may decrease symptoms |
+| Probiotics | May reduce symptoms for some clients |
+| Limit high-fructose foods | Fructose is poorly absorbed and can worsen bloating/diarrhea |
 
 <div class="ati-tip">
-ATI specifically connects high-fructose foods with worsening IBS symptoms because fructose is harder to absorb than glucose. Table sugar (sucrose) actually helps fructose absorption, which is why plain sugar is sometimes less problematic than fructose-heavy foods for these clients.
+ATI connects high-fructose foods with worsening IBS symptoms because fructose is harder to absorb than glucose. Table sugar, or sucrose, can actually help fructose absorption, so plain sugar is sometimes less problematic than fructose-heavy foods.
 </div>
 
 <div class="note">
-Unlike GERD or PUD, IBS management is highly individualized — triggers vary widely between clients, so a food/symptom diary is often more useful than a generic restriction list.
+IBS management is very individualized. A food/symptom diary is often more useful than a generic restriction list.
 </div>
 
 ---
 
-<h3 id="ostomy">Colostomy &amp; Ileostomy Nutrition</h3>
+<h3 id="ostomy">Colostomy & Ileostomy Nutrition</h3>
 
-Ostomy nutrition depends on which part of the colon is bypassed and how liquid the output is. Ileostomies bypass the colon entirely (which normally absorbs water), so output is more liquid than a colostomy's.
+Ostomy nutrition depends on which part of the bowel is bypassed and how liquid the output is.
 
-<div class="danger">
-A client with an <strong>ileostomy</strong> is at higher risk for <strong>fluid and electrolyte loss</strong> because output is consistently more liquid than colostomy output.
-</div>
+### Colostomy vs. Ileostomy
 
-<div class="teaching">
-Core teaching: eat on a regular schedule to promote predictable output; increase fluids; increase dietary salt if prescribed (to replace sodium lost in liquid output); monitor for vitamin B12 deficiency if the terminal ileum (the main B12 absorption site) was resected or bypassed.
-</div>
-
----
-
-<h3 id="constipation-diarrhea">Constipation &amp; Diarrhea Teaching</h3>
-
-| Problem | Core Teaching |
+| Type | Output / Risk |
 |---|---|
-| **Constipation** | Increase fiber **gradually** (sudden increases cause bloating/gas) and increase fluids at the same time |
-| **Diarrhea** | Priority is hydration and electrolyte monitoring; identify and address the underlying cause |
+| **Colostomy** | Output is usually more formed because some colon remains available for water absorption |
+| **Ileostomy** | Output is more liquid because the colon is bypassed |
 
 <div class="danger">
-Diarrhea can rapidly cause fluid volume deficit, electrolyte imbalance, and skin breakdown — especially in older adults, infants, or anyone with already-poor intake.
+A client with an <strong>ileostomy</strong> is at higher risk for <strong>fluid and electrolyte loss</strong>.
 </div>
+
+### Ostomy Teaching
+
+| Teaching | Why |
+|---|---|
+| Eat on a regular schedule | Promotes more predictable output |
+| Increase fluids | Replaces fluid losses |
+| Increase dietary salt if prescribed | Replaces sodium lost in liquid output |
+| Monitor for vitamin B12 deficiency if terminal ileum was resected or bypassed | Terminal ileum is the main B12 absorption site |
+
+---
+
+<h3 id="constipation-diarrhea">Constipation & Diarrhea Teaching</h3>
+
+### Constipation
+
+| Teaching | Why |
+|---|---|
+| Increase fiber gradually | Sudden increases can cause bloating and gas |
+| Increase fluids at the same time | Fiber without fluid can worsen constipation |
+| Encourage mobility if appropriate | Helps bowel motility |
+
+### Diarrhea
+
+| Teaching / Priority | Why |
+|---|---|
+| Hydration | Prevents fluid volume deficit |
+| Electrolyte monitoring | Diarrhea can quickly alter electrolytes |
+| Skin protection | Frequent stool increases breakdown risk |
+| Identify and treat the cause | Diarrhea is a symptom, not the diagnosis |
 
 <div class="memory">
-Fiber and fluid move together: increasing one without the other can make constipation, bloating, and flatus <strong>worse</strong>, not better.
+Fiber and fluid move together: increasing one without the other can make constipation, bloating, and flatus <strong>worse</strong>.
+</div>
+
+<div class="danger">
+Diarrhea can rapidly cause fluid volume deficit, electrolyte imbalance, and skin breakdown — especially in older adults, infants, or anyone with poor intake.
 </div>
 
 ---
 
 <h2 class="section-divider small" id="food-sources">Food Sources Quick Reference</h2>
 
-#### Celiac Disease
+### Celiac Disease
 
-| Avoid (Contains Gluten) | Safe (Naturally Gluten-Free) |
+| Avoid: Contains Gluten | Safe: Naturally Gluten-Free |
 |---|---|
-| Wheat, barley, rye, malt | Plain rice, corn, quinoa, tapioca, potato flour, beans and legumes |
+| Wheat | Plain rice |
+| Barley | Corn |
+| Rye | Quinoa |
+| Malt | Tapioca |
+| Bread/pasta with gluten | Potato flour |
+| Breaded foods | Beans and legumes |
 
-#### Dumping Syndrome / Bariatric
+### Dumping Syndrome / Bariatric Surgery
 
 | Avoid | Better Choices |
 |---|---|
-| Candy, syrup, sweetened drinks, sugar alcohols | Complex carbohydrates, protein-first meals, low-fiber grains (under 2 g fiber/serving) |
+| Candy | Complex carbohydrates |
+| Syrup | Protein-first meals |
+| Sweetened drinks | Low-fiber grains under 2 g fiber/serving |
+| Sugar alcohols | Small, frequent meals |
 
-#### GERD Triggers
+### GERD Triggers
 
 | Common Triggers |
 |---|
-| Citrus fruits, tomato-based foods, fatty/fried foods, chocolate, peppermint, caffeine, alcohol, carbonated beverages |
+| Citrus fruits |
+| Tomato-based foods |
+| Fatty/fried foods |
+| Chocolate |
+| Peppermint |
+| Caffeine |
+| Alcohol |
+| Carbonated beverages |
 
-#### Chronic Pancreatitis
+### Chronic Pancreatitis
 
 | Better Choices | Avoid/Limit |
 |---|---|
-| Baked fish, lean poultry, white rice, canned fruit/vegetables (low fiber) | High-fat foods (ice cream, fried foods, fatty cuts of meat), high-fiber foods, alcohol |
+| Baked fish | High-fat foods |
+| Lean poultry | Ice cream |
+| White rice | Fried foods |
+| Canned fruit/vegetables, low fiber | Fatty cuts of meat |
+| Small, frequent meals | High-fiber foods and alcohol |
 
-#### Cirrhosis
+### Cirrhosis
 
 | Better Choices | Avoid/Limit |
 |---|---|
-| Grilled chicken/fish, plant proteins, small frequent meals | High-sodium foods, high-fat foods if steatorrhea present, alcohol |
+| Grilled chicken/fish | High-sodium foods |
+| Plant proteins | Alcohol |
+| Small, frequent meals | High-fat foods if steatorrhea is present |
 
-#### Diverticulosis vs. Diverticulitis
+### Diverticulosis vs. Acute Diverticulitis
 
-| Diverticulosis (High Fiber) | Acute Diverticulitis Flare (Low Residue) |
+| Diverticulosis: High Fiber | Acute Diverticulitis Flare: Low Residue |
 |---|---|
-| Whole grains, bran, fruits/vegetables with skins, dried beans and peas | White rice, white bread, canned fruit without skins, well-cooked vegetables without skins/seeds |
+| Whole grains | White rice |
+| Bran | White bread |
+| Fruits/vegetables with skins | Canned fruit without skins |
+| Dried beans and peas | Well-cooked vegetables without skins/seeds |
 
-#### Ostomy / Stool-Thickening Foods
+### Ostomy / Stool-Thickening Foods
 
 | Stool-Thickening Foods |
 |---|
-| Applesauce, bananas, pasta, rice, potatoes, peanut butter, bread |
+| Applesauce |
+| Bananas |
+| Pasta |
+| Rice |
+| Potatoes |
+| Peanut butter |
+| Bread |
 
 <div class="ati-tip">
-Notice the overlap: <strong>low-residue foods</strong> (used for IBD flares and acute diverticulitis) and <strong>stool-thickening foods</strong> (used for ostomies/diarrhea) are mostly the same foods — refined, low-fiber, easy-to-digest options. Learning one list helps you recognize the other.
+Low-residue foods used for IBD flares and acute diverticulitis are similar to stool-thickening foods used for ostomies/diarrhea: refined, low-fiber, easy-to-digest foods.
 </div>
 
 ---
 
-<h2 class="section-divider small" id="section-summary">Section Summary &amp; Test-Taking Tips</h2>
+<h2 class="section-divider small" id="section-summary">Section Summary & Test-Taking Tips</h2>
 
 | If the Question Says... | Think... |
 |---|---|
@@ -406,19 +583,19 @@ Notice the overlap: <strong>low-residue foods</strong> (used for IBD flares and 
 | Wheat, barley, rye, or malt in the diet | Not safe for celiac disease |
 | Dizziness, cramping, diarrhea after a meal post-gastrectomy | Dumping syndrome — avoid simple sugars, give fluids between meals |
 | Post-bariatric surgery meal teaching | Protein first; 60–120 g protein/day |
-| Acute pancreatitis + rising glucose | Decreased insulin production, not diet — still monitor closely |
+| Acute pancreatitis + rising glucose | Decreased insulin production, not diet |
 | Chronic pancreatitis + greasy stools | Steatorrhea — fat malabsorption; enzyme replacement with meals |
-| Cirrhosis + ascites | Sodium restriction (~2,000 mg/day) + fluid monitoring + daily weights |
-| Cirrhosis + hepatic encephalopathy | Do **not** restrict protein — keep at 1–1.5 g/kg/day |
+| Cirrhosis + ascites | Sodium restriction around 2,000 mg/day + fluid monitoring + daily weights |
+| Cirrhosis + hepatic encephalopathy | Do **not** automatically restrict protein — keep at 1–1.5 g/kg/day |
 | Diverticulosis | High fiber + fluids |
 | Acute diverticulitis flare | Low fiber/low residue if prescribed |
 | IBD flare | Low residue temporarily; monitor weight, hydration, deficiencies |
-| Impaired digestion (e.g., IBD) needing simplest nutrient form | Elemental/hydrolyzed formula |
+| Impaired digestion needing simplest nutrient form | Elemental/hydrolyzed formula |
 | IBS + bloating after fruit/honey | High-fructose food trigger |
 | Ileostomy | Increase fluids, salt if prescribed, monitor B12 |
 | Increasing fiber for constipation | Increase fluids at the same time |
-| Vomiting or diarrhea of any GI cause | Fluid volume deficit + electrolyte imbalance — always pair these two |
+| Vomiting or diarrhea of any GI cause | Fluid volume deficit + electrolyte imbalance |
 
 ---
 
-*Next section: Endocrine &amp; Diabetes Nutrition →*
+*Next section: Endocrine & Diabetes Nutrition →*
