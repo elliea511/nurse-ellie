@@ -29,47 +29,47 @@ Nutrition shows up everywhere on the ATI exam — not just in one obvious "diet"
 
 <a class="study-card" href="{{ '/ati/nutrition/endocrine-disorders.html' | relative_url }}">
 <h2>Endocrine &amp; Diabetes Nutrition</h2>
-<p>Type 1 vs. type 2 diabetes, hypoglycemia/hyperglycemia, DKA vs. HHS, Somogyi and dawn phenomenon, glycemic index, and carbohydrate counting. Coming soon.</p>
+<p>Type 1 vs. type 2 diabetes, hypoglycemia/hyperglycemia, DKA vs. HHS, Somogyi and dawn phenomenon, glycemic index, and carbohydrate counting.</p>
 </a>
 
 <a class="study-card" href="{{ '/ati/nutrition/cardiovascular-renal-disorders.html' | relative_url }}">
 <h2>Cardiovascular &amp; Renal Nutrition</h2>
-<p>Heart-healthy diets, sodium restriction, cholesterol/fat teaching, warfarin and ACE inhibitor interactions, CKD, dialysis, and kidney stones. Coming soon.</p>
+<p>Heart-healthy diets, sodium restriction, cholesterol/fat teaching, warfarin and ACE inhibitor interactions, CKD, dialysis, and kidney stones.</p>
 </a>
 
 <a class="study-card" href="{{ '/ati/nutrition/respiratory-neurological-disorders.html' | relative_url }}">
 <h2>Respiratory &amp; Neurologic Nutrition</h2>
-<p>COPD calorie/protein needs, Parkinson's disease, dysphagia, and aspiration precautions. Coming soon.</p>
+<p>COPD calorie/protein needs, Parkinson's disease, dysphagia, and aspiration precautions.</p>
 </a>
 
-<a class="study-card coming-soon" href="#">
+<a class="study-card" href="{{ '/ati/nutrition/cancer-immunity-wound.html' | relative_url }}">
 <h2>Cancer, Immunity &amp; Wound Healing</h2>
-<p>Cancer prevention, treatment-related nutrition problems, mucositis, neutropenic food safety, and wound-healing nutrition. Coming soon.</p>
+<p>Cancer prevention, treatment-related nutrition problems, mucositis, neutropenic food safety, and wound-healing nutrition.</p>
 </a>
 
-<a class="study-card coming-soon" href="#">
+<a class="study-card" href="{{ '/ati/nutrition/pregnancy-lactation-pediatrics.html' | relative_url }}">
 <h2>Pregnancy, Lactation &amp; Pediatric Nutrition</h2>
-<p>Pregnancy weight gain, iron and folate needs, hyperemesis, breastfeeding and breast milk storage, infant growth and feeding, and child/adolescent nutrition. Coming soon.</p>
+<p>Pregnancy weight gain, iron and folate needs, hyperemesis, breastfeeding and breast milk storage, infant growth and feeding, and child/adolescent nutrition.</p>
 </a>
 
-<a class="study-card coming-soon" href="#">
+<a class="study-card" href="{{ '/ati/nutrition/older-adults.html' | relative_url }}">
 <h2>Older Adult Nutrition</h2>
-<p>Age-related protein and calorie needs, calcium/vitamin D, hydration risk, and dementia-related feeding challenges. Coming soon.</p>
+<p>Age-related protein and calorie needs, calcium/vitamin D, hydration risk, and dementia-related feeding challenges.</p>
 </a>
 
-<a class="study-card coming-soon" href="#">
+<a class="study-card" href="{{ '/ati/nutrition/special-diets.html' | relative_url }}">
 <h2>Cultural Considerations &amp; Special Diets</h2>
-<p>Religious and cultural dietary practices, fasting safety, and vegetarian/vegan nutrition planning. Coming soon.</p>
+<p>Religious and cultural dietary practices, fasting safety, and vegetarian/vegan nutrition planning.</p>
 </a>
 
-<a class="study-card coming-soon" href="#">
+<a class="study-card" href="{{ '/ati/nutrition/parenteral-enteral.html' | relative_url }}">
 <h2>Enteral &amp; Parenteral Nutrition</h2>
-<p>Tube feeding placement and safety, aspiration risk, feeding intolerance, and TPN complications. Coming soon.</p>
+<p>Tube feeding placement and safety, aspiration risk, feeding intolerance, and TPN complications.</p>
 </a>
 
-<a class="study-card coming-soon" href="#">
+<a class="study-card" href="{{ '/ati/nutrition/medication-interactions.html' | relative_url }}">
 <h2>Medication &amp; Food Interactions</h2>
-<p>Warfarin, MAOIs, ACE inhibitors, iron, calcium, grapefruit, and other high-yield drug-nutrient pairings. Coming soon.</p>
+<p>Warfarin, MAOIs, ACE inhibitors, iron, calcium, grapefruit, and other high-yield drug-nutrient pairings.</p>
 </a>
 
 </div>
