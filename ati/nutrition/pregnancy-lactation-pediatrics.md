@@ -46,7 +46,7 @@ Every stage on this page shares one driver: **the body is building something** �
 | **Infancy** | Rapid growth requires the right calories, fluids, and gradual food introduction |
 | **Childhood/adolescence** | Supports growth, bone development, and long-term eating habits |
 
-### ATI Addition: Growth Stages and Test Focus
+### Growth Stages and Test Focus
 
 | Stage | ATI Usually Wants You to Notice |
 |---|---|
@@ -71,7 +71,7 @@ Expected weight gain depends on **prepregnancy BMI** — not a single universal 
 
 If the client was **underweight** before pregnancy, don't pick the lowest weight-gain range — that pattern is backwards. Underweight clients need the **most** gain; obese clients need the **least**.
 
-### ATI Addition: Pregnancy Weight Gain Pattern
+### Pregnancy Weight Gain Pattern
 
 | Pregnancy Point | What to Remember |
 |---|---|
@@ -93,18 +93,15 @@ If the client was **underweight** before pregnancy, don't pick the lowest weight
 
 Iron teaching: take with vitamin C to improve absorption; use a straw for liquid iron; expect constipation and dark stools — these are expected effects, not reasons to stop the supplement.
 
-### ATI Addition: Pregnancy Nutrient Quick Chart
+### Additional Pregnancy Nutrient Quick Chart
 
 | Nutrient | ATI Clue |
 |---|---|
-| **Folate** | Neural tube defects; most important before pregnancy and early pregnancy |
-| **Iron** | Expanding blood volume; anemia prevention; take with vitamin C |
 | **Calcium/Vitamin D** | Fetal bones/teeth and maternal bone support |
-| **Protein** | Growth of fetal and maternal tissues |
 | **Fluids** | Supports increased blood volume and helps constipation |
 | **Fiber** | Helps constipation, especially with iron supplementation |
 
-### ATI Addition: Foods to Avoid or Limit in Pregnancy
+### Foods to Avoid or Limit in Pregnancy
 
 | Food/Drink | Why |
 |---|---|
@@ -127,7 +124,7 @@ Management mirrors general diabetes nutrition principles: **consistent carbohydr
 
 After delivery, insulin needs typically **drop quickly** once the placenta (the source of the insulin-resistant hormones) is delivered — don't expect the same insulin requirements to continue postpartum.
 
-### ATI Addition: GDM Meal Teaching
+### GDM Meal Teaching
 
 | Teaching | Why It Matters |
 |---|---|
@@ -137,7 +134,7 @@ After delivery, insulin needs typically **drop quickly** once the placenta (the 
 | Choose complex carbs over simple sugars | Better routine glucose control |
 | Monitor glucose as prescribed | Shows whether diet/exercise are enough or insulin is needed |
 
-### ATI Addition: GDM Newborn Risk
+### GDM Newborn Risk
 
 | Maternal Issue | Newborn Risk |
 |---|---|
@@ -156,7 +153,7 @@ Think the same priority pattern as any severe vomiting: **fluid volume deficit +
 
 Helpful strategies: small frequent meals; dry, bland foods (e.g., crackers before getting out of bed in the morning, before the head movement of standing triggers nausea); sip fluids **between** meals rather than with them; avoid trigger smells; take prescribed antiemetics as directed; report inability to keep fluids down.
 
-### ATI Addition: Hyperemesis Assessment Cues
+### Hyperemesis Assessment Cues
 
 | Cue | Why It Matters |
 |---|---|
@@ -174,7 +171,7 @@ Pica is craving and eating non-food substances (clay, dirt, ice/pagophagia, laun
 
 Pica during pregnancy is associated with **iron deficiency** — it can be both a sign of existing deficiency and a cause of worsening it (since the substances consumed displace nutritious food and may interfere with iron absorption). Assess for pica when iron-deficiency anemia is suspected, and ask directly — clients may not volunteer this behavior.
 
-### ATI Addition: Pica Teaching
+### Pica Teaching
 
 | Nursing Action | Why |
 |---|---|
@@ -193,7 +190,7 @@ Avoid unnecessary **formula, water, and artificial nipples** while establishing 
 
 Maternal calcium needs do not increase numerically during lactation (still about 1,000 mg/day) — but calcium absorption from the gut increases during lactation to help meet the higher demand without raising the RDA itself.
 
-### ATI Addition: Signs Breastfeeding Is Going Well
+### Signs Breastfeeding Is Going Well
 
 | Sign | What It Suggests |
 |---|---|
@@ -203,7 +200,7 @@ Maternal calcium needs do not increase numerically during lactation (still about
 | Weight gain after expected early loss | Growth is on track |
 | No severe maternal nipple trauma | Latch may be effective |
 
-### ATI Addition: Lactation Nutrition for the Parent
+### Lactation Nutrition for the Parent
 
 | Teaching | Why |
 |---|---|
@@ -225,7 +222,7 @@ Maternal calcium needs do not increase numerically during lactation (still about
 | **Frozen storage** | Commonly cited as up to 6 months, with up to 12 months considered acceptable in some guidance |
 | **Milk left in a bottle after feeding** | Discard — infant saliva has contaminated it |
 
-### ATI Addition: Breast Milk Safety Details
+### Breast Milk Safety Details
 
 | Situation | Teaching |
 |---|---|
@@ -246,7 +243,7 @@ Maternal calcium needs do not increase numerically during lactation (still about
 | Introduce new solid foods | One at a time, every **3–5 days** (to monitor for allergic reaction) |
 | Whole milk | Not before **12 months**; used until about age 2, then transition to lower-fat milk |
 
-### ATI Addition: Infant Feeding Progression
+### Infant Feeding Progression
 
 | Age/Stage | Feeding Focus |
 |---|---|
@@ -256,7 +253,7 @@ Maternal calcium needs do not increase numerically during lactation (still about
 | **Before 12 months** | Avoid whole milk and honey |
 | **After 12 months** | Whole milk may be used until about age 2, then transition to lower-fat milk |
 
-### ATI Addition: Readiness for Solid Foods
+### Readiness for Solid Foods
 
 | Readiness Cue | Why |
 |---|---|
@@ -271,7 +268,7 @@ Maternal calcium needs do not increase numerically during lactation (still about
 
 Never give honey to an infant **under 12 months** — it can contain *Clostridium botulinum* spores. An adult's mature gut flora controls these spores, but an infant's immature gut cannot, risking **infant botulism** (a serious, potentially life-threatening illness). This applies to honey in any form — including baked into foods — not just honey eaten directly.
 
-### ATI Addition: Botulism Clues
+### Botulism Clues
 
 | Infant Finding | Concern |
 |---|---|
@@ -294,7 +291,7 @@ Breast milk is an excellent overall food, but it's reliably low in two nutrients
 
 Formula-fed infants generally don't need extra vitamin D or iron, since commercial formula is already fortified with both — this distinction (breastfed vs. formula-fed) is the detail ATI is testing when it asks "which infant needs supplementation?"
 
-### ATI Addition: Infant Supplement Decision Chart
+### Infant Supplement Decision Chart
 
 | Infant Type | Vitamin D | Iron |
 |---|---|---|
@@ -311,7 +308,7 @@ A cleft lip makes it hard for the infant to form an effective seal around a nipp
 
 Helpful strategies: a bottle with a **one-way valve** and a **high-flow nipple**; gently support/squeeze the cheeks to help close the gap during feeding; burp frequently (after each ounce or 2–3 times per feeding) since these infants swallow more air; allow extra time for feeds.
 
-### ATI Addition: Cleft Lip/Palate Feeding Safety
+### Cleft Lip/Palate Feeding Safety
 
 | Teaching | Why |
 |---|---|
@@ -327,7 +324,7 @@ Helpful strategies: a bottle with a **one-way valve** and a **high-flow nipple**
 
 Common toddler choking hazards: **hot dogs, whole grapes, bagels/hard chunks of bread, marshmallows, popcorn, chunks of cheese, raisins, raw carrots, nuts, and seeds.** A soft, ripe banana is **not** a choking hazard and is an appropriate fruit choice for this age group.
 
-### ATI Addition: Choking Prevention Teaching
+### Choking Prevention Teaching
 
 | Teaching | Why |
 |---|---|
@@ -362,7 +359,7 @@ General target for fruits/vegetables: about **2.5 cups vegetables** and **2 cups
 
 Adolescent nutritional risk factors worth recognizing: skipping more than 2–3 meals per week, frequently skipping breakfast, eating without family/adult supervision, and reliance on fast food — these patterns (not occasional fast food) are the actual red flags.
 
-### ATI Addition: Adolescent Nutrition Risks
+### Adolescent Nutrition Risks
 
 | Risk | Why It Matters |
 |---|---|
@@ -372,7 +369,7 @@ Adolescent nutritional risk factors worth recognizing: skipping more than 2–3 
 | Menstruating adolescent with low iron intake | Iron-deficiency anemia risk |
 | Sports or dieting pressure | Risk for inadequate intake or disordered eating patterns |
 
-### ATI Addition: Healthy Pediatric Food Swaps
+### Healthy Pediatric Food Swaps
 
 | Instead of This | Choose This |
 |---|---|
@@ -417,7 +414,7 @@ Adolescent nutritional risk factors worth recognizing: skipping more than 2–3 
 |---|---|
 | Soft ripe banana, well-cooked soft vegetables, ground/shredded meat | Hot dogs, whole grapes, bagels, marshmallows, popcorn, chunks of cheese, raisins, raw carrots, nuts, seeds |
 
-#### ATI Addition: Pregnancy Food Safety Quick Reference
+#### Pregnancy Food Safety Quick Reference
 
 | Avoid/Limit | Safer Choice |
 |---|---|
@@ -427,7 +424,7 @@ Adolescent nutritional risk factors worth recognizing: skipping more than 2–3 
 | Deli meats/hot dogs not heated | Heat until steaming if eaten |
 | Alcohol | Avoid during pregnancy |
 
-#### ATI Addition: Infant Food Safety Quick Reference
+#### Infant Food Safety Quick Reference
 
 | Avoid Before 12 Months | Why |
 |---|---|
