@@ -1,3 +1,4 @@
+---
 layout: default
 title: Enteral & Parenteral Nutrition
 ---
@@ -553,4 +554,3 @@ The same transition rule applies here: **overlap, don’t swap**.
 ---
 
 *Next section: Medication & Food Interactions →*
-…]()
