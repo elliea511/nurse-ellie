@@ -1,6 +1,6 @@
 ---
 layout: default
-title: ATI Nutrition Exam Study Guide
+title: Nutrition Basics
 
 ---
 
