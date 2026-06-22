@@ -3,10 +3,6 @@ layout: default
 title: ATI Nutrition Exam Study Guide
 ---
 
-<div class="note">
-<strong>How to use this page:</strong> each topic has a short explanation, one focused table, and a callout box with the single most important ATI clue. Expandable <strong>"Dig Deeper"</strong> dropdowns hold extra detail and edge cases so the page stays scannable without losing depth. Food name lists are saved for the <strong>Food Sources Quick Reference</strong> near the end so the main tables stay focused on function.
-</div>
-
 # ATI Nutrition Exam Study Guide
 
 <div class="note">
