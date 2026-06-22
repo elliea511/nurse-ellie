@@ -1446,3 +1446,279 @@ body {
     page-break-inside: avoid !important;
   }
 }
+/* =========================================================
+   MOCHA CHIC COLOR SOFTENING PATCH
+   Makes theme less brown, more cream/blush/latte
+   Paste at the VERY BOTTOM of style.css
+   ========================================================= */
+
+:root {
+  --cream: #fff8f2;
+  --cream-soft: #fffaf6;
+  --vanilla: #f8ede5;
+  --latte: #ead6c9;
+  --latte-soft: #f4e3da;
+  --caramel: #d4a984;
+  --caramel-soft: #efd8c5;
+  --taupe: #c9afa3;
+  --mushroom: #e1ccc2;
+  --cocoa: #6b4a40;
+  --espresso: #3f2b28;
+  --mocha: #8c6258;
+  --dusty-rose: #cf939b;
+  --dusty-rose-soft: #f5dde0;
+  --mauve: #b68b9a;
+  --mauve-soft: #efdae3;
+  --champagne: #f7e7c8;
+  --sage: #c8d2bd;
+  --sage-soft: #eef3e9;
+
+  --ink: #3f2b28;
+  --muted-ink: #765d55;
+  --paper: rgba(255, 250, 246, 0.84);
+  --paper-solid: #fffaf6;
+}
+
+/* Lighter, pinker mocha background */
+body {
+  background:
+    radial-gradient(circle at top left, rgba(207, 147, 155, 0.26), transparent 30%),
+    radial-gradient(circle at 90% 12%, rgba(239, 218, 227, 0.36), transparent 28%),
+    radial-gradient(circle at 50% 100%, rgba(212, 169, 132, 0.16), transparent 32%),
+    linear-gradient(
+      180deg,
+      #fff9f4 0%,
+      #fae8e6 25%,
+      #f4ddd8 50%,
+      #f2e2d8 76%,
+      #fff8f2 100%
+    ) !important;
+  background-attachment: fixed !important;
+}
+
+/* Header: chic pink mocha, less dark brown */
+.page-header {
+  background:
+    linear-gradient(
+      135deg,
+      #f8dedc 0%,
+      #e7bfc3 32%,
+      #c9969e 65%,
+      #a87978 100%
+    ) !important;
+  color: #fffaf6 !important;
+}
+
+/* Title still chic, but softer */
+.page-header .project-name,
+.project-name {
+  color: #fffaf6 !important;
+  text-shadow: 0 4px 18px rgba(100, 55, 55, 0.22) !important;
+}
+
+.page-header .project-tagline,
+.project-tagline {
+  color: #fff4ef !important;
+}
+
+/* Main notes area: lighter and less cocoa */
+.main-content {
+  background: rgba(255, 250, 246, 0.88) !important;
+  box-shadow:
+    0 18px 42px rgba(121, 76, 72, 0.08),
+    inset 0 1px 0 rgba(255, 255, 255, 0.72) !important;
+}
+
+/* Sidebar: latte-pink coffee menu instead of brown menu */
+.sidebar {
+  background:
+    linear-gradient(
+      180deg,
+      #f2dfd8 0%,
+      #ead1cc 48%,
+      #dfc2bd 100%
+    ) !important;
+  color: var(--espresso) !important;
+  box-shadow: 18px 0 38px rgba(121, 76, 72, 0.16) !important;
+}
+
+.sidebar h2 {
+  background: rgba(255, 250, 246, 0.54) !important;
+  color: #5b3835 !important;
+}
+
+.sidebar details,
+.sidebar .menu-group,
+.sidebar .submenu-group {
+  background: rgba(255, 250, 246, 0.34) !important;
+  border-color: rgba(155, 100, 98, 0.16) !important;
+}
+
+.sidebar a:hover,
+.sidebar summary:hover {
+  background: rgba(255, 250, 246, 0.58) !important;
+  color: #9b5962 !important;
+}
+
+/* Study menu button: lighter */
+.sidebar-toggle-button {
+  background: #f8e5e2 !important;
+  color: #4b302d !important;
+  border-color: rgba(155, 100, 98, 0.22) !important;
+}
+
+.sidebar-toggle-button:hover {
+  background: #f2d4d2 !important;
+}
+
+/* H1 softer */
+.main-content h1 {
+  border-bottom-color: rgba(207, 147, 155, 0.42) !important;
+}
+
+/* H2 notebook tabs: more pink/cream variation, less brown */
+.main-content h2:nth-of-type(5n + 1) {
+  border-left-color: #cf939b !important;
+  background: linear-gradient(to right, rgba(245, 221, 224, 0.72), transparent 80%) !important;
+}
+
+.main-content h2:nth-of-type(5n + 2) {
+  border-left-color: #d4a984 !important;
+  background: linear-gradient(to right, rgba(239, 216, 197, 0.68), transparent 80%) !important;
+}
+
+.main-content h2:nth-of-type(5n + 3) {
+  border-left-color: #b68b9a !important;
+  background: linear-gradient(to right, rgba(239, 218, 227, 0.7), transparent 80%) !important;
+}
+
+.main-content h2:nth-of-type(5n + 4) {
+  border-left-color: #c9afa3 !important;
+  background: linear-gradient(to right, rgba(244, 227, 218, 0.72), transparent 80%) !important;
+}
+
+.main-content h2:nth-of-type(5n + 5) {
+  border-left-color: #c9969e !important;
+  background: linear-gradient(to right, rgba(248, 222, 220, 0.64), transparent 80%) !important;
+}
+
+/* H3 more dusty rose/mauve instead of brown */
+.main-content h3 {
+  color: #8d5961 !important;
+  border-left-color: rgba(207, 147, 155, 0.68) !important;
+}
+
+/* Tables: softer pink-latte notebook */
+.main-content th {
+  background: #f0dcd7 !important;
+  color: #4b302d !important;
+}
+
+.main-content tr:nth-child(even) td {
+  background: rgba(248, 237, 229, 0.55) !important;
+}
+
+.main-content tr:nth-child(odd) td {
+  background: rgba(255, 250, 246, 0.68) !important;
+}
+
+/* Callouts: more blended, less muddy */
+.main-content .note,
+.main-content .ati-box {
+  background: rgba(248, 237, 229, 0.42) !important;
+}
+
+.main-content .nclex,
+.main-content .ati-tip {
+  background: rgba(247, 231, 200, 0.38) !important;
+}
+
+.main-content .danger,
+.main-content .priority,
+.main-content .med {
+  background: rgba(245, 221, 224, 0.42) !important;
+}
+
+.main-content .memory,
+.main-content .lab {
+  background: rgba(239, 218, 227, 0.38) !important;
+}
+
+.main-content .intervention {
+  background: rgba(238, 243, 233, 0.5) !important;
+}
+
+/* Quiz answer dropdowns: champagne/blush instead of tan */
+.main-content details {
+  background: rgba(247, 231, 200, 0.38) !important;
+  border-color: rgba(207, 147, 155, 0.28) !important;
+}
+
+.main-content details > summary {
+  background: rgba(255, 250, 246, 0.76) !important;
+  border-color: rgba(207, 147, 155, 0.26) !important;
+}
+
+/* Homepage/study cards: lighter, more blush-latte variation */
+.study-card,
+.section-card,
+.home-big-button {
+  box-shadow:
+    0 10px 24px rgba(121, 76, 72, 0.07),
+    inset 0 1px 0 rgba(255, 255, 255, 0.74) !important;
+}
+
+.study-card:nth-child(6n + 1),
+.section-card:nth-child(6n + 1),
+.home-big-button:nth-child(6n + 1),
+.study-card.rose-latte,
+.section-card.pink,
+.home-big-button.pink,
+.home-big-button.rose {
+  background: linear-gradient(135deg, rgba(255,250,246,0.9), rgba(245,221,224,0.82)) !important;
+}
+
+.study-card:nth-child(6n + 2),
+.section-card:nth-child(6n + 2),
+.home-big-button:nth-child(6n + 2),
+.study-card.caramel,
+.section-card.yellow,
+.home-big-button.yellow,
+.home-big-button.orange {
+  background: linear-gradient(135deg, rgba(255,250,246,0.9), rgba(239,216,197,0.82)) !important;
+}
+
+.study-card:nth-child(6n + 3),
+.section-card:nth-child(6n + 3),
+.home-big-button:nth-child(6n + 3),
+.study-card.mauve,
+.section-card.purple,
+.home-big-button.purple {
+  background: linear-gradient(135deg, rgba(255,250,246,0.9), rgba(239,218,227,0.82)) !important;
+}
+
+.study-card:nth-child(6n + 4),
+.section-card:nth-child(6n + 4),
+.home-big-button:nth-child(6n + 4),
+.study-card.taupe,
+.section-card.green,
+.home-big-button.green {
+  background: linear-gradient(135deg, rgba(255,250,246,0.9), rgba(244,227,218,0.82)) !important;
+}
+
+.study-card:nth-child(6n + 5),
+.section-card:nth-child(6n + 5),
+.home-big-button:nth-child(6n + 5),
+.study-card.vanilla,
+.section-card.blue,
+.home-big-button.blue {
+  background: linear-gradient(135deg, rgba(255,250,246,0.94), rgba(247,231,200,0.72)) !important;
+}
+
+.study-card:nth-child(6n + 6),
+.section-card:nth-child(6n + 6),
+.home-big-button:nth-child(6n + 6),
+.study-card.cocoa,
+.home-big-button.brown {
+  background: linear-gradient(135deg, rgba(255,250,246,0.9), rgba(234,209,197,0.74)) !important;
+}
