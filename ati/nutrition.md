@@ -27,7 +27,7 @@ Nutrition shows up everywhere on the ATI exam — not just in one obvious "diet"
 <p>GERD, PUD, celiac disease, dumping syndrome, bariatric surgery, pancreatitis, cirrhosis, diverticular disease, IBD, IBS, and ostomy nutrition.</p>
 </a>
 
-<a class="study-card coming-soon" href="#">
+<a class="study-card" href="{{ '/ati/nutrition/endocrine-disorders.html' | relative_url }}">
 <h2>Endocrine &amp; Diabetes Nutrition</h2>
 <p>Type 1 vs. type 2 diabetes, hypoglycemia/hyperglycemia, DKA vs. HHS, Somogyi and dawn phenomenon, glycemic index, and carbohydrate counting. Coming soon.</p>
 </a>
