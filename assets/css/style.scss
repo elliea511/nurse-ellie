@@ -4,38 +4,43 @@
 @import "{{ site.theme }}";
 
 /* =========================================================
-   MOCHA CHIC FULL REPLACEMENT CSS
-   Theme: cream, latte, taupe, cocoa, dusty rose, mauve
-   Keeps existing functionality/classes but replaces aesthetics
+   ELLIE'S COFFEE SHOP STUDY THEME
+   Full replacement CSS
+   No CSS decorations — only layout, colors, tabs, cards, spacing
    ========================================================= */
 
-/* ---------- Color System ---------- */
-:root {
-  --cream: #fbf3ea;
-  --cream-soft: #fff9f3;
-  --vanilla: #f7eadc;
-  --latte: #e9d3bf;
-  --latte-soft: #f1dfcf;
-  --caramel: #c9976b;
-  --caramel-soft: #ead1b7;
-  --taupe: #b9a08c;
-  --mushroom: #d8c7b8;
-  --cocoa: #6f4e3d;
-  --espresso: #3f2b24;
-  --mocha: #8a6250;
-  --dusty-rose: #c98f95;
-  --dusty-rose-soft: #f2d6d8;
-  --mauve: #a98491;
-  --mauve-soft: #ead7de;
-  --champagne: #f4e3c1;
-  --sage: #c8d2bd;
-  --sage-soft: #eef3e9;
+/* =========================================================
+   COLOR SYSTEM
+   Brown is only one accent, not the whole site.
+   ========================================================= */
 
-  --ink: #3f2b24;
-  --muted-ink: #725b50;
-  --soft-border: rgba(111, 78, 61, 0.18);
-  --paper: rgba(255, 249, 243, 0.82);
-  --paper-solid: #fffaf5;
+:root {
+  --cream: #fff9f2;
+  --cream-2: #fff4e7;
+  --soft-peach: #f6d7ae;
+  --yellow: #ffd77d;
+  --champagne: #efe3c3;
+
+  --pink: #f1aaa7;
+  --rose: #e8b7b9;
+  --soft-pink: #f8d9d8;
+
+  --sage: #b8b68b;
+  --olive: #c5c7a0;
+  --bluegreen: #b8d3d5;
+
+  --caramel: #d8ad72;
+  --latte: #e2c6a4;
+  --taupe: #b39c8e;
+
+  --mocha: #9d6548;
+  --espresso: #754326;
+  --ink: #4b2d24;
+  --muted-ink: #6f5a51;
+
+  --paper: rgba(255, 249, 242, 0.94);
+  --paper-soft: rgba(255, 251, 246, 0.9);
+  --border-soft: rgba(75, 45, 36, 0.12);
 }
 
 /* =========================================================
@@ -50,19 +55,22 @@ body {
 body {
   margin: 0;
   color: var(--ink) !important;
+  font-family: Georgia, "Times New Roman", serif;
   background:
-    radial-gradient(circle at top left, rgba(201, 143, 149, 0.22), transparent 28%),
-    radial-gradient(circle at 90% 10%, rgba(201, 151, 107, 0.18), transparent 26%),
+    radial-gradient(circle at 8% 8%, rgba(241, 170, 167, 0.35), transparent 28%),
+    radial-gradient(circle at 88% 10%, rgba(255, 215, 125, 0.32), transparent 28%),
+    radial-gradient(circle at 14% 82%, rgba(184, 211, 213, 0.34), transparent 30%),
+    radial-gradient(circle at 86% 84%, rgba(184, 182, 139, 0.30), transparent 32%),
     linear-gradient(
       180deg,
-      #fff8f1 0%,
-      #f8e8dd 24%,
-      #ead3c3 52%,
-      #dfc8ba 76%,
-      #f7efe8 100%
+      #fffaf5 0%,
+      #f9dfdc 24%,
+      #fff2cf 46%,
+      #eaf0df 68%,
+      #eef7f8 88%,
+      #fff9f2 100%
     ) !important;
   background-attachment: fixed !important;
-  font-family: Georgia, "Times New Roman", serif;
 }
 
 /* =========================================================
@@ -71,29 +79,31 @@ body {
 
 .page-header {
   background:
+    radial-gradient(circle at 18% 14%, rgba(255, 215, 125, 0.42), transparent 26%),
+    radial-gradient(circle at 82% 20%, rgba(184, 211, 213, 0.30), transparent 24%),
     linear-gradient(
       135deg,
-      #f4d7d5 0%,
-      #d9b1ad 32%,
-      #a77d73 68%,
-      #6f4e3d 100%
+      #f1aaa7 0%,
+      #ffd77d 34%,
+      #b8b68b 66%,
+      #9d6548 100%
     ) !important;
-  color: var(--cream-soft) !important;
+  color: var(--cream) !important;
   padding: 2.6rem 1rem 2.4rem !important;
-  border-bottom: 1px solid rgba(63, 43, 36, 0.16);
+  border-bottom: 1px solid rgba(75, 45, 36, 0.12);
 }
 
 .page-header .project-name,
 .project-name {
-  color: #fff8f1 !important;
+  color: #fffaf5 !important;
   font-family: Georgia, "Times New Roman", serif !important;
-  font-size: clamp(2.1rem, 5vw, 4rem) !important;
-  font-weight: 500 !important;
-  letter-spacing: 0.06em !important;
+  font-size: clamp(2.3rem, 5vw, 4.2rem) !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.055em !important;
   text-transform: uppercase !important;
   line-height: 1.05 !important;
-  text-shadow: 0 4px 18px rgba(63, 43, 36, 0.28) !important;
   margin-bottom: 0.65rem !important;
+  text-shadow: 0 3px 14px rgba(75, 45, 36, 0.24) !important;
 }
 
 .page-header .project-name::before,
@@ -101,17 +111,17 @@ body {
 .project-name::before,
 .project-name::after {
   content: "" !important;
+  display: none !important;
 }
 
 .page-header .project-tagline,
 .project-tagline {
-  color: #fff1e7 !important;
+  color: #fff9f2 !important;
   font-family: Georgia, "Times New Roman", serif !important;
-  font-size: 1rem !important;
-  font-weight: 400 !important;
+  font-size: 1.05rem !important;
+  font-weight: 500 !important;
   letter-spacing: 0.12em !important;
   text-transform: uppercase !important;
-  opacity: 0.94 !important;
   background: transparent !important;
   padding: 0 !important;
   border-radius: 0 !important;
@@ -126,31 +136,34 @@ body {
   align-items: flex-start;
   max-width: 1440px !important;
   margin: 0 auto !important;
-  padding: 2rem 1.2rem 3rem !important;
+  padding: 2rem 1.2rem 3.4rem !important;
   gap: 1.5rem !important;
 }
 
-/* Main notes blend into the page instead of looking like a hard card */
 .main-content {
   flex: 1;
   min-width: 0;
   width: 100%;
   max-width: 1180px !important;
   margin: 0 auto !important;
-  background: var(--paper) !important;
   color: var(--ink) !important;
-  padding: clamp(1.15rem, 2.5vw, 2.35rem) !important;
+  background:
+    linear-gradient(
+      180deg,
+      rgba(255, 249, 242, 0.94),
+      rgba(255, 251, 246, 0.90)
+    ) !important;
+  padding: clamp(1.8rem, 3.2vw, 3rem) !important;
   border-radius: 28px !important;
-  border: 1px solid rgba(255, 255, 255, 0.62) !important;
+  border: 1px solid rgba(255, 255, 255, 0.68) !important;
   box-shadow:
-    0 18px 46px rgba(63, 43, 36, 0.10),
-    inset 0 1px 0 rgba(255, 255, 255, 0.55) !important;
-  backdrop-filter: blur(8px);
+    0 16px 36px rgba(117, 67, 38, 0.06),
+    inset 0 1px 0 rgba(255, 255, 255, 0.86) !important;
+  backdrop-filter: blur(6px);
 }
 
 /* =========================================================
    SLIDE-OUT SIDEBAR
-   Keeps current functionality/classes
    ========================================================= */
 
 .sidebar-toggle-checkbox {
@@ -162,23 +175,24 @@ body {
   top: 18px !important;
   left: 18px !important;
   z-index: 9999 !important;
-  background: #f5e5d8 !important;
-  color: var(--espresso) !important;
-  border: 1px solid rgba(111, 78, 61, 0.26) !important;
+  background: linear-gradient(135deg, #fff9f2, #f1aaa7, #ffd77d) !important;
+  color: var(--ink) !important;
+  border: 1px solid rgba(117, 67, 38, 0.18) !important;
   border-radius: 999px !important;
-  padding: 0.7rem 1rem !important;
+  padding: 0.75rem 1.05rem !important;
   box-shadow:
-    0 8px 22px rgba(63, 43, 36, 0.14),
-    inset 0 1px 0 rgba(255, 255, 255, 0.7) !important;
+    0 8px 22px rgba(75, 45, 36, 0.14),
+    inset 0 1px 0 rgba(255, 255, 255, 0.76) !important;
   font-family: Georgia, "Times New Roman", serif !important;
-  font-weight: 700 !important;
-  letter-spacing: 0.03em !important;
+  font-size: 1.02rem !important;
+  font-weight: 800 !important;
+  letter-spacing: 0.02em !important;
   cursor: pointer !important;
   transition: left 0.22s ease, transform 0.18s ease, background 0.18s ease !important;
 }
 
 .sidebar-toggle-button:hover {
-  background: #efd8cc !important;
+  background: linear-gradient(135deg, #fff9f2, #ffd77d, #f1aaa7) !important;
   transform: translateY(-1px);
 }
 
@@ -198,7 +212,7 @@ body {
   display: block !important;
   position: fixed !important;
   inset: 0 !important;
-  background: rgba(63, 43, 36, 0.20) !important;
+  background: rgba(75, 45, 36, 0.18) !important;
   z-index: 9997 !important;
   cursor: pointer !important;
 }
@@ -218,12 +232,21 @@ body {
   padding: 1rem !important;
   border-radius: 0 28px 28px 0 !important;
   background:
-    linear-gradient(180deg, #e7d4c4, #d8c2b3 54%, #cbb4a4) !important;
+    radial-gradient(circle at 10% 8%, rgba(255, 215, 125, 0.36), transparent 26%),
+    radial-gradient(circle at 90% 20%, rgba(184, 211, 213, 0.30), transparent 28%),
+    linear-gradient(
+      180deg,
+      #f5d6d5 0%,
+      #fff3d0 30%,
+      #e8efd8 58%,
+      #dceff0 82%,
+      #fff9f2 100%
+    ) !important;
+  color: var(--ink) !important;
   border: none !important;
-  border-right: 1px solid rgba(63, 43, 36, 0.18) !important;
-  box-shadow: 18px 0 40px rgba(63, 43, 36, 0.22) !important;
+  border-right: 1px solid rgba(75, 45, 36, 0.10) !important;
+  box-shadow: 18px 0 40px rgba(75, 45, 36, 0.18) !important;
   transition: left 0.25s ease !important;
-  color: var(--espresso) !important;
 }
 
 .sidebar-toggle-checkbox:checked ~ .page-wrapper .sidebar {
@@ -231,28 +254,27 @@ body {
 }
 
 .sidebar h2 {
-  color: var(--espresso) !important;
-  background: rgba(255, 249, 243, 0.45) !important;
-  border: 1px solid rgba(111, 78, 61, 0.16) !important;
+  color: var(--ink) !important;
+  background: rgba(255, 249, 242, 0.68) !important;
+  border: 1px solid rgba(75, 45, 36, 0.12) !important;
   border-radius: 18px !important;
-  padding: 0.8rem 0.7rem !important;
+  padding: 0.9rem 0.7rem !important;
   margin: 0 0 1rem 0 !important;
   text-align: center !important;
-  font-size: 1.05rem !important;
+  font-size: 1.18rem !important;
   font-family: Georgia, "Times New Roman", serif !important;
-  font-weight: 700 !important;
-  letter-spacing: 0.07em !important;
+  font-weight: 800 !important;
+  letter-spacing: 0.05em !important;
   text-transform: uppercase !important;
-  box-shadow: none !important;
 }
 
 .sidebar h3 {
-  color: var(--espresso) !important;
-  font-size: 0.92rem !important;
-  margin-top: 1rem !important;
-  margin-bottom: 0.35rem !important;
-  border-bottom: 1px solid rgba(111, 78, 61, 0.18) !important;
-  padding-bottom: 0.25rem !important;
+  color: var(--ink) !important;
+  font-size: 1.02rem !important;
+  margin-top: 1.1rem !important;
+  margin-bottom: 0.45rem !important;
+  border-bottom: 1px solid rgba(75, 45, 36, 0.14) !important;
+  padding-bottom: 0.28rem !important;
 }
 
 .sidebar ul {
@@ -262,60 +284,95 @@ body {
 }
 
 .sidebar li {
-  margin: 0.25rem 0 !important;
+  margin: 0.28rem 0 !important;
 }
 
 .sidebar a {
   display: block !important;
-  color: var(--espresso) !important;
+  color: var(--ink) !important;
   text-decoration: none !important;
   border-bottom: none !important;
-  font-weight: 600 !important;
-  padding: 0.48rem 0.62rem !important;
-  margin: 0.12rem 0 !important;
+  font-weight: 650 !important;
+  padding: 0.52rem 0.65rem !important;
+  margin: 0.14rem 0 !important;
   border-radius: 12px !important;
-  line-height: 1.25 !important;
+  line-height: 1.28 !important;
   transition: background 0.18s ease, color 0.18s ease, transform 0.18s ease !important;
 }
 
 .sidebar a:hover {
-  background: rgba(255, 249, 243, 0.52) !important;
-  color: #7d474d !important;
+  background: rgba(255, 249, 242, 0.72) !important;
+  color: #9b5658 !important;
   transform: translateX(3px);
 }
 
 .sidebar > a {
   text-align: center !important;
-  background: rgba(255, 249, 243, 0.42) !important;
-  border: 1px solid rgba(111, 78, 61, 0.14) !important;
-  margin-bottom: 0.85rem !important;
+  background: rgba(255, 249, 242, 0.62) !important;
+  border: 1px solid rgba(75, 45, 36, 0.12) !important;
+  margin-bottom: 0.9rem !important;
 }
 
-.sidebar details {
-  margin: 0.7rem 0 !important;
-  background: rgba(255, 249, 243, 0.28) !important;
-  border: 1px solid rgba(111, 78, 61, 0.15) !important;
-  border-radius: 16px !important;
-  padding: 0.32rem !important;
+.sidebar details,
+.sidebar .menu-group {
+  margin: 0.75rem 0 !important;
+  border-radius: 17px !important;
+  padding: 0.34rem !important;
   box-shadow: none !important;
+}
+
+.sidebar details:nth-of-type(6n + 1),
+.sidebar .menu-group:nth-of-type(6n + 1) {
+  background: rgba(241, 170, 167, 0.28) !important;
+  border: 1px solid rgba(241, 170, 167, 0.44) !important;
+}
+
+.sidebar details:nth-of-type(6n + 2),
+.sidebar .menu-group:nth-of-type(6n + 2) {
+  background: rgba(255, 215, 125, 0.26) !important;
+  border: 1px solid rgba(255, 215, 125, 0.44) !important;
+}
+
+.sidebar details:nth-of-type(6n + 3),
+.sidebar .menu-group:nth-of-type(6n + 3) {
+  background: rgba(184, 182, 139, 0.26) !important;
+  border: 1px solid rgba(184, 182, 139, 0.44) !important;
+}
+
+.sidebar details:nth-of-type(6n + 4),
+.sidebar .menu-group:nth-of-type(6n + 4) {
+  background: rgba(184, 211, 213, 0.28) !important;
+  border: 1px solid rgba(184, 211, 213, 0.44) !important;
+}
+
+.sidebar details:nth-of-type(6n + 5),
+.sidebar .menu-group:nth-of-type(6n + 5) {
+  background: rgba(232, 183, 185, 0.28) !important;
+  border: 1px solid rgba(232, 183, 185, 0.44) !important;
+}
+
+.sidebar details:nth-of-type(6n + 6),
+.sidebar .menu-group:nth-of-type(6n + 6) {
+  background: rgba(239, 227, 195, 0.34) !important;
+  border: 1px solid rgba(239, 227, 195, 0.50) !important;
 }
 
 .sidebar summary {
   cursor: pointer !important;
-  color: var(--espresso) !important;
-  font-weight: 700 !important;
-  padding: 0.58rem 0.66rem !important;
+  color: var(--ink) !important;
+  font-weight: 800 !important;
+  padding: 0.62rem 0.68rem !important;
   border-radius: 12px !important;
   list-style: none !important;
   white-space: normal !important;
-  font-size: 0.95rem !important;
+  font-size: 1rem !important;
   background: transparent !important;
   transition: background 0.18s ease, color 0.18s ease !important;
 }
 
 .sidebar summary:hover {
-  background: rgba(255, 249, 243, 0.45) !important;
-  color: #7d474d !important;
+  background: rgba(255, 249, 242, 0.72) !important;
+  color: #9b5658 !important;
 }
 
 .sidebar summary::-webkit-details-marker {
@@ -324,102 +381,79 @@ body {
 
 .sidebar summary::before {
   content: "▸ " !important;
-  color: var(--mocha) !important;
-  font-weight: 700 !important;
+  color: var(--ink) !important;
+  opacity: 0.75;
 }
 
 .sidebar details[open] > summary::before {
   content: "▾ " !important;
-  color: #7d474d !important;
 }
 
 .sidebar details ul {
   padding-left: 0.85rem !important;
-  margin-top: 0.35rem !important;
-}
-
-.sidebar .menu-group {
-  background: rgba(255, 249, 243, 0.22) !important;
-  border: 1px solid rgba(111, 78, 61, 0.16) !important;
-  border-radius: 18px !important;
-  padding: 0.35rem !important;
-  margin: 0.75rem 0 !important;
+  margin-top: 0.4rem !important;
 }
 
 .sidebar .submenu-group {
   margin-left: 0.55rem !important;
-  background: rgba(255, 249, 243, 0.22) !important;
-  border: 1px solid rgba(111, 78, 61, 0.12) !important;
+  background: rgba(255, 249, 242, 0.34) !important;
+  border: 1px solid rgba(75, 45, 36, 0.10) !important;
   border-radius: 14px !important;
   padding: 0.25rem !important;
 }
 
 .sidebar .submenu-group a {
   margin-left: 0.45rem !important;
-  font-size: 0.88rem !important;
+  font-size: 0.9rem !important;
 }
 
 .sidebar hr {
   border: none !important;
-  border-top: 1px solid rgba(111, 78, 61, 0.20) !important;
-  margin: 0.9rem 0 !important;
-}
-
-.sidebar::-webkit-scrollbar {
-  width: 8px;
-}
-
-.sidebar::-webkit-scrollbar-track {
-  background: rgba(255, 249, 243, 0.28);
-}
-
-.sidebar::-webkit-scrollbar-thumb {
-  background: rgba(111, 78, 61, 0.28);
-  border-radius: 999px;
-}
-
-.sidebar::-webkit-scrollbar-thumb:hover {
-  background: rgba(111, 78, 61, 0.42);
+  border-top: 1px solid rgba(75, 45, 36, 0.16) !important;
+  margin: 1rem 0 !important;
 }
 
 /* =========================================================
-   TYPOGRAPHY
+   GENERAL TEXT SPACING
    ========================================================= */
 
 .main-content p {
-  line-height: 1.72 !important;
-  margin-top: 0.75rem !important;
-  margin-bottom: 0.9rem !important;
+  line-height: 1.85 !important;
+  margin-top: 1rem !important;
+  margin-bottom: 1.25rem !important;
 }
 
 .main-content ul,
 .main-content ol {
-  margin-top: 0.55rem !important;
-  margin-bottom: 1rem !important;
+  margin-top: 1rem !important;
+  margin-bottom: 1.45rem !important;
+  padding-left: 1.55rem !important;
 }
 
 .main-content li {
-  line-height: 1.55 !important;
-  margin: 0.22rem 0 !important;
+  line-height: 1.78 !important;
+  margin: 0.45rem 0 !important;
 }
 
 .main-content strong {
-  color: var(--espresso);
+  color: var(--ink);
+  font-weight: 800;
 }
 
 .main-content em {
-  color: var(--mocha);
+  color: var(--muted-ink);
 }
 
 .main-content hr {
   border: none !important;
-  border-top: 1px solid rgba(111, 78, 61, 0.18) !important;
-  margin: 2.3rem 0 !important;
+  border-top: 1px solid rgba(75, 45, 36, 0.14) !important;
+  margin: 3.2rem 0 !important;
 }
 
 /* =========================================================
-   HEADINGS: NOTEBOOK HIERARCHY
-   H2 automatically becomes muted rotating notebook tabs
+   HEADINGS / LABELING SYSTEM
+   Everything that labels something is larger and clear.
+   H2/H3/H4 keep size differences.
    ========================================================= */
 
 .main-content h1,
@@ -429,220 +463,386 @@ body {
   scroll-margin-top: 24px;
 }
 
+/* H1 = page title */
 .main-content h1 {
-  color: var(--espresso) !important;
+  color: var(--ink) !important;
   background: transparent !important;
-  text-align: left !important;
   font-family: Georgia, "Times New Roman", serif !important;
-  font-size: clamp(2rem, 4.5vw, 3rem) !important;
-  font-weight: 500 !important;
-  letter-spacing: 0.035em !important;
-  line-height: 1.1 !important;
-  padding: 0 0 0.75rem 0 !important;
-  margin: 0 0 1.75rem 0 !important;
+  font-size: clamp(2.35rem, 4vw, 3.25rem) !important;
+  font-weight: 800 !important;
+  letter-spacing: 0.03em !important;
+  line-height: 1.12 !important;
+  text-align: center !important;
+  padding: 0 0 1rem 0 !important;
+  margin: 0 0 2.6rem 0 !important;
   border: none !important;
-  border-bottom: 2px solid rgba(201, 143, 149, 0.42) !important;
+  border-bottom: 4px double rgba(75, 45, 36, 0.25) !important;
   box-shadow: none !important;
   text-transform: none !important;
 }
 
-.main-content h2 {
-  position: relative !important;
-  color: var(--espresso) !important;
-  background: transparent !important;
-  font-family: Georgia, "Times New Roman", serif !important;
-  font-size: 1.55rem !important;
-  font-weight: 700 !important;
-  line-height: 1.25 !important;
-  padding: 0.82rem 1rem 0.82rem 1.2rem !important;
-  margin: 2.7rem 0 1.1rem 0 !important;
-  border: none !important;
-  border-left: 14px solid var(--dusty-rose) !important;
-  border-radius: 0 18px 18px 0 !important;
-  box-shadow: none !important;
-  letter-spacing: 0.015em !important;
-}
-
-.main-content h2::before {
+.main-content h1::before {
   content: "" !important;
-  position: absolute;
-  left: -14px;
-  top: 0;
-  bottom: 0;
-  width: 14px;
-  border-radius: 12px 0 0 12px;
-  background: currentColor;
-  opacity: 0.08;
+  display: none !important;
 }
 
-.main-content h2::after {
+.main-content h1::after {
   content: "" !important;
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: -5px;
-  height: 1px;
-  background: rgba(111, 78, 61, 0.14);
+  display: block !important;
+  width: 150px !important;
+  height: 8px !important;
+  margin: 0.95rem auto 0 !important;
+  border-radius: 999px !important;
+  background: linear-gradient(
+    90deg,
+    var(--pink),
+    var(--yellow),
+    var(--sage),
+    var(--bluegreen),
+    var(--rose)
+  ) !important;
 }
 
-/* Muted automatic H2 color rotation */
-.main-content h2:nth-of-type(5n + 1) {
-  border-left-color: var(--dusty-rose) !important;
-  background: linear-gradient(to right, rgba(242, 214, 216, 0.56), transparent 78%) !important;
-}
-
-.main-content h2:nth-of-type(5n + 2) {
-  border-left-color: var(--caramel) !important;
-  background: linear-gradient(to right, rgba(234, 209, 183, 0.58), transparent 78%) !important;
-}
-
-.main-content h2:nth-of-type(5n + 3) {
-  border-left-color: var(--mauve) !important;
-  background: linear-gradient(to right, rgba(234, 215, 222, 0.56), transparent 78%) !important;
-}
-
-.main-content h2:nth-of-type(5n + 4) {
-  border-left-color: var(--taupe) !important;
-  background: linear-gradient(to right, rgba(216, 199, 184, 0.56), transparent 78%) !important;
-}
-
-.main-content h2:nth-of-type(5n + 5) {
-  border-left-color: var(--mocha) !important;
-  background: linear-gradient(to right, rgba(185, 160, 140, 0.42), transparent 78%) !important;
-}
-
-.main-content h3 {
-  color: var(--mocha) !important;
-  background: transparent !important;
-  font-family: Georgia, "Times New Roman", serif !important;
-  font-size: 1.22rem !important;
-  font-weight: 700 !important;
-  line-height: 1.3 !important;
-  padding: 0.3rem 0 0.35rem 0.72rem !important;
-  margin: 1.8rem 0 0.72rem 0 !important;
-  border: none !important;
-  border-left: 5px solid rgba(201, 143, 149, 0.62) !important;
-  border-radius: 0 !important;
-  box-shadow: none !important;
-}
-
-.main-content h3::before {
-  content: "" !important;
-}
-
-.main-content h4 {
-  color: var(--espresso) !important;
-  background: transparent !important;
-  font-size: 1.02rem !important;
-  font-weight: 700 !important;
-  line-height: 1.35 !important;
-  margin: 1.25rem 0 0.45rem 0 !important;
-  padding: 0 !important;
-  border: none !important;
-  letter-spacing: 0.01em !important;
-}
-
-/* Existing custom heading classes supported */
+/* H2 = major subject / chapter tab */
+.main-content h2,
 .main-content .topic-header,
 .main-content .section-divider {
   position: relative !important;
   display: block !important;
-  color: var(--espresso) !important;
-  background: linear-gradient(to right, rgba(242, 214, 216, 0.66), rgba(244, 227, 193, 0.34), transparent) !important;
-  font-family: Georgia, "Times New Roman", serif !important;
-  font-size: 1.55rem !important;
-  font-weight: 700 !important;
-  line-height: 1.25 !important;
-  letter-spacing: 0.02em !important;
-  text-align: left !important;
-  text-transform: none !important;
-  padding: 0.85rem 1rem 0.85rem 1.15rem !important;
-  margin: 2.7rem 0 1.2rem 0 !important;
-  border: none !important;
-  border-left: 14px solid var(--dusty-rose) !important;
-  border-radius: 0 18px 18px 0 !important;
-  box-shadow: none !important;
-}
-
-.main-content .topic-header::before,
-.main-content .topic-header::after,
-.main-content .section-divider::before,
-.main-content .section-divider::after {
-  content: "" !important;
-}
-
-.main-content .section-divider.small,
-.main-content .topic-subheader {
-  color: var(--mocha) !important;
+  color: var(--ink) !important;
   background: transparent !important;
-  font-size: 1.18rem !important;
-  font-weight: 700 !important;
+  font-family: Georgia, "Times New Roman", serif !important;
+  font-size: 1.85rem !important;
+  font-weight: 850 !important;
+  letter-spacing: 0.02em !important;
+  line-height: 1.2 !important;
   text-align: left !important;
   text-transform: none !important;
-  letter-spacing: 0.01em !important;
-  padding: 0.35rem 0 0.35rem 0.7rem !important;
-  margin: 1.6rem 0 0.7rem 0 !important;
+
+  margin: 4.4rem 0 1.9rem 0 !important;
+  padding: 1.4rem 1rem 1rem 0 !important;
+
   border: none !important;
-  border-left: 5px solid rgba(201, 151, 107, 0.65) !important;
+  border-bottom: 3px solid rgba(75, 45, 36, 0.20) !important;
   border-radius: 0 !important;
   box-shadow: none !important;
 }
 
+/* H2 tab */
+.main-content h2::before,
+.main-content .topic-header::before,
+.main-content .section-divider::before {
+  content: "" !important;
+  position: absolute !important;
+  left: 0 !important;
+  top: 0 !important;
+  width: 104px !important;
+  height: 15px !important;
+  border-radius: 999px !important;
+  background: var(--pink) !important;
+  opacity: 1 !important;
+}
+
+/* H2 fade line */
+.main-content h2::after,
+.main-content .topic-header::after,
+.main-content .section-divider::after {
+  content: "" !important;
+  position: absolute !important;
+  left: 118px !important;
+  right: 0 !important;
+  top: 6px !important;
+  height: 4px !important;
+  border-radius: 999px !important;
+  background: linear-gradient(
+    90deg,
+    rgba(241, 170, 167, 0.72),
+    rgba(241, 170, 167, 0.22),
+    transparent
+  ) !important;
+}
+
+/* First H2 after page title */
+.main-content h1 + h2,
+.main-content h1 + .topic-header,
+.main-content h1 + .section-divider {
+  margin-top: 2.8rem !important;
+}
+
+/* H2 color rotation */
+.main-content h2:nth-of-type(8n + 1)::before {
+  background: var(--pink) !important;
+}
+
+.main-content h2:nth-of-type(8n + 1)::after {
+  background: linear-gradient(90deg, rgba(241,170,167,0.72), rgba(241,170,167,0.22), transparent) !important;
+}
+
+.main-content h2:nth-of-type(8n + 2)::before {
+  background: var(--yellow) !important;
+}
+
+.main-content h2:nth-of-type(8n + 2)::after {
+  background: linear-gradient(90deg, rgba(255,215,125,0.72), rgba(255,215,125,0.22), transparent) !important;
+}
+
+.main-content h2:nth-of-type(8n + 3)::before {
+  background: var(--sage) !important;
+}
+
+.main-content h2:nth-of-type(8n + 3)::after {
+  background: linear-gradient(90deg, rgba(184,182,139,0.72), rgba(184,182,139,0.22), transparent) !important;
+}
+
+.main-content h2:nth-of-type(8n + 4)::before {
+  background: var(--bluegreen) !important;
+}
+
+.main-content h2:nth-of-type(8n + 4)::after {
+  background: linear-gradient(90deg, rgba(184,211,213,0.72), rgba(184,211,213,0.22), transparent) !important;
+}
+
+.main-content h2:nth-of-type(8n + 5)::before {
+  background: var(--rose) !important;
+}
+
+.main-content h2:nth-of-type(8n + 5)::after {
+  background: linear-gradient(90deg, rgba(232,183,185,0.72), rgba(232,183,185,0.22), transparent) !important;
+}
+
+.main-content h2:nth-of-type(8n + 6)::before {
+  background: var(--champagne) !important;
+}
+
+.main-content h2:nth-of-type(8n + 6)::after {
+  background: linear-gradient(90deg, rgba(239,227,195,0.78), rgba(239,227,195,0.24), transparent) !important;
+}
+
+.main-content h2:nth-of-type(8n + 7)::before {
+  background: var(--soft-peach) !important;
+}
+
+.main-content h2:nth-of-type(8n + 7)::after {
+  background: linear-gradient(90deg, rgba(246,215,174,0.72), rgba(246,215,174,0.22), transparent) !important;
+}
+
+.main-content h2:nth-of-type(8n + 8)::before {
+  background: var(--caramel) !important;
+}
+
+.main-content h2:nth-of-type(8n + 8)::after {
+  background: linear-gradient(90deg, rgba(216,173,114,0.72), rgba(216,173,114,0.22), transparent) !important;
+}
+
+/* H3 = subsection tab */
+.main-content h3,
+.main-content .topic-subheader,
+.main-content .section-divider.small {
+  position: relative !important;
+  display: block !important;
+  color: var(--ink) !important;
+  background: transparent !important;
+  font-family: Georgia, "Times New Roman", serif !important;
+  font-size: 1.38rem !important;
+  font-weight: 825 !important;
+  line-height: 1.28 !important;
+  text-align: left !important;
+  text-transform: none !important;
+  letter-spacing: 0.01em !important;
+
+  margin: 3rem 0 1.25rem 0 !important;
+  padding: 1rem 0.85rem 0.78rem 0 !important;
+
+  border: none !important;
+  border-bottom: 2px solid rgba(75, 45, 36, 0.13) !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+}
+
+/* H3 tab */
+.main-content h3::before,
+.main-content .topic-subheader::before,
+.main-content .section-divider.small::before {
+  content: "" !important;
+  position: absolute !important;
+  left: 0 !important;
+  top: 0 !important;
+  width: 72px !important;
+  height: 11px !important;
+  border-radius: 999px !important;
+  background: var(--bluegreen) !important;
+}
+
+/* H3 fade line */
+.main-content h3::after,
+.main-content .topic-subheader::after,
+.main-content .section-divider.small::after {
+  content: "" !important;
+  position: absolute !important;
+  left: 84px !important;
+  right: 0 !important;
+  top: 4px !important;
+  height: 3px !important;
+  border-radius: 999px !important;
+  background: linear-gradient(
+    90deg,
+    rgba(184, 211, 213, 0.66),
+    rgba(184, 211, 213, 0.18),
+    transparent
+  ) !important;
+}
+
+/* H3 color rotation */
+.main-content h3:nth-of-type(6n + 1)::before {
+  background: var(--bluegreen) !important;
+}
+
+.main-content h3:nth-of-type(6n + 1)::after {
+  background: linear-gradient(90deg, rgba(184,211,213,0.66), rgba(184,211,213,0.18), transparent) !important;
+}
+
+.main-content h3:nth-of-type(6n + 2)::before {
+  background: var(--sage) !important;
+}
+
+.main-content h3:nth-of-type(6n + 2)::after {
+  background: linear-gradient(90deg, rgba(184,182,139,0.62), rgba(184,182,139,0.16), transparent) !important;
+}
+
+.main-content h3:nth-of-type(6n + 3)::before {
+  background: var(--rose) !important;
+}
+
+.main-content h3:nth-of-type(6n + 3)::after {
+  background: linear-gradient(90deg, rgba(232,183,185,0.62), rgba(232,183,185,0.16), transparent) !important;
+}
+
+.main-content h3:nth-of-type(6n + 4)::before {
+  background: var(--yellow) !important;
+}
+
+.main-content h3:nth-of-type(6n + 4)::after {
+  background: linear-gradient(90deg, rgba(255,215,125,0.62), rgba(255,215,125,0.16), transparent) !important;
+}
+
+.main-content h3:nth-of-type(6n + 5)::before {
+  background: var(--soft-peach) !important;
+}
+
+.main-content h3:nth-of-type(6n + 5)::after {
+  background: linear-gradient(90deg, rgba(246,215,174,0.64), rgba(246,215,174,0.18), transparent) !important;
+}
+
+.main-content h3:nth-of-type(6n + 6)::before {
+  background: var(--pink) !important;
+}
+
+.main-content h3:nth-of-type(6n + 6)::after {
+  background: linear-gradient(90deg, rgba(241,170,167,0.62), rgba(241,170,167,0.16), transparent) !important;
+}
+
+/* H4 = mini subject label */
+.main-content h4 {
+  display: block !important;
+  color: var(--espresso) !important;
+  background: linear-gradient(
+    90deg,
+    rgba(216, 173, 114, 0.18),
+    transparent 64%
+  ) !important;
+  font-family: Georgia, "Times New Roman", serif !important;
+  font-size: 1.16rem !important;
+  font-weight: 850 !important;
+  line-height: 1.35 !important;
+  margin: 2rem 0 0.75rem 0 !important;
+  padding: 0.52rem 0 0.4rem 0.95rem !important;
+  border: none !important;
+  border-left: 6px solid var(--caramel) !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+}
+
+/* H4 color rotation */
+.main-content h4:nth-of-type(5n + 1) {
+  border-left-color: var(--caramel) !important;
+  background: linear-gradient(90deg, rgba(216,173,114,0.18), transparent 64%) !important;
+}
+
+.main-content h4:nth-of-type(5n + 2) {
+  border-left-color: var(--pink) !important;
+  background: linear-gradient(90deg, rgba(241,170,167,0.16), transparent 64%) !important;
+}
+
+.main-content h4:nth-of-type(5n + 3) {
+  border-left-color: var(--sage) !important;
+  background: linear-gradient(90deg, rgba(184,182,139,0.16), transparent 64%) !important;
+}
+
+.main-content h4:nth-of-type(5n + 4) {
+  border-left-color: var(--bluegreen) !important;
+  background: linear-gradient(90deg, rgba(184,211,213,0.16), transparent 64%) !important;
+}
+
+.main-content h4:nth-of-type(5n + 5) {
+  border-left-color: var(--rose) !important;
+  background: linear-gradient(90deg, rgba(232,183,185,0.16), transparent 64%) !important;
+}
+
 /* =========================================================
-   LINKS + BUTTON-LIKE LINKS
+   LINKS + BUTTON LINKS
    ========================================================= */
 
 .main-content a {
-  color: #8d4f55 !important;
-  font-weight: 700 !important;
+  color: #8c4f54 !important;
+  font-weight: 750 !important;
   text-decoration: none !important;
-  border-bottom: 1px solid rgba(201, 143, 149, 0.55) !important;
+  border-bottom: 1px solid rgba(241, 170, 167, 0.62) !important;
   transition: color 0.18s ease, border-color 0.18s ease, background 0.18s ease !important;
 }
 
 .main-content a:hover {
-  color: var(--espresso) !important;
-  border-bottom-color: var(--espresso) !important;
+  color: var(--ink) !important;
+  border-bottom-color: var(--ink) !important;
 }
 
 .download-button,
 .main-content .download-button {
   display: inline-block !important;
-  background: #f6e5d8 !important;
-  color: var(--espresso) !important;
-  border: 1px solid rgba(111, 78, 61, 0.24) !important;
-  border-bottom: 1px solid rgba(111, 78, 61, 0.24) !important;
-  border-radius: 10px !important;
-  padding: 0.72rem 1rem !important;
-  margin: 1rem 0 1.4rem 0 !important;
-  font-weight: 700 !important;
+  background: linear-gradient(135deg, #fff9f2, #ffd77d) !important;
+  color: var(--ink) !important;
+  border: 1px solid rgba(75, 45, 36, 0.16) !important;
+  border-bottom: 1px solid rgba(75, 45, 36, 0.16) !important;
+  border-radius: 12px !important;
+  padding: 0.78rem 1.05rem !important;
+  margin: 1.2rem 0 1.6rem 0 !important;
+  font-weight: 800 !important;
+  font-size: 1rem !important;
   letter-spacing: 0.02em !important;
-  box-shadow: 0 7px 18px rgba(63, 43, 36, 0.08) !important;
+  box-shadow: 0 7px 18px rgba(75, 45, 36, 0.08) !important;
   transition: transform 0.18s ease, background 0.18s ease, border-color 0.18s ease !important;
 }
 
 .download-button:hover,
 .main-content .download-button:hover {
   transform: translateY(-2px);
-  background: #efd7cb !important;
-  border-color: rgba(201, 143, 149, 0.55) !important;
+  background: linear-gradient(135deg, #fff9f2, #f1aaa7) !important;
 }
 
 /* =========================================================
-   TABLES: NOTEBOOK CHART STYLE
+   TABLES: COLORFUL NOTEBOOK CHARTS
    ========================================================= */
 
 .main-content table {
   display: table !important;
   width: auto !important;
   max-width: 100% !important;
-  margin: 1.2rem auto !important;
+  margin: 1.9rem auto 2.3rem auto !important;
   border-collapse: separate !important;
   border-spacing: 0 !important;
   table-layout: auto !important;
-  background: rgba(255, 250, 245, 0.86) !important;
-  border: 1px solid rgba(111, 78, 61, 0.18) !important;
-  border-radius: 14px !important;
+  background: rgba(255, 249, 242, 0.92) !important;
+  border: 1px solid rgba(75, 45, 36, 0.12) !important;
+  border-radius: 16px !important;
   overflow: hidden !important;
   box-shadow: none !important;
 }
@@ -653,11 +853,11 @@ body {
   white-space: normal !important;
   text-align: left !important;
   vertical-align: top !important;
-  padding: 0.55rem 0.65rem !important;
+  padding: 0.78rem 0.9rem !important;
+  line-height: 1.62 !important;
   border: none !important;
-  border-right: 1px solid rgba(111, 78, 61, 0.13) !important;
-  border-bottom: 1px solid rgba(111, 78, 61, 0.13) !important;
-  line-height: 1.45 !important;
+  border-right: 1px solid rgba(75, 45, 36, 0.10) !important;
+  border-bottom: 1px solid rgba(75, 45, 36, 0.10) !important;
 }
 
 .main-content th:last-child,
@@ -669,63 +869,59 @@ body {
   border-bottom: none !important;
 }
 
-.main-content th {
-  background: #ead8c9 !important;
-  color: var(--espresso) !important;
-  font-weight: 700 !important;
+.main-content table:nth-of-type(6n + 1) th {
+  background: var(--pink) !important;
+  color: var(--ink) !important;
 }
 
-.main-content tr:nth-child(even) td {
-  background: rgba(247, 234, 220, 0.45) !important;
+.main-content table:nth-of-type(6n + 2) th {
+  background: var(--yellow) !important;
+  color: var(--ink) !important;
 }
 
-.main-content tr:nth-child(odd) td {
-  background: rgba(255, 250, 245, 0.55) !important;
+.main-content table:nth-of-type(6n + 3) th {
+  background: var(--sage) !important;
+  color: var(--ink) !important;
+}
+
+.main-content table:nth-of-type(6n + 4) th {
+  background: var(--bluegreen) !important;
+  color: var(--ink) !important;
+}
+
+.main-content table:nth-of-type(6n + 5) th {
+  background: var(--rose) !important;
+  color: var(--ink) !important;
+}
+
+.main-content table:nth-of-type(6n + 6) th {
+  background: var(--champagne) !important;
+  color: var(--ink) !important;
+}
+
+.main-content tr:nth-child(4n + 1) td {
+  background: rgba(255, 249, 242, 0.82) !important;
+}
+
+.main-content tr:nth-child(4n + 2) td {
+  background: rgba(241, 170, 167, 0.16) !important;
+}
+
+.main-content tr:nth-child(4n + 3) td {
+  background: rgba(255, 215, 125, 0.16) !important;
+}
+
+.main-content tr:nth-child(4n + 4) td {
+  background: rgba(184, 211, 213, 0.16) !important;
 }
 
 /* =========================================================
-   IMAGES + CODE
+   CALLOUT BOXES
+   Softer than headings so they do not compete.
+   Labels are bigger than before but still below heading size.
    ========================================================= */
 
-.main-content img {
-  max-width: 100% !important;
-  height: auto !important;
-  border-radius: 16px !important;
-  display: block !important;
-  margin: 1.2rem auto !important;
-}
-
-.main-content code {
-  background: rgba(234, 215, 222, 0.56) !important;
-  color: var(--espresso) !important;
-  padding: 0.12rem 0.38rem !important;
-  border-radius: 6px !important;
-  font-size: 0.94em !important;
-}
-
-.main-content pre {
-  background: rgba(255, 250, 245, 0.75) !important;
-  border: 1px solid rgba(111, 78, 61, 0.16) !important;
-  border-radius: 14px !important;
-  padding: 1rem !important;
-  overflow-x: auto !important;
-}
-
-/* =========================================================
-   BLOCKQUOTES + CALLOUT BOXES
-   Softer/blended, not chunky blocks
-   ========================================================= */
-
-.main-content blockquote {
-  border-left: 4px solid rgba(201, 143, 149, 0.65) !important;
-  background: rgba(255, 249, 243, 0.46) !important;
-  color: var(--muted-ink) !important;
-  padding: 0.85rem 1rem !important;
-  border-radius: 0 14px 14px 0 !important;
-  margin: 1.1rem 0 !important;
-  box-shadow: none !important;
-}
-
+.main-content blockquote,
 .main-content .nclex,
 .main-content .ati-tip,
 .main-content .danger,
@@ -741,70 +937,76 @@ body {
 .main-content .ati-box {
   position: relative !important;
   color: var(--ink) !important;
-  line-height: 1.6 !important;
-  margin: 1.1rem 0 !important;
-  padding: 0.85rem 1rem 0.9rem 1rem !important;
+  line-height: 1.78 !important;
+  margin: 2rem 0 2.2rem 0 !important;
+  padding: 1.05rem 1.2rem !important;
   border-radius: 0 14px 14px 0 !important;
   box-shadow: none !important;
   border: none !important;
-  border-left: 4px solid var(--taupe) !important;
-  background: rgba(255, 249, 243, 0.42) !important;
+  border-left: 5px solid var(--bluegreen) !important;
+  border-bottom: none !important;
+  background: rgba(184, 211, 213, 0.20) !important;
 }
 
 .main-content .nclex,
 .main-content .ati-tip {
-  border-left-color: #c8a56c !important;
-  background: rgba(244, 227, 193, 0.36) !important;
+  border-left-color: var(--yellow) !important;
+  background: rgba(255, 215, 125, 0.22) !important;
 }
 
 .main-content .danger,
 .main-content .priority {
-  border-left-color: #b46d68 !important;
-  background: rgba(242, 214, 216, 0.34) !important;
+  border-left-color: var(--pink) !important;
+  background: rgba(241, 170, 167, 0.22) !important;
 }
 
 .main-content .intervention {
-  border-left-color: #9cab8b !important;
-  background: rgba(238, 243, 233, 0.52) !important;
+  border-left-color: var(--sage) !important;
+  background: rgba(184, 182, 139, 0.22) !important;
 }
 
 .main-content .memory {
-  border-left-color: var(--mauve) !important;
-  background: rgba(234, 215, 222, 0.34) !important;
+  border-left-color: var(--rose) !important;
+  background: rgba(232, 183, 185, 0.22) !important;
 }
 
 .main-content .note,
 .main-content .ati-box {
-  border-left-color: var(--taupe) !important;
-  background: rgba(247, 234, 220, 0.38) !important;
+  border-left-color: var(--bluegreen) !important;
+  background: rgba(184, 211, 213, 0.20) !important;
 }
 
 .main-content .teaching {
-  border-left-color: var(--caramel) !important;
-  background: rgba(234, 209, 183, 0.34) !important;
+  border-left-color: var(--soft-peach) !important;
+  background: rgba(246, 215, 174, 0.24) !important;
 }
 
 .main-content .lab {
-  border-left-color: #967c73 !important;
-  background: rgba(216, 199, 184, 0.34) !important;
+  border-left-color: var(--champagne) !important;
+  background: rgba(239, 227, 195, 0.30) !important;
 }
 
 .main-content .assessment {
-  border-left-color: var(--mocha) !important;
-  background: rgba(233, 211, 191, 0.34) !important;
+  border-left-color: var(--olive) !important;
+  background: rgba(197, 199, 160, 0.22) !important;
 }
 
 .main-content .med {
-  border-left-color: var(--dusty-rose) !important;
-  background: rgba(242, 214, 216, 0.34) !important;
+  border-left-color: var(--pink) !important;
+  background: rgba(241, 170, 167, 0.20) !important;
 }
 
 .main-content .patho {
-  border-left-color: #a76f61 !important;
-  background: rgba(248, 232, 221, 0.52) !important;
+  border-left-color: var(--caramel) !important;
+  background: rgba(216, 173, 114, 0.18) !important;
 }
 
-/* Automatic labels kept, but subtle */
+.main-content blockquote {
+  border-left-color: var(--caramel) !important;
+  background: rgba(255, 249, 242, 0.52) !important;
+}
+
+/* Callout labels */
 .main-content .nclex::before,
 .main-content .ati-tip::before,
 .main-content .danger::before,
@@ -820,11 +1022,12 @@ body {
   display: block !important;
   width: fit-content !important;
   margin-bottom: 0.35rem !important;
-  font-size: 0.76rem !important;
-  font-weight: 700 !important;
-  letter-spacing: 0.08em !important;
+  font-size: 0.88rem !important;
+  font-weight: 850 !important;
+  letter-spacing: 0.075em !important;
   text-transform: uppercase !important;
-  color: var(--muted-ink) !important;
+  color: var(--ink) !important;
+  opacity: 0.86 !important;
   background: transparent !important;
   border: none !important;
   padding: 0 !important;
@@ -874,44 +1077,48 @@ body {
 
 .pink-label {
   display: inline-block !important;
-  margin: 0.75rem 0 0.35rem !important;
-  padding: 0.25rem 0.65rem !important;
+  margin: 0.85rem 0 0.45rem !important;
+  padding: 0.32rem 0.72rem !important;
   border-radius: 999px !important;
-  background: rgba(242, 214, 216, 0.55) !important;
-  color: #7d474d !important;
-  border: 1px solid rgba(201, 143, 149, 0.34) !important;
-  font-weight: 700 !important;
-  font-size: 0.9rem !important;
+  background: rgba(241, 170, 167, 0.30) !important;
+  color: var(--ink) !important;
+  border: 1px solid rgba(241, 170, 167, 0.42) !important;
+  font-weight: 800 !important;
+  font-size: 1rem !important;
   letter-spacing: 0.01em !important;
 }
 
 /* =========================================================
    DETAILS / DROPDOWNS
-   Keeps behavior, recolors styles
    ========================================================= */
 
-/* Regular details = quiz answer dropdowns, still noticeable */
 .main-content details {
-  background: rgba(244, 227, 193, 0.46) !important;
-  border: 1px solid rgba(201, 165, 108, 0.42) !important;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 215, 125, 0.18),
+    rgba(241, 170, 167, 0.18),
+    rgba(184, 211, 213, 0.16)
+  ) !important;
+  border: 1px solid rgba(241, 170, 167, 0.28) !important;
   border-radius: 16px !important;
-  padding: 0.9rem 1rem !important;
-  margin: 1.25rem 0 1.75rem 0 !important;
+  padding: 1.1rem 1.2rem !important;
+  margin: 1.9rem 0 2.4rem 0 !important;
   box-shadow: none !important;
   color: var(--ink) !important;
 }
 
 .main-content details > summary {
   cursor: pointer !important;
-  font-weight: 700 !important;
-  color: var(--espresso) !important;
-  background: rgba(255, 250, 245, 0.7) !important;
+  font-weight: 850 !important;
+  color: var(--ink) !important;
+  background: rgba(255, 249, 242, 0.86) !important;
   border-radius: 999px !important;
-  padding: 0.55rem 0.85rem !important;
+  padding: 0.62rem 0.95rem !important;
   list-style: none !important;
   display: inline-block !important;
-  border: 1px solid rgba(111, 78, 61, 0.18) !important;
+  border: 1px solid rgba(75, 45, 36, 0.12) !important;
   box-shadow: none !important;
+  font-size: 1rem !important;
 }
 
 .main-content details > summary::-webkit-details-marker {
@@ -920,33 +1127,27 @@ body {
 
 .main-content details > summary::before {
   content: "▸ " !important;
-  color: #8d4f55 !important;
+  color: var(--ink) !important;
 }
 
 .main-content details[open] > summary::before {
   content: "▾ " !important;
-  color: var(--mocha) !important;
 }
 
 .main-content details p,
 .main-content details li {
-  line-height: 1.62 !important;
-  margin-top: 0.65rem !important;
-  margin-bottom: 0.65rem !important;
+  line-height: 1.78 !important;
+  margin-top: 0.9rem !important;
+  margin-bottom: 0.9rem !important;
 }
 
-.main-content details strong {
-  color: #7d474d !important;
-}
-
-/* Study dropdowns = softer folded notebook sections */
 .main-content details.study-dropdown {
-  background: rgba(255, 249, 243, 0.42) !important;
-  border: 1px solid rgba(111, 78, 61, 0.16) !important;
-  border-left: 4px solid rgba(169, 132, 145, 0.58) !important;
+  background: rgba(255, 249, 242, 0.44) !important;
+  border: 1px solid rgba(75, 45, 36, 0.12) !important;
+  border-left: 5px solid var(--bluegreen) !important;
   border-radius: 0 16px 16px 0 !important;
   padding: 0 !important;
-  margin: 1.15rem 0 1.65rem 0 !important;
+  margin: 1.9rem 0 2.4rem 0 !important;
   overflow: hidden !important;
   box-shadow: none !important;
 }
@@ -955,12 +1156,12 @@ body {
   display: block !important;
   cursor: pointer !important;
   list-style: none !important;
-  background: rgba(234, 215, 222, 0.44) !important;
-  color: var(--espresso) !important;
-  font-weight: 700 !important;
-  font-size: 1rem !important;
+  background: rgba(184, 211, 213, 0.36) !important;
+  color: var(--ink) !important;
+  font-weight: 850 !important;
+  font-size: 1.08rem !important;
   letter-spacing: 0.01em !important;
-  padding: 0.75rem 0.95rem !important;
+  padding: 0.85rem 1rem !important;
   border: none !important;
   border-radius: 0 !important;
   box-shadow: none !important;
@@ -968,7 +1169,6 @@ body {
 
 .main-content details.study-dropdown > summary::before {
   content: "＋ " !important;
-  color: var(--mocha) !important;
 }
 
 .main-content details.study-dropdown[open] > summary::before {
@@ -980,75 +1180,86 @@ body {
   margin-right: 1rem !important;
 }
 
-/* Existing color variations supported, muted */
-.main-content details.study-dropdown.blue > summary {
-  background: rgba(216, 199, 184, 0.42) !important;
+/* Study dropdown color rotation */
+.main-content details.study-dropdown:nth-of-type(6n + 1) > summary {
+  background: rgba(241, 170, 167, 0.36) !important;
 }
 
-.main-content details.study-dropdown.green > summary {
-  background: rgba(238, 243, 233, 0.58) !important;
+.main-content details.study-dropdown:nth-of-type(6n + 2) > summary {
+  background: rgba(255, 215, 125, 0.34) !important;
 }
 
-.main-content details.study-dropdown.orange > summary {
-  background: rgba(234, 209, 183, 0.52) !important;
+.main-content details.study-dropdown:nth-of-type(6n + 3) > summary {
+  background: rgba(184, 182, 139, 0.34) !important;
 }
 
-.main-content details.study-dropdown.pink > summary {
-  background: rgba(242, 214, 216, 0.52) !important;
+.main-content details.study-dropdown:nth-of-type(6n + 4) > summary {
+  background: rgba(184, 211, 213, 0.36) !important;
 }
 
-/* Practice question spacing */
+.main-content details.study-dropdown:nth-of-type(6n + 5) > summary {
+  background: rgba(232, 183, 185, 0.36) !important;
+}
+
+.main-content details.study-dropdown:nth-of-type(6n + 6) > summary {
+  background: rgba(239, 227, 195, 0.42) !important;
+}
+
+/* =========================================================
+   PRACTICE QUESTIONS
+   ========================================================= */
+
 .answer-choices p,
 .main-content .answer-choices p {
-  margin: 0.35rem 0 !important;
-  line-height: 1.5 !important;
+  margin: 0.45rem 0 !important;
+  line-height: 1.58 !important;
 }
 
 .answer-choice {
   display: block !important;
-  margin: 0.65rem 0 !important;
-  line-height: 1.58 !important;
+  margin: 0.85rem 0 !important;
+  line-height: 1.72 !important;
 }
 
 .quiz-answer {
-  margin-top: 1rem !important;
-  margin-bottom: 0.85rem !important;
-  line-height: 1.65 !important;
-  color: #7d474d !important;
+  margin-top: 1.15rem !important;
+  margin-bottom: 1rem !important;
+  line-height: 1.75 !important;
+  color: #8c4f54 !important;
 }
 
 .quiz-rationale {
-  margin-top: 0.85rem !important;
-  margin-bottom: 0.5rem !important;
-  line-height: 1.7 !important;
+  margin-top: 1rem !important;
+  margin-bottom: 0.75rem !important;
+  line-height: 1.78 !important;
 }
 
 /* =========================================================
    HOMEPAGE / STUDY CARDS
-   Entire card clickable, no separate button needed
+   No extra tabs/decorations. Entire card clickable.
    ========================================================= */
 
 .home-intro {
   text-align: center !important;
   max-width: 760px !important;
-  margin: 0 auto 2rem auto !important;
+  margin: 0 auto 2.2rem auto !important;
   color: var(--muted-ink) !important;
-  font-size: 1.04rem !important;
-  line-height: 1.65 !important;
+  font-size: 1.08rem !important;
+  line-height: 1.7 !important;
 }
 
 .home-mini-label {
   display: inline-block !important;
-  background: rgba(244, 227, 193, 0.58) !important;
-  border: 1px solid rgba(201, 151, 107, 0.32) !important;
+  background: rgba(255, 215, 125, 0.28) !important;
+  border: 1px solid rgba(255, 215, 125, 0.44) !important;
   border-radius: 999px !important;
-  padding: 0.4rem 0.75rem !important;
-  font-weight: 700 !important;
-  color: var(--espresso) !important;
-  margin-bottom: 0.9rem !important;
-  letter-spacing: 0.04em !important;
+  padding: 0.45rem 0.85rem !important;
+  font-weight: 850 !important;
+  color: var(--ink) !important;
+  margin-bottom: 1rem !important;
+  letter-spacing: 0.055em !important;
   text-transform: uppercase !important;
-  font-size: 0.8rem !important;
+  font-size: 0.9rem !important;
 }
 
 .home-button-grid,
@@ -1056,32 +1267,50 @@ body {
 .study-card-grid {
   display: grid !important;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)) !important;
-  gap: 1.2rem !important;
-  margin: 2rem 0 !important;
+  gap: 1.25rem !important;
+  margin: 2.2rem 0 !important;
 }
 
 .study-card,
 .section-card,
 .home-big-button {
   position: relative !important;
-  display: block !important;
-  min-height: 145px !important;
-  padding: 1.35rem 1.25rem !important;
-  border-radius: 22px !important;
-  background: rgba(255, 250, 245, 0.72) !important;
-  color: var(--espresso) !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  text-align: center !important;
+
+  min-height: 155px !important;
+  padding: 1.35rem 1.25rem 1.85rem !important;
+
+  color: var(--ink) !important;
   text-decoration: none !important;
-  border: 1px solid rgba(111, 78, 61, 0.16) !important;
-  border-bottom: 1px solid rgba(111, 78, 61, 0.16) !important;
+  border: 1px solid rgba(75, 45, 36, 0.12) !important;
+  border-bottom: 1px solid rgba(75, 45, 36, 0.12) !important;
+  border-top-width: 1px !important;
+  border-radius: 22px !important;
+
   box-shadow:
-    0 10px 24px rgba(63, 43, 36, 0.08),
-    inset 0 1px 0 rgba(255, 255, 255, 0.62) !important;
+    0 10px 24px rgba(75, 45, 36, 0.07),
+    inset 0 1px 0 rgba(255, 255, 255, 0.78) !important;
+
   transition:
     transform 0.18s ease,
     box-shadow 0.18s ease,
     border-color 0.18s ease,
     background 0.18s ease !important;
+
   overflow: hidden !important;
+  background-clip: padding-box !important;
+}
+
+/* No coffee/decorative pseudo elements on cards */
+.study-card::before,
+.section-card::before,
+.home-big-button::before {
+  display: none !important;
+  content: none !important;
 }
 
 .study-card::after,
@@ -1089,13 +1318,14 @@ body {
 .home-big-button::after {
   content: "View section →" !important;
   position: absolute !important;
-  left: 1.25rem !important;
-  bottom: 1rem !important;
-  color: #7d474d !important;
-  font-size: 0.88rem !important;
-  font-weight: 700 !important;
+  left: 50% !important;
+  bottom: 0.85rem !important;
+  color: var(--ink) !important;
+  font-size: 0.8rem !important;
+  font-weight: 850 !important;
   opacity: 0 !important;
-  transform: translateY(5px) !important;
+  white-space: nowrap !important;
+  transform: translate(-50%, 5px) !important;
   transition: opacity 0.18s ease, transform 0.18s ease !important;
 }
 
@@ -1103,114 +1333,148 @@ body {
 .section-card:hover,
 .home-big-button:hover {
   transform: translateY(-4px) !important;
-  border-color: rgba(201, 143, 149, 0.52) !important;
+  border-color: rgba(241, 170, 167, 0.50) !important;
   box-shadow:
-    0 16px 30px rgba(63, 43, 36, 0.12),
-    inset 0 1px 0 rgba(255, 255, 255, 0.7) !important;
+    0 16px 30px rgba(75, 45, 36, 0.11),
+    inset 0 1px 0 rgba(255, 255, 255, 0.84) !important;
 }
 
 .study-card:hover::after,
 .section-card:hover::after,
 .home-big-button:hover::after {
   opacity: 1 !important;
-  transform: translateY(0) !important;
+  transform: translate(-50%, 0) !important;
 }
 
+/* Study card titles */
 .study-card h2,
 .section-card h2,
-.home-big-button .button-title,
-.section-card h2 {
-  color: var(--espresso) !important;
+.home-big-button .button-title {
+  position: static !important;
+  display: block !important;
+  width: 100% !important;
+
+  color: var(--ink) !important;
   background: transparent !important;
   border: none !important;
   box-shadow: none !important;
+
+  text-align: center !important;
+  font-family: Georgia, "Times New Roman", serif !important;
+  font-size: 1.48rem !important;
+  font-weight: 850 !important;
+  letter-spacing: 0.02em !important;
+  line-height: 1.12 !important;
+
   padding: 0 !important;
   margin: 0 0 0.55rem 0 !important;
-  font-family: Georgia, "Times New Roman", serif !important;
-  font-size: 1.45rem !important;
-  font-weight: 700 !important;
-  letter-spacing: 0.02em !important;
-  line-height: 1.15 !important;
 }
 
+/* Remove heading tab lines inside cards */
 .study-card h2::before,
 .study-card h2::after,
 .section-card h2::before,
-.section-card h2::after {
-  content: "" !important;
+.section-card h2::after,
+.home-big-button .button-title::before,
+.home-big-button .button-title::after {
   display: none !important;
+  content: none !important;
 }
 
+/* Study card subtitles */
 .study-card p,
 .section-card p,
 .home-big-button .button-subtitle {
+  text-align: center !important;
+  width: 100% !important;
+  max-width: 30ch !important;
+  margin: 0 auto !important;
   color: var(--muted-ink) !important;
-  margin: 0 !important;
-  line-height: 1.45 !important;
-  font-size: 0.98rem !important;
-  font-weight: 400 !important;
+  font-size: 0.84rem !important;
+  line-height: 1.34 !important;
+  font-weight: 500 !important;
   background: transparent !important;
   padding: 0 !important;
   border-radius: 0 !important;
 }
 
-/* Automatic card color rotation */
-.study-card:nth-child(6n + 1),
-.section-card:nth-child(6n + 1),
-.home-big-button:nth-child(6n + 1),
-.study-card.rose-latte,
-.section-card.pink,
-.home-big-button.pink,
-.home-big-button.rose {
-  background: linear-gradient(135deg, rgba(255,250,245,0.78), rgba(242,214,216,0.72)) !important;
+/* Card color rotation */
+.study-card:nth-child(9n + 1),
+.section-card:nth-child(9n + 1),
+.home-big-button:nth-child(9n + 1),
+.study-card.pink,
+.study-card.rose-latte {
+  background: linear-gradient(135deg, #fff9f2, #f1aaa7) !important;
+  border-color: rgba(241, 170, 167, 0.45) !important;
 }
 
-.study-card:nth-child(6n + 2),
-.section-card:nth-child(6n + 2),
-.home-big-button:nth-child(6n + 2),
-.study-card.caramel,
-.section-card.yellow,
-.home-big-button.yellow,
-.home-big-button.orange {
-  background: linear-gradient(135deg, rgba(255,250,245,0.78), rgba(234,209,183,0.76)) !important;
+.study-card:nth-child(9n + 2),
+.section-card:nth-child(9n + 2),
+.home-big-button:nth-child(9n + 2),
+.study-card.yellow,
+.study-card.champagne {
+  background: linear-gradient(135deg, #fff9f2, #ffd77d) !important;
+  border-color: rgba(255, 215, 125, 0.46) !important;
 }
 
-.study-card:nth-child(6n + 3),
-.section-card:nth-child(6n + 3),
-.home-big-button:nth-child(6n + 3),
-.study-card.mauve,
-.section-card.purple,
-.home-big-button.purple {
-  background: linear-gradient(135deg, rgba(255,250,245,0.78), rgba(234,215,222,0.76)) !important;
+.study-card:nth-child(9n + 3),
+.section-card:nth-child(9n + 3),
+.home-big-button:nth-child(9n + 3),
+.study-card.sage {
+  background: linear-gradient(135deg, #fff9f2, #b8b68b) !important;
+  border-color: rgba(184, 182, 139, 0.44) !important;
 }
 
-.study-card:nth-child(6n + 4),
-.section-card:nth-child(6n + 4),
-.home-big-button:nth-child(6n + 4),
-.study-card.taupe,
-.section-card.green,
-.home-big-button.green {
-  background: linear-gradient(135deg, rgba(255,250,245,0.78), rgba(216,199,184,0.76)) !important;
+.study-card:nth-child(9n + 4),
+.section-card:nth-child(9n + 4),
+.home-big-button:nth-child(9n + 4),
+.study-card.blue,
+.study-card.blue-sage {
+  background: linear-gradient(135deg, #fff9f2, #b8d3d5) !important;
+  border-color: rgba(184, 211, 213, 0.48) !important;
 }
 
-.study-card:nth-child(6n + 5),
-.section-card:nth-child(6n + 5),
-.home-big-button:nth-child(6n + 5),
-.study-card.vanilla,
-.section-card.blue,
-.home-big-button.blue {
-  background: linear-gradient(135deg, rgba(255,250,245,0.84), rgba(244,227,193,0.64)) !important;
+.study-card:nth-child(9n + 5),
+.section-card:nth-child(9n + 5),
+.home-big-button:nth-child(9n + 5),
+.study-card.rose {
+  background: linear-gradient(135deg, #fff9f2, #e8b7b9) !important;
+  border-color: rgba(232, 183, 185, 0.46) !important;
 }
 
-.study-card:nth-child(6n + 6),
-.section-card:nth-child(6n + 6),
-.home-big-button:nth-child(6n + 6),
-.study-card.cocoa,
-.home-big-button.brown {
-  background: linear-gradient(135deg, rgba(255,250,245,0.82), rgba(185,160,140,0.54)) !important;
+.study-card:nth-child(9n + 6),
+.section-card:nth-child(9n + 6),
+.home-big-button:nth-child(9n + 6),
+.study-card.cream {
+  background: linear-gradient(135deg, #fff9f2, #efe3c3) !important;
+  border-color: rgba(239, 227, 195, 0.48) !important;
 }
 
-/* Old inner card links will not look like awkward buttons */
+.study-card:nth-child(9n + 7),
+.section-card:nth-child(9n + 7),
+.home-big-button:nth-child(9n + 7),
+.study-card.peach {
+  background: linear-gradient(135deg, #fff9f2, #f6d7ae) !important;
+  border-color: rgba(246, 215, 174, 0.48) !important;
+}
+
+.study-card:nth-child(9n + 8),
+.section-card:nth-child(9n + 8),
+.home-big-button:nth-child(9n + 8),
+.study-card.olive {
+  background: linear-gradient(135deg, #fff9f2, #c5c7a0) !important;
+  border-color: rgba(197, 199, 160, 0.46) !important;
+}
+
+.study-card:nth-child(9n + 9),
+.section-card:nth-child(9n + 9),
+.home-big-button:nth-child(9n + 9),
+.study-card.cocoa {
+  background: linear-gradient(135deg, #fff9f2, #d8ad72) !important;
+  border-color: rgba(216, 173, 114, 0.42) !important;
+}
+
+/* Old inner links inside cards */
 .section-card a,
 .study-card a,
 .home-big-button a {
@@ -1223,23 +1487,81 @@ body {
 }
 
 /* =========================================================
-   LEGACY HOME BIG BUTTON SUPPORT
+   IMAGES + CODE
    ========================================================= */
 
-.home-big-button {
-  display: flex !important;
-  flex-direction: column !important;
-  align-items: flex-start !important;
-  justify-content: flex-start !important;
-  text-align: left !important;
+.main-content img {
+  max-width: 100% !important;
+  height: auto !important;
+  border-radius: 16px !important;
+  display: block !important;
+  margin: 1.4rem auto !important;
 }
 
-.button-title {
-  display: block !important;
+.main-content code {
+  background: rgba(255, 215, 125, 0.20) !important;
+  color: var(--ink) !important;
+  padding: 0.15rem 0.38rem !important;
+  border-radius: 6px !important;
+  font-size: 0.94em !important;
 }
 
-.button-subtitle {
-  display: block !important;
+.main-content pre {
+  background: rgba(255, 249, 242, 0.76) !important;
+  border: 1px solid rgba(75, 45, 36, 0.12) !important;
+  border-radius: 14px !important;
+  padding: 1rem !important;
+  overflow-x: auto !important;
+}
+
+/* =========================================================
+   EXTRA SPACING AFTER TABLES/CALLOUTS
+   ========================================================= */
+
+.main-content table + h2,
+.main-content table + h3,
+.main-content table + h4,
+.main-content table + .note,
+.main-content table + .nclex,
+.main-content table + .ati-tip,
+.main-content table + .danger,
+.main-content table + .priority,
+.main-content table + .intervention {
+  margin-top: 2.6rem !important;
+}
+
+.main-content .note + h3,
+.main-content .nclex + h3,
+.main-content .ati-tip + h3,
+.main-content .danger + h3,
+.main-content .priority + h3,
+.main-content .intervention + h3,
+.main-content .memory + h3,
+.main-content .teaching + h3,
+.main-content .lab + h3,
+.main-content .assessment + h3,
+.main-content .med + h3,
+.main-content .patho + h3,
+.main-content .ati-box + h3,
+.main-content blockquote + h3 {
+  margin-top: 3.4rem !important;
+}
+
+.main-content .note + h4,
+.main-content .nclex + h4,
+.main-content .ati-tip + h4,
+.main-content .danger + h4,
+.main-content .priority + h4,
+.main-content .intervention + h4,
+.main-content .memory + h4,
+.main-content .teaching + h4,
+.main-content .lab + h4,
+.main-content .assessment + h4,
+.main-content .med + h4,
+.main-content .patho + h4,
+.main-content .ati-box + h4,
+.main-content blockquote + h4 {
+  margin-top: 2.5rem !important;
 }
 
 /* =========================================================
@@ -1254,22 +1576,36 @@ body {
 
   .main-content {
     max-width: 100% !important;
-    padding: 1.1rem !important;
+    padding: 1.35rem !important;
     border-radius: 22px !important;
   }
 
   .main-content h1 {
-    font-size: 2rem !important;
+    font-size: 2.1rem !important;
   }
 
-  .main-content h2 {
-    font-size: 1.35rem !important;
-    padding: 0.72rem 0.8rem 0.72rem 1rem !important;
-    margin-top: 2.2rem !important;
+  .main-content h2,
+  .main-content .topic-header,
+  .main-content .section-divider {
+    font-size: 1.55rem !important;
+    margin-top: 3.4rem !important;
+    margin-bottom: 1.4rem !important;
   }
 
-  .main-content h3 {
-    font-size: 1.14rem !important;
+  .main-content h3,
+  .main-content .topic-subheader,
+  .main-content .section-divider.small {
+    font-size: 1.24rem !important;
+    margin-top: 2.4rem !important;
+  }
+
+  .main-content h4 {
+    font-size: 1.08rem !important;
+  }
+
+  .main-content p,
+  .main-content li {
+    line-height: 1.7 !important;
   }
 
   .main-content table {
@@ -1277,6 +1613,8 @@ body {
     width: 100% !important;
     max-width: 100% !important;
     overflow-x: auto !important;
+    margin-top: 1.4rem !important;
+    margin-bottom: 1.8rem !important;
   }
 
   .home-button-grid,
@@ -1290,8 +1628,8 @@ body {
   .sidebar-toggle-button {
     top: 12px !important;
     left: 12px !important;
-    padding: 0.6rem 0.85rem !important;
-    font-size: 0.9rem !important;
+    padding: 0.62rem 0.9rem !important;
+    font-size: 0.92rem !important;
   }
 
   .sidebar {
@@ -1316,7 +1654,7 @@ body {
 
 /* =========================================================
    PRINT / SAVE AS PDF
-   Plain black and white printer-friendly mode
+   Plain black and white
    ========================================================= */
 
 @media print {
@@ -1357,26 +1695,48 @@ body {
   .main-content h1,
   .main-content h2,
   .main-content h3,
-  .main-content h4 {
+  .main-content h4,
+  .main-content .topic-header,
+  .main-content .section-divider,
+  .main-content .topic-subheader,
+  .main-content .section-divider.small {
     color: black !important;
     background: white !important;
-    border-color: #999 !important;
+    border-color: #777 !important;
     box-shadow: none !important;
     page-break-after: avoid !important;
+  }
+
+  .main-content h1::after,
+  .main-content h2::before,
+  .main-content h2::after,
+  .main-content h3::before,
+  .main-content h3::after,
+  .main-content .topic-header::before,
+  .main-content .topic-header::after,
+  .main-content .section-divider::before,
+  .main-content .section-divider::after,
+  .main-content .topic-subheader::before,
+  .main-content .topic-subheader::after,
+  .main-content .section-divider.small::before,
+  .main-content .section-divider.small::after {
+    display: none !important;
   }
 
   .main-content h1 {
     border-bottom: 2px solid #777 !important;
   }
 
-  .main-content h2 {
-    border-left: 6px solid #777 !important;
-    border-radius: 0 !important;
+  .main-content h2,
+  .main-content .topic-header,
+  .main-content .section-divider {
+    border-bottom: 2px solid #777 !important;
   }
 
-  .main-content h2::before,
-  .main-content h2::after {
-    display: none !important;
+  .main-content h3,
+  .main-content .topic-subheader,
+  .main-content .section-divider.small {
+    border-bottom: 1px solid #999 !important;
   }
 
   .main-content table {
@@ -1444,1188 +1804,5 @@ body {
   img {
     max-width: 100% !important;
     page-break-inside: avoid !important;
-  }
-}
-/* =========================================================
-   MOCHA CHIC COLOR SOFTENING PATCH
-   Makes theme less brown, more cream/blush/latte
-   Paste at the VERY BOTTOM of style.css
-   ========================================================= */
-
-:root {
-  --cream: #fff8f2;
-  --cream-soft: #fffaf6;
-  --vanilla: #f8ede5;
-  --latte: #ead6c9;
-  --latte-soft: #f4e3da;
-  --caramel: #d4a984;
-  --caramel-soft: #efd8c5;
-  --taupe: #c9afa3;
-  --mushroom: #e1ccc2;
-  --cocoa: #6b4a40;
-  --espresso: #3f2b28;
-  --mocha: #8c6258;
-  --dusty-rose: #cf939b;
-  --dusty-rose-soft: #f5dde0;
-  --mauve: #b68b9a;
-  --mauve-soft: #efdae3;
-  --champagne: #f7e7c8;
-  --sage: #c8d2bd;
-  --sage-soft: #eef3e9;
-
-  --ink: #3f2b28;
-  --muted-ink: #765d55;
-  --paper: rgba(255, 250, 246, 0.84);
-  --paper-solid: #fffaf6;
-}
-
-/* Lighter, pinker mocha background */
-body {
-  background:
-    radial-gradient(circle at top left, rgba(207, 147, 155, 0.26), transparent 30%),
-    radial-gradient(circle at 90% 12%, rgba(239, 218, 227, 0.36), transparent 28%),
-    radial-gradient(circle at 50% 100%, rgba(212, 169, 132, 0.16), transparent 32%),
-    linear-gradient(
-      180deg,
-      #fff9f4 0%,
-      #fae8e6 25%,
-      #f4ddd8 50%,
-      #f2e2d8 76%,
-      #fff8f2 100%
-    ) !important;
-  background-attachment: fixed !important;
-}
-
-/* Header: chic pink mocha, less dark brown */
-.page-header {
-  background:
-    linear-gradient(
-      135deg,
-      #f8dedc 0%,
-      #e7bfc3 32%,
-      #c9969e 65%,
-      #a87978 100%
-    ) !important;
-  color: #fffaf6 !important;
-}
-
-/* Title still chic, but softer */
-.page-header .project-name,
-.project-name {
-  color: #fffaf6 !important;
-  text-shadow: 0 4px 18px rgba(100, 55, 55, 0.22) !important;
-}
-
-.page-header .project-tagline,
-.project-tagline {
-  color: #fff4ef !important;
-}
-
-/* Main notes area: lighter and less cocoa */
-.main-content {
-  background: rgba(255, 250, 246, 0.88) !important;
-  box-shadow:
-    0 18px 42px rgba(121, 76, 72, 0.08),
-    inset 0 1px 0 rgba(255, 255, 255, 0.72) !important;
-}
-
-/* Sidebar: latte-pink coffee menu instead of brown menu */
-.sidebar {
-  background:
-    linear-gradient(
-      180deg,
-      #f2dfd8 0%,
-      #ead1cc 48%,
-      #dfc2bd 100%
-    ) !important;
-  color: var(--espresso) !important;
-  box-shadow: 18px 0 38px rgba(121, 76, 72, 0.16) !important;
-}
-
-.sidebar h2 {
-  background: rgba(255, 250, 246, 0.54) !important;
-  color: #5b3835 !important;
-}
-
-.sidebar details,
-.sidebar .menu-group,
-.sidebar .submenu-group {
-  background: rgba(255, 250, 246, 0.34) !important;
-  border-color: rgba(155, 100, 98, 0.16) !important;
-}
-
-.sidebar a:hover,
-.sidebar summary:hover {
-  background: rgba(255, 250, 246, 0.58) !important;
-  color: #9b5962 !important;
-}
-
-/* Study menu button: lighter */
-.sidebar-toggle-button {
-  background: #f8e5e2 !important;
-  color: #4b302d !important;
-  border-color: rgba(155, 100, 98, 0.22) !important;
-}
-
-.sidebar-toggle-button:hover {
-  background: #f2d4d2 !important;
-}
-
-/* H1 softer */
-.main-content h1 {
-  border-bottom-color: rgba(207, 147, 155, 0.42) !important;
-}
-
-/* H2 notebook tabs: more pink/cream variation, less brown */
-.main-content h2:nth-of-type(5n + 1) {
-  border-left-color: #cf939b !important;
-  background: linear-gradient(to right, rgba(245, 221, 224, 0.72), transparent 80%) !important;
-}
-
-.main-content h2:nth-of-type(5n + 2) {
-  border-left-color: #d4a984 !important;
-  background: linear-gradient(to right, rgba(239, 216, 197, 0.68), transparent 80%) !important;
-}
-
-.main-content h2:nth-of-type(5n + 3) {
-  border-left-color: #b68b9a !important;
-  background: linear-gradient(to right, rgba(239, 218, 227, 0.7), transparent 80%) !important;
-}
-
-.main-content h2:nth-of-type(5n + 4) {
-  border-left-color: #c9afa3 !important;
-  background: linear-gradient(to right, rgba(244, 227, 218, 0.72), transparent 80%) !important;
-}
-
-.main-content h2:nth-of-type(5n + 5) {
-  border-left-color: #c9969e !important;
-  background: linear-gradient(to right, rgba(248, 222, 220, 0.64), transparent 80%) !important;
-}
-
-/* H3 more dusty rose/mauve instead of brown */
-.main-content h3 {
-  color: #8d5961 !important;
-  border-left-color: rgba(207, 147, 155, 0.68) !important;
-}
-
-/* Tables: softer pink-latte notebook */
-.main-content th {
-  background: #f0dcd7 !important;
-  color: #4b302d !important;
-}
-
-.main-content tr:nth-child(even) td {
-  background: rgba(248, 237, 229, 0.55) !important;
-}
-
-.main-content tr:nth-child(odd) td {
-  background: rgba(255, 250, 246, 0.68) !important;
-}
-
-/* Callouts: more blended, less muddy */
-.main-content .note,
-.main-content .ati-box {
-  background: rgba(248, 237, 229, 0.42) !important;
-}
-
-.main-content .nclex,
-.main-content .ati-tip {
-  background: rgba(247, 231, 200, 0.38) !important;
-}
-
-.main-content .danger,
-.main-content .priority,
-.main-content .med {
-  background: rgba(245, 221, 224, 0.42) !important;
-}
-
-.main-content .memory,
-.main-content .lab {
-  background: rgba(239, 218, 227, 0.38) !important;
-}
-
-.main-content .intervention {
-  background: rgba(238, 243, 233, 0.5) !important;
-}
-
-/* Quiz answer dropdowns: champagne/blush instead of tan */
-.main-content details {
-  background: rgba(247, 231, 200, 0.38) !important;
-  border-color: rgba(207, 147, 155, 0.28) !important;
-}
-
-.main-content details > summary {
-  background: rgba(255, 250, 246, 0.76) !important;
-  border-color: rgba(207, 147, 155, 0.26) !important;
-}
-
-/* Homepage/study cards: lighter, more blush-latte variation */
-.study-card,
-.section-card,
-.home-big-button {
-  box-shadow:
-    0 10px 24px rgba(121, 76, 72, 0.07),
-    inset 0 1px 0 rgba(255, 255, 255, 0.74) !important;
-}
-
-.study-card:nth-child(6n + 1),
-.section-card:nth-child(6n + 1),
-.home-big-button:nth-child(6n + 1),
-.study-card.rose-latte,
-.section-card.pink,
-.home-big-button.pink,
-.home-big-button.rose {
-  background: linear-gradient(135deg, rgba(255,250,246,0.9), rgba(245,221,224,0.82)) !important;
-}
-
-.study-card:nth-child(6n + 2),
-.section-card:nth-child(6n + 2),
-.home-big-button:nth-child(6n + 2),
-.study-card.caramel,
-.section-card.yellow,
-.home-big-button.yellow,
-.home-big-button.orange {
-  background: linear-gradient(135deg, rgba(255,250,246,0.9), rgba(239,216,197,0.82)) !important;
-}
-
-.study-card:nth-child(6n + 3),
-.section-card:nth-child(6n + 3),
-.home-big-button:nth-child(6n + 3),
-.study-card.mauve,
-.section-card.purple,
-.home-big-button.purple {
-  background: linear-gradient(135deg, rgba(255,250,246,0.9), rgba(239,218,227,0.82)) !important;
-}
-
-.study-card:nth-child(6n + 4),
-.section-card:nth-child(6n + 4),
-.home-big-button:nth-child(6n + 4),
-.study-card.taupe,
-.section-card.green,
-.home-big-button.green {
-  background: linear-gradient(135deg, rgba(255,250,246,0.9), rgba(244,227,218,0.82)) !important;
-}
-
-.study-card:nth-child(6n + 5),
-.section-card:nth-child(6n + 5),
-.home-big-button:nth-child(6n + 5),
-.study-card.vanilla,
-.section-card.blue,
-.home-big-button.blue {
-  background: linear-gradient(135deg, rgba(255,250,246,0.94), rgba(247,231,200,0.72)) !important;
-}
-
-.study-card:nth-child(6n + 6),
-.section-card:nth-child(6n + 6),
-.home-big-button:nth-child(6n + 6),
-.study-card.cocoa,
-.home-big-button.brown {
-  background: linear-gradient(135deg, rgba(255,250,246,0.9), rgba(234,209,197,0.74)) !important;
-}
-/* =========================================================
-   COFFEE SHOP PALETTE PATCH
-   Inspired by warm coffee shop palette:
-   cocoa, caramel, cream, blush, sage, soft blue-green
-   Paste at the VERY BOTTOM of style.css
-   ========================================================= */
-
-:root {
-  --coffee-espresso: #754326;
-  --coffee-cocoa: #9d6548;
-  --coffee-mocha: #b98563;
-  --coffee-caramel: #d8ad72;
-  --coffee-latte: #e2c6a4;
-  --coffee-cream: #f6d7ae;
-
-  --coffee-blush: #f1aaa7;
-  --coffee-rose: #e8b7b9;
-  --coffee-pink-soft: #f5d6d5;
-
-  --coffee-yellow: #ffd77d;
-  --coffee-champagne: #efe3c3;
-
-  --coffee-sage: #b8b68b;
-  --coffee-olive-soft: #c5c7a0;
-  --coffee-blue-sage: #b8d3d5;
-
-  --coffee-gray: #d8d8d6;
-  --coffee-taupe: #b39c8e;
-
-  --ink: #4b2d24;
-  --muted-ink: #72584f;
-}
-
-/* Whole site: lighter coffee shop wash with visible variation */
-body {
-  background:
-    radial-gradient(circle at 8% 8%, rgba(241, 170, 167, 0.32), transparent 28%),
-    radial-gradient(circle at 88% 12%, rgba(255, 215, 125, 0.24), transparent 28%),
-    radial-gradient(circle at 12% 86%, rgba(184, 211, 213, 0.28), transparent 30%),
-    radial-gradient(circle at 86% 80%, rgba(184, 182, 139, 0.24), transparent 32%),
-    linear-gradient(
-      180deg,
-      #fff9f2 0%,
-      #f8e0d6 26%,
-      #f5d6d5 48%,
-      #efe3c3 72%,
-      #fff8ef 100%
-    ) !important;
-  color: var(--ink) !important;
-  background-attachment: fixed !important;
-}
-
-/* Header: cute coffee shop sign colors */
-.page-header {
-  background:
-    radial-gradient(circle at 18% 10%, rgba(255, 215, 125, 0.38), transparent 24%),
-    linear-gradient(
-      135deg,
-      #f1aaa7 0%,
-      #d8ad72 36%,
-      #b98563 68%,
-      #754326 100%
-    ) !important;
-}
-
-.page-header .project-name,
-.project-name {
-  color: #fff9f2 !important;
-  text-shadow:
-    0 4px 16px rgba(75, 45, 36, 0.28) !important;
-}
-
-.page-header .project-tagline,
-.project-tagline {
-  color: #fff4df !important;
-}
-
-/* Notes area: cream, not brown */
-.main-content {
-  background:
-    linear-gradient(
-      180deg,
-      rgba(255, 249, 242, 0.92),
-      rgba(250, 239, 228, 0.88)
-    ) !important;
-  color: var(--ink) !important;
-  box-shadow:
-    0 18px 42px rgba(75, 45, 36, 0.08),
-    inset 0 1px 0 rgba(255, 255, 255, 0.82) !important;
-}
-
-/* H1 */
-.main-content h1 {
-  color: #4b2d24 !important;
-  border-bottom: 2px solid rgba(241, 170, 167, 0.55) !important;
-}
-
-/* H2 major topic tabs: rotate through the coffee palette */
-.main-content h2:nth-of-type(8n + 1) {
-  border-left-color: #f1aaa7 !important;
-  background: linear-gradient(to right, rgba(241, 170, 167, 0.34), transparent 82%) !important;
-}
-
-.main-content h2:nth-of-type(8n + 2) {
-  border-left-color: #d8ad72 !important;
-  background: linear-gradient(to right, rgba(216, 173, 114, 0.32), transparent 82%) !important;
-}
-
-.main-content h2:nth-of-type(8n + 3) {
-  border-left-color: #b8b68b !important;
-  background: linear-gradient(to right, rgba(184, 182, 139, 0.30), transparent 82%) !important;
-}
-
-.main-content h2:nth-of-type(8n + 4) {
-  border-left-color: #b8d3d5 !important;
-  background: linear-gradient(to right, rgba(184, 211, 213, 0.34), transparent 82%) !important;
-}
-
-.main-content h2:nth-of-type(8n + 5) {
-  border-left-color: #e8b7b9 !important;
-  background: linear-gradient(to right, rgba(232, 183, 185, 0.34), transparent 82%) !important;
-}
-
-.main-content h2:nth-of-type(8n + 6) {
-  border-left-color: #ffd77d !important;
-  background: linear-gradient(to right, rgba(255, 215, 125, 0.28), transparent 82%) !important;
-}
-
-.main-content h2:nth-of-type(8n + 7) {
-  border-left-color: #c5c7a0 !important;
-  background: linear-gradient(to right, rgba(197, 199, 160, 0.32), transparent 82%) !important;
-}
-
-.main-content h2:nth-of-type(8n + 8) {
-  border-left-color: #b98563 !important;
-  background: linear-gradient(to right, rgba(185, 133, 99, 0.24), transparent 82%) !important;
-}
-
-/* H3 subsections: clearer variation but still calm */
-.main-content h3:nth-of-type(6n + 1) {
-  color: #9d5654 !important;
-  border-left-color: #f1aaa7 !important;
-}
-
-.main-content h3:nth-of-type(6n + 2) {
-  color: #9a673b !important;
-  border-left-color: #d8ad72 !important;
-}
-
-.main-content h3:nth-of-type(6n + 3) {
-  color: #73764d !important;
-  border-left-color: #b8b68b !important;
-}
-
-.main-content h3:nth-of-type(6n + 4) {
-  color: #52787c !important;
-  border-left-color: #b8d3d5 !important;
-}
-
-.main-content h3:nth-of-type(6n + 5) {
-  color: #8c5d64 !important;
-  border-left-color: #e8b7b9 !important;
-}
-
-.main-content h3:nth-of-type(6n + 6) {
-  color: #754326 !important;
-  border-left-color: #b98563 !important;
-}
-
-/* Sidebar: more like soft coffee shop menu, less muddy */
-.sidebar {
-  background:
-    radial-gradient(circle at top left, rgba(255, 215, 125, 0.25), transparent 28%),
-    linear-gradient(
-      180deg,
-      #f5d6d5 0%,
-      #e2c6a4 34%,
-      #efe3c3 68%,
-      #c5c7a0 100%
-    ) !important;
-  color: #4b2d24 !important;
-}
-
-.sidebar h2 {
-  background: rgba(255, 249, 242, 0.58) !important;
-  color: #754326 !important;
-  border-color: rgba(117, 67, 38, 0.18) !important;
-}
-
-/* Sidebar groups rotate colors */
-.sidebar details:nth-of-type(5n + 1),
-.sidebar .menu-group:nth-of-type(5n + 1) {
-  background: rgba(241, 170, 167, 0.22) !important;
-  border-color: rgba(241, 170, 167, 0.35) !important;
-}
-
-.sidebar details:nth-of-type(5n + 2),
-.sidebar .menu-group:nth-of-type(5n + 2) {
-  background: rgba(255, 215, 125, 0.20) !important;
-  border-color: rgba(216, 173, 114, 0.32) !important;
-}
-
-.sidebar details:nth-of-type(5n + 3),
-.sidebar .menu-group:nth-of-type(5n + 3) {
-  background: rgba(184, 211, 213, 0.22) !important;
-  border-color: rgba(184, 211, 213, 0.38) !important;
-}
-
-.sidebar details:nth-of-type(5n + 4),
-.sidebar .menu-group:nth-of-type(5n + 4) {
-  background: rgba(184, 182, 139, 0.22) !important;
-  border-color: rgba(184, 182, 139, 0.38) !important;
-}
-
-.sidebar details:nth-of-type(5n + 5),
-.sidebar .menu-group:nth-of-type(5n + 5) {
-  background: rgba(232, 183, 185, 0.24) !important;
-  border-color: rgba(232, 183, 185, 0.38) !important;
-}
-
-.sidebar a,
-.sidebar summary {
-  color: #4b2d24 !important;
-}
-
-.sidebar a:hover,
-.sidebar summary:hover {
-  background: rgba(255, 249, 242, 0.64) !important;
-  color: #9d5654 !important;
-}
-
-/* Study Menu button */
-.sidebar-toggle-button {
-  background: linear-gradient(135deg, #fff9f2, #f1aaa7, #ffd77d) !important;
-  color: #4b2d24 !important;
-  border-color: rgba(117, 67, 38, 0.18) !important;
-}
-
-.sidebar-toggle-button:hover {
-  background: linear-gradient(135deg, #fff9f2, #ffd77d, #f1aaa7) !important;
-}
-
-/* Callouts: color variation from the palette, still blended */
-.main-content .nclex,
-.main-content .ati-tip {
-  border-left-color: #ffd77d !important;
-  background: rgba(255, 215, 125, 0.20) !important;
-}
-
-.main-content .danger,
-.main-content .priority {
-  border-left-color: #f1aaa7 !important;
-  background: rgba(241, 170, 167, 0.22) !important;
-}
-
-.main-content .intervention {
-  border-left-color: #b8b68b !important;
-  background: rgba(184, 182, 139, 0.20) !important;
-}
-
-.main-content .memory {
-  border-left-color: #e8b7b9 !important;
-  background: rgba(232, 183, 185, 0.22) !important;
-}
-
-.main-content .note,
-.main-content .ati-box {
-  border-left-color: #d8ad72 !important;
-  background: rgba(226, 198, 164, 0.22) !important;
-}
-
-.main-content .teaching {
-  border-left-color: #b98563 !important;
-  background: rgba(185, 133, 99, 0.15) !important;
-}
-
-.main-content .lab {
-  border-left-color: #b8d3d5 !important;
-  background: rgba(184, 211, 213, 0.22) !important;
-}
-
-.main-content .assessment {
-  border-left-color: #c5c7a0 !important;
-  background: rgba(197, 199, 160, 0.20) !important;
-}
-
-.main-content .med {
-  border-left-color: #f1aaa7 !important;
-  background: rgba(241, 170, 167, 0.20) !important;
-}
-
-.main-content .patho {
-  border-left-color: #9d6548 !important;
-  background: rgba(226, 198, 164, 0.22) !important;
-}
-
-/* Tables: more study-chart color, less beige-only */
-.main-content th {
-  background: linear-gradient(135deg, #f5d6d5, #efe3c3) !important;
-  color: #4b2d24 !important;
-}
-
-.main-content tr:nth-child(4n + 1) td {
-  background: rgba(255, 249, 242, 0.78) !important;
-}
-
-.main-content tr:nth-child(4n + 2) td {
-  background: rgba(245, 214, 213, 0.28) !important;
-}
-
-.main-content tr:nth-child(4n + 3) td {
-  background: rgba(239, 227, 195, 0.34) !important;
-}
-
-.main-content tr:nth-child(4n + 4) td {
-  background: rgba(184, 211, 213, 0.18) !important;
-}
-
-/* Dropdowns */
-.main-content details {
-  background: linear-gradient(135deg, rgba(255, 215, 125, 0.20), rgba(245, 214, 213, 0.28)) !important;
-  border-color: rgba(241, 170, 167, 0.35) !important;
-}
-
-.main-content details > summary {
-  background: rgba(255, 249, 242, 0.82) !important;
-  border-color: rgba(117, 67, 38, 0.16) !important;
-}
-
-/* Study dropdowns rotate */
-.main-content details.study-dropdown:nth-of-type(5n + 1) > summary {
-  background: rgba(241, 170, 167, 0.34) !important;
-}
-
-.main-content details.study-dropdown:nth-of-type(5n + 2) > summary {
-  background: rgba(255, 215, 125, 0.28) !important;
-}
-
-.main-content details.study-dropdown:nth-of-type(5n + 3) > summary {
-  background: rgba(184, 211, 213, 0.32) !important;
-}
-
-.main-content details.study-dropdown:nth-of-type(5n + 4) > summary {
-  background: rgba(184, 182, 139, 0.30) !important;
-}
-
-.main-content details.study-dropdown:nth-of-type(5n + 5) > summary {
-  background: rgba(232, 183, 185, 0.34) !important;
-}
-
-/* =========================================================
-   STUDY / HOMEPAGE CARDS
-   Centered titles, smaller subtitles, stronger palette variation
-   ========================================================= */
-
-.study-card,
-.section-card,
-.home-big-button {
-  text-align: center !important;
-  align-items: center !important;
-  justify-content: center !important;
-  min-height: 155px !important;
-  padding: 1.35rem 1.25rem 1.85rem !important;
-}
-
-/* Center titles */
-.study-card h2,
-.section-card h2,
-.home-big-button .button-title {
-  text-align: center !important;
-  width: 100% !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
-  font-size: 1.42rem !important;
-  line-height: 1.12 !important;
-}
-
-/* Smaller explanation fonts */
-.study-card p,
-.section-card p,
-.home-big-button .button-subtitle {
-  text-align: center !important;
-  width: 100% !important;
-  max-width: 30ch !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
-  font-size: 0.84rem !important;
-  line-height: 1.34 !important;
-  color: #72584f !important;
-}
-
-/* Center hover cue */
-.study-card::after,
-.section-card::after,
-.home-big-button::after {
-  left: 50% !important;
-  transform: translate(-50%, 5px) !important;
-  bottom: 0.85rem !important;
-  white-space: nowrap !important;
-  font-size: 0.8rem !important;
-}
-
-.study-card:hover::after,
-.section-card:hover::after,
-.home-big-button:hover::after {
-  transform: translate(-50%, 0) !important;
-}
-
-/* Card rotation based on the image palette */
-.study-card:nth-child(10n + 1),
-.section-card:nth-child(10n + 1),
-.home-big-button:nth-child(10n + 1),
-.study-card.rose-latte,
-.section-card.pink,
-.home-big-button.pink,
-.home-big-button.rose {
-  background: linear-gradient(135deg, #fff9f2, #f1aaa7) !important;
-  border-color: rgba(241, 170, 167, 0.42) !important;
-}
-
-.study-card:nth-child(10n + 2),
-.section-card:nth-child(10n + 2),
-.home-big-button:nth-child(10n + 2),
-.study-card.caramel,
-.section-card.yellow,
-.home-big-button.yellow,
-.home-big-button.orange {
-  background: linear-gradient(135deg, #fff9f2, #ffd77d) !important;
-  border-color: rgba(255, 215, 125, 0.44) !important;
-}
-
-.study-card:nth-child(10n + 3),
-.section-card:nth-child(10n + 3),
-.home-big-button:nth-child(10n + 3),
-.study-card.sage,
-.section-card.green,
-.home-big-button.green {
-  background: linear-gradient(135deg, #fff9f2, #b8b68b) !important;
-  border-color: rgba(184, 182, 139, 0.42) !important;
-}
-
-.study-card:nth-child(10n + 4),
-.section-card:nth-child(10n + 4),
-.home-big-button:nth-child(10n + 4),
-.study-card.blue-sage,
-.section-card.blue,
-.home-big-button.blue {
-  background: linear-gradient(135deg, #fff9f2, #b8d3d5) !important;
-  border-color: rgba(184, 211, 213, 0.48) !important;
-}
-
-.study-card:nth-child(10n + 5),
-.section-card:nth-child(10n + 5),
-.home-big-button:nth-child(10n + 5),
-.study-card.mauve,
-.section-card.purple,
-.home-big-button.purple {
-  background: linear-gradient(135deg, #fff9f2, #e8b7b9) !important;
-  border-color: rgba(232, 183, 185, 0.46) !important;
-}
-
-.study-card:nth-child(10n + 6),
-.section-card:nth-child(10n + 6),
-.home-big-button:nth-child(10n + 6),
-.study-card.latte,
-.study-card.vanilla {
-  background: linear-gradient(135deg, #fff9f2, #e2c6a4) !important;
-  border-color: rgba(226, 198, 164, 0.44) !important;
-}
-
-.study-card:nth-child(10n + 7),
-.section-card:nth-child(10n + 7),
-.home-big-button:nth-child(10n + 7),
-.study-card.champagne {
-  background: linear-gradient(135deg, #fff9f2, #efe3c3) !important;
-  border-color: rgba(239, 227, 195, 0.48) !important;
-}
-
-.study-card:nth-child(10n + 8),
-.section-card:nth-child(10n + 8),
-.home-big-button:nth-child(10n + 8),
-.study-card.mocha {
-  background: linear-gradient(135deg, #fff9f2, #d8ad72) !important;
-  border-color: rgba(216, 173, 114, 0.44) !important;
-}
-
-.study-card:nth-child(10n + 9),
-.section-card:nth-child(10n + 9),
-.home-big-button:nth-child(10n + 9),
-.study-card.taupe {
-  background: linear-gradient(135deg, #fff9f2, #b39c8e) !important;
-  border-color: rgba(179, 156, 142, 0.38) !important;
-}
-
-.study-card:nth-child(10n + 10),
-.section-card:nth-child(10n + 10),
-.home-big-button:nth-child(10n + 10),
-.study-card.cocoa,
-.home-big-button.brown {
-  background: linear-gradient(135deg, #fff9f2, #b98563) !important;
-  border-color: rgba(185, 133, 99, 0.38) !important;
-}
-/* =========================================================
-   HEADING HIERARCHY FIX
-   Makes headings stand out from NCLEX/priority/callout boxes
-   Paste at the VERY BOTTOM of style.css
-   ========================================================= */
-
-/* H1 = page title, cleaner and stronger */
-.main-content h1 {
-  color: #4b2d24 !important;
-  background: transparent !important;
-  font-size: clamp(2.1rem, 4vw, 3.1rem) !important;
-  font-weight: 700 !important;
-  letter-spacing: 0.03em !important;
-  text-align: center !important;
-  padding-bottom: 0.9rem !important;
-  margin-bottom: 2.2rem !important;
-  border-bottom: 4px double rgba(75, 45, 36, 0.25) !important;
-}
-
-/* Add a cute color stripe under page title */
-.main-content h1::after {
-  content: "" !important;
-  display: block !important;
-  width: 140px !important;
-  height: 8px !important;
-  margin: 0.9rem auto 0 !important;
-  border-radius: 999px !important;
-  background: linear-gradient(
-    90deg,
-    #f1aaa7,
-    #ffd77d,
-    #b8b68b,
-    #b8d3d5,
-    #e8b7b9
-  ) !important;
-}
-
-/* H2 = major topic divider / notebook tab
-   This should NOT look like a callout box */
-.main-content h2 {
-  position: relative !important;
-  display: block !important;
-  color: #4b2d24 !important;
-  font-size: 1.75rem !important;
-  font-weight: 800 !important;
-  letter-spacing: 0.02em !important;
-  line-height: 1.18 !important;
-
-  background: transparent !important;
-  padding: 1.15rem 1rem 0.85rem 0 !important;
-  margin: 3.2rem 0 1.35rem 0 !important;
-
-  border: none !important;
-  border-bottom: 3px solid rgba(75, 45, 36, 0.22) !important;
-  border-radius: 0 !important;
-  box-shadow: none !important;
-}
-
-/* Colored tab piece above the H2 */
-.main-content h2::before {
-  content: "" !important;
-  display: block !important;
-  position: absolute !important;
-  left: 0 !important;
-  top: 0 !important;
-  width: 86px !important;
-  height: 12px !important;
-  border-radius: 999px !important;
-  background: #f1aaa7 !important;
-  opacity: 1 !important;
-}
-
-/* Small second accent line */
-.main-content h2::after {
-  content: "" !important;
-  position: absolute !important;
-  left: 96px !important;
-  top: 5px !important;
-  width: 38px !important;
-  height: 3px !important;
-  border-radius: 999px !important;
-  background: rgba(75, 45, 36, 0.22) !important;
-}
-
-/* H2 tab colors rotate, but the H2 itself stays clean */
-.main-content h2:nth-of-type(8n + 1)::before {
-  background: #f1aaa7 !important;
-}
-
-.main-content h2:nth-of-type(8n + 2)::before {
-  background: #ffd77d !important;
-}
-
-.main-content h2:nth-of-type(8n + 3)::before {
-  background: #b8b68b !important;
-}
-
-.main-content h2:nth-of-type(8n + 4)::before {
-  background: #b8d3d5 !important;
-}
-
-.main-content h2:nth-of-type(8n + 5)::before {
-  background: #e8b7b9 !important;
-}
-
-.main-content h2:nth-of-type(8n + 6)::before {
-  background: #efe3c3 !important;
-}
-
-.main-content h2:nth-of-type(8n + 7)::before {
-  background: #f6d7ae !important;
-}
-
-.main-content h2:nth-of-type(8n + 8)::before {
-  background: #d8ad72 !important;
-}
-
-/* H3 = subsection label, clearly smaller than H2 */
-.main-content h3 {
-  color: #4b2d24 !important;
-  background: rgba(255, 249, 242, 0.62) !important;
-  font-size: 1.22rem !important;
-  font-weight: 750 !important;
-  padding: 0.5rem 0.75rem !important;
-  margin: 1.8rem 0 0.8rem 0 !important;
-  border: none !important;
-  border-left: 6px solid #e8b7b9 !important;
-  border-radius: 10px !important;
-  box-shadow: none !important;
-}
-
-/* H3 colors rotate subtly */
-.main-content h3:nth-of-type(6n + 1) {
-  border-left-color: #f1aaa7 !important;
-}
-
-.main-content h3:nth-of-type(6n + 2) {
-  border-left-color: #ffd77d !important;
-}
-
-.main-content h3:nth-of-type(6n + 3) {
-  border-left-color: #b8b68b !important;
-}
-
-.main-content h3:nth-of-type(6n + 4) {
-  border-left-color: #b8d3d5 !important;
-}
-
-.main-content h3:nth-of-type(6n + 5) {
-  border-left-color: #e8b7b9 !important;
-}
-
-.main-content h3:nth-of-type(6n + 6) {
-  border-left-color: #d8ad72 !important;
-}
-
-/* H4 = tiny subtopic, no box */
-.main-content h4 {
-  color: #754326 !important;
-  background: transparent !important;
-  font-size: 1.05rem !important;
-  font-weight: 800 !important;
-  margin: 1.25rem 0 0.4rem 0 !important;
-  padding: 0 !important;
-  border: none !important;
-}
-
-/* Keep callouts visually quieter so headings win */
-.main-content .nclex,
-.main-content .ati-tip,
-.main-content .danger,
-.main-content .priority,
-.main-content .intervention,
-.main-content .memory,
-.main-content .note,
-.main-content .teaching,
-.main-content .lab,
-.main-content .assessment,
-.main-content .med,
-.main-content .patho,
-.main-content .ati-box {
-  margin: 1rem 0 !important;
-  padding: 0.8rem 0.95rem !important;
-  border-radius: 0 12px 12px 0 !important;
-  border-left-width: 4px !important;
-  box-shadow: none !important;
-}
-
-/* Make callout labels smaller so they do not compete with H3/H2 */
-.main-content .nclex::before,
-.main-content .ati-tip::before,
-.main-content .danger::before,
-.main-content .priority::before,
-.main-content .intervention::before,
-.main-content .memory::before,
-.main-content .note::before,
-.main-content .teaching::before,
-.main-content .lab::before,
-.main-content .assessment::before,
-.main-content .med::before,
-.main-content .patho::before {
-  font-size: 0.72rem !important;
-  letter-spacing: 0.07em !important;
-  opacity: 0.8 !important;
-  margin-bottom: 0.25rem !important;
-}
-/* =========================================================
-   OPEN UP NOTES SPACING — LESS CROWDED
-   Paste at the VERY BOTTOM of style.css
-   ========================================================= */
-
-/* Give the notes area more breathing room */
-.main-content {
-  padding: clamp(1.8rem, 3.2vw, 3rem) !important;
-}
-
-/* Page title spacing */
-.main-content h1 {
-  margin-bottom: 2.6rem !important;
-}
-
-/* H2 major headings: more space above and below */
-.main-content h2,
-.main-content .topic-header,
-.main-content .section-divider {
-  margin-top: 4.4rem !important;
-  margin-bottom: 1.9rem !important;
-  padding-top: 1.35rem !important;
-  padding-bottom: 1rem !important;
-}
-
-/* If H2 comes right after H1, don't make the gap ridiculous */
-.main-content h1 + h2,
-.main-content h1 + .topic-header,
-.main-content h1 + .section-divider {
-  margin-top: 2.8rem !important;
-}
-
-/* H3 subsection headings: more separate from the content before */
-.main-content h3,
-.main-content .topic-subheader,
-.main-content .section-divider.small {
-  margin-top: 3rem !important;
-  margin-bottom: 1.25rem !important;
-  padding-top: 1rem !important;
-  padding-bottom: 0.75rem !important;
-}
-
-/* H4 mini headings */
-.main-content h4 {
-  margin-top: 2rem !important;
-  margin-bottom: 0.75rem !important;
-}
-
-/* Paragraphs need more room under headings */
-.main-content p {
-  line-height: 1.85 !important;
-  margin-top: 1rem !important;
-  margin-bottom: 1.25rem !important;
-}
-
-/* Lists need breathing room too */
-.main-content ul,
-.main-content ol {
-  margin-top: 1rem !important;
-  margin-bottom: 1.45rem !important;
-  padding-left: 1.55rem !important;
-}
-
-.main-content li {
-  line-height: 1.78 !important;
-  margin: 0.45rem 0 !important;
-}
-
-/* Tables: more space before/after */
-.main-content table {
-  margin-top: 1.9rem !important;
-  margin-bottom: 2.3rem !important;
-}
-
-/* Keep table contents readable but not cramped */
-.main-content th,
-.main-content td {
-  padding: 0.78rem 0.9rem !important;
-  line-height: 1.62 !important;
-}
-
-/* Callout boxes: more separation from tables/text */
-.main-content .nclex,
-.main-content .ati-tip,
-.main-content .danger,
-.main-content .priority,
-.main-content .intervention,
-.main-content .memory,
-.main-content .note,
-.main-content .teaching,
-.main-content .lab,
-.main-content .assessment,
-.main-content .med,
-.main-content .patho,
-.main-content .ati-box,
-.main-content blockquote {
-  margin-top: 2rem !important;
-  margin-bottom: 2.2rem !important;
-  padding: 1.05rem 1.2rem !important;
-  line-height: 1.78 !important;
-}
-
-/* Dropdowns also need more separation */
-.main-content details {
-  margin-top: 1.9rem !important;
-  margin-bottom: 2.4rem !important;
-  padding: 1.1rem 1.2rem !important;
-}
-
-.main-content details p,
-.main-content details li {
-  line-height: 1.78 !important;
-  margin-top: 0.9rem !important;
-  margin-bottom: 0.9rem !important;
-}
-
-/* Add extra space after tables followed by headings/callouts */
-.main-content table + h2,
-.main-content table + h3,
-.main-content table + h4,
-.main-content table + .note,
-.main-content table + .nclex,
-.main-content table + .ati-tip,
-.main-content table + .danger,
-.main-content table + .priority,
-.main-content table + .intervention {
-  margin-top: 2.6rem !important;
-}
-
-/* Add extra space after callouts before next subsection */
-.main-content .note + h3,
-.main-content .nclex + h3,
-.main-content .ati-tip + h3,
-.main-content .danger + h3,
-.main-content .priority + h3,
-.main-content .intervention + h3,
-.main-content .memory + h3,
-.main-content .teaching + h3,
-.main-content .lab + h3,
-.main-content .assessment + h3,
-.main-content .med + h3,
-.main-content .patho + h3,
-.main-content .ati-box + h3,
-.main-content blockquote + h3 {
-  margin-top: 3.4rem !important;
-}
-
-/* Same for H4 after callouts */
-.main-content .note + h4,
-.main-content .nclex + h4,
-.main-content .ati-tip + h4,
-.main-content .danger + h4,
-.main-content .priority + h4,
-.main-content .intervention + h4,
-.main-content .memory + h4,
-.main-content .teaching + h4,
-.main-content .lab + h4,
-.main-content .assessment + h4,
-.main-content .med + h4,
-.main-content .patho + h4,
-.main-content .ati-box + h4,
-.main-content blockquote + h4 {
-  margin-top: 2.5rem !important;
-}
-
-/* Horizontal dividers */
-.main-content hr {
-  margin: 3.2rem 0 !important;
-}
-
-/* Mobile: add space, but don't make it huge */
-@media screen and (max-width: 700px) {
-  .main-content {
-    padding: 1.35rem !important;
-  }
-
-  .main-content h2,
-  .main-content .topic-header,
-  .main-content .section-divider {
-    margin-top: 3.4rem !important;
-    margin-bottom: 1.4rem !important;
-  }
-
-  .main-content h3,
-  .main-content .topic-subheader,
-  .main-content .section-divider.small {
-    margin-top: 2.4rem !important;
-  }
-
-  .main-content p,
-  .main-content li {
-    line-height: 1.7 !important;
-  }
-
-  .main-content table {
-    margin-top: 1.4rem !important;
-    margin-bottom: 1.8rem !important;
   }
 }
