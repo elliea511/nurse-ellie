@@ -7,10 +7,6 @@ title: ATI Nutrition Exam Study Guide
 
 Nutrition shows up everywhere on the ATI exam — not just in one obvious "diet" question, but woven into GI, cardiac, renal, endocrine, oncology, and pediatric content. This guide breaks it into focused sections so you can study the piece you actually need instead of scrolling one giant page.
 
-<div class="note">
-<strong>How this guide is organized:</strong> each section leads with <em>function</em> — what a nutrient or condition does and why it matters — in short tables and callout boxes. Specific food examples are saved for a <strong>Food Sources Quick Reference</strong> near the end of each page, and a final <strong>Section Summary</strong> table gives you a fast pre-exam scan.
-</div>
-
 <div class="ati-tip">
 <strong>Not sure where to start?</strong> If your foundational concepts (enzymes, vitamins, minerals, fluid balance) feel shaky, start with <strong>Nutrition Basics</strong> — almost every other section assumes you already know that material. If basics are solid, jump straight to the disease-specific section you're reviewing.
 </div>
@@ -79,7 +75,3 @@ Nutrition shows up everywhere on the ATI exam — not just in one obvious "diet"
 </div>
 
 ---
-
-<div class="memory">
-<strong>One mindset to carry through every section:</strong> ATI nutrition questions are rarely "memorize this food." They're testing whether you understand what a nutrient does, where it's processed in the body, and why a specific client needs more, less, or none of it.
-</div>
