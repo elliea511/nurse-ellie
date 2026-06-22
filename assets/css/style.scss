@@ -2224,3 +2224,359 @@ body {
   background: linear-gradient(135deg, #fff9f2, #b98563) !important;
   border-color: rgba(185, 133, 99, 0.38) !important;
 }
+/* =========================================================
+   HEADING HIERARCHY FIX
+   Makes headings stand out from NCLEX/priority/callout boxes
+   Paste at the VERY BOTTOM of style.css
+   ========================================================= */
+
+/* H1 = page title, cleaner and stronger */
+.main-content h1 {
+  color: #4b2d24 !important;
+  background: transparent !important;
+  font-size: clamp(2.1rem, 4vw, 3.1rem) !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.03em !important;
+  text-align: center !important;
+  padding-bottom: 0.9rem !important;
+  margin-bottom: 2.2rem !important;
+  border-bottom: 4px double rgba(75, 45, 36, 0.25) !important;
+}
+
+/* Add a cute color stripe under page title */
+.main-content h1::after {
+  content: "" !important;
+  display: block !important;
+  width: 140px !important;
+  height: 8px !important;
+  margin: 0.9rem auto 0 !important;
+  border-radius: 999px !important;
+  background: linear-gradient(
+    90deg,
+    #f1aaa7,
+    #ffd77d,
+    #b8b68b,
+    #b8d3d5,
+    #e8b7b9
+  ) !important;
+}
+
+/* H2 = major topic divider / notebook tab
+   This should NOT look like a callout box */
+.main-content h2 {
+  position: relative !important;
+  display: block !important;
+  color: #4b2d24 !important;
+  font-size: 1.75rem !important;
+  font-weight: 800 !important;
+  letter-spacing: 0.02em !important;
+  line-height: 1.18 !important;
+
+  background: transparent !important;
+  padding: 1.15rem 1rem 0.85rem 0 !important;
+  margin: 3.2rem 0 1.35rem 0 !important;
+
+  border: none !important;
+  border-bottom: 3px solid rgba(75, 45, 36, 0.22) !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+}
+
+/* Colored tab piece above the H2 */
+.main-content h2::before {
+  content: "" !important;
+  display: block !important;
+  position: absolute !important;
+  left: 0 !important;
+  top: 0 !important;
+  width: 86px !important;
+  height: 12px !important;
+  border-radius: 999px !important;
+  background: #f1aaa7 !important;
+  opacity: 1 !important;
+}
+
+/* Small second accent line */
+.main-content h2::after {
+  content: "" !important;
+  position: absolute !important;
+  left: 96px !important;
+  top: 5px !important;
+  width: 38px !important;
+  height: 3px !important;
+  border-radius: 999px !important;
+  background: rgba(75, 45, 36, 0.22) !important;
+}
+
+/* H2 tab colors rotate, but the H2 itself stays clean */
+.main-content h2:nth-of-type(8n + 1)::before {
+  background: #f1aaa7 !important;
+}
+
+.main-content h2:nth-of-type(8n + 2)::before {
+  background: #ffd77d !important;
+}
+
+.main-content h2:nth-of-type(8n + 3)::before {
+  background: #b8b68b !important;
+}
+
+.main-content h2:nth-of-type(8n + 4)::before {
+  background: #b8d3d5 !important;
+}
+
+.main-content h2:nth-of-type(8n + 5)::before {
+  background: #e8b7b9 !important;
+}
+
+.main-content h2:nth-of-type(8n + 6)::before {
+  background: #efe3c3 !important;
+}
+
+.main-content h2:nth-of-type(8n + 7)::before {
+  background: #f6d7ae !important;
+}
+
+.main-content h2:nth-of-type(8n + 8)::before {
+  background: #d8ad72 !important;
+}
+
+/* H3 = subsection label, clearly smaller than H2 */
+.main-content h3 {
+  color: #4b2d24 !important;
+  background: rgba(255, 249, 242, 0.62) !important;
+  font-size: 1.22rem !important;
+  font-weight: 750 !important;
+  padding: 0.5rem 0.75rem !important;
+  margin: 1.8rem 0 0.8rem 0 !important;
+  border: none !important;
+  border-left: 6px solid #e8b7b9 !important;
+  border-radius: 10px !important;
+  box-shadow: none !important;
+}
+
+/* H3 colors rotate subtly */
+.main-content h3:nth-of-type(6n + 1) {
+  border-left-color: #f1aaa7 !important;
+}
+
+.main-content h3:nth-of-type(6n + 2) {
+  border-left-color: #ffd77d !important;
+}
+
+.main-content h3:nth-of-type(6n + 3) {
+  border-left-color: #b8b68b !important;
+}
+
+.main-content h3:nth-of-type(6n + 4) {
+  border-left-color: #b8d3d5 !important;
+}
+
+.main-content h3:nth-of-type(6n + 5) {
+  border-left-color: #e8b7b9 !important;
+}
+
+.main-content h3:nth-of-type(6n + 6) {
+  border-left-color: #d8ad72 !important;
+}
+
+/* H4 = tiny subtopic, no box */
+.main-content h4 {
+  color: #754326 !important;
+  background: transparent !important;
+  font-size: 1.05rem !important;
+  font-weight: 800 !important;
+  margin: 1.25rem 0 0.4rem 0 !important;
+  padding: 0 !important;
+  border: none !important;
+}
+
+/* Keep callouts visually quieter so headings win */
+.main-content .nclex,
+.main-content .ati-tip,
+.main-content .danger,
+.main-content .priority,
+.main-content .intervention,
+.main-content .memory,
+.main-content .note,
+.main-content .teaching,
+.main-content .lab,
+.main-content .assessment,
+.main-content .med,
+.main-content .patho,
+.main-content .ati-box {
+  margin: 1rem 0 !important;
+  padding: 0.8rem 0.95rem !important;
+  border-radius: 0 12px 12px 0 !important;
+  border-left-width: 4px !important;
+  box-shadow: none !important;
+}
+
+/* Make callout labels smaller so they do not compete with H3/H2 */
+.main-content .nclex::before,
+.main-content .ati-tip::before,
+.main-content .danger::before,
+.main-content .priority::before,
+.main-content .intervention::before,
+.main-content .memory::before,
+.main-content .note::before,
+.main-content .teaching::before,
+.main-content .lab::before,
+.main-content .assessment::before,
+.main-content .med::before,
+.main-content .patho::before {
+  font-size: 0.72rem !important;
+  letter-spacing: 0.07em !important;
+  opacity: 0.8 !important;
+  margin-bottom: 0.25rem !important;
+}
+/* =========================================================
+   CUTE COFFEE SHOP DECORATIONS
+   CSS-only decorations: steam, beans, cafe-card details
+   Paste at the VERY BOTTOM of style.css
+   ========================================================= */
+
+/* ---------- Header steam line decorations ---------- */
+.page-header {
+  position: relative !important;
+  overflow: hidden !important;
+}
+
+.page-header::before {
+  content: "" !important;
+  position: absolute !important;
+  left: 8% !important;
+  top: 18% !important;
+  width: 90px !important;
+  height: 90px !important;
+  border: 3px solid rgba(255, 249, 242, 0.32) !important;
+  border-color: rgba(255, 249, 242, 0.32) transparent transparent transparent !important;
+  border-radius: 50% !important;
+  transform: rotate(-25deg) !important;
+}
+
+.page-header::after {
+  content: "" !important;
+  position: absolute !important;
+  right: 9% !important;
+  bottom: 18% !important;
+  width: 70px !important;
+  height: 70px !important;
+  border: 3px solid rgba(255, 215, 125, 0.28) !important;
+  border-color: transparent rgba(255, 215, 125, 0.28) rgba(255, 215, 125, 0.28) transparent !important;
+  border-radius: 50% !important;
+  transform: rotate(20deg) !important;
+}
+
+/* Keeps title above decorations */
+.page-header .project-name,
+.page-header .project-tagline {
+  position: relative !important;
+  z-index: 2 !important;
+}
+
+/* ---------- Coffee bean detail on study cards ---------- */
+.study-card,
+.section-card,
+.home-big-button {
+  position: relative !important;
+  overflow: hidden !important;
+}
+
+.study-card::before,
+.section-card::before,
+.home-big-button::before {
+  content: "" !important;
+  position: absolute !important;
+  top: 14px !important;
+  right: 16px !important;
+  width: 18px !important;
+  height: 28px !important;
+  background: rgba(117, 67, 38, 0.16) !important;
+  border-radius: 50% !important;
+  transform: rotate(28deg) !important;
+}
+
+.study-card h2::after,
+.section-card h2::after {
+  content: "" !important;
+  display: block !important;
+  width: 42px !important;
+  height: 2px !important;
+  background: rgba(117, 67, 38, 0.22) !important;
+  margin: 0.55rem auto 0 !important;
+  border-radius: 999px !important;
+}
+
+/* ---------- Menu-board style top border on homepage cards ---------- */
+.study-card,
+.section-card,
+.home-big-button {
+  border-top: 5px solid rgba(117, 67, 38, 0.16) !important;
+}
+
+/* ---------- Tiny latte divider under H1 ---------- */
+.main-content h1::after {
+  content: "" !important;
+  display: block !important;
+  width: 90px !important;
+  height: 5px !important;
+  margin-top: 0.75rem !important;
+  border-radius: 999px !important;
+  background: linear-gradient(
+    90deg,
+    #f1aaa7,
+    #ffd77d,
+    #b8b68b,
+    #b8d3d5
+  ) !important;
+}
+
+/* ---------- Major topic tab “binder tab” corner accent ---------- */
+.main-content h2 {
+  position: relative !important;
+}
+
+.main-content h2::before {
+  content: "" !important;
+  position: absolute !important;
+  left: -14px !important;
+  top: -7px !important;
+  width: 34px !important;
+  height: 7px !important;
+  background: inherit !important;
+  border-radius: 10px 10px 0 0 !important;
+  opacity: 0.85 !important;
+}
+
+/* ---------- Sidebar coffee menu separators ---------- */
+.sidebar summary {
+  position: relative !important;
+}
+
+.sidebar summary::after {
+  content: "" !important;
+  display: block !important;
+  height: 1px !important;
+  width: 100% !important;
+  margin-top: 0.45rem !important;
+  background: linear-gradient(
+    90deg,
+    rgba(117, 67, 38, 0.18),
+    transparent
+  ) !important;
+}
+
+/* ---------- Soft dotted cafe menu divider between sections ---------- */
+.main-content hr {
+  border: none !important;
+  height: 2px !important;
+  background-image: radial-gradient(
+    circle,
+    rgba(117, 67, 38, 0.28) 1.5px,
+    transparent 1.5px
+  ) !important;
+  background-size: 12px 2px !important;
+  background-repeat: repeat-x !important;
+  margin: 2.4rem 0 !important;
+}
