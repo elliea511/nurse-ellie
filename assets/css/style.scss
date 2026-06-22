@@ -2430,3 +2430,202 @@ body {
   opacity: 0.8 !important;
   margin-bottom: 0.25rem !important;
 }
+/* =========================================================
+   OPEN UP NOTES SPACING — LESS CROWDED
+   Paste at the VERY BOTTOM of style.css
+   ========================================================= */
+
+/* Give the notes area more breathing room */
+.main-content {
+  padding: clamp(1.8rem, 3.2vw, 3rem) !important;
+}
+
+/* Page title spacing */
+.main-content h1 {
+  margin-bottom: 2.6rem !important;
+}
+
+/* H2 major headings: more space above and below */
+.main-content h2,
+.main-content .topic-header,
+.main-content .section-divider {
+  margin-top: 4.4rem !important;
+  margin-bottom: 1.9rem !important;
+  padding-top: 1.35rem !important;
+  padding-bottom: 1rem !important;
+}
+
+/* If H2 comes right after H1, don't make the gap ridiculous */
+.main-content h1 + h2,
+.main-content h1 + .topic-header,
+.main-content h1 + .section-divider {
+  margin-top: 2.8rem !important;
+}
+
+/* H3 subsection headings: more separate from the content before */
+.main-content h3,
+.main-content .topic-subheader,
+.main-content .section-divider.small {
+  margin-top: 3rem !important;
+  margin-bottom: 1.25rem !important;
+  padding-top: 1rem !important;
+  padding-bottom: 0.75rem !important;
+}
+
+/* H4 mini headings */
+.main-content h4 {
+  margin-top: 2rem !important;
+  margin-bottom: 0.75rem !important;
+}
+
+/* Paragraphs need more room under headings */
+.main-content p {
+  line-height: 1.85 !important;
+  margin-top: 1rem !important;
+  margin-bottom: 1.25rem !important;
+}
+
+/* Lists need breathing room too */
+.main-content ul,
+.main-content ol {
+  margin-top: 1rem !important;
+  margin-bottom: 1.45rem !important;
+  padding-left: 1.55rem !important;
+}
+
+.main-content li {
+  line-height: 1.78 !important;
+  margin: 0.45rem 0 !important;
+}
+
+/* Tables: more space before/after */
+.main-content table {
+  margin-top: 1.9rem !important;
+  margin-bottom: 2.3rem !important;
+}
+
+/* Keep table contents readable but not cramped */
+.main-content th,
+.main-content td {
+  padding: 0.78rem 0.9rem !important;
+  line-height: 1.62 !important;
+}
+
+/* Callout boxes: more separation from tables/text */
+.main-content .nclex,
+.main-content .ati-tip,
+.main-content .danger,
+.main-content .priority,
+.main-content .intervention,
+.main-content .memory,
+.main-content .note,
+.main-content .teaching,
+.main-content .lab,
+.main-content .assessment,
+.main-content .med,
+.main-content .patho,
+.main-content .ati-box,
+.main-content blockquote {
+  margin-top: 2rem !important;
+  margin-bottom: 2.2rem !important;
+  padding: 1.05rem 1.2rem !important;
+  line-height: 1.78 !important;
+}
+
+/* Dropdowns also need more separation */
+.main-content details {
+  margin-top: 1.9rem !important;
+  margin-bottom: 2.4rem !important;
+  padding: 1.1rem 1.2rem !important;
+}
+
+.main-content details p,
+.main-content details li {
+  line-height: 1.78 !important;
+  margin-top: 0.9rem !important;
+  margin-bottom: 0.9rem !important;
+}
+
+/* Add extra space after tables followed by headings/callouts */
+.main-content table + h2,
+.main-content table + h3,
+.main-content table + h4,
+.main-content table + .note,
+.main-content table + .nclex,
+.main-content table + .ati-tip,
+.main-content table + .danger,
+.main-content table + .priority,
+.main-content table + .intervention {
+  margin-top: 2.6rem !important;
+}
+
+/* Add extra space after callouts before next subsection */
+.main-content .note + h3,
+.main-content .nclex + h3,
+.main-content .ati-tip + h3,
+.main-content .danger + h3,
+.main-content .priority + h3,
+.main-content .intervention + h3,
+.main-content .memory + h3,
+.main-content .teaching + h3,
+.main-content .lab + h3,
+.main-content .assessment + h3,
+.main-content .med + h3,
+.main-content .patho + h3,
+.main-content .ati-box + h3,
+.main-content blockquote + h3 {
+  margin-top: 3.4rem !important;
+}
+
+/* Same for H4 after callouts */
+.main-content .note + h4,
+.main-content .nclex + h4,
+.main-content .ati-tip + h4,
+.main-content .danger + h4,
+.main-content .priority + h4,
+.main-content .intervention + h4,
+.main-content .memory + h4,
+.main-content .teaching + h4,
+.main-content .lab + h4,
+.main-content .assessment + h4,
+.main-content .med + h4,
+.main-content .patho + h4,
+.main-content .ati-box + h4,
+.main-content blockquote + h4 {
+  margin-top: 2.5rem !important;
+}
+
+/* Horizontal dividers */
+.main-content hr {
+  margin: 3.2rem 0 !important;
+}
+
+/* Mobile: add space, but don't make it huge */
+@media screen and (max-width: 700px) {
+  .main-content {
+    padding: 1.35rem !important;
+  }
+
+  .main-content h2,
+  .main-content .topic-header,
+  .main-content .section-divider {
+    margin-top: 3.4rem !important;
+    margin-bottom: 1.4rem !important;
+  }
+
+  .main-content h3,
+  .main-content .topic-subheader,
+  .main-content .section-divider.small {
+    margin-top: 2.4rem !important;
+  }
+
+  .main-content p,
+  .main-content li {
+    line-height: 1.7 !important;
+  }
+
+  .main-content table {
+    margin-top: 1.4rem !important;
+    margin-bottom: 1.8rem !important;
+  }
+}
