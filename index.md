@@ -22,5 +22,10 @@ title: Nursing Notes
   <span class="button-title">ATI Exam Review</span>
   <span class="button-subtitle">Grind Time</span>
 </a>
+
+  <a class="home-big-button red" href="{{ '/medical-emergencies.html' | relative_url }}">
+    <span class="button-title">Medical Emergencies</span>
+    <span class="button-subtitle">Burns, shock, and more</span>
+  </a>
   
 </div>
