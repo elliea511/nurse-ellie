@@ -8,21 +8,21 @@
    ========================================================= */
 
 :root {
-  --ink:      #4A3B32;
-  --muted:    #8a7060;
-  --light:    #b8a090;
+  --ink:      #2a2640;
+  --muted:    #6a6880;
+  --light:    #a8a8c0;
   --paper:    #ffffff;
-  --bg:       #FDFBF7;
-  --border:   #EAD8CE;
+  --bg:       #f9f9fb;
+  --border:   #e4e4ec;
 
-  /* Section accent (default — warm terracotta) */
-  --accent:        #D98A6C;
-  --accent-soft:   #fdf5f0;
-  --accent-mid:    #f0c8b0;
-  --accent-dark:   #a05030;
-  --accent2:       #9aac88;
-  --accent2-soft:  #f4f8f0;
-  --accent2-mid:   #c8d8b8;
+  /* Default / unassigned — vintage grape + tea green */
+  --accent:        #413c58;
+  --accent-soft:   #f4f3f8;
+  --accent-mid:    #a3c4bc;
+  --accent-dark:   #2a2838;
+  --accent2:       #bfd7b5;
+  --accent2-soft:  #f4f8f2;
+  --accent2-mid:   #c8d8bc;
 }
 
 /* =========================================================
@@ -46,7 +46,7 @@ body {
    ========================================================= */
 
 .page-header {
-  background: var(--bg) !important;
+  background: white !important;
   border-bottom: 1px solid var(--border) !important;
   padding: 1.75rem 2rem !important;
   box-shadow: none !important;
@@ -1150,48 +1150,76 @@ body {
    SECTION COLOR THEMES (auto via data-section)
    ========================================================= */
 
-/* Maternity — dusty rose/blush */
+/* Homepage — ash grey, muted teal, sage, beige */
+[data-section=""],
+[data-section="index"] {
+  --ink:          #3a3a3a;
+  --muted:        #6a7a70;
+  --border:       #d4cdab;
+  --bg:           #f8f8f4;
+  --accent:       #93c0a4;
+  --accent-soft:  #f2f8f4;
+  --accent-mid:   #b6c4a2;
+  --accent-dark:  #5a7860;
+  --accent2:      #d4cdab;
+  --accent2-soft: #faf8f2;
+  --accent2-mid:  #c8c0a0;
+}
+
+/* Maternity — petal pink, violet, blush, honeydew */
 [data-section="maternity"] {
-  --accent:       #c8788a;
-  --accent-soft:  #fdf2f4;
-  --accent-mid:   #f0c8d0;
-  --accent-dark:  #884058;
-  --accent2:      #c898a8;
-  --accent2-soft: #fdf4f7;
-  --accent2-mid:  #f0d8e0;
+  --ink:          #4a2845;
+  --muted:        #806078;
+  --border:       #efc7e5;
+  --accent:       #d782ba;
+  --accent-soft:  #fdf3fa;
+  --accent-mid:   #eeb1d5;
+  --accent-dark:  #905070;
+  --accent2:      #e0efda;
+  --accent2-soft: #f5faf4;
+  --accent2-mid:  #c8e0c0;
 }
 
-/* Hematology/Oncology — burgundy/deep rose */
+/* Hematology/Oncology — night bordeaux, carmine, lobster pink */
 [data-section="hematology-oncology"] {
-  --accent:       #b84858;
-  --accent-soft:  #fdf0f2;
-  --accent-mid:   #f0b8c0;
-  --accent-dark:  #802838;
-  --accent2:      #b87858;
-  --accent2-soft: #fdf4f0;
-  --accent2-mid:  #f0d0b8;
+  --ink:          #2a0810;
+  --muted:        #7a3848;
+  --border:       #f0c0c8;
+  --accent:       #ba1f33;
+  --accent-soft:  #fef0f2;
+  --accent-mid:   #f5c0c5;
+  --accent-dark:  #7a0f1a;
+  --accent2:      #cd5d67;
+  --accent2-soft: #fef5f6;
+  --accent2-mid:  #f8d0d4;
 }
 
-/* Medical Emergencies — warm amber */
-[data-section="medical-emergencies"] {
-  --accent:       #c8882a;
-  --accent-soft:  #fdf6ec;
-  --accent-mid:   #f0d0a0;
-  --accent-dark:  #885010;
-  --accent2:      #a8a858;
-  --accent2-soft: #fafaf0;
-  --accent2-mid:  #e0e0a8;
-}
-
-/* ATI — soft sage/teal */
+/* ATI — graphite, blue slate, muted teal */
 [data-section="ati"] {
-  --accent:       #6898a8;
-  --accent-soft:  #f0f6f8;
-  --accent-mid:   #b8d8e8;
-  --accent-dark:  #386880;
-  --accent2:      #7898a0;
-  --accent2-soft: #f2f6f8;
-  --accent2-mid:  #c0d8e0;
+  --ink:          #1e2a32;
+  --muted:        #4a6070;
+  --border:       #b8d4d0;
+  --accent:       #3d5a6c;
+  --accent-soft:  #f0f4f6;
+  --accent-mid:   #72a98f;
+  --accent-dark:  #253848;
+  --accent2:      #72a98f;
+  --accent2-soft: #f2f8f5;
+  --accent2-mid:  #a8cfc0;
+}
+
+/* Medical Emergencies — burnt peach, golden sand, apricot */
+[data-section="medical-emergencies"] {
+  --ink:          #3a1f18;
+  --muted:        #7a5040;
+  --border:       #fdd692;
+  --accent:       #ec7357;
+  --accent-soft:  #fdf5f2;
+  --accent-mid:   #fdd692;
+  --accent-dark:  #754f44;
+  --accent2:      #e1ce7a;
+  --accent2-soft: #fdfaf0;
+  --accent2-mid:  #f0e0a0;
 }
 
 /* =========================================================
