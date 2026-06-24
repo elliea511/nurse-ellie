@@ -1738,5 +1738,115 @@ body[data-section="index"] .main-content {
   background-color: var(--pink-light) !important;
   border-radius: 0 15px 15px 0 !important;
 }
+/* =========================================================
+   KAWAII CAFE THEME (Homepage Only)
+   ========================================================= */
+
+body[data-section="index"] {
+  background-color: #fffafb !important; /* Soft creamy pink */
+}
+
+/* Immersive Homepage Layout */
+body[data-section="index"] .main-content {
+  max-width: 100% !important;
+  width: 100vw !important;
+  min-height: 100vh !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  padding: 4rem 2rem !important;
+  background: linear-gradient(to bottom, #fffafb, #fdf2f5) !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+/* The Cafe Sign (Hero) */
+.cafe-sign {
+  text-align: center;
+  margin-bottom: 4rem;
+  padding: 3rem;
+  background: white;
+  border: 4px solid #ffdeeb;
+  border-radius: 40px;
+  box-shadow: 0 10px 0 #ffdeeb; /* Cartoon shadow */
+}
+
+.cafe-sign h1 {
+  font-family: 'Playfair Display', serif !important;
+  color: #d6336c !important;
+  font-size: 3.2rem !important;
+  margin: 0.5rem 0 !important;
+  text-transform: lowercase;
+}
+
+.cafe-sign .mini-label {
+  background: #ffdeeb;
+  color: #d6336c;
+  padding: 4px 15px;
+  border-radius: 20px;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+
+/* Menu Grid */
+.cafe-menu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  width: 100%;
+  max-width: 1100px;
+}
+
+/* Menu items (Cards) */
+.menu-item {
+  background: white !important;
+  border: 4px solid #ffdeeb !important;
+  border-radius: 30px !important;
+  padding: 2.5rem 1.5rem !important;
+  text-align: center !important;
+  text-decoration: none !important;
+  transition: all 0.2s ease-in-out !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu-item:hover {
+  transform: translateY(-10px) rotate(1deg) !important;
+  border-color: #ff85a2 !important;
+}
+
+.menu-icon {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+}
+
+.menu-item h3 {
+  color: #333 !important;
+  font-weight: 900 !important;
+  margin-bottom: 0.5rem !important;
+}
+
+.menu-price {
+  margin-top: 1.5rem;
+  font-weight: 800;
+  color: #ff85a2;
+  font-size: 0.9rem;
+}
+
+/* Motivation Pill */
+.study-motivation {
+  margin-top: 5rem;
+  font-style: italic;
+  color: #d977ad;
+  font-weight: 600;
+}
+
+/* Color variations for cards */
+.menu-item.purple { background: #f8f4ff !important; border-color: #d0bfff !important; }
+.menu-item.yellow { background: #fffcf0 !important; border-color: #ffe49c !important; }
+.menu-item.pink   { background: #fff0f5 !important; border-color: #ffdeeb !important; }
+.menu-item.rose   { background: #fff5f5 !important; border-color: #ffc9c9 !important; }
 
 
