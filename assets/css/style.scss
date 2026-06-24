@@ -2288,34 +2288,25 @@ body[data-section="index"] .page-wrapper {
   color: #fff !important;
   transform: translateY(-3px) scale(1.03);
 }
-
-/* CATEGORY CARDS (RIGHT SIDE) */
 .sng-card-grid {
-  margin-left: 0;
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
-  gap: 2rem 2.3rem;
-  margin-top: 1.8rem;
-  position: relative;
-  z-index: 1;
+  grid-template-columns: 1fr;
+  gap: 2.4rem;
+  margin: 0 auto;
 }
-.sng-card {
-  background: linear-gradient(135deg,#fff5fa 90%,#f5f6fc 100%);
-  border-radius: 28px;
-  box-shadow: 0 4px 22px #d78bc61c,0 1px 8px #fad1f93c;
-  border: none;
-  padding: 2.9rem 2.2rem 2.4rem 2.2rem;
-  text-align: left;
-  position: relative;
-  transition: box-shadow .16s,transform .15s;
-  overflow: hidden;
+@media (min-width: 700px) {
+  .sng-card-grid {
+    grid-template-columns: 1fr 1fr;
+  }
 }
-.sng-card:hover {
-  box-shadow: 0 12px 40px #e49df363,0 3px 14px #e6b6fa44;
-  transform: translateY(-6px) scale(1.035);
+@media (min-width: 1100px) {
+  .sng-card-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 1100px;
+    margin-left: 0;
+  }
 }
-
 /* Card Headline */
 .sng-card-title {
   font-family: 'Nunito',sans-serif;
