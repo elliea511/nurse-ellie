@@ -38,8 +38,8 @@ Medical emergencies show up throughout nursing — in the ER, on the floor, in c
 </a>
 
 <a class="study-card coming-soon" href="#">
-<h2>Cardiac Emergencies</h2>
-<p>Acute MI, cardiac arrest, dysrhythmias, hypertensive crisis, and cardiac tamponade. Coming soon.</p>
+<h2>Cardiac/Perfusion Emergencies</h2>
+<p>Acute MI, cardiac arrest, angina, hypertensive crisis, and hemophelia. Coming soon.</p>
 </a>
 
 <a class="study-card coming-soon" href="#">
