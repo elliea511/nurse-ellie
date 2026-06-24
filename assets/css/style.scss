@@ -919,15 +919,57 @@ body {
 }
 
 /* =========================================================
+   HOMEPAGE HERO
+   ========================================================= */
+
+.home-hero {
+  text-align: center;
+  padding: 4.5rem 2rem 2rem 2rem;
+}
+
+.home-eyebrow {
+  font-family: "Nunito", sans-serif;
+  font-size: 0.75rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  color: #b08880;
+  margin: 0 0 0.85rem 0;
+}
+
+.home-title {
+  font-family: "Playfair Display", Georgia, serif !important;
+  font-size: 3rem !important;
+  font-weight: 700 !important;
+  color: #3a2828 !important;
+  margin: 0 0 0.85rem 0 !important;
+  padding: 0 !important;
+  background: none !important;
+  border: none !important;
+  border-radius: 0 !important;
+  text-align: center !important;
+  line-height: 1.2 !important;
+}
+
+.home-sub {
+  font-size: 1rem;
+  color: #8a7070;
+  margin: 0 !important;
+  font-weight: 500;
+}
+
+/* =========================================================
    HOMEPAGE BIG BUTTONS
    ========================================================= */
 
 .home-button-grid {
   display: grid !important;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)) !important;
-  gap: 1.25rem !important;
-  margin: 2.5rem auto !important;
-  max-width: 900px !important;
+  grid-template-columns: repeat(2, 1fr) !important;
+  gap: 1.5rem !important;
+  margin: 2.5rem auto 4rem auto !important;
+  max-width: 860px !important;
+  padding: 0 2rem !important;
+  box-sizing: border-box !important;
 }
 
 .home-big-button {
@@ -935,45 +977,103 @@ body {
   flex-direction: column !important;
   align-items: flex-start !important;
   justify-content: flex-end !important;
-  min-height: 160px !important;
-  border-radius: 16px !important;
+  min-height: 210px !important;
+  border-radius: 20px !important;
   text-align: left !important;
-  color: var(--ink) !important;
+  color: #3a2828 !important;
   text-decoration: none !important;
   border-bottom: none !important;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.05), 0 4px 16px rgba(0,0,0,0.06) !important;
-  transition: transform 0.18s ease, box-shadow 0.18s ease !important;
-  padding: 1.5rem !important;
-  border: 1px solid var(--border) !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06), 0 8px 28px rgba(0,0,0,0.07) !important;
+  transition: transform 0.2s ease, box-shadow 0.2s ease !important;
+  padding: 1.75rem !important;
+  border: 1.5px solid transparent !important;
   position: relative !important;
   overflow: hidden !important;
 }
 
 .home-big-button:hover {
-  transform: translateY(-4px) !important;
-  box-shadow: 0 8px 28px rgba(0,0,0,0.10) !important;
+  transform: translateY(-5px) !important;
+  box-shadow: 0 14px 40px rgba(0,0,0,0.13) !important;
+}
+
+.tile-emoji {
+  position: absolute !important;
+  top: 1.25rem !important;
+  right: 1.5rem !important;
+  font-size: 2.2rem !important;
+  opacity: 0.5 !important;
 }
 
 .button-title {
   display: block !important;
   font-family: "Playfair Display", Georgia, serif !important;
-  font-size: 1.35rem !important;
+  font-size: 1.5rem !important;
   font-weight: 700 !important;
   letter-spacing: 0 !important;
   margin-bottom: 0.5rem !important;
-  color: var(--ink) !important;
-  line-height: 1.3 !important;
+  line-height: 1.25 !important;
+  color: inherit !important;
 }
 
 .button-subtitle {
   display: block !important;
-  font-size: 0.82rem !important;
+  font-size: 0.85rem !important;
   font-weight: 600 !important;
-  color: var(--muted) !important;
-  background: rgba(255,255,255,0.70) !important;
-  padding: 4px 10px !important;
-  border-radius: 6px !important;
   font-family: "Nunito", sans-serif !important;
+  background: none !important;
+  padding: 0 !important;
+  border-radius: 0 !important;
+  color: inherit !important;
+  opacity: 0.72 !important;
+  line-height: 1.5 !important;
+}
+
+/* Blush — Maternity */
+.home-big-button.blush {
+  background: linear-gradient(145deg, #fdf0f4 0%, #f5d8e4 100%) !important;
+  border-color: #ecc0d0 !important;
+  color: #6a2840 !important;
+}
+.home-big-button.blush::before {
+  content: ""; position: absolute; top: 0; left: 0; right: 0; height: 5px;
+  background: linear-gradient(to right, #d4708a, #e8a0b8);
+  border-radius: 20px 20px 0 0;
+}
+
+/* Mauve — Hematology/Oncology */
+.home-big-button.mauve {
+  background: linear-gradient(145deg, #f5eef2 0%, #e8ccd8 100%) !important;
+  border-color: #d8b0c4 !important;
+  color: #58203a !important;
+}
+.home-big-button.mauve::before {
+  content: ""; position: absolute; top: 0; left: 0; right: 0; height: 5px;
+  background: linear-gradient(to right, #a04868, #c87898);
+  border-radius: 20px 20px 0 0;
+}
+
+/* Clay — Medical Emergencies */
+.home-big-button.clay {
+  background: linear-gradient(145deg, #fdf4ef 0%, #f0d8c8 100%) !important;
+  border-color: #e0c0a8 !important;
+  color: #5a2c18 !important;
+}
+.home-big-button.clay::before {
+  content: ""; position: absolute; top: 0; left: 0; right: 0; height: 5px;
+  background: linear-gradient(to right, #c07850, #d8a878);
+  border-radius: 20px 20px 0 0;
+}
+
+/* Taupe — ATI */
+.home-big-button.taupe {
+  background: linear-gradient(145deg, #faf5ef 0%, #ecdcc8 100%) !important;
+  border-color: #d8c4a8 !important;
+  color: #4a3018 !important;
+}
+.home-big-button.taupe::before {
+  content: ""; position: absolute; top: 0; left: 0; right: 0; height: 5px;
+  background: linear-gradient(to right, #b09060, #c8a878);
+  border-radius: 20px 20px 0 0;
 }
 
 .home-big-button.pink    { background: #fdf5f8 !important; border-color: #f0d0de !important; }
