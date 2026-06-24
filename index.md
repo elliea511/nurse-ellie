@@ -8,17 +8,17 @@ title: Nursing Notes
   <!-- HERO SECTION -->
   <section class="hero-gradient">
     <h1>
-      <span class="emoji">🩺</span> Nurse Ellie's Study Lounge
+      <span class="emoji">🩺</span> Nurse Ellie's Study Notes
     </h1>
     <p class="hero-desc">
-      Master your next nursing exam with <strong>colorful notes</strong>,
-      <strong>quick memory tricks</strong>, and laser-focused review tools.<br>
-      <span class="highlight">Organized. Up-to-date. Less stress, more success.</span>
+      Nursing notes built for the way you actually study —
+      organized by topic, easy to scan, and packed with the stuff that shows up on the NCLEX.<br>
+      <span class="highlight">Less overwhelm. More confidence.</span>
     </p>
     <div class="hero-actions">
-      <a href="#topics" class="hero-btn primary">Start Studying</a>
-      <a href="{{ '/hematology-oncology/anemia-practice-quiz.html' | relative_url }}" class="hero-btn quiz">Take a Practice Quiz</a>
-      <a href="#quickstart" class="hero-btn outline">Browse Topics</a>
+      <a href="#topics" class="hero-btn primary">Pick a Topic</a>
+      <a href="{{ '/hematology-oncology/anemia-practice-quiz.html' | relative_url }}" class="hero-btn quiz">Practice Quiz</a>
+      <a href="#quickstart" class="hero-btn outline">Quick Links</a>
     </div>
   </section>
 
