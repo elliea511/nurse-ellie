@@ -1049,59 +1049,59 @@ body {
   line-height: 1.5 !important;
 }
 
-/* Blush — Maternity */
+/* Blush — Maternity (pink) */
 .home-big-button.blush {
-  background: linear-gradient(145deg, rgba(253,240,244,0.92) 0%, rgba(245,216,228,0.92) 100%) !important;
+  background: linear-gradient(145deg, rgba(255,236,240,0.88) 0%, rgba(248,190,205,0.88) 100%) !important;
   backdrop-filter: blur(8px) !important;
   -webkit-backdrop-filter: blur(8px) !important;
-  border-color: #ecc0d0 !important;
-  color: #6a2840 !important;
+  border-color: #f0a8bc !important;
+  color: #6a1830 !important;
 }
 .home-big-button.blush::before {
   content: ""; position: absolute; top: 0; left: 0; right: 0; height: 5px;
-  background: linear-gradient(to right, #d4708a, #e8a0b8);
+  background: linear-gradient(to right, #e8607a, #f49ab0);
   border-radius: 20px 20px 0 0;
 }
 
-/* Mauve — Hematology/Oncology */
+/* Mauve — Hematology/Oncology (red) */
 .home-big-button.mauve {
-  background: linear-gradient(145deg, rgba(245,238,242,0.92) 0%, rgba(232,204,216,0.92) 100%) !important;
+  background: linear-gradient(145deg, rgba(255,228,228,0.88) 0%, rgba(240,180,180,0.88) 100%) !important;
   backdrop-filter: blur(8px) !important;
   -webkit-backdrop-filter: blur(8px) !important;
-  border-color: #d8b0c4 !important;
-  color: #58203a !important;
+  border-color: #e8a0a0 !important;
+  color: #5a1010 !important;
 }
 .home-big-button.mauve::before {
   content: ""; position: absolute; top: 0; left: 0; right: 0; height: 5px;
-  background: linear-gradient(to right, #a04868, #c87898);
+  background: linear-gradient(to right, #c83030, #e06060);
   border-radius: 20px 20px 0 0;
 }
 
-/* Clay — Medical Emergencies */
+/* Clay — Medical Emergencies (orange) */
 .home-big-button.clay {
-  background: linear-gradient(145deg, rgba(253,244,239,0.92) 0%, rgba(240,216,200,0.92) 100%) !important;
+  background: linear-gradient(145deg, rgba(255,236,220,0.88) 0%, rgba(248,200,160,0.88) 100%) !important;
   backdrop-filter: blur(8px) !important;
   -webkit-backdrop-filter: blur(8px) !important;
-  border-color: #e0c0a8 !important;
-  color: #5a2c18 !important;
+  border-color: #f0b888 !important;
+  color: #5a2800 !important;
 }
 .home-big-button.clay::before {
   content: ""; position: absolute; top: 0; left: 0; right: 0; height: 5px;
-  background: linear-gradient(to right, #c07850, #d8a878);
+  background: linear-gradient(to right, #d86020, #f09050);
   border-radius: 20px 20px 0 0;
 }
 
-/* Taupe — ATI */
+/* Taupe — ATI (blue) */
 .home-big-button.taupe {
-  background: linear-gradient(145deg, rgba(250,245,239,0.92) 0%, rgba(236,220,200,0.92) 100%) !important;
+  background: linear-gradient(145deg, rgba(220,236,255,0.88) 0%, rgba(180,210,248,0.88) 100%) !important;
   backdrop-filter: blur(8px) !important;
   -webkit-backdrop-filter: blur(8px) !important;
-  border-color: #d8c4a8 !important;
-  color: #4a3018 !important;
+  border-color: #90bce8 !important;
+  color: #0a2848 !important;
 }
 .home-big-button.taupe::before {
   content: ""; position: absolute; top: 0; left: 0; right: 0; height: 5px;
-  background: linear-gradient(to right, #b09060, #c8a878);
+  background: linear-gradient(to right, #2870c8, #60a0e8);
   border-radius: 20px 20px 0 0;
 }
 
