@@ -11,8 +11,15 @@
 </head>
 
 <body class="home-page" data-section="index">
-  <div class="home-fullpage">
-    {{ content }}
+  <input type="checkbox" id="sidebar-toggle" class="sidebar-toggle-checkbox">
+  <label for="sidebar-toggle" class="sidebar-toggle-button">Study Menu</label>
+  <label for="sidebar-toggle" class="sidebar-overlay"></label>
+
+  <div class="page-wrapper">
+    {% include sidebar.html %}
+    <div class="home-fullpage">
+      {{ content }}
+    </div>
   </div>
 </body>
 </html>

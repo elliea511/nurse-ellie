@@ -1241,9 +1241,8 @@ body.home-page {
     radial-gradient(circle, rgba(0,0,0,0.07) 1px, transparent 1px) !important;
   background-size: 24px 24px !important;
   min-height: 100vh !important;
-  display: flex !important;
-  align-items: center !important;
-  justify-content: center !important;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 .home-fullpage {
@@ -1251,24 +1250,248 @@ body.home-page {
   min-height: 100vh !important;
   display: flex !important;
   flex-direction: column !important;
-  align-items: center !important;
-  justify-content: center !important;
-  padding: 3rem 2rem !important;
   box-sizing: border-box !important;
+  padding: 0 !important;
+  margin: 0 !important;
 }
 
-.home-fullpage h1 {
+/* Override main-content card styles on homepage */
+.home-fullpage .main-content,
+.homepage-vibrant {
+  background: none !important;
+  border: none !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  max-width: 100% !important;
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  padding-top: 0 !important;
+}
+
+/* On homepage, page-wrapper shouldn't constrain */
+body.home-page .page-wrapper {
+  max-width: 100% !important;
+  padding: 0 !important;
+  gap: 0 !important;
+}
+
+/* HERO */
+.hero-gradient {
+  background: linear-gradient(160deg, white 55%, var(--accent-soft) 100%);
+  border-bottom: 3px solid var(--accent-mid);
+  padding: 5rem 4rem 4rem 4rem;
+  text-align: center;
+}
+
+.hero-gradient h1 {
   font-family: "Playfair Display", Georgia, serif !important;
-  font-size: 2.8rem !important;
+  font-size: 3.4rem !important;
   font-weight: 700 !important;
   color: var(--ink) !important;
-  text-align: center !important;
-  margin: 0 0 2.5rem 0 !important;
+  margin: 0 0 1.25rem 0 !important;
   padding: 0 !important;
   background: none !important;
   border: none !important;
   border-radius: 0 !important;
+  line-height: 1.2 !important;
 }
+
+.hero-gradient h1 .emoji {
+  font-size: 2.8rem;
+  vertical-align: middle;
+  margin-right: 0.3rem;
+}
+
+.hero-desc {
+  font-size: 1.15rem !important;
+  color: var(--muted) !important;
+  line-height: 1.8 !important;
+  max-width: 640px !important;
+  margin: 0 auto 2.5rem auto !important;
+}
+
+.hero-desc .highlight {
+  color: var(--accent-dark);
+  font-weight: 700;
+}
+
+.hero-actions {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.hero-btn {
+  display: inline-block;
+  padding: 0.85rem 2rem;
+  border-radius: 999px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 800;
+  font-size: 1rem;
+  text-decoration: none !important;
+  border-bottom: none !important;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.hero-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+}
+
+.hero-btn.primary {
+  background: var(--accent);
+  color: white;
+}
+
+.hero-btn.quiz {
+  background: var(--accent2);
+  color: var(--ink);
+}
+
+.hero-btn.outline {
+  background: white;
+  color: var(--accent-dark);
+  border: 2px solid var(--accent-mid) !important;
+}
+
+/* TOPIC CARDS */
+.quick-nav-card-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.quicknav-card {
+  border-right: 1px solid var(--border);
+}
+
+.quicknav-card:last-child {
+  border-right: none;
+}
+
+.quicknav-card a {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  text-align: center !important;
+  padding: 3rem 1.5rem !important;
+  text-decoration: none !important;
+  border-bottom: none !important;
+  color: var(--ink) !important;
+  transition: background 0.15s ease !important;
+  gap: 0.5rem !important;
+  height: 100% !important;
+  box-sizing: border-box !important;
+}
+
+.quicknav-card a:hover {
+  background: var(--accent-soft) !important;
+}
+
+.quicknav-card .card-emoji {
+  font-size: 2.2rem;
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+.quicknav-card .card-title {
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  display: block;
+  color: var(--ink);
+}
+
+.quicknav-card .card-desc {
+  font-size: 0.88rem;
+  color: var(--muted);
+  display: block;
+  line-height: 1.5;
+}
+
+.quicknav-card.maternity  { border-top: 4px solid #d782ba; }
+.quicknav-card.hematology { border-top: 4px solid #ba1f33; }
+.quicknav-card.emergencies{ border-top: 4px solid #ec7357; }
+.quicknav-card.ati        { border-top: 4px solid #3d5a6c; }
+
+/* MOTIVATION / TIPS */
+.study-highlight {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0;
+  background: var(--accent-soft);
+  border-bottom: 1px solid var(--border);
+}
+
+.motivation-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 2.5rem 3rem;
+  border-right: 1px solid var(--border);
+}
+
+.motivation-card:last-child {
+  border-right: none;
+}
+
+.motiv-emoji {
+  font-size: 2rem;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.motiv-msg {
+  font-size: 0.97rem;
+  line-height: 1.75;
+  color: var(--ink);
+}
+
+/* QUICK ACTIONS */
+.big-action-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0;
+}
+
+.big-action {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  text-align: center !important;
+  padding: 3.5rem 2rem !important;
+  text-decoration: none !important;
+  border-bottom: none !important;
+  border-right: 1px solid var(--border) !important;
+  color: var(--ink) !important;
+  font-family: "Nunito", sans-serif !important;
+  font-weight: 700 !important;
+  font-size: 1.05rem !important;
+  gap: 0.75rem !important;
+  transition: background 0.15s ease !important;
+}
+
+.big-action:last-child {
+  border-right: none !important;
+}
+
+.big-action:hover {
+  background: var(--accent-soft) !important;
+}
+
+.big-action .big-emoji {
+  font-size: 2.4rem;
+  display: block;
+}
+
+.big-action.maternity:hover  { background: #fdf0fa !important; }
+.big-action.hematology:hover { background: #fef0f2 !important; }
+.big-action.ati:hover        { background: #e8f0f4 !important; }
 
 /* =========================================================
    MOBILE
