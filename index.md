@@ -1,3 +1,6 @@
+<div class="girly-blob-pink"></div>
+<div class="girly-blob-mauve"></div>
+<div class="girly-blob-blue"></div>
 <div>
   <div class="sng-hero-title">Nurse Ellie’s<br>Study Lounge</div>
   <div class="sng-hero-desc">
