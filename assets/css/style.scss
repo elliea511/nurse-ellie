@@ -2181,3 +2181,161 @@ body[data-section="index"] .main-content {
     border: none !important;
     box-shadow: 0 4px 15px rgba(255, 133, 162, 0.2) !important;
 }
+/* =========================
+   Girly Simple Nursing Homepage
+   ========================= */
+body[data-section="index"] {
+  /* Soft pink luminous background */
+  background: linear-gradient(120deg,#fff7fa 0%,#fce1ec 45%,#f9f6fd 100%) !important;
+  min-height: 100vh;
+  position: relative;
+  overflow-x: hidden;
+}
+
+/* Decorative floating blob for soft depth */
+.girly-blob-pink, .girly-blob-mauve, .girly-blob-blue {
+  position: absolute;
+  border-radius: 50%;
+  z-index: 0;
+  pointer-events: none;
+  filter: blur(2px);
+}
+.girly-blob-pink {
+  width: 420px; height: 400px;
+  left: -170px; top: -140px;
+  background: radial-gradient(circle,#ffe0f0 40%,#fff0f7 100%);
+  opacity: 0.73;
+}
+.girly-blob-mauve {
+  width: 360px; height: 250px;
+  bottom: -140px; left: 58vw;
+  background: radial-gradient(circle,#edc8fa 30%,#fdf4ff 100%);
+  opacity: 0.38;
+}
+.girly-blob-blue {
+  width: 270px; height: 200px;
+  top: 25vh; right: -120px;
+  background: radial-gradient(circle,#cce3ff 40%,#f2f8ff 100%);
+  opacity: 0.25;
+}
+
+body[data-section="index"] .main-content,
+body[data-section="index"] .page-wrapper {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding-top: 0 !important;
+  z-index: 1;
+  position: relative;
+}
+
+/* Modern responsive split: hero on left, cards on right for wide screens */
+@media(min-width: 900px){
+  body[data-section="index"] .page-wrapper {
+    display: grid !important;
+    grid-template-columns: 1.15fr 1.85fr !important;
+    align-items: center !important;
+    gap: 4vw !important;
+    max-width: 1400px !important;
+    margin: 0 auto !important;
+    min-height: 84vh;
+    padding: 4vh 2vw 0 5vw !important;
+  }
+}
+
+/* HERO LEFT SIDE  */
+.sng-hero-title {
+  font-family: "Playfair Display",serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  color: #e14d90;
+  letter-spacing: 0.5px;
+  line-height: 1.07;
+  margin-bottom: 1.4rem;
+  text-shadow: 0 6px 40px #fbc3e658;
+}
+.sng-hero-desc {
+  color: #52445d;
+  font-size: 1.21rem;
+  margin-bottom: 2.2rem;
+  font-family: 'Nunito',sans-serif;
+  line-height: 1.67;
+}
+.sng-hero-actions {
+  margin-bottom: 2.9rem;
+}
+.sng-call-btn {
+  display: inline-block;
+  background: linear-gradient(90deg,#fa6394,#ed96fa 90%);
+  color: #fff;
+  font-family: 'Nunito',sans-serif;
+  font-size: 1.04rem;
+  font-weight: 900;
+  border: none;
+  border-radius: 999px;
+  padding: 1.1em 2.7em;
+  margin-right: 1.1em;
+  margin-bottom: 1.1em;
+  box-shadow: 0 4px 18px #fa63931a,0 1px 8px #b08be221;
+  transition: background .12s, transform .13s, box-shadow .13s;
+}
+.sng-call-btn.secondary {
+  background: linear-gradient(90deg,#b2b2fa,#fae8fc 90%);
+  color: #864cb2;
+}
+.sng-call-btn:hover {
+  background: linear-gradient(90deg,#e14d90 40%,#c688f4 100%) !important;
+  color: #fff !important;
+  transform: translateY(-3px) scale(1.03);
+}
+
+/* CATEGORY CARDS (RIGHT SIDE) */
+.sng-card-grid {
+  margin-left: 0;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+  gap: 2rem 2.3rem;
+  margin-top: 1.8rem;
+  position: relative;
+  z-index: 1;
+}
+.sng-card {
+  background: linear-gradient(135deg,#fff5fa 90%,#f5f6fc 100%);
+  border-radius: 28px;
+  box-shadow: 0 4px 22px #d78bc61c,0 1px 8px #fad1f93c;
+  border: none;
+  padding: 2.9rem 2.2rem 2.4rem 2.2rem;
+  text-align: left;
+  position: relative;
+  transition: box-shadow .16s,transform .15s;
+  overflow: hidden;
+}
+.sng-card:hover {
+  box-shadow: 0 12px 40px #e49df363,0 3px 14px #e6b6fa44;
+  transform: translateY(-6px) scale(1.035);
+}
+
+/* Card Headline */
+.sng-card-title {
+  font-family: 'Nunito',sans-serif;
+  font-weight: 900;
+  color: #e14d90;
+  font-size: 1.17em;
+  margin-bottom: 0.5em;
+  letter-spacing: 0.02em;
+}
+.sng-card-desc {
+  color: #7d7292; font-size: 1.01em;
+}
+
+/* Responsive stacking for mobile */
+@media(max-width:800px){
+  .sng-hero-title {font-size:2.1rem;}
+  .sng-card-grid{grid-template-columns:1fr;}
+}
+
+/* Hide blobs on old browsers if needed */
+@media(max-width:600px) {
+  .girly-blob-pink,.girly-blob-mauve,.girly-blob-blue {display:none;}
+}
