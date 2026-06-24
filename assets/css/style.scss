@@ -912,15 +912,14 @@ body {
    ========================================================= */
 
 .home-hero {
-  text-align: center;
-  padding: 4.5rem 2rem 2rem 2rem;
-  /* frosted backing so text pops over the illustration */
+  text-align: left;
+  padding: 4.5rem 2.5rem 2rem 2.5rem;
   background: rgba(255, 255, 255, 0.55) !important;
   backdrop-filter: blur(6px) !important;
   -webkit-backdrop-filter: blur(6px) !important;
   border-radius: 20px !important;
-  max-width: 680px !important;
-  margin: 0 auto !important;
+  max-width: 520px !important;
+  margin: 0 !important;
 }
 
 .home-eyebrow {
@@ -943,7 +942,7 @@ body {
   background: none !important;
   border: none !important;
   border-radius: 0 !important;
-  text-align: center !important;
+  text-align: left !important;
   line-height: 1.2 !important;
 }
 
@@ -956,7 +955,7 @@ body {
 
 .home-hero-actions {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .home-cta-btn {
@@ -988,9 +987,9 @@ body {
   display: grid !important;
   grid-template-columns: repeat(2, 1fr) !important;
   gap: 1.5rem !important;
-  margin: 2.5rem auto 4rem auto !important;
-  max-width: 860px !important;
-  padding: 0 2rem !important;
+  margin: 2rem 0 4rem 0 !important;
+  max-width: 560px !important;
+  padding: 0 !important;
   box-sizing: border-box !important;
 }
 
@@ -1368,9 +1367,11 @@ body {
 .home-fullpage {
   width: 100% !important;
   min-height: 100vh !important;
-  display: block !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: flex-start !important;
   box-sizing: border-box !important;
-  padding: 0 !important;
+  padding: 5vh 0 4rem 4rem !important;
   margin: 0 !important;
 }
 
