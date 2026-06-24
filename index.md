@@ -1,9 +1,3 @@
----
-layout: default
-title: Home
-type: index
----
-
 <div class="girly-blob-pink"></div>
 <div class="girly-blob-mauve"></div>
 <div class="girly-blob-blue"></div>
