@@ -950,8 +950,34 @@ body {
 .home-sub {
   font-size: 1rem;
   color: #8a7070;
-  margin: 0 !important;
+  margin: 0 0 1.75rem 0 !important;
   font-weight: 500;
+}
+
+.home-hero-actions {
+  display: flex;
+  justify-content: center;
+}
+
+.home-cta-btn {
+  display: inline-block;
+  background: #c07878;
+  color: white !important;
+  font-family: "Nunito", sans-serif;
+  font-weight: 800;
+  font-size: 0.95rem;
+  padding: 0.75rem 2rem;
+  border-radius: 999px;
+  text-decoration: none !important;
+  border-bottom: none !important;
+  box-shadow: 0 4px 16px rgba(192,120,120,0.30);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  letter-spacing: 0.2px;
+}
+
+.home-cta-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(192,120,120,0.38);
 }
 
 /* =========================================================
@@ -1354,8 +1380,7 @@ body.home-page {
 .home-fullpage {
   width: 100% !important;
   min-height: 100vh !important;
-  display: flex !important;
-  flex-direction: column !important;
+  display: block !important;
   box-sizing: border-box !important;
   padding: 0 !important;
   margin: 0 !important;
