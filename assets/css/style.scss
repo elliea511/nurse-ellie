@@ -1662,3 +1662,146 @@ body[data-section="index"] .homepage-vibrant {
   justify-content: center !important;
   box-sizing: border-box !important;
 }
+---
+---
+@import "{{ site.theme }}";
+
+/* Import the fonts correctly */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;900&family=Playfair+Display:wght@700;900&display=swap');
+
+:root {
+  /* GIRLY PALETTE */
+  --pink-main:    #ff85a2;
+  --pink-light:   #fff0f3;
+  --pink-deep:    #d6336c;
+  --mint:         #b2f2bb;
+  --lavender:     #d0bfff;
+  --sky:          #a5d8ff;
+  --ink:          #2d2d44;
+  --muted:        #868e96;
+  --border:       #ffdeeb;
+  --white:        #ffffff;
+}
+
+body {
+  background-color: #fdf2f5 !important; /* Soft blush background */
+  font-family: "Nunito", sans-serif !important;
+  color: var(--ink) !important;
+}
+
+/* =========================================================
+   HOMEPAGE IMMERSIVE MODE (Hides the white box & header)
+   ========================================================= */
+body[data-section="index"] .page-header { display: none !important; }
+body[data-section="index"] .sidebar { display: none !important; }
+body[data-section="index"] .sidebar-toggle-button { display: none !important; }
+
+body[data-section="index"] .page-wrapper {
+  max-width: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+body[data-section="index"] .main-content {
+  max-width: 100% !important;
+  width: 100vw !important;
+  min-height: 100vh !important;
+  background: linear-gradient(135deg, #fff0f3 0%, #f3f0ff 100%) !important;
+  border: none !important;
+  box-shadow: none !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+  padding: 2rem !important;
+}
+
+/* =========================================================
+   GIRLY HERO SECTION
+   ========================================================= */
+.hero-gradient {
+  background: white !important;
+  border: 3px solid var(--pink-main) !important;
+  border-radius: 30px !important;
+  padding: 3rem 2rem !important;
+  box-shadow: 0 10px 30px rgba(255, 133, 162, 0.2) !important;
+  text-align: center !important;
+  max-width: 800px !important;
+}
+
+.hero-gradient h1 {
+  font-family: "Playfair Display", serif !important;
+  color: var(--pink-deep) !important;
+  font-size: 3rem !important;
+  margin-bottom: 1rem !important;
+}
+
+.hero-btn {
+  border-radius: 50px !important;
+  padding: 12px 30px !important;
+  font-weight: 700 !important;
+  transition: all 0.3s ease !important;
+  text-decoration: none !important;
+  display: inline-block !important;
+  margin: 10px !important;
+}
+
+.hero-btn.primary { background-color: var(--pink-main) !important; color: white !important; }
+.hero-btn.quiz    { background-color: var(--lavender) !important; color: var(--ink) !important; }
+.hero-btn.outline { border: 2px solid var(--pink-main) !important; color: var(--pink-deep) !important; }
+
+.hero-btn:hover { transform: scale(1.05) !important; box-shadow: 0 5px 15px rgba(0,0,0,0.1) !important; }
+
+/* =========================================================
+   GIRLY STUDY CARDS
+   ========================================================= */
+.quicknav-card {
+  background: white !important;
+  border: 2px solid var(--border) !important;
+  border-radius: 20px !important;
+  padding: 20px !important;
+  transition: all 0.3s ease !important;
+  text-align: center !important;
+}
+
+.quicknav-card:hover {
+  border-color: var(--pink-main) !important;
+  transform: translateY(-5px) !important;
+  box-shadow: 0 10px 20px rgba(255, 133, 162, 0.1) !important;
+}
+
+.quicknav-card .card-title {
+  color: var(--pink-deep) !important;
+  font-weight: 900 !important;
+}
+
+/* =========================================================
+   INTERNAL PAGES (Sidebar & CONTENT)
+   ========================================================= */
+.page-header {
+  background: var(--pink-main) !important;
+  background-image: linear-gradient(120deg, var(--pink-main), var(--lavender)) !important;
+}
+
+.sidebar {
+  background: white !important;
+  border-right: 4px solid var(--pink-light) !important;
+  border-radius: 0 20px 20px 0 !important;
+}
+
+.sidebar a:hover {
+  background: var(--pink-light) !important;
+  color: var(--pink-deep) !important;
+}
+
+.main-content h2 {
+  color: var(--pink-deep) !important;
+  border-bottom: 2px solid var(--pink-light) !important;
+}
+
+/* Callout Box Branding */
+.nclex, .priority, .danger {
+  border-left: 5px solid var(--pink-main) !important;
+  background-color: var(--pink-light) !important;
+  border-radius: 0 15px 15px 0 !important;
+}
