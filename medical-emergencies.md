@@ -22,6 +22,11 @@ Medical emergencies show up throughout nursing — in the ER, on the floor, in c
 <p>Burn classification, rule of nines, fluid resuscitation (Parkland formula), wound care, infection risk, inhalation injury, and nursing priorities across the burn recovery timeline.</p>
 </a>
 
+<a class="study-card" href="{{ '/medical-emergencies/poisoning-and-ingestions.html' | relative_url }}">
+<h2>Poisoning and Ingestions</h2>
+<p>Acetaminophen, salicylates, corrosives, hydrocarbons, lead, and button batteries — recognition, antidotes, and nursing priorities.</p>
+</a>
+
 <a class="study-card coming-soon" href="#">
 <h2>Shock</h2>
 <p>Hypovolemic, distributive, cardiogenic, and obstructive shock — hemodynamic patterns, recognition, and priority interventions. Coming soon.</p>

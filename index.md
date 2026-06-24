@@ -1,6 +1,5 @@
 ---
-
-layout: default
+layout: home
 title: Nursing Notes
 ---
 
