@@ -4,7 +4,7 @@
 
     <div class="sng-hero-desc">
       <span style="color:#8bb488;font-weight:900;background:#f8fff5;padding:1px 11px;border-radius:9px;">
-        Organized so you can study what you actually need.
+      Organized so you can study what you actually need.
       </span>
     </div>
 
