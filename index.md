@@ -1,38 +1,40 @@
----
-layout: home
-title: Nursing Notes
----
+<div class="sng-main-wrapper">
+  <div class="sng-hero-content">
+    <div class="sng-hero-title">Ellie’s<br>Notes</div>
 
-<div class="home-hero">
-  <p class="home-eyebrow">Nurse Ellie's Study Notes</p>
-  <h1 class="home-title">What are we studying today?</h1>
-  <p class="home-sub">Organized notes, memory tricks, and practice tools — all in one place.</p>
-</div>
+    <div class="sng-hero-desc">
+      <span style="color:#8bb488;font-weight:900;background:#f8fff5;padding:1px 11px;border-radius:9px;">
+        Organized so you can study what you actually need.
+      </span>
+    </div>
 
-<div class="home-button-grid">
+    <div class="sng-hero-actions">
+      <a href="{{ '/maternity.html' | relative_url }}" class="sng-call-btn">Start Studying For Our Next Exam</a>
+      <a href="{{ '/maternity-practice-test.html' | relative_url }}" class="sng-call-btn secondary">Quick Review</a>
+    </div>
+  </div>
 
-  <a class="home-big-button blush" href="{{ '/maternity.html' | relative_url }}">
-    <span class="tile-emoji">🤰</span>
-    <span class="button-title">Maternity</span>
-    <span class="button-subtitle">Pregnancy, birth, newborn & postpartum</span>
-  </a>
+  <div class="sng-card-grid">
 
-  <a class="home-big-button mauve" href="{{ '/hematology-oncology.html' | relative_url }}">
-    <span class="tile-emoji">🩸</span>
-    <span class="button-title">Hematology / Oncology</span>
-    <span class="button-subtitle">Blood disorders, anemias & cancer care</span>
-  </a>
+    <a href="{{ '/maternity.html' | relative_url }}" class="sng-card">
+      <div class="sng-card-title">Maternity</div>
+      <div class="sng-card-desc">Antepartum, intrapartum, postpartum, newborn, meds, labs, and practice questions.</div>
+    </a>
 
-  <a class="home-big-button clay" href="{{ '/medical-emergencies.html' | relative_url }}">
-    <span class="tile-emoji">🚨</span>
-    <span class="button-title">Medical Emergencies</span>
-    <span class="button-subtitle">Burns, poisonings, shock & urgent care</span>
-  </a>
+    <a href="{{ '/hematology-oncology.html' | relative_url }}" class="sng-card">
+      <div class="sng-card-title">Hematology / Oncology</div>
+      <div class="sng-card-desc">Anemias, cancer care, emergencies, and high-yield review.</div>
+    </a>
 
-  <a class="home-big-button taupe" href="{{ '/ati/' | relative_url }}">
-    <span class="tile-emoji">📖</span>
-    <span class="button-title">ATI Exam Review</span>
-    <span class="button-subtitle">Nutrition, exam prep & review guides</span>
-  </a>
+    <a href="{{ '/medical-emergencies.html' | relative_url }}" class="sng-card">
+      <div class="sng-card-title">Medical Emergencies</div>
+      <div class="sng-card-desc">Burns, shock, increased ICP, hydrocephalus, interventions, and priorities.</div>
+    </a>
 
+    <a href="{{ '/ati/' | relative_url }}" class="sng-card">
+      <div class="sng-card-title">ATI Study Guides</div>
+      <div class="sng-card-desc">Nutrition, exam review notes, and NCLEX-style study guides.</div>
+    </a>
+
+  </div>
 </div>

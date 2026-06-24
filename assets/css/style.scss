@@ -2061,3 +2061,487 @@ body[data-section="index"] .main-content {
   background-color: var(--pink-light) !important;
   border-radius: 0 15px 15px 0 !important;
 }
+
+/* =========================
+   HOMEPAGE FULL PAGE LAYOUT
+   ========================= */
+
+.homepage-vibrant {
+  width: 100%;
+  max-width: none;
+  margin: 0 auto;
+  padding: 2rem clamp(1rem, 4vw, 4rem);
+}
+
+/* If your default layout is limiting the page width */
+.main-content.homepage-vibrant {
+  max-width: 1400px;
+}
+
+/* HERO SECTION */
+.hero-gradient {
+  width: 100%;
+  min-height: 320px;
+  padding: clamp(2rem, 5vw, 4.5rem);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* HERO TEXT */
+.hero-gradient h1 {
+  font-size: clamp(2.2rem, 5vw, 4.5rem);
+  margin-bottom: 1rem;
+}
+
+.hero-desc {
+  max-width: 900px;
+  font-size: clamp(1rem, 2vw, 1.35rem);
+  line-height: 1.6;
+}
+
+/* BUTTON ROW */
+.hero-actions {
+  width: 100%;
+  max-width: 900px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.hero-btn {
+  flex: 1 1 220px;
+  max-width: 280px;
+  text-align: center;
+}
+
+/* TOPIC CARD GRID */
+.quick-nav-card-row {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(220px, 1fr));
+  gap: 1.25rem;
+  margin: 2rem 0;
+}
+
+.quicknav-card {
+  min-height: 210px;
+}
+
+.quicknav-card a {
+  height: 100%;
+  padding: 1.75rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* STUDY REMINDER CARDS */
+.study-highlight {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(280px, 1fr));
+  gap: 1.25rem;
+  margin: 2rem 0;
+}
+
+.motivation-card {
+  min-height: 120px;
+  padding: 1.5rem;
+}
+
+/* QUICKSTART ACTIONS */
+.big-action-row {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(260px, 1fr));
+  gap: 1.25rem;
+  margin: 2rem 0 3rem;
+}
+
+.big-action {
+  min-height: 120px;
+  padding: 1.5rem 1.75rem;
+}
+
+/* RESPONSIVE FIXES */
+@media (max-width: 1100px) {
+  .quick-nav-card-row {
+    grid-template-columns: repeat(2, minmax(220px, 1fr));
+  }
+
+  .big-action-row {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 700px) {
+  .homepage-vibrant {
+    padding: 1rem;
+  }
+
+  .quick-nav-card-row,
+  .study-highlight,
+  .big-action-row {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .hero-btn {
+    max-width: none;
+  }
+}
+/* =========================================================
+   IMMERSIVE & BLENDED CAFE LAYOUT 
+   ========================================================= */
+
+body[data-section="index"] {
+    background: linear-gradient(135deg, #fffafa 0%, #fdf2f5 100%) !important;
+}
+
+body[data-section="index"] .main-content {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    max-width: 1200px !important;
+}
+
+/* 🏠 RE-LAYOUT: Split View (Title Left, Content Right) */
+@media screen and (min-width: 900px) {
+    .page-wrapper[data-section="index"] {
+        display: grid !important;
+        grid-template-columns: 1fr 1.5fr !important; /* Left Title, Right Tiles */
+        align-items: center !important;
+        gap: 4rem !important;
+        min-height: 80vh !important;
+    }
+}
+
+/* 🎀 The Title (Now Left-Aligned) */
+.cafe-sign {
+    background: transparent !important; /* Blends in! */
+    border: none !important;
+    box-shadow: none !important;
+    text-align: left !important;
+    transform: none !important;
+    padding: 0 !important;
+}
+
+.cafe-sign h1 {
+    font-size: 4rem !important;
+    line-height: 1.1 !important;
+    margin-bottom: 2rem !important;
+}
+
+/* 🥐 The Tiles (Grouped on the Right) */
+.cafe-menu-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) !important; /* 2x2 grid */
+    gap: 1.5rem !important;
+}
+
+.menu-item {
+    background: rgba(255, 255, 255, 0.7) !important; /* Glass effect */
+    backdrop-filter: blur(10px);
+    border: 2px solid white !important;
+    border-radius: 25px !important;
+    box-shadow: 0 10px 30px rgba(255, 133, 162, 0.08) !important;
+    padding: 2rem 1.5rem !important;
+    transition: all 0.3s ease !important;
+}
+
+.menu-item:hover {
+    background: white !important;
+    transform: translateY(-5px) !important;
+    border-color: #ffdeeb !important;
+}
+
+/* Remove the "Study Menu" box behind the buttons */
+.hero-gradient {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    padding-left: 0 !important;
+    text-align: left !important;
+}
+
+/* Styling the Buttons to match the "Blended" look */
+.hero-btn {
+    border-radius: 50px !important;
+    padding: 15px 35px !important;
+    font-size: 1rem !important;
+    border: none !important;
+    box-shadow: 0 4px 15px rgba(255, 133, 162, 0.2) !important;
+}
+/* =========================
+   Girly Simple Nursing Homepage
+   ========================= */
+body[data-section="index"] {
+  /* Soft pink luminous background */
+  background: linear-gradient(120deg,#fff7fa 0%,#fce1ec 45%,#f9f6fd 100%) !important;
+  min-height: 100vh;
+  position: relative;
+  overflow-x: hidden;
+}
+
+/* Decorative floating blob for soft depth */
+.girly-blob-pink, .girly-blob-mauve, .girly-blob-blue {
+  position: absolute;
+  border-radius: 50%;
+  z-index: 0;
+  pointer-events: none;
+  filter: blur(2px);
+}
+.girly-blob-pink {
+  width: 420px; height: 400px;
+  left: -170px; top: -140px;
+  background: radial-gradient(circle,#ffe0f0 40%,#fff0f7 100%);
+  opacity: 0.73;
+}
+.girly-blob-mauve {
+  width: 360px; height: 250px;
+  bottom: -140px; left: 58vw;
+  background: radial-gradient(circle,#edc8fa 30%,#fdf4ff 100%);
+  opacity: 0.38;
+}
+.girly-blob-blue {
+  width: 270px; height: 200px;
+  top: 25vh; right: -120px;
+  background: radial-gradient(circle,#cce3ff 40%,#f2f8ff 100%);
+  opacity: 0.25;
+}
+
+body[data-section="index"] .main-content,
+body[data-section="index"] .page-wrapper {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding-top: 0 !important;
+  z-index: 1;
+  position: relative;
+}
+
+/* Modern responsive split: hero on left, cards on right for wide screens */
+@media(min-width: 900px){
+  body[data-section="index"] .page-wrapper {
+    display: grid !important;
+    grid-template-columns: 1.15fr 1.85fr !important;
+    align-items: center !important;
+    gap: 4vw !important;
+    max-width: 1400px !important;
+    margin: 0 auto !important;
+    min-height: 84vh;
+    padding: 4vh 2vw 0 5vw !important;
+  }
+}
+
+/* HERO LEFT SIDE  */
+.sng-hero-title {
+  font-family: "Playfair Display",serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  color: #e14d90;
+  letter-spacing: 0.5px;
+  line-height: 1.07;
+  margin-bottom: 1.4rem;
+  text-shadow: 0 6px 40px #fbc3e658;
+}
+.sng-hero-desc {
+  color: #52445d;
+  font-size: 1.21rem;
+  margin-bottom: 2.2rem;
+  font-family: 'Nunito',sans-serif;
+  line-height: 1.67;
+}
+.sng-hero-actions {
+  margin-bottom: 2.9rem;
+}
+.sng-call-btn {
+  display: inline-block;
+  background: linear-gradient(90deg,#fa6394,#ed96fa 90%);
+  color: #fff;
+  font-family: 'Nunito',sans-serif;
+  font-size: 1.04rem;
+  font-weight: 900;
+  border: none;
+  border-radius: 999px;
+  padding: 1.1em 2.7em;
+  margin-right: 1.1em;
+  margin-bottom: 1.1em;
+  box-shadow: 0 4px 18px #fa63931a,0 1px 8px #b08be221;
+  transition: background .12s, transform .13s, box-shadow .13s;
+}
+.sng-call-btn.secondary {
+  background: linear-gradient(90deg,#b2b2fa,#fae8fc 90%);
+  color: #864cb2;
+}
+.sng-call-btn:hover {
+  background: linear-gradient(90deg,#e14d90 40%,#c688f4 100%) !important;
+  color: #fff !important;
+  transform: translateY(-3px) scale(1.03);
+}
+.sng-card-grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2.4rem;
+  margin: 0 auto;
+}
+@media (min-width: 700px) {
+  .sng-card-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (min-width: 1100px) {
+  .sng-card-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 1100px;
+    margin-left: 0;
+  }
+}
+/* Card Headline */
+.sng-card-title {
+  font-family: 'Nunito',sans-serif;
+  font-weight: 900;
+  color: #e14d90;
+  font-size: 1.17em;
+  margin-bottom: 0.5em;
+  letter-spacing: 0.02em;
+}
+.sng-card-desc {
+  color: #7d7292; font-size: 1.01em;
+}
+
+/* Responsive stacking for mobile */
+@media(max-width:800px){
+  .sng-hero-title {font-size:2.1rem;}
+  .sng-card-grid{grid-template-columns:1fr;}
+}
+
+/* Hide blobs on old browsers if needed */
+@media(max-width:600px) {
+  .girly-blob-pink,.girly-blob-mauve,.girly-blob-blue {display:none;}
+}
+@media (min-width: 1024px) {
+  .sng-main-wrapper {
+    display: grid !important;
+    grid-template-columns: 1fr 1.5fr !important; /* Left 40%, Right 60% */
+    gap: 4rem !important;
+    align-items: center !important;
+    width: 100% !important;
+  }
+  
+  .sng-hero-content {
+    text-align: left !important;
+  }
+}
+
+/* Make cards clickable and tidy up the links */
+.sng-card {
+  text-decoration: none !important;
+  display: block !important;
+}
+
+.sng-card-grid {
+  margin-top: 0 !important; /* Removes gap from stacking side-by-side */
+}
+/* SUPER-CLEAN 2x2 HOME GRID FIX */
+.sng-main-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+@media (min-width: 1100px) {
+  .sng-main-wrapper {
+    flex-direction: row;
+    align-items: start;
+    justify-content: center;
+    gap: 4rem;
+    min-height: 80vh;
+    width: 100vw;
+    max-width: 1500px;
+    margin: 0 auto;
+  }
+  .sng-hero-content {
+    flex: 1 1 36%;
+    min-width: 320px;
+    max-width: 425px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .sng-card-grid {
+    flex: 1 1 64%;
+    display: grid !important;
+    grid-template-columns: 1fr 1fr;
+    gap: 2.4rem 2.4rem;
+    min-width: 430px;
+  }
+}
+.sng-card-grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2.4rem;
+  margin: 0 auto;
+}
+@media (max-width: 1099px) {
+  .sng-card-grid {grid-template-columns: 1fr;}
+}
+
+.sng-card {
+  background: linear-gradient(135deg,#fff5fa 95%,#f5f6fc 100%);
+  border-radius: 28px;
+  padding: 2.5rem 1.6rem;
+  text-align: left;
+  box-shadow: 0 4px 22px #d78bc61c,0 1px 8px #fad1f93c;
+  border: 1.5px solid #f8d3e7;
+  min-height: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.sng-card-title {
+  font-family: 'Nunito',sans-serif;
+  font-weight: 900;
+  color: #e14d90;
+  font-size: 1.17em;
+  margin-bottom: 0.5em;
+  letter-spacing: 0.02em;
+}
+
+.sng-card-desc {
+  color: #7d7292;
+  font-size: 1.01em;
+}
+.sng-card-grid {
+  display: grid !important;
+  grid-template-columns: 1fr !important;
+  gap: 2.4rem !important;
+  width: 100%;
+  margin: 0 auto;
+}
+@media (min-width: 750px) {
+  .sng-card-grid {
+    grid-template-columns: 1fr 1fr !important;
+  }
+}
+@media (min-width: 1100px) {
+  .sng-card-grid {
+    grid-template-columns: 1fr 1fr 1fr !important;
+  }
+  /* Center the 4th card for a 3x2 "Tetris" layout */
+  .sng-card-grid .sng-card:nth-child(4) {
+    grid-column: 2 / span 1 !important;
+  }
+}
