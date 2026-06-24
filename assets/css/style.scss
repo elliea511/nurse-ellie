@@ -1697,6 +1697,32 @@ body {
   font-family: "Nunito", sans-serif !important;
   color: var(--ink) !important;
 }
+---
+---
+@import "{{ site.theme }}";
+
+/* Import the fonts correctly */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;900&family=Playfair+Display:wght@700;900&display=swap');
+
+:root {
+  /* GIRLY PALETTE */
+  --pink-main:    #ff85a2;
+  --pink-light:   #fff0f3;
+  --pink-deep:    #d6336c;
+  --mint:         #b2f2bb;
+  --lavender:     #d0bfff;
+  --sky:          #a5d8ff;
+  --ink:          #2d2d44;
+  --muted:        #868e96;
+  --border:       #ffdeeb;
+  --white:        #ffffff;
+}
+
+body {
+  background-color: #fdf2f5 !important; /* Soft blush background */
+  font-family: "Nunito", sans-serif !important;
+  color: var(--ink) !important;
+}
 
 /* =========================================================
    HOMEPAGE IMMERSIVE MODE (Hides the white box & header)
@@ -1814,3 +1840,4 @@ body[data-section="index"] .main-content {
   background-color: var(--pink-light) !important;
   border-radius: 0 15px 15px 0 !important;
 }
+
