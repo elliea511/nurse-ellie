@@ -1999,16 +1999,11 @@ body[data-section="index"] .page-wrapper {
 
 body[data-section="index"] .main-content {
   max-width: 100% !important;
-  width: 100vw !important;
-  min-height: 100vh !important;
-  background: linear-gradient(135deg, #fff0f3 0%, #f3f0ff 100%) !important;
+  width: 100% !important;
+  background: none !important;
   border: none !important;
   box-shadow: none !important;
-  display: flex !important;
-  flex-direction: column !important;
-  justify-content: center !important;
-  align-items: center !important;
-  padding: 2rem !important;
+  padding: 0 !important;
 }
 
 /* =========================================================
