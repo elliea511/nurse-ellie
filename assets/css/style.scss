@@ -1311,3 +1311,61 @@ body {
   .main-content table,
   .main-content details { page-break-inside: avoid !important; }
 }
+:root {
+  --sidebar-maternity: #fdf3fa;
+  --sidebar-oncology: #fdf5e6;
+  --sidebar-ati: #f3fafb;
+  --sidebar-emergencies: #fdf4f7;
+}
+
+/* Soft colored backgrounds per menu */
+.menu-group.maternity-pink { background: var(--sidebar-maternity) !important; }
+.menu-group.oncology-yellow { background: var(--sidebar-oncology) !important; }
+.menu-group.ati-teal { background: var(--sidebar-ati) !important; }
+.menu-group.emergencies-rose { background: var(--sidebar-emergencies) !important; }
+
+.sidebar-search {
+  margin-bottom: 1.5rem;
+  padding: 0 1rem;
+}
+.sidebar-search input {
+  width: 100%;
+  padding: 0.55rem 0.9rem;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  font-size: 0.98rem;
+  background: #fff;
+  outline: none;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+/* Style icons next to menu headers */
+.sidebar .fas {
+  margin-right: 0.65rem;
+  color: var(--accent);
+}
+
+/* Make group headers larger for scanability */
+.menu-group > summary {
+  font-size: 1.05rem !important;
+  font-weight: 800 !important;
+  display: flex;
+  align-items: center;
+}
+
+/* Soft highlight for current page/link */
+.sidebar a.active {
+  background: var(--accent-soft) !important;
+  color: var(--accent-dark) !important;
+  font-weight: 900 !important;
+}
+
+/* Add a light shadow and more spacing to cards */
+.study-card, .home-big-button {
+  box-shadow: 0 4px 16px rgba(90,90,160,0.06);
+  margin-bottom: 1.2rem;
+}
+
+.home-big-button {
+  font-size: 1.09rem;
+}
