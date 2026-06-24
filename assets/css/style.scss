@@ -34,7 +34,11 @@ html, body {
 }
 
 body {
-  background: var(--bg) !important;
+  background-color: var(--bg) !important;
+  background-image:
+    radial-gradient(circle, rgba(0,0,0,0.07) 1px, transparent 1px) !important;
+  background-size: 24px 24px !important;
+  background-attachment: fixed !important;
   color: var(--ink) !important;
   font-family: "Nunito", "Segoe UI", Arial, sans-serif;
   font-size: 16px;
@@ -46,10 +50,10 @@ body {
    ========================================================= */
 
 .page-header {
-  background: white !important;
-  border-bottom: 1px solid var(--border) !important;
+  background: linear-gradient(135deg, white 50%, var(--accent-soft) 100%) !important;
+  border-bottom: 3px solid var(--accent-mid) !important;
   padding: 1.75rem 2rem !important;
-  box-shadow: none !important;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.05) !important;
 }
 
 .project-name {
@@ -78,15 +82,16 @@ body {
   letter-spacing: 0 !important;
 }
 
-/* Accent line under header */
+/* Accent dot cluster under tagline */
 .page-header::after {
   content: "";
   display: block;
-  height: 3px;
-  margin-top: 1.25rem;
-  background: linear-gradient(to right, var(--accent), var(--accent2), transparent);
+  height: 4px;
+  margin-top: 1rem;
+  background: linear-gradient(to right, var(--accent), var(--accent2) 60%, transparent);
   border-radius: 999px;
-  width: 180px;
+  width: 120px;
+  opacity: 0.7;
 }
 
 /* =========================================================
@@ -336,13 +341,13 @@ body {
   font-size: 2rem !important;
   font-weight: 700 !important;
   text-align: left !important;
-  padding: 0 0 0.75rem 0 !important;
+  padding: 0.85rem 1.25rem !important;
   margin: 0 0 2rem 0 !important;
   border: none !important;
-  border-bottom: 2px solid var(--accent-mid) !important;
-  border-radius: 0 !important;
+  border-left: 5px solid var(--accent) !important;
+  border-radius: 0 10px 10px 0 !important;
   box-shadow: none !important;
-  background: none !important;
+  background: var(--accent-soft) !important;
   letter-spacing: 0 !important;
   text-transform: none !important;
 }
@@ -355,10 +360,10 @@ body {
   color: var(--ink) !important;
   font-size: 1.45rem !important;
   font-weight: 700 !important;
-  padding: 0 0 0.5rem 0 !important;
+  padding: 0 0 0.6rem 0 !important;
   margin: 2.75rem 0 1rem 0 !important;
   border: none !important;
-  border-bottom: 1px solid var(--border) !important;
+  border-bottom: 2px solid var(--accent-mid) !important;
   border-radius: 0 !important;
   background: none !important;
   box-shadow: none !important;
@@ -518,14 +523,14 @@ body {
 .main-content .med,
 .main-content .patho {
   position: relative !important;
-  margin: 1rem 0 !important;
-  padding: 0.7rem 1rem 0.7rem 1.1rem !important;
-  border-left: 3px solid !important;
+  margin: 1.25rem 0 !important;
+  padding: 0.8rem 1.1rem 0.8rem 1.2rem !important;
+  border-left: 4px solid !important;
   border-top: none !important;
   border-right: none !important;
   border-bottom: none !important;
-  border-radius: 0 6px 6px 0 !important;
-  box-shadow: none !important;
+  border-radius: 0 8px 8px 0 !important;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.04) !important;
   line-height: 1.75 !important;
   color: var(--ink) !important;
   font-size: 0.95rem !important;
@@ -1156,9 +1161,9 @@ body {
   --ink:          #3a3a3a;
   --muted:        #6a7a70;
   --border:       #d4cdab;
-  --bg:           #f8f8f4;
+  --bg:           #eff5f0;
   --accent:       #93c0a4;
-  --accent-soft:  #f2f8f4;
+  --accent-soft:  #e8f4ec;
   --accent-mid:   #b6c4a2;
   --accent-dark:  #5a7860;
   --accent2:      #d4cdab;
@@ -1171,8 +1176,9 @@ body {
   --ink:          #4a2845;
   --muted:        #806078;
   --border:       #efc7e5;
+  --bg:           #fcedf8;
   --accent:       #d782ba;
-  --accent-soft:  #fdf3fa;
+  --accent-soft:  #fce8f7;
   --accent-mid:   #eeb1d5;
   --accent-dark:  #905070;
   --accent2:      #e0efda;
@@ -1185,8 +1191,9 @@ body {
   --ink:          #2a0810;
   --muted:        #7a3848;
   --border:       #f0c0c8;
+  --bg:           #fde8ec;
   --accent:       #ba1f33;
-  --accent-soft:  #fef0f2;
+  --accent-soft:  #fde0e4;
   --accent-mid:   #f5c0c5;
   --accent-dark:  #7a0f1a;
   --accent2:      #cd5d67;
@@ -1199,8 +1206,9 @@ body {
   --ink:          #1e2a32;
   --muted:        #4a6070;
   --border:       #b8d4d0;
+  --bg:           #e8f0f4;
   --accent:       #3d5a6c;
-  --accent-soft:  #f0f4f6;
+  --accent-soft:  #ddeaf0;
   --accent-mid:   #72a98f;
   --accent-dark:  #253848;
   --accent2:      #72a98f;
@@ -1213,9 +1221,10 @@ body {
   --ink:          #3a1f18;
   --muted:        #7a5040;
   --border:       #fdd692;
+  --bg:           #fdf0e0;
   --accent:       #ec7357;
-  --accent-soft:  #fdf5f2;
-  --accent-mid:   #fdd692;
+  --accent-soft:  #fde8dc;
+  --accent-mid:   #f5b090;
   --accent-dark:  #754f44;
   --accent2:      #e1ce7a;
   --accent2-soft: #fdfaf0;
