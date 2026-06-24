@@ -1,33 +1,87 @@
-<main class="main-content home-content">
-  <section class="home-hero">
-    <h1>Welcome, Nursing Students!</h1>
-    <p>Your one-stop hub for exam mastery. Study smarter, not harder — organized, concise, and full of memory tricks.</p>
-    <div class="home-buttons">
-      <a href="#quickstart" class="home-big-button teal">Start Here</a>
-      <a href="/ati/" class="home-big-button pink">ATI Study Guides</a>
-      <a href="/hematology-oncology/" class="home-big-button yellow">Hematology & Oncology</a>
-      <a href="/maternity/" class="home-big-button purple">Maternity</a>
-      <a href="/medical-emergencies/" class="home-big-button rose">Emergencies</a>
+<main class="main-content homepage-vibrant">
+
+  <!-- HERO SECTION -->
+  <section class="hero-gradient">
+    <h1>
+      <span class="emoji">🩺</span> Nurse Ellie’s Study Lounge
+    </h1>
+    <p class="hero-desc">
+      Master your next nursing exam with <strong>colorful notes</strong>,
+      <strong>quick memory tricks</strong>, and laser-focused review tools.<br>
+      <span class="highlight">Organized. Up-to-date. Less stress, more success.</span>
+    </p>
+    <div class="hero-actions">
+      <a href="#quickstart" class="hero-btn primary"><i class="fas fa-bolt"></i> Start Studying</a>
+      <a href="/practice/" class="hero-btn quiz"><i class="fas fa-question-circle"></i> Take a Practice Quiz</a>
+      <a href="#topics" class="hero-btn outline"><i class="fas fa-folder-open"></i> Browse Topics</a>
     </div>
   </section>
 
-  <section class="study-card-grid">
-    <a href="/ati/" class="study-card pink">
-      <h2>ATI</h2>
-      <p>Exam guides, nutrition, practice tips.</p>
+  <!-- DASHBOARD -->
+  <section class="quick-nav-card-row" id="topics">
+    <div class="quicknav-card maternity">
+      <a href="/maternity/" title="Maternity">
+        <span class="card-emoji"></span>
+        <span class="card-title">Maternity</span>
+        <span class="card-desc">Pregnancy, birth, newborn, postpartum</span>
+      </a>
+    </div>
+    <div class="quicknav-card hematology">
+      <a href="/hematology-oncology/">
+        <span class="card-emoji"></span>
+        <span class="card-title">Hematology/Oncology</span>
+        <span class="card-desc">Blood disorders, cancer, pediatric cancers</span>
+      </a>
+    </div>
+    <div class="quicknav-card emergencies">
+      <a href="/medical-emergencies/">
+        <span class="card-emoji"></span>
+        <span class="card-title">Emergencies</span>
+        <span class="card-desc">Burns, urgent actions, triage skills</span>
+      </a>
+    </div>
+    <div class="quicknav-card ati">
+      <a href="/ati/">
+        <span class="card-emoji"></span>
+        <span class="card-title">ATI Study Guides</span>
+        <span class="card-desc">Exam tricks, nutrition, review notes</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- FEATURED / NEWS / MOTIVATION -->
+  <section class="study-highlight">
+    <div class="motivation-card">
+      <span class="motiv-emoji"></span>
+      <span class="motiv-msg">
+        <strong>Tip of the Week:</strong> Study in short bursts and review memory tricks after practice questions for best recall!
+      </span>
+    </div>
+    <div class="motivation-card">
+      <span class="motiv-emoji"></span>
+      <span class="motiv-msg">
+        <strong>Memory Trick:</strong> For GTPAL pregnancy terms, remember “<span style="color:#c060a0;font-weight:bold;">G</span>et <span style="color:#60a8d0;font-weight:bold;">T</span>hat <span style="color:#a9c060;font-weight:bold;">P</span>encil <span style="color:#f7b84b;font-weight:bold;">A</span>nd <span style="color:#66c84c;font-weight:bold;">L</span>earn!”
+      </span>
+    </div>
+  </section>
+
+  <!-- QUICKSTART -->
+  <section class="big-action-row" id="quickstart">
+    <a href="/maternity/antepartum.html" class="big-action maternity">
+      <span class="big-emoji"></span>
+      <span>Review Antepartum Care</span>
+      <i class="fas fa-arrow-right"></i>
     </a>
-    <a href="/maternity/" class="study-card purple">
-      <h2>Maternity</h2>
-      <p>All things OB, fetal health, complications.</p>
+    <a href="/hematology-oncology/anemia-practice-quiz.html" class="big-action hematology">
+      <span class="big-emoji"></span>
+      <span>Take Anemia Practice Quiz</span>
+      <i class="fas fa-arrow-right"></i>
     </a>
-    <a href="/hematology-oncology/" class="study-card yellow">
-      <h2>Hematology/Oncology</h2>
-      <p>Cancer, blood disorders, clinical priorities.</p>
-    </a>
-    <a href="/medical-emergencies/" class="study-card rose">
-      <h2>Emergencies</h2>
-      <p>Burns, urgent actions, life-saving priorities.</p>
+    <a href="/ati/nutrition.html" class="big-action ati">
+      <span class="big-emoji"></span>
+      <span>ATI Nutrition Review</span>
+      <i class="fas fa-arrow-right"></i>
     </a>
   </section>
-</main>
 
+</main>
