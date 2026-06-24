@@ -1232,6 +1232,45 @@ body {
 }
 
 /* =========================================================
+   HOMEPAGE FULL-PAGE LAYOUT
+   ========================================================= */
+
+body.home-page {
+  background-color: var(--bg) !important;
+  background-image:
+    radial-gradient(circle, rgba(0,0,0,0.07) 1px, transparent 1px) !important;
+  background-size: 24px 24px !important;
+  min-height: 100vh !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.home-fullpage {
+  width: 100% !important;
+  min-height: 100vh !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  padding: 3rem 2rem !important;
+  box-sizing: border-box !important;
+}
+
+.home-fullpage h1 {
+  font-family: "Playfair Display", Georgia, serif !important;
+  font-size: 2.8rem !important;
+  font-weight: 700 !important;
+  color: var(--ink) !important;
+  text-align: center !important;
+  margin: 0 0 2.5rem 0 !important;
+  padding: 0 !important;
+  background: none !important;
+  border: none !important;
+  border-radius: 0 !important;
+}
+
+/* =========================================================
    MOBILE
    ========================================================= */
 
