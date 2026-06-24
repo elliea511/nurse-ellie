@@ -2339,3 +2339,26 @@ body[data-section="index"] .page-wrapper {
 @media(max-width:600px) {
   .girly-blob-pink,.girly-blob-mauve,.girly-blob-blue {display:none;}
 }
+@media (min-width: 1024px) {
+  .sng-main-wrapper {
+    display: grid !important;
+    grid-template-columns: 1fr 1.5fr !important; /* Left 40%, Right 60% */
+    gap: 4rem !important;
+    align-items: center !important;
+    width: 100% !important;
+  }
+  
+  .sng-hero-content {
+    text-align: left !important;
+  }
+}
+
+/* Make cards clickable and tidy up the links */
+.sng-card {
+  text-decoration: none !important;
+  display: block !important;
+}
+
+.sng-card-grid {
+  margin-top: 0 !important; /* Removes gap from stacking side-by-side */
+}
