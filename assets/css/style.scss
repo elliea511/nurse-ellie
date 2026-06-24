@@ -2362,3 +2362,41 @@ body[data-section="index"] .page-wrapper {
 .sng-card-grid {
   margin-top: 0 !important; /* Removes gap from stacking side-by-side */
 }
+/* FORCE 2x2 GRID ON THE RIGHT */
+@media (min-width: 1024px) {
+  .sng-main-wrapper {
+    display: grid !important;
+    grid-template-columns: 1fr 1.6fr !important; /* Title left, Cards right */
+    gap: 2rem !important;
+    align-items: center !important;
+    max-width: 1300px !important;
+    margin: 0 auto !important;
+  }
+
+  .sng-card-grid {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr) !important; /* THIS FORCES 2 COLUMNS */
+    grid-template-rows: repeat(2, auto) !important;
+    gap: 1.5rem !important;
+    margin: 0 !important;
+    width: 100% !important;
+  }
+}
+
+/* Fix for the card size and shadow blending */
+.sng-card {
+  height: 100% !important; /* Makes all cards the same height */
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  background: rgba(255, 255, 255, 0.6) !important; /* Slight transparency for blending */
+  backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.8) !important;
+}
+
+/* Adjust the green highlight pill line height */
+.sng-hero-desc span {
+    display: inline-block;
+    line-height: 1.4;
+    margin-top: 5px;
+}
