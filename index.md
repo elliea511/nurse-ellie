@@ -1,4 +1,8 @@
 <div class="sng-main-wrapper">
+  
+<div class="sng-bg-blob sng-bg-blob1"></div>
+<div class="sng-bg-blob sng-bg-blob2"></div>
+<div class="sng-bg-blob sng-bg-blob3"></div>
 
   <div class="sng-hero-content">
     <div class="sng-hero-title">Nurse Ellie’s<br>Study Lounge</div>
