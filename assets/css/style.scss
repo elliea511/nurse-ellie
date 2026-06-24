@@ -1961,3 +1961,141 @@ body[data-section="index"] .main-content {
   background-color: var(--pink-light) !important;
   border-radius: 0 15px 15px 0 !important;
 }
+
+/* =========================
+   HOMEPAGE FULL PAGE LAYOUT
+   ========================= */
+
+.homepage-vibrant {
+  width: 100%;
+  max-width: none;
+  margin: 0 auto;
+  padding: 2rem clamp(1rem, 4vw, 4rem);
+}
+
+/* If your default layout is limiting the page width */
+.main-content.homepage-vibrant {
+  max-width: 1400px;
+}
+
+/* HERO SECTION */
+.hero-gradient {
+  width: 100%;
+  min-height: 320px;
+  padding: clamp(2rem, 5vw, 4.5rem);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* HERO TEXT */
+.hero-gradient h1 {
+  font-size: clamp(2.2rem, 5vw, 4.5rem);
+  margin-bottom: 1rem;
+}
+
+.hero-desc {
+  max-width: 900px;
+  font-size: clamp(1rem, 2vw, 1.35rem);
+  line-height: 1.6;
+}
+
+/* BUTTON ROW */
+.hero-actions {
+  width: 100%;
+  max-width: 900px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.hero-btn {
+  flex: 1 1 220px;
+  max-width: 280px;
+  text-align: center;
+}
+
+/* TOPIC CARD GRID */
+.quick-nav-card-row {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(220px, 1fr));
+  gap: 1.25rem;
+  margin: 2rem 0;
+}
+
+.quicknav-card {
+  min-height: 210px;
+}
+
+.quicknav-card a {
+  height: 100%;
+  padding: 1.75rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* STUDY REMINDER CARDS */
+.study-highlight {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(280px, 1fr));
+  gap: 1.25rem;
+  margin: 2rem 0;
+}
+
+.motivation-card {
+  min-height: 120px;
+  padding: 1.5rem;
+}
+
+/* QUICKSTART ACTIONS */
+.big-action-row {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(260px, 1fr));
+  gap: 1.25rem;
+  margin: 2rem 0 3rem;
+}
+
+.big-action {
+  min-height: 120px;
+  padding: 1.5rem 1.75rem;
+}
+
+/* RESPONSIVE FIXES */
+@media (max-width: 1100px) {
+  .quick-nav-card-row {
+    grid-template-columns: repeat(2, minmax(220px, 1fr));
+  }
+
+  .big-action-row {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 700px) {
+  .homepage-vibrant {
+    padding: 1rem;
+  }
+
+  .quick-nav-card-row,
+  .study-highlight,
+  .big-action-row {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .hero-btn {
+    max-width: none;
+  }
+}
