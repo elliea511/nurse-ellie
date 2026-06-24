@@ -2099,3 +2099,85 @@ body[data-section="index"] .main-content {
     max-width: none;
   }
 }
+/* =========================================================
+   IMMERSIVE & BLENDED CAFE LAYOUT 
+   ========================================================= */
+
+body[data-section="index"] {
+    background: linear-gradient(135deg, #fffafa 0%, #fdf2f5 100%) !important;
+}
+
+body[data-section="index"] .main-content {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    max-width: 1200px !important;
+}
+
+/* 🏠 RE-LAYOUT: Split View (Title Left, Content Right) */
+@media screen and (min-width: 900px) {
+    .page-wrapper[data-section="index"] {
+        display: grid !important;
+        grid-template-columns: 1fr 1.5fr !important; /* Left Title, Right Tiles */
+        align-items: center !important;
+        gap: 4rem !important;
+        min-height: 80vh !important;
+    }
+}
+
+/* 🎀 The Title (Now Left-Aligned) */
+.cafe-sign {
+    background: transparent !important; /* Blends in! */
+    border: none !important;
+    box-shadow: none !important;
+    text-align: left !important;
+    transform: none !important;
+    padding: 0 !important;
+}
+
+.cafe-sign h1 {
+    font-size: 4rem !important;
+    line-height: 1.1 !important;
+    margin-bottom: 2rem !important;
+}
+
+/* 🥐 The Tiles (Grouped on the Right) */
+.cafe-menu-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) !important; /* 2x2 grid */
+    gap: 1.5rem !important;
+}
+
+.menu-item {
+    background: rgba(255, 255, 255, 0.7) !important; /* Glass effect */
+    backdrop-filter: blur(10px);
+    border: 2px solid white !important;
+    border-radius: 25px !important;
+    box-shadow: 0 10px 30px rgba(255, 133, 162, 0.08) !important;
+    padding: 2rem 1.5rem !important;
+    transition: all 0.3s ease !important;
+}
+
+.menu-item:hover {
+    background: white !important;
+    transform: translateY(-5px) !important;
+    border-color: #ffdeeb !important;
+}
+
+/* Remove the "Study Menu" box behind the buttons */
+.hero-gradient {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    padding-left: 0 !important;
+    text-align: left !important;
+}
+
+/* Styling the Buttons to match the "Blended" look */
+.hero-btn {
+    border-radius: 50px !important;
+    padding: 15px 35px !important;
+    font-size: 1rem !important;
+    border: none !important;
+    box-shadow: 0 4px 15px rgba(255, 133, 162, 0.2) !important;
+}
