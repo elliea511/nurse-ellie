@@ -7,6 +7,9 @@ title: Nursing Notes
   <p class="home-eyebrow">Nurse Ellie's Study Notes</p>
   <h1 class="home-title">What are we studying today?</h1>
   <p class="home-sub">Organized notes, memory tricks, and practice tools — all in one place.</p>
+  <div class="home-hero-actions">
+    <a class="home-cta-btn" href="{{ '/next-exam.html' | relative_url }}">Study for Our Next Exam</a>
+  </div>
 </div>
 
 <div class="home-button-grid">
