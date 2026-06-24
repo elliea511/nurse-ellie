@@ -2445,3 +2445,53 @@ body[data-section="index"] .page-wrapper {
     grid-column: 2 / span 1 !important;
   }
 }
+/* === Make Homepage Cards Larger and More Readable === */
+.sng-card-grid {
+  /* No change here; grid setup remains the same per prior instructions. */
+}
+
+.sng-card {
+  min-height: 280px !important;   /* Make cards taller */
+  /* For extra large, you can increase: min-height: 340px !important; */
+  padding: 3.1rem 2.2rem 2.3rem 2.2rem !important; /* More breathing space */
+  font-size: 1.15rem !important;  /* Larger base text */
+  border-radius: 34px !important;
+  box-shadow: 0 10px 52px #fbc3e81a, 0 4px 20px #e6b6fa22;
+  background: linear-gradient(135deg, #fff5fa 90%, #f3f6fc 100%);
+  transition: box-shadow 0.16s, transform 0.16s;
+}
+
+.sng-card-title {
+  font-size: 1.45em !important;
+  font-weight: 900 !important;
+  margin-bottom: 1.1em !important;
+  /* Optionally, adjust line-height for even bolder headlines: */
+  line-height: 1.11;
+}
+
+.sng-card-desc {
+  font-size: 1.09em !important;
+  color: #8162a6 !important;
+  line-height: 1.55 !important;
+}
+
+@media (min-width: 1100px) {
+  .sng-card-grid {
+    grid-template-columns: 1fr 1fr 1fr !important;
+    gap: 2.9rem !important;    /* More spacing between large cards */
+    max-width: 1200px !important;
+  }
+  .sng-card {
+    min-width: 0 !important;   /* Grid will manage sizing, cards fill available space */
+  }
+}
+.sng-card:hover {
+  box-shadow: 0 18px 56px #ed96fa33, 0 10px 24px #e6b6fa42;
+  transform: translateY(-8px) scale(1.06);
+}
+.sng-card {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
