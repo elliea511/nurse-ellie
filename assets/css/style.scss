@@ -2181,3 +2181,74 @@ body[data-section="index"] .main-content {
     border: none !important;
     box-shadow: 0 4px 15px rgba(255, 133, 162, 0.2) !important;
 }
+/* SUPER-CLEAN 2x2 HOME GRID FIX */
+.sng-main-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+@media (min-width: 1100px) {
+  .sng-main-wrapper {
+    flex-direction: row;
+    align-items: start;
+    justify-content: center;
+    gap: 4rem;
+    min-height: 80vh;
+    width: 100vw;
+    max-width: 1500px;
+    margin: 0 auto;
+  }
+  .sng-hero-content {
+    flex: 1 1 36%;
+    min-width: 320px;
+    max-width: 425px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .sng-card-grid {
+    flex: 1 1 64%;
+    display: grid !important;
+    grid-template-columns: 1fr 1fr;
+    gap: 2.4rem 2.4rem;
+    min-width: 430px;
+  }
+}
+.sng-card-grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2.4rem;
+  margin: 0 auto;
+}
+@media (max-width: 1099px) {
+  .sng-card-grid {grid-template-columns: 1fr;}
+}
+
+.sng-card {
+  background: linear-gradient(135deg,#fff5fa 95%,#f5f6fc 100%);
+  border-radius: 28px;
+  padding: 2.5rem 1.6rem;
+  text-align: left;
+  box-shadow: 0 4px 22px #d78bc61c,0 1px 8px #fad1f93c;
+  border: 1.5px solid #f8d3e7;
+  min-height: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.sng-card-title {
+  font-family: 'Nunito',sans-serif;
+  font-weight: 900;
+  color: #e14d90;
+  font-size: 1.17em;
+  margin-bottom: 0.5em;
+  letter-spacing: 0.02em;
+}
+
+.sng-card-desc {
+  color: #7d7292;
+  font-size: 1.01em;
+}
