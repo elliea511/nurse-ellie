@@ -1,9 +1,3 @@
----
-
-layout: default
-title: Nursing Notes
----
-
 <main class="main-content home-content">
   <section class="home-hero">
     <h1>Welcome, Nursing Students!</h1>
