@@ -1971,9 +1971,17 @@ body.home-page .page-wrapper {
 }
 
 body {
-  background-color: #fdf2f5 !important; /* Soft blush background */
   font-family: "Nunito", sans-serif !important;
   color: var(--ink) !important;
+}
+
+body.home-page {
+  background-color: #c8dce8 !important;
+  background-image: url('../images/homepage-bg.jpg') !important;
+  background-size: cover !important;
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+  background-attachment: fixed !important;
 }
 
 /* =========================================================
