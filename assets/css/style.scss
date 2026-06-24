@@ -337,17 +337,17 @@ body {
 
 .main-content h1 {
   font-family: "Playfair Display", Georgia, serif !important;
-  color: var(--ink) !important;
+  color: var(--accent-dark) !important;
   font-size: 2rem !important;
   font-weight: 700 !important;
   text-align: left !important;
-  padding: 0.85rem 1.25rem !important;
+  padding: 1rem 1.5rem !important;
   margin: 0 0 2rem 0 !important;
   border: none !important;
-  border-left: 5px solid var(--accent) !important;
-  border-radius: 0 10px 10px 0 !important;
-  box-shadow: none !important;
-  background: var(--accent-soft) !important;
+  border-left: 6px solid var(--accent) !important;
+  border-radius: 0 12px 12px 0 !important;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.05) !important;
+  background: linear-gradient(to right, var(--accent-soft), white) !important;
   letter-spacing: 0 !important;
   text-transform: none !important;
 }
@@ -357,15 +357,15 @@ body {
 
 .main-content h2 {
   font-family: "Playfair Display", Georgia, serif !important;
-  color: var(--ink) !important;
-  font-size: 1.45rem !important;
+  color: var(--accent-dark) !important;
+  font-size: 1.4rem !important;
   font-weight: 700 !important;
-  padding: 0 0 0.6rem 0 !important;
+  padding: 0.65rem 1rem 0.65rem 1rem !important;
   margin: 2.75rem 0 1rem 0 !important;
   border: none !important;
-  border-bottom: 2px solid var(--accent-mid) !important;
-  border-radius: 0 !important;
-  background: none !important;
+  border-left: 4px solid var(--accent) !important;
+  border-radius: 0 8px 8px 0 !important;
+  background: var(--accent-soft) !important;
   box-shadow: none !important;
   text-transform: none !important;
   text-align: left !important;
@@ -374,31 +374,19 @@ body {
 .main-content h2::before,
 .main-content h2::after { content: "" !important; }
 
-/* Colored dot before H2 */
-.main-content h2::before {
-  content: "" !important;
-  display: inline-block !important;
-  width: 10px !important;
-  height: 10px !important;
-  border-radius: 50% !important;
-  background: var(--accent) !important;
-  margin-right: 0.6rem !important;
-  vertical-align: middle !important;
-  margin-bottom: 2px !important;
-}
-
 .main-content h3 {
   font-family: "Nunito", sans-serif !important;
   color: var(--accent-dark) !important;
-  font-size: 1.1rem !important;
-  font-weight: 800 !important;
-  padding: 0 !important;
+  font-size: 1rem !important;
+  font-weight: 900 !important;
+  padding: 0.4rem 0 0.4rem 0.85rem !important;
   margin: 2rem 0 0.6rem 0 !important;
   border: none !important;
+  border-left: 3px solid var(--accent2-mid) !important;
   background: none !important;
   box-shadow: none !important;
   text-transform: uppercase !important;
-  letter-spacing: 0.6px !important;
+  letter-spacing: 0.8px !important;
 }
 
 .main-content h3::before,
@@ -406,16 +394,17 @@ body {
 
 .main-content h4 {
   font-family: "Nunito", sans-serif !important;
-  color: var(--muted) !important;
+  color: var(--accent-dark) !important;
   font-size: 0.97rem !important;
   font-weight: 800 !important;
-  padding: 0 !important;
+  padding: 0 0 0.3rem 0 !important;
   margin: 1.5rem 0 0.35rem 0 !important;
   border: none !important;
+  border-bottom: 1.5px dotted var(--accent-mid) !important;
   background: none !important;
   box-shadow: none !important;
   text-transform: none !important;
-  letter-spacing: 0.3px !important;
+  letter-spacing: 0.2px !important;
 }
 
 .main-content h1,
