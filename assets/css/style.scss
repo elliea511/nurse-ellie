@@ -1582,3 +1582,382 @@ body.home-page .page-wrapper {
   .main-content table,
   .main-content details { page-break-inside: avoid !important; }
 }
+:root {
+  --sidebar-maternity: #fdf3fa;
+  --sidebar-oncology: #fdf5e6;
+  --sidebar-ati: #f3fafb;
+  --sidebar-emergencies: #fdf4f7;
+}
+
+/* Soft colored backgrounds per menu */
+.menu-group.maternity-pink { background: var(--sidebar-maternity) !important; }
+.menu-group.oncology-yellow { background: var(--sidebar-oncology) !important; }
+.menu-group.ati-teal { background: var(--sidebar-ati) !important; }
+.menu-group.emergencies-rose { background: var(--sidebar-emergencies) !important; }
+
+.sidebar-search {
+  margin-bottom: 1.5rem;
+  padding: 0 1rem;
+}
+.sidebar-search input {
+  width: 100%;
+  padding: 0.55rem 0.9rem;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  font-size: 0.98rem;
+  background: #fff;
+  outline: none;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+/* Style icons next to menu headers */
+.sidebar .fas {
+  margin-right: 0.65rem;
+  color: var(--accent);
+}
+
+/* Make group headers larger for scanability */
+.menu-group > summary {
+  font-size: 1.05rem !important;
+  font-weight: 800 !important;
+  display: flex;
+  align-items: center;
+}
+
+/* Soft highlight for current page/link */
+.sidebar a.active {
+  background: var(--accent-soft) !important;
+  color: var(--accent-dark) !important;
+  font-weight: 900 !important;
+}
+
+/* Add a light shadow and more spacing to cards */
+.study-card, .home-big-button {
+  box-shadow: 0 4px 16px rgba(90,90,160,0.06);
+  margin-bottom: 1.2rem;
+}
+
+.home-big-button {
+  font-size: 1.09rem;
+}
+.homepage-vibrant {
+  background: #f8fafc !important;
+  padding: 0 !important;
+}
+
+/* HERO GRADIENT SWOOSH */
+.hero-gradient {
+  background: linear-gradient(95deg, #e0e7ff 0%, #fce7f3 70%, #f6fee5 100%);
+  border-radius: 18px;
+  padding: 2.4rem 2rem 1.3rem 2rem;
+  margin-bottom: 2.5rem;
+  text-align: center;
+  box-shadow: 0 8px 32px rgba(90,140,210,0.08);
+  position: relative;
+  overflow: hidden;
+}
+.hero-gradient h1 {
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #363258;
+  background: none;
+}
+.hero-gradient .emoji {
+  font-size: 2.1em;
+  vertical-align: -25%;
+  margin-right: 0.2em;
+}
+.hero-desc {
+  font-size: 1.23rem;
+  color: #4a4a5e;
+  margin-bottom: 2rem;
+}
+.hero-actions .hero-btn {
+  display: inline-block;
+  margin: 0.15rem 0.7rem;
+  padding: 0.9rem 2.1rem;
+  border-radius: 9px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  background: #91e7c2;
+  color: #1a193e;
+  box-shadow: 0 2px 10px rgba(120,200,170,0.08);
+  text-decoration: none;
+  transition: all 0.15s;
+  border: none;
+}
+.hero-actions .hero-btn.primary  { background: #89c3fa; color: #202048; }
+.hero-actions .hero-btn.quiz     { background: #fdc4e2; color: #73245a; }
+.hero-actions .hero-btn.outline  { background: #fffbe8; color: #a67d2b; border: 1.5px solid #ffd358; }
+.hero-actions .hero-btn:hover {
+  transform: translateY(-2px) scale(1.03);
+  box-shadow: 0 4px 18px rgba(140,170,255,0.14);
+}
+.highlight {
+  background: #e0f5e9; color: #43a868; padding: 1px 7px 1px 7px; border-radius: 3px;
+}
+
+/* QUICK NAV GRID */
+.quick-nav-card-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 1.4rem;
+  margin: 2.5rem 0 1.2rem 0;
+}
+.quicknav-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 1.6rem 1.1rem 1.2rem 1.1rem;
+  text-align: center;
+  box-shadow: 0 2px 10px rgba(120,100,180,0.06);
+  border: 2.5px solid #f1f3fb;
+  transition: transform 0.13s, box-shadow 0.13s;
+}
+.quicknav-card a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+.quicknav-card .card-emoji {
+  font-size: 2rem;
+  margin-bottom: 0.6rem;
+  display: block;
+}
+.quicknav-card .card-title {
+  font-weight: 900;
+  font-size: 1.18rem;
+  color: #393676;
+  margin-bottom: 0.3rem;
+  font-family: "Nunito", "Segoe UI", Arial, sans-serif;
+}
+.quicknav-card .card-desc {
+  color: #7a7095;
+  font-size: 0.99rem;
+}
+.quicknav-card:hover {
+  transform: translateY(-4px) scale(1.04);
+  border-color: #d6cff8;
+  box-shadow: 0 7px 24px rgba(80,60,150,0.14);
+}
+
+/* SECTION: TIPS/MOTIVATION */
+.study-highlight {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 2.5rem 0;
+  justify-content: center;
+}
+.motivation-card {
+  background: #f8f8fe;
+  border-radius: 11px;
+  box-shadow: 0 1.5px 8px rgba(180,150,255,0.05);
+  padding: 1.1rem 1.45rem;
+  font-size: 1.07rem;
+  color: #473483;
+  display: flex;
+  align-items: center;
+  min-width: 265px;
+  max-width: 480px;
+}
+.motiv-emoji {
+  font-size: 1.8em; margin-right: 1.15em;
+}
+
+/* SECTION: BIG QUICKSTART ACTIONS */
+.big-action-row {
+  display: flex;
+  gap: 1.1rem;
+  margin: 2.5rem 0 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.big-action {
+  background: #e7f5fd;
+  border: 2px solid #aad8fb;
+  color: #1873aa;
+  padding: 1.4rem 2.2rem;
+  border-radius: 13px;
+  display: flex;
+  align-items: center;
+  font-size: 1.15rem;
+  font-weight: 800;
+  text-decoration: none;
+  min-width: 240px;
+  justify-content: center;
+  box-shadow: 0 2px 10px rgba(60,180,255,0.09);
+  transition: transform 0.13s, box-shadow 0.13s, border 0.13s;
+  margin-bottom: 1.1rem;
+}
+.big-action.maternity {
+  background: #ffe7f5;
+  border-color: #f7aacb;
+  color: #c05c98;
+}
+.big-action.hematology {
+  background: #fdf5e7;
+  border-color: #ffe6aa;
+  color: #c0a060;
+}
+.big-action.ati {
+  background: #e6fcf5;
+  border-color: #9bfad5;
+  color: #22845a;
+}
+.big-action .big-emoji { margin-right: 1.15em; font-size: 2.1em; }
+.big-action i { margin-left: 0.65em; }
+.big-action:hover {
+  transform: translateY(-2px) scale(1.04);
+  box-shadow: 0 5px 18px rgba(60,160,180,0.11);
+  border-color: #76b8e8;
+}
+
+/* Responsive tweaks */
+@media screen and (max-width: 900px) {
+  .quick-nav-card-row, .big-action-row, .study-highlight { flex-direction: column; }
+  .hero-gradient { padding: 1.1rem 0.5rem; }
+  .main-content.homepage-vibrant { padding: 0.3rem !important; }
+}
+
+@import "{{ site.theme }}";
+
+/* Import the fonts correctly */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;900&family=Playfair+Display:wght@700;900&display=swap');
+
+:root {
+  /* GIRLY PALETTE */
+  --pink-main:    #ff85a2;
+  --pink-light:   #fff0f3;
+  --pink-deep:    #d6336c;
+  --mint:         #b2f2bb;
+  --lavender:     #d0bfff;
+  --sky:          #a5d8ff;
+  --ink:          #2d2d44;
+  --muted:        #868e96;
+  --border:       #ffdeeb;
+  --white:        #ffffff;
+}
+
+body {
+  background-color: #fdf2f5 !important; /* Soft blush background */
+  font-family: "Nunito", sans-serif !important;
+  color: var(--ink) !important;
+}
+
+/* =========================================================
+   HOMEPAGE IMMERSIVE MODE (Hides the white box & header)
+   ========================================================= */
+body[data-section="index"] .page-header { display: none !important; }
+body[data-section="index"] .sidebar { display: none !important; }
+body[data-section="index"] .sidebar-toggle-button { display: none !important; }
+
+body[data-section="index"] .page-wrapper {
+  max-width: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+body[data-section="index"] .main-content {
+  max-width: 100% !important;
+  width: 100vw !important;
+  min-height: 100vh !important;
+  background: linear-gradient(135deg, #fff0f3 0%, #f3f0ff 100%) !important;
+  border: none !important;
+  box-shadow: none !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+  padding: 2rem !important;
+}
+
+/* =========================================================
+   GIRLY HERO SECTION
+   ========================================================= */
+.hero-gradient {
+  background: white !important;
+  border: 3px solid var(--pink-main) !important;
+  border-radius: 30px !important;
+  padding: 3rem 2rem !important;
+  box-shadow: 0 10px 30px rgba(255, 133, 162, 0.2) !important;
+  text-align: center !important;
+  max-width: 800px !important;
+}
+
+.hero-gradient h1 {
+  font-family: "Playfair Display", serif !important;
+  color: var(--pink-deep) !important;
+  font-size: 3rem !important;
+  margin-bottom: 1rem !important;
+}
+
+.hero-btn {
+  border-radius: 50px !important;
+  padding: 12px 30px !important;
+  font-weight: 700 !important;
+  transition: all 0.3s ease !important;
+  text-decoration: none !important;
+  display: inline-block !important;
+  margin: 10px !important;
+}
+
+.hero-btn.primary { background-color: var(--pink-main) !important; color: white !important; }
+.hero-btn.quiz    { background-color: var(--lavender) !important; color: var(--ink) !important; }
+.hero-btn.outline { border: 2px solid var(--pink-main) !important; color: var(--pink-deep) !important; }
+
+.hero-btn:hover { transform: scale(1.05) !important; box-shadow: 0 5px 15px rgba(0,0,0,0.1) !important; }
+
+/* =========================================================
+   GIRLY STUDY CARDS
+   ========================================================= */
+.quicknav-card {
+  background: white !important;
+  border: 2px solid var(--border) !important;
+  border-radius: 20px !important;
+  padding: 20px !important;
+  transition: all 0.3s ease !important;
+  text-align: center !important;
+}
+
+.quicknav-card:hover {
+  border-color: var(--pink-main) !important;
+  transform: translateY(-5px) !important;
+  box-shadow: 0 10px 20px rgba(255, 133, 162, 0.1) !important;
+}
+
+.quicknav-card .card-title {
+  color: var(--pink-deep) !important;
+  font-weight: 900 !important;
+}
+
+/* =========================================================
+   INTERNAL PAGES (Sidebar & CONTENT)
+   ========================================================= */
+.page-header {
+  background: var(--pink-main) !important;
+  background-image: linear-gradient(120deg, var(--pink-main), var(--lavender)) !important;
+}
+
+.sidebar {
+  background: white !important;
+  border-right: 4px solid var(--pink-light) !important;
+  border-radius: 0 20px 20px 0 !important;
+}
+
+.sidebar a:hover {
+  background: var(--pink-light) !important;
+  color: var(--pink-deep) !important;
+}
+
+.main-content h2 {
+  color: var(--pink-deep) !important;
+  border-bottom: 2px solid var(--pink-light) !important;
+}
+
+/* Callout Box Branding */
+.nclex, .priority, .danger {
+  border-left: 5px solid var(--pink-main) !important;
+  background-color: var(--pink-light) !important;
+  border-radius: 0 15px 15px 0 !important;
+}
