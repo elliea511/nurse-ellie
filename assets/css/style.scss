@@ -914,6 +914,13 @@ body {
 .home-hero {
   text-align: center;
   padding: 4.5rem 2rem 2rem 2rem;
+  /* frosted backing so text pops over the illustration */
+  background: rgba(255, 255, 255, 0.55) !important;
+  backdrop-filter: blur(6px) !important;
+  -webkit-backdrop-filter: blur(6px) !important;
+  border-radius: 20px !important;
+  max-width: 680px !important;
+  margin: 0 auto !important;
 }
 
 .home-eyebrow {
@@ -922,7 +929,7 @@ body {
   font-weight: 900;
   text-transform: uppercase;
   letter-spacing: 2.5px;
-  color: #b08880;
+  color: #8a5860;
   margin: 0 0 0.85rem 0;
 }
 
@@ -943,34 +950,8 @@ body {
 .home-sub {
   font-size: 1rem;
   color: #8a7070;
-  margin: 0 0 1.75rem 0 !important;
+  margin: 0 !important;
   font-weight: 500;
-}
-
-.home-hero-actions {
-  display: flex;
-  justify-content: center;
-}
-
-.home-cta-btn {
-  display: inline-block;
-  background: #c07878;
-  color: white !important;
-  font-family: "Nunito", sans-serif;
-  font-weight: 800;
-  font-size: 0.95rem;
-  padding: 0.75rem 2rem;
-  border-radius: 999px;
-  text-decoration: none !important;
-  border-bottom: none !important;
-  box-shadow: 0 4px 16px rgba(192,120,120,0.30);
-  transition: transform 0.15s ease, box-shadow 0.15s ease;
-  letter-spacing: 0.2px;
-}
-
-.home-cta-btn:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 8px 24px rgba(192,120,120,0.38);
 }
 
 /* =========================================================
@@ -1045,7 +1026,9 @@ body {
 
 /* Blush — Maternity */
 .home-big-button.blush {
-  background: linear-gradient(145deg, #fdf0f4 0%, #f5d8e4 100%) !important;
+  background: linear-gradient(145deg, rgba(253,240,244,0.92) 0%, rgba(245,216,228,0.92) 100%) !important;
+  backdrop-filter: blur(8px) !important;
+  -webkit-backdrop-filter: blur(8px) !important;
   border-color: #ecc0d0 !important;
   color: #6a2840 !important;
 }
@@ -1057,7 +1040,9 @@ body {
 
 /* Mauve — Hematology/Oncology */
 .home-big-button.mauve {
-  background: linear-gradient(145deg, #f5eef2 0%, #e8ccd8 100%) !important;
+  background: linear-gradient(145deg, rgba(245,238,242,0.92) 0%, rgba(232,204,216,0.92) 100%) !important;
+  backdrop-filter: blur(8px) !important;
+  -webkit-backdrop-filter: blur(8px) !important;
   border-color: #d8b0c4 !important;
   color: #58203a !important;
 }
@@ -1069,7 +1054,9 @@ body {
 
 /* Clay — Medical Emergencies */
 .home-big-button.clay {
-  background: linear-gradient(145deg, #fdf4ef 0%, #f0d8c8 100%) !important;
+  background: linear-gradient(145deg, rgba(253,244,239,0.92) 0%, rgba(240,216,200,0.92) 100%) !important;
+  backdrop-filter: blur(8px) !important;
+  -webkit-backdrop-filter: blur(8px) !important;
   border-color: #e0c0a8 !important;
   color: #5a2c18 !important;
 }
@@ -1081,7 +1068,9 @@ body {
 
 /* Taupe — ATI */
 .home-big-button.taupe {
-  background: linear-gradient(145deg, #faf5ef 0%, #ecdcc8 100%) !important;
+  background: linear-gradient(145deg, rgba(250,245,239,0.92) 0%, rgba(236,220,200,0.92) 100%) !important;
+  backdrop-filter: blur(8px) !important;
+  -webkit-backdrop-filter: blur(8px) !important;
   border-color: #d8c4a8 !important;
   color: #4a3018 !important;
 }
@@ -1351,10 +1340,12 @@ body {
    ========================================================= */
 
 body.home-page {
-  background-color: var(--bg) !important;
-  background-image:
-    radial-gradient(circle, rgba(0,0,0,0.07) 1px, transparent 1px) !important;
-  background-size: 24px 24px !important;
+  background-color: #c8dce8 !important;
+  background-image: url('/assets/images/homepage-bg.jpg') !important;
+  background-size: cover !important;
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+  background-attachment: fixed !important;
   min-height: 100vh !important;
   margin: 0 !important;
   padding: 0 !important;
@@ -1363,7 +1354,8 @@ body.home-page {
 .home-fullpage {
   width: 100% !important;
   min-height: 100vh !important;
-  display: block !important;
+  display: flex !important;
+  flex-direction: column !important;
   box-sizing: border-box !important;
   padding: 0 !important;
   margin: 0 !important;
