@@ -2484,14 +2484,3 @@ body[data-section="index"] .page-wrapper {
   .sng-card {
     min-width: 0 !important;   /* Grid will manage sizing, cards fill available space */
   }
-}
-.sng-card:hover {
-  box-shadow: 0 18px 56px #ed96fa33, 0 10px 24px #e6b6fa42;
-  transform: translateY(-8px) scale(1.06);
-}
-.sng-card {
-  display: flex !important;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-}
