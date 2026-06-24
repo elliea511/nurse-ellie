@@ -1,16 +1,15 @@
 <div class="sng-main-wrapper">
   <div class="sng-hero-content">
-    <div class="sng-hero-title">Nurse Ellie’s<br>Study Lounge</div>
+    <div class="sng-hero-title">Ellie’s<br>Notes</div>
 
     <div class="sng-hero-desc">
-      Simple nursing notes and review tools made for exam prep.<br>
       <span style="color:#8bb488;font-weight:900;background:#f8fff5;padding:1px 11px;border-radius:9px;">
         Organized so you can study what you actually need.
       </span>
     </div>
 
     <div class="sng-hero-actions">
-      <a href="{{ '/maternity.html' | relative_url }}" class="sng-call-btn">Start Studying</a>
+      <a href="{{ '/maternity.html' | relative_url }}" class="sng-call-btn">Start Studying For Our Next Exam</a>
       <a href="{{ '/maternity-practice-test.html' | relative_url }}" class="sng-call-btn secondary">Quick Review</a>
     </div>
   </div>
