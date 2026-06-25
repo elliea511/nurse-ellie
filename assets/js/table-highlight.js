@@ -4,6 +4,12 @@
 
   var KEY = 'ellie-table-hl-' + window.location.pathname;
   var COLORS = ['yellow', 'pink', 'blue', 'green'];
+  var CELL_BG = {
+    yellow: 'rgba(255,230,80,0.42)',
+    pink:   'rgba(255,150,185,0.38)',
+    blue:   'rgba(110,185,255,0.38)',
+    green:  'rgba(100,215,140,0.38)'
+  };
 
   function load() { try { return JSON.parse(localStorage.getItem(KEY)) || {}; } catch(e) { return {}; } }
   function save(d) { localStorage.setItem(KEY, JSON.stringify(d)); }
@@ -13,13 +19,11 @@
   Array.from(content.querySelectorAll('table')).forEach(function (table, idx) {
     var tableId = 'tbl-' + idx;
 
-    // Wrap table in a relative container
     var wrapper = document.createElement('div');
     wrapper.className = 'thl-wrapper';
     table.parentNode.insertBefore(wrapper, table);
     wrapper.appendChild(table);
 
-    // Strip on the right — dots live inside it
     var strip = document.createElement('div');
     strip.className = 'thl-strip';
 
@@ -37,7 +41,6 @@
       strip.appendChild(dot);
     });
 
-    // Clear button at the bottom of the strip
     var clearDot = document.createElement('button');
     clearDot.className = 'thl-dot thl-dot-clear';
     clearDot.title = 'clear';
@@ -50,20 +53,22 @@
     strip.appendChild(clearDot);
 
     wrapper.appendChild(strip);
-
-    // Restore saved
     applyColor(table, strip, saved[tableId] || null);
   });
 
   function applyColor(table, strip, color) {
-    COLORS.forEach(function (c) { table.classList.remove('thl-color-' + c); });
-    strip.className = 'thl-strip';
+    // Apply directly to each cell — bypasses all !important stylesheet rules
+    Array.from(table.querySelectorAll('td, th')).forEach(function (cell) {
+      if (color) {
+        cell.style.setProperty('background-color', CELL_BG[color], 'important');
+      } else {
+        cell.style.removeProperty('background-color');
+      }
+    });
+
+    strip.className = 'thl-strip' + (color ? ' thl-strip-' + color : '');
     Array.from(strip.querySelectorAll('.thl-dot')).forEach(function (d) {
       d.classList.toggle('thl-active', d.title === color);
     });
-    if (color) {
-      table.classList.add('thl-color-' + color);
-      strip.classList.add('thl-strip-' + color);
-    }
   }
 })();
