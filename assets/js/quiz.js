@@ -1,6 +1,7 @@
 (function () {
   var content = document.querySelector('.main-content');
-  if (!content) return;
+  if (!content || content.dataset.quizInit) return;
+  content.dataset.quizInit = '1';
 
   var detailsBlocks = Array.from(content.querySelectorAll('details'));
   var quizBlocks = []; // { gotItRight, answered: false }
@@ -116,7 +117,7 @@
       }
 
       choiceWrap.appendChild(btn);
-      choice.style.display = 'none';
+      choice.classList.add('quiz-choice-hidden');
     });
 
     block.appendChild(choiceWrap);
