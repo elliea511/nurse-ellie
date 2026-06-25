@@ -2898,3 +2898,52 @@ body[data-section="review"] .main-content,
 }
 
 .qsc-reset:hover { background: #e8e8e8 !important; border-color: #999 !important; }
+
+/* ── Table Highlight Bar ───────────────────────────────────────── */
+.thl-bar {
+  display: flex !important;
+  align-items: center !important;
+  gap: 0.35rem !important;
+  margin-bottom: 0.3rem !important;
+}
+
+.thl-label {
+  font-size: 0.68rem !important;
+  color: #bbb !important;
+  letter-spacing: 0.04em !important;
+  margin-right: 0.15rem !important;
+}
+
+.thl-dot {
+  width: 16px !important;
+  height: 16px !important;
+  border-radius: 50% !important;
+  border: 2px solid transparent !important;
+  cursor: pointer !important;
+  padding: 0 !important;
+  transition: transform 0.15s, border-color 0.15s !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  font-size: 0 !important;
+}
+
+.thl-dot:hover { transform: scale(1.25) !important; }
+.thl-dot.thl-active { border-color: #333 !important; transform: scale(1.15) !important; }
+
+.thl-yellow { background: rgba(255,225,60,0.85) !important; }
+.thl-pink   { background: rgba(255,140,175,0.85) !important; }
+.thl-blue   { background: rgba(100,185,255,0.85) !important; }
+.thl-green  { background: rgba(100,220,140,0.85) !important; }
+
+.thl-clear {
+  background: #f0f0f0 !important;
+  color: #999 !important;
+  font-size: 0.6rem !important;
+  border-radius: 50% !important;
+  border: 1px solid #ddd !important;
+}
+
+.thl-clear:hover { color: #c00 !important; border-color: #f5c6cb !important; }
+
+@media print { .thl-bar { display: none !important; } }
