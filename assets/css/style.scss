@@ -2186,68 +2186,83 @@ mark.hl-green  { background: rgba(100, 220, 140, 0.42) !important; }
   bottom: 0 !important;
   -webkit-backface-visibility: hidden !important;
   backface-visibility: hidden !important;
-  border-radius: 16px !important;
+  border-radius: 4px !important;
   display: flex !important;
   flex-direction: column !important;
-  align-items: center !important;
+  align-items: flex-start !important;
   justify-content: center !important;
-  padding: 2rem !important;
-  text-align: center !important;
-  line-height: 1.55 !important;
-  box-shadow: 0 6px 24px rgba(0,0,0,0.13), 0 1px 4px rgba(0,0,0,0.08) !important;
+  line-height: 2rem !important;
+  box-shadow: 2px 3px 12px rgba(0,0,0,0.1), 4px 5px 0 #e0e0d0 !important;
   overflow-y: auto !important;
 }
 
-/* FRONT — blue/indigo card, shows the question/term */
+/* FRONT — notebook paper card */
 .flashcard-front {
-  background: linear-gradient(145deg, #4f6ef7, #7b5ea7) !important;
-  color: #fff !important;
+  background-color: #fffef7 !important;
+  background-image:
+    linear-gradient(#e8f0fb 1px, transparent 1px) !important;
+  background-size: 100% 2rem !important;
+  background-position: 0 2.5rem !important;
+  border: 1.5px solid #c8d8f0 !important;
+  border-left: 5px solid #7baaf7 !important;
+  color: #1a2a4a !important;
   flex-direction: column !important;
-  gap: 0.75rem !important;
+  gap: 0.6rem !important;
+  align-items: flex-start !important;
+  padding: 1.25rem 1.5rem 1.25rem 1.75rem !important;
+  text-align: left !important;
+  font-family: 'Nunito', sans-serif !important;
 }
 
 .fc-column-tag {
   font-size: 0.68rem !important;
   font-weight: 800 !important;
-  letter-spacing: 0.12em !important;
+  letter-spacing: 0.1em !important;
   text-transform: uppercase !important;
-  opacity: 0.65 !important;
-  background: rgba(255,255,255,0.15) !important;
-  padding: 0.2rem 0.7rem !important;
+  color: #7baaf7 !important;
+  background: #e8f0fb !important;
+  padding: 0.15rem 0.6rem !important;
   border-radius: 999px !important;
+  margin-bottom: 0.15rem !important;
 }
 
 .fc-term {
-  font-size: 1.2rem !important;
+  font-size: 1.15rem !important;
   font-weight: 700 !important;
-  line-height: 1.4 !important;
+  line-height: 1.5 !important;
+  color: #1a2a4a !important;
 }
 
-/* BACK — white card, shows the answer */
+/* BACK — notebook paper, pink margin line */
 .flashcard-back {
-  background: #fff !important;
-  color: #1a1a2e !important;
-  font-size: 0.95rem !important;
-  border: 2px solid #e0e0e0 !important;
+  background-color: #fffef7 !important;
+  background-image:
+    linear-gradient(#f5e8f0 1px, transparent 1px) !important;
+  background-size: 100% 2rem !important;
+  background-position: 0 2.5rem !important;
+  border: 1.5px solid #e8c8d8 !important;
+  border-left: 5px solid #f48fb1 !important;
+  color: #2a1a2a !important;
   transform: rotateY(180deg) !important;
   flex-direction: column !important;
-  gap: 0.5rem !important;
-  padding-top: 2.25rem !important;
+  gap: 0.4rem !important;
+  align-items: flex-start !important;
+  padding: 1.25rem 1.5rem 1.25rem 1.75rem !important;
+  text-align: left !important;
+  font-size: 0.95rem !important;
+  font-family: 'Nunito', sans-serif !important;
 }
 
 .flashcard-back::before {
-  content: 'ANSWER' !important;
+  content: 'Answer' !important;
   position: absolute !important;
-  top: 0.75rem !important;
-  left: 0 !important;
-  right: 0 !important;
-  text-align: center !important;
+  top: 0.6rem !important;
+  left: 1.75rem !important;
   font-size: 0.65rem !important;
-  letter-spacing: 0.12em !important;
+  letter-spacing: 0.1em !important;
   font-weight: 800 !important;
-  color: #66bb6a !important;
-  opacity: 0.8 !important;
   text-transform: uppercase !important;
+  color: #f48fb1 !important;
 }
 
 .fc-col-label {
@@ -2256,14 +2271,14 @@ mark.hl-green  { background: rgba(100, 220, 140, 0.42) !important; }
   font-weight: 800 !important;
   letter-spacing: 0.1em !important;
   text-transform: uppercase !important;
-  color: #7b5ea7 !important;
-  margin-bottom: 0.15rem !important;
+  color: #f48fb1 !important;
+  margin: 0.35rem 0 0.1rem 0 !important;
 }
 
 hr.fc-divider {
   border: none !important;
-  border-top: 1px solid #eee !important;
-  margin: 0.4rem 0 !important;
+  border-top: 1px dashed #e8c8d8 !important;
+  margin: 0.3rem 0 !important;
   width: 100% !important;
 }
 
