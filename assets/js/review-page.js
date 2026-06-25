@@ -106,10 +106,7 @@
 
       groups[color].forEach(function (item) {
         var li = document.createElement('li');
-        var mark = document.createElement('mark');
-        mark.className = 'hl hl-' + color;
-        mark.textContent = item.text;
-        li.appendChild(mark);
+        li.innerHTML = '<span class="review-bullet">•</span><mark class="hl hl-' + color + '">' + item.text + '</mark>';
         list.appendChild(li);
       });
 
