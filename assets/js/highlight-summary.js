@@ -19,7 +19,7 @@
   // Modal overlay
   var overlay = document.createElement('div');
   overlay.id = 'hl-summary-overlay';
-  overlay.innerHTML = '<div id="hl-summary-modal"><div id="hl-summary-header"><span id="hl-summary-title">My Highlights</span><button id="hl-summary-close">✕</button></div><div id="hl-summary-body"></div></div>';
+  overlay.innerHTML = '<div id="hl-summary-modal"><div id="hl-summary-header"><span id="hl-summary-title">My Notes</span><button id="hl-summary-close">✕</button></div><div id="hl-summary-body"></div></div>';
   document.body.appendChild(overlay);
 
   var modal = overlay.querySelector('#hl-summary-modal');
