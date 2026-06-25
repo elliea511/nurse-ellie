@@ -1948,10 +1948,14 @@ body.home-page {
    ========================================================= */
 
 mark.hl {
+  display: inline !important;
   background: transparent !important;
   border-radius: 2px !important;
   padding: 0 1px !important;
   cursor: pointer !important;
+  line-height: inherit !important;
+  font-size: inherit !important;
+  vertical-align: baseline !important;
 }
 
 mark.hl:hover { opacity: 0.6 !important; text-decoration: line-through !important; }
@@ -2597,27 +2601,27 @@ a.video-preview-card:hover .play-button {
 }
 
 .review-hl-list {
-  list-style: none !important;
   margin: 0 !important;
   padding: 0 0 0 0.5rem !important;
   display: flex !important;
   flex-direction: column !important;
-  gap: 0.35rem !important;
 }
 
-.review-hl-list li {
+.review-hl-item {
   font-size: 0.92rem !important;
-  border-bottom: none !important;
   line-height: 1.6 !important;
-  display: flex !important;
-  align-items: baseline !important;
-  gap: 0.5rem !important;
+  padding: 0.45rem 0 !important;
+  position: relative !important;
 }
 
-.review-bullet {
-  flex-shrink: 0 !important;
-  color: #ccc !important;
-  font-size: 1rem !important;
+.review-hl-item + .review-hl-item::before {
+  content: '' !important;
+  display: block !important;
+  width: 50% !important;
+  height: 1px !important;
+  background: currentColor !important;
+  opacity: 0.15 !important;
+  margin: 0 auto 0.45rem !important;
 }
 
 .review-hl-list mark {

@@ -101,15 +101,16 @@
       label.textContent = COLOR_LABELS[color];
       group.appendChild(label);
 
-      var list = document.createElement('ul');
+      var list = document.createElement('div');
       list.className = 'review-hl-list';
 
       groups[color].forEach(function (item) {
-        var li = document.createElement('li');
+        var div = document.createElement('div');
+        div.className = 'review-hl-item';
         var uid = item.uid || '';
         var href = uid ? page.path + '?hljump=' + encodeURIComponent(uid) : page.path;
-        li.innerHTML = '<span class="review-bullet">•</span><a href="' + href + '" class="review-hl-link"><mark class="hl hl-' + color + '">' + item.text + '</mark></a>';
-        list.appendChild(li);
+        div.innerHTML = '<a href="' + href + '" class="review-hl-link"><mark class="hl hl-' + color + '">' + item.text + '</mark></a>';
+        list.appendChild(div);
       });
 
       group.appendChild(list);
