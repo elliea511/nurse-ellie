@@ -145,11 +145,6 @@
       var tgroup = document.createElement('div');
       tgroup.className = 'review-color-group review-table-group';
 
-      var tlabel = document.createElement('span');
-      tlabel.className = 'review-color-label hl-' + entry.color;
-      tlabel.textContent = COLOR_LABELS[entry.color] + ' table';
-      tgroup.appendChild(tlabel);
-
       var tlink = document.createElement('a');
       tlink.href = path;
       tlink.className = 'review-table-link';
