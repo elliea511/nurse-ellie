@@ -2643,6 +2643,33 @@ a.video-preview-card:hover .play-button {
 
 .review-page-clear:hover { color: #c0392b !important; border-color: #f5c6cb !important; }
 
+.review-table-group { margin-top: 0.75rem !important; }
+
+.review-table-link {
+  display: block !important;
+  text-decoration: none !important;
+  margin-top: 0.5rem !important;
+}
+
+.review-table-wrap {
+  overflow-x: auto !important;
+  border-radius: 8px !important;
+  border: 1px solid #e8e8e8 !important;
+}
+
+.review-table-wrap table {
+  width: 100% !important;
+  margin: 0 !important;
+  font-size: 0.88rem !important;
+  border-collapse: collapse !important;
+}
+
+.review-table-wrap td,
+.review-table-wrap th {
+  border: 1px solid #e0e0e0 !important;
+  padding: 0.4rem 0.65rem !important;
+}
+
 .review-empty {
   text-align: center !important;
   padding: 4rem 2rem !important;

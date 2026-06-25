@@ -32,11 +32,24 @@
       dot.className = 'thl-dot thl-dot-' + color;
       dot.title = color;
       dot.addEventListener('click', function () {
-        var current = saved[tableId];
+        var entry = saved[tableId];
+        var current = entry && entry.color ? entry.color : (typeof entry === 'string' ? entry : null);
         var next = current === color ? null : color;
-        saved[tableId] = next;
+        if (next) {
+          applyColor(table, strip, next);
+          // Snapshot clean table HTML (no mark elements) with colors already applied
+          var clone = table.cloneNode(true);
+          clone.querySelectorAll('mark.hl').forEach(function (m) {
+            var p = m.parentNode;
+            while (m.firstChild) p.insertBefore(m.firstChild, m);
+            p.removeChild(m);
+          });
+          saved[tableId] = { color: next, html: clone.outerHTML };
+        } else {
+          applyColor(table, strip, null);
+          delete saved[tableId];
+        }
         save(saved);
-        applyColor(table, strip, next);
       });
       strip.appendChild(dot);
     });
@@ -46,18 +59,21 @@
     clearDot.title = 'clear';
     clearDot.textContent = '✕';
     clearDot.addEventListener('click', function () {
+      applyColor(table, strip, null);
       delete saved[tableId];
       save(saved);
-      applyColor(table, strip, null);
     });
     strip.appendChild(clearDot);
 
     wrapper.appendChild(strip);
-    applyColor(table, strip, saved[tableId] || null);
+
+    // Restore — handle both old string format and new {color, html} format
+    var entry = saved[tableId];
+    var color = entry && entry.color ? entry.color : (typeof entry === 'string' ? entry : null);
+    applyColor(table, strip, color);
   });
 
   function applyColor(table, strip, color) {
-    // Apply directly to each cell — bypasses all !important stylesheet rules
     Array.from(table.querySelectorAll('td, th')).forEach(function (cell) {
       if (color) {
         cell.style.setProperty('background-color', CELL_BG[color], 'important');
@@ -65,7 +81,6 @@
         cell.style.removeProperty('background-color');
       }
     });
-
     strip.className = 'thl-strip' + (color ? ' thl-strip-' + color : '');
     Array.from(strip.querySelectorAll('.thl-dot')).forEach(function (d) {
       d.classList.toggle('thl-active', d.title === color);
