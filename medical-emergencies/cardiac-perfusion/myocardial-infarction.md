@@ -5,35 +5,19 @@ title: Angina and Myocardial Infarction
 
 # Angina and Myocardial Infarction
 
-<div class="note" markdown="1">
+<div class="note">
 Angina and myocardial infarction are both caused by decreased blood flow to the heart muscle. The big difference is that angina is usually temporary ischemia, while an MI causes heart muscle damage.
 </div>
 
 ---
 
-## Big Picture
-
-| Topic | Angina | Myocardial Infarction |
-|---|---|---|
-| Main problem | Temporary decreased blood flow to heart muscle | Severe blockage causing heart muscle damage |
-| Oxygen issue | Myocardium does not get enough oxygen temporarily | Myocardium is deprived of oxygen long enough to cause injury/death |
-| Pain relief | Usually improves with rest or nitroglycerin if stable | Not fully relieved by rest or nitroglycerin |
-| Troponin | Usually normal | Elevated |
-| Priority | Relieve ischemia and monitor pattern | Rapid assessment and reperfusion |
-
----
-
-# Angina
-
-## What It Is
+## Angina
 
 Angina is **temporary chest pain caused by decreased blood flow to the heart muscle**.
 
-The heart muscle is not getting enough oxygen for the amount of work it is doing.
+The heart muscle is not getting enough oxygen for the amount of work it is doing. This is called **myocardial ischemia**.
 
-This is called **myocardial ischemia**.
-
-## Simple Explanation
+### Simple Explanation
 
 The coronary artery is narrowed, but not completely blocked.
 
@@ -41,20 +25,49 @@ When the heart needs more oxygen, the narrowed vessel cannot supply enough blood
 
 ---
 
-# Stable Angina vs Unstable Angina
+## Stable Angina
 
-| Type | Pattern | When It Happens | Relief | NCLEX Meaning |
-|---|---|---|---|---|
-| Stable angina | Predictable | Activity, exercise, stress, cold weather, heavy meals | Usually relieved by rest or nitroglycerin | Chronic pattern |
-| Unstable angina | New, worse, or unpredictable | At rest or with minimal activity | May not be relieved by nitroglycerin | Emergency / possible MI warning |
+Stable angina is predictable.
 
-<div class="tip-box">
-<strong>NCLEX Tip:</strong> Chest pain at rest is always more concerning than predictable chest pain with activity.
+| Usually Happens With | Usually Improves With |
+|---|---|
+| Activity | Rest |
+| Exercise | Nitroglycerin |
+| Stress |  |
+| Cold weather |  |
+| Heavy meals |  |
+
+### Key Point
+
+Stable angina follows a pattern.
+
+The client may say:
+
+> “I get chest pain when I walk too fast, but it goes away when I rest.”
+
+---
+
+## Unstable Angina
+
+Unstable angina is an emergency.
+
+| Concerning Pattern |
+|---|
+| Occurs at rest |
+| Occurs with minimal activity |
+| Happens more often than usual |
+| Pain is more severe |
+| Pain is not relieved by nitroglycerin |
+
+Unstable angina can be a warning sign that the client may be developing an MI.
+
+<div class="nclex">
+<strong>NCLEX Tip:</strong> Chest pain at rest is more concerning than predictable chest pain with activity.
 </div>
 
 ---
 
-# Angina Triggers
+## Angina Triggers
 
 Your notes use the **E words**.
 
@@ -68,210 +81,187 @@ Your notes use the **E words**.
 
 ---
 
-# Signs and Symptoms of Angina
+## Signs and Symptoms of Angina
 
-| Symptom Type | Findings |
-|---|---|
-| Chest symptoms | Chest pressure, tightness, or pain |
-| Radiation | Arm, jaw, neck, shoulder, or back |
-| Respiratory | Shortness of breath |
-| GI | Nausea |
-| Autonomic | Sweating |
-| General | Fatigue, anxiety |
+| Chest Symptoms | Radiation | Other Symptoms |
+|---|---|---|
+| Chest pressure | Arm | Shortness of breath |
+| Chest tightness | Jaw | Nausea |
+| Chest pain | Neck | Sweating |
+|  | Shoulder | Fatigue |
+|  | Back | Anxiety |
 
-<div class="tip-box">
-<strong>NCLEX Tip:</strong> Radiating pain can happen with both angina and MI. Radiation does not automatically mean MI.
-</div>
+Radiating pain can happen with both angina and MI.
 
-## More Concerning Chest Pain
+Radiation does **not** automatically mean MI.
 
-| Concerning Finding | Why |
-|---|---|
-| Pain at rest | Possible unstable angina/MI |
-| New pain | Change from baseline |
-| Worsening pain | Increasing ischemia concern |
-| Pain not relieved by nitroglycerin | Possible MI |
-| Pain with shortness of breath/diaphoresis | Higher concern for cardiac event |
+### More Concerning Findings
+
+| More Concerning Chest Pain |
+|---|
+| Pain at rest |
+| Pain that is new |
+| Pain that is worsening |
+| Pain not relieved by nitroglycerin |
 
 ---
 
-# Nursing Care for Angina Episode
+## Nursing Care for Angina
 
-| Step | Nursing Action | Why |
-|---|---|---|
-| 1 | Stop activity | Decreases cardiac workload |
-| 2 | Have the client rest | Reduces oxygen demand |
-| 3 | Place in semi-Fowler’s or high Fowler’s | Decreases venous return/cardiac workload |
-| 4 | Assess chest pain | Determines severity/pattern |
-| 5 | Check vital signs | Screens for instability |
-| 6 | Check oxygen saturation | Determines oxygen need |
-| 7 | Apply oxygen if hypoxemic or in respiratory distress | Supports oxygenation |
-| 8 | Monitor ECG | Watches for ischemia/dysrhythmias |
-| 9 | Give nitroglycerin as prescribed | Vasodilates and relieves ischemia |
-| 10 | Notify provider if new/worse/not relieved | Possible unstable angina or MI |
+### Priority During an Episode
 
-## Why Fowler’s Position Helps
+| Step | Nursing Action |
+|---|---|
+| 1 | Stop activity |
+| 2 | Have the client rest |
+| 3 | Place in semi-Fowler’s or high Fowler’s |
+| 4 | Assess chest pain |
+| 5 | Check vital signs |
+| 6 | Check oxygen saturation |
+| 7 | Apply oxygen if hypoxemic or in respiratory distress |
+| 8 | Monitor ECG |
+| 9 | Give nitroglycerin as prescribed |
+| 10 | Notify provider if pain is new, worsening, or not relieved |
+
+### Why Fowler’s Position Helps
 
 Semi-Fowler’s or high Fowler’s decreases venous return.
 
-Less venous return means the heart has less blood to pump, which decreases cardiac workload.
+Less venous return means the heart has less blood to pump.
+
+This decreases cardiac workload.
 
 ---
 
-# Nitroglycerin
+## Nitroglycerin
 
-## What It Does
+Nitroglycerin is a nitrate.
 
-Nitroglycerin is a nitrate that causes vasodilation.
+It causes vasodilation.
 
-| Action | Effect |
+| Action | Why It Helps |
 |---|---|
-| Dilates coronary arteries | Increases blood flow to myocardium |
-| Dilates peripheral vessels | Decreases workload but can lower BP |
-| Improves oxygen delivery | Helps relieve ischemic chest pain |
+| Dilates coronary arteries | Increases blood flow to the heart muscle |
+| Improves myocardial oxygen delivery | Relieves chest pain caused by ischemia |
+| Dilates peripheral vessels | Decreases cardiac workload but can lower BP |
 
----
-
-# Nitroglycerin Side Effects
-
-Nitroglycerin does not only dilate coronary arteries.
+### Side Effects
 
 | Effect | Result |
 |---|---|
 | Cerebral vessel dilation | Headache |
 | Peripheral vessel dilation | Hypotension, dizziness, fainting |
 
----
+### Nursing Considerations
 
-# Before Giving Nitroglycerin
+Before giving nitroglycerin:
 
-| Nursing Consideration | Why |
-|---|---|
-| Check blood pressure | Nitro can cause hypotension |
-| Assess chest pain | Establishes baseline |
-| Have client sit or lie down | Prevents fall if dizzy |
-| Monitor for dizziness | Safety |
-| Monitor for hypotension | Major adverse effect |
+* Check blood pressure.
+* Assess chest pain.
+* Have the client sit or lie down.
+* Monitor for dizziness.
+* Monitor for hypotension.
 
-<div class="priority-box">
-<strong>Priority Tip:</strong> Always check BP before nitroglycerin.
+<div class="warning">
+<strong>Major Safety Warning:</strong> Do not give nitroglycerin with erectile dysfunction medications such as sildenafil/Viagra. Both are vasodilators and can cause severe hypotension.
 </div>
 
 ---
 
-# Major Nitroglycerin Safety Warning
+## Sublingual Nitroglycerin Teaching
 
-Do **not** give nitroglycerin with erectile dysfunction medications such as sildenafil/Viagra.
+Teach the client:
 
-| Combination | Risk |
-|---|---|
-| Nitroglycerin + sildenafil/Viagra | Severe hypotension |
+* Place tablet under the tongue.
+* Do not chew.
+* Do not swallow.
+* Let it dissolve.
+* Sit or lie down before taking it.
+* Take one dose every 5 minutes as prescribed.
+* Maximum is usually 3 doses.
+* If pain is not relieved, seek emergency care.
 
-Both medications are vasodilators.
-
----
-
-# Sublingual Nitroglycerin Teaching
-
-| Teaching Point | Why |
-|---|---|
-| Place tablet under the tongue | Allows absorption |
-| Do not chew | Let it dissolve correctly |
-| Do not swallow | Swallowing decreases effect |
-| Let it dissolve | Needed for absorption |
-| Sit or lie down before taking it | Prevents falls from hypotension |
-| Take one dose every 5 minutes as prescribed | Standard teaching |
-| Maximum is usually 3 doses | Prevents unsafe repeat dosing |
-| If pain is not relieved, seek emergency care | Possible MI |
-
-<div class="tip-box">
+<div class="nclex">
 <strong>NCLEX Tip:</strong> If nitroglycerin does not relieve the pain, think possible MI, expired medication, or need for emergency evaluation.
 </div>
 
 ---
 
-# Nitroglycerin Storage
+## Nitroglycerin Storage
 
 Nitroglycerin is sensitive to heat, light, and moisture.
 
-| Storage Teaching | Why |
-|---|---|
-| Keep in original dark glass container | Protects from light |
-| Keep away from heat | Heat can reduce effectiveness |
-| Keep away from light | Light can reduce effectiveness |
-| Keep away from humidity | Moisture can reduce effectiveness |
-| Do not store in refrigerator | Avoid moisture/temperature issues |
-| Replace every 6–12 months or when expired | Ensures medication works |
+| Storage Teaching |
+|---|
+| Keep it in the original dark glass container |
+| Keep it away from heat |
+| Keep it away from light |
+| Keep it away from humidity |
+| Do not store it in the refrigerator |
+| Replace it every 6 to 12 months or when expired |
 
 ---
 
-# Nitroglycerin Patch / Paste / Other Forms
+## Nitroglycerin Patch or Paste
 
-Nitroglycerin can come as:
+Nitroglycerin can also come as:
 
-| Form |
+* Patch
+* Paste
+* Spray
+* IV form
+
+### Patch/Paste Teaching
+
+| Teaching Point |
 |---|
-| Patch |
-| Paste |
-| Spray |
-| IV form |
-
-## Patch/Paste Teaching
-
-| Teaching Point | Why |
-|---|---|
-| Apply to a hairless area | Improves absorption |
-| Clip hair if needed; do not shave | Prevents skin irritation/cuts |
-| Rotate sites | Prevents skin irritation |
-| Remove old patch or paste before applying new one | Prevents overdose |
-| Wear gloves with nitroglycerin paste | Prevents nurse absorption |
-| Protect IV nitroglycerin from light | Maintains medication stability |
+| Apply to a hairless area |
+| Clip hair if needed; do not shave |
+| Rotate sites |
+| Remove old patch or paste before applying a new one |
+| Wear gloves when handling nitroglycerin paste |
+| IV nitroglycerin should be protected from light |
 
 ---
 
-# Calcium Channel Blockers for Angina
+## Calcium Channel Blockers for Angina
 
-## Examples
+Examples:
 
-| Medication |
-|---|
-| Nifedipine |
-| Verapamil |
+* Nifedipine
+* Verapamil
 
-## Uses
+### Why They Are Used
 
-| Used For |
-|---|
-| Angina |
-| Hypertension |
-| Some supraventricular dysrhythmias |
+Calcium channel blockers can be used for:
 
-## Action and Side Effects
+* Angina
+* Hypertension
+* Some supraventricular dysrhythmias
+
+### Action and Side Effects
 
 | Action | Side Effects / Concerns |
 |---|---|
-| Dilates blood vessels | Hypotension, headache, dizziness |
-| Decreases blood pressure | Dizziness/fall risk |
-| Decreases myocardial contractility | Bradycardia or pulse changes |
-| Decreases myocardial oxygen demand | AV block |
+| Dilate blood vessels | Hypotension |
+| Decrease blood pressure | Headache |
+| Decrease myocardial contractility | Dizziness |
+| Decrease myocardial oxygen demand | Bradycardia or pulse changes |
+|  | AV block |
 |  | Edema |
 |  | Constipation, especially with verapamil |
 
-## Nursing Considerations
+### Nursing Considerations
 
-| Nursing Action | Why |
-|---|---|
-| Monitor blood pressure | Risk for hypotension |
-| Monitor heart rate | Risk for bradycardia/pulse changes |
-| Assess for dizziness | Fall risk |
-| Assess for edema | Common side effect |
-| Teach client not to stop abruptly | Prevents rebound/worsening symptoms |
+* Monitor blood pressure.
+* Monitor heart rate.
+* Assess for dizziness.
+* Assess for edema.
+* Teach client not to stop medication abruptly.
 
 ---
 
-# Myocardial Infarction — MI
-
-## What It Is
+## Myocardial Infarction — MI
 
 A myocardial infarction is a heart attack.
 
@@ -279,31 +269,41 @@ It happens when blood flow through a coronary artery is severely blocked or comp
 
 This causes heart muscle damage.
 
-## Main Problem
+### Main Problem
 
-| Problem | Result |
-|---|---|
-| Coronary artery severely blocked | Myocardium does not get enough oxygen |
-| Oxygen not restored quickly | Heart muscle begins to die |
-| Heart muscle damaged | Troponin rises |
+The myocardium is not getting enough oxygen.
+
+If oxygen is not restored quickly, the heart muscle begins to die.
 
 ---
 
-# Causes of MI
+## Angina vs MI
 
-| Cause | What Happens |
+| Angina | MI |
 |---|---|
-| Plaque builds up | Coronary artery narrows |
-| Plaque ruptures | Clotting process begins |
-| Blood clot forms | Blood flow decreases |
-| Clot travels | Can block narrowed artery |
-| Artery becomes fully/almost fully blocked | MI occurs |
+| Temporary ischemia | Heart muscle damage |
+| Usually relieved by rest or nitro | Not fully relieved by rest or nitro |
+| Troponin usually normal | Troponin elevated |
+| Predictable if stable | Often severe or prolonged |
+| Chronic pattern if stable | Emergency |
 
 ---
 
-# MI Risk Factors
+## Causes of MI
 
-| Risk Factor |
+An MI may happen when:
+
+* Plaque builds up inside coronary arteries.
+* Plaque ruptures.
+* A blood clot forms.
+* A clot travels and blocks a narrowed artery.
+* The coronary artery becomes fully or almost fully blocked.
+
+---
+
+## Risk Factors
+
+| Risk Factors |
 |---|
 | Coronary artery disease |
 | Hypertension |
@@ -319,7 +319,7 @@ This causes heart muscle damage.
 
 ---
 
-# Signs and Symptoms of MI
+## Signs and Symptoms
 
 | Classic Symptoms | Atypical Symptoms |
 |---|---|
@@ -334,38 +334,32 @@ This causes heart muscle damage.
 | Dizziness |  |
 | Fatigue |  |
 
-## Atypical Symptoms Are More Common In
-
-| Client Group |
-|---|
-| Women |
-| Older adults |
-| Clients with diabetes |
+Atypical symptoms are more common in women, older adults, and clients with diabetes.
 
 ---
 
-# Priority Nursing Care for Suspected MI
+## Priority Nursing Care for Suspected MI
 
-| Step | First Actions | Why |
-|---|---|---|
-| 1 | Assess chest pain | Determines severity and pattern |
-| 2 | Assess airway and breathing | ABC priority |
-| 3 | Check oxygen saturation | Determines oxygen need |
-| 4 | Apply oxygen if needed | For hypoxemia or respiratory distress |
-| 5 | Obtain vital signs | Checks stability |
-| 6 | Place on cardiac monitor | Watches for dysrhythmias |
-| 7 | Obtain ECG | Identifies ischemia/injury |
-| 8 | Establish IV access | Medication/emergency access |
-| 9 | Administer prescribed medications | Treats ischemia/clot/pain |
-| 10 | Prepare for reperfusion therapy if ordered | Restores blood flow |
-
-<div class="priority-box">
-<strong>NCLEX Priority:</strong> The client with chest pain needs rapid assessment because heart muscle damage worsens over time.
+<div class="priority">
+<strong>Priority:</strong> The client with chest pain needs rapid assessment because heart muscle damage worsens over time.
 </div>
 
+| Step | First Actions |
+|---|---|
+| 1 | Assess chest pain |
+| 2 | Assess airway and breathing |
+| 3 | Check oxygen saturation |
+| 4 | Apply oxygen if needed |
+| 5 | Obtain vital signs |
+| 6 | Place on cardiac monitor |
+| 7 | Obtain ECG |
+| 8 | Establish IV access |
+| 9 | Administer prescribed medications |
+| 10 | Prepare for reperfusion therapy if ordered |
+
 ---
 
-# Diagnostics for MI
+## Diagnostics for MI
 
 | Test | Purpose |
 |---|---|
@@ -376,7 +370,7 @@ This causes heart muscle damage.
 | Cardiac catheterization | Locates coronary artery blockage |
 | Echocardiogram | Shows heart function and wall motion |
 
-## Troponin
+### Troponin
 
 Troponin rises when heart muscle is damaged.
 
@@ -384,17 +378,9 @@ For NCLEX, troponin is the key cardiac marker for MI.
 
 ---
 
-# Emergency Treatment for MI
+## Emergency Treatment for MI
 
-The goals are to:
-
-| Goal |
-|---|
-| Improve oxygenation |
-| Decrease cardiac workload |
-| Prevent clot from getting worse |
-| Restore blood flow |
-| Relieve pain and anxiety |
+The goals are to improve oxygenation, decrease cardiac workload, prevent the clot from getting worse, restore blood flow, and relieve pain/anxiety.
 
 | Treatment | Why It Is Used |
 |---|---|
@@ -407,9 +393,7 @@ The goals are to:
 | Statins | Lower cholesterol and stabilize plaque |
 | PCI/cardiac cath | Opens blocked coronary artery |
 
----
-
-# MONA
+### MONA
 
 MONA is a memory tool:
 
@@ -420,152 +404,161 @@ MONA is a memory tool:
 | N | Nitroglycerin |
 | A | Aspirin |
 
-<div class="tip-box">
-<strong>NCLEX Tip:</strong> MONA is not always the exact order. Oxygen is usually given if the client is hypoxemic or in respiratory distress.
-</div>
+MONA is not always the exact order.
+
+Oxygen is usually given if the client is hypoxemic or in respiratory distress.
 
 ---
 
-# Post-MI Complications
+## Post-MI Complications
 
 | Complication | What To Watch For |
 |---|---|
-| Dysrhythmias | Irregular rhythm, palpitations, ECG changes |
-| Heart failure | Crackles, edema, dyspnea |
+| Dysrhythmias | ECG changes, irregular rhythm |
+| Heart failure | Crackles, dyspnea, edema |
 | Cardiogenic shock | Hypotension, poor perfusion, decreased urine output |
 | Recurrent chest pain | Possible ongoing ischemia |
 | Hypotension | Low perfusion |
-| Pulmonary edema | Crackles, pink frothy sputum, severe SOB |
+| Pulmonary edema | Crackles, severe SOB, pink frothy sputum |
 | Decreased urine output | Poor perfusion |
 | Cardiac arrest | No pulse/unresponsive |
 
 ---
 
-# Post-MI Nursing Care
+## Post-MI Nursing Care
 
-| Nursing Care | Why |
-|---|---|
-| Maintain cardiac monitoring | Detects dysrhythmias |
-| Monitor vital signs | Detects instability |
-| Monitor oxygen saturation | Detects hypoxemia |
-| Assess chest pain | Detects recurrent ischemia |
-| Assess lung sounds | Watches for heart failure/pulmonary edema |
-| Monitor intake and output | Tracks perfusion/fluid status |
-| Monitor labs | Tracks cardiac markers/electrolytes |
-| Promote rest | Decreases cardiac workload |
-| Reduce anxiety | Decreases sympathetic stimulation |
-| Avoid overexertion | Prevents increased oxygen demand |
-| Teach activity restrictions | Prevents complications |
-| Prepare for cardiac rehab | Supports recovery |
+* Maintain cardiac monitoring.
+* Monitor vital signs.
+* Monitor oxygen saturation.
+* Assess chest pain.
+* Assess lung sounds.
+* Monitor intake and output.
+* Monitor labs.
+* Promote rest.
+* Reduce anxiety.
+* Avoid overexertion.
+* Teach activity restrictions.
+* Prepare for cardiac rehab.
 
 ---
 
-# Valsalva Maneuver After MI
+## Valsalva Maneuver After MI
 
-## What It Is
+### What It Is
 
 Valsalva means bearing down against a closed glottis.
 
 This commonly happens when a client strains to have a bowel movement.
 
-## Why It Is Dangerous
+### Why It Is Dangerous
 
-| Valsalva Effect | Why It Is Dangerous After MI |
-|---|---|
-| Stimulates vagus nerve | Can cause bradycardia |
-| Changes intrathoracic pressure | Can decrease cardiac output |
-| Can trigger PVCs/dysrhythmias | Damaged heart is more irritable |
+Straining stimulates the vagus nerve.
 
-## Nursing Interventions
+This can cause:
 
-| Intervention | Why |
-|---|---|
-| Administer stool softeners as prescribed | Prevents straining |
-| Prevent constipation | Reduces Valsalva risk |
-| Encourage fluids if allowed | Helps bowel movement |
-| Encourage fiber if allowed | Prevents constipation |
-| Teach client not to strain | Prevents vagal stimulation |
-| Teach not to hold breath during activity | Prevents Valsalva |
+* Bradycardia
+* PVCs
+* Dysrhythmias
+* Decreased cardiac output
 
----
+This is especially dangerous after an MI.
 
-# Cardiac Procedures
+### Nursing Interventions
 
-## Balloon Angioplasty
-
-| Topic | Key Point |
-|---|---|
-| What it is | A balloon-tipped catheter is inserted into a narrowed artery |
-| What happens | Balloon is inflated to open the vessel |
-| Benefit | Opens the vessel quickly |
-| Limitation | May not be permanent |
-| Risk | Artery can narrow again |
-| Extra concern | Plaque or clot material can break loose |
-| Teaching | Lifestyle changes are still needed |
+| Intervention |
+|---|
+| Administer stool softeners as prescribed |
+| Prevent constipation |
+| Encourage fluids if allowed |
+| Encourage fiber if allowed |
+| Teach the client not to strain |
+| Teach the client not to hold their breath during activity |
 
 ---
 
-## Stent
+## Cardiac Procedures
 
-| Topic | Key Point |
-|---|---|
-| What it is | A device placed during angioplasty |
-| Purpose | Helps keep the artery open |
-| Major teaching | Take antiplatelet medications as prescribed |
-| Safety | Do not stop antiplatelet medication unless directed |
-| Report | Chest pain |
-| Follow-up | Cardiac rehab and lifestyle changes |
+### Balloon Angioplasty
+
+A balloon-tipped catheter is inserted into a narrowed artery.
+
+The balloon is inflated to open the vessel.
+
+| Key Points |
+|---|
+| Opens the vessel quickly |
+| May not be permanent |
+| The artery can narrow again |
+| Lifestyle changes are still needed |
+| There is a risk of plaque or clot material breaking loose |
 
 ---
 
-## CABG — Coronary Artery Bypass Graft
+### Stent
+
+A stent may be placed during angioplasty.
+
+It helps keep the artery open.
+
+| Nursing Teaching |
+|---|
+| Take antiplatelet medications as prescribed |
+| Do not stop antiplatelet medication unless directed |
+| Report chest pain |
+| Follow cardiac rehab instructions |
+| Make lifestyle changes to reduce restenosis risk |
+
+---
+
+### CABG — Coronary Artery Bypass Graft
 
 CABG creates a new route around blocked coronary arteries.
 
-| Topic | Key Point |
-|---|---|
-| Graft source | Vein in the leg or artery in the chest |
-| Surgery type | Major surgery |
-| Sternum | Cut and wired closed |
-| Heart-lung machine | May be used during surgery |
-| Recovery | Includes sternal precautions |
-| Long-term | Lifestyle changes are still necessary |
+The graft may come from a vein in the leg or an artery in the chest.
 
-## CABG Teaching
+| Key Points |
+|---|
+| Major surgery |
+| Sternum is cut and wired closed |
+| Client may be on a heart-lung machine during surgery |
+| Recovery includes sternal precautions |
+| Lifestyle changes are still necessary |
 
-| Teaching Point | Why |
-|---|---|
-| Splint chest when coughing | Protects sternum and decreases pain |
-| Report signs of infection | Prevents complications |
-| Follow activity restrictions | Protects healing sternum |
-| Avoid lifting heavy objects until cleared | Sternal precaution |
-| Attend cardiac rehab | Supports recovery |
-| Take medications as prescribed | Prevents complications |
-| Follow heart-healthy diet | Reduces future risk |
+### CABG Teaching
 
----
-
-# Patient Teaching After Angina or MI
-
-| Teaching Point | Why |
-|---|---|
-| Stop smoking | Reduces vasoconstriction and cardiac risk |
-| Follow prescribed diet | Supports heart health |
-| Limit saturated fat and cholesterol | Helps reduce atherosclerosis risk |
-| Follow sodium restriction if ordered | Helps BP/fluid control |
-| Take medications as prescribed | Prevents worsening disease |
-| Do not stop cardiac medications suddenly | Prevents rebound symptoms |
-| Keep nitroglycerin available if prescribed | Allows quick treatment |
-| Know when to call emergency services | Prevents delayed care |
-| Balance activity and rest | Prevents overexertion |
-| Participate in cardiac rehab | Improves recovery |
-| Avoid heavy meals before activity | Prevents angina trigger |
-| Manage stress | Reduces cardiac workload |
-| Report chest pain that changes pattern | Possible unstable angina/MI |
+| Teaching Point |
+|---|
+| Splint the chest when coughing |
+| Report signs of infection |
+| Follow activity restrictions |
+| Avoid lifting heavy objects until cleared |
+| Attend cardiac rehab |
+| Take medications as prescribed |
+| Follow heart-healthy diet |
 
 ---
 
-# Quick NCLEX Review
+## Patient Teaching After Angina or MI
+
+Teach the client:
+
+* Stop smoking.
+* Follow prescribed diet.
+* Limit saturated fat and cholesterol.
+* Follow sodium restriction if ordered.
+* Take medications as prescribed.
+* Do not stop cardiac medications suddenly.
+* Keep nitroglycerin available if prescribed.
+* Know when to call emergency services.
+* Balance activity and rest.
+* Participate in cardiac rehab.
+* Avoid heavy meals before activity.
+* Manage stress.
+* Report chest pain that changes pattern.
+
+---
+
+## Quick NCLEX Review
 
 | Clue | Think |
 |---|---|
@@ -579,12 +572,11 @@ CABG creates a new route around blocked coronary arteries.
 | Post-MI client straining | Valsalva danger |
 | Stool softener after MI | Prevents Valsalva |
 | Balloon angioplasty | Opens narrowed vessel |
-| Stent | Keeps vessel open |
 | CABG | Bypass around blocked coronary artery |
 
 ---
 
-# Most Important “What Do I Do First?” Points
+## Most Important “What Do I Do First?” Points
 
 | Situation | First / Priority Action |
 |---|---|
@@ -593,9 +585,7 @@ CABG creates a new route around blocked coronary arteries.
 | Suspected MI | Assess chest pain, oxygenation, obtain ECG, and place on cardiac monitor |
 | Post-MI constipation | Prevent straining with stool softeners as ordered |
 | Nitro teaching | Sit down before taking it and call for help if pain is not relieved |
-| Nitro before giving | Check blood pressure |
-| Chest pain with low O2 or respiratory distress | Apply oxygen as ordered/needed |
-| Chest pain after 3 nitro doses or not relieved | Seek emergency care |
+| Before giving nitro | Check blood pressure |
 
 ---
 
