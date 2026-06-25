@@ -63,36 +63,41 @@
     return null;
   }
 
-  // ── Collect text nodes that overlap a range ───────────────────
-  function textNodesInRange(range) {
-    var root = range.commonAncestorContainer;
-    if (root.nodeType === 3) return [root];
-    var walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, null, false);
-    var nodes = [], node;
-    while ((node = walker.nextNode())) {
-      if (range.intersectsNode(node)) nodes.push(node);
-    }
-    return nodes;
-  }
-
   // ── Wrap each text node individually — never restructures DOM ──
   function wrapRange(range, color, text, uid) {
-    var nodes = textNodesInRange(range);
-    var firstMark = null;
-    nodes.forEach(function (node, i) {
+    // Snapshot all real (non-whitespace) text segments before any DOM changes
+    var root = range.commonAncestorContainer;
+    var allNodes = root.nodeType === 3 ? [root] : (function () {
+      var w = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, null, false);
+      var a = [], n; while ((n = w.nextNode())) a.push(n); return a;
+    }());
+
+    var segments = [];
+    allNodes.forEach(function (node) {
+      if (!range.intersectsNode(node)) return;
       var start = (node === range.startContainer) ? range.startOffset : 0;
       var end   = (node === range.endContainer)   ? range.endOffset   : node.nodeValue.length;
-      if (start >= end) return;
+      // Skip whitespace-only segments (newlines between block elements)
+      var slice = node.nodeValue.slice(start, end);
+      if (start >= end || !/\S/.test(slice)) return;
+      segments.push({ node: node, start: start, end: end });
+    });
+
+    // Process last-to-first so earlier DOM changes don't shift later positions
+    var firstMark = null;
+    segments.slice().reverse().forEach(function (seg, ri) {
+      var i = segments.length - 1 - ri; // original index
       var sub = document.createRange();
-      sub.setStart(node, start);
-      sub.setEnd(node, end);
+      sub.setStart(seg.node, seg.start);
+      sub.setEnd(seg.node, seg.end);
       var mark = document.createElement('mark');
       mark.className = 'hl hl-' + color;
       mark.dataset.hlText = text;
       mark.dataset.hlColor = color;
       mark.dataset.hlUid = uid;
-      if (i === 0) { mark.id = 'hl-' + uid; firstMark = mark; }
+      if (i === 0) { mark.id = 'hl-' + uid; }
       sub.surroundContents(mark);
+      if (i === 0) firstMark = mark;
     });
     return firstMark;
   }
