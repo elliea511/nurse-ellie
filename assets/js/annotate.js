@@ -127,9 +127,14 @@
       if (!sel || sel.isCollapsed || sel.toString().trim().length < 2) { hideToolbar(); return; }
       var text = sel.toString().trim();
       if (!content.contains(sel.anchorNode)) { hideToolbar(); return; }
-      // Block highlighting inside tables, code blocks, and quiz buttons
+      // Block highlighting inside quiz/flashcard UI
       var anchor = sel.anchorNode.nodeType === 3 ? sel.anchorNode.parentElement : sel.anchorNode;
-      if (anchor.closest('table, pre, code, .quiz-block, .flashcard-deck')) { hideToolbar(); return; }
+      if (anchor.closest('.quiz-block, .flashcard-deck')) { hideToolbar(); return; }
+      // Inside tables: only allow if selection stays within one cell
+      var anchorCell = anchor.closest('td, th');
+      var focusEl = sel.focusNode.nodeType === 3 ? sel.focusNode.parentElement : sel.focusNode;
+      var focusCell = focusEl.closest('td, th');
+      if (anchorCell && focusCell !== anchorCell) { hideToolbar(); return; }
       savedRange = { text: text, range: sel.getRangeAt(0).cloneRange() };
       var rect = sel.getRangeAt(0).getBoundingClientRect();
       showToolbar(rect.left + rect.width / 2 - 70, rect.top);

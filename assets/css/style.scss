@@ -2820,20 +2820,35 @@ body[data-section="review"] .main-content,
 .quiz-retry-btn:hover { color: #333 !important; border-color: #999 !important; }
 
 /* ── Quiz Score Card ───────────────────────────────────────────── */
+.quiz-grade-btn {
+  display: block !important;
+  margin: 2.5rem auto 1rem !important;
+  padding: 0.7rem 2rem !important;
+  background: linear-gradient(135deg, #4f6ef7, #7b5ea7) !important;
+  color: #fff !important;
+  border: none !important;
+  border-radius: 10px !important;
+  font-size: 1rem !important;
+  font-weight: 700 !important;
+  font-family: inherit !important;
+  cursor: pointer !important;
+  box-shadow: 0 3px 12px rgba(79,110,247,0.3) !important;
+  transition: opacity 0.15s, transform 0.15s !important;
+}
+.quiz-grade-btn:hover { opacity: 0.88 !important; transform: translateY(-1px) !important; }
+
 .quiz-score-card {
-  position: sticky !important;
-  bottom: 1.25rem !important;
   display: flex !important;
   align-items: center !important;
   gap: 1.25rem !important;
-  margin: 2rem 0 1rem !important;
-  padding: 1.1rem 1.5rem !important;
-  border-radius: 14px !important;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.15) !important;
-  z-index: 100 !important;
+  margin: 1rem auto 2rem !important;
+  padding: 1.5rem 1.75rem !important;
+  border-radius: 16px !important;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.1) !important;
   background: #fff !important;
   border: 2px solid #e0e0e0 !important;
   flex-wrap: wrap !important;
+  max-width: 560px !important;
 }
 
 .qsc-grade {
@@ -2860,10 +2875,16 @@ body[data-section="review"] .main-content,
 }
 
 .qsc-pct {
-  font-size: 1.4rem !important;
+  font-size: 1.3rem !important;
   font-weight: 800 !important;
   color: #1a1a2e !important;
   line-height: 1.2 !important;
+}
+
+.qsc-pct-num {
+  font-size: 0.95rem !important;
+  font-weight: 600 !important;
+  color: #777 !important;
 }
 
 .qsc-fraction {
@@ -2883,6 +2904,14 @@ body[data-section="review"] .main-content,
   margin-top: 0.1rem !important;
 }
 
+.qsc-note {
+  font-size: 0.88rem !important;
+  color: #555 !important;
+  margin-top: 0.3rem !important;
+  line-height: 1.5 !important;
+  font-style: italic !important;
+}
+
 .qsc-reset {
   padding: 0.4rem 1rem !important;
   border: 1.5px solid #ccc !important;
@@ -2898,3 +2927,54 @@ body[data-section="review"] .main-content,
 }
 
 .qsc-reset:hover { background: #e8e8e8 !important; border-color: #999 !important; }
+
+/* ── Table Highlight Bar ───────────────────────────────────────── */
+.thl-bar {
+  display: flex !important;
+  align-items: center !important;
+  gap: 0.35rem !important;
+  margin-bottom: 0.3rem !important;
+}
+
+.thl-label {
+  font-size: 0.68rem !important;
+  color: #bbb !important;
+  letter-spacing: 0.04em !important;
+  margin-right: 0.15rem !important;
+}
+
+.thl-dot {
+  width: 16px !important;
+  height: 16px !important;
+  border-radius: 50% !important;
+  border: 2px solid transparent !important;
+  cursor: pointer !important;
+  padding: 0 !important;
+  transition: transform 0.15s, border-color 0.15s !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  font-size: 0 !important;
+}
+
+.thl-dot:hover { transform: scale(1.25) !important; }
+.thl-dot.thl-active { border-color: #333 !important; transform: scale(1.15) !important; }
+
+.thl-yellow { background: rgba(255,225,60,0.85) !important; }
+.thl-pink   { background: rgba(255,140,175,0.85) !important; }
+.thl-blue   { background: rgba(100,185,255,0.85) !important; }
+.thl-green  { background: rgba(100,220,140,0.85) !important; }
+
+.thl-clear {
+  background: #f0f0f0 !important;
+  color: #999 !important;
+  font-size: 0.6rem !important;
+  border-radius: 50% !important;
+  border: 1px solid #ddd !important;
+}
+
+.thl-clear:hover { color: #c00 !important; border-color: #f5c6cb !important; }
+
+@media print { .thl-bar { display: none !important; } }
+
+.quiz-choice-hidden { display: none !important; }
