@@ -2590,14 +2590,15 @@ a.video-preview-card:hover .play-button {
 }
 
 .review-color-label {
-  display: inline-block !important;
-  font-size: 0.65rem !important;
+  display: block !important;
+  font-size: 0.68rem !important;
   font-weight: 800 !important;
-  letter-spacing: 0.1em !important;
+  letter-spacing: 0.12em !important;
   text-transform: uppercase !important;
-  padding: 0.15rem 0.5rem !important;
-  border-radius: 4px !important;
-  margin-bottom: 0.4rem !important;
+  padding: 0.2rem 0 0.2rem 1rem !important;
+  margin-bottom: 0.5rem !important;
+  color: #888 !important;
+  border-bottom: 1px solid #eee !important;
 }
 
 .review-hl-list {
@@ -2668,6 +2669,217 @@ a.video-preview-card:hover .play-button {
 .review-table-wrap th {
   border: 1px solid #e0e0e0 !important;
   padding: 0.4rem 0.65rem !important;
+}
+
+/* ── My Notes — notebook paper styling ─────────────────────────── */
+$nb-bg:    #fdfcf4;
+$nb-line:  #c9dcea;
+$nb-lh:    28px;
+
+.review-card mark.hl {
+  display: block !important;
+  background-image: repeating-linear-gradient(
+    #{$nb-bg} 0px, #{$nb-bg} calc(#{$nb-lh} - 1px), #{$nb-line} #{$nb-lh}
+  ) !important;
+  background-color: #{$nb-bg} !important;
+  -webkit-text-fill-color: #2a2a3a !important;
+  color: #2a2a3a !important;
+  border-radius: 0 5px 5px 0 !important;
+  padding: 0.5rem 0.9rem 0.5rem 1rem !important;
+  line-height: #{$nb-lh} !important;
+  font-size: 0.93rem !important;
+  white-space: pre-wrap !important;
+  cursor: default !important;
+  border-left: 4px solid #ddd !important;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.06) !important;
+}
+
+.review-card mark.hl:hover { opacity: 1 !important; text-decoration: none !important; }
+
+.review-card mark.hl-yellow { border-left-color: #e6b800 !important; }
+.review-card mark.hl-pink   { border-left-color: #e06090 !important; }
+.review-card mark.hl-blue   { border-left-color: #4488dd !important; }
+.review-card mark.hl-green  { border-left-color: #33aa66 !important; }
+
+/* Table wrapper on review page — notebook background + color stripe */
+.review-table-wrap {
+  background-image: repeating-linear-gradient(
+    #{$nb-bg} 0px, #{$nb-bg} calc(#{$nb-lh} - 1px), #{$nb-line} #{$nb-lh}
+  ) !important;
+  background-color: #{$nb-bg} !important;
+  padding: 0.5rem 0.5rem 0.5rem 1rem !important;
+  border-left: 4px solid #ddd !important;
+  border-radius: 0 8px 8px 0 !important;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.06) !important;
+}
+
+.review-table-wrap[data-color="yellow"] { border-left-color: #e6b800 !important; }
+.review-table-wrap[data-color="pink"]   { border-left-color: #e06090 !important; }
+.review-table-wrap[data-color="blue"]   { border-left-color: #4488dd !important; }
+.review-table-wrap[data-color="green"]  { border-left-color: #33aa66 !important; }
+
+/* Table cells on review page sit on the notebook background */
+.review-table-wrap table { background: transparent !important; }
+.review-table-wrap td,
+.review-table-wrap th {
+  background: rgba(255,255,255,0.72) !important;
+}
+
+/* ── My Notes — edit & PDF controls ────────────────────────────── */
+.review-header-title-row {
+  display: flex !important;
+  align-items: center !important;
+  gap: 0.6rem !important;
+  margin-bottom: 0.4rem !important;
+}
+
+.review-edit-btn {
+  font-size: 1.15rem !important;
+  line-height: 1 !important;
+  background: none !important;
+  border: 1.5px solid #ddd !important;
+  border-radius: 7px !important;
+  color: #888 !important;
+  cursor: pointer !important;
+  padding: 0.2rem 0.5rem !important;
+  transition: color 0.15s, border-color 0.15s !important;
+}
+.review-edit-btn:hover {
+  color: #5b7fe8 !important;
+  border-color: #a0b4e8 !important;
+}
+
+.review-pdf-btn {
+  font-size: 0.8rem !important;
+  padding: 0.28rem 0.8rem !important;
+  border: 1.5px solid #ddd !important;
+  border-radius: 7px !important;
+  background: #fff !important;
+  color: #666 !important;
+  cursor: pointer !important;
+  font-family: inherit !important;
+  transition: background 0.15s, border-color 0.15s !important;
+  margin-left: auto !important;
+}
+.review-pdf-btn:hover {
+  background: #f0f4ff !important;
+  border-color: #a0b4e8 !important;
+  color: #4a6ed4 !important;
+}
+
+.review-refresh-btn {
+  font-size: 0.78rem !important;
+  padding: 0.25rem 0.75rem !important;
+  border: 1px solid #e0e0e0 !important;
+  border-radius: 6px !important;
+  background: none !important;
+  color: #aaa !important;
+  cursor: pointer !important;
+  font-family: inherit !important;
+  margin-left: auto !important;
+}
+.review-refresh-btn:hover { color: #5b7fe8 !important; border-color: #a0b4e8 !important; }
+
+.review-edit-controls {
+  display: flex !important;
+  align-items: center !important;
+  gap: 0.6rem !important;
+  padding: 0.5rem 0.75rem !important;
+  background: #f8f9fe !important;
+  border: 1.5px solid #c5d0f0 !important;
+  border-radius: 8px !important;
+  margin-bottom: 1rem !important;
+}
+
+.review-edit-save {
+  font-size: 0.82rem !important;
+  padding: 0.3rem 0.9rem !important;
+  border-radius: 6px !important;
+  border: none !important;
+  background: #5b7fe8 !important;
+  color: #fff !important;
+  cursor: pointer !important;
+  font-family: inherit !important;
+}
+.review-edit-save:hover { background: #4a6ed4 !important; }
+
+.review-edit-cancel {
+  font-size: 0.82rem !important;
+  padding: 0.3rem 0.9rem !important;
+  border-radius: 6px !important;
+  border: 1px solid #ddd !important;
+  background: #fff !important;
+  color: #888 !important;
+  cursor: pointer !important;
+  font-family: inherit !important;
+}
+.review-edit-cancel:hover { background: #f5f5f5 !important; }
+
+.review-edit-hint {
+  font-size: 0.75rem !important;
+  color: #aaa !important;
+  margin-left: 0.5rem !important;
+  font-style: italic !important;
+}
+
+/* Edit mode — contenteditable cards */
+#review-cards.review-cards-editing {
+  outline: 2px dashed #a0b4e8 !important;
+  outline-offset: 4px !important;
+  border-radius: 10px !important;
+  min-height: 4rem !important;
+}
+#review-cards.review-cards-editing .review-card {
+  cursor: text !important;
+}
+#review-cards.review-cards-editing mark.hl {
+  cursor: text !important;
+}
+
+/* ── Print / Save as PDF ─────────────────────────────────────────── */
+@media print {
+  /* Hide all site chrome */
+  .site-header, .sidebar, .site-footer,
+  .review-edit-btn, .review-pdf-btn, .review-refresh-btn,
+  .review-edit-controls, .review-clear-all, .review-page-clear,
+  .confidence-bar, #cf-review-panel,
+  .thl-strip, .font-controls, #print-btn { display: none !important; }
+
+  body, .main-content, #review-page-content {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+    max-width: none !important;
+    background: #fff !important;
+    font-size: 11pt !important;
+    color: #000 !important;
+  }
+
+  .review-card {
+    border: 1px solid #ccc !important;
+    border-radius: 6px !important;
+    padding: 0.75rem !important;
+    margin-bottom: 1rem !important;
+    page-break-inside: avoid !important;
+    box-shadow: none !important;
+  }
+
+  .review-card mark.hl {
+    background-image: none !important;
+    background-color: transparent !important;
+    -webkit-text-fill-color: #000 !important;
+    color: #000 !important;
+    border-left-width: 3px !important;
+    padding: 0.2rem 0.5rem !important;
+    box-shadow: none !important;
+  }
+
+  .review-table-wrap {
+    background-image: none !important;
+    background-color: transparent !important;
+    box-shadow: none !important;
+    border-left-width: 3px !important;
+  }
 }
 
 .review-empty {
