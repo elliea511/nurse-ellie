@@ -1,8 +1,7 @@
 ---
-
 layout: default
 title: Increased ICP and Hydrocephalus
---------------------------------------
+---
 
 # Increased ICP and Hydrocephalus
 
