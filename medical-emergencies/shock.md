@@ -1,7 +1,7 @@
+---
 ## layout: default title: Shock
 
 # Shock
-
 ------
 
 # Big Picture
