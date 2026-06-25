@@ -2937,23 +2937,30 @@ body[data-section="review"] .main-content,
   position: relative !important;
   display: block !important;
   margin: 1.5rem auto !important;
-  padding-right: 10px !important;
+  padding-right: 22px !important; /* room for the strip+dots */
 }
 
-/* Vertical strip on the right outside edge */
+/* Strip on the right — contains the dots stacked vertically */
 .thl-strip {
   position: absolute !important;
   right: 0 !important;
-  top: 2rem !important; /* below the dot bar */
+  top: 0 !important;
   bottom: 0 !important;
-  width: 6px !important;
-  border-radius: 0 4px 4px 0 !important;
+  width: 16px !important;
+  border-radius: 8px !important;
+  background: #e8e8e8 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 5px !important;
+  padding: 6px 0 !important;
   transition: background 0.2s !important;
 }
-.thl-strip-yellow { background: rgba(220,180,0,0.7) !important; }
-.thl-strip-pink   { background: rgba(220,80,130,0.7) !important; }
-.thl-strip-blue   { background: rgba(60,140,220,0.7) !important; }
-.thl-strip-green  { background: rgba(40,160,80,0.7) !important; }
+.thl-strip-yellow { background: rgba(220,180,0,0.55) !important; }
+.thl-strip-pink   { background: rgba(220,80,130,0.5) !important; }
+.thl-strip-blue   { background: rgba(60,140,220,0.5) !important; }
+.thl-strip-green  { background: rgba(40,160,80,0.5) !important; }
 
 /* Apply color to table cells — high specificity to beat !important row stripes */
 .main-content .thl-wrapper .thl-color-yellow td,
@@ -2965,47 +2972,41 @@ body[data-section="review"] .main-content,
 .main-content .thl-wrapper .thl-color-green td,
 .main-content .thl-wrapper .thl-color-green th  { background: rgba(120,220,150,0.32) !important; }
 
-.thl-bar {
-  display: flex !important;
-  align-items: center !important;
-  gap: 0.35rem !important;
-  margin-bottom: 0.3rem !important;
-}
-
-.thl-label {
-  font-size: 0.68rem !important;
-  color: #bbb !important;
-  letter-spacing: 0.04em !important;
-  margin-right: 0.1rem !important;
-}
-
+/* Dots inside the strip */
 .thl-dot {
-  width: 14px !important;
-  height: 14px !important;
+  width: 10px !important;
+  height: 10px !important;
   border-radius: 50% !important;
-  border: 2px solid transparent !important;
+  border: 1.5px solid rgba(0,0,0,0.15) !important;
   cursor: pointer !important;
   padding: 0 !important;
-  transition: transform 0.15s, border-color 0.15s !important;
+  flex-shrink: 0 !important;
+  transition: transform 0.15s, box-shadow 0.15s !important;
   font-size: 0 !important;
 }
 
-.thl-dot:hover { transform: scale(1.3) !important; }
-.thl-dot.thl-active { border-color: #444 !important; transform: scale(1.15) !important; }
+.thl-dot:hover { transform: scale(1.35) !important; }
+.thl-dot.thl-active { box-shadow: 0 0 0 2px #fff, 0 0 0 3.5px #333 !important; transform: scale(1.15) !important; }
 
-.thl-dot-yellow { background: rgba(255,220,40,0.9) !important; }
-.thl-dot-pink   { background: rgba(255,130,170,0.9) !important; }
-.thl-dot-blue   { background: rgba(80,170,255,0.9) !important; }
-.thl-dot-green  { background: rgba(80,210,120,0.9) !important; }
+.thl-dot-yellow { background: rgba(255,210,0,0.95) !important; }
+.thl-dot-pink   { background: rgba(255,100,155,0.9) !important; }
+.thl-dot-blue   { background: rgba(50,150,230,0.9) !important; }
+.thl-dot-green  { background: rgba(30,170,80,0.9) !important; }
 
 .thl-dot-clear {
-  background: #eee !important;
-  color: #aaa !important;
-  font-size: 0.55rem !important;
-  border: 1px solid #ddd !important;
+  background: rgba(255,255,255,0.7) !important;
+  color: #999 !important;
+  font-size: 0.5rem !important;
+  border: 1px solid rgba(0,0,0,0.15) !important;
+  width: 10px !important;
+  height: 10px !important;
+  line-height: 1 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
 }
-.thl-dot-clear:hover { color: #c00 !important; border-color: #f5c6cb !important; }
+.thl-dot-clear:hover { color: #c00 !important; background: #fff !important; }
 
-@media print { .thl-bar, .thl-strip { display: none !important; } }
+@media print { .thl-strip { display: none !important; } }
 
 .quiz-choice-hidden { display: none !important; }
