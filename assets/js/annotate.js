@@ -63,23 +63,38 @@
     return null;
   }
 
-  // ── Apply mark to a range (handles multi-element selections) ──
-  function wrapRange(range, color, text, uid) {
-    var mark = document.createElement('mark');
-    mark.className = 'hl hl-' + color;
-    mark.dataset.hlText = text;
-    mark.dataset.hlColor = color;
-    mark.dataset.hlUid = uid;
-    mark.id = 'hl-' + uid;
-    try {
-      range.surroundContents(mark);
-    } catch (e) {
-      // Selection spans element boundaries — extract, wrap, reinsert
-      var frag = range.extractContents();
-      mark.appendChild(frag);
-      range.insertNode(mark);
+  // ── Collect text nodes that overlap a range ───────────────────
+  function textNodesInRange(range) {
+    var root = range.commonAncestorContainer;
+    if (root.nodeType === 3) return [root];
+    var walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, null, false);
+    var nodes = [], node;
+    while ((node = walker.nextNode())) {
+      if (range.intersectsNode(node)) nodes.push(node);
     }
-    return mark;
+    return nodes;
+  }
+
+  // ── Wrap each text node individually — never restructures DOM ──
+  function wrapRange(range, color, text, uid) {
+    var nodes = textNodesInRange(range);
+    var firstMark = null;
+    nodes.forEach(function (node, i) {
+      var start = (node === range.startContainer) ? range.startOffset : 0;
+      var end   = (node === range.endContainer)   ? range.endOffset   : node.nodeValue.length;
+      if (start >= end) return;
+      var sub = document.createRange();
+      sub.setStart(node, start);
+      sub.setEnd(node, end);
+      var mark = document.createElement('mark');
+      mark.className = 'hl hl-' + color;
+      mark.dataset.hlText = text;
+      mark.dataset.hlColor = color;
+      mark.dataset.hlUid = uid;
+      if (i === 0) { mark.id = 'hl-' + uid; firstMark = mark; }
+      sub.surroundContents(mark);
+    });
+    return firstMark;
   }
 
   // ── Restore one annotation from storage ───────────────────────
