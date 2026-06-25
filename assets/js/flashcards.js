@@ -2,7 +2,7 @@
   var content = document.querySelector('.main-content');
   if (!content) return;
 
-  var tables = Array.from(content.querySelectorAll('table'));
+  var tables = Array.from(content.querySelectorAll('table.flashcards'));
   if (!tables.length) return;
 
   // Inject toggle button at top of content
