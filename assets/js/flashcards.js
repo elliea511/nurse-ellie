@@ -15,18 +15,26 @@
   var decks = [];
 
   function buildCards() {
-    // Collect all rows from all tables as cards
     var cards = [];
     tables.forEach(function (table) {
       var rows = Array.from(table.querySelectorAll('tr'));
-      // Skip header row
+      // Grab header cells for column labels
+      var headers = [];
+      var headerRow = table.querySelector('tr');
+      if (headerRow) {
+        headers = Array.from(headerRow.querySelectorAll('th')).map(function (th) { return th.textContent.trim(); });
+      }
       rows.forEach(function (row, i) {
         var cells = Array.from(row.querySelectorAll('td, th'));
         if (cells.length < 2) return;
         if (i === 0 && row.querySelector('th')) return; // skip pure header
+        var columnLabel = headers[0] || '';
         var front = cells[0].innerHTML;
-        var back = cells.slice(1).map(function (c) { return c.innerHTML; }).join('<br>');
-        cards.push({ front: front, back: back });
+        var back = cells.slice(1).map(function (c, ci) {
+          var colHead = headers[ci + 1] ? '<span class="fc-col-label">' + headers[ci + 1] + '</span>' : '';
+          return colHead + c.innerHTML;
+        }).join('<hr class="fc-divider">');
+        cards.push({ front: front, column: columnLabel, back: back });
       });
     });
     return cards;
@@ -87,8 +95,10 @@
     wrap.appendChild(controls);
 
     function show() {
-      front.innerHTML = cards[idx].front;
-      back.innerHTML = cards[idx].back;
+      var c = cards[idx];
+      var colTag = c.column ? '<div class="fc-column-tag">' + c.column + '</div>' : '';
+      front.innerHTML = colTag + '<div class="fc-term">' + c.front + '</div>';
+      back.innerHTML = c.back;
       counter.textContent = (idx + 1) + ' / ' + cards.length;
       flipped = false;
       card.classList.remove('flipped');

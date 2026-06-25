@@ -2202,31 +2202,37 @@ mark.hl-green  { background: rgba(100, 220, 140, 0.42) !important; }
 .flashcard-front {
   background: linear-gradient(145deg, #4f6ef7, #7b5ea7) !important;
   color: #fff !important;
-  font-size: 1.2rem !important;
-  font-weight: 700 !important;
+  flex-direction: column !important;
+  gap: 0.75rem !important;
 }
 
-.flashcard-front::before {
-  content: 'QUESTION' !important;
-  position: absolute !important;
-  top: 0.75rem !important;
-  left: 0 !important;
-  right: 0 !important;
-  text-align: center !important;
-  font-size: 0.65rem !important;
-  letter-spacing: 0.12em !important;
+.fc-column-tag {
+  font-size: 0.68rem !important;
   font-weight: 800 !important;
-  opacity: 0.55 !important;
+  letter-spacing: 0.12em !important;
   text-transform: uppercase !important;
+  opacity: 0.65 !important;
+  background: rgba(255,255,255,0.15) !important;
+  padding: 0.2rem 0.7rem !important;
+  border-radius: 999px !important;
+}
+
+.fc-term {
+  font-size: 1.2rem !important;
+  font-weight: 700 !important;
+  line-height: 1.4 !important;
 }
 
 /* BACK — white card, shows the answer */
 .flashcard-back {
   background: #fff !important;
   color: #1a1a2e !important;
-  font-size: 0.98rem !important;
+  font-size: 0.95rem !important;
   border: 2px solid #e0e0e0 !important;
   transform: rotateY(180deg) !important;
+  flex-direction: column !important;
+  gap: 0.5rem !important;
+  padding-top: 2.25rem !important;
 }
 
 .flashcard-back::before {
@@ -2242,6 +2248,23 @@ mark.hl-green  { background: rgba(100, 220, 140, 0.42) !important; }
   color: #66bb6a !important;
   opacity: 0.8 !important;
   text-transform: uppercase !important;
+}
+
+.fc-col-label {
+  display: block !important;
+  font-size: 0.65rem !important;
+  font-weight: 800 !important;
+  letter-spacing: 0.1em !important;
+  text-transform: uppercase !important;
+  color: #7b5ea7 !important;
+  margin-bottom: 0.15rem !important;
+}
+
+hr.fc-divider {
+  border: none !important;
+  border-top: 1px solid #eee !important;
+  margin: 0.4rem 0 !important;
+  width: 100% !important;
 }
 
 .flashcard-controls {
