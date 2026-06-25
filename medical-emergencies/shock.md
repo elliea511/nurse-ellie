@@ -514,7 +514,3 @@ Obstructive shock occurs when a mechanical problem blocks the heart from filling
 | Obstructive shock    | Mechanical barrier prevents filling or emptying              |
 | Do not give          | Oral fluids in shock                                         |
 | Nursing priority     | Recognize changes, get vitals, support ABCs, notify provider |
-
-```
-
-```
