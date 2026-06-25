@@ -1,6 +1,6 @@
 # Medical Emergencies: Environmental Emergencies
 
-<div class="note">
+<div class="note" markdown="1">
 Environmental emergencies happen when the body cannot maintain a safe internal temperature or when the body is exposed to harmful environmental conditions. Priorities include <strong>ABCs, safety, temperature correction, hydration, circulation, and preventing further injury.</strong>
 </div>
 
@@ -35,7 +35,7 @@ Environmental emergencies can cause:
 * Organ failure
 * Death if not treated quickly
 
-<div class="priority">
+<div class="priority" markdown="1">
 <strong>Priority:</strong> Remove the client from the dangerous environment first, then assess ABCs, vital signs, temperature, neuro status, circulation, and hydration.
 </div>
 
@@ -71,7 +71,7 @@ Sweating helps cool the body, but excessive sweating can cause:
 * Weakness
 * Shock if severe
 
-<div class="note">
+<div class="note" markdown="1">
 Older adults can dehydrate faster and may show dehydration through <strong>orthostatic hypotension, tachycardia, and confusion.</strong>
 </div>
 
@@ -103,7 +103,7 @@ The client may have:
 * Encourage sports drinks or oral rehydration solution if alert
 * Do **not** give salt tablets
 
-<div class="danger">
+<div class="danger" markdown="1">
 <strong>Do NOT:</strong> Give salt tablets for heat exhaustion. Use fluids with electrolytes instead.
 </div>
 
@@ -118,7 +118,7 @@ The client may have:
 * Monitor for worsening dehydration
 * Monitor for progression to heat stroke
 
-<div class="nclex">
+<div class="nclex" markdown="1">
 <strong>NCLEX Clue:</strong> Heat exhaustion is mostly a dehydration problem. Think fluids, electrolytes, cooling, and monitoring.
 </div>
 
@@ -132,7 +132,7 @@ Heat stroke is a **medical emergency** where the body cannot regulate temperatur
 
 The body temperature is usually **greater than 104°F**.
 
-<div class="danger">
+<div class="danger" markdown="1">
 <strong>Heat stroke can be fatal.</strong> It can lead to seizures, organ failure, brain injury, and death.
 </div>
 
@@ -177,7 +177,7 @@ The client may have:
 * Pulmonary edema
 * Pink frothy sputum
 
-<div class="note">
+<div class="note" markdown="1">
 Elevated cardiac troponin can occur with heat stroke because severe heat illness can cause organ damage and cardiac stress.
 </div>
 
@@ -194,7 +194,7 @@ Elevated cardiac troponin can occur with heat stroke because severe heat illness
 * If available, cold-water immersion is very effective
 * Keep the airway protected during cooling
 
-<div class="priority">
+<div class="priority" markdown="1">
 <strong>Best field treatment when possible:</strong> Strip the client down and submerge in cold water while maintaining the airway.
 </div>
 
@@ -229,7 +229,7 @@ Elevated cardiac troponin can occur with heat stroke because severe heat illness
 * Urinalysis
 * Coagulation studies as prescribed
 
-<div class="nclex">
+<div class="nclex" markdown="1">
 <strong>NCLEX Clue:</strong> Heat stroke = high temperature + altered mental status. This is an emergency. Begin rapid cooling.
 </div>
 
@@ -282,7 +282,7 @@ Hypothermia occurs when core body temperature is **below 95°F**.
 * Homelessness
 * Immobility
 
-<div class="note">
+<div class="note" markdown="1">
 Older adults are at higher risk for hypothermia, even when the weather does not seem extremely cold.
 </div>
 
@@ -321,7 +321,7 @@ Hypothermia may be mild, moderate, or severe.
 * Acid-base imbalances
 * Decreased pain response
 
-<div class="danger">
+<div class="danger" markdown="1">
 <strong>Important:</strong> Severe hypothermia can cause deadly dysrhythmias, including V-fib and asystole.
 </div>
 
@@ -340,7 +340,7 @@ Hypothermia may be mild, moderate, or severe.
 * Avoid coffee
 * Avoid alcohol
 
-<div class="danger">
+<div class="danger" markdown="1">
 <strong>No coffee or alcohol:</strong> Coffee can increase diuresis, and alcohol causes vasodilation. Both can worsen dehydration or hypothermia.
 </div>
 
@@ -370,7 +370,7 @@ Usually needed for moderate or severe hypothermia.
 
 Afterdrop is the continued decrease in core body temperature after the client has been removed from the cold environment.
 
-<div class="nclex">
+<div class="nclex" markdown="1">
 <strong>NCLEX Clue:</strong> A hypothermic client can keep getting colder even after being brought inside. Continue to monitor temperature closely.
 </div>
 
@@ -436,7 +436,7 @@ Assessment findings:
 * Do not use direct heat
 * Do not rewarm if there is a chance the tissue will refreeze
 
-<div class="danger">
+<div class="danger" markdown="1">
 <strong>Do NOT:</strong> Rub frostbitten tissue, massage it, use direct heat, or allow it to refreeze.
 </div>
 
@@ -458,7 +458,7 @@ Assessment findings:
 * Debridement may be needed for dead tissue
 * Amputation may be needed if gangrene occurs
 
-<div class="priority">
+<div class="priority" markdown="1">
 <strong>Priority:</strong> Protect the tissue and prevent further damage. Severe frostbite can progress to necrosis, gangrene, and amputation.
 </div>
 
@@ -511,7 +511,7 @@ High altitude sickness can progress to:
 * Monitor respiratory status
 * Monitor mental status
 
-<div class="nclex">
+<div class="nclex" markdown="1">
 <strong>NCLEX Clue:</strong> High altitude sickness can progress to brain or lung swelling. The priority is descent, oxygen, and hydration.
 </div>
 
@@ -573,7 +573,7 @@ The client may have:
 * Warm the client gently if cold
 * Avoid rough handling because severe cold exposure can trigger dysrhythmias
 
-<div class="priority">
+<div class="priority" markdown="1">
 <strong>Priority:</strong> Oxygenation comes first. Think airway, breathing, CPR, and oxygen.
 </div>
 
@@ -592,7 +592,7 @@ The client may have:
 * Monitor for CNS depression
 * Monitor for infection
 
-<div class="nclex">
+<div class="nclex" markdown="1">
 <strong>NCLEX Clue:</strong> After drowning, the client may initially improve but still needs monitoring for respiratory complications.
 </div>
 
@@ -604,7 +604,7 @@ The client may have:
 
 Creepy crawler emergencies include snakebites, spider bites, scorpion stings, bee stings, and wasp stings.
 
-<div class="note">
+<div class="note" markdown="1">
 Prevention matters. Teach clients not to place hands where they cannot see, inspect clothing and shoes, cover trash cans, use screens on windows, and avoid bothering insects, spiders, and snakes.
 </div>
 
@@ -621,7 +621,7 @@ Prevention matters. Teach clients not to place hands where they cannot see, insp
 * Take a picture from a safe distance if possible
 * Do not keep poisonous snakes as pets
 
-<div class="danger">
+<div class="danger" markdown="1">
 <strong>Important:</strong> Snakes can continue to bite after death due to bite reflex. A severed snake head can still bite for up to an hour.
 </div>
 
@@ -668,7 +668,7 @@ Prevention matters. Teach clients not to place hands where they cannot see, insp
 * Do not apply a tourniquet
 * Do not try to catch the snake
 
-<div class="nclex">
+<div class="nclex" markdown="1">
 <strong>NCLEX Clue:</strong> Snakebite care focuses on keeping the client calm, limiting venom spread, removing tight items, immobilizing the extremity, and preparing for antivenom.
 </div>
 
@@ -786,7 +786,7 @@ Common triggers include:
 * Tachycardia
 * Anxiety or feeling of doom
 
-<div class="danger">
+<div class="danger" markdown="1">
 <strong>Anaphylaxis is an emergency.</strong> Airway swelling can progress quickly.
 </div>
 
@@ -805,7 +805,7 @@ Common triggers include:
 * Monitor vital signs
 * Monitor respiratory status
 
-<div class="priority">
+<div class="priority" markdown="1">
 <strong>Priority medication:</strong> Epinephrine is first-line treatment for anaphylaxis.
 </div>
 
@@ -827,43 +827,43 @@ Teach clients with severe allergies to:
 
 # Priority NCLEX Tips
 
-<div class="nclex">
+<div class="nclex" markdown="1">
 <strong>Heat exhaustion:</strong> Think dehydration. The client may have headache, weakness, nausea/vomiting, sweating, and mild temperature elevation.
 </div>
 
-<div class="nclex">
+<div class="nclex" markdown="1">
 <strong>Heat stroke:</strong> Temperature greater than 104°F plus mental status changes is a medical emergency.
 </div>
 
-<div class="nclex">
+<div class="nclex" markdown="1">
 <strong>No salt tablets:</strong> For heat exhaustion, use oral rehydration or sports drinks instead.
 </div>
 
-<div class="nclex">
+<div class="nclex" markdown="1">
 <strong>Hypothermia:</strong> Handle gently and place on a cardiac monitor because dysrhythmias can occur.
 </div>
 
-<div class="nclex">
+<div class="nclex" markdown="1">
 <strong>Afterdrop:</strong> Core temperature can keep falling even after removal from the cold.
 </div>
 
-<div class="nclex">
+<div class="nclex" markdown="1">
 <strong>Frostbite:</strong> Do not rub, massage, use direct heat, or rewarm if refreezing may occur.
 </div>
 
-<div class="nclex">
+<div class="nclex" markdown="1">
 <strong>High altitude sickness:</strong> Watch for cerebral or pulmonary edema. Priority is descent, oxygen, and hydration.
 </div>
 
-<div class="nclex">
+<div class="nclex" markdown="1">
 <strong>Drowning:</strong> Hypoxia is the main concern. Monitor for ARDS, pulmonary edema, dysrhythmias, CNS depression, and infection.
 </div>
 
-<div class="nclex">
+<div class="nclex" markdown="1">
 <strong>Snakebite:</strong> Keep calm, remove jewelry, immobilize the extremity, and prepare for antivenom. Do not suck venom.
 </div>
 
-<div class="nclex">
+<div class="nclex" markdown="1">
 <strong>Anaphylaxis:</strong> Epinephrine first.
 </div>
 

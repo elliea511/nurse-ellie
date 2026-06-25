@@ -6,7 +6,7 @@ title: Poisoning and Ingestions
 
 # Poisoning and Ingestions
 
-<div class="note">
+<div class="note" markdown="1">
 Poisoning and ingestion emergencies occur when a harmful substance is swallowed, inhaled, injected, absorbed, or splashed onto the skin or eyes. Nursing care focuses on airway, breathing, circulation, identifying the substance, preventing further absorption, and giving the correct treatment or antidote.
 </div>
 
@@ -35,7 +35,7 @@ For any poisoning or ingestion, think:
 6. **Prevent further absorption**
 7. **Prepare for antidote or supportive care**
 
-<div class="priority">
+<div class="priority" markdown="1">
 <strong>NCLEX Priority:</strong> Do not focus on the poison first if the client has airway, breathing, circulation, or neurologic problems. Stabilize the client first.
 </div>
 
@@ -81,7 +81,7 @@ Assess:
 - Amount ingested
 - Substance involved, if known
 
-<div class="ati-box">
+<div class="ati-box" markdown="1">
 <strong>ATI/NCLEX Tip:</strong> If the client is unconscious or has a decreased gag reflex, do not give anything by mouth.
 </div>
 
@@ -103,7 +103,7 @@ Assess:
 - Contact poison control or provider as directed.
 - Prepare for labs and toxicology screening.
 
-<div class="priority">
+<div class="priority" markdown="1">
 <strong>Priority:</strong> Bring the container, bottle, battery package, or substance to the emergency department if possible. This helps identify the poison and guide treatment.
 </div>
 
@@ -147,7 +147,7 @@ Assess:
 - Monitor for vomiting.
 - Monitor bowel sounds and elimination.
 
-<div class="warning">
+<div class="warning" markdown="1">
 <strong>Important:</strong> Activated charcoal does not work for every ingestion.
 </div>
 
@@ -226,7 +226,7 @@ Assess:
 - Administer N-acetylcysteine as prescribed.
 - Provide IV fluids as prescribed.
 
-<div class="ati-box">
+<div class="ati-box" markdown="1">
 <strong>ATI/NCLEX Tip:</strong> Acetaminophen overdose can look mild at first but can progress to serious liver damage.
 </div>
 
@@ -294,7 +294,7 @@ Treatment may include:
 - Institute seizure precautions if needed.
 - Administer sodium bicarbonate as prescribed.
 
-<div class="ati-box">
+<div class="ati-box" markdown="1">
 <strong>Recognition Tip:</strong> Tinnitus after aspirin ingestion is a major clue for salicylate toxicity.
 </div>
 
@@ -331,7 +331,7 @@ Corrosives can cause:
 - Airway swelling
 - Future gastric problems
 
-<div class="priority">
+<div class="priority" markdown="1">
 <strong>Think:</strong> AIRWAY, AIRWAY, AIRWAY.
 </div>
 
@@ -371,7 +371,7 @@ Treatment may include:
 - Give pain medication as prescribed.
 - Prepare for nutritional support if swallowing is unsafe.
 
-<div class="priority">
+<div class="priority" markdown="1">
 <strong>Priority:</strong> Airway swelling can occur with corrosive ingestion. Watch for drooling, stridor, hoarseness, or difficulty swallowing.
 </div>
 
@@ -412,7 +412,7 @@ Severe complications may include:
 - Pneumonia
 - Necrotizing disease within 24 hours
 
-<div class="priority">
+<div class="priority" markdown="1">
 <strong>Think:</strong> AIRWAY, AIRWAY, AIRWAY.
 </div>
 
@@ -448,7 +448,7 @@ Treatment may include:
 - Start IV fluids as prescribed.
 - Prepare for chest x-ray if ordered.
 
-<div class="warning">
+<div class="warning" markdown="1">
 <strong>Important:</strong> The major danger with hydrocarbons is aspiration and chemical pneumonitis.
 </div>
 
@@ -531,7 +531,7 @@ Treatment may include chelating agents.
 - Remove the source of lead exposure.
 - Teach family to check older homes for lead paint.
 
-<div class="ati-box">
+<div class="ati-box" markdown="1">
 <strong>ATI/NCLEX Tip:</strong> With lead poisoning, think neurologic changes, GI symptoms, renal effects, and chelation therapy.
 </div>
 
@@ -559,7 +559,7 @@ Lithium button batteries can cause tissue necrosis within hours of ingestion.
 
 If the battery gets stuck in the esophagus, it can burn through tissue and cause life-threatening injury.
 
-<div class="priority">
+<div class="priority" markdown="1">
 <strong>Priority:</strong> Everything happens fast with button batteries. Treat this as an emergency.
 </div>
 
@@ -602,7 +602,7 @@ Treatment may include:
 - Removal if lodged in the esophagus
 - Honey in certain cases before arrival to the hospital
 
-<div class="warning">
+<div class="warning" markdown="1">
 <strong>Honey Note:</strong> Honey may be recommended in intervals while going to the hospital, but not for children under 12 months old and not if the child cannot swallow, is vomiting, or has decreased level of consciousness. Poison Control/CHOP guidance says honey may be used for children older than 12 months when there will be a delay reaching emergency care, but the child still needs emergency evaluation immediately. :contentReference[oaicite:1]{index=1}
 </div>
 
@@ -617,7 +617,7 @@ Treatment may include:
 - Monitor for respiratory distress.
 - Monitor for signs of perforation or tissue injury.
 
-<div class="priority">
+<div class="priority" markdown="1">
 <strong>NCLEX Priority:</strong> A swallowed button battery is not a “wait and see” situation. The child needs emergency care fast.
 </div>
 
@@ -729,7 +729,7 @@ Contact poison control or provider for:
 - Medical history
 - Current medications
 
-<div class="priority">
+<div class="priority" markdown="1">
 <strong>Important:</strong> Do not wait for severe symptoms before seeking help after a suspected poisoning. If the client collapses, has a seizure, has trouble breathing, or cannot be awakened, call emergency services immediately. Poison Control can be reached in the U.S. at 1-800-222-1222. :contentReference[oaicite:2]{index=2}
 </div>
 

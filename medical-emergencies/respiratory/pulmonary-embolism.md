@@ -63,7 +63,7 @@ Key findings:
 * Syncope
 * Feeling of impending doom
 
-<div class="nclex">
+<div class="nclex" markdown="1">
 
 Sudden shortness of breath after surgery, immobility, pregnancy, or DVT symptoms should make you think pulmonary embolism.
 
@@ -146,7 +146,7 @@ It works quickly and is usually given IV.
 
 Monitor PTT/aPTT.
 
-<div class="memory">**Two T’s = Heparin**</div>
+<div class="memory" markdown="1">**Two T’s = Heparin**</div>
 
 ## Bleeding Precautions
 

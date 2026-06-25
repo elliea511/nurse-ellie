@@ -80,7 +80,7 @@ Assess:
 - Bleeding
 - Temperature
 
-<div class="priority">
+<div class="priority" markdown="1">
 
 **Report Immediately:**
 - Decreased LOC
@@ -459,7 +459,7 @@ Obstructive shock occurs when a mechanical problem blocks the heart from filling
 
 # Shock Comparison Chart
 
-<div class="nclex">
+<div class="nclex" markdown="1">
 
 | Type of Shock | Key Clue                  | Skin                  | Heart Rate       | Priority                        |
 | ------------- | ------------------------- | --------------------- | ---------------- | ------------------------------- |
@@ -488,7 +488,7 @@ Obstructive shock occurs when a mechanical problem blocks the heart from filling
 
 # What Not To Miss
 
-<div class="nclex">
+<div class="nclex" markdown="1">
 
 | Finding                                       | Think              |
 | --------------------------------------------- | ------------------ |
