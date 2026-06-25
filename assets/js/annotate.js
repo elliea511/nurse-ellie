@@ -179,9 +179,31 @@
       var headingEl = startEl.closest('h1,h2,h3,h4,h5,h6');
       var level = headingEl ? headingEl.tagName.toLowerCase() : null;
 
+      // Capture HTML of selection (preserves bullets, bold, etc.)
+      var frag = range.cloneContents();
+      Array.from(frag.querySelectorAll('mark.hl')).forEach(function(m) {
+        var p = m.parentNode;
+        while (m.firstChild) p.insertBefore(m.firstChild, m);
+        p.removeChild(m);
+      });
+      var tmp = document.createElement('div');
+      tmp.appendChild(frag);
+      // Bare <li> elements need their parent ul/ol wrapper restored
+      if (!tmp.querySelector('ul,ol') && tmp.querySelector('li')) {
+        var lp = range.commonAncestorContainer;
+        while (lp && lp.nodeType !== 1) lp = lp.parentNode;
+        lp = lp ? lp.closest('ul,ol') : null;
+        if (lp) {
+          var lw = document.createElement(lp.tagName);
+          while (tmp.firstChild) lw.appendChild(tmp.firstChild);
+          tmp.appendChild(lw);
+        }
+      }
+      var selHtml = tmp.innerHTML;
+
       window.getSelection().removeAllRanges();
       wrapRange(range, color, text, uid);
-      save(load().concat([{ text: text, color: color, uid: uid, contextBefore: contextBefore, level: level }]));
+      save(load().concat([{ text: text, html: selHtml, color: color, uid: uid, contextBefore: contextBefore, level: level }]));
       hideToolbar();
     });
   });
