@@ -49,7 +49,7 @@
   var widget = document.createElement('div');
   widget.className = 'streak-widget';
 
-  var emoji = streak === 1 ? '🤍' : streak >= 7 ? '🔥🔥' : '🔥';
+  var emoji = streak >= 7 ? '❤️' : streak >= 2 ? '🩷' : '🤍';
   var msg = streak === 1
     ? emoji + ' 1-day streak — keep going!'
     : emoji + ' ' + streak + '-day streak!';
