@@ -4,6 +4,12 @@
 
   var KEY = 'ellie-table-hl-' + window.location.pathname;
   var COLORS = ['yellow', 'pink', 'blue', 'green'];
+  var CELL_BG = {
+    yellow: 'rgba(255,230,80,0.42)',
+    pink:   'rgba(255,150,185,0.38)',
+    blue:   'rgba(110,185,255,0.38)',
+    green:  'rgba(100,215,140,0.38)'
+  };
 
   function load() { try { return JSON.parse(localStorage.getItem(KEY)) || {}; } catch(e) { return {}; } }
   function save(d) { localStorage.setItem(KEY, JSON.stringify(d)); }
@@ -13,13 +19,11 @@
   Array.from(content.querySelectorAll('table')).forEach(function (table, idx) {
     var tableId = 'tbl-' + idx;
 
-    // Wrap table in a relative container
     var wrapper = document.createElement('div');
     wrapper.className = 'thl-wrapper';
     table.parentNode.insertBefore(wrapper, table);
     wrapper.appendChild(table);
 
-    // Strip on the right — dots live inside it
     var strip = document.createElement('div');
     strip.className = 'thl-strip';
 
@@ -28,42 +32,58 @@
       dot.className = 'thl-dot thl-dot-' + color;
       dot.title = color;
       dot.addEventListener('click', function () {
-        var current = saved[tableId];
+        var entry = saved[tableId];
+        var current = entry && entry.color ? entry.color : (typeof entry === 'string' ? entry : null);
         var next = current === color ? null : color;
-        saved[tableId] = next;
+        if (next) {
+          applyColor(table, strip, next);
+          // Snapshot clean table HTML (no mark elements) with colors already applied
+          var clone = table.cloneNode(true);
+          clone.querySelectorAll('mark.hl').forEach(function (m) {
+            var p = m.parentNode;
+            while (m.firstChild) p.insertBefore(m.firstChild, m);
+            p.removeChild(m);
+          });
+          saved[tableId] = { color: next, html: clone.outerHTML };
+        } else {
+          applyColor(table, strip, null);
+          delete saved[tableId];
+        }
         save(saved);
-        applyColor(table, strip, next);
       });
       strip.appendChild(dot);
     });
 
-    // Clear button at the bottom of the strip
     var clearDot = document.createElement('button');
     clearDot.className = 'thl-dot thl-dot-clear';
     clearDot.title = 'clear';
     clearDot.textContent = '✕';
     clearDot.addEventListener('click', function () {
+      applyColor(table, strip, null);
       delete saved[tableId];
       save(saved);
-      applyColor(table, strip, null);
     });
     strip.appendChild(clearDot);
 
     wrapper.appendChild(strip);
 
-    // Restore saved
-    applyColor(table, strip, saved[tableId] || null);
+    // Restore — handle both old string format and new {color, html} format
+    var entry = saved[tableId];
+    var color = entry && entry.color ? entry.color : (typeof entry === 'string' ? entry : null);
+    applyColor(table, strip, color);
   });
 
   function applyColor(table, strip, color) {
-    COLORS.forEach(function (c) { table.classList.remove('thl-color-' + c); });
-    strip.className = 'thl-strip';
+    Array.from(table.querySelectorAll('td, th')).forEach(function (cell) {
+      if (color) {
+        cell.style.setProperty('background-color', CELL_BG[color], 'important');
+      } else {
+        cell.style.removeProperty('background-color');
+      }
+    });
+    strip.className = 'thl-strip' + (color ? ' thl-strip-' + color : '');
     Array.from(strip.querySelectorAll('.thl-dot')).forEach(function (d) {
       d.classList.toggle('thl-active', d.title === color);
     });
-    if (color) {
-      table.classList.add('thl-color-' + color);
-      strip.classList.add('thl-strip-' + color);
-    }
   }
 })();
