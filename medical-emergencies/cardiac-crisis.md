@@ -1166,22 +1166,218 @@ Think:
 
 ---
 
-# Quick NCLEX Review
+# Hemophilia Bleeding Emergency
 
-| Question Clue                     | What It Means                                    |
-| --------------------------------- | ------------------------------------------------ |
-| Chest pain while watching TV      | Chest pain at rest = unstable angina/possible MI |
-| Chest pain after shoveling snow   | Exertion-triggered angina                        |
-| Chest pain after large meal       | Eating-triggered angina                          |
-| Nitro causes headache             | Expected vasodilation effect                     |
-| Nitro + sildenafil                | Dangerous hypotension risk                       |
-| Post-MI constipation              | Prevent Valsalva with stool softener             |
-| Sudden severe SOB with crackles   | Pulmonary edema                                  |
-| BNP elevated                      | Heart failure concern                            |
-| Digoxin + low potassium           | Increased digoxin toxicity risk                  |
-| Green/yellow halos                | Digoxin toxicity                                 |
-| Severe BP + organ damage symptoms | Hypertensive emergency                           |
-| Severe BP but no symptoms         | Urgency/severe asymptomatic hypertension         |
+## What It Is
+
+Hemophilia is a clotting disorder where the blood does not clot properly.
+
+The client is missing a clotting factor, so bleeding can last longer than normal.
+
+## Main Problem
+
+Missing clotting factor → prolonged bleeding
+
+## Types
+
+| Type | Missing Factor |
+|---|---|
+| Hemophilia A | Factor VIII |
+| Hemophilia B | Factor IX |
+
+## Why It Is an Emergency
+
+The biggest concern is uncontrolled bleeding.
+
+Bleeding can happen:
+
+- After injury
+- After surgery
+- After dental work
+- Into joints
+- Into muscles
+- Internally
+- In the brain after head injury
+
+## Classic Hemophilia
+
+Classic hemophilia is usually X-linked recessive.
+
+Males are more likely to have the disease.
+
+Females are more likely to be carriers.
+
+## Signs and Symptoms
+
+- Easy bruising
+- Prolonged bleeding
+- Nosebleeds
+- Blood in urine
+- Blood in stool
+- Swollen painful joints
+- Limited range of motion
+- Hematomas
+- Excessive bleeding after injury or procedure
+
+## Hemarthrosis
+
+Hemarthrosis means bleeding into a joint.
+
+This is common in hemophilia.
+
+Signs include:
+
+- Joint swelling
+- Severe joint pain
+- Warmth
+- Decreased movement
+
+Common joints:
+
+- Knees
+- Ankles
+- Elbows
+
+## Priority Concern
+
+Bleeding.
+
+Any head injury in a client with hemophilia is an emergency because of the risk for intracranial bleeding.
+
+## Nursing Care During a Bleeding Episode
+
+Use RICE:
+
+| Intervention | Why |
+|---|---|
+| Rest | Prevents worsening bleeding |
+| Ice | Decreases swelling and bleeding |
+| Compression | Helps control bleeding |
+| Elevation | Decreases swelling |
+
+Also:
+
+- Administer prescribed clotting factor.
+- Assess pain.
+- Monitor vital signs.
+- Monitor for signs of shock.
+- Avoid unnecessary invasive procedures.
+
+## Joint Bleeding Nursing Care
+
+If the client has a swollen painful joint:
+
+- Rest the joint.
+- Avoid range-of-motion exercises during active bleeding.
+- Use pain control as prescribed.
+- Use a bed cradle if needed to keep sheets off the painful joint.
+- Give factor replacement as prescribed.
+
+## Treatment
+
+| Treatment | Purpose |
+|---|---|
+| Factor VIII | Replaces missing factor in Hemophilia A |
+| Factor IX | Replaces missing factor in Hemophilia B |
+| Cryoprecipitate | May be used for factor replacement |
+| Desmopressin | May be used for mild Hemophilia A |
+| Acetaminophen | Preferred for pain/fever |
+
+## Avoid
+
+- Aspirin
+- NSAIDs like ibuprofen
+- IM injections
+- Rectal temperatures
+- Contact sports
+- Rough toothbrushes
+- Unnecessary procedures
+
+## Safe Pain/Fever Medication
+
+Acetaminophen is usually preferred.
+
+Avoid aspirin and NSAIDs because they increase bleeding risk.
+
+## Activity Teaching
+
+The child should not be kept inside all the time, but activities should be safe.
+
+Safer activities:
+
+- Swimming
+- Walking
+- Non-contact activities
+- Chess/math team
+- Scorekeeper role
+
+Avoid:
+
+- Football
+- Soccer
+- Hockey
+- Wrestling
+- Rough contact sports
+
+## Parent/Client Teaching
+
+- Wear medical alert identification.
+- Keep factor replacement available if prescribed.
+- Use a soft toothbrush.
+- Use an electric razor.
+- Apply pressure after blood draws.
+- Go to regular dental checkups.
+- Avoid contact sports.
+- Report head injury immediately.
+- Report joint pain or swelling early.
+- Do not give aspirin or ibuprofen unless specifically prescribed.
+
+## NCLEX Tips
+
+- Head injury + hemophilia = emergency.
+- Joint swelling and pain = possible bleeding into the joint.
+- Do not perform ROM during active joint bleeding.
+- Avoid aspirin and NSAIDs.
+- Give the missing clotting factor.
+- Do not overprotect the child completely; promote safe activity.
+
+## Cardiac & Perfusion Emergencies Review Chart
+
+| Emergency                                          | Main Problem                                                       | Biggest Clues                                                                                                           | Priority Nursing Action                                                            | Key Treatment/Medications                                                                              | NCLEX Tip                                                           |
+| -------------------------------------------------- | ------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------- |
+| **Stable Angina**                                  | Temporary decreased blood flow to the heart muscle                 | Chest pain with exertion, stress, cold weather, large meals, or smoking; relieved by rest/nitro                         | Stop activity, have client rest, assess pain and VS                                | Nitroglycerin, oxygen if needed, calcium channel blockers, beta blockers as prescribed                 | Stable angina is predictable and relieved by rest or nitro          |
+| **Unstable Angina**                                | Worsening cardiac ischemia that may lead to MI                     | Chest pain at rest, new chest pain, worsening pattern, not relieved by nitro                                            | Treat like possible MI; assess oxygenation, VS, ECG, notify provider               | Nitro, aspirin, oxygen if needed, anticoagulants/antiplatelets as prescribed                           | Chest pain at rest is more concerning than chest pain with activity |
+| **Myocardial Infarction**                          | Blocked coronary blood flow causing heart muscle damage            | Chest pressure/pain not relieved by rest or nitro, diaphoresis, SOB, nausea, anxiety, radiating pain, elevated troponin | Assess chest pain and oxygenation, obtain ECG, place on cardiac monitor, IV access | Aspirin, nitro, oxygen if hypoxemic, morphine if ordered, anticoagulants, PCI/cath                     | Troponin is the key lab for MI                                      |
+| **Post-MI Valsalva Risk**                          | Straining can stimulate vagus nerve and trigger dysrhythmias       | Constipation, bearing down, holding breath with movement                                                                | Prevent straining                                                                  | Stool softeners, fluids/fiber if allowed                                                               | Post-MI clients should not strain during bowel movements            |
+| **Acute CHF / Pulmonary Edema**                    | Heart cannot pump effectively; fluid backs up into lungs           | Severe SOB, crackles/rales, orthopnea, low O2, anxiety, pink frothy sputum                                              | High Fowler’s, oxygen, assess lung sounds, notify provider if severe               | Furosemide/Lasix, oxygen, possible morphine/nitrates depending on order                                | Left-sided failure = lung symptoms                                  |
+| **Right-Sided Heart Failure**                      | Blood backs up into venous system/body                             | JVD, peripheral edema, pitting edema, weight gain, hepatomegaly, ascites                                                | Assess edema, daily weights, I&O, monitor fluid overload                           | Diuretics, sodium/fluid restriction if ordered                                                         | Right-sided failure = rest of body swelling                         |
+| **Digoxin Toxicity**                               | Too much digoxin or increased sensitivity, often worse with low K+ | N/V, anorexia, bradycardia, dysrhythmias, green/yellow halos                                                            | Hold digoxin and notify provider                                                   | Check digoxin level and potassium; antidote is Digibind                                                | Low potassium increases risk for digoxin toxicity                   |
+| **Hypertensive Crisis**                            | Dangerously high BP, usually around 180 systolic or 120 diastolic  | Severe BP elevation; may or may not have symptoms                                                                       | Assess for target-organ damage                                                     | Depends on whether emergency or urgency                                                                | The BP number matters, but organ damage matters more                |
+| **Hypertensive Emergency**                         | Severe BP elevation with acute organ damage                        | Chest pain, SOB, neuro changes, severe headache, confusion, vision changes, decreased urine output                      | IV access, frequent BP monitoring, cardiac/neuro assessment                        | IV antihypertensives such as labetalol, nicardipine, nitroglycerin, hydralazine depending on condition | Do not drop BP too fast unless specifically ordered                 |
+| **Hypertensive Urgency / Severe Asymptomatic HTN** | Severe BP elevation without acute organ damage                     | Very high BP but no chest pain, neuro changes, SOB, or kidney injury symptoms                                           | Recheck BP correctly, assess symptoms, notify provider                             | Oral meds or home med adjustment, close follow-up                                                      | No organ damage = usually not rapid IV BP drop                      |
+| **Hemophilia Bleeding Emergency**                  | Missing clotting factor causes prolonged bleeding                  | Easy bruising, prolonged bleeding, swollen painful joint, hematoma, nosebleeds, blood in urine/stool                    | Control bleeding and give prescribed clotting factor                               | Factor VIII for Hemophilia A, Factor IX for Hemophilia B, cryoprecipitate, desmopressin for mild A     | Head injury in hemophilia is an emergency                           |
+| **Hemarthrosis**                                   | Bleeding into a joint                                              | Swollen, painful, warm joint with decreased movement                                                                    | Rest joint; avoid ROM during active bleeding                                       | RICE, factor replacement, pain control, bed cradle if needed                                           | Do not exercise a joint that is actively bleeding                   |
+| **Bleeding Precautions**                           | Prevent injury and worsening bleeding                              | Hemophilia, low platelets, anticoagulants, bleeding disorders                                                           | Avoid trauma and invasive procedures when possible                                 | Soft toothbrush, electric razor, pressure after blood draws                                            | Avoid aspirin, NSAIDs, IM injections, and contact sports            |
+
+---
+
+## Super Quick Priority Cues
+
+| Clue                                       | Think                       | First/Priority Action                          |
+| ------------------------------------------ | --------------------------- | ---------------------------------------------- |
+| Chest pain with activity, relieved by rest | Stable angina               | Stop activity and rest                         |
+| Chest pain while watching TV               | Unstable angina             | Treat like possible MI                         |
+| Chest pain not relieved by nitro           | MI                          | ECG, oxygenation assessment, cardiac monitor   |
+| Elevated troponin                          | MI                          | Continue emergency cardiac care                |
+| Crackles + severe SOB                      | Pulmonary edema/acute CHF   | High Fowler’s and oxygen                       |
+| Pink frothy sputum                         | Pulmonary edema             | Oxygen and rapid provider notification         |
+| Green/yellow halos                         | Digoxin toxicity            | Hold digoxin and notify provider               |
+| Low K+ with digoxin                        | Increased toxicity risk     | Monitor potassium and digoxin level            |
+| BP 180/120 with neuro changes              | Hypertensive emergency      | Assess neuro status and prepare IV BP meds     |
+| BP 180/120 but no symptoms                 | Hypertensive urgency        | Recheck BP, assess, oral med adjustment likely |
+| Hemophilia + head injury                   | Possible intracranial bleed | Emergency evaluation                           |
+| Hemophilia + swollen painful knee          | Hemarthrosis                | Rest, ice, factor replacement, no ROM          |
+| Hemophilia + fever/pain                    | Bleeding med safety issue   | Use acetaminophen, avoid aspirin/NSAIDs        |
 
 ---
 
