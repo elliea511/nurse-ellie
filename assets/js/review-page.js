@@ -181,10 +181,17 @@
 
         if (entry.type === 'text') {
           var item = entry.item;
-          var mark = document.createElement('mark');
-          mark.className = 'hl hl-' + color;
-          mark.textContent = item.text;
-          div.appendChild(mark);
+          if (item.level && /^h[1-6]$/.test(item.level)) {
+            var heading = document.createElement(item.level);
+            heading.className = 'review-hl-heading review-hl-heading-' + color;
+            heading.textContent = item.text;
+            div.appendChild(heading);
+          } else {
+            var mark = document.createElement('mark');
+            mark.className = 'hl hl-' + color;
+            mark.textContent = item.text;
+            div.appendChild(mark);
+          }
         } else {
           var tWrap = document.createElement('div');
           tWrap.className = 'review-table-wrap';

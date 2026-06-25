@@ -175,9 +175,13 @@
       var contextBefore = content.textContent.slice(contextStart, startChar);
       var uid = Date.now().toString(36) + Math.random().toString(36).slice(2, 6);
 
+      var startEl = range.startContainer.nodeType === 3 ? range.startContainer.parentElement : range.startContainer;
+      var headingEl = startEl.closest('h1,h2,h3,h4,h5,h6');
+      var level = headingEl ? headingEl.tagName.toLowerCase() : null;
+
       window.getSelection().removeAllRanges();
       wrapRange(range, color, text, uid);
-      save(load().concat([{ text: text, color: color, uid: uid, contextBefore: contextBefore }]));
+      save(load().concat([{ text: text, color: color, uid: uid, contextBefore: contextBefore, level: level }]));
       hideToolbar();
     });
   });
