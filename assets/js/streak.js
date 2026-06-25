@@ -56,11 +56,5 @@
 
   widget.innerHTML = '<span class="streak-text">' + msg + '</span>';
 
-  // Insert after search box if present, else at top
-  var search = sidebar.querySelector('.sidebar-search');
-  if (search) {
-    search.insertAdjacentElement('afterend', widget);
-  } else {
-    sidebar.prepend(widget);
-  }
+  sidebar.appendChild(widget);
 })();
