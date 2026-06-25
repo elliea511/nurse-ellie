@@ -13,17 +13,7 @@
 
 ------
 
-<a class="video-preview-card"
-   href="https://youtu.be/oxsYe2FpZb8?si=jgfXNL3hPw5jVXd2"
-   target="_blank"
-   rel="noopener">
-
-  <img src="https://img.youtube.com/vi/oxsYe2FpZb8/maxresdefault.jpg"
-       alt="EKG Strip Review Video Preview">
-
-  <div class="play-button">▶</div>
-
-</a>
+<a class="video-preview-card" href="https://youtu.be/oxsYe2FpZb8?si=jgfXNL3hPw5jVXd2" target="_blank" rel="noopener"><img src="https://img.youtube.com/vi/oxsYe2FpZb8/maxresdefault.jpg" alt="EKG Strip Review Video Preview"><div class="play-button">▶</div></a>
 
 # Before You Name the Rhythm
 

@@ -2002,30 +2002,377 @@ mark.hl-green  { background: rgba(100, 220, 140, 0.42) !important; }
 
 .hl-clear:hover { color: #c00 !important; }
 
-.video-card {
-  max-width: 850px;
-  margin: 28px auto;
-  padding: 16px;
-  background: rgba(255, 255, 255, 0.88);
-  border: 2px solid #ffffff;
-  border-radius: 24px;
-  box-shadow: 0 10px 26px rgba(98, 72, 89, 0.12);
+/* ── Confidence Rating Bar ─────────────────────────────────────── */
+.confidence-bar {
+  display: flex !important;
+  align-items: center !important;
+  flex-wrap: wrap !important;
+  gap: 0.5rem !important;
+  margin: 0.75rem 0 1.75rem 0 !important;
+  padding: 0.75rem 1rem !important;
+  background: #fafafa !important;
+  border: 1px solid #e8e8e8 !important;
+  border-radius: 10px !important;
 }
 
-.video-wrapper {
-  position: relative;
-  width: 100%;
-  padding-bottom: 56.25%; 
-  height: 0;
-  overflow: hidden;
-  border-radius: 18px;
+.cf-label {
+  font-size: 0.82rem !important;
+  font-weight: 600 !important;
+  color: #666 !important;
+  margin-right: 0.25rem !important;
 }
 
-.video-wrapper iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border: 0;
+.cf-btn {
+  font-size: 0.8rem !important;
+  padding: 0.3rem 0.8rem !important;
+  border: 1px solid #d0d0d0 !important;
+  border-radius: 999px !important;
+  background: #fff !important;
+  color: #666 !important;
+  cursor: pointer !important;
+  transition: all 0.15s !important;
+  font-family: inherit !important;
+}
+
+.cf-btn:hover { border-color: var(--accent) !important; color: var(--accent) !important; }
+
+.cf-good.cf-active   { background: #d4edda !important; border-color: #28a745 !important; color: #155724 !important; }
+.cf-unsure.cf-active { background: #fff3cd !important; border-color: #ffc107 !important; color: #856404 !important; }
+.cf-bad.cf-active    { background: #f8d7da !important; border-color: #dc3545 !important; color: #721c24 !important; }
+
+/* Review panel in sidebar */
+.cf-review-panel {
+  margin: 0.75rem 0.75rem 0 !important;
+  padding: 0.6rem 0.75rem !important;
+  background: #fff5f5 !important;
+  border: 1px solid #f5c6cb !important;
+  border-radius: 8px !important;
+}
+
+.cf-review-heading {
+  font-size: 0.78rem !important;
+  font-weight: 700 !important;
+  color: #721c24 !important;
+  margin-bottom: 0.4rem !important;
+}
+
+.cf-review-list {
+  list-style: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.cf-review-list li {
+  font-size: 0.78rem !important;
+  padding: 0.15rem 0 !important;
+  border-bottom: none !important;
+}
+
+.cf-review-list a {
+  color: #c0392b !important;
+  text-decoration: none !important;
+}
+
+.cf-review-list a:hover { text-decoration: underline !important; }
+
+@media print { .confidence-bar, .cf-review-panel { display: none !important; } }
+
+/* ── Streak Widget ─────────────────────────────────────────────── */
+.streak-widget {
+  margin: 0.6rem 0.75rem 0.75rem !important;
+  padding: 0.45rem 0.75rem !important;
+  background: linear-gradient(135deg, #fff4e6, #ffecd2) !important;
+  border-radius: 8px !important;
+  border-left: 3px solid #ff9800 !important;
+  font-size: 0.82rem !important;
+  font-weight: 700 !important;
+  color: #e65100 !important;
+}
+
+@media print { .streak-widget { display: none !important; } }
+
+/* ── Print Button ──────────────────────────────────────────────── */
+#print-btn {
+  position: fixed !important;
+  bottom: 4.75rem !important;
+  right: 1.25rem !important;
+  z-index: 900 !important;
+  width: 42px !important;
+  height: 42px !important;
+  border-radius: 50% !important;
+  border: none !important;
+  background: #fff !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.18) !important;
+  font-size: 1.1rem !important;
+  cursor: pointer !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  transition: box-shadow 0.15s, transform 0.15s !important;
+}
+
+#print-btn:hover { box-shadow: 0 4px 14px rgba(0,0,0,0.25) !important; transform: scale(1.08) !important; }
+
+@media print { #print-btn { display: none !important; } }
+
+/* ── Flashcard Mode ────────────────────────────────────────────── */
+#flashcard-toggle {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 0.4rem !important;
+  margin-bottom: 1.5rem !important;
+  padding: 0.5rem 1.2rem !important;
+  border: 2px solid #5b7fe8 !important;
+  border-radius: 8px !important;
+  background: #eef2ff !important;
+  color: #3a5bd9 !important;
+  font-weight: 700 !important;
+  font-size: 0.92rem !important;
+  cursor: pointer !important;
+  transition: all 0.15s !important;
+  font-family: inherit !important;
+  box-shadow: 0 1px 4px rgba(91,127,232,0.15) !important;
+}
+
+#flashcard-toggle:hover {
+  background: #5b7fe8 !important;
+  color: #fff !important;
+  box-shadow: 0 2px 8px rgba(91,127,232,0.3) !important;
+}
+
+#flashcard-toggle.fc-active {
+  background: #3a5bd9 !important;
+  border-color: #3a5bd9 !important;
+  color: #fff !important;
+}
+
+.flashcard-deck {
+  margin: 0 auto 2.5rem !important;
+  max-width: 640px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+}
+
+.flashcard-deck .flashcard-scene {
+  width: 100% !important;
+}
+
+/* hint text above card */
+.flashcard-hint {
+  text-align: center !important;
+  font-size: 0.75rem !important;
+  color: #aaa !important;
+  margin-bottom: 0.5rem !important;
+  letter-spacing: 0.02em !important;
+}
+
+.flashcard-scene {
+  perspective: 1200px !important;
+  width: 100% !important;
+  height: 300px !important;
+  margin-bottom: 1.25rem !important;
+  cursor: pointer !important;
+}
+
+.flashcard {
+  width: 100% !important;
+  height: 100% !important;
+  position: relative !important;
+  transform-style: preserve-3d !important;
+  transition: transform 0.55s cubic-bezier(0.4,0,0.2,1) !important;
+}
+
+.flashcard.flipped { transform: rotateY(180deg) !important; }
+
+.flashcard-face {
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  -webkit-backface-visibility: hidden !important;
+  backface-visibility: hidden !important;
+  border-radius: 4px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: flex-start !important;
+  justify-content: center !important;
+  line-height: 2rem !important;
+  box-shadow: 2px 3px 12px rgba(0,0,0,0.1), 4px 5px 0 #e0e0d0 !important;
+  overflow-y: auto !important;
+}
+
+
+/* FRONT — notebook paper card */
+.flashcard-front {
+  background-color: #fffef7 !important;
+  background-image:
+    linear-gradient(#e8f0fb 1px, transparent 1px) !important;
+  background-size: 100% 2rem !important;
+  background-position: 0 2.5rem !important;
+  border: 1.5px solid #c8d8f0 !important;
+  border-left: 5px solid #7baaf7 !important;
+  color: #1a2a4a !important;
+  flex-direction: column !important;
+  gap: 0.6rem !important;
+  align-items: flex-start !important;
+  padding: 1.25rem 1.5rem 1.25rem 1.75rem !important;
+  text-align: left !important;
+  font-family: 'Nunito', sans-serif !important;
+}
+
+.fc-column-tag {
+  font-size: 0.68rem !important;
+  font-weight: 800 !important;
+  letter-spacing: 0.1em !important;
+  text-transform: uppercase !important;
+  color: #7baaf7 !important;
+  background: #e8f0fb !important;
+  padding: 0.15rem 0.6rem !important;
+  border-radius: 999px !important;
+  margin-bottom: 0.15rem !important;
+}
+
+.fc-term {
+  font-size: 1.15rem !important;
+  font-weight: 700 !important;
+  line-height: 1.5 !important;
+  color: #1a2a4a !important;
+}
+
+/* BACK — notebook paper, pink margin line */
+.flashcard-back {
+  background-color: #fffef7 !important;
+  background-image:
+    linear-gradient(#f5e8f0 1px, transparent 1px) !important;
+  background-size: 100% 2rem !important;
+  background-position: 0 2.5rem !important;
+  border: 1.5px solid #e8c8d8 !important;
+  border-left: 5px solid #f48fb1 !important;
+  color: #2a1a2a !important;
+  transform: rotateY(180deg) !important;
+  flex-direction: column !important;
+  gap: 0.4rem !important;
+  align-items: flex-start !important;
+  padding: 1.25rem 1.5rem 1.25rem 1.75rem !important;
+  text-align: left !important;
+  font-size: 0.95rem !important;
+  font-family: 'Nunito', sans-serif !important;
+}
+
+.flashcard-back::before {
+  content: 'Answer' !important;
+  position: absolute !important;
+  top: 0.6rem !important;
+  left: 1.75rem !important;
+  font-size: 0.65rem !important;
+  letter-spacing: 0.1em !important;
+  font-weight: 800 !important;
+  text-transform: uppercase !important;
+  color: #f48fb1 !important;
+}
+
+.fc-col-label {
+  display: block !important;
+  font-size: 0.65rem !important;
+  font-weight: 800 !important;
+  letter-spacing: 0.1em !important;
+  text-transform: uppercase !important;
+  color: #f48fb1 !important;
+  margin: 0.35rem 0 0.1rem 0 !important;
+}
+
+hr.fc-divider {
+  border: none !important;
+  border-top: 1px dashed #e8c8d8 !important;
+  margin: 0.3rem 0 !important;
+  width: 100% !important;
+}
+
+.flashcard-controls {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 0.6rem !important;
+}
+
+.fc-counter {
+  font-size: 0.82rem !important;
+  color: #999 !important;
+  min-width: 4.5rem !important;
+  text-align: center !important;
+}
+
+.fc-btn {
+  padding: 0.45rem 1.1rem !important;
+  border: 1.5px solid #d0d0d0 !important;
+  border-radius: 8px !important;
+  background: #fff !important;
+  font-size: 0.85rem !important;
+  font-weight: 600 !important;
+  cursor: pointer !important;
+  font-family: inherit !important;
+  transition: all 0.15s !important;
+  color: #444 !important;
+}
+
+.fc-btn:hover { border-color: #4f6ef7 !important; color: #4f6ef7 !important; background: #eef2ff !important; }
+
+.fc-flip {
+  background: linear-gradient(135deg, #4f6ef7, #7b5ea7) !important;
+  border-color: transparent !important;
+  color: #fff !important;
+  padding: 0.45rem 1.4rem !important;
+}
+
+.fc-flip:hover { opacity: 0.88 !important; background: linear-gradient(135deg, #4f6ef7, #7b5ea7) !important; color: #fff !important; border-color: transparent !important; }
+
+@media print { .flashcard-deck, #flashcard-toggle { display: none !important; } }
+
+/* ── Video Preview Card ────────────────────────────────────────── */
+a.video-preview-card {
+  display: block !important;
+  position: relative !important;
+  max-width: 560px !important;
+  margin: 1.5rem auto !important;
+  border-radius: 10px !important;
+  overflow: hidden !important;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.18) !important;
+  cursor: pointer !important;
+  text-decoration: none !important;
+}
+
+a.video-preview-card img {
+  display: block !important;
+  width: 100% !important;
+  height: auto !important;
+  transition: transform 0.2s !important;
+}
+
+a.video-preview-card:hover img {
+  transform: scale(1.02) !important;
+}
+
+a.video-preview-card .play-button {
+  position: absolute !important;
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%) !important;
+  width: 64px !important;
+  height: 64px !important;
+  background: rgba(255,0,0,0.85) !important;
+  border-radius: 50% !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  font-size: 1.6rem !important;
+  color: #fff !important;
+  pointer-events: none !important;
+  transition: background 0.15s, transform 0.15s !important;
+}
+
+a.video-preview-card:hover .play-button {
+  background: rgba(200,0,0,1) !important;
+  transform: translate(-50%, -50%) scale(1.1) !important;
 }
