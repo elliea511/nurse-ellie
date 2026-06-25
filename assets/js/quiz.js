@@ -6,65 +6,60 @@
   var detailsBlocks = Array.from(content.querySelectorAll('details'));
   var quizBlocks = []; // { answered, gotItRight, reset }
 
-  // ── Score card ────────────────────────────────────────────────
+  // ── Score card (hidden until requested) ──────────────────────
   var scoreCard = document.createElement('div');
   scoreCard.className = 'quiz-score-card';
   scoreCard.style.display = 'none';
 
-  function updateScoreCard() {
-    var total    = quizBlocks.length;
-    var done     = quizBlocks.filter(function (b) { return b.answered; }).length;
-    var correct  = quizBlocks.filter(function (b) { return b.answered && b.gotItRight; }).length;
-    var wrong    = quizBlocks.filter(function (b) { return b.answered && !b.gotItRight; }).length;
-    var remaining = total - done;
+  var gradeBtn = document.createElement('button');
+  gradeBtn.className = 'quiz-grade-btn';
+  gradeBtn.textContent = '🎓 Get my grade';
+  gradeBtn.addEventListener('click', showGrade);
 
-    // Assume unanswered = correct, so score goes DOWN as you get things wrong
-    var assumed  = correct + remaining;
-    var pct      = total ? Math.round((assumed / total) * 100) : 100;
+  function showGrade() {
+    var total   = quizBlocks.length;
+    var correct = quizBlocks.filter(function (b) { return b.answered && b.gotItRight; }).length;
+    var pct     = total ? Math.round((correct / total) * 100) : 0;
 
-    var grade, gradeClass;
-    if (pct >= 90)      { grade = 'A';  gradeClass = 'grade-a'; }
-    else if (pct >= 80) { grade = 'B';  gradeClass = 'grade-b'; }
-    else if (pct >= 70) { grade = 'C';  gradeClass = 'grade-c'; }
-    else if (pct >= 60) { grade = 'D';  gradeClass = 'grade-d'; }
-    else                { grade = 'F';  gradeClass = 'grade-f'; }
-
-    var allDone = remaining === 0;
-    var finalPct = allDone ? Math.round((correct / total) * 100) : pct;
-    var finalGrade = grade;
-    if (allDone) {
-      if (finalPct >= 90)      { finalGrade = 'A'; gradeClass = 'grade-a'; }
-      else if (finalPct >= 80) { finalGrade = 'B'; gradeClass = 'grade-b'; }
-      else if (finalPct >= 70) { finalGrade = 'C'; gradeClass = 'grade-c'; }
-      else if (finalPct >= 60) { finalGrade = 'D'; gradeClass = 'grade-d'; }
-      else                     { finalGrade = 'F'; gradeClass = 'grade-f'; }
+    var grade, gradeClass, note;
+    if (pct >= 90) {
+      grade = 'A'; gradeClass = 'grade-a';
+      note = '🌟 Incredible! You really know this material. NCLEX, watch out!';
+    } else if (pct >= 80) {
+      grade = 'B'; gradeClass = 'grade-b';
+      note = '🎉 Great job! You\'ve got a solid grasp — just a little more review and you\'re there.';
+    } else if (pct >= 70) {
+      grade = 'C'; gradeClass = 'grade-c';
+      note = '📚 Good effort! Go back over the ones you missed and you\'ll nail it next time.';
+    } else if (pct >= 60) {
+      grade = 'D'; gradeClass = 'grade-d';
+      note = '💪 Keep pushing! Review your notes and try again — every attempt makes you stronger.';
+    } else {
+      grade = 'F'; gradeClass = 'grade-f';
+      note = '🩺 Don\'t give up! This is hard material. Re-read the rationales and try again — you\'ve got this.';
     }
-
-    var msg = finalPct >= 80
-      ? '🎉 Great work — you\'re ready!'
-      : finalPct >= 70
-        ? '📚 Almost there — review the ones you missed.'
-        : '💪 Keep studying — you\'ve got this!';
 
     scoreCard.className = 'quiz-score-card ' + gradeClass;
     scoreCard.innerHTML =
-      '<div class="qsc-grade">' + finalGrade + '</div>' +
+      '<div class="qsc-grade">' + grade + '</div>' +
       '<div class="qsc-details">' +
-        '<div class="qsc-pct">' + (allDone ? correct : assumed) + ' / ' + total + ' &nbsp;<span class="qsc-pct-num">' + (allDone ? finalPct : pct) + '%</span></div>' +
-        (allDone
-          ? '<div class="qsc-msg">' + msg + '</div>'
-          : '<div class="qsc-remaining">' + remaining + ' question' + (remaining === 1 ? '' : 's') + ' remaining</div>') +
+        '<div class="qsc-pct">' + correct + ' / ' + total + ' <span class="qsc-pct-num">(' + pct + '%)</span></div>' +
+        '<div class="qsc-note">' + note + '</div>' +
       '</div>' +
       '<button class="qsc-reset">↺ Retake</button>';
 
-    scoreCard.style.display = done > 0 ? 'flex' : 'none';
+    scoreCard.style.display = 'flex';
+    gradeBtn.style.display = 'none';
 
     scoreCard.querySelector('.qsc-reset').addEventListener('click', function () {
       quizBlocks.forEach(function (b) { if (b.reset) b.reset(); });
       scoreCard.style.display = 'none';
+      gradeBtn.style.display = '';
       window.scrollTo({ top: content.offsetTop - 80, behavior: 'smooth' });
     });
   }
+
+  function updateScoreCard() { /* live updates removed — grade shown on demand */ }
 
   // ── Build each question ───────────────────────────────────────
   detailsBlocks.forEach(function (details) {
@@ -220,6 +215,7 @@
   });
 
   if (quizBlocks.length) {
+    content.appendChild(gradeBtn);
     content.appendChild(scoreCard);
   }
 })();

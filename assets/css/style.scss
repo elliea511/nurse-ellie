@@ -2820,20 +2820,35 @@ body[data-section="review"] .main-content,
 .quiz-retry-btn:hover { color: #333 !important; border-color: #999 !important; }
 
 /* ── Quiz Score Card ───────────────────────────────────────────── */
+.quiz-grade-btn {
+  display: block !important;
+  margin: 2.5rem auto 1rem !important;
+  padding: 0.7rem 2rem !important;
+  background: linear-gradient(135deg, #4f6ef7, #7b5ea7) !important;
+  color: #fff !important;
+  border: none !important;
+  border-radius: 10px !important;
+  font-size: 1rem !important;
+  font-weight: 700 !important;
+  font-family: inherit !important;
+  cursor: pointer !important;
+  box-shadow: 0 3px 12px rgba(79,110,247,0.3) !important;
+  transition: opacity 0.15s, transform 0.15s !important;
+}
+.quiz-grade-btn:hover { opacity: 0.88 !important; transform: translateY(-1px) !important; }
+
 .quiz-score-card {
-  position: sticky !important;
-  bottom: 1.25rem !important;
   display: flex !important;
   align-items: center !important;
   gap: 1.25rem !important;
-  margin: 2rem 0 1rem !important;
-  padding: 1.1rem 1.5rem !important;
-  border-radius: 14px !important;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.15) !important;
-  z-index: 100 !important;
+  margin: 1rem auto 2rem !important;
+  padding: 1.5rem 1.75rem !important;
+  border-radius: 16px !important;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.1) !important;
   background: #fff !important;
   border: 2px solid #e0e0e0 !important;
   flex-wrap: wrap !important;
+  max-width: 560px !important;
 }
 
 .qsc-grade {
@@ -2887,6 +2902,14 @@ body[data-section="review"] .main-content,
   font-size: 0.85rem !important;
   color: #555 !important;
   margin-top: 0.1rem !important;
+}
+
+.qsc-note {
+  font-size: 0.88rem !important;
+  color: #555 !important;
+  margin-top: 0.3rem !important;
+  line-height: 1.5 !important;
+  font-style: italic !important;
 }
 
 .qsc-reset {
