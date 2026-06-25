@@ -367,10 +367,17 @@ body {
   margin: 2.75rem -3rem 1rem -3rem !important;
   border: none !important;
   border-radius: 0 !important;
-  background: linear-gradient(to right, var(--accent), var(--accent-mid) 60%, var(--accent-soft) 100%) !important;
+  background: linear-gradient(to right, var(--accent), var(--accent-mid) 70%, var(--accent-soft) 100%) !important;
   box-shadow: 0 2px 8px rgba(0,0,0,0.10) !important;
   text-transform: none !important;
   text-align: left !important;
+}
+
+/* Even-numbered h2s use the secondary accent color for visual variety */
+.main-content h2:nth-of-type(even) {
+  color: var(--accent-dark) !important;
+  background: linear-gradient(to right, var(--accent2), var(--accent2-mid) 60%, var(--accent2-soft) 100%) !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07) !important;
 }
 
 .main-content h2::before,
@@ -378,17 +385,22 @@ body {
 
 .main-content h3 {
   font-family: "Nunito", sans-serif !important;
-  color: var(--accent-dark) !important;
-  font-size: 1rem !important;
+  color: white !important;
+  font-size: 0.95rem !important;
   font-weight: 900 !important;
-  padding: 0.4rem 3rem 0.4rem 3rem !important;
-  margin: 2rem -3rem 0.6rem -3rem !important;
+  padding: 0.35rem 3rem !important;
+  margin: 1.75rem -3rem 0.6rem -3rem !important;
   border: none !important;
-  border-left: none !important;
-  background: linear-gradient(to right, var(--accent-mid), var(--accent-soft) 60%, transparent 100%) !important;
+  background: linear-gradient(to right, var(--accent-dark), var(--accent) 60%, transparent 100%) !important;
   box-shadow: none !important;
   text-transform: none !important;
-  letter-spacing: 0.2px !important;
+  letter-spacing: 0.3px !important;
+}
+
+/* Even h3s use accent2 dark */
+.main-content h3:nth-of-type(even) {
+  color: var(--accent-dark) !important;
+  background: linear-gradient(to right, var(--accent2-mid), var(--accent2-soft) 70%, transparent 100%) !important;
 }
 
 .main-content h3::before,
@@ -836,9 +848,11 @@ body {
 
 .main-content hr {
   border: none !important;
-  height: 1px !important;
-  background: var(--border) !important;
+  height: 3px !important;
+  background: linear-gradient(to right, var(--accent), var(--accent2), transparent) !important;
   margin: 2.5rem 0 !important;
+  border-radius: 999px !important;
+  opacity: 0.6 !important;
 }
 
 .main-content img {
