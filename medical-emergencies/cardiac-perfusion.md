@@ -5,15 +5,8 @@ title: Cardiac & Perfusion Emergencies
 
 # Cardiac & Perfusion Emergencies
 
-<div class="study-card-grid">
-
-<a class="study-card" href="{{ '/medical-emergencies/cardiac-perfusion/angina.html' | relative_url }}">
-<h2>Angina</h2>
-<p>Stable vs unstable angina, triggers, nitroglycerin teaching, and calcium channel blockers.</p>
-</a>
-
 <a class="study-card" href="{{ '/medical-emergencies/cardiac-perfusion/myocardial-infarction.html' | relative_url }}">
-<h2>Myocardial Infarction</h2>
+<h2>Angina/Myocardial Infarction</h2>
 <p>Angina vs MI, signs and symptoms, priority nursing care, diagnostics, emergency treatment, post-MI complications, and cardiac procedures.</p>
 </a>
 
