@@ -246,3 +246,10 @@ The client should seek emergency care for high BP with:
 * Decreased level of consciousness
 * Decreased urine output
 * Stroke symptoms
+
+---
+
+<div class="page-nav">
+  <a href="{{ '/medical-emergencies/cardiac-perfusion/chf.html' | relative_url }}" class="page-nav-back">← Acute CHF / Pulmonary Edema</a>
+  <a href="{{ '/medical-emergencies/cardiac-perfusion/hemophilia.html' | relative_url }}" class="page-nav-next">Hemophilia Bleeding Emergency →</a>
+</div>

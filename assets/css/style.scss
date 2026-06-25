@@ -337,19 +337,22 @@ body {
 
 .main-content h1 {
   font-family: "Playfair Display", Georgia, serif !important;
-  color: var(--accent-dark) !important;
-  font-size: 2rem !important;
-  font-weight: 700 !important;
-  text-align: left !important;
-  padding: 1rem 1.5rem !important;
-  margin: 0 0 2rem 0 !important;
+  color: white !important;
+  font-size: clamp(1.5rem, 4vw, 2.6rem) !important;
+  font-weight: 900 !important;
+  text-align: center !important;
+  padding: 0.7rem 2.2rem !important;
+  margin: 0 auto 2rem auto !important;
   border: none !important;
-  border-left: 6px solid var(--accent) !important;
-  border-radius: 0 12px 12px 0 !important;
-  box-shadow: 0 2px 12px rgba(0,0,0,0.05) !important;
-  background: linear-gradient(to right, var(--accent-soft), white) !important;
-  letter-spacing: 0 !important;
+  border-left: none !important;
+  border-radius: 2rem !important;
+  box-shadow: 0 4px 18px rgba(0,0,0,0.15) !important;
+  background: var(--accent) !important;
+  letter-spacing: 0.01em !important;
   text-transform: none !important;
+  display: table !important;
+  max-width: 90% !important;
+  line-height: 1.25 !important;
 }
 
 .main-content h1::before,
@@ -1689,3 +1692,42 @@ body.home-page {
   background-attachment: fixed !important;
 }
 
+
+/* =========================================================
+   PAGE NAVIGATION (next/prev between sub-pages)
+   ========================================================= */
+
+.page-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 2px solid var(--border);
+}
+
+.page-nav a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: var(--accent-soft) !important;
+  color: var(--accent-dark) !important;
+  border: 1.5px solid var(--accent-mid) !important;
+  border-radius: 999px !important;
+  padding: 0.5rem 1.25rem !important;
+  font-weight: 700 !important;
+  font-size: 0.95rem !important;
+  text-decoration: none !important;
+  transition: background 0.18s, box-shadow 0.18s;
+}
+
+.page-nav a:hover {
+  background: var(--accent-mid) !important;
+  color: white !important;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.12);
+}
+
+.page-nav-back { margin-right: auto; }
+.page-nav-next { margin-left: auto; }

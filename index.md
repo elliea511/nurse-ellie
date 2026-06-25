@@ -14,6 +14,12 @@ title: Nursing Notes
 
 <div class="home-button-grid">
 
+  <a class="home-big-button red" href="{{ '/emergency-prep.html' | relative_url }}">
+    <span class="tile-emoji">🫀</span>
+    <span class="button-title">Cardiac Emergency Prep</span>
+    <span class="button-subtitle">MI, angina, CHF, hypertensive crisis & more</span>
+  </a>
+
   <a class="home-big-button blush" href="{{ '/maternity.html' | relative_url }}">
     <span class="tile-emoji">🤰</span>
     <span class="button-title">Maternity</span>

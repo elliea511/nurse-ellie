@@ -172,3 +172,10 @@ Avoid:
 * Avoid aspirin and NSAIDs.
 * Give the missing clotting factor.
 * Do not overprotect the child completely; promote safe activity.
+
+---
+
+<div class="page-nav">
+  <a href="{{ '/medical-emergencies/cardiac-perfusion/hypertensive-crisis.html' | relative_url }}" class="page-nav-back">← Hypertensive Crisis</a>
+  <a href="{{ '/medical-emergencies/cardiac-perfusion/ekg-strips.html' | relative_url }}" class="page-nav-next">EKG Strips Interpretation Guide →</a>
+</div>
