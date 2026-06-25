@@ -2514,387 +2514,531 @@ a.video-preview-card:hover .play-button {
   color: #f48fb1 !important;
 }
 
+/* ══════════════════════════════════════════════════════════════════
+   MY NOTES — modern, professional layout
+   ══════════════════════════════════════════════════════════════════ */
+
+/* Page wrapper */
+#review-page-content {
+  max-width: 780px !important;
+  margin: 0 auto !important;
+  padding: 0.5rem 0 2rem !important;
+}
+
+/* ── Header ─────────────────────────────────────────────────────── */
 .review-header {
   display: flex !important;
-  align-items: baseline !important;
-  flex-wrap: wrap !important;
-  gap: 0.75rem !important;
+  flex-direction: column !important;
+  gap: 0.3rem !important;
   margin-bottom: 2rem !important;
-  border-bottom: 2px solid #f0f0f0 !important;
-  padding-bottom: 1rem !important;
+  padding-bottom: 1.25rem !important;
+  border-bottom: 1px solid #e8e8ee !important;
+}
+
+.review-header-title-row {
+  display: flex !important;
+  align-items: center !important;
+  gap: 0.65rem !important;
 }
 
 .review-title {
   margin: 0 !important;
-  font-size: 1.6rem !important;
+  font-size: 1.7rem !important;
+  font-weight: 700 !important;
+  letter-spacing: -0.02em !important;
+  color: #1a1a2e !important;
+  background: none !important;
+  -webkit-text-fill-color: unset !important;
+  background-clip: unset !important;
   flex: 1 !important;
 }
 
 .review-subtitle {
-  color: #999 !important;
-  font-size: 0.88rem !important;
+  color: #aaa !important;
+  font-size: 0.82rem !important;
   margin: 0 !important;
+  letter-spacing: 0.01em !important;
+}
+
+/* Header action buttons */
+.review-edit-btn {
+  font-size: 1.05rem !important;
+  line-height: 1 !important;
+  background: none !important;
+  border: 1.5px solid #e0e0e8 !important;
+  border-radius: 8px !important;
+  color: #999 !important;
+  cursor: pointer !important;
+  padding: 0.22rem 0.55rem !important;
+  transition: color 0.15s, border-color 0.15s, background 0.15s !important;
+}
+.review-edit-btn:hover {
+  color: #5b7fe8 !important;
+  border-color: #b0c4f4 !important;
+  background: #f4f7ff !important;
+}
+
+.review-pdf-btn {
+  font-size: 0.78rem !important;
+  padding: 0.28rem 0.85rem !important;
+  border: 1.5px solid #e0e0e8 !important;
+  border-radius: 8px !important;
+  background: #fff !important;
+  color: #777 !important;
+  cursor: pointer !important;
+  font-family: inherit !important;
+  transition: background 0.15s, border-color 0.15s, color 0.15s !important;
+  margin-left: auto !important;
+}
+.review-pdf-btn:hover {
+  background: #f4f7ff !important;
+  border-color: #b0c4f4 !important;
+  color: #4a6ed4 !important;
 }
 
 .review-clear-all {
-  margin-left: auto !important;
-  font-size: 0.78rem !important;
-  padding: 0.3rem 0.8rem !important;
-  border: 1px solid #f5c6cb !important;
-  border-radius: 6px !important;
-  background: #fff5f5 !important;
+  font-size: 0.75rem !important;
+  padding: 0.25rem 0.75rem !important;
+  border: 1px solid #fbd0d0 !important;
+  border-radius: 7px !important;
+  background: #fff8f8 !important;
   color: #c0392b !important;
   cursor: pointer !important;
   font-family: inherit !important;
+  margin-left: 0.25rem !important;
 }
-
 .review-clear-all:hover { background: #fde8e8 !important; }
 
+.review-refresh-btn {
+  font-size: 0.76rem !important;
+  padding: 0.22rem 0.7rem !important;
+  border: 1px solid #e0e0e8 !important;
+  border-radius: 7px !important;
+  background: none !important;
+  color: #aaa !important;
+  cursor: pointer !important;
+  font-family: inherit !important;
+  margin-left: auto !important;
+}
+.review-refresh-btn:hover { color: #5b7fe8 !important; border-color: #b0c4f4 !important; }
+
+/* ── Edit-mode toolbar ──────────────────────────────────────────── */
+.review-edit-controls {
+  display: flex !important;
+  align-items: center !important;
+  gap: 0.6rem !important;
+  padding: 0.55rem 0.85rem !important;
+  background: #f4f7ff !important;
+  border: 1.5px solid #c0d0f4 !important;
+  border-radius: 10px !important;
+  margin-bottom: 1.1rem !important;
+}
+
+.review-edit-save {
+  font-size: 0.8rem !important;
+  padding: 0.32rem 0.95rem !important;
+  border-radius: 7px !important;
+  border: none !important;
+  background: #5b7fe8 !important;
+  color: #fff !important;
+  cursor: pointer !important;
+  font-family: inherit !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.01em !important;
+}
+.review-edit-save:hover { background: #4a6ed4 !important; }
+
+.review-edit-cancel {
+  font-size: 0.8rem !important;
+  padding: 0.32rem 0.95rem !important;
+  border-radius: 7px !important;
+  border: 1.5px solid #dde !important;
+  background: #fff !important;
+  color: #888 !important;
+  cursor: pointer !important;
+  font-family: inherit !important;
+}
+.review-edit-cancel:hover { background: #f5f5f8 !important; }
+
+.review-edit-hint {
+  font-size: 0.72rem !important;
+  color: #b0b8d0 !important;
+  margin-left: 0.25rem !important;
+  font-style: italic !important;
+}
+
+/* ── Cards ──────────────────────────────────────────────────────── */
 .review-card {
   background: #fff !important;
-  border: 1px solid #e8e8e8 !important;
-  border-radius: 12px !important;
-  padding: 1.25rem 1.5rem !important;
+  border: 1px solid #ebebf0 !important;
+  border-radius: 14px !important;
+  padding: 1.35rem 1.6rem 1rem !important;
   margin-bottom: 1.5rem !important;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.05) !important;
+  box-shadow: 0 2px 12px rgba(30,30,60,0.06) !important;
 }
 
 .review-card-header {
   display: flex !important;
   align-items: center !important;
   justify-content: space-between !important;
-  margin-bottom: 1rem !important;
-  padding-bottom: 0.6rem !important;
-  border-bottom: 1px solid #f0f0f0 !important;
+  margin-bottom: 1.1rem !important;
+  padding-bottom: 0.7rem !important;
+  border-bottom: 1px solid #f0f0f5 !important;
 }
 
 .review-card-title {
-  font-weight: 800 !important;
-  font-size: 1rem !important;
+  font-weight: 700 !important;
+  font-size: 0.98rem !important;
   color: #1a1a2e !important;
   text-decoration: none !important;
+  letter-spacing: -0.01em !important;
 }
-
 .review-card-title:hover { text-decoration: underline !important; }
 
 .review-card-count {
-  font-size: 0.75rem !important;
-  color: #aaa !important;
-  background: #f5f5f5 !important;
-  padding: 0.15rem 0.5rem !important;
+  font-size: 0.72rem !important;
+  color: #b0b0bc !important;
+  background: #f4f4f8 !important;
+  padding: 0.15rem 0.55rem !important;
   border-radius: 999px !important;
+  letter-spacing: 0.01em !important;
 }
 
+/* ── Color groups ───────────────────────────────────────────────── */
 .review-color-group {
-  margin-bottom: 0.75rem !important;
+  margin-bottom: 1rem !important;
 }
 
 .review-color-label {
-  display: block !important;
-  font-size: 0.68rem !important;
-  font-weight: 800 !important;
-  letter-spacing: 0.12em !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 0.35rem !important;
+  font-size: 0.67rem !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.1em !important;
   text-transform: uppercase !important;
-  padding: 0.2rem 0 0.2rem 1rem !important;
-  margin-bottom: 0.5rem !important;
-  color: #888 !important;
-  border-bottom: 1px solid #eee !important;
+  color: #aaa !important;
+  margin-bottom: 0.55rem !important;
+  padding: 0 0.1rem !important;
 }
+/* Tiny color dot before the label */
+.review-color-label::before {
+  content: '' !important;
+  display: inline-block !important;
+  width: 8px !important;
+  height: 8px !important;
+  border-radius: 50% !important;
+  flex-shrink: 0 !important;
+}
+.review-color-label.hl-yellow::before { background: #f5c400 !important; }
+.review-color-label.hl-pink::before   { background: #e06090 !important; }
+.review-color-label.hl-blue::before   { background: #4488dd !important; }
+.review-color-label.hl-green::before  { background: #33aa66 !important; }
 
+/* ── Highlight list & items ─────────────────────────────────────── */
 .review-hl-list {
   margin: 0 !important;
-  padding: 0 0 0 0.5rem !important;
+  padding: 0 !important;
   display: flex !important;
   flex-direction: column !important;
+  gap: 0.5rem !important;
 }
 
 .review-hl-item {
-  font-size: 0.92rem !important;
-  line-height: 1.6 !important;
-  padding: 0.45rem 0 !important;
+  font-size: 0.93rem !important;
+  line-height: 1.65 !important;
   position: relative !important;
 }
 
-.review-hl-item + .review-hl-item::before {
-  content: '' !important;
+/* ── Highlight marks — clean, color-tinted cards ────────────────── */
+.review-card mark.hl {
   display: block !important;
-  width: 50% !important;
-  height: 1px !important;
-  background: currentColor !important;
-  opacity: 0.15 !important;
-  margin: 0 auto 0.45rem !important;
+  background-image: none !important;
+  border-radius: 8px !important;
+  padding: 0.6rem 0.95rem 0.6rem 1.1rem !important;
+  font-size: 0.92rem !important;
+  line-height: 1.65 !important;
+  white-space: pre-wrap !important;
+  cursor: default !important;
+  border-left: 3.5px solid transparent !important;
+  box-shadow: none !important;
+  -webkit-text-fill-color: #1e1e2e !important;
+  color: #1e1e2e !important;
+  transition: filter 0.12s !important;
 }
 
-.review-hl-list mark {
-  border-radius: 3px !important;
-  padding: 0.1rem 0.3rem !important;
+/* Per-color tinted backgrounds */
+.review-card mark.hl-yellow {
+  background-color: #fffbeb !important;
+  border-left-color: #f5c400 !important;
+}
+.review-card mark.hl-pink {
+  background-color: #fff0f5 !important;
+  border-left-color: #e06090 !important;
+}
+.review-card mark.hl-blue {
+  background-color: #eff6ff !important;
+  border-left-color: #4488dd !important;
+}
+.review-card mark.hl-green {
+  background-color: #f0fdf4 !important;
+  border-left-color: #33aa66 !important;
 }
 
-.review-page-clear {
-  margin-top: 1rem !important;
-  font-size: 0.75rem !important;
-  padding: 0.25rem 0.65rem !important;
-  border: 1px solid #e0e0e0 !important;
-  border-radius: 6px !important;
-  background: none !important;
-  color: #bbb !important;
-  cursor: pointer !important;
-  font-family: inherit !important;
-}
+.review-card mark.hl:hover { filter: brightness(0.97) !important; }
 
-.review-page-clear:hover { color: #c0392b !important; border-color: #f5c6cb !important; }
-
-.review-table-group { margin-top: 0.75rem !important; }
-
-.review-table-link {
-  display: block !important;
-  text-decoration: none !important;
-  margin-top: 0.5rem !important;
-}
-
+/* ── Table wraps ────────────────────────────────────────────────── */
 .review-table-wrap {
   overflow-x: auto !important;
-  border-radius: 8px !important;
-  border: 1px solid #e8e8e8 !important;
+  border-radius: 10px !important;
+  border-left: 3.5px solid #ddd !important;
+  background: #fafafa !important;
+  padding: 0.6rem 0.75rem 0.6rem 1rem !important;
+  box-shadow: none !important;
 }
+.review-table-wrap[data-color="yellow"] { border-left-color: #f5c400 !important; background-color: #fffdf0 !important; }
+.review-table-wrap[data-color="pink"]   { border-left-color: #e06090 !important; background-color: #fff5f8 !important; }
+.review-table-wrap[data-color="blue"]   { border-left-color: #4488dd !important; background-color: #f3f8ff !important; }
+.review-table-wrap[data-color="green"]  { border-left-color: #33aa66 !important; background-color: #f2fdf6 !important; }
 
 .review-table-wrap table {
   width: 100% !important;
   margin: 0 !important;
-  font-size: 0.88rem !important;
+  font-size: 0.86rem !important;
   border-collapse: collapse !important;
+  background: transparent !important;
 }
-
 .review-table-wrap td,
 .review-table-wrap th {
-  border: 1px solid #e0e0e0 !important;
-  padding: 0.4rem 0.65rem !important;
+  border: 1px solid rgba(0,0,0,0.09) !important;
+  padding: 0.38rem 0.65rem !important;
+  background: rgba(255,255,255,0.7) !important;
 }
-
-/* ── My Notes — notebook paper styling ─────────────────────────── */
-$nb-bg:    #fdfcf4;
-$nb-line:  #c9dcea;
-$nb-lh:    28px;
-
-.review-card mark.hl {
-  display: block !important;
-  background-image: repeating-linear-gradient(
-    #{$nb-bg} 0px, #{$nb-bg} calc(#{$nb-lh} - 1px), #{$nb-line} #{$nb-lh}
-  ) !important;
-  background-color: #{$nb-bg} !important;
-  -webkit-text-fill-color: #2a2a3a !important;
+.review-table-wrap th {
+  font-weight: 600 !important;
+  background: rgba(255,255,255,0.9) !important;
   color: #2a2a3a !important;
-  border-radius: 0 5px 5px 0 !important;
-  padding: 0.5rem 0.9rem 0.5rem 1rem !important;
-  line-height: #{$nb-lh} !important;
-  font-size: 0.93rem !important;
-  white-space: pre-wrap !important;
-  cursor: default !important;
-  border-left: 4px solid #ddd !important;
-  box-shadow: 0 1px 4px rgba(0,0,0,0.06) !important;
 }
 
-.review-card mark.hl:hover { opacity: 1 !important; text-decoration: none !important; }
-
-.review-card mark.hl-yellow { border-left-color: #e6b800 !important; }
-.review-card mark.hl-pink   { border-left-color: #e06090 !important; }
-.review-card mark.hl-blue   { border-left-color: #4488dd !important; }
-.review-card mark.hl-green  { border-left-color: #33aa66 !important; }
-
-/* Table wrapper on review page — notebook background + color stripe */
-.review-table-wrap {
-  background-image: repeating-linear-gradient(
-    #{$nb-bg} 0px, #{$nb-bg} calc(#{$nb-lh} - 1px), #{$nb-line} #{$nb-lh}
-  ) !important;
-  background-color: #{$nb-bg} !important;
-  padding: 0.5rem 0.5rem 0.5rem 1rem !important;
-  border-left: 4px solid #ddd !important;
-  border-radius: 0 8px 8px 0 !important;
-  box-shadow: 0 1px 4px rgba(0,0,0,0.06) !important;
-}
-
-.review-table-wrap[data-color="yellow"] { border-left-color: #e6b800 !important; }
-.review-table-wrap[data-color="pink"]   { border-left-color: #e06090 !important; }
-.review-table-wrap[data-color="blue"]   { border-left-color: #4488dd !important; }
-.review-table-wrap[data-color="green"]  { border-left-color: #33aa66 !important; }
-
-/* Table cells on review page sit on the notebook background */
-.review-table-wrap table { background: transparent !important; }
-.review-table-wrap td,
-.review-table-wrap th {
-  background: rgba(255,255,255,0.72) !important;
-}
-
-/* ── My Notes — edit & PDF controls ────────────────────────────── */
-.review-header-title-row {
-  display: flex !important;
-  align-items: center !important;
-  gap: 0.6rem !important;
-  margin-bottom: 0.4rem !important;
-}
-
-.review-edit-btn {
-  font-size: 1.15rem !important;
-  line-height: 1 !important;
-  background: none !important;
-  border: 1.5px solid #ddd !important;
-  border-radius: 7px !important;
-  color: #888 !important;
-  cursor: pointer !important;
-  padding: 0.2rem 0.5rem !important;
-  transition: color 0.15s, border-color 0.15s !important;
-}
-.review-edit-btn:hover {
-  color: #5b7fe8 !important;
-  border-color: #a0b4e8 !important;
-}
-
-.review-pdf-btn {
-  font-size: 0.8rem !important;
-  padding: 0.28rem 0.8rem !important;
-  border: 1.5px solid #ddd !important;
-  border-radius: 7px !important;
-  background: #fff !important;
-  color: #666 !important;
-  cursor: pointer !important;
-  font-family: inherit !important;
-  transition: background 0.15s, border-color 0.15s !important;
-  margin-left: auto !important;
-}
-.review-pdf-btn:hover {
-  background: #f0f4ff !important;
-  border-color: #a0b4e8 !important;
-  color: #4a6ed4 !important;
-}
-
-.review-refresh-btn {
-  font-size: 0.78rem !important;
-  padding: 0.25rem 0.75rem !important;
-  border: 1px solid #e0e0e0 !important;
+/* ── Per-page clear ─────────────────────────────────────────────── */
+.review-page-clear {
+  margin-top: 1rem !important;
+  font-size: 0.72rem !important;
+  padding: 0.22rem 0.6rem !important;
+  border: 1px solid #eee !important;
   border-radius: 6px !important;
   background: none !important;
-  color: #aaa !important;
-  cursor: pointer !important;
-  font-family: inherit !important;
-  margin-left: auto !important;
-}
-.review-refresh-btn:hover { color: #5b7fe8 !important; border-color: #a0b4e8 !important; }
-
-.review-edit-controls {
-  display: flex !important;
-  align-items: center !important;
-  gap: 0.6rem !important;
-  padding: 0.5rem 0.75rem !important;
-  background: #f8f9fe !important;
-  border: 1.5px solid #c5d0f0 !important;
-  border-radius: 8px !important;
-  margin-bottom: 1rem !important;
-}
-
-.review-edit-save {
-  font-size: 0.82rem !important;
-  padding: 0.3rem 0.9rem !important;
-  border-radius: 6px !important;
-  border: none !important;
-  background: #5b7fe8 !important;
-  color: #fff !important;
+  color: #ccc !important;
   cursor: pointer !important;
   font-family: inherit !important;
 }
-.review-edit-save:hover { background: #4a6ed4 !important; }
+.review-page-clear:hover { color: #c0392b !important; border-color: #fbd0d0 !important; }
 
-.review-edit-cancel {
-  font-size: 0.82rem !important;
-  padding: 0.3rem 0.9rem !important;
-  border-radius: 6px !important;
-  border: 1px solid #ddd !important;
-  background: #fff !important;
-  color: #888 !important;
-  cursor: pointer !important;
-  font-family: inherit !important;
+/* ── Empty / loading states ─────────────────────────────────────── */
+.review-empty {
+  text-align: center !important;
+  padding: 5rem 2rem !important;
+  color: #ccc !important;
 }
-.review-edit-cancel:hover { background: #f5f5f5 !important; }
+.review-empty-icon { font-size: 2.5rem !important; margin-bottom: 1rem !important; }
+.review-empty h2 { color: #bbb !important; margin: 0 0 0.5rem !important; font-size: 1.1rem !important; }
+.review-empty p { font-size: 0.88rem !important; line-height: 1.7 !important; color: #ccc !important; }
+.review-loading { color: #ccc !important; font-style: italic !important; }
 
-.review-edit-hint {
-  font-size: 0.75rem !important;
-  color: #aaa !important;
-  margin-left: 0.5rem !important;
-  font-style: italic !important;
-}
-
-/* Edit mode — contenteditable cards */
+/* ── Edit mode — strip formatting, show plain text ──────────────── */
 #review-cards.review-cards-editing {
-  outline: 2px dashed #a0b4e8 !important;
-  outline-offset: 4px !important;
-  border-radius: 10px !important;
-  min-height: 4rem !important;
+  outline: 2px dashed #b0c4f4 !important;
+  outline-offset: 6px !important;
+  border-radius: 12px !important;
 }
 #review-cards.review-cards-editing .review-card {
   cursor: text !important;
 }
+/* Flatten marks in edit mode so text feels plain and editable */
 #review-cards.review-cards-editing mark.hl {
+  background-color: transparent !important;
+  background-image: none !important;
+  border-left-color: #dde !important;
+  -webkit-text-fill-color: #333 !important;
+  color: #333 !important;
   cursor: text !important;
+  border-radius: 4px !important;
+  padding: 0.3rem 0.5rem !important;
 }
+/* Flatten table wraps in edit mode */
+#review-cards.review-cards-editing .review-table-wrap {
+  background: #fafafa !important;
+  border-left-color: #dde !important;
+}
+
+/* ── Heading highlights on review page ──────────────────────────── */
+.review-hl-heading {
+  margin: 0 !important;
+  padding: 0.3rem 0.75rem !important;
+  border-radius: 6px !important;
+  font-weight: 700 !important;
+  line-height: 1.35 !important;
+  background: none !important;
+  -webkit-text-fill-color: unset !important;
+}
+
+.review-card h1.review-hl-heading,
+.review-card h2.review-hl-heading,
+.review-card h3.review-hl-heading,
+.review-card h4.review-hl-heading,
+.review-card h5.review-hl-heading,
+.review-card h6.review-hl-heading {
+  background: none !important;
+  -webkit-text-fill-color: unset !important;
+}
+
+.review-card h1.review-hl-heading { font-size: 1.3rem !important; border-bottom: 2px solid #e0e0e0 !important; padding-bottom: 0.4rem !important; color: #1a1a2e !important; }
+.review-card h2.review-hl-heading { font-size: 1.1rem !important; color: #2a2a3e !important; }
+.review-card h3.review-hl-heading { font-size: 0.98rem !important; color: #3a3a4e !important; }
+.review-card h4.review-hl-heading,
+.review-card h5.review-hl-heading,
+.review-card h6.review-hl-heading { font-size: 0.9rem !important; color: #555 !important; }
+
+/* Color-coded accent on heading highlights */
+.review-hl-heading-yellow { border-left: 3.5px solid #f5c400 !important; background-color: #fffbeb !important; }
+.review-hl-heading-pink   { border-left: 3.5px solid #e06090 !important; background-color: #fff0f5 !important; }
+.review-hl-heading-blue   { border-left: 3.5px solid #4488dd !important; background-color: #eff6ff !important; }
+.review-hl-heading-green  { border-left: 3.5px solid #33aa66 !important; background-color: #f0fdf4 !important; }
 
 /* ── Print / Save as PDF ─────────────────────────────────────────── */
 @media print {
-  /* Hide all site chrome */
-  .site-header, .sidebar, .site-footer,
+  @page { size: letter; margin: 0.45in; }
+
+  /* Hide all site chrome and UI buttons */
+  .sidebar, .site-header, .site-footer,
   .review-edit-btn, .review-pdf-btn, .review-refresh-btn,
   .review-edit-controls, .review-clear-all, .review-page-clear,
-  .confidence-bar, #cf-review-panel,
-  .thl-strip, .font-controls, #print-btn { display: none !important; }
+  .review-color-label, .confidence-bar, #cf-review-panel,
+  .thl-strip, .font-controls, #print-btn,
+  nav, .nav, .menu, button { display: none !important; }
 
-  body, .main-content, #review-page-content {
+  body {
+    background: white !important;
+    color: #222 !important;
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-size: 11pt !important;
+    line-height: 1.35 !important;
+  }
+
+  .main-content, #review-page-content {
+    width: 100% !important;
+    max-width: 100% !important;
     margin: 0 !important;
     padding: 0 !important;
-    width: 100% !important;
-    max-width: none !important;
-    background: #fff !important;
-    font-size: 11pt !important;
-    color: #000 !important;
+    box-shadow: none !important;
+    background: white !important;
   }
+
+  h1 {
+    font-size: 20pt !important;
+    margin-bottom: 10px !important;
+    color: #222 !important;
+    border-bottom: 2px solid #999 !important;
+    padding-bottom: 6px !important;
+    background: none !important;
+    -webkit-text-fill-color: #222 !important;
+  }
+
+  .review-card h1.review-hl-heading { font-size: 16pt !important; color: #222 !important; -webkit-text-fill-color: #222 !important; }
+
+  h2, .review-card h2.review-hl-heading {
+    font-size: 14pt !important;
+    margin-top: 18px !important;
+    margin-bottom: 7px !important;
+    color: #222 !important;
+    -webkit-text-fill-color: #222 !important;
+    background: #f1f1f1 !important;
+    border-left: 5px solid #999 !important;
+    padding: 5px 10px !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    break-after: avoid !important;
+  }
+
+  h3, .review-card h3.review-hl-heading {
+    font-size: 12pt !important;
+    margin-top: 13px !important;
+    color: #222 !important;
+    -webkit-text-fill-color: #222 !important;
+    border-bottom: 1px solid #aaa !important;
+    padding-bottom: 3px !important;
+    background: none !important;
+    break-after: avoid !important;
+  }
+
+  p { margin: 5px 0 !important; }
+
+  ul, ol { margin-top: 4px !important; margin-bottom: 8px !important; padding-left: 22px !important; }
+  li { margin-bottom: 3px !important; }
 
   .review-card {
     border: 1px solid #ccc !important;
-    border-radius: 6px !important;
-    padding: 0.75rem !important;
-    margin-bottom: 1rem !important;
+    border-radius: 0 !important;
+    padding: 10px 12px !important;
+    margin-bottom: 14px !important;
     page-break-inside: avoid !important;
+    break-inside: avoid !important;
     box-shadow: none !important;
   }
 
   .review-card mark.hl {
-    background-image: none !important;
-    background-color: transparent !important;
-    -webkit-text-fill-color: #000 !important;
-    color: #000 !important;
-    border-left-width: 3px !important;
-    padding: 0.2rem 0.5rem !important;
+    background: #f8f8f8 !important;
+    -webkit-text-fill-color: #222 !important;
+    color: #222 !important;
+    border-left: 4px solid #999 !important;
+    border-radius: 0 !important;
+    padding: 4px 8px !important;
     box-shadow: none !important;
+    display: block !important;
   }
+
+  .review-card mark.hl-yellow { border-left-color: #c9a000 !important; }
+  .review-card mark.hl-pink   { border-left-color: #c0407a !important; }
+  .review-card mark.hl-blue   { border-left-color: #3366cc !important; }
+  .review-card mark.hl-green  { border-left-color: #2a8855 !important; }
+
+  table {
+    width: 100% !important;
+    border-collapse: collapse !important;
+    font-size: 9.5pt !important;
+    margin: 10px 0 !important;
+    box-shadow: none !important;
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+  }
+
+  th {
+    background: #e6e6e6 !important;
+    color: #222 !important;
+    font-weight: bold !important;
+  }
+
+  th, td {
+    border: 1px solid #999 !important;
+    padding: 5px 6px !important;
+    vertical-align: top !important;
+  }
+
+  tr { page-break-inside: avoid !important; break-inside: avoid !important; }
 
   .review-table-wrap {
-    background-image: none !important;
-    background-color: transparent !important;
+    background: transparent !important;
     box-shadow: none !important;
-    border-left-width: 3px !important;
+    border-left: 4px solid #999 !important;
+    padding: 4px 8px !important;
   }
+
+  a { color: #222 !important; text-decoration: none !important; }
+
+  iframe, video, .video-card, .video-wrapper { display: none !important; }
 }
 
-.review-empty {
-  text-align: center !important;
-  padding: 4rem 2rem !important;
-  color: #aaa !important;
-}
-
-.review-empty-icon { font-size: 3rem !important; margin-bottom: 1rem !important; }
-.review-empty h2 { color: #bbb !important; margin-bottom: 0.5rem !important; }
-.review-empty p { font-size: 0.9rem !important; line-height: 1.7 !important; }
-
-.review-loading { color: #ccc !important; font-style: italic !important; }
-
-/* ── Highlight jump pulse ──────────────────────────────────────── */
+/* ── Pulse animation (used on source pages) ─────────────────────── */
 @keyframes hl-pulse {
   0%   { box-shadow: 0 0 0 0 rgba(255,200,0,0.7); }
   60%  { box-shadow: 0 0 0 10px rgba(255,200,0,0); }
@@ -2905,14 +3049,8 @@ $nb-lh:    28px;
   border-radius: 3px !important;
 }
 
-/* ── Review page clickable highlight links ─────────────────────── */
-.review-hl-link {
-  text-decoration: none !important;
-}
-.review-hl-link:hover mark {
-  filter: brightness(0.92) !important;
-  cursor: pointer !important;
-}
+.review-hl-link { text-decoration: none !important; }
+.review-hl-link:hover mark { filter: brightness(0.93) !important; cursor: pointer !important; }
 
 /* ── Review page header ─────────────────────────────────────────── */
 .review-header {
