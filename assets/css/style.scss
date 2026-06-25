@@ -2860,10 +2860,16 @@ body[data-section="review"] .main-content,
 }
 
 .qsc-pct {
-  font-size: 1.4rem !important;
+  font-size: 1.3rem !important;
   font-weight: 800 !important;
   color: #1a1a2e !important;
   line-height: 1.2 !important;
+}
+
+.qsc-pct-num {
+  font-size: 0.95rem !important;
+  font-weight: 600 !important;
+  color: #777 !important;
 }
 
 .qsc-fraction {

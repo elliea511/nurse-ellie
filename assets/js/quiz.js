@@ -4,19 +4,23 @@
   content.dataset.quizInit = '1';
 
   var detailsBlocks = Array.from(content.querySelectorAll('details'));
-  var quizBlocks = []; // { gotItRight, answered: false }
+  var quizBlocks = []; // { answered, gotItRight, reset }
 
-  // ── Score card (injected after last question) ─────────────────
+  // ── Score card ────────────────────────────────────────────────
   var scoreCard = document.createElement('div');
   scoreCard.className = 'quiz-score-card';
   scoreCard.style.display = 'none';
 
   function updateScoreCard() {
-    var total     = quizBlocks.length;
-    var done      = quizBlocks.filter(function (b) { return b.answered; }).length;
-    var correct   = quizBlocks.filter(function (b) { return b.answered && b.gotItRight; }).length;
-    var pct       = total ? Math.round((correct / total) * 100) : 0;
+    var total    = quizBlocks.length;
+    var done     = quizBlocks.filter(function (b) { return b.answered; }).length;
+    var correct  = quizBlocks.filter(function (b) { return b.answered && b.gotItRight; }).length;
+    var wrong    = quizBlocks.filter(function (b) { return b.answered && !b.gotItRight; }).length;
     var remaining = total - done;
+
+    // Assume unanswered = correct, so score goes DOWN as you get things wrong
+    var assumed  = correct + remaining;
+    var pct      = total ? Math.round((assumed / total) * 100) : 100;
 
     var grade, gradeClass;
     if (pct >= 90)      { grade = 'A';  gradeClass = 'grade-a'; }
@@ -25,35 +29,46 @@
     else if (pct >= 60) { grade = 'D';  gradeClass = 'grade-d'; }
     else                { grade = 'F';  gradeClass = 'grade-f'; }
 
-    var msg = pct >= 80
+    var allDone = remaining === 0;
+    var finalPct = allDone ? Math.round((correct / total) * 100) : pct;
+    var finalGrade = grade;
+    if (allDone) {
+      if (finalPct >= 90)      { finalGrade = 'A'; gradeClass = 'grade-a'; }
+      else if (finalPct >= 80) { finalGrade = 'B'; gradeClass = 'grade-b'; }
+      else if (finalPct >= 70) { finalGrade = 'C'; gradeClass = 'grade-c'; }
+      else if (finalPct >= 60) { finalGrade = 'D'; gradeClass = 'grade-d'; }
+      else                     { finalGrade = 'F'; gradeClass = 'grade-f'; }
+    }
+
+    var msg = finalPct >= 80
       ? '🎉 Great work — you\'re ready!'
-      : pct >= 70
+      : finalPct >= 70
         ? '📚 Almost there — review the ones you missed.'
         : '💪 Keep studying — you\'ve got this!';
 
     scoreCard.className = 'quiz-score-card ' + gradeClass;
     scoreCard.innerHTML =
-      '<div class="qsc-grade">' + grade + '</div>' +
+      '<div class="qsc-grade">' + finalGrade + '</div>' +
       '<div class="qsc-details">' +
-        '<div class="qsc-pct">' + pct + '%</div>' +
-        '<div class="qsc-fraction">' + correct + ' / ' + total + ' correct</div>' +
-        (remaining > 0
-          ? '<div class="qsc-remaining">' + remaining + ' question' + (remaining === 1 ? '' : 's') + ' left</div>'
-          : '<div class="qsc-msg">' + msg + '</div>') +
+        '<div class="qsc-pct">' + (allDone ? correct : assumed) + ' / ' + total + ' &nbsp;<span class="qsc-pct-num">' + (allDone ? finalPct : pct) + '%</span></div>' +
+        (allDone
+          ? '<div class="qsc-msg">' + msg + '</div>'
+          : '<div class="qsc-remaining">' + remaining + ' question' + (remaining === 1 ? '' : 's') + ' remaining</div>') +
       '</div>' +
-      '<button class="qsc-reset">↺ Retake quiz</button>';
+      '<button class="qsc-reset">↺ Retake</button>';
 
     scoreCard.style.display = done > 0 ? 'flex' : 'none';
 
     scoreCard.querySelector('.qsc-reset').addEventListener('click', function () {
-      // Reset handled per-block via their retry buttons — just scroll to top
+      quizBlocks.forEach(function (b) { if (b.reset) b.reset(); });
+      scoreCard.style.display = 'none';
       window.scrollTo({ top: content.offsetTop - 80, behavior: 'smooth' });
     });
   }
 
   // ── Build each question ───────────────────────────────────────
   detailsBlocks.forEach(function (details) {
-    var answerEl   = details.querySelector('.quiz-answer');
+    var answerEl    = details.querySelector('.quiz-answer');
     var rationaleEl = details.querySelector('.quiz-rationale');
     if (!answerEl) return;
 
@@ -61,7 +76,6 @@
     var correctLetters = answerText.split(',').map(function (s) { return s.trim().charAt(0).toUpperCase(); });
     var isSATA         = correctLetters.length > 1;
 
-    // Collect preceding .answer-choice siblings
     var choices = [];
     var node = details.previousElementSibling;
     while (node) {
@@ -74,8 +88,7 @@
     }
     if (!choices.length) return;
 
-    // Score tracking entry for this question
-    var scoreEntry = { answered: false, gotItRight: false };
+    var scoreEntry = { answered: false, gotItRight: false, reset: null };
     quizBlocks.push(scoreEntry);
 
     var block = document.createElement('div');
@@ -94,6 +107,7 @@
     var selected = new Set();
     var answered = false;
     var checkBtn;
+    var allBtns = [];
 
     choices.forEach(function (choice) {
       var letter = choice.textContent.trim().charAt(0).toUpperCase();
@@ -101,6 +115,7 @@
       btn.className      = 'quiz-choice-btn';
       btn.dataset.letter = letter;
       btn.innerHTML      = choice.innerHTML;
+      allBtns.push(btn);
 
       if (isSATA) {
         btn.addEventListener('click', function () {
@@ -137,7 +152,7 @@
     var rationalePanel = document.createElement('div');
     rationalePanel.className = 'quiz-rationale-panel';
 
-    var answerDisplay    = document.createElement('p');
+    var answerDisplay = document.createElement('p');
     answerDisplay.className = 'quiz-answer-display';
 
     var rationaleDisplay = document.createElement('p');
@@ -148,23 +163,39 @@
     rationalePanel.appendChild(rationaleDisplay);
     block.appendChild(rationalePanel);
 
+    function resetBlock() {
+      allBtns.forEach(function (b) {
+        b.classList.remove('correct', 'incorrect', 'selected');
+        b.disabled = false;
+      });
+      selected.clear();
+      answered = false;
+      scoreEntry.answered   = false;
+      scoreEntry.gotItRight = false;
+      rationalePanel.classList.remove('visible');
+      var retryBtn = rationalePanel.querySelector('.quiz-retry-btn');
+      if (retryBtn) retryBtn.remove();
+      if (checkBtn) checkBtn.style.display = '';
+    }
+
+    scoreEntry.reset = resetBlock;
+
     function revealAnswers(clickedLetter) {
-      var btns = Array.from(choiceWrap.querySelectorAll('.quiz-choice-btn'));
-      btns.forEach(function (b) {
+      allBtns.forEach(function (b) {
         var l = b.dataset.letter;
         var isCorrect   = correctLetters.indexOf(l) !== -1;
         var wasSelected = isSATA ? selected.has(l) : l === clickedLetter;
         b.classList.remove('selected');
-        if (isCorrect)                   b.classList.add('correct');
+        if (isCorrect)                      b.classList.add('correct');
         else if (wasSelected && !isCorrect) b.classList.add('incorrect');
         b.disabled = true;
       });
 
       if (checkBtn) checkBtn.style.display = 'none';
 
-      var allCorrect  = correctLetters.every(function (l) { return selected.has(l); });
-      var noneWrong   = Array.from(selected).every(function (l) { return correctLetters.indexOf(l) !== -1; });
-      var gotItRight  = isSATA ? (allCorrect && noneWrong) : clickedLetter === correctLetters[0];
+      var allCorrect = correctLetters.every(function (l) { return selected.has(l); });
+      var noneWrong  = Array.from(selected).every(function (l) { return correctLetters.indexOf(l) !== -1; });
+      var gotItRight = isSATA ? (allCorrect && noneWrong) : clickedLetter === correctLetters[0];
 
       scoreEntry.answered   = true;
       scoreEntry.gotItRight = gotItRight;
@@ -178,14 +209,7 @@
       retryBtn.className   = 'quiz-retry-btn';
       retryBtn.textContent = 'Try again';
       retryBtn.addEventListener('click', function () {
-        btns.forEach(function (b) { b.classList.remove('correct', 'incorrect', 'selected'); b.disabled = false; });
-        selected.clear();
-        answered = false;
-        scoreEntry.answered = false;
-        scoreEntry.gotItRight = false;
-        rationalePanel.classList.remove('visible');
-        if (checkBtn) checkBtn.style.display = '';
-        retryBtn.remove();
+        resetBlock();
         updateScoreCard();
       });
       rationalePanel.appendChild(retryBtn);
@@ -195,9 +219,7 @@
     details.style.display = 'none';
   });
 
-  // ── Append score card after last question ─────────────────────
   if (quizBlocks.length) {
     content.appendChild(scoreCard);
-    updateScoreCard();
   }
 })();
