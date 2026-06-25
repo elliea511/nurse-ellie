@@ -7,143 +7,205 @@ title: TIA & Stroke
 
 ## TIA — Transient Ischemic Attack
 
-| Topic | What to Know |
-|---|---|
-| What it is | A **sudden, temporary episode of neurological dysfunction** caused by decreased blood flow to the brain. |
-| Simple explanation | A TIA is like a **temporary warning stroke**. Symptoms go away, but it is still serious. |
-| Main problem | Temporary decreased cerebral blood flow. |
-| Why it matters | The brain cannot store oxygen or glucose, so it needs constant blood flow. |
-| NCLEX tip | Even if symptoms resolve, treat a TIA as a warning sign for a future stroke. |
+A TIA is a **sudden, temporary episode of neurological dysfunction** caused by decreased blood flow to the brain.
+
+Symptoms usually resolve, often in less than an hour.
+
+### Simple Explanation
+
+A TIA is like a temporary warning stroke.
+
+The symptoms go away, but it is still serious because it can be a warning sign of a future stroke.
+
+### Main Problem
+
+Temporary decreased cerebral blood flow.
+
+The brain needs constant blood flow because it cannot store oxygen or glucose.
 
 ---
 
-## TIA Signs and Nursing Care
+## Signs and Symptoms of TIA
 
-| Signs/Symptoms | Nursing Care | Teaching |
+Symptoms are sudden and may include:
+
+| Motor / Sensory | Speech / Understanding | Other |
 |---|---|---|
-| Visual changes | Assess neuro status | Take medications as prescribed |
-| Sudden weakness | Ask when symptoms started | Control blood pressure |
-| Sudden numbness | Ask when symptoms resolved | Control blood glucose if diabetic |
-| Trouble speaking | Notify provider | Stop smoking |
-| Trouble understanding speech | Monitor vital signs | Follow low-fat/heart-healthy diet if prescribed |
-| Dizziness or loss of balance | Assess blood glucose | Exercise as allowed |
-| Sudden sensory or motor changes | Monitor for return/worsening symptoms | Keep follow-up appointments |
-| Facial drooping | Teach stroke warning signs | Seek emergency care if symptoms return |
+| Sudden weakness | Trouble speaking | Visual changes |
+| Sudden numbness | Trouble understanding speech | Dizziness |
+| Sudden sensory changes |  | Loss of balance |
+| Sudden motor changes |  | Facial drooping |
 
-<div class="nclex-tip">
-<strong>NCLEX Tip:</strong> Do not ignore symptoms just because they went away. A TIA means the client is at risk for stroke.
+<div class="nclex">
+<strong>NCLEX Tip:</strong> Even if symptoms go away, a TIA is not “nothing.” Treat it as a warning sign that the client is at risk for stroke.
 </div>
 
 ---
 
-# Stroke — CVA / Brain Attack
+## Nursing Care for TIA
 
-## Big Picture
-
-| Topic | What to Know |
-|---|---|
-| What it is | A change in the normal blood supply to the brain. |
-| Other name | **Brain attack** |
-| Main problem | Brain tissue does not receive enough oxygen-rich blood, or there is bleeding in/around the brain. |
-| Why it is serious | The brain depends on constant blood flow because it cannot store oxygen or glucose. |
-| Hallmark finding | **Sudden onset of focal neurological symptoms** |
+| Nursing Care |
+|---|
+| Assess neurological status |
+| Ask when symptoms started |
+| Ask when symptoms resolved |
+| Notify provider |
+| Monitor vital signs |
+| Assess blood glucose |
+| Monitor for return or worsening of symptoms |
+| Teach stroke warning signs |
+| Teach risk factor control |
 
 ---
 
-# Types of Stroke
+## TIA Patient Teaching
 
-| Type | Cause | Main Concern | NCLEX Clue |
-|---|---|---|---|
-| **Ischemic stroke** | Blockage or interruption of blood flow to the brain | Lack of oxygen to brain tissue | Sudden neuro deficits; may be eligible for thrombolytics if criteria met |
-| **Hemorrhagic stroke** | Bleeding within or around the brain | Increased pressure and decreased perfusion | Severe headache, vomiting, decreased LOC, very high BP |
+Teach the client to control stroke risk factors:
+
+* Take medications as prescribed.
+* Control blood pressure.
+* Control blood glucose if diabetic.
+* Stop smoking.
+* Follow low-fat/heart-healthy diet if prescribed.
+* Exercise as allowed.
+* Keep follow-up appointments.
+* Seek emergency care if symptoms return.
+
+---
+
+## Stroke — CVA / Brain Attack
+
+### What It Is
+
+A stroke is a change in the normal blood supply to the brain.
+
+It is also called a **brain attack**.
+
+### Main Problem
+
+The brain tissue does not receive enough oxygen-rich blood, or there is bleeding in or around the brain.
+
+The brain cannot store oxygen or glucose, so it depends on constant blood flow to function.
+
+---
+
+## Types of Stroke
+
+| Type | Cause |
+|---|---|
+| Ischemic stroke | Blockage or interruption of blood flow to the brain |
+| Hemorrhagic stroke | Bleeding within or around the brain |
 
 ---
 
 ## Ischemic Stroke
 
-| Type | Cause | Common Source/Risk |
-|---|---|---|
-| **Thrombotic stroke** | Clot forms in an artery | Often related to atherosclerosis |
-| **Embolic stroke** | Clot travels from somewhere else to the brain | Atrial fibrillation, MI, blood stasis in the heart, cardiac dysrhythmias |
+An ischemic stroke occurs when blood flow to part of the brain is blocked.
 
-### What It Is
-
-An ischemic stroke occurs when blood flow to part of the brain is blocked. This may happen from partial or complete occlusion of an artery.
+This may happen from partial or complete occlusion of an artery.
 
 Most strokes are ischemic.
+
+### Types of Ischemic Stroke
+
+| Type | Cause |
+|---|---|
+| Thrombotic stroke | Clot forms in an artery, often from atherosclerosis |
+| Embolic stroke | Clot travels from somewhere else to the brain |
+
+### Embolic Stroke Sources
+
+An embolic stroke can be associated with:
+
+* Atrial fibrillation
+* MI
+* Blood stasis in the heart
+* Cardiac dysrhythmias
 
 ---
 
 ## Hemorrhagic Stroke
 
-| Cause/Risk Factor | Why It Matters |
-|---|---|
-| Severe hypertension | Can weaken/rupture vessels |
-| Aneurysm | Vessel may rupture and bleed |
-| Cranial hemorrhage | Blood collects inside the skull |
-| Anticoagulant use | Increases bleeding risk |
-| Head trauma | Can cause bleeding/swelling |
-| Vascular malformation | Abnormal vessels may rupture |
+A hemorrhagic stroke occurs when there is bleeding in or around the brain.
+
+### Causes / Risk Factors
+
+| Cause / Risk Factor |
+|---|
+| Severe hypertension |
+| Aneurysm |
+| Cranial hemorrhage |
+| Anticoagulant use |
+| Head trauma |
+| Vascular malformation |
 
 ### Why It Is Dangerous
 
-Blood collects in the skull and increases pressure on brain tissue. This can decrease perfusion and cause brain damage.
+Blood collects in the skull and increases pressure on brain tissue.
 
-<div class="priority-tip">
-<strong>Priority Tip:</strong> If stroke symptoms include severe headache, vomiting, or decreased LOC, think possible hemorrhagic stroke or increased ICP.
-</div>
+This can decrease perfusion and cause brain damage.
 
 ---
 
-# Stroke Risk Factors
+## Stroke Risk Factors
 
-| Risk Factor | Why It Matters |
+| Modifiable / Health-Related | Other / History |
 |---|---|
-| Hypertension | Major stroke risk factor; especially important with hemorrhagic stroke |
-| Obesity | Increases cardiovascular strain |
-| Smoking | Damages vessels and increases clot risk |
-| Cocaine use | Can cause severe hypertension/vasospasm |
-| Hyperlipidemia | Contributes to atherosclerosis |
-| Diabetes mellitus | Damages blood vessels |
-| Peripheral vascular disease | Shows systemic vascular disease |
-| Atrial fibrillation | Increases embolic stroke risk |
-| Previous TIA or stroke | Increases future stroke risk |
-| Aneurysm | Risk for hemorrhagic stroke |
-| Cranial hemorrhage | Risk for bleeding complications |
-| Carotid artery disease | Can reduce blood flow or send clots to brain |
-| Older age | Stroke risk increases with age |
+| Hypertension | Older age |
+| Obesity | Previous TIA or stroke |
+| Smoking | Aneurysm |
+| Cocaine use | Cranial hemorrhage |
+| Hyperlipidemia | Carotid artery disease |
+| Diabetes mellitus |  |
+| Peripheral vascular disease |  |
+| Atrial fibrillation |  |
 
-<div class="nclex-tip">
-<strong>NCLEX Tip:</strong> Hypertension is one of the biggest risk factors to remember, especially for hemorrhagic stroke.
-</div>
+### Biggest Risk Factor to Remember
+
+Hypertension is a major stroke risk factor.
+
+It is especially important with hemorrhagic stroke.
 
 ---
 
-# Stroke Manifestations
+## Stroke Manifestations
 
-## FAST Stroke Recognition
+### Hallmark Finding
 
-| Letter | Meaning | What You May See |
-|---|---|---|
-| F | Face drooping | Uneven smile, facial droop |
-| A | Arm weakness | One arm drifts down or cannot lift |
-| S | Speech difficulty | Slurred speech, trouble speaking, trouble understanding |
-| T | Time to call emergency help | Stroke is time-sensitive |
+The hallmark of stroke is **sudden onset of focal neurological symptoms**.
 
-## Other Possible Symptoms
+This means the symptoms start suddenly and affect a specific function or part of the body.
 
-| Symptom Type | Examples |
+---
+
+## FAST
+
+Use FAST to recognize stroke:
+
+| Letter | Meaning |
 |---|---|
-| Motor/sensory | Sudden numbness, sudden weakness, facial drooping |
-| Vision | Sudden vision changes |
-| Speech/language | Trouble speaking or understanding speech |
-| Balance/coordination | Trouble walking, dizziness, loss of balance |
-| Mental status | Sudden confusion |
-| Severe symptom | Severe headache, especially with hemorrhagic stroke concern |
+| F | Face drooping |
+| A | Arm weakness |
+| S | Speech difficulty |
+| T | Time to call emergency help |
+
+Other possible symptoms:
+
+| Other Stroke Symptoms |
+|---|
+| Sudden confusion |
+| Sudden numbness or weakness |
+| Vision changes |
+| Severe headache |
+| Trouble walking |
+| Dizziness |
+| Loss of balance |
+| Trouble speaking |
+| Trouble understanding speech |
 
 ---
 
-# Opposite Side Rule
+## Opposite Side Rule
 
 Physical symptoms usually occur on the **opposite side** of the brain damage.
 
@@ -154,245 +216,349 @@ Physical symptoms usually occur on the **opposite side** of the brain damage.
 
 ---
 
-# Left-Sided vs Right-Sided Stroke
+## Left-Sided vs Right-Sided Stroke
 
 | Left Brain Stroke | Right Brain Stroke |
 |---|---|
 | Right-sided weakness | Left-sided weakness |
 | Aphasia/language problems | Spatial-perceptual problems |
-| Difficulty with speech/language | Left-sided neglect |
 | Slow, cautious behavior | Impulsivity |
 | Depression/frustration | Poor judgment |
-
-<div class="nclex-tip">
-<strong>NCLEX Tip:</strong> Right-sided stroke clients may be impulsive and neglect the left side, so safety is a major concern.
-</div>
+| Difficulty with speech/language | Left-sided neglect |
 
 ---
 
-# Speech and Communication Problems
+## Speech and Communication Problems
 
-| Problem | Meaning | Nursing Care |
-|---|---|---|
-| **Aphasia** | Difficulty with language: speaking, understanding, reading, or writing | Use simple words; ask yes/no questions; give time to respond; reduce distractions; use communication boards if needed |
-| **Dysarthria** | Difficulty speaking clearly due to muscle weakness | Encourage slow speech; listen patiently; do not pretend to understand; ask client to repeat; use alternative communication methods |
+### Aphasia
+
+Aphasia is difficulty with language.
+
+The client may have trouble speaking, understanding speech, reading, or writing.
+
+### Nursing Care for Aphasia
+
+* Use simple words.
+* Ask yes/no questions.
+* Give the client time to respond.
+* Do not rush.
+* Use communication boards if needed.
+* Reduce distractions.
 
 ---
 
-# Priority Action for Suspected Stroke
+### Dysarthria
 
-## Most Important Question
+Dysarthria is difficulty speaking clearly due to muscle weakness.
+
+### Nursing Care for Dysarthria
+
+* Encourage slow speech.
+* Listen patiently.
+* Do not pretend to understand.
+* Ask the client to repeat if needed.
+* Use alternative communication methods.
+
+---
+
+## Priority Action for Suspected Stroke
+
+### Most Important Question
 
 **When was the client last known well?**
 
 This is not always the same as when symptoms were noticed.
 
-| Situation | Last Known Well Time |
-|---|---|
-| Client suddenly develops symptoms at 1400 | 1400 |
-| Client woke up with symptoms | Time they went to bed or were last seen normal |
-| Family says symptoms started “sometime this morning” | Clarify the last exact time the client was normal |
+Example:
 
-## Why It Matters
+If the client woke up with symptoms, the last known well time may be when they went to bed.
+
+### Why It Matters
 
 Thrombolytic therapy has a time limit.
 
+Your notes emphasize:
+
 **Time is brain destruction.**
 
-Treatment should be initiated within **3 hours** of symptom onset.
+Treatment should be initiated within 3 hours of symptom onset in class notes. Some facilities may use up to 4.5 hours for select clients, but remember the 3-hour window for this exam.
 
-<div class="priority-tip">
-<strong>Priority Tip:</strong> For NCLEX-style questions, last known well time is usually more important than when symptoms were discovered.
+---
+
+## Emergency Stroke Care
+
+### Immediate Priorities
+
+| Step | Priority |
+|---|---|
+| 1 | Assess airway |
+| 2 | Assess breathing |
+| 3 | Assess circulation |
+| 4 | Determine last known well time |
+| 5 | Perform neuro assessment |
+| 6 | Check blood glucose |
+| 7 | Keep NPO until swallow screen |
+| 8 | Prepare for CT scan |
+| 9 | Establish IV access |
+| 10 | Monitor vital signs |
+
+### Airway Comes First
+
+Airway is a primary concern because stroke can affect:
+
+* Level of consciousness
+* Swallowing
+* Gag reflex
+* Cough
+* Breathing pattern
+
+---
+
+## CT Scan Before Thrombolytics
+
+A CT scan is needed to determine whether the stroke is ischemic or hemorrhagic.
+
+Thrombolytics may be used for ischemic stroke.
+
+Thrombolytics are **not** used for hemorrhagic stroke.
+
+<div class="nclex">
+<strong>NCLEX Tip:</strong> Do not give thrombolytics until bleeding has been ruled out.
 </div>
 
 ---
 
-# Emergency Stroke Care
+## Thrombolytic Therapy for Ischemic Stroke
 
-## Immediate Priorities
+### What It Does
 
-| Priority | What to Do | Why |
-|---|---|---|
-| 1 | Assess airway | Stroke can affect LOC, gag reflex, swallowing, cough, and breathing pattern |
-| 2 | Assess breathing | Oxygenation supports brain tissue |
-| 3 | Assess circulation | Perfusion is critical |
-| 4 | Determine last known well time | Needed for thrombolytic eligibility |
-| 5 | Perform neuro assessment | Establishes baseline and detects worsening |
-| 6 | Check blood glucose | Hypoglycemia can mimic stroke symptoms |
-| 7 | Keep NPO until swallow screen | Prevents aspiration |
-| 8 | Prepare for CT scan | Determines ischemic vs hemorrhagic stroke |
-| 9 | Establish IV access | Needed for medications/fluids/testing |
-| 10 | Monitor vital signs | BP and changes in status guide care |
+Thrombolytic therapy breaks down an existing clot.
 
----
+It helps re-establish blood flow, prevent cerebral infarction, and limit secondary brain damage.
 
-# CT Scan Before Thrombolytics
-
-| Point | What to Know |
+| Topic | What To Remember |
 |---|---|
-| Why CT is needed | Determines whether the stroke is ischemic or hemorrhagic |
-| Ischemic stroke | Thrombolytics may be used if the client meets criteria |
-| Hemorrhagic stroke | Thrombolytics are **not** used |
-| NCLEX rule | Do not give thrombolytics until bleeding has been ruled out |
-
----
-
-# Thrombolytic Therapy for Ischemic Stroke
-
-| Topic | What to Know |
-|---|---|
-| What it does | Breaks down an existing clot |
-| Goal | Re-establish blood flow, prevent cerebral infarction, and limit secondary brain damage |
 | Example | rtPA/alteplase |
 | Route | IV |
-| Timing | within **3 hours** of symptom onset |
-| Important note | Some studies support up to 4.5 hours in select clients, but most facilities want it started within 3 hours |
+| Timing | Class notes emphasize within 3 hours of symptom onset |
+| Note | Some studies support up to 4.5 hours in select clients, but remember 3 hours for this exam |
 
 ---
 
 ## Before Giving Thrombolytics
 
-| Check | Why It Matters |
-|---|---|
-| Last known well time | Determines if client is within time window |
-| Eligibility criteria | Not every ischemic stroke client qualifies |
-| Consent | Required before treatment if applicable |
-| Weight | Dose is weight-based |
-| Vital signs | BP must be monitored closely |
-| Signs of hemorrhage | Bleeding risk must be assessed |
-| Signs of intracranial bleeding | Thrombolytics could worsen bleeding |
-| Baseline PT/INR | Evaluates clotting status |
-| Baseline aPTT | Evaluates clotting status |
-| Blood glucose | Rules out hypoglycemia mimic |
-| Recent surgery or trauma history | Increases bleeding risk |
-| Current anticoagulant use | Increases bleeding risk |
+Assess:
 
-<div class="nclex-tip">
-<strong>NCLEX Tip:</strong> The big three before thrombolytics are last known well time, CT scan to rule out hemorrhage, and bleeding risk assessment.
-</div>
+| Before Thrombolytics |
+|---|
+| Last known well time |
+| Eligibility criteria |
+| Consent |
+| Weight, because dose is weight-based |
+| Vital signs |
+| Signs of hemorrhage |
+| Signs of intracranial bleeding |
+| Baseline PT/INR |
+| Baseline aPTT |
+| Blood glucose |
+| Recent surgery or trauma history |
+| Current anticoagulant use |
 
 ---
 
-## Monitor for Bleeding After Thrombolytics
+## Monitor for Bleeding
 
-| Bleeding Concern | Watch For |
-|---|---|
-| Intracranial bleeding | Severe headache, sudden worsening neuro status, vomiting, decreased LOC |
-| External bleeding | Bleeding gums, bruising |
-| Internal bleeding | Blood in urine, blood in stool, hypotension |
+After thrombolytics, monitor for:
 
----
-
-# If the Client Is Not Eligible for Thrombolytics
-
-| Focus | Nursing Care |
-|---|---|
-| Neuro monitoring | Frequent neuro assessments |
-| Respiratory status | Respiratory assessments, airway monitoring |
-| Cardiovascular status | Cardiovascular assessments, vital signs, BP control |
-| ICP risk | Monitor for increased ICP |
-| Seizure risk | Seizure precautions if needed |
-| Possible procedures | Prepare for surgery if large clot or hemorrhage is present |
+| Possible Bleeding / Worsening Signs |
+|---|
+| Severe headache |
+| Sudden worsening neuro status |
+| Vomiting |
+| Decreased level of consciousness |
+| Bleeding gums |
+| Blood in urine |
+| Blood in stool |
+| Bruising |
+| Hypotension |
+| Signs of intracranial bleeding |
 
 ---
 
-# Early Stroke Care
+## If the Client Is Not Eligible for Thrombolytics
 
-| Priority Area | Nursing Care |
-|---|---|
-| Aspiration prevention | Keep NPO until swallow screen; dysphagia precautions |
-| Monitoring | Monitor vital signs, neuro status, respiratory status |
-| Labs | Obtain baseline PT/INR and aPTT |
-| IV access | Start two IV lines with normal saline |
-| ICP prevention | Keep HOB at or greater than 30°, decrease stimulation, avoid clustering procedures |
-| Suctioning | Hyperoxygenate before suctioning; avoid prolonged suctioning |
+Care focuses on close monitoring and preventing complications.
 
----
+Nursing care includes:
 
-# Swallowing Safety
-
-## Why It Matters
-
-Stroke can cause dysphagia, and dysphagia increases the risk for aspiration.
-
-| Aspiration Risk Signs | Nursing Care |
-|---|---|
-| Coughing with food or fluids | Keep NPO until swallow screen is completed |
-| Wet/gurgly voice | Do not give PO meds until swallowing is cleared |
-| Drooling | Keep suction available if needed |
-| Pocketing food | Sit client upright when eating is allowed |
-| Choking | Use thickened liquids if ordered |
-| Difficulty swallowing | Watch closely with meals |
-| Recurrent pneumonia | Report concern for aspiration |
-
-<div class="priority-tip">
-<strong>Priority Tip:</strong> No food, fluids, or oral medications until swallowing is cleared.
-</div>
+* Frequent neuro assessments
+* Respiratory assessments
+* Cardiovascular assessments
+* Vital signs
+* Blood pressure control
+* Monitoring for increased ICP
+* Seizure precautions if needed
+* Preparing for surgery if large clot or hemorrhage is present
 
 ---
 
-# Increased ICP Risk After Stroke
+## Early Stroke Care
+
+Early care priorities include:
+
+| Early Care Priority | Why |
+|---|---|
+| Aspiration precautions | Dysphagia risk |
+| Monitor vital signs | Detect changes |
+| Obtain baseline PT/INR and aPTT | Before anticoagulants/thrombolytics |
+| Start two IV lines with normal saline | Access for emergency care |
+| Monitor for increased ICP | Stroke can cause swelling |
+| Hyperoxygenate before suctioning | Prevents oxygen drop/increased ICP |
+| Keep HOB at or greater than 30° | Helps reduce ICP/aspiration risk |
+| Decrease environmental stimulation | Helps reduce ICP risk |
+| Avoid clustering procedures | Too much activity can increase ICP |
+
+---
+
+## Swallowing Safety
+
+### Why It Matters
+
+Stroke can cause dysphagia.
+
+Dysphagia increases the risk for aspiration.
+
+### Nursing Care
+
+| Nursing Care |
+|---|
+| Keep the client NPO until swallow screen is completed |
+| Do not give PO meds until swallowing is cleared |
+| Watch for coughing, choking, drooling, or wet voice |
+| Keep suction available if needed |
+| Sit the client upright when eating is allowed |
+| Use thickened liquids if ordered |
+
+### Signs of Aspiration Risk
+
+| Signs of Aspiration Risk |
+|---|
+| Coughing with food or fluids |
+| Wet/gurgly voice |
+| Drooling |
+| Pocketing food |
+| Choking |
+| Difficulty swallowing |
+| Recurrent pneumonia |
+
+---
+
+## Increased ICP Risk After Stroke
 
 Stroke can lead to swelling and increased intracranial pressure.
 
-| Watch For | Nursing Care to Reduce ICP Risk |
-|---|---|
-| Decreased level of consciousness | Keep HOB at least 30° unless contraindicated |
-| Worsening headache | Keep head midline |
-| Vomiting | Avoid excessive stimulation |
-| Pupil changes | Avoid clustering care |
-| Worsening weakness | Hyperoxygenate before suctioning |
-| Seizures | Avoid prolonged suctioning |
-| Abnormal posturing | Monitor neuro status frequently |
-| Changes in vital signs | Report worsening changes quickly |
+### Watch For
+
+| Increased ICP Concern |
+|---|
+| Decreased level of consciousness |
+| Worsening headache |
+| Vomiting |
+| Pupil changes |
+| Worsening weakness |
+| Seizures |
+| Abnormal posturing |
+| Changes in vital signs |
+
+### Nursing Care to Reduce ICP Risk
+
+| Nursing Care |
+|---|
+| Keep HOB at least 30° unless contraindicated |
+| Keep head midline |
+| Avoid excessive stimulation |
+| Avoid clustering care |
+| Hyperoxygenate before suctioning |
+| Avoid prolonged suctioning |
+| Monitor neuro status frequently |
+| Report worsening changes quickly |
 
 ---
 
-# Later Stroke Care
+## Later Stroke Care
 
 Once the client is more stable, care focuses on function, safety, and preventing complications.
 
-| Concern | Interventions |
-|---|---|
-| Dysphagia | Thickened liquids if ordered |
-| Mobility | Range-of-motion exercises, early mobility when safe |
-| DVT prevention | Monitor for DVT, SCDs if ordered, anticoagulants if prescribed |
-| Independence | Promote independence with ADLs |
-| Communication | Promote effective communication |
-| Continence | Promote continence |
-| Neglect/vision changes | Place objects within the client’s field of vision |
-| Body awareness | Teach the client to touch and use both sides of the body |
+Interventions include:
+
+* Thickened liquids if ordered.
+* Range-of-motion exercises.
+* Monitor for DVT.
+* Promote independence.
+* Promote effective communication.
+* Promote continence.
+* Place objects within the client’s field of vision.
+* Teach the client to touch and use both sides of the body.
 
 ---
 
-# Safety Concerns After Stroke
+## Safety Concerns After Stroke
 
-| Safety Concern | Why It Happens | Nursing Care |
-|---|---|---|
-| Fall risk | Weakness, impulsivity, poor balance, neglect, vision changes | Keep bed low, call light within reach, assist with ambulation, use assistive devices, provide non-skid footwear |
-| Skin breakdown | Weakness and immobility | Reposition, keep skin clean/dry, use pressure-relieving surfaces, encourage mobility as allowed |
-| DVT risk | Immobility increases clot risk | ROM exercises, SCDs if ordered, anticoagulants if prescribed, early mobility when safe |
+### Fall Risk
+
+Stroke may cause weakness, impulsivity, poor balance, neglect, and vision changes.
+
+Nursing care:
+
+* Keep bed low.
+* Use call light.
+* Use assistive devices.
+* Assist with ambulation.
+* Provide non-skid footwear.
+
+### Skin Breakdown
+
+Weakness and immobility increase skin risk.
+
+Nursing care:
+
+* Reposition.
+* Keep skin clean and dry.
+* Use pressure-relieving surfaces.
+* Encourage mobility as allowed.
+
+### DVT Risk
+
+Immobility increases clot risk.
+
+Nursing care:
+
+* ROM exercises.
+* Sequential compression devices if ordered.
+* Anticoagulants if prescribed.
+* Early mobility when safe.
 
 ---
 
-# Patient Teaching After Stroke/TIA
+## Patient Teaching After Stroke/TIA
 
-| Teaching Point | Why It Matters |
-|---|---|
-| Call emergency services for stroke symptoms | Do not wait to see if symptoms improve |
-| Know FAST signs | Helps recognize stroke early |
-| Take medications as prescribed | Reduces risk of another stroke/TIA |
-| Control blood pressure | Major risk factor control |
-| Control blood glucose if diabetic | Diabetes damages vessels |
-| Stop smoking | Reduces vessel damage and clot risk |
-| Follow diet recommendations | Helps control lipids, BP, and weight |
-| Attend rehab therapy | Supports recovery and function |
-| Keep follow-up appointments | Monitors risk factors and recovery |
-| Use safety precautions at home | Prevents injury after weakness/neglect |
+Teach the client and family:
+
+* Call emergency services for stroke symptoms.
+* Do not wait to see if symptoms improve.
+* Know the FAST signs.
+* Take medications as prescribed.
+* Control blood pressure.
+* Control blood glucose if diabetic.
+* Stop smoking.
+* Follow diet recommendations.
+* Attend rehab therapy.
+* Keep follow-up appointments.
+* Use safety precautions at home.
 
 ---
 
-# Quick NCLEX Cues
+## Quick NCLEX Cues
 
 | Clue | Think |
 |---|---|
@@ -410,37 +576,19 @@ Once the client is more stable, care focuses on function, safety, and preventing
 | Right-sided weakness | Left brain involvement |
 | Left-sided neglect | Right brain involvement |
 | Post-stroke too much stimulation | Can increase ICP |
-| Hypoglycemia-like symptoms | Check blood glucose because it can mimic stroke |
-| New confusion or worsening weakness after rtPA | Possible intracranial bleeding |
 
 ---
 
-# Most Important “What Do I Do First?” Points
+## Most Important “What Do I Do First?” Points
 
-| Situation | First/Priority Action |
+| Situation | Priority Action |
 |---|---|
-| Suspected stroke | Determine last known well time while assessing ABCs |
-| Airway concern | Assess airway and keep NPO until swallow screen is completed |
+| Suspected stroke | Determine last known well time |
 | Before thrombolytic therapy | CT scan to rule out hemorrhage |
+| Airway concern | Assess airway and keep NPO until swallow screen is completed |
 | Sudden neuro symptoms that resolve | Treat as TIA and warning sign |
 | Signs of increased ICP | Report worsening neuro changes immediately |
 | Dysphagia | No food, fluids, or oral meds until swallowing is cleared |
-| Possible stroke mimic | Check blood glucose |
-| After thrombolytics | Monitor closely for bleeding and worsening neuro status |
-
----
-
-# Mini Review: Stroke Priorities
-
-| Priority Question | Best NCLEX Thought |
-|---|---|
-| What do I assess first? | ABCs, then neuro status and last known well time |
-| What test is needed before rtPA? | CT scan |
-| What do I hold until swallow screen? | Food, fluids, and oral meds |
-| What finding worries me most after rtPA? | Sudden severe headache or worsening neuro status |
-| What finding suggests aspiration risk? | Wet/gurgly voice, coughing, choking, drooling |
-| What finding suggests right-sided stroke? | Left-sided neglect, impulsivity, poor judgment |
-| What finding suggests left-sided stroke? | Aphasia and right-sided weakness |
 
 ---
 

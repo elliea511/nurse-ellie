@@ -6,30 +6,33 @@ title: Basic Burns
 
 # Burns
 
-<div class="note" markdown="1">
+<div class="note">
 Burns are injuries that cause a loss of tissue integrity. Severity depends on the depth of the burn, total body surface area burned, location, cause, age of the client, and complications.
 </div>
 
-| Skin Normally Protects From | When Skin Integrity Is Lost, Risk For |
-|---|---|
-| Fluid loss | Airway problems from burn/smoke inhalation |
-| Infection | Fluid and electrolyte shifts |
-| Temperature changes | Shock |
-| Injury | Infection |
-| Electrolyte imbalance | Pain |
-|  | Impaired wound healing |
-|  | Decreased ability to perform ADLs because skin tightens from tissue damage/growth |
-|  | Psychosocial concerns related to appearance, pain, trauma, and long recovery |
+## Big Picture
 
-<div class="priority" markdown="1">
-<strong>Priority:</strong> With burns, always think <strong>airway first</strong>, then circulation/fluid replacement, then infection prevention and wound healing.
+Burns are dangerous because the skin normally protects the body from fluid loss, infection, temperature changes, injury, and electrolyte imbalance.
+
+| When Skin/Tissue Integrity Is Lost | Major Concern |
+|---|---|
+| Airway problems | From the burn itself or smoke inhalation |
+| Fluid and electrolyte shifts | Can lead to shock |
+| Infection | Skin barrier is damaged |
+| Pain | Burns can be very painful |
+| Impaired wound healing | Damaged tissue needs repair |
+| Decreased ADLs | Skin tightens from tissue damage/growth |
+| Psychosocial concerns | Appearance, pain, trauma, and long recovery |
+
+<div class="priority">
+<strong>Priority:</strong> With burns, always think airway first, then circulation/fluid replacement, then infection prevention and wound healing.
 </div>
 
 ---
 
-# Types of Burns
+## Types of Burns
 
-## Thermal Burns
+### Thermal Burns
 
 Thermal burns are caused by contact with heat.
 
@@ -37,27 +40,25 @@ Thermal burns are caused by contact with heat.
 |---|---|---|
 | Thermal burns | Contact with heat | Flames, hot liquids, steam, hot substances, explosions |
 | Dry heat injuries | Open flames or explosions | May cause flash burns |
-| Moist heat injuries | Hot liquids or steam | Also called scalds; common in very young children and older adults |
+| Moist heat injuries | Hot liquids or steam | Also called scalds; often seen in very young children and older adults |
 
 ---
 
-## Contact Burns
+### Contact Burns
 
 Contact burns occur from touching hot substances.
 
-| Examples | Why They Matter |
+| Examples | Why It Matters |
 |---|---|
 | Hot metal | Can stay hot against the skin |
 | Tar | Can stick to the skin |
 | Grease | Can continue burning tissue |
 
-<div class="warning" markdown="1">
-<strong>Important:</strong> Contact burns can lead to full-thickness injury because the hot substance may stay on the skin longer.
-</div>
+Contact burns can lead to full-thickness injury because the hot substance may stay on the skin longer.
 
 ---
 
-## Chemical Burns
+### Chemical Burns
 
 Chemical burns are caused by strong acids, alkalis, or other chemicals.
 
@@ -69,41 +70,35 @@ Chemical burns are caused by strong acids, alkalis, or other chemicals.
 |  | Wear gloves and PPE |
 |  | Remove jewelry because swelling can occur quickly |
 
-<div class="warning" markdown="1">
-<strong>Do not trap the chemical against the skin.</strong> Remove contaminated clothing and flush as ordered.
-</div>
-
-<div class="priority" markdown="1">
-<strong>Priority Tip:</strong> Protect yourself first with PPE, then remove the chemical source and flush as ordered.
-</div>
+Do not trap the chemical against the skin. Remove contaminated clothing and flush as ordered.
 
 ---
 
-## Electrical Burns
+### Electrical Burns
 
 Electrical burns are caused by electrical current passing through the body.
 
 These can look small on the outside but cause major internal damage.
 
-| Major Concern | Why |
-|---|---|
-| Dysrhythmias | Electricity can disrupt the heart rhythm |
-| Deep tissue injury | Damage may be worse internally than externally |
-| Muscle damage | Can release myoglobin |
-| Kidney injury from myoglobin | Can damage kidneys |
-| Entry and exit wounds | Shows path of current |
+| Major Concerns |
+|---|
+| Dysrhythmias |
+| Deep tissue injury |
+| Muscle damage |
+| Kidney injury from myoglobin |
+| Entry and exit wounds |
 
-<div class="priority" markdown="1">
+<div class="priority">
 <strong>Priority:</strong> Electrical burns require cardiac monitoring because they can cause dysrhythmias.
 </div>
 
 ---
 
-## Radiation Burns
+### Radiation Burns
 
 Radiation burns are caused by radiation exposure.
 
-| Examples | Assessment |
+| Examples | Possible Findings |
 |---|---|
 | Prolonged sun exposure | Redness |
 | Radiation treatments | Peeling |
@@ -113,29 +108,25 @@ Radiation burns may develop gradually.
 
 ---
 
-## Smoke-Related Burns
+### Smoke-Related Burns
 
 Smoke-related burns are caused by inhalation of smoke and hot gases.
 
-| Smoke Inhalation Can Cause |
-|---|
-| Airway swelling |
-| Airway obstruction |
-| Carbon monoxide poisoning |
+Smoke inhalation can cause swelling, airway obstruction, and carbon monoxide poisoning.
 
-<div class="priority" markdown="1">
+<div class="priority">
 <strong>Think:</strong> AIRWAY, AIRWAY, AIRWAY.
 </div>
 
 ---
 
-# Carbon Monoxide Poisoning
+## Carbon Monoxide Poisoning
 
 Carbon monoxide is a colorless, odorless, tasteless gas.
 
 It is a major cause of death in fire-related injuries because it binds to hemoglobin instead of oxygen. This prevents oxygen from being delivered to tissues.
 
-## What Happens
+### What Happens
 
 | Carbon Monoxide Effect | Result |
 |---|---|
@@ -144,31 +135,24 @@ It is a major cause of death in fire-related injuries because it binds to hemogl
 | Can cause vasodilation | May affect perfusion |
 | May cause cherry-red appearance | Classic clue, but not always seen |
 
-## Symptoms Can Include
+### Symptoms Can Include
 
-| Symptoms |
-|---|
-| Headache |
-| Dizziness |
-| Confusion |
-| Weakness |
-| Nausea |
-| Shortness of breath |
-| Altered mental status |
+| Early / Common Symptoms | Severe Concern |
+|---|---|
+| Headache | Altered mental status |
+| Dizziness | Shortness of breath |
+| Confusion | Weakness |
+| Nausea | Possible cherry-red appearance |
 
-<div class="priority" markdown="1">
+<div class="priority">
 <strong>Priority:</strong> If carbon monoxide poisoning is suspected or confirmed, administer high-flow oxygen for at least 6 hours.
-</div>
-
-<div class="ati-box" markdown="1">
-<strong>NCLEX Tip:</strong> Pulse ox can look normal with carbon monoxide poisoning because it may not distinguish oxygen from carbon monoxide on hemoglobin. Treat the client, not just the pulse ox number.
 </div>
 
 ---
 
-# Burn Depth
+## Burn Depth
 
-## Superficial Burn
+### Superficial Burn
 
 Also called a **1st degree burn**.
 
@@ -177,45 +161,43 @@ Also called a **1st degree burn**.
 | Skin involved | Epidermis only |
 | Appearance | Red, dry, no blisters |
 | Pain | Painful |
-| Skin integrity | Skin remains intact |
+| Skin status | Skin remains intact |
 | Example | Basic sunburn |
 | Healing | Usually heals quickly without scarring |
 
 **If you have skin, you can get a sunburn.**
 
-<div class="note" markdown="1">
-<strong>Class Note:</strong> Even superficial burns can be a concern for babies and older adults because they are still at risk for dehydration.
-</div>
+Even superficial burns can be a concern for babies and older adults because they are still at risk for dehydration.
 
 ---
 
-## Superficial Partial-Thickness Burn
+### Superficial Partial-Thickness Burn
 
 Also called a **2nd degree burn**.
 
+Affects the epidermis and upper dermis.
+
 | Category | Findings |
 |---|---|
-| Skin involved | Epidermis and upper dermis |
-| Appearance | Red or pink, moist or wet-looking |
+| Appearance | Red or pink; moist or wet-looking |
 | Blisters | Present |
 | Pain | Very painful |
 | Blanching | Blanches with pressure |
 | Why painful | Nerve endings are exposed |
 | Healing | Uncomplicated healing occurs in 10–21 days |
 
-<div class="ati-box" markdown="1">
-<strong>Recognition Tip:</strong> If the burn looks wet, moist, blistered, and very painful, think partial-thickness.
-</div>
+If the burn looks wet, moist, blistered, and very painful, think partial-thickness.
 
 ---
 
-## Deep Partial-Thickness Burn
+### Deep Partial-Thickness Burn
 
 Also called a **2nd degree burn**.
 
+Affects deeper layers of the dermis.
+
 | Category | Findings |
 |---|---|
-| Skin involved | Deeper layers of the dermis |
 | Appearance | Red, white, or waxy |
 | Moisture | Less moist than superficial partial-thickness |
 | Blisters | May be present but can be less obvious |
@@ -223,8 +205,6 @@ Also called a **2nd degree burn**.
 | Pain | May be decreased compared to superficial partial-thickness |
 | Healing | Can take weeks, usually 2–6 weeks |
 | Treatment concern | May require grafting |
-
-### Pain level
 
 Pain level depends on if the nerves are exposed or damaged.
 
@@ -235,61 +215,42 @@ Pain level depends on if the nerves are exposed or damaged.
 
 ---
 
-## Full-Thickness Burn
+### Full-Thickness Burn
 
 Also called a **3rd degree burn**.
 
+Destroys the epidermis and dermis and may extend into subcutaneous tissue.
+
 | Category | Findings |
 |---|---|
-| Skin involved | Epidermis and dermis destroyed; may extend into subcutaneous tissue |
 | Appearance | White, brown, black, yellow, or charred |
 | Texture | Dry, tight, leathery |
 | Blisters | No blisters |
 | Bleeding | No bleeding |
-| Pain | Little or no pain in center |
+| Pain | Little or no pain in the center |
 | Other | Eschar may be present |
-| Healing | Usually requires grafting |
-| Rehab | Often requires lots of rehab to regain function |
-| Pain later | Pain can increase as nerve endings repair |
+| Healing | Does not heal normally on its own and usually requires grafting |
+| Rehab | Usually requires lots of rehab to regain functionality of affected area |
+| Pain later | Pain increases as nerve endings repair themselves |
 
-<div class="warning" markdown="1">
-<strong>Important:</strong> Full-thickness burns may not hurt at the center because nerve endings are destroyed. The surrounding areas can still be very painful.
-</div>
+Full-thickness burns may not hurt at the center because nerve endings are destroyed. The surrounding areas can still be very painful.
 
 ---
 
-## Fourth Degree Burn
+### Fourth Degree Burn
 
 Fourth degree burns extend beyond the skin into deeper structures.
 
-### Tissue Involved
-
-| Tissue May Include |
-|---|
-| Muscle |
-| Tendon |
-| Bone |
-
-### Assessment Findings
-
-| Findings |
-|---|
-| Blackened or charred tissue |
-| Deep tissue destruction |
-| Visible muscle or bone may be present |
-| No sensation in the destroyed tissue |
-
-### Treatment Concern
-
-Skin grafts usually do not work because there may be nothing healthy to graft onto.
-
-<div class="priority" markdown="1">
-<strong>Important:</strong> Fourth degree burns often require specialized care and may require amputation depending on the location and severity.
-</div>
+| Tissue Involved | Assessment Findings | Treatment Concern |
+|---|---|---|
+| Muscle | Blackened or charred tissue | Specialized care |
+| Tendon | Deep tissue destruction | Grafts may not work |
+| Bone | Visible muscle or bone may be present | Possible amputation |
+|  | No sensation in destroyed tissue | Depends on location/severity |
 
 ---
 
-# Burn Depth Quick Chart
+## Burn Depth Quick Chart
 
 | Burn Depth | Skin Involved | Appearance | Pain | Healing |
 |---|---|---|---|---|
@@ -301,28 +262,21 @@ Skin grafts usually do not work because there may be nothing healthy to graft on
 
 ---
 
-# Estimating Burn Size
+## Estimating Burn Size
 
 Burn size is estimated using **total body surface area**, or **TBSA**.
 
-| TBSA Helps Determine |
-|---|
-| Severity of injury |
-| Fluid replacement needs |
-| Risk for complications |
-| Need for burn center transfer |
+TBSA helps determine severity of injury, fluid replacement needs, risk for complications, and need for burn center transfer.
 
 ---
 
-# Rule of Nines: Adults Only
+## Rule of Nines: Adults Only
 
 The Rule of Nines divides the adult body into areas worth 9% or multiples of 9%.
 
-<div class="warning" markdown="1">
-<strong>Important:</strong> The Rule of Nines is for adults. Children have different body proportions, so a pediatric burn chart is more accurate.
-</div>
+The Rule of Nines is for adults. Children have different body proportions, so a pediatric burn chart is more accurate.
 
-## Adult Rule of Nines
+### Adult Rule of Nines
 
 | Body Area | Percent |
 |---|---:|
@@ -333,17 +287,21 @@ The Rule of Nines divides the adult body into areas worth 9% or multiples of 9%.
 | Each leg | 18% |
 | Perineum | 1% |
 
-<div class="ati-box" markdown="1">
-<strong>Memory Tip:</strong> There are 11 areas of 9%. 11 × 9 = 99%, and the perineum is 1%.
-</div>
+Memory tip: There are 11 areas of 9%. 11 × 9 = 99%, and the perineum is 1%.
 
 ---
 
 ![rule of nines, burns, nursing, calculation. practice problems, quiz](https://www.registerednursern.com/wp-content/uploads/2018/04/rule-of-nines-burns.png)
 
-## Rule of Nines Practice Example
+### Rule of Nines Practice Example
 
 A 28-year-old female has full-thickness burns to the:
+
+- Anterior and posterior head and neck
+- Front of the left leg
+- Perineum
+
+Calculate the TBSA burned.
 
 | Area Burned | Percent |
 |---|---:|
@@ -352,48 +310,31 @@ A 28-year-old female has full-thickness burns to the:
 | Perineum | 1% |
 | Total | 19% |
 
-<div class="ati-box" markdown="1">
-<strong>Answer:</strong> 19%
-</div>
-
 ---
 
-# Pediatric Burns
+## Pediatric Burns
 
 Children have different body proportions than adults.
 
 | Pediatric Difference | What To Remember |
 |---|---|
 | Larger head percentage | Adult Rule of Nines is less accurate |
-| Smaller leg percentage | Use pediatric chart |
+| Smaller leg percentage | Use pediatric burn chart |
 | Best chart | Lund and Browder chart |
 
-<div class="note" markdown="1">
 For children, use a pediatric burn chart such as the Lund and Browder chart because the adult Rule of Nines is less accurate.
-</div>
 
 ---
 
-# Burn Severity
+## Burn Severity
 
-Burn severity depends on:
+Burn severity depends on depth of burn, percent of body burned, location of burn, age of the client, cause of burn, and other injuries or health conditions.
 
-| Severity Factor |
-|---|
-| Depth of burn |
-| Percent of body burned |
-| Location of burn |
-| Age of the client |
-| Cause of burn |
-| Other injuries or health conditions |
-
-## High-Risk Burn Locations
-
-Burns are more serious when they involve the:
+### High-Risk Burn Locations
 
 | High-Risk Location | Why It Matters |
 |---|---|
-| Face | Airway/appearance concern |
+| Face | Possible airway/appearance concern |
 | Neck | Airway edema risk |
 | Hands | Function/ADLs |
 | Feet | Mobility |
@@ -402,21 +343,21 @@ Burns are more serious when they involve the:
 | Major joints | Contracture/function risk |
 | Circumferential areas | Circulation or breathing restriction |
 
-<div class="priority" markdown="1">
+<div class="priority">
 <strong>Priority:</strong> Face and neck burns are concerning because of possible airway edema.
 </div>
 
 ---
 
-# Circumferential Burns
+## Circumferential Burns
 
 A circumferential burn goes all the way around an extremity, chest, or body part.
 
-## Why This Is Dangerous
+### Why This Is Dangerous
 
 As swelling increases, burned skin may not stretch. This can decrease circulation or restrict breathing.
 
-## Assessment Findings
+### Assessment Findings
 
 | Finding | Concern |
 |---|---|
@@ -426,86 +367,49 @@ As swelling increases, burned skin may not stretch. This can decrease circulatio
 | Weak or absent pulses | Circulation impairment |
 | Delayed capillary refill | Poor perfusion |
 | Tight, firm skin | Eschar restricting tissue |
-| Difficulty breathing if around chest | Restricted chest expansion |
+| Difficulty breathing if around the chest | Restricted chest expansion |
 
-<div class="warning" markdown="1">
+<div class="warning">
 <strong>Report immediately:</strong> Weak pulses, numbness, worsening pain, or difficulty breathing may indicate impaired circulation or restricted chest expansion. This is similar to compartment syndrome.
 </div>
 
 ---
 
-# Burn Phases
+## Burn Phases
 
-## Emergent Phase
+| Phase | Time Frame | Main Priorities |
+|---|---|---|
+| Emergent phase | Time of injury through beginning treatment; often first 24–48 hr | Airway, breathing, circulation, stop burning process, prevent shock, begin fluids, pain control |
+| Acute phase | Begins after initial emergent phase; often around 36–48 hr when fluid shift should begin resolving | Wound care, infection prevention, pain management, nutrition, mobility, grafting if needed |
+| Rehabilitation phase | Starts with wound closure and continues until highest possible function | Mobility, scar management, body image, coping, long-term function, PT/OT, ADL support |
+
+### Emergent Phase
 
 The emergent phase begins at the time of injury and continues through the beginning of treatment.
 
 Your notes describe this as the beginning phase, usually the first **24 to 48 hours**, where the injury is evaluated and the plan of care is decided.
 
-### Main Priorities
+Airway always comes first, especially with facial burns, smoke inhalation, or burns in an enclosed space.
 
-| Priority |
-|---|
-| Airway |
-| Breathing |
-| Circulation |
-| Stop the burning process |
-| Prevent shock |
-| Begin fluid replacement |
-| Pain control |
-
-<div class="priority" markdown="1">
-<strong>First Priority:</strong> Airway always comes first, especially with facial burns, smoke inhalation, or burns in an enclosed space.
-</div>
-
----
-
-## Acute Phase
+### Acute Phase
 
 The acute phase begins after the initial emergent phase and continues while wounds are treated and fluid shifts begin to resolve.
 
 Usually begins around **36 to 48 hours**, when fluid shift should begin resolving.
 
-### Main Priorities
-
-| Priority |
-|---|
-| Wound care |
-| Infection prevention |
-| Pain management |
-| Nutrition |
-| Mobility |
-| Skin grafting if needed |
-
----
-
-## Rehabilitation Phase
+### Rehabilitation Phase
 
 The rehabilitation phase starts with wound closure and continues until the client reaches the highest possible level of function.
 
-### Main Priorities
+Encourage independence as much as possible.
 
-| Priority |
-|---|
-| Mobility |
-| Scar management |
-| Body image |
-| Coping |
-| Long-term function |
-| Physical therapy |
-| Occupational therapy |
-| ADL support |
-| Encourage independence as much as possible |
-
-<div class="warning" markdown="1">
-<strong>Important:</strong> TPN may be required if the patient develops paralytic ileus.
-</div>
+TPN may be required if the patient develops paralytic ileus.
 
 ---
 
-# Initial Nursing Priorities
+## Initial Nursing Priorities
 
-## Stop the Burning Process
+### Stop the Burning Process
 
 | Action | Why |
 |---|---|
@@ -514,19 +418,17 @@ The rehabilitation phase starts with wound closure and continues until the clien
 | Remove jewelry | Swelling can occur quickly |
 | Cool small burns with cool water | Helps stop burning process |
 
-<div class="warning" markdown="1">
+<div class="warning">
 <strong>Do not use ice.</strong> Ice can cause vasoconstriction, worsen tissue damage, and increase risk for hypothermia.
 </div>
 
 ---
 
-## Airway Assessment
+### Airway Assessment
 
 Airway injury is a major concern with burns.
 
-### Red Flags for Inhalation Injury
-
-| Red Flag |
+| Red Flags for Inhalation Injury |
 |---|
 | Burns to face or neck |
 | Singed nasal hairs |
@@ -539,13 +441,13 @@ Airway injury is a major concern with burns.
 | Stridor |
 | Any weird or worsening respiratory symptoms |
 
-<div class="priority" markdown="1">
+<div class="priority">
 <strong>NCLEX Priority:</strong> Hoarseness, stridor, facial burns, or soot after a fire can mean airway swelling. Prepare for early intubation before the airway closes.
 </div>
 
 ---
 
-## Breathing
+### Breathing
 
 | Assess | Nursing Care |
 |---|---|
@@ -556,66 +458,49 @@ Airway injury is a major concern with burns.
 | Chest expansion |  |
 | Presence of soot or sputum |  |
 
-<div class="warning" markdown="1">
-<strong>Important:</strong> If the airway becomes too swollen, intubation may not be possible and the client may need a tracheostomy.
-</div>
+If the airway becomes too swollen, intubation may not be possible and the client may need a tracheostomy.
 
 ---
 
-## Circulation
+### Circulation
 
 Burns can cause massive fluid shifts from the bloodstream into the tissues.
 
-| Fluid Shift Can Lead To | Findings of Burn Shock |
+| Burns Can Lead To | Findings of Burn Shock |
 |---|---|
 | Hypovolemia | Tachycardia |
 | Decreased cardiac output | Hypotension |
 | Shock | Cool clammy skin |
 | Decreased kidney perfusion | Decreased urine output |
-| Electrolyte imbalance | Weak pulses |
-|  | Altered mental status |
+| Electrolyte imbalance | Weak pulses, altered mental status |
 
 ---
 
-# Fluid Resuscitation
+## Fluid Resuscitation
 
 Large burns require IV fluid replacement because fluid shifts out of the vascular space.
 
-## Common Fluid Used
-
-| Fluid | Why |
+| Topic | What To Remember |
 |---|---|
-| Lactated Ringer’s solution | Commonly used for burn resuscitation |
-
-## Goal of Fluids
-
-| Goal |
-|---|
-| Maintain circulation |
-| Maintain blood pressure |
-| Maintain tissue perfusion |
-| Maintain kidney perfusion |
-| Maintain urine output |
-
-<div class="ati-box" markdown="1">
-<strong>ATI/NCLEX Tip:</strong> Urine output is one of the best indicators that fluid resuscitation is effective.
-</div>
+| Common fluid | Lactated Ringer’s solution |
+| Goal | Maintain circulation, blood pressure, tissue perfusion, kidney perfusion, and urine output |
+| Best indicator | Urine output is one of the best indicators that fluid resuscitation is effective |
 
 ---
 
-# Shock Phase
+## Shock Phase
 
 The shock phase usually occurs during the first **24 to 48 hours**.
 
-## What Happens
+### What Happens
 
 Fluid shifts from the plasma/intravascular space into the interstitial space.
 
 Think: **fluid leaves the bloodstream and moves into the tissues.**
 
-## Expected Findings
+### Expected Findings
 
-| Expected Finding |
+| Expected Findings |
 |---|
 | Decreased blood pressure |
 | Decreased urine output |
@@ -624,7 +509,7 @@ Think: **fluid leaves the bloodstream and moves into the tissues.**
 | Acidosis |
 | Risk for shock |
 
-## Nursing Priorities
+### Nursing Priorities
 
 | Priority | Why |
 |---|---|
@@ -634,28 +519,26 @@ Think: **fluid leaves the bloodstream and moves into the tissues.**
 | Watch for shock | Fluid is leaving bloodstream |
 | Give IV fluids as ordered | Replaces intravascular volume |
 | Monitor electrolytes and acid-base balance | Potassium/acidosis concerns |
-| Telemetry/pads as needed | Burn clients may need monitoring regardless of wound condition |
-| Possible neutropenic precautions | If ordered/indicated due to infection risk or lab status |
+| Telemetry/pads as needed | Patient will need telemetry monitoring regardless of condition if ordered |
+| Possible neutropenic precautions | If indicated or ordered |
 
-<div class="priority" markdown="1">
-<strong>Priority:</strong> During the shock phase, monitor urine output closely. Urine output usually decreases because the body is trying to retain fluid.
-</div>
+During the shock phase, urine output usually decreases because the body is trying to retain fluid.
 
 ---
 
-# Diuretic Phase
+## Diuretic Phase
 
 The diuretic phase usually occurs around **48 to 72 hours**.
 
-## What Happens
+### What Happens
 
 Fluid shifts from the interstitial space back into the plasma/intravascular space.
 
 Think: **fluid comes back into the bloodstream.**
 
-## Expected Findings
+### Expected Findings
 
-| Expected Finding |
+| Expected Findings |
 |---|
 | Increased urine output |
 | Decreased hematocrit |
@@ -664,7 +547,7 @@ Think: **fluid comes back into the bloodstream.**
 | Risk for fluid volume overload |
 | Risk for pulmonary edema |
 
-## Nursing Priorities
+### Nursing Priorities
 
 | Priority | Why |
 |---|---|
@@ -675,13 +558,11 @@ Think: **fluid comes back into the bloodstream.**
 | Monitor electrolytes | Potassium can decrease |
 | Assess for fluid overload | Fluid returns to vascular space |
 
-<div class="warning" markdown="1">
-<strong>Important:</strong> During the diuretic phase, watch for pulmonary edema, especially in clients with heart failure. Furosemide may be used if prescribed.
-</div>
+During the diuretic phase, watch for pulmonary edema, especially in clients with heart failure. Furosemide may be used if prescribed.
 
 ---
 
-# Shock Phase vs Diuretic Phase
+## Shock Phase vs Diuretic Phase
 
 | Phase | Time Frame | Fluid Shift | Labs/Findings | Major Risk |
 |---|---|---|---|---|
@@ -690,7 +571,7 @@ Think: **fluid comes back into the bloodstream.**
 
 ---
 
-# Expected Urine Output
+## Expected Urine Output
 
 | Client | Minimum Urine Output |
 |---|---:|
@@ -700,24 +581,13 @@ Think: **fluid comes back into the bloodstream.**
 
 ---
 
-# Burn Interventions
+## Burn Interventions
 
-Burn care focuses on:
+Burn care focuses on airway maintenance, pain control, infection control, and wound healing.
 
-| Focus |
-|---|
-| Airway maintenance |
-| Pain control |
-| Infection control |
-| Wound healing |
-
----
-
-## Airway Maintenance
+### Airway Maintenance
 
 The airway can swell quickly after smoke inhalation or facial burns.
-
-### Nursing Care
 
 | Nursing Care |
 |---|
@@ -728,11 +598,9 @@ The airway can swell quickly after smoke inhalation or facial burns.
 
 ---
 
-## Pain Control
+### Pain Control
 
 Burn pain can be severe.
-
-### Nursing Care
 
 | Nursing Care |
 |---|
@@ -744,11 +612,9 @@ Burn pain can be severe.
 
 ---
 
-## Infection Control
+### Infection Control
 
 Burn clients are at high risk for infection because the skin barrier is damaged.
-
-### Nursing Care
 
 | Nursing Care |
 |---|
@@ -762,95 +628,38 @@ Burn clients are at high risk for infection because the skin barrier is damaged.
 
 ---
 
-## Wound Healing
+### Wound Healing
 
-Burn wound healing may include:
-
-| Wound Healing Care |
-|---|
-| Cleaning |
-| Debridement |
-| Topical antimicrobials |
-| Dressings |
-| Skin grafting |
-| Nutrition support |
+Burn wound healing may include cleaning, debridement, topical antimicrobials, dressings, skin grafting, and nutrition support.
 
 ---
 
-# Burn Medications
+## Burn Medications
 
-## Gentamicin
+| Medication | Purpose / Application | Major Concern | Monitor |
+|---|---|---|---|
+| Gentamicin | Antibiotic used for infection control | Nephrotoxic | BUN, serum creatinine, urine output |
+| Sulfamylon | Sterile burn ointment; apply with sterile technique/sterile gloved hand; may be open method | Heavy acid load | Metabolic acidosis, ABGs, acid-base balance |
+| Silver Nitrate | Used with dressings; dressings must stay moist | Fluid/electrolyte shifts; turns everything black | Fluid balance, sodium, potassium, electrolytes |
+| Santyl | Debridement ointment; removes necrotic tissue, eschar, or slough | Stop when debridement is complete because it can destroy healthy tissue | Wound appearance |
+| Silvadene / Silver Sulfadiazine | Burn cream; apply with sterile gloved hand; cover with petroleum jelly dressing and Kerlix if ordered | Rash, leukopenia | WBC count, infection signs, allergy history |
 
-Gentamicin is an antibiotic that may be used for infection control.
+Silver nitrate turning tissue or dressing black does not mean the wound is necrotic.
 
-| Major Concern | Monitor |
-|---|---|
-| Nephrotoxic | BUN, serum creatinine, urine output |
-
----
-
-## Sulfamylon
-
-Sulfamylon is a sterile burn ointment.
-
-| Topic | Key Point |
-|---|---|
-| Application | Apply with sterile technique and sterile gloved hand |
-| Dressing | May be used with an open method of treatment; no dressing may be used depending on order |
-| Major concern | As Sulfamylon is metabolized, it can cause a heavy acid load |
-| Monitor for | Metabolic acidosis on ABGs and acid-base imbalance |
+Santyl is seen a lot with Aquacel silver dressing.
 
 ---
 
-## Silver Nitrate
-
-Silver nitrate is used with dressings.
-
-| Topic | Key Point |
-|---|---|
-| Dressing | Dressings must stay moist to be effective |
-| Color change | Turns everything it touches black; does not mean wound is necrotic |
-| Major concern | Can affect fluids and electrolytes |
-| Why | Can pull sodium and potassium chloride into dressing, contributing to electrolyte dilution |
-| Monitor | Fluid balance, sodium, potassium, other electrolytes as ordered |
-
----
-
-## Santyl
-
-Santyl is a debridement ointment. Seen a lot with Aquacel silver dressing.
-
-| Topic | Key Point |
-|---|---|
-| Purpose | Removes necrotic tissue, eschar, or sloughing tissue |
-| When to stop | Stop when debridement of necrotic tissue is complete |
-| Why stop | It can continue to destroy healthy tissue |
-
----
-
-## Silvadene / Silver Sulfadiazine
-
-Silvadene is frequently used for burn wounds.
-
-| Topic | Key Point |
-|---|---|
-| Application | Apply cream with sterile gloved hand |
-| Dressing | Cover with petroleum jelly dressing and hold with Kerlix wrap if ordered |
-| Side effects | Rash, leukopenia |
-| Monitor | WBC count, signs of infection, allergy history |
-
----
-
-# Skin Grafting
+## Skin Grafting
 
 Skin grafting may be needed for deep partial-thickness or full-thickness burns.
 
-## Nursing Care After Grafting
+### Nursing Care After Grafting
 
 | Nursing Care | Why |
 |---|---|
 | Protect graft site | Prevents graft damage |
-| DO NOT pack | Packing can kill the graft |
+| Do not pack | Packing can kill the graft |
 | Immobilize area as prescribed | Helps graft adhere |
 | Avoid pressure or shearing | Prevents graft displacement |
 | Monitor for infection | Prevents complications |
@@ -859,64 +668,22 @@ Skin grafting may be needed for deep partial-thickness or full-thickness burns.
 
 ---
 
-# Types of Grafts
+## Types of Grafts
 
-## Autograft
-
-An autograft uses the client’s own skin.
-
-### Key Point
-
-| Key Point |
-|---|
-| Usually preferred because it comes from the same person |
-| Example: skin taken from the client’s healthy skin and placed over the burn |
+| Type | Source | Key Point |
+|---|---|---|
+| Autograft | Client’s own skin | Usually preferred because it comes from the same person |
+| Syngeneic graft | Identical twin | Also called an isograft |
+| Allograft | Another human who is not genetically identical | Also called a homograft; temporary cover, not usually permanent |
+| Xenograft | Another species, such as pig skin or fish skin | Temporarily maintains skin integrity until another treatment is ready |
 
 ---
 
-## Syngeneic Graft
-
-A syngeneic graft comes from an identical twin.
-
-### Key Point
-
-| Key Point |
-|---|
-| Also called an isograft |
-
----
-
-## Allograft
-
-An allograft comes from another human who is not genetically identical.
-
-### Key Point
-
-| Key Point |
-|---|
-| Also called a homograft |
-| Can temporarily cover the wound but is not usually permanent |
-
----
-
-## Xenograft
-
-A xenograft comes from another species.
-
-| Examples | Key Point |
-|---|---|
-| Pig skin | Can temporarily maintain skin integrity until another treatment is ready |
-| Fish skin | Can temporarily maintain skin integrity until another treatment is ready |
-
----
-
-# Donor Site Care
+## Donor Site Care
 
 A donor site is where healthy skin is removed from the client for grafting.
 
-## Important Points
-
-| Important Point |
+| Important Points |
 |---|
 | Donor sites can be very painful |
 | Donor sites may be more painful than the graft site |
@@ -926,11 +693,9 @@ A donor site is where healthy skin is removed from the client for grafting.
 
 ---
 
-# Mesh Grafts
+## Mesh Grafts
 
 A mesh graft is skin that has been expanded to cover a larger wound area.
-
-### Why It Is Used
 
 | Why It Is Used |
 |---|
@@ -940,15 +705,13 @@ A mesh graft is skin that has been expanded to cover a larger wound area.
 
 ---
 
-# Nutrition and Burns
+## Nutrition and Burns
 
 Burns increase metabolic demand.
 
 The body needs extra calories and protein for wound healing.
 
-## Nutrition Priorities
-
-| Priority | Why |
+| Nutrition Priority | Why |
 |---|---|
 | High protein | Wound healing |
 | High calorie | Increased metabolic demand |
@@ -957,102 +720,20 @@ The body needs extra calories and protein for wound healing.
 | Adequate fluids | Perfusion and hydration |
 | Enteral feeding if needed | Nutrition support |
 
-<div class="ati-box" markdown="1">
-<strong>NCLEX Tip:</strong> Burns are hypermetabolic. Think high calorie + high protein for healing.
-</div>
-
 ---
 
-# Complications of Burns
+## Complications of Burns
 
-## Airway Edema
+| Complication | Most Concerning With | Red Flags |
+|---|---|---|
+| Airway edema | Face, neck, or inhalation burns | Hoarseness, stridor, drooling, difficulty swallowing, increased work of breathing |
+| Carbon monoxide poisoning | Smoke inhalation or enclosed-space fire | Headache, confusion, weakness, dizziness, altered mental status, possible cherry-red skin |
+| Hypovolemic shock | Shock phase/fluid shift out of bloodstream | Low BP, high HR, decreased UOP, weak pulses, confusion |
+| Pulmonary edema | Diuretic phase/fluid shifting back into vascular space | SOB, crackles, increased work of breathing, increased CVP, decreased O₂ |
+| Infection and sepsis | Loss of skin barrier | Fever or hypothermia, drainage, foul odor, increased pain, confusion, hypotension, tachycardia |
+| Contractures | Scar tissue limiting movement | Decreased ROM/function |
 
-Most concerning with face, neck, or inhalation burns.
-
-### Red Flags
-
-| Red Flags |
-|---|
-| Hoarseness |
-| Stridor |
-| Drooling |
-| Difficulty swallowing |
-| Increased work of breathing |
-
----
-
-## Carbon Monoxide Poisoning
-
-Most concerning with smoke inhalation or burns in an enclosed space.
-
-### Red Flags
-
-| Red Flags |
-|---|
-| Headache |
-| Confusion |
-| Weakness |
-| Dizziness |
-| Altered mental status |
-| Possible cherry-red skin |
-
----
-
-## Hypovolemic Shock
-
-Caused by fluid shifting out of the bloodstream.
-
-### Red Flags
-
-| Red Flags |
-|---|
-| Low blood pressure |
-| High heart rate |
-| Decreased urine output |
-| Weak pulses |
-| Confusion |
-
----
-
-## Pulmonary Edema
-
-Can occur when fluid shifts back into the vascular space during the diuretic phase.
-
-### Red Flags
-
-| Red Flags |
-|---|
-| Shortness of breath |
-| Crackles |
-| Increased work of breathing |
-| Increased CVP |
-| Decreased oxygen saturation |
-
----
-
-## Infection and Sepsis
-
-Caused by loss of skin barrier.
-
-### Red Flags
-
-| Red Flags |
-|---|
-| Fever or hypothermia |
-| Increased wound drainage |
-| Foul odor |
-| Increased pain |
-| Confusion |
-| Hypotension |
-| Tachycardia |
-
----
-
-## Contractures
-
-Can occur when scar tissue limits movement.
-
-### Prevention
+### Contracture Prevention
 
 | Prevention |
 |---|
@@ -1064,7 +745,7 @@ Can occur when scar tissue limits movement.
 
 ---
 
-# What Not To Do
+## What Not To Do
 
 | Do Not | Why |
 |---|---|
@@ -1079,82 +760,20 @@ Can occur when scar tissue limits movement.
 
 ---
 
-# Priority Cues to Recognize
+## Priority Cues to Recognize
 
-## Airway Problem
-
-| Think | Action |
-|---|---|
-| Facial burns | Assess airway |
-| Soot | Give oxygen |
-| Hoarseness | Prepare for early intubation |
-| Stridor | Prepare for early intubation |
-| Burns in an enclosed space | Assess for inhalation injury |
-| Smoke inhalation | Think airway and carbon monoxide |
+| Problem | Think | Action |
+|---|---|---|
+| Airway problem | Facial burns, soot, hoarseness, stridor, enclosed-space fire, smoke inhalation | Assess airway, give oxygen, prepare for early intubation |
+| Carbon monoxide poisoning | Fire exposure, enclosed-space fire, headache, confusion, possible cherry-red appearance | Administer high-flow oxygen as ordered |
+| Fluid volume deficit | Tachycardia, hypotension, low UOP, increased Hct, shock phase | IV fluids, monitor UOP, assess for shock |
+| Fluid volume overload | Diuretic phase, increased CVP, increased UOP, crackles, pulmonary edema | Monitor lung sounds, monitor oxygenation, notify provider if pulmonary edema signs occur |
+| Infection | Drainage, odor, fever/hypothermia, increased pain, sepsis signs | Wound care, cultures/antibiotics if prescribed, monitor WBC |
+| Circulation problem | Circumferential burn, weak pulse, numbness, cool limb, delayed cap refill | Assess neurovascular status and notify provider |
 
 ---
 
-## Carbon Monoxide Poisoning
-
-| Think | Action |
-|---|---|
-| Fire exposure | Administer high-flow oxygen as ordered |
-| Enclosed-space fire | Administer high-flow oxygen as ordered |
-| Headache | Assess oxygenation and mental status |
-| Confusion | Treat as possible hypoxia |
-| Possible cherry-red appearance | Classic clue, but not always present |
-
----
-
-## Fluid Volume Deficit
-
-| Think | Action |
-|---|---|
-| Tachycardia | IV fluids as ordered |
-| Hypotension | Monitor urine output |
-| Low urine output | Assess for shock |
-| Increased hematocrit | Monitor labs |
-| Shock phase | Watch closely during first 24–48 hr |
-
----
-
-## Fluid Volume Overload
-
-| Think | Action |
-|---|---|
-| Diuretic phase | Monitor lung sounds |
-| Increased CVP | Monitor oxygenation |
-| Increased urine output | Watch for pulmonary edema |
-| Crackles | Notify provider if worsening |
-| Pulmonary edema | Prepare for respiratory support if needed |
-
----
-
-## Infection
-
-| Think | Action |
-|---|---|
-| Wound drainage | Wound care |
-| Odor | Cultures if prescribed |
-| Fever or hypothermia | Antibiotics if prescribed |
-| Increased pain | Monitor WBC |
-| Sepsis signs | Notify provider/rapid response if unstable |
-
----
-
-## Circulation Problem
-
-| Think | Action |
-|---|---|
-| Circumferential burn | Assess neurovascular status |
-| Weak pulse | Notify provider |
-| Numbness | Notify provider |
-| Cool limb | Assess circulation |
-| Delayed capillary refill | Report concern |
-
----
-
-# Quick Review Chart
+## Quick Review Chart
 
 | Topic | What To Remember |
 |---|---|
@@ -1180,6 +799,5 @@ Can occur when scar tissue limits movement.
 | Silvadene | Monitor WBC; can cause leukopenia |
 | Graft care | No pressure, shearing, or packing |
 | Donor site | Often very painful |
-| Circumferential burn | Check pulses, cap refill, sensation, movement |
-| Face/neck burn | Airway edema risk |
-| Electrical burn | Cardiac monitoring and kidney monitoring |
+
+
