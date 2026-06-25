@@ -2,10 +2,87 @@
   var container = document.getElementById('review-page-content');
   if (!container) return;
 
-  var ANN_PREFIX = 'ellie-annotations-';
-  var THL_PREFIX = 'ellie-table-hl-';
+  var ANN_PREFIX  = 'ellie-annotations-';
+  var THL_PREFIX  = 'ellie-table-hl-';
+  var NOTES_KEY   = 'ellie-hl-notes';
   var COLOR_ORDER = ['yellow', 'pink', 'blue', 'green'];
   var COLOR_LABELS = { yellow: 'Yellow', pink: 'Pink', blue: 'Blue', green: 'Green' };
+
+  // ── Per-highlight note storage ────────────────────────────────
+  function loadNotes() { try { return JSON.parse(localStorage.getItem(NOTES_KEY)) || {}; } catch(e) { return {}; } }
+  function saveNote(id, text) {
+    var notes = loadNotes();
+    if (text.trim()) notes[id] = text.trim();
+    else delete notes[id];
+    localStorage.setItem(NOTES_KEY, JSON.stringify(notes));
+  }
+
+  function makeNoteWidget(id) {
+    var notes = loadNotes();
+    var existing = notes[id] || '';
+
+    var wrap = document.createElement('div');
+    wrap.className = 'rn-wrap';
+
+    var noteText = document.createElement('div');
+    noteText.className = 'rn-text' + (existing ? '' : ' rn-empty');
+    noteText.textContent = existing || '+ add note';
+
+    var editor = document.createElement('div');
+    editor.className = 'rn-editor';
+    editor.style.display = 'none';
+
+    var textarea = document.createElement('textarea');
+    textarea.className = 'rn-textarea';
+    textarea.value = existing;
+    textarea.placeholder = 'Write a note…';
+    textarea.rows = 3;
+
+    var actions = document.createElement('div');
+    actions.className = 'rn-actions';
+
+    var saveBtn = document.createElement('button');
+    saveBtn.className = 'rn-save';
+    saveBtn.textContent = 'Save';
+
+    var cancelBtn = document.createElement('button');
+    cancelBtn.className = 'rn-cancel';
+    cancelBtn.textContent = 'Cancel';
+
+    actions.appendChild(saveBtn);
+    actions.appendChild(cancelBtn);
+    editor.appendChild(textarea);
+    editor.appendChild(actions);
+    wrap.appendChild(noteText);
+    wrap.appendChild(editor);
+
+    function openEditor() {
+      noteText.style.display = 'none';
+      editor.style.display = 'block';
+      textarea.focus();
+      textarea.select();
+    }
+
+    function closeEditor(save) {
+      if (save) {
+        var val = textarea.value;
+        saveNote(id, val);
+        noteText.textContent = val.trim() || '+ add note';
+        noteText.classList.toggle('rn-empty', !val.trim());
+      }
+      editor.style.display = 'none';
+      noteText.style.display = '';
+    }
+
+    noteText.addEventListener('click', openEditor);
+    saveBtn.addEventListener('click', function () { closeEditor(true); });
+    cancelBtn.addEventListener('click', function () {
+      textarea.value = loadNotes()[id] || '';
+      closeEditor(false);
+    });
+
+    return wrap;
+  }
 
   // Collect text highlights grouped by page path
   var pageMap = {}; // path -> { items: [], tables: [] }
@@ -131,7 +208,11 @@
           var div = document.createElement('div');
           div.className = 'review-hl-item';
           var uid = item.uid || '';
-          div.innerHTML = '<mark class="hl hl-' + color + '">' + item.text + '</mark>';
+          var mark = document.createElement('mark');
+          mark.className = 'hl hl-' + color;
+          mark.textContent = item.text;
+          div.appendChild(mark);
+          if (uid) div.appendChild(makeNoteWidget('hl-' + uid));
           list.appendChild(div);
         });
         group.appendChild(list);
@@ -148,6 +229,7 @@
       tWrap.className = 'review-table-wrap';
       tWrap.innerHTML = entry.html;
       tgroup.appendChild(tWrap);
+      tgroup.appendChild(makeNoteWidget('tbl-' + path + '-' + entry.tableId));
       card.appendChild(tgroup);
     });
 
