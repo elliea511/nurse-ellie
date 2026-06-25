@@ -1958,7 +1958,10 @@ mark.hl {
   vertical-align: baseline !important;
 }
 
-mark.hl:hover { opacity: 0.6 !important; text-decoration: line-through !important; }
+/* Hover on source pages: faded strikethrough hints "click to remove" */
+.main-content mark.hl:hover { opacity: 0.6 !important; text-decoration: line-through !important; }
+/* On review page: no strikethrough on hover */
+#review-page-content mark.hl:hover { opacity: 1 !important; text-decoration: none !important; }
 
 mark.hl-yellow { background: rgba(255, 225, 60, 0.48) !important; }
 mark.hl-pink   { background: rgba(255, 140, 175, 0.4) !important; }
@@ -2741,51 +2744,36 @@ a.video-preview-card:hover .play-button {
   padding: 0 !important;
   display: flex !important;
   flex-direction: column !important;
-  gap: 0.5rem !important;
+  gap: 0.35rem !important;
 }
 
 .review-hl-item {
-  font-size: 0.93rem !important;
-  line-height: 1.65 !important;
+  font-size: 0.92rem !important;
+  line-height: 1.7 !important;
   position: relative !important;
+  padding: 0.1rem 0 !important;
 }
 
-/* ── Highlight marks — clean, color-tinted cards ────────────────── */
+/* ── Highlight marks — compact, clean ───────────────────────────── */
 .review-card mark.hl {
-  display: block !important;
+  display: inline !important;
   background-image: none !important;
-  border-radius: 8px !important;
-  padding: 0.6rem 0.95rem 0.6rem 1.1rem !important;
-  font-size: 0.92rem !important;
-  line-height: 1.65 !important;
-  white-space: pre-wrap !important;
+  border-radius: 4px !important;
+  padding: 0.1em 0.35em !important;
+  font-size: inherit !important;
+  line-height: inherit !important;
+  white-space: normal !important;
   cursor: default !important;
-  border-left: 3.5px solid transparent !important;
+  border-left: none !important;
   box-shadow: none !important;
   -webkit-text-fill-color: #1e1e2e !important;
   color: #1e1e2e !important;
-  transition: filter 0.12s !important;
 }
 
-/* Per-color tinted backgrounds */
-.review-card mark.hl-yellow {
-  background-color: #fffbeb !important;
-  border-left-color: #f5c400 !important;
-}
-.review-card mark.hl-pink {
-  background-color: #fff0f5 !important;
-  border-left-color: #e06090 !important;
-}
-.review-card mark.hl-blue {
-  background-color: #eff6ff !important;
-  border-left-color: #4488dd !important;
-}
-.review-card mark.hl-green {
-  background-color: #f0fdf4 !important;
-  border-left-color: #33aa66 !important;
-}
-
-.review-card mark.hl:hover { filter: brightness(0.97) !important; }
+.review-card mark.hl-yellow { background-color: #fff3b0 !important; }
+.review-card mark.hl-pink   { background-color: #ffd6e8 !important; }
+.review-card mark.hl-blue   { background-color: #cce0ff !important; }
+.review-card mark.hl-green  { background-color: #c8f5d8 !important; }
 
 /* ── Table wraps ────────────────────────────────────────────────── */
 .review-table-wrap {
