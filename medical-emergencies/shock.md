@@ -80,8 +80,9 @@ Assess:
 - Bleeding
 - Temperature
 
-## Report Immediately
+<div class="priority" markdown="1">
 
+**Report Immediately:**
 - Decreased LOC
 - Decreased urine output
 - Weak or absent pulses
@@ -92,6 +93,8 @@ Assess:
 - Mottled skin
 - Signs of sepsis
 - Signs of anaphylaxis
+
+</div>
 
 ------
 
@@ -456,6 +459,8 @@ Obstructive shock occurs when a mechanical problem blocks the heart from filling
 
 # Shock Comparison Chart
 
+<div class="nclex" markdown="1">
+
 | Type of Shock | Key Clue                  | Skin                  | Heart Rate       | Priority                        |
 | ------------- | ------------------------- | --------------------- | ---------------- | ------------------------------- |
 | Hypovolemic   | Bleeding or fluid loss    | Cool, clammy          | Fast             | Replace volume                  |
@@ -464,6 +469,8 @@ Obstructive shock occurs when a mechanical problem blocks the heart from filling
 | Anaphylactic  | Allergy + airway swelling | Flushed, hives        | Fast             | Epinephrine                     |
 | Neurogenic    | Spinal/neuro injury       | Warm, dry             | Slow possible    | Fluids/vasopressors, spine care |
 | Obstructive   | Physical blockage         | Often cool/clammy     | Fast             | Remove/treat obstruction        |
+
+</div>
 
 ------
 
@@ -481,6 +488,8 @@ Obstructive shock occurs when a mechanical problem blocks the heart from filling
 
 # What Not To Miss
 
+<div class="nclex" markdown="1">
+
 | Finding                                       | Think              |
 | --------------------------------------------- | ------------------ |
 | Restlessness + tachycardia                    | Early shock        |
@@ -492,6 +501,8 @@ Obstructive shock occurs when a mechanical problem blocks the heart from filling
 | Infection + warm flushed skin                 | Early septic shock |
 | Bradycardia + hypotension after spinal injury | Neurogenic shock   |
 | Tension pneumothorax/cardiac tamponade/PE     | Obstructive shock  |
+
+</div>
 
 ------
 

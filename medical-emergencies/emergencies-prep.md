@@ -5,7 +5,7 @@ title: Medical Emergencies: Preparedness and Crisis Intervention
 
 # Medical Emergencies: Preparedness and Crisis Intervention
 
-<div class="note">
+<div class="note" markdown="1">
 
 This section focuses on emergency department basics, triage, disaster preparedness, human trafficking recognition, and crisis intervention.
 
@@ -30,7 +30,7 @@ Patients may come to the emergency department for:
 - Trauma
 - Abuse or unsafe home situation
 
-<div class="nclex">
+<div class="nclex" markdown="1">
 
 Emergency nursing is about quickly identifying who is unstable, who can wait, and who needs protection or further screening.
 
@@ -66,7 +66,7 @@ ED nurses often need specialized training, such as:
 - Trauma training
 - Some may be trained as SANE nurses
 
-<div class="memory">
+<div class="memory" markdown="1">
 
 SANE = Sexual Assault Nurse Examiner.
 
@@ -92,7 +92,7 @@ Vulnerable patients may include:
 - Patients with mental health concerns
 - Patients experiencing abuse, violence, or trafficking
 
-<div class="nclex">
+<div class="nclex" markdown="1">
 
 Older adults who come to the ED are more likely to be admitted to the hospital.
 
@@ -124,7 +124,7 @@ Communication may be difficult if the patient has:
 - Ask simple, direct questions.
 - Get the patient alone if abuse or trafficking is suspected.
 
-<div class="danger">
+<div class="danger" markdown="1">
 
 Do not use family members or visitors as translators when safety, abuse, trafficking, or consent may be involved.
 
@@ -169,7 +169,7 @@ Emergency departments may be ranked by trauma level.
 | Level 3 | Smaller/rural hospital; focuses on initial stabilization and transfer if needed |
 | Level 4 | Rural/remote setting; provides ACLS and transfers after stabilization |
 
-<div class="memory">
+<div class="memory" markdown="1">
 
 Level 1 = highest level of trauma resources.
 
@@ -208,7 +208,7 @@ These patients have an immediate threat to life or limb.
 | Severe trauma | Possible life-threatening injury |
 | Altered LOC with unstable findings | Neuro/oxygenation concern |
 
-<div class="danger">
+<div class="danger" markdown="1">
 
 Emergent = life-threatening or limb-threatening.
 
@@ -232,7 +232,7 @@ Urgent patients have a serious health problem and need quick treatment, but ther
 | New-onset respiratory infection | Could worsen |
 | Pneumonia in older adult | Higher risk for complications |
 
-<div class="nclex">
+<div class="nclex" markdown="1">
 
 Pneumonia in an older adult is more concerning than a mild cold because older adults can decline quickly.
 
@@ -265,7 +265,7 @@ They can usually wait several hours without fear of becoming unstable.
 | Urgent | Middle | Serious, needs treatment soon | Severe abdominal pain, renal colic, displaced fracture, pneumonia in older adult |
 | Non-urgent | Lowest | Can wait several hours | Rash, sprain, cold, simple fracture |
 
-<div class="memory">
+<div class="memory" markdown="1">
 
 Triage question: **Who is most likely to die or lose a limb if not treated now?**
 
@@ -289,7 +289,7 @@ It should be completed quickly, usually within **1 to 2 minutes**, and intervent
 | D | Disability | Neuro status, LOC, pupils, movement |
 | E | Exposure | Fully assess for injuries while preventing hypothermia |
 
-<div class="danger">
+<div class="danger" markdown="1">
 
 If trauma is suspected, protect the cervical spine while assessing airway.
 
@@ -307,7 +307,7 @@ Exception:
 
 - If there is **excessive bleeding**, use **CAB**.
 
-<div class="danger">
+<div class="danger" markdown="1">
 
 Massive bleeding can kill quickly. Control severe bleeding first.
 
@@ -329,7 +329,7 @@ It includes:
 - Labs
 - Specialty consults
 
-<div class="nclex">
+<div class="nclex" markdown="1">
 
 Primary survey = quick life-threat check.  
 Secondary survey = more complete assessment after stabilization.
@@ -371,7 +371,7 @@ Tertiary prevention means maximizing recovery after injury occurs.
 | Medical and surgical care | Treat injuries |
 | Rehabilitation services | Restore function |
 
-<div class="memory">
+<div class="memory" markdown="1">
 
 Primary = prevent it.  
 Secondary = reduce injury.  
@@ -421,7 +421,7 @@ A victim may present with:
 | Impulsivity/hostility | Crisis or trauma response |
 | Suicidal tendencies | Severe distress/safety risk |
 
-<div class="danger">
+<div class="danger" markdown="1">
 
 Human trafficking victims may not identify themselves as victims. They may be afraid to tell the truth while the controlling person is present.
 
@@ -442,7 +442,7 @@ Do not confront the suspected trafficker directly.
 - “Has anyone forced you to do something you did not want to do?”
 - “Do you have access to your identification documents?”
 
-<div class="nclex">
+<div class="nclex" markdown="1">
 
 If abuse or trafficking is suspected, the nurse should separate the patient from the accompanying person in a safe and private way.
 
@@ -452,7 +452,7 @@ If abuse or trafficking is suspected, the nurse should separate the patient from
 
 The National Human Trafficking Hotline can be used as a resource.
 
-<div class="memory">
+<div class="memory" markdown="1">
 
 Human trafficking NCLEX clue: controlling companion + fearful patient + inconsistent injuries + cannot speak alone.
 
@@ -508,7 +508,7 @@ An external disaster occurs **outside** the healthcare facility but requires the
 
 External disasters may bring many patients to the ED at once.
 
-<div class="nclex">
+<div class="nclex" markdown="1">
 
 Disaster care focuses on doing the greatest good for the greatest number of people.
 
@@ -542,7 +542,7 @@ The plan prepares the facility for credible threats to patient, staff, and commu
 - Hazardous materials response
 - Media/public communication rules
 
-<div class="memory">
+<div class="memory" markdown="1">
 
 Know your role before the disaster happens.
 
@@ -581,7 +581,7 @@ Nursing priorities:
 - Remove contaminated clothing if instructed.
 - Protect airway, breathing, and circulation.
 
-<div class="danger">
+<div class="danger" markdown="1">
 
 Do not become another victim. Scene safety and PPE come first.
 
@@ -597,7 +597,7 @@ In a disaster, resources may be limited.
 
 The goal is:
 
-<div class="nclex">
+<div class="nclex" markdown="1">
 
 Save the greatest number of people possible.
 
@@ -625,7 +625,7 @@ Save the greatest number of people possible.
 | No breathing after airway opened | Black |
 | Massive fatal injury | Black |
 
-<div class="memory">
+<div class="memory" markdown="1">
 
 Green patients can walk. Red patients need help now. Black patients are deceased or expected to die with available resources.
 
@@ -660,7 +660,7 @@ Crisis situations may include:
 | Stay calm | Helps reduce escalation |
 | Follow facility policy | Use safety codes and chain of command |
 
-<div class="danger">
+<div class="danger" markdown="1">
 
 Safety is always first in a crisis.
 
@@ -702,7 +702,7 @@ Ask:
 - Document exact patient statements.
 - Follow facility policy.
 
-<div class="nclex">
+<div class="nclex" markdown="1">
 
 Asking about suicide does not put the idea in the patient’s head. It helps identify risk.
 
@@ -736,7 +736,7 @@ Assess for:
 | Call for help early | Managing alone |
 | Follow facility codes | Ignoring warning signs |
 
-<div class="danger">
+<div class="danger" markdown="1">
 
 If the patient becomes unsafe, call for help and follow facility policy.
 
@@ -766,7 +766,7 @@ Avoid:
 - “You should be over this.”
 - False reassurance
 
-<div class="nclex">
+<div class="nclex" markdown="1">
 
 The best response usually acknowledges feelings and encourages the patient to talk.
 
@@ -776,7 +776,7 @@ The best response usually acknowledges feelings and encourages the patient to ta
 
 # Believe the Patient’s Report
 
-<div class="danger">
+<div class="danger" markdown="1">
 
 Believe the patient’s report.
 
@@ -834,7 +834,7 @@ Avoid:
 
 # What to Remember
 
-<div class="memory">
+<div class="memory" markdown="1">
 
 Know triage assessment.  
 Know your role.  
@@ -846,31 +846,31 @@ Believe everyone’s report.
 
 ## Exam Tips
 
-<div class="nclex">
+<div class="nclex" markdown="1">
 
 Emergent patients have life-threatening or limb-threatening problems.
 
 </div>
 
-<div class="nclex">
+<div class="nclex" markdown="1">
 
 Primary survey is ABCDE unless there is excessive bleeding. Then think CAB.
 
 </div>
 
-<div class="nclex">
+<div class="nclex" markdown="1">
 
 If trafficking or abuse is suspected, get the patient alone safely.
 
 </div>
 
-<div class="nclex">
+<div class="nclex" markdown="1">
 
 For disasters, follow the Emergency Management Plan and focus on the greatest good for the greatest number.
 
 </div>
 
-<div class="nclex">
+<div class="nclex" markdown="1">
 
 For crisis intervention, assess risk, remove threats, stay calm, and follow facility policy.
 

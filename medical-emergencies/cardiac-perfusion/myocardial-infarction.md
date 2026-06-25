@@ -5,7 +5,7 @@ title: Angina and Myocardial Infarction
 
 # Angina and Myocardial Infarction
 
-<div class="note">
+<div class="note" markdown="1">
 Angina and myocardial infarction are both caused by decreased blood flow to the heart muscle. The big difference is that angina is usually temporary ischemia, while an MI causes heart muscle damage.
 </div>
 

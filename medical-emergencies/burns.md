@@ -6,7 +6,7 @@ title: Basic Burns
 
 # Burns
 
-<div class="note">
+<div class="note" markdown="1">
 Burns are injuries that cause a loss of tissue integrity. Severity depends on the depth of the burn, total body surface area burned, location, cause, age of the client, and complications.
 </div>
 
@@ -21,7 +21,7 @@ Burns are injuries that cause a loss of tissue integrity. Severity depends on th
 |  | Decreased ability to perform ADLs because skin tightens from tissue damage/growth |
 |  | Psychosocial concerns related to appearance, pain, trauma, and long recovery |
 
-<div class="priority">
+<div class="priority" markdown="1">
 <strong>Priority:</strong> With burns, always think <strong>airway first</strong>, then circulation/fluid replacement, then infection prevention and wound healing.
 </div>
 
@@ -51,7 +51,7 @@ Contact burns occur from touching hot substances.
 | Tar | Can stick to the skin |
 | Grease | Can continue burning tissue |
 
-<div class="warning">
+<div class="warning" markdown="1">
 <strong>Important:</strong> Contact burns can lead to full-thickness injury because the hot substance may stay on the skin longer.
 </div>
 
@@ -69,11 +69,11 @@ Chemical burns are caused by strong acids, alkalis, or other chemicals.
 |  | Wear gloves and PPE |
 |  | Remove jewelry because swelling can occur quickly |
 
-<div class="warning">
+<div class="warning" markdown="1">
 <strong>Do not trap the chemical against the skin.</strong> Remove contaminated clothing and flush as ordered.
 </div>
 
-<div class="priority">
+<div class="priority" markdown="1">
 <strong>Priority Tip:</strong> Protect yourself first with PPE, then remove the chemical source and flush as ordered.
 </div>
 
@@ -93,7 +93,7 @@ These can look small on the outside but cause major internal damage.
 | Kidney injury from myoglobin | Can damage kidneys |
 | Entry and exit wounds | Shows path of current |
 
-<div class="priority">
+<div class="priority" markdown="1">
 <strong>Priority:</strong> Electrical burns require cardiac monitoring because they can cause dysrhythmias.
 </div>
 
@@ -123,7 +123,7 @@ Smoke-related burns are caused by inhalation of smoke and hot gases.
 | Airway obstruction |
 | Carbon monoxide poisoning |
 
-<div class="priority">
+<div class="priority" markdown="1">
 <strong>Think:</strong> AIRWAY, AIRWAY, AIRWAY.
 </div>
 
@@ -156,11 +156,11 @@ It is a major cause of death in fire-related injuries because it binds to hemogl
 | Shortness of breath |
 | Altered mental status |
 
-<div class="priority">
+<div class="priority" markdown="1">
 <strong>Priority:</strong> If carbon monoxide poisoning is suspected or confirmed, administer high-flow oxygen for at least 6 hours.
 </div>
 
-<div class="ati-box">
+<div class="ati-box" markdown="1">
 <strong>NCLEX Tip:</strong> Pulse ox can look normal with carbon monoxide poisoning because it may not distinguish oxygen from carbon monoxide on hemoglobin. Treat the client, not just the pulse ox number.
 </div>
 
@@ -183,7 +183,7 @@ Also called a **1st degree burn**.
 
 **If you have skin, you can get a sunburn.**
 
-<div class="note">
+<div class="note" markdown="1">
 <strong>Class Note:</strong> Even superficial burns can be a concern for babies and older adults because they are still at risk for dehydration.
 </div>
 
@@ -203,7 +203,7 @@ Also called a **2nd degree burn**.
 | Why painful | Nerve endings are exposed |
 | Healing | Uncomplicated healing occurs in 10–21 days |
 
-<div class="ati-box">
+<div class="ati-box" markdown="1">
 <strong>Recognition Tip:</strong> If the burn looks wet, moist, blistered, and very painful, think partial-thickness.
 </div>
 
@@ -252,7 +252,7 @@ Also called a **3rd degree burn**.
 | Rehab | Often requires lots of rehab to regain function |
 | Pain later | Pain can increase as nerve endings repair |
 
-<div class="warning">
+<div class="warning" markdown="1">
 <strong>Important:</strong> Full-thickness burns may not hurt at the center because nerve endings are destroyed. The surrounding areas can still be very painful.
 </div>
 
@@ -283,7 +283,7 @@ Fourth degree burns extend beyond the skin into deeper structures.
 
 Skin grafts usually do not work because there may be nothing healthy to graft onto.
 
-<div class="priority">
+<div class="priority" markdown="1">
 <strong>Important:</strong> Fourth degree burns often require specialized care and may require amputation depending on the location and severity.
 </div>
 
@@ -318,7 +318,7 @@ Burn size is estimated using **total body surface area**, or **TBSA**.
 
 The Rule of Nines divides the adult body into areas worth 9% or multiples of 9%.
 
-<div class="warning">
+<div class="warning" markdown="1">
 <strong>Important:</strong> The Rule of Nines is for adults. Children have different body proportions, so a pediatric burn chart is more accurate.
 </div>
 
@@ -333,7 +333,7 @@ The Rule of Nines divides the adult body into areas worth 9% or multiples of 9%.
 | Each leg | 18% |
 | Perineum | 1% |
 
-<div class="ati-box">
+<div class="ati-box" markdown="1">
 <strong>Memory Tip:</strong> There are 11 areas of 9%. 11 × 9 = 99%, and the perineum is 1%.
 </div>
 
@@ -352,7 +352,7 @@ A 28-year-old female has full-thickness burns to the:
 | Perineum | 1% |
 | Total | 19% |
 
-<div class="ati-box">
+<div class="ati-box" markdown="1">
 <strong>Answer:</strong> 19%
 </div>
 
@@ -368,7 +368,7 @@ Children have different body proportions than adults.
 | Smaller leg percentage | Use pediatric chart |
 | Best chart | Lund and Browder chart |
 
-<div class="note">
+<div class="note" markdown="1">
 For children, use a pediatric burn chart such as the Lund and Browder chart because the adult Rule of Nines is less accurate.
 </div>
 
@@ -402,7 +402,7 @@ Burns are more serious when they involve the:
 | Major joints | Contracture/function risk |
 | Circumferential areas | Circulation or breathing restriction |
 
-<div class="priority">
+<div class="priority" markdown="1">
 <strong>Priority:</strong> Face and neck burns are concerning because of possible airway edema.
 </div>
 
@@ -428,7 +428,7 @@ As swelling increases, burned skin may not stretch. This can decrease circulatio
 | Tight, firm skin | Eschar restricting tissue |
 | Difficulty breathing if around chest | Restricted chest expansion |
 
-<div class="warning">
+<div class="warning" markdown="1">
 <strong>Report immediately:</strong> Weak pulses, numbness, worsening pain, or difficulty breathing may indicate impaired circulation or restricted chest expansion. This is similar to compartment syndrome.
 </div>
 
@@ -454,7 +454,7 @@ Your notes describe this as the beginning phase, usually the first **24 to 48 ho
 | Begin fluid replacement |
 | Pain control |
 
-<div class="priority">
+<div class="priority" markdown="1">
 <strong>First Priority:</strong> Airway always comes first, especially with facial burns, smoke inhalation, or burns in an enclosed space.
 </div>
 
@@ -497,7 +497,7 @@ The rehabilitation phase starts with wound closure and continues until the clien
 | ADL support |
 | Encourage independence as much as possible |
 
-<div class="warning">
+<div class="warning" markdown="1">
 <strong>Important:</strong> TPN may be required if the patient develops paralytic ileus.
 </div>
 
@@ -514,7 +514,7 @@ The rehabilitation phase starts with wound closure and continues until the clien
 | Remove jewelry | Swelling can occur quickly |
 | Cool small burns with cool water | Helps stop burning process |
 
-<div class="warning">
+<div class="warning" markdown="1">
 <strong>Do not use ice.</strong> Ice can cause vasoconstriction, worsen tissue damage, and increase risk for hypothermia.
 </div>
 
@@ -539,7 +539,7 @@ Airway injury is a major concern with burns.
 | Stridor |
 | Any weird or worsening respiratory symptoms |
 
-<div class="priority">
+<div class="priority" markdown="1">
 <strong>NCLEX Priority:</strong> Hoarseness, stridor, facial burns, or soot after a fire can mean airway swelling. Prepare for early intubation before the airway closes.
 </div>
 
@@ -556,7 +556,7 @@ Airway injury is a major concern with burns.
 | Chest expansion |  |
 | Presence of soot or sputum |  |
 
-<div class="warning">
+<div class="warning" markdown="1">
 <strong>Important:</strong> If the airway becomes too swollen, intubation may not be possible and the client may need a tracheostomy.
 </div>
 
@@ -597,7 +597,7 @@ Large burns require IV fluid replacement because fluid shifts out of the vascula
 | Maintain kidney perfusion |
 | Maintain urine output |
 
-<div class="ati-box">
+<div class="ati-box" markdown="1">
 <strong>ATI/NCLEX Tip:</strong> Urine output is one of the best indicators that fluid resuscitation is effective.
 </div>
 
@@ -637,7 +637,7 @@ Think: **fluid leaves the bloodstream and moves into the tissues.**
 | Telemetry/pads as needed | Burn clients may need monitoring regardless of wound condition |
 | Possible neutropenic precautions | If ordered/indicated due to infection risk or lab status |
 
-<div class="priority">
+<div class="priority" markdown="1">
 <strong>Priority:</strong> During the shock phase, monitor urine output closely. Urine output usually decreases because the body is trying to retain fluid.
 </div>
 
@@ -675,7 +675,7 @@ Think: **fluid comes back into the bloodstream.**
 | Monitor electrolytes | Potassium can decrease |
 | Assess for fluid overload | Fluid returns to vascular space |
 
-<div class="warning">
+<div class="warning" markdown="1">
 <strong>Important:</strong> During the diuretic phase, watch for pulmonary edema, especially in clients with heart failure. Furosemide may be used if prescribed.
 </div>
 
@@ -957,7 +957,7 @@ The body needs extra calories and protein for wound healing.
 | Adequate fluids | Perfusion and hydration |
 | Enteral feeding if needed | Nutrition support |
 
-<div class="ati-box">
+<div class="ati-box" markdown="1">
 <strong>NCLEX Tip:</strong> Burns are hypermetabolic. Think high calorie + high protein for healing.
 </div>
 
