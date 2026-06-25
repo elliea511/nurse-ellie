@@ -131,8 +131,7 @@
           var div = document.createElement('div');
           div.className = 'review-hl-item';
           var uid = item.uid || '';
-          var href = uid ? path + '?hljump=' + encodeURIComponent(uid) : path;
-          div.innerHTML = '<a href="' + href + '" class="review-hl-link"><mark class="hl hl-' + color + '">' + item.text + '</mark></a>';
+          div.innerHTML = '<mark class="hl hl-' + color + '">' + item.text + '</mark>';
           list.appendChild(div);
         });
         group.appendChild(list);
@@ -145,15 +144,10 @@
       var tgroup = document.createElement('div');
       tgroup.className = 'review-color-group review-table-group';
 
-      var tlink = document.createElement('a');
-      tlink.href = path;
-      tlink.className = 'review-table-link';
-
       var tWrap = document.createElement('div');
       tWrap.className = 'review-table-wrap';
-      tWrap.innerHTML = entry.html; // already has inline cell colors baked in
-      tlink.appendChild(tWrap);
-      tgroup.appendChild(tlink);
+      tWrap.innerHTML = entry.html;
+      tgroup.appendChild(tWrap);
       card.appendChild(tgroup);
     });
 
