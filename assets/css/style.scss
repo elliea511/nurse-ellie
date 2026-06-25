@@ -2538,14 +2538,6 @@ a.video-preview-card:hover .play-button {
   border-bottom: 1px solid #e8e8ee !important;
 }
 
-/* Action row: pencil + PDF, sits directly below the h1 */
-.review-action-row {
-  display: flex !important;
-  align-items: center !important;
-  gap: 0.6rem !important;
-  margin-bottom: 0.25rem !important;
-}
-
 .review-title {
   margin: 0 !important;
   font-size: 1.7rem !important;
@@ -2563,42 +2555,6 @@ a.video-preview-card:hover .play-button {
   font-size: 0.82rem !important;
   margin: 0 !important;
   letter-spacing: 0.01em !important;
-}
-
-/* Header action buttons */
-.review-edit-btn {
-  font-size: 1.05rem !important;
-  line-height: 1 !important;
-  background: none !important;
-  border: 1.5px solid #e0e0e8 !important;
-  border-radius: 8px !important;
-  color: #999 !important;
-  cursor: pointer !important;
-  padding: 0.22rem 0.55rem !important;
-  transition: color 0.15s, border-color 0.15s, background 0.15s !important;
-}
-.review-edit-btn:hover {
-  color: #5b7fe8 !important;
-  border-color: #b0c4f4 !important;
-  background: #f4f7ff !important;
-}
-
-.review-pdf-btn {
-  font-size: 0.78rem !important;
-  padding: 0.28rem 0.85rem !important;
-  border: 1.5px solid #e0e0e8 !important;
-  border-radius: 8px !important;
-  background: #fff !important;
-  color: #777 !important;
-  cursor: pointer !important;
-  font-family: inherit !important;
-  transition: background 0.15s, border-color 0.15s, color 0.15s !important;
-  margin-left: auto !important;
-}
-.review-pdf-btn:hover {
-  background: #f4f7ff !important;
-  border-color: #b0c4f4 !important;
-  color: #4a6ed4 !important;
 }
 
 .review-clear-all {
@@ -2626,18 +2582,6 @@ a.video-preview-card:hover .play-button {
   margin-left: auto !important;
 }
 .review-refresh-btn:hover { color: #5b7fe8 !important; border-color: #b0c4f4 !important; }
-
-/* ── Edit-mode toolbar ──────────────────────────────────────────── */
-.review-edit-controls {
-  display: flex !important;
-  align-items: center !important;
-  gap: 0.6rem !important;
-  padding: 0.55rem 0.85rem !important;
-  background: #f4f7ff !important;
-  border: 1.5px solid #c0d0f4 !important;
-  border-radius: 10px !important;
-  margin-bottom: 1.1rem !important;
-}
 
 .review-edit-save {
   font-size: 0.8rem !important;
@@ -2692,11 +2636,11 @@ a.video-preview-card:hover .play-button {
 }
 
 .review-card-title {
-  font-weight: 700 !important;
-  font-size: 0.98rem !important;
+  font-weight: 800 !important;
+  font-size: 1.15rem !important;
   color: #1a1a2e !important;
   text-decoration: none !important;
-  letter-spacing: -0.01em !important;
+  letter-spacing: -0.02em !important;
 }
 .review-card-title:hover { text-decoration: underline !important; }
 
@@ -2789,30 +2733,136 @@ a.video-preview-card:hover .play-button {
 .review-card mark.hl-blue   { background-color: #cce0ff !important; }
 .review-card mark.hl-green  { background-color: #c8f5d8 !important; }
 
-/* ── Formatting toolbar ─────────────────────────────────────────── */
-.review-fmt-toolbar {
+/* ── Unified toolbar (view + edit mode) ─────────────────────────── */
+.review-toolbar {
   display: flex !important;
   align-items: center !important;
-  gap: 0.4rem !important;
+  gap: 0.35rem !important;
   flex-wrap: wrap !important;
-  padding: 0.5rem 0.85rem !important;
-  background: #f4f7ff !important;
-  border: 1.5px solid #c0d0f4 !important;
+  padding: 0.45rem 0.75rem !important;
   border-radius: 10px !important;
-  margin-bottom: 1rem !important;
+  margin-bottom: 1.1rem !important;
 }
 
+/* View mode: minimal, no border */
+.review-toolbar-view {
+  padding: 0 0 0.5rem !important;
+  border: none !important;
+  background: transparent !important;
+  border-bottom: 1px solid #eef !important;
+}
+
+/* Edit mode: full bar with border */
+.review-toolbar-edit {
+  background: #fff !important;
+  border: 1.5px solid #c8d4f0 !important;
+  box-shadow: 0 2px 8px rgba(30,30,80,0.06) !important;
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 20 !important;
+}
+
+/* Edit mode label */
+.review-fmt-label {
+  font-size: 0.75rem !important;
+  font-weight: 700 !important;
+  color: #5b7fe8 !important;
+  letter-spacing: 0.02em !important;
+  padding: 0 0.25rem !important;
+  white-space: nowrap !important;
+}
+
+/* Separator */
+.review-fmt-sep {
+  display: inline-block !important;
+  width: 1px !important;
+  height: 1.35rem !important;
+  background: #dde !important;
+  margin: 0 0.2rem !important;
+  flex-shrink: 0 !important;
+}
+
+/* Format buttons */
 .review-fmt-btn {
   font-size: 0.82rem !important;
-  padding: 0.28rem 0.65rem !important;
+  min-width: 2rem !important;
+  height: 1.85rem !important;
+  padding: 0 0.55rem !important;
+  border: 1px solid transparent !important;
+  border-radius: 6px !important;
+  background: transparent !important;
+  cursor: pointer !important;
+  font-family: inherit !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  transition: background 0.1s, border-color 0.1s !important;
+  color: #333 !important;
+}
+.review-fmt-btn:hover { background: #eef2ff !important; border-color: #c0d0f4 !important; }
+.review-fmt-btn.review-fmt-active {
+  background: #dde8ff !important;
+  border-color: #99b4f0 !important;
+  color: #3355cc !important;
+}
+/* Style each format button to visually match what it does */
+.rfb-bold   { font-weight: 700 !important; }
+.rfb-italic { font-style: italic !important; }
+.rfb-ul     { text-decoration: underline !important; }
+.rfb-clear  { font-size: 0.72rem !important; color: #999 !important; }
+
+/* Size selector */
+.review-fmt-size-wrap {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 0.25rem !important;
+}
+.review-fmt-size-label {
+  font-size: 0.72rem !important;
+  color: #aaa !important;
+  white-space: nowrap !important;
+}
+.review-fmt-select {
+  font-size: 0.78rem !important;
+  height: 1.85rem !important;
   border: 1px solid #dde !important;
   border-radius: 6px !important;
   background: #fff !important;
+  padding: 0 0.3rem !important;
+  cursor: pointer !important;
+  color: #444 !important;
+  font-family: inherit !important;
+}
+.review-fmt-select:focus { outline: none !important; border-color: #99b4f0 !important; }
+
+/* View-mode edit trigger */
+.review-toolbar-edit-btn {
+  font-size: 0.82rem !important;
+  padding: 0.3rem 0.85rem !important;
+  border: 1.5px solid #c8d4f0 !important;
+  border-radius: 8px !important;
+  background: #f4f7ff !important;
+  color: #5b7fe8 !important;
   cursor: pointer !important;
   font-family: inherit !important;
-  line-height: 1.2 !important;
+  font-weight: 600 !important;
+  transition: background 0.15s !important;
 }
-.review-fmt-btn:hover { background: #eef2ff !important; border-color: #b0c4f4 !important; }
+.review-toolbar-edit-btn:hover { background: #e8eeff !important; }
+
+/* PDF button (appears in both modes) */
+.review-toolbar-pdf-btn {
+  font-size: 0.78rem !important;
+  padding: 0.28rem 0.75rem !important;
+  border: 1.5px solid #e0e0e8 !important;
+  border-radius: 8px !important;
+  background: #fff !important;
+  color: #777 !important;
+  cursor: pointer !important;
+  font-family: inherit !important;
+  transition: background 0.15s, color 0.15s !important;
+}
+.review-toolbar-pdf-btn:hover { background: #f4f7ff !important; color: #4a6ed4 !important; border-color: #b0c4f4 !important; }
 
 /* ── Table wraps ────────────────────────────────────────────────── */
 .review-table-wrap {
@@ -2886,7 +2936,7 @@ a.video-preview-card:hover .play-button {
 
   /* Hide all site chrome and UI buttons */
   .sidebar, .site-header, .site-footer,
-  .review-action-row, .review-fmt-toolbar, .review-clear-all, .review-page-clear,
+  .review-toolbar, .review-clear-all, .review-page-clear,
   .review-color-label, .confidence-bar, #cf-review-panel,
   .thl-strip, .font-controls, #print-btn,
   nav, .nav, .menu, button { display: none !important; }
