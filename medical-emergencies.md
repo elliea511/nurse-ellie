@@ -37,9 +37,9 @@ Medical emergencies show up throughout nursing — in the ER, on the floor, in c
 <p>Hypovolemic, cardiogenic, septic, neurogenic, anaphylactic, and obstructive shock — patterns, recognition, and priority interventions.</p>
 </a>
 
-<a class="study-card coming-soon" href="#">
-<h2>Cardiac/Perfusion Emergencies</h2>
-<p>Acute MI, cardiac arrest, angina, hypertensive crisis, and hemophelia. Coming soon.</p>
+<a class="study-card" href="{{ '/medical-emergencies/emergencies-prep.html' | relative_url }}">
+<h2>Emergency Preparedness & Crisis Intervention</h2>
+<p>ED basics, triage levels, disaster planning, hazmat, human trafficking recognition, and crisis intervention.</p>
 </a>
 
 <a class="study-card" href="{{ '/medical-emergencies/poisoning-and-ingestions.html' | relative_url }}">
