@@ -1,6 +1,6 @@
 ---
 layout: default
-title: My Highlights Review
+title: My Notes
 ---
 
 <div id="review-page-content">

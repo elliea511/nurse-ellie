@@ -37,7 +37,7 @@
   }
 
   header.innerHTML =
-    '<h1 class="review-title">My Highlights</h1>' +
+    '<h1 class="review-title">My Notes</h1>' +
     '<p class="review-subtitle">' + total + ' highlight' + (total === 1 ? '' : 's') + ' across ' + pages.length + ' page' + (pages.length === 1 ? '' : 's') + '</p>';
 
   // Clear all button

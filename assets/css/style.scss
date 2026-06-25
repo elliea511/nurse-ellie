@@ -2675,34 +2675,29 @@ a.video-preview-card:hover .play-button {
   cursor: pointer !important;
 }
 
-/* ── Review page rainbow header ────────────────────────────────── */
-body[data-section="review"] .main-content,
-.review-rainbow-header {
-  background: transparent !important;
-}
-
+/* ── Review page header ─────────────────────────────────────────── */
 .review-header {
   position: relative !important;
-  border-radius: 14px !important;
-  padding: 1.5rem 1.5rem 1rem !important;
+  padding: 0 0 1rem !important;
   margin-bottom: 2rem !important;
-  background: linear-gradient(135deg,
-    rgba(255,182,193,0.35),
-    rgba(255,225,120,0.35),
-    rgba(180,235,180,0.35),
-    rgba(180,210,255,0.35),
-    rgba(220,180,255,0.35)
-  ) !important;
+  background: none !important;
   border: none !important;
+  border-bottom: 2px solid #f0f0f0 !important;
 }
 
 .review-title {
-  background: linear-gradient(90deg, #e84393, #f5a623, #27ae60, #3498db, #9b59b6) !important;
-  -webkit-background-clip: text !important;
-  -webkit-text-fill-color: transparent !important;
-  background-clip: text !important;
+  background: none !important;
+  -webkit-background-clip: unset !important;
+  -webkit-text-fill-color: unset !important;
+  background-clip: unset !important;
+  color: #2d2d3a !important;
   margin: 0 0 0.25rem !important;
   font-size: 1.8rem !important;
+}
+
+.review-hl-item a,
+.review-hl-item mark {
+  white-space: pre-wrap !important;
 }
 
 /* ── Interactive Quiz ──────────────────────────────────────────── */
