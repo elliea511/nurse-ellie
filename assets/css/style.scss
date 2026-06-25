@@ -360,16 +360,15 @@ body {
 
 .main-content h2 {
   font-family: "Playfair Display", Georgia, serif !important;
-  color: var(--accent-dark) !important;
-  font-size: 1.4rem !important;
-  font-weight: 700 !important;
-  padding: 0.65rem 1rem 0.65rem 1rem !important;
-  margin: 2.75rem 0 1rem 0 !important;
+  color: white !important;
+  font-size: 1.35rem !important;
+  font-weight: 800 !important;
+  padding: 0.6rem 3rem !important;
+  margin: 2.75rem -3rem 1rem -3rem !important;
   border: none !important;
-  border-left: 4px solid var(--accent) !important;
-  border-radius: 0 8px 8px 0 !important;
-  background: var(--accent-soft) !important;
-  box-shadow: none !important;
+  border-radius: 0 !important;
+  background: linear-gradient(to right, var(--accent), var(--accent-mid) 60%, var(--accent-soft) 100%) !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.10) !important;
   text-transform: none !important;
   text-align: left !important;
 }
@@ -382,14 +381,14 @@ body {
   color: var(--accent-dark) !important;
   font-size: 1rem !important;
   font-weight: 900 !important;
-  padding: 0.4rem 0 0.4rem 0.85rem !important;
-  margin: 2rem 0 0.6rem 0 !important;
+  padding: 0.4rem 3rem 0.4rem 3rem !important;
+  margin: 2rem -3rem 0.6rem -3rem !important;
   border: none !important;
-  border-left: 3px solid var(--accent2-mid) !important;
-  background: none !important;
+  border-left: none !important;
+  background: linear-gradient(to right, var(--accent-mid), var(--accent-soft) 60%, transparent 100%) !important;
   box-shadow: none !important;
-  text-transform: uppercase !important;
-  letter-spacing: 0.8px !important;
+  text-transform: none !important;
+  letter-spacing: 0.2px !important;
 }
 
 .main-content h3::before,
@@ -746,10 +745,10 @@ body {
    ========================================================= */
 
 .main-content blockquote {
-  border-left: 3px solid #d4a430 !important;
-  background: #fdfaf0 !important;
-  color: var(--muted) !important;
-  border-radius: 0 6px 6px 0 !important;
+  border-left: 4px solid var(--accent2) !important;
+  background: var(--accent2-soft) !important;
+  color: var(--ink) !important;
+  border-radius: 0 8px 8px 0 !important;
   padding: 0.8rem 1rem !important;
   margin: 1.25rem 0 !important;
   box-shadow: none !important;
@@ -780,16 +779,16 @@ body {
 }
 
 .main-content th {
-  background: var(--bg) !important;
-  color: var(--ink) !important;
+  background: var(--accent) !important;
+  color: white !important;
   font-weight: 800 !important;
   font-size: 0.8rem !important;
   text-transform: uppercase !important;
   letter-spacing: 0.6px !important;
-  border: 1px solid var(--border) !important;
+  border: 1px solid var(--accent-mid) !important;
   padding: 0.65rem 0.9rem !important;
   text-align: left !important;
-  border-top: 3px solid var(--accent) !important;
+  border-top: none !important;
 }
 
 .main-content td {
@@ -800,7 +799,7 @@ body {
   line-height: 1.65 !important;
 }
 
-.main-content tr:nth-child(even) td { background: #fafafa !important; }
+.main-content tr:nth-child(even) td { background: var(--accent-soft) !important; }
 .main-content tr:nth-child(odd) td  { background: white !important; }
 
 /* =========================================================
