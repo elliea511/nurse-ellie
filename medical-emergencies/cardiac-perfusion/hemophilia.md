@@ -1,177 +1,275 @@
+---
+layout: default
+title: Hemophilia Bleeding Emergency
+---
+
 # Hemophilia Bleeding Emergency
 
-## What It Is
+## Big Picture
 
-Hemophilia is a clotting disorder where the blood does not clot properly.
+| Topic | Key Point |
+|---|---|
+| What it is | A clotting disorder where blood does not clot properly |
+| Main problem | Missing clotting factor → prolonged bleeding |
+| Biggest risk | Uncontrolled bleeding |
+| Priority concern | Bleeding, especially after injury or procedure |
+| Emergency clue | Head injury + hemophilia = possible intracranial bleeding |
 
-The client is missing a clotting factor, so bleeding can last longer than normal.
+Hemophilia means the client is missing a clotting factor, so bleeding can last longer than normal.
 
-## Main Problem
+---
 
-Missing clotting factor → prolonged bleeding
+# Types of Hemophilia
 
-## Types
-
-| Type         | Missing Factor |
-| ------------ | -------------- |
-| Hemophilia A | Factor VIII    |
-| Hemophilia B | Factor IX      |
-
-## Why It Is an Emergency
-
-The biggest concern is uncontrolled bleeding.
-
-Bleeding can happen:
-
-* After injury
-* After surgery
-* After dental work
-* Into joints
-* Into muscles
-* Internally
-* In the brain after head injury
+| Type | Missing Factor | Quick Note |
+|---|---|---|
+| Hemophilia A | Factor VIII | Most common type |
+| Hemophilia B | Factor IX | Also called Christmas disease |
 
 ## Classic Hemophilia
 
-Classic hemophilia is usually X-linked recessive.
+| Pattern | What To Remember |
+|---|---|
+| Inheritance | Usually X-linked recessive |
+| Males | More likely to have the disease |
+| Females | More likely to be carriers |
 
-Males are more likely to have the disease.
+---
 
-Females are more likely to be carriers.
+# Why It Is an Emergency
 
-## Signs and Symptoms
+Bleeding can happen internally or externally.
 
-* Easy bruising
-* Prolonged bleeding
-* Nosebleeds
-* Blood in urine
-* Blood in stool
-* Swollen painful joints
-* Limited range of motion
-* Hematomas
-* Excessive bleeding after injury or procedure
+| Bleeding Situation | Why It Matters |
+|---|---|
+| After injury | Bleeding may not stop normally |
+| After surgery | Higher risk for prolonged bleeding |
+| After dental work | Mouth bleeding can be difficult to control |
+| Into joints | Causes pain, swelling, and decreased movement |
+| Into muscles | Can cause hematomas and pressure |
+| Internally | May not be obvious right away |
+| In the brain after head injury | Life-threatening emergency |
 
-## Hemarthrosis
+<div class="tip-box">
+<strong>Priority Tip:</strong> Any head injury in a client with hemophilia is an emergency until proven otherwise.
+</div>
 
-Hemarthrosis means bleeding into a joint.
+---
+
+# Signs and Symptoms
+
+| General Bleeding Signs | Joint/Muscle Bleeding Signs |
+|---|---|
+| Easy bruising | Swollen painful joints |
+| Prolonged bleeding | Limited range of motion |
+| Nosebleeds | Warm joints |
+| Blood in urine | Hematomas |
+| Blood in stool | Severe joint pain |
+| Excessive bleeding after injury/procedure | Decreased movement |
+
+---
+
+# Hemarthrosis
+
+Hemarthrosis means **bleeding into a joint**.
 
 This is common in hemophilia.
 
-Signs include:
+| Finding | Why It Happens |
+|---|---|
+| Joint swelling | Blood collects inside the joint |
+| Severe joint pain | Pressure builds in the joint |
+| Warmth | Inflammation from bleeding |
+| Decreased movement | Pain and swelling limit ROM |
 
-* Joint swelling
-* Severe joint pain
-* Warmth
-* Decreased movement
+## Common Joints
 
-Common joints:
+| Commonly Affected Joints |
+|---|
+| Knees |
+| Ankles |
+| Elbows |
 
-* Knees
-* Ankles
-* Elbows
+<div class="tip-box">
+<strong>NCLEX Tip:</strong> A swollen, painful joint in hemophilia = think bleeding into the joint.
+</div>
 
-## Priority Concern
+---
 
-Bleeding.
+# Priority Nursing Care During a Bleeding Episode
 
-Any head injury in a client with hemophilia is an emergency because of the risk for intracranial bleeding.
+## RICE
 
-## Nursing Care During a Bleeding Episode
+| Intervention | Why |
+|---|---|
+| Rest | Prevents worsening bleeding |
+| Ice | Decreases swelling and bleeding |
+| Compression | Helps control bleeding |
+| Elevation | Decreases swelling |
 
-Use RICE:
+## Also Do
 
-| Intervention | Why                             |
-| ------------ | ------------------------------- |
-| Rest         | Prevents worsening bleeding     |
-| Ice          | Decreases swelling and bleeding |
-| Compression  | Helps control bleeding          |
-| Elevation    | Decreases swelling              |
+| Nursing Action | Purpose |
+|---|---|
+| Administer prescribed clotting factor | Replaces missing clotting factor |
+| Assess pain | Bleeding into joints/muscles can be painful |
+| Monitor vital signs | Watch for worsening bleeding or shock |
+| Monitor for signs of shock | Major bleeding can decrease circulating volume |
+| Avoid unnecessary invasive procedures | Reduces bleeding risk |
 
-Also:
+<div class="priority-box">
+<strong>First priority:</strong> Control bleeding and give the missing clotting factor as prescribed.
+</div>
 
-* Administer prescribed clotting factor.
-* Assess pain.
-* Monitor vital signs.
-* Monitor for signs of shock.
-* Avoid unnecessary invasive procedures.
+---
 
-## Joint Bleeding Nursing Care
+# Joint Bleeding Nursing Care
 
 If the client has a swollen painful joint:
 
-* Rest the joint.
-* Avoid range-of-motion exercises during active bleeding.
-* Use pain control as prescribed.
-* Use a bed cradle if needed to keep sheets off the painful joint.
-* Give factor replacement as prescribed.
+| Do | Why |
+|---|---|
+| Rest the joint | Prevents more bleeding |
+| Avoid ROM during active bleeding | Movement can worsen bleeding |
+| Give factor replacement as prescribed | Treats the cause |
+| Use pain control as prescribed | Promotes comfort |
+| Use a bed cradle if needed | Keeps sheets off painful joint |
 
-## Treatment
+<div class="tip-box">
+<strong>NCLEX Tip:</strong> Do not perform range-of-motion exercises during active joint bleeding.
+</div>
 
-| Treatment       | Purpose                                 |
-| --------------- | --------------------------------------- |
-| Factor VIII     | Replaces missing factor in Hemophilia A |
-| Factor IX       | Replaces missing factor in Hemophilia B |
-| Cryoprecipitate | May be used for factor replacement      |
-| Desmopressin    | May be used for mild Hemophilia A       |
-| Acetaminophen   | Preferred for pain/fever                |
+---
 
-## Avoid
+# Treatment
 
-* Aspirin
-* NSAIDs like ibuprofen
-* IM injections
-* Rectal temperatures
-* Contact sports
-* Rough toothbrushes
-* Unnecessary procedures
+| Treatment | Purpose |
+|---|---|
+| Factor VIII | Replaces missing factor in Hemophilia A |
+| Factor IX | Replaces missing factor in Hemophilia B |
+| Cryoprecipitate | May be used for factor replacement |
+| Desmopressin | May be used for mild Hemophilia A |
+| Acetaminophen | Preferred for pain/fever |
 
-## Safe Pain/Fever Medication
+---
 
-Acetaminophen is usually preferred.
+# Medications: Safe vs Avoid
 
-Avoid aspirin and NSAIDs because they increase bleeding risk.
+| Safe / Preferred | Avoid |
+|---|---|
+| Acetaminophen for pain/fever | Aspirin |
+| Prescribed clotting factor | NSAIDs like ibuprofen |
+| Desmopressin if ordered for mild Hemophilia A | IM injections when possible |
+| Pain medication as prescribed | Rectal temperatures |
 
-## Activity Teaching
+## Why Avoid Aspirin and NSAIDs?
 
-The child should not be kept inside all the time, but activities should be safe.
+Aspirin and NSAIDs can increase bleeding risk.
 
-Safer activities:
+Acetaminophen is usually preferred for pain or fever.
 
-* Swimming
-* Walking
-* Non-contact activities
-* Chess/math team
-* Scorekeeper role
+---
 
-Avoid:
+# Procedures and Safety: What To Avoid
 
-* Football
-* Soccer
-* Hockey
-* Wrestling
-* Rough contact sports
+| Avoid | Why |
+|---|---|
+| Aspirin | Increases bleeding risk |
+| NSAIDs like ibuprofen | Increases bleeding risk |
+| IM injections | Can cause bleeding into muscle |
+| Rectal temperatures | Can cause rectal bleeding |
+| Contact sports | High injury risk |
+| Rough toothbrushes | Can cause gum bleeding |
+| Unnecessary procedures | More chances to bleed |
 
-## Parent/Client Teaching
+---
 
-* Wear medical alert identification.
-* Keep factor replacement available if prescribed.
-* Use a soft toothbrush.
-* Use an electric razor.
-* Apply pressure after blood draws.
-* Go to regular dental checkups.
-* Avoid contact sports.
-* Report head injury immediately.
-* Report joint pain or swelling early.
-* Do not give aspirin or ibuprofen unless specifically prescribed.
+# Activity Teaching
 
-## NCLEX Tips
+The child should not be kept inside all the time.
 
-* Head injury + hemophilia = emergency.
-* Joint swelling and pain = possible bleeding into the joint.
-* Do not perform ROM during active joint bleeding.
-* Avoid aspirin and NSAIDs.
-* Give the missing clotting factor.
-* Do not overprotect the child completely; promote safe activity.
+The goal is **safe activity**, not complete restriction.
+
+| Safer Activities | Avoid |
+|---|---|
+| Swimming | Football |
+| Walking | Soccer |
+| Non-contact activities | Hockey |
+| Chess/math team | Wrestling |
+| Scorekeeper role | Rough contact sports |
+
+<div class="tip-box">
+<strong>NCLEX Tip:</strong> Do not overprotect the child completely. Promote normal development with safe, low-injury activities.
+</div>
+
+---
+
+# Parent / Client Teaching
+
+| Teaching Point | Why |
+|---|---|
+| Wear medical alert identification | Helps in emergencies |
+| Keep factor replacement available if prescribed | Allows faster treatment |
+| Use a soft toothbrush | Prevents gum bleeding |
+| Use an electric razor | Prevents cuts |
+| Apply pressure after blood draws | Helps stop bleeding |
+| Go to regular dental checkups | Prevents dental complications |
+| Avoid contact sports | Prevents injury |
+| Report head injury immediately | Risk for intracranial bleeding |
+| Report joint pain or swelling early | May be joint bleeding |
+| Do not give aspirin or ibuprofen unless prescribed | Increases bleeding risk |
+
+---
+
+# Signs of Shock From Bleeding
+
+Watch for:
+
+| Finding | Meaning |
+|---|---|
+| Tachycardia | Early sign of compensation |
+| Hypotension | Later sign of volume loss |
+| Cool, clammy skin | Poor perfusion |
+| Pale skin | Decreased circulating blood |
+| Weak pulses | Poor perfusion |
+| Restlessness or confusion | Decreased oxygen to brain |
+| Decreased urine output | Poor kidney perfusion |
+
+<div class="priority-box">
+<strong>Priority Tip:</strong> If bleeding is severe, monitor for shock and notify the provider/rapid response according to facility policy.
+</div>
+
+---
+
+# Quick NCLEX Review Chart
+
+| Clue | Think |
+|---|---|
+| Hemophilia A | Factor VIII deficiency |
+| Hemophilia B | Factor IX deficiency |
+| Head injury + hemophilia | Emergency; possible intracranial bleeding |
+| Swollen painful joint | Hemarthrosis |
+| Active joint bleeding | Rest joint; no ROM |
+| Bleeding episode | RICE + factor replacement |
+| Pain/fever medication | Acetaminophen |
+| Aspirin or ibuprofen | Avoid due to bleeding risk |
+| IM injection | Avoid if possible |
+| Child activity | Safe activity, not complete restriction |
+| Males affected, females carriers | X-linked recessive pattern |
+
+---
+
+# Most Important “What Do I Do First?” Points
+
+| Situation | Priority Action |
+|---|---|
+| Active bleeding | Give prescribed clotting factor and control bleeding |
+| Joint pain/swelling | Suspect hemarthrosis; rest joint |
+| Head injury | Treat as emergency and report immediately |
+| Fever or pain | Use acetaminophen unless contraindicated |
+| Parent asks about sports | Encourage safe non-contact activities |
+| During active joint bleed | Avoid range-of-motion exercises |
+| Signs of shock | Assess circulation, vital signs, and notify provider/rapid response |
 
 ---
 
