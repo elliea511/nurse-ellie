@@ -7,33 +7,27 @@
   var EDIT_KEY    = 'ellie-notes-edit-content';
   var COLOR_ORDER = ['yellow', 'pink', 'blue', 'green'];
 
-  // Collect highlights grouped by page path
+  // ── Collect highlights ───────────────────────────────────────────
   var pageMap = {};
-
   for (var i = 0; i < localStorage.length; i++) {
     var key = localStorage.key(i);
     if (!key) continue;
-
     if (key.startsWith(ANN_PREFIX)) {
       var path = key.slice(ANN_PREFIX.length);
-      var items;
-      try { items = JSON.parse(localStorage.getItem(key)) || []; } catch (e) { continue; }
+      var items; try { items = JSON.parse(localStorage.getItem(key)) || []; } catch (e) { continue; }
       if (!items.length) continue;
       if (!pageMap[path]) pageMap[path] = { items: [], tables: [] };
       pageMap[path].items = items;
     }
-
     if (key.startsWith(THL_PREFIX)) {
       var tpath = key.slice(THL_PREFIX.length);
-      var thlData;
-      try { thlData = JSON.parse(localStorage.getItem(key)) || {}; } catch (e) { continue; }
+      var thlData; try { thlData = JSON.parse(localStorage.getItem(key)) || {}; } catch (e) { continue; }
       var tables = [];
-      Object.keys(thlData).forEach(function (tableId) {
-        var entry = thlData[tableId];
-        if (!entry) return;
-        var color = entry.color || (typeof entry === 'string' ? entry : null);
-        var html  = entry.html  || null;
-        if (color && html) tables.push({ tableId: tableId, color: color, html: html });
+      Object.keys(thlData).forEach(function (tid) {
+        var e = thlData[tid]; if (!e) return;
+        var c = e.color || (typeof e === 'string' ? e : null);
+        var h = e.html || null;
+        if (c && h) tables.push({ tableId: tid, color: c, html: h });
       });
       if (!tables.length) continue;
       if (!pageMap[tpath]) pageMap[tpath] = { items: [], tables: [] };
@@ -47,20 +41,14 @@
   var totalHL  = paths.reduce(function (n, p) { return n + pageMap[p].items.length; }, 0);
   var totalTbl = paths.reduce(function (n, p) { return n + pageMap[p].tables.length; }, 0);
 
-  // Check for saved edited content
   var savedEdit = localStorage.getItem(EDIT_KEY);
-  if (savedEdit) {
-    renderSavedMode(savedEdit);
-    return;
-  }
+  if (savedEdit) { renderSavedMode(savedEdit); return; }
 
   if (!paths.length) {
     container.innerHTML =
-      '<div class="review-empty">' +
-      '<div class="review-empty-icon">🖊</div>' +
+      '<div class="review-empty"><div class="review-empty-icon">🖊</div>' +
       '<h2>No highlights yet</h2>' +
-      '<p>Go to any notes page, select text, and choose a highlight color.<br>Everything you highlight will appear here.</p>' +
-      '</div>';
+      '<p>Go to any notes page, select text, and choose a highlight color.<br>Everything you highlight will appear here.</p></div>';
     return;
   }
 
@@ -73,25 +61,6 @@
   h1.textContent = 'My Notes';
   header.appendChild(h1);
 
-  // Action row: pencil + PDF (below title)
-  var actionRow = document.createElement('div');
-  actionRow.className = 'review-action-row';
-
-  var editBtn = document.createElement('button');
-  editBtn.className = 'review-edit-btn';
-  editBtn.title = 'Edit notes';
-  editBtn.innerHTML = '&#9998; Edit';
-
-  var pdfBtn = document.createElement('button');
-  pdfBtn.className = 'review-pdf-btn';
-  pdfBtn.title = 'Save as PDF';
-  pdfBtn.innerHTML = '&#128438; Save as PDF';
-  pdfBtn.addEventListener('click', function () { window.print(); });
-
-  actionRow.appendChild(editBtn);
-  actionRow.appendChild(pdfBtn);
-  header.appendChild(actionRow);
-
   var subtitle = document.createElement('p');
   subtitle.className = 'review-subtitle';
   subtitle.textContent =
@@ -99,206 +68,307 @@
     (totalTbl ? ' · ' + totalTbl + ' table' + (totalTbl === 1 ? '' : 's') : '') +
     ' across ' + paths.length + ' page' + (paths.length === 1 ? '' : 's');
   header.appendChild(subtitle);
-
   container.appendChild(header);
 
-  // ── Formatting toolbar (hidden until edit mode) ──────────────────
-  var fmtToolbar = document.createElement('div');
-  fmtToolbar.className = 'review-fmt-toolbar';
-  fmtToolbar.style.display = 'none';
-
-  var fmtBtns = [
-    { label: '<b>B</b>',  cmd: 'bold' },
-    { label: '<i>I</i>',  cmd: 'italic' },
-    { label: '<u>U</u>',  cmd: 'underline' },
-    { label: 'A+',        cmd: 'fontSize', val: '5' },
-    { label: 'A−',        cmd: 'fontSize', val: '2' },
-    { label: '✕ Clear',  cmd: 'removeFormat' },
-  ];
-  fmtBtns.forEach(function (b) {
-    var btn = document.createElement('button');
-    btn.className = 'review-fmt-btn';
-    btn.innerHTML = b.label;
-    btn.addEventListener('mousedown', function (e) {
-      e.preventDefault();
-      document.execCommand(b.cmd, false, b.val || null);
-    });
-    fmtToolbar.appendChild(btn);
-  });
-
-  var saveEditBtn = document.createElement('button');
-  saveEditBtn.className = 'review-edit-save';
-  saveEditBtn.textContent = 'Save';
-
-  var cancelEditBtn = document.createElement('button');
-  cancelEditBtn.className = 'review-edit-cancel';
-  cancelEditBtn.textContent = 'Cancel';
-
-  var editHint = document.createElement('span');
-  editHint.className = 'review-edit-hint';
-  editHint.textContent = 'Select text to format';
-
-  fmtToolbar.appendChild(saveEditBtn);
-  fmtToolbar.appendChild(cancelEditBtn);
-  fmtToolbar.appendChild(editHint);
-
-  container.appendChild(fmtToolbar);
+  // ── Toolbar (view mode → edit mode) ─────────────────────────────
+  var toolbar = document.createElement('div');
+  toolbar.className = 'review-toolbar';
+  container.appendChild(toolbar);
 
   // ── Cards ────────────────────────────────────────────────────────
   var cardsContainer = document.createElement('div');
   cardsContainer.id = 'review-cards';
-
-  paths.forEach(function (path) {
-    var data = pageMap[path];
-    var card = document.createElement('div');
-    card.className = 'review-card';
-
-    var rawName = path.replace(/\.html$/, '').replace(/\/$/, '');
-    var parts = rawName.split('/').filter(Boolean);
-    var pageName = parts[parts.length - 1]
-      .replace(/-/g, ' ')
-      .replace(/\b\w/g, function (c) { return c.toUpperCase(); });
-
-    var cardHeader = document.createElement('div');
-    cardHeader.className = 'review-card-header';
-    var titleLink = document.createElement('a');
-    titleLink.href = path;
-    titleLink.className = 'review-card-title';
-    titleLink.textContent = pageName;
-    var countSpan = document.createElement('span');
-    countSpan.className = 'review-card-count';
-    var total = data.items.length + data.tables.length;
-    countSpan.textContent = total + ' highlight' + (total === 1 ? '' : 's');
-    cardHeader.appendChild(titleLink);
-    cardHeader.appendChild(countSpan);
-    card.appendChild(cardHeader);
-
-    // Group by color, no text labels — just visual left-border tints
-    var groups = {};
-    data.items.forEach(function (item) {
-      if (!groups[item.color]) groups[item.color] = [];
-      groups[item.color].push({ type: 'text', item: item });
-    });
-    data.tables.forEach(function (entry) {
-      if (!groups[entry.color]) groups[entry.color] = [];
-      groups[entry.color].push({ type: 'table', entry: entry });
-    });
-
-    COLOR_ORDER.forEach(function (color) {
-      if (!groups[color]) return;
-      var group = document.createElement('div');
-      group.className = 'review-color-group';
-
-      var list = document.createElement('div');
-      list.className = 'review-hl-list';
-
-      groups[color].forEach(function (entry) {
-        var div = document.createElement('div');
-        div.className = 'review-hl-item';
-
-        if (entry.type === 'text') {
-          var item = entry.item;
-          var wrapper = document.createElement('div');
-          wrapper.className = 'review-hl-content review-hl-content-' + color;
-
-          if (item.level && /^h[1-6]$/.test(item.level)) {
-            var hEl = document.createElement(item.level);
-            hEl.className = 'review-hl-heading';
-            if (item.html) hEl.innerHTML = item.html;
-            else hEl.textContent = item.text;
-            wrapper.appendChild(hEl);
-          } else {
-            if (item.html) {
-              wrapper.innerHTML = item.html;
-            } else {
-              var m = document.createElement('mark');
-              m.className = 'hl hl-' + color;
-              m.textContent = item.text;
-              wrapper.appendChild(m);
-            }
-          }
-          div.appendChild(wrapper);
-        } else {
-          var tWrap = document.createElement('div');
-          tWrap.className = 'review-table-wrap';
-          tWrap.dataset.color = color;
-          tWrap.innerHTML = entry.entry.html;
-          div.appendChild(tWrap);
-        }
-
-        list.appendChild(div);
-      });
-
-      group.appendChild(list);
-      card.appendChild(group);
-    });
-
-    // Per-page clear
-    var annKey = ANN_PREFIX + path;
-    var thlKey = THL_PREFIX + path;
-    var pageClear = document.createElement('button');
-    pageClear.className = 'review-page-clear';
-    pageClear.textContent = 'Clear this page';
-    pageClear.addEventListener('click', function () {
-      localStorage.removeItem(annKey);
-      localStorage.removeItem(thlKey);
-      card.remove();
-      if (!container.querySelectorAll('.review-card').length) {
-        container.innerHTML = '<div class="review-empty"><div class="review-empty-icon">🖊</div><h2>All cleared</h2><p>Your highlights have been removed.</p></div>';
-      }
-    });
-    card.appendChild(pageClear);
-
-    cardsContainer.appendChild(card);
-  });
-
+  buildCards(cardsContainer);
   container.appendChild(cardsContainer);
 
-  // ── Clear all — at bottom ────────────────────────────────────────
+  // ── Clear all — bottom ───────────────────────────────────────────
   var clearBtn = document.createElement('button');
   clearBtn.className = 'review-clear-all';
   clearBtn.textContent = 'Clear all highlights';
   clearBtn.addEventListener('click', function () {
     if (!confirm('Remove all highlights across every page?')) return;
     for (var j = localStorage.length - 1; j >= 0; j--) {
-      var k = localStorage.key(j);
-      if (k && (k.startsWith(ANN_PREFIX) || k.startsWith(THL_PREFIX))) localStorage.removeItem(k);
+      var k = localStorage.key(j); if (k && (k.startsWith(ANN_PREFIX) || k.startsWith(THL_PREFIX))) localStorage.removeItem(k);
     }
     localStorage.removeItem(EDIT_KEY);
     container.innerHTML = '<div class="review-empty"><div class="review-empty-icon">🖊</div><h2>All cleared</h2><p>Your highlights have been removed.</p></div>';
   });
   container.appendChild(clearBtn);
 
-  // ── Edit mode ────────────────────────────────────────────────────
+  // ── Toolbar: view mode ───────────────────────────────────────────
+  showViewBar();
+
+  function showViewBar() {
+    toolbar.innerHTML = '';
+    toolbar.className = 'review-toolbar review-toolbar-view';
+
+    var editBtn = document.createElement('button');
+    editBtn.className = 'review-toolbar-edit-btn';
+    editBtn.innerHTML = '&#9998; Edit notes';
+    editBtn.addEventListener('click', enterEditMode);
+    toolbar.appendChild(editBtn);
+
+    var pdfBtn = document.createElement('button');
+    pdfBtn.className = 'review-toolbar-pdf-btn';
+    pdfBtn.innerHTML = '&#128438; Save as PDF';
+    pdfBtn.addEventListener('click', function () { window.print(); });
+    toolbar.appendChild(pdfBtn);
+  }
+
+  // ── Toolbar: edit mode ───────────────────────────────────────────
+  var selCache = null;
+  var isEditing = false;
+
+  function saveCache() {
+    var s = window.getSelection();
+    if (s && s.rangeCount > 0 && cardsContainer.contains(s.anchorNode))
+      selCache = s.getRangeAt(0).cloneRange();
+  }
+
+  function restoreAndExec(cmd, val) {
+    if (selCache) {
+      var s = window.getSelection();
+      s.removeAllRanges();
+      s.addRange(selCache);
+    }
+    document.execCommand(cmd, false, val !== undefined ? val : null);
+    saveCache();
+    updateActiveStates();
+  }
+
+  var fmtBtnEls = [];
+
+  function updateActiveStates() {
+    fmtBtnEls.forEach(function (b) {
+      if (!b.state) return;
+      var active = false;
+      try { active = document.queryCommandState(b.state); } catch (e) {}
+      b.el.classList.toggle('review-fmt-active', active);
+    });
+  }
+
+  function showEditBar(onSave, onCancel) {
+    toolbar.innerHTML = '';
+    toolbar.className = 'review-toolbar review-toolbar-edit';
+    fmtBtnEls = [];
+
+    // Mode label
+    var lbl = document.createElement('span');
+    lbl.className = 'review-fmt-label';
+    lbl.textContent = '✎ Editing';
+    toolbar.appendChild(lbl);
+
+    sep(toolbar);
+
+    // Bold / Italic / Underline
+    [
+      { label: 'B', cmd: 'bold',      state: 'bold',      cls: 'rfb-bold',   title: 'Bold (Ctrl+B)' },
+      { label: 'I', cmd: 'italic',    state: 'italic',    cls: 'rfb-italic', title: 'Italic (Ctrl+I)' },
+      { label: 'U', cmd: 'underline', state: 'underline', cls: 'rfb-ul',     title: 'Underline (Ctrl+U)' },
+    ].forEach(function (b) {
+      var btn = fmtBtn(b.label, b.title, b.cls);
+      btn.addEventListener('mousedown', function (e) { e.preventDefault(); restoreAndExec(b.cmd); });
+      toolbar.appendChild(btn);
+      fmtBtnEls.push({ el: btn, state: b.state });
+    });
+
+    sep(toolbar);
+
+    // Font size select
+    var sizeWrap = document.createElement('div');
+    sizeWrap.className = 'review-fmt-size-wrap';
+    var sizeLabel = document.createElement('span');
+    sizeLabel.className = 'review-fmt-size-label';
+    sizeLabel.textContent = 'Size';
+    var sizeSelect = document.createElement('select');
+    sizeSelect.className = 'review-fmt-select';
+    sizeSelect.title = 'Font size';
+    [['', '—'], ['1', 'XS'], ['2', 'S'], ['3', 'M'], ['5', 'L'], ['6', 'XL'], ['7', 'XXL']].forEach(function (o) {
+      var opt = document.createElement('option');
+      opt.value = o[0]; opt.textContent = o[1];
+      sizeSelect.appendChild(opt);
+    });
+    sizeSelect.addEventListener('mousedown', saveCache);
+    sizeSelect.addEventListener('change', function () {
+      if (this.value) restoreAndExec('fontSize', this.value);
+      this.value = '';
+    });
+    sizeWrap.appendChild(sizeLabel);
+    sizeWrap.appendChild(sizeSelect);
+    toolbar.appendChild(sizeWrap);
+
+    // Clear format
+    var clearFmt = fmtBtn('✕ Clear', 'Clear formatting', 'rfb-clear');
+    clearFmt.addEventListener('mousedown', function (e) { e.preventDefault(); restoreAndExec('removeFormat'); });
+    toolbar.appendChild(clearFmt);
+
+    sep(toolbar);
+
+    // Save / Cancel
+    var saveBtn = document.createElement('button');
+    saveBtn.className = 'review-edit-save';
+    saveBtn.textContent = 'Save';
+    saveBtn.addEventListener('click', onSave);
+    toolbar.appendChild(saveBtn);
+
+    var cancelBtn = document.createElement('button');
+    cancelBtn.className = 'review-edit-cancel';
+    cancelBtn.textContent = 'Cancel';
+    cancelBtn.addEventListener('click', onCancel);
+    toolbar.appendChild(cancelBtn);
+
+    sep(toolbar);
+
+    // PDF in toolbar
+    var pdfBtn = document.createElement('button');
+    pdfBtn.className = 'review-toolbar-pdf-btn';
+    pdfBtn.innerHTML = '&#128438; PDF';
+    pdfBtn.addEventListener('click', function () { window.print(); });
+    toolbar.appendChild(pdfBtn);
+
+    // Listen for selectionchange to update active states
+    document.addEventListener('selectionchange', updateActiveStates);
+  }
+
+  function fmtBtn(label, title, extraCls) {
+    var btn = document.createElement('button');
+    btn.className = 'review-fmt-btn' + (extraCls ? ' ' + extraCls : '');
+    btn.textContent = label;
+    btn.title = title || '';
+    return btn;
+  }
+
+  function sep(parent) {
+    var s = document.createElement('span');
+    s.className = 'review-fmt-sep';
+    parent.appendChild(s);
+  }
+
+  // ── Edit mode enter/exit ─────────────────────────────────────────
   var preEditSnapshot = null;
 
   function enterEditMode() {
+    isEditing = true;
     preEditSnapshot = cardsContainer.innerHTML;
     cardsContainer.contentEditable = 'true';
     cardsContainer.classList.add('review-cards-editing');
-    editBtn.style.display = 'none';
-    fmtToolbar.style.display = 'flex';
+    cardsContainer.addEventListener('mouseup', saveCache);
+    cardsContainer.addEventListener('keyup', saveCache);
+    showEditBar(
+      function () { // save
+        localStorage.setItem(EDIT_KEY, cardsContainer.innerHTML);
+        exitEditMode();
+      },
+      function () { // cancel
+        cardsContainer.innerHTML = preEditSnapshot;
+        exitEditMode();
+      }
+    );
     cardsContainer.focus();
   }
 
   function exitEditMode() {
+    isEditing = false;
     cardsContainer.contentEditable = 'false';
     cardsContainer.classList.remove('review-cards-editing');
-    editBtn.style.display = '';
-    fmtToolbar.style.display = 'none';
+    cardsContainer.removeEventListener('mouseup', saveCache);
+    cardsContainer.removeEventListener('keyup', saveCache);
+    document.removeEventListener('selectionchange', updateActiveStates);
+    selCache = null;
+    showViewBar();
   }
 
-  editBtn.addEventListener('click', enterEditMode);
+  // ── Build cards ──────────────────────────────────────────────────
+  function buildCards(cardsEl) {
+    paths.forEach(function (path) {
+      var data = pageMap[path];
+      var card = document.createElement('div');
+      card.className = 'review-card';
 
-  saveEditBtn.addEventListener('click', function () {
-    localStorage.setItem(EDIT_KEY, cardsContainer.innerHTML);
-    exitEditMode();
-  });
+      var rawName = path.replace(/\.html$/, '').replace(/\/$/, '');
+      var parts = rawName.split('/').filter(Boolean);
+      var pageName = parts[parts.length - 1]
+        .replace(/-/g, ' ').replace(/\b\w/g, function (c) { return c.toUpperCase(); });
 
-  cancelEditBtn.addEventListener('click', function () {
-    cardsContainer.innerHTML = preEditSnapshot;
-    exitEditMode();
-  });
+      var cardHeader = document.createElement('div');
+      cardHeader.className = 'review-card-header';
+      var titleLink = document.createElement('a');
+      titleLink.href = path;
+      titleLink.className = 'review-card-title';
+      titleLink.textContent = pageName;
+      var countSpan = document.createElement('span');
+      countSpan.className = 'review-card-count';
+      var total = data.items.length + data.tables.length;
+      countSpan.textContent = total + ' highlight' + (total === 1 ? '' : 's');
+      cardHeader.appendChild(titleLink);
+      cardHeader.appendChild(countSpan);
+      card.appendChild(cardHeader);
+
+      var groups = {};
+      data.items.forEach(function (item) {
+        if (!groups[item.color]) groups[item.color] = [];
+        groups[item.color].push({ type: 'text', item: item });
+      });
+      data.tables.forEach(function (entry) {
+        if (!groups[entry.color]) groups[entry.color] = [];
+        groups[entry.color].push({ type: 'table', entry: entry });
+      });
+
+      COLOR_ORDER.forEach(function (color) {
+        if (!groups[color]) return;
+        var group = document.createElement('div');
+        group.className = 'review-color-group';
+        var list = document.createElement('div');
+        list.className = 'review-hl-list';
+
+        groups[color].forEach(function (entry) {
+          var div = document.createElement('div');
+          div.className = 'review-hl-item';
+
+          if (entry.type === 'text') {
+            var item = entry.item;
+            var wrapper = document.createElement('div');
+            wrapper.className = 'review-hl-content review-hl-content-' + color;
+            if (item.level && /^h[1-6]$/.test(item.level)) {
+              var hEl = document.createElement(item.level);
+              hEl.className = 'review-hl-heading';
+              if (item.html) hEl.innerHTML = item.html; else hEl.textContent = item.text;
+              wrapper.appendChild(hEl);
+            } else {
+              if (item.html) wrapper.innerHTML = item.html;
+              else { var m = document.createElement('mark'); m.className = 'hl hl-' + color; m.textContent = item.text; wrapper.appendChild(m); }
+            }
+            div.appendChild(wrapper);
+          } else {
+            var tWrap = document.createElement('div');
+            tWrap.className = 'review-table-wrap';
+            tWrap.dataset.color = color;
+            tWrap.innerHTML = entry.entry.html;
+            div.appendChild(tWrap);
+          }
+          list.appendChild(div);
+        });
+
+        group.appendChild(list);
+        card.appendChild(group);
+      });
+
+      var annKey = ANN_PREFIX + path;
+      var thlKey = THL_PREFIX + path;
+      var pageClear = document.createElement('button');
+      pageClear.className = 'review-page-clear';
+      pageClear.textContent = 'Clear this page';
+      pageClear.addEventListener('click', function () {
+        localStorage.removeItem(annKey);
+        localStorage.removeItem(thlKey);
+        card.remove();
+        if (!container.querySelectorAll('.review-card').length)
+          container.innerHTML = '<div class="review-empty"><div class="review-empty-icon">🖊</div><h2>All cleared</h2><p>Your highlights have been removed.</p></div>';
+      });
+      card.appendChild(pageClear);
+      cardsEl.appendChild(card);
+    });
+  }
 
   // ── Saved-edit mode ──────────────────────────────────────────────
   function renderSavedMode(html) {
@@ -306,71 +376,15 @@
 
     var hdr = document.createElement('div');
     hdr.className = 'review-header';
-
     var sh1 = document.createElement('h1');
     sh1.className = 'review-title';
     sh1.textContent = 'My Notes';
     hdr.appendChild(sh1);
-
-    var sActionRow = document.createElement('div');
-    sActionRow.className = 'review-action-row';
-
-    var sEditBtn = document.createElement('button');
-    sEditBtn.className = 'review-edit-btn';
-    sEditBtn.innerHTML = '&#9998; Edit';
-
-    var sPdfBtn = document.createElement('button');
-    sPdfBtn.className = 'review-pdf-btn';
-    sPdfBtn.innerHTML = '&#128438; Save as PDF';
-    sPdfBtn.addEventListener('click', function () { window.print(); });
-
-    var sRefreshBtn = document.createElement('button');
-    sRefreshBtn.className = 'review-refresh-btn';
-    sRefreshBtn.textContent = '↺ Refresh from highlights';
-    sRefreshBtn.addEventListener('click', function () {
-      if (!confirm('Discard your saved edits and reload from highlights?')) return;
-      localStorage.removeItem(EDIT_KEY);
-      location.reload();
-    });
-
-    sActionRow.appendChild(sEditBtn);
-    sActionRow.appendChild(sPdfBtn);
-    sActionRow.appendChild(sRefreshBtn);
-    hdr.appendChild(sActionRow);
     container.appendChild(hdr);
 
-    // Formatting toolbar
-    var sFmtToolbar = document.createElement('div');
-    sFmtToolbar.className = 'review-fmt-toolbar';
-    sFmtToolbar.style.display = 'none';
-
-    fmtBtns.forEach(function (b) {
-      var btn = document.createElement('button');
-      btn.className = 'review-fmt-btn';
-      btn.innerHTML = b.label;
-      btn.addEventListener('mousedown', function (e) {
-        e.preventDefault();
-        document.execCommand(b.cmd, false, b.val || null);
-      });
-      sFmtToolbar.appendChild(btn);
-    });
-
-    var sSaveBtn = document.createElement('button');
-    sSaveBtn.className = 'review-edit-save';
-    sSaveBtn.textContent = 'Save';
-
-    var sCancelBtn = document.createElement('button');
-    sCancelBtn.className = 'review-edit-cancel';
-    sCancelBtn.textContent = 'Cancel';
-
-    var sHint = document.createElement('span');
-    sHint.className = 'review-edit-hint';
-    sHint.textContent = 'Select text to format';
-
-    sFmtToolbar.appendChild(sSaveBtn);
-    sFmtToolbar.appendChild(sCancelBtn);
-    sFmtToolbar.appendChild(sHint);
-    container.appendChild(sFmtToolbar);
+    var sToolbar = document.createElement('div');
+    sToolbar.className = 'review-toolbar';
+    container.appendChild(sToolbar);
 
     var sCards = document.createElement('div');
     sCards.id = 'review-cards';
@@ -391,31 +405,132 @@
     });
     container.appendChild(sClearBtn);
 
-    var snap = null;
+    var sSelCache = null;
+    var sIsEditing = false;
+    var sFmtBtnEls = [];
 
-    function enterSaved() {
-      snap = sCards.innerHTML;
+    function sSaveCache() {
+      var s = window.getSelection();
+      if (s && s.rangeCount > 0 && sCards.contains(s.anchorNode))
+        sSelCache = s.getRangeAt(0).cloneRange();
+    }
+    function sRestoreAndExec(cmd, val) {
+      if (sSelCache) { var s = window.getSelection(); s.removeAllRanges(); s.addRange(sSelCache); }
+      document.execCommand(cmd, false, val !== undefined ? val : null);
+      sSaveCache();
+      sUpdateActive();
+    }
+    function sUpdateActive() {
+      sFmtBtnEls.forEach(function (b) {
+        if (!b.state) return;
+        var active = false; try { active = document.queryCommandState(b.state); } catch (e) {}
+        b.el.classList.toggle('review-fmt-active', active);
+      });
+    }
+
+    function showSViewBar() {
+      sToolbar.innerHTML = '';
+      sToolbar.className = 'review-toolbar review-toolbar-view';
+      var eb = document.createElement('button');
+      eb.className = 'review-toolbar-edit-btn';
+      eb.innerHTML = '&#9998; Edit notes';
+      eb.addEventListener('click', enterSEdit);
+      sToolbar.appendChild(eb);
+      var pb = document.createElement('button');
+      pb.className = 'review-toolbar-pdf-btn';
+      pb.innerHTML = '&#128438; Save as PDF';
+      pb.addEventListener('click', function () { window.print(); });
+      sToolbar.appendChild(pb);
+      var rb = document.createElement('button');
+      rb.className = 'review-refresh-btn';
+      rb.textContent = '↺ From highlights';
+      rb.title = 'Discard edits and reload from highlights';
+      rb.addEventListener('click', function () {
+        if (!confirm('Discard your saved edits and reload from highlights?')) return;
+        localStorage.removeItem(EDIT_KEY); location.reload();
+      });
+      sToolbar.appendChild(rb);
+    }
+
+    function showSEditBar() {
+      sToolbar.innerHTML = '';
+      sToolbar.className = 'review-toolbar review-toolbar-edit';
+      sFmtBtnEls = [];
+
+      var lbl = document.createElement('span'); lbl.className = 'review-fmt-label'; lbl.textContent = '✎ Editing'; sToolbar.appendChild(lbl);
+      sSep(sToolbar);
+
+      [{ label: 'B', cmd: 'bold', state: 'bold', cls: 'rfb-bold', title: 'Bold' },
+       { label: 'I', cmd: 'italic', state: 'italic', cls: 'rfb-italic', title: 'Italic' },
+       { label: 'U', cmd: 'underline', state: 'underline', cls: 'rfb-ul', title: 'Underline' }
+      ].forEach(function (b) {
+        var btn = sFmtBtn(b.label, b.title, b.cls);
+        btn.addEventListener('mousedown', function (e) { e.preventDefault(); sRestoreAndExec(b.cmd); });
+        sToolbar.appendChild(btn);
+        sFmtBtnEls.push({ el: btn, state: b.state });
+      });
+
+      sSep(sToolbar);
+
+      var sw = document.createElement('div'); sw.className = 'review-fmt-size-wrap';
+      var sl2 = document.createElement('span'); sl2.className = 'review-fmt-size-label'; sl2.textContent = 'Size';
+      var ss = document.createElement('select'); ss.className = 'review-fmt-select';
+      [['', '—'], ['1', 'XS'], ['2', 'S'], ['3', 'M'], ['5', 'L'], ['6', 'XL'], ['7', 'XXL']].forEach(function (o) {
+        var opt = document.createElement('option'); opt.value = o[0]; opt.textContent = o[1]; ss.appendChild(opt);
+      });
+      ss.addEventListener('mousedown', sSaveCache);
+      ss.addEventListener('change', function () { if (this.value) sRestoreAndExec('fontSize', this.value); this.value = ''; });
+      sw.appendChild(sl2); sw.appendChild(ss); sToolbar.appendChild(sw);
+
+      var cf = sFmtBtn('✕ Clear', 'Clear formatting', 'rfb-clear');
+      cf.addEventListener('mousedown', function (e) { e.preventDefault(); sRestoreAndExec('removeFormat'); });
+      sToolbar.appendChild(cf);
+
+      sSep(sToolbar);
+
+      var saveB = document.createElement('button'); saveB.className = 'review-edit-save'; saveB.textContent = 'Save';
+      saveB.addEventListener('click', function () { localStorage.setItem(EDIT_KEY, sCards.innerHTML); exitSEdit(); });
+      sToolbar.appendChild(saveB);
+
+      var cancelB = document.createElement('button'); cancelB.className = 'review-edit-cancel'; cancelB.textContent = 'Cancel';
+      cancelB.addEventListener('click', function () { sCards.innerHTML = sSnap; exitSEdit(); });
+      sToolbar.appendChild(cancelB);
+
+      sSep(sToolbar);
+
+      var pb2 = document.createElement('button'); pb2.className = 'review-toolbar-pdf-btn'; pb2.innerHTML = '&#128438; PDF';
+      pb2.addEventListener('click', function () { window.print(); }); sToolbar.appendChild(pb2);
+
+      document.addEventListener('selectionchange', sUpdateActive);
+    }
+
+    function sFmtBtn(label, title, cls) {
+      var btn = document.createElement('button');
+      btn.className = 'review-fmt-btn' + (cls ? ' ' + cls : '');
+      btn.textContent = label; btn.title = title || ''; return btn;
+    }
+    function sSep(parent) { var s = document.createElement('span'); s.className = 'review-fmt-sep'; parent.appendChild(s); }
+
+    var sSnap = null;
+    function enterSEdit() {
+      sSnap = sCards.innerHTML;
       sCards.contentEditable = 'true';
       sCards.classList.add('review-cards-editing');
-      sEditBtn.style.display = 'none';
-      sFmtToolbar.style.display = 'flex';
+      sCards.addEventListener('mouseup', sSaveCache);
+      sCards.addEventListener('keyup', sSaveCache);
+      showSEditBar();
       sCards.focus();
     }
-    function exitSaved() {
+    function exitSEdit() {
       sCards.contentEditable = 'false';
       sCards.classList.remove('review-cards-editing');
-      sEditBtn.style.display = '';
-      sFmtToolbar.style.display = 'none';
+      sCards.removeEventListener('mouseup', sSaveCache);
+      sCards.removeEventListener('keyup', sSaveCache);
+      document.removeEventListener('selectionchange', sUpdateActive);
+      sSelCache = null;
+      showSViewBar();
     }
 
-    sEditBtn.addEventListener('click', enterSaved);
-    sSaveBtn.addEventListener('click', function () {
-      localStorage.setItem(EDIT_KEY, sCards.innerHTML);
-      exitSaved();
-    });
-    sCancelBtn.addEventListener('click', function () {
-      sCards.innerHTML = snap;
-      exitSaved();
-    });
+    showSViewBar();
   }
 })();
