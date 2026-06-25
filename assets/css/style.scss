@@ -2818,3 +2818,83 @@ body[data-section="review"] .main-content,
 }
 
 .quiz-retry-btn:hover { color: #333 !important; border-color: #999 !important; }
+
+/* ── Quiz Score Card ───────────────────────────────────────────── */
+.quiz-score-card {
+  position: sticky !important;
+  bottom: 1.25rem !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 1.25rem !important;
+  margin: 2rem 0 1rem !important;
+  padding: 1.1rem 1.5rem !important;
+  border-radius: 14px !important;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.15) !important;
+  z-index: 100 !important;
+  background: #fff !important;
+  border: 2px solid #e0e0e0 !important;
+  flex-wrap: wrap !important;
+}
+
+.qsc-grade {
+  font-size: 2.8rem !important;
+  font-weight: 900 !important;
+  line-height: 1 !important;
+  min-width: 2.5rem !important;
+  text-align: center !important;
+}
+
+.grade-a { border-color: #28a745 !important; }
+.grade-a .qsc-grade { color: #28a745 !important; }
+.grade-b { border-color: #5b7fe8 !important; }
+.grade-b .qsc-grade { color: #5b7fe8 !important; }
+.grade-c { border-color: #ffc107 !important; }
+.grade-c .qsc-grade { color: #e6a800 !important; }
+.grade-d { border-color: #fd7e14 !important; }
+.grade-d .qsc-grade { color: #fd7e14 !important; }
+.grade-f { border-color: #dc3545 !important; }
+.grade-f .qsc-grade { color: #dc3545 !important; }
+
+.qsc-details {
+  flex: 1 !important;
+}
+
+.qsc-pct {
+  font-size: 1.4rem !important;
+  font-weight: 800 !important;
+  color: #1a1a2e !important;
+  line-height: 1.2 !important;
+}
+
+.qsc-fraction {
+  font-size: 0.85rem !important;
+  color: #666 !important;
+}
+
+.qsc-remaining {
+  font-size: 0.8rem !important;
+  color: #aaa !important;
+  font-style: italic !important;
+}
+
+.qsc-msg {
+  font-size: 0.85rem !important;
+  color: #555 !important;
+  margin-top: 0.1rem !important;
+}
+
+.qsc-reset {
+  padding: 0.4rem 1rem !important;
+  border: 1.5px solid #ccc !important;
+  border-radius: 8px !important;
+  background: #f5f5f5 !important;
+  font-size: 0.82rem !important;
+  font-weight: 600 !important;
+  cursor: pointer !important;
+  font-family: inherit !important;
+  color: #555 !important;
+  white-space: nowrap !important;
+  transition: all 0.15s !important;
+}
+
+.qsc-reset:hover { background: #e8e8e8 !important; border-color: #999 !important; }
