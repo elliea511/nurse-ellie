@@ -1181,47 +1181,6 @@ body {
 }
 
 /* =========================================================
-   SECTION ZONES — alternating color bands per h2
-   ========================================================= */
-
-.section-zone {
-  border-radius: 12px;
-  padding: 1.25rem 1.5rem 0.5rem 1.5rem;
-  margin: 1.75rem -1rem 0 -1rem;
-}
-
-/* Zone 1 — accent color (main tone: orange for medical-emergencies, pink for maternity, etc.) */
-.section-zone-1 {
-  background: var(--accent-soft) !important;
-  border-left: 4px solid var(--accent) !important;
-}
-
-/* Zone 2 — accent2 color (golden sand / secondary tone) */
-.section-zone-2 {
-  background: var(--accent2-soft) !important;
-  border-left: 4px solid var(--accent2) !important;
-}
-
-/* Zone 3 — mid tone blend */
-.section-zone-3 {
-  background: color-mix(in srgb, var(--accent-soft) 55%, var(--accent2-soft) 45%) !important;
-  border-left: 4px solid var(--accent-mid) !important;
-}
-
-/* Make sure callout boxes inside zones stay readable */
-.section-zone .nclex,
-.section-zone .ati-tip,
-.section-zone .danger,
-.section-zone .priority,
-.section-zone .intervention,
-.section-zone .memory,
-.section-zone .note,
-.section-zone .teaching,
-.section-zone .lab {
-  background: rgba(255,255,255,0.75) !important;
-}
-
-/* =========================================================
    SECTION CARDS
    ========================================================= */
 
