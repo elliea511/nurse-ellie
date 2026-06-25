@@ -2700,3 +2700,121 @@ body[data-section="review"] .main-content,
   margin: 0 0 0.25rem !important;
   font-size: 1.8rem !important;
 }
+
+/* ── Interactive Quiz ──────────────────────────────────────────── */
+.quiz-block {
+  margin: 1rem 0 1.5rem 0 !important;
+}
+
+.quiz-sata-note {
+  font-size: 0.8rem !important;
+  color: #888 !important;
+  font-style: italic !important;
+  margin-bottom: 0.6rem !important;
+}
+
+.quiz-choices {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 0.5rem !important;
+  margin-bottom: 0.75rem !important;
+}
+
+.quiz-choice-btn {
+  display: block !important;
+  width: 100% !important;
+  text-align: left !important;
+  padding: 0.65rem 1rem !important;
+  border: 2px solid #e0e0e0 !important;
+  border-radius: 8px !important;
+  background: #fff !important;
+  font-size: 0.95rem !important;
+  font-family: inherit !important;
+  line-height: 1.55 !important;
+  cursor: pointer !important;
+  transition: border-color 0.15s, background 0.15s !important;
+  color: #1a1a2e !important;
+}
+
+.quiz-choice-btn:hover:not(:disabled) {
+  border-color: #5b7fe8 !important;
+  background: #f0f4ff !important;
+}
+
+.quiz-choice-btn.selected {
+  border-color: #5b7fe8 !important;
+  background: #eef2ff !important;
+}
+
+.quiz-choice-btn.correct {
+  border-color: #28a745 !important;
+  background: #d4edda !important;
+  color: #155724 !important;
+}
+
+.quiz-choice-btn.incorrect {
+  border-color: #dc3545 !important;
+  background: #f8d7da !important;
+  color: #721c24 !important;
+}
+
+.quiz-choice-btn:disabled {
+  cursor: default !important;
+}
+
+.quiz-check-btn {
+  margin-top: 0.25rem !important;
+  padding: 0.45rem 1.2rem !important;
+  border: 2px solid #5b7fe8 !important;
+  border-radius: 8px !important;
+  background: #eef2ff !important;
+  color: #3a5bd9 !important;
+  font-weight: 700 !important;
+  font-size: 0.88rem !important;
+  cursor: pointer !important;
+  font-family: inherit !important;
+  transition: all 0.15s !important;
+}
+
+.quiz-check-btn:hover {
+  background: #5b7fe8 !important;
+  color: #fff !important;
+}
+
+.quiz-rationale-panel {
+  display: none !important;
+  margin-top: 1rem !important;
+  padding: 1rem 1.1rem !important;
+  background: #f8f9fa !important;
+  border-left: 4px solid #5b7fe8 !important;
+  border-radius: 0 8px 8px 0 !important;
+  font-size: 0.92rem !important;
+  line-height: 1.65 !important;
+}
+
+.quiz-rationale-panel.visible {
+  display: block !important;
+}
+
+.quiz-answer-display {
+  margin: 0 0 0.6rem 0 !important;
+  font-size: 1rem !important;
+}
+
+.quiz-rationale-display {
+  margin: 0 0 0.75rem 0 !important;
+  color: #444 !important;
+}
+
+.quiz-retry-btn {
+  font-size: 0.78rem !important;
+  padding: 0.25rem 0.7rem !important;
+  border: 1px solid #ccc !important;
+  border-radius: 6px !important;
+  background: #fff !important;
+  color: #888 !important;
+  cursor: pointer !important;
+  font-family: inherit !important;
+}
+
+.quiz-retry-btn:hover { color: #333 !important; border-color: #999 !important; }
