@@ -1,0 +1,17 @@
+---
+layout: none
+---
+[
+  {% assign sep = "" %}
+  {% for page in site.pages %}
+    {% if page.title and page.layout == "default" %}
+      {{ sep }}
+      {
+        "title": {{ page.title | jsonify }},
+        "url": {{ page.url | relative_url | jsonify }},
+        "content": {{ page.content | strip_html | normalize_whitespace | truncate: 5000 | jsonify }}
+      }
+      {% assign sep = "," %}
+    {% endif %}
+  {% endfor %}
+]

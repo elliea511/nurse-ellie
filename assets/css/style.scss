@@ -1785,3 +1785,219 @@ body.home-page {
 
 .page-nav-back { margin-right: auto; }
 .page-nav-next { margin-left: auto; }
+
+/* =========================================================
+   SEARCH
+   ========================================================= */
+
+.sidebar-search {
+  position: relative !important;
+  margin-bottom: 1rem !important;
+  padding: 0 0.25rem !important;
+}
+
+.sidebar-search input {
+  width: 100% !important;
+  padding: 0.5rem 0.85rem !important;
+  border-radius: 999px !important;
+  border: 1.5px solid var(--border) !important;
+  font-size: 0.88rem !important;
+  font-family: "Nunito", sans-serif !important;
+  background: white !important;
+  color: var(--ink) !important;
+  outline: none !important;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.05) !important;
+  box-sizing: border-box !important;
+  transition: border-color 0.15s !important;
+}
+
+.sidebar-search input:focus {
+  border-color: var(--accent) !important;
+  box-shadow: 0 0 0 3px rgba(var(--accent-rgb, 100,100,160), 0.12) !important;
+}
+
+.search-results {
+  display: none !important;
+  position: absolute !important;
+  top: calc(100% + 4px) !important;
+  left: 0 !important;
+  right: 0 !important;
+  background: white !important;
+  border: 1px solid var(--border) !important;
+  border-radius: 10px !important;
+  box-shadow: 0 6px 24px rgba(0,0,0,0.12) !important;
+  z-index: 10000 !important;
+  max-height: 340px !important;
+  overflow-y: auto !important;
+}
+
+.search-results.open { display: block !important; }
+
+.search-result {
+  display: block !important;
+  padding: 0.6rem 0.9rem !important;
+  text-decoration: none !important;
+  color: var(--ink) !important;
+  border-bottom: 1px solid var(--border) !important;
+  transition: background 0.1s !important;
+}
+
+.search-result:last-child { border-bottom: none !important; }
+
+.search-result:hover { background: var(--accent-soft) !important; }
+
+.search-result-title {
+  display: block !important;
+  font-weight: 700 !important;
+  font-size: 0.88rem !important;
+  color: var(--accent-dark) !important;
+  margin-bottom: 2px !important;
+}
+
+.search-result-snippet {
+  display: block !important;
+  font-size: 0.78rem !important;
+  color: var(--muted) !important;
+  line-height: 1.4 !important;
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+}
+
+.search-result-snippet strong { color: var(--accent-dark) !important; }
+
+.search-no-results {
+  padding: 0.75rem 0.9rem !important;
+  font-size: 0.85rem !important;
+  color: var(--muted) !important;
+}
+
+/* =========================================================
+   FONT SIZE CONTROL
+   ========================================================= */
+
+.font-controls {
+  position: fixed !important;
+  bottom: 1.25rem !important;
+  left: 1.25rem !important;
+  display: flex !important;
+  gap: 4px !important;
+  z-index: 500 !important;
+}
+
+.font-controls button {
+  background: white !important;
+  border: 1.5px solid var(--border) !important;
+  border-radius: 999px !important;
+  padding: 5px 11px !important;
+  font-size: 0.82rem !important;
+  font-weight: 700 !important;
+  font-family: "Nunito", sans-serif !important;
+  color: var(--muted) !important;
+  cursor: pointer !important;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.08) !important;
+  transition: all 0.15s !important;
+  line-height: 1 !important;
+}
+
+.font-controls button:hover {
+  border-color: var(--accent) !important;
+  color: var(--accent-dark) !important;
+  background: var(--accent-soft) !important;
+}
+
+/* =========================================================
+   BACK TO TOP
+   ========================================================= */
+
+#back-to-top {
+  position: fixed !important;
+  bottom: 1.25rem !important;
+  right: 1.25rem !important;
+  width: 40px !important;
+  height: 40px !important;
+  border-radius: 50% !important;
+  background: var(--accent) !important;
+  color: white !important;
+  border: none !important;
+  font-size: 1.1rem !important;
+  font-weight: 700 !important;
+  cursor: pointer !important;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.15) !important;
+  z-index: 500 !important;
+  opacity: 0 !important;
+  transform: translateY(12px) !important;
+  transition: opacity 0.2s ease, transform 0.2s ease !important;
+  pointer-events: none !important;
+  line-height: 1 !important;
+}
+
+#back-to-top.visible {
+  opacity: 1 !important;
+  transform: translateY(0) !important;
+  pointer-events: auto !important;
+}
+
+#back-to-top:hover {
+  background: var(--accent-dark) !important;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.2) !important;
+}
+
+/* =========================================================
+   HIGHLIGHT & ANNOTATE
+   ========================================================= */
+
+mark.hl {
+  background: transparent !important;
+  border-radius: 2px !important;
+  padding: 0 1px !important;
+  cursor: pointer !important;
+}
+
+mark.hl-yellow { background: rgba(255, 225, 60, 0.48) !important; }
+mark.hl-pink   { background: rgba(255, 140, 175, 0.4) !important; }
+mark.hl-blue   { background: rgba(100, 185, 255, 0.42) !important; }
+mark.hl-green  { background: rgba(100, 220, 140, 0.42) !important; }
+
+#hl-toolbar {
+  position: absolute !important;
+  display: none !important;
+  align-items: center !important;
+  gap: 5px !important;
+  background: white !important;
+  border: 1px solid var(--border) !important;
+  border-radius: 999px !important;
+  padding: 5px 10px !important;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.14) !important;
+  z-index: 9999 !important;
+}
+
+#hl-toolbar.visible { display: flex !important; }
+
+.hl-swatch {
+  width: 20px !important;
+  height: 20px !important;
+  border-radius: 50% !important;
+  border: 1.5px solid rgba(0,0,0,0.12) !important;
+  cursor: pointer !important;
+  transition: transform 0.1s !important;
+  padding: 0 !important;
+}
+
+.hl-swatch:hover { transform: scale(1.2) !important; }
+.hl-swatch.hl-yellow { background: rgba(255, 225, 60, 0.75) !important; }
+.hl-swatch.hl-pink   { background: rgba(255, 140, 175, 0.75) !important; }
+.hl-swatch.hl-blue   { background: rgba(100, 185, 255, 0.75) !important; }
+.hl-swatch.hl-green  { background: rgba(100, 220, 140, 0.75) !important; }
+
+.hl-clear {
+  background: none !important;
+  border: none !important;
+  cursor: pointer !important;
+  font-size: 0.8rem !important;
+  color: var(--muted) !important;
+  padding: 0 2px !important;
+  line-height: 1 !important;
+}
+
+.hl-clear:hover { color: #c00 !important; }
