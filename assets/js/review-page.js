@@ -227,6 +227,7 @@
 
       var tWrap = document.createElement('div');
       tWrap.className = 'review-table-wrap';
+      tWrap.dataset.color = entry.color;
       tWrap.innerHTML = entry.html;
       tgroup.appendChild(tWrap);
       tgroup.appendChild(makeNoteWidget('tbl-' + path + '-' + entry.tableId));

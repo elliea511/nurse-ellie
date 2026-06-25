@@ -2590,14 +2590,15 @@ a.video-preview-card:hover .play-button {
 }
 
 .review-color-label {
-  display: inline-block !important;
-  font-size: 0.65rem !important;
+  display: block !important;
+  font-size: 0.68rem !important;
   font-weight: 800 !important;
-  letter-spacing: 0.1em !important;
+  letter-spacing: 0.12em !important;
   text-transform: uppercase !important;
-  padding: 0.15rem 0.5rem !important;
-  border-radius: 4px !important;
-  margin-bottom: 0.4rem !important;
+  padding: 0.2rem 0 0.2rem 1rem !important;
+  margin-bottom: 0.5rem !important;
+  color: #888 !important;
+  border-bottom: 1px solid #eee !important;
 }
 
 .review-hl-list {
@@ -2668,6 +2669,60 @@ a.video-preview-card:hover .play-button {
 .review-table-wrap th {
   border: 1px solid #e0e0e0 !important;
   padding: 0.4rem 0.65rem !important;
+}
+
+/* ── My Notes — notebook paper styling ─────────────────────────── */
+$nb-bg:    #fdfcf4;
+$nb-line:  #c9dcea;
+$nb-lh:    28px;
+
+.review-card mark.hl {
+  display: block !important;
+  background-image: repeating-linear-gradient(
+    #{$nb-bg} 0px, #{$nb-bg} calc(#{$nb-lh} - 1px), #{$nb-line} #{$nb-lh}
+  ) !important;
+  background-color: #{$nb-bg} !important;
+  -webkit-text-fill-color: #2a2a3a !important;
+  color: #2a2a3a !important;
+  border-radius: 0 5px 5px 0 !important;
+  padding: 0.5rem 0.9rem 0.5rem 1rem !important;
+  line-height: #{$nb-lh} !important;
+  font-size: 0.93rem !important;
+  white-space: pre-wrap !important;
+  cursor: default !important;
+  border-left: 4px solid #ddd !important;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.06) !important;
+}
+
+.review-card mark.hl:hover { opacity: 1 !important; text-decoration: none !important; }
+
+.review-card mark.hl-yellow { border-left-color: #e6b800 !important; }
+.review-card mark.hl-pink   { border-left-color: #e06090 !important; }
+.review-card mark.hl-blue   { border-left-color: #4488dd !important; }
+.review-card mark.hl-green  { border-left-color: #33aa66 !important; }
+
+/* Table wrapper on review page — notebook background + color stripe */
+.review-table-wrap {
+  background-image: repeating-linear-gradient(
+    #{$nb-bg} 0px, #{$nb-bg} calc(#{$nb-lh} - 1px), #{$nb-line} #{$nb-lh}
+  ) !important;
+  background-color: #{$nb-bg} !important;
+  padding: 0.5rem 0.5rem 0.5rem 1rem !important;
+  border-left: 4px solid #ddd !important;
+  border-radius: 0 8px 8px 0 !important;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.06) !important;
+}
+
+.review-table-wrap[data-color="yellow"] { border-left-color: #e6b800 !important; }
+.review-table-wrap[data-color="pink"]   { border-left-color: #e06090 !important; }
+.review-table-wrap[data-color="blue"]   { border-left-color: #4488dd !important; }
+.review-table-wrap[data-color="green"]  { border-left-color: #33aa66 !important; }
+
+/* Table cells on review page sit on the notebook background */
+.review-table-wrap table { background: transparent !important; }
+.review-table-wrap td,
+.review-table-wrap th {
+  background: rgba(255,255,255,0.72) !important;
 }
 
 /* ── My Notes — per-highlight note widget ───────────────────────── */
