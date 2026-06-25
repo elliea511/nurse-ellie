@@ -5,8 +5,10 @@ title: Cardiac & Perfusion Emergencies
 
 # Cardiac & Perfusion Emergencies
 
+<div class="study-card-grid">
+
 <a class="study-card" href="{{ '/medical-emergencies/cardiac-perfusion/myocardial-infarction.html' | relative_url }}">
-<h2>Angina/Myocardial Infarction</h2>
+<h2>Angina / Myocardial Infarction</h2>
 <p>Angina vs MI, signs and symptoms, priority nursing care, diagnostics, emergency treatment, post-MI complications, and cardiac procedures.</p>
 </a>
 
@@ -23,6 +25,11 @@ title: Cardiac & Perfusion Emergencies
 <a class="study-card" href="{{ '/medical-emergencies/cardiac-perfusion/hemophilia.html' | relative_url }}">
 <h2>Hemophilia Bleeding Emergency</h2>
 <p>Hemophilia A and B, X-linked inheritance, hemarthrosis, factor replacement, and NCLEX priority cues.</p>
+</a>
+
+<a class="study-card" href="{{ '/medical-emergencies/cardiac-perfusion/ekg-strips.html' | relative_url }}">
+<h2>EKG Strips Interpretation Guide</h2>
+<p>Reading EKG strips, identifying rhythms, common patterns, and NCLEX-tested interpretations.</p>
 </a>
 
 </div>

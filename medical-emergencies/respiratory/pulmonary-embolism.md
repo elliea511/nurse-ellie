@@ -226,3 +226,9 @@ Teach the client:
 * Report severe headache.
 * Keep follow-up lab appointments if on warfarin.
 * Tell providers and dentists about anticoagulant use.
+
+---
+
+<div class="page-nav">
+  <a href="{{ '/medical-emergencies/respiratory.html' | relative_url }}" class="page-nav-back">← Respiratory Emergencies</a>
+</div>

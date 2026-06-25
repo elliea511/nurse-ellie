@@ -619,3 +619,10 @@ Report worsening neuro changes immediately.
 ## Dysphagia
 
 No food, fluids, or oral meds until swallowing is cleared.
+
+---
+
+<div class="page-nav">
+  <a href="{{ '/medical-emergencies/neurological.html' | relative_url }}" class="page-nav-back">← Neurological Emergencies</a>
+  <a href="{{ '/medical-emergencies/neurological/hydrocephalus.html' | relative_url }}" class="page-nav-next">Increased ICP & Hydrocephalus →</a>
+</div>

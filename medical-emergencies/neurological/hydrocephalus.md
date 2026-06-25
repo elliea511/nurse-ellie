@@ -591,3 +591,10 @@ Recognize:
 | Shunt types               | VP drains to peritoneum; VA drains to vascular system                             |
 | After shunt               | Do not sit upright immediately                                                    |
 | Shunt malfunction         | High-pitched cry, vomiting, bulging fontanel, decreased LOC                       |
+
+---
+
+<div class="page-nav">
+  <a href="{{ '/medical-emergencies/neurological/stroke.html' | relative_url }}" class="page-nav-back">← TIA & Stroke</a>
+  <a href="{{ '/medical-emergencies/neurological.html' | relative_url }}" class="page-nav-next">↩ Back to Neurological Emergencies</a>
+</div>

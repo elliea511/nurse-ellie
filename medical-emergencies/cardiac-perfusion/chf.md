@@ -270,3 +270,10 @@ BNP is released when the ventricles are stretched from pressure and fluid overlo
 | 300–600          | Moderate        |
 | 600–900          | Severe          |
 | Greater than 900 | Very concerning |
+
+---
+
+<div class="page-nav">
+  <a href="{{ '/medical-emergencies/cardiac-perfusion/myocardial-infarction.html' | relative_url }}" class="page-nav-back">← Angina / Myocardial Infarction</a>
+  <a href="{{ '/medical-emergencies/cardiac-perfusion/hypertensive-crisis.html' | relative_url }}" class="page-nav-next">Hypertensive Crisis →</a>
+</div>

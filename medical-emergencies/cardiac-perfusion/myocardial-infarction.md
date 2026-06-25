@@ -644,3 +644,10 @@ Prevent straining with stool softeners as ordered.
 ## Nitro Teaching
 
 Sit down before taking it and call for help if pain is not relieved.
+
+---
+
+<div class="page-nav">
+  <a href="{{ '/medical-emergencies/cardiac-perfusion.html' | relative_url }}" class="page-nav-back">← Cardiac & Perfusion</a>
+  <a href="{{ '/medical-emergencies/cardiac-perfusion/chf.html' | relative_url }}" class="page-nav-next">Acute CHF / Pulmonary Edema →</a>
+</div>
