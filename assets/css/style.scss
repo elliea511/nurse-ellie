@@ -1954,6 +1954,8 @@ mark.hl {
   cursor: pointer !important;
 }
 
+mark.hl:hover { opacity: 0.6 !important; text-decoration: line-through !important; }
+
 mark.hl-yellow { background: rgba(255, 225, 60, 0.48) !important; }
 mark.hl-pink   { background: rgba(255, 140, 175, 0.4) !important; }
 mark.hl-blue   { background: rgba(100, 185, 255, 0.42) !important; }

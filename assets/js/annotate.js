@@ -165,5 +165,22 @@
     if (!e.target.closest('#hl-toolbar')) hideToolbar();
   });
 
+  // Click an existing highlight to remove it instantly
+  document.querySelector('.main-content').addEventListener('click', function (e) {
+    var mark = e.target.closest('mark.hl');
+    if (!mark) return;
+    var text = mark.dataset.hlText;
+    document.querySelectorAll('mark.hl[data-hl-text]').forEach(function (m) {
+      if (m.dataset.hlText === text) {
+        var parent = m.parentNode;
+        while (m.firstChild) parent.insertBefore(m.firstChild, m);
+        parent.removeChild(m);
+        parent.normalize();
+      }
+    });
+    var annotations = load().filter(function (a) { return a.text !== text; });
+    save(annotations);
+  });
+
   applyAll();
 })();
