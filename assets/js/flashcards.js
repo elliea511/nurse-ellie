@@ -119,7 +119,8 @@
       tables.forEach(function (t) { t.style.display = 'none'; });
       var deck = createDeck(cards);
       decks.push(deck);
-      content.appendChild(deck);
+      toggleBtn.insertAdjacentElement('afterend', deck);
+      deck.scrollIntoView({ behavior: 'smooth', block: 'start' });
     } else {
       tables.forEach(function (t) { t.style.display = ''; });
       decks.forEach(function (d) { d.remove(); });
