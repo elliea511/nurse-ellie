@@ -78,6 +78,11 @@
     controls.appendChild(flipBtn);
     controls.appendChild(nextBtn);
 
+    var hint = document.createElement('div');
+    hint.className = 'flashcard-hint';
+    hint.textContent = 'Click card or press Flip to reveal the answer';
+
+    wrap.appendChild(hint);
     wrap.appendChild(scene);
     wrap.appendChild(controls);
 
@@ -89,10 +94,13 @@
       card.classList.remove('flipped');
     }
 
-    flipBtn.addEventListener('click', function () {
+    function doFlip() {
       flipped = !flipped;
       card.classList.toggle('flipped', flipped);
-    });
+    }
+
+    flipBtn.addEventListener('click', doFlip);
+    scene.addEventListener('click', doFlip);
 
     prevBtn.addEventListener('click', function () {
       idx = (idx - 1 + cards.length) % cards.length;
