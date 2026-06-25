@@ -1,18 +1,40 @@
+---
+layout: default
+title: Acute CHF / Pulmonary Edema
+---
+
 # Acute CHF / Pulmonary Edema
 
-**Congestive heart failure** means the heart cannot pump effectively enough to meet the body’s needs.
+## Pathophysiology
 
-Fluid can back up into the lungs or the body.
+Congestive heart failure means the heart cannot pump effectively enough to meet the body’s needs.
 
-When fluid backs up into the lungs, it can become an emergency called **pulmonary edema**.
+When the heart does not pump well, blood and fluid can back up.
+
+Where the fluid backs up depends on which side of the heart is failing.
+
+| Type | What Happens | Main Findings |
+|---|---|---|
+| Left-sided heart failure | Blood backs up into the lungs | Dyspnea, crackles, cough, low O₂ |
+| Right-sided heart failure | Blood backs up into the body | JVD, edema, weight gain, ascites |
+
+### Simple Explanation
+
+The heart is the pump.
+
+If the pump is weak, fluid does not move forward like it should.
+
+Fluid backs up behind the weak side.
+
+**Left = lungs.**
+
+**Right = rest of body.**
 
 ---
 
 ## Left-Sided Heart Failure
 
 Left-sided heart failure causes lung symptoms.
-
-**Memory trick: Left = Lungs**
 
 ### Why
 
@@ -25,19 +47,19 @@ Blood backs up into:
 3. Pulmonary veins
 4. Lungs
 
-### Signs and Symptoms
+### Assessment Findings
 
-| Left-Sided HF Findings |
-|---|
-| Dyspnea |
-| Crackles/rales |
-| Cough |
-| Orthopnea |
-| Paroxysmal nocturnal dyspnea |
-| Low oxygen saturation |
-| Restlessness |
-| Fatigue |
-| Pink frothy sputum if severe |
+| Left-Sided HF Findings | Why It Happens |
+|---|---|
+| Dyspnea | Fluid in lungs makes breathing harder |
+| Crackles/rales | Fluid is heard in lung fields |
+| Cough | Fluid irritation/congestion |
+| Orthopnea | Lying flat worsens lung fluid |
+| Paroxysmal nocturnal dyspnea | Wakes up short of breath at night |
+| Low oxygen saturation | Poor gas exchange |
+| Restlessness | Early hypoxia sign |
+| Fatigue | Poor cardiac output |
+| Pink frothy sputum if severe | Pulmonary edema |
 
 ---
 
@@ -45,100 +67,115 @@ Blood backs up into:
 
 Right-sided heart failure causes venous congestion in the body.
 
-**Memory trick: Right = Rest of body**
+### Assessment Findings
 
-### Signs and Symptoms
-
-| Right-Sided HF Findings |
-|---|
-| Jugular vein distention |
-| Peripheral edema |
-| Pitting edema |
-| Weight gain |
-| Ascites |
-| Hepatomegaly |
-| Enlarged abdomen |
-| Nausea |
-
----
-
-## Left-Sided vs Right-Sided Heart Failure
-
-| Type | Main Problem | Key Findings |
-|---|---|---|
-| Left-sided HF | Fluid backs up into lungs | Dyspnea, crackles, cough, orthopnea, low O₂, pink frothy sputum if severe |
-| Right-sided HF | Fluid backs up into body/venous system | JVD, peripheral edema, weight gain, ascites, hepatomegaly, nausea |
-
----
-
-# Acute Pulmonary Edema
-
-## What It Is
-
-Pulmonary edema occurs when fluid builds up in the lungs.
-
-This is a medical emergency because gas exchange is impaired.
-
-## Signs and Symptoms
-
-| Respiratory | Cardiac / Perfusion | Other |
-|---|---|---|
-| Severe shortness of breath | Tachycardia | Anxiety |
-| Crackles | Low oxygen saturation | Restlessness |
-| Frothy sputum | Cool, clammy skin | Sitting upright/tripod positioning |
-| Pink frothy sputum |  |  |
-
-<div class="priority">
-<strong>Priority Nursing Action:</strong> Improve oxygenation.
-</div>
-
----
-
-## Nursing Care for Acute CHF/Pulmonary Edema
-
-| Step | Nursing Action |
+| Right-Sided HF Findings | Why It Happens |
 |---|---|
-| 1 | Place in high Fowler’s |
-| 2 | Apply oxygen |
-| 3 | Assess lung sounds |
-| 4 | Monitor oxygen saturation |
-| 5 | Notify provider or rapid response if severe |
-| 6 | Administer diuretics as prescribed |
-| 7 | Monitor vital signs |
-| 8 | Monitor intake and output |
-| 9 | Monitor urine output |
-| 10 | Monitor potassium and renal labs |
-| 11 | Reduce anxiety |
-| 12 | Prepare for additional respiratory support if needed |
+| Jugular vein distention | Venous fluid backs up |
+| Peripheral edema | Fluid collects in tissues |
+| Pitting edema | Fluid overload in extremities |
+| Weight gain | Fluid retention |
+| Ascites | Fluid in abdomen |
+| Hepatomegaly | Liver congestion |
+| Enlarged abdomen | Fluid backup |
+| Nausea | GI/liver congestion |
 
 ---
 
-# CHF Treatment: Pump It and Pee It
+## Risk Factors / Causes
 
-CHF treatment often focuses on helping the heart pump and removing extra fluid.
+CHF can happen when the heart is weakened, overworked, damaged, or overloaded with fluid.
 
-| Goal | Medication Example | Why |
+| Risk Factor / Cause | Why It Matters |
+|---|---|
+| Hypertension | Heart pumps against high pressure over time |
+| Coronary artery disease | Decreases blood flow to heart muscle |
+| Myocardial infarction | Damages heart muscle |
+| Dysrhythmias | Heart may not fill or pump effectively |
+| Heart valve disease | Blood flow through heart is impaired |
+| Cardiomyopathy | Heart muscle is weakened |
+| Kidney disease | Fluid removal is impaired |
+| Excess sodium/fluid intake | Increases fluid volume |
+| Medication nonadherence | CHF can worsen quickly |
+| Older age | Higher risk for cardiac disease |
+
+---
+
+## Assessment / Clinical Manifestations
+
+### What To Assess First
+
+| Assessment | Why |
+|---|---|
+| Respiratory status | CHF can quickly affect oxygenation |
+| Lung sounds | Crackles may indicate fluid in lungs |
+| Oxygen saturation | Shows gas exchange problem |
+| Work of breathing | Detects respiratory distress |
+| Heart rate/rhythm | Dysrhythmias can worsen CHF |
+| Blood pressure | Shows perfusion and medication safety |
+| Edema | Shows fluid overload |
+| Daily weight | Best simple indicator of fluid gain |
+| Intake and output | Tracks fluid balance |
+| Urine output | Shows kidney perfusion/fluid removal |
+
+---
+
+## Diagnostics / Labs
+
+| Test / Lab | What It Shows |
+|---|---|
+| BNP | Elevated in heart failure |
+| Echocardiogram | Heart structure, valves, ejection fraction |
+| MUGA scan | Ejection fraction and ventricular wall motion |
+| Chest x-ray | Fluid in lungs or enlarged heart |
+| CT/MRI | Heart structure |
+| ECG | Dysrhythmias or cardiac strain |
+| BUN/Creatinine | Kidney function |
+| Potassium | Important with diuretics and digoxin |
+| Sodium | Can be affected by fluid balance/diuretics |
+
+### BNP
+
+BNP is released when the ventricles are stretched from pressure and fluid overload.
+
+| BNP | Meaning |
+|---|---|
+| Less than 100 | Normal |
+| 100–300 | Mild |
+| 300–600 | Moderate |
+| 600–900 | Severe |
+| Greater than 900 | Very concerning |
+
+---
+
+## Treatment / Medications
+
+CHF treatment often focuses on helping the heart pump better and removing extra fluid.
+
+| Goal | Treatment / Medication | Nursing Point |
 |---|---|---|
-| Help the heart pump | Digoxin | Slows and strengthens heartbeat |
-| Remove extra fluid | Furosemide/Lasix | Decreases fluid overload |
+| Improve oxygenation | Oxygen if needed | Monitor O₂ sat and respiratory status |
+| Remove extra fluid | Furosemide/Lasix | Monitor potassium, BP, UOP, renal labs |
+| Help heart pump | Digoxin | Check apical pulse before giving |
+| Decrease workload | Rest, positioning, cardiac meds as ordered | Balance activity and rest |
+| Reduce fluid retention | Sodium/fluid restriction if ordered | Teach diet and daily weights |
+| Treat underlying cause | BP control, rhythm control, cardiac treatment | Depends on cause |
 
 ---
 
-# Digoxin
+## Digoxin
 
-## What It Does
+### What It Does
 
 Digoxin slows and strengthens the heartbeat.
 
-It acts on the SA node and AV node.
-
-This means it can:
+It can:
 
 * Slow heart rate
 * Strengthen contraction
 * Improve cardiac output
 
-## Uses
+### Uses
 
 | Digoxin Uses |
 |---|
@@ -147,9 +184,7 @@ This means it can:
 | Atrial flutter |
 | Some supraventricular dysrhythmias |
 
----
-
-## Before Giving Digoxin
+### Before Giving Digoxin
 
 Check the apical pulse for 1 full minute.
 
@@ -161,9 +196,7 @@ Check the apical pulse for 1 full minute.
 | Signs of toxicity are present |
 | Digoxin level is too high |
 
----
-
-## Digoxin Levels
+### Digoxin Levels
 
 | Level | Meaning |
 |---|---|
@@ -171,17 +204,7 @@ Check the apical pulse for 1 full minute.
 | Greater than 2.0 ng/mL | Hold and notify provider |
 | Around 2.5 ng/mL | Toxicity concern |
 
-## Antidote
-
-| Antidote |
-|---|
-| Digibind |
-
----
-
-## Digoxin Toxicity
-
-Watch for:
+### Digoxin Toxicity
 
 | GI / General | Cardiac | Neuro / Vision |
 |---|---|---|
@@ -191,16 +214,14 @@ Watch for:
 | Dizziness |  |  |
 
 <div class="nclex">
-<strong>NCLEX Clue:</strong> If the client says they see green or yellow halos, think digoxin toxicity.
+<strong>NCLEX Clue:</strong> Green or yellow halos = think digoxin toxicity.
 </div>
 
----
-
-## Potassium and Digoxin
+### Potassium and Digoxin
 
 Low potassium increases the risk of digoxin toxicity.
 
-This is important because clients may take digoxin with furosemide/Lasix.
+This matters because clients may take digoxin with furosemide/Lasix.
 
 Lasix can lower potassium.
 
@@ -208,35 +229,26 @@ Lasix can lower potassium.
 
 ---
 
-# Diuretics in CHF
+## Diuretics in CHF
 
-## Potassium-Wasting Diuretics
-
-| Type | Examples | Main Concerns |
+| Diuretic Type | Examples | Main Concern |
 |---|---|---|
 | Thiazide diuretics | Hydrochlorothiazide, Diuril | Hypokalemia, orthostatic hypotension |
 | Loop diuretics | Furosemide/Lasix | Hypokalemia, hyponatremia |
+| Potassium-sparing diuretics | Spironolactone/Aldactone | Hyperkalemia |
 
-## Potassium-Sparing Diuretics
-
-| Medication | Main Concern |
-|---|---|
-| Spironolactone/Aldactone | Hyperkalemia |
-
-## Spironolactone Action
+### Spironolactone Action
 
 Spironolactone blocks aldosterone.
 
-Aldosterone tells the kidneys to hold sodium and water and get rid of potassium.
+Aldosterone makes the kidneys hold sodium and water and get rid of potassium.
 
 If aldosterone is blocked:
 
 * Sodium and water are excreted.
 * Potassium is retained.
 
----
-
-## High-Potassium Foods
+### High-Potassium Foods
 
 Know these for clients on potassium-wasting diuretics:
 
@@ -254,30 +266,119 @@ Know these for clients on potassium-wasting diuretics:
 
 ---
 
-# CHF Diagnostics
+## Nursing Interventions
 
-| Test | What It Shows |
+| Nursing Intervention | Why |
 |---|---|
-| BNP | Elevated in heart failure |
-| Echocardiogram | Heart structure, valves, ejection fraction |
-| MUGA scan | Ejection fraction and ventricular wall motion |
-| Chest x-ray | Fluid in lungs, enlarged heart |
-| CT/MRI | Heart structure |
-| ECG | Dysrhythmias or cardiac strain |
+| Place in high Fowler’s if short of breath | Improves lung expansion |
+| Apply oxygen if needed | Supports oxygenation |
+| Assess lung sounds | Detects fluid in lungs |
+| Monitor oxygen saturation | Tracks gas exchange |
+| Monitor daily weight | Best simple way to track fluid gain |
+| Monitor intake and output | Tracks fluid balance |
+| Monitor urine output | Shows kidney perfusion/diuretic effect |
+| Monitor edema | Tracks fluid overload |
+| Monitor potassium | Diuretics and digoxin affect potassium safety |
+| Monitor BUN/creatinine | Checks kidney function |
+| Monitor blood pressure | CHF meds/diuretics can lower BP |
+| Cluster care and allow rest | Decreases cardiac workload |
+| Report worsening symptoms | CHF can become pulmonary edema |
 
-## BNP
+---
 
-BNP is released when the ventricles are stretched from pressure and fluid overload.
+## Patient Education
 
-### BNP Values
+Teach the client:
 
-| BNP | Meaning |
+| Teaching | Why |
 |---|---|
-| Less than 100 | Normal |
-| 100–300 | Mild |
-| 300–600 | Moderate |
-| 600–900 | Severe |
-| Greater than 900 | Very concerning |
+| Weigh daily at the same time | Detects fluid gain early |
+| Report sudden weight gain | May mean fluid retention |
+| Follow low-sodium diet if prescribed | Sodium holds water |
+| Follow fluid restriction if prescribed | Prevents overload |
+| Take medications as prescribed | Prevents worsening CHF |
+| Do not stop meds suddenly | Can worsen symptoms |
+| Change positions slowly | Prevents orthostatic hypotension |
+| Keep follow-up appointments | Monitors CHF control |
+| Balance activity and rest | Prevents overworking the heart |
+
+### Report Immediately
+
+| Report |
+|---|
+| New or worsening shortness of breath |
+| Trouble breathing while lying flat |
+| Waking up short of breath |
+| Rapid weight gain |
+| Increased swelling |
+| Chest pain |
+| New confusion or severe fatigue |
+| Decreased urine output |
+| Pink frothy sputum |
+
+---
+
+## Complications
+
+| Complication | What To Watch For |
+|---|---|
+| Pulmonary edema | Severe SOB, crackles, pink frothy sputum |
+| Respiratory failure | Worsening oxygenation and work of breathing |
+| Dysrhythmias | Irregular rhythm, palpitations, ECG changes |
+| Cardiogenic shock | Hypotension, weak pulses, low UOP, altered LOC |
+| Kidney injury | Decreased UOP, increased BUN/creatinine |
+| Fluid overload | Weight gain, edema, crackles |
+
+---
+
+# Acute Pulmonary Edema
+
+## What It Is
+
+Pulmonary edema occurs when fluid builds up in the lungs.
+
+This is a medical emergency because gas exchange is impaired.
+
+## Why It Happens in CHF
+
+When the left side of the heart cannot pump forward well, blood backs up into the pulmonary circulation.
+
+Pressure increases in the lung vessels, and fluid moves into the alveoli.
+
+The alveoli are supposed to hold air.
+
+When they fill with fluid, oxygen cannot move into the blood effectively.
+
+---
+
+## Assessment Findings
+
+| Respiratory | Cardiac / Perfusion | Other |
+|---|---|---|
+| Severe shortness of breath | Tachycardia | Anxiety |
+| Crackles | Low oxygen saturation | Restlessness |
+| Frothy sputum | Cool, clammy skin | Sitting upright/tripod positioning |
+| Pink frothy sputum |  | Feeling of panic/air hunger |
+
+<div class="priority">
+<strong>Priority Nursing Action:</strong> Improve oxygenation.
+</div>
+
+---
+
+## Nursing Care for Acute Pulmonary Edema
+
+| Step | Nursing Action | Why |
+|---|---|---|
+| 1 | Place in high Fowler’s | Improves lung expansion |
+| 2 | Apply oxygen | Supports oxygenation |
+| 3 | Assess lung sounds and O₂ sat | Tracks severity |
+| 4 | Notify provider or rapid response if severe | This is an emergency |
+| 5 | Administer diuretics as prescribed | Removes excess fluid |
+| 6 | Monitor BP, I&O, and UOP | Tracks perfusion and diuretic response |
+| 7 | Monitor potassium and renal labs | Diuretics affect electrolytes/kidneys |
+| 8 | Reduce anxiety | Anxiety increases oxygen demand |
+| 9 | Prepare for additional respiratory support if needed | Client may worsen quickly |
 
 ---
 
@@ -298,6 +399,7 @@ BNP is released when the ventricles are stretched from pressure and fluid overlo
 | Low potassium + digoxin | Increased toxicity risk |
 | Spironolactone | Potassium-sparing; watch hyperkalemia |
 | BNP elevated | Heart failure |
+| Daily weight | Best simple home fluid check |
 
 ---
 
@@ -320,4 +422,3 @@ BNP is released when the ventricles are stretched from pressure and fluid overlo
   <a href="{{ '/medical-emergencies/cardiac-perfusion/myocardial-infarction.html' | relative_url }}" class="page-nav-back">← Angina / Myocardial Infarction</a>
   <a href="{{ '/medical-emergencies/cardiac-perfusion/hypertensive-crisis.html' | relative_url }}" class="page-nav-next">Hypertensive Crisis →</a>
 </div>
-
