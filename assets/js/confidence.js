@@ -26,6 +26,9 @@
   }
 
   // ── Per-page rating bar ──────────────────────────────────────
+  // Skip the highlights review page
+  if (window.location.pathname.replace(/\.html$/, '') === '/review') return;
+
   var content = document.querySelector('.main-content');
   if (!content) return;
 

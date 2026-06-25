@@ -1,8 +1,14 @@
 (function () {
   var COLORS = ['yellow', 'pink', 'blue', 'green'];
   var KEY = 'ellie-annotations-' + window.location.pathname;
+  var content = document.querySelector('.main-content');
+  if (!content) return;
 
-  // --- Toolbar ---
+  // ── Storage ──────────────────────────────────────────────────
+  function load() { try { return JSON.parse(localStorage.getItem(KEY)) || []; } catch (e) { return []; } }
+  function save(a) { localStorage.setItem(KEY, JSON.stringify(a)); }
+
+  // ── Toolbar ───────────────────────────────────────────────────
   var toolbar = document.createElement('div');
   toolbar.id = 'hl-toolbar';
   toolbar.innerHTML =
@@ -12,113 +18,116 @@
     '<button class="hl-clear" title="Remove highlight">✕</button>';
   document.body.appendChild(toolbar);
 
-  var savedSel = null;
+  var savedRange = null;
 
   function showToolbar(x, y) {
     toolbar.style.left = Math.min(x, window.innerWidth - 180) + 'px';
-    toolbar.style.top = (y + window.scrollY - 44) + 'px';
+    toolbar.style.top = (y + window.scrollY - 48) + 'px';
     toolbar.classList.add('visible');
   }
+  function hideToolbar() { toolbar.classList.remove('visible'); savedRange = null; }
 
-  function hideToolbar() {
-    toolbar.classList.remove('visible');
-    savedSel = null;
-  }
-
-  // --- Storage ---
-  function load() {
-    try { return JSON.parse(localStorage.getItem(KEY)) || []; } catch (e) { return []; }
-  }
-
-  function save(annotations) {
-    localStorage.setItem(KEY, JSON.stringify(annotations));
-  }
-
-  // --- Apply highlights on load ---
-  function applyAll() {
-    var annotations = load();
-    annotations.forEach(function (ann) {
-      applyHighlight(ann.text, ann.color, ann.note, ann.index, false);
-    });
-  }
-
+  // ── DOM / offset utilities ────────────────────────────────────
   function textNodes(root) {
     var walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, null, false);
-    var nodes = [];
-    var node;
+    var nodes = [], node;
     while ((node = walker.nextNode())) nodes.push(node);
     return nodes;
   }
 
-  function applyHighlight(text, color, note, targetIndex, persist) {
-    var content = document.querySelector('.main-content');
-    if (!content) return;
-    var nodes = textNodes(content);
-    var count = 0;
+  function getCharOffset(root, targetNode, nodeOffset) {
+    var nodes = textNodes(root), cumulative = 0;
     for (var i = 0; i < nodes.length; i++) {
-      var node = nodes[i];
-      var idx = node.nodeValue.indexOf(text);
-      if (idx === -1) continue;
-      if (count < targetIndex) { count++; continue; }
-
-      var mark = document.createElement('mark');
-      mark.className = 'hl hl-' + color;
-      mark.dataset.hlText = text;
-      mark.dataset.hlColor = color;
-      if (note) {
-        mark.title = note;
-        mark.dataset.hlNote = note;
-      }
-
-      var before = document.createTextNode(node.nodeValue.slice(0, idx));
-      var after = document.createTextNode(node.nodeValue.slice(idx + text.length));
-      mark.appendChild(document.createTextNode(text));
-
-      var parent = node.parentNode;
-      parent.insertBefore(before, node);
-      parent.insertBefore(mark, node);
-      parent.insertBefore(after, node);
-      parent.removeChild(node);
-
-      if (persist) {
-        var annotations = load();
-        annotations.push({ text: text, color: color, note: note || '', index: targetIndex });
-        save(annotations);
-      }
-      return;
+      if (nodes[i] === targetNode) return cumulative + nodeOffset;
+      cumulative += nodes[i].nodeValue.length;
     }
+    return 0;
   }
 
-  function countOccurrencesBefore(text, range) {
-    var content = document.querySelector('.main-content');
-    if (!content) return 0;
+  function rangeFromOffset(root, startChar, length) {
+    var nodes = textNodes(root);
+    var cumulative = 0, range = document.createRange();
+    var startSet = false, endChar = startChar + length;
+    for (var i = 0; i < nodes.length; i++) {
+      var len = nodes[i].nodeValue.length;
+      if (!startSet && cumulative + len > startChar) {
+        range.setStart(nodes[i], startChar - cumulative);
+        startSet = true;
+      }
+      if (startSet && cumulative + len >= endChar) {
+        range.setEnd(nodes[i], endChar - cumulative);
+        return range;
+      }
+      cumulative += len;
+    }
+    return null;
+  }
+
+  // ── Apply mark to a range (handles multi-element selections) ──
+  function wrapRange(range, color, text, uid) {
+    var mark = document.createElement('mark');
+    mark.className = 'hl hl-' + color;
+    mark.dataset.hlText = text;
+    mark.dataset.hlColor = color;
+    mark.dataset.hlUid = uid;
+    mark.id = 'hl-' + uid;
+    try {
+      range.surroundContents(mark);
+    } catch (e) {
+      // Selection spans element boundaries — extract, wrap, reinsert
+      var frag = range.extractContents();
+      mark.appendChild(frag);
+      range.insertNode(mark);
+    }
+    return mark;
+  }
+
+  // ── Restore one annotation from storage ───────────────────────
+  function applyAnnotation(ann) {
     var full = content.textContent;
-    var pos = 0;
-    var count = 0;
-    while (true) {
-      var found = full.indexOf(text, pos);
-      if (found === -1 || found >= range) break;
-      count++;
-      pos = found + 1;
+    var startChar = -1;
+
+    if (ann.contextBefore) {
+      var pos = full.indexOf(ann.contextBefore + ann.text);
+      if (pos !== -1) startChar = pos + ann.contextBefore.length;
     }
-    return count;
+    if (startChar === -1) startChar = full.indexOf(ann.text);
+    if (startChar === -1) return;
+
+    var range = rangeFromOffset(content, startChar, ann.text.length);
+    if (!range) return;
+
+    // Bail if this range is already inside a mark (already restored)
+    var startParent = range.startContainer.parentElement;
+    if (startParent && startParent.closest('mark.hl')) return;
+
+    wrapRange(range, ann.color, ann.text, ann.uid || (ann.color + '-' + startChar));
   }
 
-  // --- Selection handling ---
+  function applyAll() {
+    load().forEach(function (ann) { applyAnnotation(ann); });
+  }
+
+  // ── Remove a highlight by uid ─────────────────────────────────
+  function removeByUid(uid) {
+    document.querySelectorAll('mark.hl[data-hl-uid="' + uid + '"]').forEach(function (m) {
+      var parent = m.parentNode;
+      while (m.firstChild) parent.insertBefore(m.firstChild, m);
+      parent.removeChild(m);
+      parent.normalize();
+    });
+    save(load().filter(function (a) { return (a.uid || '') !== uid; }));
+  }
+
+  // ── Selection events ──────────────────────────────────────────
   document.addEventListener('mouseup', function (e) {
     if (e.target.closest('#hl-toolbar')) return;
     setTimeout(function () {
       var sel = window.getSelection();
-      if (!sel || sel.isCollapsed || sel.toString().trim().length < 2) {
-        hideToolbar();
-        return;
-      }
+      if (!sel || sel.isCollapsed || sel.toString().trim().length < 2) { hideToolbar(); return; }
       var text = sel.toString().trim();
-      if (!document.querySelector('.main-content').contains(sel.anchorNode)) {
-        hideToolbar();
-        return;
-      }
-      savedSel = { text: text, range: sel.getRangeAt(0).cloneRange() };
+      if (!content.contains(sel.anchorNode)) { hideToolbar(); return; }
+      savedRange = { text: text, range: sel.getRangeAt(0).cloneRange() };
       var rect = sel.getRangeAt(0).getBoundingClientRect();
       showToolbar(rect.left + rect.width / 2 - 70, rect.top);
     }, 10);
@@ -128,36 +137,28 @@
 
   toolbar.querySelectorAll('.hl-swatch').forEach(function (btn) {
     btn.addEventListener('click', function () {
-      if (!savedSel) return hideToolbar();
+      if (!savedRange) return hideToolbar();
       var color = btn.dataset.color;
-      var content = document.querySelector('.main-content');
-      var charsBefore = 0;
-      try {
-        var preRange = document.createRange();
-        preRange.setStart(content, 0);
-        preRange.setEnd(savedSel.range.startContainer, savedSel.range.startOffset);
-        charsBefore = preRange.toString().length;
-      } catch (e) {}
-      var idx = countOccurrencesBefore(savedSel.text, charsBefore);
+      var range = savedRange.range;
+      var text = savedRange.text;
+
+      var startChar = getCharOffset(content, range.startContainer, range.startOffset);
+      var contextStart = Math.max(0, startChar - 30);
+      var contextBefore = content.textContent.slice(contextStart, startChar);
+      var uid = Date.now().toString(36) + Math.random().toString(36).slice(2, 6);
+
       window.getSelection().removeAllRanges();
-      applyHighlight(savedSel.text, color, '', idx, true);
+      wrapRange(range, color, text, uid);
+      save(load().concat([{ text: text, color: color, uid: uid, contextBefore: contextBefore }]));
       hideToolbar();
     });
   });
 
   toolbar.querySelector('.hl-clear').addEventListener('click', function () {
-    if (!savedSel) return hideToolbar();
-    var text = savedSel.text;
-    document.querySelectorAll('mark.hl[data-hl-text]').forEach(function (mark) {
-      if (mark.dataset.hlText === text) {
-        var parent = mark.parentNode;
-        while (mark.firstChild) parent.insertBefore(mark.firstChild, mark);
-        parent.removeChild(mark);
-        parent.normalize();
-      }
-    });
-    var annotations = load().filter(function (a) { return a.text !== text; });
-    save(annotations);
+    if (!savedRange) return hideToolbar();
+    var node = savedRange.range.startContainer;
+    var mark = (node.nodeType === 3 ? node.parentElement : node).closest('mark.hl');
+    if (mark && mark.dataset.hlUid) removeByUid(mark.dataset.hlUid);
     hideToolbar();
   });
 
@@ -165,22 +166,26 @@
     if (!e.target.closest('#hl-toolbar')) hideToolbar();
   });
 
-  // Click an existing highlight to remove it instantly
-  document.querySelector('.main-content').addEventListener('click', function (e) {
+  // Click a highlight to remove it
+  content.addEventListener('click', function (e) {
     var mark = e.target.closest('mark.hl');
-    if (!mark) return;
-    var text = mark.dataset.hlText;
-    document.querySelectorAll('mark.hl[data-hl-text]').forEach(function (m) {
-      if (m.dataset.hlText === text) {
-        var parent = m.parentNode;
-        while (m.firstChild) parent.insertBefore(m.firstChild, m);
-        parent.removeChild(m);
-        parent.normalize();
-      }
-    });
-    var annotations = load().filter(function (a) { return a.text !== text; });
-    save(annotations);
+    if (!mark || !mark.dataset.hlUid) return;
+    removeByUid(mark.dataset.hlUid);
   });
 
+  // Jump to a specific highlight from ?hljump=uid in URL
+  var jumpUid = new URLSearchParams(window.location.search).get('hljump');
+
   applyAll();
+
+  if (jumpUid) {
+    var target = document.getElementById('hl-' + jumpUid);
+    if (target) {
+      setTimeout(function () {
+        target.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        target.classList.add('hl-jump-pulse');
+        setTimeout(function () { target.classList.remove('hl-jump-pulse'); }, 2000);
+      }, 300);
+    }
+  }
 })();

@@ -106,7 +106,9 @@
 
       groups[color].forEach(function (item) {
         var li = document.createElement('li');
-        li.innerHTML = '<span class="review-bullet">•</span><mark class="hl hl-' + color + '">' + item.text + '</mark>';
+        var uid = item.uid || '';
+        var href = uid ? page.path + '?hljump=' + encodeURIComponent(uid) : page.path;
+        li.innerHTML = '<span class="review-bullet">•</span><a href="' + href + '" class="review-hl-link"><mark class="hl hl-' + color + '">' + item.text + '</mark></a>';
         list.appendChild(li);
       });
 
