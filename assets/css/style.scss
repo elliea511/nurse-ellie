@@ -2149,6 +2149,13 @@ mark.hl-green  { background: rgba(100, 220, 140, 0.42) !important; }
 .flashcard-deck {
   margin: 0 auto 2.5rem !important;
   max-width: 640px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+}
+
+.flashcard-deck .flashcard-scene {
+  width: 100% !important;
 }
 
 /* hint text above card */
@@ -2195,6 +2202,7 @@ mark.hl-green  { background: rgba(100, 220, 140, 0.42) !important; }
   box-shadow: 2px 3px 12px rgba(0,0,0,0.1), 4px 5px 0 #e0e0d0 !important;
   overflow-y: auto !important;
 }
+
 
 /* FRONT — notebook paper card */
 .flashcard-front {
