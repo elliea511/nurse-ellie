@@ -1,5 +1,6 @@
 ---
-## layout: default title: Shock
+layout: default
+title: Shock
 
 # Shock
 ------
