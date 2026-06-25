@@ -536,7 +536,9 @@ body {
 .main-content .lab,
 .main-content .assessment,
 .main-content .med,
-.main-content .patho {
+.main-content .patho,
+.main-content .warning,
+.main-content .ati-box {
   position: relative !important;
   margin: 1.25rem 0 !important;
   padding: 0.8rem 1.1rem 0.8rem 1.2rem !important;
@@ -563,7 +565,9 @@ body {
 .main-content .lab::before,
 .main-content .assessment::before,
 .main-content .med::before,
-.main-content .patho::before {
+.main-content .patho::before,
+.main-content .warning::before,
+.main-content .ati-box::before {
   display: inline-block !important;
   font-size: 0.62rem !important;
   font-weight: 900 !important;
@@ -676,6 +680,26 @@ body {
   content: "Pathophysiology" !important;
   color: #783050 !important;
   background: #f0c0d0 !important;
+}
+
+.main-content .warning {
+  border-left-color: #c87820 !important;
+  background: #fff8ee !important;
+}
+.main-content .warning::before {
+  content: "⚠️ Warning" !important;
+  color: #7a4400 !important;
+  background: #fde8b8 !important;
+}
+
+.main-content .ati-box {
+  border-left-color: #4a78b8 !important;
+  background: #f0f5fd !important;
+}
+.main-content .ati-box::before {
+  content: "ATI" !important;
+  color: #1a3878 !important;
+  background: #c8d8f4 !important;
 }
 
 /* =========================================================
@@ -1641,7 +1665,8 @@ body.home-page .page-wrapper {
   .main-content .nclex, .main-content .ati-tip, .main-content .danger,
   .main-content .priority, .main-content .intervention, .main-content .memory,
   .main-content .note, .main-content .teaching, .main-content .lab,
-  .main-content .assessment, .main-content .med, .main-content .patho {
+  .main-content .assessment, .main-content .med, .main-content .patho,
+  .main-content .warning, .main-content .ati-box {
     background: #f8f8f8 !important;
     border-left-color: #999 !important;
   }
