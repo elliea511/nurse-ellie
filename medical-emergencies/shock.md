@@ -5,14 +5,18 @@ title: Shock
 
 # Shock
 
-Shock is a clinical syndrome where tissues do not get enough blood flow and oxygen.
+Shock means the tissues are not getting enough blood flow and oxygen.
 
-This creates an imbalance between:
+This causes an imbalance between:
 
 * Oxygen supply
 * Oxygen demand
 
-If shock is not recognized early, compensatory mechanisms fail and organ failure can occur.
+If shock is not recognized early, the body can stop compensating and organ failure can occur.
+
+<div class="priority">
+<strong>Priority:</strong> Shock is a perfusion emergency. Support ABCs, monitor vital signs and urine output, treat the cause, and notify the provider.
+</div>
 
 ---
 
@@ -20,9 +24,7 @@ If shock is not recognized early, compensatory mechanisms fail and organ failure
 
 Shock can affect every body system.
 
-If untreated, it can lead to:
-
-| Possible Complications |
+| If Untreated, Shock Can Cause |
 |---|
 | Kidney injury |
 | Brain injury |
@@ -36,62 +38,65 @@ If untreated, it can lead to:
 
 | Early Signs | Late Signs |
 |---|---|
-| Restlessness | Hypotension |
-| Anxiety | Severe altered mental status |
-| Confusion | Mottled skin |
-| Tachycardia | Respiratory distress |
-| Tachypnea | Very weak or absent pulses |
-| Cool, clammy skin | Organ failure |
-| Pale skin |  |
+| Restlessness or anxiety | Hypotension |
+| Confusion | Severe altered mental status |
+| Tachycardia | Mottled skin |
+| Tachypnea | Respiratory distress |
+| Cool, clammy skin | Very weak or absent pulses |
+| Pale skin | Organ failure |
 | Delayed capillary refill |  |
 | Weak pulses |  |
 | Decreased urine output |  |
 
 ---
 
-## Shock Priority Assessment
+## Priority Assessment
 
-Assess:
+| Assess | Why It Matters |
+|---|---|
+| Airway, breathing, O₂ saturation | Oxygen delivery |
+| Heart rate and blood pressure | Perfusion status |
+| Skin color/temp, cap refill, pulses | Peripheral perfusion |
+| Level of consciousness | Brain perfusion |
+| Urine output | Kidney perfusion |
+| Lung sounds | Fluid overload or respiratory failure |
+| Pain, bleeding, temperature | Helps identify cause |
 
-| ABCs / Vitals | Perfusion | Other |
-|---|---|---|
-| Airway | Skin color | Pain |
-| Breathing | Skin temperature | Bleeding |
-| Oxygen saturation | Capillary refill | Temperature |
-| Heart rate | Peripheral pulses | Lung sounds |
-| Blood pressure | Level of consciousness |  |
-|  | Urine output |  |
+### Report Immediately
 
-<div class="priority">
-<strong>Report Immediately:</strong> Decreased LOC, decreased urine output, weak or absent pulses, new hypotension, respiratory distress, chest pain, severe bleeding, mottled skin, signs of sepsis, or signs of anaphylaxis.
-</div>
+* Decreased LOC
+* Decreased urine output
+* Weak or absent pulses
+* New hypotension
+* Respiratory distress
+* Chest pain
+* Severe bleeding
+* Mottled skin
+* Signs of sepsis
+* Signs of anaphylaxis
 
 ---
 
-## Urine Output and Shock
+## Urine Output
 
 Urine output is a major indicator of tissue perfusion.
 
-### Expected Adult Urine Output
-
 ```text
-At least 30 mL/hr
+Adult goal: at least 30 mL/hr
 ```
 
-### Why It Matters
-
-If urine output decreases, the kidneys may not be getting enough blood flow.
+Low urine output can mean the kidneys are not getting enough blood flow.
 
 ---
 
-## Classification of Shock
+## Types of Shock
 
-| Type | Basic Problem | Common Causes |
-|---|---|---|
-| Hypovolemic | Not enough circulating volume | Blood loss, dehydration, burns, vomiting, diarrhea |
-| Cardiogenic | Heart cannot pump effectively | MI, heart failure, dysrhythmias |
-| Distributive | Blood volume is adequate but vessels dilate and blood pools | Sepsis, anaphylaxis, neurogenic/spinal shock |
-| Obstructive | Mechanical barrier blocks filling or emptying of the heart | Cardiac tamponade, tension pneumothorax, pulmonary embolism |
+| Type | Basic Problem | Common Causes | Key Clue |
+|---|---|---|---|
+| Hypovolemic | Not enough circulating volume | Blood loss, dehydration, burns, vomiting, diarrhea | Bleeding or fluid loss |
+| Cardiogenic | Heart cannot pump effectively | MI, heart failure, dysrhythmias | Chest pain, crackles, JVD |
+| Distributive | Vessels dilate and blood pools | Sepsis, anaphylaxis, neurogenic shock | Vasodilation/relative hypovolemia |
+| Obstructive | Mechanical barrier blocks heart filling or pumping | Tamponade, tension pneumothorax, PE | Physical blockage |
 
 ---
 
@@ -105,66 +110,26 @@ The client does not have enough circulating volume to perfuse tissues.
 
 ### Causes
 
-| Causes |
-|---|
-| Hemorrhage |
-| Penetrating trauma |
-| Blunt trauma |
-| Severe GI bleeding |
-| Burns |
-| Vomiting |
-| Diarrhea |
-| Dehydration |
+* Hemorrhage
+* Penetrating trauma
+* Blunt trauma
+* Severe GI bleeding
+* Burns
+* Vomiting
+* Diarrhea
+* Dehydration
 
-### Recognize
+### Recognize and Intervene
 
-| Findings |
-|---|
-| Tachycardia |
-| Tachypnea |
-| Hypotension later |
-| Cool, clammy skin |
-| Pale skin |
-| Weak pulses |
-| Flat neck veins |
-| Decreased urine output |
-| Thirst |
-| Restlessness |
-| Delayed capillary refill |
-| Confusion |
-
-### Priority Assessment
-
-Assess:
-
-| Assessment |
-|---|
-| Airway and breathing |
-| Heart rate |
-| Blood pressure |
-| Bleeding |
-| Skin color and temperature |
-| Peripheral pulses |
-| Capillary refill |
-| Level of consciousness |
-| Urine output |
-| Intake and output |
-
-### Nursing Interventions
-
-| Nursing Intervention |
-|---|
-| Maintain airway |
-| Give oxygen as prescribed |
-| Control bleeding if present |
-| Apply direct pressure to bleeding wounds |
-| Start or maintain IV access |
-| Administer isotonic IV fluids as ordered |
-| Prepare for blood products if hemorrhage is present |
-| Monitor urine output |
-| Keep client warm |
-| Monitor vital signs frequently |
-| Notify provider of worsening signs |
+| Recognize | Nursing Interventions |
+|---|---|
+| Tachycardia, tachypnea | Maintain airway and give oxygen as prescribed |
+| Hypotension later | Monitor vital signs frequently |
+| Cool, clammy, pale skin | Keep client warm |
+| Weak pulses, flat neck veins | Start or maintain IV access |
+| Decreased urine output | Monitor urine output and I&O |
+| Thirst, restlessness, confusion | Notify provider of worsening signs |
+| Bleeding | Control bleeding, apply direct pressure, prepare fluids/blood products as ordered |
 
 ---
 
@@ -178,56 +143,27 @@ The blood volume may be normal, but the pump is failing.
 
 ### Common Causes
 
-| Common Causes |
-|---|
-| Acute myocardial infarction |
-| Heart failure |
-| Severe dysrhythmias |
-| Cardiac trauma |
+* Acute myocardial infarction
+* Heart failure
+* Severe dysrhythmias
+* Cardiac trauma
 
-### Recognize
+### Recognize and Intervene
 
-| Findings |
-|---|
-| Chest pain |
-| Shortness of breath |
-| Tachycardia or dysrhythmia |
-| Hypotension |
-| Crackles |
-| Jugular vein distention |
-| Cool, clammy skin |
-| Decreased urine output |
-| Weak pulses |
-| Confusion |
+| Recognize | Nursing Interventions |
+|---|---|
+| Chest pain | Assess chest pain and notify provider |
+| Shortness of breath | Maintain airway and give oxygen as prescribed |
+| Tachycardia or dysrhythmia | Place on cardiac monitor |
+| Hypotension, weak pulses | Monitor BP, pulses, and perfusion |
+| Crackles, JVD | Monitor lung sounds and fluid overload |
+| Decreased urine output | Monitor urine output |
+| Confusion | Monitor mental status |
+| Pump failure | Administer medications/prepare interventions as ordered |
 
-### Priority Assessment
+### Major Caution
 
-Assess:
-
-| Assessment |
-|---|
-| Airway and breathing |
-| Oxygen saturation |
-| Lung sounds |
-| Chest pain |
-| Cardiac rhythm |
-| Blood pressure |
-| Peripheral pulses |
-| Urine output |
-| Mental status |
-
-### Nursing Interventions
-
-| Nursing Intervention |
-|---|
-| Maintain airway |
-| Give oxygen as prescribed |
-| Place on cardiac monitor |
-| Monitor lung sounds |
-| Monitor for fluid overload |
-| Administer medications as prescribed |
-| Prepare for advanced cardiac interventions if ordered |
-| Notify provider of worsening perfusion |
+Avoid fluid overload unless ordered because the heart is already failing to pump effectively.
 
 ---
 
@@ -239,15 +175,13 @@ Distributive shock occurs when blood vessels dilate and blood pools in the vascu
 
 The blood volume may be adequate, but the vessels are too relaxed and circulation is poorly distributed.
 
-This creates a type of **relative hypovolemia**.
+This creates **relative hypovolemia**.
 
-### Types
-
-| Types of Distributive Shock |
-|---|
-| Septic shock |
-| Anaphylactic shock |
-| Neurogenic shock |
+| Type | Cause | Key Clue |
+|---|---|---|
+| Septic shock | Infection | Fever/low temp, infection signs |
+| Anaphylactic shock | Severe allergic reaction | Hives, wheezing, swelling |
+| Neurogenic shock | Nervous system injury | Hypotension with possible bradycardia |
 
 ---
 
@@ -259,53 +193,21 @@ Anaphylactic shock is a severe allergic reaction that causes airway swelling, br
 
 ### Causes
 
-| Causes |
-|---|
-| Medications |
-| Foods |
-| Insect stings |
-| Latex |
-| Contrast dye |
+* Medications
+* Foods
+* Insect stings
+* Latex
+* Contrast dye
 
-### Recognize
+### Recognize and Intervene
 
-| Airway / Breathing | Circulation / Skin | Other |
-|---|---|---|
-| Difficulty breathing | Hypotension | Anxiety |
-| Wheezing | Tachycardia | Feeling of doom |
-| Stridor | Hives |  |
-| Swelling of lips, tongue, or throat | Itching |  |
-|  | Flushing |  |
-
-### Priority Assessment
-
-Assess:
-
-| Priority Assessment |
-|---|
-| Airway swelling |
-| Breathing |
-| Lung sounds |
-| Oxygen saturation |
-| Blood pressure |
-| Heart rate |
-| Skin |
-| Exposure to allergen |
-
-### Nursing Interventions
-
-| Nursing Intervention |
-|---|
-| Stop exposure to allergen if possible |
-| Maintain airway |
-| Give oxygen as prescribed |
-| Prepare to administer epinephrine |
-| Establish IV access |
-| Administer IV fluids as ordered |
-| Prepare antihistamines as prescribed |
-| Prepare corticosteroids as prescribed |
-| Prepare bronchodilators as prescribed |
-| Monitor for worsening airway swelling |
+| Recognize | Nursing Interventions |
+|---|---|
+| Difficulty breathing, wheezing, stridor | Maintain airway and give oxygen as prescribed |
+| Swelling of lips, tongue, or throat | Monitor for worsening airway swelling |
+| Hives, itching, flushing | Stop exposure to allergen if possible |
+| Hypotension, tachycardia | Establish IV access and give IV fluids as ordered |
+| Anxiety, feeling of doom | Prepare epinephrine, antihistamines, corticosteroids, and bronchodilators as prescribed |
 
 ---
 
@@ -317,39 +219,23 @@ Septic shock occurs when infection causes widespread inflammation, vasodilation,
 
 ### Causes
 
-| Causes |
-|---|
-| Pneumonia |
-| UTI |
-| Wound infection |
-| Abdominal infection |
-| IV line infection |
-| Sepsis |
+* Pneumonia
+* UTI
+* Wound infection
+* Abdominal infection
+* IV line infection
+* Sepsis
 
-### Recognize
+### Recognize and Intervene
 
-| Early Septic Shock | Late Septic Shock |
-|---|---|
-| Fever or low temperature | Hypotension |
-| Tachycardia | Cool clammy skin |
-| Tachypnea | Weak pulses |
-| Warm flushed skin | Decreased urine output |
-| Bounding pulses | Mottling |
-| Confusion | Organ dysfunction |
-
-### Nursing Interventions
-
-| Nursing Intervention |
-|---|
-| Maintain airway |
-| Give oxygen as prescribed |
-| Obtain cultures as ordered before antibiotics if this does not delay care |
-| Administer broad-spectrum antibiotics as prescribed |
-| Administer IV fluids as ordered |
-| Monitor urine output |
-| Monitor temperature |
-| Monitor lactate if ordered |
-| Notify provider of worsening perfusion |
+| Early Septic Shock | Late Septic Shock | Nursing Interventions |
+|---|---|---|
+| Fever or low temperature | Hypotension | Maintain airway and give oxygen as prescribed |
+| Tachycardia | Cool clammy skin | Obtain cultures as ordered before antibiotics if this does not delay care |
+| Tachypnea | Weak pulses | Administer broad-spectrum antibiotics as prescribed |
+| Warm flushed skin | Decreased urine output | Administer IV fluids as ordered |
+| Bounding pulses | Mottling | Monitor urine output, temperature, and lactate if ordered |
+| Confusion | Organ dysfunction | Notify provider of worsening perfusion |
 
 ---
 
@@ -361,33 +247,20 @@ Neurogenic shock occurs when nervous system injury causes loss of vascular tone.
 
 ### Causes
 
-| Causes |
-|---|
-| Spinal cord injury |
-| Spinal anesthesia |
-| Severe neurologic injury |
+* Spinal cord injury
+* Spinal anesthesia
+* Severe neurologic injury
 
-### Recognize
+### Recognize and Intervene
 
-| Findings |
-|---|
-| Hypotension |
-| Bradycardia |
-| Warm, dry skin |
-| Temperature regulation problems |
-| Possible paralysis |
-| Possible spinal injury symptoms |
-
-### Nursing Interventions
-
-| Nursing Intervention |
-|---|
-| Maintain airway |
-| Give oxygen as prescribed |
-| Stabilize spine if injury is suspected |
-| Administer IV fluids as ordered |
-| Prepare vasopressors as prescribed |
-| Monitor temperature |
+| Recognize | Nursing Interventions |
+|---|---|
+| Hypotension | Maintain airway and give oxygen as prescribed |
+| Bradycardia | Monitor heart rate and blood pressure |
+| Warm, dry skin | Monitor temperature |
+| Temperature regulation problems | Administer IV fluids as ordered |
+| Possible paralysis/spinal injury symptoms | Stabilize spine if injury is suspected |
+| Loss of vascular tone | Prepare vasopressors as prescribed |
 
 ---
 
@@ -399,40 +272,24 @@ Obstructive shock occurs when a mechanical problem blocks the heart from filling
 
 ### Causes
 
-| Causes |
-|---|
-| Tension pneumothorax |
-| Cardiac tamponade |
-| Pulmonary embolism |
+* Tension pneumothorax
+* Cardiac tamponade
+* Pulmonary embolism
 
-### Recognize
+### Recognize and Intervene
 
-| Findings |
-|---|
-| Hypotension |
-| Tachycardia |
-| Shortness of breath |
-| Chest pain |
-| Weak pulses |
-| Decreased cardiac output |
-| Signs depend on the cause |
-
-### Nursing Interventions
-
-| Nursing Intervention |
-|---|
-| Maintain airway |
-| Give oxygen as prescribed |
-| Monitor vital signs |
-| Place on cardiac monitor |
-| Notify provider immediately |
-| Prepare for emergency treatment of the cause |
+| Recognize | Nursing Interventions |
+|---|---|
+| Hypotension | Maintain airway and give oxygen as prescribed |
+| Tachycardia | Monitor vital signs |
+| Shortness of breath | Place on cardiac monitor |
+| Chest pain | Notify provider immediately |
+| Weak pulses | Prepare for emergency treatment of the cause |
+| Decreased cardiac output | Treat/remove the obstruction |
 
 ---
 
 ## General Nursing Interventions for Any Shock
-
-### Priority Actions
 
 | Priority Actions |
 |---|
@@ -453,7 +310,7 @@ Obstructive shock occurs when a mechanical problem blocks the heart from filling
 
 ## Shock Comparison Chart
 
-| Type of Shock | Key Clue | Skin | Heart Rate | Priority |
+| Type | Key Clue | Skin | Heart Rate | Priority |
 |---|---|---|---|---|
 | Hypovolemic | Bleeding or fluid loss | Cool, clammy | Fast | Replace volume |
 | Cardiogenic | Heart pump failure | Cool, clammy | Fast or abnormal | Support heart, avoid overload |
