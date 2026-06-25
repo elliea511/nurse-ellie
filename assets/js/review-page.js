@@ -185,53 +185,54 @@
     cardHeader.appendChild(countSpan);
     card.appendChild(cardHeader);
 
-    // ── Text highlights grouped by color ──────────────────────────
-    if (data.items.length) {
-      var groups = {};
-      data.items.forEach(function (item) {
-        if (!groups[item.color]) groups[item.color] = [];
-        groups[item.color].push(item);
-      });
+    // ── All highlights (text + tables) grouped by color ──────────
+    var groups = {};
+    data.items.forEach(function (item) {
+      if (!groups[item.color]) groups[item.color] = [];
+      groups[item.color].push({ type: 'text', item: item });
+    });
+    data.tables.forEach(function (entry) {
+      if (!groups[entry.color]) groups[entry.color] = [];
+      groups[entry.color].push({ type: 'table', entry: entry });
+    });
 
-      COLOR_ORDER.forEach(function (color) {
-        if (!groups[color]) return;
-        var group = document.createElement('div');
-        group.className = 'review-color-group';
-        var label = document.createElement('span');
-        label.className = 'review-color-label hl-' + color;
-        label.textContent = COLOR_LABELS[color];
-        group.appendChild(label);
+    COLOR_ORDER.forEach(function (color) {
+      if (!groups[color]) return;
+      var group = document.createElement('div');
+      group.className = 'review-color-group';
+      var label = document.createElement('span');
+      label.className = 'review-color-label hl-' + color;
+      label.textContent = COLOR_LABELS[color];
+      group.appendChild(label);
 
-        var list = document.createElement('div');
-        list.className = 'review-hl-list';
-        groups[color].forEach(function (item) {
-          var div = document.createElement('div');
-          div.className = 'review-hl-item';
-          var uid = item.uid || '';
+      var list = document.createElement('div');
+      list.className = 'review-hl-list';
+
+      groups[color].forEach(function (entry) {
+        var div = document.createElement('div');
+        div.className = 'review-hl-item';
+
+        if (entry.type === 'text') {
+          var item = entry.item;
           var mark = document.createElement('mark');
           mark.className = 'hl hl-' + color;
           mark.textContent = item.text;
           div.appendChild(mark);
-          if (uid) div.appendChild(makeNoteWidget('hl-' + uid));
-          list.appendChild(div);
-        });
-        group.appendChild(list);
-        card.appendChild(group);
+          if (item.uid) div.appendChild(makeNoteWidget('hl-' + item.uid));
+        } else {
+          var tWrap = document.createElement('div');
+          tWrap.className = 'review-table-wrap';
+          tWrap.dataset.color = color;
+          tWrap.innerHTML = entry.entry.html;
+          div.appendChild(tWrap);
+          div.appendChild(makeNoteWidget('tbl-' + path + '-' + entry.entry.tableId));
+        }
+
+        list.appendChild(div);
       });
-    }
 
-    // ── Table highlights ──────────────────────────────────────────
-    data.tables.forEach(function (entry) {
-      var tgroup = document.createElement('div');
-      tgroup.className = 'review-color-group review-table-group';
-
-      var tWrap = document.createElement('div');
-      tWrap.className = 'review-table-wrap';
-      tWrap.dataset.color = entry.color;
-      tWrap.innerHTML = entry.html;
-      tgroup.appendChild(tWrap);
-      tgroup.appendChild(makeNoteWidget('tbl-' + path + '-' + entry.tableId));
-      card.appendChild(tgroup);
+      group.appendChild(list);
+      card.appendChild(group);
     });
 
     // Per-page clear
