@@ -1,253 +1,239 @@
 ---
 layout: default
 title: Shock
+---
 
 # Shock
-------
-
-# Big Picture
-
-## What Shock Is
 
 Shock is a clinical syndrome where tissues do not get enough blood flow and oxygen.
 
 This creates an imbalance between:
 
-- Oxygen supply
-- Oxygen demand
+* Oxygen supply
+* Oxygen demand
 
 If shock is not recognized early, compensatory mechanisms fail and organ failure can occur.
 
-------
+---
 
-# Why Shock Is Dangerous
+## Why Shock Is Dangerous
 
 Shock can affect every body system.
 
 If untreated, it can lead to:
 
-- Kidney injury
-- Brain injury
-- Respiratory failure
-- Organ failure
-- Death
+| Possible Complications |
+|---|
+| Kidney injury |
+| Brain injury |
+| Respiratory failure |
+| Organ failure |
+| Death |
 
-------
+---
 
-# General Signs of Shock
+## General Signs of Shock
 
-## Early Signs
+| Early Signs | Late Signs |
+|---|---|
+| Restlessness | Hypotension |
+| Anxiety | Severe altered mental status |
+| Confusion | Mottled skin |
+| Tachycardia | Respiratory distress |
+| Tachypnea | Very weak or absent pulses |
+| Cool, clammy skin | Organ failure |
+| Pale skin |  |
+| Delayed capillary refill |  |
+| Weak pulses |  |
+| Decreased urine output |  |
 
-- Restlessness
-- Anxiety
-- Confusion
-- Tachycardia
-- Tachypnea
-- Cool, clammy skin
-- Pale skin
-- Delayed capillary refill
-- Weak pulses
-- Decreased urine output
+---
 
-## Late Signs
-
-- Hypotension
-- Severe altered mental status
-- Mottled skin
-- Respiratory distress
-- Very weak or absent pulses
-- Organ failure
-
-------
-
-# Shock Priority Assessment
+## Shock Priority Assessment
 
 Assess:
 
-- Airway
-- Breathing
-- Oxygen saturation
-- Heart rate
-- Blood pressure
-- Skin color
-- Skin temperature
-- Capillary refill
-- Peripheral pulses
-- Level of consciousness
-- Urine output
-- Lung sounds
-- Pain
-- Bleeding
-- Temperature
+| ABCs / Vitals | Perfusion | Other |
+|---|---|---|
+| Airway | Skin color | Pain |
+| Breathing | Skin temperature | Bleeding |
+| Oxygen saturation | Capillary refill | Temperature |
+| Heart rate | Peripheral pulses | Lung sounds |
+| Blood pressure | Level of consciousness |  |
+|  | Urine output |  |
 
-<div class="priority" markdown="1">
-
-**Report Immediately:**
-- Decreased LOC
-- Decreased urine output
-- Weak or absent pulses
-- New hypotension
-- Respiratory distress
-- Chest pain
-- Severe bleeding
-- Mottled skin
-- Signs of sepsis
-- Signs of anaphylaxis
-
+<div class="priority">
+<strong>Report Immediately:</strong> Decreased LOC, decreased urine output, weak or absent pulses, new hypotension, respiratory distress, chest pain, severe bleeding, mottled skin, signs of sepsis, or signs of anaphylaxis.
 </div>
 
-------
+---
 
-# Urine Output and Shock
+## Urine Output and Shock
 
 Urine output is a major indicator of tissue perfusion.
 
-## Expected Adult Urine Output
+### Expected Adult Urine Output
 
 ```text
 At least 30 mL/hr
 ```
 
-## Why It Matters
+### Why It Matters
 
 If urine output decreases, the kidneys may not be getting enough blood flow.
 
-------
+---
 
-# Classification of Shock
+## Classification of Shock
 
-| Type         | Basic Problem                                               | Common Causes                                               |
-| ------------ | ----------------------------------------------------------- | ----------------------------------------------------------- |
-| Hypovolemic  | Not enough circulating volume                               | Blood loss, dehydration, burns, vomiting, diarrhea          |
-| Cardiogenic  | Heart cannot pump effectively                               | MI, heart failure, dysrhythmias                             |
-| Distributive | Blood volume is adequate but vessels dilate and blood pools | Sepsis, anaphylaxis, neurogenic/spinal shock                |
-| Obstructive  | Mechanical barrier blocks filling or emptying of the heart  | Cardiac tamponade, tension pneumothorax, pulmonary embolism |
+| Type | Basic Problem | Common Causes |
+|---|---|---|
+| Hypovolemic | Not enough circulating volume | Blood loss, dehydration, burns, vomiting, diarrhea |
+| Cardiogenic | Heart cannot pump effectively | MI, heart failure, dysrhythmias |
+| Distributive | Blood volume is adequate but vessels dilate and blood pools | Sepsis, anaphylaxis, neurogenic/spinal shock |
+| Obstructive | Mechanical barrier blocks filling or emptying of the heart | Cardiac tamponade, tension pneumothorax, pulmonary embolism |
 
-------
+---
 
-# Hypovolemic Shock
+## Hypovolemic Shock
 
-## What It Is
+### What It Is
 
 Hypovolemic shock happens when the body loses too much fluid or blood.
 
 The client does not have enough circulating volume to perfuse tissues.
 
-## Causes
+### Causes
 
-- Hemorrhage
-- Penetrating trauma
-- Blunt trauma
-- Severe GI bleeding
-- Burns
-- Vomiting
-- Diarrhea
-- Dehydration
+| Causes |
+|---|
+| Hemorrhage |
+| Penetrating trauma |
+| Blunt trauma |
+| Severe GI bleeding |
+| Burns |
+| Vomiting |
+| Diarrhea |
+| Dehydration |
 
-## Recognize
+### Recognize
 
-- Tachycardia
-- Tachypnea
-- Hypotension later
-- Cool, clammy skin
-- Pale skin
-- Weak pulses
-- Flat neck veins
-- Decreased urine output
-- Thirst
-- Restlessness
-- Delayed capillary refill
-- Confusion
+| Findings |
+|---|
+| Tachycardia |
+| Tachypnea |
+| Hypotension later |
+| Cool, clammy skin |
+| Pale skin |
+| Weak pulses |
+| Flat neck veins |
+| Decreased urine output |
+| Thirst |
+| Restlessness |
+| Delayed capillary refill |
+| Confusion |
 
-## Priority Assessment
+### Priority Assessment
 
 Assess:
 
-- Airway and breathing
-- Heart rate
-- Blood pressure
-- Bleeding
-- Skin color and temperature
-- Peripheral pulses
-- Capillary refill
-- Level of consciousness
-- Urine output
-- Intake and output
+| Assessment |
+|---|
+| Airway and breathing |
+| Heart rate |
+| Blood pressure |
+| Bleeding |
+| Skin color and temperature |
+| Peripheral pulses |
+| Capillary refill |
+| Level of consciousness |
+| Urine output |
+| Intake and output |
 
-## Nursing Interventions
+### Nursing Interventions
 
-- Maintain airway.
-- Give oxygen as prescribed.
-- Control bleeding if present.
-- Apply direct pressure to bleeding wounds.
-- Start or maintain IV access.
-- Administer isotonic IV fluids as ordered.
-- Prepare for blood products if hemorrhage is present.
-- Monitor urine output.
-- Keep client warm.
-- Monitor vital signs frequently.
-- Notify provider of worsening signs.
+| Nursing Intervention |
+|---|
+| Maintain airway |
+| Give oxygen as prescribed |
+| Control bleeding if present |
+| Apply direct pressure to bleeding wounds |
+| Start or maintain IV access |
+| Administer isotonic IV fluids as ordered |
+| Prepare for blood products if hemorrhage is present |
+| Monitor urine output |
+| Keep client warm |
+| Monitor vital signs frequently |
+| Notify provider of worsening signs |
 
-------
+---
 
-# Cardiogenic Shock
+## Cardiogenic Shock
 
-## What It Is
+### What It Is
 
 Cardiogenic shock happens when the heart cannot pump enough blood to the body.
 
 The blood volume may be normal, but the pump is failing.
 
-## Common Causes
+### Common Causes
 
-- Acute myocardial infarction
-- Heart failure
-- Severe dysrhythmias
-- Cardiac trauma
+| Common Causes |
+|---|
+| Acute myocardial infarction |
+| Heart failure |
+| Severe dysrhythmias |
+| Cardiac trauma |
 
-## Recognize
+### Recognize
 
-- Chest pain
-- Shortness of breath
-- Tachycardia or dysrhythmia
-- Hypotension
-- Crackles
-- Jugular vein distention
-- Cool, clammy skin
-- Decreased urine output
-- Weak pulses
-- Confusion
+| Findings |
+|---|
+| Chest pain |
+| Shortness of breath |
+| Tachycardia or dysrhythmia |
+| Hypotension |
+| Crackles |
+| Jugular vein distention |
+| Cool, clammy skin |
+| Decreased urine output |
+| Weak pulses |
+| Confusion |
 
-## Priority Assessment
+### Priority Assessment
 
 Assess:
 
-- Airway and breathing
-- Oxygen saturation
-- Lung sounds
-- Chest pain
-- Cardiac rhythm
-- Blood pressure
-- Peripheral pulses
-- Urine output
-- Mental status
+| Assessment |
+|---|
+| Airway and breathing |
+| Oxygen saturation |
+| Lung sounds |
+| Chest pain |
+| Cardiac rhythm |
+| Blood pressure |
+| Peripheral pulses |
+| Urine output |
+| Mental status |
 
-## Nursing Interventions
+### Nursing Interventions
 
-- Maintain airway.
-- Give oxygen as prescribed.
-- Place on cardiac monitor.
-- Monitor lung sounds.
-- Monitor for fluid overload.
-- Administer medications as prescribed.
-- Prepare for advanced cardiac interventions if ordered.
-- Notify provider of worsening perfusion.
+| Nursing Intervention |
+|---|
+| Maintain airway |
+| Give oxygen as prescribed |
+| Place on cardiac monitor |
+| Monitor lung sounds |
+| Monitor for fluid overload |
+| Administer medications as prescribed |
+| Prepare for advanced cardiac interventions if ordered |
+| Notify provider of worsening perfusion |
 
-------
+---
 
-# Distributive Shock
+## Distributive Shock
 
-## What It Is
+### What It Is
 
 Distributive shock occurs when blood vessels dilate and blood pools in the vascular space.
 
@@ -255,274 +241,275 @@ The blood volume may be adequate, but the vessels are too relaxed and circulatio
 
 This creates a type of **relative hypovolemia**.
 
-## Types
+### Types
 
-- Septic shock
-- Anaphylactic shock
-- Neurogenic shock
+| Types of Distributive Shock |
+|---|
+| Septic shock |
+| Anaphylactic shock |
+| Neurogenic shock |
 
-------
+---
 
-# Anaphylactic Shock
+## Anaphylactic Shock
 
-## What It Is
+### What It Is
 
-Anaphylactic shock is a severe allergic reaction that causes:
+Anaphylactic shock is a severe allergic reaction that causes airway swelling, bronchospasm, vasodilation, and poor perfusion.
 
-- Airway swelling
-- Bronchospasm
-- Vasodilation
-- Poor perfusion
+### Causes
 
-## Causes
+| Causes |
+|---|
+| Medications |
+| Foods |
+| Insect stings |
+| Latex |
+| Contrast dye |
 
-- Medications
-- Foods
-- Insect stings
-- Latex
-- Contrast dye
+### Recognize
 
-## Recognize
+| Airway / Breathing | Circulation / Skin | Other |
+|---|---|---|
+| Difficulty breathing | Hypotension | Anxiety |
+| Wheezing | Tachycardia | Feeling of doom |
+| Stridor | Hives |  |
+| Swelling of lips, tongue, or throat | Itching |  |
+|  | Flushing |  |
 
-- Difficulty breathing
-- Wheezing
-- Stridor
-- Swelling of lips, tongue, or throat
-- Hives
-- Itching
-- Flushing
-- Hypotension
-- Tachycardia
-- Anxiety
-- Feeling of doom
-
-## Priority Assessment
+### Priority Assessment
 
 Assess:
 
-- Airway swelling
-- Breathing
-- Lung sounds
-- Oxygen saturation
-- Blood pressure
-- Heart rate
-- Skin
-- Exposure to allergen
+| Priority Assessment |
+|---|
+| Airway swelling |
+| Breathing |
+| Lung sounds |
+| Oxygen saturation |
+| Blood pressure |
+| Heart rate |
+| Skin |
+| Exposure to allergen |
 
-## Nursing Interventions
+### Nursing Interventions
 
-- Stop exposure to allergen if possible.
-- Maintain airway.
-- Give oxygen as prescribed.
-- Prepare to administer epinephrine.
-- Establish IV access.
-- Administer IV fluids as ordered.
-- Prepare antihistamines as prescribed.
-- Prepare corticosteroids as prescribed.
-- Prepare bronchodilators as prescribed.
-- Monitor for worsening airway swelling.
+| Nursing Intervention |
+|---|
+| Stop exposure to allergen if possible |
+| Maintain airway |
+| Give oxygen as prescribed |
+| Prepare to administer epinephrine |
+| Establish IV access |
+| Administer IV fluids as ordered |
+| Prepare antihistamines as prescribed |
+| Prepare corticosteroids as prescribed |
+| Prepare bronchodilators as prescribed |
+| Monitor for worsening airway swelling |
 
-------
+---
 
-# Septic Shock
+## Septic Shock
 
-## What It Is
+### What It Is
 
 Septic shock occurs when infection causes widespread inflammation, vasodilation, capillary leak, and poor tissue perfusion.
 
-## Causes
+### Causes
 
-- Pneumonia
-- UTI
-- Wound infection
-- Abdominal infection
-- IV line infection
-- Sepsis
+| Causes |
+|---|
+| Pneumonia |
+| UTI |
+| Wound infection |
+| Abdominal infection |
+| IV line infection |
+| Sepsis |
 
-## Recognize
+### Recognize
 
-### Early Septic Shock
+| Early Septic Shock | Late Septic Shock |
+|---|---|
+| Fever or low temperature | Hypotension |
+| Tachycardia | Cool clammy skin |
+| Tachypnea | Weak pulses |
+| Warm flushed skin | Decreased urine output |
+| Bounding pulses | Mottling |
+| Confusion | Organ dysfunction |
 
-- Fever or low temperature
-- Tachycardia
-- Tachypnea
-- Warm flushed skin
-- Bounding pulses
-- Confusion
+### Nursing Interventions
 
-### Late Septic Shock
+| Nursing Intervention |
+|---|
+| Maintain airway |
+| Give oxygen as prescribed |
+| Obtain cultures as ordered before antibiotics if this does not delay care |
+| Administer broad-spectrum antibiotics as prescribed |
+| Administer IV fluids as ordered |
+| Monitor urine output |
+| Monitor temperature |
+| Monitor lactate if ordered |
+| Notify provider of worsening perfusion |
 
-- Hypotension
-- Cool clammy skin
-- Weak pulses
-- Decreased urine output
-- Mottling
-- Organ dysfunction
+---
 
-## Nursing Interventions
+## Neurogenic Shock
 
-- Maintain airway.
-- Give oxygen as prescribed.
-- Obtain cultures as ordered before antibiotics if this does not delay care.
-- Administer broad-spectrum antibiotics as prescribed.
-- Administer IV fluids as ordered.
-- Monitor urine output.
-- Monitor temperature.
-- Monitor lactate if ordered.
-- Notify provider of worsening perfusion.
-
-------
-
-# Neurogenic Shock
-
-## What It Is
+### What It Is
 
 Neurogenic shock occurs when nervous system injury causes loss of vascular tone.
 
-## Causes
+### Causes
 
-- Spinal cord injury
-- Spinal anesthesia
-- Severe neurologic injury
+| Causes |
+|---|
+| Spinal cord injury |
+| Spinal anesthesia |
+| Severe neurologic injury |
 
-## Recognize
+### Recognize
 
-- Hypotension
-- Bradycardia
-- Warm, dry skin
-- Temperature regulation problems
-- Possible paralysis
-- Possible spinal injury symptoms
+| Findings |
+|---|
+| Hypotension |
+| Bradycardia |
+| Warm, dry skin |
+| Temperature regulation problems |
+| Possible paralysis |
+| Possible spinal injury symptoms |
 
-## Nursing Interventions
+### Nursing Interventions
 
-- Maintain airway.
-- Give oxygen as prescribed.
-- Stabilize spine if injury is suspected.
-- Administer IV fluids as ordered.
-- Prepare vasopressors as prescribed.
-- Monitor temperature.
+| Nursing Intervention |
+|---|
+| Maintain airway |
+| Give oxygen as prescribed |
+| Stabilize spine if injury is suspected |
+| Administer IV fluids as ordered |
+| Prepare vasopressors as prescribed |
+| Monitor temperature |
 
-------
+---
 
-# Obstructive Shock
+## Obstructive Shock
 
-## What It Is
+### What It Is
 
 Obstructive shock occurs when a mechanical problem blocks the heart from filling or pumping effectively.
 
-## Causes
+### Causes
 
-- Tension pneumothorax
-- Cardiac tamponade
-- Pulmonary embolism
+| Causes |
+|---|
+| Tension pneumothorax |
+| Cardiac tamponade |
+| Pulmonary embolism |
 
-## Recognize
+### Recognize
 
-- Hypotension
-- Tachycardia
-- Shortness of breath
-- Chest pain
-- Weak pulses
-- Decreased cardiac output
-- Signs depend on the cause
+| Findings |
+|---|
+| Hypotension |
+| Tachycardia |
+| Shortness of breath |
+| Chest pain |
+| Weak pulses |
+| Decreased cardiac output |
+| Signs depend on the cause |
 
-## Nursing Interventions
+### Nursing Interventions
 
-- Maintain airway.
-- Give oxygen as prescribed.
-- Monitor vital signs.
-- Place on cardiac monitor.
-- Notify provider immediately.
-- Prepare for emergency treatment of the cause.
+| Nursing Intervention |
+|---|
+| Maintain airway |
+| Give oxygen as prescribed |
+| Monitor vital signs |
+| Place on cardiac monitor |
+| Notify provider immediately |
+| Prepare for emergency treatment of the cause |
 
-------
+---
 
-# General Nursing Interventions for Any Shock
+## General Nursing Interventions for Any Shock
 
-## Priority Actions
+### Priority Actions
 
-- Maintain airway.
-- Give oxygen as prescribed.
-- Place client supine unless contraindicated.
-- Elevate legs if appropriate and not contraindicated.
-- Establish IV access.
-- Administer fluids or blood products as prescribed.
-- Monitor vital signs frequently.
-- Monitor urine output.
-- Monitor mental status.
-- Keep client warm.
-- Treat the cause.
-- Notify provider of worsening signs.
+| Priority Actions |
+|---|
+| Maintain airway |
+| Give oxygen as prescribed |
+| Place client supine unless contraindicated |
+| Elevate legs if appropriate and not contraindicated |
+| Establish IV access |
+| Administer fluids or blood products as prescribed |
+| Monitor vital signs frequently |
+| Monitor urine output |
+| Monitor mental status |
+| Keep client warm |
+| Treat the cause |
+| Notify provider of worsening signs |
 
-------
+---
 
-# Shock Comparison Chart
+## Shock Comparison Chart
 
-<div class="nclex" markdown="1">
+| Type of Shock | Key Clue | Skin | Heart Rate | Priority |
+|---|---|---|---|---|
+| Hypovolemic | Bleeding or fluid loss | Cool, clammy | Fast | Replace volume |
+| Cardiogenic | Heart pump failure | Cool, clammy | Fast or abnormal | Support heart, avoid overload |
+| Septic | Infection | Warm early, cool late | Fast | Fluids + antibiotics |
+| Anaphylactic | Allergy + airway swelling | Flushed, hives | Fast | Epinephrine |
+| Neurogenic | Spinal/neuro injury | Warm, dry | Slow possible | Fluids/vasopressors, spine care |
+| Obstructive | Physical blockage | Often cool/clammy | Fast | Remove/treat obstruction |
 
-| Type of Shock | Key Clue                  | Skin                  | Heart Rate       | Priority                        |
-| ------------- | ------------------------- | --------------------- | ---------------- | ------------------------------- |
-| Hypovolemic   | Bleeding or fluid loss    | Cool, clammy          | Fast             | Replace volume                  |
-| Cardiogenic   | Heart pump failure        | Cool, clammy          | Fast or abnormal | Support heart, avoid overload   |
-| Septic        | Infection                 | Warm early, cool late | Fast             | Fluids + antibiotics            |
-| Anaphylactic  | Allergy + airway swelling | Flushed, hives        | Fast             | Epinephrine                     |
-| Neurogenic    | Spinal/neuro injury       | Warm, dry             | Slow possible    | Fluids/vasopressors, spine care |
-| Obstructive   | Physical blockage         | Often cool/clammy     | Fast             | Remove/treat obstruction        |
+---
 
-</div>
+## Shock vs Increased ICP
 
-------
+| Finding | Shock | Increased ICP |
+|---|---|---|
+| Blood pressure | Decreases | Systolic increases |
+| Pulse | Increases | Decreases |
+| Respirations | Increase | Decrease or become irregular |
+| Main problem | Poor tissue perfusion | Increased pressure in skull |
+| Major early clue | Restlessness, tachycardia, low UOP | Change in LOC |
 
-# Shock vs Increased ICP
+---
 
-| Finding          | Shock                              | Increased ICP                |
-| ---------------- | ---------------------------------- | ---------------------------- |
-| Blood pressure   | Decreases                          | Systolic increases           |
-| Pulse            | Increases                          | Decreases                    |
-| Respirations     | Increase                           | Decrease or become irregular |
-| Main problem     | Poor tissue perfusion              | Increased pressure in skull  |
-| Major early clue | Restlessness, tachycardia, low UOP | Change in LOC                |
+## What Not To Miss
 
-------
+| Finding | Think |
+|---|---|
+| Restlessness + tachycardia | Early shock |
+| Decreased urine output | Poor perfusion |
+| Hypotension | Late shock |
+| Bleeding + cool clammy skin | Hypovolemic shock |
+| Chest pain + crackles + JVD | Cardiogenic shock |
+| Hives + wheezing + swelling | Anaphylactic shock |
+| Infection + warm flushed skin | Early septic shock |
+| Bradycardia + hypotension after spinal injury | Neurogenic shock |
+| Tension pneumothorax/cardiac tamponade/PE | Obstructive shock |
 
-# What Not To Miss
+---
 
-<div class="nclex" markdown="1">
+## Final NCLEX Review Chart
 
-| Finding                                       | Think              |
-| --------------------------------------------- | ------------------ |
-| Restlessness + tachycardia                    | Early shock        |
-| Decreased urine output                        | Poor perfusion     |
-| Hypotension                                   | Late shock         |
-| Bleeding + cool clammy skin                   | Hypovolemic shock  |
-| Chest pain + crackles + JVD                   | Cardiogenic shock  |
-| Hives + wheezing + swelling                   | Anaphylactic shock |
-| Infection + warm flushed skin                 | Early septic shock |
-| Bradycardia + hypotension after spinal injury | Neurogenic shock   |
-| Tension pneumothorax/cardiac tamponade/PE     | Obstructive shock  |
+| Topic | What To Remember |
+|---|---|
+| Shock definition | Inadequate tissue perfusion |
+| Main problem | Not enough oxygen delivery to cells |
+| Early signs | Restlessness, tachycardia, tachypnea, low urine output |
+| Late sign | Hypotension |
+| Urine output goal | At least 30 mL/hr |
+| Hypovolemic shock | Rapid fluid or blood loss |
+| Hypovolemic priority | Control bleeding and replace volume |
+| Cardiogenic shock | Heart cannot pump effectively |
+| Cardiogenic caution | Avoid fluid overload |
+| Distributive shock | Vasodilation and venous pooling |
+| Anaphylactic shock | Allergy with airway swelling; epinephrine priority |
+| Septic shock | Infection; fluids and antibiotics |
+| Neurogenic shock | Hypotension with possible bradycardia |
+| Obstructive shock | Mechanical barrier prevents filling or emptying |
+| Do not give | Oral fluids in shock |
+| Nursing priority | Recognize changes, get vitals, support ABCs, notify provider |
 
-</div>
-
-------
-
-# Final NCLEX Review Chart
-
-| Topic                | What To Remember                                             |
-| -------------------- | ------------------------------------------------------------ |
-| Shock definition     | Inadequate tissue perfusion                                  |
-| Main problem         | Not enough oxygen delivery to cells                          |
-| Early signs          | Restlessness, tachycardia, tachypnea, low urine output       |
-| Late sign            | Hypotension                                                  |
-| Urine output goal    | At least 30 mL/hr                                            |
-| Hypovolemic shock    | Rapid fluid or blood loss                                    |
-| Hypovolemic priority | Control bleeding and replace volume                          |
-| Cardiogenic shock    | Heart cannot pump effectively                                |
-| Cardiogenic caution  | Avoid fluid overload                                         |
-| Distributive shock   | Vasodilation and venous pooling                              |
-| Anaphylactic shock   | Allergy with airway swelling; epinephrine priority           |
-| Septic shock         | Infection; fluids and antibiotics                            |
-| Neurogenic shock     | Hypotension with possible bradycardia                        |
-| Obstructive shock    | Mechanical barrier prevents filling or emptying              |
-| Do not give          | Oral fluids in shock                                         |
-| Nursing priority     | Recognize changes, get vitals, support ABCs, notify provider |
