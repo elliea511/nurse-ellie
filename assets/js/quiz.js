@@ -13,7 +13,7 @@
 
   var gradeBtn = document.createElement('button');
   gradeBtn.className = 'quiz-grade-btn';
-  gradeBtn.textContent = '🎓 Get my grade';
+  gradeBtn.textContent = 'Get my grade';
   gradeBtn.addEventListener('click', showGrade);
 
   function showGrade() {
@@ -24,19 +24,19 @@
     var grade, gradeClass, note;
     if (pct >= 90) {
       grade = 'A'; gradeClass = 'grade-a';
-      note = '🌟 Incredible! You really know this material. NCLEX, watch out!';
+      note = 'Incredible! You really know this material. NCLEX, watch out!';
     } else if (pct >= 80) {
       grade = 'B'; gradeClass = 'grade-b';
-      note = '🎉 Great job! You\'ve got a solid grasp — just a little more review and you\'re there.';
+      note = 'Great job! You\'ve got a solid grasp — just a little more review and you\'re there.';
     } else if (pct >= 70) {
       grade = 'C'; gradeClass = 'grade-c';
-      note = '📚 Good effort! Go back over the ones you missed and you\'ll nail it next time.';
+      note = 'Good effort! Go back over the ones you missed and you\'ll nail it next time.';
     } else if (pct >= 60) {
       grade = 'D'; gradeClass = 'grade-d';
-      note = '💪 Keep pushing! Review your notes and try again — every attempt makes you stronger.';
+      note = 'Keep pushing! Review your notes and try again — every attempt makes you stronger.';
     } else {
       grade = 'F'; gradeClass = 'grade-f';
-      note = '🩺 Don\'t give up! This is hard material. Re-read the rationales and try again — you\'ve got this.';
+      note = 'Don\'t give up! This is hard material. Re-read the rationales and try again — you\'ve got this.';
     }
 
     scoreCard.className = 'quiz-score-card ' + gradeClass;
