@@ -2928,7 +2928,39 @@ body[data-section="review"] .main-content,
 
 .qsc-reset:hover { background: #e8e8e8 !important; border-color: #999 !important; }
 
-/* ── Table Highlight Bar ───────────────────────────────────────── */
+/* ── Table Highlight ───────────────────────────────────────────── */
+.thl-wrapper {
+  position: relative !important;
+  display: block !important;
+  margin: 1.5rem auto !important;
+  padding-right: 10px !important;
+}
+
+/* Vertical strip on the right outside edge */
+.thl-strip {
+  position: absolute !important;
+  right: 0 !important;
+  top: 2rem !important; /* below the dot bar */
+  bottom: 0 !important;
+  width: 6px !important;
+  border-radius: 0 4px 4px 0 !important;
+  transition: background 0.2s !important;
+}
+.thl-strip-yellow { background: rgba(220,180,0,0.7) !important; }
+.thl-strip-pink   { background: rgba(220,80,130,0.7) !important; }
+.thl-strip-blue   { background: rgba(60,140,220,0.7) !important; }
+.thl-strip-green  { background: rgba(40,160,80,0.7) !important; }
+
+/* Apply color to table cells — high specificity to beat !important row stripes */
+.main-content .thl-color-yellow td,
+.main-content .thl-color-yellow th { background: rgba(255,235,100,0.28) !important; }
+.main-content .thl-color-pink td,
+.main-content .thl-color-pink th   { background: rgba(255,160,190,0.25) !important; }
+.main-content .thl-color-blue td,
+.main-content .thl-color-blue th   { background: rgba(130,195,255,0.25) !important; }
+.main-content .thl-color-green td,
+.main-content .thl-color-green th  { background: rgba(120,220,150,0.25) !important; }
+
 .thl-bar {
   display: flex !important;
   align-items: center !important;
@@ -2940,41 +2972,36 @@ body[data-section="review"] .main-content,
   font-size: 0.68rem !important;
   color: #bbb !important;
   letter-spacing: 0.04em !important;
-  margin-right: 0.15rem !important;
+  margin-right: 0.1rem !important;
 }
 
 .thl-dot {
-  width: 16px !important;
-  height: 16px !important;
+  width: 14px !important;
+  height: 14px !important;
   border-radius: 50% !important;
   border: 2px solid transparent !important;
   cursor: pointer !important;
   padding: 0 !important;
   transition: transform 0.15s, border-color 0.15s !important;
-  display: flex !important;
-  align-items: center !important;
-  justify-content: center !important;
   font-size: 0 !important;
 }
 
-.thl-dot:hover { transform: scale(1.25) !important; }
-.thl-dot.thl-active { border-color: #333 !important; transform: scale(1.15) !important; }
+.thl-dot:hover { transform: scale(1.3) !important; }
+.thl-dot.thl-active { border-color: #444 !important; transform: scale(1.15) !important; }
 
-.thl-yellow { background: rgba(255,225,60,0.85) !important; }
-.thl-pink   { background: rgba(255,140,175,0.85) !important; }
-.thl-blue   { background: rgba(100,185,255,0.85) !important; }
-.thl-green  { background: rgba(100,220,140,0.85) !important; }
+.thl-dot-yellow { background: rgba(255,220,40,0.9) !important; }
+.thl-dot-pink   { background: rgba(255,130,170,0.9) !important; }
+.thl-dot-blue   { background: rgba(80,170,255,0.9) !important; }
+.thl-dot-green  { background: rgba(80,210,120,0.9) !important; }
 
-.thl-clear {
-  background: #f0f0f0 !important;
-  color: #999 !important;
-  font-size: 0.6rem !important;
-  border-radius: 50% !important;
+.thl-dot-clear {
+  background: #eee !important;
+  color: #aaa !important;
+  font-size: 0.55rem !important;
   border: 1px solid #ddd !important;
 }
+.thl-dot-clear:hover { color: #c00 !important; border-color: #f5c6cb !important; }
 
-.thl-clear:hover { color: #c00 !important; border-color: #f5c6cb !important; }
-
-@media print { .thl-bar { display: none !important; } }
+@media print { .thl-bar, .thl-strip { display: none !important; } }
 
 .quiz-choice-hidden { display: none !important; }
