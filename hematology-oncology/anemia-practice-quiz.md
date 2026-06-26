@@ -9,7 +9,7 @@ title: Anemia Practice Quiz
 <div class="nclex" markdown="1">
 
 
-Try to answer each question before opening the dropdown. For priority questions, ask what is most urgent: oxygenation, circulation, infection, bleeding, safety, or patient rights.
+For priority questions, ask what is most urgent: oxygenation, circulation, infection, bleeding, safety, or patient rights.
 
 </div>
 
