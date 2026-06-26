@@ -595,8 +595,6 @@ The graft may come from a vein in the leg or an artery in the chest.
 
 ## Patient Teaching After Angina or MI
 
-![Cardiac Diet: What It Is, Foods to Consume, Foods to Avoid, and More |  Osmosis](https://d16qt3wv6xm098.cloudfront.net/X1zOlnC1RCSx4zi4w3JnBKR4QiK7gfuf/_.png)
-
 Teach the client:
 
 * Stop smoking.
