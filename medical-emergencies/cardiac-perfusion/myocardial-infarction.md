@@ -591,14 +591,6 @@ The graft may come from a vein in the leg or an artery in the chest.
   <strong>NCLEX / Patient Teaching:</strong> Sternal precautions protect the healing sternum after open-heart surgery. Avoid lifting, pushing, pulling, or using the arms to push up. Keep arms close to the body, use the legs to stand, splint the chest with a pillow when coughing, and report popping/clicking, increased pain, drainage, redness, or separation of the incision.
 </div>
 
-## NCLEX Thinking
-
-After CABG, the nurse teaches:
-
-**“Do not push yourself up with your arms. Hug a pillow when coughing. Use your legs to stand.”**
-
-The big risk is the sternum separating or the incision not healing correctly.
-
 ---
 
 ## Patient Teaching After Angina or MI
