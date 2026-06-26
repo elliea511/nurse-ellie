@@ -397,12 +397,28 @@ Atypical symptoms are more common in women, older adults, and clients with diabe
 | Echocardiogram          | Shows heart function and wall motion                         |
 
 
-
 ### Troponin
 
-Troponin rises when heart muscle is damaged.
-
 For NCLEX, troponin is the key cardiac marker for MI.
+
+Troponin usually begins to rise about **3–6 hours after heart muscle damage**, peaks later, and can stay elevated for several days.
+
+
+| Lab            | Common Value                               |
+| -------------- | ------------------------------------------ |
+| **Troponin** | **< 0.03 ng/mL**                           |
+
+| Troponin Result | Meaning                                        |
+| --------------- | ---------------------------------------------- |
+| **Normal/low**  | No current lab evidence of heart muscle damage |
+| **Elevated**    | Heart muscle injury                            |
+| **Rising**      | More concerning for active/recent injury       |
+| **Falling**     | Injury may be resolving                        |
+
+
+<div class="nclex-tip">
+  <strong>NCLEX Tip:</strong> Look at the trend. Rising troponin is more concerning than one single number.
+</div>
 
 ---
 
