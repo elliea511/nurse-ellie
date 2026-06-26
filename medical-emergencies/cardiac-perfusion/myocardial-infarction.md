@@ -13,7 +13,7 @@ Angina and myocardial infarction are both caused by decreased blood flow to the 
 
 ---
 
-<img src="/images/medical-emergencies/thrombus.png" alt="thrombus" style="max-width:100%;" />
+<img src="{{ '/images/medical-emergencies/thrombus.png' | relative_url }}" alt="thrombus" style="max-width:100%;" />
 
 ## Angina
 
@@ -72,7 +72,7 @@ Unstable angina can be a warning sign that the client may be developing an MI.
 
 ---
 
-<img src="/images/medical-emergencies/angina.png" alt="angina" style="max-width:100%;" />
+<img src="{{ '/images/medical-emergencies/angina.png' | relative_url }}" alt="angina" style="max-width:100%;" />
 
 ## Angina Triggers
 
@@ -113,7 +113,7 @@ Radiation does **not** automatically mean MI.
 
 ---
 
-![anginatx](/Users/ellienolen/Pictures/anginatx.png)
+<img src="{{ '/images/medical-emergencies/anginatx.png' | relative_url }}" alt="anginatx" style="max-width:100%;" />
 
 ## Nursing Care for Angina
 
@@ -142,7 +142,9 @@ This decreases cardiac workload.
 
 ---
 
-## ![nitrates](/Users/ellienolen/Pictures/nitrates.png)Nitroglycerin
+<img src="{{ '/images/medical-emergencies/nitrates.png' | relative_url }}" alt="nitrates" style="max-width:100%;" />
+
+## Nitroglycerin
 
 Nitroglycerin is a nitrate.
 
@@ -235,7 +237,7 @@ Nitroglycerin can also come as:
 
 ---
 
-![calcium](/Users/ellienolen/Pictures/calcium.png)
+<img src="{{ '/images/medical-emergencies/calcium.png' | relative_url }}" alt="calcium" style="max-width:100%;" />
 
 ## Calcium Channel Blockers for Angina
 
@@ -470,7 +472,6 @@ Oxygen is usually given if the client is hypoxemic or in respiratory distress.
 
 ## Valsalva Maneuver After MI
 
-![valsalva](/Users/ellienolen/Downloads/valsalva.jpeg)
 
 
 
@@ -508,7 +509,7 @@ This is especially dangerous after an MI.
 
 ## Cardiac Procedures
 
-<img src="/images/medical-emergencies/angio.png" alt="angio" style="max-width:100%;" />
+<img src="{{ '/images/medical-emergencies/angio.png' | relative_url }}" alt="angio" style="max-width:100%;" />
 
 ### Balloon Angioplasty
 
@@ -544,7 +545,7 @@ It helps keep the artery open.
 
 ### CABG — Coronary Artery Bypass Graft
 
-<img src="/images/medical-emergencies/CABG.png" alt="CABG" style="max-width:100%;" />
+<img src="{{ '/images/medical-emergencies/CABG.png' | relative_url }}" alt="CABG" style="max-width:100%;" />
 
 CABG creates a new route around blocked coronary arteries.
 
