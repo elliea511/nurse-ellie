@@ -13,7 +13,7 @@ Angina and myocardial infarction are both caused by decreased blood flow to the 
 
 ---
 
-<img src="/Users/ellienolen/Pictures/thrombus.png" alt="thrombus" style="zoom:150%;" />
+<img src="/images/medical-emergencies/thrombus.png" alt="thrombus" style="max-width:100%;" />
 
 ## Angina
 
@@ -72,7 +72,7 @@ Unstable angina can be a warning sign that the client may be developing an MI.
 
 ---
 
-<img src="/Users/ellienolen/Pictures/angina.png" alt="angina" style="zoom:200%;" />
+<img src="/images/medical-emergencies/angina.png" alt="angina" style="max-width:100%;" />
 
 ## Angina Triggers
 
@@ -284,7 +284,6 @@ It happens when blood flow through a coronary artery is severely blocked or comp
 
 This causes heart muscle damage.
 
-<img src="/Users/ellienolen/Library/Application Support/typora-user-images/Screen Shot 2026-06-26 at 11.14.30 AM.png" alt="Screen Shot 2026-06-26 at 11.14.30 AM" style="zoom:150%;" />
 
 ### Main Problem
 
@@ -509,7 +508,7 @@ This is especially dangerous after an MI.
 
 ## Cardiac Procedures
 
-<img src="/Users/ellienolen/Pictures/angio.png" alt="angio" style="zoom:200%;" />
+<img src="/images/medical-emergencies/angio.png" alt="angio" style="max-width:100%;" />
 
 ### Balloon Angioplasty
 
@@ -545,7 +544,7 @@ It helps keep the artery open.
 
 ### CABG — Coronary Artery Bypass Graft
 
-<img src="/Users/ellienolen/Pictures/CABG.png" alt="CABG" style="zoom:200%;" />
+<img src="/images/medical-emergencies/CABG.png" alt="CABG" style="max-width:100%;" />
 
 CABG creates a new route around blocked coronary arteries.
 
