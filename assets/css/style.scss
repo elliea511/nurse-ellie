@@ -3154,6 +3154,19 @@ a.video-preview-card:hover .play-button {
   background: #eef2ff !important;
   border-color: #8899dd !important;
 }
+.quiz-timer {
+  font-size: 0.9rem !important;
+  font-weight: 700 !important;
+  font-variant-numeric: tabular-nums !important;
+  color: #445 !important;
+  background: #fff !important;
+  border: 1.5px solid #c0caee !important;
+  border-radius: 8px !important;
+  padding: 0.28rem 0.75rem !important;
+  letter-spacing: 0.04em !important;
+  min-width: 3.2rem !important;
+  text-align: center !important;
+}
 
 .quiz-config-inner {
   background: #fff !important;
