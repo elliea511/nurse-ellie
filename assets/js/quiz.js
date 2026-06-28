@@ -124,8 +124,29 @@
     renderResults();
   });
 
+  var fsBtn = document.createElement('button');
+  fsBtn.className   = 'quiz-persist-btn quiz-persist-fs';
+  fsBtn.title       = 'Toggle fullscreen';
+  fsBtn.textContent = '⛶ Fullscreen';
+  fsBtn.addEventListener('click', function () {
+    var fsEl = document.documentElement;
+    if (!document.fullscreenElement) {
+      if (fsEl.requestFullscreen)       fsEl.requestFullscreen();
+      else if (fsEl.webkitRequestFullscreen) fsEl.webkitRequestFullscreen();
+      fsBtn.textContent = '✕ Exit Fullscreen';
+    } else {
+      if (document.exitFullscreen)       document.exitFullscreen();
+      else if (document.webkitExitFullscreen) document.webkitExitFullscreen();
+      fsBtn.textContent = '⛶ Fullscreen';
+    }
+  });
+  document.addEventListener('fullscreenchange', function () {
+    if (!document.fullscreenElement) fsBtn.textContent = '⛶ Fullscreen';
+  });
+
   persistBar.appendChild(restartBarBtn);
   persistBar.appendChild(submitTestBarBtn);
+  persistBar.appendChild(fsBtn);
 
   // ── Mode-selection splash ─────────────────────────────────────
   configEl.innerHTML =
