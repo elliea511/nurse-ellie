@@ -1,9 +1,4 @@
----
-layout: default
-title: Emergency Medications
----
-
-# Emergency Medications
+# Medical Emergencies Medication Study Guide
 
 <div class="note">
   <strong>Big idea:</strong> Know the emergency, the priority medication, why it is used, and what the nurse must monitor.
@@ -27,7 +22,7 @@ Epinephrine opens the airway, increases BP, and helps reverse the severe allergi
 
 **Nursing priorities:** airway, breathing, BP, HR, SpO₂, and possible repeat doses.
 
-<div class="nclex-tip">
+<div class="nclex">
   <strong>NCLEX Tip:</strong> In anaphylaxis, epinephrine comes first. Antihistamines and steroids help later, but they do not replace epinephrine.
 </div>
 
@@ -86,7 +81,7 @@ Helps the heart pump more strongly.
 
 Used when shock is caused by infection.
 
-<div class="nclex-tip">
+<div class="nclex">
   <strong>Septic Shock Priority:</strong> Fluids + cultures if ordered + antibiotics + vasopressor if BP stays low.
 </div>
 
@@ -119,7 +114,7 @@ Used to prevent or treat seizures.
 
 **Nursing priority:** seizure precautions and airway safety.
 
-<div class="nclex-tip">
+<div class="nclex">
   <strong>ICP Tip:</strong> Worsening LOC is often the earliest sign of worsening neuro status.
 </div>
 
@@ -186,7 +181,7 @@ Reverses opioid overdose, especially respiratory depression.
 
 **Priority:** airway and breathing.
 
-<div class="nclex-tip">
+<div class="nclex">
   <strong>Opioid Overdose Cue:</strong> Decreased respirations + pinpoint pupils + decreased LOC = think naloxone.
 </div>
 
@@ -286,7 +281,7 @@ Vasodilator used for angina/chest pain.
 **Always check BP first.**
 Do not give if hypotensive or if recent erectile dysfunction medication use.
 
-<div class="nclex-tip">
+<div class="nclex">
   <strong>Nitro Safety:</strong> Low BP + nitro = danger.
 </div>
 
@@ -320,7 +315,7 @@ Used for SVT.
 
 **Must know:** rapid IV push, followed by flush. It works very fast and may briefly make the patient feel chest pressure or a “pause.”
 
-<div class="nclex-tip">
+<div class="nclex">
   <strong>SVT:</strong> Stable = vagal maneuvers then adenosine. Unstable = synchronized cardioversion.
 </div>
 
@@ -382,7 +377,7 @@ Break down clots.
 
 **Major risk:** severe bleeding.
 
-<div class="nclex-tip">
+<div class="nclex">
   <strong>Anticoagulants vs Thrombolytics:</strong> Anticoagulants prevent clots from getting bigger. Thrombolytics break clots apart.
 </div>
 
