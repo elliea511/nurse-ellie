@@ -52,4 +52,9 @@ Medical emergencies show up throughout nursing — in the ER, on the floor, in c
 <p>Heat exhaustion, heat stroke, hypothermia, frostbite, drowning, and bites & stings.</p>
 </a>
 
+<a class="study-card" href="{{ '/medical-emergencies/medications.html' | relative_url }}">
+<h2>Emergency Medications</h2>
+<p>Key medications used in medical emergencies — indications, dosing considerations, and nursing priorities.</p>
+</a>
+
 </div>
