@@ -84,12 +84,16 @@
 
   if (!questions.length) return;
 
-  // Hide ALL original quiz DOM elements
-  allQuizEls.forEach(function (el) { el.style.display = 'none'; });
+  // Hide ALL original quiz DOM elements using a class with !important
+  allQuizEls.forEach(function (el) { el.classList.add('quiz-hidden'); });
 
   // ── Build containers ──────────────────────────────────────────
   var configEl = document.createElement('div');
   configEl.id = 'quiz-config';
+
+  // Fullscreen wrapper holds persistBar + stageEl so we can fullscreen just the quiz
+  var fsWrap = document.createElement('div');
+  fsWrap.id = 'quiz-fs-wrap';
 
   var persistBar = document.createElement('div');
   persistBar.id = 'quiz-persist-bar';
@@ -99,11 +103,13 @@
   stageEl.id = 'quiz-stage';
   stageEl.style.display = 'none';
 
+  fsWrap.appendChild(persistBar);
+  fsWrap.appendChild(stageEl);
+
   // Insert before first hidden quiz element or at top of content
   var insertAnchor = allQuizEls[0] || content.firstChild;
   content.insertBefore(configEl, insertAnchor);
-  content.insertBefore(persistBar, configEl.nextSibling);
-  content.insertBefore(stageEl, persistBar.nextSibling);
+  content.insertBefore(fsWrap, configEl.nextSibling);
 
   // ── Persistent bar (shown during QUIZ and RESULTS phases) ─────
   var restartBarBtn = document.createElement('button');
@@ -129,13 +135,12 @@
   fsBtn.title       = 'Toggle fullscreen';
   fsBtn.textContent = '⛶ Fullscreen';
   fsBtn.addEventListener('click', function () {
-    var fsEl = document.documentElement;
     if (!document.fullscreenElement) {
-      if (fsEl.requestFullscreen)       fsEl.requestFullscreen();
-      else if (fsEl.webkitRequestFullscreen) fsEl.webkitRequestFullscreen();
+      if (fsWrap.requestFullscreen)            fsWrap.requestFullscreen();
+      else if (fsWrap.webkitRequestFullscreen) fsWrap.webkitRequestFullscreen();
       fsBtn.textContent = '✕ Exit Fullscreen';
     } else {
-      if (document.exitFullscreen)       document.exitFullscreen();
+      if (document.exitFullscreen)            document.exitFullscreen();
       else if (document.webkitExitFullscreen) document.webkitExitFullscreen();
       fsBtn.textContent = '⛶ Fullscreen';
     }

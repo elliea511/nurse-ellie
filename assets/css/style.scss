@@ -3722,3 +3722,24 @@ a.video-preview-card:hover .play-button {
 @media print { .thl-strip { display: none !important; } }
 
 .quiz-choice-hidden { display: none !important; }
+.quiz-hidden { display: none !important; }
+
+/* ── Fullscreen quiz wrapper ───────────────────────────────────── */
+#quiz-fs-wrap:fullscreen,
+#quiz-fs-wrap:-webkit-full-screen {
+  background: #fff !important;
+  overflow-y: auto !important;
+  padding: 1.5rem 2rem !important;
+  display: flex !important;
+  flex-direction: column !important;
+}
+#quiz-fs-wrap:fullscreen #quiz-persist-bar,
+#quiz-fs-wrap:-webkit-full-screen #quiz-persist-bar {
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 100 !important;
+}
+#quiz-fs-wrap:fullscreen #quiz-stage,
+#quiz-fs-wrap:-webkit-full-screen #quiz-stage {
+  flex: 1 !important;
+}
