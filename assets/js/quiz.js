@@ -4,15 +4,16 @@
   content.dataset.quizInit = '1';
 
   // ── Phase / mode state ────────────────────────────────────────
-  var quizPhase   = 'CONFIGURATION'; // 'CONFIGURATION' | 'QUIZ' | 'RESULTS'
-  var quizMode    = null;            // 'STUDY' | 'TEST'
+  var quizPhase   = 'CONFIGURATION';
+  var quizMode    = null;
   var currentIdx  = 0;
-  var testAnswers = [];              // { gotItRight } per question, TEST mode only
+  var testAnswers = [];
 
   // ── Parse all questions up front ──────────────────────────────
   var detailsBlocks = Array.from(content.querySelectorAll('details'));
   var questions = [];
-  var allQuizEls = []; // every DOM element that belongs to the quiz, to hide them all
+  var firstQuizEl = null; // earliest DOM element belonging to any question
+  var lastQuizEl  = null; // latest  DOM element belonging to any question
 
   detailsBlocks.forEach(function (details) {
     var answerEl    = details.querySelector('.quiz-answer');
@@ -23,6 +24,7 @@
     var correctLetters = answerText.split(',').map(function (s) { return s.trim().charAt(0).toUpperCase(); });
     var isSATA         = correctLetters.length > 1;
 
+    // Walk backwards to collect answer-choice elements
     var choiceEls = [];
     var node = details.previousElementSibling;
     while (node) {
@@ -35,31 +37,13 @@
     }
     if (!choiceEls.length) return;
 
-    // Find the question stem elements (between the preceding HR/heading and the first choice)
-    var stemEls = [];
+    // Collect stem elements (between heading/HR and first choice)
     var stemNode = choiceEls[0].previousElementSibling;
     var stemParts = [];
     while (stemNode) {
       if (stemNode.tagName === 'HR' || /^H[1-6]$/.test(stemNode.tagName)) break;
-      stemEls.unshift(stemNode);
       stemParts.unshift(stemNode.outerHTML);
       stemNode = stemNode.previousElementSibling;
-    }
-    var stemHTML = stemParts.join('');
-
-    // The heading immediately before this question block (e.g. "## Question 1")
-    var headingEl = null;
-    var firstEl = stemEls.length ? stemEls[0] : choiceEls[0];
-    var prevEl = firstEl.previousElementSibling;
-    if (prevEl && /^H[1-6]$/.test(prevEl.tagName)) {
-      headingEl = prevEl;
-    }
-
-    // The <hr> before the heading (separator between questions)
-    var hrEl = null;
-    var beforeHeading = headingEl ? headingEl.previousElementSibling : (stemEls.length ? stemEls[0].previousElementSibling : choiceEls[0].previousElementSibling);
-    if (beforeHeading && beforeHeading.tagName === 'HR') {
-      hrEl = beforeHeading;
     }
 
     questions.push({
@@ -67,31 +51,35 @@
       answerText:     answerText,
       isSATA:         isSATA,
       choiceEls:      choiceEls,
-      stemHTML:       stemHTML,
+      stemHTML:       stemParts.join(''),
       rationaleHTML:  rationaleEl ? rationaleEl.innerHTML : ''
     });
 
-    // Collect ALL elements that belong to this question for hiding
-    var qEls = [];
-    if (hrEl)      qEls.push(hrEl);
-    if (headingEl) qEls.push(headingEl);
-    stemEls.forEach(function (el) { qEls.push(el); });
-    choiceEls.forEach(function (el) { qEls.push(el); });
-    qEls.push(details);
+    // Track the earliest element of this question (walk back to the HR before the heading)
+    var walk = choiceEls[0];
+    while (walk.previousElementSibling && walk.previousElementSibling.tagName !== 'HR') {
+      walk = walk.previousElementSibling;
+    }
+    // If there's an HR before this block, include it
+    var candidate = walk.previousElementSibling && walk.previousElementSibling.tagName === 'HR'
+      ? walk.previousElementSibling : walk;
 
-    qEls.forEach(function (el) { allQuizEls.push(el); });
+    if (!firstQuizEl) firstQuizEl = candidate;
+    lastQuizEl = details;
   });
 
   if (!questions.length) return;
 
-  // Hide ALL original quiz DOM elements using a class with !important
-  allQuizEls.forEach(function (el) { el.classList.add('quiz-hidden'); });
+  // Shuffle questions (Fisher-Yates)
+  for (var i = questions.length - 1; i > 0; i--) {
+    var j = Math.floor(Math.random() * (i + 1));
+    var tmp = questions[i]; questions[i] = questions[j]; questions[j] = tmp;
+  }
 
   // ── Build containers ──────────────────────────────────────────
   var configEl = document.createElement('div');
   configEl.id = 'quiz-config';
 
-  // Fullscreen wrapper holds persistBar + stageEl so we can fullscreen just the quiz
   var fsWrap = document.createElement('div');
   fsWrap.id = 'quiz-fs-wrap';
 
@@ -106,12 +94,22 @@
   fsWrap.appendChild(persistBar);
   fsWrap.appendChild(stageEl);
 
-  // Insert before first hidden quiz element or at top of content
-  var insertAnchor = allQuizEls[0] || content.firstChild;
-  content.insertBefore(configEl, insertAnchor);
+  // Insert before the first quiz element
+  content.insertBefore(configEl, firstQuizEl || content.firstChild);
   content.insertBefore(fsWrap, configEl.nextSibling);
 
-  // ── Persistent bar (shown during QUIZ and RESULTS phases) ─────
+  // ── Hide ALL original content from firstQuizEl through lastQuizEl ─
+  // This catches headings, stems, choices, hr separators, details blocks
+  var contentChildren = Array.from(content.children);
+  var quizSetSkip = new Set([configEl, fsWrap]);
+  var hiding = false;
+  contentChildren.forEach(function (el) {
+    if (el === firstQuizEl) hiding = true;
+    if (hiding && !quizSetSkip.has(el)) el.classList.add('quiz-hidden');
+    if (el === lastQuizEl) hiding = false;
+  });
+
+  // ── Build persistent action bar ───────────────────────────────
   var restartBarBtn = document.createElement('button');
   restartBarBtn.className   = 'quiz-persist-btn quiz-persist-restart';
   restartBarBtn.textContent = '↺ Restart';
@@ -119,10 +117,9 @@
 
   var submitTestBarBtn = document.createElement('button');
   submitTestBarBtn.className   = 'quiz-persist-btn quiz-persist-submit';
-  submitTestBarBtn.textContent = '✔ Submit Test';
+  submitTestBarBtn.textContent = '✔ Submit & Grade';
   submitTestBarBtn.style.display = 'none';
   submitTestBarBtn.addEventListener('click', function () {
-    // Grade whatever has been answered so far; unanswered = wrong
     while (testAnswers.length < questions.length) {
       testAnswers.push({ gotItRight: false, selected: [] });
     }
@@ -149,6 +146,30 @@
     if (!document.fullscreenElement) fsBtn.textContent = '⛶ Fullscreen';
   });
 
+  // Timer display
+  var timerEl = document.createElement('span');
+  timerEl.className = 'quiz-timer';
+  timerEl.textContent = '0:00';
+  var timerStart = null;
+  var timerInterval = null;
+
+  function startTimer() {
+    timerStart = Date.now();
+    timerEl.textContent = '0:00';
+    if (timerInterval) clearInterval(timerInterval);
+    timerInterval = setInterval(function () {
+      var elapsed = Math.floor((Date.now() - timerStart) / 1000);
+      var m = Math.floor(elapsed / 60);
+      var s = elapsed % 60;
+      timerEl.textContent = m + ':' + (s < 10 ? '0' : '') + s;
+    }, 1000);
+  }
+
+  function stopTimer() {
+    if (timerInterval) { clearInterval(timerInterval); timerInterval = null; }
+  }
+
+  persistBar.appendChild(timerEl);
   persistBar.appendChild(restartBarBtn);
   persistBar.appendChild(submitTestBarBtn);
   persistBar.appendChild(fsBtn);
@@ -182,11 +203,12 @@
       persistBar.style.display = '';
       submitTestBarBtn.style.display = quizMode === 'TEST' ? '' : 'none';
       stageEl.style.display  = '';
+      startTimer();
       renderQuestion(0);
     });
   });
 
-  // ── Grade helper (shared) ─────────────────────────────────────
+  // ── Grade helper ──────────────────────────────────────────────
   function gradeData(correct, total) {
     var pct = total ? Math.round((correct / total) * 100) : 0;
     var grade, gradeClass, note;
@@ -203,11 +225,16 @@
     quizMode    = null;
     currentIdx  = 0;
     testAnswers = [];
+    stopTimer();
+    timerEl.textContent = '0:00';
     stageEl.style.display    = 'none';
     stageEl.innerHTML        = '';
     persistBar.style.display = 'none';
     submitTestBarBtn.style.display = 'none';
     configEl.style.display   = '';
+    if (document.fullscreenElement) {
+      if (document.exitFullscreen) document.exitFullscreen();
+    }
   }
 
   // ── Render one question ───────────────────────────────────────
@@ -215,16 +242,14 @@
     stageEl.innerHTML = '';
     var q = questions[idx];
 
-    // Progress
     var prog = document.createElement('div');
     prog.className = 'quiz-progress';
-    var fill = Math.round(((idx) / questions.length) * 100);
+    var fill = Math.round((idx / questions.length) * 100);
     prog.innerHTML =
       '<div class="quiz-progress-text">Question ' + (idx + 1) + ' of ' + questions.length + '</div>' +
       '<div class="quiz-progress-bar"><div class="quiz-progress-fill" style="width:' + fill + '%"></div></div>';
     stageEl.appendChild(prog);
 
-    // Question stem
     if (q.stemHTML) {
       var stemWrap = document.createElement('div');
       stemWrap.className = 'quiz-stem';
@@ -232,7 +257,6 @@
       stageEl.appendChild(stemWrap);
     }
 
-    // SATA note
     if (q.isSATA) {
       var sataNote = document.createElement('p');
       sataNote.className = 'quiz-sata-note';
@@ -240,13 +264,12 @@
       stageEl.appendChild(sataNote);
     }
 
-    // Choices
     var choiceWrap = document.createElement('div');
     choiceWrap.className = 'quiz-choices';
 
-    var selected   = new Set();
-    var submitted  = false;
-    var allBtns    = [];
+    var selected  = new Set();
+    var submitted = false;
+    var allBtns   = [];
 
     q.choiceEls.forEach(function (choice) {
       var letter = choice.textContent.trim().charAt(0).toUpperCase();
@@ -261,8 +284,8 @@
           if (submitted) return;
           if (selected.has(letter)) { selected.delete(letter); btn.classList.remove('selected'); }
           else                      { selected.add(letter);    btn.classList.add('selected'); }
-          if (quizMode === 'TEST')   updateNextBtn();
-          if (quizMode === 'STUDY')  updateSubmitBtn();
+          if (quizMode === 'TEST')  updateNextBtn();
+          if (quizMode === 'STUDY') updateSubmitBtn();
         });
       } else {
         btn.addEventListener('click', function () {
@@ -271,8 +294,8 @@
           selected.add(letter);
           allBtns.forEach(function (b) { b.classList.remove('selected'); });
           btn.classList.add('selected');
-          if (quizMode === 'TEST')   updateNextBtn();
-          if (quizMode === 'STUDY')  updateSubmitBtn();
+          if (quizMode === 'TEST')  updateNextBtn();
+          if (quizMode === 'STUDY') updateSubmitBtn();
         });
       }
 
@@ -281,22 +304,17 @@
 
     stageEl.appendChild(choiceWrap);
 
-    // Rationale panel
     var rationalePanel = document.createElement('div');
     rationalePanel.className = 'quiz-rationale-panel';
-
     var answerDisplay = document.createElement('p');
     answerDisplay.className = 'quiz-answer-display';
-
     var rationaleDisplay = document.createElement('p');
     rationaleDisplay.className = 'quiz-rationale-display';
     rationaleDisplay.innerHTML = q.rationaleHTML;
-
     rationalePanel.appendChild(answerDisplay);
     rationalePanel.appendChild(rationaleDisplay);
     stageEl.appendChild(rationalePanel);
 
-    // Action buttons row
     var actionRow = document.createElement('div');
     actionRow.className = 'quiz-action-row';
     stageEl.appendChild(actionRow);
@@ -304,7 +322,6 @@
     var isLastQ = idx === questions.length - 1;
 
     if (quizMode === 'STUDY') {
-      // ── STUDY MODE ─────────────────────────────────────────
       var submitBtn = document.createElement('button');
       submitBtn.className   = 'quiz-submit-btn';
       submitBtn.textContent = 'Submit Answer';
@@ -315,14 +332,11 @@
       nextBtn.textContent   = isLastQ ? 'Finish' : 'Next Question →';
       nextBtn.style.display = 'none';
 
-      function updateSubmitBtn() {
-        submitBtn.disabled = selected.size === 0;
-      }
+      function updateSubmitBtn() { submitBtn.disabled = selected.size === 0; }
 
       submitBtn.addEventListener('click', function () {
         if (submitted) return;
         submitted = true;
-
         allBtns.forEach(function (b) {
           var l = b.dataset.letter;
           var isCorrect   = q.correctLetters.indexOf(l) !== -1;
@@ -332,63 +346,48 @@
           else if (wasSelected && !isCorrect) b.classList.add('incorrect');
           b.disabled = true;
         });
-
         var allCorrect = q.correctLetters.every(function (l) { return selected.has(l); });
         var noneWrong  = Array.from(selected).every(function (l) { return q.correctLetters.indexOf(l) !== -1; });
         var gotItRight = q.isSATA ? (allCorrect && noneWrong) : selected.has(q.correctLetters[0]);
-
         answerDisplay.innerHTML =
           '<strong>' + (gotItRight ? '✅ Correct!' : '❌ Incorrect') + ' — Answer: ' + q.answerText + '</strong>';
         rationalePanel.classList.add('visible');
-
         submitBtn.style.display = 'none';
         nextBtn.style.display   = '';
       });
 
       nextBtn.addEventListener('click', function () {
-        if (isLastQ) {
-          renderStudyComplete();
-        } else {
-          currentIdx++;
-          renderQuestion(currentIdx);
-        }
+        if (isLastQ) { renderStudyComplete(); }
+        else         { currentIdx++; renderQuestion(currentIdx); }
       });
 
       actionRow.appendChild(submitBtn);
       actionRow.appendChild(nextBtn);
 
     } else {
-      // ── TEST MODE ───────────────────────────────────────────
       var nextBtn = document.createElement('button');
       nextBtn.className   = 'quiz-next-btn';
       nextBtn.textContent = isLastQ ? 'Finish & See Results' : 'Next Question →';
       nextBtn.disabled    = true;
 
-      function updateNextBtn() {
-        nextBtn.disabled = selected.size === 0;
-      }
+      function updateNextBtn() { nextBtn.disabled = selected.size === 0; }
 
       nextBtn.addEventListener('click', function () {
         var allCorrect = q.correctLetters.every(function (l) { return selected.has(l); });
         var noneWrong  = Array.from(selected).every(function (l) { return q.correctLetters.indexOf(l) !== -1; });
         var gotItRight = q.isSATA ? (allCorrect && noneWrong) : selected.has(q.correctLetters[0]);
         testAnswers.push({ gotItRight: gotItRight, selected: Array.from(selected) });
-
-        if (isLastQ) {
-          quizPhase = 'RESULTS';
-          renderResults();
-        } else {
-          currentIdx++;
-          renderQuestion(currentIdx);
-        }
+        if (isLastQ) { quizPhase = 'RESULTS'; renderResults(); }
+        else         { currentIdx++; renderQuestion(currentIdx); }
       });
 
       actionRow.appendChild(nextBtn);
     }
   }
 
-  // ── Study mode completion screen ──────────────────────────────
+  // ── Study mode completion ──────────────────────────────────────
   function renderStudyComplete() {
+    stopTimer();
     persistBar.style.display = 'none';
     stageEl.innerHTML =
       '<div class="quiz-complete">' +
@@ -400,8 +399,9 @@
     stageEl.querySelector('.quiz-retake-btn').addEventListener('click', resetToConfig);
   }
 
-  // ── Test mode results screen ──────────────────────────────────
+  // ── Test mode results ──────────────────────────────────────────
   function renderResults() {
+    stopTimer();
     submitTestBarBtn.style.display = 'none';
     var correct = testAnswers.filter(function (a) { return a.gotItRight; }).length;
     var gd = gradeData(correct, questions.length);
@@ -425,9 +425,7 @@
       var ans = testAnswers[i] || {};
       var item = document.createElement('div');
       item.className = 'quiz-result-item ' + (ans.gotItRight ? 'qri-correct' : 'qri-incorrect');
-
       var selectedStr = (ans.selected || []).join(', ') || '—';
-
       item.innerHTML =
         '<div class="qri-header">' +
           '<span class="qri-num">Q' + (i + 1) + '</span>' +
@@ -440,7 +438,6 @@
           '<span class="qri-label">Correct:</span> <strong>' + q.answerText + '</strong>' +
         '</div>' +
         '<div class="qri-rationale">' + q.rationaleHTML + '</div>';
-
       breakdown.appendChild(item);
     });
 
