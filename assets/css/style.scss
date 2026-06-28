@@ -3106,6 +3106,45 @@ a.video-preview-card:hover .play-button {
   margin: 1.5rem 0 2rem !important;
 }
 
+/* ── Persistent quiz action bar ──────────────────────────────────── */
+#quiz-persist-bar {
+  display: flex !important;
+  align-items: center !important;
+  gap: 0.75rem !important;
+  padding: 0.6rem 1rem !important;
+  margin: 0 0 1.25rem !important;
+  background: #f4f7ff !important;
+  border: 1.5px solid #d0daff !important;
+  border-radius: 10px !important;
+}
+.quiz-persist-btn {
+  font-size: 0.85rem !important;
+  font-weight: 600 !important;
+  padding: 0.4rem 1rem !important;
+  border-radius: 8px !important;
+  cursor: pointer !important;
+  border: 1.5px solid transparent !important;
+  transition: background 0.15s, border-color 0.15s !important;
+}
+.quiz-persist-restart {
+  background: #fff !important;
+  border-color: #c0caee !important;
+  color: #445 !important;
+}
+.quiz-persist-restart:hover {
+  background: #eef2ff !important;
+  border-color: #8899dd !important;
+}
+.quiz-persist-submit {
+  background: #3a5ccc !important;
+  border-color: #3a5ccc !important;
+  color: #fff !important;
+}
+.quiz-persist-submit:hover {
+  background: #2a4ab8 !important;
+  border-color: #2a4ab8 !important;
+}
+
 .quiz-config-inner {
   background: #fff !important;
   border: 2px solid #e8ecf8 !important;

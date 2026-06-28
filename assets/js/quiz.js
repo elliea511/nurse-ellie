@@ -12,6 +12,7 @@
   // ── Parse all questions up front ──────────────────────────────
   var detailsBlocks = Array.from(content.querySelectorAll('details'));
   var questions = [];
+  var allQuizEls = []; // every DOM element that belongs to the quiz, to hide them all
 
   detailsBlocks.forEach(function (details) {
     var answerEl    = details.querySelector('.quiz-answer');
@@ -34,16 +35,32 @@
     }
     if (!choiceEls.length) return;
 
-    // Find the question stem (text nodes/elements between the preceding HR/heading and the first choice)
-    var stemHTML = '';
+    // Find the question stem elements (between the preceding HR/heading and the first choice)
+    var stemEls = [];
     var stemNode = choiceEls[0].previousElementSibling;
     var stemParts = [];
     while (stemNode) {
       if (stemNode.tagName === 'HR' || /^H[1-6]$/.test(stemNode.tagName)) break;
+      stemEls.unshift(stemNode);
       stemParts.unshift(stemNode.outerHTML);
       stemNode = stemNode.previousElementSibling;
     }
-    stemHTML = stemParts.join('');
+    var stemHTML = stemParts.join('');
+
+    // The heading immediately before this question block (e.g. "## Question 1")
+    var headingEl = null;
+    var firstEl = stemEls.length ? stemEls[0] : choiceEls[0];
+    var prevEl = firstEl.previousElementSibling;
+    if (prevEl && /^H[1-6]$/.test(prevEl.tagName)) {
+      headingEl = prevEl;
+    }
+
+    // The <hr> before the heading (separator between questions)
+    var hrEl = null;
+    var beforeHeading = headingEl ? headingEl.previousElementSibling : (stemEls.length ? stemEls[0].previousElementSibling : choiceEls[0].previousElementSibling);
+    if (beforeHeading && beforeHeading.tagName === 'HR') {
+      hrEl = beforeHeading;
+    }
 
     questions.push({
       correctLetters: correctLetters,
@@ -54,23 +71,61 @@
       rationaleHTML:  rationaleEl ? rationaleEl.innerHTML : ''
     });
 
-    // Hide original DOM elements
-    choiceEls.forEach(function (el) { el.classList.add('quiz-choice-hidden'); });
-    details.style.display = 'none';
+    // Collect ALL elements that belong to this question for hiding
+    var qEls = [];
+    if (hrEl)      qEls.push(hrEl);
+    if (headingEl) qEls.push(headingEl);
+    stemEls.forEach(function (el) { qEls.push(el); });
+    choiceEls.forEach(function (el) { qEls.push(el); });
+    qEls.push(details);
+
+    qEls.forEach(function (el) { allQuizEls.push(el); });
   });
 
   if (!questions.length) return;
+
+  // Hide ALL original quiz DOM elements
+  allQuizEls.forEach(function (el) { el.style.display = 'none'; });
 
   // ── Build containers ──────────────────────────────────────────
   var configEl = document.createElement('div');
   configEl.id = 'quiz-config';
 
+  var persistBar = document.createElement('div');
+  persistBar.id = 'quiz-persist-bar';
+  persistBar.style.display = 'none';
+
   var stageEl = document.createElement('div');
   stageEl.id = 'quiz-stage';
   stageEl.style.display = 'none';
 
-  content.insertBefore(configEl, content.querySelector('details') || content.firstChild);
-  content.insertBefore(stageEl, configEl.nextSibling);
+  // Insert before first hidden quiz element or at top of content
+  var insertAnchor = allQuizEls[0] || content.firstChild;
+  content.insertBefore(configEl, insertAnchor);
+  content.insertBefore(persistBar, configEl.nextSibling);
+  content.insertBefore(stageEl, persistBar.nextSibling);
+
+  // ── Persistent bar (shown during QUIZ and RESULTS phases) ─────
+  var restartBarBtn = document.createElement('button');
+  restartBarBtn.className   = 'quiz-persist-btn quiz-persist-restart';
+  restartBarBtn.textContent = '↺ Restart';
+  restartBarBtn.addEventListener('click', resetToConfig);
+
+  var submitTestBarBtn = document.createElement('button');
+  submitTestBarBtn.className   = 'quiz-persist-btn quiz-persist-submit';
+  submitTestBarBtn.textContent = '✔ Submit Test';
+  submitTestBarBtn.style.display = 'none';
+  submitTestBarBtn.addEventListener('click', function () {
+    // Grade whatever has been answered so far; unanswered = wrong
+    while (testAnswers.length < questions.length) {
+      testAnswers.push({ gotItRight: false, selected: [] });
+    }
+    quizPhase = 'RESULTS';
+    renderResults();
+  });
+
+  persistBar.appendChild(restartBarBtn);
+  persistBar.appendChild(submitTestBarBtn);
 
   // ── Mode-selection splash ─────────────────────────────────────
   configEl.innerHTML =
@@ -98,6 +153,8 @@
       currentIdx  = 0;
       testAnswers = [];
       configEl.style.display = 'none';
+      persistBar.style.display = '';
+      submitTestBarBtn.style.display = quizMode === 'TEST' ? '' : 'none';
       stageEl.style.display  = '';
       renderQuestion(0);
     });
@@ -120,9 +177,11 @@
     quizMode    = null;
     currentIdx  = 0;
     testAnswers = [];
-    stageEl.style.display  = 'none';
-    stageEl.innerHTML      = '';
-    configEl.style.display = '';
+    stageEl.style.display    = 'none';
+    stageEl.innerHTML        = '';
+    persistBar.style.display = 'none';
+    submitTestBarBtn.style.display = 'none';
+    configEl.style.display   = '';
   }
 
   // ── Render one question ───────────────────────────────────────
@@ -160,7 +219,7 @@
     choiceWrap.className = 'quiz-choices';
 
     var selected   = new Set();
-    var submitted  = false;  // study mode per-question state
+    var submitted  = false;
     var allBtns    = [];
 
     q.choiceEls.forEach(function (choice) {
@@ -174,21 +233,20 @@
       if (q.isSATA) {
         btn.addEventListener('click', function () {
           if (submitted) return;
-          if (quizMode === 'STUDY' && submitted) return;
           if (selected.has(letter)) { selected.delete(letter); btn.classList.remove('selected'); }
           else                      { selected.add(letter);    btn.classList.add('selected'); }
-          if (quizMode === 'TEST') updateNextBtn();
+          if (quizMode === 'TEST')   updateNextBtn();
+          if (quizMode === 'STUDY')  updateSubmitBtn();
         });
       } else {
         btn.addEventListener('click', function () {
           if (submitted) return;
-          // single-answer: selecting replaces previous
           selected.clear();
           selected.add(letter);
           allBtns.forEach(function (b) { b.classList.remove('selected'); });
           btn.classList.add('selected');
-          if (quizMode === 'TEST') updateNextBtn();
-          if (quizMode === 'STUDY' && !q.isSATA) updateSubmitBtn();
+          if (quizMode === 'TEST')   updateNextBtn();
+          if (quizMode === 'STUDY')  updateSubmitBtn();
         });
       }
 
@@ -197,7 +255,7 @@
 
     stageEl.appendChild(choiceWrap);
 
-    // Rationale panel (hidden until submit in STUDY, never shown in TEST)
+    // Rationale panel
     var rationalePanel = document.createElement('div');
     rationalePanel.className = 'quiz-rationale-panel';
 
@@ -223,12 +281,12 @@
       // ── STUDY MODE ─────────────────────────────────────────
       var submitBtn = document.createElement('button');
       submitBtn.className   = 'quiz-submit-btn';
-      submitBtn.textContent = q.isSATA ? 'Submit Answer' : 'Submit Answer';
+      submitBtn.textContent = 'Submit Answer';
       submitBtn.disabled    = true;
 
       var nextBtn = document.createElement('button');
-      nextBtn.className   = 'quiz-next-btn';
-      nextBtn.textContent = isLastQ ? 'Finish' : 'Next Question →';
+      nextBtn.className     = 'quiz-next-btn';
+      nextBtn.textContent   = isLastQ ? 'Finish' : 'Next Question →';
       nextBtn.style.display = 'none';
 
       function updateSubmitBtn() {
@@ -239,7 +297,6 @@
         if (submitted) return;
         submitted = true;
 
-        // Freeze choices
         allBtns.forEach(function (b) {
           var l = b.dataset.letter;
           var isCorrect   = q.correctLetters.indexOf(l) !== -1;
@@ -274,13 +331,6 @@
       actionRow.appendChild(submitBtn);
       actionRow.appendChild(nextBtn);
 
-      // Enable submit once a choice is picked for SATA
-      if (q.isSATA) {
-        allBtns.forEach(function (btn) {
-          btn.addEventListener('click', function () { updateSubmitBtn(); });
-        });
-      }
-
     } else {
       // ── TEST MODE ───────────────────────────────────────────
       var nextBtn = document.createElement('button');
@@ -313,8 +363,7 @@
 
   // ── Study mode completion screen ──────────────────────────────
   function renderStudyComplete() {
-    // Count correct from testAnswers isn't used in study; tally from DOM choices
-    // Simple completion — no per-question tracking needed since they saw each in real time
+    persistBar.style.display = 'none';
     stageEl.innerHTML =
       '<div class="quiz-complete">' +
         '<div class="quiz-complete-icon">🎉</div>' +
@@ -327,12 +376,12 @@
 
   // ── Test mode results screen ──────────────────────────────────
   function renderResults() {
+    submitTestBarBtn.style.display = 'none';
     var correct = testAnswers.filter(function (a) { return a.gotItRight; }).length;
     var gd = gradeData(correct, questions.length);
 
     stageEl.innerHTML = '';
 
-    // Score card
     var scoreCard = document.createElement('div');
     scoreCard.className = 'quiz-score-card ' + gd.gradeClass;
     scoreCard.innerHTML =
@@ -343,7 +392,6 @@
       '</div>';
     stageEl.appendChild(scoreCard);
 
-    // Per-question breakdown
     var breakdown = document.createElement('div');
     breakdown.className = 'quiz-breakdown';
 
