@@ -3735,7 +3735,11 @@ a.video-preview-card:hover .play-button {
 @media print { .thl-strip { display: none !important; } }
 
 .quiz-choice-hidden { display: none !important; }
-.quiz-hidden { display: none !important; }
+.quiz-hidden,
+.main-content .quiz-hidden,
+.main-content h2.quiz-hidden,
+.main-content h3.quiz-hidden,
+.main-content hr.quiz-hidden { display: none !important; }
 
 /* ── Fullscreen quiz wrapper ───────────────────────────────────── */
 #quiz-fs-wrap:fullscreen,
