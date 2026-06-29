@@ -30,6 +30,17 @@ Test your knowledge of medical emergencies with NCLEX-style practice questions. 
 
 </div>
 
+## Neurological
+
+<div class="study-card-grid">
+
+<a class="study-card" href="{{ '/medical-emergencies/neurological/stroke-quiz.html' | relative_url }}">
+<h2>TIA & Stroke</h2>
+<p>Practice questions on stroke recognition, last known well time, thrombolytics, aphasia, neglect, and nursing priorities.</p>
+</a>
+
+</div>
+
 ## Respiratory
 
 <div class="study-card-grid">
