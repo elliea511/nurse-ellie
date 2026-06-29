@@ -41,8 +41,8 @@ Test your knowledge of medical emergencies with NCLEX-style practice questions. 
 <div class="study-card-grid">
 
 <a class="study-card" href="{{ '/medical-emergencies/cardiac-perfusion/hemophilia-quiz.html' | relative_url }}">
-<h2>Hemophilia Bleeding Emergency</h2>
-<p>Practice questions on hemophilia types, factor replacement, bleeding precautions, and emergency interventions.</p>
+<h2>Hemophilia & ITP</h2>
+<p>Practice questions on hemophilia types, factor replacement, ITP platelet destruction, bleeding precautions, and emergency interventions.</p>
 </a>
 
 </div>
