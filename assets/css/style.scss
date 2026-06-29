@@ -3833,6 +3833,41 @@ a.video-preview-card:hover .play-button {
   margin: 1rem 0 0.5rem !important;
   font-size: 1rem !important;
 }
+.pt-count-wrap {
+  display: flex !important;
+  align-items: center !important;
+  gap: 0.7rem !important;
+  margin: 1.1rem 0 0.5rem !important;
+  padding: 0.75rem 1rem !important;
+  background: var(--accent-soft, #eef4ff) !important;
+  border: 1.5px solid var(--border, #bdd4f8) !important;
+  border-radius: 12px !important;
+  flex-wrap: wrap !important;
+}
+.pt-count-label {
+  font-size: 0.92rem !important;
+  font-weight: 700 !important;
+  color: var(--ink, #1a2540) !important;
+  white-space: nowrap !important;
+}
+.pt-count-input {
+  width: 80px !important;
+  padding: 0.35rem 0.55rem !important;
+  border: 1.5px solid var(--border, #bdd4f8) !important;
+  border-radius: 8px !important;
+  font-size: 0.95rem !important;
+  font-family: inherit !important;
+  color: var(--ink, #1a2540) !important;
+  background: #fff !important;
+  text-align: center !important;
+}
+.pt-count-input:focus { outline: 2px solid var(--accent, #2761d8) !important; border-color: var(--accent, #2761d8) !important; }
+.pt-count-input:disabled { opacity: 0.45 !important; }
+.pt-count-note {
+  font-size: 0.8rem !important;
+  color: var(--muted, #777) !important;
+  font-style: italic !important;
+}
 .pt-mode-row {
   display: flex !important;
   gap: 1rem !important;
