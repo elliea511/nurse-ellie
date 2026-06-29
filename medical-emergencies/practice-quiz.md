@@ -23,6 +23,11 @@ Test your knowledge of medical emergencies with NCLEX-style practice questions. 
 <p>Practice questions on angina types, MI recognition, STEMI/NSTEMI, and emergency nursing priorities.</p>
 </a>
 
+<a class="study-card" href="{{ '/medical-emergencies/cardiac-perfusion/hemophilia-quiz.html' | relative_url }}">
+<h2>Hemophilia & ITP</h2>
+<p>Practice questions on hemophilia types, factor replacement, ITP platelet destruction, bleeding precautions, and emergency interventions.</p>
+</a>
+
 </div>
 
 ## Respiratory
@@ -36,13 +41,3 @@ Test your knowledge of medical emergencies with NCLEX-style practice questions. 
 
 </div>
 
-## Cardiac & Perfusion — Bleeding
-
-<div class="study-card-grid">
-
-<a class="study-card" href="{{ '/medical-emergencies/cardiac-perfusion/hemophilia-quiz.html' | relative_url }}">
-<h2>Hemophilia & ITP</h2>
-<p>Practice questions on hemophilia types, factor replacement, ITP platelet destruction, bleeding precautions, and emergency interventions.</p>
-</a>
-
-</div>
