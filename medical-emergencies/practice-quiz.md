@@ -71,5 +71,10 @@ Test your knowledge of medical emergencies with NCLEX-style practice questions. 
 <p>Practice questions on heat exhaustion, heat stroke, hypothermia, frostbite, drowning, altitude sickness, bites, stings, and anaphylaxis.</p>
 </a>
 
+<a class="study-card" href="{{ '/medical-emergencies/poisoning-quiz.html' | relative_url }}">
+<h2>Poisoning & Ingestions</h2>
+<p>Practice questions on activated charcoal, caustic cleaners, hydrocarbons, lead poisoning, acetaminophen overdose, salicylate toxicity, button batteries, and antidotes.</p>
+</a>
+
 </div>
 
