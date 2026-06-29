@@ -397,12 +397,28 @@ Atypical symptoms are more common in women, older adults, and clients with diabe
 | Echocardiogram          | Shows heart function and wall motion                         |
 
 
-
 ### Troponin
 
-Troponin rises when heart muscle is damaged.
-
 For NCLEX, troponin is the key cardiac marker for MI.
+
+Troponin usually begins to rise about **3–6 hours after heart muscle damage**, peaks later, and can stay elevated for several days.
+
+
+| Lab            | Common Value                               |
+| -------------- | ------------------------------------------ |
+| **Troponin** | **< 0.03 ng/mL**                           |
+
+| Troponin Result | Meaning                                        |
+| --------------- | ---------------------------------------------- |
+| **Normal/low**  | No current lab evidence of heart muscle damage |
+| **Elevated**    | Heart muscle injury                            |
+| **Rising**      | More concerning for active/recent injury       |
+| **Falling**     | Injury may be resolving                        |
+
+
+<div class="nclex-tip">
+  <strong>NCLEX Tip:</strong> Look at the trend. Rising troponin is more concerning than one single number.
+</div>
 
 ---
 
@@ -575,19 +591,9 @@ The graft may come from a vein in the leg or an artery in the chest.
   <strong>NCLEX / Patient Teaching:</strong> Sternal precautions protect the healing sternum after open-heart surgery. Avoid lifting, pushing, pulling, or using the arms to push up. Keep arms close to the body, use the legs to stand, splint the chest with a pillow when coughing, and report popping/clicking, increased pain, drainage, redness, or separation of the incision.
 </div>
 
-## NCLEX Thinking
-
-After CABG, the nurse teaches:
-
-**“Do not push yourself up with your arms. Hug a pillow when coughing. Use your legs to stand.”**
-
-The big risk is the sternum separating or the incision not healing correctly.
-
 ---
 
 ## Patient Teaching After Angina or MI
-
-![Cardiac Diet: What It Is, Foods to Consume, Foods to Avoid, and More |  Osmosis](https://d16qt3wv6xm098.cloudfront.net/X1zOlnC1RCSx4zi4w3JnBKR4QiK7gfuf/_.png)
 
 Teach the client:
 
