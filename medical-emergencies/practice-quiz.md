@@ -66,5 +66,10 @@ Test your knowledge of medical emergencies with NCLEX-style practice questions. 
 <p>Practice questions on shock types, early vs. late signs, priority interventions, and distinguishing hypovolemic, cardiogenic, septic, neurogenic, and obstructive shock.</p>
 </a>
 
+<a class="study-card" href="{{ '/medical-emergencies/environmental-quiz.html' | relative_url }}">
+<h2>Environmental Emergencies</h2>
+<p>Practice questions on heat exhaustion, heat stroke, hypothermia, frostbite, drowning, altitude sickness, bites, stings, and anaphylaxis.</p>
+</a>
+
 </div>
 
