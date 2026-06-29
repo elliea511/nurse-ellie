@@ -150,6 +150,17 @@
       wrap.appendChild(group);
     });
 
+    // Mode buttons — declared early so updateStartBtns can reference them
+    var modeRow  = el('div', 'pt-mode-row');
+    var studyBtn = el('button', 'pt-mode-btn', '<span class="qmb-icon">📖</span><span class="qmb-label">Study Mode</span><span class="qmb-desc">See rationale after each question</span>');
+    var testBtn  = el('button', 'pt-mode-btn', '<span class="qmb-icon">📝</span><span class="qmb-label">Test Mode</span><span class="qmb-desc">Get your score at the end</span>');
+
+    function updateStartBtns() {
+      var n = totalSelected();
+      studyBtn.disabled = n === 0;
+      testBtn.disabled  = n === 0;
+    }
+
     // Question count input
     var countWrap = el('div', 'pt-count-wrap');
     var countLabel = el('label', 'pt-count-label');
@@ -176,7 +187,6 @@
         desiredCount = 0;
       } else {
         countInput.disabled = false;
-        // clamp existing value if needed
         var cur = parseInt(countInput.value, 10);
         if (!cur || cur < 1) {
           countInput.value = '';
@@ -202,7 +212,6 @@
         desiredCount = cur;
         countNote.textContent = cur + ' of ' + max + ' questions.';
       }
-      updateStartBtns();
     });
 
     // Restore previous value
@@ -213,18 +222,6 @@
     countWrap.appendChild(countInput);
     countWrap.appendChild(countNote);
     wrap.appendChild(countWrap);
-
-    // Mode buttons
-    var modeRow = el('div', 'pt-mode-row');
-    var studyBtn = el('button', 'pt-mode-btn', '<span class="qmb-icon">📖</span><span class="qmb-label">Study Mode</span><span class="qmb-desc">See rationale after each question</span>');
-    var testBtn  = el('button', 'pt-mode-btn', '<span class="qmb-icon">📝</span><span class="qmb-label">Test Mode</span><span class="qmb-desc">Get your score at the end</span>');
-
-    function updateStartBtns() {
-      var n = totalSelected();
-      studyBtn.disabled = n === 0;
-      testBtn.disabled  = n === 0;
-    }
-    updateStartBtns();
 
     studyBtn.addEventListener('click', function () { startQuiz('STUDY'); });
     testBtn.addEventListener('click',  function () { startQuiz('TEST'); });
