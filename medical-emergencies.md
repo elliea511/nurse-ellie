@@ -57,4 +57,9 @@ Medical emergencies show up throughout nursing — in the ER, on the floor, in c
 <p>Key medications used in medical emergencies — indications, dosing considerations, and nursing priorities.</p>
 </a>
 
+<a class="study-card" href="{{ '/medical-emergencies/practice-quiz.html' | relative_url }}">
+<h2>Practice Quiz</h2>
+<p>Test your knowledge of medical emergencies with NCLEX-style practice questions.</p>
+</a>
+
 </div>
