@@ -17,6 +17,7 @@
     { id: 'environ',    label: 'Environmental Emergencies',      cat: 'Other',               url: '/medical-emergencies/environmental-quiz.html',                n: 37 },
     { id: 'poisoning',  label: 'Poisoning & Ingestions',         cat: 'Other',               url: '/medical-emergencies/poisoning-quiz.html',                    n: 24 },
     { id: 'burns',      label: 'Basic Burns',                    cat: 'Other',               url: '/medical-emergencies/burns-quiz.html',                        n: 26 },
+    { id: 'prep',       label: 'Emergency Preparedness & Crisis', cat: 'Other',              url: '/medical-emergencies/emergency-prep-quiz.html',               n: 23 },
   ];
 
   var CATS = [];
