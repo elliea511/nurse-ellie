@@ -161,7 +161,7 @@ It is a major cause of death in fire-related injuries because it binds to hemogl
 
 ### Superficial Burn
 
-<img src="/Users/ellienolen/Library/Application Support/typora-user-images/image-20260629130945433.png" alt="image-20260629130945433" style="zoom:150%;" />
+<img src="https://www.visitcompletecare.com/wp-content/uploads/2021/08/shutterstock_1950025666.jpg" alt="How to Treat Severe Sunburn | Complete Care" style="zoom:67%;" />
 
 Also called a **1st degree burn**.
 
@@ -228,7 +228,7 @@ Pain level depends on if the nerves are exposed or damaged.
 
 ### Full-Thickness Burn
 
-<img src="/Users/ellienolen/Library/Application Support/typora-user-images/image-20260629131350718.png" alt="image-20260629131350718" style="zoom:200%;" />
+<img src="https://www.vicburns.org.au/files/general/1500x1000/Full_thickness_burn_back_of_leg_web.png" alt="https://www.vicburns.org.au/files/general/1500x1000/Full_thickness_burn_back_of_leg_web.png" style="zoom:67%;" />
 
 Also called a **3rd degree burn**.
 
@@ -252,7 +252,7 @@ Full-thickness burns may not hurt at the center because nerve endings are destro
 
 ### Fourth Degree Burn
 
-<img src="/Users/ellienolen/Library/Application Support/typora-user-images/image-20260629131408106.png" alt="image-20260629131408106" style="zoom:200%;" />
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwVB5tlGaWWHe1pvsCzutvkQXCasst5uQdSd1wt8lMlw&s" alt="Evaluate a Burn - Burn and Reconstructive Centers of America"  />
 
 Fourth degree burns extend beyond the skin into deeper structures.
 
@@ -265,7 +265,7 @@ Fourth degree burns extend beyond the skin into deeper structures.
 
 ---
 
-<img src="https://tccc.org.ua/files/uploads/tccc-cmc18/module-18-burns-12.jpg" alt="Burns" style="zoom: 200%;" />
+<img src="https://tccc.org.ua/files/uploads/tccc-cmc18/module-18-burns-12.jpg" alt="Burns"  />
 
 ## Burn Depth Quick Chart
 
@@ -423,10 +423,6 @@ The rehabilitation phase starts with wound closure and continues until the clien
 Encourage independence as much as possible.
 
 TPN may be required if the patient develops paralytic ileus.
-
-
-
-<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEglAtqKZJMLgwt6bN2i3n3a30MbFulGb4gl_Ha_xEEAw_fERauFhB1IVmC-hZ02uJWEjQ_QfV6xwhryQCm4S3fxTw0IxnQH02ykG2DOFBGaJNtKotrHpqPYLK8wX2RFTysFX-6pqU_9b7HsECGo14qQWu2yUIi9ia33zCJzSRy1yEfQ_DRmuWIHn5FjhVA/s16000-rw/Phases%20of%20Burn%20Management.jpg" alt="Phases of Burn Management - Emergent, Acute & Rehabilitative" style="zoom:150%;" />
 
 ---
 
@@ -679,7 +675,7 @@ Santyl is seen a lot with Aquacel silver dressing.
 
 Skin grafting may be needed for deep partial-thickness or full-thickness burns.
 
-<img src="/Users/ellienolen/Library/Application Support/typora-user-images/image-20260629131605771.png" alt="image-20260629131605771" style="zoom:150%;" />
+<img src="https://ufhealth.org/assets/adam/19083.jpg" alt="Skin Graft - UF Health"  />
 
 ### Nursing Care After Grafting
 
