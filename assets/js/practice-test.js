@@ -95,6 +95,8 @@
   }
 
   // ── SELECT phase ───────────────────────────────────────────────────────────
+  var desiredCount = 0; // 0 = all
+
   function renderSelect() {
     ROOT.innerHTML = '';
     var wrap = el('div', 'pt-select-wrap');
@@ -133,7 +135,7 @@
         cb.checked = !!selectedIds[topic.id];
         cb.addEventListener('change', function () {
           selectedIds[topic.id] = cb.checked;
-          updateCount();
+          syncCountInput();
           updateStartBtns();
         });
         var nameSpan = el('span', 'pt-topic-name', topic.label);
@@ -146,14 +148,69 @@
       wrap.appendChild(group);
     });
 
-    // Question count summary
-    var countEl = el('p', 'pt-count-summary');
-    function updateCount() {
-      var n = totalSelected();
-      countEl.textContent = n === 0 ? 'No topics selected.' : n + ' questions selected.';
+    // Question count input
+    var countWrap = el('div', 'pt-count-wrap');
+    var countLabel = el('label', 'pt-count-label');
+    countLabel.htmlFor = 'pt-q-count';
+    countLabel.textContent = 'Number of questions:';
+
+    var countInput = document.createElement('input');
+    countInput.type = 'number';
+    countInput.id   = 'pt-q-count';
+    countInput.className = 'pt-count-input';
+    countInput.min  = '1';
+    countInput.step = '1';
+    countInput.placeholder = 'All';
+
+    var countNote = el('span', 'pt-count-note', '');
+
+    function syncCountInput() {
+      var max = totalSelected();
+      countInput.max = max;
+      if (max === 0) {
+        countInput.value = '';
+        countInput.disabled = true;
+        countNote.textContent = 'No topics selected.';
+        desiredCount = 0;
+      } else {
+        countInput.disabled = false;
+        // clamp existing value if needed
+        var cur = parseInt(countInput.value, 10);
+        if (!cur || cur < 1) {
+          countInput.value = '';
+          desiredCount = 0;
+          countNote.textContent = max + ' available — leave blank for all.';
+        } else {
+          if (cur > max) { countInput.value = max; cur = max; }
+          desiredCount = cur;
+          countNote.textContent = cur + ' of ' + max + ' questions.';
+        }
+      }
+      updateStartBtns();
     }
-    updateCount();
-    wrap.appendChild(countEl);
+
+    countInput.addEventListener('input', function () {
+      var max = totalSelected();
+      var cur = parseInt(countInput.value, 10);
+      if (!cur || cur < 1) {
+        desiredCount = 0;
+        countNote.textContent = max + ' available — leave blank for all.';
+      } else {
+        if (cur > max) { countInput.value = max; cur = max; }
+        desiredCount = cur;
+        countNote.textContent = cur + ' of ' + max + ' questions.';
+      }
+      updateStartBtns();
+    });
+
+    // Restore previous value
+    if (desiredCount > 0) countInput.value = desiredCount;
+    syncCountInput();
+
+    countWrap.appendChild(countLabel);
+    countWrap.appendChild(countInput);
+    countWrap.appendChild(countNote);
+    wrap.appendChild(countWrap);
 
     // Mode buttons
     var modeRow = el('div', 'pt-mode-row');
@@ -192,7 +249,8 @@
     });
 
     Promise.all(fetches).then(function (results) {
-      questions = shuffle([].concat.apply([], results));
+      var all = shuffle([].concat.apply([], results));
+      questions = (desiredCount > 0 && desiredCount < all.length) ? all.slice(0, desiredCount) : all;
       currentIdx   = 0;
       studyCorrect = 0;
       testAnswers  = [];
