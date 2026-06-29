@@ -855,101 +855,6 @@ body {
 .main-content tr:nth-child(odd) td  { background: #f7f7f5 !important; }
 
 /* =========================================================
-   NOTES PAGE — GitHub-preview-style typography
-   ========================================================= */
-
-/* Body text */
-body[data-page-type="notes"] .main-content {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif !important;
-  font-size: 16px !important;
-  line-height: 1.5 !important;
-  color: #24292e !important;
-}
-body[data-page-type="notes"] .main-content p {
-  font-family: inherit !important;
-  font-size: 1rem !important;
-  line-height: 1.6 !important;
-  margin-bottom: 1rem !important;
-}
-body[data-page-type="notes"] .main-content li {
-  font-family: inherit !important;
-  font-size: 1rem !important;
-  line-height: 1.6 !important;
-  margin-bottom: 0.25rem !important;
-}
-
-/* Headings — clean with accent bottom border, no colored background bar */
-body[data-page-type="notes"] .main-content h1 {
-  font-family: inherit !important;
-  font-size: 2em !important;
-  font-weight: 700 !important;
-  background: none !important;
-  color: #24292e !important;
-  border-left: none !important;
-  border-bottom: 1px solid var(--accent-mid) !important;
-  padding: 0 0 0.4rem 0 !important;
-  margin: 1.5rem 0 1rem !important;
-}
-body[data-page-type="notes"] .main-content h2 {
-  font-family: inherit !important;
-  font-size: 1.5em !important;
-  font-weight: 700 !important;
-  background: none !important;
-  color: var(--accent-dark) !important;
-  border-left: none !important;
-  border-bottom: 2px solid var(--accent-mid) !important;
-  padding: 0 0 0.35rem 0 !important;
-  margin: 1.75rem 0 0.85rem !important;
-  width: auto !important;
-}
-body[data-page-type="notes"] .main-content h2:nth-of-type(3n+2),
-body[data-page-type="notes"] .main-content h2:nth-of-type(3n+3) {
-  background: none !important;
-  border-left: none !important;
-  border-bottom: 2px solid var(--accent-mid) !important;
-}
-body[data-page-type="notes"] .main-content h3 {
-  font-family: inherit !important;
-  font-size: 1.25em !important;
-  font-weight: 700 !important;
-  background: none !important;
-  color: #24292e !important;
-  border-left: 3px solid var(--accent) !important;
-  padding: 0 0 0 0.6rem !important;
-  margin: 1.5rem 0 0.65rem !important;
-}
-body[data-page-type="notes"] .main-content h4 {
-  font-family: inherit !important;
-  font-size: 1em !important;
-  font-weight: 700 !important;
-  color: #24292e !important;
-  margin: 1.2rem 0 0.5rem !important;
-}
-
-/* Tables — left-aligned, fit to content, soft header */
-body[data-page-type="notes"] .main-content table {
-  width: auto !important;
-  min-width: unset !important;
-  margin: 1.25rem 0 !important;
-  font-size: 0.95rem !important;
-  font-family: inherit !important;
-}
-body[data-page-type="notes"] .main-content th {
-  background: var(--accent-soft) !important;
-  color: var(--accent-dark) !important;
-  font-weight: 700 !important;
-  text-transform: none !important;
-  letter-spacing: 0 !important;
-  font-size: 0.95rem !important;
-  border-bottom: 2px solid var(--accent-mid) !important;
-  border-top: none !important;
-}
-body[data-page-type="notes"] .main-content td {
-  line-height: 1.55 !important;
-  font-family: inherit !important;
-}
-
-/* =========================================================
    TEXT, LINKS, CODE, HR
    ========================================================= */
 
@@ -1228,17 +1133,17 @@ body[data-page-type="notes"] .main-content td {
   border-radius: 20px 20px 0 0;
 }
 
-/* Clay — Medical Emergencies (orange) */
+/* Clay — Medical Emergencies (blue) */
 .home-big-button.clay {
-  background: linear-gradient(145deg, rgba(255,236,220,0.88) 0%, rgba(248,200,160,0.88) 100%) !important;
+  background: linear-gradient(145deg, rgba(220,235,255,0.88) 0%, rgba(180,210,255,0.88) 100%) !important;
   backdrop-filter: blur(8px) !important;
   -webkit-backdrop-filter: blur(8px) !important;
-  border-color: #f0b888 !important;
-  color: #5a2800 !important;
+  border-color: #93b8f0 !important;
+  color: #1a3d8a !important;
 }
 .home-big-button.clay::before {
   content: ""; position: absolute; top: 0; left: 0; right: 0; height: 5px;
-  background: linear-gradient(to right, #d86020, #f09050);
+  background: linear-gradient(to right, #1a3d8a, #2761d8);
   border-radius: 20px 20px 0 0;
 }
 
@@ -1496,19 +1401,19 @@ body[data-page-type="notes"] .main-content td {
   --accent2-mid:  #a8cfc0;
 }
 
-/* Medical Emergencies — burnt peach, golden sand, apricot */
+/* Medical Emergencies — navy blue */
 [data-section="medical-emergencies"] {
-  --ink:          #3a1f18;
-  --muted:        #7a5040;
-  --border:       #fdd692;
-  --bg:           #fdf0e0;
-  --accent:       #ec7357;
-  --accent-soft:  #fde8dc;
-  --accent-mid:   #f5b090;
-  --accent-dark:  #754f44;
-  --accent2:      #e1ce7a;
-  --accent2-soft: #fdfaf0;
-  --accent2-mid:  #f0e0a0;
+  --ink:          #1a2540;
+  --muted:        #4a5f80;
+  --border:       #bdd4f8;
+  --bg:           #f4f8ff;
+  --accent:       #2761d8;
+  --accent-soft:  #eef4ff;
+  --accent-mid:   #93b8f0;
+  --accent-dark:  #1a3d8a;
+  --accent2:      #38bdf8;
+  --accent2-soft: #f0faff;
+  --accent2-mid:  #7dd3fc;
 }
 
 /* =========================================================
