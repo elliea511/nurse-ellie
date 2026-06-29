@@ -858,8 +858,9 @@ body {
    NOTES PAGE — improved typography & tables
    ========================================================= */
 body[data-page-type="notes"] .main-content table {
-  width: 100% !important;
+  width: auto !important;
   min-width: unset !important;
+  margin: 1.5rem 0 !important;
   font-size: 0.95rem !important;
 }
 body[data-page-type="notes"] .main-content th {
