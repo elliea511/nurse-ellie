@@ -267,6 +267,11 @@
     var q = questions[idx];
     var total = questions.length;
 
+    // Fullscreen wrapper (reuse quiz.js CSS)
+    var fsWrap = el('div', '');
+    fsWrap.id = 'quiz-fs-wrap';
+    ROOT.appendChild(fsWrap);
+
     // Persist bar
     var bar = el('div', 'quiz-persist-bar');
     var timerEl = el('span', 'quiz-timer', '0:00');
@@ -277,9 +282,21 @@
     }, 1000);
 
     var topicTag = el('span', 'pt-topic-tag', q.topicLabel);
+
+    var fsBtn = el('button', 'quiz-persist-btn quiz-persist-fs', '⛶');
+    fsBtn.title = 'Fullscreen';
+    fsBtn.addEventListener('click', function () {
+      if (!document.fullscreenElement) {
+        fsWrap.requestFullscreen && fsWrap.requestFullscreen();
+      } else {
+        document.exitFullscreen && document.exitFullscreen();
+      }
+    });
+
     bar.appendChild(timerEl);
     bar.appendChild(topicTag);
-    ROOT.appendChild(bar);
+    bar.appendChild(fsBtn);
+    fsWrap.appendChild(bar);
 
     // Progress
     var progWrap = el('div', 'quiz-progress');
@@ -290,16 +307,16 @@
     progBar.appendChild(progFill);
     progWrap.appendChild(progText);
     progWrap.appendChild(progBar);
-    ROOT.appendChild(progWrap);
+    fsWrap.appendChild(progWrap);
 
     // Stem
     if (q.stemHTML) {
       var stemDiv = el('div', 'quiz-stem', q.stemHTML);
-      ROOT.appendChild(stemDiv);
+      fsWrap.appendChild(stemDiv);
     }
 
     if (q.isSATA) {
-      ROOT.appendChild(el('p', 'pt-sata-note', 'Select all that apply (SATA).'));
+      fsWrap.appendChild(el('p', 'pt-sata-note', 'Select all that apply (SATA).'));
     }
 
     // Choices
@@ -327,12 +344,12 @@
       });
       choicesWrap.appendChild(btn);
     });
-    ROOT.appendChild(choicesWrap);
+    fsWrap.appendChild(choicesWrap);
 
     // Rationale panel placeholder
     var ratPanel = el('div', 'quiz-rationale-panel');
     ratPanel.style.display = 'none';
-    ROOT.appendChild(ratPanel);
+    fsWrap.appendChild(ratPanel);
 
     // Buttons
     var submitBtn = el('button', 'quiz-submit-btn', 'Submit Answer');
@@ -384,7 +401,7 @@
     var btnRow = el('div', 'pt-btn-row');
     if (mode === 'STUDY') btnRow.appendChild(submitBtn);
     btnRow.appendChild(nextBtn);
-    ROOT.appendChild(btnRow);
+    fsWrap.appendChild(btnRow);
   }
 
   // ── RESULTS ───────────────────────────────────────────────────────────────
