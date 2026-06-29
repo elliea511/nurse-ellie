@@ -1133,17 +1133,17 @@ body {
   border-radius: 20px 20px 0 0;
 }
 
-/* Clay — Medical Emergencies (red/bordeaux, matches Hematology/Oncology) */
+/* Clay — Medical Emergencies (blue) */
 .home-big-button.clay {
-  background: linear-gradient(145deg, rgba(255,228,228,0.88) 0%, rgba(240,180,180,0.88) 100%) !important;
+  background: linear-gradient(145deg, rgba(220,235,255,0.88) 0%, rgba(180,210,255,0.88) 100%) !important;
   backdrop-filter: blur(8px) !important;
   -webkit-backdrop-filter: blur(8px) !important;
-  border-color: #e8a0a0 !important;
-  color: #5a1010 !important;
+  border-color: #93b8f0 !important;
+  color: #1a3d8a !important;
 }
 .home-big-button.clay::before {
   content: ""; position: absolute; top: 0; left: 0; right: 0; height: 5px;
-  background: linear-gradient(to right, #c83030, #e06060);
+  background: linear-gradient(to right, #1a3d8a, #2761d8);
   border-radius: 20px 20px 0 0;
 }
 
@@ -1401,19 +1401,19 @@ body {
   --accent2-mid:  #a8cfc0;
 }
 
-/* Medical Emergencies — night bordeaux, carmine, lobster pink (matches Hematology/Oncology) */
+/* Medical Emergencies — navy blue */
 [data-section="medical-emergencies"] {
-  --ink:          #2a0810;
-  --muted:        #7a3848;
-  --border:       #f0c0c8;
-  --bg:           #fde8ec;
-  --accent:       #ba1f33;
-  --accent-soft:  #fde0e4;
-  --accent-mid:   #f5c0c5;
-  --accent-dark:  #7a0f1a;
-  --accent2:      #cd5d67;
-  --accent2-soft: #fef5f6;
-  --accent2-mid:  #f8d0d4;
+  --ink:          #1a2540;
+  --muted:        #4a5f80;
+  --border:       #bdd4f8;
+  --bg:           #f4f8ff;
+  --accent:       #2761d8;
+  --accent-soft:  #eef4ff;
+  --accent-mid:   #93b8f0;
+  --accent-dark:  #1a3d8a;
+  --accent2:      #38bdf8;
+  --accent2-soft: #f0faff;
+  --accent2-mid:  #7dd3fc;
 }
 
 /* =========================================================
