@@ -1,5 +1,6 @@
 ---
 layout: default
+page_type: notes
 title: Acute CHF / Pulmonary Edema
 ---
 

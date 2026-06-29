@@ -1,5 +1,6 @@
 ---
 layout: default
+page_type: notes
 title: Basic Burns
 
 ---

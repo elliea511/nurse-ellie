@@ -23,6 +23,27 @@ Test your knowledge of medical emergencies with NCLEX-style practice questions. 
 <p>Practice questions on angina types, MI recognition, STEMI/NSTEMI, and emergency nursing priorities.</p>
 </a>
 
+<a class="study-card" href="{{ '/medical-emergencies/cardiac-perfusion/hemophilia-quiz.html' | relative_url }}">
+<h2>Hemophilia & ITP</h2>
+<p>Practice questions on hemophilia types, factor replacement, ITP platelet destruction, bleeding precautions, and emergency interventions.</p>
+</a>
+
+</div>
+
+## Neurological
+
+<div class="study-card-grid">
+
+<a class="study-card" href="{{ '/medical-emergencies/neurological/stroke-quiz.html' | relative_url }}">
+<h2>TIA & Stroke</h2>
+<p>Practice questions on stroke recognition, last known well time, thrombolytics, aphasia, neglect, and nursing priorities.</p>
+</a>
+
+<a class="study-card" href="{{ '/medical-emergencies/neurological/icp-quiz.html' | relative_url }}">
+<h2>Increased ICP & Hydrocephalus</h2>
+<p>Practice questions on ICP signs, Cushing's triad, mannitol, hydrocephalus, VP shunts, and nursing priorities.</p>
+</a>
+
 </div>
 
 ## Respiratory
@@ -36,13 +57,3 @@ Test your knowledge of medical emergencies with NCLEX-style practice questions. 
 
 </div>
 
-## Cardiac & Perfusion — Bleeding
-
-<div class="study-card-grid">
-
-<a class="study-card" href="{{ '/medical-emergencies/cardiac-perfusion/hemophilia-quiz.html' | relative_url }}">
-<h2>Hemophilia & ITP</h2>
-<p>Practice questions on hemophilia types, factor replacement, ITP platelet destruction, bleeding precautions, and emergency interventions.</p>
-</a>
-
-</div>
