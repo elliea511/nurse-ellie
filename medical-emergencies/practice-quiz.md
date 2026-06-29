@@ -57,3 +57,14 @@ Test your knowledge of medical emergencies with NCLEX-style practice questions. 
 
 </div>
 
+## Other
+
+<div class="study-card-grid">
+
+<a class="study-card" href="{{ '/medical-emergencies/shock-quiz.html' | relative_url }}">
+<h2>Shock</h2>
+<p>Practice questions on shock types, early vs. late signs, priority interventions, and distinguishing hypovolemic, cardiogenic, septic, neurogenic, and obstructive shock.</p>
+</a>
+
+</div>
+
