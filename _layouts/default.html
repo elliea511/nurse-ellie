@@ -13,7 +13,7 @@
   <meta name="base-url" content="{{ '/' | relative_url | remove_last: '/' }}">
 </head>
 
-<body data-section="{{ page.url | split: '/' | slice: 1, 1 | join: '' | split: '.' | first }}">
+<body data-section="{{ page.url | split: '/' | slice: 1, 1 | join: '' | split: '.' | first }}" data-page-type="{{ page.page_type | default: '' }}">
   <header class="page-header">
     <h1 class="project-name">{{ site.title }}</h1>
     <h2 class="project-tagline">{{ site.description }}</h2>

@@ -855,6 +855,36 @@ body {
 .main-content tr:nth-child(odd) td  { background: #f7f7f5 !important; }
 
 /* =========================================================
+   NOTES PAGE — improved typography & tables
+   ========================================================= */
+body[data-page-type="notes"] .main-content table {
+  width: 100% !important;
+  min-width: unset !important;
+  font-size: 0.95rem !important;
+}
+body[data-page-type="notes"] .main-content th {
+  background: var(--accent-soft) !important;
+  color: var(--accent-dark) !important;
+  font-weight: 700 !important;
+  text-transform: none !important;
+  letter-spacing: 0 !important;
+  font-size: 0.93rem !important;
+  border-bottom: 2px solid var(--accent-mid) !important;
+  border-top: none !important;
+}
+body[data-page-type="notes"] .main-content td {
+  line-height: 1.75 !important;
+}
+body[data-page-type="notes"] .main-content p {
+  line-height: 2 !important;
+  margin-bottom: 1.1rem !important;
+}
+body[data-page-type="notes"] .main-content li {
+  line-height: 1.85 !important;
+  margin-bottom: 0.45rem !important;
+}
+
+/* =========================================================
    TEXT, LINKS, CODE, HR
    ========================================================= */
 
