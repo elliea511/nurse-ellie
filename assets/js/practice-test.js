@@ -375,7 +375,7 @@
 
       // Show rationale (study mode)
       if (mode === 'STUDY') {
-        ratPanel.style.display = '';
+        ratPanel.classList.add('visible');
         ratPanel.innerHTML = '<strong>Correct Answer: ' + q.answerText + '</strong><br>' + q.rationaleHTML;
         submitBtn.style.display = 'none';
         nextBtn.disabled = false;
