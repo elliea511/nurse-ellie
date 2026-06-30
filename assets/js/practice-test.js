@@ -31,6 +31,7 @@
   var currentIdx = 0;
   var studyCorrect = 0;
   var testAnswers  = []; // { q, gotItRight, userLetters }
+  var fsWrap = null;    // persistent fullscreen wrapper
 
   // ── Parser (mirrors quiz.js) ───────────────────────────────────────────────
   function parseHTML(html, topicId, topicLabel) {
@@ -263,14 +264,17 @@
 
   // ── QUIZ phase ─────────────────────────────────────────────────────────────
   function renderQuestion(idx) {
-    ROOT.innerHTML = '';
     var q = questions[idx];
     var total = questions.length;
 
-    // Fullscreen wrapper (reuse quiz.js CSS)
-    var fsWrap = el('div', '');
-    fsWrap.id = 'quiz-fs-wrap';
-    ROOT.appendChild(fsWrap);
+    // Keep fsWrap alive across questions to preserve fullscreen state
+    if (!fsWrap || !ROOT.contains(fsWrap)) {
+      ROOT.innerHTML = '';
+      fsWrap = el('div', '');
+      fsWrap.id = 'quiz-fs-wrap';
+      ROOT.appendChild(fsWrap);
+    }
+    fsWrap.innerHTML = '';
 
     // Persist bar
     var bar = el('div', 'quiz-persist-bar');
@@ -415,6 +419,8 @@
 
   function renderResults() {
     phase = 'RESULTS';
+    if (document.fullscreenElement) document.exitFullscreen();
+    fsWrap = null;
     ROOT.innerHTML = '';
 
     var correct, total;
