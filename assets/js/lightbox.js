@@ -47,20 +47,20 @@
   download.setAttribute('aria-label', 'Download image');
   download.style.cssText = [
     'position:fixed',
-    'bottom:1.4rem',
-    'left:50%',
-    'transform:translateX(-50%)',
-    'background:rgba(255,255,255,0.15)',
-    'color:#fff',
-    'border:1.5px solid rgba(255,255,255,0.4)',
+    'top:1rem',
+    'left:1.2rem',
+    'background:rgba(255,255,255,0.92)',
+    'color:#222',
+    'border:none',
     'border-radius:999px',
-    'padding:0.45rem 1.3rem',
-    'font-size:0.92rem',
+    'padding:0.4rem 1.1rem',
+    'font-size:0.88rem',
+    'font-weight:700',
     'font-family:inherit',
     'cursor:pointer',
     'z-index:10000',
     'text-decoration:none',
-    'backdrop-filter:blur(6px)',
+    'box-shadow:0 2px 8px rgba(0,0,0,0.25)',
   ].join(';');
 
   overlay.appendChild(img);
