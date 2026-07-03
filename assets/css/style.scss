@@ -4131,6 +4131,7 @@ a.video-preview-card:hover .play-button {
 [data-theme="dark"] .main-content th { background: #242438 !important; color: #a8b8f0 !important; border-color: #3a3a58 !important; }
 [data-theme="dark"] .main-content td { border-color: #2e2e42 !important; color: #e4e6f0 !important; }
 [data-theme="dark"] .main-content tr:nth-child(even) td { background: #1a1a28 !important; }
+[data-theme="dark"] .main-content tr:nth-child(odd) td { background: #14141e !important; }
 
 [data-theme="dark"] .main-content a { color: #8898e8 !important; }
 [data-theme="dark"] .main-content code { background: #242438 !important; color: #c8d0f8 !important; }
@@ -4144,6 +4145,28 @@ a.video-preview-card:hover .play-button {
 
 [data-theme="dark"] .note { background: #1e2a38 !important; border-left-color: #4a5490 !important; color: #b8c8e8 !important; }
 [data-theme="dark"] .ati-tip { background: #1e2a38 !important; border-color: #3a4a70 !important; color: #b8c8e8 !important; }
+
+/* Callout boxes — dark mode */
+[data-theme="dark"] .main-content .warning { background: #2a1e0a !important; border-left-color: #d89040 !important; color: #e8d0a0 !important; }
+[data-theme="dark"] .main-content .warning::before { background: #3a2810 !important; color: #f0c060 !important; }
+[data-theme="dark"] .main-content .priority { background: #2a0e0e !important; border-left-color: #c04848 !important; color: #f0b0b0 !important; }
+[data-theme="dark"] .main-content .priority::before { background: #3a1010 !important; color: #f08080 !important; }
+[data-theme="dark"] .main-content .intervention { background: #0e2010 !important; border-left-color: #3a8848 !important; color: #a0e0b0 !important; }
+[data-theme="dark"] .main-content .intervention::before { background: #122814 !important; color: #70d888 !important; }
+[data-theme="dark"] .main-content .memory { background: #180e28 !important; border-left-color: #7848b8 !important; color: #c8a8f0 !important; }
+[data-theme="dark"] .main-content .memory::before { background: #220e38 !important; color: #b080e8 !important; }
+[data-theme="dark"] .main-content .teaching { background: #0e1e2a !important; border-left-color: #2878a8 !important; color: #90c8e8 !important; }
+[data-theme="dark"] .main-content .teaching::before { background: #0e2838 !important; color: #60a8d8 !important; }
+[data-theme="dark"] .main-content .lab { background: #1e1e10 !important; border-left-color: #888820 !important; color: #d8d890 !important; }
+[data-theme="dark"] .main-content .lab::before { background: #282808 !important; color: #c0c040 !important; }
+[data-theme="dark"] .main-content .assessment { background: #0a1e20 !important; border-left-color: #207880 !important; color: #80c8d0 !important; }
+[data-theme="dark"] .main-content .assessment::before { background: #0a2428 !important; color: #50a8b8 !important; }
+[data-theme="dark"] .main-content .med { background: #220e1a !important; border-left-color: #c878a0 !important; color: #e8a8c8 !important; }
+[data-theme="dark"] .main-content .med::before { background: #300e22 !important; color: #e070a8 !important; }
+[data-theme="dark"] .main-content .patho { background: #200a14 !important; border-left-color: #a85870 !important; color: #e0a0b8 !important; }
+[data-theme="dark"] .main-content .patho::before { background: #2c0a18 !important; color: #c06880 !important; }
+[data-theme="dark"] .main-content .ati-box { background: #0e1828 !important; border-left-color: #4a78b8 !important; color: #90b8e8 !important; }
+[data-theme="dark"] .main-content .ati-box::before { background: #0e2038 !important; color: #70a0d8 !important; }
 
 [data-theme="dark"] details summary { color: #c0c4e8 !important; }
 [data-theme="dark"] details[open] summary { color: #a8b8f0 !important; }
