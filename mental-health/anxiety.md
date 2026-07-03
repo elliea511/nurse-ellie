@@ -622,30 +622,36 @@ Buspirone is not a rescue medication. It takes time to become therapeutic.
 
 <div class="note">
 
-**Anxiety levels matter:**
-- Mild → teaching can happen.
-- Moderate → simple directions only.
-- Severe → reduce stimuli, stay calm.
-- Panic → stay with the patient, short directions, safety first — no teaching.
+<strong>Anxiety levels matter:</strong>
+<ul>
+<li>Mild → teaching can happen.</li>
+<li>Moderate → simple directions only.</li>
+<li>Severe → reduce stimuli, stay calm.</li>
+<li>Panic → stay with the patient, short directions, safety first — no teaching.</li>
+</ul>
 
 </div>
 
 <div class="warning">
 
-**OCD and phobia:**
-- Obsessions are thoughts; compulsions are actions.
-- Do not abruptly stop all OCD rituals — reduce them gradually.
-- Systematic desensitization = gradual exposure. Flooding = direct/intense exposure.
+<strong>OCD and phobia:</strong>
+<ul>
+<li>Obsessions are thoughts; compulsions are actions.</li>
+<li>Do not abruptly stop all OCD rituals — reduce them gradually.</li>
+<li>Systematic desensitization = gradual exposure. Flooding = direct/intense exposure.</li>
+</ul>
 
 </div>
 
 <div class="warning">
 
-**Medications and trauma:**
-- Buspirone takes weeks — it is not for immediate panic relief.
-- Benzodiazepines work quickly but carry sedation, fall risk, and dependence risk.
-- PTSD flashback: ground the patient to the present.
-- Trauma-informed care: explain before touching, give choices when possible.
+<strong>Medications and trauma:</strong>
+<ul>
+<li>Buspirone takes weeks — it is not for immediate panic relief.</li>
+<li>Benzodiazepines work quickly but carry sedation, fall risk, and dependence risk.</li>
+<li>PTSD flashback: ground the patient to the present.</li>
+<li>Trauma-informed care: explain before touching, give choices when possible.</li>
+</ul>
 
 </div>
 

@@ -428,20 +428,24 @@ Avoid: *"Why were you there?" / "Why didn't you fight back?" / "Are you sure?" /
 
 <div class="warning">
 
-**Suicide priority:**
-- Ask directly about suicide — it does not increase risk.
-- Specific plan + access to means + lethal method = highest risk.
-- New suicidal admission: search belongings first.
-- Use and count plastic utensils; do not leave an actively suicidal patient alone.
+<strong>Suicide priority:</strong>
+<ul>
+<li>Ask directly about suicide — it does not increase risk.</li>
+<li>Specific plan + access to means + lethal method = highest risk.</li>
+<li>New suicidal admission: search belongings first.</li>
+<li>Use and count plastic utensils; do not leave an actively suicidal patient alone.</li>
+</ul>
 
 </div>
 
 <div class="warning">
 
-**Abuse priority:**
-- Interview suspected abuse victims alone — ask the partner/caregiver to step out.
-- Child abuse and elder abuse are mandatory reporting. Suspicion is enough.
-- Document exact quotes and objective findings; avoid interpreting.
+<strong>Abuse priority:</strong>
+<ul>
+<li>Interview suspected abuse victims alone — ask the partner/caregiver to step out.</li>
+<li>Child abuse and elder abuse are mandatory reporting. Suspicion is enough.</li>
+<li>Document exact quotes and objective findings; avoid interpreting.</li>
+</ul>
 
 </div>
 

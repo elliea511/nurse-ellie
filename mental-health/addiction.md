@@ -9,7 +9,7 @@ title: Addiction & Substance Use
 
 Substance use disorders are chronic conditions that affect behavior, coping, safety, physical health, relationships, and mental health.
 
-For NCLEX, focus on: **safety, overdose, withdrawal, respiratory depression, seizures, alcohol withdrawal/DTs, nonjudgmental assessment, and relapse prevention.**
+For NCLEX, focus on: <strong>safety, overdose, withdrawal, respiratory depression, seizures, alcohol withdrawal/DTs, nonjudgmental assessment, and relapse prevention.</strong>
 
 </div>
 
@@ -29,7 +29,7 @@ For NCLEX, focus on: **safety, overdose, withdrawal, respiratory depression, sei
 
 <div class="warning">
 
-**NCLEX:** Overdose and withdrawal can be medical emergencies. Always think airway, breathing, circulation, seizures, and vital signs.
+<strong>NCLEX:</strong> Overdose and withdrawal can be medical emergencies. Always think airway, breathing, circulation, seizures, and vital signs.
 
 </div>
 
@@ -103,7 +103,7 @@ Patients may underestimate the amount used or the last time they used. Continue 
 
 <div class="note">
 
-**Overdose** = too much substance. **Withdrawal** = body reacting to not having the substance.
+<strong>Overdose</strong> = too much substance. <strong>Withdrawal</strong> = body reacting to not having the substance.
 
 </div>
 
@@ -139,7 +139,7 @@ Opioid overdose can cause death from **respiratory arrest**.
 
 <div class="warning">
 
-**NCLEX:** For opioid overdose, breathing comes first. Naloxone is given after airway/breathing support is started.
+<strong>NCLEX:</strong> For opioid overdose, breathing comes first. Naloxone is given after airway/breathing support is started.
 
 </div>
 
@@ -219,7 +219,7 @@ Sedative withdrawal can be dangerous.
 
 <div class="warning">
 
-**NCLEX:** Benzodiazepine/barbiturate withdrawal should be gradual to prevent seizures.
+<strong>NCLEX:</strong> Benzodiazepine/barbiturate withdrawal should be gradual to prevent seizures.
 
 </div>
 
@@ -490,7 +490,7 @@ It usually occurs around **72 hours** after withdrawal begins and can be fatal.
 
 <div class="note">
 
-**Formication** = feeling like bugs are crawling on the skin.
+<strong>Formication</strong> = feeling like bugs are crawling on the skin.
 
 </div>
 
@@ -693,21 +693,25 @@ Avoid: "Why can't you just stop?" / "You should know better." / "You're ruining 
 
 <div class="warning">
 
-**Life-threatening withdrawal:**
-- Alcohol withdrawal can be fatal — monitor VS, seizure risk, hallucinations, and DTs.
-- DTs typically occur around 72 hours after last drink.
-- Benzo/barbiturate withdrawal also requires gradual taper to prevent seizures.
-- Treat alcohol withdrawal with benzodiazepines (chlordiazepoxide, diazepam, lorazepam) + thiamine.
+<strong>Life-threatening withdrawal:</strong>
+<ul>
+<li>Alcohol withdrawal can be fatal — monitor VS, seizure risk, hallucinations, and DTs.</li>
+<li>DTs typically occur around 72 hours after last drink.</li>
+<li>Benzo/barbiturate withdrawal also requires gradual taper to prevent seizures.</li>
+<li>Treat alcohol withdrawal with benzodiazepines (chlordiazepoxide, diazepam, lorazepam) + thiamine.</li>
+</ul>
 
 </div>
 
 <div class="warning">
 
-**Overdose and substances:**
-- Opioid overdose: respiratory depression is the priority — airway first, then naloxone.
-- Naloxone reverses opioids but monitor respirations — effects can wear off before the opioid does.
-- Disulfiram + alcohol = serious or fatal reaction.
-- Stimulant withdrawal can cause severe depression — assess suicide risk.
+<strong>Overdose and substances:</strong>
+<ul>
+<li>Opioid overdose: respiratory depression is the priority — airway first, then naloxone.</li>
+<li>Naloxone reverses opioids but monitor respirations — effects can wear off before the opioid does.</li>
+<li>Disulfiram + alcohol = serious or fatal reaction.</li>
+<li>Stimulant withdrawal can cause severe depression — assess suicide risk.</li>
+</ul>
 
 </div>
 

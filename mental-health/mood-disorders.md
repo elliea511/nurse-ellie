@@ -604,29 +604,35 @@ Some mood stabilizers can cause birth defects. Pregnancy status and contraceptio
 
 <div class="warning">
 
-**Depression:**
-- Always assess suicide risk — hopelessness is a major clue.
-- Sudden improvement in severe depression can be a suicide warning sign (decision made, energy returned).
-- Antidepressants can increase suicide risk early — energy may improve before mood does.
+<strong>Depression:</strong>
+<ul>
+<li>Always assess suicide risk — hopelessness is a major clue.</li>
+<li>Sudden improvement in severe depression can be a suicide warning sign (decision made, energy returned).</li>
+<li>Antidepressants can increase suicide risk early — energy may improve before mood does.</li>
+</ul>
 
 </div>
 
 <div class="warning">
 
-**Mania:**
-- Bipolar I = mania. Bipolar II = hypomania + major depression.
-- Mania priority: safety, low stimulation, rest, fluids, nutrition.
-- Provide high-calorie finger foods — the patient may not sit long enough for a meal.
+<strong>Mania:</strong>
+<ul>
+<li>Bipolar I = mania. Bipolar II = hypomania + major depression.</li>
+<li>Mania priority: safety, low stimulation, rest, fluids, nutrition.</li>
+<li>Provide high-calorie finger foods — the patient may not sit long enough for a meal.</li>
+</ul>
 
 </div>
 
 <div class="warning">
 
-**Lithium:**
-- Therapeutic range: 0.6–1.2 mEq/L.
-- Toxicity signs: GI upset, worsening tremor, confusion, ataxia — hold and notify provider.
-- Low sodium or dehydration increases lithium toxicity risk.
-- ECT: may cause temporary short-term memory loss.
+<strong>Lithium:</strong>
+<ul>
+<li>Therapeutic range: 0.6–1.2 mEq/L.</li>
+<li>Toxicity signs: GI upset, worsening tremor, confusion, ataxia — hold and notify provider.</li>
+<li>Low sodium or dehydration increases lithium toxicity risk.</li>
+<li>ECT: may cause temporary short-term memory loss.</li>
+</ul>
 
 </div>
 

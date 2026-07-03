@@ -477,22 +477,26 @@ In dissociative disorders, medications should be used carefully because suicide 
 
 <div class="warning">
 
-**Somatic and conversion:**
-- Always assess physical symptoms first — do not assume psychiatric without ruling out medical causes.
-- Somatic symptoms are real to the patient; never dismiss or shame them.
-- Focus on function, coping, and daily routine — not on eliminating every symptom.
-- Do not reinforce secondary gain — spend time with the patient when they are not focused on symptoms.
-- Conversion disorder symptoms must be medically evaluated first; do not challenge them.
+<strong>Somatic and conversion:</strong>
+<ul>
+<li>Always assess physical symptoms first — do not assume psychiatric without ruling out medical causes.</li>
+<li>Somatic symptoms are real to the patient; never dismiss or shame them.</li>
+<li>Focus on function, coping, and daily routine — not on eliminating every symptom.</li>
+<li>Do not reinforce secondary gain — spend time with the patient when they are not focused on symptoms.</li>
+<li>Conversion disorder symptoms must be medically evaluated first; do not challenge them.</li>
+</ul>
 
 </div>
 
 <div class="warning">
 
-**Factitious, malingering, and dissociative:**
-- Factitious = wants the sick role. Malingering = wants external benefit (money, avoiding prison).
-- Factitious disorder imposed on another is abuse — protect the victim and report.
-- Dissociative disorders are strongly linked to trauma — safety and trust come first.
-- DID has high suicide risk — assess safety often.
+<strong>Factitious, malingering, and dissociative:</strong>
+<ul>
+<li>Factitious = wants the sick role. Malingering = wants external benefit (money, avoiding prison).</li>
+<li>Factitious disorder imposed on another is abuse — protect the victim and report.</li>
+<li>Dissociative disorders are strongly linked to trauma — safety and trust come first.</li>
+<li>DID has high suicide risk — assess safety often.</li>
+</ul>
 
 </div>
 

@@ -7,9 +7,9 @@ title: Mental Health Medications
 
 <div class="note">
 
-Mental health medication questions usually test **safety, side effects, toxicity, patient teaching, and when to notify the provider.**
+Mental health medication questions usually test <strong>safety, side effects, toxicity, patient teaching, and when to notify the provider.</strong>
 
-For NCLEX, focus on: **suicide risk, lithium toxicity, serotonin syndrome, NMS, EPS, benzodiazepine safety, withdrawal medications, and medication adherence.**
+For NCLEX, focus on: <strong>suicide risk, lithium toxicity, serotonin syndrome, NMS, EPS, benzodiazepine safety, withdrawal medications, and medication adherence.</strong>
 
 </div>
 
@@ -28,7 +28,7 @@ For NCLEX, focus on: **suicide risk, lithium toxicity, serotonin syndrome, NMS, 
 
 <div class="warning">
 
-**NCLEX:** Mental health meds can take time to work, but dangerous side effects can happen early. Always know what must be reported immediately.
+<strong>NCLEX:</strong> Mental health meds can take time to work, but dangerous side effects can happen early. Always know what must be reported immediately.
 
 </div>
 
@@ -67,7 +67,7 @@ Antidepressants are used for: major depressive disorder, persistent depressive d
 
 <div class="warning">
 
-**NCLEX:** Antidepressants may increase energy before mood improves. This can increase suicide risk early in treatment.
+<strong>NCLEX:</strong> Antidepressants may increase energy before mood improves. This can increase suicide risk early in treatment.
 
 </div>
 
@@ -92,7 +92,7 @@ Serotonin syndrome can happen when there is too much serotonin. Higher risk with
 
 <div class="warning">
 
-**Priority:** Hold the medication and notify the provider if serotonin syndrome is suspected.
+<strong>Priority:</strong> Hold the medication and notify the provider if serotonin syndrome is suspected.
 
 </div>
 
@@ -214,7 +214,7 @@ MAOIs can cause **hypertensive crisis** if taken with tyramine-rich foods.
 
 <div class="warning">
 
-**NCLEX:** MAOI + tyramine = hypertensive crisis risk.
+<strong>NCLEX:</strong> MAOI + tyramine = hypertensive crisis risk.
 
 </div>
 
@@ -281,7 +281,7 @@ Buspirone is used for long-term anxiety management.
 
 <div class="note">
 
-**Buspirone is not a rescue medication.** It will not stop an active panic attack right away.
+<strong>Buspirone is not a rescue medication.</strong> It will not stop an active panic attack right away.
 
 </div>
 
@@ -347,7 +347,7 @@ Lithium is a classic drug of choice for bipolar disorder. Lithium is a **salt**,
 
 <div class="warning">
 
-**If lithium toxicity is suspected:** hold the dose and notify the provider.
+<strong>If lithium toxicity is suspected:</strong> hold the dose and notify the provider.
 
 </div>
 
@@ -471,7 +471,7 @@ Antipsychotics are used for schizophrenia, psychosis, delusions, hallucinations,
 
 <div class="warning">
 
-**NMS = medical emergency.** Hold medication and notify provider immediately.
+<strong>NMS = medical emergency.</strong> Hold medication and notify provider immediately.
 
 </div>
 
@@ -494,7 +494,7 @@ Naloxone reverses opioid overdose.
 
 <div class="warning">
 
-**Opioid overdose priority:** respiratory depression. Support breathing and give naloxone as ordered.
+<strong>Opioid overdose priority:</strong> respiratory depression. Support breathing and give naloxone as ordered.
 
 </div>
 
@@ -667,31 +667,37 @@ Stimulants may be used for ADHD and some binge eating treatment. Examples: amphe
 
 <div class="warning">
 
-**Antidepressants and antianxiety:**
-- Antidepressants: suicide risk may increase early — energy improves before mood does.
-- SSRIs/SNRIs/St. John's Wort: watch for serotonin syndrome (fever, agitation, tremor, hyperreflexia).
-- MAOIs: avoid tyramine to prevent hypertensive crisis.
-- Benzodiazepines: sedation, fall risk, dependence, respiratory depression with alcohol or opioids.
-- Buspirone: takes weeks — not for immediate panic relief.
+<strong>Antidepressants and antianxiety:</strong>
+<ul>
+<li>Antidepressants: suicide risk may increase early — energy improves before mood does.</li>
+<li>SSRIs/SNRIs/St. John's Wort: watch for serotonin syndrome (fever, agitation, tremor, hyperreflexia).</li>
+<li>MAOIs: avoid tyramine to prevent hypertensive crisis.</li>
+<li>Benzodiazepines: sedation, fall risk, dependence, respiratory depression with alcohol or opioids.</li>
+<li>Buspirone: takes weeks — not for immediate panic relief.</li>
+</ul>
 
 </div>
 
 <div class="warning">
 
-**Mood stabilizers and antipsychotics:**
-- Lithium therapeutic level: 0.6–1.2 mEq/L. Toxicity → hold dose and notify provider.
-- Low sodium and dehydration increase lithium toxicity risk.
-- Antipsychotics: watch for EPS, tardive dyskinesia, metabolic effects.
-- NMS: high fever + muscle rigidity + altered mental status = medical emergency.
+<strong>Mood stabilizers and antipsychotics:</strong>
+<ul>
+<li>Lithium therapeutic level: 0.6–1.2 mEq/L. Toxicity → hold dose and notify provider.</li>
+<li>Low sodium and dehydration increase lithium toxicity risk.</li>
+<li>Antipsychotics: watch for EPS, tardive dyskinesia, metabolic effects.</li>
+<li>NMS: high fever + muscle rigidity + altered mental status = medical emergency.</li>
+</ul>
 
 </div>
 
 <div class="warning">
 
-**Substance-use medications:**
-- Opioid overdose: airway and breathing first; naloxone reverses opioids.
-- Alcohol withdrawal: benzodiazepines + seizure precautions + thiamine/B vitamins.
-- Disulfiram: alcohol reaction can be dangerous or fatal — avoid all forms of alcohol.
+<strong>Substance-use medications:</strong>
+<ul>
+<li>Opioid overdose: airway and breathing first; naloxone reverses opioids.</li>
+<li>Alcohol withdrawal: benzodiazepines + seizure precautions + thiamine/B vitamins.</li>
+<li>Disulfiram: alcohol reaction can be dangerous or fatal — avoid all forms of alcohol.</li>
+</ul>
 
 </div>
 
