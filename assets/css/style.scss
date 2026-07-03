@@ -904,6 +904,9 @@ body {
   margin: 1.25rem auto !important;
   border: 1px solid var(--border) !important;
 }
+.main-content img[style*="max-width:50%"] {
+  max-width: 50% !important;
+}
 
 /* =========================================================
    HOMEPAGE STUDY CARD GRID
