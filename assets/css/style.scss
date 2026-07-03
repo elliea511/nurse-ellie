@@ -1416,6 +1416,30 @@ body {
   --accent2-mid:  #7dd3fc;
 }
 
+[data-section="mental-health"] {
+  --ink:          #142510;
+  --muted:        #3d5c38;
+  --border:       #aed8a0;
+  --bg:           #f4fbf2;
+  --accent:       #2e7d32;
+  --accent-soft:  #edf7ea;
+  --accent-mid:   #81c784;
+  --accent-dark:  #1b5e20;
+  --accent2:      #66bb6a;
+  --accent2-soft: #f1f9f1;
+  --accent2-mid:  #a5d6a7;
+}
+
+.home-big-button.sage {
+  background: linear-gradient(145deg, rgba(220,245,215,0.88) 0%, rgba(180,225,175,0.88) 100%) !important;
+  border-color: #aed8a0 !important;
+  color: #1b5e20 !important;
+}
+.home-big-button.sage::before {
+  background: linear-gradient(to right, #1b5e20, #2e7d32);
+  border-radius: 20px 20px 0 0;
+}
+
 /* =========================================================
    HOMEPAGE FULL-PAGE LAYOUT
    ========================================================= */
