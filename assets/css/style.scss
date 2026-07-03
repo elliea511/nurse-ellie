@@ -965,6 +965,60 @@ body {
 }
 
 /* =========================================================
+   TOPIC LIST — compact link rows for section landing pages
+   ========================================================= */
+.topic-list {
+  list-style: none !important;
+  padding: 0 !important;
+  margin: 1rem 0 2rem 0 !important;
+}
+.topic-list li {
+  margin: 0 !important;
+  border-bottom: 1px solid var(--border) !important;
+}
+.topic-list li:first-child {
+  border-top: 1px solid var(--border) !important;
+}
+.topic-list a {
+  display: flex !important;
+  align-items: baseline !important;
+  gap: 1rem !important;
+  padding: 0.75rem 0.5rem !important;
+  text-decoration: none !important;
+  border-bottom: none !important;
+  color: var(--ink) !important;
+  transition: background 0.12s, padding-left 0.12s !important;
+}
+.topic-list a:hover {
+  background: var(--accent-soft) !important;
+  padding-left: 1rem !important;
+}
+.topic-list a:hover .tl-arrow {
+  color: var(--accent) !important;
+}
+.tl-arrow {
+  flex-shrink: 0 !important;
+  color: var(--accent-mid) !important;
+  font-size: 0.85rem !important;
+  transition: color 0.12s !important;
+}
+.tl-title {
+  font-weight: 700 !important;
+  font-size: 0.95rem !important;
+  color: var(--ink) !important;
+  flex-shrink: 0 !important;
+  min-width: 200px !important;
+}
+.tl-desc {
+  color: var(--muted) !important;
+  font-size: 0.87rem !important;
+  line-height: 1.4 !important;
+}
+[data-theme="dark"] .topic-list a:hover {
+  background: rgba(255,255,255,0.05) !important;
+}
+
+/* =========================================================
    HOMEPAGE HERO
    ========================================================= */
 
