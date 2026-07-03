@@ -385,35 +385,27 @@ Do not try to teach during severe anxiety or panic. First decrease anxiety and m
 # NCLEX Cues
 
 <div class="warning">
-<strong>Safety comes first.</strong> Suicide, homicide, violence, withdrawal, and abuse are priority concerns.
+
+**Safety first:** Suicide, homicide, violence, withdrawal, and abuse are always the priority — before teaching, coping, or discharge planning.
+
 </div>
 
-<div class="warning">
-<strong>Mood is stated. Affect is observed.</strong>
+<div class="note">
+
+**Assessment terminology:**
+- Mood is what the patient reports feeling. Affect is what you observe.
+- Delusions are fixed false beliefs — do not argue or agree with them.
+- Hallucinations require safety assessment, especially command hallucinations.
+
 </div>
 
-<div class="warning">
-<strong>Delusions are fixed false beliefs. Do not argue or agree.</strong>
-</div>
+<div class="note">
 
-<div class="warning">
-<strong>Hallucinations require safety assessment, especially command hallucinations.</strong>
-</div>
+**Interventions:**
+- Restraints and seclusion are last resort — use least restrictive intervention first.
+- Do not teach during panic-level anxiety — reduce stimulation first.
+- Maintain clear boundaries and consistent staff responses across the team.
 
-<div class="warning">
-<strong>Restraints and seclusion are last resort.</strong>
-</div>
-
-<div class="warning">
-<strong>Use the least restrictive intervention that keeps the patient safe.</strong>
-</div>
-
-<div class="warning">
-<strong>Do not teach during panic-level anxiety.</strong>
-</div>
-
-<div class="warning">
-<strong>Maintain clear boundaries and consistent staff responses.</strong>
 </div>
 
 ---
@@ -428,4 +420,11 @@ For basic mental health questions, ask:
 <strong>3. Is this mood, affect, thought process, thought content, or perception?</strong><br>
 <strong>4. Does the patient need limits, safety, structure, or support?</strong><br>
 <strong>5. What is the least restrictive safe intervention?</strong>
+</div>
+
+---
+
+<div class="page-nav">
+  <a href="{{ '/mental-health.html' | relative_url }}" class="page-nav-back">← Mental Health</a>
+  <a href="{{ '/mental-health/therapeutic-communication.html' | relative_url }}" class="page-nav-next">Therapeutic Communication →</a>
 </div>

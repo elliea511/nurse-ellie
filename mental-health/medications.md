@@ -667,79 +667,31 @@ Stimulants may be used for ADHD and some binge eating treatment. Examples: amphe
 
 <div class="warning">
 
-**Antidepressants:** suicide risk may increase early because energy improves before mood.
+**Antidepressants and antianxiety:**
+- Antidepressants: suicide risk may increase early — energy improves before mood does.
+- SSRIs/SNRIs/St. John's Wort: watch for serotonin syndrome (fever, agitation, tremor, hyperreflexia).
+- MAOIs: avoid tyramine to prevent hypertensive crisis.
+- Benzodiazepines: sedation, fall risk, dependence, respiratory depression with alcohol or opioids.
+- Buspirone: takes weeks — not for immediate panic relief.
 
 </div>
 
 <div class="warning">
 
-**SSRIs/SNRIs/St. John's Wort:** watch for serotonin syndrome.
+**Mood stabilizers and antipsychotics:**
+- Lithium therapeutic level: 0.6–1.2 mEq/L. Toxicity → hold dose and notify provider.
+- Low sodium and dehydration increase lithium toxicity risk.
+- Antipsychotics: watch for EPS, tardive dyskinesia, metabolic effects.
+- NMS: high fever + muscle rigidity + altered mental status = medical emergency.
 
 </div>
 
 <div class="warning">
 
-**MAOIs:** avoid tyramine to prevent hypertensive crisis.
-
-</div>
-
-<div class="warning">
-
-**Benzodiazepines:** sedation, falls, dependence, respiratory depression with alcohol/opioids.
-
-</div>
-
-<div class="note">
-
-**Buspirone:** takes weeks and is not for immediate panic relief.
-
-</div>
-
-<div class="note">
-
-**Lithium therapeutic level:** 0.6–1.2 mEq/L.
-
-</div>
-
-<div class="warning">
-
-**Lithium toxicity:** hold dose and notify provider.
-
-</div>
-
-<div class="warning">
-
-**Low sodium and dehydration increase lithium toxicity risk.**
-
-</div>
-
-<div class="note">
-
-**Antipsychotics:** EPS, tardive dyskinesia, NMS, and metabolic effects.
-
-</div>
-
-<div class="warning">
-
-**NMS:** high fever + muscle rigidity + altered mental status = emergency.
-
-</div>
-
-<div class="warning">
-
-**Opioid overdose:** airway and breathing priority; naloxone reverses opioids.
-
-</div>
-
-<div class="warning">
-
-**Alcohol withdrawal:** benzodiazepines, seizure precautions, thiamine/B vitamins.
-
-</div>
-
-<div class="warning">
-
-**Disulfiram:** alcohol reaction can be dangerous or fatal.
+**Substance-use medications:**
+- Opioid overdose: airway and breathing first; naloxone reverses opioids.
+- Alcohol withdrawal: benzodiazepines + seizure precautions + thiamine/B vitamins.
+- Disulfiram: alcohol reaction can be dangerous or fatal — avoid all forms of alcohol.
 
 </div>
 
@@ -780,4 +732,11 @@ For mental health medication questions, ask:
 
 **1. Is this a dangerous side effect or expected side effect?** **2. Does the medication require labs?** **3. Is there overdose, withdrawal, toxicity, or respiratory depression?** **4. Does the patient need teaching about delayed effect or adherence?** **5. Should the nurse hold the medication and notify the provider?**
 
+</div>
+
+---
+
+<div class="page-nav">
+  <a href="{{ '/mental-health/psychosis.html' | relative_url }}" class="page-nav-back">← Schizophrenia & Psychosis</a>
+  <a href="{{ '/mental-health/crisis-safety.html' | relative_url }}" class="page-nav-next">Crisis & Safety Priorities →</a>
 </div>

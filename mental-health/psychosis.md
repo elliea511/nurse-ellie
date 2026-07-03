@@ -559,61 +559,21 @@ Try first: calm approach, reduce stimulation, offer quiet room, give space, use 
 
 <div class="note">
 
-**Positive symptoms:** hallucinations, delusions, bizarre behavior, strange speech.
-
-</div>
-
-<div class="note">
-
-**Negative symptoms:** lack of speech, lack of emotion, lack of motivation, lack of energy.
-
-</div>
-
-<div class="warning">
-
-**Hallucinations:** ask what the voices are saying.
+**Symptoms:**
+- Positive symptoms: hallucinations, delusions, bizarre behavior, strange speech (something added).
+- Negative symptoms: lack of speech (alogia), flat affect, no motivation (avolition), low energy (anergia).
+- Speech patterns: neologism = made-up words; clang = rhyming; word salad = meaningless mixture.
 
 </div>
 
 <div class="warning">
 
-**Command hallucinations:** safety priority.
-
-</div>
-
-<div class="warning">
-
-**Delusions:** do not argue or agree; present reality calmly.
-
-</div>
-
-<div class="note">
-
-**Neologism:** made-up words.
-
-</div>
-
-<div class="note">
-
-**Clang association:** words linked by sound/rhyme.
-
-</div>
-
-<div class="note">
-
-**Word salad:** words strung together without meaning.
-
-</div>
-
-<div class="warning">
-
-**NMS:** fever, rigidity, altered mental status, unstable VS = emergency.
-
-</div>
-
-<div class="warning">
-
-**Seclusion/restraints:** last resort only.
+**Safety and response:**
+- Hallucinations: always ask what the voices are saying — content matters.
+- Command hallucinations: immediate safety priority.
+- Delusions: do not argue or agree; present reality calmly, focus on feelings.
+- NMS: fever + rigidity + altered mental status + unstable VS = medical emergency.
+- Seclusion/restraints: last resort only, never for punishment or convenience.
 
 </div>
 
@@ -652,4 +612,11 @@ For schizophrenia and psychosis questions, ask:
 
 **1. Is the patient safe?** **2. Are hallucinations commanding harm?** **3. Is this a delusion I should avoid arguing with?** **4. Are symptoms positive, negative, cognitive, or affective?** **5. Is the patient having antipsychotic side effects?** **6. Does the patient need low stimulation, simple communication, or reality-based support?**
 
+</div>
+
+---
+
+<div class="page-nav">
+  <a href="{{ '/mental-health/addiction.html' | relative_url }}" class="page-nav-back">← Addiction & Substance Use</a>
+  <a href="{{ '/mental-health/medications.html' | relative_url }}" class="page-nav-next">Mental Health Medications →</a>
 </div>

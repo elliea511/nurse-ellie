@@ -693,61 +693,27 @@ Avoid: "Why can't you just stop?" / "You should know better." / "You're ruining 
 
 <div class="warning">
 
-**Opioid overdose:** respiratory depression is the priority.
+**Life-threatening withdrawal:**
+- Alcohol withdrawal can be fatal — monitor VS, seizure risk, hallucinations, and DTs.
+- DTs typically occur around 72 hours after last drink.
+- Benzo/barbiturate withdrawal also requires gradual taper to prevent seizures.
+- Treat alcohol withdrawal with benzodiazepines (chlordiazepoxide, diazepam, lorazepam) + thiamine.
 
 </div>
 
 <div class="warning">
 
-**Naloxone reverses opioids** but monitor respirations because effects can wear off.
-
-</div>
-
-<div class="warning">
-
-**Alcohol withdrawal can be fatal.** Monitor VS, seizure risk, hallucinations, and DTs.
-
-</div>
-
-<div class="warning">
-
-**DTs usually occur around 72 hours after alcohol withdrawal begins.**
+**Overdose and substances:**
+- Opioid overdose: respiratory depression is the priority — airway first, then naloxone.
+- Naloxone reverses opioids but monitor respirations — effects can wear off before the opioid does.
+- Disulfiram + alcohol = serious or fatal reaction.
+- Stimulant withdrawal can cause severe depression — assess suicide risk.
 
 </div>
 
 <div class="note">
 
-**Alcohol withdrawal treatment commonly uses benzodiazepines** such as chlordiazepoxide, diazepam, or lorazepam.
-
-</div>
-
-<div class="note">
-
-**Thiamine is important in alcohol use disorder** to prevent/treat Wernicke-Korsakoff complications.
-
-</div>
-
-<div class="warning">
-
-**Benzo/barbiturate withdrawal requires gradual reduction** to prevent seizures.
-
-</div>
-
-<div class="note">
-
-**Stimulant withdrawal can cause depression.** Assess suicide risk.
-
-</div>
-
-<div class="warning">
-
-**Disulfiram + alcohol can be dangerous or fatal.**
-
-</div>
-
-<div class="note">
-
-**Use nonjudgmental questions.** Shame decreases honesty and trust.
+Use nonjudgmental language — shame decreases honesty and makes treatment harder.
 
 </div>
 
@@ -783,4 +749,11 @@ For addiction and substance use questions, ask:
 
 **1. Is this overdose or withdrawal?** **2. Is airway or breathing at risk?** **3. Is there seizure risk?** **4. Are vital signs unstable?** **5. Does the patient need withdrawal medication or emergency reversal?** **6. Am I using nonjudgmental communication and supporting recovery?**
 
+</div>
+
+---
+
+<div class="page-nav">
+  <a href="{{ '/mental-health/eating-disorders.html' | relative_url }}" class="page-nav-back">← Eating Disorders</a>
+  <a href="{{ '/mental-health/psychosis.html' | relative_url }}" class="page-nav-next">Schizophrenia & Psychosis →</a>
 </div>
