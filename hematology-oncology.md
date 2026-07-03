@@ -15,28 +15,32 @@ Hematology and oncology nursing covers blood disorders, anemias, and cancer care
 
 ## Choose a Topic
 
-<div class="study-card-grid">
+<ul class="topic-list">
 
-<a class="study-card" href="{{ '/hematology-oncology/anemias.html' | relative_url }}">
-<h2>Anemias</h2>
-<p>Iron-deficiency, pernicious, sickle cell, aplastic, and hemolytic anemias — causes, recognition, treatment, and nursing priorities.</p>
-</a>
+<li><a href="{{ '/hematology-oncology/anemias.html' | relative_url }}">
+<span class="tl-arrow">›</span>
+<span class="tl-title">Anemias</span>
+<span class="tl-desc">Iron-deficiency, pernicious, sickle cell, aplastic, and hemolytic anemias — causes, recognition, treatment, and nursing priorities.</span>
+</a></li>
 
-<a class="study-card" href="{{ '/hematology-oncology/oncology.html' | relative_url }}">
-<h2>Oncology</h2>
-<p>Cancer staging, chemotherapy, radiation, side effect management, oncologic emergencies, and priority nursing interventions.</p>
-</a>
+<li><a href="{{ '/hematology-oncology/oncology.html' | relative_url }}">
+<span class="tl-arrow">›</span>
+<span class="tl-title">Oncology</span>
+<span class="tl-desc">Cancer staging, chemotherapy, radiation, side effect management, oncologic emergencies, and priority nursing interventions.</span>
+</a></li>
 
-<a class="study-card" href="{{ '/hematology-oncology/anemia-practice-quiz.html' | relative_url }}">
-<h2>Anemia Practice Quiz</h2>
-<p>Practice questions on anemia types, lab interpretation, patient teaching, and nursing priorities.</p>
-</a>
+<li><a href="{{ '/hematology-oncology/anemia-practice-quiz.html' | relative_url }}">
+<span class="tl-arrow">›</span>
+<span class="tl-title">Anemia Practice Quiz</span>
+<span class="tl-desc">Practice questions on anemia types, lab interpretation, patient teaching, and nursing priorities.</span>
+</a></li>
 
-<a class="study-card" href="{{ '/hematology-oncology/oncology-practice-quiz.html' | relative_url }}">
-<h2>Oncology Practice Quiz</h2>
-<p>Practice questions covering cancer care, chemotherapy safety, and oncologic emergency recognition.</p>
-</a>
+<li><a href="{{ '/hematology-oncology/oncology-practice-quiz.html' | relative_url }}">
+<span class="tl-arrow">›</span>
+<span class="tl-title">Oncology Practice Quiz</span>
+<span class="tl-desc">Practice questions covering cancer care, chemotherapy safety, and oncologic emergency recognition.</span>
+</a></li>
 
-</div>
+</ul>
 
 ---
