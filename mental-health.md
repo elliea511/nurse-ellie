@@ -43,6 +43,12 @@ Mental health nursing appears throughout the NCLEX and clinical practice. This s
 <span class="tl-desc">Generalized anxiety, panic disorder, OCD, PTSD, phobias, and nursing management.</span>
 </a></li>
 
+<li><a href="{{ '/mental-health/somatic-factitious-dissociative.html' | relative_url }}">
+<span class="tl-arrow">›</span>
+<span class="tl-title">Somatic, Factitious & Dissociative</span>
+<span class="tl-desc">Somatic disorders, illness anxiety, conversion disorder, factitious disorder, malingering, and dissociative disorders.</span>
+</a></li>
+
 <li><a href="{{ '/mental-health/personality-disorders.html' | relative_url }}">
 <span class="tl-arrow">›</span>
 <span class="tl-title">Personality Disorders</span>
