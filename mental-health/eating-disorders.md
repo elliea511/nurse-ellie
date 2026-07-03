@@ -527,21 +527,25 @@ Eating disorder care is interdisciplinary.
 
 <div class="warning">
 
-**Medical priorities:**
-- Anorexia: severe restriction + fear of gaining weight + distorted body image — cardiac and electrolyte safety first.
-- Bulimia: binge + purge — weight may be normal, but hypokalemia = dysrhythmia risk.
-- Refeeding syndrome: watch phosphorus, potassium, magnesium, fluid shifts, and cardiac status.
+<strong>Medical priorities:</strong>
+<ul>
+<li>Anorexia: severe restriction + fear of gaining weight + distorted body image — cardiac and electrolyte safety first.</li>
+<li>Bulimia: binge + purge — weight may be normal, but hypokalemia = dysrhythmia risk.</li>
+<li>Refeeding syndrome: watch phosphorus, potassium, magnesium, fluid shifts, and cardiac status.</li>
+</ul>
 
 </div>
 
 <div class="warning">
 
-**Nursing approach:**
-- Supervise meals and monitor after meals to prevent hiding food or purging.
-- Do not argue about body image — focus on feelings, safety, nutrition, and health.
-- Maintain structure and boundaries around meals, exercise, and behavioral contracts.
-- Pica: eating nonfood substances — watch for poisoning, choking, obstruction, and lead exposure.
-- ARFID: restrictive intake without body image disturbance.
+<strong>Nursing approach:</strong>
+<ul>
+<li>Supervise meals and monitor after meals to prevent hiding food or purging.</li>
+<li>Do not argue about body image — focus on feelings, safety, nutrition, and health.</li>
+<li>Maintain structure and boundaries around meals, exercise, and behavioral contracts.</li>
+<li>Pica: eating nonfood substances — watch for poisoning, choking, obstruction, and lead exposure.</li>
+<li>ARFID: restrictive intake without body image disturbance.</li>
+</ul>
 
 </div>
 

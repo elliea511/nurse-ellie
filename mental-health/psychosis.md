@@ -9,7 +9,7 @@ title: Schizophrenia & Psychosis
 
 Schizophrenia is a psychotic disorder that affects how a person thinks, communicates, perceives reality, expresses emotions, and behaves.
 
-For NCLEX, focus on: **safety, hallucinations, delusions, therapeutic communication, medication adherence, antipsychotic side effects, hygiene/nutrition, and relapse prevention.**
+For NCLEX, focus on: <strong>safety, hallucinations, delusions, therapeutic communication, medication adherence, antipsychotic side effects, hygiene/nutrition, and relapse prevention.</strong>
 
 </div>
 
@@ -30,7 +30,7 @@ For NCLEX, focus on: **safety, hallucinations, delusions, therapeutic communicat
 
 <div class="warning">
 
-**NCLEX:** The nurse does not argue with hallucinations or delusions. The nurse assesses safety, validates feelings, and presents reality calmly.
+<strong>NCLEX:</strong> The nurse does not argue with hallucinations or delusions. The nurse assesses safety, validates feelings, and presents reality calmly.
 
 </div>
 
@@ -99,7 +99,7 @@ Negative symptoms are **decreased or missing normal function.**
 
 <div class="note">
 
-**Positive symptoms** = something extra is present. **Negative symptoms** = something normal is missing.
+<strong>Positive symptoms</strong> = something extra is present. <strong>Negative symptoms</strong> = something normal is missing.
 
 </div>
 
@@ -115,7 +115,7 @@ Negative symptoms are **decreased or missing normal function.**
 
 <div class="note">
 
-**Anosognosia** means the patient does not recognize they are ill. This can lead to medication refusal and relapse.
+<strong>Anosognosia</strong> means the patient does not recognize they are ill. This can lead to medication refusal and relapse.
 
 </div>
 
@@ -150,7 +150,7 @@ A delusion is a false, fixed belief. Do not argue with the patient — arguing u
 
 <div class="warning">
 
-**NCLEX:** Do not agree with delusions, but do not argue. Focus on feelings, safety, and reality-based statements.
+<strong>NCLEX:</strong> Do not agree with delusions, but do not argue. Focus on feelings, safety, and reality-based statements.
 
 </div>
 
@@ -185,7 +185,7 @@ When a patient reports hallucinations, assess:
 
 <div class="warning">
 
-**Command hallucinations** are priority because voices may tell the patient to harm self or others.
+<strong>Command hallucinations</strong> are priority because voices may tell the patient to harm self or others.
 
 </div>
 
@@ -355,7 +355,7 @@ Antipsychotics help reduce psychotic symptoms like hallucinations, delusions, ag
 
 <div class="warning">
 
-**NMS is an emergency:** fever + muscle rigidity + altered mental status + unstable vitals.
+<strong>NMS is an emergency:</strong> fever + muscle rigidity + altered mental status + unstable vitals.
 
 </div>
 
@@ -465,7 +465,7 @@ Try first: calm approach, reduce stimulation, offer quiet room, give space, use 
 
 <div class="warning">
 
-**NCLEX:** Seclusion and restraints are last resort, not punishment or convenience.
+<strong>NCLEX:</strong> Seclusion and restraints are last resort, not punishment or convenience.
 
 </div>
 
@@ -559,21 +559,25 @@ Try first: calm approach, reduce stimulation, offer quiet room, give space, use 
 
 <div class="note">
 
-**Symptoms:**
-- Positive symptoms: hallucinations, delusions, bizarre behavior, strange speech (something added).
-- Negative symptoms: lack of speech (alogia), flat affect, no motivation (avolition), low energy (anergia).
-- Speech patterns: neologism = made-up words; clang = rhyming; word salad = meaningless mixture.
+<strong>Symptoms:</strong>
+<ul>
+<li>Positive symptoms: hallucinations, delusions, bizarre behavior, strange speech (something added).</li>
+<li>Negative symptoms: lack of speech (alogia), flat affect, no motivation (avolition), low energy (anergia).</li>
+<li>Speech patterns: neologism = made-up words; clang = rhyming; word salad = meaningless mixture.</li>
+</ul>
 
 </div>
 
 <div class="warning">
 
-**Safety and response:**
-- Hallucinations: always ask what the voices are saying — content matters.
-- Command hallucinations: immediate safety priority.
-- Delusions: do not argue or agree; present reality calmly, focus on feelings.
-- NMS: fever + rigidity + altered mental status + unstable VS = medical emergency.
-- Seclusion/restraints: last resort only, never for punishment or convenience.
+<strong>Safety and response:</strong>
+<ul>
+<li>Hallucinations: always ask what the voices are saying — content matters.</li>
+<li>Command hallucinations: immediate safety priority.</li>
+<li>Delusions: do not argue or agree; present reality calmly, focus on feelings.</li>
+<li>NMS: fever + rigidity + altered mental status + unstable VS = medical emergency.</li>
+<li>Seclusion/restraints: last resort only, never for punishment or convenience.</li>
+</ul>
 
 </div>
 

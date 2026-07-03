@@ -459,23 +459,27 @@ Example: "I understand you are angry. I cannot allow yelling at other patients. 
 
 <div class="warning">
 
-**Nontherapeutic traps — always wrong:**
-- Do not ask "why" — it sounds blaming.
-- Do not give false reassurance — avoid "Everything will be okay."
-- Do not give advice — help the patient explore their own choices.
-- Do not agree with delusions or hallucinations — present reality calmly.
+<strong>Nontherapeutic traps — always wrong:</strong>
+<ul>
+<li>Do not ask "why" — it sounds blaming.</li>
+<li>Do not give false reassurance — avoid "Everything will be okay."</li>
+<li>Do not give advice — help the patient explore their own choices.</li>
+<li>Do not agree with delusions or hallucinations — present reality calmly.</li>
+</ul>
 
 </div>
 
 <div class="warning">
 
-**Situation-specific responses:**
-- Suicide: ask directly — it does not increase risk.
-- Hallucinations: ask what the voices are saying (content = safety priority).
-- Panic: stay with the patient, reduce stimulation, use short directions.
-- Abuse: believe the patient, avoid blame, interview alone.
-- Manipulation or splitting: keep staff responses consistent.
-- Anger or violence: maintain safety, set clear limits calmly.
+<strong>Situation-specific responses:</strong>
+<ul>
+<li>Suicide: ask directly — it does not increase risk.</li>
+<li>Hallucinations: ask what the voices are saying (content = safety priority).</li>
+<li>Panic: stay with the patient, reduce stimulation, use short directions.</li>
+<li>Abuse: believe the patient, avoid blame, interview alone.</li>
+<li>Manipulation or splitting: keep staff responses consistent.</li>
+<li>Anger or violence: maintain safety, set clear limits calmly.</li>
+</ul>
 
 </div>
 

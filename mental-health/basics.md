@@ -386,25 +386,29 @@ Do not try to teach during severe anxiety or panic. First decrease anxiety and m
 
 <div class="warning">
 
-**Safety first:** Suicide, homicide, violence, withdrawal, and abuse are always the priority — before teaching, coping, or discharge planning.
+<strong>Safety first:</strong> Suicide, homicide, violence, withdrawal, and abuse are always the priority — before teaching, coping, or discharge planning.
 
 </div>
 
 <div class="note">
 
-**Assessment terminology:**
-- Mood is what the patient reports feeling. Affect is what you observe.
-- Delusions are fixed false beliefs — do not argue or agree with them.
-- Hallucinations require safety assessment, especially command hallucinations.
+<strong>Assessment terminology:</strong>
+<ul>
+<li>Mood is what the patient reports feeling. Affect is what you observe.</li>
+<li>Delusions are fixed false beliefs — do not argue or agree with them.</li>
+<li>Hallucinations require safety assessment, especially command hallucinations.</li>
+</ul>
 
 </div>
 
 <div class="note">
 
-**Interventions:**
-- Restraints and seclusion are last resort — use least restrictive intervention first.
-- Do not teach during panic-level anxiety — reduce stimulation first.
-- Maintain clear boundaries and consistent staff responses across the team.
+<strong>Interventions:</strong>
+<ul>
+<li>Restraints and seclusion are last resort — use least restrictive intervention first.</li>
+<li>Do not teach during panic-level anxiety — reduce stimulation first.</li>
+<li>Maintain clear boundaries and consistent staff responses across the team.</li>
+</ul>
 
 </div>
 

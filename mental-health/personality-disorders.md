@@ -586,24 +586,28 @@ Medications do not "cure" personality disorders, but may help with symptoms or c
 
 <div class="note">
 
-**Cluster quick reference:**
-- Cluster A (odd/eccentric): Paranoid, Schizoid, Schizotypal.
-- Cluster B (dramatic/erratic): Antisocial, Borderline, Histrionic, Narcissistic.
-- Cluster C (anxious/fearful): Avoidant, Dependent, OCPD.
-- Personality disorders are long-standing, rigid patterns — not acute illness.
+<strong>Cluster quick reference:</strong>
+<ul>
+<li>Cluster A (odd/eccentric): Paranoid, Schizoid, Schizotypal.</li>
+<li>Cluster B (dramatic/erratic): Antisocial, Borderline, Histrionic, Narcissistic.</li>
+<li>Cluster C (anxious/fearful): Avoidant, Dependent, OCPD.</li>
+<li>Personality disorders are long-standing, rigid patterns — not acute illness.</li>
+</ul>
 
 </div>
 
 <div class="warning">
 
-**High-priority disorders:**
-- **Antisocial:** safety, firm limits, do not allow manipulation.
-- **Borderline:** self-harm risk, splitting, clear boundaries, team consistency.
-- **Histrionic:** attention-seeking — but still assess suicide risk.
-- **Narcissistic:** avoid power struggles, do not take insults personally.
-- **Dependent:** encourage decision-making and independence, do not foster dependence.
-- **OCPD ≠ OCD:** OCPD is perfectionism and control; OCD is obsessions and compulsions.
-- Staff consistency is the cornerstone of care — prevents splitting and manipulation.
+<strong>High-priority disorders:</strong>
+<ul>
+<li><strong>Antisocial:</strong> safety, firm limits, do not allow manipulation.</li>
+<li><strong>Borderline:</strong> self-harm risk, splitting, clear boundaries, team consistency.</li>
+<li><strong>Histrionic:</strong> attention-seeking — but still assess suicide risk.</li>
+<li><strong>Narcissistic:</strong> avoid power struggles, do not take insults personally.</li>
+<li><strong>Dependent:</strong> encourage decision-making and independence, do not foster dependence.</li>
+<li><strong>OCPD ≠ OCD:</strong> OCPD is perfectionism and control; OCD is obsessions and compulsions.</li>
+<li>Staff consistency is the cornerstone of care — prevents splitting and manipulation.</li>
+</ul>
 
 </div>
 

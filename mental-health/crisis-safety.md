@@ -9,7 +9,7 @@ title: Crisis & Safety Priorities
 
 This page is the quick mental health priority page.
 
-For NCLEX, crisis and safety questions usually ask: **Who is unsafe? What should the nurse do first? Does the patient need direct assessment, supervision, a safer environment, or emergency intervention?**
+For NCLEX, crisis and safety questions usually ask: <strong>Who is unsafe? What should the nurse do first? Does the patient need direct assessment, supervision, a safer environment, or emergency intervention?</strong>
 
 </div>
 
@@ -32,7 +32,7 @@ For NCLEX, crisis and safety questions usually ask: **Who is unsafe? What should
 
 <div class="warning">
 
-**NCLEX:** Safety comes before teaching, coping skills, long-term therapy, and discharge planning.
+<strong>NCLEX:</strong> Safety comes before teaching, coping skills, long-term therapy, and discharge planning.
 
 </div>
 
@@ -239,7 +239,7 @@ Mania is a safety issue because the patient may have poor judgment, little sleep
 
 <div class="note">
 
-Mania priority: **safety, low stimulation, rest, fluids, and nutrition.**
+Mania priority: <strong>safety, low stimulation, rest, fluids, and nutrition.</strong>
 
 </div>
 
@@ -388,22 +388,26 @@ Restraints are never for punishment, convenience, lack of staffing, or staff fru
 
 <div class="warning">
 
-**Always priority:** suicide, homicide, violence, overdose, withdrawal, abuse, and command hallucinations — before teaching, coping, or discharge.
-- Ask directly about suicide or homicide — do not hint around it.
-- Command hallucinations: ask what the voices are saying (content = safety priority).
-- Do not leave an actively suicidal patient alone.
-- Abuse: interview alone; report child/elder/vulnerable adult abuse — suspicion is enough.
-- Alcohol withdrawal/DTs: seizure risk; medical emergency.
+<strong>Always priority:</strong> suicide, homicide, violence, overdose, withdrawal, abuse, and command hallucinations — before teaching, coping, or discharge.
+<ul>
+<li>Ask directly about suicide or homicide — do not hint around it.</li>
+<li>Command hallucinations: ask what the voices are saying (content = safety priority).</li>
+<li>Do not leave an actively suicidal patient alone.</li>
+<li>Abuse: interview alone; report child/elder/vulnerable adult abuse — suspicion is enough.</li>
+<li>Alcohol withdrawal/DTs: seizure risk; medical emergency.</li>
+</ul>
 
 </div>
 
 <div class="note">
 
-**Situational responses:**
-- Delusions: do not argue or agree — present reality calmly, focus on feelings.
-- Panic: stay with the patient, reduce stimulation, use short directions.
-- Mania: decrease stimulation, set limits, provide finger foods and fluids.
-- Restraints/seclusion: last resort only, never for punishment or convenience.
+<strong>Situational responses:</strong>
+<ul>
+<li>Delusions: do not argue or agree — present reality calmly, focus on feelings.</li>
+<li>Panic: stay with the patient, reduce stimulation, use short directions.</li>
+<li>Mania: decrease stimulation, set limits, provide finger foods and fluids.</li>
+<li>Restraints/seclusion: last resort only, never for punishment or convenience.</li>
+</ul>
 
 </div>
 
