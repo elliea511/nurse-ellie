@@ -132,18 +132,16 @@ Panic disorder involves repeated panic attacks that occur unpredictably. A panic
 
 ## Panic Attack Findings
 
-| Finding |
-|---|
-| Feeling of impending doom |
-| Chest pain |
-| Shortness of breath |
-| Palpitations |
-| Trembling |
-| Sweating |
-| Dizziness |
-| Poor concentration |
-| Irrational thoughts |
-| Desire to escape |
+- Feeling of impending doom
+- Chest pain
+- Shortness of breath
+- Palpitations
+- Trembling
+- Sweating
+- Dizziness
+- Poor concentration
+- Irrational thoughts
+- Desire to escape
 
 <div class="note">
 Panic attacks usually peak in about <strong>10–15 minutes</strong> and often do not last longer than <strong>30 minutes</strong>.
@@ -209,15 +207,13 @@ Social anxiety disorder is fear of embarrassment, judgment, or public ridicule i
 
 ## Assessment
 
-| Finding |
-|---|
-| Fear of speaking in public |
-| Avoids answering questions in class/group |
-| Likes to stay unnoticed |
-| Fear of being laughed at |
-| May feign illness to avoid social situations |
-| Social avoidance interferes with life |
-| Low self-confidence |
+- Fear of speaking in public
+- Avoids answering questions in class/group
+- Likes to stay unnoticed
+- Fear of being laughed at
+- May feign illness to avoid social situations
+- Social avoidance interferes with life
+- Low self-confidence
 
 ## Nursing Care
 
@@ -238,14 +234,12 @@ Agoraphobia is fear of being in places where escape may be difficult or help may
 
 ## Assessment
 
-| Finding |
-|---|
-| Fear of being trapped |
-| Fear of not being able to escape |
-| Avoids public places |
-| May become homebound |
-| Panic symptoms in public |
-| Needs support person to leave home |
+- Fear of being trapped
+- Fear of not being able to escape
+- Avoids public places
+- May become homebound
+- Panic symptoms in public
+- Needs support person to leave home
 
 ## Nursing Care
 
@@ -265,14 +259,12 @@ Separation anxiety is normal in toddlers, but abnormal when it persists or appea
 
 ## Assessment
 
-| Finding |
-|---|
-| Clinginess |
-| Nightmares |
-| Insomnia |
-| Fear of separation |
-| Lack of self-direction |
-| Anxiety when away from attachment figure |
+- Clinginess
+- Nightmares
+- Insomnia
+- Fear of separation
+- Lack of self-direction
+- Anxiety when away from attachment figure
 
 Nursing focus: assess trauma or loss history, encourage independence gradually, teach coping skills, support healthy relationships, and treat coexisting depression/anxiety if ordered.
 
@@ -309,15 +301,13 @@ Obsessions are thoughts. Compulsions are actions.
 
 ## OCD Assessment
 
-| Finding |
-|---|
-| Rituals become time-consuming |
-| Patient feels driven to perform behavior |
-| Anxiety increases if ritual is blocked |
-| Ritual must be performed "correctly" |
-| Interferes with ADLs/work/school |
-| Patient may feel shame |
-| Depression/eating disorders/bipolar may coexist |
+- Rituals become time-consuming
+- Patient feels driven to perform behavior
+- Anxiety increases if ritual is blocked
+- Ritual must be performed "correctly"
+- Interferes with ADLs/work/school
+- Patient may feel shame
+- Depression/eating disorders/bipolar may coexist
 
 Common compulsions: handwashing, checking locks/stove, counting, ordering/arranging, repeating words, cleaning.
 
@@ -357,13 +347,11 @@ Body dysmorphic disorder involves obsessive thoughts about a perceived body defe
 
 ## Assessment
 
-| Finding |
-|---|
-| Preoccupation with perceived body flaw |
-| Repeated mirror checking or hiding body part |
-| Seeking cosmetic procedures |
-| Not satisfied even after surgery |
-| Anxiety, depression, or substance use may coexist |
+- Preoccupation with perceived body flaw
+- Repeated mirror checking or hiding body part
+- Seeking cosmetic procedures
+- Not satisfied even after surgery
+- Anxiety, depression, or substance use may coexist
 
 ## Nursing Focus
 
@@ -383,15 +371,13 @@ Hoarding disorder involves difficulty discarding items, even if they seem worthl
 
 ## Assessment
 
-| Finding |
-|---|
-| Excessive saving of items |
-| Difficulty discarding |
-| Living areas cluttered/unusable |
-| Family frustration/isolation |
-| Anxiety when discarding items |
-| May hoard animals |
-| Usually worsens with age |
+- Excessive saving of items
+- Difficulty discarding
+- Living areas cluttered/unusable
+- Family frustration/isolation
+- Anxiety when discarding items
+- May hoard animals
+- Usually worsens with age
 
 Nursing focus: assess safety of environment, assess fire/fall/infection risks, encourage therapy, avoid forcing sudden cleanout unless safety emergency, work gradually on decision-making and coping.
 
@@ -439,19 +425,17 @@ Flashback = the patient feels like the trauma is happening again in the present.
 
 ## PTSD Assessment
 
-| Finding |
-|---|
-| Intrusive memories |
-| Nightmares |
-| Flashbacks |
-| Avoids reminders |
-| Hypervigilance |
-| Irritability |
-| Depression |
-| Sleep problems |
-| Difficulty trusting others |
-| Substance use risk |
-| Relationship difficulties |
+- Intrusive memories
+- Nightmares
+- Flashbacks
+- Avoids reminders
+- Hypervigilance
+- Irritability
+- Depression
+- Sleep problems
+- Difficulty trusting others
+- Substance use risk
+- Relationship difficulties
 
 ---
 
@@ -493,16 +477,14 @@ Acute stress disorder occurs soon after a traumatic event. It is diagnosed when 
 
 ## Assessment
 
-| Finding |
-|---|
-| Derealization |
-| Intrusive thoughts |
-| Avoiding reminders |
-| Hypervigilance |
-| Agitation |
-| Restlessness |
-| Difficulty explaining what happened |
-| Sleep disturbance |
+- Derealization
+- Intrusive thoughts
+- Avoiding reminders
+- Hypervigilance
+- Agitation
+- Restlessness
+- Difficulty explaining what happened
+- Sleep disturbance
 
 ## Nursing Care
 
@@ -549,14 +531,12 @@ Treatment includes psychotherapy, family therapy, group therapy, crisis interven
 
 Examples: lorazepam, diazepam, alprazolam, clonazepam.
 
-| Teaching |
-|---|
-| Use short-term if possible |
-| Can cause sedation |
-| Avoid alcohol and other CNS depressants |
-| Increased fall risk |
-| Can cause tolerance/dependence |
-| Do not stop suddenly if long-term use |
+- Use short-term if possible
+- Can cause sedation
+- Avoid alcohol and other CNS depressants
+- Increased fall risk
+- Can cause tolerance/dependence
+- Do not stop suddenly if long-term use
 
 ---
 
@@ -564,13 +544,11 @@ Examples: lorazepam, diazepam, alprazolam, clonazepam.
 
 Buspirone is useful for long-term anxiety.
 
-| Key Teaching |
-|---|
-| Takes weeks to work |
-| Does not cause tolerance/addiction like benzodiazepines |
-| Not useful for immediate panic relief |
-| Avoid if severe liver/kidney disease unless provider approves |
-| Take consistently |
+- Takes weeks to work
+- Does not cause tolerance/addiction like benzodiazepines
+- Not useful for immediate panic relief
+- Avoid if severe liver/kidney disease unless provider approves
+- Take consistently
 
 <div class="note">
 Buspirone is not a rescue medication. It takes time to become therapeutic.

@@ -884,12 +884,10 @@ It can be measured in:
 
 Multiple marker screening may include:
 
-| Marker               |
-| -------------------- |
-| AFP                  |
-| hCG                  |
-| Unconjugated estriol |
-| Inhibin A            |
+- AFP
+- hCG
+- Unconjugated estriol
+- Inhibin A
 
 It helps increase detection of:
 

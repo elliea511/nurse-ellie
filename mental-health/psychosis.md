@@ -44,15 +44,13 @@ Schizophrenia affects the patient's ability to: think clearly, communicate logic
 
 ## Possible Causes / Risk Factors
 
-| Factor |
-|---|
-| Altered brain chemistry |
-| Excess dopamine activity |
-| Genetic factors |
-| Family history |
-| Substance use |
-| Brain changes/atrophy seen on scans |
-| Typical onset between ages 15–25 |
+- Altered brain chemistry
+- Excess dopamine activity
+- Genetic factors
+- Family history
+- Substance use
+- Brain changes/atrophy seen on scans
+- Typical onset between ages 15–25
 
 <div class="note">
 
@@ -393,11 +391,9 @@ Antipsychotics help reduce psychotic symptoms like hallucinations, delusions, ag
 
 Schizoaffective disorder has symptoms of schizophrenia plus mood disorder symptoms.
 
-| Key Point |
-|---|
-| Psychosis plus bipolar or depressive symptoms |
-| Mood symptoms and psychosis may cycle |
-| Treated with antipsychotics and mood/depression meds as ordered |
+- Psychosis plus bipolar or depressive symptoms
+- Mood symptoms and psychosis may cycle
+- Treated with antipsychotics and mood/depression meds as ordered
 
 ---
 
@@ -405,11 +401,9 @@ Schizoaffective disorder has symptoms of schizophrenia plus mood disorder sympto
 
 Brief psychotic disorder is a short psychotic episode, often triggered by severe stress.
 
-| Key Point |
-|---|
-| Lasts from 1 day to 1 month |
-| Patient returns to previous functioning |
-| Can occur after severe stress |
+- Lasts from 1 day to 1 month
+- Patient returns to previous functioning
+- Can occur after severe stress
 
 ---
 
@@ -417,11 +411,9 @@ Brief psychotic disorder is a short psychotic episode, often triggered by severe
 
 Schizophreniform disorder is psychosis lasting **1 month to 6 months**.
 
-| Key Point |
-|---|
-| Used when symptoms have not lasted long enough for schizophrenia |
-| If symptoms continue longer than 6 months, schizophrenia may be diagnosed |
-| Some patients recover without further episodes |
+- Used when symptoms have not lasted long enough for schizophrenia
+- If symptoms continue longer than 6 months, schizophrenia may be diagnosed
+- Some patients recover without further episodes
 
 ---
 
@@ -429,13 +421,11 @@ Schizophreniform disorder is psychosis lasting **1 month to 6 months**.
 
 Occurs when intoxication, withdrawal, drug interactions, or psychoactive substances cause psychosis.
 
-| Examples |
-|---|
-| Hallucinogens |
-| Alcohol withdrawal |
-| Drug interactions |
-| Stimulants |
-| Other psychoactive substances |
+- Hallucinogens
+- Alcohol withdrawal
+- Drug interactions
+- Stimulants
+- Other psychoactive substances
 
 ---
 
@@ -443,11 +433,9 @@ Occurs when intoxication, withdrawal, drug interactions, or psychoactive substan
 
 Medical conditions can cause psychosis-like symptoms.
 
-| Medical Condition |
-|---|
-| Dementia |
-| Huntington's chorea |
-| Parkinson's disease |
+- Dementia
+- Huntington's chorea
+- Parkinson's disease
 
 <div class="note">
 
@@ -475,18 +463,16 @@ Try first: calm approach, reduce stimulation, offer quiet room, give space, use 
 
 ## Signs of Relapse
 
-| Possible Early Sign |
-|---|
-| Stopping medications |
-| Increased isolation |
-| Poor sleep |
-| Increased suspiciousness |
-| More hallucinations |
-| Declining hygiene |
-| Increased agitation |
-| Substance use |
-| Missed appointments |
-| Family notices odd behavior |
+- Stopping medications
+- Increased isolation
+- Poor sleep
+- Increased suspiciousness
+- More hallucinations
+- Declining hygiene
+- Increased agitation
+- Substance use
+- Missed appointments
+- Family notices odd behavior
 
 ## Patient / Family Teaching
 

@@ -130,19 +130,17 @@ Specific person + specific plan + access to weapon = high risk.
 
 ## Violence Warning Signs
 
-| Warning Sign |
-|---|
-| Pacing |
-| Clenched fists |
-| Loud voice |
-| Threats |
-| Staring |
-| Agitation |
-| Paranoia |
-| Intoxication |
-| Invading personal space |
-| History of violence |
-| Weapon access |
+- Pacing
+- Clenched fists
+- Loud voice
+- Threats
+- Staring
+- Agitation
+- Paranoia
+- Intoxication
+- Invading personal space
+- History of violence
+- Weapon access
 
 ---
 
@@ -266,12 +264,10 @@ If abuse is suspected, interview the patient alone.
 
 Report suspected abuse of:
 
-| Group |
-|---|
-| Children |
-| Older adults |
-| Vulnerable/dependent adults |
-| Disabled adults unable to protect self |
+- Children
+- Older adults
+- Vulnerable/dependent adults
+- Disabled adults unable to protect self
 
 <div class="warning">
 

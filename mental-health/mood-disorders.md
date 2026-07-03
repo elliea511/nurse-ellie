@@ -77,17 +77,15 @@ The patient has at least **5 symptoms nearly every day for 2 weeks**, and one mu
 
 ## Depression Risk Factors
 
-| Risk Factor |
-|---|
-| Female gender |
-| Unmarried status |
-| Low socioeconomic status |
-| Early childhood trauma |
-| Family history of depression |
-| Medical illness |
-| Substance use |
-| Recent loss or major life stressor |
-| History of abuse or trauma |
+- Female gender
+- Unmarried status
+- Low socioeconomic status
+- Early childhood trauma
+- Family history of depression
+- Medical illness
+- Substance use
+- Recent loss or major life stressor
+- History of abuse or trauma
 
 ---
 
@@ -288,17 +286,15 @@ Mood episodes can affect sleep, energy, judgment, speech, impulse control, relat
 
 ## Bipolar Risk Factors
 
-| Risk Factor |
-|---|
-| Genetic inheritance |
-| Brain anomalies |
-| Inflammation |
-| Family stress |
-| Adverse childhood events |
-| Physical, emotional, or sexual abuse |
-| Neglect |
-| Dysfunctional family history |
-| Substance use |
+- Genetic inheritance
+- Brain anomalies
+- Inflammation
+- Family stress
+- Adverse childhood events
+- Physical, emotional, or sexual abuse
+- Neglect
+- Dysfunctional family history
+- Substance use
 
 <div class="warning">
 Bipolar disorder has a high suicide risk, especially during depressive episodes or mixed mood states.
@@ -417,12 +413,10 @@ Example: "I understand you have a lot of energy. It is time to lower your voice.
 
 Cyclothymia involves hypomanic symptoms alternating with milder depressive symptoms.
 
-| Key Point |
-|---|
-| Mood highs/lows are not as severe as bipolar I or II |
-| Patient may be chronically depressed |
-| Can be precursor to bipolar disorder |
-| Substance use and sleep disorders may occur |
+- Mood highs/lows are not as severe as bipolar I or II
+- Patient may be chronically depressed
+- Can be precursor to bipolar disorder
+- Substance use and sleep disorders may occur
 
 ---
 
@@ -430,11 +424,9 @@ Cyclothymia involves hypomanic symptoms alternating with milder depressive sympt
 
 Rapid cycling means at least **4 mood changes in 1 year**.
 
-| Key Point |
-|---|
-| Mood episodes occur frequently |
-| Patient may have little or no normal mood between episodes |
-| Requires close medication and safety monitoring |
+- Mood episodes occur frequently
+- Patient may have little or no normal mood between episodes
+- Requires close medication and safety monitoring
 
 ---
 

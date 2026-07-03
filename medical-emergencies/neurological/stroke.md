@@ -45,17 +45,15 @@ Symptoms are sudden and may include:
 
 ## Nursing Care for TIA
 
-| Nursing Care |
-|---|
-| Assess neurological status |
-| Ask when symptoms started |
-| Ask when symptoms resolved |
-| Notify provider |
-| Monitor vital signs |
-| Assess blood glucose |
-| Monitor for return or worsening of symptoms |
-| Teach stroke warning signs |
-| Teach risk factor control |
+- Assess neurological status
+- Ask when symptoms started
+- Ask when symptoms resolved
+- Notify provider
+- Monitor vital signs
+- Assess blood glucose
+- Monitor for return or worsening of symptoms
+- Teach stroke warning signs
+- Teach risk factor control
 
 ---
 
@@ -131,14 +129,12 @@ A hemorrhagic stroke occurs when there is bleeding in or around the brain.
 
 ### Causes / Risk Factors
 
-| Cause / Risk Factor |
-|---|
-| Severe hypertension |
-| Aneurysm |
-| Cranial hemorrhage |
-| Anticoagulant use |
-| Head trauma |
-| Vascular malformation |
+- Severe hypertension
+- Aneurysm
+- Cranial hemorrhage
+- Anticoagulant use
+- Head trauma
+- Vascular malformation
 
 ### Why It Is Dangerous
 
@@ -192,17 +188,15 @@ Use FAST to recognize stroke:
 
 Other possible symptoms:
 
-| Other Stroke Symptoms |
-|---|
-| Sudden confusion |
-| Sudden numbness or weakness |
-| Vision changes |
-| Severe headache |
-| Trouble walking |
-| Dizziness |
-| Loss of balance |
-| Trouble speaking |
-| Trouble understanding speech |
+- Sudden confusion
+- Sudden numbness or weakness
+- Vision changes
+- Severe headache
+- Trouble walking
+- Dizziness
+- Loss of balance
+- Trouble speaking
+- Trouble understanding speech
 
 ---
 
@@ -350,20 +344,18 @@ It helps re-establish blood flow, prevent cerebral infarction, and limit seconda
 
 Assess:
 
-| Before Thrombolytics |
-|---|
-| Last known well time |
-| Eligibility criteria |
-| Consent |
-| Weight, because dose is weight-based |
-| Vital signs |
-| Signs of hemorrhage |
-| Signs of intracranial bleeding |
-| Baseline PT/INR |
-| Baseline aPTT |
-| Blood glucose |
-| Recent surgery or trauma history |
-| Current anticoagulant use |
+- Last known well time
+- Eligibility criteria
+- Consent
+- Weight, because dose is weight-based
+- Vital signs
+- Signs of hemorrhage
+- Signs of intracranial bleeding
+- Baseline PT/INR
+- Baseline aPTT
+- Blood glucose
+- Recent surgery or trauma history
+- Current anticoagulant use
 
 ---
 
@@ -371,18 +363,16 @@ Assess:
 
 After thrombolytics, monitor for:
 
-| Possible Bleeding / Worsening Signs |
-|---|
-| Severe headache |
-| Sudden worsening neuro status |
-| Vomiting |
-| Decreased level of consciousness |
-| Bleeding gums |
-| Blood in urine |
-| Blood in stool |
-| Bruising |
-| Hypotension |
-| Signs of intracranial bleeding |
+- Severe headache
+- Sudden worsening neuro status
+- Vomiting
+- Decreased level of consciousness
+- Bleeding gums
+- Blood in urine
+- Blood in stool
+- Bruising
+- Hypotension
+- Signs of intracranial bleeding
 
 ---
 
@@ -431,26 +421,22 @@ Dysphagia increases the risk for aspiration.
 
 ### Nursing Care
 
-| Nursing Care |
-|---|
-| Keep the client NPO until swallow screen is completed |
-| Do not give PO meds until swallowing is cleared |
-| Watch for coughing, choking, drooling, or wet voice |
-| Keep suction available if needed |
-| Sit the client upright when eating is allowed |
-| Use thickened liquids if ordered |
+- Keep the client NPO until swallow screen is completed
+- Do not give PO meds until swallowing is cleared
+- Watch for coughing, choking, drooling, or wet voice
+- Keep suction available if needed
+- Sit the client upright when eating is allowed
+- Use thickened liquids if ordered
 
 ### Signs of Aspiration Risk
 
-| Signs of Aspiration Risk |
-|---|
-| Coughing with food or fluids |
-| Wet/gurgly voice |
-| Drooling |
-| Pocketing food |
-| Choking |
-| Difficulty swallowing |
-| Recurrent pneumonia |
+- Coughing with food or fluids
+- Wet/gurgly voice
+- Drooling
+- Pocketing food
+- Choking
+- Difficulty swallowing
+- Recurrent pneumonia
 
 ---
 
@@ -460,29 +446,25 @@ Stroke can lead to swelling and increased intracranial pressure.
 
 ### Watch For
 
-| Increased ICP Concern |
-|---|
-| Decreased level of consciousness |
-| Worsening headache |
-| Vomiting |
-| Pupil changes |
-| Worsening weakness |
-| Seizures |
-| Abnormal posturing |
-| Changes in vital signs |
+- Decreased level of consciousness
+- Worsening headache
+- Vomiting
+- Pupil changes
+- Worsening weakness
+- Seizures
+- Abnormal posturing
+- Changes in vital signs
 
 ### Nursing Care to Reduce ICP Risk
 
-| Nursing Care |
-|---|
-| Keep HOB at least 30° unless contraindicated |
-| Keep head midline |
-| Avoid excessive stimulation |
-| Avoid clustering care |
-| Hyperoxygenate before suctioning |
-| Avoid prolonged suctioning |
-| Monitor neuro status frequently |
-| Report worsening changes quickly |
+- Keep HOB at least 30° unless contraindicated
+- Keep head midline
+- Avoid excessive stimulation
+- Avoid clustering care
+- Hyperoxygenate before suctioning
+- Avoid prolonged suctioning
+- Monitor neuro status frequently
+- Report worsening changes quickly
 
 ---
 

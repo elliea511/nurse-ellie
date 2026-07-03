@@ -77,18 +77,16 @@ Antidepressants are used for: major depressive disorder, persistent depressive d
 
 Serotonin syndrome can happen when there is too much serotonin. Higher risk with SSRIs, SNRIs, MAOIs, St. John's Wort, or multiple serotonergic meds together.
 
-| Signs/Symptoms |
-|---|
-| Fever |
-| Agitation |
-| Confusion |
-| Sweating |
-| Diarrhea |
-| Tremors |
-| Hyperreflexia |
-| Muscle rigidity |
-| Tachycardia |
-| Hypertension |
+- Fever
+- Agitation
+- Confusion
+- Sweating
+- Diarrhea
+- Tremors
+- Hyperreflexia
+- Muscle rigidity
+- Tachycardia
+- Hypertension
 
 <div class="warning">
 
@@ -121,13 +119,11 @@ SSRIs increase serotonin availability. Examples: citalopram, escitalopram, fluox
 
 SNRIs affect serotonin and norepinephrine. Examples: venlafaxine, duloxetine.
 
-| Nursing Focus |
-|---|
-| Monitor BP |
-| Watch for serotonin syndrome |
-| Do not stop suddenly |
-| Takes weeks to work |
-| Report suicidal thoughts |
+- Monitor BP
+- Watch for serotonin syndrome
+- Do not stop suddenly
+- Takes weeks to work
+- Report suicidal thoughts
 
 ---
 
@@ -135,13 +131,11 @@ SNRIs affect serotonin and norepinephrine. Examples: venlafaxine, duloxetine.
 
 Bupropion is an NDRI. Used for depression, smoking cessation support, and sometimes other conditions.
 
-| Nursing Focus |
-|---|
-| Can lower seizure threshold |
-| Avoid or use caution with seizure history |
-| Avoid or use caution with eating disorder history |
-| May cause insomnia |
-| Monitor mood/suicide risk |
+- Can lower seizure threshold
+- Avoid or use caution with seizure history
+- Avoid or use caution with eating disorder history
+- May cause insomnia
+- Monitor mood/suicide risk
 
 <div class="note">
 
@@ -166,14 +160,12 @@ Tricyclic antidepressants include imipramine and amitriptyline.
 
 ## Teaching
 
-| Teaching |
-|---|
-| Change positions slowly |
-| Increase fluids/fiber if allowed |
-| Use sugar-free candy for dry mouth |
-| Avoid alcohol/CNS depressants |
-| Keep medication away from suicidal patients |
-| Report chest pain, palpitations, severe dizziness |
+- Change positions slowly
+- Increase fluids/fiber if allowed
+- Use sugar-free candy for dry mouth
+- Avoid alcohol/CNS depressants
+- Keep medication away from suicidal patients
+- Report chest pain, palpitations, severe dizziness
 
 ---
 
@@ -187,30 +179,26 @@ MAOIs can cause **hypertensive crisis** if taken with tyramine-rich foods.
 
 ## Avoid Tyramine Foods
 
-| Avoid |
-|---|
-| Aged cheese |
-| Cured meats |
-| Smoked meats |
-| Fermented foods |
-| Soy sauce |
-| Sauerkraut |
-| Red wine |
-| Draft beer |
-| Some overripe foods |
+- Aged cheese
+- Cured meats
+- Smoked meats
+- Fermented foods
+- Soy sauce
+- Sauerkraut
+- Red wine
+- Draft beer
+- Some overripe foods
 
 ## Hypertensive Crisis Symptoms
 
-| Symptoms |
-|---|
-| Severe headache |
-| Stiff neck |
-| Hypertension |
-| Chest pain |
-| Palpitations |
-| Nausea/vomiting |
-| Sweating |
-| Confusion |
+- Severe headache
+- Stiff neck
+- Hypertension
+- Chest pain
+- Palpitations
+- Nausea/vomiting
+- Sweating
+- Confusion
 
 <div class="warning">
 
@@ -250,14 +238,12 @@ Examples: diazepam (Valium), lorazepam (Ativan), chlordiazepoxide (Librium).
 
 ## Teaching
 
-| Teaching |
-|---|
-| Avoid alcohol |
-| Avoid opioids/CNS depressants unless prescribed and monitored |
-| Do not drive until effects are known |
-| Rise slowly |
-| Do not stop suddenly after long-term use |
-| Use only as prescribed |
+- Avoid alcohol
+- Avoid opioids/CNS depressants unless prescribed and monitored
+- Do not drive until effects are known
+- Rise slowly
+- Do not stop suddenly after long-term use
+- Use only as prescribed
 
 <div class="warning">
 
@@ -271,13 +257,11 @@ Benzodiazepines plus alcohol or opioids can cause dangerous respiratory depressi
 
 Buspirone is used for long-term anxiety management.
 
-| Key Teaching |
-|---|
-| Takes weeks to work |
-| Not for immediate panic relief |
-| No tolerance/addiction like benzodiazepines |
-| Take consistently |
-| Avoid use with severe liver/kidney disease unless provider approves |
+- Takes weeks to work
+- Not for immediate panic relief
+- No tolerance/addiction like benzodiazepines
+- Take consistently
+- Avoid use with severe liver/kidney disease unless provider approves
 
 <div class="note">
 
@@ -291,21 +275,17 @@ Buspirone is used for long-term anxiety management.
 
 Propranolol may be used to reduce physical symptoms of anxiety.
 
-| Helps With |
-|---|
-| Tremors |
-| Tachycardia |
-| Shaky voice |
-| Performance anxiety symptoms |
+- Tremors
+- Tachycardia
+- Shaky voice
+- Performance anxiety symptoms
 
 ## Nursing Focus
 
-| Monitor |
-|---|
-| Heart rate |
-| Blood pressure |
-| Dizziness |
-| Bronchospasm risk in asthma/COPD depending on medication |
+- Heart rate
+- Blood pressure
+- Dizziness
+- Bronchospasm risk in asthma/COPD depending on medication
 
 ---
 
@@ -399,18 +379,16 @@ Anticonvulsants may be used if lithium is not effective or cannot be used.
 
 ## Possible Severe Side Effects
 
-| Side Effect |
-|---|
-| Liver problems |
-| Coagulation problems |
-| Pancreatitis |
-| Bone marrow suppression |
-| Dizziness |
-| Headache |
-| Blurred vision |
-| Rash |
-| Speech difficulties |
-| Birth defect risk if pregnant |
+- Liver problems
+- Coagulation problems
+- Pancreatitis
+- Bone marrow suppression
+- Dizziness
+- Headache
+- Blurred vision
+- Rash
+- Speech difficulties
+- Birth defect risk if pregnant
 
 <div class="warning">
 
@@ -460,14 +438,12 @@ Antipsychotics are used for schizophrenia, psychosis, delusions, hallucinations,
 
 ## Neuroleptic Malignant Syndrome
 
-| Signs |
-|---|
-| High fever |
-| Severe muscle rigidity |
-| Altered mental status |
-| Unstable blood pressure |
-| Tachycardia |
-| Sweating |
+- High fever
+- Severe muscle rigidity
+- Altered mental status
+- Unstable blood pressure
+- Tachycardia
+- Sweating
 
 <div class="warning">
 
@@ -483,14 +459,12 @@ Antipsychotics are used for schizophrenia, psychosis, delusions, hallucinations,
 
 Naloxone reverses opioid overdose.
 
-| Key Point |
-|---|
-| Used for opioid overdose |
-| Priority is airway/breathing first |
-| Can be given intranasal, IM, SQ, or IV depending on order/protocol |
-| May cause acute withdrawal |
-| Monitor respirations after giving |
-| Effects may wear off before opioid |
+- Used for opioid overdose
+- Priority is airway/breathing first
+- Can be given intranasal, IM, SQ, or IV depending on order/protocol
+- May cause acute withdrawal
+- Monitor respirations after giving
+- Effects may wear off before opioid
 
 <div class="warning">
 
@@ -534,19 +508,17 @@ Disulfiram (Antabuse) is alcohol aversion therapy. If alcohol is consumed, toxin
 
 ## Alcohol Reaction
 
-| Symptoms |
-|---|
-| Nausea/vomiting |
-| Flushing |
-| Vertigo |
-| Increased pulse |
-| Hypotension |
-| Headache |
-| Shortness of breath |
-| Diaphoresis |
-| Chest pain |
-| Confusion |
-| May be fatal |
+- Nausea/vomiting
+- Flushing
+- Vertigo
+- Increased pulse
+- Hypotension
+- Headache
+- Shortness of breath
+- Diaphoresis
+- Chest pain
+- Confusion
+- May be fatal
 
 Avoid alcohol in: drinks, cough syrup, mouthwash, sauces, aftershave, some desserts, and hidden alcohol-containing products.
 
@@ -554,13 +526,11 @@ Avoid alcohol in: drinks, cough syrup, mouthwash, sauces, aftershave, some desse
 
 ## Tobacco / Nicotine Treatment
 
-| Treatment |
-|---|
-| Nicotine replacement therapy |
-| Bupropion |
-| Varenicline |
-| Behavioral therapy |
-| Hypnosis |
+- Nicotine replacement therapy
+- Bupropion
+- Varenicline
+- Behavioral therapy
+- Hypnosis
 
 ---
 
@@ -570,15 +540,13 @@ Stimulants may be used for ADHD and some binge eating treatment. Examples: amphe
 
 ## Nursing Focus
 
-| Concern |
-|---|
-| Appetite loss |
-| Weight loss |
-| Insomnia |
-| Increased HR |
-| Increased BP |
-| Anxiety/irritability |
-| Misuse potential |
+- Appetite loss
+- Weight loss
+- Insomnia
+- Increased HR
+- Increased BP
+- Anxiety/irritability
+- Misuse potential
 
 ---
 

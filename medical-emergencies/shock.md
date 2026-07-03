@@ -25,13 +25,11 @@ If shock is not recognized early, the body can stop compensating and organ failu
 
 Shock can affect every body system.
 
-| If Untreated, Shock Can Cause |
-|---|
-| Kidney injury |
-| Brain injury |
-| Respiratory failure |
-| Organ failure |
-| Death |
+- Kidney injury
+- Brain injury
+- Respiratory failure
+- Organ failure
+- Death
 
 ---
 
@@ -292,20 +290,18 @@ Obstructive shock occurs when a mechanical problem blocks the heart from filling
 
 ## General Nursing Interventions for Any Shock
 
-| Priority Actions |
-|---|
-| Maintain airway |
-| Give oxygen as prescribed |
-| Place client supine unless contraindicated |
-| Elevate legs if appropriate and not contraindicated |
-| Establish IV access |
-| Administer fluids or blood products as prescribed |
-| Monitor vital signs frequently |
-| Monitor urine output |
-| Monitor mental status |
-| Keep client warm |
-| Treat the cause |
-| Notify provider of worsening signs |
+- Maintain airway
+- Give oxygen as prescribed
+- Place client supine unless contraindicated
+- Elevate legs if appropriate and not contraindicated
+- Establish IV access
+- Administer fluids or blood products as prescribed
+- Monitor vital signs frequently
+- Monitor urine output
+- Monitor mental status
+- Keep client warm
+- Treat the cause
+- Notify provider of worsening signs
 
 ---
 

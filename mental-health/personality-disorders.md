@@ -142,17 +142,15 @@ Schizoid personality disorder involves social withdrawal and limited emotional e
 
 ## Assessment
 
-| Finding |
-|---|
-| Withdrawn |
-| Avoids relationships |
-| Lacks interest in social interaction |
-| Restricted emotional responses |
-| Appears detached |
-| May choose solitary jobs |
-| Little interest in intimacy |
-| Poor social skills |
-| May have imaginary friends in childhood |
+- Withdrawn
+- Avoids relationships
+- Lacks interest in social interaction
+- Restricted emotional responses
+- Appears detached
+- May choose solitary jobs
+- Little interest in intimacy
+- Poor social skills
+- May have imaginary friends in childhood
 
 ## Nursing Care
 
@@ -324,17 +322,15 @@ Histrionic personality disorder involves excessive emotional expression and atte
 
 ## Assessment
 
-| Finding |
-|---|
-| Dramatic behavior |
-| Exaggerated emotions |
-| Needs attention |
-| Temper tantrums when ignored |
-| Flamboyant or sexually inappropriate behavior |
-| Manipulates for affection |
-| Difficulty maintaining relationships |
-| May fake illness or develop somatic symptoms for attention |
-| Suicidal gestures may occur |
+- Dramatic behavior
+- Exaggerated emotions
+- Needs attention
+- Temper tantrums when ignored
+- Flamboyant or sexually inappropriate behavior
+- Manipulates for affection
+- Difficulty maintaining relationships
+- May fake illness or develop somatic symptoms for attention
+- Suicidal gestures may occur
 
 <div class="warning">
 Even if behavior seems attention-seeking, always assess suicidal thoughts and safety.
@@ -401,17 +397,15 @@ Avoidant personality disorder involves social inhibition, feelings of inadequacy
 
 ## Assessment
 
-| Finding |
-|---|
-| Feels inadequate |
-| Fear of rejection |
-| Fear of humiliation |
-| Socially inhibited |
-| Wants acceptance but avoids closeness |
-| Self-depreciating |
-| Feels inferior/different |
-| Avoids social situations |
-| Awkward and aware of poor social skills |
+- Feels inadequate
+- Fear of rejection
+- Fear of humiliation
+- Socially inhibited
+- Wants acceptance but avoids closeness
+- Self-depreciating
+- Feels inferior/different
+- Avoids social situations
+- Awkward and aware of poor social skills
 
 ## Nursing Care
 
@@ -479,16 +473,14 @@ Obsessive-compulsive personality disorder is **not the same as OCD.** OCPD is a 
 
 ## OCPD Assessment
 
-| Finding |
-|---|
-| Preoccupied with orderliness |
-| Perfectionism |
-| Rigid/inflexible |
-| Needs control |
-| Fears failure |
-| Critical of self and others |
-| Difficulty delegating |
-| May struggle with relationships due to high standards |
+- Preoccupied with orderliness
+- Perfectionism
+- Rigid/inflexible
+- Needs control
+- Fears failure
+- Critical of self and others
+- Difficulty delegating
+- May struggle with relationships due to high standards
 
 ## Nursing Care
 

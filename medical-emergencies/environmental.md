@@ -77,18 +77,16 @@ Older adults can dehydrate faster and may show dehydration through orthostatic h
 
 ### Assessment Findings
 
-| Heat Exhaustion Findings |
-|---|
-| Headache |
-| Weakness |
-| Nausea/vomiting |
-| Flu-like symptoms |
-| Heavy sweating |
-| Pale, cool, clammy skin |
-| Dizziness or fainting |
-| Tachycardia |
-| Orthostatic hypotension |
-| Mildly elevated temperature, usually not extremely high |
+- Headache
+- Weakness
+- Nausea/vomiting
+- Flu-like symptoms
+- Heavy sweating
+- Pale, cool, clammy skin
+- Dizziness or fainting
+- Tachycardia
+- Orthostatic hypotension
+- Mildly elevated temperature, usually not extremely high
 
 ### Nursing Interventions
 
@@ -117,22 +115,20 @@ The body temperature is usually greater than 104°F.
 
 ### Assessment Findings
 
-| Heat Stroke Findings |
-|---|
-| Temperature greater than 104°F |
-| Hot skin |
-| Dry skin, but sweating may still occur |
-| Mental status changes |
-| Confusion or agitation |
-| Seizures |
-| Loss of consciousness |
-| Blood pressure, heart rate, or respiratory changes |
-| Electrolyte imbalance |
-| Oliguria |
-| Coagulation problems |
-| Elevated cardiac troponin |
-| Pulmonary edema |
-| Pink frothy sputum |
+- Temperature greater than 104°F
+- Hot skin
+- Dry skin, but sweating may still occur
+- Mental status changes
+- Confusion or agitation
+- Seizures
+- Loss of consciousness
+- Blood pressure, heart rate, or respiratory changes
+- Electrolyte imbalance
+- Oliguria
+- Coagulation problems
+- Elevated cardiac troponin
+- Pulmonary edema
+- Pink frothy sputum
 
 Elevated cardiac troponin can occur because severe heat illness can cause organ damage and cardiac stress.
 
@@ -160,16 +156,14 @@ Elevated cardiac troponin can occur because severe heat illness can cause organ 
 
 ### Labs to Monitor
 
-| Labs |
-|---|
-| Electrolytes |
-| Cardiac markers |
-| Renal function |
-| Liver function |
-| CBC |
-| ABGs |
-| Urinalysis |
-| Coagulation studies as prescribed |
+- Electrolytes
+- Cardiac markers
+- Renal function
+- Liver function
+- CBC
+- ABGs
+- Urinalysis
+- Coagulation studies as prescribed
 
 <div class="priority">
 <strong>Heat Stroke Priority:</strong> High temperature plus altered mental status is an emergency. Begin rapid cooling and support ABCs.
@@ -212,18 +206,16 @@ Hypothermia occurs when core body temperature is below 95°F.
 
 ### Risk Factors
 
-| Risk Factors |
-|---|
-| Cold weather exposure |
-| Wet clothing |
-| Poor clothing or shelter |
-| Older age |
-| Trauma or acute injury |
-| Medications |
-| Poor nutrition |
-| Alcohol use |
-| Homelessness |
-| Immobility |
+- Cold weather exposure
+- Wet clothing
+- Poor clothing or shelter
+- Older age
+- Trauma or acute injury
+- Medications
+- Poor nutrition
+- Alcohol use
+- Homelessness
+- Immobility
 
 Older adults are at higher risk even when the weather does not seem extremely cold.
 
@@ -277,15 +269,13 @@ It often affects:
 
 ### Risk Factors
 
-| Risk Factors |
-|---|
-| Poor insulation against cold weather |
-| Improper clothing |
-| Wet clothing |
-| Long exposure to cold |
-| Smoking |
-| Alcohol use |
-| Poor peripheral circulation |
+- Poor insulation against cold weather
+- Improper clothing
+- Wet clothing
+- Long exposure to cold
+- Smoking
+- Alcohol use
+- Poor peripheral circulation
 
 ### Frostnip vs Frostbite
 
@@ -347,14 +337,12 @@ High altitude sickness occurs because there is a lower partial pressure of oxyge
 
 ### Assessment Findings
 
-| Findings |
-|---|
-| Altered mental status |
-| Throbbing headache |
-| Nausea/vomiting |
-| Chills |
-| Irritability |
-| Apathy |
+- Altered mental status
+- Throbbing headache
+- Nausea/vomiting
+- Chills
+- Irritability
+- Apathy
 
 ### Major Complications
 
@@ -365,13 +353,11 @@ High altitude sickness can progress to:
 
 ### Nursing Interventions
 
-| Priority Care |
-|---|
-| Get the client to a lower altitude |
-| Apply oxygen |
-| Hydrate the client |
-| Monitor respiratory status |
-| Monitor mental status |
+- Get the client to a lower altitude
+- Apply oxygen
+- Hydrate the client
+- Monitor respiratory status
+- Monitor mental status
 
 ---
 
@@ -396,16 +382,14 @@ The major problem is hypoxia.
 
 ### Assessment Findings
 
-| Findings |
-|---|
-| Coughing |
-| Shortness of breath |
-| Cyanosis |
-| Crackles |
-| Pink frothy sputum |
-| Low oxygen saturation |
-| Altered mental status |
-| Hypothermia if water was cold |
+- Coughing
+- Shortness of breath
+- Cyanosis
+- Crackles
+- Pink frothy sputum
+- Low oxygen saturation
+- Altered mental status
+- Hypothermia if water was cold
 
 ### Nursing Interventions
 
@@ -430,13 +414,11 @@ Creepy crawler emergencies include snakebites, spider bites, scorpion stings, be
 
 ### Prevention Teaching
 
-| Prevention |
-|---|
-| Do not place hands where you cannot see |
-| Inspect clothing and shoes |
-| Cover trash cans |
-| Use screens on windows |
-| Avoid bothering insects, spiders, and snakes |
+- Do not place hands where you cannot see
+- Inspect clothing and shoes
+- Cover trash cans
+- Use screens on windows
+- Avoid bothering insects, spiders, and snakes
 
 ---
 
@@ -451,16 +433,14 @@ Creepy crawler emergencies include snakebites, spider bites, scorpion stings, be
 
 ### Assessment Findings
 
-| Findings |
-|---|
-| Fang or puncture marks |
-| Pain |
-| Swelling |
-| Redness or bruising |
-| Nausea/vomiting |
-| Weakness |
-| Signs of shock |
-| Trouble breathing in severe cases |
+- Fang or puncture marks
+- Pain
+- Swelling
+- Redness or bruising
+- Nausea/vomiting
+- Weakness
+- Signs of shock
+- Trouble breathing in severe cases
 
 ### Nursing Interventions
 
@@ -521,13 +501,11 @@ Stings may cause severe pain, swelling, redness, itching, multisystem symptoms, 
 
 ### Mild Sting Interventions
 
-| Mild Sting Care |
-|---|
-| Remove stinger by scraping if present |
-| Clean the area |
-| Apply cold compress |
-| Give antihistamine as prescribed |
-| Monitor for worsening symptoms |
+- Remove stinger by scraping if present
+- Clean the area
+- Apply cold compress
+- Give antihistamine as prescribed
+- Monitor for worsening symptoms
 
 ---
 
@@ -557,29 +535,25 @@ Common triggers include:
 
 ### Nursing Interventions
 
-| Priority Intervention |
-|---|
-| Administer epinephrine immediately |
-| Call EMS/rapid response |
-| Maintain airway |
-| Give oxygen |
-| Place client supine with legs elevated if tolerated |
-| Start IV access |
-| Give IV fluids as prescribed |
-| Administer antihistamines, bronchodilators, or corticosteroids as prescribed |
-| Monitor vital signs and respiratory status |
+- Administer epinephrine immediately
+- Call EMS/rapid response
+- Maintain airway
+- Give oxygen
+- Place client supine with legs elevated if tolerated
+- Start IV access
+- Give IV fluids as prescribed
+- Administer antihistamines, bronchodilators, or corticosteroids as prescribed
+- Monitor vital signs and respiratory status
 
 ### Client Teaching
 
 Teach clients with severe allergies to:
 
-| Teaching |
-|---|
-| Carry an epinephrine auto-injector |
-| Know how to use the auto-injector |
-| Wear a medical alert bracelet |
-| Avoid known triggers |
-| Seek emergency care after using epinephrine because symptoms can return |
+- Carry an epinephrine auto-injector
+- Know how to use the auto-injector
+- Wear a medical alert bracelet
+- Avoid known triggers
+- Seek emergency care after using epinephrine because symptoms can return
 
 <div class="priority">
 <strong>Priority Medication:</strong> Epinephrine is first-line treatment for anaphylaxis.

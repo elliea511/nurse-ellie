@@ -178,24 +178,20 @@ It can:
 
 ### Uses
 
-| Digoxin Uses |
-|---|
-| Heart failure |
-| Atrial fibrillation |
-| Atrial flutter |
-| Some supraventricular dysrhythmias |
+- Heart failure
+- Atrial fibrillation
+- Atrial flutter
+- Some supraventricular dysrhythmias
 
 ### Before Giving Digoxin
 
 Check the apical pulse for 1 full minute.
 
-| Hold Digoxin If |
-|---|
-| Adult pulse is below 60 |
-| Infant pulse is below 100 |
-| Toddler pulse is around below 90 |
-| Signs of toxicity are present |
-| Digoxin level is too high |
+- Adult pulse is below 60
+- Infant pulse is below 100
+- Toddler pulse is around below 90
+- Signs of toxicity are present
+- Digoxin level is too high
 
 ### Digoxin Levels
 
@@ -253,17 +249,15 @@ If aldosterone is blocked:
 
 Know these for clients on potassium-wasting diuretics:
 
-| High-Potassium Foods |
-|---|
-| Bananas |
-| Oranges |
-| Melons |
-| Apricots |
-| Prunes |
-| Baked potatoes |
-| Beans |
-| Squash |
-| Meats |
+- Bananas
+- Oranges
+- Melons
+- Apricots
+- Prunes
+- Baked potatoes
+- Beans
+- Squash
+- Meats
 
 ---
 
@@ -305,17 +299,15 @@ Teach the client:
 
 ### Report Immediately
 
-| Report |
-|---|
-| New or worsening shortness of breath |
-| Trouble breathing while lying flat |
-| Waking up short of breath |
-| Rapid weight gain |
-| Increased swelling |
-| Chest pain |
-| New confusion or severe fatigue |
-| Decreased urine output |
-| Pink frothy sputum |
+- New or worsening shortness of breath
+- Trouble breathing while lying flat
+- Waking up short of breath
+- Rapid weight gain
+- Increased swelling
+- Chest pain
+- New confusion or severe fatigue
+- Decreased urine output
+- Pink frothy sputum
 
 ---
 

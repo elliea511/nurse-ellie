@@ -56,13 +56,11 @@ The client may say:
 
 Unstable angina is an emergency.
 
-| Concerning Pattern                    |
-| ------------------------------------- |
-| Occurs at rest                        |
-| Occurs with minimal activity          |
-| Happens more often than usual         |
-| Pain is more severe                   |
-| Pain is not relieved by nitroglycerin |
+- Occurs at rest
+- Occurs with minimal activity
+- Happens more often than usual
+- Pain is more severe
+- Pain is not relieved by nitroglycerin
 
 Unstable angina can be a warning sign that the client may be developing an MI.
 
@@ -105,12 +103,10 @@ Radiation does **not** automatically mean MI.
 
 ### More Concerning Findings
 
-| More Concerning Chest Pain         |
-| ---------------------------------- |
-| Pain at rest                       |
-| Pain that is new                   |
-| Pain that is worsening             |
-| Pain not relieved by nitroglycerin |
+- Pain at rest
+- Pain that is new
+- Pain that is worsening
+- Pain not relieved by nitroglycerin
 
 ---
 
@@ -205,14 +201,12 @@ Teach the client:
 
 Nitroglycerin is sensitive to heat, light, and moisture.
 
-| Storage Teaching                                |
-| ----------------------------------------------- |
-| Keep it in the original dark glass container    |
-| Keep it away from heat                          |
-| Keep it away from light                         |
-| Keep it away from humidity                      |
-| Do not store it in the refrigerator             |
-| Replace it every 6 to 12 months or when expired |
+- Keep it in the original dark glass container
+- Keep it away from heat
+- Keep it away from light
+- Keep it away from humidity
+- Do not store it in the refrigerator
+- Replace it every 6 to 12 months or when expired
 
 ---
 
@@ -227,14 +221,12 @@ Nitroglycerin can also come as:
 
 ### Patch/Paste Teaching
 
-| Teaching Point                                      |
-| --------------------------------------------------- |
-| Apply to a hairless area                            |
-| Clip hair if needed; do not shave                   |
-| Rotate sites                                        |
-| Remove old patch or paste before applying a new one |
-| Wear gloves when handling nitroglycerin paste       |
-| IV nitroglycerin should be protected from light     |
+- Apply to a hairless area
+- Clip hair if needed; do not shave
+- Rotate sites
+- Remove old patch or paste before applying a new one
+- Wear gloves when handling nitroglycerin paste
+- IV nitroglycerin should be protected from light
 
 ---
 
@@ -327,19 +319,17 @@ An MI may happen when:
 
 ## Risk Factors
 
-| Risk Factors            |
-| ----------------------- |
-| Coronary artery disease |
-| Hypertension            |
-| Hyperlipidemia          |
-| Smoking                 |
-| Diabetes mellitus       |
-| Obesity                 |
-| Sedentary lifestyle     |
-| Family history          |
-| Older age               |
-| Stress                  |
-| High-fat diet           |
+- Coronary artery disease
+- Hypertension
+- Hyperlipidemia
+- Smoking
+- Diabetes mellitus
+- Obesity
+- Sedentary lifestyle
+- Family history
+- Older age
+- Stress
+- High-fat diet
 
 ---
 
@@ -513,14 +503,12 @@ This is especially dangerous after an MI.
 
 ### Nursing Interventions
 
-| Intervention                                              |
-| --------------------------------------------------------- |
-| Administer stool softeners as prescribed                  |
-| Prevent constipation                                      |
-| Encourage fluids if allowed                               |
-| Encourage fiber if allowed                                |
-| Teach the client not to strain                            |
-| Teach the client not to hold their breath during activity |
+- Administer stool softeners as prescribed
+- Prevent constipation
+- Encourage fluids if allowed
+- Encourage fiber if allowed
+- Teach the client not to strain
+- Teach the client not to hold their breath during activity
 
 ---
 
@@ -534,13 +522,11 @@ A balloon-tipped catheter is inserted into a narrowed artery.
 
 The balloon is inflated to open the vessel.
 
-| Key Points                                                |
-| --------------------------------------------------------- |
-| Opens the vessel quickly                                  |
-| May not be permanent                                      |
-| The artery can narrow again                               |
-| Lifestyle changes are still needed                        |
-| There is a risk of plaque or clot material breaking loose |
+- Opens the vessel quickly
+- May not be permanent
+- The artery can narrow again
+- Lifestyle changes are still needed
+- There is a risk of plaque or clot material breaking loose
 
 ---
 
@@ -550,13 +536,11 @@ A stent may be placed during angioplasty.
 
 It helps keep the artery open.
 
-| Nursing Teaching                                    |
-| --------------------------------------------------- |
-| Take antiplatelet medications as prescribed         |
-| Do not stop antiplatelet medication unless directed |
-| Report chest pain                                   |
-| Follow cardiac rehab instructions                   |
-| Make lifestyle changes to reduce restenosis risk    |
+- Take antiplatelet medications as prescribed
+- Do not stop antiplatelet medication unless directed
+- Report chest pain
+- Follow cardiac rehab instructions
+- Make lifestyle changes to reduce restenosis risk
 
 ---
 
@@ -568,25 +552,21 @@ CABG creates a new route around blocked coronary arteries.
 
 The graft may come from a vein in the leg or an artery in the chest.
 
-| Key Points                                           |
-| ---------------------------------------------------- |
-| Major surgery                                        |
-| Sternum is cut and wired closed                      |
-| Client may be on a heart-lung machine during surgery |
-| Recovery includes sternal precautions                |
-| Lifestyle changes are still necessary                |
+- Major surgery
+- Sternum is cut and wired closed
+- Client may be on a heart-lung machine during surgery
+- Recovery includes sternal precautions
+- Lifestyle changes are still necessary
 
 ### CABG Teaching
 
-| Teaching Point                            |
-| ----------------------------------------- |
-| Splint the chest when coughing            |
-| Report signs of infection                 |
-| Follow activity restrictions              |
-| Avoid lifting heavy objects until cleared |
-| Attend cardiac rehab                      |
-| Take medications as prescribed            |
-| Follow heart-healthy diet                 |
+- Splint the chest when coughing
+- Report signs of infection
+- Follow activity restrictions
+- Avoid lifting heavy objects until cleared
+- Attend cardiac rehab
+- Take medications as prescribed
+- Follow heart-healthy diet
 
 <div class="nclex-tip">
   <strong>NCLEX / Patient Teaching:</strong> Sternal precautions protect the healing sternum after open-heart surgery. Avoid lifting, pushing, pulling, or using the arms to push up. Keep arms close to the body, use the legs to stand, splint the chest with a pillow when coughing, and report popping/clicking, increased pain, drainage, redness, or separation of the incision.

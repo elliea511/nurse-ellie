@@ -54,16 +54,14 @@ Anorexia has a serious risk of death, often related to malnutrition, electrolyte
 
 ## Risk Factors
 
-| Risk Factor |
-|---|
-| Female sex |
-| Teens and young adults |
-| High-achieving or perfectionistic traits |
-| Family pressure/high expectations |
-| Anxiety or OCD traits |
-| Depression |
-| History of trauma |
-| LGBTQ+ populations may have increased risk |
+- Female sex
+- Teens and young adults
+- High-achieving or perfectionistic traits
+- Family pressure/high expectations
+- Anxiety or OCD traits
+- Depression
+- History of trauma
+- LGBTQ+ populations may have increased risk
 
 ---
 
@@ -114,17 +112,15 @@ Refeeding syndrome can occur when nutrition is restarted too quickly after starv
 
 ## Watch For
 
-| Finding |
-|---|
-| Weakness |
-| Confusion |
-| Edema |
-| Respiratory distress |
-| Dysrhythmias |
-| Seizures |
-| Low phosphorus |
-| Low potassium |
-| Low magnesium |
+- Weakness
+- Confusion
+- Edema
+- Respiratory distress
+- Dysrhythmias
+- Seizures
+- Low phosphorus
+- Low potassium
+- Low magnesium
 
 <div class="warning">
 <strong>NCLEX:</strong> Refeeding must be gradual and closely monitored. Watch electrolytes and cardiac status.
@@ -257,33 +253,29 @@ Binge eating disorder involves repeated episodes of eating large amounts of food
 
 ## Risk Factors / Common Links
 
-| Finding |
-|---|
-| Low self-esteem |
-| Emotional eating |
-| History of psychological trauma |
-| History of abuse |
-| Food insecurity |
-| Addiction to high-sugar/high-fat foods |
-| PTSD |
-| Social phobias |
-| Alcohol abuse |
+- Low self-esteem
+- Emotional eating
+- History of psychological trauma
+- History of abuse
+- Food insecurity
+- Addiction to high-sugar/high-fat foods
+- PTSD
+- Social phobias
+- Alcohol abuse
 
 ---
 
 ## Assessment
 
-| Finding |
-|---|
-| Eating large amounts rapidly |
-| Eating when not hungry |
-| Eating alone due to shame |
-| Feeling out of control |
-| Guilt or embarrassment after eating |
-| Weight gain/obesity possible |
-| Heartburn/GI issues |
-| Risk for diabetes mellitus |
-| Risk for cardiac disease |
+- Eating large amounts rapidly
+- Eating when not hungry
+- Eating alone due to shame
+- Feeling out of control
+- Guilt or embarrassment after eating
+- Weight gain/obesity possible
+- Heartburn/GI issues
+- Risk for diabetes mellitus
+- Risk for cardiac disease
 
 ---
 
@@ -328,15 +320,13 @@ Pica is eating nonfood substances such as dirt, clay, paper, paint, hair, chalk,
 
 ## Why It Is Dangerous
 
-| Risk |
-|---|
-| Poisoning |
-| Lead exposure from paint |
-| Choking |
-| GI obstruction |
-| Dental injury |
-| Infection/parasites |
-| Nutritional deficiency |
+- Poisoning
+- Lead exposure from paint
+- Choking
+- GI obstruction
+- Dental injury
+- Infection/parasites
+- Nutritional deficiency
 
 ## Nursing Care
 
@@ -357,13 +347,11 @@ Rumination disorder occurs when a child or infant brings food back up into the m
 
 ## Risks
 
-| Risk |
-|---|
-| Malnutrition |
-| Weight loss |
-| Failure to thrive |
-| Aspiration risk |
-| Death in severe cases |
+- Malnutrition
+- Weight loss
+- Failure to thrive
+- Aspiration risk
+- Death in severe cases
 
 ## Nursing Care
 
@@ -384,27 +372,23 @@ ARFID is restrictive eating that is **not caused by body image concerns.** It is
 
 ## Associated With
 
-| Associated Factor |
-|---|
-| Prematurity |
-| Failure to thrive |
-| Genetic conditions |
-| Autism |
-| Anxiety |
-| Sensory issues |
-| Fear of choking/vomiting |
+- Prematurity
+- Failure to thrive
+- Genetic conditions
+- Autism
+- Anxiety
+- Sensory issues
+- Fear of choking/vomiting
 
 ## Assessment
 
-| Finding |
-|---|
-| Extreme restriction of food |
-| Limited acceptable foods |
-| Poor weight gain |
-| Nutritional deficiency |
-| Anxiety around eating |
-| Failure to thrive |
-| May require tube feeding in severe cases |
+- Extreme restriction of food
+- Limited acceptable foods
+- Poor weight gain
+- Nutritional deficiency
+- Anxiety around eating
+- Failure to thrive
+- May require tube feeding in severe cases
 
 ## Nursing Care
 

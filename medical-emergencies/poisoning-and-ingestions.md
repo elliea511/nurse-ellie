@@ -40,19 +40,17 @@ Poisoning is especially common in children.
 
 ### Recognize
 
-| Possible Clues |
-|---|
-| Altered mental status |
-| Nausea, vomiting, or abdominal pain |
-| Respiratory depression or distress |
-| Seizures |
-| Burns around the mouth |
-| Drooling |
-| Unusual breath odor |
-| Empty medication bottles |
-| Chemical containers nearby |
-| Sudden behavior changes |
-| Unknown substance exposure |
+- Altered mental status
+- Nausea, vomiting, or abdominal pain
+- Respiratory depression or distress
+- Seizures
+- Burns around the mouth
+- Drooling
+- Unusual breath odor
+- Empty medication bottles
+- Chemical containers nearby
+- Sudden behavior changes
+- Unknown substance exposure
 
 ### Priority Assessment
 
@@ -120,23 +118,19 @@ Assess:
 
 ### Nursing Care
 
-| Nursing Care |
-|---|
-| Give only if prescribed or recommended |
-| Do not give if the client cannot protect their airway |
-| Monitor for vomiting |
-| Monitor bowel sounds and elimination |
+- Give only if prescribed or recommended
+- Do not give if the client cannot protect their airway
+- Monitor for vomiting
+- Monitor bowel sounds and elimination
 
 ### Not Effective For
 
-| Activated Charcoal Is Generally Not Effective For |
-|---|
-| Alcohols |
-| Iron |
-| Lithium |
-| Heavy metals |
-| Caustic acids or alkalis |
-| Hydrocarbons |
+- Alcohols
+- Iron
+- Lithium
+- Heavy metals
+- Caustic acids or alkalis
+- Hydrocarbons
 
 ---
 
@@ -192,17 +186,15 @@ They can also cause electrolyte imbalances and bleeding/clotting issues.
 
 ### Recognize
 
-| Findings |
-|---|
-| Tinnitus |
-| Nausea and vomiting |
-| Sweating |
-| Fever |
-| Hyperventilation |
-| Dizziness |
-| Confusion |
-| Respiratory alkalosis early |
-| Metabolic acidosis later |
+- Tinnitus
+- Nausea and vomiting
+- Sweating
+- Fever
+- Hyperventilation
+- Dizziness
+- Confusion
+- Respiratory alkalosis early
+- Metabolic acidosis later
 
 ### Assessment and Treatment
 
@@ -241,18 +233,16 @@ Airway swelling is the priority concern.
 
 ### Recognize
 
-| Findings |
-|---|
-| Chemical burns |
-| Splash burns |
-| Oral burns |
-| Drooling |
-| Difficulty swallowing |
-| Chest pain |
-| Abdominal pain |
-| Vomiting |
-| Airway swelling |
-| Future gastric problems |
+- Chemical burns
+- Splash burns
+- Oral burns
+- Drooling
+- Difficulty swallowing
+- Chest pain
+- Abdominal pain
+- Vomiting
+- Airway swelling
+- Future gastric problems
 
 ### Assessment and Treatment
 
@@ -269,11 +259,9 @@ Airway swelling is the priority concern.
 
 ### Do Not
 
-| Do Not |
-|---|
-| Do not induce vomiting |
-| Do not give activated charcoal unless specifically ordered |
-| Do not attempt to neutralize the substance |
+- Do not induce vomiting
+- Do not give activated charcoal unless specifically ordered
+- Do not attempt to neutralize the substance
 
 ---
 
@@ -291,16 +279,14 @@ The major danger is aspiration and chemical pneumonitis.
 
 ### Recognize
 
-| Findings |
-|---|
-| Vomiting |
-| Coughing |
-| Choking |
-| Gagging |
-| CNS depression |
-| Respiratory distress |
-| Wheezing |
-| Chemical odor |
+- Vomiting
+- Coughing
+- Choking
+- Gagging
+- CNS depression
+- Respiratory distress
+- Wheezing
+- Chemical odor
 
 Severe complications may include pneumonia or necrotizing disease within 24 hours.
 
@@ -318,10 +304,8 @@ Severe complications may include pneumonia or necrotizing disease within 24 hour
 
 ### Do Not
 
-| Do Not |
-|---|
-| Do not induce vomiting |
-| Do not give activated charcoal unless specifically ordered |
+- Do not induce vomiting
+- Do not give activated charcoal unless specifically ordered
 
 ---
 
@@ -380,18 +364,16 @@ If the battery gets stuck in the esophagus, it can burn through tissue and cause
 
 ### Recognize
 
-| Possible Findings |
-|---|
-| Drooling |
-| Coughing |
-| Gagging |
-| Vomiting |
-| Chest discomfort |
-| Difficulty swallowing |
-| Refusal to eat or drink |
-| Respiratory symptoms |
-| Abdominal pain |
-| May be asymptomatic at first |
+- Drooling
+- Coughing
+- Gagging
+- Vomiting
+- Chest discomfort
+- Difficulty swallowing
+- Refusal to eat or drink
+- Respiratory symptoms
+- Abdominal pain
+- May be asymptomatic at first
 
 ### Assessment and Treatment
 
@@ -438,26 +420,22 @@ Children are at higher risk because they:
 
 ### Common Household Risks
 
-| Common Risks |
-|---|
-| Medications and OTC medications |
-| Cleaning products |
-| Garage chemicals |
-| Lead paint |
-| Batteries |
-| Small electronics |
-| Toys with unsecured battery compartments |
+- Medications and OTC medications
+- Cleaning products
+- Garage chemicals
+- Lead paint
+- Batteries
+- Small electronics
+- Toys with unsecured battery compartments
 
 ### Nursing Interventions
 
-| Nursing Care |
-|---|
-| Assess airway and breathing first |
-| Identify the substance and amount |
-| Ask when ingestion occurred |
-| Assess for symptoms |
-| Contact poison control or provider as directed |
-| Teach safe storage and prevention |
+- Assess airway and breathing first
+- Identify the substance and amount
+- Ask when ingestion occurred
+- Assess for symptoms
+- Contact poison control or provider as directed
+- Teach safe storage and prevention
 
 ---
 
@@ -480,15 +458,13 @@ Contact poison control or provider for unknown substance, medication overdose, c
 
 ### Information To Have Ready
 
-| Information |
-|---|
-| Client age and weight |
-| Substance name |
-| Amount taken |
-| Time of exposure |
-| Symptoms |
-| Medical history |
-| Current medications |
+- Client age and weight
+- Substance name
+- Amount taken
+- Time of exposure
+- Symptoms
+- Medical history
+- Current medications
 
 If the client collapses, has a seizure, has trouble breathing, or cannot be awakened, call emergency services immediately.
 

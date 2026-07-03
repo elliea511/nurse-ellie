@@ -168,15 +168,13 @@ A sudden large BP drop can decrease perfusion to the brain, heart, or kidneys.
 
 Examples include:
 
-| Medication Examples |
-|---|
-| Labetalol |
-| Nicardipine |
-| Clevidipine |
-| Esmolol |
-| Hydralazine |
-| Nitroglycerin |
-| Nitroprusside |
+- Labetalol
+- Nicardipine
+- Clevidipine
+- Esmolol
+- Hydralazine
+- Nitroglycerin
+- Nitroprusside
 
 The specific medication depends on the client’s condition.
 
@@ -188,13 +186,11 @@ If there is no acute organ damage, treatment is usually less aggressive.
 
 Treatment may include:
 
-| Treatment |
-|---|
-| Oral antihypertensive medication |
-| Restarting missed medications |
-| Adjusting home medications |
-| Monitoring BP |
-| Close follow-up |
+- Oral antihypertensive medication
+- Restarting missed medications
+- Adjusting home medications
+- Monitoring BP
+- Close follow-up
 
 Do not rapidly drop BP in an asymptomatic client unless ordered for a specific reason.
 

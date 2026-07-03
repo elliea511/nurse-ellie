@@ -24,16 +24,14 @@ If any of these increase, pressure inside the skull rises.
 
 ### Causes
 
-| Causes of Increased ICP |
-|---|
-| Brain swelling |
-| Head injury |
-| Bleeding in the brain |
-| Tumor |
-| Stroke |
-| Infection |
-| Hydrocephalus |
-| Excess CSF |
+- Brain swelling
+- Head injury
+- Bleeding in the brain
+- Tumor
+- Stroke
+- Infection
+- Hydrocephalus
+- Excess CSF
 
 ---
 
@@ -43,13 +41,11 @@ Increased pressure can decrease blood flow and oxygen to the brain.
 
 This can lead to:
 
-| Complications |
-|---|
-| Brain tissue damage |
-| Seizures |
-| Herniation |
-| Respiratory changes |
-| Death |
+- Brain tissue damage
+- Seizures
+- Herniation
+- Respiratory changes
+- Death
 
 ---
 
@@ -84,29 +80,25 @@ This may look like:
 
 ### Other Signs and Symptoms
 
-| Other Signs and Symptoms |
-|---|
-| Headache |
-| Nausea and vomiting |
-| Pupillary changes |
-| Weakness |
-| Slurred speech |
-| Seizures |
-| Papilledema |
-| Abnormal posturing |
+- Headache
+- Nausea and vomiting
+- Pupillary changes
+- Weakness
+- Slurred speech
+- Seizures
+- Papilledema
+- Abnormal posturing
 
 ### Late Signs
 
-| Late Signs |
-|---|
-| Bradycardia |
-| Hypertension |
-| Widened pulse pressure |
-| Bradypnea |
-| Cheyne-Stokes respirations |
-| Severe headache |
-| Nausea and vomiting |
-| Fixed and dilated pupils |
+- Bradycardia
+- Hypertension
+- Widened pulse pressure
+- Bradypnea
+- Cheyne-Stokes respirations
+- Severe headache
+- Nausea and vomiting
+- Fixed and dilated pupils
 
 ---
 
@@ -188,20 +180,18 @@ Assess:
 
 ### Report Immediately
 
-| Report Immediately |
-|---|
-| Change in LOC |
-| New confusion |
-| Unequal pupils |
-| Fixed or dilated pupils |
-| New weakness |
-| Seizure |
-| Cushing’s triad |
-| Projectile vomiting |
-| Worsening headache |
-| Abnormal posturing |
-| Fever |
-| Drainage from ears or nose |
+- Change in LOC
+- New confusion
+- Unequal pupils
+- Fixed or dilated pupils
+- New weakness
+- Seizure
+- Cushing’s triad
+- Projectile vomiting
+- Worsening headache
+- Abnormal posturing
+- Fever
+- Drainage from ears or nose
 
 ---
 
@@ -223,29 +213,25 @@ This helps promote venous drainage from the brain.
 
 ### Safety and Neuro Protection
 
-| Nursing Care |
-|---|
-| Monitor LOC closely |
-| Compare assessments bilaterally |
-| Monitor vital signs carefully |
-| Report changes immediately |
-| Treat as spinal injury until ruled out |
-| Monitor for halo sign if fluid leaks from ears or nose |
-| Keep environment calm |
-| Limit unnecessary stimulation |
-| Allow rest periods |
+- Monitor LOC closely
+- Compare assessments bilaterally
+- Monitor vital signs carefully
+- Report changes immediately
+- Treat as spinal injury until ruled out
+- Monitor for halo sign if fluid leaks from ears or nose
+- Keep environment calm
+- Limit unnecessary stimulation
+- Allow rest periods
 
 ---
 
 ### Respiratory Care
 
-| Nursing Care |
-|---|
-| Monitor respiratory status |
-| Monitor ABGs |
-| Maintain oxygenation |
-| Keep PaO₂ above 80 mm Hg as ordered to help prevent secondary brain injury |
-| Prepare for advanced oxygen therapy if needed |
+- Monitor respiratory status
+- Monitor ABGs
+- Maintain oxygenation
+- Keep PaO₂ above 80 mm Hg as ordered to help prevent secondary brain injury
+- Prepare for advanced oxygen therapy if needed
 
 ---
 
@@ -329,19 +315,17 @@ A common cause is narrowing or blockage of the aqueduct of Sylvius.
 
 ### Recognize
 
-| Infant Findings |
-|---|
-| Enlarged head circumference |
-| Bulging fontanel |
-| Tense fontanel |
-| High-pitched or shrill cry |
-| Poor feeding |
-| Vomiting |
-| Irritability |
-| Sleepiness |
-| Seizures |
-| Sunsetting eyes |
-| Developmental delay |
+- Enlarged head circumference
+- Bulging fontanel
+- Tense fontanel
+- High-pitched or shrill cry
+- Poor feeding
+- Vomiting
+- Irritability
+- Sleepiness
+- Seizures
+- Sunsetting eyes
+- Developmental delay
 
 ---
 
@@ -349,17 +333,15 @@ A common cause is narrowing or blockage of the aqueduct of Sylvius.
 
 ### Recognize
 
-| Older Child / Adult Findings |
-|---|
-| Headache |
-| Impaired vision |
-| Cognitive difficulties |
-| Loss of coordination |
-| Incontinence |
-| Nausea and vomiting |
-| Confusion |
-| Decreased LOC |
-| Seizures |
+- Headache
+- Impaired vision
+- Cognitive difficulties
+- Loss of coordination
+- Incontinence
+- Nausea and vomiting
+- Confusion
+- Decreased LOC
+- Seizures
 
 ---
 
@@ -379,16 +361,14 @@ Assess:
 
 ### Report Immediately
 
-| Report Immediately |
-|---|
-| Bulging fontanel |
-| Rapid increase in head size |
-| High-pitched cry |
-| Sunsetting eyes |
-| Vomiting |
-| Seizure |
-| Decreased LOC |
-| Signs of shunt infection or malfunction |
+- Bulging fontanel
+- Rapid increase in head size
+- High-pitched cry
+- Sunsetting eyes
+- Vomiting
+- Seizure
+- Decreased LOC
+- Signs of shunt infection or malfunction
 
 ---
 
@@ -408,9 +388,7 @@ Treatment often includes a surgically placed shunt.
 
 A ventriculoperitoneal shunt drains CSF from a ventricle in the brain into the peritoneal cavity.
 
-| Pathway |
-|---|
-| Brain ventricle → tubing under skin → peritoneal cavity |
+- Brain ventricle → tubing under skin → peritoneal cavity
 
 ---
 
@@ -420,9 +398,7 @@ A ventriculoperitoneal shunt drains CSF from a ventricle in the brain into the p
 
 A ventriculoatrial shunt drains CSF from the brain into the vascular system.
 
-| Pathway |
-|---|
-| Brain ventricle → tubing under skin → vascular system/heart area |
+- Brain ventricle → tubing under skin → vascular system/heart area
 
 ---
 
@@ -430,19 +406,17 @@ A ventriculoatrial shunt drains CSF from the brain into the vascular system.
 
 ### Priority Care
 
-| Nursing Care |
-|---|
-| Monitor vital signs |
-| Monitor neurologic status |
-| Assess incision sites |
-| Monitor for infection |
-| Monitor for pain |
-| Administer antibiotics as ordered |
-| Administer pain medication as ordered |
-| Measure head circumference in infants |
-| Assess fontanels in infants |
-| Teach family dressing care as ordered |
-| Teach family signs of shunt problems |
+- Monitor vital signs
+- Monitor neurologic status
+- Assess incision sites
+- Monitor for infection
+- Monitor for pain
+- Administer antibiotics as ordered
+- Administer pain medication as ordered
+- Measure head circumference in infants
+- Assess fontanels in infants
+- Teach family dressing care as ordered
+- Teach family signs of shunt problems
 
 ---
 
@@ -461,19 +435,17 @@ A ventriculoatrial shunt drains CSF from the brain into the vascular system.
 
 Recognize:
 
-| Signs of Shunt Malfunction |
-|---|
-| High-pitched cry |
-| Irritability |
-| Vomiting |
-| Poor feeding |
-| Sleepiness |
-| Bulging fontanel |
-| Increased head circumference |
-| Headache |
-| Seizures |
-| Decreased LOC |
-| Return of hydrocephalus symptoms |
+- High-pitched cry
+- Irritability
+- Vomiting
+- Poor feeding
+- Sleepiness
+- Bulging fontanel
+- Increased head circumference
+- Headache
+- Seizures
+- Decreased LOC
+- Return of hydrocephalus symptoms
 
 ---
 
@@ -481,16 +453,14 @@ Recognize:
 
 Recognize:
 
-| Signs of Shunt Infection |
-|---|
-| Fever |
-| Redness at incision |
-| Swelling |
-| Drainage |
-| Irritability |
-| Neck stiffness |
-| Abdominal pain |
-| Poor feeding |
+- Fever
+- Redness at incision
+- Swelling
+- Drainage
+- Irritability
+- Neck stiffness
+- Abdominal pain
+- Poor feeding
 
 ---
 

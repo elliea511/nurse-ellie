@@ -84,13 +84,11 @@ Electrical burns are caused by electrical current passing through the body.
 
 These can look small on the outside but cause major internal damage.
 
-| Major Concerns               |
-| ---------------------------- |
-| Dysrhythmias                 |
-| Deep tissue injury           |
-| Muscle damage                |
-| Kidney injury from myoglobin |
-| Entry and exit wounds        |
+- Dysrhythmias
+- Deep tissue injury
+- Muscle damage
+- Kidney injury from myoglobin
+- Entry and exit wounds
 
 <div class="priority">
 <strong>Priority:</strong> Electrical burns require cardiac monitoring because they can cause dysrhythmias.
@@ -448,18 +446,16 @@ TPN may be required if the patient develops paralytic ileus.
 
 Airway injury is a major concern with burns.
 
-| Red Flags for Inhalation Injury             |
-| ------------------------------------------- |
-| Burns to face or neck                       |
-| Singed nasal hairs                          |
-| Soot around mouth or nose                   |
-| Hoarse voice                                |
-| Difficulty swallowing                       |
-| Coughing                                    |
-| Carbonaceous sputum                         |
-| Burns in an enclosed space                  |
-| Stridor                                     |
-| Any weird or worsening respiratory symptoms |
+- Burns to face or neck
+- Singed nasal hairs
+- Soot around mouth or nose
+- Hoarse voice
+- Difficulty swallowing
+- Coughing
+- Carbonaceous sputum
+- Burns in an enclosed space
+- Stridor
+- Any weird or worsening respiratory symptoms
 
 <div class="priority">
 <strong>NCLEX Priority:</strong> Hoarseness, stridor, facial burns, or soot after a fire can mean airway swelling. Prepare for early intubation before the airway closes.
@@ -521,14 +517,12 @@ Think: **fluid leaves the bloodstream and moves into the tissues.**
 
 ### Expected Findings
 
-| Expected Findings        |
-| ------------------------ |
-| Decreased blood pressure |
-| Decreased urine output   |
-| Increased hematocrit     |
-| Increased potassium      |
-| Acidosis                 |
-| Risk for shock           |
+- Decreased blood pressure
+- Decreased urine output
+- Increased hematocrit
+- Increased potassium
+- Acidosis
+- Risk for shock
 
 ### Nursing Priorities
 
@@ -559,14 +553,12 @@ Think: **fluid comes back into the bloodstream.**
 
 ### Expected Findings
 
-| Expected Findings                 |
-| --------------------------------- |
-| Increased urine output            |
-| Decreased hematocrit              |
-| Decreased potassium               |
-| Increased central venous pressure |
-| Risk for fluid volume overload    |
-| Risk for pulmonary edema          |
+- Increased urine output
+- Decreased hematocrit
+- Decreased potassium
+- Increased central venous pressure
+- Risk for fluid volume overload
+- Risk for pulmonary edema
 
 ### Nursing Priorities
 
@@ -610,12 +602,10 @@ Burn care focuses on airway maintenance, pain control, infection control, and wo
 
 The airway can swell quickly after smoke inhalation or facial burns.
 
-| Nursing Care                                                 |
-| ------------------------------------------------------------ |
-| Assess respiratory status frequently                         |
-| Monitor for hoarseness, stridor, soot, and respiratory distress |
-| Apply oxygen as ordered                                      |
-| Prepare for intubation if airway swelling is suspected       |
+- Assess respiratory status frequently
+- Monitor for hoarseness, stridor, soot, and respiratory distress
+- Apply oxygen as ordered
+- Prepare for intubation if airway swelling is suspected
 
 ---
 
@@ -623,13 +613,11 @@ The airway can swell quickly after smoke inhalation or facial burns.
 
 Burn pain can be severe.
 
-| Nursing Care                            |
-| --------------------------------------- |
-| Assess pain frequently                  |
-| Give pain medication before wound care  |
-| Use IV pain medication for severe burns |
-| Reposition carefully                    |
-| Use nonpharmacologic comfort measures   |
+- Assess pain frequently
+- Give pain medication before wound care
+- Use IV pain medication for severe burns
+- Reposition carefully
+- Use nonpharmacologic comfort measures
 
 ---
 
@@ -637,15 +625,13 @@ Burn pain can be severe.
 
 Burn clients are at high risk for infection because the skin barrier is damaged.
 
-| Nursing Care                         |
-| ------------------------------------ |
-| Use strict hand hygiene              |
-| Use sterile technique for wound care |
-| Monitor temperature                  |
-| Assess drainage and odor             |
-| Limit exposure of wounds             |
-| Change dressings as prescribed       |
-| Monitor WBC trends                   |
+- Use strict hand hygiene
+- Use sterile technique for wound care
+- Monitor temperature
+- Assess drainage and odor
+- Limit exposure of wounds
+- Change dressings as prescribed
+- Monitor WBC trends
 
 ---
 
@@ -706,13 +692,11 @@ Skin grafting may be needed for deep partial-thickness or full-thickness burns.
 
 A donor site is where healthy skin is removed from the client for grafting.
 
-| Important Points                                             |
-| ------------------------------------------------------------ |
-| Donor sites can be very painful                              |
-| Donor sites may be more painful than the graft site          |
-| Do not cover donor sites with sheets if ordered to leave open to air |
-| Avoid friction                                               |
-| Monitor for bleeding and infection                           |
+- Donor sites can be very painful
+- Donor sites may be more painful than the graft site
+- Do not cover donor sites with sheets if ordered to leave open to air
+- Avoid friction
+- Monitor for bleeding and infection
 
 ---
 
@@ -720,11 +704,9 @@ A donor site is where healthy skin is removed from the client for grafting.
 
 A mesh graft is skin that has been expanded to cover a larger wound area.
 
-| Why It Is Used                                         |
-| ------------------------------------------------------ |
-| Allows a smaller piece of skin to cover a larger wound |
-| Helps drainage escape                                  |
-| Covers larger burn areas                               |
+- Allows a smaller piece of skin to cover a larger wound
+- Helps drainage escape
+- Covers larger burn areas
 
 ---
 
@@ -758,13 +740,11 @@ The body needs extra calories and protein for wound healing.
 
 ### Contracture Prevention
 
-| Prevention                |
-| ------------------------- |
-| Range-of-motion exercises |
-| Splints                   |
-| Proper positioning        |
-| Physical therapy          |
-| Occupational therapy      |
+- Range-of-motion exercises
+- Splints
+- Proper positioning
+- Physical therapy
+- Occupational therapy
 
 ---
 
