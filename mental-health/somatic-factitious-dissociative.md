@@ -100,15 +100,13 @@ Illness anxiety disorder (formerly called hypochondriasis) involves being very w
 
 ## Assessment
 
-| Finding |
-|---|
-| Preoccupied with health |
-| Frequently checks body for symptoms |
-| Misinterprets normal sensations as illness |
-| Seeks repeated testing or reassurance |
-| Anxiety worsens during stress |
-| May become angry if psychiatric care is suggested |
-| Depression/anxiety/personality disorders may coexist |
+- Preoccupied with health
+- Frequently checks body for symptoms
+- Misinterprets normal sensations as illness
+- Seeks repeated testing or reassurance
+- Anxiety worsens during stress
+- May become angry if psychiatric care is suggested
+- Depression/anxiety/personality disorders may coexist
 
 ---
 
@@ -137,15 +135,13 @@ Conversion disorder (also called **functional neurological symptom disorder**) i
 
 ## Assessment — Possible Symptoms
 
-| Possible Symptoms |
-|---|
-| Paralysis |
-| Blindness |
-| Weakness |
-| Seizure-like episodes |
-| Loss of sensation |
-| Difficulty speaking |
-| Motor or sensory deficits |
+- Paralysis
+- Blindness
+- Weakness
+- Seizure-like episodes
+- Loss of sensation
+- Difficulty speaking
+- Motor or sensory deficits
 
 The symptoms must be medically evaluated before diagnosis.
 
@@ -222,14 +218,12 @@ Factitious disorder imposed on another is abuse. The victim may undergo unnecess
 
 ## Clues
 
-| Finding |
-|---|
-| Caregiver reports repeated unusual symptoms |
-| Symptoms occur only when caregiver is present |
-| Caregiver has medical knowledge |
-| Caregiver appears overly involved or attention-seeking |
-| Child/person has repeated unexplained illness |
-| Tests/treatments do not match actual findings |
+- Caregiver reports repeated unusual symptoms
+- Symptoms occur only when caregiver is present
+- Caregiver has medical knowledge
+- Caregiver appears overly involved or attention-seeking
+- Child/person has repeated unexplained illness
+- Tests/treatments do not match actual findings
 
 ---
 
@@ -342,16 +336,14 @@ Dissociative identity disorder involves two or more distinct identities or perso
 
 ## Assessment
 
-| Finding |
-|---|
-| Memory gaps |
-| Lost time |
-| Blackouts |
-| Different identity states |
-| Different behaviors/voices/handwriting |
-| History of severe childhood abuse |
-| Depression, anxiety, PTSD, eating disorders, substance use may coexist |
-| High suicide risk |
+- Memory gaps
+- Lost time
+- Blackouts
+- Different identity states
+- Different behaviors/voices/handwriting
+- History of severe childhood abuse
+- Depression, anxiety, PTSD, eating disorders, substance use may coexist
+- High suicide risk
 
 <div class="warning">
 Suicide risk is high in dissociative identity disorder. Assess suicidal thoughts, self-harm, and safety often.

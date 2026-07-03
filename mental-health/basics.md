@@ -241,16 +241,14 @@ The nurse helps the patient recognize choices, accept responsibility when approp
 
 Milieu therapy means the **environment is part of treatment.** The goal is to create a safe, structured, supportive setting where patients can practice healthier behaviors.
 
-| Milieu Therapy Includes |
-|---|
-| Clear routines |
-| Safe environment |
-| Group therapy |
-| Unit rules |
-| Therapeutic activities |
-| Consistent expectations |
-| Patient responsibilities |
-| Staff modeling healthy communication |
+- Clear routines
+- Safe environment
+- Group therapy
+- Unit rules
+- Therapeutic activities
+- Consistent expectations
+- Patient responsibilities
+- Staff modeling healthy communication
 
 The nurse maintains safety, encourages participation, sets limits, models healthy behavior, reinforces rules consistently, observes patient interactions, reduces triggers and overstimulation, and promotes independence.
 

@@ -149,14 +149,12 @@ Opioid overdose can cause death from **respiratory arrest**.
 
 Naloxone is an opioid antagonist used for opioid overdose.
 
-| Key Point |
-|---|
-| Reverses opioid effects |
-| Can be given intranasal, IM, SQ, or IV depending on order/protocol |
-| May trigger acute withdrawal |
-| Patient can become agitated after reversal |
-| Monitor respirations after giving |
-| More doses may be needed because naloxone can wear off before opioid |
+- Reverses opioid effects
+- Can be given intranasal, IM, SQ, or IV depending on order/protocol
+- May trigger acute withdrawal
+- Patient can become agitated after reversal
+- Monitor respirations after giving
+- More doses may be needed because naloxone can wear off before opioid
 
 ---
 
@@ -164,19 +162,17 @@ Naloxone is an opioid antagonist used for opioid overdose.
 
 Opioid withdrawal is very uncomfortable but usually not as life-threatening as alcohol or benzodiazepine withdrawal.
 
-| Symptoms |
-|---|
-| Anxiety |
-| Muscle aches |
-| Sweating |
-| Runny nose |
-| Dilated pupils |
-| Nausea/vomiting |
-| Diarrhea |
-| Cramping |
-| Yawning |
-| Insomnia |
-| Cravings |
+- Anxiety
+- Muscle aches
+- Sweating
+- Runny nose
+- Dilated pupils
+- Nausea/vomiting
+- Diarrhea
+- Cramping
+- Yawning
+- Insomnia
+- Cravings
 
 ## Opioid Withdrawal / Maintenance Meds
 
@@ -195,27 +191,23 @@ Includes: benzodiazepines, benzodiazepine-like drugs, barbiturates, barbiturate-
 
 ## Overdose
 
-| Finding |
-|---|
-| Sedation |
-| Slurred speech |
-| Poor coordination |
-| Respiratory depression |
-| Decreased LOC |
-| Hypotension |
+- Sedation
+- Slurred speech
+- Poor coordination
+- Respiratory depression
+- Decreased LOC
+- Hypotension
 
 ## Withdrawal
 
 Sedative withdrawal can be dangerous.
 
-| Withdrawal Risk |
-|---|
-| Anxiety |
-| Tremors |
-| Insomnia |
-| Agitation |
-| Seizures |
-| Possible life-threatening withdrawal |
+- Anxiety
+- Tremors
+- Insomnia
+- Agitation
+- Seizures
+- Possible life-threatening withdrawal
 
 <div class="warning">
 
@@ -231,32 +223,28 @@ Stimulants include cocaine and amphetamine-type drugs.
 
 ## Stimulant Intoxication
 
-| Finding |
-|---|
-| Increased energy |
-| Euphoria |
-| Agitation |
-| Dilated pupils |
-| Tachycardia |
-| Hypertension |
-| Sweating |
-| Decreased appetite |
-| Insomnia |
-| Paranoia |
-| Chest pain |
-| Dysrhythmias |
+- Increased energy
+- Euphoria
+- Agitation
+- Dilated pupils
+- Tachycardia
+- Hypertension
+- Sweating
+- Decreased appetite
+- Insomnia
+- Paranoia
+- Chest pain
+- Dysrhythmias
 
 ## Stimulant Withdrawal
 
-| Finding |
-|---|
-| Fatigue |
-| Depression |
-| Increased sleep |
-| Increased appetite |
-| Cravings |
-| Irritability |
-| Suicidal thoughts possible |
+- Fatigue
+- Depression
+- Increased sleep
+- Increased appetite
+- Cravings
+- Irritability
+- Suicidal thoughts possible
 
 ## Nursing Care
 
@@ -275,16 +263,14 @@ Stimulants include cocaine and amphetamine-type drugs.
 
 Cannabis intoxication may cause:
 
-| Finding |
-|---|
-| Euphoria |
-| Relaxation |
-| Altered perception |
-| Poor coordination |
-| Red eyes |
-| Increased appetite |
-| Anxiety or panic |
-| Impaired memory/judgment |
+- Euphoria
+- Relaxation
+- Altered perception
+- Poor coordination
+- Red eyes
+- Increased appetite
+- Anxiety or panic
+- Impaired memory/judgment
 
 ## Nursing Focus
 
@@ -302,15 +288,13 @@ Hallucinogens cause major disturbances in perception and reality.
 
 ## Assessment
 
-| Finding |
-|---|
-| Hallucinations |
-| Distorted perception |
-| Panic |
-| Paranoia |
-| Poor judgment |
-| Risk-taking behavior |
-| Possible aggression |
+- Hallucinations
+- Distorted perception
+- Panic
+- Paranoia
+- Poor judgment
+- Risk-taking behavior
+- Possible aggression
 
 ## Nursing Care
 
@@ -330,14 +314,12 @@ Inhalants include solvents, adhesives, fuels, thinners, and propellants.
 
 ## Dangers
 
-| Risk |
-|---|
-| CNS depression |
-| Respiratory depression |
-| Dysrhythmias |
-| Brain injury |
-| Liver/kidney damage |
-| Sudden death |
+- CNS depression
+- Respiratory depression
+- Dysrhythmias
+- Brain injury
+- Liver/kidney damage
+- Sudden death
 
 ## Nursing Focus
 
@@ -355,25 +337,21 @@ Nicotine withdrawal is distressing and can make quitting difficult.
 
 ## Withdrawal Symptoms
 
-| Finding |
-|---|
-| Irritability |
-| Anxiety |
-| Cravings |
-| Increased appetite |
-| Difficulty concentrating |
-| Sleep disturbance |
-| Restlessness |
+- Irritability
+- Anxiety
+- Cravings
+- Increased appetite
+- Difficulty concentrating
+- Sleep disturbance
+- Restlessness
 
 ## Treatment Options
 
-| Treatment |
-|---|
-| Behavioral therapy |
-| Hypnosis |
-| Nicotine replacement therapy |
-| Bupropion |
-| Varenicline |
+- Behavioral therapy
+- Hypnosis
+- Nicotine replacement therapy
+- Bupropion
+- Varenicline
 
 ---
 
@@ -403,16 +381,14 @@ Alcohol use disorder can affect: brain, liver, GI system, heart, nutrition, bloo
 
 ## Alcohol Intoxication
 
-| Finding |
-|---|
-| Slurred speech |
-| Poor coordination |
-| Impaired judgment |
-| Mood changes |
-| Decreased inhibitions |
-| Nausea/vomiting |
-| Sedation |
-| Respiratory depression at high levels |
+- Slurred speech
+- Poor coordination
+- Impaired judgment
+- Mood changes
+- Decreased inhibitions
+- Nausea/vomiting
+- Sedation
+- Respiratory depression at high levels
 
 <div class="note">
 
@@ -426,20 +402,18 @@ Alcohol is a CNS depressant. High levels can cause respiratory depression and de
 
 Withdrawal symptoms may start within hours after stopping alcohol and can last for days.
 
-| Withdrawal Finding |
-|---|
-| Tremors |
-| Nausea/vomiting |
-| Headache |
-| Anorexia |
-| Insomnia |
-| Diarrhea |
-| Anxiety |
-| Sweating |
-| Elevated BP |
-| Pulse over 100 |
-| Hallucinations |
-| Seizures |
+- Tremors
+- Nausea/vomiting
+- Headache
+- Anorexia
+- Insomnia
+- Diarrhea
+- Anxiety
+- Sweating
+- Elevated BP
+- Pulse over 100
+- Hallucinations
+- Seizures
 
 <div class="warning">
 
@@ -473,20 +447,18 @@ It usually occurs around **72 hours** after withdrawal begins and can be fatal.
 
 ## DT Symptoms
 
-| Finding |
-|---|
-| Severe agitation |
-| Anxiety |
-| Insomnia |
-| Sweating |
-| Fever possible |
-| Elevated BP/HR |
-| Delusions |
-| Hallucinations |
-| Formication |
-| Seizures |
-| Confusion |
-| Decreased LOC possible |
+- Severe agitation
+- Anxiety
+- Insomnia
+- Sweating
+- Fever possible
+- Elevated BP/HR
+- Delusions
+- Hallucinations
+- Formication
+- Seizures
+- Confusion
+- Decreased LOC possible
 
 <div class="note">
 
@@ -548,33 +520,29 @@ Wernicke's and Korsakoff's are linked to thiamine deficiency and treated with th
 
 ## Blood / Hormone Effects
 
-| Effect |
-|---|
-| Leukopenia |
-| Thrombocytopenia |
-| Decreased fertility |
-| Impotence in males |
-| Increased bleeding risk if liver disease present |
+- Leukopenia
+- Thrombocytopenia
+- Decreased fertility
+- Impotence in males
+- Increased bleeding risk if liver disease present
 
 ---
 
 # Alcohol Use Disorder Signs
 
-| Sign |
-|---|
-| Denial |
-| Poor hygiene |
-| Unexplained injuries |
-| High tolerance for CNS depressants |
-| Vitamin/mineral deficiencies |
-| Secretive drinking |
-| Hiding amount used |
-| Drinking daily to function |
-| Blackouts |
-| Rationalizing problems |
-| Blaming others |
-| Violence when intoxicated |
-| Unable to cut back alone |
+- Denial
+- Poor hygiene
+- Unexplained injuries
+- High tolerance for CNS depressants
+- Vitamin/mineral deficiencies
+- Secretive drinking
+- Hiding amount used
+- Drinking daily to function
+- Blackouts
+- Rationalizing problems
+- Blaming others
+- Violence when intoxicated
+- Unable to cut back alone
 
 ---
 
@@ -598,19 +566,17 @@ Disulfiram (Antabuse) is aversion therapy for alcohol use disorder. It prevents 
 
 ## Reaction With Alcohol
 
-| Symptoms |
-|---|
-| Nausea/vomiting |
-| Flushing |
-| Vertigo |
-| Increased pulse |
-| Hypotension |
-| Headache |
-| Shortness of breath |
-| Diaphoresis |
-| Chest pain |
-| Confusion |
-| May be fatal |
+- Nausea/vomiting
+- Flushing
+- Vertigo
+- Increased pulse
+- Hypotension
+- Headache
+- Shortness of breath
+- Diaphoresis
+- Chest pain
+- Confusion
+- May be fatal
 
 <div class="warning">
 
