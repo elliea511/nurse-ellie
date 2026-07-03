@@ -42,13 +42,39 @@
     'padding:0.2rem 0.5rem',
   ].join(';');
 
+  var download = document.createElement('a');
+  download.innerHTML = '&#8681; Download';
+  download.setAttribute('aria-label', 'Download image');
+  download.style.cssText = [
+    'position:fixed',
+    'bottom:1.4rem',
+    'left:50%',
+    'transform:translateX(-50%)',
+    'background:rgba(255,255,255,0.15)',
+    'color:#fff',
+    'border:1.5px solid rgba(255,255,255,0.4)',
+    'border-radius:999px',
+    'padding:0.45rem 1.3rem',
+    'font-size:0.92rem',
+    'font-family:inherit',
+    'cursor:pointer',
+    'z-index:10000',
+    'text-decoration:none',
+    'backdrop-filter:blur(6px)',
+  ].join(';');
+
   overlay.appendChild(img);
   overlay.appendChild(close);
+  overlay.appendChild(download);
   document.body.appendChild(overlay);
 
   function open(src, alt) {
     img.src = src;
     img.alt = alt || '';
+    // Derive a clean filename from the URL
+    var filename = src.split('/').pop().split('?')[0] || 'image.png';
+    download.href = src;
+    download.download = decodeURIComponent(filename);
     overlay.style.display = 'flex';
     document.body.style.overflow = 'hidden';
   }
