@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/prototype.css' | relative_url }}">
+  <meta name="base-url" content="{{ '/' | relative_url | remove_last: '/' }}">
+</head>
+<body class="prototype prototype-home">
+  <input type="checkbox" id="sidebar-toggle" class="sidebar-toggle-checkbox">
+  <label for="sidebar-toggle" class="sidebar-toggle-button" aria-label="Open study menu">☰ <span>Study Menu</span></label>
+  <label for="sidebar-toggle" class="sidebar-overlay"></label>
+
+  {% include sidebar.html %}
+
+  <header class="prototype-topbar">
+    <a class="prototype-brand" href="{{ '/test-home.html' | relative_url }}" aria-label="Nursing Study Studio home">
+      <span class="brand-mark">♡</span>
+      <span><strong>Nursing Study Studio</strong><small>Learn clearly. Care confidently.</small></span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <a href="{{ '/all-topics.html' | relative_url }}">All Notes</a>
+      <a href="{{ '/review.html' | relative_url }}">My Review</a>
+      <a class="nav-featured" href="{{ '/medical-emergencies/practice-quiz.html' | relative_url }}">Practice</a>
+    </nav>
+  </header>
+
+  <main>{{ content }}</main>
+
+  <script src="{{ '/assets/js/search.js' | relative_url }}"></script>
+  <script src="{{ '/assets/js/streak.js' | relative_url }}"></script>
+</body>
+</html>
