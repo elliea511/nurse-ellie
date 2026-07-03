@@ -32,6 +32,12 @@ title: Nursing Notes
     <span class="button-subtitle">Burns, poisonings, shock & urgent care</span>
   </a>
 
+  <a class="home-big-button sage" href="{{ '/mental-health.html' | relative_url }}">
+    <span class="tile-emoji">🧠</span>
+    <span class="button-title">Mental Health</span>
+    <span class="button-subtitle">Psych disorders, crisis care & medications</span>
+  </a>
+
   <a class="home-big-button taupe" href="{{ '/ati/' | relative_url }}">
     <span class="tile-emoji">📖</span>
     <span class="button-title">ATI Exam Review</span>
