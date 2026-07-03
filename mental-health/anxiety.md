@@ -620,44 +620,33 @@ Buspirone is not a rescue medication. It takes time to become therapeutic.
 
 # NCLEX Cues
 
-<div class="warning">
-<strong>Mild anxiety:</strong> teaching can happen.
+<div class="note">
+
+**Anxiety levels matter:**
+- Mild → teaching can happen.
+- Moderate → simple directions only.
+- Severe → reduce stimuli, stay calm.
+- Panic → stay with the patient, short directions, safety first — no teaching.
+
 </div>
 
 <div class="warning">
-<strong>Panic anxiety:</strong> stay with patient, reduce stimulation, use short directions.
+
+**OCD and phobia:**
+- Obsessions are thoughts; compulsions are actions.
+- Do not abruptly stop all OCD rituals — reduce them gradually.
+- Systematic desensitization = gradual exposure. Flooding = direct/intense exposure.
+
 </div>
 
 <div class="warning">
-<strong>Systematic desensitization:</strong> gradual exposure.
-</div>
 
-<div class="warning">
-<strong>Flooding:</strong> direct/intense exposure.
-</div>
+**Medications and trauma:**
+- Buspirone takes weeks — it is not for immediate panic relief.
+- Benzodiazepines work quickly but carry sedation, fall risk, and dependence risk.
+- PTSD flashback: ground the patient to the present.
+- Trauma-informed care: explain before touching, give choices when possible.
 
-<div class="warning">
-<strong>OCD:</strong> obsessions are thoughts; compulsions are actions.
-</div>
-
-<div class="warning">
-<strong>Do not abruptly stop all OCD rituals.</strong> Reduce gradually.
-</div>
-
-<div class="warning">
-<strong>Buspirone takes weeks.</strong> It is not for immediate panic relief.
-</div>
-
-<div class="warning">
-<strong>Benzodiazepines work quickly but have sedation, fall risk, and dependence risk.</strong>
-</div>
-
-<div class="warning">
-<strong>PTSD flashback:</strong> ground the patient to the present.
-</div>
-
-<div class="warning">
-<strong>Trauma-informed care:</strong> explain before touching and give choices when possible.
 </div>
 
 ---
@@ -694,4 +683,11 @@ For anxiety, OCD, and trauma questions, ask:
 <strong>3. Is the behavior avoidance, ritual, panic, or trauma response?</strong><br>
 <strong>4. Do I need to reduce stimuli, stay with them, or teach coping?</strong><br>
 <strong>5. Is the medication for quick relief or long-term control?</strong>
+</div>
+
+---
+
+<div class="page-nav">
+  <a href="{{ '/mental-health/mood-disorders.html' | relative_url }}" class="page-nav-back">← Depression & Bipolar Disorder</a>
+  <a href="{{ '/mental-health/somatic-factitious-dissociative.html' | relative_url }}" class="page-nav-next">Somatic, Factitious & Dissociative →</a>
 </div>

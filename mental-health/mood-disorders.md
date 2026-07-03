@@ -603,43 +603,31 @@ Some mood stabilizers can cause birth defects. Pregnancy status and contraceptio
 # NCLEX Cues
 
 <div class="warning">
-<strong>Depression: always assess suicide risk.</strong>
+
+**Depression:**
+- Always assess suicide risk — hopelessness is a major clue.
+- Sudden improvement in severe depression can be a suicide warning sign (decision made, energy returned).
+- Antidepressants can increase suicide risk early — energy may improve before mood does.
+
 </div>
 
 <div class="warning">
-<strong>Sudden improvement in severe depression can be a suicide warning sign.</strong>
+
+**Mania:**
+- Bipolar I = mania. Bipolar II = hypomania + major depression.
+- Mania priority: safety, low stimulation, rest, fluids, nutrition.
+- Provide high-calorie finger foods — the patient may not sit long enough for a meal.
+
 </div>
 
 <div class="warning">
-<strong>Antidepressants can increase suicide risk early because energy may improve before mood.</strong>
-</div>
 
-<div class="warning">
-<strong>Bipolar I = mania. Bipolar II = hypomania + major depression.</strong>
-</div>
+**Lithium:**
+- Therapeutic range: 0.6–1.2 mEq/L.
+- Toxicity signs: GI upset, worsening tremor, confusion, ataxia — hold and notify provider.
+- Low sodium or dehydration increases lithium toxicity risk.
+- ECT: may cause temporary short-term memory loss.
 
-<div class="warning">
-<strong>Mania priority: safety, low stimulation, rest, fluids, nutrition.</strong>
-</div>
-
-<div class="warning">
-<strong>For mania, provide high-calorie finger foods because the patient may not sit long enough to eat.</strong>
-</div>
-
-<div class="warning">
-<strong>Lithium therapeutic range: 0.6–1.2 mEq/L.</strong>
-</div>
-
-<div class="warning">
-<strong>Lithium toxicity: hold the dose and notify the provider.</strong>
-</div>
-
-<div class="warning">
-<strong>Low sodium or dehydration increases lithium toxicity risk.</strong>
-</div>
-
-<div class="warning">
-<strong>ECT may cause temporary short-term memory loss.</strong>
 </div>
 
 ---
@@ -676,4 +664,11 @@ For mood disorder questions, ask:
 <strong>3. Are they eating, drinking, sleeping, and doing ADLs?</strong><br>
 <strong>4. Are meds causing toxicity or dangerous side effects?</strong><br>
 <strong>5. Does the intervention match the mood state: depression support vs mania structure?</strong>
+</div>
+
+---
+
+<div class="page-nav">
+  <a href="{{ '/mental-health/abuse-suicide.html' | relative_url }}" class="page-nav-back">← Abuse & Suicide</a>
+  <a href="{{ '/mental-health/anxiety.html' | relative_url }}" class="page-nav-next">Anxiety, OCD & Trauma →</a>
 </div>

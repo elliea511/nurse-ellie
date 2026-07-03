@@ -427,35 +427,22 @@ Avoid: *"Why were you there?" / "Why didn't you fight back?" / "Are you sure?" /
 # NCLEX Cues
 
 <div class="warning">
-<strong>Ask directly about suicide.</strong>
+
+**Suicide priority:**
+- Ask directly about suicide — it does not increase risk.
+- Specific plan + access to means + lethal method = highest risk.
+- New suicidal admission: search belongings first.
+- Use and count plastic utensils; do not leave an actively suicidal patient alone.
+
 </div>
 
 <div class="warning">
-<strong>Specific plan + access to means + lethal method = highest risk.</strong>
-</div>
 
-<div class="warning">
-<strong>New suicidal admission: search belongings first.</strong>
-</div>
+**Abuse priority:**
+- Interview suspected abuse victims alone — ask the partner/caregiver to step out.
+- Child abuse and elder abuse are mandatory reporting. Suspicion is enough.
+- Document exact quotes and objective findings; avoid interpreting.
 
-<div class="warning">
-<strong>Use and count plastic utensils for suicidal patients.</strong>
-</div>
-
-<div class="warning">
-<strong>Do not leave an actively suicidal patient alone.</strong>
-</div>
-
-<div class="warning">
-<strong>Interview suspected abuse victims alone.</strong>
-</div>
-
-<div class="warning">
-<strong>Child abuse and elder abuse are mandatory reporting.</strong>
-</div>
-
-<div class="warning">
-<strong>Document exact quotes and objective findings.</strong>
 </div>
 
 ---
@@ -494,4 +481,11 @@ For abuse and suicide questions, ask:
 <strong>5. Do I need to interview the patient alone?</strong><br>
 <strong>6. Is this child, elder, or vulnerable adult abuse?</strong><br>
 <strong>7. Am I documenting exact quotes and objective findings?</strong>
+</div>
+
+---
+
+<div class="page-nav">
+  <a href="{{ '/mental-health/therapeutic-communication.html' | relative_url }}" class="page-nav-back">← Therapeutic Communication</a>
+  <a href="{{ '/mental-health/mood-disorders.html' | relative_url }}" class="page-nav-next">Depression & Bipolar Disorder →</a>
 </div>

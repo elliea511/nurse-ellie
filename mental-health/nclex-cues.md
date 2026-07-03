@@ -398,3 +398,10 @@ For mental health NCLEX questions, ask:
 **1. Is anyone unsafe?** **2. Is this suicide, homicide, abuse, psychosis, overdose, withdrawal, or violence?** **3. Do I need to ask directly?** **4. Do I need to stay with the patient, remove objects, or call for help?** **5. Is this response therapeutic?** **6. Is this medication side effect expected or dangerous?**
 
 </div>
+
+---
+
+<div class="page-nav">
+  <a href="{{ '/mental-health/crisis-safety.html' | relative_url }}" class="page-nav-back">← Crisis & Safety Priorities</a>
+  <a href="{{ '/mental-health/practice-quiz.html' | relative_url }}" class="page-nav-next">Practice Quizzes →</a>
+</div>

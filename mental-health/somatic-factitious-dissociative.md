@@ -476,43 +476,24 @@ In dissociative disorders, medications should be used carefully because suicide 
 # NCLEX Cues
 
 <div class="warning">
-<strong>Always assess physical symptoms first.</strong> Do not assume symptoms are psychiatric.
+
+**Somatic and conversion:**
+- Always assess physical symptoms first — do not assume psychiatric without ruling out medical causes.
+- Somatic symptoms are real to the patient; never dismiss or shame them.
+- Focus on function, coping, and daily routine — not on eliminating every symptom.
+- Do not reinforce secondary gain — spend time with the patient when they are not focused on symptoms.
+- Conversion disorder symptoms must be medically evaluated first; do not challenge them.
+
 </div>
 
 <div class="warning">
-<strong>Somatic symptoms are real to the patient.</strong> Do not dismiss or shame them.
-</div>
 
-<div class="warning">
-<strong>With somatic disorders, focus on function, coping, and routine.</strong>
-</div>
+**Factitious, malingering, and dissociative:**
+- Factitious = wants the sick role. Malingering = wants external benefit (money, avoiding prison).
+- Factitious disorder imposed on another is abuse — protect the victim and report.
+- Dissociative disorders are strongly linked to trauma — safety and trust come first.
+- DID has high suicide risk — assess safety often.
 
-<div class="warning">
-<strong>Do not reinforce secondary gain.</strong> Spend time with the patient when they are not focused on symptoms.
-</div>
-
-<div class="warning">
-<strong>Conversion disorder symptoms must be medically evaluated first.</strong>
-</div>
-
-<div class="warning">
-<strong>Do not challenge conversion symptoms.</strong> They are real to the patient.
-</div>
-
-<div class="warning">
-<strong>Factitious disorder imposed on another is abuse.</strong> Protect the victim.
-</div>
-
-<div class="warning">
-<strong>Factitious = wants sick role. Malingering = wants external benefit.</strong>
-</div>
-
-<div class="warning">
-<strong>Dissociative disorders are strongly linked to trauma.</strong> Safety and trust come first.
-</div>
-
-<div class="warning">
-<strong>DID has high suicide risk.</strong> Assess safety often.
 </div>
 
 ---
@@ -550,4 +531,11 @@ For these disorders, ask:
 <strong>4. Is this illness behavior for attention or external reward?</strong><br>
 <strong>5. Is trauma, dissociation, or suicide risk involved?</strong><br>
 <strong>6. Am I staying calm, matter-of-fact, and therapeutic?</strong>
+</div>
+
+---
+
+<div class="page-nav">
+  <a href="{{ '/mental-health/anxiety.html' | relative_url }}" class="page-nav-back">← Anxiety, OCD & Trauma</a>
+  <a href="{{ '/mental-health/personality-disorders.html' | relative_url }}" class="page-nav-next">Personality Disorders →</a>
 </div>

@@ -388,61 +388,22 @@ Restraints are never for punishment, convenience, lack of staffing, or staff fru
 
 <div class="warning">
 
-**Safety first.** Suicide, homicide, violence, overdose, withdrawal, abuse, and command hallucinations are priority.
-
-</div>
-
-<div class="warning">
-
-**Ask directly about suicide or homicide.**
-
-</div>
-
-<div class="warning">
-
-**Command hallucinations:** ask what the voices are saying.
-
-</div>
-
-<div class="warning">
-
-**Do not leave an actively suicidal patient alone.**
+**Always priority:** suicide, homicide, violence, overdose, withdrawal, abuse, and command hallucinations — before teaching, coping, or discharge.
+- Ask directly about suicide or homicide — do not hint around it.
+- Command hallucinations: ask what the voices are saying (content = safety priority).
+- Do not leave an actively suicidal patient alone.
+- Abuse: interview alone; report child/elder/vulnerable adult abuse — suspicion is enough.
+- Alcohol withdrawal/DTs: seizure risk; medical emergency.
 
 </div>
 
 <div class="note">
 
-**Do not argue with delusions.**
-
-</div>
-
-<div class="note">
-
-**Panic:** stay with patient, reduce stimulation, short directions.
-
-</div>
-
-<div class="note">
-
-**Mania:** decrease stimulation, set limits, provide finger foods and fluids.
-
-</div>
-
-<div class="warning">
-
-**Abuse:** interview alone and report child/elder/vulnerable adult abuse.
-
-</div>
-
-<div class="warning">
-
-**Alcohol withdrawal/DTs:** seizure risk and medical emergency.
-
-</div>
-
-<div class="warning">
-
-**Restraints/seclusion:** last resort only.
+**Situational responses:**
+- Delusions: do not argue or agree — present reality calmly, focus on feelings.
+- Panic: stay with the patient, reduce stimulation, use short directions.
+- Mania: decrease stimulation, set limits, provide finger foods and fluids.
+- Restraints/seclusion: last resort only, never for punishment or convenience.
 
 </div>
 
@@ -456,4 +417,11 @@ For crisis and safety questions, ask:
 
 **1. Is anyone in immediate danger?** **2. Is this suicide, homicide, violence, abuse, overdose, or withdrawal?** **3. Do I need to ask directly about plan, means, voices, or weapons?** **4. Do I need to stay with the patient or remove harmful objects?** **5. What is the least restrictive way to keep everyone safe?**
 
+</div>
+
+---
+
+<div class="page-nav">
+  <a href="{{ '/mental-health/medications.html' | relative_url }}" class="page-nav-back">← Mental Health Medications</a>
+  <a href="{{ '/mental-health/nclex-cues.html' | relative_url }}" class="page-nav-next">NCLEX Quick Cues →</a>
 </div>

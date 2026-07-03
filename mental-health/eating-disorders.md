@@ -526,39 +526,23 @@ Eating disorder care is interdisciplinary.
 # NCLEX Cues
 
 <div class="warning">
-<strong>Anorexia:</strong> severe restriction, low body weight, fear of gaining weight, distorted body image.
+
+**Medical priorities:**
+- Anorexia: severe restriction + fear of gaining weight + distorted body image — cardiac and electrolyte safety first.
+- Bulimia: binge + purge — weight may be normal, but hypokalemia = dysrhythmia risk.
+- Refeeding syndrome: watch phosphorus, potassium, magnesium, fluid shifts, and cardiac status.
+
 </div>
 
 <div class="warning">
-<strong>Bulimia:</strong> binge + purge. Weight may be normal, but electrolytes can be dangerous.
-</div>
 
-<div class="warning">
-<strong>Hypokalemia = dysrhythmia risk.</strong>
-</div>
+**Nursing approach:**
+- Supervise meals and monitor after meals to prevent hiding food or purging.
+- Do not argue about body image — focus on feelings, safety, nutrition, and health.
+- Maintain structure and boundaries around meals, exercise, and behavioral contracts.
+- Pica: eating nonfood substances — watch for poisoning, choking, obstruction, and lead exposure.
+- ARFID: restrictive intake without body image disturbance.
 
-<div class="warning">
-<strong>Refeeding syndrome:</strong> watch phosphorus, potassium, magnesium, fluid shifts, and cardiac status.
-</div>
-
-<div class="warning">
-<strong>Supervise meals and monitor after meals</strong> to prevent hiding food or purging.
-</div>
-
-<div class="warning">
-<strong>Do not argue about body image.</strong> Focus on feelings, safety, nutrition, and health.
-</div>
-
-<div class="warning">
-<strong>Maintain structure and boundaries</strong> around meals, exercise, and contracts.
-</div>
-
-<div class="warning">
-<strong>Pica:</strong> eating nonfood substances; watch for poisoning, choking, obstruction, and lead exposure.
-</div>
-
-<div class="warning">
-<strong>ARFID:</strong> restrictive intake without body image disturbance.
 </div>
 
 ---
@@ -591,4 +575,11 @@ For eating disorder questions, ask:
 <strong>4. Do meals/exercise need supervision?</strong><br>
 <strong>5. Is refeeding syndrome a risk?</strong><br>
 <strong>6. Am I focusing on safety, nutrition, structure, and coping?</strong>
+</div>
+
+---
+
+<div class="page-nav">
+  <a href="{{ '/mental-health/personality-disorders.html' | relative_url }}" class="page-nav-back">← Personality Disorders</a>
+  <a href="{{ '/mental-health/addiction.html' | relative_url }}" class="page-nav-next">Addiction & Substance Use →</a>
 </div>

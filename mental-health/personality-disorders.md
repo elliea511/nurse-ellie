@@ -584,48 +584,27 @@ Medications do not "cure" personality disorders, but may help with symptoms or c
 
 # NCLEX Cues
 
-<div class="warning">
-<strong>Personality disorders are long-standing, rigid behavior patterns.</strong>
+<div class="note">
+
+**Cluster quick reference:**
+- Cluster A (odd/eccentric): Paranoid, Schizoid, Schizotypal.
+- Cluster B (dramatic/erratic): Antisocial, Borderline, Histrionic, Narcissistic.
+- Cluster C (anxious/fearful): Avoidant, Dependent, OCPD.
+- Personality disorders are long-standing, rigid patterns — not acute illness.
+
 </div>
 
 <div class="warning">
-<strong>Cluster A:</strong> odd/eccentric.
-</div>
 
-<div class="warning">
-<strong>Cluster B:</strong> dramatic/emotional/erratic.
-</div>
+**High-priority disorders:**
+- **Antisocial:** safety, firm limits, do not allow manipulation.
+- **Borderline:** self-harm risk, splitting, clear boundaries, team consistency.
+- **Histrionic:** attention-seeking — but still assess suicide risk.
+- **Narcissistic:** avoid power struggles, do not take insults personally.
+- **Dependent:** encourage decision-making and independence, do not foster dependence.
+- **OCPD ≠ OCD:** OCPD is perfectionism and control; OCD is obsessions and compulsions.
+- Staff consistency is the cornerstone of care — prevents splitting and manipulation.
 
-<div class="warning">
-<strong>Cluster C:</strong> anxious/fearful.
-</div>
-
-<div class="warning">
-<strong>Antisocial:</strong> safety, firm limits, no manipulation.
-</div>
-
-<div class="warning">
-<strong>Borderline:</strong> self-harm risk, splitting, boundaries, consistency.
-</div>
-
-<div class="warning">
-<strong>Histrionic:</strong> attention-seeking, but still assess suicide risk.
-</div>
-
-<div class="warning">
-<strong>Narcissistic:</strong> avoid power struggles and do not take insults personally.
-</div>
-
-<div class="warning">
-<strong>Dependent:</strong> encourage decision-making and independence.
-</div>
-
-<div class="warning">
-<strong>OCPD is not OCD.</strong> OCPD is perfectionism/control; OCD is obsessions/compulsions.
-</div>
-
-<div class="warning">
-<strong>Staff consistency prevents splitting and manipulation.</strong>
 </div>
 
 ---
@@ -657,4 +636,11 @@ For personality disorder questions, ask:
 <strong>3. Is the staff being consistent?</strong><br>
 <strong>4. Is the patient manipulating, splitting, withdrawing, or depending?</strong><br>
 <strong>5. How can I encourage responsibility and healthier coping?</strong>
+</div>
+
+---
+
+<div class="page-nav">
+  <a href="{{ '/mental-health/somatic-factitious-dissociative.html' | relative_url }}" class="page-nav-back">← Somatic, Factitious & Dissociative</a>
+  <a href="{{ '/mental-health/eating-disorders.html' | relative_url }}" class="page-nav-next">Eating Disorders →</a>
 </div>

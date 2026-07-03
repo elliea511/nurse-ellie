@@ -458,43 +458,25 @@ Example: "I understand you are angry. I cannot allow yelling at other patients. 
 # NCLEX Cues
 
 <div class="warning">
-<strong>Do not ask "why."</strong> It sounds blaming.
+
+**Nontherapeutic traps — always wrong:**
+- Do not ask "why" — it sounds blaming.
+- Do not give false reassurance — avoid "Everything will be okay."
+- Do not give advice — help the patient explore their own choices.
+- Do not agree with delusions or hallucinations — present reality calmly.
+
 </div>
 
 <div class="warning">
-<strong>Do not give false reassurance.</strong> Avoid "Everything will be okay."
-</div>
 
-<div class="warning">
-<strong>Do not give advice.</strong> Help the patient explore choices.
-</div>
+**Situation-specific responses:**
+- Suicide: ask directly — it does not increase risk.
+- Hallucinations: ask what the voices are saying (content = safety priority).
+- Panic: stay with the patient, reduce stimulation, use short directions.
+- Abuse: believe the patient, avoid blame, interview alone.
+- Manipulation or splitting: keep staff responses consistent.
+- Anger or violence: maintain safety, set clear limits calmly.
 
-<div class="warning">
-<strong>Do not agree with delusions or hallucinations.</strong> Present reality calmly.
-</div>
-
-<div class="warning">
-<strong>Ask directly about suicide.</strong>
-</div>
-
-<div class="warning">
-<strong>For hallucinations, ask what the voices are saying.</strong>
-</div>
-
-<div class="warning">
-<strong>For panic, stay with the patient and use short directions.</strong>
-</div>
-
-<div class="warning">
-<strong>For abuse, believe the patient and avoid blame.</strong>
-</div>
-
-<div class="warning">
-<strong>For manipulation or splitting, keep staff responses consistent.</strong>
-</div>
-
-<div class="warning">
-<strong>For anger or violence, maintain safety and set clear limits.</strong>
 </div>
 
 ---
@@ -509,4 +491,11 @@ For therapeutic communication questions, ask:
 <strong>3. Does it focus on the patient's feelings or safety?</strong><br>
 <strong>4. Does it avoid advice, false reassurance, and "why" questions?</strong><br>
 <strong>5. Does it keep professional boundaries?</strong>
+</div>
+
+---
+
+<div class="page-nav">
+  <a href="{{ '/mental-health/basics.html' | relative_url }}" class="page-nav-back">← Mental Health Basics</a>
+  <a href="{{ '/mental-health/abuse-suicide.html' | relative_url }}" class="page-nav-next">Abuse & Suicide →</a>
 </div>
