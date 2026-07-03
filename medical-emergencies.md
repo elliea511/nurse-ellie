@@ -15,46 +15,54 @@ Medical emergencies show up throughout nursing — in the ER, on the floor, in c
 
 ## Choose a Category
 
-<div class="study-card-grid">
+<ul class="topic-list">
 
-<a class="study-card" href="{{ '/medical-emergencies/cardiac-perfusion.html' | relative_url }}">
-<h2>Cardiac & Perfusion Emergencies</h2>
-<p>Angina, myocardial infarction, CHF, hypertensive crisis, and hemophilia bleeding emergencies.</p>
-</a>
+<li><a href="{{ '/medical-emergencies/cardiac-perfusion.html' | relative_url }}">
+<span class="tl-arrow">›</span>
+<span class="tl-title">Cardiac & Perfusion Emergencies</span>
+<span class="tl-desc">Angina, myocardial infarction, CHF, hypertensive crisis, and hemophilia bleeding emergencies.</span>
+</a></li>
 
-<a class="study-card" href="{{ '/medical-emergencies/respiratory.html' | relative_url }}">
-<h2>Respiratory Emergencies</h2>
-<p>Pulmonary embolism, anaphylaxis, pneumothorax, airway obstruction, and aspiration risk.</p>
-</a>
+<li><a href="{{ '/medical-emergencies/respiratory.html' | relative_url }}">
+<span class="tl-arrow">›</span>
+<span class="tl-title">Respiratory Emergencies</span>
+<span class="tl-desc">Pulmonary embolism, anaphylaxis, pneumothorax, airway obstruction, and aspiration risk.</span>
+</a></li>
 
-<a class="study-card" href="{{ '/medical-emergencies/neurological.html' | relative_url }}">
-<h2>Neurological Emergencies</h2>
-<p>TIA, stroke, increased intracranial pressure, and hydrocephalus.</p>
-</a>
+<li><a href="{{ '/medical-emergencies/neurological.html' | relative_url }}">
+<span class="tl-arrow">›</span>
+<span class="tl-title">Neurological Emergencies</span>
+<span class="tl-desc">TIA, stroke, increased intracranial pressure, and hydrocephalus.</span>
+</a></li>
 
-<a class="study-card" href="{{ '/medical-emergencies/shock.html' | relative_url }}">
-<h2>Shock</h2>
-<p>Hypovolemic, cardiogenic, septic, neurogenic, anaphylactic, and obstructive shock — patterns, recognition, and priority interventions.</p>
-</a>
+<li><a href="{{ '/medical-emergencies/shock.html' | relative_url }}">
+<span class="tl-arrow">›</span>
+<span class="tl-title">Shock</span>
+<span class="tl-desc">Hypovolemic, cardiogenic, septic, neurogenic, anaphylactic, and obstructive shock — patterns, recognition, and priority interventions.</span>
+</a></li>
 
-<a class="study-card" href="{{ '/medical-emergencies/emergencies-prep.html' | relative_url }}">
-<h2>Emergency Preparedness & Crisis Intervention</h2>
-<p>ED basics, triage levels, disaster planning, hazmat, human trafficking recognition, and crisis intervention.</p>
-</a>
+<li><a href="{{ '/medical-emergencies/emergencies-prep.html' | relative_url }}">
+<span class="tl-arrow">›</span>
+<span class="tl-title">Emergency Preparedness & Crisis Intervention</span>
+<span class="tl-desc">ED basics, triage levels, disaster planning, hazmat, human trafficking recognition, and crisis intervention.</span>
+</a></li>
 
-<a class="study-card" href="{{ '/medical-emergencies/poisoning-and-ingestions.html' | relative_url }}">
-<h2>Poisoning & Ingestions</h2>
-<p>Acetaminophen, salicylates, corrosives, hydrocarbons, lead, and button batteries — recognition, antidotes, and nursing priorities.</p>
-</a>
+<li><a href="{{ '/medical-emergencies/poisoning-and-ingestions.html' | relative_url }}">
+<span class="tl-arrow">›</span>
+<span class="tl-title">Poisoning & Ingestions</span>
+<span class="tl-desc">Acetaminophen, salicylates, corrosives, hydrocarbons, lead, and button batteries — recognition, antidotes, and nursing priorities.</span>
+</a></li>
 
-<a class="study-card" href="{{ '/medical-emergencies/environmental.html' | relative_url }}">
-<h2>Environmental Emergencies</h2>
-<p>Heat exhaustion, heat stroke, hypothermia, frostbite, drowning, and bites & stings.</p>
-</a>
+<li><a href="{{ '/medical-emergencies/environmental.html' | relative_url }}">
+<span class="tl-arrow">›</span>
+<span class="tl-title">Environmental Emergencies</span>
+<span class="tl-desc">Heat exhaustion, heat stroke, hypothermia, frostbite, drowning, and bites & stings.</span>
+</a></li>
 
-<a class="study-card" href="{{ '/medical-emergencies/practice-quiz.html' | relative_url }}">
-<h2>Practice Quizzes</h2>
-<p>NCLEX-style practice questions for medical emergencies — CHF, MI, and more.</p>
-</a>
+<li><a href="{{ '/medical-emergencies/practice-quiz.html' | relative_url }}">
+<span class="tl-arrow">›</span>
+<span class="tl-title">Practice Quizzes</span>
+<span class="tl-desc">NCLEX-style practice questions for medical emergencies — CHF, MI, and more.</span>
+</a></li>
 
-</div>
+</ul>

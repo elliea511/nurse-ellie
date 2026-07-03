@@ -15,48 +15,56 @@ Maternity nursing covers the full continuum from conception through the postpart
 
 ## Choose a Topic
 
-<div class="study-card-grid">
+<ul class="topic-list">
 
-<a class="study-card" href="{{ '/maternity/antepartum.html' | relative_url }}">
-<h2>Antepartum</h2>
-<p>Normal pregnancy changes, prenatal assessment, high-risk complications (preeclampsia, gestational diabetes, placenta previa), and nursing priorities.</p>
-</a>
+<li><a href="{{ '/maternity/antepartum.html' | relative_url }}">
+<span class="tl-arrow">›</span>
+<span class="tl-title">Antepartum</span>
+<span class="tl-desc">Normal pregnancy changes, prenatal assessment, high-risk complications (preeclampsia, gestational diabetes, placenta previa), and nursing priorities.</span>
+</a></li>
 
-<a class="study-card" href="{{ '/maternity/intrapartum.html' | relative_url }}">
-<h2>Intrapartum</h2>
-<p>Stages of labor, fetal monitoring, pain management, complications during labor, and nursing interventions during delivery.</p>
-</a>
+<li><a href="{{ '/maternity/intrapartum.html' | relative_url }}">
+<span class="tl-arrow">›</span>
+<span class="tl-title">Intrapartum</span>
+<span class="tl-desc">Stages of labor, fetal monitoring, pain management, complications during labor, and nursing interventions during delivery.</span>
+</a></li>
 
-<a class="study-card" href="{{ '/maternity/postpartum.html' | relative_url }}">
-<h2>Postpartum</h2>
-<p>Uterine involution, lochia, breastfeeding, postpartum complications, and nursing priorities for the recovering mother.</p>
-</a>
+<li><a href="{{ '/maternity/postpartum.html' | relative_url }}">
+<span class="tl-arrow">›</span>
+<span class="tl-title">Postpartum</span>
+<span class="tl-desc">Uterine involution, lochia, breastfeeding, postpartum complications, and nursing priorities for the recovering mother.</span>
+</a></li>
 
-<a class="study-card" href="{{ '/maternity/newborn.html' | relative_url }}">
-<h2>Newborn</h2>
-<p>APGAR scoring, newborn assessment, thermoregulation, feeding, jaundice, and priority nursing care in the first hours of life.</p>
-</a>
+<li><a href="{{ '/maternity/newborn.html' | relative_url }}">
+<span class="tl-arrow">›</span>
+<span class="tl-title">Newborn</span>
+<span class="tl-desc">APGAR scoring, newborn assessment, thermoregulation, feeding, jaundice, and priority nursing care in the first hours of life.</span>
+</a></li>
 
-<a class="study-card" href="{{ '/maternity/nurses-role-ob-ward.html' | relative_url }}">
-<h2>Nurse's Role on OB</h2>
-<p>Overview of the nurse's responsibilities when a patient presents to the OB ward, triage priorities, and unit workflow.</p>
-</a>
+<li><a href="{{ '/maternity/nurses-role-ob-ward.html' | relative_url }}">
+<span class="tl-arrow">›</span>
+<span class="tl-title">Nurse's Role on OB</span>
+<span class="tl-desc">Overview of the nurse's responsibilities when a patient presents to the OB ward, triage priorities, and unit workflow.</span>
+</a></li>
 
-<a class="study-card" href="{{ '/maternity/medications.html' | relative_url }}">
-<h2>OB Medications</h2>
-<p>Key drugs in maternity — oxytocin, magnesium sulfate, betamethasone, tocolytics, and postpartum hemorrhage management.</p>
-</a>
+<li><a href="{{ '/maternity/medications.html' | relative_url }}">
+<span class="tl-arrow">›</span>
+<span class="tl-title">OB Medications</span>
+<span class="tl-desc">Key drugs in maternity — oxytocin, magnesium sulfate, betamethasone, tocolytics, and postpartum hemorrhage management.</span>
+</a></li>
 
-<a class="study-card" href="{{ '/maternity/maternity-labs.html' | relative_url }}">
-<h2>Maternity Labs</h2>
-<p>Normal lab values in pregnancy, prenatal screening panels, Group B Strep, and lab changes to watch for in high-risk pregnancies.</p>
-</a>
+<li><a href="{{ '/maternity/maternity-labs.html' | relative_url }}">
+<span class="tl-arrow">›</span>
+<span class="tl-title">Maternity Labs</span>
+<span class="tl-desc">Normal lab values in pregnancy, prenatal screening panels, Group B Strep, and lab changes to watch for in high-risk pregnancies.</span>
+</a></li>
 
-<a class="study-card" href="{{ '/maternity/antepartum-practice-test.html' | relative_url }}">
-<h2>Antepartum Practice Test</h2>
-<p>Practice questions covering antepartum assessment, complications, and nursing priorities to prep for exams.</p>
-</a>
+<li><a href="{{ '/maternity/antepartum-practice-test.html' | relative_url }}">
+<span class="tl-arrow">›</span>
+<span class="tl-title">Antepartum Practice Test</span>
+<span class="tl-desc">Practice questions covering antepartum assessment, complications, and nursing priorities to prep for exams.</span>
+</a></li>
 
-</div>
+</ul>
 
 ---
