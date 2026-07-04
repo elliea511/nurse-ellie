@@ -10,7 +10,7 @@ title: Nursing Study Studio
     <p>Organized nursing notes, quick reviews, and practice tools designed to make the hard stuff feel a little lighter.</p>
     <div class="hero-actions">
       <a class="button-primary" href="{{ '/all-topics.html' | relative_url }}">Start studying <span>→</span></a>
-      <a class="button-secondary" href="{{ '/next-exam.html' | relative_url }}">Study for Our Next Exam</a>
+      <a class="button-secondary" href="{{ '/mental-health.html' | relative_url }}">Study for Our Next Exam</a>
     </div>
     <div class="encouragement"><span>★</span><p><strong>Keep going!</strong><br>You do not have to learn it all at once.</p><span>♡</span></div>
   </div>
