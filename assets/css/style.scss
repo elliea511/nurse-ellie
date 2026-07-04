@@ -904,7 +904,9 @@ body {
   margin: 1.25rem auto !important;
   border: 1px solid var(--border) !important;
 }
-.main-content img[style*="max-width:50%"] {
+.main-content img[style*="max-width:50%"],
+.main-content img[style*="max-width: 50%"],
+.main-content img.img-half {
   max-width: 50% !important;
 }
 
