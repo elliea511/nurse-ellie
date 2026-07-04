@@ -31,7 +31,7 @@ For NCLEX, focus on: <strong>medical stability, electrolyte imbalance, cardiac r
 
 # Anorexia Nervosa
 
-<img src="{{ '/MH-images/Anorexia Final.png' | relative_url }}" alt="Anorexia Nervosa overview" style="max-width:50%;border-radius:10px;margin:0.5rem 0 1.5rem 0;">
+<img src="{{ '/MH-images/Anorexia Final.png' | relative_url }}" alt="Anorexia Nervosa overview" class="img-half">
 
 Anorexia nervosa is severe self-restriction of calories leading to very low body weight. The patient may truly believe they are overweight even when underweight — this is a cognitive distortion.
 
@@ -182,7 +182,7 @@ For eating disorders, supervision is not punishment. It is safety and treatment 
 
 # Bulimia Nervosa
 
-<img src="{{ '/MH-images/Bulimia.png' | relative_url }}" alt="Bulimia Nervosa overview" style="max-width:50%;border-radius:10px;margin:0.5rem 0 1.5rem 0;">
+<img src="{{ '/MH-images/Bulimia.png' | relative_url }}" alt="Bulimia Nervosa overview" class="img-half">
 
 Bulimia nervosa involves repeated binge eating followed by purging. Purging may include vomiting, laxative abuse, diuretic abuse, or excessive exercise. Unlike anorexia, the patient with bulimia is often aware the behavior is abnormal.
 
