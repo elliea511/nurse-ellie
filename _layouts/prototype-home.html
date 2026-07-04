@@ -19,12 +19,12 @@
   {% include sidebar.html %}
 
   <header class="prototype-topbar">
-    <a class="prototype-brand" href="{{ '/' | relative_url }}" aria-label="Nursing Study Studio home">
+    <a class="prototype-brand" href="{{ '/test-home.html' | relative_url }}" aria-label="Nursing Study Studio home">
       <span class="brand-mark">♡</span>
       <span><strong>Nursing Study Studio</strong><small>Learn clearly. Care confidently.</small></span>
     </a>
     <nav aria-label="Primary navigation">
-      <a href="{{ '/' | relative_url }}">Home</a>
+      <a href="{{ '/test-home.html' | relative_url }}">Home</a>
       <a href="{{ '/all-topics.html' | relative_url }}">All Notes</a>
       <a href="{{ '/medical-emergencies/practice-quiz.html' | relative_url }}">Practice</a>
       <a href="{{ '/medical-emergencies/medications.html' | relative_url }}">Medications</a>
@@ -36,8 +36,5 @@
 
   <script src="{{ '/assets/js/search.js' | relative_url }}"></script>
   <script src="{{ '/assets/js/streak.js' | relative_url }}"></script>
-  <script src="{{ '/assets/js/annotate.js' | relative_url }}"></script>
-  <script src="{{ '/assets/js/lightbox.js' | relative_url }}"></script>
-  {% if site.prototype_js %}<script src="{{ '/assets/js/prototype.js' | relative_url }}"></script>{% endif %}
 </body>
 </html>
