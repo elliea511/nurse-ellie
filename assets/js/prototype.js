@@ -10,6 +10,34 @@
       link.textContent = heading.textContent;
       toc.appendChild(link);
     });
+
+    var firstHeading = headings[0];
+    if (firstHeading) {
+      var grid = document.createElement('div');
+      grid.className = 'note-card-grid';
+      firstHeading.parentNode.insertBefore(grid, firstHeading);
+
+      headings.forEach(function (heading, index) {
+        var card = document.createElement('section');
+        card.className = 'note-section-card note-card-tone-' + ((index % 6) + 1);
+        grid.appendChild(card);
+        var next = heading.nextSibling;
+        card.appendChild(heading);
+        while (next && !(next.nodeType === 1 && next.tagName === 'H2')) {
+          var moving = next;
+          next = next.nextSibling;
+          if (moving.nodeType === 1 && moving.tagName === 'HR') {
+            moving.remove();
+            continue;
+          }
+          card.appendChild(moving);
+        }
+
+        var table = card.querySelector('table');
+        var columns = table ? table.querySelectorAll('thead th').length : 0;
+        if (columns > 3 || card.textContent.length > 1450) card.classList.add('note-card-wide');
+      });
+    }
   }
 
   var themeButton = document.getElementById('prototype-theme');

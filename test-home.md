@@ -16,14 +16,20 @@ permalink: /test-home.html
     <div class="encouragement"><span>★</span><p><strong>Keep going!</strong><br>You do not have to learn it all at once.</p><span>♡</span></div>
   </div>
 
-  <div class="study-map" aria-label="Study topics">
-    <div class="map-glow glow-one"></div><div class="map-glow glow-two"></div>
-    <div class="map-center"><span>✚</span><strong>One topic<br>at a time</strong></div>
-    <a class="map-topic map-maternity" href="{{ '/maternity.html' | relative_url }}"><span>◉</span><strong>Maternity</strong><small>Birth & newborn</small></a>
-    <a class="map-topic map-heme" href="{{ '/hematology-oncology.html' | relative_url }}"><span>♥</span><strong>Heme / Oncology</strong><small>Blood & cancer care</small></a>
-    <a class="map-topic map-emergency" href="{{ '/medical-emergencies.html' | relative_url }}"><span>✦</span><strong>Emergencies</strong><small>Priorities & response</small></a>
-    <a class="map-topic map-mental" href="{{ '/mental-health.html' | relative_url }}"><span>☁</span><strong>Mental Health</strong><small>Safety & support</small></a>
-    <a class="map-topic map-ati" href="{{ '/ati/' | relative_url }}"><span>▤</span><strong>ATI Review</strong><small>Exam preparation</small></a>
+  <div class="body-map" aria-label="Study topics mapped to the body">
+    <div class="body-aura"></div>
+    <svg class="connector-lines" viewBox="0 0 720 600" aria-hidden="true">
+      <path class="line-mental" d="M188 92 C250 92 273 71 350 69"/><circle class="dot-mental" cx="350" cy="69" r="5"/>
+      <path class="line-heme" d="M196 240 C255 240 288 235 352 224"/><circle class="dot-heme" cx="352" cy="224" r="5"/>
+      <path class="line-emergency" d="M531 195 C475 195 430 204 374 218"/><circle class="dot-emergency" cx="374" cy="218" r="5"/>
+      <path class="line-maternity" d="M532 363 C470 363 430 373 362 384"/><circle class="dot-maternity" cx="362" cy="384" r="5"/>
+    </svg>
+    <img class="anatomy-body" src="{{ '/assets/images/anatomy-body.webp' | relative_url }}" alt="Illustrated human body showing the brain, heart, lungs, circulation, digestive organs, kidneys, and uterus">
+    <a class="body-callout callout-mental" href="{{ '/mental-health.html' | relative_url }}"><span>☁</span><strong>Mental Health</strong><small>Brain, safety & support</small></a>
+    <a class="body-callout callout-heme" href="{{ '/hematology-oncology.html' | relative_url }}"><span>♥</span><strong>Heme / Oncology</strong><small>Blood & cancer care</small></a>
+    <a class="body-callout callout-emergency" href="{{ '/medical-emergencies.html' | relative_url }}"><span>✦</span><strong>Medical Emergencies</strong><small>Heart, lungs & priorities</small></a>
+    <a class="body-callout callout-maternity" href="{{ '/maternity.html' | relative_url }}"><span>◉</span><strong>Maternity</strong><small>Pregnancy, birth & newborn</small></a>
+    <a class="ati-foundation" href="{{ '/ati/' | relative_url }}"><span>▤</span><span><strong>ATI Exam Review</strong><small>The foundation for exam preparation</small></span><b>→</b></a>
   </div>
 </section>
 
