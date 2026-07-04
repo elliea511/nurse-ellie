@@ -1,6 +1,7 @@
 ---
 layout: prototype-home
-title: Nursing Study Studio
+title: Nursing Study Studio — Design Preview
+permalink: /test-home.html
 ---
 
 <section class="prototype-hero">
@@ -10,7 +11,7 @@ title: Nursing Study Studio
     <p>Organized nursing notes, quick reviews, and practice tools designed to make the hard stuff feel a little lighter.</p>
     <div class="hero-actions">
       <a class="button-primary" href="{{ '/all-topics.html' | relative_url }}">Start studying <span>→</span></a>
-      <a class="button-secondary" href="{{ '/next-exam.html' | relative_url }}">Study for Our Next Exam</a>
+      <a class="button-secondary" href="{{ '/test-shock.html' | relative_url }}">Preview a note</a>
     </div>
     <div class="encouragement"><span>★</span><p><strong>Keep going!</strong><br>You do not have to learn it all at once.</p><span>♡</span></div>
   </div>
@@ -42,4 +43,4 @@ title: Nursing Study Studio
   </div>
 </section>
 
-<section class="prototype-quote"><span>"</span><p>Discipline today, confidence tomorrow.</p><span>♡</span></section>
+<section class="prototype-quote"><span>“</span><p>Discipline today, confidence tomorrow.</p><span>♡</span></section>
