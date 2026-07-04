@@ -1765,6 +1765,39 @@ body.home-page .page-wrapper {
     left: 12px !important;
     font-size: 0.85rem !important;
   }
+
+  /* Section landing pages — topic list */
+  .topic-list a {
+    flex-wrap: wrap !important;
+    gap: 0.25rem 0.6rem !important;
+    padding: 0.85rem 1rem !important;
+    align-items: flex-start !important;
+  }
+  .tl-title {
+    min-width: unset !important;
+    flex: 1 1 100% !important;
+    font-size: 0.95rem !important;
+  }
+  .tl-arrow {
+    flex: 0 0 auto !important;
+    font-size: 1.1rem !important;
+    margin-top: 0.1rem !important;
+  }
+  .tl-desc {
+    flex: 1 1 100% !important;
+    font-size: 0.82rem !important;
+    padding-left: 1.4rem !important;
+  }
+
+  /* Section card grid — single column */
+  .section-card-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  /* Study card grid — single column */
+  .study-card-grid {
+    grid-template-columns: 1fr !important;
+  }
 }
 
 /* =========================================================
