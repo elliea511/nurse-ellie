@@ -770,3 +770,146 @@ body[data-section="mental-health"] .mh-col > * { margin: 0 !important; }
     grid-template-columns: 1fr;
   }
 }
+/* =========================================================
+   MENTAL HEALTH DETAIL PANELS — mini cards inside dropdowns
+   Use inside .mh-detail panels:
+   .detail-grid, .detail-mini-card, .detail-callout
+   ========================================================= */
+
+body[data-section="mental-health"] .mh-detail {
+  position: relative;
+  border-radius: 18px;
+  padding: 1.25rem 1.35rem;
+  margin: 1rem 0 1.4rem;
+  color: var(--mh-ink);
+  box-shadow: 0 3px 10px rgba(34, 28, 80, 0.08);
+  border: 1.5px solid var(--mh-purple-border);
+  background: var(--mh-card-bg);
+  line-height: 1.6;
+}
+
+body[data-section="mental-health"] .mh-detail.purple {
+  border-color: var(--mh-purple-border);
+  background: var(--mh-purple-soft);
+}
+
+body[data-section="mental-health"] .mh-detail.pink {
+  border-color: var(--mh-pink-border);
+  background: var(--mh-pink-soft);
+}
+
+body[data-section="mental-health"] .mh-detail.blue {
+  border-color: var(--mh-blue-border);
+  background: var(--mh-blue-soft);
+}
+
+body[data-section="mental-health"] .mh-detail.green {
+  border-color: var(--mh-green-border);
+  background: var(--mh-green-soft);
+}
+
+body[data-section="mental-health"] .mh-detail h3 {
+  margin-top: 0 !important;
+  margin-bottom: 0.85rem !important;
+  padding-right: 2.25rem;
+  font-family: "Nunito", sans-serif !important;
+  font-size: 1.2rem !important;
+  font-weight: 900 !important;
+  border: none !important;
+  background: none !important;
+}
+
+body[data-section="mental-health"] .mh-detail-close {
+  position: absolute;
+  top: 0.85rem;
+  right: 0.85rem;
+  width: 1.85rem;
+  height: 1.85rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  text-decoration: none !important;
+  background: var(--mh-card-bg);
+  color: var(--mh-ink) !important;
+  font-weight: 900;
+  line-height: 1;
+  box-shadow: 0 1px 4px rgba(34, 28, 80, 0.14);
+}
+
+body[data-section="mental-health"] .detail-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 0.85rem;
+  margin: 1rem 0;
+}
+
+body[data-section="mental-health"] .detail-mini-card {
+  background: var(--mh-card-bg);
+  border: 1px solid rgba(34, 28, 80, 0.12);
+  border-radius: 14px;
+  padding: 0.9rem 1rem;
+  line-height: 1.55;
+  box-shadow: 0 1px 4px rgba(34, 28, 80, 0.05);
+}
+
+body[data-section="mental-health"] .detail-mini-card strong:first-child {
+  display: block;
+  margin-bottom: 0.35rem;
+  font-size: 0.95rem;
+  font-weight: 900;
+  color: var(--mh-ink);
+}
+
+body[data-section="mental-health"] .detail-mini-card ul,
+body[data-section="mental-health"] .detail-mini-card ol {
+  margin: 0.25rem 0 0;
+  padding-left: 1.1rem;
+}
+
+body[data-section="mental-health"] .detail-mini-card li {
+  margin-bottom: 0.25rem;
+}
+
+body[data-section="mental-health"] .detail-callout {
+  margin-top: 1rem;
+  padding: 0.85rem 1rem;
+  border-radius: 14px;
+  background: var(--mh-card-bg);
+  border-left: 5px solid var(--mh-purple);
+  font-weight: 700;
+  line-height: 1.55;
+  box-shadow: 0 1px 4px rgba(34, 28, 80, 0.05);
+}
+
+body[data-section="mental-health"] .mh-detail.purple .detail-callout {
+  border-left-color: var(--mh-purple);
+}
+
+body[data-section="mental-health"] .mh-detail.pink .detail-callout {
+  border-left-color: var(--mh-pink);
+}
+
+body[data-section="mental-health"] .mh-detail.blue .detail-callout {
+  border-left-color: var(--mh-blue);
+}
+
+body[data-section="mental-health"] .mh-detail.green .detail-callout {
+  border-left-color: var(--mh-green);
+}
+
+body[data-section="mental-health"] .mh-detail table {
+  background: var(--mh-card-bg);
+  margin-top: 0.75rem !important;
+}
+
+/* Mobile detail panels */
+@media (max-width: 640px) {
+  body[data-section="mental-health"] .mh-detail {
+    padding: 1rem;
+  }
+
+  body[data-section="mental-health"] .detail-grid {
+    grid-template-columns: 1fr;
+  }
+}
