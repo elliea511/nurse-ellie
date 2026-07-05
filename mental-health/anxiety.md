@@ -60,7 +60,7 @@ Anxiety disorders are not just “being nervous.” They become a disorder when 
 <div class="mh-detail purple" id="panel-anxiety-basics" markdown="1">
 <a class="mh-detail-close" href="#">✕</a>
 
-### Anxiety Basics — Detail
+### Anxiety Basics
 
 Anxiety is a feeling of dread, apprehension, or uneasiness.
 
@@ -111,7 +111,7 @@ Anxiety becomes a disorder when it causes problems with:
 <div class="mh-detail blue" id="panel-interventions" markdown="1">
 <a class="mh-detail-close" href="#">✕</a>
 
-### Nursing Interventions — Detail
+### Nursing Interventions
 
 - Assess anxiety level before choosing an approach.
 - Stay calm because the patient may mirror the nurse’s anxiety.
@@ -129,7 +129,7 @@ Anxiety becomes a disorder when it causes problems with:
 <div class="mh-detail green" id="panel-meds" markdown="1">
 <a class="mh-detail-close" href="#">✕</a>
 
-### Anti-Anxiety Medications — Detail
+### Anti-Anxiety Medications
 
 | Medication/Class | Key Point | Nursing Focus |
 |---|---|---|
@@ -156,6 +156,7 @@ Anxiety becomes a disorder when it causes problems with:
 - Takes weeks to work.
 - Does not cause tolerance/addiction like benzodiazepines.
 - Not useful for immediate panic relief.
+- Avoid if severe liver/kidney disease unless provider approves.
 - Take consistently.
 
 **NCLEX:** Buspirone is not a rescue medication.
@@ -190,10 +191,6 @@ Anxiety becomes a disorder when it causes problems with:
   During severe anxiety or panic, do not teach first. Stay with the patient, reduce stimulation, and use short directions.
 </div>
 
----
-
-## Anxiety Levels
-
 <div class="mh-table-card" markdown="1">
 
 <h3>Anxiety Levels</h3>
@@ -208,13 +205,9 @@ Anxiety becomes a disorder when it causes problems with:
 </div>
 
 <div class="nclex-tip">
-  <h3>NCLEX Tip</h3>
+  <h3>Anxiety Level Reminder</h3>
   Mild anxiety can improve focus. Panic-level anxiety prevents learning and problem-solving.
 </div>
-
----
-
-## Disorders Overview
 
 <div class="mh-cards">
   <div class="mh-card purple">
@@ -270,9 +263,9 @@ Anxiety becomes a disorder when it causes problems with:
 <div class="mh-detail purple" id="panel-anxiety-disorders" markdown="1">
 <a class="mh-detail-close" href="#">✕</a>
 
-### Anxiety Disorders — Detail
+### Anxiety Disorders
 
-#### Generalized Anxiety Disorder
+**Generalized Anxiety Disorder**
 
 Generalized anxiety disorder is excessive anxiety and worry about many things. The person may feel like they cannot “shut off” their brain.
 
@@ -296,11 +289,11 @@ Generalized anxiety disorder is excessive anxiety and worry about many things. T
 - Give simple choices.
 - Administer medications as ordered.
 
-#### Panic Disorder
+**Panic Disorder**
 
 Panic disorder involves repeated panic attacks that occur unpredictably. A panic attack is sudden, intense fear that may feel like dying, losing control, or “going crazy.”
 
-**Panic attack findings:**
+**Panic Attack Findings:**
 
 - Feeling of impending doom
 - Chest pain
@@ -315,7 +308,7 @@ Panic disorder involves repeated panic attacks that occur unpredictably. A panic
 
 Panic attacks usually peak in about **10–15 minutes** and often do not last longer than **30 minutes**.
 
-**During panic attack:**
+**During a Panic Attack:**
 
 - Stay with the patient.
 - Maintain calm voice.
@@ -327,11 +320,11 @@ Panic attacks usually peak in about **10–15 minutes** and often do not last lo
 
 Example: **“You are safe. I will stay with you. Breathe in slowly with me.”**
 
-#### Phobias
+**Phobias**
 
 A phobia is an intense, irrational fear of a specific object or situation. The patient usually knows the fear is irrational, but still feels unable to control it.
 
-Examples: spiders, heights, flying, needles, elevators, dogs, storms.
+Common examples: spiders, heights, flying, needles, elevators, dogs, storms.
 
 **Assessment:**
 
@@ -351,7 +344,7 @@ Examples: spiders, heights, flying, needles, elevators, dogs, storms.
 
 **NCLEX:** Systematic desensitization is gradual. Flooding is intense/direct exposure.
 
-#### Social Anxiety Disorder
+**Social Anxiety Disorder**
 
 Social anxiety disorder is fear of embarrassment, judgment, or public ridicule in social situations.
 
@@ -374,9 +367,9 @@ Social anxiety disorder is fear of embarrassment, judgment, or public ridicule i
 - Give positive feedback.
 - Administer meds as ordered.
 
-#### Agoraphobia
+**Agoraphobia**
 
-Agoraphobia is fear of being in places where escape may be difficult or help may not be available.
+Agoraphobia is fear of being in places where escape may be difficult or help may not be available. It is often described as fear of open spaces, crowds, public transportation, or being trapped.
 
 **Assessment:**
 
@@ -395,7 +388,7 @@ Agoraphobia is fear of being in places where escape may be difficult or help may
 - Encourage gradual exposure.
 - Administer medications as ordered.
 
-#### Separation Anxiety
+**Separation Anxiety**
 
 Separation anxiety is normal in toddlers, but abnormal when it persists or appears in older children, teens, or adults and interferes with functioning.
 
@@ -408,16 +401,22 @@ Separation anxiety is normal in toddlers, but abnormal when it persists or appea
 - Lack of self-direction
 - Anxiety when away from attachment figure
 
-**Nursing focus:** assess trauma or loss history, encourage independence gradually, teach coping skills, support healthy relationships, and treat coexisting depression/anxiety if ordered.
+**Nursing Focus:**
+
+- Assess trauma or loss history.
+- Encourage independence gradually.
+- Teach coping skills.
+- Support healthy relationships.
+- Treat coexisting depression/anxiety if ordered.
 
 </div>
 
 <div class="mh-detail pink" id="panel-ocd" markdown="1">
 <a class="mh-detail-close" href="#">✕</a>
 
-### OCD and Related Disorders — Detail
+### OCD and Related Disorders
 
-#### Obsessive-Compulsive Disorder
+**Obsessive-Compulsive Disorder**
 
 OCD involves **obsessions** and **compulsions**.
 
@@ -431,7 +430,7 @@ Example:
 - Obsessive thought: “My hands are contaminated.”
 - Compulsion: washing hands repeatedly.
 
-#### OCD Cycle
+**OCD Cycle**
 
 | Step | What Happens |
 |---|---|
@@ -443,7 +442,7 @@ Example:
 
 **NCLEX:** Obsessions are thoughts. Compulsions are actions.
 
-#### OCD Assessment
+**OCD Assessment:**
 
 - Rituals become time-consuming.
 - Patient feels driven to perform behavior.
@@ -462,7 +461,7 @@ Common compulsions:
 - Repeating words
 - Cleaning
 
-#### OCD Nursing Interventions
+**OCD Nursing Interventions:**
 
 - Allow time for ritual at first if needed.
 - Gradually limit ritual time/frequency.
@@ -474,7 +473,7 @@ Common compulsions:
 
 **Do not suddenly block all rituals.** Gradually reduce ritual time while teaching coping skills.
 
-#### Thought Stopping
+**Thought Stopping**
 
 Thought stopping is a technique to interrupt an obsessive or negative thought:
 
@@ -482,7 +481,7 @@ Thought stopping is a technique to interrupt an obsessive or negative thought:
 2. Use a cue, such as snapping a rubber band.
 3. Replace the unwanted thought with a more positive or realistic thought.
 
-#### Body Dysmorphic Disorder
+**Body Dysmorphic Disorder**
 
 Body dysmorphic disorder involves obsessive thoughts about a perceived body defect that appears normal or minor to others.
 
@@ -502,9 +501,9 @@ Body dysmorphic disorder involves obsessive thoughts about a perceived body defe
 - Monitor for depression/suicide risk.
 - Limit reassurance-seeking.
 
-#### Hoarding Disorder
+**Hoarding Disorder**
 
-Hoarding disorder involves difficulty discarding items, even if they seem worthless.
+Hoarding disorder involves difficulty discarding items, even if they seem worthless. The person feels extreme distress when asked to get rid of items.
 
 **Assessment:**
 
@@ -516,9 +515,15 @@ Hoarding disorder involves difficulty discarding items, even if they seem worthl
 - May hoard animals
 - Usually worsens with age
 
-**Nursing focus:** assess safety of environment, assess fire/fall/infection risks, encourage therapy, avoid forcing sudden cleanout unless safety emergency, and work gradually on decision-making and coping.
+**Nursing Focus:**
 
-#### Trichotillomania and Excoriation
+- Assess safety of environment.
+- Assess fire, fall, and infection risks.
+- Encourage therapy.
+- Avoid forcing sudden cleanout unless safety emergency.
+- Work gradually on decision-making and coping.
+
+**Trichotillomania and Excoriation**
 
 | Disorder | Meaning |
 |---|---|
@@ -540,9 +545,9 @@ These behaviors may temporarily relieve anxiety.
 <div class="mh-detail blue" id="panel-trauma" markdown="1">
 <a class="mh-detail-close" href="#">✕</a>
 
-### Trauma Disorders — Detail
+### Trauma Disorders
 
-#### PTSD
+**PTSD**
 
 PTSD can occur after experiencing or witnessing a traumatic event such as assault, war, accident, natural disaster, or prolonged severe stress.
 
@@ -582,7 +587,7 @@ PTSD can occur after experiencing or witnessing a traumatic event such as assaul
 
 **NCLEX:** With PTSD, do not force the patient to relive or explain the trauma before they are ready. Safety and trust come first.
 
-#### Grounding During Flashback
+**Grounding During Flashback**
 
 Grounding helps bring the patient back to the present:
 
@@ -593,7 +598,7 @@ Grounding helps bring the patient back to the present:
 - Use slow breathing.
 - Describe the room.
 
-#### Acute Stress Disorder
+**Acute Stress Disorder**
 
 Acute stress disorder occurs soon after a traumatic event. It is diagnosed when symptoms occur within about **3 days to 1 month** after the event.
 
@@ -617,7 +622,7 @@ Acute stress disorder occurs soon after a traumatic event. It is diagnosed when 
 - Teach grounding/relaxation.
 - Assess suicide risk.
 
-#### Adjustment Disorder
+**Adjustment Disorder**
 
 Adjustment disorder is an emotional or behavioral response to a stressful life event. It usually occurs within **3 months** of the stressor.
 
@@ -649,9 +654,9 @@ Treatment includes psychotherapy, family therapy, group therapy, crisis interven
 <div class="mh-detail green" id="panel-priority" markdown="1">
 <a class="mh-detail-close" href="#">✕</a>
 
-### Priority Cues — Detail
+### Priority Cues
 
-#### Anxiety Priority Chart
+**Anxiety Priority Chart**
 
 | Situation | First Nursing Action |
 |---|---|
@@ -662,7 +667,7 @@ Treatment includes psychotherapy, family therapy, group therapy, crisis interven
 | Patient hyperventilating | Coach slow breathing |
 | Patient cannot focus | Decrease anxiety before teaching |
 
-#### OCD Priority Chart
+**OCD Priority Chart**
 
 | Situation | First Nursing Action |
 |---|---|
@@ -672,7 +677,7 @@ Treatment includes psychotherapy, family therapy, group therapy, crisis interven
 | Skin breakdown from washing/picking | Assess and treat skin |
 | Patient feels shame | Use nonjudgmental communication |
 
-#### Trauma Priority Chart
+**Trauma Priority Chart**
 
 | Situation | First Nursing Action |
 |---|---|
@@ -684,10 +689,6 @@ Treatment includes psychotherapy, family therapy, group therapy, crisis interven
 | Sexual/physical assault history | Use trauma-informed care |
 
 </div>
-
----
-
-## Comparison Review
 
 <div class="mh-table-card" markdown="1">
 
@@ -706,10 +707,6 @@ Treatment includes psychotherapy, family therapy, group therapy, crisis interven
 | **Adjustment Disorder** | Emotional response to life change/stressor | Coping, therapy, support system |
 
 </div>
-
----
-
-## NCLEX Cues
 
 <div class="nclex-tip">
   <h3>Anxiety Levels Matter</h3>
@@ -741,10 +738,6 @@ Treatment includes psychotherapy, family therapy, group therapy, crisis interven
   </ul>
 </div>
 
----
-
-## Must-Know Table
-
 <div class="mh-table-card" markdown="1">
 
 <h3>Quick Terms</h3>
@@ -768,10 +761,6 @@ Treatment includes psychotherapy, family therapy, group therapy, crisis interven
 | **Benzodiazepines** | Fast relief, short-term use |
 
 </div>
-
----
-
-## Final Takeaway
 
 <div class="quick-review">
   <h3>Quick Review</h3>
