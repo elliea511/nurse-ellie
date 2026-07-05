@@ -728,3 +728,45 @@ body[data-section="mental-health"] .mh-subtitle {
 body[data-section="mental-health"] .mh-breadcrumb {
   margin: 0 0 1rem !important;
 }
+
+/* =========================================================
+   SIDE-BY-SIDE COLUMN LAYOUT
+   Wrap cards in .mh-columns to place them next to each other
+   (like the mockup: comparison table beside Quick Review +
+   Do Not Miss). Stack several cards in one column with .mh-col.
+   Collapses to a single column on narrow screens.
+   ========================================================= */
+
+body[data-section="mental-health"] .mh-columns {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.25rem;
+  align-items: start;
+  margin: 1.25rem 0;
+}
+
+/* Optional: wider first column (e.g. a table beside a narrow stack) */
+body[data-section="mental-health"] .mh-columns.wide-left {
+  grid-template-columns: 1.5fr 1fr;
+}
+
+/* Direct children drop their own vertical margins; the grid gap spaces them */
+body[data-section="mental-health"] .mh-columns > * {
+  margin: 0 !important;
+  min-width: 0;
+}
+
+/* A vertical stack of cards that lives inside one column */
+body[data-section="mental-health"] .mh-col {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+body[data-section="mental-health"] .mh-col > * { margin: 0 !important; }
+
+@media (max-width: 720px) {
+  body[data-section="mental-health"] .mh-columns,
+  body[data-section="mental-health"] .mh-columns.wide-left {
+    grid-template-columns: 1fr;
+  }
+}

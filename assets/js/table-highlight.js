@@ -2,6 +2,10 @@
   var content = document.querySelector('.main-content');
   if (!content) return;
 
+  // Disabled on Mental Health pages: the card layout controls its own
+  // table formatting, and the highlight strip interferes with it.
+  if (document.body.getAttribute('data-section') === 'mental-health') return;
+
   var KEY = 'ellie-table-hl-' + window.location.pathname;
   var COLORS = ['yellow', 'pink', 'blue', 'green'];
   var CELL_BG = {

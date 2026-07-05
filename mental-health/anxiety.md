@@ -163,32 +163,34 @@ Anxiety becomes a disorder when it causes problems with:
 
 </div>
 
-<div class="key-findings">
-  <h3>📋 Key Assessment Findings</h3>
-  <ul>
-    <li>Assess the patient’s anxiety level before choosing the intervention.</li>
-    <li>Mild anxiety may improve focus.</li>
-    <li>Severe anxiety and panic prevent learning and problem-solving.</li>
-    <li>Look for avoidance, restlessness, poor concentration, insomnia, and physical symptoms.</li>
-    <li>Always assess for safety, substance use, and suicide risk when symptoms are severe or worsening.</li>
-  </ul>
-</div>
-
-<div class="report-now">
-  <h3>Report Immediately</h3>
-  <ul>
-    <li>Suicidal thoughts or statements</li>
-    <li>Severe panic with inability to maintain safety</li>
-    <li>Command hallucinations or psychosis with anxiety</li>
-    <li>Substance use with severe anxiety</li>
-    <li>Severe withdrawal symptoms</li>
-    <li>New or worsening symptoms that impair ability to care for self</li>
-  </ul>
-</div>
-
-<div class="nclex-tip">
-  <h3>NCLEX Tip</h3>
-  During severe anxiety or panic, do not teach first. Stay with the patient, reduce stimulation, and use short directions.
+<div class="mh-columns">
+  <div class="key-findings">
+    <h3>📋 Key Assessment Findings</h3>
+    <ul>
+      <li>Assess the patient’s anxiety level before choosing the intervention.</li>
+      <li>Mild anxiety may improve focus.</li>
+      <li>Severe anxiety and panic prevent learning and problem-solving.</li>
+      <li>Look for avoidance, restlessness, poor concentration, insomnia, and physical symptoms.</li>
+      <li>Always assess for safety, substance use, and suicide risk when symptoms are severe or worsening.</li>
+    </ul>
+  </div>
+  <div class="mh-col">
+    <div class="report-now">
+      <h3>Report Immediately</h3>
+      <ul>
+        <li>Suicidal thoughts or statements</li>
+        <li>Severe panic with inability to maintain safety</li>
+        <li>Command hallucinations or psychosis with anxiety</li>
+        <li>Substance use with severe anxiety</li>
+        <li>Severe withdrawal symptoms</li>
+        <li>New or worsening symptoms that impair ability to care for self</li>
+      </ul>
+    </div>
+    <div class="nclex-tip">
+      <h3>NCLEX Tip</h3>
+      During severe anxiety or panic, do not teach first. Stay with the patient, reduce stimulation, and use short directions.
+    </div>
+  </div>
 </div>
 
 <div class="mh-table-card" markdown="1">
@@ -762,29 +764,30 @@ Treatment includes psychotherapy, family therapy, group therapy, crisis interven
 
 </div>
 
-<div class="quick-review">
-  <h3>Quick Review</h3>
-  <ol>
-    <li>Identify the anxiety level first.</li>
-    <li>Decide whether the patient can learn or needs calming first.</li>
-    <li>For panic, stay with the patient and use short directions.</li>
-    <li>For OCD, reduce rituals gradually — do not suddenly block all rituals.</li>
-    <li>For phobias, gradual exposure is usually preferred.</li>
-    <li>For PTSD flashbacks, ground the patient to the present.</li>
-    <li>Know whether the medication is for quick relief or long-term control.</li>
-  </ol>
-</div>
-
-<div class="do-not-miss">
-  <h3>Do Not Miss</h3>
-  <ul>
-    <li>Do not teach during severe anxiety or panic.</li>
-    <li>Panic-level anxiety prevents learning and problem-solving.</li>
-    <li>Buspirone is not a rescue medication.</li>
-    <li>Benzodiazepines have sedation, fall, tolerance, and dependence risk.</li>
-    <li>Do not force a trauma patient to describe the trauma before they are ready.</li>
-    <li>Always assess suicide risk when symptoms are severe, worsening, or linked with trauma/substance use.</li>
-  </ul>
+<div class="mh-columns">
+  <div class="quick-review">
+    <h3>Quick Review</h3>
+    <ol>
+      <li>Identify the anxiety level first.</li>
+      <li>Decide whether the patient can learn or needs calming first.</li>
+      <li>For panic, stay with the patient and use short directions.</li>
+      <li>For OCD, reduce rituals gradually — do not suddenly block all rituals.</li>
+      <li>For phobias, gradual exposure is usually preferred.</li>
+      <li>For PTSD flashbacks, ground the patient to the present.</li>
+      <li>Know whether the medication is for quick relief or long-term control.</li>
+    </ol>
+  </div>
+  <div class="do-not-miss">
+    <h3>Do Not Miss</h3>
+    <ul>
+      <li>Do not teach during severe anxiety or panic.</li>
+      <li>Panic-level anxiety prevents learning and problem-solving.</li>
+      <li>Buspirone is not a rescue medication.</li>
+      <li>Benzodiazepines have sedation, fall, tolerance, and dependence risk.</li>
+      <li>Do not force a trauma patient to describe the trauma before they are ready.</li>
+      <li>Always assess suicide risk when symptoms are severe, worsening, or linked with trauma/substance use.</li>
+    </ul>
+  </div>
 </div>
 
 <div class="cheer-banner">
