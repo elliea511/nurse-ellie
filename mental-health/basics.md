@@ -342,58 +342,63 @@ If the patient or someone else is unsafe, **safety comes before teaching, coping
 <div class="detail-grid" markdown="1">
 
 <div class="detail-mini-card" markdown="1">
-<strong>Mood vs Affect</strong>
+<strong>Mood</strong>
 
-| Term | Meaning | Example |
-|---|---|---|
-| **Mood** | How the patient says they feel | “I feel sad.” |
-| **Affect** | What the nurse observes | Crying, flat, angry, smiling |
+What the patient says they feel.
+
+**Example:** “I feel sad.”
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Affect</strong>
+
+What the nurse observes.
+
+**Example:** crying, flat, angry, smiling.
 </div>
 
 <div class="detail-mini-card" markdown="1">
 <strong>Affect Terms</strong>
 
-| Affect | Meaning |
-|---|---|
-| **Flat** | Little or no emotional expression |
-| **Blunted** | Decreased emotional expression |
-| **Constricted** | Limited emotional range |
-| **Labile** | Rapidly changing emotions |
-| **Inappropriate** | Emotion does not match situation |
+**Flat:** little or no emotional expression  
+**Blunted:** decreased emotional expression  
+**Constricted:** limited emotional range  
+**Labile:** rapidly changing emotions  
+**Inappropriate:** emotion does not match the situation
 </div>
 
 <div class="detail-mini-card" markdown="1">
 <strong>Fast / Disorganized Thoughts</strong>
 
-- **Flight of ideas:** rapidly jumping from one idea to another
-- **Loose associations:** thoughts are not clearly connected
-- **Word salad:** words are mixed together and do not make sense
-- **Clang association:** words are linked by sound or rhyme, not meaning
+**Flight of ideas:** rapidly jumping from one idea to another  
+**Loose associations:** thoughts are not clearly connected  
+**Word salad:** words are mixed together and do not make sense  
+**Clang association:** words are linked by sound or rhyme, not meaning
 </div>
 
 <div class="detail-mini-card" markdown="1">
 <strong>Off-Track Thinking</strong>
 
-- **Tangential:** goes off topic and does not return to the point
-- **Circumstantial:** gives too many details but eventually answers
-- **Perseveration:** repeats the same word, thought, or idea
+**Tangential:** goes off topic and does not return to the point  
+**Circumstantial:** gives too many details but eventually answers  
+**Perseveration:** repeats the same word, thought, or idea
 </div>
 
 <div class="detail-mini-card" markdown="1">
 <strong>Interrupted / Literal Thinking</strong>
 
-- **Thought blocking:** suddenly stops speaking because thought is interrupted
-- **Neologism:** made-up word that only has meaning to the patient
-- **Concrete thinking:** takes words literally; difficulty with abstract meaning
+**Thought blocking:** suddenly stops speaking because thought is interrupted  
+**Neologism:** made-up word that only has meaning to the patient  
+**Concrete thinking:** takes words literally; difficulty with abstract meaning
 </div>
 
 <div class="detail-mini-card" markdown="1">
 <strong>Easy Difference</strong>
 
-- **Circumstantial:** eventually gets to the answer, but takes forever
-- **Tangential:** goes off topic and never gets back
-- **Flight of ideas:** fast jumping thoughts
-- **Thought blocking:** thought suddenly stops
+**Circumstantial:** eventually gets to the answer, but takes forever  
+**Tangential:** goes off topic and never gets back  
+**Flight of ideas:** fast jumping thoughts  
+**Thought blocking:** thought suddenly stops
 </div>
 
 </div>
@@ -414,53 +419,49 @@ If the patient or someone else is unsafe, **safety comes before teaching, coping
 <div class="detail-mini-card" markdown="1">
 <strong>Thought Content</strong>
 
-- **Delusion:** fixed false belief
-- **Paranoia:** belief others are trying to harm, trick, follow, or watch them
-- **Suicidal ideation:** thoughts of killing oneself
-- **Homicidal ideation:** thoughts of killing or harming someone else
+**Delusion:** fixed false belief  
+**Paranoia:** belief others are trying to harm, trick, follow, or watch them  
+**Suicidal ideation:** thoughts of killing oneself  
+**Homicidal ideation:** thoughts of killing or harming someone else
 </div>
 
 <div class="detail-mini-card" markdown="1">
 <strong>Common Delusion Types</strong>
 
-| Type | Meaning |
-|---|---|
-| **Grandiose** | Belief they are powerful, famous, or important |
-| **Persecutory** | Belief they are being harmed or targeted |
-| **Reference** | Belief things in the environment are personally about them |
-| **Somatic** | False belief about the body |
-| **Religious** | False belief with religious theme |
-| **Nihilistic** | Belief self/world does not exist or is ending |
+**Grandiose:** belief they are powerful, famous, or important  
+**Persecutory:** belief they are being harmed or targeted  
+**Reference:** belief things in the environment are personally about them  
+**Somatic:** false belief about the body  
+**Religious:** false belief with religious theme  
+**Nihilistic:** belief self/world does not exist or is ending
 </div>
 
 <div class="detail-mini-card" markdown="1">
 <strong>Perception Terms</strong>
 
-- **Hallucination:** sensory experience without a real stimulus
-- **Illusion:** misinterpretation of something real
-- **Depersonalization:** feeling detached from one’s body
-- **Derealization:** feeling like the world is unreal or changed
+**Hallucination:** sensory experience without a real stimulus  
+**Illusion:** misinterpretation of something real  
+**Depersonalization:** feeling detached from one’s body  
+**Derealization:** feeling like the world is unreal or changed
 </div>
 
 <div class="detail-mini-card" markdown="1">
 <strong>Hallucination Types</strong>
 
-| Type | Example |
-|---|---|
-| **Auditory** | Hearing voices |
-| **Visual** | Seeing people or objects not there |
-| **Tactile** | Feeling bugs crawling on skin |
-| **Olfactory** | Smelling odors not present |
-| **Gustatory** | Tasting something not present |
+**Auditory:** hearing voices  
+**Visual:** seeing people or objects not there  
+**Tactile:** feeling bugs crawling on skin  
+**Olfactory:** smelling odors not present  
+**Gustatory:** tasting something not present
 </div>
 
 <div class="detail-mini-card" markdown="1">
 <strong>Insight + Judgment</strong>
 
-- **Insight:** understanding of own condition or behavior
-- **Poor insight:** does not recognize illness or problem
-- **Judgment:** ability to make safe decisions
-- **Poor judgment:** unsafe or impulsive decision-making
+**Insight:** understanding of own condition or behavior  
+**Poor insight:** does not recognize illness or the problem  
+**Judgment:** ability to make safe decisions  
+**Poor judgment:** unsafe or impulsive decision-making
 </div>
 
 </div>
@@ -485,18 +486,29 @@ If the patient or someone else is unsafe, **safety comes before teaching, coping
 <div class="detail-mini-card" markdown="1">
 <strong>Defense Mechanisms</strong>
 
-| Defense | Meaning | Example |
-|---|---|---|
-| **Denial** | Refusing to accept reality | “I do not have a drinking problem.” |
-| **Projection** | Blaming your own feelings on someone else | Angry patient says, “The nurse hates me.” |
-| **Displacement** | Taking feelings out on safer target | Yelling at family after provider conflict |
-| **Regression** | Acting younger during stress | Adult becomes dependent or childlike |
-| **Rationalization** | Making excuses | “I failed because the teacher hates me.” |
-| **Repression** | Unconsciously blocking a memory | Cannot remember traumatic event |
-| **Suppression** | Consciously choosing not to think about something | “I’ll deal with this after my exam.” |
-| **Sublimation** | Turning feelings into healthy activity | Exercising to manage anger |
-| **Reaction formation** | Acting opposite of true feelings | Being overly kind to someone disliked |
-| **Splitting** | Seeing people as all good or all bad | “This nurse is perfect; that nurse is evil.” |
+**Denial:** refusing to accept reality  
+**Projection:** blaming your own feelings on someone else  
+**Displacement:** taking feelings out on a safer target  
+**Regression:** acting younger during stress  
+**Rationalization:** making excuses  
+**Repression:** unconsciously blocking a memory  
+**Suppression:** consciously choosing not to think about something  
+**Sublimation:** turning feelings into a healthy activity  
+**Reaction formation:** acting opposite of true feelings  
+**Splitting:** seeing people as all good or all bad
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Defense Mechanism Examples</strong>
+
+**Denial:** “I do not have a drinking problem.”  
+**Projection:** angry patient says, “The nurse hates me.”  
+**Displacement:** yelling at family after being upset with provider  
+**Regression:** adult becomes dependent or childlike  
+**Rationalization:** “I failed because the teacher hates me.”  
+**Suppression:** “I’ll deal with this after my exam.”  
+**Sublimation:** exercising to manage anger  
+**Splitting:** “This nurse is perfect; that nurse is evil.”
 </div>
 
 <div class="detail-mini-card" markdown="1">
@@ -587,9 +599,13 @@ Milieu therapy means the **environment is part of treatment.**
 
 **Internal locus of control:** person believes they have some control over choices and actions.
 
+**Example:** “I can practice coping skills when I feel angry.”
+
 **External locus of control:** person believes others or events control their behavior.
 
-Nursing focus: help the patient recognize choices, triggers, responsibility, and healthier coping.
+**Example:** “They made me act that way.”
+
+**Nursing focus:** help the patient recognize choices, triggers, responsibility, and healthier coping.
 </div>
 
 </div>
@@ -685,12 +701,17 @@ Not used for:
 <div class="detail-mini-card" markdown="1">
 <strong>Anxiety Levels</strong>
 
-| Level | Signs | Nursing Focus |
-|---|---|---|
-| **Mild** | Alert, focused, slightly restless | Teaching and problem-solving can happen |
-| **Moderate** | Narrowed focus, tense, increased HR | Use simple directions |
-| **Severe** | Poor concentration, pacing, physical symptoms | Reduce stimuli, stay calm |
-| **Panic** | Unable to process, feels out of control | Stay with patient, short directions, safety |
+**Mild:** alert, focused, slightly restless  
+**Nursing focus:** teaching and problem-solving can happen
+
+**Moderate:** narrowed focus, tense, increased HR  
+**Nursing focus:** use simple directions
+
+**Severe:** poor concentration, pacing, physical symptoms  
+**Nursing focus:** reduce stimuli and stay calm
+
+**Panic:** unable to process, feels out of control  
+**Nursing focus:** stay with patient, short directions, safety
 </div>
 
 </div>
