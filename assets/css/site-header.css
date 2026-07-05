@@ -1,0 +1,119 @@
+/* =========================================================
+   SITE TOP BAR for note pages (default layout)
+   Mirrors the homepage brand bar (.prototype-topbar in
+   prototype.css) so the top of the notes matches the home
+   page. Self-contained: colors, fonts, dark mode, print.
+   ========================================================= */
+
+.prototype-topbar {
+  min-height: 84px;
+  padding: 16px max(5vw, 40px) 16px max(10vw, 150px);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+  background: rgba(255, 254, 253, 0.9) !important;
+  border-bottom: 1px solid #e7e3ed !important;
+  -webkit-backdrop-filter: blur(16px);
+  backdrop-filter: blur(16px);
+  position: relative;
+  z-index: 10;
+  box-shadow: none !important;
+}
+
+.prototype-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  color: #172044 !important;
+  text-decoration: none !important;
+}
+
+.prototype-brand .brand-mark {
+  width: 42px;
+  height: 42px;
+  display: grid;
+  place-items: center;
+  border: 2px solid #f36f9a;
+  color: #f36f9a;
+  border-radius: 14px 14px 18px 18px;
+  font-size: 25px;
+  transform: rotate(-4deg);
+  background: transparent;
+}
+
+.prototype-brand strong,
+.prototype-brand small { display: block; }
+.prototype-brand strong {
+  font-family: "Plus Jakarta Sans", "Nunito", sans-serif;
+  font-size: 0.95rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  color: #172044;
+}
+.prototype-brand small {
+  color: #f36f9a;
+  font-size: 0.68rem;
+  font-weight: 600;
+  margin-top: 2px;
+}
+
+.prototype-topbar nav { display: flex; align-items: center; gap: 8px; }
+.prototype-topbar nav a {
+  font-family: "Plus Jakarta Sans", "Nunito", sans-serif;
+  color: #172044 !important;
+  text-decoration: none !important;
+  font-size: 0.83rem;
+  font-weight: 600;
+  padding: 10px 15px;
+  border-radius: 999px;
+}
+.prototype-topbar nav a:hover { background: #f1ebfb; }
+.prototype-topbar nav .nav-featured {
+  background: linear-gradient(135deg, #f36f9a, #ee6291);
+  color: #ffffff !important;
+  box-shadow: 0 8px 18px rgba(243, 111, 154, 0.22);
+}
+.prototype-topbar nav .nav-featured:hover { background: linear-gradient(135deg, #ee6291, #e5537f); }
+
+/* =========================================================
+   DARK MODE — note pages support a dark theme
+   ========================================================= */
+
+[data-theme="dark"] .prototype-topbar {
+  background: rgba(26, 26, 42, 0.9) !important;
+  border-bottom-color: #2e2e42 !important;
+}
+[data-theme="dark"] .prototype-brand,
+[data-theme="dark"] .prototype-brand strong { color: #e4e6f0 !important; }
+[data-theme="dark"] .prototype-topbar nav a { color: #e4e6f0 !important; }
+[data-theme="dark"] .prototype-topbar nav a:hover { background: #2c2547; }
+
+/* =========================================================
+   MOBILE — collapse nav, leave room for the Study Menu button
+   ========================================================= */
+
+@media (max-width: 900px) {
+  .prototype-topbar { padding-left: 150px; }
+}
+
+@media (max-width: 640px) {
+  .prototype-topbar {
+    min-height: 68px;
+    padding: 10px 12px 10px 150px;
+    gap: 12px;
+  }
+  .prototype-brand strong { font-size: 0.8rem; }
+  .prototype-brand small { display: none; }
+  .prototype-brand .brand-mark { width: 34px; height: 34px; font-size: 21px; }
+  .prototype-topbar nav a:not(.nav-featured) { display: none; }
+  .prototype-topbar nav .nav-featured { padding: 8px 12px; font-size: 0.75rem; }
+}
+
+/* =========================================================
+   PRINT — hide the bar in PDF/print output
+   ========================================================= */
+
+@media print {
+  .prototype-topbar { display: none !important; }
+}

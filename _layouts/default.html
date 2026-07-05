@@ -8,16 +8,26 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Playfair+Display:wght@700;900&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/site-header.css' | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/css/mh-cards.css' | relative_url }}">
   <meta name="base-url" content="{{ '/' | relative_url | remove_last: '/' }}">
 </head>
 
 <body data-section="{{ page.url | split: '/' | slice: 1, 1 | join: '' | split: '.' | first }}" data-page-type="{{ page.page_type | default: '' }}">
-  <header class="page-header">
-    <h1 class="project-name">{{ site.title }}</h1>
-    <h2 class="project-tagline">{{ site.description }}</h2>
+  <header class="prototype-topbar">
+    <a class="prototype-brand" href="{{ '/' | relative_url }}" aria-label="Ellie's Nursing Notes home">
+      <span class="brand-mark">♡</span>
+      <span><strong>Ellie's Nursing Notes</strong><small>Learn clearly. Care confidently.</small></span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <a href="{{ '/' | relative_url }}">Home</a>
+      <a href="{{ '/all-topics.html' | relative_url }}">All Notes</a>
+      <a href="{{ '/medical-emergencies/practice-quiz.html' | relative_url }}">Practice</a>
+      <a href="{{ '/medical-emergencies/medications.html' | relative_url }}">Medications</a>
+      <a class="nav-featured" href="{{ '/review.html' | relative_url }}">Quick Review</a>
+    </nav>
   </header>
   
 <input type="checkbox" id="sidebar-toggle" class="sidebar-toggle-checkbox">
