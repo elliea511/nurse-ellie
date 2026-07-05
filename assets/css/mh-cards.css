@@ -325,6 +325,83 @@ body[data-section="mental-health"] .mh-card.blue .mh-btn:hover { background: var
 body[data-section="mental-health"] .mh-card.green .mh-btn { border-color: var(--mh-green); color: var(--mh-green-deep) !important; }
 body[data-section="mental-health"] .mh-card.green .mh-btn:hover { background: var(--mh-green-soft); }
 
+/* Filled "active" state while its panel is open */
+body[data-section="mental-health"] .mh-btn.mh-active { background: var(--mh-purple); color: #fff !important; border-color: var(--mh-purple); }
+body[data-section="mental-health"] .mh-card.pink .mh-btn.mh-active { background: var(--mh-pink); border-color: var(--mh-pink); }
+body[data-section="mental-health"] .mh-card.blue .mh-btn.mh-active { background: var(--mh-blue); border-color: var(--mh-blue); }
+body[data-section="mental-health"] .mh-card.green .mh-btn.mh-active { background: var(--mh-green); border-color: var(--mh-green); }
+
+/* =========================================================
+   EXPANDABLE DETAIL PANELS
+   Triggered by a .mh-btn whose href="#id" matches a
+   .mh-detail panel placed lower in the page. Works with
+   zero JavaScript via :target; the mh-cards.js script
+   upgrades it to a smooth open/close toggle.
+   ========================================================= */
+
+body[data-section="mental-health"] .mh-detail {
+  display: none;
+  background: var(--mh-card-bg);
+  border: 1.5px solid var(--mh-purple-border);
+  border-radius: 16px;
+  padding: 1.35rem 1.6rem;
+  margin: 1.25rem 0;
+  box-shadow: 0 1px 4px rgba(34, 28, 80, 0.06);
+  scroll-margin-top: 1.5rem;
+}
+
+body[data-section="mental-health"] .mh-detail:target,
+body[data-section="mental-health"] .mh-detail.mh-open {
+  display: block;
+  animation: mh-fade 0.25s ease;
+}
+
+@keyframes mh-fade {
+  from { opacity: 0; transform: translateY(-4px); }
+  to   { opacity: 1; transform: none; }
+}
+
+body[data-section="mental-health"] .mh-detail > :first-child { margin-top: 0 !important; }
+body[data-section="mental-health"] .mh-detail > :last-child { margin-bottom: 0 !important; }
+
+body[data-section="mental-health"] .mh-detail h3 {
+  font-family: "Nunito", sans-serif !important;
+  font-size: 1.15rem !important;
+  font-weight: 800 !important;
+  margin: 0 0 0.6rem !important;
+  padding: 0 !important;
+  border: none !important;
+  background: none !important;
+  color: var(--mh-purple-deep) !important;
+}
+
+/* Color variants — match the card that opened them */
+body[data-section="mental-health"] .mh-detail.pink  { border-color: var(--mh-pink-border); }
+body[data-section="mental-health"] .mh-detail.pink h3  { color: var(--mh-pink-deep) !important; }
+body[data-section="mental-health"] .mh-detail.blue  { border-color: var(--mh-blue-border); }
+body[data-section="mental-health"] .mh-detail.blue h3  { color: var(--mh-blue-deep) !important; }
+body[data-section="mental-health"] .mh-detail.green { border-color: var(--mh-green-border); }
+body[data-section="mental-health"] .mh-detail.green h3 { color: var(--mh-green-deep) !important; }
+
+/* Optional close link (a with class mh-detail-close) */
+body[data-section="mental-health"] .mh-detail-close {
+  float: right;
+  margin: -0.35rem -0.5rem 0 0.5rem;
+  width: 1.7rem;
+  height: 1.7rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 1rem;
+  font-weight: 800;
+  line-height: 1;
+  text-decoration: none !important;
+  color: var(--mh-muted) !important;
+  background: var(--mh-purple-soft);
+}
+body[data-section="mental-health"] .mh-detail-close:hover { color: var(--mh-ink) !important; }
+
 /* =========================================================
    KEY FINDINGS — white card with purple check circles
    ========================================================= */
