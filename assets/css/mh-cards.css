@@ -41,6 +41,367 @@ body[data-section="mental-health"] {
   --mh-red-border:    #f3caca;
 }
 
+/* =========================================================
+   MENTAL HEALTH LANDING HUB
+   ========================================================= */
+
+body[data-page-type="mental-health-hub"] .page-wrapper {
+  width: min(1540px, calc(100% - 3rem));
+  max-width: none;
+}
+
+body[data-page-type="mental-health-hub"] .main-content {
+  max-width: none;
+  padding: 2.25rem 0 3rem;
+}
+
+.mh-hub { color: #0d194f; }
+
+.mh-hub-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 0 0 2.2rem;
+}
+
+.mh-hub-header h1 {
+  margin: 0 !important;
+  font-family: "Nunito", sans-serif !important;
+  font-size: clamp(2rem, 3vw, 3.15rem) !important;
+  letter-spacing: -0.04em;
+  color: #0b174e !important;
+}
+
+.mh-hub-header p {
+  margin: 0.25rem 0 0;
+  color: #1495a1;
+  font-size: 1.12rem;
+  font-weight: 700;
+}
+
+.mh-hub-brandmark {
+  display: grid;
+  place-items: center;
+  width: 4.6rem;
+  height: 4.6rem;
+  border: 2px solid #38aeb7;
+  border-radius: 1.4rem;
+  background: #edfafa;
+  overflow: hidden;
+}
+
+.mh-hub-brandmark img { width: 4.2rem; height: 3.25rem; object-fit: contain; }
+
+.mh-hub-layout {
+  display: grid;
+  grid-template-columns: minmax(720px, 1fr) 320px;
+  gap: 2.2rem;
+  align-items: stretch;
+}
+
+.mh-topic-orbit {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(250px, 1fr));
+  gap: 1rem 24rem;
+  align-content: center;
+  min-height: 720px;
+}
+
+.mh-topic-orbit::before {
+  content: "";
+  position: absolute;
+  inset: 9% 17%;
+  border: 2px dashed rgba(32, 158, 171, 0.28);
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.mh-orbit-connectors {
+  position: absolute;
+  z-index: 1;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.mh-connector-lines line {
+  fill: none;
+  stroke: #22a4af;
+  stroke-width: 2;
+  stroke-dasharray: 5 7;
+  vector-effect: non-scaling-stroke;
+}
+
+.mh-connector-dots circle { fill: #209ca7; }
+
+.mh-brain-center {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 27rem;
+  height: 24rem;
+  transform: translate(-50%, -50%);
+  filter: drop-shadow(0 22px 22px rgba(29, 60, 106, .18));
+}
+
+.mh-brain-center img { width: 100%; height: 100%; object-fit: contain; }
+
+.mh-topic-card {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  gap: .85rem;
+  min-height: 78px;
+  padding: .8rem 1rem;
+  border: 1px solid #dbe5e9;
+  border-radius: 18px;
+  background: rgba(255,255,255,.96);
+  box-shadow: 0 8px 20px rgba(27, 50, 82, .10);
+  color: #101b50 !important;
+  text-decoration: none !important;
+  transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+}
+
+.mh-topic-card::after { display: none; }
+
+.mh-topic-card:hover,
+.mh-topic-card:focus-visible {
+  transform: translateY(-3px);
+  border-color: #32a9b4;
+  box-shadow: 0 13px 26px rgba(27, 50, 82, .15);
+  outline: none;
+}
+
+.mh-topic-card:nth-of-type(odd) { justify-self: end; }
+.mh-topic-card:nth-of-type(even) { justify-self: start; }
+
+.mh-topic-icon {
+  display: grid;
+  flex: 0 0 3.2rem;
+  place-items: center;
+  width: 3.2rem;
+  height: 3.2rem;
+  border-radius: 50%;
+  background: #dff7f8;
+  color: #0d7e89;
+  font-size: 1.45rem;
+  font-weight: 900;
+}
+
+.mh-topic-card:nth-of-type(4n+1) .mh-topic-icon { background: #e7e0fb; color: #6945c2; }
+.mh-topic-card:nth-of-type(4n+2) .mh-topic-icon { background: #dceeff; color: #1e64a8; }
+.mh-topic-card:nth-of-type(4n+3) .mh-topic-icon { background: #ffe6de; color: #b54932; }
+.mh-topic-card:nth-of-type(4n+4) .mh-topic-icon { background: #e0f7e7; color: #25864a; }
+
+.mh-topic-card strong,
+.mh-topic-card small { display: block; }
+.mh-topic-card strong { font-size: .99rem; line-height: 1.2; }
+.mh-topic-card small { margin-top: .22rem; color: #68728c; font-size: .74rem; line-height: 1.25; font-weight: 700; }
+
+.mh-topic-13 { grid-column: 1 / -1; justify-self: center !important; width: min(330px, 100%); }
+
+/* Radial topic placement around the brain; Basics anchors the bottom. */
+.mh-topic-orbit {
+  display: block;
+  min-height: 820px;
+}
+
+.mh-topic-orbit .mh-topic-card {
+  position: absolute;
+  width: min(245px, 28%);
+  min-height: 72px;
+  transform: translate(-50%, -50%);
+}
+
+.mh-topic-orbit .mh-topic-card:hover,
+.mh-topic-orbit .mh-topic-card:focus-visible { transform: translate(-50%, calc(-50% - 3px)); }
+
+.mh-topic-1  { left: 50%; top: 92%; }
+.mh-topic-2  { left: 29%; top: 85%; }
+.mh-topic-3  { left: 14%; top: 71%; }
+.mh-topic-4  { left: 12%; top: 50%; }
+.mh-topic-5  { left: 18%; top: 30%; }
+.mh-topic-6  { left: 34%; top: 14%; }
+.mh-topic-7  { left: 52%; top: 11%; }
+.mh-topic-8  { left: 71%; top: 18%; }
+.mh-topic-9  { left: 85%; top: 34%; }
+.mh-topic-10 { left: 88%; top: 54%; }
+.mh-topic-11 { left: 82%; top: 73%; }
+.mh-topic-12 { left: 68%; top: 86%; }
+
+.mh-hub-guide {
+  display: flex;
+  flex-direction: column;
+  align-self: stretch;
+  padding: 2.1rem 1.9rem;
+  border: 1px solid #cbdde2;
+  border-radius: 24px;
+  background: linear-gradient(155deg, #fff, #fbfefe);
+  box-shadow: 0 12px 30px rgba(27, 50, 82, .07);
+}
+
+.mh-guide-icon {
+  display: grid;
+  place-items: center;
+  width: 4.4rem;
+  height: 4.4rem;
+  margin: 0 auto 1rem;
+  border-radius: 50%;
+  background: #e6f7f8;
+  overflow: hidden;
+}
+
+.mh-guide-icon img { width: 3.7rem; height: 3rem; object-fit: contain; }
+
+.mh-hub-guide h2 {
+  margin: 0 !important;
+  color: #0c174d !important;
+  font-family: "Nunito", sans-serif !important;
+  font-size: 1.55rem !important;
+  line-height: 1.2 !important;
+  text-align: center;
+  border: 0 !important;
+  background: none !important;
+}
+
+.mh-guide-rule { height: 1px; margin: 1.8rem 0; background: #bedde1; }
+.mh-hub-guide > p { margin: 0 0 .7rem; font-weight: 800; }
+.mh-hub-guide ul { margin: 0; padding: 0; list-style: none; }
+.mh-hub-guide li { position: relative; margin: 0 0 .8rem; padding-left: 2rem; line-height: 1.3; font-weight: 700; }
+.mh-hub-guide li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  display: grid;
+  place-items: center;
+  width: 1.2rem;
+  height: 1.2rem;
+  border: 1.5px solid #18a0ad;
+  border-radius: 50%;
+  color: #138e99;
+  font-size: .75rem;
+  font-weight: 900;
+}
+
+.mh-guide-tip {
+  display: flex;
+  align-items: center;
+  gap: .7rem;
+  margin-top: auto;
+  padding: 1rem;
+  border: 1px solid #c9e1e5;
+  border-radius: 15px;
+  background: #f0f9fa;
+  color: #245675;
+  font-size: .9rem;
+  font-weight: 800;
+}
+.mh-guide-tip span { font-size: 1.5rem; }
+
+.mh-nclex-link {
+  display: flex;
+  align-items: center;
+  gap: .75rem;
+  margin: 1.1rem 0;
+  padding: .9rem;
+  border: 1px solid #cdbff2;
+  border-radius: 14px;
+  background: #f3effd;
+  color: #382875 !important;
+  text-decoration: none !important;
+  transition: transform .18s ease, box-shadow .18s ease;
+}
+
+.mh-nclex-link:hover,
+.mh-nclex-link:focus-visible {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 18px rgba(76, 47, 168, .14);
+  outline: 2px solid #8b73d7;
+  outline-offset: 2px;
+}
+
+.mh-nclex-link > span:first-child {
+  display: grid;
+  flex: 0 0 2.25rem;
+  place-items: center;
+  width: 2.25rem;
+  height: 2.25rem;
+  border-radius: 50%;
+  background: #fff;
+  color: #6848c2;
+  font-weight: 900;
+}
+
+.mh-nclex-link strong,
+.mh-nclex-link small { display: block; line-height: 1.2; }
+.mh-nclex-link strong { font-size: .9rem; }
+.mh-nclex-link small { margin-top: .18rem; color: #716898; font-size: .7rem; font-weight: 700; }
+
+[data-theme="dark"] .mh-hub { color: #ecf6fa; }
+[data-theme="dark"] .mh-hub-header h1,
+[data-theme="dark"] .mh-hub-guide h2 { color: #eef7ff !important; }
+[data-theme="dark"] .mh-hub-brandmark { background: #263249; }
+[data-theme="dark"] .mh-topic-card { background: #242a3c; border-color: #45526c; color: #f2f6ff !important; }
+[data-theme="dark"] .mh-topic-card small { color: #b5bfd1; }
+[data-theme="dark"] .mh-hub-guide { background: #242a3c; border-color: #45526c; }
+[data-theme="dark"] .mh-guide-tip { background: #263a45; color: #d8f3f5; }
+[data-theme="dark"] .mh-nclex-link { background: #302849; border-color: #544679; color: #eee8ff !important; }
+
+@media (max-width: 1250px) {
+  .mh-hub-layout { grid-template-columns: minmax(0, 1fr) 245px; gap: 1.2rem; }
+  .mh-topic-orbit { grid-template-columns: repeat(2, minmax(165px, 1fr)); gap: .8rem 21rem; min-height: 760px; }
+  .mh-brain-center { width: 24rem; height: 22rem; }
+  .mh-topic-card { min-height: 72px; padding: .7rem .8rem; gap: .6rem; }
+  .mh-topic-icon { flex-basis: 2.65rem; width: 2.65rem; height: 2.65rem; font-size: 1.15rem; }
+  .mh-topic-card strong { font-size: .86rem; }
+  .mh-topic-card small { display: none; }
+  .mh-hub-guide { padding: 1.6rem 1.3rem; }
+  .mh-hub-guide h2 { font-size: 1.3rem !important; }
+  .mh-hub-guide li { font-size: .84rem; }
+}
+
+@media (max-width: 980px) {
+  body[data-page-type="mental-health-hub"] .page-wrapper { width: min(100% - 1.5rem, 1540px); }
+  .mh-hub-layout { grid-template-columns: minmax(0, 1fr) 235px; gap: 1rem; }
+  .mh-topic-orbit { grid-template-columns: repeat(2, minmax(140px, 1fr)); gap: .75rem 17rem; min-height: 720px; }
+  .mh-brain-center { width: 20rem; height: 18rem; }
+  .mh-topic-card { min-height: 70px; padding: .65rem .7rem; gap: .55rem; border-radius: 15px; }
+  .mh-topic-icon { flex-basis: 2.5rem; width: 2.5rem; height: 2.5rem; font-size: 1.05rem; }
+  .mh-topic-card strong { font-size: .82rem; }
+  .mh-topic-card small { display: none; }
+  .mh-hub-guide { padding: 1.5rem 1.2rem; min-height: auto; }
+  .mh-hub-guide h2 { font-size: 1.25rem !important; }
+  .mh-hub-guide li { font-size: .82rem; }
+  .mh-guide-tip { margin-top: auto; font-size: .8rem; }
+}
+
+@media (max-width: 740px) {
+  body[data-page-type="mental-health-hub"] .page-wrapper { width: min(100% - 1.5rem, 1540px); }
+  body[data-page-type="mental-health-hub"] .main-content { padding-top: 1.25rem; }
+  .mh-hub-header { align-items: flex-start; margin-bottom: 1.5rem; }
+  .mh-hub-brandmark { width: 3.5rem; height: 3.5rem; border-radius: 1rem; font-size: 1.8rem; }
+  .mh-hub-header h1 { font-size: 1.8rem !important; }
+  .mh-hub-header p { font-size: .95rem; }
+  .mh-hub-layout { grid-template-columns: 1fr; }
+  .mh-topic-orbit { grid-template-columns: repeat(2, minmax(125px, 1fr)); gap: .7rem 18rem; min-height: 740px; }
+  .mh-topic-orbit::before { display: block; inset: 10% 15%; }
+  .mh-brain-center { position: absolute; top: 50%; left: 50%; width: 18rem; height: 17rem; padding: 0; transform: translate(-50%, -50%); }
+  .mh-topic-card,
+  .mh-topic-card:nth-of-type(odd),
+  .mh-topic-card:nth-of-type(even) { grid-column: auto; justify-self: stretch !important; width: auto; }
+  .mh-topic-13 { grid-column: 1 / -1; justify-self: center !important; width: min(240px, 100%); }
+  .mh-topic-card small { font-size: .78rem; }
+  .mh-hub-guide { padding: 1.6rem; }
+}
+
 [data-theme="dark"] body[data-section="mental-health"] {
   --mh-ink:           #e8e5f7;
   --mh-muted:         #a7a3c8;
@@ -912,4 +1273,91 @@ body[data-section="mental-health"] .mh-detail table {
   body[data-section="mental-health"] .detail-grid {
     grid-template-columns: 1fr;
   }
+}
+
+/* Landing hub final composition: disorders orbit the brain; support topics sit below. */
+body[data-page-type="mental-health-hub"] .mh-hub-main { min-width: 0; }
+
+body[data-page-type="mental-health-hub"] .mh-topic-orbit {
+  display: block;
+  min-height: 700px;
+}
+
+body[data-page-type="mental-health-hub"] .mh-topic-orbit .mh-topic-card,
+body[data-page-type="mental-health-hub"] .mh-topic-orbit .mh-topic-card:nth-of-type(odd),
+body[data-page-type="mental-health-hub"] .mh-topic-orbit .mh-topic-card:nth-of-type(even) {
+  position: absolute;
+  grid-column: auto;
+  width: clamp(135px, 24%, 245px);
+  min-height: 72px;
+  transform: translate(-50%, -50%);
+}
+
+body[data-page-type="mental-health-hub"] .mh-topic-orbit .mh-topic-card:hover,
+body[data-page-type="mental-health-hub"] .mh-topic-orbit .mh-topic-card:focus-visible {
+  transform: translate(-50%, calc(-50% - 3px));
+}
+
+body[data-page-type="mental-health-hub"] .mh-topic-2  { left: 25%; top: 16%; }
+body[data-page-type="mental-health-hub"] .mh-topic-4  { left: 15%; top: 39%; }
+body[data-page-type="mental-health-hub"] .mh-topic-5  { left: 15%; top: 64%; }
+body[data-page-type="mental-health-hub"] .mh-topic-6  { left: 25%; top: 86%; }
+body[data-page-type="mental-health-hub"] .mh-topic-7  { left: 75%; top: 16%; }
+body[data-page-type="mental-health-hub"] .mh-topic-8  { left: 85%; top: 39%; }
+body[data-page-type="mental-health-hub"] .mh-topic-9  { left: 85%; top: 64%; }
+body[data-page-type="mental-health-hub"] .mh-topic-10 { left: 75%; top: 86%; }
+
+.mh-hub-shortcuts {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: .75rem;
+  margin-top: 1rem;
+}
+
+.mh-hub-shortcuts a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .55rem;
+  min-height: 58px;
+  padding: .7rem;
+  border: 1px solid #d8e3e7;
+  border-radius: 14px;
+  background: #fff;
+  box-shadow: 0 6px 16px rgba(27, 50, 82, .08);
+  color: #172153 !important;
+  text-align: center;
+  text-decoration: none !important;
+  transition: transform .18s ease, border-color .18s ease, box-shadow .18s ease;
+}
+
+.mh-hub-shortcuts a:hover,
+.mh-hub-shortcuts a:focus-visible {
+  transform: translateY(-2px);
+  border-color: #29a7b2;
+  box-shadow: 0 9px 20px rgba(27, 50, 82, .13);
+  outline: none;
+}
+
+.mh-hub-shortcuts a > span {
+  display: grid;
+  flex: 0 0 2rem;
+  place-items: center;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background: #e8f7f8;
+  color: #12828d;
+  font-weight: 900;
+}
+
+.mh-hub-shortcuts strong { font-size: .78rem; line-height: 1.15; }
+
+[data-theme="dark"] .mh-hub-shortcuts a { background: #242a3c; border-color: #45526c; color: #f2f6ff !important; }
+
+@media (max-width: 740px) {
+  body[data-page-type="mental-health-hub"] .mh-topic-orbit { min-height: 650px; }
+  body[data-page-type="mental-health-hub"] .mh-topic-orbit .mh-topic-card { min-height: 62px; padding: .55rem; }
+  body[data-page-type="mental-health-hub"] .mh-topic-orbit .mh-topic-card strong { font-size: .76rem; }
+  .mh-hub-shortcuts { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
