@@ -615,3 +615,39 @@ body[data-section="mental-health"] .main-content .nclex strong {
     align-items: flex-start;
   }
 }
+/* =========================================================
+   FIX MENTAL HEALTH TOP PAGE LAYOUT
+   Makes real pages match the MH Card Preview top style
+   ========================================================= */
+
+body[data-section="mental-health"] .main-content h1 {
+  font-family: "Playfair Display", Georgia, serif !important;
+  font-size: 2.7rem !important;
+  font-weight: 900 !important;
+  line-height: 1.15 !important;
+  color: var(--mh-ink) !important;
+
+  background: none !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  padding: 0 !important;
+  margin: 0.75rem 0 1rem !important;
+
+  display: block !important;
+  width: auto !important;
+  max-width: none !important;
+  text-align: left !important;
+}
+
+/* Subtitle should look like the sample page */
+body[data-section="mental-health"] .mh-subtitle {
+  margin: -0.35rem 0 1.35rem !important;
+  font-size: 1.15rem !important;
+  font-weight: 800 !important;
+  color: var(--mh-purple) !important;
+}
+
+/* Make the breadcrumb sit like the sample */
+body[data-section="mental-health"] .mh-breadcrumb {
+  margin: 0 0 1rem !important;
+}
