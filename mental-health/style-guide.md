@@ -354,6 +354,82 @@ Wrap a normal markdown table in a `mh-table-card` div — the `markdown="1"` par
 
 ---
 
+## 10. Put boxes side by side (columns)
+
+By default each box spans the full width of the page. To sit two boxes next to each other — like the mockup, where the comparison table sits beside Quick Review + Do Not Miss — wrap them in `<div class="mh-columns">`. On phones they automatically stack back into one column.
+
+Simplest case, two boxes side by side:
+
+<div class="mh-columns">
+  <div class="quick-review">
+    <h3>Quick Review</h3>
+    <ol>
+      <li>Assess for safety (SI/HI)</li>
+      <li>Identify trigger(s)</li>
+      <li>Reduce anxiety using coping skills</li>
+    </ol>
+  </div>
+  <div class="do-not-miss">
+    <h3>Do Not Miss</h3>
+    <ul>
+      <li>Always assess safety first</li>
+      <li>Teach skills the patient can use daily</li>
+    </ul>
+  </div>
+</div>
+
+```
+<div class="mh-columns">
+  <div class="quick-review"> … </div>
+  <div class="do-not-miss"> … </div>
+</div>
+```
+
+To **stack two boxes in one column** (e.g. a big card on the left, two smaller ones stacked on the right), put the stacked pair inside a `<div class="mh-col">`. Add `wide-left` to the wrapper to give the left side more room — good when the left box is a table:
+
+<div class="mh-columns wide-left">
+  <div class="key-findings">
+    <h3>📋 Key Assessment Findings</h3>
+    <ul>
+      <li>Excessive worry or fear</li>
+      <li>Restlessness, feeling "on edge"</li>
+      <li>Muscle tension, headaches, fatigue</li>
+      <li>Difficulty concentrating</li>
+    </ul>
+  </div>
+  <div class="mh-col">
+    <div class="report-now">
+      <h3>Report Immediately</h3>
+      <ul>
+        <li>Suicidal thoughts or statements</li>
+        <li>Severe panic attacks</li>
+      </ul>
+    </div>
+    <div class="nclex-tip">
+      <h3>NCLEX Tip</h3>
+      The nurse's first action is always safety.
+    </div>
+  </div>
+</div>
+
+```
+<div class="mh-columns wide-left">
+  <div class="key-findings"> … </div>
+  <div class="mh-col">
+    <div class="report-now"> … </div>
+    <div class="nclex-tip"> … </div>
+  </div>
+</div>
+```
+
+Rules of thumb:
+- Two boxes → drop them both straight inside `mh-columns`.
+- Three boxes where two belong together → wrap those two in an `mh-col`.
+- Use `wide-left` when the left box is a wide table; leave it off for two equal boxes.
+- Very tall tables usually look better left full-width (not in a column).
+
+---
+
 ## Bonus: your existing boxes got a makeover
 
 The `note`, `warning`, `tip`, and `nclex` boxes already used on mental health pages automatically pick up the new card look — no changes needed:
