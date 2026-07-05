@@ -1,0 +1,617 @@
+/* =========================================================
+   MENTAL HEALTH — "Nurse Ellie Study Notes" card design
+   Scoped to body[data-section="mental-health"] only.
+   Component guide + copy-paste snippets:
+   /mental-health/style-guide.html
+   ========================================================= */
+
+body[data-section="mental-health"] {
+  --mh-ink:           #221c50;
+  --mh-muted:         #6f6a92;
+  --mh-card-bg:       #ffffff;
+
+  --mh-purple:        #7c5cd6;
+  --mh-purple-deep:   #4c2fa8;
+  --mh-purple-soft:   #efeafc;
+  --mh-purple-border: #ded2f7;
+
+  --mh-pink:          #e0559a;
+  --mh-pink-deep:     #b93d7d;
+  --mh-pink-soft:     #fdeef5;
+  --mh-pink-border:   #f6cfe3;
+
+  --mh-blue:          #4a90d9;
+  --mh-blue-deep:     #2f6cb0;
+  --mh-blue-soft:     #eaf3fc;
+  --mh-blue-border:   #cbe0f5;
+
+  --mh-green:         #3aa876;
+  --mh-green-deep:    #23815a;
+  --mh-green-soft:    #eaf7f1;
+  --mh-green-border:  #c8e8d9;
+
+  --mh-amber:         #e6a817;
+  --mh-amber-deep:    #8a6410;
+  --mh-amber-soft:    #fff8e1;
+  --mh-amber-border:  #f3e2ae;
+
+  --mh-red:           #d64545;
+  --mh-red-deep:      #a82f2f;
+  --mh-red-soft:      #fdeeee;
+  --mh-red-border:    #f3caca;
+}
+
+[data-theme="dark"] body[data-section="mental-health"] {
+  --mh-ink:           #e8e5f7;
+  --mh-muted:         #a7a3c8;
+  --mh-card-bg:       #232134;
+
+  --mh-purple:        #a68bf0;
+  --mh-purple-deep:   #c3aef7;
+  --mh-purple-soft:   #2c2547;
+  --mh-purple-border: #453a6e;
+
+  --mh-pink:          #ef7cb6;
+  --mh-pink-deep:     #f5a3cd;
+  --mh-pink-soft:     #3a2333;
+  --mh-pink-border:   #5e3a50;
+
+  --mh-blue:          #74aee8;
+  --mh-blue-deep:     #9cc6f2;
+  --mh-blue-soft:     #1f2c40;
+  --mh-blue-border:   #35496a;
+
+  --mh-green:         #5cc496;
+  --mh-green-deep:    #8adbb6;
+  --mh-green-soft:    #1c3229;
+  --mh-green-border:  #2f5445;
+
+  --mh-amber:         #edc35a;
+  --mh-amber-deep:    #f2d488;
+  --mh-amber-soft:    #38301a;
+  --mh-amber-border:  #5c4e2a;
+
+  --mh-red:           #e87070;
+  --mh-red-deep:      #f09c9c;
+  --mh-red-soft:      #3a2224;
+  --mh-red-border:    #5e3538;
+}
+
+/* =========================================================
+   PAGE TOP — title, subtitle, breadcrumb
+   ========================================================= */
+
+body[data-section="mental-health"] .main-content h1 {
+  font-family: "Playfair Display", Georgia, serif !important;
+  font-size: 2.7rem !important;
+  font-weight: 900 !important;
+  color: var(--mh-ink) !important;
+  line-height: 1.15 !important;
+}
+
+body[data-section="mental-health"] .mh-subtitle {
+  margin: -0.5rem 0 0.6rem;
+  font-size: 1.15rem;
+  font-weight: 800;
+  color: var(--mh-purple);
+}
+
+body[data-section="mental-health"] .mh-breadcrumb {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.45rem;
+  margin: 0 0 1.1rem;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--mh-muted);
+}
+
+body[data-section="mental-health"] .mh-breadcrumb a {
+  color: var(--mh-purple) !important;
+  text-decoration: none !important;
+}
+
+body[data-section="mental-health"] .mh-breadcrumb a:hover {
+  text-decoration: underline !important;
+}
+
+body[data-section="mental-health"] .mh-breadcrumb a + a::before,
+body[data-section="mental-health"] .mh-breadcrumb a + span::before,
+body[data-section="mental-health"] .mh-breadcrumb span + span::before {
+  content: "›";
+  margin-right: 0.45rem;
+  color: var(--mh-muted);
+}
+
+/* =========================================================
+   SHARED CARD BASICS
+   ========================================================= */
+
+body[data-section="mental-health"] .priority-focus,
+body[data-section="mental-health"] .mh-card,
+body[data-section="mental-health"] .key-findings,
+body[data-section="mental-health"] .report-now,
+body[data-section="mental-health"] .nclex-tip,
+body[data-section="mental-health"] .quick-review,
+body[data-section="mental-health"] .do-not-miss,
+body[data-section="mental-health"] .mh-table-card,
+body[data-section="mental-health"] .cheer-banner {
+  border-radius: 16px;
+  padding: 1.15rem 1.35rem;
+  margin: 1.25rem 0;
+  line-height: 1.6;
+  color: var(--mh-ink);
+  box-shadow: 0 1px 4px rgba(34, 28, 80, 0.06);
+}
+
+body[data-section="mental-health"] .priority-focus > :first-child,
+body[data-section="mental-health"] .mh-card > :first-child,
+body[data-section="mental-health"] .key-findings > :first-child,
+body[data-section="mental-health"] .report-now > :first-child,
+body[data-section="mental-health"] .nclex-tip > :first-child,
+body[data-section="mental-health"] .quick-review > :first-child,
+body[data-section="mental-health"] .do-not-miss > :first-child,
+body[data-section="mental-health"] .mh-table-card > :first-child {
+  margin-top: 0 !important;
+}
+
+body[data-section="mental-health"] .priority-focus > :last-child,
+body[data-section="mental-health"] .mh-card > :last-child,
+body[data-section="mental-health"] .key-findings > :last-child,
+body[data-section="mental-health"] .report-now > :last-child,
+body[data-section="mental-health"] .nclex-tip > :last-child,
+body[data-section="mental-health"] .quick-review > :last-child,
+body[data-section="mental-health"] .do-not-miss > :last-child,
+body[data-section="mental-health"] .mh-table-card > :last-child {
+  margin-bottom: 0 !important;
+}
+
+/* Card headings: compact, sans, colored per component */
+body[data-section="mental-health"] .priority-focus h3,
+body[data-section="mental-health"] .mh-card h3,
+body[data-section="mental-health"] .key-findings h3,
+body[data-section="mental-health"] .report-now h3,
+body[data-section="mental-health"] .nclex-tip h3,
+body[data-section="mental-health"] .quick-review h3,
+body[data-section="mental-health"] .do-not-miss h3,
+body[data-section="mental-health"] .mh-table-card h3 {
+  font-family: "Nunito", sans-serif !important;
+  font-size: 1.05rem !important;
+  font-weight: 800 !important;
+  margin: 0 0 0.55rem !important;
+  padding: 0 !important;
+  border: none !important;
+  background: none !important;
+  color: var(--mh-ink) !important;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+body[data-section="mental-health"] .priority-focus ul,
+body[data-section="mental-health"] .mh-card ul,
+body[data-section="mental-health"] .report-now ul,
+body[data-section="mental-health"] .nclex-tip ul,
+body[data-section="mental-health"] .do-not-miss ul {
+  margin: 0.3rem 0 0;
+  padding-left: 1.15rem;
+}
+
+body[data-section="mental-health"] .mh-card li,
+body[data-section="mental-health"] .report-now li,
+body[data-section="mental-health"] .do-not-miss li {
+  margin-bottom: 0.3rem;
+}
+
+/* =========================================================
+   PRIORITY FOCUS — yellow banner with star
+   ========================================================= */
+
+body[data-section="mental-health"] .priority-focus {
+  background: var(--mh-amber-soft);
+  border: 1.5px solid var(--mh-amber-border);
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+}
+
+body[data-section="mental-health"] .priority-focus::before {
+  content: "⭐";
+  flex: 0 0 auto;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem;
+  background: var(--mh-card-bg);
+  border-radius: 50%;
+  box-shadow: 0 1px 4px rgba(34, 28, 80, 0.10);
+}
+
+body[data-section="mental-health"] .priority-focus h3 {
+  color: var(--mh-amber-deep) !important;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 0.2rem !important;
+}
+
+/* =========================================================
+   CARD GRID — .mh-cards > .mh-card.purple/.pink/.blue/.green
+   ========================================================= */
+
+body[data-section="mental-health"] .mh-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(195px, 1fr));
+  gap: 1rem;
+  margin: 1.25rem 0;
+}
+
+body[data-section="mental-health"] .mh-cards .mh-card {
+  margin: 0;
+}
+
+body[data-section="mental-health"] .mh-card {
+  background: var(--mh-card-bg);
+  border: 1.5px solid var(--mh-purple-border);
+  display: flex;
+  flex-direction: column;
+}
+
+body[data-section="mental-health"] .mh-card-icon {
+  width: 2.9rem;
+  height: 2.9rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.35rem;
+  border-radius: 50%;
+  margin-bottom: 0.75rem;
+  background: var(--mh-purple-soft);
+}
+
+body[data-section="mental-health"] .mh-card li {
+  font-size: 0.93rem;
+}
+
+body[data-section="mental-health"] .mh-card p {
+  font-size: 0.95rem;
+  margin: 0.25rem 0;
+}
+
+/* Color variants */
+body[data-section="mental-health"] .mh-card.purple { background: var(--mh-purple-soft); border-color: var(--mh-purple-border); }
+body[data-section="mental-health"] .mh-card.purple h3 { color: var(--mh-purple-deep) !important; }
+body[data-section="mental-health"] .mh-card.purple .mh-card-icon { background: var(--mh-card-bg); }
+body[data-section="mental-health"] .mh-card.purple li::marker { color: var(--mh-purple); }
+
+body[data-section="mental-health"] .mh-card.pink { background: var(--mh-pink-soft); border-color: var(--mh-pink-border); }
+body[data-section="mental-health"] .mh-card.pink h3 { color: var(--mh-pink-deep) !important; }
+body[data-section="mental-health"] .mh-card.pink .mh-card-icon { background: var(--mh-card-bg); }
+body[data-section="mental-health"] .mh-card.pink li::marker { color: var(--mh-pink); }
+
+body[data-section="mental-health"] .mh-card.blue { background: var(--mh-blue-soft); border-color: var(--mh-blue-border); }
+body[data-section="mental-health"] .mh-card.blue h3 { color: var(--mh-blue-deep) !important; }
+body[data-section="mental-health"] .mh-card.blue .mh-card-icon { background: var(--mh-card-bg); }
+body[data-section="mental-health"] .mh-card.blue li::marker { color: var(--mh-blue); }
+
+body[data-section="mental-health"] .mh-card.green { background: var(--mh-green-soft); border-color: var(--mh-green-border); }
+body[data-section="mental-health"] .mh-card.green h3 { color: var(--mh-green-deep) !important; }
+body[data-section="mental-health"] .mh-card.green .mh-card-icon { background: var(--mh-card-bg); }
+body[data-section="mental-health"] .mh-card.green li::marker { color: var(--mh-green); }
+
+/* Optional outline button pinned to card bottom */
+body[data-section="mental-health"] .mh-btn {
+  display: inline-block;
+  align-self: center;
+  margin-top: auto;
+  padding: 0.35rem 1.1rem;
+  border-radius: 999px;
+  font-size: 0.82rem;
+  font-weight: 800;
+  text-decoration: none !important;
+  border: 1.5px solid var(--mh-purple);
+  color: var(--mh-purple-deep) !important;
+  background: var(--mh-card-bg);
+}
+
+body[data-section="mental-health"] .mh-card .mh-btn { margin-top: 0.85rem; }
+body[data-section="mental-health"] .mh-btn:hover { background: var(--mh-purple-soft); }
+body[data-section="mental-health"] .mh-card.pink .mh-btn { border-color: var(--mh-pink); color: var(--mh-pink-deep) !important; }
+body[data-section="mental-health"] .mh-card.pink .mh-btn:hover { background: var(--mh-pink-soft); }
+body[data-section="mental-health"] .mh-card.blue .mh-btn { border-color: var(--mh-blue); color: var(--mh-blue-deep) !important; }
+body[data-section="mental-health"] .mh-card.blue .mh-btn:hover { background: var(--mh-blue-soft); }
+body[data-section="mental-health"] .mh-card.green .mh-btn { border-color: var(--mh-green); color: var(--mh-green-deep) !important; }
+body[data-section="mental-health"] .mh-card.green .mh-btn:hover { background: var(--mh-green-soft); }
+
+/* =========================================================
+   KEY FINDINGS — white card with purple check circles
+   ========================================================= */
+
+body[data-section="mental-health"] .key-findings {
+  background: var(--mh-card-bg);
+  border: 1.5px solid var(--mh-purple-border);
+}
+
+body[data-section="mental-health"] .key-findings h3 {
+  color: var(--mh-ink) !important;
+}
+
+body[data-section="mental-health"] .key-findings ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+body[data-section="mental-health"] .key-findings li {
+  position: relative;
+  padding: 0.28rem 0 0.28rem 2.1rem;
+}
+
+body[data-section="mental-health"] .key-findings li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  top: 0.32rem;
+  width: 1.4rem;
+  height: 1.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+  font-weight: 900;
+  color: #fff;
+  background: var(--mh-purple);
+  border-radius: 50%;
+}
+
+/* =========================================================
+   REPORT IMMEDIATELY — red alert card
+   ========================================================= */
+
+body[data-section="mental-health"] .report-now {
+  background: var(--mh-red-soft);
+  border: 1.5px solid var(--mh-red-border);
+}
+
+body[data-section="mental-health"] .report-now h3 {
+  color: var(--mh-red-deep) !important;
+}
+
+body[data-section="mental-health"] .report-now h3::before {
+  content: "⚠️";
+  font-size: 1.15rem;
+}
+
+body[data-section="mental-health"] .report-now li::marker {
+  color: var(--mh-red);
+}
+
+/* =========================================================
+   NCLEX TIP — yellow tip card
+   ========================================================= */
+
+body[data-section="mental-health"] .nclex-tip {
+  background: var(--mh-amber-soft);
+  border: 1.5px solid var(--mh-amber-border);
+}
+
+body[data-section="mental-health"] .nclex-tip h3 {
+  color: var(--mh-amber-deep) !important;
+}
+
+body[data-section="mental-health"] .nclex-tip h3::before {
+  content: "💡";
+  font-size: 1.1rem;
+}
+
+/* =========================================================
+   QUICK REVIEW — mint card with numbered steps
+   ========================================================= */
+
+body[data-section="mental-health"] .quick-review {
+  background: var(--mh-green-soft);
+  border: 1.5px solid var(--mh-green-border);
+}
+
+body[data-section="mental-health"] .quick-review h3 {
+  color: var(--mh-green-deep) !important;
+}
+
+body[data-section="mental-health"] .quick-review h3::before {
+  content: "✅";
+  font-size: 1rem;
+}
+
+body[data-section="mental-health"] .quick-review ol {
+  margin: 0;
+  padding-left: 1.35rem;
+}
+
+body[data-section="mental-health"] .quick-review li {
+  margin-bottom: 0.3rem;
+  padding-left: 0.25rem;
+}
+
+body[data-section="mental-health"] .quick-review li::marker {
+  font-weight: 800;
+  color: var(--mh-green-deep);
+}
+
+/* =========================================================
+   DO NOT MISS — pale blue card with star
+   ========================================================= */
+
+body[data-section="mental-health"] .do-not-miss {
+  background: var(--mh-blue-soft);
+  border: 1.5px solid var(--mh-blue-border);
+}
+
+body[data-section="mental-health"] .do-not-miss h3 {
+  color: var(--mh-blue-deep) !important;
+}
+
+body[data-section="mental-health"] .do-not-miss h3::before {
+  content: "🌟";
+  font-size: 1.05rem;
+}
+
+body[data-section="mental-health"] .do-not-miss li::marker {
+  color: var(--mh-blue);
+}
+
+/* =========================================================
+   TABLE CARD — white panel around a markdown table
+   ========================================================= */
+
+body[data-section="mental-health"] .mh-table-card {
+  background: var(--mh-card-bg);
+  border: 1.5px solid var(--mh-purple-border);
+  padding: 1.25rem 1.35rem;
+  overflow-x: auto;
+}
+
+body[data-section="mental-health"] .mh-table-card h3 {
+  font-size: 1.15rem !important;
+}
+
+body[data-section="mental-health"] .mh-table-card table {
+  margin: 0 !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+/* =========================================================
+   TABLES — rounded lavender style for all MH tables
+   ========================================================= */
+
+body[data-section="mental-health"] .main-content table {
+  border-collapse: separate !important;
+  border-spacing: 0 !important;
+  border-radius: 12px !important;
+  overflow: hidden !important;
+  border: 1px solid var(--mh-purple-border) !important;
+}
+
+body[data-section="mental-health"] .main-content th {
+  background: var(--mh-purple-soft) !important;
+  color: var(--mh-purple-deep) !important;
+  border: none !important;
+  border-bottom: 1.5px solid var(--mh-purple-border) !important;
+  font-weight: 800 !important;
+}
+
+body[data-section="mental-health"] .main-content td {
+  border: none !important;
+  border-bottom: 1px solid var(--mh-purple-border) !important;
+  background: var(--mh-card-bg) !important;
+  color: var(--mh-ink) !important;
+}
+
+body[data-section="mental-health"] .main-content tr:last-child td {
+  border-bottom: none !important;
+}
+
+body[data-section="mental-health"] .main-content td:first-child {
+  font-weight: 700 !important;
+}
+
+/* =========================================================
+   CHEER BANNER — motivational footer
+   ========================================================= */
+
+body[data-section="mental-health"] .cheer-banner {
+  background: var(--mh-purple-soft);
+  border: 1.5px solid var(--mh-purple-border);
+  text-align: center;
+  font-weight: 800;
+  font-size: 1.02rem;
+  color: var(--mh-ink);
+  padding: 1.35rem 1.5rem;
+}
+
+/* =========================================================
+   EXISTING CALLOUTS — restyle .note/.warning/.tip/.nclex
+   on Mental Health pages to match the card look
+   ========================================================= */
+
+body[data-section="mental-health"] .main-content .note,
+body[data-section="mental-health"] .main-content .warning,
+body[data-section="mental-health"] .main-content .tip,
+body[data-section="mental-health"] .main-content .nclex {
+  border-radius: 16px !important;
+  border-width: 1.5px !important;
+  border-style: solid !important;
+  padding: 1rem 1.25rem !important;
+  margin: 1.25rem 0 !important;
+  box-shadow: 0 1px 4px rgba(34, 28, 80, 0.06) !important;
+  font-size: 0.95rem !important;
+  line-height: 1.65 !important;
+  color: var(--mh-ink) !important;
+}
+
+body[data-section="mental-health"] .main-content .note::before,
+body[data-section="mental-health"] .main-content .warning::before,
+body[data-section="mental-health"] .main-content .tip::before,
+body[data-section="mental-health"] .main-content .nclex::before {
+  display: block !important;
+  font-size: 0.72rem !important;
+  font-weight: 900 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 1px !important;
+  background: none !important;
+  padding: 0 !important;
+  margin: 0 0 0.35rem !important;
+}
+
+body[data-section="mental-health"] .main-content .note {
+  background: var(--mh-blue-soft) !important;
+  border-color: var(--mh-blue-border) !important;
+}
+body[data-section="mental-health"] .main-content .note::before {
+  content: "📘 Note" !important;
+  color: var(--mh-blue-deep) !important;
+}
+
+body[data-section="mental-health"] .main-content .warning {
+  background: var(--mh-red-soft) !important;
+  border-color: var(--mh-red-border) !important;
+}
+body[data-section="mental-health"] .main-content .warning::before {
+  content: "⚠️ Do Not Miss" !important;
+  color: var(--mh-red-deep) !important;
+}
+
+body[data-section="mental-health"] .main-content .tip,
+body[data-section="mental-health"] .main-content .nclex {
+  background: var(--mh-amber-soft) !important;
+  border-color: var(--mh-amber-border) !important;
+}
+body[data-section="mental-health"] .main-content .tip::before,
+body[data-section="mental-health"] .main-content .nclex::before {
+  content: "💡 NCLEX Tip" !important;
+  color: var(--mh-amber-deep) !important;
+}
+
+body[data-section="mental-health"] .main-content .warning strong,
+body[data-section="mental-health"] .main-content .note strong,
+body[data-section="mental-health"] .main-content .tip strong,
+body[data-section="mental-health"] .main-content .nclex strong {
+  color: inherit !important;
+}
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
+@media (max-width: 640px) {
+  body[data-section="mental-health"] .main-content h1 {
+    font-size: 2rem !important;
+  }
+
+  body[data-section="mental-health"] .priority-focus {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
