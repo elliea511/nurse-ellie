@@ -144,9 +144,52 @@ To add a button at the bottom of a card, put this before the card's closing `</d
       <li>Benzodiazepines (short-term only)</li>
       <li>Buspirone</li>
     </ul>
-    <a class="mh-btn" href="#7-quick-review-mint-numbered-list">View Meds</a>
+    <a class="mh-btn" href="#panel-meds-demo">View Meds</a>
   </div>
 </div>
+
+---
+
+## 3b. Make a card button expand content (same page)
+
+To make a card button reveal more content **on the same page** when clicked, give the button an `href="#some-id"` and add a matching `<div class="mh-detail" id="some-id">` panel lower down. Clicking the button opens that panel (and clicking it again, or the ✕, closes it). Only one panel is open at a time.
+
+Try it — click **View Meds** on the green card above:
+
+<div class="mh-detail green" id="panel-meds-demo" markdown="1">
+<a class="mh-detail-close" href="#">✕</a>
+
+### Medications — Detail
+
+- **SSRIs** — first-line; take a few weeks; monitor early suicide risk.
+- **Benzodiazepines** — fast relief, short-term only; sedation and fall risk.
+- **Buspirone** — long-term; no dependence; not for acute panic.
+
+</div>
+
+The rules:
+
+- The button's `href` (`#panel-meds-demo`) must match the panel's `id` (`panel-meds-demo`) exactly.
+- Give the panel the same color class as its card (`purple`, `pink`, `blue`, `green`) so the heading and border match.
+- Keep `markdown="1"` on the panel so the list/headings inside render.
+- The `<a class="mh-detail-close" href="#">✕</a>` line is an optional close button — leave it in.
+
+```
+<a class="mh-btn" href="#panel-interventions">See Interventions</a>
+
+<!-- ...place this panel anywhere lower on the page... -->
+
+<div class="mh-detail blue" id="panel-interventions" markdown="1">
+<a class="mh-detail-close" href="#">✕</a>
+
+### Nursing Interventions — Detail
+
+- Assess anxiety level before choosing an approach.
+- During panic: stay, reduce stimuli, use short directions.
+- Teach coping skills only once anxiety has decreased.
+
+</div>
+```
 
 ---
 
