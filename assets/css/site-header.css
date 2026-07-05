@@ -1,17 +1,16 @@
 /* =========================================================
    SITE TOP BAR for note pages (default layout)
-   Mirrors the homepage brand bar (.prototype-topbar in
-   prototype.css) so the top of the notes matches the home
-   page. Self-contained: colors, fonts, dark mode, print.
+   The banner is the sole navigation: brand + thin search +
+   simple section links (no sidebar). Self-contained: colors,
+   fonts, dark mode, print.
    ========================================================= */
 
 .prototype-topbar {
-  min-height: 84px;
-  padding: 16px max(5vw, 40px) 16px max(10vw, 150px);
+  min-height: 78px;
+  padding: 12px max(2.5vw, 22px);
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 32px;
+  gap: 16px;
   background: rgba(255, 254, 253, 0.9) !important;
   border-bottom: 1px solid #e7e3ed !important;
   -webkit-backdrop-filter: blur(16px);
@@ -25,6 +24,7 @@
   display: inline-flex;
   align-items: center;
   gap: 12px;
+  flex: 0 0 auto;
   color: #172044 !important;
   text-decoration: none !important;
 }
@@ -58,26 +58,94 @@
   margin-top: 2px;
 }
 
-.prototype-topbar nav { display: flex; align-items: center; gap: 8px; }
-.prototype-topbar nav a {
+/* =========================================================
+   THIN SEARCH BAR (reuses #site-search / #search-results,
+   so assets/js/search.js works unchanged)
+   ========================================================= */
+
+.prototype-topbar .banner-search {
+  position: relative;
+  flex: 0 1 210px;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.prototype-topbar .banner-search input {
+  width: 100% !important;
+  padding: 8px 14px !important;
+  border-radius: 999px !important;
+  border: 1.5px solid #e7e3ed !important;
+  font-family: "Plus Jakarta Sans", "Nunito", sans-serif !important;
+  font-size: 0.82rem !important;
+  background: #ffffff !important;
+  color: #172044 !important;
+  outline: none !important;
+  box-shadow: 0 1px 6px rgba(60, 42, 94, 0.05) !important;
+  box-sizing: border-box !important;
+  transition: border-color 0.15s !important;
+}
+.prototype-topbar .banner-search input:focus {
+  border-color: #f36f9a !important;
+  box-shadow: 0 0 0 3px rgba(243, 111, 154, 0.14) !important;
+}
+
+/* The results dropdown itself is styled globally in style.scss
+   (.search-results); it positions under .banner-search here. */
+
+/* =========================================================
+   SECTION LINKS (pushed to the right of the bar)
+   ========================================================= */
+
+.prototype-topbar .banner-nav {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  margin-left: auto;
+  justify-content: flex-end;
+}
+.prototype-topbar .banner-nav a {
   font-family: "Plus Jakarta Sans", "Nunito", sans-serif;
   color: #172044 !important;
   text-decoration: none !important;
-  font-size: 0.83rem;
+  font-size: 0.8rem;
   font-weight: 600;
-  padding: 10px 15px;
+  padding: 8px 10px;
   border-radius: 999px;
+  white-space: nowrap;
 }
-.prototype-topbar nav a:hover { background: #f1ebfb; }
-.prototype-topbar nav .nav-featured {
+.prototype-topbar .banner-nav a:hover { background: #f1ebfb; }
+.prototype-topbar .banner-nav .nav-featured {
   background: linear-gradient(135deg, #f36f9a, #ee6291);
   color: #ffffff !important;
   box-shadow: 0 8px 18px rgba(243, 111, 154, 0.22);
 }
-.prototype-topbar nav .nav-featured:hover { background: linear-gradient(135deg, #ee6291, #e5537f); }
+.prototype-topbar .banner-nav .nav-featured:hover { background: linear-gradient(135deg, #ee6291, #e5537f); }
 
 /* =========================================================
-   DARK MODE — note pages support a dark theme
+   MOBILE MENU TOGGLE (checkbox hack, hidden on desktop)
+   ========================================================= */
+
+.banner-menu-checkbox { display: none; }
+
+.banner-menu-button {
+  display: none;
+  align-items: center;
+  gap: 6px;
+  margin-left: auto;
+  padding: 8px 14px;
+  border-radius: 999px;
+  border: 1px solid #e7e3ed;
+  background: #ffffff;
+  color: #172044;
+  font-family: "Plus Jakarta Sans", "Nunito", sans-serif;
+  font-size: 0.82rem;
+  font-weight: 700;
+  cursor: pointer;
+  user-select: none;
+}
+
+/* =========================================================
+   DARK MODE
    ========================================================= */
 
 [data-theme="dark"] .prototype-topbar {
@@ -86,28 +154,60 @@
 }
 [data-theme="dark"] .prototype-brand,
 [data-theme="dark"] .prototype-brand strong { color: #e4e6f0 !important; }
-[data-theme="dark"] .prototype-topbar nav a { color: #e4e6f0 !important; }
-[data-theme="dark"] .prototype-topbar nav a:hover { background: #2c2547; }
+[data-theme="dark"] .prototype-topbar .banner-nav a { color: #e4e6f0 !important; }
+[data-theme="dark"] .prototype-topbar .banner-nav a:hover { background: #2c2547; }
+[data-theme="dark"] .prototype-topbar .banner-search input {
+  background: #1a1a2a !important;
+  border-color: #2e2e42 !important;
+  color: #e4e6f0 !important;
+}
+[data-theme="dark"] .banner-menu-button {
+  background: #1a1a2a;
+  border-color: #2e2e42;
+  color: #e4e6f0;
+}
 
 /* =========================================================
-   MOBILE — collapse nav, leave room for the Study Menu button
+   RESPONSIVE — collapse section links into the Menu dropdown
    ========================================================= */
 
 @media (max-width: 900px) {
-  .prototype-topbar { padding-left: 150px; }
+  .prototype-topbar { flex-wrap: wrap; gap: 12px; }
+
+  .banner-menu-button { display: inline-flex; }
+
+  .prototype-topbar .banner-search {
+    order: 3;
+    flex: 1 1 100%;
+  }
+
+  /* Collapsed by default; shown when the checkbox is checked */
+  .prototype-topbar .banner-nav {
+    order: 4;
+    flex: 1 1 100%;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 2px;
+    margin-left: 0;
+    display: none;
+    padding-top: 6px;
+    border-top: 1px solid #e7e3ed;
+  }
+  .banner-menu-checkbox:checked ~ .prototype-topbar .banner-nav { display: flex; }
+
+  .prototype-topbar .banner-nav a {
+    padding: 11px 12px;
+    font-size: 0.9rem;
+  }
+  .prototype-topbar .banner-nav .nav-featured { text-align: center; }
+
+  [data-theme="dark"] .prototype-topbar .banner-nav { border-top-color: #2e2e42; }
 }
 
 @media (max-width: 640px) {
-  .prototype-topbar {
-    min-height: 68px;
-    padding: 10px 12px 10px 150px;
-    gap: 12px;
-  }
-  .prototype-brand strong { font-size: 0.8rem; }
   .prototype-brand small { display: none; }
+  .prototype-brand strong { font-size: 0.82rem; }
   .prototype-brand .brand-mark { width: 34px; height: 34px; font-size: 21px; }
-  .prototype-topbar nav a:not(.nav-featured) { display: none; }
-  .prototype-topbar nav .nav-featured { padding: 8px 12px; font-size: 0.75rem; }
 }
 
 /* =========================================================

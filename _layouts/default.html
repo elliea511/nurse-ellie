@@ -16,27 +16,33 @@
 </head>
 
 <body data-section="{{ page.url | split: '/' | slice: 1, 1 | join: '' | split: '.' | first }}" data-page-type="{{ page.page_type | default: '' }}">
+  <input type="checkbox" id="banner-menu-toggle" class="banner-menu-checkbox">
   <header class="prototype-topbar">
     <a class="prototype-brand" href="{{ '/' | relative_url }}" aria-label="Ellie's Nursing Notes home">
       <span class="brand-mark">♡</span>
       <span><strong>Ellie's Nursing Notes</strong><small>Learn clearly. Care confidently.</small></span>
     </a>
-    <nav aria-label="Primary navigation">
+
+    <div class="sidebar-search banner-search">
+      <input type="text" id="site-search" placeholder="Search notes…" autocomplete="off" spellcheck="false">
+      <div id="search-results" class="search-results"></div>
+    </div>
+
+    <label for="banner-menu-toggle" class="banner-menu-button" aria-label="Toggle navigation menu">☰ <span>Menu</span></label>
+
+    <nav class="banner-nav" aria-label="Primary navigation">
       <a href="{{ '/' | relative_url }}">Home</a>
-      <a href="{{ '/all-topics.html' | relative_url }}">All Notes</a>
-      <a href="{{ '/medical-emergencies/practice-quiz.html' | relative_url }}">Practice</a>
-      <a href="{{ '/medical-emergencies/medications.html' | relative_url }}">Medications</a>
-      <a class="nav-featured" href="{{ '/review.html' | relative_url }}">Quick Review</a>
+      <a href="{{ '/all-topics.html' | relative_url }}">All Topics</a>
+      <a href="{{ '/maternity.html' | relative_url }}">Maternity</a>
+      <a href="{{ '/mental-health.html' | relative_url }}">Mental Health</a>
+      <a href="{{ '/medical-emergencies.html' | relative_url }}">Medical Emergencies</a>
+      <a href="{{ '/hematology-oncology.html' | relative_url }}">Heme / Onc</a>
+      <a href="{{ '/ati/' | relative_url }}">ATI</a>
+      <a class="nav-featured" href="{{ '/review.html' | relative_url }}">My Notes</a>
     </nav>
   </header>
-  
-<input type="checkbox" id="sidebar-toggle" class="sidebar-toggle-checkbox">
-<label for="sidebar-toggle" class="sidebar-toggle-button">Study Menu</label>
-<label for="sidebar-toggle" class="sidebar-overlay"></label>
-  
-  <div class="page-wrapper">
-    {% include sidebar.html %}
 
+  <div class="page-wrapper">
     <main class="main-content">
       {{ content }}
     </main>
