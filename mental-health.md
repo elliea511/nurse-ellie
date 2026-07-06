@@ -72,5 +72,24 @@ page_type: mental-health-hub
       <a href="{{ '/mental-health/crisis-safety.html' | relative_url }}"><span>!</span><strong>Crisis &amp; Safety Priorities</strong></a>
     </nav>
     </div>
+
+    <aside class="mh-hub-guide">
+      <div class="mh-guide-icon" aria-hidden="true"><img src="{{ '/assets/images/mental-health-brain.png' | relative_url }}" alt="" data-no-lb></div>
+      <h2>Select a topic<br>to open notes</h2>
+      <div class="mh-guide-rule"></div>
+      <p>Study resources include:</p>
+      <ul>
+        <li>Overview &amp; key concepts</li>
+        <li>Assessment &amp; nursing priorities</li>
+        <li>Safety interventions</li>
+        <li>Patient education</li>
+        <li>NCLEX tips &amp; memory cues</li>
+      </ul>
+      <a class="mh-nclex-link" href="{{ '/mental-health/nclex-cues.html' | relative_url }}">
+        <span aria-hidden="true">✓</span>
+        <span><strong>NCLEX Quick Cues</strong><small>Mnemonics &amp; priority rules</small></span>
+      </a>
+      <div class="mh-guide-tip"><span aria-hidden="true">💡</span> Pick any topic around the brain to get started.</div>
+    </aside>
   </div>
 </section>
