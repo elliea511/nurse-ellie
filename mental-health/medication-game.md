@@ -86,4 +86,5 @@ page_type: mental-health-med-game
 </dialog>
 
 <noscript><p class="warning">Mind Med Match needs JavaScript enabled to play.</p></noscript>
+<script src="{{ '/assets/js/med-match-data.js' | relative_url }}" defer></script>
 <script src="{{ '/assets/js/med-match.js' | relative_url }}" defer></script>
