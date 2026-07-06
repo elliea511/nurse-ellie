@@ -1,7 +1,7 @@
 (() => {
   "use strict";
 
-  const medications = [
+  const fallbackMedications = [
     { medication: "Citalopram / Escitalopram", category: "Antidepressant", class: "SSRI", usedFor: "Depression and anxiety", keySideEffect: "GI upset, headache, sexual dysfunction", monitor: "Mood changes, suicidal thoughts, serotonin syndrome symptoms", patientTeaching: "Takes several weeks to work; do not stop suddenly", nclexCue: "SSRIs are not immediate. New suicidal thoughts, severe agitation, sweating, fever, confusion, or tremors are priority concerns." },
     { medication: "Fluoxetine", category: "Antidepressant", class: "SSRI", usedFor: "Depression, anxiety, OCD", keySideEffect: "GI upset, insomnia, sexual dysfunction", monitor: "Mood changes, suicidal thoughts, serotonin syndrome symptoms", patientTeaching: "Takes several weeks to work; do not stop suddenly", nclexCue: "New agitation, sweating, fever, confusion, or tremors may indicate serotonin syndrome." },
     { medication: "Sertraline", category: "Antidepressant", class: "SSRI", usedFor: "Depression, anxiety, PTSD", keySideEffect: "GI upset, sexual dysfunction", monitor: "Mood changes, suicidal thoughts, serotonin syndrome symptoms", patientTeaching: "Take consistently every day; effects are not immediate", nclexCue: "Worsening depression or suicidal thoughts after starting medication is priority." },
@@ -25,6 +25,8 @@
     { medication: "Benztropine", category: "EPS treatment medication", class: "Anticholinergic", usedFor: "Extrapyramidal symptoms caused by antipsychotics", keySideEffect: "Dry mouth, constipation, urinary retention, blurred vision", monitor: "Urinary retention, bowel function, confusion, overheating", patientTeaching: "Increase fluids and fiber if allowed; report trouble urinating", nclexCue: "This medication may be used when an antipsychotic causes tremors, stiffness, or abnormal movements." }
   ];
 
+  const medications = Array.isArray(window.mentalHealthMedications) ? window.mentalHealthMedications : fallbackMedications;
+
   const root = document.getElementById("mind-med-match");
   if (!root) return;
 
@@ -46,7 +48,7 @@
     { id: "mood", label: "Mood stabilizers", icon: "⚡", matches: (med) => med.category.includes("Mood") },
     { id: "anxiety", label: "Anxiety & sedatives", icon: "🌿", matches: (med) => /Anxiolytic|Sedative/.test(med.category) },
     { id: "substance", label: "Substance use", icon: "🚑", matches: (med) => med.category.includes("Substance") },
-    { id: "eating", label: "Eating & weight", icon: "♡", matches: (med) => /Eating|Weight/.test(med.category) },
+    { id: "eating", label: "Eating & weight", icon: "♡", matches: (med) => /Eating|Weight/i.test(`${med.category} ${med.usedFor}`) },
     { id: "cognition", label: "Cognition & EPS", icon: "🧩", matches: (med) => /Cognitive|EPS/.test(med.category) }
   ];
 
