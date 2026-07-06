@@ -46,14 +46,16 @@ body[data-section="mental-health"] {
    ========================================================= */
 
 body[data-page-type="mental-health-hub"] .page-wrapper {
-  width: 100%;
-  max-width: none;
-  padding: 0;
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 body[data-page-type="mental-health-hub"] .main-content {
-  max-width: none;
-  padding: 2.25rem 0 3rem;
+  max-width: 100% !important;
+  width: 100% !important;
+  padding: 2.25rem 0 3rem !important;
   border-radius: 0 !important;
   box-shadow: none !important;
   margin: 0 !important;
