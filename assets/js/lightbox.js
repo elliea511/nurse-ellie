@@ -98,6 +98,7 @@
     var imgs = document.querySelectorAll('.main-content img, .home-fullpage img');
     imgs.forEach(function (el) {
       if (el.dataset.lbWired) return;
+      if (el.dataset.noLb !== undefined || el.closest('[data-no-lb]')) return;
       el.dataset.lbWired = '1';
       el.style.cursor = 'zoom-in';
       el.addEventListener('click', function () {

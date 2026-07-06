@@ -6,7 +6,7 @@ page_type: mental-health-hub
 
 <section class="mh-hub" aria-labelledby="mh-hub-title">
   <header class="mh-hub-header">
-    <div class="mh-hub-brandmark" aria-hidden="true"><img src="{{ '/assets/images/mental-health-brain.png' | relative_url }}" alt=""></div>
+    <div class="mh-hub-brandmark" aria-hidden="true"><img src="{{ '/assets/images/mental-health-brain.png' | relative_url }}" alt="" data-no-lb></div>
     <div>
       <h1 id="mh-hub-title">Mental Health Study Hub</h1>
       <p>Your simple hub for mental health nursing.</p>
@@ -36,7 +36,7 @@ page_type: mental-health-hub
       </svg>
 
       <div class="mh-brain-center" aria-hidden="true">
-        <img src="{{ '/assets/images/mental-health-brain.png' | relative_url }}" alt="">
+        <img src="{{ '/assets/images/mental-health-brain.png' | relative_url }}" alt="" data-no-lb>
       </div>
 
       <a class="mh-topic-card mh-topic-2" href="{{ '/mental-health/therapeutic-communication.html' | relative_url }}">
@@ -72,24 +72,5 @@ page_type: mental-health-hub
       <a href="{{ '/mental-health/crisis-safety.html' | relative_url }}"><span>!</span><strong>Crisis &amp; Safety Priorities</strong></a>
     </nav>
     </div>
-
-    <aside class="mh-hub-guide">
-      <div class="mh-guide-icon" aria-hidden="true"><img src="{{ '/assets/images/mental-health-brain.png' | relative_url }}" alt=""></div>
-      <h2>Select a topic<br>to open notes</h2>
-      <div class="mh-guide-rule"></div>
-      <p>Study resources include:</p>
-      <ul>
-        <li>Overview &amp; key concepts</li>
-        <li>Assessment &amp; nursing priorities</li>
-        <li>Safety interventions</li>
-        <li>Patient education</li>
-        <li>NCLEX tips &amp; memory cues</li>
-      </ul>
-      <a class="mh-nclex-link" href="{{ '/mental-health/nclex-cues.html' | relative_url }}">
-        <span aria-hidden="true">✓</span>
-        <span><strong>NCLEX Quick Cues</strong><small>Mnemonics &amp; priority rules</small></span>
-      </a>
-      <div class="mh-guide-tip"><span aria-hidden="true">💡</span> Pick any topic around the brain to get started.</div>
-    </aside>
   </div>
 </section>

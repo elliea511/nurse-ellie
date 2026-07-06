@@ -94,7 +94,7 @@ body[data-page-type="mental-health-hub"] .main-content {
 
 .mh-hub-layout {
   display: grid;
-  grid-template-columns: minmax(720px, 1fr) 320px;
+  grid-template-columns: 1fr;
   gap: 2.2rem;
   align-items: stretch;
 }
