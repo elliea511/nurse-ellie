@@ -10,260 +10,511 @@ title: Mental Health Basics
 
 # Mental Health Basics
 
-<p class="mh-subtitle">Foundation review for psych nursing</p>
+<p class="mh-subtitle">ATI-style review for therapeutic communication, safety, assessment, boundaries, documentation, and priority nursing care</p>
 
-Mental health nursing focuses on **safety, assessment, trust, boundaries, coping, and helping the patient function as safely as possible.**
+Mental health nursing focuses on **safety, trust, therapeutic communication, boundaries, coping, medication support, and helping the patient function as safely and independently as possible.** NCLEX questions usually test what the nurse should **say, assess, report, or do first.**
 
 <div class="priority-focus">
   <div>
     <h3>Priority Focus</h3>
-    Safety • Mental Status Assessment • Boundaries • Coping • Least Restrictive Care
+    Safety • Therapeutic Communication • Boundaries • Assessment • Coping • Support System • Objective Documentation
   </div>
 </div>
 
 <div class="mh-cards">
   <div class="mh-card purple">
-    <div class="mh-card-icon">🛡️</div>
-    <h3>Safety First</h3>
-    <p>Always assess risk for self-harm, suicide, violence, abuse, withdrawal, or inability to care for self.</p>
-    <a class="mh-btn" href="#panel-safety">Safety Cues</a>
-  </div>
-
-  <div class="mh-card pink">
-    <div class="mh-card-icon">🧠</div>
-    <h3>Mental Status</h3>
-    <p>Assess how the patient thinks, feels, behaves, communicates, and perceives reality.</p>
-    <a class="mh-btn" href="#panel-mse">MSE Review</a>
+    <div class="mh-card-icon">💬</div>
+    <h3>Therapeutic Communication</h3>
+    <p>Silence, active listening, clarifying, open-ended questions, and patient-centered responses.</p>
+    <a class="mh-btn" href="#panel-therapeutic-communication">Study Communication</a>
   </div>
 
   <div class="mh-card blue">
-    <div class="mh-card-icon">🤝</div>
-    <h3>Therapeutic Care</h3>
-    <p>Use trust, consistency, calm communication, clear limits, and least restrictive interventions.</p>
-    <a class="mh-btn" href="#panel-therapeutic-care">Care Basics</a>
+    <div class="mh-card-icon">🛟</div>
+    <h3>Safety First</h3>
+    <p>Suicide risk, self-harm, harm to others, psychosis, abuse, withdrawal, and unsafe behavior.</p>
+    <a class="mh-btn" href="#panel-safety">Study Safety</a>
+  </div>
+
+  <div class="mh-card pink">
+    <div class="mh-card-icon">🧭</div>
+    <h3>Assessment Basics</h3>
+    <p>Mood, affect, thought process, perception, behavior, coping, support, and risk assessment.</p>
+    <a class="mh-btn" href="#panel-assessment">Study Assessment</a>
   </div>
 
   <div class="mh-card green">
-    <div class="mh-card-icon">💊</div>
-    <h3>Medication Safety</h3>
-    <p>Watch for suicide risk, sedation, toxicity, EPS/NMS, withdrawal, and medication emergencies.</p>
-    <a class="mh-btn" href="#panel-med-safety">Med Safety</a>
+    <div class="mh-card-icon">📋</div>
+    <h3>Boundaries + Documentation</h3>
+    <p>Professional limits, objective charting, patient statements, consistency, and team communication.</p>
+    <a class="mh-btn" href="#panel-boundaries">Study Boundaries</a>
   </div>
 </div>
 
-<div class="mh-detail purple" id="panel-safety" markdown="1">
+<div class="mh-detail purple" id="panel-therapeutic-communication" markdown="1">
 <a class="mh-detail-close" href="#">✕</a>
 
-### Safety Cues
+### Therapeutic Communication
 
 <div class="detail-grid" markdown="1">
 
 <div class="detail-mini-card" markdown="1">
-<strong>Assess First</strong>
+<strong>What It Is</strong>
 
-- Suicide risk
-- Homicide risk
-- Self-harm
-- Violence or abuse
+- Communication that helps the patient feel heard, safe, and respected.
+- Focuses on the patient’s feelings, needs, safety, and coping.
+- Uses empathy without judgment.
+- Encourages the patient to talk more.
+- Avoids giving false reassurance or personal opinions.
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Core Techniques</strong>
+
+- Silence
+- Active listening
+- Clarifying
+- Open-ended questions
+- Restating
+- Reflecting feelings
+- Offering self
+- Presenting reality
+- Summarizing
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Nontherapeutic Responses</strong>
+
+- Giving advice
+- Asking “why”
+- False reassurance
+- Changing the subject
+- Minimizing feelings
+- Arguing
+- Judging
+- Defending staff/family
+- Giving approval or disapproval
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Patient Education</strong>
+
+- Encourage the patient to name feelings.
+- Encourage use of coping skills.
+- Encourage asking for help before symptoms escalate.
+- Teach that communication is part of safety.
+- Reinforce that staff are there to help, not judge.
+</div>
+
+</div>
+
+<div class="detail-table">
+  <table>
+    <thead>
+      <tr>
+        <th>Technique</th>
+        <th>What It Means</th>
+        <th>Example Nurse Response</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Silence</strong></td>
+        <td>Allows patient time to think and continue talking.</td>
+        <td>Sit quietly and allow the patient to speak when ready.</td>
+      </tr>
+      <tr>
+        <td><strong>Active Listening</strong></td>
+        <td>Shows attention through body language, eye contact, and responses.</td>
+        <td>“I’m listening. Tell me more about that.”</td>
+      </tr>
+      <tr>
+        <td><strong>Clarifying</strong></td>
+        <td>Checks understanding when something is unclear.</td>
+        <td>“When you say you feel unsafe, what do you mean?”</td>
+      </tr>
+      <tr>
+        <td><strong>Open-Ended Questions</strong></td>
+        <td>Encourages more than yes/no answers.</td>
+        <td>“What has been hardest for you today?”</td>
+      </tr>
+      <tr>
+        <td><strong>Restating</strong></td>
+        <td>Repeats the patient’s main idea.</td>
+        <td>“You feel like no one is listening to you.”</td>
+      </tr>
+      <tr>
+        <td><strong>Reflecting Feelings</strong></td>
+        <td>Helps the patient identify emotions.</td>
+        <td>“That sounds really frightening.”</td>
+      </tr>
+      <tr>
+        <td><strong>Presenting Reality</strong></td>
+        <td>States reality without arguing.</td>
+        <td>“I do not hear the voices, but I understand they are upsetting to you.”</td>
+      </tr>
+      <tr>
+        <td><strong>Offering Self</strong></td>
+        <td>Shows availability and support.</td>
+        <td>“I can sit with you for a few minutes.”</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="detail-callout" markdown="1">
+<strong>NCLEX:</strong> The best communication answer usually keeps the focus on the patient’s feelings and safety. Avoid advice, judgment, and false reassurance.
+</div>
+
+</div>
+
+<div class="mh-detail blue" id="panel-safety" markdown="1">
+<a class="mh-detail-close" href="#">✕</a>
+
+### Safety First
+
+<div class="detail-grid" markdown="1">
+
+<div class="detail-mini-card" markdown="1">
+<strong>Always Assess Safety With</strong>
+
+- Suicidal thoughts
+- Self-harm behavior
+- Homicidal thoughts
+- Command hallucinations
+- Severe psychosis
+- Severe mania
 - Severe withdrawal
-- Inability to care for self safely
+- Abuse or neglect concerns
+- Severe eating disorder instability
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Ask Directly</strong>
+
+- “Are you thinking about hurting yourself?”
+- “Do you have a plan?”
+- “Do you have access to what you would use?”
+- “Have you tried to hurt yourself before?”
+- “Are the voices telling you to hurt yourself or someone else?”
+- “Do you feel safe at home?”
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Immediate Safety Actions</strong>
+
+- Stay with patient if high risk.
+- Remove harmful objects.
+- Follow observation level orders.
+- Notify charge nurse/provider.
+- Document objectively.
+- Use calm, short directions.
+- Decrease stimulation if escalating.
+- Follow facility policy.
 </div>
 
 <div class="detail-mini-card" markdown="1">
 <strong>Report Immediately</strong>
 
-- Suicidal ideation with plan or intent
-- Homicidal threats
+- Suicide plan/intent/means
+- Threats to others
 - Command hallucinations
-- Escalating aggression
+- Severe agitation or violence risk
+- Abuse of child/elder/vulnerable adult
 - Severe withdrawal symptoms
-- Abuse, neglect, or danger to self/others
+- Medication toxicity
+- Medical instability
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>NCLEX Priority</strong>
-
-- Safety comes before teaching.
-- Safety comes before coping skills.
-- Safety comes before discharge planning.
-- Use the least restrictive safe option.
 </div>
 
+<div class="detail-table">
+  <table>
+    <thead>
+      <tr>
+        <th>Situation</th>
+        <th>Priority Nursing Focus</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Depression</strong></td>
+        <td>Assess suicide risk directly.</td>
+      </tr>
+      <tr>
+        <td><strong>Mania</strong></td>
+        <td>Safety, low stimulation, sleep, food, fluids, limits.</td>
+      </tr>
+      <tr>
+        <td><strong>Panic</strong></td>
+        <td>Stay with patient, reduce stimuli, short directions.</td>
+      </tr>
+      <tr>
+        <td><strong>Psychosis</strong></td>
+        <td>Assess hallucinations/delusions for safety risk; do not argue.</td>
+      </tr>
+      <tr>
+        <td><strong>Substance withdrawal</strong></td>
+        <td>Watch for seizures, delirium, vital sign changes, respiratory problems.</td>
+      </tr>
+      <tr>
+        <td><strong>Eating disorder</strong></td>
+        <td>Medical stability, electrolytes, cardiac risk, nutrition.</td>
+      </tr>
+      <tr>
+        <td><strong>Abuse</strong></td>
+        <td>Private interview, safety assessment, mandatory reporting if child/elder.</td>
+      </tr>
+    </tbody>
+  </table>
 </div>
 
 <div class="detail-callout" markdown="1">
-<strong>Think:</strong> Is anyone unsafe right now? If yes, safety is the first nursing priority.
+<strong>NCLEX:</strong> If the patient is unsafe, safety beats teaching, insight, coping, discharge planning, and therapeutic exploration.
 </div>
 
 </div>
 
-<div class="mh-detail pink" id="panel-mse" markdown="1">
+<div class="mh-detail pink" id="panel-assessment" markdown="1">
 <a class="mh-detail-close" href="#">✕</a>
 
-### Mental Status Assessment
+### Assessment Basics
+
+<div class="detail-table">
+  <table>
+    <thead>
+      <tr>
+        <th>Assessment Area</th>
+        <th>What the Nurse Looks For</th>
+        <th>Example</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Appearance</strong></td>
+        <td>Dress, hygiene, grooming, nutrition, eye contact.</td>
+        <td>Poor hygiene in depression; flamboyant dress in mania.</td>
+      </tr>
+      <tr>
+        <td><strong>Behavior</strong></td>
+        <td>Restless, withdrawn, agitated, cooperative, guarded, pacing.</td>
+        <td>Pacing in schizophrenia or mania.</td>
+      </tr>
+      <tr>
+        <td><strong>Mood</strong></td>
+        <td>Patient’s stated emotional state.</td>
+        <td>“I feel hopeless.”</td>
+      </tr>
+      <tr>
+        <td><strong>Affect</strong></td>
+        <td>Observable emotional expression.</td>
+        <td>Flat, blunted, labile, inappropriate.</td>
+      </tr>
+      <tr>
+        <td><strong>Thought Process</strong></td>
+        <td>How thoughts are organized.</td>
+        <td>Flight of ideas, loose associations, tangentiality.</td>
+      </tr>
+      <tr>
+        <td><strong>Thought Content</strong></td>
+        <td>What the patient is thinking about.</td>
+        <td>Delusions, suicidal thoughts, obsessions.</td>
+      </tr>
+      <tr>
+        <td><strong>Perception</strong></td>
+        <td>Hallucinations, illusions, depersonalization, derealization.</td>
+        <td>Hearing voices or seeing things others do not see.</td>
+      </tr>
+      <tr>
+        <td><strong>Cognition</strong></td>
+        <td>Orientation, memory, attention, concentration.</td>
+        <td>Poor concentration in depression or anxiety.</td>
+      </tr>
+      <tr>
+        <td><strong>Insight/Judgment</strong></td>
+        <td>Awareness of illness and ability to make safe decisions.</td>
+        <td>Manic patient spending money impulsively.</td>
+      </tr>
+      <tr>
+        <td><strong>Support/Coping</strong></td>
+        <td>How patient handles stress and who supports them.</td>
+        <td>Uses alcohol to cope with anxiety.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 <div class="detail-grid" markdown="1">
 
 <div class="detail-mini-card" markdown="1">
-<strong>Appearance + Behavior</strong>
+<strong>Subjective Data</strong>
 
-- Hygiene
-- Clothing
-- Posture
-- Grooming
-- Eye contact
-- Calm, restless, withdrawn, guarded, cooperative, aggressive
+- What the patient says.
+- Feelings, symptoms, concerns.
+- Pain, mood, thoughts.
+- Patient statements about safety.
+- Should be documented in quotes when important.
 </div>
 
 <div class="detail-mini-card" markdown="1">
-<strong>Speech + Mood</strong>
+<strong>Objective Data</strong>
 
-- Fast, slow, pressured, soft, loud, delayed, slurred
-- Mood = what the patient says they feel
-- Affect = what the nurse observes
+- What the nurse observes.
+- Behavior, appearance, speech, hygiene.
+- Vital signs.
+- Injuries.
+- Intake/output.
+- Sleep and activity.
+- Lab findings.
 </div>
 
 <div class="detail-mini-card" markdown="1">
-<strong>Thoughts + Perception</strong>
+<strong>Important Questions</strong>
 
-- Thought process = how thoughts are connected
-- Thought content = what the patient is thinking about
-- Perception = hallucinations, illusions, depersonalization, derealization
+- “What brought you here today?”
+- “What has changed recently?”
+- “Who supports you?”
+- “How do you cope when stressed?”
+- “Do you feel safe?”
+- “Are you having thoughts of harming yourself or others?”
 </div>
 
 <div class="detail-mini-card" markdown="1">
-<strong>Cognition + Safety</strong>
+<strong>Patient Education</strong>
 
-- Orientation
-- Attention
-- Memory
-- Concentration
-- Insight
-- Judgment
+- Encourage honesty about symptoms and safety.
+- Teach that asking about suicide does not “put the idea” in someone’s head.
+- Encourage reporting symptoms early.
+- Teach medication and therapy follow-up importance.
+- Encourage coping and support system use.
 </div>
 
 </div>
 
 <div class="detail-callout" markdown="1">
-<strong>NCLEX:</strong> Mood is reported by the patient. Affect is observed by the nurse.
+<strong>NCLEX:</strong> Mood is what the patient says they feel. Affect is what the nurse observes.
 </div>
 
 </div>
 
-<div class="mh-detail blue" id="panel-therapeutic-care" markdown="1">
+<div class="mh-detail green" id="panel-boundaries" markdown="1">
 <a class="mh-detail-close" href="#">✕</a>
 
-### Therapeutic Care Basics
+### Boundaries + Documentation
 
 <div class="detail-grid" markdown="1">
 
 <div class="detail-mini-card" markdown="1">
-<strong>Therapeutic Environment</strong>
+<strong>Therapeutic Boundaries</strong>
 
-- The unit structure is part of treatment.
-- Routines, groups, rules, and staff responses matter.
-- Consistency decreases anxiety and manipulation.
+- Be kind but professional.
+- Do not share excessive personal information.
+- Do not make promises you cannot keep.
+- Do not accept manipulation.
+- Do not argue or power struggle.
+- Set clear expectations.
+- Follow facility policy.
 </div>
 
 <div class="detail-mini-card" markdown="1">
-<strong>Boundaries</strong>
+<strong>Limit Setting</strong>
 
-- Be consistent.
-- Set clear limits.
-- Keep promises realistic.
-- Stay professional.
-- Do not promise secrecy.
-- Do not overshare personal information.
+- State the expected behavior.
+- State the limit clearly.
+- State the consequence if appropriate.
+- Follow through consistently.
+- Keep tone calm and neutral.
+- Use the same plan as the team.
 </div>
 
 <div class="detail-mini-card" markdown="1">
-<strong>Coping Support</strong>
+<strong>Documentation Basics</strong>
 
-- Assess stressors.
-- Assess support system.
-- Assess past coping methods.
-- Assess substance use.
-- Teach healthier coping when the patient can learn.
+- Chart objective observations.
+- Use patient quotes when relevant.
+- Avoid judgmental language.
+- Document safety assessments.
+- Document who was notified.
+- Document interventions and patient response.
+- Document education provided.
 </div>
 
 <div class="detail-mini-card" markdown="1">
-<strong>Least Restrictive Care</strong>
+<strong>Team Communication</strong>
 
-- Use the safest option with the least limitation.
-- Try de-escalation before restraints.
-- Restraints and seclusion are last resort.
+- Report safety concerns promptly.
+- Keep plan consistent.
+- Prevent staff splitting.
+- Share important behavior patterns.
+- Clarify observation level.
+- Communicate medication concerns.
+- Use one team approach.
 </div>
 
 </div>
 
-<div class="detail-callout" markdown="1">
-<strong>Do not promise secrecy</strong> if the patient reports suicide plans, homicide threats, abuse, or danger to self/others.
+<div class="detail-table">
+  <table>
+    <thead>
+      <tr>
+        <th>Instead of Charting...</th>
+        <th>Chart Objectively...</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Patient was crazy.</td>
+        <td>Patient pacing in hallway, speaking loudly, and stating, “People are trying to hurt me.”</td>
+      </tr>
+      <tr>
+        <td>Patient was manipulative.</td>
+        <td>Patient asked three staff members for the same restricted item after being told no.</td>
+      </tr>
+      <tr>
+        <td>Patient was attention-seeking.</td>
+        <td>Patient yelled at staff and stated, “No one cares about me.”</td>
+      </tr>
+      <tr>
+        <td>Patient was noncompliant.</td>
+        <td>Patient refused scheduled medication and stated, “I do not want to take that.”</td>
+      </tr>
+      <tr>
+        <td>Patient was aggressive.</td>
+        <td>Patient clenched fists, moved toward staff, and shouted threats.</td>
+      </tr>
+    </tbody>
+  </table>
 </div>
-
-</div>
-
-<div class="mh-detail green" id="panel-med-safety" markdown="1">
-<a class="mh-detail-close" href="#">✕</a>
-
-### Medication Safety
 
 <div class="detail-grid" markdown="1">
 
 <div class="detail-mini-card" markdown="1">
-<strong>Antidepressants</strong>
+<strong>Patient Education</strong>
 
-- Suicide risk may increase early in treatment.
-- Teach that full effect can take time.
-- Monitor for worsening mood or suicidal thoughts.
+- Unit rules apply to everyone.
+- Staff will be consistent.
+- Limits are for safety, not punishment.
+- Communication should be respectful.
+- Ask for help before behavior escalates.
+- Use coping skills and support people.
 </div>
 
 <div class="detail-mini-card" markdown="1">
-<strong>Benzodiazepines</strong>
+<strong>Complications / Safety Risks</strong>
 
-- Sedation
-- Fall risk
-- Dependence
-- Respiratory depression with overdose
-- Avoid alcohol/CNS depressants
-</div>
-
-<div class="detail-mini-card" markdown="1">
-<strong>Mood Stabilizers</strong>
-
-- Watch for toxicity.
-- Lab monitoring may be required.
-- Lithium toxicity: GI upset, tremor, confusion, ataxia, seizures.
-</div>
-
-<div class="detail-mini-card" markdown="1">
-<strong>Antipsychotics</strong>
-
-- EPS
-- Tardive dyskinesia
-- Neuroleptic malignant syndrome
-- Metabolic effects
-</div>
-
-<div class="detail-mini-card" markdown="1">
-<strong>Stimulants</strong>
-
-- Appetite loss
-- Insomnia
-- Increased HR/BP
-</div>
-
-<div class="detail-mini-card" markdown="1">
-<strong>Substance-Use Meds</strong>
-
-- Withdrawal safety
-- Overdose reversal
-- Relapse prevention
+- Staff splitting
+- Manipulation
+- Escalation of unsafe behavior
+- Poor documentation
+- Missed safety cues
+- Broken trust
+- Boundary violations
 </div>
 
 </div>
 
 <div class="detail-callout" markdown="1">
-<strong>Emergency cues:</strong> serotonin syndrome, NMS, lithium toxicity, benzodiazepine overdose, and alcohol withdrawal/DTs need priority action.
+<strong>NCLEX:</strong> Document what you see and hear, not labels or opinions.
 </div>
 
 </div>
@@ -271,14 +522,15 @@ Mental health nursing focuses on **safety, assessment, trust, boundaries, coping
 <div class="mh-columns wide-left" markdown="1">
 
 <div class="key-findings" markdown="1">
-<h3>📋 Psych Nursing Big Picture</h3>
+<h3>📋 Mental Health Basics Big Picture</h3>
 
-- **Safety first:** always assess risk of harm.
-- **Therapeutic environment:** the unit structure and staff interactions are part of treatment.
-- **Mental status assessment:** assess thinking, mood, behavior, and perception.
-- **Boundaries:** keep care professional, consistent, and safe.
-- **Least restrictive care:** use the safest intervention that limits freedom the least.
-- **Coping support:** help the patient recognize triggers and use healthier coping skills.
+- Safety is always the first priority when risk is present.
+- Therapeutic communication focuses on the patient’s feelings, needs, and safety.
+- Silence, active listening, clarifying, and questions are core communication tools.
+- Mood is subjective; affect is objective.
+- Document behavior objectively, not with judgmental labels.
+- Boundaries must be calm, clear, and consistent.
+- The treatment team should respond as one team.
 </div>
 
 <div class="mh-col" markdown="1">
@@ -286,444 +538,23 @@ Mental health nursing focuses on **safety, assessment, trust, boundaries, coping
 <div class="report-now" markdown="1">
 <h3>Report Immediately</h3>
 
-- Suicidal ideation with plan or intent
-- Homicidal ideation or threats
+- Suicidal ideation with plan, means, or intent
+- Threats to harm others
 - Command hallucinations
+- Severe agitation or escalating aggression
+- Abuse of child, elder, or vulnerable adult
 - Severe withdrawal symptoms
-- Escalating aggression
-- Inability to meet basic needs safely
-- Abuse, neglect, or danger to self/others
+- Medication toxicity or serious adverse effects
+- Medical instability
 </div>
 
 <div class="nclex-tip" markdown="1">
 <h3>NCLEX Tip</h3>
 
-If the patient or someone else is unsafe, **safety comes before teaching, coping, discharge planning, or long-term therapy.**
+When stuck between answers, choose the one that keeps the patient safe, uses therapeutic communication, and avoids judgment or false reassurance.
 </div>
 
 </div>
-</div>
-
-<div class="mh-cards">
-  <div class="mh-card purple">
-    <div class="mh-card-icon">📋</div>
-    <h3>Mood, Affect + Thought Process</h3>
-    <p>Review the terms that describe how the patient feels, appears, speaks, and connects thoughts.</p>
-    <a class="mh-btn" href="#panel-mood-thoughts">Study Terms</a>
-  </div>
-
-  <div class="mh-card pink">
-    <div class="mh-card-icon">👂</div>
-    <h3>Thought Content + Perception</h3>
-    <p>Review delusions, paranoia, suicidal thoughts, homicidal thoughts, hallucinations, and illusions.</p>
-    <a class="mh-btn" href="#panel-content-perception">Study Terms</a>
-  </div>
-
-  <div class="mh-card blue">
-    <div class="mh-card-icon">🌱</div>
-    <h3>Coping, Boundaries + Milieu</h3>
-    <p>Review adaptive coping, maladaptive coping, professional boundaries, and the treatment environment.</p>
-    <a class="mh-btn" href="#panel-coping-boundaries">Study Care</a>
-  </div>
-
-  <div class="mh-card green">
-    <div class="mh-card-icon">⚖️</div>
-    <h3>Rights, Restraints + Anxiety</h3>
-    <p>Review patient rights, admission types, restraints, seclusion, least restrictive care, and anxiety levels.</p>
-    <a class="mh-btn" href="#panel-rights-restraints">Study Safety</a>
-  </div>
-</div>
-
-<div class="mh-detail purple" id="panel-mood-thoughts" markdown="1">
-<a class="mh-detail-close" href="#">✕</a>
-
-### Mood, Affect + Thought Process
-
-<div class="detail-grid" markdown="1">
-
-<div class="detail-mini-card" markdown="1">
-<strong>Mood</strong>
-
-What the patient says they feel.
-
-**Example:** “I feel sad.”
-</div>
-
-<div class="detail-mini-card" markdown="1">
-<strong>Affect</strong>
-
-What the nurse observes.
-
-**Example:** crying, flat, angry, smiling.
-</div>
-
-<div class="detail-mini-card" markdown="1">
-<strong>Affect Terms</strong>
-
-**Flat:** little or no emotional expression  
-**Blunted:** decreased emotional expression  
-**Constricted:** limited emotional range  
-**Labile:** rapidly changing emotions  
-**Inappropriate:** emotion does not match the situation
-</div>
-
-<div class="detail-mini-card" markdown="1">
-<strong>Fast / Disorganized Thoughts</strong>
-
-**Flight of ideas:** rapidly jumping from one idea to another  
-**Loose associations:** thoughts are not clearly connected  
-**Word salad:** words are mixed together and do not make sense  
-**Clang association:** words are linked by sound or rhyme, not meaning
-</div>
-
-<div class="detail-mini-card" markdown="1">
-<strong>Off-Track Thinking</strong>
-
-**Tangential:** goes off topic and does not return to the point  
-**Circumstantial:** gives too many details but eventually answers  
-**Perseveration:** repeats the same word, thought, or idea
-</div>
-
-<div class="detail-mini-card" markdown="1">
-<strong>Interrupted / Literal Thinking</strong>
-
-**Thought blocking:** suddenly stops speaking because thought is interrupted  
-**Neologism:** made-up word that only has meaning to the patient  
-**Concrete thinking:** takes words literally; difficulty with abstract meaning
-</div>
-
-<div class="detail-mini-card" markdown="1">
-<strong>Easy Difference</strong>
-
-**Circumstantial:** eventually gets to the answer, but takes forever  
-**Tangential:** goes off topic and never gets back  
-**Flight of ideas:** fast jumping thoughts  
-**Thought blocking:** thought suddenly stops
-</div>
-
-</div>
-
-<div class="detail-callout" markdown="1">
-<strong>NCLEX:</strong> Mood = patient reports it. Affect = nurse observes it.
-</div>
-
-</div>
-
-<div class="mh-detail pink" id="panel-content-perception" markdown="1">
-<a class="mh-detail-close" href="#">✕</a>
-
-### Thought Content + Perception
-
-<div class="detail-grid" markdown="1">
-
-<div class="detail-mini-card" markdown="1">
-<strong>Thought Content</strong>
-
-**Delusion:** fixed false belief  
-**Paranoia:** belief others are trying to harm, trick, follow, or watch them  
-**Suicidal ideation:** thoughts of killing oneself  
-**Homicidal ideation:** thoughts of killing or harming someone else
-</div>
-
-<div class="detail-mini-card" markdown="1">
-<strong>Common Delusion Types</strong>
-
-**Grandiose:** belief they are powerful, famous, or important  
-**Persecutory:** belief they are being harmed or targeted  
-**Reference:** belief things in the environment are personally about them  
-**Somatic:** false belief about the body  
-**Religious:** false belief with religious theme  
-**Nihilistic:** belief self/world does not exist or is ending
-</div>
-
-<div class="detail-mini-card" markdown="1">
-<strong>Perception Terms</strong>
-
-**Hallucination:** sensory experience without a real stimulus  
-**Illusion:** misinterpretation of something real  
-**Depersonalization:** feeling detached from one’s body  
-**Derealization:** feeling like the world is unreal or changed
-</div>
-
-<div class="detail-mini-card" markdown="1">
-<strong>Hallucination Types</strong>
-
-**Auditory:** hearing voices  
-**Visual:** seeing people or objects not there  
-**Tactile:** feeling bugs crawling on skin  
-**Olfactory:** smelling odors not present  
-**Gustatory:** tasting something not present
-</div>
-
-<div class="detail-mini-card" markdown="1">
-<strong>Insight + Judgment</strong>
-
-**Insight:** understanding of own condition or behavior  
-**Poor insight:** does not recognize illness or the problem  
-**Judgment:** ability to make safe decisions  
-**Poor judgment:** unsafe or impulsive decision-making
-</div>
-
-</div>
-
-<div class="detail-callout" markdown="1">
-<strong>Safety cue:</strong> If a patient reports voices, ask what the voices are saying. Command hallucinations may tell the patient to harm self or others.
-</div>
-
-<div class="detail-callout" markdown="1">
-<strong>NCLEX:</strong> With delusions, do not argue or agree. Focus on feelings, safety, and reality-based statements.
-</div>
-
-</div>
-
-<div class="mh-detail blue" id="panel-coping-boundaries" markdown="1">
-<a class="mh-detail-close" href="#">✕</a>
-
-### Coping, Boundaries + Milieu
-
-<div class="detail-grid" markdown="1">
-
-<div class="detail-mini-card" markdown="1">
-<strong>Defense Mechanisms</strong>
-
-**Denial:** refusing to accept reality  
-**Projection:** blaming your own feelings on someone else  
-**Displacement:** taking feelings out on a safer target  
-**Regression:** acting younger during stress  
-**Rationalization:** making excuses  
-**Repression:** unconsciously blocking a memory  
-**Suppression:** consciously choosing not to think about something  
-**Sublimation:** turning feelings into a healthy activity  
-**Reaction formation:** acting opposite of true feelings  
-**Splitting:** seeing people as all good or all bad
-</div>
-
-<div class="detail-mini-card" markdown="1">
-<strong>Defense Mechanism Examples</strong>
-
-**Denial:** “I do not have a drinking problem.”  
-**Projection:** angry patient says, “The nurse hates me.”  
-**Displacement:** yelling at family after being upset with provider  
-**Regression:** adult becomes dependent or childlike  
-**Rationalization:** “I failed because the teacher hates me.”  
-**Suppression:** “I’ll deal with this after my exam.”  
-**Sublimation:** exercising to manage anger  
-**Splitting:** “This nurse is perfect; that nurse is evil.”
-</div>
-
-<div class="detail-mini-card" markdown="1">
-<strong>Coping</strong>
-
-**Adaptive coping:**
-
-- Talking
-- Journaling
-- Exercise
-- Breathing techniques
-
-**Maladaptive coping:**
-
-- Substance use
-- Self-harm
-- Isolation
-- Aggression
-</div>
-
-<div class="detail-mini-card" markdown="1">
-<strong>Coping Assessment</strong>
-
-- Current stressors
-- Support system
-- Past coping methods
-- Substance use
-- Sleep and appetite
-- Risk for self-harm
-- Ability to perform ADLs
-- What has helped before
-</div>
-
-<div class="detail-mini-card" markdown="1">
-<strong>Boundaries: Do</strong>
-
-- Be consistent
-- Set clear limits
-- Follow the care plan
-- Keep promises realistic
-- Stay professional
-- Communicate with the team
-- Encourage independence
-</div>
-
-<div class="detail-mini-card" markdown="1">
-<strong>Boundaries: Avoid</strong>
-
-- Making special exceptions
-- Arguing or threatening
-- Letting the patient split staff
-- Promising secrecy
-- Oversharing personal information
-- Keeping patient behavior secret from staff
-- Doing everything for the patient
-</div>
-
-<div class="detail-mini-card" markdown="1">
-<strong>Milieu Therapy</strong>
-
-Milieu therapy means the **environment is part of treatment.**
-
-- Clear routines
-- Safe environment
-- Group therapy
-- Unit rules
-- Therapeutic activities
-- Consistent expectations
-- Patient responsibilities
-- Staff modeling healthy communication
-</div>
-
-<div class="detail-mini-card" markdown="1">
-<strong>Nursing Role in Milieu</strong>
-
-- Maintain safety
-- Encourage participation
-- Set limits
-- Model healthy behavior
-- Reinforce rules consistently
-- Observe patient interactions
-- Reduce triggers and overstimulation
-- Promote independence
-</div>
-
-<div class="detail-mini-card" markdown="1">
-<strong>Locus of Control</strong>
-
-**Internal locus of control:** person believes they have some control over choices and actions.
-
-**Example:** “I can practice coping skills when I feel angry.”
-
-**External locus of control:** person believes others or events control their behavior.
-
-**Example:** “They made me act that way.”
-
-**Nursing focus:** help the patient recognize choices, triggers, responsibility, and healthier coping.
-</div>
-
-</div>
-
-<div class="detail-callout" markdown="1">
-<strong>NCLEX:</strong> Sublimation is the healthiest defense mechanism because the person channels stress into a safe activity.
-</div>
-
-<div class="detail-callout" markdown="1">
-<strong>Boundaries:</strong> Patients with manipulation, splitting, dependency, or aggression need clear limits and consistent staff responses.
-</div>
-
-</div>
-
-<div class="mh-detail green" id="panel-rights-restraints" markdown="1">
-<a class="mh-detail-close" href="#">✕</a>
-
-### Rights, Restraints + Anxiety
-
-<div class="detail-grid" markdown="1">
-
-<div class="detail-mini-card" markdown="1">
-<strong>Admission Types</strong>
-
-**Voluntary admission:** patient agrees to treatment.
-
-**Involuntary admission:** patient is admitted because they are a danger to self, danger to others, or unable to meet basic needs.
-</div>
-
-<div class="detail-mini-card" markdown="1">
-<strong>Patient Rights</strong>
-
-- Privacy
-- Dignity
-- Informed consent
-- Refuse treatment unless emergency/legal order applies
-- Least restrictive care
-- Communication unless restricted for safety
-- Safe care
-</div>
-
-<div class="detail-mini-card" markdown="1">
-<strong>Do Not Promise Secrecy</strong>
-
-- Suicide plans
-- Homicide threats
-- Abuse
-- Danger to self or others
-</div>
-
-<div class="detail-mini-card" markdown="1">
-<strong>Restraints + Seclusion</strong>
-
-Used only as a **last resort** when the patient is an immediate danger to self or others and less restrictive interventions have failed.
-
-Not used for:
-
-- Punishment
-- Convenience
-- Staff frustration
-- Lack of staffing
-- Threatening the patient
-- Making care easier
-</div>
-
-<div class="detail-mini-card" markdown="1">
-<strong>Try First</strong>
-
-- Calm approach
-- Reduce stimulation
-- Offer quiet space
-- Remove audience
-- Set clear limits
-- Offer choices
-- Offer medication if ordered
-- Call for help early
-</div>
-
-<div class="detail-mini-card" markdown="1">
-<strong>During Restraints</strong>
-
-- Check airway and breathing
-- Check circulation
-- Check skin
-- Check vital signs
-- Offer food and fluids
-- Offer toileting
-- Assess mental status
-- Reassess behavior
-- Document clearly
-</div>
-
-<div class="detail-mini-card" markdown="1">
-<strong>Anxiety Levels</strong>
-
-**Mild:** alert, focused, slightly restless  
-**Nursing focus:** teaching and problem-solving can happen
-
-**Moderate:** narrowed focus, tense, increased HR  
-**Nursing focus:** use simple directions
-
-**Severe:** poor concentration, pacing, physical symptoms  
-**Nursing focus:** reduce stimuli and stay calm
-
-**Panic:** unable to process, feels out of control  
-**Nursing focus:** stay with patient, short directions, safety
-</div>
-
-</div>
-
-<div class="detail-callout" markdown="1">
-<strong>NCLEX:</strong> Restraints are the last resort and must be discontinued as soon as the patient is safe.
-</div>
-
-<div class="detail-callout" markdown="1">
-<strong>Anxiety reminder:</strong> Do not teach during severe anxiety or panic. First decrease anxiety and maintain safety.
-</div>
-
 </div>
 
 <div class="mh-table-card" markdown="1">
@@ -732,21 +563,24 @@ Not used for:
 
 | Concept | Simple Meaning |
 |---|---|
-| **Safety first** | Always assess risk of harm |
-| **Mood** | What the patient says they feel |
-| **Affect** | What the nurse observes |
-| **Thought process** | How thoughts are connected |
+| **Therapeutic communication** | Communication that supports patient safety, trust, and coping |
+| **Silence** | Allows patient time to think and speak |
+| **Active listening** | Showing full attention to the patient |
+| **Clarifying** | Checking what the patient means |
+| **Open-ended question** | Encourages more than yes/no answer |
+| **Restating** | Repeating the main idea |
+| **Reflecting** | Naming or focusing on feelings |
+| **Presenting reality** | Calmly stating reality without arguing |
+| **Mood** | Patient’s stated feeling |
+| **Affect** | Nurse’s observation of emotional expression |
+| **Thought process** | How thoughts are organized |
 | **Thought content** | What the patient is thinking about |
-| **Hallucination** | Sensory experience that is not real |
-| **Illusion** | Misinterpreting something real |
-| **Delusion** | Fixed false belief |
-| **Insight** | Understanding of condition |
+| **Perception** | Hallucinations, illusions, depersonalization, derealization |
+| **Insight** | Awareness of illness/problem |
 | **Judgment** | Ability to make safe decisions |
-| **Defense mechanism** | Unconscious coping response |
-| **Milieu therapy** | Environment is part of treatment |
-| **Least restrictive** | Safest option with least limitation |
-| **Restraints/seclusion** | Last resort for immediate danger |
-| **Boundaries** | Professional limits that keep care safe |
+| **Boundary** | Professional limit |
+| **Limit setting** | Clear behavior expectation with consistent follow-through |
+| **Objective documentation** | Charting observable facts instead of opinions |
 
 </div>
 
@@ -755,34 +589,36 @@ Not used for:
 <div class="quick-review" markdown="1">
 <h3>Quick Review</h3>
 
-1. Ask: is anyone unsafe?
-2. Assess the patient’s mental status.
-3. Identify mood, affect, thought process, thought content, or perception.
-4. Decide whether the patient needs limits, safety, structure, or support.
-5. Use the least restrictive safe intervention.
-6. Keep communication therapeutic, calm, and professional.
+1. Safety comes first when there is risk.
+2. Use open-ended questions, silence, active listening, and clarification.
+3. Avoid advice, judgment, “why” questions, and false reassurance.
+4. Mood is what the patient says; affect is what the nurse observes.
+5. Document objective behavior and patient quotes.
+6. Set limits calmly and consistently.
+7. Keep the treatment team on the same page.
 </div>
 
 <div class="do-not-miss" markdown="1">
 <h3>Do Not Miss</h3>
 
-- Safety is the first priority in mental health nursing.
-- Never ignore suicidal ideation, homicidal ideation, command hallucinations, abuse, or severe withdrawal.
+- Do not promise secrecy when safety is involved.
 - Do not argue with delusions or hallucinations.
-- Do not teach during severe anxiety or panic.
-- Restraints and seclusion are last resort.
-- Use clear boundaries and consistent staff responses.
+- Do not minimize feelings.
+- Do not chart judgmental labels.
+- Do not allow staff splitting.
+- Do not give excessive personal information.
+- Do not teach during severe anxiety, panic, acute mania, or severe psychosis until safety/calm is addressed.
 </div>
 
 </div>
 
 <div class="cheer-banner">
-  💜 You are building your psych nursing foundation. Keep going — one page at a time! 💜
+  💜 Mental health questions are usually asking: what keeps them safe, heard, and respected? 💜
 </div>
 
 ---
 
 <div class="page-nav">
-  <a href="{{ '/mental-health.html' | relative_url }}" class="page-nav-back">← Mental Health</a>
-  <a href="{{ '/mental-health/therapeutic-communication.html' | relative_url }}" class="page-nav-next">Therapeutic Communication →</a>
+  <a href="{{ '/mental-health/somatic-factitious-dissociative.html' | relative_url }}" class="page-nav-back">← Somatic, Factitious & Dissociative</a>
+  <a href="{{ '/mental-health/anxiety.html' | relative_url }}" class="page-nav-next">Anxiety, OCD & Trauma →</a>
 </div>
