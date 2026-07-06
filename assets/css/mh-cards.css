@@ -53,10 +53,14 @@ body[data-page-type="mental-health-hub"] .page-wrapper {
 
 body[data-page-type="mental-health-hub"] .main-content {
   max-width: none;
-  padding: 2.25rem 2rem 3rem;
+  padding: 2.25rem 0 3rem;
   border-radius: 0 !important;
   box-shadow: none !important;
   margin: 0 !important;
+}
+
+body[data-page-type="mental-health-hub"] .mh-hub {
+  padding: 0 2rem;
 }
 
 .mh-hub { color: #0d194f; }
@@ -258,9 +262,9 @@ body[data-page-type="mental-health-hub"] .main-content {
   width: 4.4rem;
   height: 4.4rem;
   margin: 0 auto 1rem;
-  border-radius: 50%;
-  background: #f1ebfb;
-  overflow: hidden;
+  border-radius: 0;
+  background: transparent;
+  overflow: visible;
 }
 
 .mh-guide-icon img { width: 3.7rem; height: 3rem; object-fit: contain; }
