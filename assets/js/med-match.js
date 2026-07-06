@@ -124,7 +124,7 @@
     $("mmm-med-list").innerHTML = state.roundMedications.map((medication, index) => {
       const matched = state.matched.has(medication.medication);
       const selected = state.selectedMedication === medication.medication;
-      return `<button type="button" class="mmm-med-card is-${palette[index % palette.length]}${selected ? " is-selected" : ""}${matched ? " is-matched" : ""}" data-medication="${escapeHtml(medication.medication)}" ${matched ? "disabled" : ""}><span class="mmm-med-icon">💊</span><strong>${escapeHtml(medication.medication)}</strong><small>${escapeHtml(medication.class)}</small><i aria-hidden="true">${matched ? "✓" : "›"}</i></button>`;
+      return `<button type="button" class="mmm-med-card is-${palette[index % palette.length]}${selected ? " is-selected" : ""}${matched ? " is-matched" : ""}" data-medication="${escapeHtml(medication.medication)}" ${matched ? "disabled" : ""}><span class="mmm-med-icon">💊</span><strong>${escapeHtml(medication.medication)}</strong><i aria-hidden="true">${matched ? "✓" : "›"}</i></button>`;
     }).join("");
 
     $("mmm-answer-list").innerHTML = state.answers.map((answer) => {
