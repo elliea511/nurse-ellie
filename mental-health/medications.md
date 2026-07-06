@@ -10,9 +10,9 @@ title: Mental Health Medications
 
 # Mental Health Medications
 
-<p class="mh-subtitle">Master medication command center for antidepressants, antianxiety meds, mood stabilizers, antipsychotics, substance use meds, and special psych meds</p>
+<p class="mh-subtitle">Drug-class reference hub for psych meds, substance-use meds, eating-disorder meds, and special class-note treatments</p>
 
-This page is for **fast medication review**. Instead of reading it like a disorder note, use it like a drug-card dashboard:  
+This page includes **medications and treatments mentioned in the Mental Health PowerPoints** plus high-yield nursing safety cues for those medication classes. Use it like a quick drug-card dashboard:  
 **What is it for? What can hurt the patient? What do I teach? What does NCLEX love?**
 
 <div class="priority-focus">
@@ -22,592 +22,418 @@ This page is for **fast medication review**. Instead of reading it like a disord
   </div>
 </div>
 
-<div class="mh-cards">
-  <div class="mh-card purple">
-    <div class="mh-card-icon">🚨</div>
-    <h3>Danger Cues</h3>
-    <p>High-yield medication emergencies and “report now” symptoms.</p>
-    <a class="mh-btn" href="#panel-danger-cues">Start Here</a>
+<div class="med-warning-strip">
+  <div>
+    <strong>🚨 Lithium Toxicity</strong>
+    <span>GI upset, tremor, confusion, ataxia, seizures → hold next dose + notify provider.</span>
   </div>
 
-  <div class="mh-card pink">
-    <div class="mh-card-icon">🌧️</div>
-    <h3>Antidepressants</h3>
-    <p>SSRIs, SNRIs, NDRI, TCAs, MAOIs, St. John’s Wort, and depression treatments.</p>
-    <a class="mh-btn" href="#panel-antidepressants">Study Antidepressants</a>
+  <div>
+    <strong>🚨 NMS</strong>
+    <span>Fever + severe muscle rigidity + altered mental status on antipsychotics.</span>
   </div>
 
-  <div class="mh-card blue">
-    <div class="mh-card-icon">🫨</div>
-    <h3>Anxiety + Mood</h3>
-    <p>Benzos, buspirone, beta blockers, lithium, anticonvulsants, and antipsychotics.</p>
-    <a class="mh-btn" href="#panel-anxiety-mood">Study Anxiety/Mood</a>
+  <div>
+    <strong>🚨 Serotonin Syndrome</strong>
+    <span>Fever, agitation, tremor, diarrhea, sweating, rigidity, hyperreflexia.</span>
   </div>
 
-  <div class="mh-card green">
-    <div class="mh-card-icon">🧪</div>
-    <h3>Substance + Special</h3>
-    <p>Naloxone, withdrawal meds, Antabuse, thiamine, tobacco meds, binge eating meds, and special class-note meds.</p>
-    <a class="mh-btn" href="#panel-substance-special">Study Special Meds</a>
+  <div>
+    <strong>🚨 Opioid Overdose</strong>
+    <span>Respiratory depression/arrest → breathing first, then naloxone.</span>
+  </div>
+
+  <div>
+    <strong>🚨 Alcohol Withdrawal / DTs</strong>
+    <span>Tremors, ↑VS, hallucinations, seizures, delirium. Can be fatal.</span>
+  </div>
+
+  <div>
+    <strong>🚨 Antabuse Reaction</strong>
+    <span>Alcohol exposure can cause severe illness and may be fatal.</span>
   </div>
 </div>
 
-<div class="mh-detail purple" id="panel-danger-cues" markdown="1">
-<a class="mh-detail-close" href="#">✕</a>
-
-### Medication Danger Cues
-
-<div class="detail-grid" markdown="1">
-
-<div class="detail-mini-card" markdown="1">
-<strong>Lithium Toxicity</strong>
-
-**Watch for:**
-
-- GI upset
-- Tremor
-- Confusion
-- Ataxia
-- Seizures
-- Worsening neurologic symptoms
-
-**NCLEX:** Hold the next scheduled dose and notify the provider.
+<div class="med-nav-pills">
+  <a href="#antidepressants">Antidepressants</a>
+  <a href="#anxiety-ocd">Antianxiety + OCD</a>
+  <a href="#mood-stabilizers">Mood Stabilizers</a>
+  <a href="#antipsychotics">Antipsychotics</a>
+  <a href="#substance-use">Substance Use Meds</a>
+  <a href="#eating-special">Eating Disorder + Special Meds</a>
+  <a href="#master-chart">Master Chart</a>
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Neuroleptic Malignant Syndrome</strong>
+---
 
-**Watch for:**
+<section class="med-class-section antidepressants" id="antidepressants">
 
-- Fever
-- Severe muscle rigidity
-- Altered mental status
-- Autonomic instability
-
-**NCLEX:** Emergency complication of antipsychotics. Report immediately.
+<div class="med-class-header">
+  <span class="med-class-icon">🌧️</span>
+  <div>
+    <h2>Antidepressants + Depression Treatments</h2>
+    <p>Used for depression, anxiety symptoms, OCD symptoms, PTSD symptoms, and treatment-resistant depression.</p>
+  </div>
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Serotonin Syndrome</strong>
+<div class="med-class-grid">
+  <div class="med-class-overview" markdown="1">
+### Class Big Picture
 
-**Watch for:**
+- Most antidepressants take **weeks** to work.
+- Do **not** stop abruptly.
+- Monitor for **suicide risk early** in therapy.
+- Monitor for **serotonin syndrome** with serotonergic meds.
+- Watch for medication interactions, especially with MAOIs and herbals.
+  </div>
 
-- Fever
-- Agitation or confusion
-- Tremor
-- Diarrhea
-- Sweating
-- Muscle rigidity
-- Hyperreflexia
+  <div class="med-nclex-box" markdown="1">
+### NCLEX Loves
 
-**NCLEX:** Can occur with serotonergic antidepressants or drug combinations.
+- Energy may improve before mood → increased suicide risk.
+- Serotonin syndrome symptoms.
+- MAOI tyramine restrictions.
+- TCA overdose danger.
+- St. John’s Wort interactions.
+  </div>
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>MAOI Hypertensive Crisis</strong>
+<div class="drug-card-grid">
 
-**Watch for:**
-
-- Severe headache
-- Chest pain
-- Palpitations
-- Stiff neck
-- Nausea/vomiting
-- Very high BP symptoms
-
-**NCLEX:** Teach tyramine restrictions.
+<div class="drug-card" markdown="1">
+<div class="drug-card-top">
+<h3>SSRIs</h3>
+<span>Citalopram • Escitalopram</span>
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Opioid Overdose</strong>
+**Used for:** Depression, anxiety, PTSD symptoms, OCD symptoms.  
+**Monitor:** Suicide risk early, serotonin syndrome, GI upset, sleep changes, sexual side effects.  
+**Teach:** Takes weeks. Do not stop suddenly. Report worsening mood, suicidal thoughts, fever, confusion, tremor, or diarrhea.
 
-**Watch for:**
-
-- Respiratory depression
-- Decreased LOC
-- Severe sedation
-- Possible respiratory arrest
-
-**NCLEX:** Airway/breathing first, then naloxone.
+<div class="drug-nclex">NCLEX: Energy may improve before mood, increasing suicide risk early.</div>
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Alcohol Withdrawal / DTs</strong>
-
-**Watch for:**
-
-- Tremors
-- Vital sign elevation
-- Hallucinations
-- Seizures
-- Severe agitation
-- Delirium tremens
-
-**NCLEX:** Can be fatal. Monitor closely.
+<div class="drug-card" markdown="1">
+<div class="drug-card-top">
+<h3>Vilazodone</h3>
+<span>Serotonin reuptake inhibitor + serotonin receptor agonist</span>
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Benzodiazepine / Sedative Risk</strong>
+**Used for:** Depression.  
+**Monitor:** Serotonin syndrome, GI effects, suicide risk early in therapy.  
+**Teach:** Take as prescribed. Report worsening mood or serotonin syndrome symptoms.
 
-**Watch for:**
-
-- Sedation
-- Falls
-- Respiratory depression
-- Tolerance/dependence
-- Withdrawal if stopped suddenly
-
-**NCLEX:** Avoid alcohol/CNS depressants.
+<div class="drug-nclex">NCLEX: Treat like a serotonergic antidepressant.</div>
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Antabuse Reaction</strong>
-
-**Watch for after alcohol exposure:**
-
-- Nausea/vomiting
-- Flushing
-- Vertigo
-- Increased pulse
-- Hypotension
-- Headache
-- SOB
-- Diaphoresis
-- Chest pain
-- Confusion
-
-**NCLEX:** Reaction can be fatal.
+<div class="drug-card" markdown="1">
+<div class="drug-card-top">
+<h3>SNRIs</h3>
+<span>Venlafaxine • Duloxetine</span>
 </div>
 
+**Used for:** Depression and anxiety symptoms.  
+**Monitor:** BP changes, serotonin syndrome, suicide risk early.  
+**Teach:** Do not stop abruptly. Report severe headache, BP symptoms, suicidal thoughts, or serotonin syndrome symptoms.
+
+<div class="drug-nclex">NCLEX: Watch BP and serotonin syndrome.</div>
 </div>
 
-<div class="detail-callout" markdown="1">
-<strong>Shortcut:</strong> Psych med danger questions usually test suicide risk, breathing, seizures, toxicity, withdrawal, fever/rigidity, or severe BP symptoms.
+<div class="drug-card" markdown="1">
+<div class="drug-card-top">
+<h3>NDRI</h3>
+<span>Bupropion / Wellbutrin</span>
 </div>
 
+**Used for:** Depression, tobacco cessation, and sometimes depression after stimulant withdrawal.  
+**Monitor:** Seizure risk, anxiety, insomnia, mood changes.  
+**Teach:** Report seizures or worsening mood.
+
+<div class="drug-nclex">NCLEX: Use caution with seizure risk and eating disorder history.</div>
 </div>
 
-<div class="mh-detail pink" id="panel-antidepressants" markdown="1">
-<a class="mh-detail-close" href="#">✕</a>
-
-### Antidepressants + Depression Treatments
-
-<div class="detail-grid" markdown="1">
-
-<div class="detail-mini-card" markdown="1">
-<strong>SSRIs</strong>  
-Citalopram, Escitalopram
-
-**Used for:**  
-Depression, anxiety, PTSD symptoms, OCD symptoms.
-
-**Monitor:**  
-Suicide risk early, serotonin syndrome, GI upset, sleep changes, sexual side effects.
-
-**Teach:**  
-Takes weeks to work. Do not stop suddenly. Report worsening mood, suicidal thoughts, fever, confusion, tremor, or diarrhea.
-
-**NCLEX:**  
-Energy may improve before mood, increasing suicide risk early.
+<div class="drug-card" markdown="1">
+<div class="drug-card-top">
+<h3>TCA</h3>
+<span>Imipramine</span>
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Vilazodone</strong>
+**Used for:** Depression; class notes also connect TCAs with OCD treatment options.  
+**Monitor:** Anticholinergic effects, sedation, orthostatic hypotension, cardiac effects, overdose danger.  
+**Teach:** Rise slowly. Avoid alcohol/CNS depressants. Keep medication secured.
 
-**Class:**  
-Selective serotonin reuptake inhibitor and serotonin receptor agonist.
-
-**Used for:**  
-Depression.
-
-**Monitor:**  
-Serotonin syndrome, GI effects, suicide risk early in therapy.
-
-**Teach:**  
-Take as prescribed. Report worsening mood or serotonin syndrome symptoms.
-
-**NCLEX:**  
-Treat like a serotonergic antidepressant.
+<div class="drug-nclex">NCLEX: TCA overdose can be dangerous.</div>
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>SNRIs</strong>  
-Venlafaxine, Duloxetine
-
-**Used for:**  
-Depression and anxiety symptoms.
-
-**Monitor:**  
-BP changes, serotonin syndrome, suicide risk early.
-
-**Teach:**  
-Do not stop abruptly. Report severe headache, BP symptoms, suicidal thoughts, or serotonin syndrome symptoms.
-
-**NCLEX:**  
-Watch BP and serotonin syndrome.
+<div class="drug-card" markdown="1">
+<div class="drug-card-top">
+<h3>MAOIs</h3>
+<span>Phenelzine • Tranylcypromine</span>
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>NDRI</strong>  
-Bupropion / Wellbutrin
+**Used for:** Depression, often when other meds are not effective.  
+**Monitor:** Hypertensive crisis, tyramine interactions, medication interactions.  
+**Teach:** Avoid tyramine foods. Report severe headache, chest pain, stiff neck, palpitations, or high BP symptoms.
 
-**Used for:**  
-Depression, tobacco cessation, and sometimes depression after stimulant withdrawal.
-
-**Monitor:**  
-Seizure risk, anxiety, insomnia, mood changes.
-
-**Teach:**  
-Report seizures or worsening mood.
-
-**NCLEX:**  
-Use caution with seizure risk and eating disorder history.
+<div class="drug-nclex">NCLEX: Tyramine diet is the big teaching point.</div>
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>TCA</strong>  
-Imipramine
-
-**Used for:**  
-Depression; class notes also connect TCAs with OCD treatment options.
-
-**Monitor:**  
-Anticholinergic effects, sedation, orthostatic hypotension, cardiac effects, overdose danger.
-
-**Teach:**  
-Rise slowly. Avoid alcohol/CNS depressants. Keep medication secured.
-
-**NCLEX:**  
-Overdose can be dangerous.
+<div class="drug-card" markdown="1">
+<div class="drug-card-top">
+<h3>St. John’s Wort</h3>
+<span>Herbal depression supplement</span>
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>MAOIs</strong>  
-Phenelzine, Tranylcypromine
+**Used for:** Herbal supplement sometimes used for depression.  
+**Monitor:** Drug interactions and serotonin syndrome risk.  
+**Teach:** Tell provider before taking herbals. Do not combine with antidepressants unless provider approves.
 
-**Used for:**  
-Depression, often when other meds are not effective.
-
-**Monitor:**  
-Hypertensive crisis, tyramine interactions, medication interactions.
-
-**Teach:**  
-Avoid tyramine foods. Report severe headache, chest pain, stiff neck, palpitations, or high BP symptoms.
-
-**NCLEX:**  
-Tyramine diet is the big teaching point.
+<div class="drug-nclex">NCLEX: Herbal does not mean harmless.</div>
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>St. John’s Wort</strong>
-
-**Used for:**  
-Herbal supplement sometimes used for depression.
-
-**Monitor:**  
-Drug interactions and serotonin syndrome risk.
-
-**Teach:**  
-Tell provider before taking herbals. Do not combine with antidepressants unless provider approves.
-
-**NCLEX:**  
-Herbal does not mean harmless.
+<div class="drug-card" markdown="1">
+<div class="drug-card-top">
+<h3>ECT</h3>
+<span>Electroconvulsive therapy</span>
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>ECT</strong>
+**Used for:** Severe MDD, treatment-resistant depression, severe suicidal risk, depression with psychosis, or catatonia.  
+**Monitor:** Temporary short-term memory loss, confusion after treatment, anesthesia-related risks.  
+**Teach:** Consent and NPO prep as ordered. Reorientation may be needed after treatment.
 
-**Used for:**  
-Severe MDD, treatment-resistant depression, severe suicidal risk, depression with psychosis, or catatonia.
-
-**Monitor:**  
-Temporary short-term memory loss, confusion after treatment, anesthesia-related risks.
-
-**Teach:**  
-Consent and NPO prep as ordered. Reorientation may be needed after treatment.
-
-**NCLEX:**  
-Induced seizure activity can treat severe depression.
+<div class="drug-nclex">NCLEX: Induced seizure activity can treat severe depression.</div>
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>TMS</strong>
-
-**Used for:**  
-Treatment-resistant depression.
-
-**Monitor:**  
-Class notes: no neurological deficits or memory problems noted.
-
-**Teach:**  
-Noninvasive magnetic pulses stimulate the cerebral cortex.
-
-**NCLEX:**  
-Noninvasive and no memory problems noted in class.
+<div class="drug-card" markdown="1">
+<div class="drug-card-top">
+<h3>TMS</h3>
+<span>Transcranial magnetic stimulation</span>
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Vagus Nerve Stimulation</strong>
+**Used for:** Treatment-resistant depression.  
+**Monitor:** Class notes: no neurological deficits or memory problems noted.  
+**Teach:** Noninvasive magnetic pulses stimulate the cerebral cortex.
 
-**Used for:**  
-Treatment-resistant depression; originally used for seizure clients.
-
-**Monitor:**  
-Surgical implant/device issues.
-
-**Teach:**  
-Device is implanted in the chest with a wire attached to the vagus nerve. Magnet turns stimulation on/off.
-
-**NCLEX:**  
-Implanted device, not a pill.
+<div class="drug-nclex">NCLEX: Noninvasive and no memory problems noted in class.</div>
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Deep Brain Stimulation</strong>
+<div class="drug-card" markdown="1">
+<div class="drug-card-top">
+<h3>Vagus Nerve Stimulation</h3>
+<span>Implanted stimulation device</span>
+</div>
 
-**Used for:**  
-Treatment-resistant major depression.
+**Used for:** Treatment-resistant depression; originally used for seizure clients.  
+**Monitor:** Surgical implant/device issues.  
+**Teach:** Device is implanted in the chest with a wire attached to the vagus nerve. Magnet turns stimulation on/off.
 
-**Monitor:**  
-Brain bleeding, seizures, stroke.
+<div class="drug-nclex">NCLEX: Implanted device, not a pill.</div>
+</div>
 
-**Teach:**  
-Electrodes are implanted in the brain and stimulated by a chest device. Report neuro changes immediately.
+<div class="drug-card" markdown="1">
+<div class="drug-card-top">
+<h3>Deep Brain Stimulation</h3>
+<span>Implanted brain electrodes</span>
+</div>
 
-**NCLEX:**  
-Most invasive depression treatment listed; serious neuro risks.
+**Used for:** Treatment-resistant major depression.  
+**Monitor:** Brain bleeding, seizures, stroke.  
+**Teach:** Electrodes are implanted in the brain and stimulated by a chest device. Report neuro changes immediately.
+
+<div class="drug-nclex">NCLEX: Most invasive depression treatment listed; serious neuro risks.</div>
 </div>
 
 </div>
 
-<div class="detail-callout" markdown="1">
-<strong>Antidepressant rule:</strong> Teach that medications take weeks, do not stop abruptly, and report suicidal thoughts or serotonin syndrome symptoms.
+<div class="med-teaching-box" markdown="1">
+### Patient Teaching Snapshot
+
+Antidepressants usually take weeks. Teach medication adherence, do not stop abruptly, avoid unsafe combinations, and report suicidal thoughts or serotonin syndrome symptoms.
+</div>
+
+</section>
+
+---
+
+<section class="med-class-section anxiety" id="anxiety-ocd">
+
+<div class="med-class-header">
+  <span class="med-class-icon">🫨</span>
+  <div>
+    <h2>Antianxiety + OCD Medications</h2>
+    <p>Used for anxiety disorders, panic symptoms, OCD, and physical anxiety symptoms.</p>
+  </div>
+</div>
+
+<div class="med-class-grid">
+  <div class="med-class-overview" markdown="1">
+### Class Big Picture
+
+- Some anxiety meds work quickly; others take weeks.
+- Benzodiazepines are effective but risky.
+- Buspirone is long-term, not rescue.
+- OCD treatment usually combines medication + therapy.
+  </div>
+
+  <div class="med-nclex-box" markdown="1">
+### NCLEX Loves
+
+- Benzos = sedation, falls, dependence, respiratory depression.
+- Buspirone = takes weeks.
+- Propranolol = physical symptoms; watch HR/BP.
+- Fluvoxamine = OCD.
+  </div>
+</div>
+
+<div class="drug-card-grid">
+
+<div class="drug-card" markdown="1">
+<div class="drug-card-top">
+<h3>Benzodiazepines</h3>
+<span>Quick anxiety relief</span>
+</div>
+
+**Used for:** Quick relief of anxiety or panic symptoms; some are used for alcohol withdrawal.  
+**Monitor:** Sedation, falls, tolerance, physical/psychological addiction, respiratory depression, withdrawal.  
+**Teach:** Short-term use. Avoid alcohol/CNS depressants. Do not stop suddenly if used regularly.
+
+<div class="drug-nclex">NCLEX: Fast anxiety relief, but high safety risk.</div>
+</div>
+
+<div class="drug-card" markdown="1">
+<div class="drug-card-top">
+<h3>Buspirone / BuSpar</h3>
+<span>Long-term anxiety medication</span>
+</div>
+
+**Used for:** Long-term anxiety treatment.  
+**Monitor:** Delayed onset. Not useful for immediate panic relief.  
+**Teach:** Takes weeks. No tolerance or addiction. Take consistently.
+
+<div class="drug-nclex">NCLEX: Not a rescue medication.</div>
+</div>
+
+<div class="drug-card" markdown="1">
+<div class="drug-card-top">
+<h3>Antihistamines</h3>
+<span>Anxiety symptom relief</span>
+</div>
+
+**Used for:** Anxiety symptom relief.  
+**Monitor:** Sleepiness, sedation, fall risk.  
+**Teach:** Avoid driving or unsafe activity until effects are known.
+
+<div class="drug-nclex">NCLEX: Can help anxiety but makes patient sleepy.</div>
+</div>
+
+<div class="drug-card" markdown="1">
+<div class="drug-card-top">
+<h3>Propranolol / Inderal</h3>
+<span>Beta blocker</span>
+</div>
+
+**Used for:** Physical symptoms of anxiety such as palpitations or tremor.  
+**Monitor:** Low HR, low BP, dizziness.  
+**Teach:** Report fainting, dizziness, or very low pulse.
+
+<div class="drug-nclex">NCLEX: Controls body symptoms, not the emotional cause.</div>
+</div>
+
+<div class="drug-card" markdown="1">
+<div class="drug-card-top">
+<h3>Fluvoxamine / Luvox</h3>
+<span>OCD medication</span>
+</div>
+
+**Used for:** OCD.  
+**Monitor:** Serotonin syndrome, suicide risk early, GI effects, sleep changes.  
+**Teach:** Take consistently. Do not stop abruptly. Continue therapy plan.
+
+<div class="drug-nclex">NCLEX: Know this as an OCD medication from class.</div>
 </div>
 
 </div>
 
-<div class="mh-detail blue" id="panel-anxiety-mood" markdown="1">
-<a class="mh-detail-close" href="#">✕</a>
+<div class="med-teaching-box" markdown="1">
+### Patient Teaching Snapshot
 
-### Antianxiety, Mood Stabilizers + Antipsychotics
-
-<div class="detail-grid" markdown="1">
-
-<div class="detail-mini-card" markdown="1">
-<strong>Benzodiazepines</strong>
-
-**Used for:**  
-Quick relief of anxiety or panic symptoms; some are used for alcohol withdrawal.
-
-**Monitor:**  
-Sedation, falls, tolerance, physical/psychological addiction, respiratory depression, withdrawal.
-
-**Teach:**  
-Short-term use. Avoid alcohol/CNS depressants. Do not stop suddenly if used regularly.
-
-**NCLEX:**  
-Fast anxiety relief, but high safety risk.
+Benzos may calm symptoms quickly but are not casual meds. Teach fall precautions, no alcohol/CNS depressants, and no abrupt stopping. Buspirone is the opposite: slower, safer long-term, and not for panic rescue.
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Buspirone / BuSpar</strong>
+</section>
 
-**Used for:**  
-Long-term anxiety treatment.
+---
 
-**Monitor:**  
-Delayed onset. Not useful for immediate panic relief.
+<section class="med-class-section mood" id="mood-stabilizers">
 
-**Teach:**  
-Takes weeks. No tolerance or addiction. Take consistently.
-
-**NCLEX:**  
-Not a rescue medication.
+<div class="med-class-header">
+  <span class="med-class-icon">⚡</span>
+  <div>
+    <h2>Mood Stabilizers</h2>
+    <p>Used for bipolar disorder, mania, mood stabilization, and prevention of mood episodes.</p>
+  </div>
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Antihistamines</strong>
+<div class="med-class-grid">
+  <div class="med-class-overview" markdown="1">
+### Class Big Picture
 
-**Used for:**  
-Anxiety symptom relief.
+- Lithium is the drug of choice for bipolar illness.
+- Lithium requires serum levels and kidney/thyroid monitoring.
+- Anticonvulsants may be used when lithium is not effective or as an alternative.
+- Calcium channel blockers may also be used for bipolar illness per class notes.
+  </div>
 
-**Monitor:**  
-Sleepiness, sedation, fall risk.
+  <div class="med-nclex-box" markdown="1">
+### NCLEX Loves
 
-**Teach:**  
-Avoid driving or unsafe activity until effects are known.
-
-**NCLEX:**  
-Can help anxiety but makes patient sleepy.
+- Lithium level: **0.6–1.2 mEq/L**.
+- Suspected toxicity: **hold next dose + notify provider**.
+- Maintain fluids and salt.
+- Avoid diuretics unless ordered.
+- Monitor renal and thyroid labs.
+  </div>
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Propranolol / Inderal</strong>
+<div class="drug-card-grid">
 
-**Class:**  
-Beta blocker.
-
-**Used for:**  
-Physical symptoms of anxiety such as palpitations or tremor.
-
-**Monitor:**  
-Low HR, low BP, dizziness.
-
-**Teach:**  
-Report fainting, dizziness, or very low pulse.
-
-**NCLEX:**  
-Controls body symptoms, not the emotional cause.
+<div class="drug-card lithium-card" markdown="1">
+<div class="drug-card-top">
+<h3>Lithium Carbonate</h3>
+<span>Drug of choice for bipolar illness</span>
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Fluvoxamine / Luvox</strong>
+**Used for:** Bipolar disorder and mood stabilization.  
+**Monitor:** Lithium level 0.6–1.2 mEq/L, toxicity, thyroid, kidney function, diabetes insipidus.  
+**Teach:** Maintain fluids and salt intake. Avoid diuretics unless ordered. Keep lab appointments.
 
-**Used for:**  
-OCD.
-
-**Monitor:**  
-Serotonin syndrome, suicide risk early, GI effects, sleep changes.
-
-**Teach:**  
-Take consistently. Do not stop abruptly. Continue therapy plan.
-
-**NCLEX:**  
-Know this as an OCD medication from class.
+<div class="drug-nclex">NCLEX: Suspected toxicity = hold next dose and notify provider.</div>
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Pimozide / Orap</strong>
-
-**Used for:**  
-Class note: can decrease paranoid thoughts.
-
-**Monitor:**  
-Antipsychotic-type adverse effects as ordered.
-
-**Teach:**  
-Report abnormal movements, fever, or rigidity.
-
-**NCLEX:**  
-Class-specific paranoid personality disorder med cue.
+<div class="drug-card" markdown="1">
+<div class="drug-card-top">
+<h3>Anticonvulsants</h3>
+<span>Mood stabilizer option</span>
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Lithium Carbonate</strong>
+**Used for:** Mood stabilization if lithium is not effective or as an alternative.  
+**Monitor:** Liver problems, coagulation problems, pancreatitis, bone marrow suppression, dizziness, headache, blurred vision, rash, speech difficulty, birth defect risk.  
+**Teach:** Report rash, bleeding, abdominal pain, severe dizziness, speech changes, or pregnancy/plans for pregnancy.
 
-**Used for:**  
-Drug of choice for bipolar illness.
-
-**Monitor:**  
-Lithium level 0.6–1.2 mEq/L, toxicity, thyroid, kidney function, diabetes insipidus.
-
-**Teach:**  
-Maintain fluids and salt intake. Avoid diuretics unless ordered. Keep lab appointments.
-
-**NCLEX:**  
-Suspected toxicity = hold next dose and notify provider.
+<div class="drug-nclex">NCLEX: Mood stabilizers can have serious systemic side effects.</div>
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Anticonvulsants</strong>
-
-**Used for:**  
-Mood stabilization if lithium is not effective or as an alternative.
-
-**Monitor:**  
-Liver problems, coagulation problems, pancreatitis, bone marrow suppression, dizziness, headache, blurred vision, rash, speech difficulty, birth defect risk.
-
-**Teach:**  
-Report rash, bleeding, abdominal pain, severe dizziness, speech changes, or pregnancy/plans for pregnancy.
-
-**NCLEX:**  
-Mood stabilizers can have serious systemic side effects.
+<div class="drug-card" markdown="1">
+<div class="drug-card-top">
+<h3>Calcium Channel Blockers</h3>
+<span>Bipolar med option from class</span>
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Calcium Channel Blockers</strong>
+**Used for:** Class note: may also be used for bipolar illness.  
+**Monitor:** Low BP, dizziness, edema, constipation depending on medication.  
+**Teach:** Change positions slowly. Report dizziness or fainting.
 
-**Used for:**  
-Class note: may also be used for bipolar illness.
-
-**Monitor:**  
-Low BP, dizziness, edema, constipation depending on med.
-
-**Teach:**  
-Change positions slowly. Report dizziness or fainting.
-
-**NCLEX:**  
-Less common bipolar med category from class.
-</div>
-
-<div class="detail-mini-card" markdown="1">
-<strong>Haloperidol</strong>
-
-**Class:**  
-First-generation antipsychotic.
-
-**Used for:**  
-Schizophrenia/psychosis, hallucinations, delusions, severe agitation.
-
-**Monitor:**  
-EPS, NMS, sedation, cardiac concerns depending on patient/order.
-
-**Teach:**  
-Report stiffness, tremor, fever, rigidity, confusion, abnormal movements, or severe restlessness.
-
-**NCLEX:**  
-High EPS/NMS focus.
-</div>
-
-<div class="detail-mini-card" markdown="1">
-<strong>Risperidone</strong>
-
-**Class:**  
-Second-generation antipsychotic.
-
-**Used for:**  
-Schizophrenia/psychosis and mood-related psychotic symptoms.
-
-**Monitor:**  
-Weight gain, glucose/lipid changes, metabolic syndrome, sedation, EPS/NMS.
-
-**Teach:**  
-Keep lab appointments. Report abnormal movements, fever/rigidity, or major weight changes.
-
-**NCLEX:**  
-Second-gen antipsychotics = metabolic monitoring.
-</div>
-
-<div class="detail-mini-card" markdown="1">
-<strong>Newer Antipsychotics</strong>
-
-**Used for:**  
-Bipolar disorder, especially with psychotic features such as hallucinations or delusions.
-
-**Monitor:**  
-Cardiac effects, weight gain, insulin resistance, diabetes mellitus, EPS/NMS.
-
-**Teach:**  
-Report fever, rigidity, abnormal movements, severe restlessness, chest symptoms, or significant weight changes.
-
-**NCLEX:**  
-Used when psychotic features are present.
-</div>
-
-<div class="detail-mini-card" markdown="1">
-<strong>Naltrexone / Narcan class note for BPD SIB</strong>
-
-**Used for:**  
-Class note: may decrease self-injurious behavior in borderline personality disorder.
-
-**Monitor:**  
-Follow provider order and indication.
-
-**Teach:**  
-Take only as prescribed and report side effects or worsening self-harm urges.
-
-**NCLEX:**  
-Special class note, not the usual first association.
+<div class="drug-nclex">NCLEX: Less common bipolar med category from class.</div>
 </div>
 
 </div>
@@ -657,436 +483,526 @@ Special class note, not the usual first association.
   </table>
 </div>
 
-<div class="detail-callout" markdown="1">
-<strong>NCLEX:</strong> Lithium toxicity, EPS, NMS, sedation/falls, and metabolic syndrome are the big mood/psychosis med safety cues.
+<div class="med-teaching-box" markdown="1">
+### Patient Teaching Snapshot
+
+Lithium is all about **level + kidneys + thyroid + fluids + salt**. Anything that changes fluid/sodium balance can affect lithium safety.
+</div>
+
+</section>
+
+---
+
+<section class="med-class-section antipsychotics" id="antipsychotics">
+
+<div class="med-class-header">
+  <span class="med-class-icon">🧠</span>
+  <div>
+    <h2>Antipsychotics</h2>
+    <p>Used for psychosis, schizophrenia, hallucinations, delusions, severe agitation, and bipolar symptoms with psychotic features.</p>
+  </div>
+</div>
+
+<div class="med-class-grid">
+  <div class="med-class-overview" markdown="1">
+### Class Big Picture
+
+- First-generation antipsychotics have higher EPS focus.
+- Second-generation/newer antipsychotics have more metabolic monitoring.
+- Antipsychotics can also be used in bipolar disorder with psychotic features.
+- Watch for NMS with any antipsychotic.
+  </div>
+
+  <div class="med-nclex-box" markdown="1">
+### NCLEX Loves
+
+- EPS: abnormal movements, restlessness, rigidity, tremor.
+- NMS: fever, rigidity, altered mental status.
+- Second-gen: weight, glucose, lipids, metabolic syndrome.
+- Do not argue with delusions/hallucinations.
+  </div>
+</div>
+
+<div class="drug-card-grid">
+
+<div class="drug-card" markdown="1">
+<div class="drug-card-top">
+<h3>Haloperidol</h3>
+<span>First-generation antipsychotic</span>
+</div>
+
+**Used for:** Schizophrenia/psychosis, hallucinations, delusions, severe agitation.  
+**Monitor:** EPS, NMS, sedation, cardiac concerns depending on patient/order.  
+**Teach:** Report stiffness, tremor, fever, rigidity, confusion, abnormal movements, or severe restlessness.
+
+<div class="drug-nclex">NCLEX: High EPS/NMS focus.</div>
+</div>
+
+<div class="drug-card" markdown="1">
+<div class="drug-card-top">
+<h3>Risperidone</h3>
+<span>Second-generation antipsychotic</span>
+</div>
+
+**Used for:** Schizophrenia/psychosis and mood-related psychotic symptoms.  
+**Monitor:** Weight gain, glucose/lipid changes, metabolic syndrome, sedation, EPS/NMS.  
+**Teach:** Keep lab appointments. Report abnormal movements, fever/rigidity, or major weight changes.
+
+<div class="drug-nclex">NCLEX: Second-gen antipsychotics = metabolic monitoring.</div>
+</div>
+
+<div class="drug-card" markdown="1">
+<div class="drug-card-top">
+<h3>Newer Antipsychotics</h3>
+<span>Bipolar psychotic features</span>
+</div>
+
+**Used for:** Bipolar disorder, especially with psychotic features such as hallucinations or delusions.  
+**Monitor:** Cardiac effects, weight gain, insulin resistance, diabetes mellitus, EPS/NMS.  
+**Teach:** Report fever, rigidity, abnormal movements, severe restlessness, chest symptoms, or significant weight changes.
+
+<div class="drug-nclex">NCLEX: Used when psychotic features are present.</div>
+</div>
+
+<div class="drug-card" markdown="1">
+<div class="drug-card-top">
+<h3>Pimozide / Orap</h3>
+<span>Paranoid thoughts class note</span>
+</div>
+
+**Used for:** Class note: can decrease paranoid thoughts.  
+**Monitor:** Antipsychotic-type adverse effects as ordered.  
+**Teach:** Report abnormal movements, fever, or rigidity.
+
+<div class="drug-nclex">NCLEX: Class-specific paranoid personality disorder med cue.</div>
 </div>
 
 </div>
 
-<div class="mh-detail green" id="panel-substance-special" markdown="1">
-<a class="mh-detail-close" href="#">✕</a>
+<div class="med-teaching-box" markdown="1">
+### Patient Teaching Snapshot
 
-### Substance Use + Special Medications
-
-<div class="detail-grid" markdown="1">
-
-<div class="detail-mini-card" markdown="1">
-<strong>Naloxone / Narcan</strong>
-
-**Used for:**  
-Opioid overdose.
-
-**Monitor:**  
-Airway/breathing, recurrent respiratory depression, withdrawal symptoms.
-
-**Teach:**  
-Emergency reversal medication. Follow-up care is still needed.
-
-**NCLEX:**  
-Breathing first, then naloxone.
+Report fever, rigidity, confusion, severe restlessness, tremors, stiffness, or abnormal movements. For second-generation meds, keep metabolic lab follow-ups.
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Methadone</strong>
+</section>
 
-**Used for:**  
-Opioid withdrawal or maintenance.
+---
 
-**Monitor:**  
-Sedation, respiratory depression, adherence, program requirements.
+<section class="med-class-section substance" id="substance-use">
 
-**Teach:**  
-Take only as prescribed. Do not mix with alcohol/CNS depressants.
-
-**NCLEX:**  
-Maintenance/withdrawal med, not overdose reversal.
+<div class="med-class-header">
+  <span class="med-class-icon">🧪</span>
+  <div>
+    <h2>Substance Use Medications</h2>
+    <p>Used for overdose reversal, withdrawal management, alcohol use disorder, tobacco cessation, and complications of alcohol use.</p>
+  </div>
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Clonidine</strong>
+<div class="med-class-grid">
+  <div class="med-class-overview" markdown="1">
+### Class Big Picture
 
-**Used for:**  
-Opioid withdrawal symptoms.
+- Overdose questions usually begin with ABCs.
+- Withdrawal can be dangerous depending on the substance.
+- Alcohol withdrawal can be fatal.
+- Sedative withdrawal can cause seizures.
+- Alcohol use can cause thiamine deficiency.
+  </div>
 
-**Monitor:**  
-Low BP, dizziness.
+  <div class="med-nclex-box" markdown="1">
+### NCLEX Loves
 
-**Teach:**  
-Change positions slowly. Report fainting or severe dizziness.
-
-**NCLEX:**  
-Helps withdrawal symptoms, watch BP.
+- Opioid overdose: breathing first, then naloxone.
+- Alcohol withdrawal: seizure/DT monitoring.
+- Thiamine for Wernicke’s/Korsakoff’s.
+- Antabuse: no alcohol.
+- Benzos used for alcohol withdrawal.
+  </div>
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Buprenorphine / Naloxone</strong>
+<h3 class="med-subheading">Opioid Use / Overdose / Withdrawal</h3>
 
-**Used for:**  
-Opioid withdrawal or maintenance.
+<div class="drug-card-grid">
 
-**Monitor:**  
-Sedation, withdrawal symptoms, adherence.
-
-**Teach:**  
-Use as prescribed as part of recovery plan.
-
-**NCLEX:**  
-Opioid maintenance/withdrawal treatment.
+<div class="drug-card" markdown="1">
+<div class="drug-card-top">
+<h3>Naloxone / Narcan</h3>
+<span>Opioid antagonist</span>
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Lofexidine</strong>
+**Used for:** Opioid overdose.  
+**Monitor:** Airway/breathing, recurrent respiratory depression, withdrawal symptoms.  
+**Teach:** Emergency reversal medication. Follow-up care is still needed.
 
-**Used for:**  
-Opioid withdrawal symptoms.
-
-**Monitor:**  
-BP changes, dizziness, sedation.
-
-**Teach:**  
-Follow dosing instructions and report dizziness/fainting.
-
-**NCLEX:**  
-Withdrawal symptom support.
+<div class="drug-nclex">NCLEX: Breathing first, then naloxone.</div>
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Gastric Lavage</strong>
-
-**Used for:**  
-Class note for sedative-hypnotic overdose.
-
-**Monitor:**  
-Airway protection and facility protocol.
-
-**Teach:**  
-Emergency treatment, not routine care.
-
-**NCLEX:**  
-Sedative overdose care depends on safety and airway.
+<div class="drug-card" markdown="1">
+<div class="drug-card-top">
+<h3>Methadone</h3>
+<span>Opioid withdrawal/maintenance</span>
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Diazepam / Valium</strong>
+**Used for:** Opioid withdrawal or maintenance.  
+**Monitor:** Sedation, respiratory depression, adherence, program requirements.  
+**Teach:** Take only as prescribed. Do not mix with alcohol/CNS depressants.
 
-**Used for:**  
-Alcohol withdrawal seizures; stimulant agitation if ordered.
-
-**Monitor:**  
-Sedation, respiratory depression, falls.
-
-**Teach:**  
-Avoid alcohol/CNS depressants. Use safety precautions.
-
-**NCLEX:**  
-Withdrawal seizure management and agitation control.
+<div class="drug-nclex">NCLEX: Maintenance/withdrawal med, not overdose reversal.</div>
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Chlordiazepoxide / Librium</strong>
-
-**Used for:**  
-Alcohol withdrawal symptom reduction.
-
-**Monitor:**  
-Sedation, respiratory depression, falls.
-
-**Teach:**  
-Dose and frequency are gradually decreased as withdrawal improves. Avoid alcohol/CNS depressants.
-
-**NCLEX:**  
-Classic alcohol withdrawal med from class.
+<div class="drug-card" markdown="1">
+<div class="drug-card-top">
+<h3>Clonidine</h3>
+<span>Opioid withdrawal symptoms</span>
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Lorazepam / Ativan</strong>
+**Used for:** Opioid withdrawal symptoms.  
+**Monitor:** Low BP, dizziness.  
+**Teach:** Change positions slowly. Report fainting or severe dizziness.
 
-**Used for:**  
-Severe alcohol withdrawal or DTs as ordered.
-
-**Monitor:**  
-Sedation, respiratory depression, vital signs, fall risk.
-
-**Teach:**  
-Avoid alcohol/CNS depressants. Use safety precautions.
-
-**NCLEX:**  
-Severe withdrawal/DT medication option.
+<div class="drug-nclex">NCLEX: Helps withdrawal symptoms, watch BP.</div>
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>B Vitamins / Thiamine</strong>
-
-**Used for:**  
-Alcohol use disorder; Wernicke’s/Korsakoff’s prevention or treatment.
-
-**Monitor:**  
-Nutrition status, neuro findings, gait, memory, eye findings.
-
-**Teach:**  
-Alcohol use can cause severe B-vitamin deficiency.
-
-**NCLEX:**  
-Wernicke’s and Korsakoff’s are linked to thiamine deficiency.
+<div class="drug-card" markdown="1">
+<div class="drug-card-top">
+<h3>Buprenorphine / Naloxone</h3>
+<span>Opioid withdrawal/maintenance</span>
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>IV Thiamine</strong>
+**Used for:** Opioid withdrawal or maintenance.  
+**Monitor:** Sedation, withdrawal symptoms, adherence.  
+**Teach:** Use as prescribed as part of recovery plan.
 
-**Used for:**  
-Wernicke’s encephalopathy and Korsakoff’s psychosis.
-
-**Monitor:**  
-Neuro status, gait, memory, nystagmus, pupil findings.
-
-**Teach:**  
-Used to treat alcohol-related thiamine deficiency complications.
-
-**NCLEX:**  
-Thiamine before/with glucose is often emphasized in alcohol care.
+<div class="drug-nclex">NCLEX: Opioid maintenance/withdrawal treatment.</div>
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>IV Glucose</strong>
-
-**Used for:**  
-May be needed in alcohol withdrawal/DTs to prevent hypoglycemia.
-
-**Monitor:**  
-Blood glucose and neuro status.
-
-**Teach:**  
-Given as ordered for low glucose risk.
-
-**NCLEX:**  
-Alcohol withdrawal patients may have nutrition/glucose problems.
+<div class="drug-card" markdown="1">
+<div class="drug-card-top">
+<h3>Lofexidine</h3>
+<span>Opioid withdrawal symptoms</span>
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Furosemide / Lasix</strong>
+**Used for:** Opioid withdrawal symptoms.  
+**Monitor:** BP changes, dizziness, sedation.  
+**Teach:** Follow dosing instructions and report dizziness/fainting.
 
-**Used for:**  
-Ascites/fluid overload in alcohol-related complications if ordered.
-
-**Monitor:**  
-Electrolytes, BP, dehydration, kidney function.
-
-**Teach:**  
-Report dizziness, dehydration symptoms, or muscle weakness.
-
-**NCLEX:**  
-Watch electrolytes and dehydration.
-</div>
-
-<div class="detail-mini-card" markdown="1">
-<strong>Magnesium Sulfate</strong>
-
-**Used for:**  
-Class note: if seizures appear imminent in severe alcohol withdrawal/DTs.
-
-**Monitor:**  
-Respirations, reflexes, BP, magnesium level if ordered.
-
-**Teach:**  
-Report weakness, trouble breathing, or decreased reflexes.
-
-**NCLEX:**  
-Respirations and reflexes matter.
-</div>
-
-<div class="detail-mini-card" markdown="1">
-<strong>Antiemetics</strong>
-
-**Used for:**  
-Nausea/vomiting during withdrawal or related illness.
-
-**Monitor:**  
-Hydration and sedation depending on medication.
-
-**Teach:**  
-Report uncontrolled vomiting or inability to keep fluids down.
-
-**NCLEX:**  
-Prevents fluid/electrolyte worsening.
-</div>
-
-<div class="detail-mini-card" markdown="1">
-<strong>Antidiarrheals</strong>
-
-**Used for:**  
-Diarrhea during withdrawal or related illness.
-
-**Monitor:**  
-Hydration and bowel pattern.
-
-**Teach:**  
-Report severe diarrhea, blood, or dehydration symptoms.
-
-**NCLEX:**  
-Monitor hydration.
-</div>
-
-<div class="detail-mini-card" markdown="1">
-<strong>Disulfiram / Antabuse</strong>
-
-**Used for:**  
-Alcohol aversion therapy.
-
-**Monitor:**  
-Severe reaction with alcohol; can be fatal.
-
-**Teach:**  
-Avoid all alcohol-containing products. Reaction can include N/V, flushing, vertigo, increased pulse, hypotension, HA, SOB, diaphoresis, chest pain, confusion, and may be fatal.
-
-**NCLEX:**  
-No alcohol. Not even hidden sources.
-</div>
-
-<div class="detail-mini-card" markdown="1">
-<strong>Nicotine Replacement Therapy</strong>
-
-**Used for:**  
-Tobacco withdrawal.
-
-**Monitor:**  
-Nicotine exposure, BP/HR depending on patient.
-
-**Teach:**  
-Use exactly as directed.
-
-**NCLEX:**  
-Often paired with behavioral therapy.
-</div>
-
-<div class="detail-mini-card" markdown="1">
-<strong>Varenicline</strong>
-
-**Used for:**  
-Tobacco cessation.
-
-**Monitor:**  
-Mood changes and side effects.
-
-**Teach:**  
-Report mood changes or concerning symptoms.
-
-**NCLEX:**  
-Smoking cessation med.
-</div>
-
-<div class="detail-mini-card" markdown="1">
-<strong>Vyvanse</strong>
-
-**Used for:**  
-Binge eating disorder as ordered.
-
-**Monitor:**  
-Stimulant effects, HR/BP, appetite, insomnia, misuse risk.
-
-**Teach:**  
-Take as prescribed. Report chest pain, palpitations, severe anxiety, or insomnia.
-
-**NCLEX:**  
-Binge eating med from class.
-</div>
-
-<div class="detail-mini-card" markdown="1">
-<strong>Topamax / Topiramate</strong>
-
-**Used for:**  
-Binge eating disorder as ordered.
-
-**Monitor:**  
-Cognitive slowing, dizziness, weight/appetite changes, pregnancy concerns.
-
-**Teach:**  
-Report confusion, severe dizziness, or pregnancy/plans for pregnancy.
-
-**NCLEX:**  
-Special eating disorder-related med.
-</div>
-
-<div class="detail-mini-card" markdown="1">
-<strong>Contrave</strong>
-
-**Used for:**  
-Binge eating/weight-related treatment as ordered.
-
-**Monitor:**  
-BP, mood changes, seizure risk depending on patient.
-
-**Teach:**  
-Take as prescribed. Report mood changes, seizure, or severe BP symptoms.
-
-**NCLEX:**  
-Special binge eating/weight-related med from class.
-</div>
-
-<div class="detail-mini-card" markdown="1">
-<strong>Amobarbital</strong>
-
-**Used for:**  
-Class note for conversion disorder: may help retrieve memories and treat seizures/insomnia.
-
-**Monitor:**  
-Sedation, respiratory depression, safety.
-
-**Teach:**  
-Use only under close medical supervision.
-
-**NCLEX:**  
-Special conversion disorder class note.
+<div class="drug-nclex">NCLEX: Withdrawal symptom support.</div>
 </div>
 
 </div>
 
-<div class="detail-callout" markdown="1">
-<strong>NCLEX:</strong> Substance-use meds usually test ABCs, withdrawal safety, seizure risk, respiratory depression, and patient teaching.
+<h3 class="med-subheading">Alcohol Withdrawal / Alcohol Use Disorder</h3>
+
+<div class="drug-card-grid">
+
+<div class="drug-card" markdown="1">
+<div class="drug-card-top">
+<h3>Diazepam / Valium</h3>
+<span>Benzodiazepine</span>
+</div>
+
+**Used for:** Alcohol withdrawal seizures; stimulant agitation if ordered.  
+**Monitor:** Sedation, respiratory depression, falls.  
+**Teach:** Avoid alcohol/CNS depressants. Use safety precautions.
+
+<div class="drug-nclex">NCLEX: Withdrawal seizure management and agitation control.</div>
+</div>
+
+<div class="drug-card" markdown="1">
+<div class="drug-card-top">
+<h3>Chlordiazepoxide / Librium</h3>
+<span>Alcohol withdrawal</span>
+</div>
+
+**Used for:** Alcohol withdrawal symptom reduction.  
+**Monitor:** Sedation, respiratory depression, falls.  
+**Teach:** Dose and frequency are gradually decreased as withdrawal improves. Avoid alcohol/CNS depressants.
+
+<div class="drug-nclex">NCLEX: Classic alcohol withdrawal med from class.</div>
+</div>
+
+<div class="drug-card" markdown="1">
+<div class="drug-card-top">
+<h3>Lorazepam / Ativan</h3>
+<span>Severe withdrawal / DTs</span>
+</div>
+
+**Used for:** Severe alcohol withdrawal or DTs as ordered.  
+**Monitor:** Sedation, respiratory depression, vital signs, fall risk.  
+**Teach:** Avoid alcohol/CNS depressants. Use safety precautions.
+
+<div class="drug-nclex">NCLEX: Severe withdrawal/DT medication option.</div>
+</div>
+
+<div class="drug-card" markdown="1">
+<div class="drug-card-top">
+<h3>B Vitamins / Thiamine</h3>
+<span>Alcohol-related deficiency</span>
+</div>
+
+**Used for:** Alcohol use disorder; Wernicke’s/Korsakoff’s prevention or treatment.  
+**Monitor:** Nutrition status, neuro findings, gait, memory, eye findings.  
+**Teach:** Alcohol use can cause severe B-vitamin deficiency.
+
+<div class="drug-nclex">NCLEX: Wernicke’s and Korsakoff’s are linked to thiamine deficiency.</div>
+</div>
+
+<div class="drug-card" markdown="1">
+<div class="drug-card-top">
+<h3>IV Thiamine</h3>
+<span>Wernicke’s / Korsakoff’s</span>
+</div>
+
+**Used for:** Wernicke’s encephalopathy and Korsakoff’s psychosis.  
+**Monitor:** Neuro status, gait, memory, nystagmus, pupil findings.  
+**Teach:** Used to treat alcohol-related thiamine deficiency complications.
+
+<div class="drug-nclex">NCLEX: Thiamine before/with glucose is often emphasized in alcohol care.</div>
+</div>
+
+<div class="drug-card" markdown="1">
+<div class="drug-card-top">
+<h3>IV Glucose</h3>
+<span>Hypoglycemia support</span>
+</div>
+
+**Used for:** May be needed in alcohol withdrawal/DTs to prevent hypoglycemia.  
+**Monitor:** Blood glucose and neuro status.  
+**Teach:** Given as ordered for low glucose risk.
+
+<div class="drug-nclex">NCLEX: Alcohol withdrawal patients may have nutrition/glucose problems.</div>
+</div>
+
+<div class="drug-card" markdown="1">
+<div class="drug-card-top">
+<h3>Furosemide / Lasix</h3>
+<span>Ascites/fluid overload class note</span>
+</div>
+
+**Used for:** Ascites/fluid overload in alcohol-related complications if ordered.  
+**Monitor:** Electrolytes, BP, dehydration, kidney function.  
+**Teach:** Report dizziness, dehydration symptoms, or muscle weakness.
+
+<div class="drug-nclex">NCLEX: Watch electrolytes and dehydration.</div>
+</div>
+
+<div class="drug-card" markdown="1">
+<div class="drug-card-top">
+<h3>Magnesium Sulfate</h3>
+<span>Seizure-related class note</span>
+</div>
+
+**Used for:** Class note: if seizures appear imminent in severe alcohol withdrawal/DTs.  
+**Monitor:** Respirations, reflexes, BP, magnesium level if ordered.  
+**Teach:** Report weakness, trouble breathing, or decreased reflexes.
+
+<div class="drug-nclex">NCLEX: Respirations and reflexes matter.</div>
+</div>
+
+<div class="drug-card" markdown="1">
+<div class="drug-card-top">
+<h3>Disulfiram / Antabuse</h3>
+<span>Alcohol aversion therapy</span>
+</div>
+
+**Used for:** Alcohol aversion therapy.  
+**Monitor:** Severe reaction with alcohol; can be fatal.  
+**Teach:** Avoid all alcohol-containing products. Reaction can include N/V, flushing, vertigo, increased pulse, hypotension, headache, SOB, diaphoresis, chest pain, confusion, and may be fatal.
+
+<div class="drug-nclex">NCLEX: No alcohol. Not even hidden sources.</div>
 </div>
 
 </div>
 
-<div class="mh-columns wide-left" markdown="1">
+<h3 class="med-subheading">Symptom Support / Tobacco</h3>
 
-<div class="key-findings" markdown="1">
-<h3>📋 Medication Big Picture</h3>
+<div class="drug-card-grid">
 
-- Antidepressants take weeks and may increase suicide risk early.
-- Benzodiazepines work quickly but increase sedation, falls, tolerance, and dependence.
-- Buspirone is long-term anxiety treatment, not panic rescue.
-- Lithium is the drug of choice for bipolar illness and requires level, renal, and thyroid monitoring.
-- Antipsychotics require EPS/NMS and metabolic monitoring.
-- Naloxone treats opioid overdose after airway/breathing support.
-- Alcohol withdrawal can be life-threatening and often requires benzodiazepines and thiamine.
+<div class="drug-card" markdown="1">
+<div class="drug-card-top">
+<h3>Gastric Lavage</h3>
+<span>Sedative-hypnotic overdose class note</span>
 </div>
 
-<div class="mh-col" markdown="1">
+**Used for:** Class note for sedative-hypnotic overdose.  
+**Monitor:** Airway protection and facility protocol.  
+**Teach:** Emergency treatment, not routine care.
 
-<div class="report-now" markdown="1">
-<h3>Report Immediately</h3>
-
-- Suicidal thoughts after starting antidepressant
-- Serotonin syndrome symptoms
-- Lithium toxicity symptoms
-- Fever, rigidity, or altered mental status on antipsychotic
-- Respiratory depression after opioid/benzo/sedative use
-- Alcohol withdrawal seizures or DT symptoms
-- Severe Antabuse-alcohol reaction
-- Severe rash, bleeding, pancreatitis symptoms, or bone marrow suppression signs with anticonvulsants
+<div class="drug-nclex">NCLEX: Sedative overdose care depends on safety and airway.</div>
 </div>
 
-<div class="nclex-tip" markdown="1">
-<h3>NCLEX Tip</h3>
+<div class="drug-card" markdown="1">
+<div class="drug-card-top">
+<h3>Antiemetics</h3>
+<span>Nausea/vomiting support</span>
+</div>
 
-For psych meds, always ask: **Is the patient safe? Is breathing okay? Is this toxicity? Is this withdrawal? Is this a side effect that can kill them?**
+**Used for:** Nausea/vomiting during withdrawal or related illness.  
+**Monitor:** Hydration and sedation depending on medication.  
+**Teach:** Report uncontrolled vomiting or inability to keep fluids down.
+
+<div class="drug-nclex">NCLEX: Prevents fluid/electrolyte worsening.</div>
+</div>
+
+<div class="drug-card" markdown="1">
+<div class="drug-card-top">
+<h3>Antidiarrheals</h3>
+<span>Diarrhea support</span>
+</div>
+
+**Used for:** Diarrhea during withdrawal or related illness.  
+**Monitor:** Hydration and bowel pattern.  
+**Teach:** Report severe diarrhea, blood, or dehydration symptoms.
+
+<div class="drug-nclex">NCLEX: Monitor hydration.</div>
+</div>
+
+<div class="drug-card" markdown="1">
+<div class="drug-card-top">
+<h3>Nicotine Replacement Therapy</h3>
+<span>Tobacco withdrawal</span>
+</div>
+
+**Used for:** Tobacco withdrawal.  
+**Monitor:** Nicotine exposure, BP/HR depending on patient.  
+**Teach:** Use exactly as directed.
+
+<div class="drug-nclex">NCLEX: Often paired with behavioral therapy.</div>
+</div>
+
+<div class="drug-card" markdown="1">
+<div class="drug-card-top">
+<h3>Varenicline</h3>
+<span>Tobacco cessation</span>
+</div>
+
+**Used for:** Tobacco cessation.  
+**Monitor:** Mood changes and side effects.  
+**Teach:** Report mood changes or concerning symptoms.
+
+<div class="drug-nclex">NCLEX: Smoking cessation med.</div>
 </div>
 
 </div>
+
+<div class="med-teaching-box" markdown="1">
+### Patient Teaching Snapshot
+
+Substance-use meds are usually about **breathing, withdrawal, seizure prevention, vitamin replacement, and relapse prevention**. Alcohol withdrawal and opioid overdose are the highest-priority safety situations.
+</div>
+
+</section>
+
+---
+
+<section class="med-class-section special" id="eating-special">
+
+<div class="med-class-header">
+  <span class="med-class-icon">🍽️</span>
+  <div>
+    <h2>Eating Disorder + Special Class-Note Medications</h2>
+    <p>Medications and treatments mentioned with binge eating disorder, conversion disorder, and specific class notes.</p>
+  </div>
+</div>
+
+<div class="med-class-grid">
+  <div class="med-class-overview" markdown="1">
+### Class Big Picture
+
+- Eating disorder care is not just medication.
+- Therapy, nutrition, medical monitoring, and safety are priority.
+- Binge eating disorder may have specific medication options.
+- Conversion disorder care focuses on supportive treatment and coping.
+  </div>
+
+  <div class="med-nclex-box" markdown="1">
+### NCLEX Loves
+
+- Eating disorders = cardiac/electrolyte/nutrition safety.
+- Stimulants require HR/BP monitoring.
+- Sedatives require respiratory/safety monitoring.
+- Do not challenge conversion symptoms.
+  </div>
+</div>
+
+<div class="drug-card-grid">
+
+<div class="drug-card" markdown="1">
+<div class="drug-card-top">
+<h3>Vyvanse</h3>
+<span>Binge eating disorder</span>
+</div>
+
+**Used for:** Binge eating disorder as ordered.  
+**Monitor:** Stimulant effects, HR/BP, appetite, insomnia, misuse risk.  
+**Teach:** Take as prescribed. Report chest pain, palpitations, severe anxiety, or insomnia.
+
+<div class="drug-nclex">NCLEX: Binge eating med from class.</div>
+</div>
+
+<div class="drug-card" markdown="1">
+<div class="drug-card-top">
+<h3>Topamax / Topiramate</h3>
+<span>Binge eating disorder</span>
+</div>
+
+**Used for:** Binge eating disorder as ordered.  
+**Monitor:** Cognitive slowing, dizziness, weight/appetite changes, pregnancy concerns.  
+**Teach:** Report confusion, severe dizziness, or pregnancy/plans for pregnancy.
+
+<div class="drug-nclex">NCLEX: Special eating disorder-related med.</div>
+</div>
+
+<div class="drug-card" markdown="1">
+<div class="drug-card-top">
+<h3>Contrave</h3>
+<span>Binge eating / weight-related treatment</span>
+</div>
+
+**Used for:** Binge eating/weight-related treatment as ordered.  
+**Monitor:** BP, mood changes, seizure risk depending on patient.  
+**Teach:** Take as prescribed. Report mood changes, seizure, or severe BP symptoms.
+
+<div class="drug-nclex">NCLEX: Special binge eating/weight-related med from class.</div>
+</div>
+
+<div class="drug-card" markdown="1">
+<div class="drug-card-top">
+<h3>Amobarbital</h3>
+<span>Conversion disorder class note</span>
+</div>
+
+**Used for:** Class note for conversion disorder: may help retrieve memories and treat seizures/insomnia.  
+**Monitor:** Sedation, respiratory depression, safety.  
+**Teach:** Use only under close medical supervision.
+
+<div class="drug-nclex">NCLEX: Special conversion disorder class note.</div>
+</div>
+
+</div>
+
+<div class="med-teaching-box" markdown="1">
+### Patient Teaching Snapshot
+
+For special meds, always connect the medication back to the bigger nursing priority: **nutrition, safety, coping, therapy, and medical stability.**
+</div>
+
+</section>
+
+---
+
+<section class="med-class-section master" id="master-chart">
+
+<div class="med-class-header">
+  <span class="med-class-icon">📋</span>
+  <div>
+    <h2>Master Medication Match-Up</h2>
+    <p>Fast review of each medication, category, and biggest NCLEX cue.</p>
+  </div>
 </div>
 
 <div class="mh-table-card" markdown="1">
-
-<h3>Master Medication Match-Up</h3>
 
 | Medication | Class / Category | Biggest NCLEX Cue |
 |---|---|---|
@@ -1100,6 +1016,10 @@ For psych meds, always ask: **Is the patient safe? Is breathing okay? Is this to
 | **Phenelzine** | MAOI | Tyramine restrictions, hypertensive crisis |
 | **Tranylcypromine** | MAOI | Tyramine restrictions, hypertensive crisis |
 | **St. John’s Wort** | Herbal | Drug interactions, serotonin syndrome risk |
+| **ECT** | Depression treatment | Severe/treatment-resistant depression; memory confusion |
+| **TMS** | Depression treatment | Noninvasive; no memory problems noted in class |
+| **Vagus nerve stimulation** | Depression treatment | Implanted device |
+| **Deep brain stimulation** | Depression treatment | Brain bleeding, seizures, stroke |
 | **Benzodiazepines** | Antianxiety / sedative | Sedation, falls, dependence, respiratory depression |
 | **Buspirone / BuSpar** | Antianxiety | Takes weeks; not for panic rescue |
 | **Antihistamines** | Anxiety symptom relief | Sleepiness/sedation |
@@ -1138,14 +1058,16 @@ For psych meds, always ask: **Is the patient safe? Is breathing okay? Is this to
 
 </div>
 
+</section>
+
 <div class="mh-columns" markdown="1">
 
 <div class="quick-review" markdown="1">
 <h3>Quick Review</h3>
 
-1. SSRIs/SNRIs take weeks and need suicide-risk monitoring early.
+1. Antidepressants take weeks and need suicide-risk monitoring early.
 2. MAOIs require tyramine teaching.
-3. Benzodiazepines are quick but risky for sedation, falls, and dependence.
+3. Benzodiazepines are quick but risky for sedation, falls, dependence, and respiratory depression.
 4. Buspirone takes weeks and is not a rescue medication.
 5. Lithium level is 0.6–1.2 mEq/L.
 6. Suspected lithium toxicity means hold the next dose and notify provider.
