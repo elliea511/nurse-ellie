@@ -10,9 +10,9 @@ title: Anxiety, OCD & Trauma Disorders
 
 # Anxiety, OCD & Trauma Disorders
 
-<p class="mh-subtitle">Anxiety level, coping, OCD rituals, trauma care, and medication safety</p>
+<p class="mh-subtitle">Anxiety levels, panic care, OCD rituals, trauma responses, and medication safety</p>
 
-Anxiety disorders are not just “being nervous.” They become a disorder when anxiety is excessive, hard to control, causes avoidance, or interferes with ADLs.
+Anxiety is a feeling of **dread, apprehension, or uneasiness.** It becomes a disorder when it is excessive, persistent, difficult to control, or begins to interfere with ADLs, relationships, thinking, mood, behavior, or physical functioning.
 
 <div class="priority-focus">
   <div>
@@ -24,36 +24,30 @@ Anxiety disorders are not just “being nervous.” They become a disorder when 
 <div class="mh-cards">
   <div class="mh-card purple">
     <div class="mh-card-icon">🧠</div>
-    <h3>What It Is</h3>
-    <p>Anxiety is a feeling of dread, apprehension, or uneasiness that becomes a disorder when it interferes with daily functioning.</p>
+    <h3>Anxiety Basics</h3>
+    <p>Know the difference between normal anxiety and anxiety that interferes with function.</p>
     <a class="mh-btn" href="#panel-anxiety-basics">View Basics</a>
   </div>
 
   <div class="mh-card pink">
-    <div class="mh-card-icon">🚩</div>
-    <h3>Common Signs</h3>
-    <ul>
-      <li>Excessive worry</li>
-      <li>Restlessness</li>
-      <li>Poor concentration</li>
-      <li>Sleep disturbance</li>
-      <li>Avoidance behaviors</li>
-    </ul>
-    <a class="mh-btn" href="#panel-assessment">View Findings</a>
+    <div class="mh-card-icon">🚨</div>
+    <h3>Panic Priority</h3>
+    <p>During panic, the patient cannot process teaching. Stay, decrease stimuli, and use short directions.</p>
+    <a class="mh-btn" href="#panel-panic-priority">Panic Care</a>
   </div>
 
   <div class="mh-card blue">
-    <div class="mh-card-icon">🛡️</div>
-    <h3>Nursing Priority</h3>
-    <p>Assess anxiety level first, reduce stimuli, stay calm, use short directions, and teach coping only when the patient can process.</p>
-    <a class="mh-btn" href="#panel-interventions">See Interventions</a>
+    <div class="mh-card-icon">🔁</div>
+    <h3>OCD + Related</h3>
+    <p>Obsessions are thoughts. Compulsions are actions done to temporarily reduce anxiety.</p>
+    <a class="mh-btn" href="#panel-ocd-related">OCD Review</a>
   </div>
 
   <div class="mh-card green">
     <div class="mh-card-icon">💊</div>
-    <h3>Medications</h3>
-    <p>Know quick relief vs long-term control: benzodiazepines act fast, while SSRIs and buspirone take time.</p>
-    <a class="mh-btn" href="#panel-meds">View Meds</a>
+    <h3>Medication Safety</h3>
+    <p>Know quick relief versus long-term control, especially benzodiazepines and buspirone.</p>
+    <a class="mh-btn" href="#panel-meds">Med Review</a>
   </div>
 </div>
 
@@ -62,203 +56,408 @@ Anxiety disorders are not just “being nervous.” They become a disorder when 
 
 ### Anxiety Basics
 
+<div class="detail-grid" markdown="1">
+
+<div class="detail-mini-card" markdown="1">
+<strong>What Anxiety Is</strong>
+
 Anxiety is a feeling of dread, apprehension, or uneasiness.
 
-Anxiety becomes a disorder when it causes problems with:
+It is a universal human experience, but it becomes a disorder when it is extreme, persistent, or interferes with normal functioning.
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>When It Becomes a Disorder</strong>
+
+Anxiety disorders disturb:
 
 - Thinking
 - Mood
 - Behavior
+- Physical ability to function
 - ADLs
 - Sleep
 - Relationships
-- Physical functioning
-- Avoidance of normal activities
-
-**NCLEX focus:** anxiety level determines what the nurse should do first.
-
 </div>
 
-<div class="mh-detail pink" id="panel-assessment" markdown="1">
-<a class="mh-detail-close" href="#">✕</a>
+<div class="detail-mini-card" markdown="1">
+<strong>Common Findings</strong>
 
-### Common Anxiety Assessment Findings
-
-**Emotional / Cognitive:**
-
-- Feelings of doom
-- Fear
-- Guilt or shame
+- Feelings of impending doom or catastrophe
+- Guilt
+- Shame
 - Helplessness
 - Worthlessness
-- Poor concentration
-- Racing thoughts
-- Irritability
-
-**Physical / Behavioral:**
-
-- Tachycardia
-- Sweating
-- Trembling
-- Shortness of breath
-- GI upset
-- Insomnia
-- Restlessness
 - Avoidance behaviors
+- Difficulty identifying the cause of anxiety
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>General Notes</strong>
+
+- Anxiety can run in families.
+- Patients may change behavior to reduce anxiety.
+- Avoidance can become so severe that it interferes with ADLs.
+- Main treatments include relaxation techniques and antianxiety medications.
+</div>
 
 </div>
 
-<div class="mh-detail blue" id="panel-interventions" markdown="1">
+<div class="detail-table">
+  <table>
+    <thead>
+      <tr>
+        <th>Level</th>
+        <th>What It Looks Like</th>
+        <th>Nursing Focus</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Mild</strong></td>
+        <td>Occurs in everyday life and promotes sharper focus on reality.</td>
+        <td>Teaching and problem-solving can happen.</td>
+      </tr>
+      <tr>
+        <td><strong>Moderate</strong></td>
+        <td>Perceptual field narrows and some details are excluded.</td>
+        <td>Use simple directions and help refocus.</td>
+      </tr>
+      <tr>
+        <td><strong>Severe</strong></td>
+        <td>Perceptual field is severely narrowed and focus on detail is lost.</td>
+        <td>Reduce stimuli, stay calm, and use short directions.</td>
+      </tr>
+      <tr>
+        <td><strong>Panic</strong></td>
+        <td>Extreme anxiety; patient is unable to process the environment.</td>
+        <td>Stay with patient, maintain safety, and give very short directions.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="detail-callout" markdown="1">
+<strong>NCLEX:</strong> Anxiety level determines the nursing action. Mild anxiety can learn; panic anxiety cannot.
+</div>
+
+</div>
+
+<div class="mh-detail pink" id="panel-panic-priority" markdown="1">
 <a class="mh-detail-close" href="#">✕</a>
 
-### Nursing Interventions
+### Panic Priority
 
-- Assess anxiety level before choosing an approach.
-- Stay calm because the patient may mirror the nurse’s anxiety.
-- Use simple directions because anxiety decreases the ability to process.
-- Reduce stimulation because noise and crowds can worsen anxiety.
-- Encourage breathing and relaxation to decrease physiologic arousal.
-- Identify triggers to help prevent future episodes.
-- Teach coping only when the patient is calm enough to learn.
-- Encourage routine because structure decreases uncertainty.
+<div class="detail-grid" markdown="1">
 
-**During panic:** stay with the patient, reduce stimuli, use short directions, and focus on safety.
+<div class="detail-mini-card" markdown="1">
+<strong>Panic Disorder</strong>
+
+Repeated episodes of panic-level anxiety.
+
+Panic attacks often have no identifiable trigger and occur unpredictably.
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>What the Patient May Feel</strong>
+
+- Impending doom
+- Extreme fear or terror
+- Feeling like they are dying
+- Feeling like they are going crazy
+- Desire to leave the environment
+- Worry between attacks about when the next attack will happen
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Assessment Findings</strong>
+
+- Heart palpitations
+- Chest pain
+- Shortness of breath
+- Sweating or trembling
+- Short attention span
+- Poor concentration
+- Irrational thoughts
+- Fight-or-flight response
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Timing</strong>
+
+A panic attack usually peaks in **10–15 minutes** and usually does not last longer than **30 minutes**.
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Nursing Action</strong>
+
+- Stay with the patient.
+- Maintain your own composure.
+- Move to a quiet area if possible.
+- Decrease stimulation.
+- Use short, simple directions.
+- Encourage slow breathing.
+- Teach coping later, after anxiety decreases.
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Other Notes</strong>
+
+- Chest pain and shortness of breath may cause the patient to seek care in the ER.
+- Patient may use alcohol or drugs to reduce anxiety.
+- Common comorbidities include depression and substance abuse disorder.
+</div>
+
+</div>
+
+<div class="detail-callout" markdown="1">
+<strong>Say:</strong> “You are safe. I will stay with you. Breathe slowly with me.”
+</div>
+
+<div class="detail-callout" markdown="1">
+<strong>NCLEX:</strong> During panic, do not teach first. Calm, safety, and short directions come first.
+</div>
+
+</div>
+
+<div class="mh-detail blue" id="panel-ocd-related" markdown="1">
+<a class="mh-detail-close" href="#">✕</a>
+
+### OCD + Related Disorders
+
+<div class="detail-grid" markdown="1">
+
+<div class="detail-mini-card" markdown="1">
+<strong>OCD Basics</strong>
+
+**Obsession:** persistent, recurrent, unwanted thought.
+
+**Compulsion:** action that temporarily reduces anxiety and tension.
+
+The obsession causes anxiety until the client feels compelled to act.
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>OCD Cycle</strong>
+
+1. Obsession occurs.
+2. Anxiety increases.
+3. Patient performs compulsion.
+4. Anxiety temporarily decreases.
+5. Obsession returns and cycle repeats.
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>OCD Clues</strong>
+
+- Ritual becomes elaborate and time-consuming.
+- Ritual must be performed correctly or there is no relief.
+- Diagnosed when rituals begin interfering with life.
+- More common in females.
+- Rare to develop after age 35.
+- May have childhood physical or sexual abuse history.
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>OCD Treatment</strong>
+
+- Behavior therapy
+- Gradual decrease in ritual frequency
+- Rewards for compliance with treatment plan
+- Relaxation to keep anxiety level low
+- Antidepressants, SSRIs, TCAs, fluvoxamine/Luvox as ordered
+- Medications may be long-term or lifelong
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Comorbidities</strong>
+
+OCD may coexist with:
+
+- Depression
+- Bipolar disorder
+- Eating disorders
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Thought Stopping</strong>
+
+Patient interrupts an obsession or negative thought.
+
+- Say “Stop”
+- Snap a rubber band or use another cue
+- Replace the unwanted thought with a more positive thought
+- Requires practice and follow-through
+</div>
+
+</div>
+
+<div class="detail-table">
+  <table>
+    <thead>
+      <tr>
+        <th>Disorder</th>
+        <th>Key Idea</th>
+        <th>Nursing Focus</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Body Dysmorphic Disorder</strong></td>
+        <td>Obsessive and compulsive thoughts about a perceived body defect that appears normal to others.</td>
+        <td>Do not reinforce distorted belief. Focus on feelings, functioning, CBT, and suicide risk.</td>
+      </tr>
+      <tr>
+        <td><strong>Hoarding Disorder</strong></td>
+        <td>Difficulty discarding items, often worthless items or animals; worsens with age.</td>
+        <td>Assess safety, fire risk, fall risk, infection risk, and decision-making stress.</td>
+      </tr>
+      <tr>
+        <td><strong>Trichotillomania</strong></td>
+        <td>Repetitively pulling out one’s own hair. Trichophagia may occur, meaning swallowing pulled-out hair.</td>
+        <td>Assess anxiety, shame, appearance changes, and coping. Encourage habit reversal/CBT.</td>
+      </tr>
+      <tr>
+        <td><strong>Excoriation</strong></td>
+        <td>Repetitively picking at skin; may cause scarring or infection.</td>
+        <td>Assess skin integrity, infection, anxiety, and coping strategies.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="detail-callout" markdown="1">
+<strong>NCLEX:</strong> Do not suddenly block all OCD rituals. Gradually reduce ritual time while teaching coping.
+</div>
 
 </div>
 
 <div class="mh-detail green" id="panel-meds" markdown="1">
 <a class="mh-detail-close" href="#">✕</a>
 
-### Anti-Anxiety Medications
+### Medication Safety
 
-| Medication/Class | Key Point | Nursing Focus |
-|---|---|---|
-| **SSRIs** | Long-term anxiety treatment | Takes weeks, monitor suicide risk early |
-| **Benzodiazepines** | Quick relief | Short-term use, sedation, falls, dependence |
-| **Buspirone** | Long-term anxiety treatment | Takes weeks, no tolerance/addiction |
-| **Antihistamines** | Can reduce anxiety | Sedation |
-| **Beta blockers** | Reduce physical symptoms | Check HR/BP |
-| **Fluvoxamine/TCAs** | Used for OCD | Side effects, adherence |
-| **Antipsychotics** | Severe symptoms only | EPS, NMS, metabolic effects |
+<div class="detail-table">
+  <table>
+    <thead>
+      <tr>
+        <th>Medication/Class</th>
+        <th>Use</th>
+        <th>Nursing Considerations</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Benzodiazepines</strong></td>
+        <td>Quick relief of anxiety and panic symptoms.</td>
+        <td>Short-term use. Monitor sedation, falls, tolerance, physical/psychological addiction, and respiratory depression with overdose.</td>
+      </tr>
+      <tr>
+        <td><strong>Buspirone / BuSpar</strong></td>
+        <td>Long-term anxiety treatment.</td>
+        <td>Takes weeks to reach therapeutic level. No tolerance or addiction. Not for immediate panic relief. Use caution with liver or kidney disease.</td>
+      </tr>
+      <tr>
+        <td><strong>Antihistamines</strong></td>
+        <td>Can decrease anxiety.</td>
+        <td>May cause sleepiness/sedation.</td>
+      </tr>
+      <tr>
+        <td><strong>Beta blockers</strong></td>
+        <td>Reduce physical symptoms of anxiety.</td>
+        <td>Example: propranolol/Inderal. Monitor HR and BP.</td>
+      </tr>
+      <tr>
+        <td><strong>SSRIs / Antidepressants</strong></td>
+        <td>Long-term anxiety, OCD, PTSD, depression symptoms.</td>
+        <td>Take consistently. Takes time to work. Monitor suicide risk early in treatment.</td>
+      </tr>
+      <tr>
+        <td><strong>Fluvoxamine / Luvox</strong></td>
+        <td>Used for OCD.</td>
+        <td>Know it as a key OCD medication for class. TCAs and SSRIs may also be used.</td>
+      </tr>
+      <tr>
+        <td><strong>Antipsychotics</strong></td>
+        <td>May be used if anxiety symptoms are very severe.</td>
+        <td>Monitor EPS, NMS, sedation, and metabolic effects.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
-**Benzodiazepines:** lorazepam, diazepam, alprazolam, clonazepam.
+<div class="detail-callout" markdown="1">
+<strong>NCLEX:</strong> Benzodiazepines work quickly but have sedation, fall, tolerance, and dependence risks.
+</div>
 
-- Use short-term if possible.
-- Can cause sedation.
-- Avoid alcohol and other CNS depressants.
-- Increased fall risk.
-- Can cause tolerance/dependence.
-- Do not stop suddenly if long-term use.
-
-**Buspirone:**
-
-- Useful for long-term anxiety.
-- Takes weeks to work.
-- Does not cause tolerance/addiction like benzodiazepines.
-- Not useful for immediate panic relief.
-- Avoid if severe liver/kidney disease unless provider approves.
-- Take consistently.
-
-**NCLEX:** Buspirone is not a rescue medication.
+<div class="detail-callout" markdown="1">
+<strong>NCLEX:</strong> Buspirone takes weeks and is not a rescue medication for panic.
+</div>
 
 </div>
 
-<div class="mh-columns">
-  <div class="key-findings">
-    <h3>📋 Key Assessment Findings</h3>
-    <ul>
-      <li>Assess the patient’s anxiety level before choosing the intervention.</li>
-      <li>Mild anxiety may improve focus.</li>
-      <li>Severe anxiety and panic prevent learning and problem-solving.</li>
-      <li>Look for avoidance, restlessness, poor concentration, insomnia, and physical symptoms.</li>
-      <li>Always assess for safety, substance use, and suicide risk when symptoms are severe or worsening.</li>
-    </ul>
-  </div>
-  <div class="mh-col">
-    <div class="report-now">
-      <h3>Report Immediately</h3>
-      <ul>
-        <li>Suicidal thoughts or statements</li>
-        <li>Severe panic with inability to maintain safety</li>
-        <li>Command hallucinations or psychosis with anxiety</li>
-        <li>Substance use with severe anxiety</li>
-        <li>Severe withdrawal symptoms</li>
-        <li>New or worsening symptoms that impair ability to care for self</li>
-      </ul>
-    </div>
-    <div class="nclex-tip">
-      <h3>NCLEX Tip</h3>
-      During severe anxiety or panic, do not teach first. Stay with the patient, reduce stimulation, and use short directions.
-    </div>
-  </div>
+<div class="mh-columns wide-left" markdown="1">
+
+<div class="key-findings" markdown="1">
+<h3>📋 Anxiety Big Picture</h3>
+
+- Anxiety becomes a disorder when it interferes with daily function.
+- Avoidance behaviors can worsen anxiety over time.
+- Assess anxiety level before choosing an intervention.
+- Severe anxiety and panic limit the patient’s ability to process information.
+- Safety, calm communication, and support come before teaching.
+- Relaxation techniques and medications are common treatments.
 </div>
 
-<div class="mh-table-card" markdown="1">
+<div class="mh-col" markdown="1">
 
-<h3>Anxiety Levels</h3>
+<div class="report-now" markdown="1">
+<h3>Report Immediately</h3>
 
-| Level | What It Looks Like | Nursing Focus |
-|---|---|---|
-| **Mild** | Alert, focused, slightly restless | Teaching and problem-solving can happen |
-| **Moderate** | Narrowed focus, tense, some details missed | Use simple explanations and refocus |
-| **Severe** | Poor concentration, physical symptoms, pacing | Reduce stimuli, stay calm, short directions |
-| **Panic** | Unable to process, feels out of control or dying | Stay with patient, safety, very short directions |
-
+- Suicidal thoughts or statements
+- Severe panic with inability to maintain safety
+- Command hallucinations or psychosis with anxiety
+- Substance use with severe anxiety
+- Severe withdrawal symptoms
+- New or worsening inability to care for self
 </div>
 
-<div class="nclex-tip">
-  <h3>Anxiety Level Reminder</h3>
-  Mild anxiety can improve focus. Panic-level anxiety prevents learning and problem-solving.
+<div class="nclex-tip" markdown="1">
+<h3>NCLEX Tip</h3>
+
+During severe anxiety or panic, decrease anxiety first. Teaching and problem-solving come later.
+</div>
+
+</div>
 </div>
 
 <div class="mh-cards">
   <div class="mh-card purple">
-    <div class="mh-card-icon">🧠</div>
+    <div class="mh-card-icon">🧩</div>
     <h3>Anxiety Disorders</h3>
-    <ul>
-      <li>Generalized Anxiety Disorder</li>
-      <li>Panic Disorder</li>
-      <li>Phobias</li>
-      <li>Social Anxiety Disorder</li>
-      <li>Agoraphobia</li>
-      <li>Separation Anxiety</li>
-    </ul>
-    <a class="mh-btn" href="#panel-anxiety-disorders">View Details</a>
+    <p>GAD, panic disorder, phobias, social anxiety, agoraphobia, and separation anxiety.</p>
+    <a class="mh-btn" href="#panel-anxiety-disorders">Study Disorders</a>
   </div>
 
   <div class="mh-card pink">
     <div class="mh-card-icon">🔁</div>
-    <h3>OCD + Related</h3>
-    <ul>
-      <li>Obsessions</li>
-      <li>Compulsions</li>
-      <li>Body dysmorphic disorder</li>
-      <li>Hoarding disorder</li>
-      <li>Trichotillomania</li>
-      <li>Excoriation</li>
-    </ul>
-    <a class="mh-btn" href="#panel-ocd">View OCD</a>
+    <h3>OCD-Related Disorders</h3>
+    <p>OCD, body dysmorphic disorder, hoarding, trichotillomania, and excoriation.</p>
+    <a class="mh-btn" href="#panel-ocd-deeper">Study OCD</a>
   </div>
 
   <div class="mh-card blue">
     <div class="mh-card-icon">🌩️</div>
     <h3>Trauma Disorders</h3>
-    <ul>
-      <li>PTSD</li>
-      <li>Acute Stress Disorder</li>
-      <li>Adjustment Disorder</li>
-      <li>Flashbacks</li>
-      <li>Grounding</li>
-      <li>Trauma-informed care</li>
-    </ul>
-    <a class="mh-btn" href="#panel-trauma">View Trauma</a>
+    <p>PTSD, acute stress disorder, and adjustment disorder.</p>
+    <a class="mh-btn" href="#panel-trauma">Study Trauma</a>
   </div>
 
   <div class="mh-card green">
     <div class="mh-card-icon">🎯</div>
-    <h3>Priority Question</h3>
-    <p>Can the patient learn right now, or do they need calming and safety first?</p>
-    <a class="mh-btn" href="#panel-priority">Priority Cues</a>
+    <h3>Priority Cues</h3>
+    <p>Know what to do first based on anxiety level, rituals, flashbacks, and safety risks.</p>
+    <a class="mh-btn" href="#panel-priority">Priority Review</a>
   </div>
 </div>
 
@@ -267,280 +466,140 @@ Anxiety becomes a disorder when it causes problems with:
 
 ### Anxiety Disorders
 
-**Generalized Anxiety Disorder**
+<div class="detail-table">
+  <table>
+    <thead>
+      <tr>
+        <th>Disorder</th>
+        <th>Key Findings</th>
+        <th>Treatment / Nursing Focus</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Generalized Anxiety Disorder</strong></td>
+        <td>Excessive worry about everything and small details; tense, overreacts, poor concentration, difficulty making decisions, insomnia, fatigue, cannot “shut off” brain.</td>
+        <td>Keep anxiety level as low as possible. Relaxation, antianxiety meds, support, routine, sleep promotion.</td>
+      </tr>
+      <tr>
+        <td><strong>Panic Disorder</strong></td>
+        <td>Repeated panic attacks with no predictable trigger. Impending doom, palpitations, chest pain, SOB, irrational thoughts, fear of dying or going crazy.</td>
+        <td>Stay with patient, decrease stimuli, short directions, slow breathing, teach coping after panic decreases.</td>
+      </tr>
+      <tr>
+        <td><strong>Specific Phobia</strong></td>
+        <td>Intense irrational fear of a certain object or situation. Patient recognizes fear is irrational. Anxiety increases when faced with object/situation. Avoidance restricts activities.</td>
+        <td>Systematic desensitization, flooding, CBT, relaxation, medications if ordered.</td>
+      </tr>
+      <tr>
+        <td><strong>Social Anxiety Disorder</strong></td>
+        <td>Fear of embarrassment, public ridicule, or being judged. May stay in background, avoid public speaking, avoid answering in class, or feign illness to avoid situations.</td>
+        <td>Gradual exposure, systematic desensitization, antianxiety meds, beta blockers, antidepressants, social skills support.</td>
+      </tr>
+      <tr>
+        <td><strong>Agoraphobia</strong></td>
+        <td>Fear of open spaces or being trapped without a way to escape. May fear public places, crowds, transportation, or being unable to get help.</td>
+        <td>Education, relaxation, support, stay with client, antianxiety meds, benzodiazepines for quick relief if ordered.</td>
+      </tr>
+      <tr>
+        <td><strong>Separation Anxiety</strong></td>
+        <td>Normal in toddlers, abnormal in adolescents/adults. Nightmares, insomnia, clinginess, lack of self-direction. May follow traumatic loss or assault.</td>
+        <td>Assess trauma/loss, support independence gradually, coping skills, treat coexisting disorders.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
-Generalized anxiety disorder is excessive anxiety and worry about many things. The person may feel like they cannot “shut off” their brain.
+<div class="detail-table">
+  <table>
+    <thead>
+      <tr>
+        <th>Disorder</th>
+        <th>Risk / Comorbidity Notes</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>GAD</strong></td>
+        <td>More common in females. May be linked to adverse childhood experiences or overprotective parents. Comorbidities include other anxiety disorders and depression.</td>
+      </tr>
+      <tr>
+        <td><strong>Phobias</strong></td>
+        <td>Often occur in childhood. May use drugs or alcohol to reduce anxiety. Comorbidities include depression, anxiety disorders, somatic disorders, and personality disorders.</td>
+      </tr>
+      <tr>
+        <td><strong>Social Anxiety</strong></td>
+        <td>More common in females. May have negative childhood experiences. Comorbidities include depression, substance abuse, body dysmorphic disorder, and bipolar illness.</td>
+      </tr>
+      <tr>
+        <td><strong>Agoraphobia</strong></td>
+        <td>Most common onset is late adolescence to middle age. Earlier onset is usually more severe. Rare after age 50. May occur with major depression, substance abuse, or other anxiety disorders.</td>
+      </tr>
+      <tr>
+        <td><strong>Separation Anxiety</strong></td>
+        <td>May coexist with depressive disorders, other anxiety disorders, and personality disorders. Clinginess can lead to rejection by others, worsening symptoms.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
-**Assessment:**
-
-- Constant worry
-- Trouble concentrating
-- Insomnia
-- Fatigue
-- Muscle tension
-- Overreacting to small details
-- Difficulty making decisions
-
-**Nursing Interventions:**
-
-- Keep anxiety level low.
-- Teach relaxation.
-- Encourage journaling.
-- Promote sleep routine.
-- Encourage exercise.
-- Give simple choices.
-- Administer medications as ordered.
-
-**Panic Disorder**
-
-Panic disorder involves repeated panic attacks that occur unpredictably. A panic attack is sudden, intense fear that may feel like dying, losing control, or “going crazy.”
-
-**Panic Attack Findings:**
-
-- Feeling of impending doom
-- Chest pain
-- Shortness of breath
-- Palpitations
-- Trembling
-- Sweating
-- Dizziness
-- Poor concentration
-- Irrational thoughts
-- Desire to escape
-
-Panic attacks usually peak in about **10–15 minutes** and often do not last longer than **30 minutes**.
-
-**During a Panic Attack:**
-
-- Stay with the patient.
-- Maintain calm voice.
-- Move to quiet area.
-- Use short directions.
-- Encourage slow breathing.
-- Avoid touching unless needed.
-- Teach coping later.
-
-Example: **“You are safe. I will stay with you. Breathe in slowly with me.”**
-
-**Phobias**
-
-A phobia is an intense, irrational fear of a specific object or situation. The patient usually knows the fear is irrational, but still feels unable to control it.
-
-Common examples: spiders, heights, flying, needles, elevators, dogs, storms.
-
-**Assessment:**
-
-- Anxiety increases near feared object/situation.
-- Avoidance can restrict life.
-- Fear interferes with daily life.
-- May use alcohol/drugs to cope.
-
-**Treatment:**
-
-| Treatment | Meaning |
-|---|---|
-| **Systematic desensitization** | Gradual exposure while using relaxation |
-| **Flooding** | Direct exposure to feared object/situation until anxiety decreases |
-| **CBT** | Challenges irrational fear thoughts |
-| **Medication** | Antianxiety meds, antidepressants, or beta blockers if ordered |
-
-**NCLEX:** Systematic desensitization is gradual. Flooding is intense/direct exposure.
-
-**Social Anxiety Disorder**
-
-Social anxiety disorder is fear of embarrassment, judgment, or public ridicule in social situations.
-
-**Assessment:**
-
-- Fear of speaking in public
-- Avoids answering questions in class/group
-- Likes to stay unnoticed
-- Fear of being laughed at
-- May feign illness to avoid social situations
-- Social avoidance interferes with life
-- Low self-confidence
-
-**Nursing Care:**
-
-- Encourage gradual exposure.
-- Teach relaxation.
-- Support social skills practice.
-- Avoid forcing public speaking suddenly.
-- Give positive feedback.
-- Administer meds as ordered.
-
-**Agoraphobia**
-
-Agoraphobia is fear of being in places where escape may be difficult or help may not be available. It is often described as fear of open spaces, crowds, public transportation, or being trapped.
-
-**Assessment:**
-
-- Fear of being trapped
-- Fear of not being able to escape
-- Avoids public places
-- May become homebound
-- Panic symptoms in public
-- Needs support person to leave home
-
-**Nursing Care:**
-
-- Stay with client during high anxiety.
-- Provide support.
-- Teach relaxation.
-- Encourage gradual exposure.
-- Administer medications as ordered.
-
-**Separation Anxiety**
-
-Separation anxiety is normal in toddlers, but abnormal when it persists or appears in older children, teens, or adults and interferes with functioning.
-
-**Assessment:**
-
-- Clinginess
-- Nightmares
-- Insomnia
-- Fear of separation
-- Lack of self-direction
-- Anxiety when away from attachment figure
-
-**Nursing Focus:**
-
-- Assess trauma or loss history.
-- Encourage independence gradually.
-- Teach coping skills.
-- Support healthy relationships.
-- Treat coexisting depression/anxiety if ordered.
+<div class="detail-callout" markdown="1">
+<strong>NCLEX:</strong> Systematic desensitization is gradual exposure. Flooding is direct/intense exposure.
+</div>
 
 </div>
 
-<div class="mh-detail pink" id="panel-ocd" markdown="1">
+<div class="mh-detail pink" id="panel-ocd-deeper" markdown="1">
 <a class="mh-detail-close" href="#">✕</a>
 
-### OCD and Related Disorders
+### OCD-Related Disorders
 
-**Obsessive-Compulsive Disorder**
+<div class="detail-table">
+  <table>
+    <thead>
+      <tr>
+        <th>Condition</th>
+        <th>What It Looks Like</th>
+        <th>Nursing Focus</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>OCD</strong></td>
+        <td>Obsessions create anxiety; compulsions temporarily reduce anxiety. Rituals become time-consuming and must be done correctly for relief.</td>
+        <td>Gradually decrease ritual performance, teach relaxation, encourage behavior therapy, support medication adherence.</td>
+      </tr>
+      <tr>
+        <td><strong>Body Dysmorphic Disorder</strong></td>
+        <td>Obsessive belief that a body part is defective or ugly even though it appears normal to others. May seek repeated cosmetic procedures but remains dissatisfied.</td>
+        <td>Do not reinforce distorted belief. Focus on feelings, functioning, CBT, and safety.</td>
+      </tr>
+      <tr>
+        <td><strong>Hoarding Disorder</strong></td>
+        <td>Hoarding worthless items or animals. Distress with discarding. Family may distance themselves. Patient may not see hoarding as a problem.</td>
+        <td>Assess safety, fire/fall/infection risks, family strain, and distress around decision-making.</td>
+      </tr>
+      <tr>
+        <td><strong>Trichotillomania</strong></td>
+        <td>Repeatedly pulling out own hair. May relieve built-up anxiety. Trichophagia may occur.</td>
+        <td>Assess anxiety, shame, altered appearance, and coping. Encourage CBT/habit reversal.</td>
+      </tr>
+      <tr>
+        <td><strong>Excoriation</strong></td>
+        <td>Repeated skin picking. May use instruments. Can cause scarring and infections.</td>
+        <td>Assess skin integrity, infection risk, anxiety, and coping strategies.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
-OCD involves **obsessions** and **compulsions**.
+<div class="detail-callout" markdown="1">
+<strong>NCLEX:</strong> Obsessions are thoughts. Compulsions are actions.
+</div>
 
-| Term | Meaning |
-|---|---|
-| **Obsession** | Persistent, unwanted thought that causes anxiety |
-| **Compulsion** | Repetitive behavior done to reduce anxiety |
-
-Example:
-
-- Obsessive thought: “My hands are contaminated.”
-- Compulsion: washing hands repeatedly.
-
-**OCD Cycle**
-
-| Step | What Happens |
-|---|---|
-| **1. Obsession** | Unwanted thought occurs |
-| **2. Anxiety increases** | Tension builds |
-| **3. Compulsion** | Patient performs ritual |
-| **4. Temporary relief** | Anxiety decreases briefly |
-| **5. Obsession returns** | Cycle repeats |
-
-**NCLEX:** Obsessions are thoughts. Compulsions are actions.
-
-**OCD Assessment:**
-
-- Rituals become time-consuming.
-- Patient feels driven to perform behavior.
-- Anxiety increases if ritual is blocked.
-- Ritual must be performed “correctly.”
-- Interferes with ADLs/work/school.
-- Patient may feel shame.
-- Depression, eating disorders, or bipolar disorder may coexist.
-
-Common compulsions:
-
-- Handwashing
-- Checking locks/stove
-- Counting
-- Ordering/arranging
-- Repeating words
-- Cleaning
-
-**OCD Nursing Interventions:**
-
-- Allow time for ritual at first if needed.
-- Gradually limit ritual time/frequency.
-- Teach relaxation.
-- Use behavior therapy plan.
-- Give positive feedback for progress.
-- Encourage CBT.
-- Administer medications as ordered.
-
-**Do not suddenly block all rituals.** Gradually reduce ritual time while teaching coping skills.
-
-**Thought Stopping**
-
-Thought stopping is a technique to interrupt an obsessive or negative thought:
-
-1. Say “Stop.”
-2. Use a cue, such as snapping a rubber band.
-3. Replace the unwanted thought with a more positive or realistic thought.
-
-**Body Dysmorphic Disorder**
-
-Body dysmorphic disorder involves obsessive thoughts about a perceived body defect that appears normal or minor to others.
-
-**Assessment:**
-
-- Preoccupation with perceived body flaw
-- Repeated mirror checking or hiding body part
-- Seeking cosmetic procedures
-- Not satisfied even after surgery
-- Anxiety, depression, or substance use may coexist
-
-**Nursing Focus:**
-
-- Do not reinforce distorted belief.
-- Focus on feelings and functioning.
-- Encourage CBT.
-- Monitor for depression/suicide risk.
-- Limit reassurance-seeking.
-
-**Hoarding Disorder**
-
-Hoarding disorder involves difficulty discarding items, even if they seem worthless. The person feels extreme distress when asked to get rid of items.
-
-**Assessment:**
-
-- Excessive saving of items
-- Difficulty discarding
-- Living areas cluttered/unusable
-- Family frustration/isolation
-- Anxiety when discarding items
-- May hoard animals
-- Usually worsens with age
-
-**Nursing Focus:**
-
-- Assess safety of environment.
-- Assess fire, fall, and infection risks.
-- Encourage therapy.
-- Avoid forcing sudden cleanout unless safety emergency.
-- Work gradually on decision-making and coping.
-
-**Trichotillomania and Excoriation**
-
-| Disorder | Meaning |
-|---|---|
-| **Trichotillomania** | Repeatedly pulling out hair |
-| **Excoriation** | Repeatedly picking skin |
-
-These behaviors may temporarily relieve anxiety.
-
-**Nursing Focus:**
-
-- Assess infection/skin damage.
-- Assess shame/anxiety.
-- Teach competing response.
-- Encourage CBT/habit reversal.
-- Monitor for OCD.
+<div class="detail-callout" markdown="1">
+<strong>OCD care:</strong> Do not abruptly remove all rituals. Reduce ritual time/frequency gradually.
+</div>
 
 </div>
 
@@ -549,254 +608,207 @@ These behaviors may temporarily relieve anxiety.
 
 ### Trauma Disorders
 
-**PTSD**
+<div class="detail-table">
+  <table>
+    <thead>
+      <tr>
+        <th>Disorder</th>
+        <th>Trigger / Timing</th>
+        <th>Assessment Findings</th>
+        <th>Treatment / Nursing Focus</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>PTSD</strong></td>
+        <td>After severe trauma such as physical/sexual assault, war, accidents, natural disasters, or prolonged severe stress.</td>
+        <td>Intrusive thoughts, nightmares, flashbacks, avoidance, irritability, hypervigilance, depression, poor sleep, difficulty trusting, relationship problems.</td>
+        <td>Establish trust, provide safety, avoid forcing details, grounding, psychotherapy, group therapy, cautious short-term meds if severe.</td>
+      </tr>
+      <tr>
+        <td><strong>Acute Stress Disorder</strong></td>
+        <td>Occurs after a recent stressful event. Diagnosed within the early post-event period up to about 1 month.</td>
+        <td>Derealization, intrusive thoughts, prolonged stress, avoidance, hypervigilance, agitation, restlessness, difficulty telling others what happened.</td>
+        <td>Establish trust, help problem-solve, involve support people, refer to agencies for recovery assistance.</td>
+      </tr>
+      <tr>
+        <td><strong>Adjustment Disorder</strong></td>
+        <td>Occurs within 3 months of a stressful life event that disrupts normal routine.</td>
+        <td>Depression, anxiety, anger, social withdrawal, impaired functioning, emptiness, inability to plan for future, relationship difficulty.</td>
+        <td>Psychotherapy, family therapy, group therapy, crisis intervention, anxiety meds or antidepressants if ordered.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
-PTSD can occur after experiencing or witnessing a traumatic event such as assault, war, accident, natural disaster, or prolonged severe stress.
+<div class="detail-grid" markdown="1">
 
-| Symptom Cluster | Examples |
-|---|---|
-| **Intrusion** | Flashbacks, nightmares, intrusive thoughts |
-| **Avoidance** | Avoids reminders of trauma |
-| **Negative mood/thoughts** | Depression, guilt, emotional numbness |
-| **Hyperarousal** | Hypervigilance, irritability, poor sleep, exaggerated startle |
+<div class="detail-mini-card" markdown="1">
+<strong>PTSD Flashback</strong>
 
-**Flashback:** the patient feels like the trauma is happening again in the present.
+The patient believes the traumatic event is currently happening again in the present.
 
-**PTSD Assessment:**
+Use grounding to bring the patient back to the current environment.
+</div>
 
-- Intrusive memories
-- Nightmares
-- Flashbacks
-- Avoids reminders
-- Hypervigilance
-- Irritability
-- Depression
-- Sleep problems
-- Difficulty trusting others
-- Substance use risk
-- Relationship difficulties
+<div class="detail-mini-card" markdown="1">
+<strong>Grounding Examples</strong>
 
-**PTSD Nursing Care:**
-
-- Establish trust.
-- Explain before touching.
-- Ask permission when possible.
-- Provide calm environment.
-- Avoid forcing details.
-- Encourage grounding.
-- Support therapy/group therapy.
-- Assess suicide/substance use.
-
-**NCLEX:** With PTSD, do not force the patient to relive or explain the trauma before they are ready. Safety and trust come first.
-
-**Grounding During Flashback**
-
-Grounding helps bring the patient back to the present:
-
-- “You are in the hospital. Today is ____. You are safe right now.”
+- “You are in the hospital.”
+- “Today is ____.”
+- “You are safe right now.”
 - Name 5 things you see.
 - Feel feet on the floor.
-- Hold a cold object.
 - Use slow breathing.
-- Describe the room.
+</div>
 
-**Acute Stress Disorder**
+<div class="detail-mini-card" markdown="1">
+<strong>PTSD Medication Note</strong>
 
-Acute stress disorder occurs soon after a traumatic event. It is diagnosed when symptoms occur within about **3 days to 1 month** after the event.
+Medications are used cautiously and often short-term because patients with PTSD may have increased risk for substance abuse.
+</div>
 
-**Assessment:**
-
-- Derealization
-- Intrusive thoughts
-- Avoiding reminders
-- Hypervigilance
-- Agitation
-- Restlessness
-- Difficulty explaining what happened
-- Sleep disturbance
-
-**Nursing Care:**
-
-- Establish trust.
-- Support problem-solving.
-- Involve support people.
-- Refer to appropriate agencies.
-- Teach grounding/relaxation.
-- Assess suicide risk.
-
-**Adjustment Disorder**
-
-Adjustment disorder is an emotional or behavioral response to a stressful life event. It usually occurs within **3 months** of the stressor.
-
-Examples:
+<div class="detail-mini-card" markdown="1">
+<strong>Adjustment Disorder Examples</strong>
 
 - Retirement
-- Moving to a nursing home
-- Death of a loved one
-- Serious diagnosis
-- Divorce
-- Job loss
-- Major life change
+- Nursing home placement
+- Death of loved one
+- Serious illness diagnosis
+- Diabetes, heart disease, kidney disease
+- Major life change requiring immediate routine changes
+</div>
 
-Symptoms may include:
+</div>
 
-- Depression
-- Anxiety
-- Anger
-- Social withdrawal
-- Impaired functioning
-- Emptiness
-- Difficulty planning for future
-- Relationship difficulty
-
-Treatment includes psychotherapy, family therapy, group therapy, crisis intervention, antidepressants or antianxiety meds if ordered, and support system involvement.
+<div class="detail-callout" markdown="1">
+<strong>NCLEX:</strong> For PTSD, do not force the patient to describe or relive the trauma before they are ready. Safety and trust come first.
+</div>
 
 </div>
 
 <div class="mh-detail green" id="panel-priority" markdown="1">
 <a class="mh-detail-close" href="#">✕</a>
 
-### Priority Cues
+### Priority Review
 
-**Anxiety Priority Chart**
-
-| Situation | First Nursing Action |
-|---|---|
-| Mild anxiety | Teach coping/problem-solving |
-| Moderate anxiety | Use simple directions |
-| Severe anxiety | Reduce stimuli and stay calm |
-| Panic attack | Stay with patient and use short directions |
-| Patient hyperventilating | Coach slow breathing |
-| Patient cannot focus | Decrease anxiety before teaching |
-
-**OCD Priority Chart**
-
-| Situation | First Nursing Action |
-|---|---|
-| Rituals interfere with ADLs | Gradually reduce ritual time |
-| Patient becomes anxious when ritual blocked | Support coping/relaxation |
-| Obsession causes distress | Teach thought stopping/CBT strategies |
-| Skin breakdown from washing/picking | Assess and treat skin |
-| Patient feels shame | Use nonjudgmental communication |
-
-**Trauma Priority Chart**
-
-| Situation | First Nursing Action |
-|---|---|
-| Flashback | Ground patient to present |
-| PTSD patient avoids details | Do not force discussion |
-| Acute trauma | Establish safety and trust |
-| Hypervigilance | Reduce stimulation |
-| Trauma patient has suicidal thoughts | Assess plan/means/intent |
-| Sexual/physical assault history | Use trauma-informed care |
-
+<div class="detail-table">
+  <table>
+    <thead>
+      <tr>
+        <th>Situation</th>
+        <th>First Nursing Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Mild anxiety</strong></td>
+        <td>Teach coping and problem-solving.</td>
+      </tr>
+      <tr>
+        <td><strong>Moderate anxiety</strong></td>
+        <td>Use simple directions and help refocus.</td>
+      </tr>
+      <tr>
+        <td><strong>Severe anxiety</strong></td>
+        <td>Reduce stimuli and stay calm.</td>
+      </tr>
+      <tr>
+        <td><strong>Panic attack</strong></td>
+        <td>Stay with the patient, maintain safety, and use short directions.</td>
+      </tr>
+      <tr>
+        <td><strong>OCD rituals interfere with ADLs</strong></td>
+        <td>Gradually reduce ritual time/frequency and teach coping.</td>
+      </tr>
+      <tr>
+        <td><strong>Phobia restricts daily activities</strong></td>
+        <td>Support treatment such as systematic desensitization or flooding as ordered.</td>
+      </tr>
+      <tr>
+        <td><strong>PTSD flashback</strong></td>
+        <td>Ground the patient to the present.</td>
+      </tr>
+      <tr>
+        <td><strong>Trauma patient avoids details</strong></td>
+        <td>Do not force discussion; establish trust and safety.</td>
+      </tr>
+      <tr>
+        <td><strong>Command hallucinations or suicidal thoughts</strong></td>
+        <td>Assess safety immediately and notify provider/team.</td>
+      </tr>
+    </tbody>
+  </table>
 </div>
 
-<div class="mh-table-card" markdown="1">
-
-<h3>Anxiety, OCD & Trauma Comparison</h3>
-
-| Disorder | Main Problem | Nursing Focus |
-|---|---|---|
-| **Generalized Anxiety Disorder** | Excessive worry about many things | Reduce anxiety, coping skills, relaxation |
-| **Panic Disorder** | Repeated panic attacks | Stay with patient, short directions, breathing |
-| **Phobias** | Irrational fear of object/situation | Gradual exposure, avoid reinforcing avoidance |
-| **Social Anxiety Disorder** | Fear of embarrassment/judgment | Support, social skills, gradual exposure |
-| **Agoraphobia** | Fear of being trapped/unable to escape | Stay with patient, support, gradual exposure |
-| **OCD** | Obsessions + compulsions | Reduce rituals gradually, teach coping |
-| **PTSD** | Trauma response with flashbacks/avoidance | Safety, trust, trauma-informed care |
-| **Acute Stress Disorder** | Trauma symptoms soon after event | Support, safety, problem-solving |
-| **Adjustment Disorder** | Emotional response to life change/stressor | Coping, therapy, support system |
-
+<div class="detail-callout" markdown="1">
+<strong>Priority rule:</strong> Calm first, safety first, teaching later.
 </div>
 
-<div class="nclex-tip">
-  <h3>Anxiety Levels Matter</h3>
-  <ul>
-    <li><strong>Mild:</strong> teaching can happen.</li>
-    <li><strong>Moderate:</strong> use simple directions only.</li>
-    <li><strong>Severe:</strong> reduce stimuli and stay calm.</li>
-    <li><strong>Panic:</strong> stay with the patient, short directions, safety first — no teaching.</li>
-  </ul>
-</div>
-
-<div class="nclex-tip">
-  <h3>OCD and Phobia</h3>
-  <ul>
-    <li>Obsessions are thoughts; compulsions are actions.</li>
-    <li>Do not abruptly stop all OCD rituals — reduce them gradually.</li>
-    <li>Systematic desensitization = gradual exposure.</li>
-    <li>Flooding = direct/intense exposure.</li>
-  </ul>
-</div>
-
-<div class="nclex-tip">
-  <h3>Medications and Trauma</h3>
-  <ul>
-    <li>Buspirone takes weeks — it is not for immediate panic relief.</li>
-    <li>Benzodiazepines work quickly but carry sedation, fall risk, and dependence risk.</li>
-    <li>PTSD flashback: ground the patient to the present.</li>
-    <li>Trauma-informed care: explain before touching and give choices when possible.</li>
-  </ul>
 </div>
 
 <div class="mh-table-card" markdown="1">
 
 <h3>Quick Terms</h3>
 
-| Concept | Remember |
+| Concept | Simple Meaning |
 |---|---|
-| **Mild anxiety** | Alert, focused, can learn |
-| **Moderate anxiety** | Narrowed focus |
-| **Severe anxiety** | Poor concentration |
-| **Panic** | Unable to process, stay with patient |
+| **Anxiety** | Dread, apprehension, uneasiness |
+| **Mild anxiety** | Can improve focus and learning |
+| **Moderate anxiety** | Narrowed focus; use simple directions |
+| **Severe anxiety** | Poor concentration; reduce stimuli |
+| **Panic** | Unable to process environment; stay with patient |
 | **GAD** | Excessive worry about many things |
 | **Panic disorder** | Repeated unexpected panic attacks |
-| **Phobia** | Irrational fear of specific object/situation |
-| **Agoraphobia** | Fear of being trapped/unable to escape |
-| **OCD obsession** | Recurrent unwanted thought |
-| **OCD compulsion** | Repetitive action to reduce anxiety |
-| **PTSD** | Trauma + flashbacks/avoidance/hyperarousal |
-| **Acute stress disorder** | Trauma symptoms from 3 days to 1 month |
-| **Adjustment disorder** | Stress response within 3 months |
-| **Buspirone** | Takes weeks, no addiction/tolerance |
-| **Benzodiazepines** | Fast relief, short-term use |
+| **Specific phobia** | Irrational fear of object/situation |
+| **Social anxiety** | Fear of embarrassment or judgment |
+| **Agoraphobia** | Fear of open spaces or being trapped without escape |
+| **Separation anxiety** | Excessive fear related to separation |
+| **Obsession** | Recurrent unwanted thought |
+| **Compulsion** | Repetitive action to reduce anxiety |
+| **PTSD** | Trauma response with flashbacks, avoidance, hypervigilance |
+| **Acute stress disorder** | Trauma symptoms soon after event |
+| **Adjustment disorder** | Stress response within 3 months of event |
+| **Buspirone** | Long-term anxiety med; takes weeks |
+| **Benzodiazepines** | Quick relief; sedation/dependence risk |
 
 </div>
 
-<div class="mh-columns">
-  <div class="quick-review">
-    <h3>Quick Review</h3>
-    <ol>
-      <li>Identify the anxiety level first.</li>
-      <li>Decide whether the patient can learn or needs calming first.</li>
-      <li>For panic, stay with the patient and use short directions.</li>
-      <li>For OCD, reduce rituals gradually — do not suddenly block all rituals.</li>
-      <li>For phobias, gradual exposure is usually preferred.</li>
-      <li>For PTSD flashbacks, ground the patient to the present.</li>
-      <li>Know whether the medication is for quick relief or long-term control.</li>
-    </ol>
-  </div>
-  <div class="do-not-miss">
-    <h3>Do Not Miss</h3>
-    <ul>
-      <li>Do not teach during severe anxiety or panic.</li>
-      <li>Panic-level anxiety prevents learning and problem-solving.</li>
-      <li>Buspirone is not a rescue medication.</li>
-      <li>Benzodiazepines have sedation, fall, tolerance, and dependence risk.</li>
-      <li>Do not force a trauma patient to describe the trauma before they are ready.</li>
-      <li>Always assess suicide risk when symptoms are severe, worsening, or linked with trauma/substance use.</li>
-    </ul>
-  </div>
+<div class="mh-columns" markdown="1">
+
+<div class="quick-review" markdown="1">
+<h3>Quick Review</h3>
+
+1. Identify the anxiety level first.
+2. Decide whether the patient can learn or needs calming first.
+3. For panic, stay with the patient and use short directions.
+4. For phobias, gradual exposure or flooding may be used.
+5. For OCD, reduce rituals gradually.
+6. For PTSD flashbacks, ground the patient to the present.
+7. Know which meds are quick relief versus long-term control.
+</div>
+
+<div class="do-not-miss" markdown="1">
+<h3>Do Not Miss</h3>
+
+- Do not teach during severe anxiety or panic.
+- Panic attacks peak in about 10–15 minutes and usually do not last longer than 30 minutes.
+- Buspirone is not a rescue medication.
+- Benzodiazepines have sedation, fall, tolerance, and dependence risk.
+- OCD rituals should be reduced gradually, not abruptly stopped.
+- PTSD treatment relies heavily on psychotherapy and group therapy.
+- Always assess suicide risk when anxiety, trauma, substance use, or depression is present.
+</div>
+
 </div>
 
 <div class="cheer-banner">
-  💜 Calm first, teach second. You’re building the NCLEX brain one page at a time. 💜
+  💜 Calm first, teach second. Anxiety questions become easier when you identify the level first. 💜
 </div>
 
 ---
 
 <div class="page-nav">
-  <a href="{{ '/mental-health/mood-disorders.html' | relative_url }}" class="page-nav-back">← Depression & Bipolar Disorder</a>
-  <a href="{{ '/mental-health/somatic-factitious-dissociative.html' | relative_url }}" class="page-nav-next">Somatic, Factitious & Dissociative →</a>
+  <a href="{{ '/mental-health/therapeutic-communication.html' | relative_url }}" class="page-nav-back">← Therapeutic Communication</a>
+  <a href="{{ '/mental-health/mood-disorders.html' | relative_url }}" class="page-nav-next">Depression & Bipolar Disorder →</a>
 </div>
