@@ -1771,7 +1771,80 @@ body.home-page .page-wrapper {
     width: 100% !important;
     overflow-x: auto !important;
   }
+}
 
+/* Stacked row cards on narrow mobile */
+@media screen and (max-width: 700px) {
+  .main-content table,
+  .main-content thead,
+  .main-content tbody,
+  .main-content th,
+  .main-content td,
+  .main-content tr { display: block !important; }
+
+  .main-content thead tr {
+    position: absolute !important;
+    top: -9999px !important;
+    left: -9999px !important;
+  }
+
+  .main-content table {
+    width: 100% !important;
+    border: none !important;
+    box-shadow: none !important;
+    background: transparent !important;
+    margin: 1rem 0 !important;
+  }
+
+  .main-content tr {
+    border: 1px solid var(--border) !important;
+    border-radius: 10px !important;
+    margin-bottom: 0.65rem !important;
+    background: white !important;
+    overflow: hidden !important;
+  }
+
+  .main-content td {
+    border: none !important;
+    border-bottom: 1px solid var(--border) !important;
+    position: relative !important;
+    padding: 0.55rem 0.75rem 0.55rem 42% !important;
+    text-align: left !important;
+    min-height: 2rem !important;
+    white-space: normal !important;
+  }
+
+  .main-content td:last-child { border-bottom: none !important; }
+
+  .main-content td::before {
+    content: attr(data-label) !important;
+    position: absolute !important;
+    left: 0.75rem !important;
+    top: 0.55rem !important;
+    width: 38% !important;
+    font-weight: 800 !important;
+    font-size: 0.78rem !important;
+    color: var(--accent-dark) !important;
+    line-height: 1.4 !important;
+    white-space: normal !important;
+  }
+
+  [data-theme="dark"] .main-content tr {
+    background: #1a1a2e !important;
+    border-color: #2e2e42 !important;
+  }
+
+  [data-theme="dark"] .main-content td {
+    border-bottom-color: #2e2e42 !important;
+    background: transparent !important;
+  }
+
+  [data-theme="dark"] .main-content td::before {
+    color: #a8b8f0 !important;
+  }
+}
+
+@media screen and (max-width: 900px) {
   .sidebar {
     left: -290px !important;
     width: 270px !important;
