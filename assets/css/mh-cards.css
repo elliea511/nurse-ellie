@@ -84,13 +84,20 @@ body[data-page-type="mental-health-hub"] .main-content {
   place-items: center;
   width: 4.6rem;
   height: 4.6rem;
-  border: 2px solid #f36f9a;
-  border-radius: 1.4rem;
-  background: #fff0f5;
-  overflow: hidden;
+  border: 0;
+  background: transparent;
 }
 
 .mh-hub-brandmark img { width: 4.2rem; height: 3.25rem; object-fit: contain; }
+
+body[data-page-type="mental-health-hub"] .main-content .mh-hub-brandmark img,
+body[data-page-type="mental-health-hub"] .main-content .mh-brain-center img,
+body[data-page-type="mental-health-hub"] .main-content .mh-guide-icon img {
+  margin: 0 auto !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+}
 
 .mh-hub-layout {
   display: grid;
@@ -348,7 +355,7 @@ body[data-page-type="mental-health-hub"] .main-content {
 [data-theme="dark"] .mh-hub { color: #efeaff; }
 [data-theme="dark"] .mh-hub-header h1,
 [data-theme="dark"] .mh-hub-guide h2 { color: #eef7ff !important; }
-[data-theme="dark"] .mh-hub-brandmark { background: #263249; }
+[data-theme="dark"] .mh-hub-brandmark { background: transparent; }
 [data-theme="dark"] .mh-topic-card { background: #242a3c; border-color: #45526c; color: #f2f6ff !important; }
 [data-theme="dark"] .mh-topic-card small { color: #b5bfd1; }
 [data-theme="dark"] .mh-hub-guide { background: #242a3c; border-color: #45526c; }
