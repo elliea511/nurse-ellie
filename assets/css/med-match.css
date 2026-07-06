@@ -10,18 +10,21 @@ body[data-page-type="mental-health-med-game"] {
 }
 
 body[data-page-type="mental-health-med-game"] .page-wrapper {
-  width: min(100% - 2rem, 1660px);
-  max-width: none;
-  margin: 1.4rem auto;
-  padding: 0;
+  width: min(100% - 2rem, 1660px) !important;
+  max-width: 1660px !important;
+  margin: 1.4rem auto !important;
+  padding: 0 !important;
 }
 
 body[data-page-type="mental-health-med-game"] .main-content {
-  max-width: none;
+  width: 100% !important;
+  max-width: none !important;
+  margin: 0 !important;
   padding: 0 !important;
-  border: 0;
-  background: transparent;
-  box-shadow: none;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
 }
 
 .mmm-app,
@@ -147,7 +150,7 @@ body[data-page-type="mental-health-med-game"] .main-content {
 
 .mmm-layout {
   display: grid;
-  grid-template-columns: 245px minmax(0, 1fr) 270px;
+  grid-template-columns: 230px minmax(720px, 1fr) 250px;
   gap: 1.25rem;
   align-items: start;
 }
@@ -328,7 +331,7 @@ body[data-page-type="mental-health-med-game"] .main-content {
 [data-theme="dark"] .mmm-review-dialog { background: #23243a; color: #f0edff; border-color: #464965; }
 [data-theme="dark"] .mmm-app { --mmm-ink: #f1efff; --mmm-muted: #b8bad0; --mmm-line: #464965; }
 
-@media (max-width: 1250px) {
+@media (max-width: 1380px) {
   .mmm-hero { grid-template-columns: 1fr; }
   .mmm-layout { grid-template-columns: 210px minmax(0, 1fr); }
   .mmm-tools { grid-column: 1 / -1; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: .65rem; }
