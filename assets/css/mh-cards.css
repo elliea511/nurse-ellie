@@ -1615,3 +1615,397 @@ body[data-section="mental-health"] .med-class-section.master .med-class-icon {
     align-items: flex-start;
   }
 }
+
+/* Medication cheat-sheet visual system. Content and order stay unchanged. */
+body[data-section="mental-health"]:has(.med-warning-strip) .main-content {
+  max-width: 1480px !important;
+}
+
+body[data-section="mental-health"]:has(.med-warning-strip) .main-content > h1 {
+  margin: .6rem 0 0 !important;
+  padding: 1.3rem 1.5rem .35rem !important;
+  border: 0 !important;
+  border-radius: 20px 20px 0 0 !important;
+  background: linear-gradient(125deg, #39206f, #5a3291 62%, #352069) !important;
+  box-shadow: 0 12px 28px rgba(55, 31, 105, .2) !important;
+  color: #fff !important;
+  font-family: "Nunito", sans-serif !important;
+  font-size: clamp(1.85rem, 3.2vw, 3rem) !important;
+  letter-spacing: .015em;
+  text-transform: uppercase;
+}
+
+body[data-section="mental-health"]:has(.med-warning-strip) .main-content > .mh-subtitle {
+  margin: 0 0 1.2rem !important;
+  padding: 0 1.5rem 1.25rem !important;
+  border-radius: 0 0 20px 20px;
+  background: linear-gradient(125deg, #39206f, #5a3291 62%, #352069);
+  color: #eee6ff !important;
+  font-size: .92rem !important;
+  letter-spacing: .045em;
+  text-transform: uppercase;
+}
+
+body[data-section="mental-health"]:has(.med-warning-strip) .priority-focus {
+  padding: .9rem 1.1rem;
+  border-color: #dbc8f5;
+  border-radius: 16px;
+  background: linear-gradient(90deg, #f8f2ff, #fff7fb);
+}
+
+body[data-section="mental-health"]:has(.med-warning-strip) .priority-focus::before {
+  background: #ece1ff;
+}
+
+body[data-section="mental-health"] .med-warning-strip {
+  grid-template-columns: repeat(auto-fit, minmax(175px, 1fr));
+  gap: 10px;
+}
+
+body[data-section="mental-health"] .med-warning-strip::before {
+  content: "⚠ High Priority Safety Alerts";
+  grid-column: 1 / -1;
+  color: #b4232c;
+  font-size: 1rem;
+  font-weight: 900;
+  letter-spacing: .02em;
+  text-transform: uppercase;
+}
+
+body[data-section="mental-health"] .med-warning-strip > div {
+  min-height: 126px;
+  padding: 14px;
+  border: 1px solid #f0a5aa;
+  border-left: 5px solid #e84d59;
+  border-radius: 14px;
+  background: linear-gradient(145deg, #fff, #fff2f3);
+  box-shadow: 0 5px 14px rgba(154, 43, 53, .07);
+}
+
+body[data-section="mental-health"] .med-warning-strip strong {
+  color: #35161d;
+  font-size: .93rem;
+}
+
+body[data-section="mental-health"] .med-warning-strip span {
+  color: #46333a;
+  font-size: .82rem;
+}
+
+body[data-section="mental-health"] .med-nav-pills {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(120px, 1fr));
+  gap: 8px;
+  margin: 1.1rem 0 1.8rem;
+}
+
+body[data-section="mental-health"] .med-nav-pills::before {
+  content: "Jump to drug class ↷";
+  grid-column: 1 / -1;
+  color: #4f2b87;
+  font-size: .86rem;
+  font-weight: 900;
+  letter-spacing: .035em;
+  text-transform: uppercase;
+}
+
+body[data-section="mental-health"] .med-nav-pills a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 42px;
+  padding: .55rem .65rem;
+  border-color: #d7bdf4;
+  border-radius: 12px;
+  background: linear-gradient(145deg, #fff, #f5ecff);
+  color: #542891 !important;
+  font-size: .76rem;
+  line-height: 1.15;
+  text-align: center;
+  box-shadow: 0 3px 8px rgba(86, 47, 137, .06);
+}
+
+body[data-section="mental-health"] .med-class-section {
+  --med-accent: #7041b7;
+  --med-accent-deep: #4d287f;
+  --med-soft: #f5efff;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+  margin: 1.4rem 0;
+  padding: 16px;
+  border: 1px solid color-mix(in srgb, var(--med-accent) 24%, white);
+  border-radius: 20px;
+  background: linear-gradient(155deg, #fff 68%, color-mix(in srgb, var(--med-soft) 55%, white));
+  box-shadow: 0 8px 22px rgba(68, 43, 103, .06);
+}
+
+body[data-section="mental-health"] .med-class-section.anxiety {
+  --med-accent: #e05299;
+  --med-accent-deep: #a62f70;
+  --med-soft: #fff0f7;
+}
+
+body[data-section="mental-health"] .med-class-section.mood {
+  --med-accent: #3e82c6;
+  --med-accent-deep: #245c95;
+  --med-soft: #edf6ff;
+}
+
+body[data-section="mental-health"] .med-class-section.antipsychotics {
+  --med-accent: #6657bd;
+  --med-accent-deep: #40338d;
+  --med-soft: #f0efff;
+}
+
+body[data-section="mental-health"] .med-class-section.substance {
+  --med-accent: #39a36b;
+  --med-accent-deep: #217246;
+  --med-soft: #edfaf3;
+}
+
+body[data-section="mental-health"] .med-class-section.special {
+  --med-accent: #d38a2b;
+  --med-accent-deep: #995d12;
+  --med-soft: #fff7e9;
+}
+
+body[data-section="mental-health"] .med-class-section.master {
+  --med-accent: #6e4bb2;
+  --med-accent-deep: #49287e;
+  --med-soft: #f5f0ff;
+}
+
+body[data-section="mental-health"] .med-class-header {
+  grid-column: 1 / -1;
+  gap: 12px;
+  margin: 0;
+  padding: 0 0 10px;
+  border-bottom: 2px solid color-mix(in srgb, var(--med-accent) 20%, white);
+}
+
+body[data-section="mental-health"] .med-class-icon {
+  display: grid;
+  flex: 0 0 52px;
+  place-items: center;
+  width: 52px;
+  height: 52px;
+  padding: 0;
+  border-radius: 13px;
+  background: linear-gradient(145deg, var(--med-accent), var(--med-accent-deep)) !important;
+  color: #fff;
+  font-size: 1.55rem;
+  box-shadow: 0 6px 13px color-mix(in srgb, var(--med-accent) 22%, transparent);
+}
+
+body[data-section="mental-health"] .med-class-header h2 {
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  background: none !important;
+  box-shadow: none !important;
+  color: var(--med-accent-deep) !important;
+  font-family: "Nunito", sans-serif !important;
+  font-size: 1.35rem !important;
+  line-height: 1.15 !important;
+  text-transform: uppercase;
+}
+
+body[data-section="mental-health"] .med-class-header p {
+  color: var(--med-accent-deep);
+  font-size: .85rem;
+  line-height: 1.35;
+}
+
+body[data-section="mental-health"] .med-class-grid {
+  display: contents;
+}
+
+body[data-section="mental-health"] .med-class-overview,
+body[data-section="mental-health"] .med-nclex-box,
+body[data-section="mental-health"] .med-teaching-box {
+  min-width: 0;
+  margin: 0;
+  padding: 14px;
+  border-radius: 13px;
+  box-shadow: none;
+}
+
+body[data-section="mental-health"] .med-class-overview {
+  grid-column: 1;
+  grid-row: 2;
+  border-color: color-mix(in srgb, var(--med-accent) 38%, white);
+  background: var(--med-soft);
+}
+
+body[data-section="mental-health"] .med-nclex-box {
+  grid-column: 2;
+  grid-row: 2;
+  border-color: #edc866;
+  background: linear-gradient(145deg, #fffdf6, #fff7dc);
+}
+
+body[data-section="mental-health"] .med-teaching-box {
+  grid-column: 3;
+  grid-row: 2;
+  border-color: #9ed2ac;
+  background: linear-gradient(145deg, #f8fff9, #eaf8ee);
+}
+
+body[data-section="mental-health"] .med-class-overview h3,
+body[data-section="mental-health"] .med-nclex-box h3,
+body[data-section="mental-health"] .med-teaching-box h3,
+body[data-section="mental-health"] .drug-card-top h3 {
+  margin: 0 0 .55rem !important;
+  padding: 0 !important;
+  border: 0 !important;
+  background: none !important;
+  box-shadow: none !important;
+  font-family: "Nunito", sans-serif !important;
+  font-size: .92rem !important;
+  line-height: 1.2 !important;
+}
+
+body[data-section="mental-health"] .med-class-overview h3 { color: var(--med-accent-deep) !important; }
+body[data-section="mental-health"] .med-nclex-box h3 { color: #a96800 !important; }
+body[data-section="mental-health"] .med-teaching-box h3 { color: #287544 !important; }
+
+body[data-section="mental-health"] .med-class-overview li,
+body[data-section="mental-health"] .med-nclex-box li,
+body[data-section="mental-health"] .med-teaching-box li,
+body[data-section="mental-health"] .med-teaching-box p {
+  font-size: .82rem;
+  line-height: 1.38;
+}
+
+body[data-section="mental-health"] .med-subheading,
+body[data-section="mental-health"] .drug-card-grid,
+body[data-section="mental-health"] .detail-table,
+body[data-section="mental-health"] .med-class-section > .mh-table-card {
+  grid-column: 1 / -1;
+}
+
+body[data-section="mental-health"] .med-subheading {
+  margin: 8px 0 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--med-accent-deep);
+  font-size: .85rem;
+  letter-spacing: .035em;
+  text-transform: uppercase;
+}
+
+body[data-section="mental-health"] .drug-card-grid {
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 10px;
+}
+
+body[data-section="mental-health"] .drug-card {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  padding: 12px;
+  border-color: color-mix(in srgb, var(--med-accent) 20%, #d9dce7);
+  border-radius: 14px;
+  background: linear-gradient(155deg, #fff, #fbfbff);
+  box-shadow: 0 4px 12px rgba(52, 43, 84, .05);
+}
+
+body[data-section="mental-health"] .drug-card-top {
+  margin-bottom: 8px;
+  padding-bottom: 7px;
+  border-color: color-mix(in srgb, var(--med-accent) 18%, white);
+}
+
+body[data-section="mental-health"] .drug-card-top h3 {
+  color: #211836 !important;
+  font-size: .98rem !important;
+}
+
+body[data-section="mental-health"] .drug-card-top span {
+  margin-top: 2px;
+  color: var(--med-accent-deep);
+  font-size: .76rem;
+}
+
+body[data-section="mental-health"] .drug-card p {
+  margin: 4px 0;
+  font-size: .78rem;
+  line-height: 1.4;
+}
+
+body[data-section="mental-health"] .drug-nclex {
+  margin: auto -12px -12px;
+  padding: 9px 11px;
+  border: 0;
+  border-top: 1px solid #cce3f8;
+  border-radius: 0 0 13px 13px;
+  background: linear-gradient(90deg, #eef7ff, #f5f9ff);
+  color: #18579c;
+  font-size: .73rem;
+  line-height: 1.25;
+}
+
+body[data-section="mental-health"] .lithium-card {
+  border: 2px solid #e3ad39;
+  background: linear-gradient(150deg, #fffdf8, #fff4d9);
+  box-shadow: 0 6px 15px rgba(181, 123, 24, .11);
+}
+
+@media (max-width: 1100px) {
+  body[data-section="mental-health"] .med-nav-pills {
+    grid-template-columns: repeat(4, minmax(130px, 1fr));
+  }
+
+  body[data-section="mental-health"] .med-class-section {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  body[data-section="mental-health"] .med-class-overview { grid-column: 1; grid-row: 2; }
+  body[data-section="mental-health"] .med-nclex-box { grid-column: 2; grid-row: 2; }
+  body[data-section="mental-health"] .med-teaching-box { grid-column: 1 / -1; grid-row: 3; }
+}
+
+@media (max-width: 680px) {
+  body[data-section="mental-health"]:has(.med-warning-strip) .main-content > h1 {
+    padding: 1rem 1rem .3rem !important;
+    font-size: 1.55rem !important;
+  }
+
+  body[data-section="mental-health"]:has(.med-warning-strip) .main-content > .mh-subtitle {
+    padding: 0 1rem 1rem !important;
+    font-size: .75rem !important;
+  }
+
+  body[data-section="mental-health"] .med-nav-pills {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  body[data-section="mental-health"] .med-class-section {
+    display: block;
+    padding: 12px;
+  }
+
+  body[data-section="mental-health"] .med-class-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  body[data-section="mental-health"] .med-class-overview,
+  body[data-section="mental-health"] .med-nclex-box,
+  body[data-section="mental-health"] .med-teaching-box,
+  body[data-section="mental-health"] .drug-card-grid,
+  body[data-section="mental-health"] .med-subheading {
+    margin-top: 10px;
+  }
+
+  body[data-section="mental-health"] .med-class-header h2 {
+    font-size: 1.08rem !important;
+  }
+
+  body[data-section="mental-health"] .drug-card-grid {
+    grid-template-columns: 1fr;
+  }
+}
