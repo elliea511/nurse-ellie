@@ -3,535 +3,723 @@ layout: default
 title: Somatic, Factitious & Dissociative Disorders
 ---
 
+<div class="mh-breadcrumb">
+  <a href="{{ '/mental-health.html' | relative_url }}">Mental Health</a>
+  <span>Somatic, Factitious & Dissociative Disorders</span>
+</div>
+
 # Somatic, Factitious & Dissociative Disorders
 
-<div class="note">
-These disorders are often connected to <strong>stress, anxiety, trauma, and difficulty coping.</strong>
-For NCLEX, focus on: <strong>taking symptoms seriously, staying matter-of-fact, avoiding arguing, assessing safety, encouraging coping skills, and not reinforcing unhealthy behaviors.</strong>
+<p class="mh-subtitle">ATI-style review for somatic symptom disorder, illness anxiety disorder, conversion disorder, factitious disorder, malingering, and dissociative disorders</p>
+
+These disorders often involve **stress, trauma, anxiety, altered perception, physical symptoms, or altered memory/identity.** Nursing priorities include **safety, therapeutic communication, not challenging symptoms, limiting secondary gain, assessing trauma history, documenting objectively, and supporting coping skills.**
+
+<div class="priority-focus">
+  <div>
+    <h3>Priority Focus</h3>
+    Safety • Trauma History • Do Not Challenge Symptoms • Matter-of-Fact Response • Limit Secondary Gain • Objective Documentation • Suicide Risk
+  </div>
 </div>
 
----
+<div class="mh-cards">
+  <div class="mh-card purple">
+    <div class="mh-card-icon">🩺</div>
+    <h3>Somatic Disorders</h3>
+    <p>Somatic symptom disorder and illness anxiety disorder with health fears and frequent medical concerns.</p>
+    <a class="mh-btn" href="#panel-somatic">Study Somatic</a>
+  </div>
 
-## Big Picture
+  <div class="mh-card pink">
+    <div class="mh-card-icon">🧠</div>
+    <h3>Conversion Disorder</h3>
+    <p>Emotional stress converted into neurological symptoms without identifiable disease.</p>
+    <a class="mh-btn" href="#panel-conversion">Study Conversion</a>
+  </div>
 
-| Disorder Group | Main Problem | Nursing Focus |
-|---|---|---|
-| **Somatic disorders** | Emotional distress shows up as physical symptoms or health anxiety | Assess symptoms, stay matter-of-fact, reduce secondary gain |
-| **Conversion disorder** | Stress converts into neurological symptoms | Assess first, support coping, do not challenge symptoms |
-| **Factitious disorder** | Person intentionally produces/fakes illness for attention/care | Maintain boundaries, avoid unnecessary reinforcement |
-| **Malingering** | Person fakes/exaggerates illness for external benefit | Document objectively, avoid judgment |
-| **Dissociative disorders** | Trauma/stress causes disruption in memory, identity, or perception | Safety, trust, grounding, therapy |
+  <div class="mh-card blue">
+    <div class="mh-card-icon">🎭</div>
+    <h3>Factitious + Malingering</h3>
+    <p>Feigning illness for attention versus exaggerating symptoms for external gain.</p>
+    <a class="mh-btn" href="#panel-factitious">Study Factitious</a>
+  </div>
 
-<div class="warning">
-<strong>NCLEX:</strong> Always assess physical symptoms first. Do not assume symptoms are psychiatric until medical causes have been evaluated.
+  <div class="mh-card green">
+    <div class="mh-card-icon">🧩</div>
+    <h3>Dissociative Disorders</h3>
+    <p>Disturbances in memory, identity, consciousness, depersonalization, derealization, and DID.</p>
+    <a class="mh-btn" href="#panel-dissociative">Study Dissociative</a>
+  </div>
 </div>
 
----
+<div class="mh-detail purple" id="panel-somatic" markdown="1">
+<a class="mh-detail-close" href="#">✕</a>
 
-# Somatic Disorders
+### Somatic Disorders
 
-Somatic disorders involve physical symptoms or health concerns that are strongly connected to stress, anxiety, or emotional conflict. The symptoms are real to the patient. The nurse should not say or imply that the patient is "faking."
+<div class="detail-grid" markdown="1">
 
----
+<div class="detail-mini-card" markdown="1">
+<strong>Big Picture</strong>
 
-## Primary vs Secondary Gain
-
-| Type | Meaning | Example |
-|---|---|---|
-| **Primary gain** | Internal emotional benefit from the symptom | Anxiety is reduced because the emotional conflict becomes a physical symptom |
-| **Secondary gain** | External benefit from being sick | Attention, sympathy, avoiding work/school, financial benefit |
-
-<div class="note">
-<strong>Primary gain</strong> = internal relief. <strong>Secondary gain</strong> = outside benefit.
+- Patient expresses anxiety through the body.
+- Symptoms often worsen during acute stress.
+- Patient may have catastrophic thoughts.
+- History of abuse or PTSD may be present.
+- Patient may seek frequent medical care.
+- The symptoms feel real to the patient.
 </div>
 
----
+<div class="detail-mini-card" markdown="1">
+<strong>Primary vs Secondary Gain</strong>
 
-# Somatic Symptom Disorder
-
-Somatic symptom disorder involves excessive concern about physical symptoms. The patient may have vague physical complaints, but testing does not fully explain the level of distress.
-
-## Assessment
-
-| Finding | Why It Matters |
-|---|---|
-| Frequent health complaints | Patient is focused on body symptoms |
-| Vague symptoms | Chest pain, SOB, fatigue, dizziness, pain |
-| Repeated provider visits | Reassurance does not last |
-| Constant fear about health | Anxiety drives symptoms |
-| Anger or hostility | Patient may feel ignored or dismissed |
-| Anxiety/depression history | Common comorbidity |
-| Stress worsens symptoms | Symptoms increase during emotional distress |
-
----
-
-## Nursing Care
-
-| Nursing Action | Why |
-|---|---|
-| Assess physical complaints | Medical causes must be ruled out |
-| Be matter-of-fact | Prevents overreaction or reinforcement |
-| Do not dismiss symptoms | They are real to the patient |
-| Encourage one consistent provider | Prevents unnecessary testing/provider shopping |
-| Focus on function | Helps patient return to ADLs |
-| Teach coping skills | Reduces stress-related symptoms |
-| Encourage healthy routine | Sleep, diet, exercise, socialization |
-| Set limits on symptom talk | Prevents symptoms from controlling every interaction |
-
----
-
-## Communication
-
-| Patient Says | Therapeutic Response |
-|---|---|
-| "No one believes I am sick." | "I can see this is very distressing for you." |
-| "I need more tests." | "Your provider will review what testing is needed. Let's also talk about what helps you function today." |
-| "This pain means something is seriously wrong." | "You are worried about the pain. Let's review your current symptoms and coping plan." |
-
-<div class="note">
-Do not argue that symptoms are "all in their head." The nurse should acknowledge distress and focus on coping and function.
+- **Primary gain:** unconscious emotional benefit from the symptom, such as reduced anxiety or internal conflict.
+- **Secondary gain:** external benefit from symptoms, such as attention, sympathy, avoiding responsibilities, financial support, or avoiding work/school.
 </div>
 
----
+<div class="detail-mini-card" markdown="1">
+<strong>Risk Factors / Causes</strong>
 
-# Illness Anxiety Disorder
-
-Illness anxiety disorder (formerly called hypochondriasis) involves being very worried about having or developing a serious illness, even when symptoms are mild or absent.
-
-## Assessment
-
-- Preoccupied with health
-- Frequently checks body for symptoms
-- Misinterprets normal sensations as illness
-- Seeks repeated testing or reassurance
-- Anxiety worsens during stress
-- May become angry if psychiatric care is suggested
-- Depression/anxiety/personality disorders may coexist
-
----
-
-## Nursing Care
-
-| Nursing Action | Why |
-|---|---|
-| Allow patient to discuss concerns briefly | Shows respect without reinforcing |
-| Limit time spent on repeated health complaints | Prevents secondary gain |
-| Be matter-of-fact | Avoids feeding anxiety |
-| Do not appear overly concerned | May reinforce fear |
-| Encourage socialization | Shifts focus away from symptoms |
-| Support psych referral as part of overall care | Helps patient accept treatment |
-| Teach coping and stress management | Anxiety drives symptoms |
-| Encourage internal locus of control | Helps patient feel capable |
-
-<div class="tip">
-Spend time with the patient when they are <strong>not</strong> complaining of symptoms. This avoids rewarding symptom-focused behavior.
+- Abuse history
+- PTSD
+- Anxiety
+- Depression
+- Loneliness
+- Major life stressors
+- Personality disorders
+- Difficulty coping with emotional distress
 </div>
 
----
+<div class="detail-mini-card" markdown="1">
+<strong>Nursing Attitude</strong>
 
-# Conversion Disorder
-
-Conversion disorder (also called **functional neurological symptom disorder**) involves emotional stress converting into neurological symptoms without an identifiable neurological disease. The symptom is not intentionally produced.
-
-## Assessment — Possible Symptoms
-
-- Paralysis
-- Blindness
-- Weakness
-- Seizure-like episodes
-- Loss of sensation
-- Difficulty speaking
-- Motor or sensory deficits
-
-The symptoms must be medically evaluated before diagnosis.
-
----
-
-## La Belle Indifférence
-
-La belle indifférence means the patient has an unusual lack of concern about serious symptoms.
-
-Example: A patient suddenly cannot move their legs but appears calm and unconcerned.
-
-<div class="note">
-<strong>Conversion disorder:</strong> stress turns into neuro-like symptoms.
+- Be matter-of-fact.
+- Do not shame the patient.
+- Do not reinforce symptoms with excessive attention.
+- Spend time with the patient when they are not focused on symptoms.
+- Encourage internal locus of control.
 </div>
-
----
-
-## Nursing Care
-
-| Nursing Action | Why |
-|---|---|
-| Assess symptoms fully | Rule out real neurological problems |
-| Do not challenge symptoms | Symptoms are real to the patient |
-| Be supportive | Reduces anxiety |
-| Encourage independence as able | Prevents disability reinforcement |
-| Teach coping skills | Helps manage stress safely |
-| Encourage socialization | Reduces symptom focus |
-| Support therapy | Helps process emotional stressors |
-
-## Communication
-
-| Avoid | Better |
-|---|---|
-| "There is nothing wrong with you." | "Your symptoms are real to you, and we will focus on safety and recovery." |
-| "You're doing this for attention." | "Stress can affect the body in powerful ways." |
-| "Just try harder." | "Let's work on one small goal at a time." |
-
-<div class="warning">
-With conversion disorder, do not confront or challenge the symptom. Support coping and function.
-</div>
-
----
-
-# Factitious Disorder
-
-Factitious disorder is when a person intentionally fakes, exaggerates, or causes illness **to receive attention, care, or sympathy**. The main motivation is to be in the sick role. This differs from malingering because the goal is not usually money, avoiding jail, or getting out of work.
-
----
-
-## Factitious Disorder Imposed on Self (Munchausen Syndrome)
-
-## Assessment Clues
-
-| Finding | Why It Matters |
-|---|---|
-| Uses medical terminology | May know health care system well |
-| Requests specific tests/procedures | May seek unnecessary care |
-| Symptoms are inconsistent | May not match disease pattern |
-| History from patient does not match findings | Red flag |
-| Does not want staff to talk with family | May fear being exposed |
-| Becomes angry if needs are not met | Attention-seeking/control issue |
-| Frequent hospitalizations | May "doctor shop" |
-| May self-injure or induce symptoms | Makes illness appear convincing |
-
----
-
-## Factitious Disorder Imposed on Another (Munchausen by Proxy)
-
-The person causes or fakes illness in another person, often a child, to gain attention for themselves.
-
-<div class="warning">
-Factitious disorder imposed on another is abuse. The victim may undergo unnecessary tests, procedures, surgeries, or may even die.
-</div>
-
-## Clues
-
-- Caregiver reports repeated unusual symptoms
-- Symptoms occur only when caregiver is present
-- Caregiver has medical knowledge
-- Caregiver appears overly involved or attention-seeking
-- Child/person has repeated unexplained illness
-- Tests/treatments do not match actual findings
-
----
-
-## Nursing Care for Factitious Disorder
-
-| Nursing Action | Why |
-|---|---|
-| Document objective findings | Avoids judgment and supports safety |
-| Maintain boundaries | Prevents manipulation |
-| Avoid unnecessary reinforcement | Do not reward illness behavior |
-| Communicate with team | Keeps care consistent |
-| Protect the victim if imposed on another | Mandatory safety issue |
-| Report suspected abuse if victim is child/vulnerable adult | Legal responsibility |
-| Support psychiatric treatment | CBT and trauma work may be helpful |
-
----
-
-# Malingering
-
-Malingering is pretending to be ill or exaggerating symptoms for **external gain**.
-
-Examples of external gain: money, disability benefits, avoiding jail, avoiding work/school, obtaining drugs, getting shelter/food.
-
-| Factitious Disorder | Malingering |
-|---|---|
-| Wants attention/care/sick role | Wants external reward |
-| Illness behavior is intentional | Illness behavior is intentional |
-| Motivation is psychological | Motivation is practical/material |
-| May cause symptoms | May exaggerate vague symptoms |
-
-<div class="note">
-<strong>Factitious</strong> = wants to be seen as sick. <strong>Malingering</strong> = wants a benefit from being sick.
-</div>
-
----
-
-# Dissociative Disorders
-
-Dissociative disorders involve disruption in memory, identity, consciousness, perception, or sense of self. They are often linked to severe trauma, especially childhood abuse. The mind separates from overwhelming experiences as a coping mechanism.
-
----
-
-## Dissociation Basics
-
-| Term | Meaning |
-|---|---|
-| **Dissociation** | Mental separation from thoughts, feelings, memories, identity, or surroundings |
-| **Depersonalization** | Feeling detached from your body |
-| **Derealization** | Feeling like the world is unreal or changed |
-| **Amnesia** | Inability to remember important information |
-| **Identity disturbance** | Disruption in sense of self |
-
----
-
-# Dissociative Amnesia
-
-Dissociative amnesia is inability to remember important personal information, usually related to trauma or stress.
-
-## Types
-
-| Type | Meaning |
-|---|---|
-| **Generalized amnesia** | Cannot remember major life information |
-| **Localized amnesia** | Cannot remember events during a specific time period |
-| **Selective amnesia** | Can remember some, but not all, events from a time period |
-
----
-
-## Dissociative Fugue
-
-Dissociative fugue involves sudden unexpected travel away from home with inability to remember parts of the past. The patient may create a new identity.
-
-## Nursing Focus
-
-| Nursing Action | Why |
-|---|---|
-| Ensure safety | Patient may be confused or lost |
-| Establish trust | Trauma-related disorder |
-| Assess suicide risk | Risk may be elevated |
-| Avoid forcing memory | Can increase distress |
-| Support therapy | Helps process trauma |
-| Ground patient to present | Helps orientation |
-
----
-
-# Depersonalization / Derealization Disorder
-
-| Symptom | Meaning | Example |
-|---|---|---|
-| **Depersonalization** | Detached from body/self | "I feel like I'm watching myself from outside my body." |
-| **Derealization** | Surroundings feel unreal | "The world feels fake or dreamlike." |
-
-## Nursing Care
-
-| Intervention | Why |
-|---|---|
-| Stay calm and supportive | Decreases fear |
-| Ground patient to present | Helps reconnect with reality |
-| Assess anxiety/depression | Common comorbidities |
-| Teach coping skills | Helps manage episodes |
-| Encourage CBT/therapy | Main treatment approach |
-
----
-
-# Dissociative Identity Disorder
-
-Dissociative identity disorder involves two or more distinct identities or personality states. It is strongly associated with repeated severe childhood trauma. The primary personality may be unaware of the alters and may experience blackouts or lost time.
-
----
-
-## Assessment
-
-- Memory gaps
-- Lost time
-- Blackouts
-- Different identity states
-- Different behaviors/voices/handwriting
-- History of severe childhood abuse
-- Depression, anxiety, PTSD, eating disorders, substance use may coexist
-- High suicide risk
-
-<div class="warning">
-Suicide risk is high in dissociative identity disorder. Assess suicidal thoughts, self-harm, and safety often.
-</div>
-
----
-
-## Nursing Care for DID
-
-| Nursing Action | Why |
-|---|---|
-| Establish trust slowly | Patient may have severe betrayal trauma |
-| Maintain safety | Suicide/self-harm risk |
-| Be consistent | Helps reduce fear/confusion |
-| Do not argue with identities | Focus on safety and functioning |
-| Encourage journaling | Helps track time, actions, and communication |
-| Support specialized therapy | Treatment is long-term and complex |
-| Monitor substance use | Some alters may use substances |
-| Assess suicide risk often | One depressed alter can place the body at risk |
-
----
-
-## Treatment Goal
-
-The long-term goal is often integration or cooperation between identities. Treatment may include psychotherapy, trauma therapy, journaling, safety planning, EMDR in some cases, and medications only for specific symptoms if needed.
-
-<div class="note">
-DID treatment is long and requires specialized therapy. Nursing priority is safety, trust, consistency, and support.
-</div>
-
----
-
-# EMDR
-
-EMDR stands for **Eye Movement Desensitization and Reprocessing**. It may be used in trauma treatment. The patient recalls distressing events while using guided eye movements or bilateral stimulation, which can help decrease distress connected to the memory.
-
----
-
-# Medication Notes
-
-Medications do not "cure" somatic, factitious, or dissociative disorders, but may treat related symptoms.
-
-| Medication Use | Examples |
-|---|---|
-| Anxiety symptoms | SSRIs, buspirone, short-term benzodiazepines if ordered |
-| Depression symptoms | SSRIs, SNRIs, TCAs |
-| Severe agitation/psychosis symptoms | Antipsychotics if ordered |
-| Sleep problems | Sleep medication if ordered |
-
-<div class="note">
-In dissociative disorders, medications should be used carefully because suicide risk can be high.
-</div>
-
----
-
-# Priority Charts
-
-## Somatic Disorders Priority Chart
-
-| Situation | First Nursing Action |
-|---|---|
-| Patient reports physical symptom | Assess symptom first |
-| Testing does not explain severity | Stay matter-of-fact and focus on function |
-| Patient repeatedly complains of symptoms | Set limits and redirect to coping |
-| Patient requests repeated unnecessary tests | Follow care plan and provider guidance |
-| Patient becomes angry when psych referral mentioned | Validate distress and present psych care as support |
-
----
-
-## Factitious / Malingering Priority Chart
-
-| Situation | First Nursing Action |
-|---|---|
-| Symptoms are inconsistent | Document objective findings |
-| Patient requests specific tests | Follow provider/team care plan |
-| Patient refuses family contact | Document and notify team if concerning |
-| Caregiver may be inducing illness in child | Protect child and report suspected abuse |
-| External gain suspected | Document facts and avoid judgment |
-
----
-
-## Dissociative Disorders Priority Chart
-
-| Situation | First Nursing Action |
-|---|---|
-| Patient has memory gaps/lost time | Assess safety and orientation |
-| Patient feels detached from body | Ground to present |
-| Patient has flashback/derealization | Calm environment and grounding |
-| DID patient expresses hopelessness | Assess suicide risk |
-| Patient cannot remember trauma details | Do not force memory |
-| Patient switches identity state | Maintain safety and consistency |
-
----
-
-# Therapeutic Communication
-
-## Somatic Symptoms
-
-| Patient Says | Best Response |
-|---|---|
-| "No one believes me." | "I can see this is very distressing for you." |
-| "I need more tests." | "Your provider will review what testing is needed. Let's talk about what helps you function today." |
-| "This symptom proves I'm dying." | "You are very worried. Let's review what you are feeling right now." |
-
-## Conversion Disorder
-
-| Patient Says | Best Response |
-|---|---|
-| "I can't move my legs." | "We will focus on keeping you safe and helping you regain function." |
-| "Do you think I'm making it up?" | "Your symptoms are real to you. We are here to support your recovery." |
-
-## Dissociation
-
-| Patient Says | Best Response |
-|---|---|
-| "I feel like I'm outside my body." | "That sounds scary. Let's focus on where you are right now." |
-| "The room feels fake." | "You are in the hospital. Today is ____. You are safe." |
-| "I lost time again." | "Let's talk about what you remember and how we can help you stay safe." |
-
----
-
-# NCLEX Cues
-
-<div class="warning">
-
-<strong>Somatic and conversion:</strong>
-<ul>
-<li>Always assess physical symptoms first — do not assume psychiatric without ruling out medical causes.</li>
-<li>Somatic symptoms are real to the patient; never dismiss or shame them.</li>
-<li>Focus on function, coping, and daily routine — not on eliminating every symptom.</li>
-<li>Do not reinforce secondary gain — spend time with the patient when they are not focused on symptoms.</li>
-<li>Conversion disorder symptoms must be medically evaluated first; do not challenge them.</li>
-</ul>
 
 </div>
 
-<div class="warning">
+<div class="detail-table">
+  <table>
+    <thead>
+      <tr>
+        <th>Disorder</th>
+        <th>What It Is</th>
+        <th>Assessment Findings</th>
+        <th>Nursing Interventions / Treatment</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Somatic Symptom Disorder</strong></td>
+        <td>Maladaptive health concerns with no physical evidence of illness or disease. The patient believes they are ill and not being treated correctly.</td>
+        <td>Vague complaints such as chest pain, SOB, fatigue, dizziness, or pain. Frequent physician visits. Constant health fears. May become angry/hostile. Often seen as “difficult” clients.</td>
+        <td>Assess history and psychiatric diagnoses, teach health/wellness habits, assertive communication, self-compassion, internal locus of control, CBT, hypnotherapy, TCAs/SSRIs if ordered.</td>
+      </tr>
+      <tr>
+        <td><strong>Illness Anxiety Disorder</strong></td>
+        <td>Also called hypochondriasis. Patient misinterprets body sensations as serious illness.</td>
+        <td>Very worried/preoccupied with illness, frequently monitors body, mild symptoms may be described, seeks medical care and diagnostic tests, takes unnecessary meds, refuses psychiatric consultation, may be angry/hostile.</td>
+        <td>Allow limited time to discuss health concerns, do not appear overly concerned, be matter-of-fact, spend time when not complaining, encourage socialization, CBT, SSRIs, ECT if coexisting depression.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
-<strong>Factitious, malingering, and dissociative:</strong>
-<ul>
-<li>Factitious = wants the sick role. Malingering = wants external benefit (money, avoiding prison).</li>
-<li>Factitious disorder imposed on another is abuse — protect the victim and report.</li>
-<li>Dissociative disorders are strongly linked to trauma — safety and trust come first.</li>
-<li>DID has high suicide risk — assess safety often.</li>
-</ul>
+<div class="detail-grid" markdown="1">
+
+<div class="detail-mini-card" markdown="1">
+<strong>Somatic Symptom Nursing Care</strong>
+
+- Emphasize overall health and wellness.
+- Encourage good diet.
+- Encourage adequate sleep.
+- Encourage exercise.
+- Teach assertive communication.
+- Teach patient and family about the disorder.
+- Teach self-compassion.
+- Encourage internal locus of control.
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Illness Anxiety Nursing Care</strong>
+
+- Try to get patient to accept psychiatric care as adjunct to medical care.
+- Allow discussion of health concerns, but limit time spent on them.
+- Avoid providing secondary gains.
+- Spend time with patient when not complaining of symptoms.
+- Do not appear alarmed by physical complaints.
+- Encourage socialization.
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Patient Education</strong>
+
+- Stress can worsen physical symptoms.
+- Therapy can help manage the anxiety connected to symptoms.
+- Healthy routines support symptom control.
+- Limit repeated checking/reassurance seeking.
+- Practice assertive communication.
+- Use coping skills during stress.
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Complications / Safety Risks</strong>
+
+- Excessive medical testing
+- Unnecessary medications
+- Anger/hostility toward staff
+- Functional impairment
+- Anxiety/depression worsening
+- Secondary gain reinforcement
+- Refusal of psychiatric support
+</div>
 
 </div>
 
----
+<div class="detail-callout" markdown="1">
+<strong>NCLEX:</strong> Do not dismiss the patient as “faking.” The symptoms and fear are real to the patient, but the nursing response should be calm, matter-of-fact, and not reinforcing.
+</div>
 
-# Must-Know Table
+</div>
 
-| Concept | Remember |
+<div class="mh-detail pink" id="panel-conversion" markdown="1">
+<a class="mh-detail-close" href="#">✕</a>
+
+### Conversion Disorder
+
+<div class="detail-grid" markdown="1">
+
+<div class="detail-mini-card" markdown="1">
+<strong>What It Is</strong>
+
+- Also called functional neurological disorder.
+- Emotional stressors are converted into physical symptoms.
+- Patient has neurological symptoms or deficits without identifiable disease.
+- Symptoms must be fully investigated before diagnosis.
+- More common in females.
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Assessment Findings</strong>
+
+- Sensory deficits
+- Motor deficits
+- Seizure-like symptoms
+- Neurological symptoms without disease explanation
+- La belle indifférence: lack of concern about symptoms, even if extreme or disabling
+- Symptoms feel real to the patient
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Risk Factors / Causes</strong>
+
+- Emotional stressors
+- History of childhood abuse
+- Sexual abuse history
+- Family dysfunction
+- Depression
+- Dissociative disorders
+- Maladaptive coping with stress
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Priority Nursing Attitude</strong>
+
+- Do not challenge symptoms.
+- Their perception is their reality.
+- Be supportive.
+- Avoid saying symptoms are “not real.”
+- Encourage adaptive coping.
+- Encourage socialization.
+</div>
+
+</div>
+
+<div class="detail-table">
+  <table>
+    <thead>
+      <tr>
+        <th>Treatment / Intervention</th>
+        <th>Purpose</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Supportive care</strong></td>
+        <td>Maintains trust and avoids power struggle over symptoms.</td>
+      </tr>
+      <tr>
+        <td><strong>Encourage socialization</strong></td>
+        <td>Promotes function and decreases symptom-focused attention.</td>
+      </tr>
+      <tr>
+        <td><strong>Teach adaptive coping</strong></td>
+        <td>Helps patient manage stressors without physical symptom expression.</td>
+      </tr>
+      <tr>
+        <td><strong>Hypnosis</strong></td>
+        <td>May help access underlying emotional conflict or memories.</td>
+      </tr>
+      <tr>
+        <td><strong>Amobarbital</strong></td>
+        <td>Class note: may help retrieve memories and treat seizures/insomnia.</td>
+      </tr>
+      <tr>
+        <td><strong>Body-oriented psychosocial therapy</strong></td>
+        <td>Patient learns to use body awareness to express feelings.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="detail-grid" markdown="1">
+
+<div class="detail-mini-card" markdown="1">
+<strong>Nursing Interventions</strong>
+
+- Ensure medical evaluation is completed.
+- Support patient without reinforcing disability.
+- Encourage independence as able.
+- Teach stress coping skills.
+- Encourage expression of feelings.
+- Avoid confrontation.
+- Monitor safety if motor/sensory deficits increase fall risk.
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Patient Education</strong>
+
+- Stress can show up physically.
+- Symptoms are treated with support and coping strategies.
+- Therapy can help identify stressors.
+- Report new or worsening symptoms.
+- Practice safe mobility if weakness or sensory changes occur.
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Complications / Safety Risks</strong>
+
+- Falls or injury from neurological symptoms
+- Functional impairment
+- Reinforcement of symptoms
+- Depression
+- Dissociative symptoms
+- Unresolved trauma/stress
+</div>
+
+</div>
+
+<div class="detail-callout" markdown="1">
+<strong>NCLEX:</strong> With conversion disorder, do not challenge the symptoms. Be supportive and teach healthier coping with stress.
+</div>
+
+</div>
+
+<div class="mh-detail blue" id="panel-factitious" markdown="1">
+<a class="mh-detail-close" href="#">✕</a>
+
+### Factitious Disorders + Malingering
+
+<div class="detail-table">
+  <table>
+    <thead>
+      <tr>
+        <th>Condition</th>
+        <th>What It Is</th>
+        <th>Assessment Findings</th>
+        <th>Nursing Focus / Treatment</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Factitious Disorder Imposed on Self</strong><br>Munchausen syndrome</td>
+        <td>Feigning illness to get attention and kindness from others. The person is consciously trying to fool others.</td>
+        <td>May feign physical or psychological illness, use medical terminology, injure self, demand specific tests/procedures, resist staff talking to family, doctor shop, become abusive if not treated as desired.</td>
+        <td>Document objectively, avoid unnecessary procedures when possible, maintain boundaries, CBT, discuss childhood trauma, coordinate care with team.</td>
+      </tr>
+      <tr>
+        <td><strong>Factitious Disorder Imposed on Another</strong><br>Munchausen syndrome by proxy</td>
+        <td>Feigning or causing illness in another person, often a child, while seeking attention for self.</td>
+        <td>Perpetrator may be medically knowledgeable, may rush victim to hospital, may injure or make person ill, victim undergoes unnecessary tests/procedures/surgery, victim may die.</td>
+        <td>Protect victim, report as required, document objectively, preserve evidence, coordinate with legal/protective services.</td>
+      </tr>
+      <tr>
+        <td><strong>Malingering</strong></td>
+        <td>Pretending to be ill or exaggerating symptoms for secondary gain.</td>
+        <td>Symptoms may be vague and difficult to prove false. Motivation is external benefit.</td>
+        <td>Document objectively, maintain boundaries, avoid confrontation, assess safety and actual needs.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="detail-grid" markdown="1">
+
+<div class="detail-mini-card" markdown="1">
+<strong>Factitious Clues</strong>
+
+- Uses medical terminology that most lay people do not know.
+- May injure self to create convincing symptoms.
+- Does not want staff to talk with family.
+- Demands specific diagnostic tests or procedures.
+- May abuse staff and call them incompetent.
+- Doctor shopping may occur.
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Factitious Imposed on Another Risks</strong>
+
+- Victim receives unnecessary diagnostic tests.
+- Victim may undergo unnecessary procedures or surgery.
+- Perpetrator may intentionally make victim ill.
+- Victim may die from the abuse.
+- Perpetrator may receive attention or societal rewards.
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Risk Factors / Causes</strong>
+
+- History of child abuse
+- Frequent hospitalization as a child
+- Hospital viewed as a safe place
+- Personality disorders
+- Substance abuse
+- Sexual disorders
+- Childhood trauma
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Treatment / Nursing Care</strong>
+
+- Cognitive behavioral therapy.
+- Discuss childhood trauma if appropriate.
+- Maintain professional boundaries.
+- Avoid reinforcing unnecessary illness behaviors.
+- Coordinate care with the treatment team.
+- Document objective findings and patient statements.
+</div>
+
+</div>
+
+<div class="detail-table">
+  <table>
+    <thead>
+      <tr>
+        <th>Comparison</th>
+        <th>Factitious Disorder</th>
+        <th>Malingering</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Main Goal</strong></td>
+        <td>Attention, care, kindness, sick role.</td>
+        <td>External reward or secondary gain.</td>
+      </tr>
+      <tr>
+        <td><strong>Motivation</strong></td>
+        <td>Psychological need to be seen as ill.</td>
+        <td>Money, avoiding work/school/legal duty, disability, shelter, medications, or other benefit.</td>
+      </tr>
+      <tr>
+        <td><strong>Behavior</strong></td>
+        <td>May create or fake symptoms even without obvious external reward.</td>
+        <td>May exaggerate vague symptoms for practical gain.</td>
+      </tr>
+      <tr>
+        <td><strong>Nursing Response</strong></td>
+        <td>Boundaries, objective documentation, team coordination, avoid reinforcing illness behavior.</td>
+        <td>Objective documentation, boundaries, assess actual needs, avoid confrontation.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="detail-callout" markdown="1">
+<strong>NCLEX:</strong> Factitious disorder is about receiving attention/care as a sick person. Malingering is about external secondary gain.
+</div>
+
+</div>
+
+<div class="mh-detail green" id="panel-dissociative" markdown="1">
+<a class="mh-detail-close" href="#">✕</a>
+
+### Dissociative Disorders
+
+<div class="detail-grid" markdown="1">
+
+<div class="detail-mini-card" markdown="1">
+<strong>Big Picture</strong>
+
+- Disturbances in memory, identity, and consciousness.
+- Unacceptable or traumatic situations are separated from the person.
+- Severe childhood abuse may be involved.
+- More women are affected.
+- Can cause altered thinking, time perception changes, feelings of losing control, and mood swings.
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Risk Factors / Causes</strong>
+
+- Severe childhood abuse
+- Sexual abuse
+- Physical abuse
+- Emotional abuse
+- Repeated trauma
+- Neglect
+- High stress
+- Drug use can precipitate depersonalization/derealization feelings
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Assessment Tools</strong>
+
+- Dissociative Experience Scale
+- Dissociative Disorders Interview Schedule
+- These can help assess and diagnose dissociative disorders.
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Safety Risks</strong>
+
+- Suicide risk
+- Blackouts/loss of time
+- Missing memories
+- Substance abuse in some alters
+- PTSD
+- Depression/anxiety
+- Eating/personality/somatic comorbidities
+</div>
+
+</div>
+
+<div class="detail-table">
+  <table>
+    <thead>
+      <tr>
+        <th>Disorder</th>
+        <th>What It Is</th>
+        <th>Assessment Findings</th>
+        <th>Treatment / Nursing Focus</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Dissociative Amnesia</strong></td>
+        <td>Inability to remember important personal information.</td>
+        <td>Generalized: cannot remember life events/info. Localized: cannot remember events from a specific time. Selective: remembers some but not all events from a time period.</td>
+        <td>Reduce anxiety, safety, support memory recovery carefully. Benzodiazepines may reduce anxiety; hypnosis may help recover forgotten memories.</td>
+      </tr>
+      <tr>
+        <td><strong>Dissociative Fugue</strong></td>
+        <td>Sudden unexpected travel away from home with inability to remember parts of the past.</td>
+        <td>Trauma triggers running away; may create a new identity; old memories may cause forgetting of current life.</td>
+        <td>Safety, identity support, trauma-informed care, therapy, reduce anxiety.</td>
+      </tr>
+      <tr>
+        <td><strong>Depersonalization / Derealization Disorder</strong></td>
+        <td>Depersonalization: detached from body. Derealization: world feels dramatically changed or unreal.</td>
+        <td>Feels detached from body/parts of body, world feels changed, difficulty perceiving surroundings accurately, may occur with abuse/neglect/stress/drug use.</td>
+        <td>CBT, medications for anxiety/depression if ordered, transcranial magnetic stimulation may be used.</td>
+      </tr>
+      <tr>
+        <td><strong>Dissociative Identity Disorder</strong></td>
+        <td>At least one alter identity develops to deal with severe repeated trauma.</td>
+        <td>Primary personality may be unaware of alters; blackouts, loss of time, missing memories; alters may have different handwriting, allergies, diseases, EEGs, sex, and traits.</td>
+        <td>Long, difficult psychotherapy; treat each personality separately; goal is integration; journal may help communication; constantly assess suicide risk.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="detail-grid" markdown="1">
+
+<div class="detail-mini-card" markdown="1">
+<strong>DID Key Points</strong>
+
+- Usually linked to repeated severe abuse beginning in early childhood.
+- Abuse is often physical, sexual, and emotional.
+- Abuse is usually by someone close, often a relative.
+- Alters protect the primary personality from trauma.
+- More severe abuse may lead to more alters.
+- Switching can be quick and subtle.
+- Often misdiagnosed.
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>DID Treatment</strong>
+
+- Treatment is long and difficult.
+- Each personality may need treatment separately.
+- Trust is difficult because the patient was betrayed by trusted people.
+- Goal is integration of alters into primary personality.
+- Alters may resist treatment because integration feels like death.
+- Journal may help track what each personality has done.
+- Journal may allow personalities to communicate.
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Medications / Therapies</strong>
+
+- Antidepressants, antianxiety meds, and antipsychotics should be used only when absolutely necessary and for short periods because of suicide potential.
+- Some alters may need substance abuse treatment.
+- Main treatment is psychotherapy.
+- Hypnosis may help access suppressed memories.
+- EMDR may decrease distress from traumatic memories.
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Patient Education</strong>
+
+- Therapy is long-term and requires trust.
+- Journaling can help track time loss and communication.
+- Report suicidal thoughts or unsafe behaviors immediately.
+- Avoid alcohol/drugs that worsen dissociation.
+- Use grounding skills during dissociation.
+- Keep appointments with trained trauma/dissociation specialists.
+</div>
+
+</div>
+
+<div class="detail-table">
+  <table>
+    <thead>
+      <tr>
+        <th>Memory Type</th>
+        <th>Meaning</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Generalized Amnesia</strong></td>
+        <td>Cannot remember any events or information about their life.</td>
+      </tr>
+      <tr>
+        <td><strong>Localized Amnesia</strong></td>
+        <td>Cannot remember any events for a specific time period.</td>
+      </tr>
+      <tr>
+        <td><strong>Selective Amnesia</strong></td>
+        <td>Some events, but not all events, are forgotten for a specific time period.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="detail-callout" markdown="1">
+<strong>NCLEX:</strong> With dissociative identity disorder, suicide risk is very high. Just one depressed alter gaining control can create serious danger.
+</div>
+
+<div class="detail-callout" markdown="1">
+<strong>Trauma reminder:</strong> Do not force trauma details. Safety, trust, grounding, and specialized therapy are priorities.
+</div>
+
+</div>
+
+<div class="mh-columns wide-left" markdown="1">
+
+<div class="key-findings" markdown="1">
+<h3>📋 Big Picture</h3>
+
+- Somatic disorders express anxiety through the body.
+- Illness anxiety disorder involves constant fear of serious illness.
+- Conversion disorder converts emotional stress into neurological symptoms.
+- Factitious disorder is feigned illness for attention/care.
+- Malingering is exaggerated illness for external gain.
+- Dissociative disorders involve disturbances in memory, identity, or consciousness.
+- Trauma history is common across many of these disorders.
+</div>
+
+<div class="mh-col" markdown="1">
+
+<div class="report-now" markdown="1">
+<h3>Report Immediately</h3>
+
+- Suicidal statements or unsafe behavior
+- Suspected factitious disorder imposed on another
+- Child or vulnerable adult being harmed
+- Severe self-injury or medical complications
+- New neurological symptoms needing medical evaluation
+- Severe dissociation with safety risk
+- Severe medication adverse effects
+</div>
+
+<div class="nclex-tip" markdown="1">
+<h3>NCLEX Tip</h3>
+
+Do not argue with the patient’s symptoms or memories. Keep responses calm, factual, supportive, and safety-focused.
+</div>
+
+</div>
+</div>
+
+<div class="mh-table-card" markdown="1">
+
+<h3>Quick Terms</h3>
+
+| Concept | Simple Meaning |
 |---|---|
-| **Somatic symptom disorder** | Physical symptoms + excessive distress |
-| **Illness anxiety disorder** | Fear of serious illness with mild/no symptoms |
-| **Conversion disorder** | Stress becomes neuro-like symptoms |
-| **La belle indifférence** | Lack of concern about serious symptom |
-| **Primary gain** | Internal anxiety relief |
-| **Secondary gain** | External benefit |
-| **Factitious disorder** | Fakes/causes illness for sick role |
-| **Factitious imposed on another** | Causes/fakes illness in another person; abuse |
-| **Malingering** | Fakes/exaggerates for external reward |
-| **Dissociative amnesia** | Cannot remember important personal info |
-| **Dissociative fugue** | Sudden travel + memory loss/new identity |
-| **Depersonalization** | Detached from body |
-| **Derealization** | World feels unreal |
-| **DID** | Multiple identities + memory gaps |
-| **EMDR** | Trauma therapy using bilateral stimulation |
+| **Somatization** | Expressing anxiety through the body |
+| **Primary gain** | Unconscious emotional benefit from symptoms |
+| **Secondary gain** | External benefit from symptoms |
+| **Somatic symptom disorder** | Health concerns with no physical evidence of illness |
+| **Illness anxiety disorder** | Misinterprets body sensations as serious illness |
+| **Hypochondriasis** | Older term for illness anxiety disorder |
+| **Conversion disorder** | Emotional stress becomes neurological symptoms |
+| **La belle indifférence** | Lack of concern about severe symptoms |
+| **Factitious disorder imposed on self** | Feigns illness to get attention/care |
+| **Munchausen syndrome** | Factitious disorder imposed on self |
+| **Factitious disorder imposed on another** | Feigns/causes illness in another person |
+| **Munchausen by proxy** | Factitious disorder imposed on another |
+| **Malingering** | Pretending/exaggerating illness for external gain |
+| **Dissociation** | Disconnection from memory, identity, consciousness, or reality |
+| **Dissociative amnesia** | Unable to remember important personal information |
+| **Dissociative fugue** | Unexpected travel with memory loss |
+| **Depersonalization** | Feeling detached from body |
+| **Derealization** | Feeling the world is unreal/changed |
+| **DID** | Dissociative identity disorder with alters |
+| **EMDR** | Eye movement desensitization and reprocessing |
 
----
+</div>
 
-# Final Takeaway
+<div class="mh-columns" markdown="1">
 
-<div class="tip">
-For these disorders, ask:
-<br><br>
-<strong>1. Have physical causes been assessed first?</strong><br>
-<strong>2. Is the symptom real to the patient?</strong><br>
-<strong>3. Am I reinforcing unhealthy behavior or secondary gain?</strong><br>
-<strong>4. Is this illness behavior for attention or external reward?</strong><br>
-<strong>5. Is trauma, dissociation, or suicide risk involved?</strong><br>
-<strong>6. Am I staying calm, matter-of-fact, and therapeutic?</strong>
+<div class="quick-review" markdown="1">
+<h3>Quick Review</h3>
+
+1. Somatic disorders are not “fake”; the symptoms feel real to the patient.
+2. Limit time spent on health complaints without ignoring the patient.
+3. Conversion disorder symptoms should not be challenged.
+4. Factitious disorder seeks attention/care; malingering seeks external gain.
+5. Factitious disorder imposed on another is abuse and must be reported.
+6. Dissociative disorders are strongly linked with trauma.
+7. DID has high suicide risk and requires specialized, long-term therapy.
+</div>
+
+<div class="do-not-miss" markdown="1">
+<h3>Do Not Miss</h3>
+
+- Do not appear overly concerned with repeated physical complaints.
+- Do not provide secondary gains.
+- Do not confront conversion symptoms.
+- Symptoms must be medically evaluated before diagnosing conversion disorder.
+- Factitious imposed on another can cause unnecessary procedures, surgery, or death.
+- Alters may resist integration because they see it as their death.
+- Use objective documentation and team coordination.
+</div>
+
+</div>
+
+<div class="cheer-banner">
+  💜 These questions are about calm boundaries: don’t dismiss, don’t overreact, don’t reinforce — support safely. 💜
 </div>
 
 ---
 
 <div class="page-nav">
-  <a href="{{ '/mental-health/anxiety.html' | relative_url }}" class="page-nav-back">← Anxiety, OCD & Trauma</a>
-  <a href="{{ '/mental-health/personality-disorders.html' | relative_url }}" class="page-nav-next">Personality Disorders →</a>
+  <a href="{{ '/mental-health/abuse-suicide.html' | relative_url }}" class="page-nav-back">← Abuse & Suicide</a>
+  <a href="{{ '/mental-health/mental-health-basics.html' | relative_url }}" class="page-nav-next">Mental Health Basics →</a>
 </div>
