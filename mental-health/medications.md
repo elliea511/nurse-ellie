@@ -257,7 +257,7 @@ Antidepressants usually take **weeks**. Teach adherence, no abrupt stopping, no 
 <section class="med-class-section anxiety" id="anxiety-ocd">
 
 <div class="med-class-header">
-  <span class="med-class-icon">🫨</span>
+  <span class="med-class-icon">✿</span>
   <div>
     <h2>Antianxiety + OCD Medications</h2>
     <p>Used for anxiety disorders, panic symptoms, OCD, and physical anxiety symptoms.</p>
