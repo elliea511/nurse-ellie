@@ -1449,6 +1449,32 @@ body[data-section="mental-health"] .med-nav-pills a:hover {
   transform: translateY(-1px);
 }
 
+body[data-section="mental-health"] .med-game-launch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: min(100%, 420px);
+  min-height: 54px;
+  margin: 0 auto 1.8rem;
+  padding: .8rem 1.2rem;
+  border: 1px solid #6f43d7;
+  border-radius: 15px;
+  background: linear-gradient(135deg, #5a35bd, #8c63e8);
+  box-shadow: 0 9px 20px rgba(91, 53, 185, .2);
+  color: #fff !important;
+  font-weight: 900;
+  text-decoration: none !important;
+  transition: transform .18s ease, box-shadow .18s ease;
+}
+
+body[data-section="mental-health"] .med-game-launch:hover,
+body[data-section="mental-health"] .med-game-launch:focus-visible {
+  transform: translateY(-2px);
+  box-shadow: 0 13px 25px rgba(91, 53, 185, .27);
+  outline: 3px solid rgba(111, 67, 215, .2);
+  outline-offset: 2px;
+}
+
 body[data-section="mental-health"] .med-class-section {
   margin: 34px 0;
   padding: 24px;

@@ -63,6 +63,8 @@ Use this page like a quick drug-card dashboard: **what it’s for, what can hurt
   <a href="#master-chart">Master Chart</a>
 </div>
 
+<a class="med-game-launch" href="{{ '/mental-health/medication-game.html' | relative_url }}">🎮 Play Mind Med Match</a>
+
 ---
 
 <section class="med-class-section antidepressants" id="antidepressants">
