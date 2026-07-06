@@ -10,10 +10,6 @@ title: Mental Health Medications
 
 # Mental Health Medications
 
-<p class="mh-subtitle">Drug-class reference hub for psych meds, substance-use meds, eating-disorder meds, and special class-note treatments</p>
-
-Use this page like a quick drug-card dashboard: **what it’s for, what can hurt the patient, what to teach, and what NCLEX loves.**
-
 <div class="priority-focus">
   <div>
     <h3>Medication Priority Focus</h3>
