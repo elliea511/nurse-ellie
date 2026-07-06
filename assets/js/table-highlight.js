@@ -91,18 +91,3 @@
     });
   }
 })();
-
-// Stamp data-label on every <td> for responsive stacked layout
-(function () {
-  document.querySelectorAll('.main-content table').forEach(function (table) {
-    var headers = Array.from(table.querySelectorAll('thead th')).map(function (th) {
-      return th.textContent.trim();
-    });
-    if (!headers.length) return;
-    table.querySelectorAll('tbody tr').forEach(function (row) {
-      row.querySelectorAll('td').forEach(function (td, i) {
-        if (headers[i]) td.setAttribute('data-label', headers[i]);
-      });
-    });
-  });
-})();
