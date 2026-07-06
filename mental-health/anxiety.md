@@ -122,42 +122,41 @@ Anxiety is a feeling of **dread, apprehension, or uneasiness.** It becomes a dis
 - Coexisting depression or other anxiety disorders
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Anxiety Levels</strong>
-
 <div class="detail-table">
   <table>
     <thead>
       <tr>
-        <th>Level</th>
-        <th>What Happens</th>
-        <th>Nursing Focus</th>
+        <th></th>
+        <th>Mild</th>
+        <th>Moderate</th>
+        <th>Severe</th>
+        <th>Panic</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><strong>Mild</strong></td>
+        <td><strong>What Happens</strong></td>
         <td>Everyday anxiety; sharpens focus on reality.</td>
-        <td>Teaching and problem-solving can happen.</td>
-      </tr>
-      <tr>
-        <td><strong>Moderate</strong></td>
         <td>Perceptual field narrows; some details are excluded.</td>
-        <td>Use simple explanations and refocus.</td>
-      </tr>
-      <tr>
-        <td><strong>Severe</strong></td>
         <td>Perceptual field is severely narrowed; focus is poor.</td>
-        <td>Reduce stimuli and stay calm.</td>
+        <td>Extreme anxiety; unable to process the environment.</td>
       </tr>
       <tr>
-        <td><strong>Panic</strong></td>
-        <td>Extreme anxiety; unable to process the environment.</td>
-        <td>Stay with patient, safety, short directions.</td>
+        <td><strong>What You May See</strong></td>
+        <td>Alert, focused, slightly restless.</td>
+        <td>Tense, needs refocusing, misses some details.</td>
+        <td>Pacing, poor concentration, physical symptoms.</td>
+        <td>Feels out of control, may feel like they are dying.</td>
+      </tr>
+      <tr>
+        <td><strong>Nursing Focus</strong></td>
+        <td>Teaching and problem-solving can happen.</td>
+        <td>Use simple explanations and refocus.</td>
+        <td>Reduce stimuli and stay calm.</td>
+        <td>Stay with patient, maintain safety, use short directions.</td>
       </tr>
     </tbody>
   </table>
-</div>
 </div>
 
 <div class="detail-mini-card" markdown="1">
