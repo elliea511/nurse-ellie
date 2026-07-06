@@ -109,7 +109,7 @@ Use this page like a quick drug-card dashboard: **what it’s for, what can hurt
 **Monitor:** Suicide risk early, serotonin syndrome, GI/sleep/sexual effects.  
 **Teach:** Takes weeks. Do not stop suddenly. Report suicidal thoughts or serotonin syndrome.
 
-<div class="drug-nclex">NCLEX: Energy may improve before mood → suicide risk early.</div>
+<div class="drug-nclex"><strong>NCLEX:</strong> Energy may improve before mood → suicide risk early.</div>
 </div>
 
 <div class="drug-card" markdown="1">
@@ -122,7 +122,7 @@ Use this page like a quick drug-card dashboard: **what it’s for, what can hurt
 **Monitor:** Serotonin syndrome, GI effects, suicide risk early.  
 **Teach:** Take as prescribed. Report worsening mood or serotonin syndrome.
 
-<div class="drug-nclex">NCLEX: Treat like a serotonergic antidepressant.</div>
+<div class="drug-nclex"><strong>NCLEX:</strong> Treat like a serotonergic antidepressant.</div>
 </div>
 
 <div class="drug-card" markdown="1">
@@ -135,7 +135,7 @@ Use this page like a quick drug-card dashboard: **what it’s for, what can hurt
 **Monitor:** BP changes, serotonin syndrome, suicide risk early.  
 **Teach:** Do not stop abruptly. Report severe headache, BP symptoms, or serotonin syndrome.
 
-<div class="drug-nclex">NCLEX: Watch BP and serotonin syndrome.</div>
+<div class="drug-nclex"><strong>NCLEX:</strong> Watch BP and serotonin syndrome.</div>
 </div>
 
 <div class="drug-card" markdown="1">
@@ -148,7 +148,7 @@ Use this page like a quick drug-card dashboard: **what it’s for, what can hurt
 **Monitor:** Seizure risk, anxiety, insomnia, mood changes.  
 **Teach:** Report seizures or worsening mood.
 
-<div class="drug-nclex">NCLEX: Use caution with seizure risk/eating disorder history.</div>
+<div class="drug-nclex"><strong>NCLEX:</strong> Use caution with seizure risk/eating disorder history.</div>
 </div>
 
 <div class="drug-card" markdown="1">
@@ -161,7 +161,7 @@ Use this page like a quick drug-card dashboard: **what it’s for, what can hurt
 **Monitor:** Anticholinergic effects, sedation, orthostatic hypotension, cardiac effects, overdose danger.  
 **Teach:** Rise slowly. Avoid alcohol/CNS depressants. Keep secured.
 
-<div class="drug-nclex">NCLEX: TCA overdose can be dangerous.</div>
+<div class="drug-nclex"><strong>NCLEX:</strong> TCA overdose can be dangerous.</div>
 </div>
 
 <div class="drug-card" markdown="1">
@@ -174,7 +174,7 @@ Use this page like a quick drug-card dashboard: **what it’s for, what can hurt
 **Monitor:** Hypertensive crisis, tyramine/drug interactions.  
 **Teach:** Avoid tyramine foods. Report severe headache, chest pain, stiff neck, palpitations.
 
-<div class="drug-nclex">NCLEX: Tyramine diet is the big teaching point.</div>
+<div class="drug-nclex"><strong>NCLEX:</strong> Tyramine diet is the big teaching point.</div>
 </div>
 
 <div class="drug-card" markdown="1">
@@ -187,7 +187,7 @@ Use this page like a quick drug-card dashboard: **what it’s for, what can hurt
 **Monitor:** Interactions and serotonin syndrome risk.  
 **Teach:** Tell provider before taking. Do not mix with antidepressants unless approved.
 
-<div class="drug-nclex">NCLEX: Herbal does not mean harmless.</div>
+<div class="drug-nclex"><strong>NCLEX:</strong> Herbal does not mean harmless.</div>
 </div>
 
 <div class="drug-card" markdown="1">
@@ -200,7 +200,7 @@ Use this page like a quick drug-card dashboard: **what it’s for, what can hurt
 **Monitor:** Temporary memory loss, confusion, anesthesia risks.  
 **Teach:** Consent/NPO prep as ordered; reorient after treatment.
 
-<div class="drug-nclex">NCLEX: Induced seizure activity can treat severe depression.</div>
+<div class="drug-nclex"><strong>NCLEX:</strong> Induced seizure activity can treat severe depression.</div>
 </div>
 
 <div class="drug-card" markdown="1">
@@ -213,7 +213,7 @@ Use this page like a quick drug-card dashboard: **what it’s for, what can hurt
 **Monitor:** Class notes: no neuro deficits or memory problems noted.  
 **Teach:** Noninvasive magnetic pulses stimulate cerebral cortex.
 
-<div class="drug-nclex">NCLEX: Noninvasive depression treatment.</div>
+<div class="drug-nclex"><strong>NCLEX:</strong> Noninvasive depression treatment.</div>
 </div>
 
 <div class="drug-card" markdown="1">
@@ -226,7 +226,7 @@ Use this page like a quick drug-card dashboard: **what it’s for, what can hurt
 **Monitor:** Implant/device issues.  
 **Teach:** Chest device with wire to vagus nerve; magnet turns stimulation on/off.
 
-<div class="drug-nclex">NCLEX: Implanted device, not a pill.</div>
+<div class="drug-nclex"><strong>NCLEX:</strong> Implanted device, not a pill.</div>
 </div>
 
 <div class="drug-card" markdown="1">
@@ -239,7 +239,7 @@ Use this page like a quick drug-card dashboard: **what it’s for, what can hurt
 **Monitor:** Brain bleeding, seizures, stroke.  
 **Teach:** Implanted brain electrodes stimulated by chest device; report neuro changes.
 
-<div class="drug-nclex">NCLEX: Most invasive depression treatment listed.</div>
+<div class="drug-nclex"><strong>NCLEX:</strong> Most invasive depression treatment listed.</div>
 </div>
 
 </div>
@@ -296,7 +296,7 @@ Antidepressants usually take **weeks**. Teach adherence, no abrupt stopping, no 
 **Monitor:** Sedation, falls, dependence, respiratory depression, withdrawal.  
 **Teach:** Short-term use. Avoid alcohol/CNS depressants. Do not stop suddenly.
 
-<div class="drug-nclex">NCLEX: Fast relief, but high safety risk.</div>
+<div class="drug-nclex"><strong>NCLEX:</strong> Fast relief, but high safety risk.</div>
 </div>
 
 <div class="drug-card" markdown="1">
@@ -309,7 +309,7 @@ Antidepressants usually take **weeks**. Teach adherence, no abrupt stopping, no 
 **Monitor:** Delayed onset; not useful for immediate panic relief.  
 **Teach:** Takes weeks. No tolerance or addiction. Take consistently.
 
-<div class="drug-nclex">NCLEX: Not a rescue medication.</div>
+<div class="drug-nclex"><strong>NCLEX:</strong> Not a rescue medication.</div>
 </div>
 
 <div class="drug-card" markdown="1">
@@ -322,7 +322,7 @@ Antidepressants usually take **weeks**. Teach adherence, no abrupt stopping, no 
 **Monitor:** Sleepiness, sedation, fall risk.  
 **Teach:** Avoid driving/unsafe activity until effects are known.
 
-<div class="drug-nclex">NCLEX: Helps anxiety but can make patient sleepy.</div>
+<div class="drug-nclex"><strong>NCLEX:</strong> Helps anxiety but can make patient sleepy.</div>
 </div>
 
 <div class="drug-card" markdown="1">
@@ -335,7 +335,7 @@ Antidepressants usually take **weeks**. Teach adherence, no abrupt stopping, no 
 **Monitor:** Low HR, low BP, dizziness.  
 **Teach:** Report fainting, dizziness, or very low pulse.
 
-<div class="drug-nclex">NCLEX: Controls body symptoms, not emotional cause.</div>
+<div class="drug-nclex"><strong>NCLEX:</strong> Controls body symptoms, not emotional cause.</div>
 </div>
 
 <div class="drug-card" markdown="1">
@@ -348,7 +348,7 @@ Antidepressants usually take **weeks**. Teach adherence, no abrupt stopping, no 
 **Monitor:** Serotonin syndrome, suicide risk early, GI/sleep effects.  
 **Teach:** Take consistently. Do not stop abruptly. Continue therapy.
 
-<div class="drug-nclex">NCLEX: OCD medication from class.</div>
+<div class="drug-nclex"><strong>NCLEX:</strong> OCD medication from class.</div>
 </div>
 
 </div>
@@ -386,8 +386,8 @@ Antidepressants usually take **weeks**. Teach adherence, no abrupt stopping, no 
   <div class="med-nclex-box" markdown="1">
 ### NCLEX Loves
 
-- Lithium level: **0.6–1.2 mEq/L**.
-- Toxicity: **hold next dose + notify provider**.
+- **Lithium level:** **0.6–1.2 mEq/L**.
+- **Toxicity:** **hold next dose + notify provider**.
 - Maintain fluids and salt.
 - Avoid diuretics unless ordered.
 - Monitor renal and thyroid labs.
@@ -406,7 +406,7 @@ Antidepressants usually take **weeks**. Teach adherence, no abrupt stopping, no 
 **Monitor:** Level 0.6–1.2, toxicity, thyroid/kidney function, diabetes insipidus.  
 **Teach:** Maintain fluids/salt. Avoid diuretics unless ordered. Keep labs.
 
-<div class="drug-nclex">NCLEX: Suspected toxicity = hold dose + notify provider.</div>
+<div class="drug-nclex"><strong>NCLEX:</strong> Suspected toxicity = hold dose + notify provider.</div>
 </div>
 
 <div class="drug-card" markdown="1">
@@ -419,7 +419,7 @@ Antidepressants usually take **weeks**. Teach adherence, no abrupt stopping, no 
 **Monitor:** Liver/coagulation problems, pancreatitis, bone marrow suppression, rash, birth defect risk.  
 **Teach:** Report rash, bleeding, abdominal pain, speech changes, or pregnancy/plans.
 
-<div class="drug-nclex">NCLEX: Serious systemic side effects.</div>
+<div class="drug-nclex"><strong>NCLEX:</strong> Serious systemic side effects.</div>
 </div>
 
 <div class="drug-card" markdown="1">
@@ -432,7 +432,7 @@ Antidepressants usually take **weeks**. Teach adherence, no abrupt stopping, no 
 **Monitor:** Low BP, dizziness, edema, constipation.  
 **Teach:** Change positions slowly; report dizziness/fainting.
 
-<div class="drug-nclex">NCLEX: Less common bipolar med category.</div>
+<div class="drug-nclex"><strong>NCLEX:</strong> Less common bipolar med category.</div>
 </div>
 
 </div>
@@ -515,9 +515,9 @@ Lithium = **level + kidneys + thyroid + fluids + salt.** Anything changing fluid
   <div class="med-nclex-box" markdown="1">
 ### NCLEX Loves
 
-- EPS: abnormal movements, restlessness, rigidity, tremor.
-- NMS: fever, rigidity, altered mental status.
-- Second-gen: weight, glucose, lipids, metabolic syndrome.
+- **EPS:** abnormal movements, restlessness, rigidity, tremor.
+- **NMS:** fever, rigidity, altered mental status.
+- **Second-gen:** weight, glucose, lipids, metabolic syndrome.
 </div>
 </div>
 
@@ -533,7 +533,7 @@ Lithium = **level + kidneys + thyroid + fluids + salt.** Anything changing fluid
 **Monitor:** EPS, NMS, sedation, cardiac concerns.  
 **Teach:** Report stiffness, tremor, fever, rigidity, confusion, abnormal movements.
 
-<div class="drug-nclex">NCLEX: High EPS/NMS focus.</div>
+<div class="drug-nclex"><strong>NCLEX:</strong> High EPS/NMS focus.</div>
 </div>
 
 <div class="drug-card" markdown="1">
@@ -546,7 +546,7 @@ Lithium = **level + kidneys + thyroid + fluids + salt.** Anything changing fluid
 **Monitor:** Weight gain, glucose/lipids, metabolic syndrome, sedation, EPS/NMS.  
 **Teach:** Keep labs. Report abnormal movements, fever/rigidity, major weight changes.
 
-<div class="drug-nclex">NCLEX: Second-gen = metabolic monitoring.</div>
+<div class="drug-nclex"><strong>NCLEX:</strong> Second-gen = metabolic monitoring.</div>
 </div>
 
 <div class="drug-card" markdown="1">
@@ -559,7 +559,7 @@ Lithium = **level + kidneys + thyroid + fluids + salt.** Anything changing fluid
 **Monitor:** Cardiac effects, weight gain, insulin resistance, diabetes, EPS/NMS.  
 **Teach:** Report fever, rigidity, abnormal movements, chest symptoms, weight changes.
 
-<div class="drug-nclex">NCLEX: Used when psychotic features are present.</div>
+<div class="drug-nclex"><strong>NCLEX:</strong> Used when psychotic features are present.</div>
 </div>
 
 <div class="drug-card" markdown="1">
@@ -572,7 +572,7 @@ Lithium = **level + kidneys + thyroid + fluids + salt.** Anything changing fluid
 **Monitor:** Antipsychotic-type adverse effects.  
 **Teach:** Report abnormal movements, fever, rigidity.
 
-<div class="drug-nclex">NCLEX: Paranoid personality disorder med cue.</div>
+<div class="drug-nclex"><strong>NCLEX:</strong> Paranoid personality disorder med cue.</div>
 </div>
 
 </div>
@@ -611,10 +611,10 @@ Report **fever, rigidity, confusion, restlessness, tremors, stiffness, or abnorm
   <div class="med-nclex-box" markdown="1">
 ### NCLEX Loves
 
-- Opioid overdose: breathing first, then naloxone.
-- Alcohol withdrawal: seizures/DTs.
+- **Opioid overdose:** breathing first, then naloxone.
+- **Alcohol withdrawal:** seizures/DTs.
 - Thiamine for Wernicke’s/Korsakoff’s.
-- Antabuse: no alcohol.
+- **Antabuse:** no alcohol.
 - Benzos used for alcohol withdrawal.
 </div>
 </div>
@@ -633,7 +633,7 @@ Report **fever, rigidity, confusion, restlessness, tremors, stiffness, or abnorm
 **Monitor:** Airway/breathing, recurrent respiratory depression, withdrawal symptoms.  
 **Teach:** Emergency reversal; follow-up care still needed.
 
-<div class="drug-nclex">NCLEX: Breathing first, then naloxone.</div>
+<div class="drug-nclex"><strong>NCLEX:</strong> Breathing first, then naloxone.</div>
 </div>
 
 <div class="drug-card" markdown="1">
@@ -646,7 +646,7 @@ Report **fever, rigidity, confusion, restlessness, tremors, stiffness, or abnorm
 **Monitor:** Sedation, respiratory depression, adherence.  
 **Teach:** Take only as prescribed. Avoid alcohol/CNS depressants.
 
-<div class="drug-nclex">NCLEX: Not overdose reversal.</div>
+<div class="drug-nclex"><strong>NCLEX:</strong> Not overdose reversal.</div>
 </div>
 
 <div class="drug-card" markdown="1">
@@ -659,7 +659,7 @@ Report **fever, rigidity, confusion, restlessness, tremors, stiffness, or abnorm
 **Monitor:** Low BP, dizziness.  
 **Teach:** Change positions slowly; report fainting/dizziness.
 
-<div class="drug-nclex">NCLEX: Helps symptoms; watch BP.</div>
+<div class="drug-nclex"><strong>NCLEX:</strong> Helps symptoms; watch BP.</div>
 </div>
 
 <div class="drug-card" markdown="1">
@@ -672,7 +672,7 @@ Report **fever, rigidity, confusion, restlessness, tremors, stiffness, or abnorm
 **Monitor:** Sedation, withdrawal symptoms, adherence.  
 **Teach:** Use as prescribed as part of recovery plan.
 
-<div class="drug-nclex">NCLEX: Recovery/maintenance med.</div>
+<div class="drug-nclex"><strong>NCLEX:</strong> Recovery/maintenance med.</div>
 </div>
 
 <div class="drug-card" markdown="1">
@@ -685,7 +685,7 @@ Report **fever, rigidity, confusion, restlessness, tremors, stiffness, or abnorm
 **Monitor:** BP changes, dizziness, sedation.  
 **Teach:** Report dizziness/fainting.
 
-<div class="drug-nclex">NCLEX: Withdrawal symptom support.</div>
+<div class="drug-nclex"><strong>NCLEX:</strong> Withdrawal symptom support.</div>
 </div>
 
 </div>
@@ -704,7 +704,7 @@ Report **fever, rigidity, confusion, restlessness, tremors, stiffness, or abnorm
 **Monitor:** Sedation, respiratory depression, falls.  
 **Teach:** Avoid alcohol/CNS depressants.
 
-<div class="drug-nclex">NCLEX: Withdrawal seizure/agitation control.</div>
+<div class="drug-nclex"><strong>NCLEX:</strong> Withdrawal seizure/agitation control.</div>
 </div>
 
 <div class="drug-card" markdown="1">
@@ -717,7 +717,7 @@ Report **fever, rigidity, confusion, restlessness, tremors, stiffness, or abnorm
 **Monitor:** Sedation, respiratory depression, falls.  
 **Teach:** Dose/frequency gradually decreased as withdrawal improves.
 
-<div class="drug-nclex">NCLEX: Classic alcohol withdrawal med.</div>
+<div class="drug-nclex"><strong>NCLEX:</strong> Classic alcohol withdrawal med.</div>
 </div>
 
 <div class="drug-card" markdown="1">
@@ -730,7 +730,7 @@ Report **fever, rigidity, confusion, restlessness, tremors, stiffness, or abnorm
 **Monitor:** Sedation, respiratory depression, vital signs, fall risk.  
 **Teach:** Avoid alcohol/CNS depressants.
 
-<div class="drug-nclex">NCLEX: Severe withdrawal/DT med option.</div>
+<div class="drug-nclex"><strong>NCLEX:</strong> Severe withdrawal/DT med option.</div>
 </div>
 
 <div class="drug-card" markdown="1">
@@ -743,7 +743,7 @@ Report **fever, rigidity, confusion, restlessness, tremors, stiffness, or abnorm
 **Monitor:** Nutrition, neuro findings, gait, memory, eye findings.  
 **Teach:** Alcohol use can cause severe B-vitamin deficiency.
 
-<div class="drug-nclex">NCLEX: Thiamine deficiency causes Wernicke’s/Korsakoff’s.</div>
+<div class="drug-nclex"><strong>NCLEX:</strong> Thiamine deficiency causes Wernicke’s/Korsakoff’s.</div>
 </div>
 
 <div class="drug-card" markdown="1">
@@ -756,7 +756,7 @@ Report **fever, rigidity, confusion, restlessness, tremors, stiffness, or abnorm
 **Monitor:** Neuro status, gait, memory, nystagmus, pupils.  
 **Teach:** Treats alcohol-related thiamine deficiency complications.
 
-<div class="drug-nclex">NCLEX: Think thiamine with chronic alcohol use.</div>
+<div class="drug-nclex"><strong>NCLEX:</strong> Think thiamine with chronic alcohol use.</div>
 </div>
 
 <div class="drug-card" markdown="1">
@@ -769,7 +769,7 @@ Report **fever, rigidity, confusion, restlessness, tremors, stiffness, or abnorm
 **Monitor:** Blood glucose and neuro status.  
 **Teach:** Given as ordered for low glucose risk.
 
-<div class="drug-nclex">NCLEX: Nutrition/glucose issues are common.</div>
+<div class="drug-nclex"><strong>NCLEX:</strong> Nutrition/glucose issues are common.</div>
 </div>
 
 <div class="drug-card" markdown="1">
@@ -782,7 +782,7 @@ Report **fever, rigidity, confusion, restlessness, tremors, stiffness, or abnorm
 **Monitor:** Electrolytes, BP, dehydration, kidney function.  
 **Teach:** Report dizziness, dehydration, muscle weakness.
 
-<div class="drug-nclex">NCLEX: Watch electrolytes/dehydration.</div>
+<div class="drug-nclex"><strong>NCLEX:</strong> Watch electrolytes/dehydration.</div>
 </div>
 
 <div class="drug-card" markdown="1">
@@ -795,7 +795,7 @@ Report **fever, rigidity, confusion, restlessness, tremors, stiffness, or abnorm
 **Monitor:** Respirations, reflexes, BP, magnesium level if ordered.  
 **Teach:** Report weakness, trouble breathing, decreased reflexes.
 
-<div class="drug-nclex">NCLEX: Respirations and reflexes matter.</div>
+<div class="drug-nclex"><strong>NCLEX:</strong> Respirations and reflexes matter.</div>
 </div>
 
 <div class="drug-card" markdown="1">
@@ -808,7 +808,7 @@ Report **fever, rigidity, confusion, restlessness, tremors, stiffness, or abnorm
 **Monitor:** Severe/fatal alcohol reaction.  
 **Teach:** Avoid all alcohol-containing products. Reaction can cause N/V, flushing, hypotension, SOB, chest pain, confusion.
 
-<div class="drug-nclex">NCLEX: No alcohol, including hidden sources.</div>
+<div class="drug-nclex"><strong>NCLEX:</strong> No alcohol, including hidden sources.</div>
 </div>
 
 </div>
@@ -827,7 +827,7 @@ Report **fever, rigidity, confusion, restlessness, tremors, stiffness, or abnorm
 **Monitor:** Airway protection and facility protocol.  
 **Teach:** Emergency treatment, not routine care.
 
-<div class="drug-nclex">NCLEX: Airway/safety first.</div>
+<div class="drug-nclex"><strong>NCLEX:</strong> Airway/safety first.</div>
 </div>
 
 <div class="drug-card" markdown="1">
@@ -840,7 +840,7 @@ Report **fever, rigidity, confusion, restlessness, tremors, stiffness, or abnorm
 **Monitor:** Hydration and sedation depending on med.  
 **Teach:** Report uncontrolled vomiting or dehydration.
 
-<div class="drug-nclex">NCLEX: Prevents fluid/electrolyte worsening.</div>
+<div class="drug-nclex"><strong>NCLEX:</strong> Prevents fluid/electrolyte worsening.</div>
 </div>
 
 <div class="drug-card" markdown="1">
@@ -853,7 +853,7 @@ Report **fever, rigidity, confusion, restlessness, tremors, stiffness, or abnorm
 **Monitor:** Hydration and bowel pattern.  
 **Teach:** Report severe diarrhea, blood, dehydration.
 
-<div class="drug-nclex">NCLEX: Monitor hydration.</div>
+<div class="drug-nclex"><strong>NCLEX:</strong> Monitor hydration.</div>
 </div>
 
 <div class="drug-card" markdown="1">
@@ -866,7 +866,7 @@ Report **fever, rigidity, confusion, restlessness, tremors, stiffness, or abnorm
 **Monitor:** Nicotine exposure, BP/HR depending on patient.  
 **Teach:** Use exactly as directed.
 
-<div class="drug-nclex">NCLEX: Pair with behavioral therapy.</div>
+<div class="drug-nclex"><strong>NCLEX:</strong> Pair with behavioral therapy.</div>
 </div>
 
 <div class="drug-card" markdown="1">
@@ -879,7 +879,7 @@ Report **fever, rigidity, confusion, restlessness, tremors, stiffness, or abnorm
 **Monitor:** Mood changes and side effects.  
 **Teach:** Report mood changes or concerning symptoms.
 
-<div class="drug-nclex">NCLEX: Smoking cessation med.</div>
+<div class="drug-nclex"><strong>NCLEX:</strong> Smoking cessation med.</div>
 </div>
 
 </div>
@@ -936,7 +936,7 @@ Substance-use meds focus on **breathing, withdrawal safety, seizure prevention, 
 **Monitor:** Stimulant effects, HR/BP, appetite, insomnia, misuse risk.  
 **Teach:** Report chest pain, palpitations, severe anxiety, insomnia.
 
-<div class="drug-nclex">NCLEX: Binge eating med from class.</div>
+<div class="drug-nclex"><strong>NCLEX:</strong> Binge eating med from class.</div>
 </div>
 
 <div class="drug-card" markdown="1">
@@ -949,7 +949,7 @@ Substance-use meds focus on **breathing, withdrawal safety, seizure prevention, 
 **Monitor:** Cognitive slowing, dizziness, weight/appetite changes, pregnancy concerns.  
 **Teach:** Report confusion, severe dizziness, pregnancy/plans.
 
-<div class="drug-nclex">NCLEX: Special eating disorder-related med.</div>
+<div class="drug-nclex"><strong>NCLEX:</strong> Special eating disorder-related med.</div>
 </div>
 
 <div class="drug-card" markdown="1">
@@ -962,7 +962,7 @@ Substance-use meds focus on **breathing, withdrawal safety, seizure prevention, 
 **Monitor:** BP, mood changes, seizure risk.  
 **Teach:** Report mood changes, seizure, severe BP symptoms.
 
-<div class="drug-nclex">NCLEX: Watch BP, mood, seizure risk.</div>
+<div class="drug-nclex"><strong>NCLEX:</strong> Watch BP, mood, seizure risk.</div>
 </div>
 
 <div class="drug-card" markdown="1">
@@ -975,7 +975,7 @@ Substance-use meds focus on **breathing, withdrawal safety, seizure prevention, 
 **Monitor:** Sedation, respiratory depression, safety.  
 **Teach:** Use only under close medical supervision.
 
-<div class="drug-nclex">NCLEX: Sedation/respiratory safety.</div>
+<div class="drug-nclex"><strong>NCLEX:</strong> Sedation/respiratory safety.</div>
 </div>
 
 </div>
@@ -1065,15 +1065,15 @@ Connect special meds back to the bigger priority: **nutrition, safety, coping, t
 <div class="do-not-miss" markdown="1">
 <h3>Do Not Miss</h3>
 
-- Antidepressants: suicide risk early.
-- Benzos: sedation, falls, dependence, respiratory depression.
-- Buspirone: not for panic rescue.
-- Lithium: fluids, salt, level, renal labs, thyroid labs.
-- Antipsychotics: EPS and NMS.
-- Naloxone: opioid overdose.
-- Alcohol withdrawal: seizures and DTs.
-- Thiamine deficiency: Wernicke’s and Korsakoff’s.
-- Antabuse: no alcohol-containing products.
+- **Antidepressants:** suicide risk early.
+- **Benzos:** sedation, falls, dependence, respiratory depression.
+- **Buspirone:** not for panic rescue.
+- **Lithium:** fluids, salt, level, renal labs, thyroid labs.
+- **Antipsychotics:** EPS and NMS.
+- **Naloxone:** opioid overdose.
+- **Alcohol withdrawal:** seizures and DTs.
+- **Thiamine deficiency:** Wernicke’s and Korsakoff’s.
+- **Antabuse:** no alcohol-containing products.
 </div>
 
 </div>
