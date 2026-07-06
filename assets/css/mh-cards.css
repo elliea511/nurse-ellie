@@ -46,13 +46,23 @@ body[data-section="mental-health"] {
    ========================================================= */
 
 body[data-page-type="mental-health-hub"] .page-wrapper {
-  width: min(1540px, calc(100% - 3rem));
-  max-width: none;
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 body[data-page-type="mental-health-hub"] .main-content {
-  max-width: none;
-  padding: 2.25rem 0 3rem;
+  max-width: 100% !important;
+  width: 100% !important;
+  padding: 2.25rem 0 3rem !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  margin: 0 !important;
+}
+
+body[data-page-type="mental-health-hub"] .mh-hub {
+  padding: 0 2rem;
 }
 
 .mh-hub { color: #0d194f; }
@@ -84,8 +94,10 @@ body[data-page-type="mental-health-hub"] .main-content {
   place-items: center;
   width: 4.6rem;
   height: 4.6rem;
-  border: 0;
+  border: none;
+  border-radius: 0;
   background: transparent;
+  overflow: visible;
 }
 
 .mh-hub-brandmark img { width: 4.2rem; height: 3.25rem; object-fit: contain; }
@@ -261,9 +273,9 @@ body[data-page-type="mental-health-hub"] .main-content .mh-guide-icon img {
   width: 4.4rem;
   height: 4.4rem;
   margin: 0 auto 1rem;
-  border-radius: 50%;
-  background: #f1ebfb;
-  overflow: hidden;
+  border-radius: 0;
+  background: transparent;
+  overflow: visible;
 }
 
 .mh-guide-icon img { width: 3.7rem; height: 3rem; object-fit: contain; }
@@ -1260,6 +1272,29 @@ body[data-section="mental-health"] .mh-detail.pink .detail-callout {
 
 body[data-section="mental-health"] .mh-detail.blue .detail-callout {
   border-left-color: var(--mh-blue);
+}
+
+body[data-section="mental-health"] .detail-table {
+  overflow-x: auto;
+  margin: 1rem 0;
+  border-radius: 10px;
+}
+body[data-section="mental-health"] .detail-table table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.93rem;
+}
+body[data-section="mental-health"] .detail-table th {
+  background: rgba(34, 28, 80, 0.08);
+  font-weight: 700;
+  padding: 0.55rem 0.8rem;
+  text-align: left;
+  border-bottom: 2px solid rgba(34, 28, 80, 0.15);
+}
+body[data-section="mental-health"] .detail-table td {
+  padding: 0.5rem 0.8rem;
+  border-bottom: 1px solid rgba(34, 28, 80, 0.08);
+  line-height: 1.55;
 }
 
 body[data-section="mental-health"] .mh-detail.green .detail-callout {
