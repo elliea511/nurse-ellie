@@ -3,575 +3,677 @@ layout: default
 title: Eating Disorders
 ---
 
+<div class="mh-breadcrumb">
+  <a href="{{ '/mental-health.html' | relative_url }}">Mental Health</a>
+  <span>Eating Disorders</span>
+</div>
+
 # Eating Disorders
 
-<div class="note">
-Eating disorders are mental health disorders that affect eating behaviors, body image, nutrition, electrolytes, cardiac function, and safety.
-For NCLEX, focus on: <strong>medical stability, electrolyte imbalance, cardiac risk, refeeding syndrome, meal supervision, boundaries, therapy, and safety.</strong>
+<p class="mh-subtitle">ATI-style review for anorexia, bulimia, binge eating, pica, rumination, ARFID, safety, labs, and priority nursing care</p>
+
+Eating disorders involve disturbed eating patterns that affect **nutrition, weight, body image, physical health, coping, and safety.** Nursing priorities include **medical stability, electrolyte balance, cardiac safety, structured meals, supervision, therapy, nutrition support, and treatment of comorbid anxiety/depression/OCD.**
+
+<div class="priority-focus">
+  <div>
+    <h3>Priority Focus</h3>
+    Safety • Cardiac Risk • Electrolytes • Nutrition • Meal Supervision • Boundaries • Therapy • Body Image • Comorbidities
+  </div>
 </div>
 
----
+<div class="mh-cards">
+  <div class="mh-card purple">
+    <div class="mh-card-icon">🪞</div>
+    <h3>Anorexia Nervosa</h3>
+    <p>Severe calorie restriction, cognitive distortion, very low weight, and high medical risk.</p>
+    <a class="mh-btn" href="#panel-anorexia">Study Anorexia</a>
+  </div>
 
-## Big Picture
+  <div class="mh-card pink">
+    <div class="mh-card-icon">🔁</div>
+    <h3>Bulimia Nervosa</h3>
+    <p>Binge eating followed by purging, with electrolyte, dental, GI, and cardiac concerns.</p>
+    <a class="mh-btn" href="#panel-bulimia">Study Bulimia</a>
+  </div>
 
-| Disorder | Main Problem | Nursing Focus |
-|---|---|---|
-| **Anorexia nervosa** | Severe calorie restriction and very low body weight | Weight restoration, cardiac safety, electrolytes, nutrition |
-| **Bulimia nervosa** | Binge eating followed by purging | Electrolytes, dental/GI damage, monitor after meals |
-| **Binge eating disorder** | Binge eating without purging | Coping skills, nutrition, obesity-related risks |
-| **Pica** | Eating nonfood substances | Safety, poisoning/choking risk, supervision |
-| **Rumination disorder** | Regurgitating food after eating | Nutrition, positioning, caregiver teaching |
-| **Avoidant/Restrictive Food Intake Disorder** | Restrictive intake not related to body image | Nutrition, growth, anxiety/sensory concerns |
+  <div class="mh-card blue">
+    <div class="mh-card-icon">🍽️</div>
+    <h3>Binge Eating</h3>
+    <p>Emotional eating, low self-esteem, trauma history, and increased cardiac/diabetes risk.</p>
+    <a class="mh-btn" href="#panel-binge-eating">Study Binge Eating</a>
+  </div>
 
-<div class="warning">
-<strong>NCLEX:</strong> Eating disorders can become medical emergencies because of electrolyte imbalances, dehydration, malnutrition, and dysrhythmias.
+  <div class="mh-card green">
+    <div class="mh-card-icon">🧸</div>
+    <h3>Childhood Eating Disorders</h3>
+    <p>Pica, rumination, and avoidant/restrictive food intake disorder.</p>
+    <a class="mh-btn" href="#panel-childhood-eating">Study Childhood Disorders</a>
+  </div>
 </div>
 
----
+<div class="mh-detail purple" id="panel-anorexia" markdown="1">
+<a class="mh-detail-close" href="#">✕</a>
 
-# Anorexia Nervosa
+### Anorexia Nervosa
 
-<img src="{{ '/MH-images/Anorexia Final.png' | relative_url }}" alt="Anorexia Nervosa overview" class="img-half">
+<div class="detail-grid" markdown="1">
 
-Anorexia nervosa is severe self-restriction of calories leading to very low body weight. The patient may truly believe they are overweight even when underweight — this is a cognitive distortion.
+<div class="detail-mini-card" markdown="1">
+<strong>What It Is</strong>
 
-## Key Features
-
-| Feature | Meaning |
-|---|---|
-| Severe calorie restriction | Eats very little or refuses food |
-| Very low body weight | Often dangerously underweight |
-| Fear of gaining weight | Intense fear even when underweight |
-| Distorted body image | Believes they are overweight |
-| Control issue | Food/weight may feel like something they can control |
-| High mortality risk | Can lead to death if untreated |
-
-<div class="warning">
-Anorexia has a serious risk of death, often related to malnutrition, electrolyte imbalance, and cardiac complications.
+- Severe self-restriction of calories.
+- Leads to extreme decrease in body weight.
+- Patient has cognitive distortions about weight/body image.
+- Patient truly believes they are overweight even with very low BMI.
+- BMI may be 17 or less.
+- High risk of death if not caught and treated.
 </div>
 
----
+<div class="detail-mini-card" markdown="1">
+<strong>Risk Factors / Causes</strong>
 
-## Risk Factors
-
-- Female sex
-- Teens and young adults
-- High-achieving or perfectionistic traits
-- Family pressure/high expectations
-- Anxiety or OCD traits
-- Depression
-- History of trauma
-- LGBTQ+ populations may have increased risk
-
----
-
-## Assessment Findings
-
-| Finding | Why It Happens / Why It Matters |
-|---|---|
-| Underweight | Severe calorie restriction |
-| Refuses to eat | Fear of weight gain |
-| Fear of gaining weight | Core feature |
-| Amenorrhea | Malnutrition affects hormones |
-| Lanugo | Fine hair growth from malnutrition |
-| Cold extremities/hypothermia | Low body fat/metabolism |
-| Osteoporosis | Poor nutrition/hormonal changes |
-| Constipation | Low intake/dehydration |
-| Laxative abuse | Attempt to lose weight |
-| Hypotension | Dehydration/malnutrition |
-| Bradycardia | Starvation slows body systems |
-| Arrhythmias | Electrolyte imbalance |
-| Hypokalemia | Purging/laxatives/poor intake |
-| Hypocalcemia | Poor nutrition/bone risk |
-| Dehydration | Poor intake/purging |
-| Hypoglycemia | Inadequate calories |
-
----
-
-## Anorexia Complications
-
-| Complication | Why It Is Dangerous |
-|---|---|
-| Dysrhythmias | Can be life-threatening |
-| Hypokalemia | Increases cardiac risk |
-| Hypoglycemia | Can cause weakness, confusion, seizures |
-| Dehydration | Worsens hypotension and kidney function |
-| Osteoporosis | Fracture risk |
-| Refeeding syndrome | Dangerous electrolyte shifts when nutrition restarts |
-| Organ failure | Severe malnutrition affects all body systems |
-
-<div class="warning">
-<strong>Priority concern:</strong> cardiac complications from malnutrition and electrolyte imbalance.
+- Highest in females.
+- Teens and young adults.
+- LGBTQ communities.
+- Middle-class families with high expectations.
+- Often connected to an underlying issue of control.
+- May be seen with OCD.
+- May have depression or anxiety.
 </div>
 
----
+<div class="detail-mini-card" markdown="1">
+<strong>Priority Concerns</strong>
 
-# Refeeding Syndrome
+- Cardiac dysrhythmias
+- Bradycardia
+- Hypotension
+- Hypokalemia
+- Hypocalcemia
+- Dehydration
+- Hypoglycemia
+- Hypothermia
+- Severe malnutrition
+- Death risk
+</div>
 
-Refeeding syndrome can occur when nutrition is restarted too quickly after starvation. The body shifts electrolytes into cells — especially phosphorus, potassium, and magnesium.
+<div class="detail-mini-card" markdown="1">
+<strong>Patient Education</strong>
 
-## Watch For
+- Treatment focuses on medical stability first.
+- Therapy helps address body image and control issues.
+- Nutrition restoration is gradual and structured.
+- Meal plans and contracts are part of treatment.
+- Exercise may need supervision.
+- Report dizziness, chest pain, fainting, weakness, or palpitations.
+</div>
 
-- Weakness
-- Confusion
-- Edema
-- Respiratory distress
+</div>
+
+<div class="detail-table">
+  <table>
+    <thead>
+      <tr>
+        <th>Assessment Finding</th>
+        <th>Why It Matters</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Underweight</strong></td>
+        <td>Reflects severe calorie restriction and malnutrition.</td>
+      </tr>
+      <tr>
+        <td><strong>Refusing to eat</strong></td>
+        <td>Maintains weight loss and worsens medical instability.</td>
+      </tr>
+      <tr>
+        <td><strong>Fear of gaining weight</strong></td>
+        <td>Core feature driving restriction.</td>
+      </tr>
+      <tr>
+        <td><strong>Amenorrhea</strong></td>
+        <td>Body does not have enough nutrition/hormonal support for normal cycles.</td>
+      </tr>
+      <tr>
+        <td><strong>Lanugo</strong></td>
+        <td>Fine hair growth related to malnutrition and cold intolerance.</td>
+      </tr>
+      <tr>
+        <td><strong>Cold extremities / hypothermia</strong></td>
+        <td>Low body fat and poor metabolism affect temperature regulation.</td>
+      </tr>
+      <tr>
+        <td><strong>Osteoporosis</strong></td>
+        <td>Long-term malnutrition affects bone health.</td>
+      </tr>
+      <tr>
+        <td><strong>Constipation</strong></td>
+        <td>Low intake and slowed GI motility.</td>
+      </tr>
+      <tr>
+        <td><strong>Laxative abuse</strong></td>
+        <td>Can worsen dehydration and electrolyte imbalance.</td>
+      </tr>
+      <tr>
+        <td><strong>Bradycardia / arrhythmias</strong></td>
+        <td>Cardiac complications can become life-threatening.</td>
+      </tr>
+      <tr>
+        <td><strong>Hypokalemia / hypocalcemia</strong></td>
+        <td>Electrolyte imbalance increases cardiac and neuromuscular risk.</td>
+      </tr>
+      <tr>
+        <td><strong>Dehydration / hypoglycemia</strong></td>
+        <td>Can lead to weakness, syncope, confusion, and instability.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="detail-grid" markdown="1">
+
+<div class="detail-mini-card" markdown="1">
+<strong>Nursing Interventions</strong>
+
+- Monitor weight, intake, vital signs, labs, and cardiac status.
+- Severe cases may require tube feeding protocol.
+- Use interdisciplinary care: therapy, nutritionist, dietitian.
+- Treat comorbid depression/anxiety as ordered.
+- Supervise meal times.
+- Watch for hiding or stuffing food.
+- Supervise exercise and watch for overdoing it.
+- Maintain structure and boundaries.
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Meal Structure</strong>
+
+- Give the meal tray for a set amount of time.
+- Patient chooses whether to follow the contract.
+- Privileges or restrictions may be based on compliance.
+- Avoid power struggles.
+- Keep expectations clear and consistent.
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Treatment Goal</strong>
+
+- Return patient to within 90% of ideal weight for height.
+- Restore nutrition safely.
+- Stabilize labs and vital signs.
+- Address distorted body image.
+- Improve coping and control issues.
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Complications / Safety Risks</strong>
+
+- Death risk
 - Dysrhythmias
-- Seizures
-- Low phosphorus
-- Low potassium
-- Low magnesium
-
-<div class="warning">
-<strong>NCLEX:</strong> Refeeding must be gradual and closely monitored. Watch electrolytes and cardiac status.
+- Electrolyte imbalance
+- Osteoporosis
+- Severe dehydration
+- Hypoglycemia
+- Hypothermia
+- Refeeding concerns if severely malnourished
 </div>
 
----
-
-## Anorexia Nursing Interventions
-
-| Intervention | Why |
-|---|---|
-| Monitor vital signs | Detect bradycardia, hypotension, instability |
-| Monitor weight as ordered | Tracks progress and safety |
-| Monitor electrolytes | Detect hypokalemia, hypocalcemia, refeeding risk |
-| Supervise meals | Prevent hiding/throwing away food |
-| Monitor after meals | Prevent purging or excessive exercise |
-| Set structured meal times | Maintains consistency |
-| Use weight gain contract if ordered | Provides clear expectations |
-| Maintain boundaries | Prevents bargaining/manipulation around food |
-| Limit excessive exercise | Prevents calorie loss/cardiac strain |
-| Involve dietitian/therapy team | Interdisciplinary care is needed |
-| Encourage therapy participation | Treats underlying thoughts/coping |
-| Tube feeding if severe | May be needed for medical stabilization |
-
----
-
-## Meal Supervision
-
-Watch for:
-
-- Hiding food in napkins
-- Stuffing food in pockets
-- Moving food around plate
-- Excessive cutting food
-- Throwing food away
-- Going to bathroom after meals
-- Exercising secretly
-- Wearing heavy clothing for weight checks
-
-<div class="note">
-For eating disorders, supervision is not punishment. It is safety and treatment structure.
 </div>
 
----
-
-## Anorexia Treatment Goals
-
-| Goal | Why |
-|---|---|
-| Medical stabilization | Prevent death/organ damage |
-| Restore nutrition | Rebuild body function |
-| Weight restoration | Return near 90% of ideal body weight |
-| Correct electrolytes | Prevent dysrhythmias |
-| Treat comorbidities | Depression/anxiety/OCD may coexist |
-| Therapy | Addresses distorted body image and control issues |
-| Healthy coping | Replaces restriction/excess exercise |
-
----
-
-# Bulimia Nervosa
-
-<img src="{{ '/MH-images/Bulimia.png' | relative_url }}" alt="Bulimia Nervosa overview" class="img-half">
-
-Bulimia nervosa involves repeated binge eating followed by purging. Purging may include vomiting, laxative abuse, diuretic abuse, or excessive exercise. Unlike anorexia, the patient with bulimia is often aware the behavior is abnormal.
-
----
-
-## Bulimia Assessment
-
-| Finding | Why It Happens / Why It Matters |
-|---|---|
-| Normal weight to overweight | Weight may not appear dangerously low |
-| Binge eating | Large amounts of food in short time |
-| Vomiting/purging | Attempt to prevent weight gain |
-| Tooth erosion/cavities | Stomach acid damages enamel |
-| Bad breath | Vomiting |
-| Parotid swelling | Repeated vomiting |
-| Esophagitis | Acid irritation |
-| Sore throat/hoarseness | Vomiting irritation |
-| Loss of muscle tone | Poor nutrition/electrolytes |
-| Laxative abuse | Purging behavior |
-| Constipation | Laxative misuse/dehydration |
-| Hypotension/bradycardia | Fluid/electrolyte imbalance |
-| Arrhythmias | Especially from low potassium |
-| Hypokalemia/hyponatremia | Vomiting/laxatives/diuretics |
-| Hypoglycemia | Irregular intake |
-| Dehydration | Fluid loss |
-| Irregular menses | Nutrition/hormone disruption |
-
----
-
-## Bulimia Complications
-
-| Complication | Why It Matters |
-|---|---|
-| Hypokalemia | Major dysrhythmia risk |
-| Esophageal injury | Vomiting damages tissue |
-| Dental erosion | Acid exposure |
-| Dehydration | Fluid loss |
-| Metabolic alkalosis | Vomiting causes acid loss |
-| GI problems | Constipation, reflux, esophagitis |
-| Cardiac dysrhythmias | Electrolyte imbalance |
-
-<div class="warning">
-<strong>NCLEX:</strong> Bulimia may look less obvious because weight can be normal, but electrolyte imbalance can still be life-threatening.
+<div class="detail-callout" markdown="1">
+<strong>NCLEX:</strong> Anorexia questions often prioritize medical stability: heart rhythm, electrolytes, hydration, glucose, temperature, and nutrition.
 </div>
 
----
+</div>
 
-## Bulimia Nursing Interventions
+<div class="mh-detail pink" id="panel-bulimia" markdown="1">
+<a class="mh-detail-close" href="#">✕</a>
 
-| Intervention | Why |
-|---|---|
-| Monitor electrolytes | Especially potassium and sodium |
-| Monitor cardiac status if unstable | Dysrhythmia risk |
-| Monitor during and after meals | Prevent purging |
-| Restrict bathroom access after meals per policy | Reduces vomiting/purging opportunity |
-| Teach gradual healthy intake | Prevents binge-restrict cycle |
-| Nutritional counseling | Rebuilds normal eating pattern |
-| CBT/coping therapy | Helps triggers and distorted thoughts |
-| Group therapy | Support and accountability |
-| Treat depression/anxiety | Common comorbidities |
-| Dental/GI referrals as needed | Treats complications |
+### Bulimia Nervosa
 
----
+<div class="detail-grid" markdown="1">
 
-# Binge Eating Disorder
+<div class="detail-mini-card" markdown="1">
+<strong>What It Is</strong>
 
-Binge eating disorder involves repeated episodes of eating large amounts of food without purging. The patient may feel a loss of control during binges and guilt afterward.
+- Repeated episodes of eating very large quantities of food.
+- Followed by forcing self to vomit or otherwise purging.
+- Patient is often aware the behavior is abnormal.
+- Different from anorexia, where the patient may think the behavior is normal.
+</div>
 
-## Risk Factors / Common Links
+<div class="detail-mini-card" markdown="1">
+<strong>Risk Factors / Causes</strong>
 
 - Low self-esteem
-- Emotional eating
-- History of psychological trauma
-- History of abuse
+- Relationship problems
+- Late teens to young adults
+- Anxiety or depression
+- Body image concerns
+- Maladaptive coping with stress
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Priority Concerns</strong>
+
+- Hypokalemia
+- Hyponatremia
+- Arrhythmias
+- Dehydration
+- Bradycardia
+- Hypotension
+- Esophagitis
+- Dental erosion
+- Purging after meals
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Patient Education</strong>
+
+- Purging can cause dangerous electrolyte changes.
+- Vomiting can damage teeth, throat, and esophagus.
+- Therapy helps identify triggers and healthier coping.
+- Nutrition counseling helps rebuild regular eating patterns.
+- Report palpitations, dizziness, weakness, chest pain, or fainting.
+</div>
+
+</div>
+
+<div class="detail-table">
+  <table>
+    <thead>
+      <tr>
+        <th>Assessment Finding</th>
+        <th>Why It Matters</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Normal weight to overweight</strong></td>
+        <td>Bulimia is not always obvious by appearance.</td>
+      </tr>
+      <tr>
+        <td><strong>Tooth erosion / cavities</strong></td>
+        <td>Repeated vomiting exposes teeth to stomach acid.</td>
+      </tr>
+      <tr>
+        <td><strong>Bad breath</strong></td>
+        <td>May occur from vomiting/purging.</td>
+      </tr>
+      <tr>
+        <td><strong>Parotid swelling</strong></td>
+        <td>Salivary gland swelling can occur with repeated vomiting.</td>
+      </tr>
+      <tr>
+        <td><strong>Esophagitis</strong></td>
+        <td>Repeated vomiting irritates/injures the esophagus.</td>
+      </tr>
+      <tr>
+        <td><strong>Loss of muscle tone</strong></td>
+        <td>Can reflect poor nutrition/electrolyte problems.</td>
+      </tr>
+      <tr>
+        <td><strong>Laxative abuse / constipation</strong></td>
+        <td>Purging behaviors disrupt GI function and hydration.</td>
+      </tr>
+      <tr>
+        <td><strong>Hypokalemia / hyponatremia</strong></td>
+        <td>Electrolyte imbalance increases cardiac risk.</td>
+      </tr>
+      <tr>
+        <td><strong>Hypoglycemia / dehydration</strong></td>
+        <td>Can cause weakness, dizziness, and instability.</td>
+      </tr>
+      <tr>
+        <td><strong>Irregular menses</strong></td>
+        <td>Nutrition and body stress affect hormonal function.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="detail-grid" markdown="1">
+
+<div class="detail-mini-card" markdown="1">
+<strong>Nursing Interventions</strong>
+
+- Monitor vital signs, weight, intake, output, and labs.
+- Monitor potassium and sodium.
+- Monitor cardiac status if electrolyte imbalance is present.
+- Monitor during and after meals to prevent purging.
+- Support nutritional counseling.
+- Encourage CBT, coping therapy, and group therapy.
+- Treat comorbid anxiety/depression as ordered.
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Treatment</strong>
+
+- Diet instructions with gradual intake increase.
+- Nutritional counseling.
+- Cognitive behavioral therapy.
+- Coping therapy.
+- Group therapy.
+- Treatment of comorbid anxiety/depression.
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Complications / Safety Risks</strong>
+
+- Dysrhythmias
+- Electrolyte imbalance
+- Esophageal damage
+- Dental damage
+- Dehydration
+- Constipation
+- Hypotension/bradycardia
+- Relapse without coping skills
+</div>
+
+</div>
+
+<div class="detail-callout" markdown="1">
+<strong>NCLEX:</strong> Bulimia may look “normal weight,” but the danger is often hidden: potassium, sodium, dehydration, arrhythmias, dental erosion, and esophageal injury.
+</div>
+
+</div>
+
+<div class="mh-detail blue" id="panel-binge-eating" markdown="1">
+<a class="mh-detail-close" href="#">✕</a>
+
+### Binge Eating Disorder
+
+<div class="detail-grid" markdown="1">
+
+<div class="detail-mini-card" markdown="1">
+<strong>What It Is</strong>
+
+- Recurrent binge eating without regular purging.
+- Often described as emotional eating.
+- Eating may be used to cope with distress, trauma, or low self-worth.
+- Can cause significant medical and emotional consequences.
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Risk Factors / Causes</strong>
+
+- Low self-esteem
+- Psychological trauma
+- Abuse history
 - Food insecurity
 - Addiction to high-sugar/high-fat foods
-- PTSD
-- Social phobias
+- Stress or poor coping
+- Social isolation
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Common Comorbidities</strong>
+
 - Alcohol abuse
-
----
-
-## Assessment
-
-- Eating large amounts rapidly
-- Eating when not hungry
-- Eating alone due to shame
-- Feeling out of control
-- Guilt or embarrassment after eating
-- Weight gain/obesity possible
-- Heartburn/GI issues
-- Risk for diabetes mellitus
-- Risk for cardiac disease
-
----
-
-## Nursing Interventions
-
-| Intervention | Why |
-|---|---|
-| Teach appropriate meal size | Helps normalize intake |
-| Dietitian/nutrition consult | Builds structured eating plan |
-| Encourage regular meals | Prevents extreme hunger/binge cycle |
-| Therapy | Addresses emotions and triggers |
-| Teach stress coping | Reduces emotional eating |
-| Encourage healthy exercise | Supports health without punishment mindset |
-| Encourage social eating | Avoids private binge pattern |
-| Treat comorbidities | PTSD, alcohol use, anxiety may coexist |
-
----
-
-## Medications
-
-| Medication | Possible Use |
-|---|---|
-| **Vyvanse** | May reduce binge episodes |
-| **Topamax** | May reduce appetite/binge urges |
-| **Contrave** | Weight/craving management support |
-
-<div class="note">
-Bariatric surgery may be an option for some patients, but binge eating behaviors can return if coping and emotional triggers are not treated.
+- Social phobias
+- PTSD
+- Other addictions
+- Depression/anxiety may also be present
 </div>
 
----
+<div class="detail-mini-card" markdown="1">
+<strong>Priority Concerns</strong>
 
-# Childhood / Feeding Disorders
-
-These disorders are more common in children or individuals with developmental, anxiety, sensory, or medical concerns.
-
----
-
-# Pica
-
-Pica is eating nonfood substances such as dirt, clay, paper, paint, hair, chalk, or laundry starch.
-
-## Why It Is Dangerous
-
-- Poisoning
-- Lead exposure from paint
-- Choking
-- GI obstruction
-- Dental injury
-- Infection/parasites
-- Nutritional deficiency
-
-## Nursing Care
-
-| Intervention | Why |
-|---|---|
-| Monitor closely | Prevent ingestion of unsafe items |
-| Remove nonfood items from environment | Safety |
-| Assess labs/nutrition | May be linked to deficiencies |
-| Assess developmental status | More common with intellectual deficits |
-| Positive reinforcement | Encourages eating appropriate foods |
-| Educate caregivers | Supervision and safety planning |
-
----
-
-# Rumination Disorder
-
-Rumination disorder occurs when a child or infant brings food back up into the mouth after eating and may spit it out or swallow it again.
-
-## Risks
-
-- Malnutrition
-- Weight loss
-- Failure to thrive
-- Aspiration risk
-- Death in severe cases
-
-## Nursing Care
-
-| Intervention | Why |
-|---|---|
-| Sit child upright for feedings | Reduces regurgitation/aspiration |
-| Keep upright after meals | Supports digestion |
-| Redirect behavior during meals | Helps interrupt pattern |
-| Monitor weight/growth | Detects malnutrition |
-| Educate caregiver | Home routine matters |
-| Family therapy if needed | Family stress may contribute |
-
----
-
-# Avoidant / Restrictive Food Intake Disorder
-
-ARFID is restrictive eating that is **not caused by body image concerns.** It is not the same as normal picky eating.
-
-## Associated With
-
-- Prematurity
-- Failure to thrive
-- Genetic conditions
-- Autism
-- Anxiety
-- Sensory issues
-- Fear of choking/vomiting
-
-## Assessment
-
-- Extreme restriction of food
-- Limited acceptable foods
-- Poor weight gain
-- Nutritional deficiency
-- Anxiety around eating
-- Failure to thrive
-- May require tube feeding in severe cases
-
-## Nursing Care
-
-| Intervention | Why |
-|---|---|
-| Assess nutrition and growth | Detects severity |
-| Treat anxiety if present | Anxiety may drive restriction |
-| Behavior modification | Often helpful over time |
-| Gradual exposure to foods | Builds tolerance |
-| Dietitian involvement | Nutrition planning |
-| Family education | Progress is slow |
-| Tube feeding if severe | Maintains nutrition when unsafe |
-
-<div class="note">
-ARFID is not "just being picky." It causes nutritional or growth problems and may require treatment.
+- High risk for cardiac disease
+- High risk for diabetes mellitus
+- GI problems
+- Heartburn
+- Hernias
+- Shame and secrecy around eating
 </div>
-
----
-
-# Labs and Monitoring
-
-## Important Labs
-
-| Lab | Why It Matters |
-|---|---|
-| Potassium | Low levels increase dysrhythmia risk |
-| Sodium | Can be low with purging/fluid imbalance |
-| Calcium | Bone and cardiac function |
-| Magnesium | Cardiac/neuromuscular function |
-| Phosphorus | Major refeeding syndrome lab |
-| Glucose | Hypoglycemia risk |
-| BUN/Creatinine | Hydration/kidney function |
-| CBC | Anemia/infection concerns |
-| Albumin/prealbumin | Nutrition status |
-| EKG | Dysrhythmia or QT changes |
-
----
-
-## Physical Monitoring
-
-| Monitor | Why |
-|---|---|
-| Vital signs | Bradycardia, hypotension, instability |
-| Daily weight as ordered | Tracks progress |
-| I&O | Hydration |
-| Cardiac rhythm if unstable | Dysrhythmia risk |
-| Bowel pattern | Constipation/laxative misuse |
-| Menses | Hormonal/nutritional status |
-| Skin/hair | Malnutrition signs |
-| Dental/oral health | Purging damage |
-| Activity level | Excessive exercise |
-
----
-
-# Treatment Team
-
-Eating disorder care is interdisciplinary.
-
-| Team Member | Role |
-|---|---|
-| Nurse | Safety, monitoring, meal supervision, education |
-| Provider/psychiatrist | Diagnosis, meds, medical management |
-| Dietitian/nutritionist | Meal plan and nutrition restoration |
-| Therapist | Body image, coping, trauma, CBT |
-| Family therapy | Helps home support and patterns |
-| Dentist/GI/cardiology if needed | Treat complications |
-
----
-
-# Priority Charts
-
-## Anorexia Priority Chart
-
-| Situation | First Nursing Action |
-|---|---|
-| Bradycardia/hypotension | Assess medical stability and notify provider |
-| Low potassium | Cardiac monitoring/notify provider |
-| Severe restriction | Monitor intake and supervise meals |
-| New nutrition after starvation | Watch for refeeding syndrome |
-| Patient exercises constantly | Limit exercise and maintain safety |
-| Patient hides food | Supervise meals and maintain structure |
-
----
-
-## Bulimia Priority Chart
-
-| Situation | First Nursing Action |
-|---|---|
-| Vomiting/purging | Monitor electrolytes and dehydration |
-| Hypokalemia | Cardiac safety priority |
-| Patient goes to bathroom after meals | Monitor per policy to prevent purging |
-| Tooth erosion/parotid swelling | Assess for vomiting/purging |
-| Laxative abuse | Monitor bowel function/electrolytes |
-| Normal weight but purging | Still assess cardiac/electrolyte risk |
-
----
-
-## Binge Eating Priority Chart
-
-| Situation | First Nursing Action |
-|---|---|
-| Frequent binges | Assess triggers and emotional state |
-| Eating alone due to shame | Encourage nonjudgmental support |
-| Diabetes/cardiac risk | Monitor metabolic health |
-| History of trauma | Use trauma-informed care |
-| Bariatric surgery history | Assess return of binge behaviors |
-
----
-
-# Therapeutic Communication
-
-| Patient Says | Best Response |
-|---|---|
-| "I'm still fat." | "It sounds like you are very distressed by how you see your body." |
-| "I don't need to eat." | "Your body needs nutrition to keep your heart and organs working safely." |
-| "I'll eat later." | "Meals are part of the treatment plan. I'll sit with you during this meal." |
-| "I threw up because I felt disgusting." | "What were you feeling right before you purged?" |
-| "I'm embarrassed that I binge." | "You are not alone. Let's look at what triggered the binge." |
-| "My child is just picky." | "This is more serious when growth or nutrition is affected." |
-
----
-
-# NCLEX Cues
-
-<div class="warning">
-
-<strong>Medical priorities:</strong>
-<ul>
-<li>Anorexia: severe restriction + fear of gaining weight + distorted body image — cardiac and electrolyte safety first.</li>
-<li>Bulimia: binge + purge — weight may be normal, but hypokalemia = dysrhythmia risk.</li>
-<li>Refeeding syndrome: watch phosphorus, potassium, magnesium, fluid shifts, and cardiac status.</li>
-</ul>
 
 </div>
 
-<div class="warning">
+<div class="detail-grid" markdown="1">
 
-<strong>Nursing approach:</strong>
-<ul>
-<li>Supervise meals and monitor after meals to prevent hiding food or purging.</li>
-<li>Do not argue about body image — focus on feelings, safety, nutrition, and health.</li>
-<li>Maintain structure and boundaries around meals, exercise, and behavioral contracts.</li>
-<li>Pica: eating nonfood substances — watch for poisoning, choking, obstruction, and lead exposure.</li>
-<li>ARFID: restrictive intake without body image disturbance.</li>
-</ul>
+<div class="detail-mini-card" markdown="1">
+<strong>Nursing Interventions</strong>
+
+- Teach appropriate meal size.
+- Collaborate with dietitian/nutritionist.
+- Encourage therapy for emotional regulation.
+- Teach healthy coping with stress.
+- Teach healthy exercise habits.
+- Encourage socialization during mealtimes.
+- Discourage private eating if it reinforces binge pattern.
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Treatment</strong>
+
+- Dietary/nutrition consults.
+- Therapy to manage emotions and decrease desire to binge.
+- Coping skills for stress.
+- Healthy exercise habits.
+- Social eating support.
+- Bariatric surgery may be an option but binge eating can return.
+- Medications may include Vyvanse, Topamax, or Contrave as ordered.
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Patient Education</strong>
+
+- Binge eating is connected to emotions and coping, not just food.
+- Avoid private eating patterns that worsen secrecy.
+- Build regular meals and healthy portions.
+- Practice coping skills before binge urges escalate.
+- Exercise should be healthy, not punishment.
+- Follow therapy/nutrition plan consistently.
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Complications / Safety Risks</strong>
+
+- Cardiac disease
+- Diabetes mellitus
+- GI problems
+- Heartburn
+- Hernias
+- Alcohol abuse
+- PTSD/social phobia symptoms
+- Relapse after bariatric surgery if coping is not addressed
+</div>
 
 </div>
 
----
+<div class="detail-callout" markdown="1">
+<strong>NCLEX:</strong> Binge eating care focuses on nutrition support, emotional coping, socialized meals, healthy exercise, and medical risks like cardiac disease and diabetes.
+</div>
 
-# Must-Know Table
+</div>
 
-| Disorder | Key Clue | Priority |
-|---|---|---|
-| **Anorexia** | Underweight + fear of weight gain | Cardiac/electrolyte safety, nutrition |
-| **Bulimia** | Binge + purge | Potassium, dehydration, dental/GI damage |
-| **Binge eating** | Binge without purging | Coping, metabolic/cardiac risk |
-| **Pica** | Eats nonfood items | Poisoning/choking/lead risk |
-| **Rumination** | Regurgitates food | Malnutrition/aspiration prevention |
-| **ARFID** | Restrictive intake without body image issue | Nutrition/growth/anxiety treatment |
-| **Refeeding syndrome** | Electrolyte shifts after feeding | Phosphorus, potassium, magnesium, cardiac monitoring |
-| **Lanugo** | Fine hair in anorexia | Malnutrition sign |
-| **Parotid swelling** | Bulimia clue | Repeated vomiting |
-| **Amenorrhea** | Anorexia clue | Hormonal/nutrition disruption |
+<div class="mh-detail green" id="panel-childhood-eating" markdown="1">
+<a class="mh-detail-close" href="#">✕</a>
 
----
+### Childhood Eating Disorders
 
-# Final Takeaway
+<div class="detail-table">
+  <table>
+    <thead>
+      <tr>
+        <th>Disorder</th>
+        <th>What It Is</th>
+        <th>Assessment Findings / Risks</th>
+        <th>Nursing Interventions / Treatment</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Pica</strong></td>
+        <td>Eating nonfood substances such as dirt, clay, paper, or paint.</td>
+        <td>Can be dangerous. More common in children with intellectual deficits. Dental issues may occur.</td>
+        <td>Monitor child closely. Provide positive reinforcement for eating appropriate food items.</td>
+      </tr>
+      <tr>
+        <td><strong>Rumination</strong></td>
+        <td>Infant or child brings food back up to the mouth and may spit it out or swallow again.</td>
+        <td>Can result in malnutrition and may become fatal.</td>
+        <td>Educate caregiver. Family therapy may be needed. Sit child upright for feedings. Redirect if behavior starts during meals.</td>
+      </tr>
+      <tr>
+        <td><strong>Avoidant / Restrictive Food Intake Disorder</strong></td>
+        <td>Severe avoidant or restrictive intake. Not the same as picky eating or toddler food preferences.</td>
+        <td>Associated with premature infants, failure to thrive, genetic problems, autism, and anxiety. Extreme cases may require tube feeding.</td>
+        <td>Treat anxiety if present. Use behavior modification. Tube feeding may be needed in extreme cases. Teach that improvement is not overnight.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
-<div class="tip">
-For eating disorder questions, ask:
-<br><br>
-<strong>1. Is the patient medically stable?</strong><br>
-<strong>2. Are electrolytes or cardiac rhythm unsafe?</strong><br>
-<strong>3. Is the patient restricting, purging, binging, or eating nonfood items?</strong><br>
-<strong>4. Do meals/exercise need supervision?</strong><br>
-<strong>5. Is refeeding syndrome a risk?</strong><br>
-<strong>6. Am I focusing on safety, nutrition, structure, and coping?</strong>
+<div class="detail-grid" markdown="1">
+
+<div class="detail-mini-card" markdown="1">
+<strong>Pica Safety</strong>
+
+- Assess what substance is being eaten.
+- Monitor for poisoning risk, especially paint.
+- Monitor dental issues.
+- Provide safe environment.
+- Reinforce appropriate food choices.
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Rumination Safety</strong>
+
+- Monitor weight and nutrition.
+- Watch for dehydration/malnutrition.
+- Sit child straight up during feedings.
+- Redirect behavior during meals.
+- Educate caregiver.
+- Family therapy may be helpful.
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>ARFID Safety</strong>
+
+- Not normal picky eating.
+- Assess growth, weight, and intake.
+- Watch for failure to thrive.
+- Anxiety treatment may be needed.
+- Severe cases may need tube feeding.
+- Behavior modification can work but takes time.
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Caregiver Education</strong>
+
+- Keep feeding routines structured.
+- Use positive reinforcement.
+- Avoid punishment-based feeding battles.
+- Follow therapy/nutrition plan.
+- Report weight loss, dehydration, fatigue, or poor growth.
+- Behavior change takes consistency and time.
+</div>
+
+</div>
+
+<div class="detail-callout" markdown="1">
+<strong>NCLEX:</strong> ARFID is not the same as picky eating. Think failure to thrive, autism/anxiety association, behavior modification, and possible tube feeding in severe cases.
+</div>
+
+</div>
+
+<div class="mh-columns wide-left" markdown="1">
+
+<div class="key-findings" markdown="1">
+<h3>📋 Eating Disorders Big Picture</h3>
+
+- Anorexia = severe restriction, distorted body image, very low weight, high death risk.
+- Bulimia = binge/purge cycle; often normal weight but high electrolyte/cardiac risk.
+- Binge eating = emotional eating without regular purging; cardiac and diabetes risks.
+- Pica = eating nonfood substances.
+- Rumination = regurgitating food back to mouth.
+- ARFID = severe food avoidance/restriction, not normal picky eating.
+- Treatment is interdisciplinary: nursing, therapy, nutrition, provider, family/support system.
+</div>
+
+<div class="mh-col" markdown="1">
+
+<div class="report-now" markdown="1">
+<h3>Report Immediately</h3>
+
+- Chest pain, palpitations, syncope, or dysrhythmia
+- Severe hypokalemia or electrolyte imbalance
+- Bradycardia or hypotension
+- Severe dehydration
+- Hypoglycemia
+- Refusal to eat with medical instability
+- Signs of esophageal injury or GI bleeding
+- Severe malnutrition or failure to thrive
+</div>
+
+<div class="nclex-tip" markdown="1">
+<h3>NCLEX Tip</h3>
+
+Do not judge eating disorder risk by appearance alone. Bulimia can present at normal weight, while serious electrolyte and cardiac risks may still be present.
+</div>
+
+</div>
+</div>
+
+<div class="mh-table-card" markdown="1">
+
+<h3>Quick Terms</h3>
+
+| Concept | Simple Meaning |
+|---|---|
+| **Anorexia nervosa** | Severe self-restriction causing very low weight |
+| **Cognitive distortion** | Believes body is overweight despite being underweight |
+| **Lanugo** | Fine hair growth related to malnutrition |
+| **Amenorrhea** | Absence of menstrual period |
+| **Bulimia nervosa** | Binge eating followed by purging |
+| **Purging** | Vomiting, laxatives, or other methods to remove calories |
+| **Parotid swelling** | Salivary gland swelling from repeated vomiting |
+| **Hypokalemia** | Low potassium; cardiac risk |
+| **Binge eating disorder** | Recurrent binge eating without regular purging |
+| **Pica** | Eating nonfood substances |
+| **Rumination** | Bringing food back up to mouth after eating |
+| **ARFID** | Avoidant/restrictive food intake disorder; not picky eating |
+| **Meal supervision** | Monitoring meals and after meals to prevent hiding/purging |
+| **Weight gain contract** | Structured agreement for nutrition/weight restoration |
+| **90% ideal weight goal** | Class goal for anorexia recovery target |
+
+</div>
+
+<div class="mh-columns" markdown="1">
+
+<div class="quick-review" markdown="1">
+<h3>Quick Review</h3>
+
+1. Anorexia has the highest concern for severe malnutrition and death risk.
+2. Bulimia can appear normal weight, but electrolyte/cardiac risks are serious.
+3. Monitor potassium closely with vomiting/laxative abuse.
+4. Supervise meals and after meals when hiding, stuffing, or purging is a concern.
+5. Binge eating treatment focuses on meal size, therapy, coping skills, and socialized meals.
+6. Pica is dangerous because nonfood substances can cause poisoning or injury.
+7. ARFID is not picky eating; severe cases may require tube feeding.
+</div>
+
+<div class="do-not-miss" markdown="1">
+<h3>Do Not Miss</h3>
+
+- Anorexia: think bradycardia, hypotension, hypothermia, hypoglycemia, osteoporosis, and death risk.
+- Bulimia: think tooth erosion, parotid swelling, esophagitis, hypokalemia, hyponatremia, and arrhythmias.
+- Binge eating: think cardiac disease, diabetes, trauma history, food insecurity, and emotional coping.
+- Rumination can become fatal from malnutrition.
+- Behavior modification takes time and consistency.
+- Maintain structure and boundaries without power struggles.
+</div>
+
+</div>
+
+<div class="cheer-banner">
+  💜 Eating disorder questions are really safety + nutrition + electrolytes questions. Watch the heart, labs, and meal behavior. 💜
 </div>
 
 ---
 
 <div class="page-nav">
   <a href="{{ '/mental-health/personality-disorders.html' | relative_url }}" class="page-nav-back">← Personality Disorders</a>
-  <a href="{{ '/mental-health/addiction.html' | relative_url }}" class="page-nav-next">Addiction & Substance Use →</a>
+  <a href="{{ '/mental-health/psychosis.html' | relative_url }}" class="page-nav-next">Psychosis & Schizophrenia →</a>
 </div>
