@@ -18,39 +18,39 @@ Use this page like a quick drug-card dashboard: **what it’s for, what can hurt
   <div>
     <h3>Medication Priority Focus</h3>
     Suicide Risk • Sedation/Falls • Lithium Toxicity • EPS/NMS • Serotonin Syndrome • Withdrawal • Respiratory Depression • Seizure Risk
-  </div>
+</div>
 </div>
 
 <div class="med-warning-strip">
   <div>
     <strong>🚨 Lithium Toxicity</strong>
     <span>GI upset, tremor, confusion, ataxia, seizures → hold next dose + notify provider.</span>
-  </div>
+</div>
 
   <div>
     <strong>🚨 NMS</strong>
     <span>Fever + rigidity + altered mental status on antipsychotics.</span>
-  </div>
+</div>
 
   <div>
     <strong>🚨 Serotonin Syndrome</strong>
     <span>Fever, agitation, tremor, diarrhea, sweating, rigidity, hyperreflexia.</span>
-  </div>
+</div>
 
   <div>
     <strong>🚨 Opioid Overdose</strong>
     <span>Respiratory depression/arrest → breathing first, then naloxone.</span>
-  </div>
+</div>
 
   <div>
     <strong>🚨 Alcohol Withdrawal / DTs</strong>
     <span>Tremors, ↑VS, hallucinations, seizures, delirium. Can be fatal.</span>
-  </div>
+</div>
 
   <div>
     <strong>🚨 Antabuse Reaction</strong>
     <span>Alcohol exposure can cause severe illness and may be fatal.</span>
-  </div>
+</div>
 </div>
 
 <div class="med-nav-pills">
@@ -72,7 +72,7 @@ Use this page like a quick drug-card dashboard: **what it’s for, what can hurt
   <div>
     <h2>Antidepressants + Depression Treatments</h2>
     <p>Used for depression, anxiety symptoms, OCD symptoms, PTSD symptoms, and treatment-resistant depression.</p>
-  </div>
+</div>
 </div>
 
 <div class="med-class-grid">
@@ -84,7 +84,7 @@ Use this page like a quick drug-card dashboard: **what it’s for, what can hurt
 - Monitor **suicide risk early**.
 - Watch for **serotonin syndrome**.
 - MAOIs/herbals have major interaction risks.
-  </div>
+</div>
 
   <div class="med-nclex-box" markdown="1">
 ### NCLEX Loves
@@ -94,7 +94,7 @@ Use this page like a quick drug-card dashboard: **what it’s for, what can hurt
 - MAOI tyramine restrictions.
 - TCA overdose danger.
 - St. John’s Wort interactions.
-  </div>
+</div>
 </div>
 
 <div class="drug-card-grid">
@@ -261,7 +261,7 @@ Antidepressants usually take **weeks**. Teach adherence, no abrupt stopping, no 
   <div>
     <h2>Antianxiety + OCD Medications</h2>
     <p>Used for anxiety disorders, panic symptoms, OCD, and physical anxiety symptoms.</p>
-  </div>
+</div>
 </div>
 
 <div class="med-class-grid">
@@ -272,7 +272,7 @@ Antidepressants usually take **weeks**. Teach adherence, no abrupt stopping, no 
 - Benzodiazepines are effective but risky.
 - Buspirone is long-term, not rescue.
 - OCD treatment usually combines meds + therapy.
-  </div>
+</div>
 
   <div class="med-nclex-box" markdown="1">
 ### NCLEX Loves
@@ -281,7 +281,7 @@ Antidepressants usually take **weeks**. Teach adherence, no abrupt stopping, no 
 - Buspirone = takes weeks.
 - Propranolol = physical symptoms; watch HR/BP.
 - Fluvoxamine = OCD.
-  </div>
+</div>
 </div>
 
 <div class="drug-card-grid">
@@ -370,7 +370,7 @@ Antidepressants usually take **weeks**. Teach adherence, no abrupt stopping, no 
   <div>
     <h2>Mood Stabilizers</h2>
     <p>Used for bipolar disorder, mania, mood stabilization, and prevention of mood episodes.</p>
-  </div>
+</div>
 </div>
 
 <div class="med-class-grid">
@@ -381,7 +381,7 @@ Antidepressants usually take **weeks**. Teach adherence, no abrupt stopping, no 
 - Lithium requires levels, kidney labs, and thyroid monitoring.
 - Anticonvulsants may be used as mood stabilizers.
 - Calcium channel blockers may be used per class notes.
-  </div>
+</div>
 
   <div class="med-nclex-box" markdown="1">
 ### NCLEX Loves
@@ -391,7 +391,7 @@ Antidepressants usually take **weeks**. Teach adherence, no abrupt stopping, no 
 - Maintain fluids and salt.
 - Avoid diuretics unless ordered.
 - Monitor renal and thyroid labs.
-  </div>
+</div>
 </div>
 
 <div class="drug-card-grid">
@@ -499,7 +499,7 @@ Lithium = **level + kidneys + thyroid + fluids + salt.** Anything changing fluid
   <div>
     <h2>Antipsychotics</h2>
     <p>Used for psychosis, schizophrenia, hallucinations, delusions, severe agitation, and bipolar psychotic features.</p>
-  </div>
+</div>
 </div>
 
 <div class="med-class-grid">
@@ -510,7 +510,7 @@ Lithium = **level + kidneys + thyroid + fluids + salt.** Anything changing fluid
 - Second-generation/newer meds need metabolic monitoring.
 - Can be used for bipolar disorder with psychotic features.
 - Watch for NMS with any antipsychotic.
-  </div>
+</div>
 
   <div class="med-nclex-box" markdown="1">
 ### NCLEX Loves
@@ -518,7 +518,7 @@ Lithium = **level + kidneys + thyroid + fluids + salt.** Anything changing fluid
 - EPS: abnormal movements, restlessness, rigidity, tremor.
 - NMS: fever, rigidity, altered mental status.
 - Second-gen: weight, glucose, lipids, metabolic syndrome.
-  </div>
+</div>
 </div>
 
 <div class="drug-card-grid">
@@ -594,7 +594,7 @@ Report **fever, rigidity, confusion, restlessness, tremors, stiffness, or abnorm
   <div>
     <h2>Substance Use Medications</h2>
     <p>Used for overdose reversal, withdrawal management, alcohol use disorder, tobacco cessation, and alcohol-related complications.</p>
-  </div>
+</div>
 </div>
 
 <div class="med-class-grid">
@@ -606,7 +606,7 @@ Report **fever, rigidity, confusion, restlessness, tremors, stiffness, or abnorm
 - Alcohol withdrawal can be fatal.
 - Sedative withdrawal can cause seizures.
 - Alcohol use can cause thiamine deficiency.
-  </div>
+</div>
 
   <div class="med-nclex-box" markdown="1">
 ### NCLEX Loves
@@ -616,7 +616,7 @@ Report **fever, rigidity, confusion, restlessness, tremors, stiffness, or abnorm
 - Thiamine for Wernicke’s/Korsakoff’s.
 - Antabuse: no alcohol.
 - Benzos used for alcohol withdrawal.
-  </div>
+</div>
 </div>
 
 <h3 class="med-subheading">Opioid Use / Overdose / Withdrawal</h3>
@@ -901,7 +901,7 @@ Substance-use meds focus on **breathing, withdrawal safety, seizure prevention, 
   <div>
     <h2>Eating Disorder + Special Class-Note Medications</h2>
     <p>Medications and treatments mentioned with binge eating disorder, conversion disorder, and specific class notes.</p>
-  </div>
+</div>
 </div>
 
 <div class="med-class-grid">
@@ -912,7 +912,7 @@ Substance-use meds focus on **breathing, withdrawal safety, seizure prevention, 
 - Nutrition, therapy, medical monitoring, and safety are priority.
 - Binge eating may have specific med options.
 - Conversion disorder care focuses on support and coping.
-  </div>
+</div>
 
   <div class="med-nclex-box" markdown="1">
 ### NCLEX Loves
@@ -921,7 +921,7 @@ Substance-use meds focus on **breathing, withdrawal safety, seizure prevention, 
 - Stimulants require HR/BP monitoring.
 - Sedatives require respiratory/safety monitoring.
 - Do not challenge conversion symptoms.
-  </div>
+</div>
 </div>
 
 <div class="drug-card-grid">
@@ -997,7 +997,7 @@ Connect special meds back to the bigger priority: **nutrition, safety, coping, t
   <div>
     <h2>Master Medication Match-Up</h2>
     <p>Fast review of each medication, category, and biggest NCLEX cue.</p>
-  </div>
+</div>
 </div>
 
 <div class="mh-table-card" markdown="1">
