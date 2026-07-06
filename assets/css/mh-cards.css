@@ -1265,6 +1265,29 @@ body[data-section="mental-health"] .mh-detail.blue .detail-callout {
   border-left-color: var(--mh-blue);
 }
 
+body[data-section="mental-health"] .detail-table {
+  overflow-x: auto;
+  margin: 1rem 0;
+  border-radius: 10px;
+}
+body[data-section="mental-health"] .detail-table table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.93rem;
+}
+body[data-section="mental-health"] .detail-table th {
+  background: rgba(34, 28, 80, 0.08);
+  font-weight: 700;
+  padding: 0.55rem 0.8rem;
+  text-align: left;
+  border-bottom: 2px solid rgba(34, 28, 80, 0.15);
+}
+body[data-section="mental-health"] .detail-table td {
+  padding: 0.5rem 0.8rem;
+  border-bottom: 1px solid rgba(34, 28, 80, 0.08);
+  line-height: 1.55;
+}
+
 body[data-section="mental-health"] .mh-detail.green .detail-callout {
   border-left-color: var(--mh-green);
 }
