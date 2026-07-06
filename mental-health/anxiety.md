@@ -107,22 +107,7 @@ Anxiety is a feeling of **dread, apprehension, or uneasiness.** It becomes a dis
   </table>
 </div>
 
-<div class="detail-grid" markdown="1">
-
-<div class="detail-mini-card" markdown="1">
-<strong>Risk Factors / Causes</strong>
-
-- Family history of anxiety
-- Female sex for some anxiety disorders
-- Childhood trauma or adverse experiences
-- Overprotective or cold family environment
-- Physical or sexual assault
-- Traumatic loss
-- Substance use to reduce anxiety
-- Coexisting depression or other anxiety disorders
-</div>
-
-<div class="detail-table">
+<div class="detail-table anxiety-levels-table">
   <table>
     <thead>
       <tr>
@@ -146,7 +131,7 @@ Anxiety is a feeling of **dread, apprehension, or uneasiness.** It becomes a dis
         <td>Alert, focused, slightly restless.</td>
         <td>Tense, needs refocusing, misses some details.</td>
         <td>Pacing, poor concentration, physical symptoms.</td>
-        <td>Feels out of control, may feel like they are dying.</td>
+        <td>Feels out of control; may feel like they are dying.</td>
       </tr>
       <tr>
         <td><strong>Nursing Focus</strong></td>
@@ -157,6 +142,21 @@ Anxiety is a feeling of **dread, apprehension, or uneasiness.** It becomes a dis
       </tr>
     </tbody>
   </table>
+</div>
+
+<div class="detail-grid" markdown="1">
+
+<div class="detail-mini-card" markdown="1">
+<strong>Risk Factors / Causes</strong>
+
+- Family history of anxiety
+- Female sex for some anxiety disorders
+- Childhood trauma or adverse experiences
+- Overprotective or cold family environment
+- Physical or sexual assault
+- Traumatic loss
+- Substance use to reduce anxiety
+- Coexisting depression or other anxiety disorders
 </div>
 
 <div class="detail-mini-card" markdown="1">
