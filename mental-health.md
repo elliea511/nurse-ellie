@@ -18,20 +18,18 @@ page_type: mental-health-hub
     <div class="mh-topic-orbit" aria-label="Mental health study topics">
       <svg class="mh-orbit-connectors" viewBox="0 0 1000 700" preserveAspectRatio="none" aria-hidden="true">
         <g class="mh-connector-lines">
-          <line x1="250" y1="110" x2="425" y2="255"></line>
-          <line x1="170" y1="270" x2="390" y2="310"></line>
-          <line x1="170" y1="440" x2="390" y2="390"></line>
-          <line x1="250" y1="600" x2="425" y2="455"></line>
-          <line x1="750" y1="110" x2="575" y2="255"></line>
-          <line x1="830" y1="270" x2="610" y2="310"></line>
-          <line x1="830" y1="440" x2="610" y2="390"></line>
-          <line x1="750" y1="600" x2="575" y2="455"></line>
+          <line x1="500" y1="65" x2="500" y2="235"></line>
+          <line x1="190" y1="190" x2="420" y2="285"></line>
+          <line x1="140" y1="360" x2="390" y2="350"></line>
+          <line x1="220" y1="560" x2="430" y2="445"></line>
+          <line x1="810" y1="190" x2="580" y2="285"></line>
+          <line x1="860" y1="360" x2="610" y2="350"></line>
+          <line x1="780" y1="560" x2="570" y2="445"></line>
         </g>
         <g class="mh-connector-dots">
-          <circle cx="250" cy="110" r="6"></circle><circle cx="170" cy="270" r="6"></circle>
-          <circle cx="170" cy="440" r="6"></circle><circle cx="250" cy="600" r="6"></circle>
-          <circle cx="750" cy="110" r="6"></circle><circle cx="830" cy="270" r="6"></circle>
-          <circle cx="830" cy="440" r="6"></circle><circle cx="750" cy="600" r="6"></circle>
+          <circle cx="500" cy="65" r="6"></circle>
+          <circle cx="190" cy="190" r="6"></circle><circle cx="140" cy="360" r="6"></circle><circle cx="220" cy="560" r="6"></circle>
+          <circle cx="810" cy="190" r="6"></circle><circle cx="860" cy="360" r="6"></circle><circle cx="780" cy="560" r="6"></circle>
         </g>
       </svg>
 
@@ -39,9 +37,6 @@ page_type: mental-health-hub
         <img src="{{ '/assets/images/mental-health-brain.png' | relative_url }}" alt="" data-no-lb>
       </div>
 
-      <a class="mh-topic-card mh-topic-2" href="{{ '/mental-health/therapeutic-communication.html' | relative_url }}">
-        <span class="mh-topic-icon">💬</span><span><strong>Therapeutic Communication</strong><small>Techniques, pitfalls &amp; scenarios</small></span>
-      </a>
       <a class="mh-topic-card mh-topic-4" href="{{ '/mental-health/mood-disorders.html' | relative_url }}">
         <span class="mh-topic-icon">↕</span><span><strong>Depression &amp; Bipolar</strong><small>Mood patterns &amp; interventions</small></span>
       </a>
@@ -65,11 +60,10 @@ page_type: mental-health-hub
       </a>
     </div>
 
-    <nav class="mh-hub-shortcuts" aria-label="Mental health foundations and safety resources">
+    <nav class="mh-hub-shortcuts" aria-label="Mental health foundation resources">
       <a href="{{ '/mental-health/basics.html' | relative_url }}"><span>♡</span><strong>Mental Health Basics</strong></a>
       <a href="{{ '/mental-health/abuse-suicide.html' | relative_url }}"><span>🛡</span><strong>Abuse &amp; Suicide</strong></a>
       <a href="{{ '/mental-health/medications.html' | relative_url }}"><span>Rx</span><strong>Mental Health Medications</strong></a>
-      <a href="{{ '/mental-health/crisis-safety.html' | relative_url }}"><span>!</span><strong>Crisis &amp; Safety Priorities</strong></a>
     </nav>
     </div>
 
