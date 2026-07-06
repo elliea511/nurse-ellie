@@ -59,16 +59,17 @@
   <script src="{{ '/assets/js/font-size.js' | relative_url }}"></script>
   <script src="{{ '/assets/js/back-to-top.js' | relative_url }}"></script>
   <script src="{{ '/assets/js/annotate.js' | relative_url }}"></script>
+  {% if page.page_type == 'notes' %}
   <script src="{{ '/assets/js/confidence.js' | relative_url }}"></script>
+  <script src="{{ '/assets/js/print-btn.js' | relative_url }}"></script>
+  {% endif %}
   <script src="{{ '/assets/js/streak.js' | relative_url }}"></script>
-  <!-- print-btn disabled: <script src="{{ '/assets/js/print-btn.js' | relative_url }}"></script> -->
   <script src="{{ '/assets/js/flashcards.js' | relative_url }}"></script>
   <script src="{{ '/assets/js/highlight-summary.js' | relative_url }}"></script>
   <script src="{{ '/assets/js/quiz.js' | relative_url }}"></script>
   <script src="{{ '/assets/js/practice-test.js' | relative_url }}"></script>
   <script src="{{ '/assets/js/table-highlight.js' | relative_url }}"></script>
   <script src="{{ '/assets/js/progress.js' | relative_url }}"></script>
-  <script src="{{ '/assets/js/print-btn.js' | relative_url }}"></script>
   <script src="{{ '/assets/js/lightbox.js' | relative_url }}"></script>
 </body>
 </html>

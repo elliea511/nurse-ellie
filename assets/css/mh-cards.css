@@ -46,13 +46,23 @@ body[data-section="mental-health"] {
    ========================================================= */
 
 body[data-page-type="mental-health-hub"] .page-wrapper {
-  width: min(1540px, calc(100% - 3rem));
-  max-width: none;
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 body[data-page-type="mental-health-hub"] .main-content {
-  max-width: none;
-  padding: 2.25rem 0 3rem;
+  max-width: 100% !important;
+  width: 100% !important;
+  padding: 2.25rem 0 3rem !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  margin: 0 !important;
+}
+
+body[data-page-type="mental-health-hub"] .mh-hub {
+  padding: 0 2rem;
 }
 
 .mh-hub { color: #0d194f; }
@@ -74,7 +84,7 @@ body[data-page-type="mental-health-hub"] .main-content {
 
 .mh-hub-header p {
   margin: 0.25rem 0 0;
-  color: #1495a1;
+  color: #8060bf;
   font-size: 1.12rem;
   font-weight: 700;
 }
@@ -84,13 +94,22 @@ body[data-page-type="mental-health-hub"] .main-content {
   place-items: center;
   width: 4.6rem;
   height: 4.6rem;
-  border: 2px solid #38aeb7;
-  border-radius: 1.4rem;
-  background: #edfafa;
-  overflow: hidden;
+  border: none;
+  border-radius: 0;
+  background: transparent;
+  overflow: visible;
 }
 
 .mh-hub-brandmark img { width: 4.2rem; height: 3.25rem; object-fit: contain; }
+
+body[data-page-type="mental-health-hub"] .main-content .mh-hub-brandmark img,
+body[data-page-type="mental-health-hub"] .main-content .mh-brain-center img,
+body[data-page-type="mental-health-hub"] .main-content .mh-guide-icon img {
+  margin: 0 auto !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+}
 
 .mh-hub-layout {
   display: grid;
@@ -112,7 +131,7 @@ body[data-page-type="mental-health-hub"] .main-content {
   content: "";
   position: absolute;
   inset: 9% 17%;
-  border: 2px dashed rgba(32, 158, 171, 0.28);
+  border: 2px dashed rgba(128, 96, 191, 0.28);
   border-radius: 50%;
   pointer-events: none;
 }
@@ -129,13 +148,13 @@ body[data-page-type="mental-health-hub"] .main-content {
 
 .mh-connector-lines line {
   fill: none;
-  stroke: #22a4af;
+  stroke: #a48fd6;
   stroke-width: 2;
   stroke-dasharray: 5 7;
   vector-effect: non-scaling-stroke;
 }
 
-.mh-connector-dots circle { fill: #209ca7; }
+.mh-connector-dots circle { fill: #8060bf; }
 
 .mh-brain-center {
   position: absolute;
@@ -175,7 +194,7 @@ body[data-page-type="mental-health-hub"] .main-content {
 .mh-topic-card:hover,
 .mh-topic-card:focus-visible {
   transform: translateY(-3px);
-  border-color: #32a9b4;
+  border-color: #8060bf;
   box-shadow: 0 13px 26px rgba(27, 50, 82, .15);
   outline: none;
 }
@@ -190,8 +209,8 @@ body[data-page-type="mental-health-hub"] .main-content {
   width: 3.2rem;
   height: 3.2rem;
   border-radius: 50%;
-  background: #dff7f8;
-  color: #0d7e89;
+  background: #e7e0fb;
+  color: #6945c2;
   font-size: 1.45rem;
   font-weight: 900;
 }
@@ -254,9 +273,9 @@ body[data-page-type="mental-health-hub"] .main-content {
   width: 4.4rem;
   height: 4.4rem;
   margin: 0 auto 1rem;
-  border-radius: 50%;
-  background: #e6f7f8;
-  overflow: hidden;
+  border-radius: 0;
+  background: transparent;
+  overflow: visible;
 }
 
 .mh-guide-icon img { width: 3.7rem; height: 3rem; object-fit: contain; }
@@ -272,7 +291,7 @@ body[data-page-type="mental-health-hub"] .main-content {
   background: none !important;
 }
 
-.mh-guide-rule { height: 1px; margin: 1.8rem 0; background: #bedde1; }
+.mh-guide-rule { height: 1px; margin: 1.8rem 0; background: #e0d6f5; }
 .mh-hub-guide > p { margin: 0 0 .7rem; font-weight: 800; }
 .mh-hub-guide ul { margin: 0; padding: 0; list-style: none; }
 .mh-hub-guide li { position: relative; margin: 0 0 .8rem; padding-left: 2rem; line-height: 1.3; font-weight: 700; }
@@ -284,9 +303,9 @@ body[data-page-type="mental-health-hub"] .main-content {
   place-items: center;
   width: 1.2rem;
   height: 1.2rem;
-  border: 1.5px solid #18a0ad;
+  border: 1.5px solid #8060bf;
   border-radius: 50%;
-  color: #138e99;
+  color: #6a4bb0;
   font-size: .75rem;
   font-weight: 900;
 }
@@ -297,10 +316,10 @@ body[data-page-type="mental-health-hub"] .main-content {
   gap: .7rem;
   margin-top: auto;
   padding: 1rem;
-  border: 1px solid #c9e1e5;
+  border: 1px solid #e6ddf7;
   border-radius: 15px;
-  background: #f0f9fa;
-  color: #245675;
+  background: #f5f1fd;
+  color: #4a3b74;
   font-size: .9rem;
   font-weight: 800;
 }
@@ -345,14 +364,14 @@ body[data-page-type="mental-health-hub"] .main-content {
 .mh-nclex-link strong { font-size: .9rem; }
 .mh-nclex-link small { margin-top: .18rem; color: #716898; font-size: .7rem; font-weight: 700; }
 
-[data-theme="dark"] .mh-hub { color: #ecf6fa; }
+[data-theme="dark"] .mh-hub { color: #efeaff; }
 [data-theme="dark"] .mh-hub-header h1,
 [data-theme="dark"] .mh-hub-guide h2 { color: #eef7ff !important; }
-[data-theme="dark"] .mh-hub-brandmark { background: #263249; }
+[data-theme="dark"] .mh-hub-brandmark { background: transparent; }
 [data-theme="dark"] .mh-topic-card { background: #242a3c; border-color: #45526c; color: #f2f6ff !important; }
 [data-theme="dark"] .mh-topic-card small { color: #b5bfd1; }
 [data-theme="dark"] .mh-hub-guide { background: #242a3c; border-color: #45526c; }
-[data-theme="dark"] .mh-guide-tip { background: #263a45; color: #d8f3f5; }
+[data-theme="dark"] .mh-guide-tip { background: #2f2749; color: #e7dfff; }
 [data-theme="dark"] .mh-nclex-link { background: #302849; border-color: #544679; color: #eee8ff !important; }
 
 @media (max-width: 1250px) {
@@ -1255,6 +1274,29 @@ body[data-section="mental-health"] .mh-detail.blue .detail-callout {
   border-left-color: var(--mh-blue);
 }
 
+body[data-section="mental-health"] .detail-table {
+  overflow-x: auto;
+  margin: 1rem 0;
+  border-radius: 10px;
+}
+body[data-section="mental-health"] .detail-table table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.93rem;
+}
+body[data-section="mental-health"] .detail-table th {
+  background: rgba(34, 28, 80, 0.08);
+  font-weight: 700;
+  padding: 0.55rem 0.8rem;
+  text-align: left;
+  border-bottom: 2px solid rgba(34, 28, 80, 0.15);
+}
+body[data-section="mental-health"] .detail-table td {
+  padding: 0.5rem 0.8rem;
+  border-bottom: 1px solid rgba(34, 28, 80, 0.08);
+  line-height: 1.55;
+}
+
 body[data-section="mental-health"] .mh-detail.green .detail-callout {
   border-left-color: var(--mh-green);
 }
@@ -1321,7 +1363,7 @@ body[data-page-type="mental-health-hub"] .mh-topic-10 { left: 75%; top: 86%; }
   gap: .55rem;
   min-height: 58px;
   padding: .7rem;
-  border: 1px solid #d8e3e7;
+  border: 1px solid #e7e3ed;
   border-radius: 14px;
   background: #fff;
   box-shadow: 0 6px 16px rgba(27, 50, 82, .08);
@@ -1334,7 +1376,7 @@ body[data-page-type="mental-health-hub"] .mh-topic-10 { left: 75%; top: 86%; }
 .mh-hub-shortcuts a:hover,
 .mh-hub-shortcuts a:focus-visible {
   transform: translateY(-2px);
-  border-color: #29a7b2;
+  border-color: #8060bf;
   box-shadow: 0 9px 20px rgba(27, 50, 82, .13);
   outline: none;
 }
@@ -1346,8 +1388,8 @@ body[data-page-type="mental-health-hub"] .mh-topic-10 { left: 75%; top: 86%; }
   width: 2rem;
   height: 2rem;
   border-radius: 50%;
-  background: #e8f7f8;
-  color: #12828d;
+  background: #f1ebfb;
+  color: #6945c2;
   font-weight: 900;
 }
 
@@ -1361,11 +1403,6 @@ body[data-page-type="mental-health-hub"] .mh-topic-10 { left: 75%; top: 86%; }
   body[data-page-type="mental-health-hub"] .mh-topic-orbit .mh-topic-card strong { font-size: .76rem; }
   .mh-hub-shortcuts { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
-
-/* =========================================================
-   MENTAL HEALTH MEDICATIONS PAGE
-   ========================================================= */
-
 body[data-section="mental-health"] .med-warning-strip {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));

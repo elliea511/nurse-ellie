@@ -6,7 +6,7 @@ page_type: mental-health-hub
 
 <section class="mh-hub" aria-labelledby="mh-hub-title">
   <header class="mh-hub-header">
-    <div class="mh-hub-brandmark" aria-hidden="true"><img src="{{ '/assets/images/mental-health-brain.png' | relative_url }}" alt=""></div>
+    <div class="mh-hub-brandmark" aria-hidden="true"><img src="{{ '/assets/images/mental-health-brain.png' | relative_url }}" alt="" data-no-lb></div>
     <div>
       <h1 id="mh-hub-title">Mental Health Study Hub</h1>
       <p>Your simple hub for mental health nursing.</p>
@@ -36,7 +36,7 @@ page_type: mental-health-hub
       </svg>
 
       <div class="mh-brain-center" aria-hidden="true">
-        <img src="{{ '/assets/images/mental-health-brain.png' | relative_url }}" alt="">
+        <img src="{{ '/assets/images/mental-health-brain.png' | relative_url }}" alt="" data-no-lb>
       </div>
 
       <a class="mh-topic-card mh-topic-2" href="{{ '/mental-health/therapeutic-communication.html' | relative_url }}">
@@ -74,7 +74,7 @@ page_type: mental-health-hub
     </div>
 
     <aside class="mh-hub-guide">
-      <div class="mh-guide-icon" aria-hidden="true"><img src="{{ '/assets/images/mental-health-brain.png' | relative_url }}" alt=""></div>
+      <div class="mh-guide-icon" aria-hidden="true"><img src="{{ '/assets/images/mental-health-brain.png' | relative_url }}" alt="" data-no-lb></div>
       <h2>Select a topic<br>to open notes</h2>
       <div class="mh-guide-rule"></div>
       <p>Study resources include:</p>

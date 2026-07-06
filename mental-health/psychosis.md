@@ -1,612 +1,675 @@
 ---
 layout: default
-title: Schizophrenia & Psychosis
+title: Psychosis & Schizophrenia
 ---
 
-# Schizophrenia & Psychosis
+<div class="mh-breadcrumb">
+  <a href="{{ '/mental-health.html' | relative_url }}">Mental Health</a>
+  <span>Psychosis & Schizophrenia</span>
+</div>
 
-<div class="note">
+# Psychosis & Schizophrenia
 
-Schizophrenia is a psychotic disorder that affects how a person thinks, communicates, perceives reality, expresses emotions, and behaves.
+<p class="mh-subtitle">ATI-style review for schizophrenia, positive/negative symptoms, delusions, communication problems, phases, safety, and antipsychotic care</p>
 
-For NCLEX, focus on: <strong>safety, hallucinations, delusions, therapeutic communication, medication adherence, antipsychotic side effects, hygiene/nutrition, and relapse prevention.</strong>
+Schizophrenia is a mental health disorder marked by **withdrawal from reality, delusions or illusions, illogical thinking, and emotional, intellectual, and behavioral disturbances.** It affects the patient’s ability to **think, communicate, perceive reality, show emotions, and behave in a socially acceptable way.**
+
+<div class="priority-focus">
+  <div>
+    <h3>Priority Focus</h3>
+    Safety • Reality Orientation • Do Not Argue • Hallucinations • Delusions • Communication • Med Adherence • Low Stimulation
+  </div>
+</div>
+
+<div class="mh-cards">
+  <div class="mh-card purple">
+    <div class="mh-card-icon">🧠</div>
+    <h3>Schizophrenia Basics</h3>
+    <p>Causes, onset, phases, symptoms, and core nursing priorities.</p>
+    <a class="mh-btn" href="#panel-schizophrenia-basics">Study Basics</a>
+  </div>
+
+  <div class="mh-card pink">
+    <div class="mh-card-icon">👁️</div>
+    <h3>Positive + Negative Symptoms</h3>
+    <p>Hallucinations, delusions, bizarre behavior, flat affect, avolition, mutism, and anhedonia.</p>
+    <a class="mh-btn" href="#panel-symptoms">Study Symptoms</a>
+  </div>
+
+  <div class="mh-card blue">
+    <div class="mh-card-icon">💬</div>
+    <h3>Delusions + Communication</h3>
+    <p>Delusion types, loose associations, word salad, neologisms, clang associations, and more.</p>
+    <a class="mh-btn" href="#panel-communication">Study Communication</a>
+  </div>
+
+  <div class="mh-card green">
+    <div class="mh-card-icon">💊</div>
+    <h3>Treatment + Other Psychosis</h3>
+    <p>Antipsychotics, safety interventions, therapy, restraints as last resort, and related psychotic disorders.</p>
+    <a class="mh-btn" href="#panel-treatment">Study Treatment</a>
+  </div>
+</div>
+
+<div class="mh-detail purple" id="panel-schizophrenia-basics" markdown="1">
+<a class="mh-detail-close" href="#">✕</a>
+
+### Schizophrenia Basics
+
+<div class="detail-grid" markdown="1">
+
+<div class="detail-mini-card" markdown="1">
+<strong>What It Is</strong>
+
+- Withdrawal from reality.
+- Delusions or illusions.
+- Illogical thinking.
+- Emotional disturbances.
+- Intellectual disturbances.
+- Behavioral disturbances.
+- Difficulty thinking, communicating, and interpreting reality.
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Possible Causes / Risk Factors</strong>
+
+- Altered brain chemistry.
+- Excess dopamine.
+- Genetic factors/family history.
+- Substance abuse.
+- Onset usually between ages 15–25.
+- Brain atrophy may be seen on CT scans.
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>What Schizophrenia Affects</strong>
+
+- Ability to think.
+- Ability to communicate.
+- Ability to perceive reality.
+- Ability to interpret reality.
+- Ability to feel and demonstrate emotions.
+- Ability to behave socially appropriately.
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Comorbidities / Risks</strong>
+
+- Substance abuse
+- Anxiety disorders
+- Depressive disorders
+- Suicide risk
+- Physical illness
+- Polydipsia
+- Medication nonadherence
+</div>
 
 </div>
 
----
+<div class="detail-table">
+  <table>
+    <thead>
+      <tr>
+        <th>Phase</th>
+        <th>What Happens</th>
+        <th>Nursing Focus</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Prodromal</strong></td>
+        <td>Functioning begins to deteriorate. Others may notice odd behavior or behavior change. Patient may isolate or develop strange beliefs.</td>
+        <td>Notice early changes, support treatment, assess safety and function.</td>
+      </tr>
+      <tr>
+        <td><strong>Acute</strong></td>
+        <td>Actively ill and acutely psychotic with hallucinations, delusions, impaired judgment, and impaired thinking.</td>
+        <td>Safety, low stimulation, medication, reality orientation, therapeutic communication.</td>
+      </tr>
+      <tr>
+        <td><strong>Stabilization</strong></td>
+        <td>Symptoms begin to diminish as medication stabilizes the patient. A “new normal” develops.</td>
+        <td>Medication adherence, coping skills, routine, relapse prevention.</td>
+      </tr>
+      <tr>
+        <td><strong>Maintenance</strong></td>
+        <td>Long-term functioning phase. Not achieved by all patients; some stop medications and return to acute phase.</td>
+        <td>Prevent relapse, reinforce meds, support follow-up, assess early warning signs.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
-## Big Picture
+<div class="detail-callout" markdown="1">
+<strong>NCLEX:</strong> Acute psychosis = safety, calm approach, reality orientation, and medication support. Do not argue with hallucinations or delusions.
+</div>
 
-| Concept | Meaning |
+</div>
+
+<div class="mh-detail pink" id="panel-symptoms" markdown="1">
+<a class="mh-detail-close" href="#">✕</a>
+
+### Positive + Negative Symptoms
+
+<div class="detail-table">
+  <table>
+    <thead>
+      <tr>
+        <th>Symptom Group</th>
+        <th>What It Means</th>
+        <th>Examples</th>
+        <th>Nursing Focus</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Positive Symptoms</strong></td>
+        <td>Symptoms added to normal function.</td>
+        <td>Hallucinations, illusions, delusions, bizarre behavior, strange speech, echopraxia, depersonalization, derealization, boundary impairment, poor impulse control.</td>
+        <td>Assess safety, validate experience without agreeing, reorient to reality, reduce stimuli, give meds as ordered.</td>
+      </tr>
+      <tr>
+        <td><strong>Negative Symptoms</strong></td>
+        <td>Symptoms that remove or decrease normal function.</td>
+        <td>Mutism, lack of expression, apathetic/blunted/constricted/inappropriate/bland affect, lack of thoughts, anhedonia, avolition, anergia.</td>
+        <td>Support ADLs, encourage routine, use simple communication, avoid overwhelming, reinforce small progress.</td>
+      </tr>
+      <tr>
+        <td><strong>Cognitive Symptoms</strong></td>
+        <td>Problems with thinking and processing.</td>
+        <td>Concrete thinking, short-term memory problems, reasoning difficulties, delayed responses, anosognosia.</td>
+        <td>Use simple instructions, repeat as needed, assess understanding, support medication adherence.</td>
+      </tr>
+      <tr>
+        <td><strong>Affective Symptoms</strong></td>
+        <td>Mood/emotional expression problems.</td>
+        <td>Incongruent moods, erratic mood, labile mood.</td>
+        <td>Assess mood, safety, coping, and response to treatment.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="detail-grid" markdown="1">
+
+<div class="detail-mini-card" markdown="1">
+<strong>Negative Symptom Terms</strong>
+
+- **Mutism:** lack of speech.
+- **Blunted/constricted affect:** decreased emotional expression.
+- **Anhedonia:** lack of pleasure.
+- **Avolition:** lack of motivation.
+- **Anergia:** lack of energy.
+- **Apathy:** lack of interest or emotion.
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Positive Symptom Terms</strong>
+
+- **Hallucination:** sensory perception without external stimulus.
+- **Illusion:** misinterpretation of a real stimulus.
+- **Delusion:** false fixed belief.
+- **Bizarre behavior:** unusual or disorganized behavior.
+- **Echopraxia:** mimicking movements.
+- **Boundary impairment:** poor sense of personal boundaries.
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Other Symptoms</strong>
+
+- Poor personal hygiene.
+- Poor boundaries.
+- Constant pacing or rocking.
+- Depersonalization.
+- Derealization.
+- Retreat into own world.
+- Little attention to external reality.
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Patient Education</strong>
+
+- Take medications exactly as prescribed.
+- Do not stop antipsychotics suddenly.
+- Report hallucinations or worsening symptoms early.
+- Avoid alcohol/drugs because they can worsen psychosis.
+- Keep follow-up appointments.
+- Use routine, sleep, and stress-reduction skills.
+</div>
+
+</div>
+
+<div class="detail-callout" markdown="1">
+<strong>NCLEX:</strong> Positive symptoms are added experiences like hallucinations/delusions. Negative symptoms are decreased functions like flat affect, anhedonia, avolition, and poor speech.
+</div>
+
+</div>
+
+<div class="mh-detail blue" id="panel-communication" markdown="1">
+<a class="mh-detail-close" href="#">✕</a>
+
+### Delusions + Communication Problems
+
+<div class="detail-grid" markdown="1">
+
+<div class="detail-mini-card" markdown="1">
+<strong>Delusion Basics</strong>
+
+- A delusion is a false, fixed belief.
+- Do not argue about the belief.
+- Arguing can make the patient defend it more strongly.
+- Therapeutically introduce doubt.
+- Validate the patient’s experience without confirming the delusion.
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Therapeutic Response</strong>
+
+- Stay calm and quiet.
+- Use short, clear statements.
+- Do not whisper or laugh near suspicious patients.
+- Do not argue, deny, or confront.
+- Focus on feelings and safety.
+- Reorient to reality.
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Hallucination Response</strong>
+
+- Ask what the voices/images are saying.
+- Assess for command hallucinations.
+- Assess safety risk.
+- Say you do not hear/see it, but you understand it is real to them.
+- Offer distraction or grounding.
+- Give medication as prescribed.
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Safety Cues</strong>
+
+- Command hallucinations.
+- Threatening delusions.
+- Severe agitation.
+- Poor impulse control.
+- Inability to care for basic needs.
+- Substance use.
+- Suicidal thoughts.
+</div>
+
+</div>
+
+<div class="detail-table">
+  <table>
+    <thead>
+      <tr>
+        <th>Delusion Type</th>
+        <th>Meaning</th>
+        <th>Example</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Reference</strong></td>
+        <td>Everything in the environment has something to do with the patient.</td>
+        <td>Believes a TV commercial is sending them a personal message.</td>
+      </tr>
+      <tr>
+        <td><strong>Ideas of Reference</strong></td>
+        <td>Believes others are talking about or laughing at them.</td>
+        <td>Believes people at the nurses’ station are laughing about them.</td>
+      </tr>
+      <tr>
+        <td><strong>Nihilistic</strong></td>
+        <td>Belief that something does not exist or that life/body/world is gone or ending.</td>
+        <td>Believes their organs are missing or the world has ended.</td>
+      </tr>
+      <tr>
+        <td><strong>Religiosity</strong></td>
+        <td>Excessive or delusional religious focus.</td>
+        <td>Believes they have a special divine mission.</td>
+      </tr>
+      <tr>
+        <td><strong>Magical Thinking</strong></td>
+        <td>Believes thoughts caused an event.</td>
+        <td>Believes thinking about rain caused a storm.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="detail-table">
+  <table>
+    <thead>
+      <tr>
+        <th>Communication Problem</th>
+        <th>What It Means</th>
+        <th>Simple Cue</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Loose Associations</strong></td>
+        <td>No logical relationship between thoughts or ideas.</td>
+        <td>Conversation is hard to follow because topics do not connect.</td>
+      </tr>
+      <tr>
+        <td><strong>Neologisms</strong></td>
+        <td>Made-up words that have meaning to the patient.</td>
+        <td>“The confrazzlement is happening.”</td>
+      </tr>
+      <tr>
+        <td><strong>Concrete Thinking</strong></td>
+        <td>Takes words literally due to lack of abstract thought.</td>
+        <td>Cannot interpret figures of speech.</td>
+      </tr>
+      <tr>
+        <td><strong>Clang Association</strong></td>
+        <td>Speech based on sound/rhyme instead of meaning.</td>
+        <td>“Cat, bat, hat, sat.”</td>
+      </tr>
+      <tr>
+        <td><strong>Word Salad</strong></td>
+        <td>Words strung together without meaning.</td>
+        <td>Sentence has no understandable message.</td>
+      </tr>
+      <tr>
+        <td><strong>Circumstantiality</strong></td>
+        <td>Talks in circles with excessive detail before eventually reaching the point.</td>
+        <td>Eventually answers, but with too much detail.</td>
+      </tr>
+      <tr>
+        <td><strong>Tangentiality</strong></td>
+        <td>Gets sidetracked and never returns to the original point.</td>
+        <td>Does not answer the question.</td>
+      </tr>
+      <tr>
+        <td><strong>Mutism</strong></td>
+        <td>Refusal or inability to speak.</td>
+        <td>No verbal response.</td>
+      </tr>
+      <tr>
+        <td><strong>Perseveration</strong></td>
+        <td>Repeats the same response over and over even when inappropriate.</td>
+        <td>Same answer repeated to different questions.</td>
+      </tr>
+      <tr>
+        <td><strong>Echolalia</strong></td>
+        <td>Repeats words spoken by another person.</td>
+        <td>Nurse: “Are you okay?” Patient: “Are you okay?”</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="detail-callout" markdown="1">
+<strong>NCLEX:</strong> Do not say “that is not real.” Say something like, “I do not hear the voices, but I understand they are frightening to you.”
+</div>
+
+</div>
+
+<div class="mh-detail green" id="panel-treatment" markdown="1">
+<a class="mh-detail-close" href="#">✕</a>
+
+### Treatment + Other Psychosis
+
+<div class="detail-table">
+  <table>
+    <thead>
+      <tr>
+        <th>Treatment</th>
+        <th>Used For</th>
+        <th>Nursing Considerations</th>
+        <th>Patient Education</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>First-generation antipsychotics</strong><br>Example: haloperidol</td>
+        <td>Psychosis, hallucinations, delusions, severe agitation.</td>
+        <td>Monitor EPS, NMS, sedation, safety, and adherence.</td>
+        <td>Report stiffness, tremor, fever, rigidity, abnormal movements, or severe restlessness.</td>
+      </tr>
+      <tr>
+        <td><strong>Second-generation antipsychotics</strong><br>Example: risperidone</td>
+        <td>Psychosis and mood-related psychotic symptoms.</td>
+        <td>Monitor weight, glucose, lipids, sedation, EPS, and adherence.</td>
+        <td>Keep lab appointments and report major weight changes or abnormal movements.</td>
+      </tr>
+      <tr>
+        <td><strong>Benzodiazepines</strong></td>
+        <td>Anxiety, agitation, or acute calming as ordered.</td>
+        <td>Monitor sedation, falls, respiratory depression, and dependence risk.</td>
+        <td>Avoid alcohol/CNS depressants. Use safety precautions.</td>
+      </tr>
+      <tr>
+        <td><strong>Mood stabilizers</strong></td>
+        <td>Mood instability or schizoaffective/bipolar features.</td>
+        <td>Monitor medication-specific labs and adverse effects.</td>
+        <td>Take consistently and keep follow-up labs.</td>
+      </tr>
+      <tr>
+        <td><strong>Psychotherapy</strong></td>
+        <td>Coping, insight, functioning, support, relapse prevention.</td>
+        <td>Most useful when patient is stable enough to participate.</td>
+        <td>Therapy supports coping but does not replace medication adherence.</td>
+      </tr>
+      <tr>
+        <td><strong>Stress relief techniques</strong></td>
+        <td>Relapse prevention and symptom management.</td>
+        <td>Stress can worsen symptoms.</td>
+        <td>Use sleep, routine, relaxation, and support system.</td>
+      </tr>
+      <tr>
+        <td><strong>Seclusion / restraints</strong></td>
+        <td>Safety emergency only.</td>
+        <td>Last resort after less restrictive interventions fail.</td>
+        <td>Used for safety, not punishment.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="detail-grid" markdown="1">
+
+<div class="detail-mini-card" markdown="1">
+<strong>Nursing Interventions</strong>
+
+- Promote safety and physical care.
+- Validate the client’s experience.
+- Reorient to reality.
+- Do not confront, argue, or deny.
+- Avoid physical contact or touching.
+- Approach in a calm, quiet manner.
+- Use therapeutic communication.
+- Decrease stimulation.
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Medication Safety</strong>
+
+- Monitor for EPS.
+- Monitor for NMS.
+- Monitor sedation/fall risk.
+- Monitor metabolic effects with second-generation antipsychotics.
+- Reinforce medication adherence.
+- Assess for relapse if medications are stopped.
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Patient Education</strong>
+
+- Continue medication even when feeling better.
+- Avoid substances that can worsen symptoms.
+- Keep follow-up appointments.
+- Report side effects early.
+- Use stress reduction and routine.
+- Tell staff if hallucinations or delusions worsen.
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Complications / Safety Risks</strong>
+
+- Suicide risk
+- Command hallucinations
+- Violence risk if severely agitated/paranoid
+- Poor self-care
+- Medication nonadherence
+- Substance use
+- Physical illness
+- Polydipsia
+</div>
+
+</div>
+
+<div class="detail-table">
+  <table>
+    <thead>
+      <tr>
+        <th>Related Disorder</th>
+        <th>What It Is</th>
+        <th>Treatment / Nursing Focus</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Schizoaffective Disorder</strong></td>
+        <td>Symptoms of schizophrenia plus bipolar illness or mood disorder symptoms. Psychosis may cycle with moods.</td>
+        <td>Antipsychotics and bipolar/mood medications as ordered. Assess safety, mood, psychosis, and medication adherence.</td>
+      </tr>
+      <tr>
+        <td><strong>Brief Psychotic Disorder</strong></td>
+        <td>Severe stress causes a psychotic break lasting 1 day to 1 month with complete recovery.</td>
+        <td>Safety, short-term stabilization, therapy/support, assess stressor.</td>
+      </tr>
+      <tr>
+        <td><strong>Schizophreniform Disorder</strong></td>
+        <td>Psychosis lasting 1 month to 6 months. Used when unsure if schizophrenia or when recovery occurs quickly.</td>
+        <td>Monitor duration, safety, function, medication response, and follow-up.</td>
+      </tr>
+      <tr>
+        <td><strong>Substance-Induced Psychotic Disorder</strong></td>
+        <td>Hallucinations, delusions, or other psychotic symptoms caused by substances, withdrawal, drug interactions, or psychoactive drugs.</td>
+        <td>Assess substance use, withdrawal, safety, and medical stability.</td>
+      </tr>
+      <tr>
+        <td><strong>Psychotic Disorder Due to Medical Condition</strong></td>
+        <td>Delusions or hallucinations caused by medical conditions such as dementia, Huntington’s chorea, or Parkinson’s disease.</td>
+        <td>Assess medical cause, safety, orientation, and collaborate with provider/team.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="detail-callout" markdown="1">
+<strong>NCLEX:</strong> Seclusion and restraints are last resort. Try calm approach, decreased stimulation, meds as ordered, and therapeutic communication first.
+</div>
+
+</div>
+
+<div class="mh-columns wide-left" markdown="1">
+
+<div class="key-findings" markdown="1">
+<h3>📋 Psychosis Big Picture</h3>
+
+- Schizophrenia affects thinking, communication, emotions, perception, reality interpretation, and behavior.
+- Positive symptoms are added symptoms like hallucinations and delusions.
+- Negative symptoms are decreased functions like flat affect, mutism, anhedonia, avolition, and anergia.
+- Do not argue with delusions or hallucinations.
+- Validate the experience, then reorient to reality.
+- Safety and medication adherence are major nursing priorities.
+</div>
+
+<div class="mh-col" markdown="1">
+
+<div class="report-now" markdown="1">
+<h3>Report Immediately</h3>
+
+- Command hallucinations
+- Threats to self or others
+- Severe agitation or escalating behavior
+- New/worsening psychosis
+- Refusal to eat/drink or inability to care for self
+- Signs of NMS: fever, rigidity, altered mental status
+- Severe medication side effects
+- Severe confusion or sudden change from baseline
+</div>
+
+<div class="nclex-tip" markdown="1">
+<h3>NCLEX Tip</h3>
+
+For hallucinations and delusions: assess safety first, do not argue, acknowledge the feeling, present reality, and redirect.
+</div>
+
+</div>
+</div>
+
+<div class="mh-table-card" markdown="1">
+
+<h3>Quick Terms</h3>
+
+| Concept | Simple Meaning |
 |---|---|
 | **Psychosis** | Loss of contact with reality |
-| **Schizophrenia** | Chronic psychotic disorder with disturbances in thought, perception, emotion, and behavior |
-| **Delusion** | Fixed false belief |
-| **Hallucination** | Sensory experience without real stimulus |
-| **Illusion** | Misinterpretation of something real |
-| **Positive symptoms** | Added symptoms, like hallucinations and delusions |
-| **Negative symptoms** | Missing/decreased normal function, like lack of emotion or motivation |
-| **Cognitive symptoms** | Problems with memory, reasoning, attention, and processing |
-
-<div class="warning">
-
-<strong>NCLEX:</strong> The nurse does not argue with hallucinations or delusions. The nurse assesses safety, validates feelings, and presents reality calmly.
-
-</div>
-
----
-
-# Schizophrenia Basics
-
-Schizophrenia affects the patient's ability to: think clearly, communicate logically, interpret reality, perceive the environment accurately, show emotions appropriately, behave socially, maintain ADLs, maintain relationships, and recognize illness.
-
----
-
-## Possible Causes / Risk Factors
-
-- Altered brain chemistry
-- Excess dopamine activity
-- Genetic factors
-- Family history
-- Substance use
-- Brain changes/atrophy seen on scans
-- Typical onset between ages 15–25
-
-<div class="note">
-
-Substance use can worsen psychosis or trigger substance-induced psychotic symptoms.
-
-</div>
-
----
-
-# Positive vs Negative Symptoms
-
-## Positive Symptoms
-
-Positive symptoms are **extra symptoms added on** to normal functioning.
-
-| Symptom | Meaning |
-|---|---|
-| Hallucinations | Sensing something that is not there |
-| Delusions | Fixed false beliefs |
-| Illusions | Misinterpreting something real |
-| Bizarre behavior | Odd or unusual behavior |
-| Strange speech | Disorganized communication |
-| Poor impulse control | Unsafe or inappropriate actions |
-| Depersonalization | Feeling detached from body |
-| Derealization | World feels unreal or changed |
-| Boundary impairment | Poor sense of personal/social boundaries |
-
----
-
-## Negative Symptoms
-
-Negative symptoms are **decreased or missing normal function.**
-
-| Symptom | Meaning |
-|---|---|
-| Flat/blunted affect | Little emotional expression |
-| Anhedonia | Lack of pleasure |
-| Avolition | Lack of motivation |
-| Anergia | Lack of energy |
-| Alogia | Limited speech |
-| Mutism | Little/no speech |
-| Poor hygiene | Decreased self-care |
-| Social withdrawal | Pulling away from others |
-
-<div class="note">
-
-<strong>Positive symptoms</strong> = something extra is present. <strong>Negative symptoms</strong> = something normal is missing.
-
-</div>
-
----
-
-# Cognitive and Affective Symptoms
-
-| Type | Findings |
-|---|---|
-| **Cognitive** | Concrete thinking, short-term memory problems, reasoning difficulty, delayed responses |
-| **Affective** | Incongruent mood, labile mood, erratic mood, inappropriate affect |
-| **Insight-related** | Anosognosia: patient does not believe they are ill |
-
-<div class="note">
-
-<strong>Anosognosia</strong> means the patient does not recognize they are ill. This can lead to medication refusal and relapse.
-
-</div>
-
----
-
-# Delusions
-
-A delusion is a false, fixed belief. Do not argue with the patient — arguing usually makes the patient defend the belief more strongly.
-
-## Types of Delusions
-
-| Type | Meaning |
-|---|---|
-| **Persecutory** | Believes others are trying to harm or target them |
-| **Grandiose** | Believes they are powerful, famous, or special |
-| **Reference / ideas of reference** | Believes events/messages are personally about them |
-| **Religious** | Delusional belief with religious theme |
-| **Nihilistic** | Believes self/world does not exist or is ending |
-| **Somatic** | False belief about body function/illness |
-| **Magical thinking** | Believes thoughts/actions caused unrelated events |
-
----
-
-## Delusion Communication
-
-| Patient Says | Best Response |
-|---|---|
-| "The FBI is watching me." | "That sounds frightening. I do not see anyone watching you." |
-| "The TV is sending me messages." | "I do not receive messages from the TV, but I understand this feels real to you." |
-| "My food is poisoned." | "You seem worried about the food. Let's talk about what would help you feel safe eating." |
-| "I am God." | "I understand you believe that. Right now, we are in the hospital and I am your nurse." |
-
-<div class="warning">
-
-<strong>NCLEX:</strong> Do not agree with delusions, but do not argue. Focus on feelings, safety, and reality-based statements.
-
-</div>
-
----
-
-# Hallucinations
-
-A hallucination is a sensory experience without a real stimulus.
-
-| Type | Example |
-|---|---|
-| **Auditory** | Hearing voices |
-| **Visual** | Seeing people/objects not there |
-| **Tactile** | Feeling bugs crawling |
-| **Olfactory** | Smelling odors not present |
-| **Gustatory** | Tasting something not present |
-
----
-
-## Hallucination Assessment
-
-When a patient reports hallucinations, assess:
-
-| Question | Why |
-|---|---|
-| "What are you hearing/seeing/feeling?" | Identifies hallucination content |
-| "What are the voices saying?" | Checks for command hallucinations |
-| "Are they telling you to hurt yourself?" | Suicide safety |
-| "Are they telling you to hurt someone else?" | Violence safety |
-| "What helps decrease the voices?" | Coping strategies |
-| "Do you feel safe?" | Immediate safety |
-
-<div class="warning">
-
-<strong>Command hallucinations</strong> are priority because voices may tell the patient to harm self or others.
-
-</div>
-
----
-
-## Hallucination Communication
-
-| Patient Says | Best Response |
-|---|---|
-| "I hear voices." | "What are the voices saying?" |
-| "The voices are telling me to hurt myself." | "I am going to stay with you and help keep you safe." |
-| "Do you hear them too?" | "I do not hear the voices, but I understand they are real to you." |
-| "The voices are scary." | "That sounds frightening. I can stay with you." |
-
----
-
-# Communication Problems in Schizophrenia
-
-| Term | Meaning |
-|---|---|
-| **Loose associations** | No logical connection between thoughts |
-| **Neologisms** | Made-up words with meaning to the patient |
-| **Concrete thinking** | Takes words literally; difficulty with abstract thinking |
-| **Clang association** | Words connected by sound/rhyme, not meaning |
+| **Schizophrenia** | Chronic disorder affecting thought, perception, emotion, and behavior |
+| **Positive symptoms** | Added symptoms: hallucinations, delusions, bizarre behavior |
+| **Negative symptoms** | Decreased function: flat affect, mutism, avolition, anhedonia |
+| **Hallucination** | Sensory perception without stimulus |
+| **Illusion** | Misinterpretation of a real stimulus |
+| **Delusion** | False fixed belief |
+| **Anosognosia** | Does not believe they are ill |
+| **Avolition** | Lack of motivation |
+| **Anergia** | Lack of energy |
+| **Anhedonia** | Lack of pleasure |
 | **Word salad** | Words strung together without meaning |
-| **Circumstantiality** | Gives excessive detail but eventually answers |
-| **Tangentiality** | Goes off topic and does not return |
-| **Mutism** | Refusal or inability to speak |
-| **Perseveration** | Repeats same response or idea |
-| **Echolalia** | Repeats words spoken by others |
-| **Echopraxia** | Copies another person's movements |
-| **Thought blocking** | Suddenly stops speaking due to interrupted thought |
-| **Flight of ideas** | Rapid jumping from one idea to another |
-
----
-
-## Easy Difference Chart
-
-| Term | Simple Cue |
-|---|---|
-| **Circumstantial** | Talks in circles but gets there |
-| **Tangential** | Goes off topic and never gets there |
-| **Loose associations** | Thoughts do not connect |
-| **Word salad** | Words do not make sense together |
-| **Clang** | Rhyming/sound-based speech |
 | **Neologism** | Made-up word |
-| **Concrete thinking** | Literal thinking |
-
-<div class="note">
-
-Example: "Testiculated" and "confrazzlement" are neologisms, showing a disruption in thought process.
-
-</div>
-
----
-
-# Other Symptoms
-
-Patients with schizophrenia may also have:
-
-| Finding | Meaning |
-|---|---|
-| Poor boundaries | Difficulty with personal/social limits |
-| Poor hygiene | Decreased self-care |
-| Pacing/rocking | Anxiety, agitation, or self-soothing |
-| Depersonalization | Detached from body |
-| Derealization | World feels changed/unreal |
-| Autism-like withdrawal | Retreat into own internal world |
-| Anhedonia | Lack of pleasure |
-| Anergia | Lack of energy |
-
----
-
-# Phases of Schizophrenia
-
-| Phase | What Happens |
-|---|---|
-| **Prodromal** | Functioning deteriorates; odd behavior, isolation, strange beliefs may begin |
-| **Acute** | Active psychosis with hallucinations, delusions, disorganized thinking |
-| **Stabilization** | Symptoms decrease with treatment/medications |
-| **Maintenance** | Long-term management; relapse prevention |
-
-<div class="note">
-
-Not every patient reaches maintenance. Stopping medication can lead back to acute psychosis.
+| **Clang association** | Rhyming/sound-based speech |
+| **Loose associations** | Thoughts do not logically connect |
+| **Circumstantiality** | Too much detail but eventually answers |
+| **Tangentiality** | Goes off topic and never answers |
+| **Perseveration** | Repeats same response |
+| **Depersonalization** | Feels detached from body |
+| **Derealization** | Feels world has changed/unreal |
+| **Prodromal phase** | Early decline before acute psychosis |
+| **Acute phase** | Active hallucinations/delusions/psychosis |
+| **Maintenance phase** | Long-term relapse prevention |
 
 </div>
 
----
+<div class="mh-columns" markdown="1">
 
-# Comorbidities
+<div class="quick-review" markdown="1">
+<h3>Quick Review</h3>
 
-Schizophrenia may occur with: substance abuse, anxiety disorders, depressive disorders, suicide risk, physical illness, and polydipsia.
+1. Schizophrenia affects thinking, communication, emotions, reality, and behavior.
+2. Positive symptoms are added; negative symptoms are missing/decreased function.
+3. Do not argue with delusions.
+4. Assess command hallucinations for safety.
+5. Use calm, quiet, simple communication.
+6. Seclusion/restraints are last resort.
+7. Medication adherence helps prevent relapse into acute psychosis.
+</div>
 
-<div class="warning">
+<div class="do-not-miss" markdown="1">
+<h3>Do Not Miss</h3>
 
-Suicide risk is increased in schizophrenia. Assess suicidal thoughts, especially with command hallucinations, depression, hopelessness, or substance use.
+- Do not say, “That is not real.”
+- Do not whisper or laugh near a paranoid patient.
+- Avoid unnecessary touching.
+- Validate the experience without agreeing with the delusion/hallucination.
+- Command hallucinations are a safety priority.
+- NMS symptoms are an emergency: fever, rigidity, altered mental status.
+- Substance use can worsen or cause psychosis.
+</div>
 
 </div>
 
----
-
-# Nursing Interventions
-
-## Priority Interventions
-
-| Nursing Action | Why |
-|---|---|
-| Promote safety | Poor reality testing may create risk |
-| Assess hallucination content | Command hallucinations may be dangerous |
-| Assess suicide/homicide risk | Safety priority |
-| Provide calm, quiet approach | Reduces stimulation |
-| Use simple, clear statements | Disorganized thinking affects processing |
-| Validate feelings | Patient feels heard |
-| Present reality | Keeps nurse grounded in reality |
-| Do not argue or confront | Increases defensiveness |
-| Avoid touching without warning | Touch may be misinterpreted |
-| Support hygiene/nutrition | Negative symptoms affect ADLs |
-| Encourage medication adherence | Prevents relapse |
-
----
-
-## Communication Rules
-
-| Do | Avoid |
-|---|---|
-| Speak calmly | Arguing |
-| Use short statements | Long explanations |
-| Present reality | Agreeing with delusions |
-| Focus on feelings | Telling patient they are wrong |
-| Ask about voices | Ignoring hallucinations |
-| Give personal space | Touching suddenly |
-| Redirect to reality-based activity | Feeding into psychosis |
-
----
-
-## Reality-Based Activities
-
-Helpful activities may include: simple crafts, music, walking with staff, folding towels, coloring, hygiene routine, structured group activity if tolerated, snack/meal routine, grounding exercise.
-
----
-
-# Antipsychotic Medications
-
-Antipsychotics help reduce psychotic symptoms like hallucinations, delusions, agitation, and disorganized thinking.
-
-## Medication Types
-
-| Type | Examples | Notes |
-|---|---|---|
-| **First-generation antipsychotics** | Haloperidol | Higher EPS risk |
-| **Second-generation antipsychotics** | Risperidone, olanzapine, quetiapine | More metabolic risk |
-
----
-
-## Antipsychotic Side Effects
-
-| Side Effect | Clues | Nursing Focus |
-|---|---|---|
-| **EPS** | Tremor, rigidity, dystonia, akathisia | Report/treat as ordered |
-| **Tardive dyskinesia** | Lip smacking, tongue movements, facial movements | May be irreversible |
-| **Neuroleptic malignant syndrome** | High fever, muscle rigidity, altered mental status, unstable VS | Medical emergency |
-| **Sedation** | Drowsiness | Fall precautions |
-| **Orthostatic hypotension** | Dizziness when standing | Change positions slowly |
-| **Anticholinergic effects** | Dry mouth, constipation, urinary retention | Fluids/fiber if appropriate |
-| **Metabolic effects** | Weight gain, hyperglycemia, diabetes risk | Monitor weight/glucose/lipids |
-
-<div class="warning">
-
-<strong>NMS is an emergency:</strong> fever + muscle rigidity + altered mental status + unstable vitals.
-
-</div>
-
----
-
-## EPS Quick Chart
-
-| EPS Type | What It Looks Like |
-|---|---|
-| **Acute dystonia** | Sudden muscle spasms, stiff neck, eyes rolling upward |
-| **Akathisia** | Restlessness, can't sit still |
-| **Parkinsonism** | Tremor, shuffling gait, rigidity |
-| **Tardive dyskinesia** | Late mouth/face/tongue movements |
-
----
-
-## Medication Teaching
-
-| Teaching Point | Why |
-|---|---|
-| Take medication as prescribed | Prevents relapse |
-| Do not stop when symptoms improve | Psychosis may return |
-| Report severe stiffness/fever | Possible NMS |
-| Report abnormal movements | EPS/tardive dyskinesia |
-| Rise slowly | Orthostatic hypotension |
-| Avoid alcohol/CNS depressants | Increased sedation |
-| Keep follow-up appointments | Monitor effectiveness/side effects |
-| Maintain healthy diet/activity | Metabolic risk with some meds |
-
----
-
-# Other Psychotic Disorders
-
-## Schizoaffective Disorder
-
-Schizoaffective disorder has symptoms of schizophrenia plus mood disorder symptoms.
-
-- Psychosis plus bipolar or depressive symptoms
-- Mood symptoms and psychosis may cycle
-- Treated with antipsychotics and mood/depression meds as ordered
-
----
-
-## Brief Psychotic Disorder
-
-Brief psychotic disorder is a short psychotic episode, often triggered by severe stress.
-
-- Lasts from 1 day to 1 month
-- Patient returns to previous functioning
-- Can occur after severe stress
-
----
-
-## Schizophreniform Disorder
-
-Schizophreniform disorder is psychosis lasting **1 month to 6 months**.
-
-- Used when symptoms have not lasted long enough for schizophrenia
-- If symptoms continue longer than 6 months, schizophrenia may be diagnosed
-- Some patients recover without further episodes
-
----
-
-## Substance-Induced Psychotic Disorder
-
-Occurs when intoxication, withdrawal, drug interactions, or psychoactive substances cause psychosis.
-
-- Hallucinogens
-- Alcohol withdrawal
-- Drug interactions
-- Stimulants
-- Other psychoactive substances
-
----
-
-## Psychotic Disorder Due to Medical Condition
-
-Medical conditions can cause psychosis-like symptoms.
-
-- Dementia
-- Huntington's chorea
-- Parkinson's disease
-
-<div class="note">
-
-New psychosis should be assessed for substances, withdrawal, medications, and medical causes.
-
-</div>
-
----
-
-# Seclusion and Restraints
-
-Seclusion or restraints are **last resort** interventions. They may be used only when the patient is an immediate danger to self or others and less restrictive interventions have failed.
-
-Try first: calm approach, reduce stimulation, offer quiet room, give space, use short statements, set limits, offer medications if ordered, call for help early.
-
-<div class="warning">
-
-<strong>NCLEX:</strong> Seclusion and restraints are last resort, not punishment or convenience.
-
-</div>
-
----
-
-# Relapse Prevention
-
-## Signs of Relapse
-
-- Stopping medications
-- Increased isolation
-- Poor sleep
-- Increased suspiciousness
-- More hallucinations
-- Declining hygiene
-- Increased agitation
-- Substance use
-- Missed appointments
-- Family notices odd behavior
-
-## Patient / Family Teaching
-
-| Teaching | Why |
-|---|---|
-| Take meds consistently | Prevents relapse |
-| Keep appointments | Allows monitoring |
-| Avoid substances | Substances worsen psychosis |
-| Watch for early warning signs | Allows early intervention |
-| Use support system | Helps adherence |
-| Reduce stress | Stress may trigger relapse |
-| Report hallucinations or suicidal thoughts | Safety priority |
-| Maintain sleep and routine | Supports stability |
-
----
-
-# Priority Charts
-
-## Hallucination Priority Chart
-
-| Situation | First Nursing Action |
-|---|---|
-| Patient says "I hear voices" | Ask what the voices are saying |
-| Voices command self-harm | Stay with patient and maintain safety |
-| Voices command harm to others | Maintain safety and notify team |
-| Patient is frightened by voices | Acknowledge fear and present reality |
-| Patient asks if you hear voices too | Say you do not hear them, but understand they are real to patient |
-
----
-
-## Delusion Priority Chart
-
-| Situation | First Nursing Action |
-|---|---|
-| Patient believes food is poisoned | Assess nutrition/safety; offer sealed food if appropriate |
-| Patient says FBI is watching | Acknowledge fear and present reality |
-| Patient becomes aggressive due to paranoia | Maintain safety and reduce stimulation |
-| Patient has grandiose delusion | Do not argue; redirect to reality-based task |
-| Patient refuses meds due to paranoia | Explain clearly and offer participation/choice when possible |
-
----
-
-## Medication Priority Chart
-
-| Situation | First Nursing Action |
-|---|---|
-| Fever + muscle rigidity on antipsychotic | Suspect NMS; notify provider immediately |
-| Lip smacking/tongue movements | Assess for tardive dyskinesia |
-| Restlessness after antipsychotic | Assess for akathisia |
-| Sudden neck spasm/eyes rolling | Assess for acute dystonia |
-| Weight gain/high glucose | Monitor metabolic effects |
-| Patient stops meds | Assess relapse risk and educate |
-
----
-
-# Therapeutic Communication
-
-| Patient Says | Best Response |
-|---|---|
-| "The voices are telling me I'm bad." | "What are the voices telling you to do?" |
-| "The voices say I should die." | "I will stay with you and help keep you safe." |
-| "The CIA planted a chip in me." | "That sounds frightening. I do not see evidence of that." |
-| "You are trying to poison me." | "You feel unsafe. I can explain each medication before you take it." |
-| "I don't need medicine. Nothing is wrong." | "Tell me what concerns you have about the medication." |
-| "The TV is talking about me." | "I do not receive messages from the TV, but I understand this feels real." |
-
----
-
-# NCLEX Cues
-
-<div class="note">
-
-<strong>Symptoms:</strong>
-<ul>
-<li>Positive symptoms: hallucinations, delusions, bizarre behavior, strange speech (something added).</li>
-<li>Negative symptoms: lack of speech (alogia), flat affect, no motivation (avolition), low energy (anergia).</li>
-<li>Speech patterns: neologism = made-up words; clang = rhyming; word salad = meaningless mixture.</li>
-</ul>
-
-</div>
-
-<div class="warning">
-
-<strong>Safety and response:</strong>
-<ul>
-<li>Hallucinations: always ask what the voices are saying — content matters.</li>
-<li>Command hallucinations: immediate safety priority.</li>
-<li>Delusions: do not argue or agree; present reality calmly, focus on feelings.</li>
-<li>NMS: fever + rigidity + altered mental status + unstable VS = medical emergency.</li>
-<li>Seclusion/restraints: last resort only, never for punishment or convenience.</li>
-</ul>
-
-</div>
-
----
-
-# Must-Know Table
-
-| Concept | Remember |
-|---|---|
-| **Schizophrenia** | Psychotic disorder affecting thought, reality, emotion, behavior |
-| **Positive symptoms** | Added symptoms: hallucinations/delusions |
-| **Negative symptoms** | Missing function: flat affect, avolition, alogia |
-| **Delusion** | Fixed false belief |
-| **Hallucination** | Sensory experience without stimulus |
-| **Command hallucination** | Voices telling patient to do something; safety priority |
-| **Loose associations** | Thoughts do not connect |
-| **Neologism** | Made-up word |
-| **Clang association** | Rhyming/sound speech |
-| **Word salad** | Meaningless word mixture |
-| **Prodromal phase** | Early decline/odd behavior |
-| **Acute phase** | Active psychosis |
-| **Stabilization** | Symptoms decrease |
-| **Maintenance** | Relapse prevention |
-| **Schizoaffective** | Psychosis + mood disorder |
-| **Brief psychotic disorder** | 1 day to 1 month |
-| **Schizophreniform** | 1 month to 6 months |
-| **NMS** | Antipsychotic emergency |
-
----
-
-# Final Takeaway
-
-<div class="tip">
-
-For schizophrenia and psychosis questions, ask:
-
-**1. Is the patient safe?** **2. Are hallucinations commanding harm?** **3. Is this a delusion I should avoid arguing with?** **4. Are symptoms positive, negative, cognitive, or affective?** **5. Is the patient having antipsychotic side effects?** **6. Does the patient need low stimulation, simple communication, or reality-based support?**
-
+<div class="cheer-banner">
+  💜 Psychosis questions are safety + communication questions. Don’t argue, don’t agree, calmly present reality. 💜
 </div>
 
 ---
 
 <div class="page-nav">
-  <a href="{{ '/mental-health/addiction.html' | relative_url }}" class="page-nav-back">← Addiction & Substance Use</a>
-  <a href="{{ '/mental-health/medications.html' | relative_url }}" class="page-nav-next">Mental Health Medications →</a>
+  <a href="{{ '/mental-health/eating-disorders.html' | relative_url }}" class="page-nav-back">← Eating Disorders</a>
+  <a href="{{ '/mental-health/addiction.html' | relative_url }}" class="page-nav-next">Addiction & Substance Use →</a>
 </div>
