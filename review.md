@@ -1,6 +1,7 @@
 ---
 layout: default
 title: My Notes
+page_type: my-notes
 ---
 
 <div id="review-page-content">

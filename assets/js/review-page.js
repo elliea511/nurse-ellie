@@ -1,654 +1,444 @@
 (function () {
-  var container = document.getElementById('review-page-content');
-  if (!container) return;
+  var root = document.getElementById('review-page-content');
+  if (!root) return;
 
-  var ANN_PREFIX  = 'ellie-annotations-';
-  var THL_PREFIX  = 'ellie-table-hl-';
-  var EDIT_KEY    = 'ellie-notes-edit-content';
-  var COLOR_ORDER = ['yellow', 'pink', 'blue', 'green'];
+  var ANN_PREFIX = 'ellie-annotations-';
+  var TABLE_PREFIX = 'ellie-table-hl-';
+  var MANUAL_KEY = 'ellie-my-notes-manual-v1';
+  var COLORS = ['yellow', 'pink', 'blue', 'green'];
 
-  // ── Collect highlights ───────────────────────────────────────────
-  var pageMap = {};
-  for (var i = 0; i < localStorage.length; i++) {
-    var key = localStorage.key(i);
-    if (!key) continue;
-    if (key.startsWith(ANN_PREFIX)) {
-      var path = key.slice(ANN_PREFIX.length);
-      var items; try { items = JSON.parse(localStorage.getItem(key)) || []; } catch (e) { continue; }
-      if (!items.length) continue;
-      if (!pageMap[path]) pageMap[path] = { items: [], tables: [] };
-      pageMap[path].items = items;
-    }
-    if (key.startsWith(THL_PREFIX)) {
-      var tpath = key.slice(THL_PREFIX.length);
-      var thlData; try { thlData = JSON.parse(localStorage.getItem(key)) || {}; } catch (e) { continue; }
-      var tables = [];
-      Object.keys(thlData).forEach(function (tid) {
-        var e = thlData[tid]; if (!e) return;
-        var c = e.color || (typeof e === 'string' ? e : null);
-        var h = e.html || null;
-        if (c && h) tables.push({ tableId: tid, color: c, html: h });
-      });
-      if (!tables.length) continue;
-      if (!pageMap[tpath]) pageMap[tpath] = { items: [], tables: [] };
-      pageMap[tpath].tables = tables;
-    }
+  var state = {
+    query: '',
+    filter: 'all',
+    notes: [],
+    selected: null,
+    editingManualId: null
+  };
+
+  function safeJson(value, fallback) {
+    try { return JSON.parse(value) || fallback; } catch (e) { return fallback; }
   }
 
-  var paths = Object.keys(pageMap).sort(function (a, b) {
-    return getPageName(a).localeCompare(getPageName(b));
-  });
-  container.innerHTML = '';
-
-  var totalHL  = paths.reduce(function (n, p) { return n + pageMap[p].items.length; }, 0);
-  var totalTbl = paths.reduce(function (n, p) { return n + pageMap[p].tables.length; }, 0);
-
-  var savedEdit = localStorage.getItem(EDIT_KEY);
-  if (savedEdit) { renderSavedMode(savedEdit); return; }
-
-  if (!paths.length) {
-    container.innerHTML =
-      '<div class="review-empty"><div class="review-empty-icon">✦</div>' +
-      '<h2>No highlights yet</h2>' +
-      '<p>Select text anywhere in your study content, choose a color, and it will save here for review.</p>' +
-      '<a class="review-empty-action" href="./all-topics.html">Browse notes →</a></div>';
-    return;
+  function manualNotes() {
+    return safeJson(localStorage.getItem(MANUAL_KEY), []);
   }
 
-  // ── Header ──────────────────────────────────────────────────────
-  var header = document.createElement('div');
-  header.className = 'review-header';
-
-  var eyebrow = document.createElement('p');
-  eyebrow.className = 'review-eyebrow';
-  eyebrow.textContent = 'Personal study board';
-  header.appendChild(eyebrow);
-
-  var h1 = document.createElement('h1');
-  h1.className = 'review-title';
-  h1.textContent = 'My Notes';
-  header.appendChild(h1);
-
-  var subtitle = document.createElement('p');
-  subtitle.className = 'review-subtitle';
-  subtitle.textContent = 'A focused review space for the content students marked as most challenging.';
-  header.appendChild(subtitle);
-
-  var stats = document.createElement('div');
-  stats.className = 'review-stats';
-  stats.innerHTML =
-    '<span><strong>' + (totalHL + totalTbl) + '</strong><small>saved items</small></span>' +
-    '<span><strong>' + paths.length + '</strong><small>source pages</small></span>' +
-    '<span><strong>' + totalHL + '</strong><small>text highlights</small></span>';
-  header.appendChild(stats);
-  container.appendChild(header);
-
-  // ── Toolbar (view mode → edit mode) ─────────────────────────────
-  var toolbar = document.createElement('div');
-  toolbar.className = 'review-toolbar';
-  container.appendChild(toolbar);
-
-  var controls = document.createElement('div');
-  controls.className = 'review-controls';
-  controls.innerHTML =
-    '<label class="review-search"><span>Search saved notes</span><input id="review-search-input" type="search" placeholder="Search by topic, page, or highlight…"></label>' +
-    '<div class="review-filter-pills" aria-label="Filter by highlight color">' +
-      '<button class="active" data-review-color="all">All</button>' +
-      '<button data-review-color="yellow">Yellow</button>' +
-      '<button data-review-color="pink">Pink</button>' +
-      '<button data-review-color="blue">Blue</button>' +
-      '<button data-review-color="green">Green</button>' +
-    '</div>';
-  container.appendChild(controls);
-
-  // ── Cards ────────────────────────────────────────────────────────
-  var cardsContainer = document.createElement('div');
-  cardsContainer.id = 'review-cards';
-  buildCards(cardsContainer);
-  container.appendChild(cardsContainer);
-  var noMatches = document.createElement('div');
-  noMatches.className = 'review-no-matches';
-  noMatches.hidden = true;
-  noMatches.textContent = 'No saved notes match that filter yet.';
-  container.appendChild(noMatches);
-  wireFilters(controls, cardsContainer, noMatches);
-
-  // ── Clear all — bottom ───────────────────────────────────────────
-  var clearBtn = document.createElement('button');
-  clearBtn.className = 'review-clear-all';
-  clearBtn.textContent = 'Clear all highlights';
-  clearBtn.addEventListener('click', function () {
-    if (!confirm('Remove all highlights across every page?')) return;
-    for (var j = localStorage.length - 1; j >= 0; j--) {
-      var k = localStorage.key(j); if (k && (k.startsWith(ANN_PREFIX) || k.startsWith(THL_PREFIX))) localStorage.removeItem(k);
-    }
-    localStorage.removeItem(EDIT_KEY);
-    container.innerHTML = '<div class="review-empty"><div class="review-empty-icon">🖊</div><h2>All cleared</h2><p>Your highlights have been removed.</p></div>';
-  });
-  container.appendChild(clearBtn);
-
-  // ── Toolbar: view mode ───────────────────────────────────────────
-  showViewBar();
-
-  function showViewBar() {
-    toolbar.innerHTML = '';
-    toolbar.className = 'review-toolbar review-toolbar-view';
-
-    var editBtn = document.createElement('button');
-    editBtn.className = 'review-toolbar-edit-btn';
-    editBtn.innerHTML = '&#9998; Edit notes';
-    editBtn.addEventListener('click', enterEditMode);
-    toolbar.appendChild(editBtn);
-
-    var pdfBtn = document.createElement('button');
-    pdfBtn.className = 'review-toolbar-pdf-btn';
-    pdfBtn.innerHTML = '&#128438; Save as PDF';
-    pdfBtn.addEventListener('click', function () { window.print(); });
-    toolbar.appendChild(pdfBtn);
+  function saveManualNotes(notes) {
+    localStorage.setItem(MANUAL_KEY, JSON.stringify(notes));
   }
 
-  // ── Toolbar: edit mode ───────────────────────────────────────────
-  var selCache = null;
-  var isEditing = false;
-
-  function saveCache() {
-    var s = window.getSelection();
-    if (s && s.rangeCount > 0 && cardsContainer.contains(s.anchorNode))
-      selCache = s.getRangeAt(0).cloneRange();
+  function titleFromPath(path) {
+    if (path === '/') return 'Home';
+    var clean = path.replace(/\.html$/, '').replace(/\/$/, '');
+    var parts = clean.split('/').filter(Boolean);
+    return (parts[parts.length - 1] || 'Study Note')
+      .replace(/-/g, ' ')
+      .replace(/\b\w/g, function (c) { return c.toUpperCase(); });
   }
 
-  function restoreAndExec(cmd, val) {
-    if (selCache) {
-      var s = window.getSelection();
-      s.removeAllRanges();
-      s.addRange(selCache);
-    }
-    document.execCommand(cmd, false, val !== undefined ? val : null);
-    saveCache();
-    updateActiveStates();
+  function pathLabel(path) {
+    if (path === '/') return 'Home';
+    return path.replace(/^\//, '').replace(/\.html$/, '').replace(/-/g, ' ');
   }
 
-  var fmtBtnEls = [];
-
-  function updateActiveStates() {
-    fmtBtnEls.forEach(function (b) {
-      if (!b.state) return;
-      var active = false;
-      try { active = document.queryCommandState(b.state); } catch (e) {}
-      b.el.classList.toggle('review-fmt-active', active);
-    });
+  function stripHtml(html) {
+    var div = document.createElement('div');
+    div.innerHTML = html || '';
+    return div.textContent || div.innerText || '';
   }
 
-  function showEditBar(onSave, onCancel) {
-    toolbar.innerHTML = '';
-    toolbar.className = 'review-toolbar review-toolbar-edit';
-    fmtBtnEls = [];
-
-    // Mode label
-    var lbl = document.createElement('span');
-    lbl.className = 'review-fmt-label';
-    lbl.textContent = '✎ Editing';
-    toolbar.appendChild(lbl);
-
-    sep(toolbar);
-
-    // Bold / Italic / Underline
-    [
-      { label: 'B', cmd: 'bold',      state: 'bold',      cls: 'rfb-bold',   title: 'Bold (Ctrl+B)' },
-      { label: 'I', cmd: 'italic',    state: 'italic',    cls: 'rfb-italic', title: 'Italic (Ctrl+I)' },
-      { label: 'U', cmd: 'underline', state: 'underline', cls: 'rfb-ul',     title: 'Underline (Ctrl+U)' },
-    ].forEach(function (b) {
-      var btn = fmtBtn(b.label, b.title, b.cls);
-      btn.addEventListener('mousedown', function (e) { e.preventDefault(); restoreAndExec(b.cmd); });
-      toolbar.appendChild(btn);
-      fmtBtnEls.push({ el: btn, state: b.state });
-    });
-
-    sep(toolbar);
-
-    // Font size select
-    var sizeWrap = document.createElement('div');
-    sizeWrap.className = 'review-fmt-size-wrap';
-    var sizeLabel = document.createElement('span');
-    sizeLabel.className = 'review-fmt-size-label';
-    sizeLabel.textContent = 'Size';
-    var sizeSelect = document.createElement('select');
-    sizeSelect.className = 'review-fmt-select';
-    sizeSelect.title = 'Font size';
-    [['', '—'], ['1', 'XS'], ['2', 'S'], ['3', 'M'], ['5', 'L'], ['6', 'XL'], ['7', 'XXL']].forEach(function (o) {
-      var opt = document.createElement('option');
-      opt.value = o[0]; opt.textContent = o[1];
-      sizeSelect.appendChild(opt);
-    });
-    sizeSelect.addEventListener('mousedown', saveCache);
-    sizeSelect.addEventListener('change', function () {
-      if (this.value) restoreAndExec('fontSize', this.value);
-      this.value = '';
-    });
-    sizeWrap.appendChild(sizeLabel);
-    sizeWrap.appendChild(sizeSelect);
-    toolbar.appendChild(sizeWrap);
-
-    // Clear format
-    var clearFmt = fmtBtn('✕ Clear', 'Clear formatting', 'rfb-clear');
-    clearFmt.addEventListener('mousedown', function (e) { e.preventDefault(); restoreAndExec('removeFormat'); });
-    toolbar.appendChild(clearFmt);
-
-    sep(toolbar);
-
-    // Save / Cancel
-    var saveBtn = document.createElement('button');
-    saveBtn.className = 'review-edit-save';
-    saveBtn.textContent = 'Save';
-    saveBtn.addEventListener('click', onSave);
-    toolbar.appendChild(saveBtn);
-
-    var cancelBtn = document.createElement('button');
-    cancelBtn.className = 'review-edit-cancel';
-    cancelBtn.textContent = 'Cancel';
-    cancelBtn.addEventListener('click', onCancel);
-    toolbar.appendChild(cancelBtn);
-
-    sep(toolbar);
-
-    // PDF in toolbar
-    var pdfBtn = document.createElement('button');
-    pdfBtn.className = 'review-toolbar-pdf-btn';
-    pdfBtn.innerHTML = '&#128438; PDF';
-    pdfBtn.addEventListener('click', function () { window.print(); });
-    toolbar.appendChild(pdfBtn);
-
-    // Listen for selectionchange to update active states
-    document.addEventListener('selectionchange', updateActiveStates);
+  function shortText(text, length) {
+    text = (text || '').replace(/\s+/g, ' ').trim();
+    if (text.length <= length) return text;
+    return text.slice(0, length - 1).trim() + '…';
   }
 
-  function fmtBtn(label, title, extraCls) {
-    var btn = document.createElement('button');
-    btn.className = 'review-fmt-btn' + (extraCls ? ' ' + extraCls : '');
-    btn.textContent = label;
-    btn.title = title || '';
-    return btn;
-  }
-
-  function sep(parent) {
-    var s = document.createElement('span');
-    s.className = 'review-fmt-sep';
-    parent.appendChild(s);
-  }
-
-  // ── Edit mode enter/exit ─────────────────────────────────────────
-  var preEditSnapshot = null;
-
-  function enterEditMode() {
-    isEditing = true;
-    preEditSnapshot = cardsContainer.innerHTML;
-    cardsContainer.contentEditable = 'true';
-    cardsContainer.classList.add('review-cards-editing');
-    cardsContainer.addEventListener('mouseup', saveCache);
-    cardsContainer.addEventListener('keyup', saveCache);
-    showEditBar(
-      function () { // save
-        localStorage.setItem(EDIT_KEY, cardsContainer.innerHTML);
-        exitEditMode();
-      },
-      function () { // cancel
-        cardsContainer.innerHTML = preEditSnapshot;
-        exitEditMode();
-      }
-    );
-    cardsContainer.focus();
-  }
-
-  function exitEditMode() {
-    isEditing = false;
-    cardsContainer.contentEditable = 'false';
-    cardsContainer.classList.remove('review-cards-editing');
-    cardsContainer.removeEventListener('mouseup', saveCache);
-    cardsContainer.removeEventListener('keyup', saveCache);
-    document.removeEventListener('selectionchange', updateActiveStates);
-    selCache = null;
-    showViewBar();
-  }
-
-  // ── Build cards ──────────────────────────────────────────────────
-  function buildCards(cardsEl) {
-    paths.forEach(function (path) {
-      var data = pageMap[path];
-      var card = document.createElement('div');
-      card.className = 'review-card';
-      card.dataset.page = getPageName(path).toLowerCase();
-
-      var pageName = getPageName(path, data);
-
-      var cardHeader = document.createElement('div');
-      cardHeader.className = 'review-card-header';
-      var titleWrap = document.createElement('div');
-      titleWrap.className = 'review-card-title-wrap';
-      var titleLink = document.createElement('a');
-      titleLink.href = path;
-      titleLink.className = 'review-card-title';
-      titleLink.textContent = pageName;
-      var sourcePath = document.createElement('span');
-      sourcePath.className = 'review-source-path';
-      sourcePath.textContent = cleanPathLabel(path);
-      var countSpan = document.createElement('span');
-      countSpan.className = 'review-card-count';
-      var total = data.items.length + data.tables.length;
-      countSpan.textContent = total + ' highlight' + (total === 1 ? '' : 's');
-      titleWrap.appendChild(titleLink);
-      titleWrap.appendChild(sourcePath);
-      cardHeader.appendChild(titleWrap);
-      cardHeader.appendChild(countSpan);
-      card.appendChild(cardHeader);
-
-      var groups = {};
-      data.items.forEach(function (item) {
-        if (!groups[item.color]) groups[item.color] = [];
-        groups[item.color].push({ type: 'text', item: item });
-      });
-      data.tables.forEach(function (entry) {
-        if (!groups[entry.color]) groups[entry.color] = [];
-        groups[entry.color].push({ type: 'table', entry: entry });
-      });
-
-      COLOR_ORDER.forEach(function (color) {
-        if (!groups[color]) return;
-        var group = document.createElement('div');
-        group.className = 'review-color-group';
-        var list = document.createElement('div');
-        list.className = 'review-hl-list';
-
-        groups[color].forEach(function (entry) {
-          var div = document.createElement('div');
-          div.className = 'review-hl-item';
-          div.dataset.color = color;
-
-          if (entry.type === 'text') {
-            var item = entry.item;
-            div.dataset.search = [
-              pageName,
-              cleanPathLabel(path),
-              item.sectionTitle || '',
-              item.text || ''
-            ].join(' ').toLowerCase();
-
-            if (item.sectionTitle) {
-              var section = document.createElement('div');
-              section.className = 'review-hl-section';
-              section.textContent = item.sectionTitle;
-              div.appendChild(section);
-            }
-
-            var wrapper = document.createElement('div');
-            wrapper.className = 'review-hl-content review-hl-content-' + color;
-            if (item.level && /^h[1-6]$/.test(item.level)) {
-              var hEl = document.createElement(item.level);
-              hEl.className = 'review-hl-heading';
-              if (item.html) hEl.innerHTML = item.html; else hEl.textContent = item.text;
-              wrapper.appendChild(hEl);
-            } else {
-              if (item.html) wrapper.innerHTML = item.html;
-              else { var m = document.createElement('mark'); m.className = 'hl hl-' + color; m.textContent = item.text; wrapper.appendChild(m); }
-            }
-            div.appendChild(wrapper);
-
-            var meta = document.createElement('div');
-            meta.className = 'review-hl-meta';
-            var jump = document.createElement('a');
-            jump.href = path + (item.uid ? '?hljump=' + encodeURIComponent(item.uid) : '');
-            jump.textContent = 'Open source';
-            meta.appendChild(jump);
-            if (item.savedAt) {
-              var when = document.createElement('span');
-              when.textContent = formatDate(item.savedAt);
-              meta.appendChild(when);
-            }
-            div.appendChild(meta);
-          } else {
-            div.dataset.search = [pageName, cleanPathLabel(path), 'table'].join(' ').toLowerCase();
-            var tWrap = document.createElement('div');
-            tWrap.className = 'review-table-wrap';
-            tWrap.dataset.color = color;
-            tWrap.innerHTML = entry.entry.html;
-            div.appendChild(tWrap);
-          }
-          list.appendChild(div);
-        });
-
-        group.appendChild(list);
-        card.appendChild(group);
-      });
-
-      var annKey = ANN_PREFIX + path;
-      var thlKey = THL_PREFIX + path;
-      var pageClear = document.createElement('button');
-      pageClear.className = 'review-page-clear';
-      pageClear.textContent = 'Clear this page';
-      pageClear.addEventListener('click', function () {
-        localStorage.removeItem(annKey);
-        localStorage.removeItem(thlKey);
-        card.remove();
-        if (!container.querySelectorAll('.review-card').length)
-          container.innerHTML = '<div class="review-empty"><div class="review-empty-icon">🖊</div><h2>All cleared</h2><p>Your highlights have been removed.</p></div>';
-      });
-      card.appendChild(pageClear);
-      cardsEl.appendChild(card);
-    });
-  }
-
-  function getPageName(path, data) {
-    var first = data && data.items && data.items[0] && data.items[0].pageTitle;
-    if (first) return first;
-    var rawName = path.replace(/\.html$/, '').replace(/\/$/, '');
-    var parts = rawName.split('/').filter(Boolean);
-    return (parts[parts.length - 1] || 'Home')
-      .replace(/-/g, ' ').replace(/\b\w/g, function (c) { return c.toUpperCase(); });
-  }
-
-  function cleanPathLabel(path) {
-    return path === '/' ? 'Home' : path.replace(/^\//, '').replace(/\.html$/, '').replace(/-/g, ' ');
-  }
-
-  function formatDate(value) {
+  function dateLabel(value) {
+    if (!value) return 'Saved note';
     var d = new Date(value);
-    if (isNaN(d.getTime())) return '';
-    return d.toLocaleDateString(undefined, { month: 'short', day: 'numeric' });
+    if (isNaN(d.getTime())) return 'Saved note';
+    return d.toLocaleDateString(undefined, { month: 'short', day: 'numeric', year: 'numeric' });
   }
 
-  function wireFilters(controlsEl, cardsEl, noMatchesEl) {
-    var input = controlsEl.querySelector('#review-search-input');
-    var buttons = Array.prototype.slice.call(controlsEl.querySelectorAll('[data-review-color]'));
-    var activeColor = 'all';
+  function newestDate(items) {
+    var dates = items.map(function (item) { return item.savedAt || item.createdAt || item.updatedAt || ''; })
+      .filter(Boolean)
+      .map(function (value) { return new Date(value).getTime(); })
+      .filter(function (time) { return !isNaN(time); });
+    if (!dates.length) return '';
+    return new Date(Math.max.apply(Math, dates)).toISOString();
+  }
 
-    function apply() {
-      var q = (input.value || '').trim().toLowerCase();
-      var visibleCards = 0;
-      cardsEl.querySelectorAll('.review-card').forEach(function (card) {
-        var visibleCount = 0;
-        card.querySelectorAll('.review-hl-item').forEach(function (item) {
-          var colorOk = activeColor === 'all' || item.dataset.color === activeColor;
-          var textOk = !q || (item.dataset.search || '').indexOf(q) !== -1 || (card.dataset.page || '').indexOf(q) !== -1;
-          var show = colorOk && textOk;
-          item.hidden = !show;
-          if (show) visibleCount++;
+  function collectHighlightNotes() {
+    var byPath = {};
+
+    for (var i = 0; i < localStorage.length; i++) {
+      var key = localStorage.key(i);
+      if (!key) continue;
+
+      if (key.indexOf(ANN_PREFIX) === 0) {
+        var path = key.slice(ANN_PREFIX.length);
+        var items = safeJson(localStorage.getItem(key), []);
+        if (!items.length) continue;
+        if (!byPath[path]) byPath[path] = { path: path, highlights: [], tables: [] };
+        byPath[path].highlights = items.map(function (item) {
+          return {
+            uid: item.uid || '',
+            color: item.color || 'yellow',
+            text: item.text || stripHtml(item.html),
+            html: item.html || '',
+            sectionTitle: item.sectionTitle || '',
+            savedAt: item.savedAt || '',
+            pageTitle: item.pageTitle || ''
+          };
         });
-        card.hidden = visibleCount === 0;
-        if (visibleCount > 0) visibleCards++;
-      });
-      if (noMatchesEl) noMatchesEl.hidden = visibleCards > 0;
-    }
-
-    input.addEventListener('input', apply);
-    buttons.forEach(function (btn) {
-      btn.addEventListener('click', function () {
-        activeColor = btn.dataset.reviewColor;
-        buttons.forEach(function (b) { b.classList.toggle('active', b === btn); });
-        apply();
-      });
-    });
-  }
-
-  // ── Saved-edit mode ──────────────────────────────────────────────
-  function renderSavedMode(html) {
-    container.innerHTML = '';
-
-    var hdr = document.createElement('div');
-    hdr.className = 'review-header';
-    var sh1 = document.createElement('h1');
-    sh1.className = 'review-title';
-    sh1.textContent = 'My Notes';
-    hdr.appendChild(sh1);
-    container.appendChild(hdr);
-
-    var sToolbar = document.createElement('div');
-    sToolbar.className = 'review-toolbar';
-    container.appendChild(sToolbar);
-
-    var sCards = document.createElement('div');
-    sCards.id = 'review-cards';
-    sCards.innerHTML = html;
-    container.appendChild(sCards);
-
-    var sClearBtn = document.createElement('button');
-    sClearBtn.className = 'review-clear-all';
-    sClearBtn.textContent = 'Clear all highlights';
-    sClearBtn.addEventListener('click', function () {
-      if (!confirm('Remove all highlights and saved edits?')) return;
-      for (var j = localStorage.length - 1; j >= 0; j--) {
-        var k = localStorage.key(j);
-        if (k && (k.startsWith(ANN_PREFIX) || k.startsWith(THL_PREFIX))) localStorage.removeItem(k);
       }
-      localStorage.removeItem(EDIT_KEY);
-      container.innerHTML = '<div class="review-empty"><div class="review-empty-icon">🖊</div><h2>All cleared</h2><p>Your highlights have been removed.</p></div>';
+
+      if (key.indexOf(TABLE_PREFIX) === 0) {
+        var tablePath = key.slice(TABLE_PREFIX.length);
+        var tableData = safeJson(localStorage.getItem(key), {});
+        var tables = [];
+        Object.keys(tableData).forEach(function (id) {
+          var entry = tableData[id];
+          if (!entry) return;
+        if (entry.html) tables.push({
+          uid: id,
+          color: entry.color || 'blue',
+          html: entry.html,
+          text: stripHtml(entry.html),
+          savedAt: entry.savedAt || '',
+          pageTitle: entry.pageTitle || ''
+        });
+        });
+        if (!tables.length) continue;
+        if (!byPath[tablePath]) byPath[tablePath] = { path: tablePath, highlights: [], tables: [] };
+        byPath[tablePath].tables = tables;
+      }
+    }
+
+    return Object.keys(byPath).map(function (path) {
+      var page = byPath[path];
+      var allItems = page.highlights.concat(page.tables);
+      var first = page.highlights[0] || page.tables[0] || {};
+      var title = first.pageTitle || titleFromPath(path);
+      var snippet = first.sectionTitle || first.text || 'Saved study content';
+      var colors = {};
+      allItems.forEach(function (item) { colors[item.color || 'yellow'] = true; });
+
+      return {
+        id: 'source:' + path,
+        type: 'source',
+        title: title,
+        category: pathLabel(path),
+        path: path,
+        date: newestDate(allItems),
+        excerpt: shortText(snippet, 150),
+        count: allItems.length,
+        colors: Object.keys(colors),
+        highlights: page.highlights,
+        tables: page.tables,
+        search: [title, pathLabel(path), snippet, allItems.map(function (i) { return i.text; }).join(' ')].join(' ').toLowerCase()
+      };
     });
-    container.appendChild(sClearBtn);
-
-    var sSelCache = null;
-    var sIsEditing = false;
-    var sFmtBtnEls = [];
-
-    function sSaveCache() {
-      var s = window.getSelection();
-      if (s && s.rangeCount > 0 && sCards.contains(s.anchorNode))
-        sSelCache = s.getRangeAt(0).cloneRange();
-    }
-    function sRestoreAndExec(cmd, val) {
-      if (sSelCache) { var s = window.getSelection(); s.removeAllRanges(); s.addRange(sSelCache); }
-      document.execCommand(cmd, false, val !== undefined ? val : null);
-      sSaveCache();
-      sUpdateActive();
-    }
-    function sUpdateActive() {
-      sFmtBtnEls.forEach(function (b) {
-        if (!b.state) return;
-        var active = false; try { active = document.queryCommandState(b.state); } catch (e) {}
-        b.el.classList.toggle('review-fmt-active', active);
-      });
-    }
-
-    function showSViewBar() {
-      sToolbar.innerHTML = '';
-      sToolbar.className = 'review-toolbar review-toolbar-view';
-      var eb = document.createElement('button');
-      eb.className = 'review-toolbar-edit-btn';
-      eb.innerHTML = '&#9998; Edit notes';
-      eb.addEventListener('click', enterSEdit);
-      sToolbar.appendChild(eb);
-      var pb = document.createElement('button');
-      pb.className = 'review-toolbar-pdf-btn';
-      pb.innerHTML = '&#128438; Save as PDF';
-      pb.addEventListener('click', function () { window.print(); });
-      sToolbar.appendChild(pb);
-      var rb = document.createElement('button');
-      rb.className = 'review-refresh-btn';
-      rb.textContent = '↺ From highlights';
-      rb.title = 'Discard edits and reload from highlights';
-      rb.addEventListener('click', function () {
-        if (!confirm('Discard your saved edits and reload from highlights?')) return;
-        localStorage.removeItem(EDIT_KEY); location.reload();
-      });
-      sToolbar.appendChild(rb);
-    }
-
-    function showSEditBar() {
-      sToolbar.innerHTML = '';
-      sToolbar.className = 'review-toolbar review-toolbar-edit';
-      sFmtBtnEls = [];
-
-      var lbl = document.createElement('span'); lbl.className = 'review-fmt-label'; lbl.textContent = '✎ Editing'; sToolbar.appendChild(lbl);
-      sSep(sToolbar);
-
-      [{ label: 'B', cmd: 'bold', state: 'bold', cls: 'rfb-bold', title: 'Bold' },
-       { label: 'I', cmd: 'italic', state: 'italic', cls: 'rfb-italic', title: 'Italic' },
-       { label: 'U', cmd: 'underline', state: 'underline', cls: 'rfb-ul', title: 'Underline' }
-      ].forEach(function (b) {
-        var btn = sFmtBtn(b.label, b.title, b.cls);
-        btn.addEventListener('mousedown', function (e) { e.preventDefault(); sRestoreAndExec(b.cmd); });
-        sToolbar.appendChild(btn);
-        sFmtBtnEls.push({ el: btn, state: b.state });
-      });
-
-      sSep(sToolbar);
-
-      var sw = document.createElement('div'); sw.className = 'review-fmt-size-wrap';
-      var sl2 = document.createElement('span'); sl2.className = 'review-fmt-size-label'; sl2.textContent = 'Size';
-      var ss = document.createElement('select'); ss.className = 'review-fmt-select';
-      [['', '—'], ['1', 'XS'], ['2', 'S'], ['3', 'M'], ['5', 'L'], ['6', 'XL'], ['7', 'XXL']].forEach(function (o) {
-        var opt = document.createElement('option'); opt.value = o[0]; opt.textContent = o[1]; ss.appendChild(opt);
-      });
-      ss.addEventListener('mousedown', sSaveCache);
-      ss.addEventListener('change', function () { if (this.value) sRestoreAndExec('fontSize', this.value); this.value = ''; });
-      sw.appendChild(sl2); sw.appendChild(ss); sToolbar.appendChild(sw);
-
-      var cf = sFmtBtn('✕ Clear', 'Clear formatting', 'rfb-clear');
-      cf.addEventListener('mousedown', function (e) { e.preventDefault(); sRestoreAndExec('removeFormat'); });
-      sToolbar.appendChild(cf);
-
-      sSep(sToolbar);
-
-      var saveB = document.createElement('button'); saveB.className = 'review-edit-save'; saveB.textContent = 'Save';
-      saveB.addEventListener('click', function () { localStorage.setItem(EDIT_KEY, sCards.innerHTML); exitSEdit(); });
-      sToolbar.appendChild(saveB);
-
-      var cancelB = document.createElement('button'); cancelB.className = 'review-edit-cancel'; cancelB.textContent = 'Cancel';
-      cancelB.addEventListener('click', function () { sCards.innerHTML = sSnap; exitSEdit(); });
-      sToolbar.appendChild(cancelB);
-
-      sSep(sToolbar);
-
-      var pb2 = document.createElement('button'); pb2.className = 'review-toolbar-pdf-btn'; pb2.innerHTML = '&#128438; PDF';
-      pb2.addEventListener('click', function () { window.print(); }); sToolbar.appendChild(pb2);
-
-      document.addEventListener('selectionchange', sUpdateActive);
-    }
-
-    function sFmtBtn(label, title, cls) {
-      var btn = document.createElement('button');
-      btn.className = 'review-fmt-btn' + (cls ? ' ' + cls : '');
-      btn.textContent = label; btn.title = title || ''; return btn;
-    }
-    function sSep(parent) { var s = document.createElement('span'); s.className = 'review-fmt-sep'; parent.appendChild(s); }
-
-    var sSnap = null;
-    function enterSEdit() {
-      sSnap = sCards.innerHTML;
-      sCards.contentEditable = 'true';
-      sCards.classList.add('review-cards-editing');
-      sCards.addEventListener('mouseup', sSaveCache);
-      sCards.addEventListener('keyup', sSaveCache);
-      showSEditBar();
-      sCards.focus();
-    }
-    function exitSEdit() {
-      sCards.contentEditable = 'false';
-      sCards.classList.remove('review-cards-editing');
-      sCards.removeEventListener('mouseup', sSaveCache);
-      sCards.removeEventListener('keyup', sSaveCache);
-      document.removeEventListener('selectionchange', sUpdateActive);
-      sSelCache = null;
-      showSViewBar();
-    }
-
-    showSViewBar();
   }
+
+  function collectManualNotes() {
+    return manualNotes().map(function (note) {
+      return {
+        id: 'manual:' + note.id,
+        type: 'manual',
+        title: note.title || 'Untitled note',
+        category: note.category || 'Personal note',
+        date: note.updatedAt || note.createdAt || '',
+        excerpt: shortText(note.body || '', 150),
+        count: 1,
+        colors: ['purple'],
+        body: note.body || '',
+        manualId: note.id,
+        search: [note.title, note.category, note.body].join(' ').toLowerCase()
+      };
+    });
+  }
+
+  function loadNotes() {
+    state.notes = collectManualNotes().concat(collectHighlightNotes()).sort(function (a, b) {
+      return (new Date(b.date || 0).getTime()) - (new Date(a.date || 0).getTime());
+    });
+  }
+
+  function totals() {
+    var highlightCards = state.notes.filter(function (n) { return n.type === 'source'; });
+    var manualCards = state.notes.filter(function (n) { return n.type === 'manual'; });
+    var savedItems = state.notes.reduce(function (sum, note) { return sum + (note.count || 1); }, 0);
+    return { cards: state.notes.length, savedItems: savedItems, sources: highlightCards.length, manual: manualCards.length };
+  }
+
+  function matches(note) {
+    var queryOk = !state.query || note.search.indexOf(state.query) !== -1;
+    var filterOk =
+      state.filter === 'all' ||
+      (state.filter === 'highlights' && note.type === 'source') ||
+      (state.filter === 'manual' && note.type === 'manual') ||
+      note.colors.indexOf(state.filter) !== -1;
+    return queryOk && filterOk;
+  }
+
+  function iconFor(note) {
+    if (note.type === 'manual') return 'N';
+    if (note.colors.indexOf('pink') !== -1) return 'P';
+    if (note.colors.indexOf('green') !== -1) return 'G';
+    if (note.colors.indexOf('blue') !== -1) return 'B';
+    return 'Y';
+  }
+
+  function escapeHtml(text) {
+    return String(text || '').replace(/[&<>"']/g, function (ch) {
+      return ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[ch];
+    });
+  }
+
+  function renderShell() {
+    var t = totals();
+    root.innerHTML =
+      '<div class="mn-shell">' +
+        '<aside class="mn-rail" aria-label="My Notes navigation">' +
+          '<div class="mn-rail-brand"><strong>My Notes</strong><span>personal review space</span></div>' +
+          '<nav class="mn-nav">' +
+            navButton('all', 'All notes', t.cards) +
+            navButton('highlights', 'Highlights', t.sources) +
+            navButton('manual', 'Written notes', t.manual) +
+            navButton('yellow', 'Need review', colorCount('yellow')) +
+            navButton('pink', 'Priority', colorCount('pink')) +
+            navButton('blue', 'Details', colorCount('blue')) +
+            navButton('green', 'Understood', colorCount('green')) +
+          '</nav>' +
+          '<div class="mn-tip"><span>Study flow</span><p>Highlight the parts that slow you down. Come back here before quizzes or clinical.</p></div>' +
+        '</aside>' +
+        '<section class="mn-main">' +
+          '<header class="mn-hero">' +
+            '<div><p class="mn-eyebrow">Study notebook</p><h1>My Notes</h1><p>Your personal space to collect, organize, and review the content that needs another pass.</p></div>' +
+            '<button class="mn-new-note" id="mn-new-note" type="button"><span>+</span> New Note</button>' +
+          '</header>' +
+          '<div class="mn-stats">' +
+            statCard(t.savedItems, 'saved items') +
+            statCard(t.sources, 'source pages') +
+            statCard(t.manual, 'written notes') +
+          '</div>' +
+          '<div class="mn-tools">' +
+            '<label class="mn-search"><span>Search</span><input id="mn-search" type="search" placeholder="Search your notes…"></label>' +
+            '<div class="mn-tool-actions"><button id="mn-print" type="button">Save as PDF</button><button id="mn-clear-all" type="button">Clear highlights</button></div>' +
+          '</div>' +
+          '<div id="mn-card-grid" class="mn-card-grid"></div>' +
+          '<div id="mn-empty" class="mn-empty" hidden><h2>No notes found</h2><p>Try a different search/filter, or highlight content from a study page.</p><a href="./all-topics.html">Browse study topics →</a></div>' +
+        '</section>' +
+      '</div>' +
+      '<dialog class="mn-dialog" id="mn-detail-dialog"><div id="mn-detail"></div><button class="mn-dialog-close" data-close-detail type="button">Close</button></dialog>' +
+      '<dialog class="mn-dialog mn-editor-dialog" id="mn-editor-dialog">' +
+        '<form method="dialog" id="mn-editor-form" class="mn-editor">' +
+          '<h2 id="mn-editor-title">New Note</h2>' +
+          '<label>Title<input id="mn-note-title" required placeholder="Example: Lithium toxicity cues"></label>' +
+          '<label>Category<input id="mn-note-category" placeholder="Example: Medications"></label>' +
+          '<label>Note<textarea id="mn-note-body" rows="8" required placeholder="Type the study note you want to remember…"></textarea></label>' +
+          '<div class="mn-editor-actions"><button type="button" data-close-editor>Cancel</button><button type="submit">Save note</button></div>' +
+        '</form>' +
+      '</dialog>';
+
+    wireShell();
+    renderCards();
+  }
+
+  function navButton(filter, label, count) {
+    return '<button type="button" data-filter="' + filter + '" class="' + (state.filter === filter ? 'active' : '') + '"><span>' + label + '</span><b>' + count + '</b></button>';
+  }
+
+  function statCard(value, label) {
+    return '<div><strong>' + value + '</strong><span>' + label + '</span></div>';
+  }
+
+  function colorCount(color) {
+    return state.notes.filter(function (note) { return note.colors.indexOf(color) !== -1; }).length;
+  }
+
+  function wireShell() {
+    root.querySelectorAll('[data-filter]').forEach(function (button) {
+      button.addEventListener('click', function () {
+        state.filter = button.dataset.filter;
+        root.querySelectorAll('[data-filter]').forEach(function (btn) {
+          btn.classList.toggle('active', btn.dataset.filter === state.filter);
+        });
+        renderCards();
+      });
+    });
+
+    root.querySelector('#mn-search').addEventListener('input', function (event) {
+      state.query = event.target.value.trim().toLowerCase();
+      renderCards();
+    });
+
+    root.querySelector('#mn-print').addEventListener('click', function () { window.print(); });
+    root.querySelector('#mn-clear-all').addEventListener('click', clearHighlights);
+    root.querySelector('#mn-new-note').addEventListener('click', function () { openEditor(); });
+
+    root.querySelector('[data-close-detail]').addEventListener('click', function () {
+      root.querySelector('#mn-detail-dialog').close();
+    });
+    root.querySelector('[data-close-editor]').addEventListener('click', function () {
+      root.querySelector('#mn-editor-dialog').close();
+    });
+    root.querySelector('#mn-editor-form').addEventListener('submit', saveManualNote);
+  }
+
+  function renderCards() {
+    var grid = root.querySelector('#mn-card-grid');
+    var empty = root.querySelector('#mn-empty');
+    if (!grid || !empty) return;
+
+    var visible = state.notes.filter(matches);
+    grid.innerHTML = visible.map(cardMarkup).join('');
+    empty.hidden = visible.length > 0;
+
+    grid.querySelectorAll('[data-note-id]').forEach(function (card) {
+      card.addEventListener('click', function () { openDetail(card.dataset.noteId); });
+      card.addEventListener('keydown', function (event) {
+        if (event.key === 'Enter' || event.key === ' ') {
+          event.preventDefault();
+          openDetail(card.dataset.noteId);
+        }
+      });
+    });
+  }
+
+  function cardMarkup(note) {
+    var tone = note.type === 'manual' ? 'purple' : (note.colors[0] || 'yellow');
+    return '<article class="mn-note-card mn-tone-' + tone + '" data-note-id="' + escapeHtml(note.id) + '" tabindex="0">' +
+      '<div class="mn-card-icon">' + iconFor(note) + '</div>' +
+      '<div class="mn-card-body">' +
+        '<div class="mn-card-top"><h2>' + escapeHtml(note.title) + '</h2><span>' + escapeHtml(dateLabel(note.date)) + '</span></div>' +
+        '<p>' + escapeHtml(note.excerpt || 'Open this note to review saved content.') + '</p>' +
+        '<div class="mn-card-footer"><span>' + escapeHtml(note.category) + '</span><b>' + note.count + ' item' + (note.count === 1 ? '' : 's') + '</b></div>' +
+      '</div>' +
+    '</article>';
+  }
+
+  function openDetail(id) {
+    var note = state.notes.filter(function (n) { return n.id === id; })[0];
+    if (!note) return;
+    var detail = root.querySelector('#mn-detail');
+    var dialog = root.querySelector('#mn-detail-dialog');
+
+    if (note.type === 'manual') {
+      detail.innerHTML =
+        '<header class="mn-detail-head"><span>Written note</span><h2>' + escapeHtml(note.title) + '</h2><p>' + escapeHtml(note.category) + ' · ' + escapeHtml(dateLabel(note.date)) + '</p></header>' +
+        '<div class="mn-detail-body mn-manual-body">' + escapeHtml(note.body).replace(/\n/g, '<br>') + '</div>' +
+        '<div class="mn-detail-actions"><button type="button" data-edit-manual="' + escapeHtml(note.manualId) + '">Edit note</button><button type="button" data-delete-manual="' + escapeHtml(note.manualId) + '">Delete note</button></div>';
+      detail.querySelector('[data-edit-manual]').addEventListener('click', function () { openEditor(note); });
+      detail.querySelector('[data-delete-manual]').addEventListener('click', function () { deleteManual(note.manualId); });
+    } else {
+      var entries = note.highlights.map(function (item) { return detailHighlight(note, item); })
+        .concat(note.tables.map(function (item) { return detailTable(item); })).join('');
+      detail.innerHTML =
+        '<header class="mn-detail-head"><span>Saved highlights</span><h2>' + escapeHtml(note.title) + '</h2><p>' + escapeHtml(note.category) + ' · ' + note.count + ' saved item' + (note.count === 1 ? '' : 's') + '</p></header>' +
+        '<div class="mn-detail-body">' + entries + '</div>' +
+        '<div class="mn-detail-actions"><a href="' + escapeHtml(note.path) + '">Open source page</a><button type="button" data-delete-source>Clear this source</button></div>';
+      detail.querySelector('[data-delete-source]').addEventListener('click', function () { deleteSource(note.path); });
+    }
+
+    if (typeof dialog.showModal === 'function') dialog.showModal();
+    else dialog.setAttribute('open', 'open');
+  }
+
+  function detailHighlight(note, item) {
+    var href = note.path + (item.uid ? '?hljump=' + encodeURIComponent(item.uid) : '');
+    return '<section class="mn-detail-item mn-tone-' + (item.color || 'yellow') + '">' +
+      (item.sectionTitle ? '<small>' + escapeHtml(item.sectionTitle) + '</small>' : '') +
+      '<div>' + (item.html || escapeHtml(item.text)) + '</div>' +
+      '<a href="' + escapeHtml(href) + '">Open exact spot</a>' +
+    '</section>';
+  }
+
+  function detailTable(item) {
+    return '<section class="mn-detail-item mn-tone-' + (item.color || 'blue') + '">' +
+      '<small>Saved table</small><div class="mn-table-wrap">' + item.html + '</div>' +
+    '</section>';
+  }
+
+  function openEditor(note) {
+    var dialog = root.querySelector('#mn-editor-dialog');
+    state.editingManualId = note && note.manualId ? note.manualId : null;
+    root.querySelector('#mn-editor-title').textContent = state.editingManualId ? 'Edit Note' : 'New Note';
+    root.querySelector('#mn-note-title').value = note ? note.title : '';
+    root.querySelector('#mn-note-category').value = note ? note.category : '';
+    root.querySelector('#mn-note-body').value = note ? note.body : '';
+    if (typeof dialog.showModal === 'function') dialog.showModal();
+    else dialog.setAttribute('open', 'open');
+  }
+
+  function saveManualNote(event) {
+    event.preventDefault();
+    var title = root.querySelector('#mn-note-title').value.trim();
+    var category = root.querySelector('#mn-note-category').value.trim();
+    var body = root.querySelector('#mn-note-body').value.trim();
+    if (!title || !body) return;
+
+    var notes = manualNotes();
+    if (state.editingManualId) {
+      notes = notes.map(function (note) {
+        if (note.id !== state.editingManualId) return note;
+        return {
+          id: note.id,
+          title: title,
+          category: category || 'Personal note',
+          body: body,
+          createdAt: note.createdAt || new Date().toISOString(),
+          updatedAt: new Date().toISOString()
+        };
+      });
+    } else {
+      notes.unshift({
+        id: Date.now().toString(36) + Math.random().toString(36).slice(2, 7),
+        title: title,
+        category: category || 'Personal note',
+        body: body,
+        createdAt: new Date().toISOString(),
+        updatedAt: new Date().toISOString()
+      });
+    }
+    saveManualNotes(notes);
+    state.editingManualId = null;
+    root.querySelector('#mn-editor-dialog').close();
+    var detailDialog = root.querySelector('#mn-detail-dialog');
+    if (detailDialog && detailDialog.open) detailDialog.close();
+    loadNotes();
+    renderShell();
+  }
+
+  function deleteManual(id) {
+    if (!confirm('Delete this written note?')) return;
+    saveManualNotes(manualNotes().filter(function (note) { return note.id !== id; }));
+    root.querySelector('#mn-detail-dialog').close();
+    loadNotes();
+    renderShell();
+  }
+
+  function deleteSource(path) {
+    if (!confirm('Remove saved highlights from this source page?')) return;
+    localStorage.removeItem(ANN_PREFIX + path);
+    localStorage.removeItem(TABLE_PREFIX + path);
+    root.querySelector('#mn-detail-dialog').close();
+    loadNotes();
+    renderShell();
+  }
+
+  function clearHighlights() {
+    if (!confirm('Clear all saved highlights? Written notes will stay.')) return;
+    for (var i = localStorage.length - 1; i >= 0; i--) {
+      var key = localStorage.key(i);
+      if (key && (key.indexOf(ANN_PREFIX) === 0 || key.indexOf(TABLE_PREFIX) === 0)) localStorage.removeItem(key);
+    }
+    loadNotes();
+    renderShell();
+  }
+
+  loadNotes();
+  renderShell();
 })();

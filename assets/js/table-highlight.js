@@ -1,10 +1,7 @@
 (function () {
   var content = document.querySelector('.main-content');
   if (!content) return;
-
-  // Disabled on Mental Health pages: the card layout controls its own
-  // table formatting, and the highlight strip interferes with it.
-  if (document.body.getAttribute('data-section') === 'mental-health') return;
+  if (/\/review(\.html)?\/?$/.test(window.location.pathname)) return;
 
   var KEY = 'ellie-table-hl-' + window.location.pathname;
   var COLORS = ['yellow', 'pink', 'blue', 'green'];
@@ -30,11 +27,13 @@
 
     var strip = document.createElement('div');
     strip.className = 'thl-strip';
+    strip.setAttribute('aria-label', 'Save this table to My Notes');
 
     COLORS.forEach(function (color) {
       var dot = document.createElement('button');
       dot.className = 'thl-dot thl-dot-' + color;
-      dot.title = color;
+      dot.title = 'Save table as ' + color;
+      dot.setAttribute('aria-label', 'Save table as ' + color);
       dot.addEventListener('click', function () {
         var entry = saved[tableId];
         var current = entry && entry.color ? entry.color : (typeof entry === 'string' ? entry : null);
@@ -48,7 +47,12 @@
             while (m.firstChild) p.insertBefore(m.firstChild, m);
             p.removeChild(m);
           });
-          saved[tableId] = { color: next, html: clone.outerHTML };
+          saved[tableId] = {
+            color: next,
+            html: clone.outerHTML,
+            savedAt: new Date().toISOString(),
+            pageTitle: pageTitle()
+          };
         } else {
           applyColor(table, strip, null);
           delete saved[tableId];
@@ -60,7 +64,8 @@
 
     var clearDot = document.createElement('button');
     clearDot.className = 'thl-dot thl-dot-clear';
-    clearDot.title = 'clear';
+    clearDot.title = 'Remove saved table';
+    clearDot.setAttribute('aria-label', 'Remove saved table');
     clearDot.textContent = '✕';
     clearDot.addEventListener('click', function () {
       applyColor(table, strip, null);
@@ -89,5 +94,10 @@
     Array.from(strip.querySelectorAll('.thl-dot')).forEach(function (d) {
       d.classList.toggle('thl-active', d.title === color);
     });
+  }
+
+  function pageTitle() {
+    var heading = content.querySelector('h1');
+    return (heading ? heading.textContent : document.title).replace(/\s+\|.*$/, '').trim() || 'Study page';
   }
 })();
