@@ -42,7 +42,7 @@ body.prototype {
 /* Prototype homepage */
 .prototype-topbar {
   min-height: 92px;
-  padding: 16px max(5vw, 72px) 16px max(10vw, 150px);
+  padding: 16px max(5vw, 72px);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -380,7 +380,7 @@ body.prototype {
 .prototype-dark .main-content tr:nth-child(even) td, .prototype-dark .main-content tr:nth-child(odd) td { background:#211b29 !important; color:#eee !important; }
 
 @media (max-width: 1000px) {
-  .prototype-topbar { padding-left: 145px; padding-right: 24px; }
+  .prototype-topbar { padding-left: 24px; padding-right: 24px; }
   .prototype-hero { grid-template-columns: 1fr; padding-top: 58px; }
   .hero-copy { max-width: 650px; }
   .study-map, .body-map { width: min(720px,100%); margin: 0 auto; }
@@ -392,7 +392,7 @@ body.prototype {
 @media (max-width: 640px) {
   .prototype .sidebar-toggle-button { top: 14px !important; left: 14px !important; }
   .prototype .sidebar-toggle-button span { display: none; }
-  .prototype-topbar { min-height: 72px; padding: 10px 12px 10px 66px; }
+  .prototype-topbar { min-height: 72px; padding: 10px 12px; }
   .prototype-brand strong { font-size: .77rem; }
   .prototype-brand small { display: none; }
   .brand-mark { width: 34px; height: 34px; }
