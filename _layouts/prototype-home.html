@@ -12,12 +12,6 @@
   <meta name="base-url" content="{{ '/' | relative_url | remove_last: '/' }}">
 </head>
 <body class="prototype prototype-home">
-  <input type="checkbox" id="sidebar-toggle" class="sidebar-toggle-checkbox">
-  <label for="sidebar-toggle" class="sidebar-toggle-button" aria-label="Open study menu">☰ <span>Study Menu</span></label>
-  <label for="sidebar-toggle" class="sidebar-overlay"></label>
-
-  {% include sidebar.html %}
-
   <header class="prototype-topbar">
     <a class="prototype-brand" href="{{ '/' | relative_url }}" aria-label="Ellie's Nursing Notes home">
       <span class="brand-mark">♡</span>
