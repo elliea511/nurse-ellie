@@ -1,5 +1,11 @@
 (function () {
   var COLORS = ['yellow', 'pink', 'blue', 'green'];
+  var COLOR_MEANINGS = {
+    yellow: 'Need review',
+    pink: 'Priority',
+    blue: 'Details',
+    green: 'Understood'
+  };
   if (/\/review(\.html)?\/?$/.test(window.location.pathname)) return;
   var KEY = 'ellie-annotations-' + window.location.pathname;
   var content = document.querySelector('.main-content') || document.querySelector('.prototype-home main') || document.querySelector('main');
@@ -15,7 +21,7 @@
   toolbar.innerHTML =
     '<span class="hl-toolbar-label">Save to My Notes</span>' +
     COLORS.map(function (c) {
-      return '<button class="hl-swatch hl-' + c + '" data-color="' + c + '" title="Highlight ' + c + '" aria-label="Highlight ' + c + '"></button>';
+      return '<button class="hl-swatch hl-' + c + '" data-color="' + c + '" title="' + COLOR_MEANINGS[c] + '" aria-label="' + COLOR_MEANINGS[c] + '"></button>';
     }).join('') +
     '<button class="hl-clear" title="Remove highlight" aria-label="Remove highlight">✕</button>';
   document.body.appendChild(toolbar);

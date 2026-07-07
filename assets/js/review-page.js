@@ -212,6 +212,13 @@
             navButton('blue', 'Details', colorCount('blue')) +
             navButton('green', 'Understood', colorCount('green')) +
           '</nav>' +
+          '<section class="mn-legend" aria-label="Highlight color meanings">' +
+            '<h2>Color key</h2>' +
+            '<div><span class="mn-dot mn-dot-yellow"></span><p><strong>Yellow</strong><small>Need review</small></p></div>' +
+            '<div><span class="mn-dot mn-dot-pink"></span><p><strong>Pink</strong><small>Priority / testable</small></p></div>' +
+            '<div><span class="mn-dot mn-dot-blue"></span><p><strong>Blue</strong><small>Details / definitions</small></p></div>' +
+            '<div><span class="mn-dot mn-dot-green"></span><p><strong>Green</strong><small>Understood</small></p></div>' +
+          '</section>' +
           '<div class="mn-tip"><span>Study flow</span><p>Highlight the parts that slow you down. Come back here before quizzes or clinical.</p></div>' +
         '</aside>' +
         '<section class="mn-main">' +
@@ -230,6 +237,7 @@
           '</div>' +
           '<div id="mn-card-grid" class="mn-card-grid"></div>' +
           '<div id="mn-empty" class="mn-empty" hidden><h2>No notes found</h2><p>Try a different search/filter, or highlight content from a study page.</p><a href="./all-topics.html">Browse study topics →</a></div>' +
+          '<section id="mn-print-packet" class="mn-print-packet" aria-label="Printable My Notes packet"></section>' +
         '</section>' +
       '</div>' +
       '<dialog class="mn-dialog" id="mn-detail-dialog"><div id="mn-detail"></div><button class="mn-dialog-close" data-close-detail type="button">Close</button></dialog>' +
@@ -245,6 +253,7 @@
 
     wireShell();
     renderCards();
+    renderPrintPacket();
   }
 
   function navButton(filter, label, count) {
@@ -296,6 +305,7 @@
     var visible = state.notes.filter(matches);
     grid.innerHTML = visible.map(cardMarkup).join('');
     empty.hidden = visible.length > 0;
+    renderPrintPacket();
 
     grid.querySelectorAll('[data-note-id]').forEach(function (card) {
       card.addEventListener('click', function () { openDetail(card.dataset.noteId); });
@@ -317,6 +327,53 @@
         '<p>' + escapeHtml(note.excerpt || 'Open this note to review saved content.') + '</p>' +
         '<div class="mn-card-footer"><span>' + escapeHtml(note.category) + '</span><b>' + note.count + ' item' + (note.count === 1 ? '' : 's') + '</b></div>' +
       '</div>' +
+    '</article>';
+  }
+
+  function renderPrintPacket() {
+    var packet = root.querySelector('#mn-print-packet');
+    if (!packet) return;
+    var visible = state.notes.filter(matches);
+    var printedAt = new Date().toLocaleDateString(undefined, { month: 'long', day: 'numeric', year: 'numeric' });
+    var itemCount = visible.reduce(function (sum, note) { return sum + (note.count || 1); }, 0);
+
+    packet.innerHTML =
+      '<header class="mn-print-header">' +
+        '<p>Nursing Study Notes</p>' +
+        '<h1>My Notes Review Packet</h1>' +
+        '<span>Created ' + escapeHtml(printedAt) + ' · ' + visible.length + ' note card' + (visible.length === 1 ? '' : 's') + ' · ' + itemCount + ' saved item' + (itemCount === 1 ? '' : 's') + '</span>' +
+      '</header>' +
+      '<div class="mn-print-legend">' +
+        '<span><b class="mn-print-dot mn-print-dot-yellow"></b>Need review</span>' +
+        '<span><b class="mn-print-dot mn-print-dot-pink"></b>Priority / testable</span>' +
+        '<span><b class="mn-print-dot mn-print-dot-blue"></b>Details / definitions</span>' +
+        '<span><b class="mn-print-dot mn-print-dot-green"></b>Understood</span>' +
+      '</div>' +
+      (visible.length ? visible.map(printNoteMarkup).join('') : '<p class="mn-print-empty">No notes matched the current search/filter.</p>');
+  }
+
+  function printNoteMarkup(note) {
+    if (note.type === 'manual') {
+      return '<article class="mn-print-note">' +
+        '<header><p>Written note · ' + escapeHtml(note.category) + '</p><h2>' + escapeHtml(note.title) + '</h2><span>' + escapeHtml(dateLabel(note.date)) + '</span></header>' +
+        '<div class="mn-print-body">' + escapeHtml(note.body).replace(/\n/g, '<br>') + '</div>' +
+      '</article>';
+    }
+
+    var items = note.highlights.map(function (item) {
+      return '<section class="mn-print-item mn-print-' + (item.color || 'yellow') + '">' +
+        (item.sectionTitle ? '<small>' + escapeHtml(item.sectionTitle) + '</small>' : '') +
+        '<div>' + (item.html || escapeHtml(item.text)) + '</div>' +
+      '</section>';
+    }).concat(note.tables.map(function (item) {
+      return '<section class="mn-print-item mn-print-' + (item.color || 'blue') + '">' +
+        '<small>Saved table</small><div class="mn-print-table">' + item.html + '</div>' +
+      '</section>';
+    })).join('');
+
+    return '<article class="mn-print-note">' +
+      '<header><p>Saved highlights · ' + escapeHtml(note.category) + '</p><h2>' + escapeHtml(note.title) + '</h2><span>' + note.count + ' saved item' + (note.count === 1 ? '' : 's') + '</span></header>' +
+      items +
     '</article>';
   }
 
