@@ -2158,22 +2158,34 @@ mark.hl-green  { background: rgba(100, 220, 140, 0.42) !important; }
   position: absolute !important;
   display: none !important;
   align-items: center !important;
-  gap: 5px !important;
-  background: white !important;
-  border: 1px solid var(--border) !important;
+  gap: 7px !important;
+  background: rgba(255, 255, 255, 0.96) !important;
+  border: 1px solid #e3d8f2 !important;
   border-radius: 999px !important;
-  padding: 5px 10px !important;
-  box-shadow: 0 4px 16px rgba(0,0,0,0.14) !important;
+  padding: 7px 10px !important;
+  box-shadow: 0 12px 34px rgba(52, 39, 91, 0.16) !important;
   z-index: 9999 !important;
+  backdrop-filter: blur(10px) !important;
 }
 
 #hl-toolbar.visible { display: flex !important; }
 
+.hl-toolbar-label {
+  padding: 0 4px 0 2px !important;
+  color: #5b438b !important;
+  font-size: 0.68rem !important;
+  font-weight: 900 !important;
+  letter-spacing: 0.06em !important;
+  text-transform: uppercase !important;
+  white-space: nowrap !important;
+}
+
 .hl-swatch {
-  width: 20px !important;
-  height: 20px !important;
+  width: 22px !important;
+  height: 22px !important;
   border-radius: 50% !important;
-  border: 1.5px solid rgba(0,0,0,0.12) !important;
+  border: 2px solid #fff !important;
+  box-shadow: 0 0 0 1px rgba(70, 54, 116, 0.14) !important;
   cursor: pointer !important;
   transition: transform 0.1s !important;
   padding: 0 !important;
@@ -2186,12 +2198,17 @@ mark.hl-green  { background: rgba(100, 220, 140, 0.42) !important; }
 .hl-swatch.hl-green  { background: rgba(100, 220, 140, 0.75) !important; }
 
 .hl-clear {
-  background: none !important;
-  border: none !important;
+  width: 24px !important;
+  height: 24px !important;
+  display: inline-grid !important;
+  place-items: center !important;
+  background: #faf7ff !important;
+  border: 1px solid #e8def5 !important;
+  border-radius: 999px !important;
   cursor: pointer !important;
   font-size: 0.8rem !important;
-  color: var(--muted) !important;
-  padding: 0 2px !important;
+  color: #8a789d !important;
+  padding: 0 !important;
   line-height: 1 !important;
 }
 
@@ -3285,6 +3302,302 @@ a.video-preview-card:hover .play-button {
 .review-hl-item a,
 .review-hl-item mark {
   white-space: pre-wrap !important;
+}
+
+/* ── My Notes refresh: softer dashboard style ──────────────────── */
+#review-page-content {
+  max-width: 1120px !important;
+  padding: 0.75rem 0 2.5rem !important;
+}
+
+.review-header {
+  padding: 1.45rem 1.55rem !important;
+  margin-bottom: 1rem !important;
+  border: 1px solid #ebe3f6 !important;
+  border-radius: 26px !important;
+  background:
+    radial-gradient(circle at top right, rgba(255, 220, 235, 0.72), transparent 34%),
+    linear-gradient(135deg, #fff 20%, #fbf8ff 100%) !important;
+  box-shadow: 0 14px 36px rgba(48, 37, 84, 0.07) !important;
+}
+
+.review-eyebrow {
+  margin: 0 0 0.35rem !important;
+  color: #7958bd !important;
+  font-size: 0.72rem !important;
+  font-weight: 900 !important;
+  letter-spacing: 0.12em !important;
+  text-transform: uppercase !important;
+}
+
+.review-title {
+  color: #12194f !important;
+  font-family: "Plus Jakarta Sans", "Nunito", sans-serif !important;
+  font-size: clamp(2.25rem, 5vw, 3.35rem) !important;
+  letter-spacing: -0.055em !important;
+}
+
+.review-subtitle {
+  max-width: 640px !important;
+  color: #68708c !important;
+  font-size: 0.98rem !important;
+  line-height: 1.55 !important;
+}
+
+.review-stats {
+  display: grid !important;
+  grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+  gap: 0.65rem !important;
+  margin-top: 1.15rem !important;
+}
+
+.review-stats span {
+  display: grid !important;
+  gap: 0.18rem !important;
+  padding: 0.75rem 0.85rem !important;
+  border: 1px solid #e7def4 !important;
+  border-radius: 18px !important;
+  background: rgba(255, 255, 255, 0.72) !important;
+}
+
+.review-stats strong {
+  color: #6740b7 !important;
+  font-size: 1.55rem !important;
+  line-height: 1 !important;
+}
+
+.review-stats small {
+  color: #77708d !important;
+  font-size: 0.7rem !important;
+  font-weight: 900 !important;
+  letter-spacing: 0.08em !important;
+  text-transform: uppercase !important;
+}
+
+.review-controls {
+  display: grid !important;
+  grid-template-columns: minmax(260px, 1fr) auto !important;
+  gap: 0.75rem !important;
+  align-items: end !important;
+  margin: 0 0 1rem !important;
+  padding: 0.9rem !important;
+  border: 1px solid #eee8f6 !important;
+  border-radius: 20px !important;
+  background: #fff !important;
+  box-shadow: 0 10px 28px rgba(48, 37, 84, 0.045) !important;
+}
+
+.review-search {
+  display: grid !important;
+  gap: 0.35rem !important;
+}
+
+.review-search span {
+  color: #5f4a88 !important;
+  font-size: 0.72rem !important;
+  font-weight: 900 !important;
+  letter-spacing: 0.08em !important;
+  text-transform: uppercase !important;
+}
+
+.review-search input {
+  width: 100% !important;
+  min-height: 42px !important;
+  padding: 0.7rem 0.9rem !important;
+  border: 1px solid #ded6eb !important;
+  border-radius: 14px !important;
+  background: #fbfaff !important;
+  color: #172044 !important;
+  font: inherit !important;
+}
+
+.review-search input:focus {
+  outline: none !important;
+  border-color: #9e82d8 !important;
+  box-shadow: 0 0 0 3px rgba(126, 94, 196, 0.14) !important;
+}
+
+.review-filter-pills {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 0.45rem !important;
+  justify-content: flex-end !important;
+}
+
+.review-filter-pills button {
+  min-height: 36px !important;
+  padding: 0.5rem 0.75rem !important;
+  border: 1px solid #e5ddec !important;
+  border-radius: 999px !important;
+  background: #fff !important;
+  color: #4d3f6e !important;
+  cursor: pointer !important;
+  font: inherit !important;
+  font-size: 0.78rem !important;
+  font-weight: 900 !important;
+}
+
+.review-filter-pills button.active,
+.review-filter-pills button:hover {
+  border-color: #b99ee6 !important;
+  background: #f4effd !important;
+  color: #5c36a6 !important;
+}
+
+.review-toolbar-view {
+  justify-content: flex-end !important;
+  gap: 0.5rem !important;
+  margin: 0 0 0.8rem !important;
+  padding: 0 !important;
+  border: 0 !important;
+}
+
+.review-card {
+  border: 1px solid #ebe6f2 !important;
+  border-radius: 24px !important;
+  padding: 1.05rem !important;
+  box-shadow: 0 12px 34px rgba(48, 37, 84, 0.055) !important;
+}
+
+.review-card-header {
+  align-items: flex-start !important;
+  gap: 1rem !important;
+  padding-bottom: 0.8rem !important;
+  border-bottom-color: #f0ebf6 !important;
+}
+
+.review-card-title-wrap {
+  display: grid !important;
+  gap: 0.2rem !important;
+}
+
+.review-card-title {
+  color: #141b52 !important;
+  font-family: "Plus Jakarta Sans", "Nunito", sans-serif !important;
+  font-size: 1.15rem !important;
+}
+
+.review-source-path {
+  color: #8a87a0 !important;
+  font-size: 0.74rem !important;
+  font-weight: 700 !important;
+  text-transform: capitalize !important;
+}
+
+.review-card-count {
+  flex: 0 0 auto !important;
+  background: #f5efff !important;
+  color: #6d4cb7 !important;
+  font-weight: 900 !important;
+}
+
+.review-hl-list {
+  gap: 0.7rem !important;
+}
+
+.review-hl-item {
+  padding: 0.75rem !important;
+  border: 1px solid #f0ebf6 !important;
+  border-radius: 18px !important;
+  background: #fdfcff !important;
+}
+
+.review-hl-section {
+  margin-bottom: 0.45rem !important;
+  color: #6d4cb7 !important;
+  font-size: 0.72rem !important;
+  font-weight: 900 !important;
+  letter-spacing: 0.07em !important;
+  text-transform: uppercase !important;
+}
+
+.review-hl-content {
+  border-radius: 14px !important;
+  border-left-width: 5px !important;
+  padding: 0.68rem 0.85rem !important;
+}
+
+.review-hl-meta {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 0.65rem !important;
+  align-items: center !important;
+  margin-top: 0.5rem !important;
+  color: #9691a8 !important;
+  font-size: 0.72rem !important;
+  font-weight: 800 !important;
+}
+
+.review-hl-meta a {
+  color: #6a45bb !important;
+  text-decoration: none !important;
+}
+
+.review-hl-meta a:hover {
+  text-decoration: underline !important;
+}
+
+.review-page-clear,
+.review-clear-all {
+  border-radius: 999px !important;
+}
+
+.review-empty {
+  max-width: 620px !important;
+  margin: 2rem auto !important;
+  padding: 3rem 2rem !important;
+  border: 1px solid #ebe3f6 !important;
+  border-radius: 26px !important;
+  background: linear-gradient(135deg, #fff, #fbf8ff) !important;
+  color: #6f6a82 !important;
+  box-shadow: 0 14px 36px rgba(48, 37, 84, 0.07) !important;
+}
+
+.review-empty-icon {
+  color: #7b56c8 !important;
+}
+
+.review-empty h2 {
+  color: #12194f !important;
+  font-family: "Plus Jakarta Sans", "Nunito", sans-serif !important;
+  font-size: 1.45rem !important;
+}
+
+.review-empty p {
+  color: #72718a !important;
+}
+
+.review-empty-action {
+  display: inline-flex !important;
+  margin-top: 1rem !important;
+  padding: 0.7rem 1rem !important;
+  border-radius: 999px !important;
+  background: linear-gradient(135deg, #8060bf, #f36f9a) !important;
+  color: #fff !important;
+  font-weight: 900 !important;
+  text-decoration: none !important;
+}
+
+.review-no-matches {
+  margin: 1rem 0 !important;
+  padding: 1.2rem !important;
+  border: 1px dashed #d9cceb !important;
+  border-radius: 18px !important;
+  background: #fbf8ff !important;
+  color: #766b8c !important;
+  font-weight: 800 !important;
+  text-align: center !important;
+}
+
+@media (max-width: 760px) {
+  .review-stats,
+  .review-controls {
+    grid-template-columns: 1fr !important;
+  }
+
+  .review-filter-pills {
+    justify-content: flex-start !important;
+  }
 }
 
 /* ── Quiz Mode Selection ───────────────────────────────────────── */

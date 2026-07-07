@@ -35,7 +35,9 @@
     }
   }
 
-  var paths = Object.keys(pageMap);
+  var paths = Object.keys(pageMap).sort(function (a, b) {
+    return getPageName(a).localeCompare(getPageName(b));
+  });
   container.innerHTML = '';
 
   var totalHL  = paths.reduce(function (n, p) { return n + pageMap[p].items.length; }, 0);
@@ -46,15 +48,21 @@
 
   if (!paths.length) {
     container.innerHTML =
-      '<div class="review-empty"><div class="review-empty-icon">🖊</div>' +
+      '<div class="review-empty"><div class="review-empty-icon">✦</div>' +
       '<h2>No highlights yet</h2>' +
-      '<p>Go to any notes page, select text, and choose a highlight color.<br>Everything you highlight will appear here.</p></div>';
+      '<p>Select text anywhere in your study content, choose a color, and it will save here for review.</p>' +
+      '<a class="review-empty-action" href="./all-topics.html">Browse notes →</a></div>';
     return;
   }
 
   // ── Header ──────────────────────────────────────────────────────
   var header = document.createElement('div');
   header.className = 'review-header';
+
+  var eyebrow = document.createElement('p');
+  eyebrow.className = 'review-eyebrow';
+  eyebrow.textContent = 'Personal study board';
+  header.appendChild(eyebrow);
 
   var h1 = document.createElement('h1');
   h1.className = 'review-title';
@@ -63,11 +71,16 @@
 
   var subtitle = document.createElement('p');
   subtitle.className = 'review-subtitle';
-  subtitle.textContent =
-    totalHL + ' text highlight' + (totalHL === 1 ? '' : 's') +
-    (totalTbl ? ' · ' + totalTbl + ' table' + (totalTbl === 1 ? '' : 's') : '') +
-    ' across ' + paths.length + ' page' + (paths.length === 1 ? '' : 's');
+  subtitle.textContent = 'A focused review space for the content students marked as most challenging.';
   header.appendChild(subtitle);
+
+  var stats = document.createElement('div');
+  stats.className = 'review-stats';
+  stats.innerHTML =
+    '<span><strong>' + (totalHL + totalTbl) + '</strong><small>saved items</small></span>' +
+    '<span><strong>' + paths.length + '</strong><small>source pages</small></span>' +
+    '<span><strong>' + totalHL + '</strong><small>text highlights</small></span>';
+  header.appendChild(stats);
   container.appendChild(header);
 
   // ── Toolbar (view mode → edit mode) ─────────────────────────────
@@ -75,11 +88,30 @@
   toolbar.className = 'review-toolbar';
   container.appendChild(toolbar);
 
+  var controls = document.createElement('div');
+  controls.className = 'review-controls';
+  controls.innerHTML =
+    '<label class="review-search"><span>Search saved notes</span><input id="review-search-input" type="search" placeholder="Search by topic, page, or highlight…"></label>' +
+    '<div class="review-filter-pills" aria-label="Filter by highlight color">' +
+      '<button class="active" data-review-color="all">All</button>' +
+      '<button data-review-color="yellow">Yellow</button>' +
+      '<button data-review-color="pink">Pink</button>' +
+      '<button data-review-color="blue">Blue</button>' +
+      '<button data-review-color="green">Green</button>' +
+    '</div>';
+  container.appendChild(controls);
+
   // ── Cards ────────────────────────────────────────────────────────
   var cardsContainer = document.createElement('div');
   cardsContainer.id = 'review-cards';
   buildCards(cardsContainer);
   container.appendChild(cardsContainer);
+  var noMatches = document.createElement('div');
+  noMatches.className = 'review-no-matches';
+  noMatches.hidden = true;
+  noMatches.textContent = 'No saved notes match that filter yet.';
+  container.appendChild(noMatches);
+  wireFilters(controls, cardsContainer, noMatches);
 
   // ── Clear all — bottom ───────────────────────────────────────────
   var clearBtn = document.createElement('button');
@@ -284,23 +316,28 @@
       var data = pageMap[path];
       var card = document.createElement('div');
       card.className = 'review-card';
+      card.dataset.page = getPageName(path).toLowerCase();
 
-      var rawName = path.replace(/\.html$/, '').replace(/\/$/, '');
-      var parts = rawName.split('/').filter(Boolean);
-      var pageName = parts[parts.length - 1]
-        .replace(/-/g, ' ').replace(/\b\w/g, function (c) { return c.toUpperCase(); });
+      var pageName = getPageName(path, data);
 
       var cardHeader = document.createElement('div');
       cardHeader.className = 'review-card-header';
+      var titleWrap = document.createElement('div');
+      titleWrap.className = 'review-card-title-wrap';
       var titleLink = document.createElement('a');
       titleLink.href = path;
       titleLink.className = 'review-card-title';
       titleLink.textContent = pageName;
+      var sourcePath = document.createElement('span');
+      sourcePath.className = 'review-source-path';
+      sourcePath.textContent = cleanPathLabel(path);
       var countSpan = document.createElement('span');
       countSpan.className = 'review-card-count';
       var total = data.items.length + data.tables.length;
       countSpan.textContent = total + ' highlight' + (total === 1 ? '' : 's');
-      cardHeader.appendChild(titleLink);
+      titleWrap.appendChild(titleLink);
+      titleWrap.appendChild(sourcePath);
+      cardHeader.appendChild(titleWrap);
       cardHeader.appendChild(countSpan);
       card.appendChild(cardHeader);
 
@@ -324,9 +361,24 @@
         groups[color].forEach(function (entry) {
           var div = document.createElement('div');
           div.className = 'review-hl-item';
+          div.dataset.color = color;
 
           if (entry.type === 'text') {
             var item = entry.item;
+            div.dataset.search = [
+              pageName,
+              cleanPathLabel(path),
+              item.sectionTitle || '',
+              item.text || ''
+            ].join(' ').toLowerCase();
+
+            if (item.sectionTitle) {
+              var section = document.createElement('div');
+              section.className = 'review-hl-section';
+              section.textContent = item.sectionTitle;
+              div.appendChild(section);
+            }
+
             var wrapper = document.createElement('div');
             wrapper.className = 'review-hl-content review-hl-content-' + color;
             if (item.level && /^h[1-6]$/.test(item.level)) {
@@ -339,7 +391,21 @@
               else { var m = document.createElement('mark'); m.className = 'hl hl-' + color; m.textContent = item.text; wrapper.appendChild(m); }
             }
             div.appendChild(wrapper);
+
+            var meta = document.createElement('div');
+            meta.className = 'review-hl-meta';
+            var jump = document.createElement('a');
+            jump.href = path + (item.uid ? '?hljump=' + encodeURIComponent(item.uid) : '');
+            jump.textContent = 'Open source';
+            meta.appendChild(jump);
+            if (item.savedAt) {
+              var when = document.createElement('span');
+              when.textContent = formatDate(item.savedAt);
+              meta.appendChild(when);
+            }
+            div.appendChild(meta);
           } else {
+            div.dataset.search = [pageName, cleanPathLabel(path), 'table'].join(' ').toLowerCase();
             var tWrap = document.createElement('div');
             tWrap.className = 'review-table-wrap';
             tWrap.dataset.color = color;
@@ -367,6 +433,58 @@
       });
       card.appendChild(pageClear);
       cardsEl.appendChild(card);
+    });
+  }
+
+  function getPageName(path, data) {
+    var first = data && data.items && data.items[0] && data.items[0].pageTitle;
+    if (first) return first;
+    var rawName = path.replace(/\.html$/, '').replace(/\/$/, '');
+    var parts = rawName.split('/').filter(Boolean);
+    return (parts[parts.length - 1] || 'Home')
+      .replace(/-/g, ' ').replace(/\b\w/g, function (c) { return c.toUpperCase(); });
+  }
+
+  function cleanPathLabel(path) {
+    return path === '/' ? 'Home' : path.replace(/^\//, '').replace(/\.html$/, '').replace(/-/g, ' ');
+  }
+
+  function formatDate(value) {
+    var d = new Date(value);
+    if (isNaN(d.getTime())) return '';
+    return d.toLocaleDateString(undefined, { month: 'short', day: 'numeric' });
+  }
+
+  function wireFilters(controlsEl, cardsEl, noMatchesEl) {
+    var input = controlsEl.querySelector('#review-search-input');
+    var buttons = Array.prototype.slice.call(controlsEl.querySelectorAll('[data-review-color]'));
+    var activeColor = 'all';
+
+    function apply() {
+      var q = (input.value || '').trim().toLowerCase();
+      var visibleCards = 0;
+      cardsEl.querySelectorAll('.review-card').forEach(function (card) {
+        var visibleCount = 0;
+        card.querySelectorAll('.review-hl-item').forEach(function (item) {
+          var colorOk = activeColor === 'all' || item.dataset.color === activeColor;
+          var textOk = !q || (item.dataset.search || '').indexOf(q) !== -1 || (card.dataset.page || '').indexOf(q) !== -1;
+          var show = colorOk && textOk;
+          item.hidden = !show;
+          if (show) visibleCount++;
+        });
+        card.hidden = visibleCount === 0;
+        if (visibleCount > 0) visibleCards++;
+      });
+      if (noMatchesEl) noMatchesEl.hidden = visibleCards > 0;
+    }
+
+    input.addEventListener('input', apply);
+    buttons.forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        activeColor = btn.dataset.reviewColor;
+        buttons.forEach(function (b) { b.classList.toggle('active', b === btn); });
+        apply();
+      });
     });
   }
 
