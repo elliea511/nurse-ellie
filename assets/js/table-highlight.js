@@ -5,6 +5,12 @@
 
   var KEY = 'ellie-table-hl-' + window.location.pathname;
   var COLORS = ['yellow', 'pink', 'blue', 'green'];
+  var COLOR_MEANINGS = {
+    yellow: 'Need review',
+    pink: 'Priority',
+    blue: 'Details',
+    green: 'Understood'
+  };
   var CELL_BG = {
     yellow: 'rgba(255,230,80,0.42)',
     pink:   'rgba(255,150,185,0.38)',
@@ -32,8 +38,8 @@
     COLORS.forEach(function (color) {
       var dot = document.createElement('button');
       dot.className = 'thl-dot thl-dot-' + color;
-      dot.title = 'Save table as ' + color;
-      dot.setAttribute('aria-label', 'Save table as ' + color);
+      dot.title = 'Save table as ' + COLOR_MEANINGS[color];
+      dot.setAttribute('aria-label', 'Save table as ' + COLOR_MEANINGS[color]);
       dot.addEventListener('click', function () {
         var entry = saved[tableId];
         var current = entry && entry.color ? entry.color : (typeof entry === 'string' ? entry : null);

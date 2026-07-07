@@ -212,6 +212,13 @@
             navButton('blue', 'Details', colorCount('blue')) +
             navButton('green', 'Understood', colorCount('green')) +
           '</nav>' +
+          '<section class="mn-legend" aria-label="Highlight color meanings">' +
+            '<h2>Color key</h2>' +
+            '<div><span class="mn-dot mn-dot-yellow"></span><p><strong>Yellow</strong><small>Need review</small></p></div>' +
+            '<div><span class="mn-dot mn-dot-pink"></span><p><strong>Pink</strong><small>Priority / testable</small></p></div>' +
+            '<div><span class="mn-dot mn-dot-blue"></span><p><strong>Blue</strong><small>Details / definitions</small></p></div>' +
+            '<div><span class="mn-dot mn-dot-green"></span><p><strong>Green</strong><small>Understood</small></p></div>' +
+          '</section>' +
           '<div class="mn-tip"><span>Study flow</span><p>Highlight the parts that slow you down. Come back here before quizzes or clinical.</p></div>' +
         '</aside>' +
         '<section class="mn-main">' +
