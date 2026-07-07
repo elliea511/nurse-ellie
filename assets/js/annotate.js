@@ -1,7 +1,8 @@
 (function () {
   var COLORS = ['yellow', 'pink', 'blue', 'green'];
+  if (/\/review(\.html)?\/?$/.test(window.location.pathname)) return;
   var KEY = 'ellie-annotations-' + window.location.pathname;
-  var content = document.querySelector('.main-content');
+  var content = document.querySelector('.main-content') || document.querySelector('.prototype-home main') || document.querySelector('main');
   if (!content) return;
 
   // ── Storage ──────────────────────────────────────────────────
@@ -12,10 +13,11 @@
   var toolbar = document.createElement('div');
   toolbar.id = 'hl-toolbar';
   toolbar.innerHTML =
+    '<span class="hl-toolbar-label">Save to My Notes</span>' +
     COLORS.map(function (c) {
-      return '<button class="hl-swatch hl-' + c + '" data-color="' + c + '" title="' + c + '"></button>';
+      return '<button class="hl-swatch hl-' + c + '" data-color="' + c + '" title="Highlight ' + c + '" aria-label="Highlight ' + c + '"></button>';
     }).join('') +
-    '<button class="hl-clear" title="Remove highlight">✕</button>';
+    '<button class="hl-clear" title="Remove highlight" aria-label="Remove highlight">✕</button>';
   document.body.appendChild(toolbar);
 
   var savedRange = null;
@@ -26,6 +28,29 @@
     toolbar.classList.add('visible');
   }
   function hideToolbar() { toolbar.classList.remove('visible'); savedRange = null; }
+
+  function pageTitle() {
+    var heading = content.querySelector('h1');
+    return (heading ? heading.textContent : document.title).replace(/\s+\|.*$/, '').trim() || 'Study page';
+  }
+
+  function nearestSectionTitle(el) {
+    if (!el) return '';
+    var heading = el.closest('h1,h2,h3,h4,h5,h6');
+    if (heading) return heading.textContent.trim();
+    var current = el;
+    while (current && current !== content) {
+      var prev = current.previousElementSibling;
+      while (prev) {
+        if (/^H[1-6]$/.test(prev.tagName)) return prev.textContent.trim();
+        var nested = prev.querySelector && prev.querySelector('h1,h2,h3,h4,h5,h6');
+        if (nested) return nested.textContent.trim();
+        prev = prev.previousElementSibling;
+      }
+      current = current.parentElement;
+    }
+    return '';
+  }
 
   // ── DOM / offset utilities ────────────────────────────────────
   function textNodes(root) {
@@ -149,7 +174,7 @@
       if (!content.contains(sel.anchorNode)) { hideToolbar(); return; }
       // Block highlighting inside quiz/flashcard UI
       var anchor = sel.anchorNode.nodeType === 3 ? sel.anchorNode.parentElement : sel.anchorNode;
-      if (anchor.closest('.quiz-block, .flashcard-deck')) { hideToolbar(); return; }
+      if (anchor.closest('.quiz-block, .flashcard-deck, #review-page-content, #hl-toolbar, .prototype-topbar, .site-header, nav, button, input, textarea, select')) { hideToolbar(); return; }
       // Inside tables: only allow if selection stays within one cell
       var anchorCell = anchor.closest('td, th');
       var focusEl = sel.focusNode.nodeType === 3 ? sel.focusNode.parentElement : sel.focusNode;
@@ -178,6 +203,7 @@
       var startEl = range.startContainer.nodeType === 3 ? range.startContainer.parentElement : range.startContainer;
       var headingEl = startEl.closest('h1,h2,h3,h4,h5,h6');
       var level = headingEl ? headingEl.tagName.toLowerCase() : null;
+      var sectionTitle = nearestSectionTitle(startEl);
 
       // Capture HTML of selection (preserves bullets, bold, etc.)
       var frag = range.cloneContents();
@@ -203,7 +229,18 @@
 
       window.getSelection().removeAllRanges();
       wrapRange(range, color, text, uid);
-      save(load().concat([{ text: text, html: selHtml, color: color, uid: uid, contextBefore: contextBefore, level: level }]));
+      save(load().concat([{
+        text: text,
+        html: selHtml,
+        color: color,
+        uid: uid,
+        contextBefore: contextBefore,
+        level: level,
+        pageTitle: pageTitle(),
+        sectionTitle: sectionTitle,
+        path: window.location.pathname,
+        savedAt: new Date().toISOString()
+      }]));
       hideToolbar();
     });
   });
