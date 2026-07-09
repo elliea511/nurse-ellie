@@ -17,7 +17,7 @@ Use this page like a quick drug-card dashboard: **what it’s for, what can hurt
 <div class="priority-focus">
   <div>
     <h3>Medication Priority Focus</h3>
-    Suicide Risk • Sedation/Falls • Lithium Toxicity • EPS/NMS • Serotonin Syndrome • Withdrawal • Respiratory Depression • Seizure Risk
+    Suicide Risk • Sedation/Falls • Lithium Toxicity • Extrapyramidal Symptoms (EPS) / Neuroleptic malignant syndrome (NMS) • Serotonin Syndrome • Withdrawal • Respiratory Depression • Seizure Risk
 </div>
 </div>
 
@@ -28,7 +28,7 @@ Use this page like a quick drug-card dashboard: **what it’s for, what can hurt
 </div>
 
   <div>
-    <strong>🚨 NMS</strong>
+    <strong>🚨 Neuroleptic malignant syndrome (NMS)</strong>
     <span>Fever + rigidity + altered mental status on antipsychotics.</span>
 </div>
 
@@ -508,17 +508,17 @@ Lithium = **level + kidneys + thyroid + fluids + salt.** Anything changing fluid
   <div class="med-class-overview" markdown="1">
 ### Class Big Picture
 
-- First-generation meds have higher EPS focus.
+- First-generation meds have higher Extrapyramidal Symptoms (EPS) focus.
 - Second-generation/newer meds need metabolic monitoring.
 - Can be used for bipolar disorder with psychotic features.
-- Watch for NMS with any antipsychotic.
+- Watch for Neuroleptic malignant syndrome (NMS) with any antipsychotic.
 </div>
 
   <div class="med-nclex-box" markdown="1">
 ### NCLEX Loves
 
-- **EPS:** abnormal movements, restlessness, rigidity, tremor.
-- **NMS:** fever, rigidity, altered mental status.
+- **Extrapyramidal Symptoms (EPS):** abnormal movements, restlessness, rigidity, tremor.
+- **Neuroleptic malignant syndrome (NMS):** fever, rigidity, altered mental status.
 - **Second-gen:** weight, glucose, lipids, metabolic syndrome.
 </div>
 </div>
@@ -532,10 +532,10 @@ Lithium = **level + kidneys + thyroid + fluids + salt.** Anything changing fluid
 </div>
 
 **Used for:** Psychosis, hallucinations, delusions, severe agitation.  
-**Monitor:** EPS, NMS, sedation, cardiac concerns.  
+**Monitor:** Extrapyramidal Symptoms (EPS), Neuroleptic malignant syndrome (NMS), sedation, cardiac concerns.  
 **Teach:** Report stiffness, tremor, fever, rigidity, confusion, abnormal movements.
 
-<div class="drug-nclex"><strong>NCLEX:</strong> High EPS/NMS focus.</div>
+<div class="drug-nclex"><strong>NCLEX:</strong> High Extrapyramidal Symptoms (EPS) / Neuroleptic malignant syndrome (NMS) focus.</div>
 </div>
 
 <div class="drug-card" markdown="1">
@@ -545,7 +545,7 @@ Lithium = **level + kidneys + thyroid + fluids + salt.** Anything changing fluid
 </div>
 
 **Used for:** Psychosis and mood-related psychotic symptoms.  
-**Monitor:** Weight gain, glucose/lipids, metabolic syndrome, sedation, EPS/NMS.  
+**Monitor:** Weight gain, glucose/lipids, metabolic syndrome, sedation, Extrapyramidal Symptoms (EPS) / Neuroleptic malignant syndrome (NMS).  
 **Teach:** Keep labs. Report abnormal movements, fever/rigidity, major weight changes.
 
 <div class="drug-nclex"><strong>NCLEX:</strong> Second-gen = metabolic monitoring.</div>
@@ -558,7 +558,7 @@ Lithium = **level + kidneys + thyroid + fluids + salt.** Anything changing fluid
 </div>
 
 **Used for:** Bipolar disorder with hallucinations/delusions.  
-**Monitor:** Cardiac effects, weight gain, insulin resistance, diabetes, EPS/NMS.  
+**Monitor:** Cardiac effects, weight gain, insulin resistance, diabetes, Extrapyramidal Symptoms (EPS) / Neuroleptic malignant syndrome (NMS).  
 **Teach:** Report fever, rigidity, abnormal movements, chest symptoms, weight changes.
 
 <div class="drug-nclex"><strong>NCLEX:</strong> Used when psychotic features are present.</div>
@@ -1022,8 +1022,8 @@ Connect special meds back to the bigger priority: **nutrition, safety, coping, t
 | **Lithium Carbonate** | Mood stabilizer | Level 0.6–1.2; toxicity |
 | **Anticonvulsants** | Mood stabilizers | Liver, coagulation, pancreatitis, bone marrow, rash |
 | **Calcium channel blockers** | Bipolar option | BP/dizziness |
-| **Haloperidol** | First-gen antipsychotic | EPS/NMS |
-| **Risperidone** | Second-gen antipsychotic | Metabolic monitoring, EPS/NMS |
+| **Haloperidol** | First-gen antipsychotic | Extrapyramidal Symptoms (EPS) / Neuroleptic malignant syndrome (NMS) |
+| **Risperidone** | Second-gen antipsychotic | Metabolic monitoring, Extrapyramidal Symptoms (EPS) / Neuroleptic malignant syndrome (NMS) |
 | **Newer antipsychotics** | Antipsychotics | Weight, glucose, cardiac effects |
 | **Pimozide / Orap** | Antipsychotic-type med | Paranoid thoughts class note |
 | **Naloxone / Narcan** | Opioid antagonist | Breathing first |
@@ -1058,7 +1058,7 @@ Connect special meds back to the bigger priority: **nutrition, safety, coping, t
 4. Buspirone takes weeks and is not rescue.
 5. Lithium level is **0.6–1.2 mEq/L**.
 6. Lithium toxicity = **hold dose + notify provider**.
-7. Antipsychotics require EPS, NMS, and metabolic monitoring.
+7. Antipsychotics require Extrapyramidal Symptoms (EPS), Neuroleptic malignant syndrome (NMS), and metabolic monitoring.
 8. Opioid overdose = **breathing first, then naloxone**.
 9. Alcohol withdrawal can be fatal.
 10. Antabuse + alcohol can be fatal.
@@ -1071,7 +1071,7 @@ Connect special meds back to the bigger priority: **nutrition, safety, coping, t
 - **Benzos:** sedation, falls, dependence, respiratory depression.
 - **Buspirone:** not for panic rescue.
 - **Lithium:** fluids, salt, level, renal labs, thyroid labs.
-- **Antipsychotics:** EPS and NMS.
+- **Antipsychotics:** Extrapyramidal Symptoms (EPS) and Neuroleptic malignant syndrome (NMS).
 - **Naloxone:** opioid overdose.
 - **Alcohol withdrawal:** seizures and DTs.
 - **Thiamine deficiency:** Wernicke’s and Korsakoff’s.
