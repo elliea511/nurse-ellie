@@ -2477,3 +2477,447 @@ body[data-section="mental-health"].med-browser-ready .med-no-card-matches::after
     padding-right: .8rem;
   }
 }
+
+
+/* Current Mental Health Medications page redesign
+   Targets the actual medications.md markup: med-page-wrap / med-section / med-accordion. */
+body[data-page-type="med-browser"] {
+  --mh-med-purple: #6f3fd0;
+  --mh-med-purple-dark: #332064;
+  --mh-med-purple-soft: #f5efff;
+  --mh-med-pink: #f45f9a;
+  --mh-med-blue: #4f89da;
+  --mh-med-green: #2e9f6f;
+  --mh-med-yellow: #f2ad2e;
+  --mh-med-ink: #11133f;
+  --mh-med-muted: #676585;
+  --mh-med-line: #ded2f4;
+  background:
+    radial-gradient(circle at 10% 18%, rgba(244, 95, 154, .13), transparent 26rem),
+    radial-gradient(circle at 82% 12%, rgba(111, 63, 208, .15), transparent 30rem),
+    linear-gradient(180deg, #fffaff 0%, #ffffff 44%, #f7fbff 100%);
+}
+
+body[data-page-type="med-browser"] .page-wrapper {
+  width: min(100% - 1.25rem, 1500px);
+}
+
+body[data-page-type="med-browser"] .main-content {
+  max-width: none;
+  padding: clamp(1rem, 2.5vw, 2.25rem);
+}
+
+body[data-page-type="med-browser"] .med-page-wrap {
+  max-width: 1380px;
+  margin: 0 auto;
+  color: var(--mh-med-ink);
+}
+
+body[data-page-type="med-browser"] .med-page-wrap > h1 {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 1rem 0 .35rem;
+  color: var(--mh-med-purple-dark);
+  font-size: clamp(2.25rem, 5vw, 4.1rem);
+  line-height: .98;
+  letter-spacing: -.055em;
+}
+
+body[data-page-type="med-browser"] .med-page-wrap > h1::before {
+  content: "🧠";
+  display: grid;
+  place-items: center;
+  width: clamp(62px, 8vw, 86px);
+  height: clamp(62px, 8vw, 86px);
+  flex: 0 0 auto;
+  border-radius: 24px;
+  background: linear-gradient(135deg, #7a48d8, #4f2a9a);
+  box-shadow: 0 18px 38px rgba(100, 55, 177, .26);
+  font-size: clamp(2rem, 4vw, 3rem);
+}
+
+body[data-page-type="med-browser"] .med-hero-card {
+  position: relative;
+  margin: 1rem 0 1.25rem;
+  padding: clamp(1.1rem, 2.6vw, 2rem);
+  overflow: hidden;
+  border: 1px solid rgba(205, 187, 235, .9);
+  border-radius: 28px;
+  background:
+    radial-gradient(circle at 90% 15%, rgba(244, 95, 154, .16), transparent 16rem),
+    linear-gradient(135deg, rgba(255,255,255,.98), rgba(249,244,255,.96));
+  box-shadow: 0 22px 60px rgba(64, 43, 104, .10);
+}
+
+body[data-page-type="med-browser"] .med-hero-card::after {
+  content: "✨";
+  position: absolute;
+  right: clamp(1rem, 4vw, 3rem);
+  top: 1rem;
+  color: #c3a1ff;
+  font-size: clamp(2rem, 5vw, 4rem);
+  opacity: .75;
+}
+
+body[data-page-type="med-browser"] .med-hero-card h2 {
+  margin: 0 0 .35rem;
+  color: var(--mh-med-purple);
+  font-size: clamp(1.25rem, 2vw, 1.65rem);
+}
+
+body[data-page-type="med-browser"] .med-hero-card p {
+  max-width: 76ch;
+  color: var(--mh-med-muted);
+  font-size: 1rem;
+  line-height: 1.65;
+}
+
+body[data-page-type="med-browser"] .med-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .75rem;
+  margin: 1.35rem 0 1rem;
+}
+
+body[data-page-type="med-browser"] .med-pills a,
+body[data-page-type="med-browser"] .med-game-launch {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 42px;
+  padding: .65rem 1rem;
+  border: 1px solid #cdb7f1;
+  border-radius: 999px;
+  background: rgba(255,255,255,.9);
+  color: var(--mh-med-purple);
+  font-weight: 900;
+  font-size: .9rem;
+  line-height: 1.1;
+  text-decoration: none;
+  box-shadow: 0 10px 22px rgba(76, 49, 124, .08);
+  transition: transform .18s ease, box-shadow .18s ease, background .18s ease;
+}
+
+body[data-page-type="med-browser"] .med-pills a:hover,
+body[data-page-type="med-browser"] .med-pills a:focus-visible {
+  transform: translateY(-2px);
+  background: #f8f2ff;
+  box-shadow: 0 14px 26px rgba(76, 49, 124, .13);
+}
+
+body[data-page-type="med-browser"] .med-game-launch {
+  margin-top: .35rem;
+  border-color: transparent;
+  background: linear-gradient(135deg, #8050df, #5a2dad);
+  color: #fff;
+  box-shadow: 0 16px 30px rgba(92, 48, 174, .26);
+}
+
+body[data-page-type="med-browser"] .med-section,
+body[data-page-type="med-browser"] .med-study-path {
+  margin: 1rem 0;
+  padding: clamp(1rem, 2vw, 1.45rem);
+  border: 1px solid var(--mh-med-line);
+  border-radius: 24px;
+  background: rgba(255,255,255,.94);
+  box-shadow: 0 18px 44px rgba(58, 42, 96, .075);
+}
+
+body[data-page-type="med-browser"] .med-section-header {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  align-items: center;
+  gap: .9rem;
+  margin: 0 0 1rem;
+  padding: 0 0 .95rem;
+  border-bottom: 1px solid rgba(220, 207, 242, .85);
+}
+
+body[data-page-type="med-browser"] .med-section-icon {
+  display: grid;
+  place-items: center;
+  width: 54px;
+  height: 54px;
+  border-radius: 17px;
+  background: linear-gradient(135deg, #7d4dde, #5b2bb0);
+  color: #fff;
+  font-size: 1.7rem;
+  box-shadow: 0 12px 24px rgba(97, 54, 176, .20);
+}
+
+body[data-page-type="med-browser"] .med-section-header h2 {
+  margin: 0;
+  color: var(--mh-med-purple);
+  font-size: clamp(1.35rem, 2.6vw, 2rem);
+  letter-spacing: -.03em;
+}
+
+body[data-page-type="med-browser"] .med-section-header p {
+  margin: .25rem 0 0;
+  color: var(--mh-med-muted);
+}
+
+body[data-page-type="med-browser"] .med-danger-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(225px, 1fr));
+  gap: .9rem;
+}
+
+body[data-page-type="med-browser"] .danger-box {
+  position: relative;
+  min-height: 124px;
+  padding: 1rem 1rem 1rem 1.15rem;
+  border: 1px solid #ff9d9d;
+  border-left: 6px solid #ef3b3b;
+  border-radius: 18px;
+  background: linear-gradient(135deg, #fff7f7, #fff1f5);
+  color: #1f1630;
+  box-shadow: 0 12px 24px rgba(210, 47, 67, .08);
+}
+
+body[data-page-type="med-browser"] .danger-box strong {
+  display: block;
+  margin-bottom: .45rem;
+  color: #b81414;
+  font-size: 1.02rem;
+}
+
+body[data-page-type="med-browser"] .med-two-col {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+body[data-page-type="med-browser"] .med-mini-card {
+  min-height: 100%;
+  padding: 1rem;
+  border: 1px solid #d8c7f4;
+  border-radius: 18px;
+  background: linear-gradient(135deg, #fbf8ff, #ffffff);
+  box-shadow: 0 12px 26px rgba(73, 52, 113, .06);
+}
+
+body[data-page-type="med-browser"] .med-mini-card:nth-child(2n) {
+  border-color: #f1cf80;
+  background: linear-gradient(135deg, #fffaf0, #ffffff);
+}
+
+body[data-page-type="med-browser"] .med-mini-card h3 {
+  margin-top: 0;
+  color: var(--mh-med-purple);
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: .045em;
+}
+
+body[data-page-type="med-browser"] .med-mini-card ul {
+  margin-bottom: 0;
+}
+
+body[data-page-type="med-browser"] .med-accordion {
+  margin: .7rem 0;
+  border: 1px solid #ddd0f2;
+  border-radius: 17px;
+  background: #fff;
+  overflow: hidden;
+  box-shadow: 0 10px 24px rgba(57, 42, 91, .055);
+}
+
+body[data-page-type="med-browser"] .med-accordion summary {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: .9rem;
+  padding: .92rem 3.25rem .92rem 1rem;
+  color: var(--mh-med-purple-dark);
+  font-weight: 950;
+  font-size: 1.04rem;
+  cursor: pointer;
+  list-style: none;
+}
+
+body[data-page-type="med-browser"] .med-accordion summary::-webkit-details-marker {
+  display: none;
+}
+
+body[data-page-type="med-browser"] .med-accordion summary::after {
+  content: "+";
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  display: grid;
+  place-items: center;
+  width: 31px;
+  height: 31px;
+  border: 1px solid #b896ef;
+  border-radius: 999px;
+  color: var(--mh-med-purple);
+  transform: translateY(-50%);
+  font-size: 1.25rem;
+  line-height: 1;
+}
+
+body[data-page-type="med-browser"] .med-accordion[open] summary::after {
+  content: "–";
+}
+
+body[data-page-type="med-browser"] .med-accordion summary span {
+  display: block;
+  margin-top: .18rem;
+  color: var(--mh-med-muted);
+  font-size: .78rem;
+  font-weight: 800;
+  line-height: 1.3;
+}
+
+body[data-page-type="med-browser"] .med-accordion[open] {
+  border-color: #a981ef;
+  box-shadow: 0 16px 36px rgba(92, 48, 174, .11);
+}
+
+body[data-page-type="med-browser"] .med-accordion[open] summary {
+  background: linear-gradient(135deg, #fbf7ff, #ffffff);
+}
+
+body[data-page-type="med-browser"] .med-accordion-body {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: .8rem;
+  padding: 1rem;
+  border-top: 1px solid #eadff8;
+  background:
+    linear-gradient(90deg, rgba(244, 239, 255, .65), rgba(255,255,255,.95));
+}
+
+body[data-page-type="med-browser"] .med-accordion-body > p {
+  margin: 0;
+  padding: .95rem;
+  border: 1px solid #e3d8f3;
+  border-radius: 15px;
+  background: #fff;
+  color: #332f4f;
+  line-height: 1.55;
+}
+
+body[data-page-type="med-browser"] .med-accordion-body > p strong {
+  display: block;
+  margin-bottom: .28rem;
+  color: var(--mh-med-purple);
+  font-size: .79rem;
+  letter-spacing: .035em;
+  text-transform: uppercase;
+}
+
+body[data-page-type="med-browser"] .med-quick-line,
+body[data-page-type="med-browser"] .med-alert {
+  grid-column: 1 / -1;
+  margin: 0;
+  padding: .9rem 1rem;
+  border-radius: 15px;
+  font-weight: 850;
+  line-height: 1.45;
+}
+
+body[data-page-type="med-browser"] .med-quick-line {
+  border: 1px solid #cfe2ff;
+  background: linear-gradient(135deg, #eef7ff, #fbfdff);
+  color: #1d5ca0;
+}
+
+body[data-page-type="med-browser"] .med-quick-line strong {
+  color: #0f57a9;
+}
+
+body[data-page-type="med-browser"] .med-alert {
+  border: 1px solid #ffc6c6;
+  background: linear-gradient(135deg, #fff2f2, #fff8f8);
+  color: #a01925;
+}
+
+body[data-page-type="med-browser"] .med-table-scroll {
+  overflow-x: auto;
+  border: 1px solid #e0d4f4;
+  border-radius: 18px;
+  background: #fff;
+}
+
+body[data-page-type="med-browser"] .med-master-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 760px;
+}
+
+body[data-page-type="med-browser"] .med-master-table th {
+  background: #f3edff;
+  color: var(--mh-med-purple-dark);
+  text-align: left;
+}
+
+body[data-page-type="med-browser"] .med-master-table th,
+body[data-page-type="med-browser"] .med-master-table td {
+  padding: .8rem .9rem;
+  border-bottom: 1px solid #eee7f8;
+  vertical-align: top;
+}
+
+body[data-page-type="med-browser"] .med-master-table tr:last-child td {
+  border-bottom: 0;
+}
+
+body[data-page-type="med-browser"] .med-focus-footer {
+  margin: 1.1rem 0 0;
+  padding: 1rem;
+  border: 1px solid #ded0f4;
+  border-radius: 20px;
+  background: linear-gradient(135deg, #f7f0ff, #ffffff);
+  color: var(--mh-med-purple-dark);
+  font-weight: 850;
+}
+
+body[data-page-type="med-browser"] hr {
+  display: none;
+}
+
+body[data-page-type="med-browser"] #danger-cues .med-section-icon { background: linear-gradient(135deg, #f04e63, #c91c2d); }
+body[data-page-type="med-browser"] #antidepressants .med-section-icon { background: linear-gradient(135deg, #8b5be8, #6d3fd0); }
+body[data-page-type="med-browser"] #anxiety-ocd .med-section-icon { background: linear-gradient(135deg, #f45f9a, #cf3f7d); }
+body[data-page-type="med-browser"] #mood-stabilizers .med-section-icon { background: linear-gradient(135deg, #5f9be7, #3d6fc5); }
+body[data-page-type="med-browser"] #antipsychotics .med-section-icon { background: linear-gradient(135deg, #7f58d5, #45308f); }
+body[data-page-type="med-browser"] #substance-use .med-section-icon { background: linear-gradient(135deg, #55c28b, #2e9f6f); }
+body[data-page-type="med-browser"] #eating-special .med-section-icon { background: linear-gradient(135deg, #f4a1c7, #d85f9a); }
+body[data-page-type="med-browser"] #eps-antidotes .med-section-icon { background: linear-gradient(135deg, #f2ad2e, #d9841d); }
+body[data-page-type="med-browser"] #master-chart .med-section-icon { background: linear-gradient(135deg, #5ea3de, #316eb4); }
+
+@media (max-width: 980px) {
+  body[data-page-type="med-browser"] .med-two-col,
+  body[data-page-type="med-browser"] .med-accordion-body {
+    grid-template-columns: 1fr;
+  }
+
+  body[data-page-type="med-browser"] .med-section-header {
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 640px) {
+  body[data-page-type="med-browser"] .main-content {
+    padding: .9rem;
+  }
+
+  body[data-page-type="med-browser"] .med-page-wrap > h1 {
+    align-items: flex-start;
+    font-size: 2.25rem;
+  }
+
+  body[data-page-type="med-browser"] .med-pills a,
+  body[data-page-type="med-browser"] .med-game-launch {
+    width: 100%;
+  }
+
+  body[data-page-type="med-browser"] .med-accordion summary {
+    grid-template-columns: 1fr;
+    padding-right: 3rem;
+  }
+}

@@ -1,220 +1,8 @@
 ---
 layout: default
 title: Mental Health Medications
+page_type: med-browser
 ---
-
-<style>
-  .med-page-wrap {
-    max-width: 1050px;
-    margin: 0 auto;
-    font-size: 1rem;
-    line-height: 1.55;
-  }
-
-  .med-hero-card,
-  .med-section,
-  .med-study-path,
-  .med-master-card {
-    border: 1px solid rgba(120, 92, 160, 0.18);
-    border-radius: 18px;
-    background: #fff;
-    box-shadow: 0 8px 24px rgba(60, 45, 85, 0.07);
-    padding: 1.1rem;
-    margin: 1.1rem 0;
-  }
-
-  .med-hero-card {
-    background: linear-gradient(135deg, #fff7fb, #f5f0ff);
-  }
-
-  .med-hero-card h2,
-  .med-section h2 {
-    margin-top: 0;
-    margin-bottom: 0.35rem;
-  }
-
-  .med-pills {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.45rem;
-    margin: 0.9rem 0 0;
-  }
-
-  .med-pills a,
-  .med-chip {
-    display: inline-block;
-    padding: 0.45rem 0.7rem;
-    border-radius: 999px;
-    background: #f3eefc;
-    color: #4a326f;
-    text-decoration: none;
-    font-weight: 700;
-    font-size: 0.92rem;
-  }
-
-  .med-study-path {
-    background: #fbf9ff;
-  }
-
-  .med-two-col {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-    gap: 0.9rem;
-  }
-
-  .med-mini-card {
-    border: 1px solid rgba(120, 92, 160, 0.16);
-    border-radius: 14px;
-    background: #ffffff;
-    padding: 0.85rem;
-  }
-
-  .med-mini-card h3 {
-    margin-top: 0;
-    margin-bottom: 0.45rem;
-  }
-
-  .med-danger-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
-    gap: 0.75rem;
-    background: #fffafa;
-    border-radius: 18px;
-    padding: 0.8rem;
-    border: 1px solid rgba(179, 92, 122, 0.14);
-  }
-
-  .danger-box {
-    border-left: 5px solid #b35c7a;
-    background: #fff;
-    border-radius: 12px;
-    padding: 0.85rem;
-  }
-
-  .danger-box strong {
-    display: block;
-    margin-bottom: 0.25rem;
-  }
-
-  .med-section-header {
-    display: flex;
-    gap: 0.75rem;
-    align-items: flex-start;
-    margin-bottom: 0.8rem;
-  }
-
-  .med-section-icon {
-    font-size: 1.8rem;
-    line-height: 1;
-  }
-
-  .med-section p {
-    margin-top: 0.25rem;
-  }
-
-  .med-accordion {
-    border: 1px solid rgba(120, 92, 160, 0.18);
-    border-radius: 14px;
-    background: #ffffff;
-    margin: 0.75rem 0;
-    overflow: hidden;
-  }
-
-  .med-accordion summary {
-    cursor: pointer;
-    padding: 0.85rem 1rem;
-    background: #f8f5ff;
-    font-weight: 800;
-    color: #3f2f60;
-  }
-
-  .med-accordion summary span {
-    display: block;
-    font-weight: 600;
-    color: #725995;
-    font-size: 0.92rem;
-    margin-top: 0.1rem;
-  }
-
-  .med-accordion-body {
-    padding: 0.9rem 1rem 1rem;
-  }
-
-  .med-quick-line {
-    background: #fff8dd;
-    border-left: 5px solid #d2a53f;
-    border-radius: 12px;
-    padding: 0.7rem;
-    margin-top: 0.7rem;
-  }
-
-  .med-table-scroll {
-    overflow-x: auto;
-  }
-
-  .med-master-table {
-    width: 100%;
-    border-collapse: collapse;
-    font-size: 0.95rem;
-  }
-
-  .med-master-table th,
-  .med-master-table td {
-    border: 1px solid rgba(120, 92, 160, 0.18);
-    padding: 0.65rem;
-    vertical-align: top;
-  }
-
-  .med-master-table th {
-    background: #f3eefc;
-  }
-
-  .med-alert {
-    background: #fff4f6;
-    border-left: 5px solid #b35c7a;
-    border-radius: 12px;
-    padding: 0.75rem;
-    margin: 0.75rem 0;
-  }
-
-  .med-checklist li {
-    margin-bottom: 0.3rem;
-  }
-
-  .cheer-banner {
-    margin: 1rem 0;
-    padding: 1rem;
-    border-radius: 16px;
-    background: linear-gradient(135deg, #f6efff, #fff7fb);
-    text-align: center;
-    font-weight: 800;
-  }
-
-  @media print {
-    .med-pills,
-    .page-nav,
-    .med-game-launch {
-      display: none !important;
-    }
-
-    .med-page-wrap {
-      font-size: 10.5pt;
-    }
-
-    .med-section,
-    .med-hero-card,
-    .med-danger-grid,
-    .med-study-path,
-    .med-master-card {
-      box-shadow: none;
-      break-inside: avoid;
-    }
-
-    details.med-accordion[open] {
-      break-inside: avoid;
-    }
-  }
-</style>
 
 <div class="mh-breadcrumb">
   <a href="{{ '/mental-health.html' | relative_url }}">Mental Health</a>
@@ -241,7 +29,7 @@ Use it like flashcards: open **one class at a time** instead of staring at a gia
   <a href="#antipsychotics">Antipsychotics</a>
   <a href="#substance-use">Substance Use</a>
   <a href="#eating-special">Eating Disorder + Special</a>
-  <a href="#eps-antidotes">EPS + Antidotes</a>
+  <a href="#eps-antidotes">Extrapyramidal Symptoms (EPS) + Antidotes</a>
   <a href="#master-chart">Master Chart</a>
 </div>
 
@@ -266,8 +54,8 @@ Use it like flashcards: open **one class at a time** instead of staring at a gia
   <div class="danger-box"><strong>Serotonin Syndrome</strong>Fever, agitation, confusion, sweating, diarrhea, tremor, rigidity, or hyperreflexia.</div>
   <div class="danger-box"><strong>Lithium Toxicity</strong>GI upset, tremor, confusion, ataxia, seizures → hold next dose + notify provider.</div>
   <div class="danger-box"><strong>Respiratory Depression</strong>Benzodiazepines/sedatives can decrease breathing, especially with alcohol or opioids.</div>
-  <div class="danger-box"><strong>EPS</strong>Tremor, rigidity, restlessness, muscle spasms, abnormal movements, or stiff neck.</div>
-  <div class="danger-box"><strong>NMS</strong>Fever + severe muscle rigidity + altered mental status while taking antipsychotics.</div>
+  <div class="danger-box"><strong>Extrapyramidal Symptoms (EPS)</strong>Tremor, rigidity, restlessness, muscle spasms, abnormal movements, or stiff neck.</div>
+  <div class="danger-box"><strong>Neuroleptic malignant syndrome (NMS)</strong>Fever + severe muscle rigidity + altered mental status while taking antipsychotics.</div>
   <div class="danger-box"><strong>Clozapine Blood Risk</strong>Fever, sore throat, or infection symptoms can signal agranulocytosis.</div>
   <div class="danger-box"><strong>Alcohol Withdrawal</strong>Tremors, increased VS, hallucinations, seizures, delirium. Can be fatal.</div>
 </div>
@@ -288,7 +76,7 @@ SSRI, SNRI, benzo, mood stabilizer, antipsychotic, substance-use med, or special
   <div class="med-mini-card" markdown="1">
 ### Step 2: Know the danger
 
-Ask: suicide, serotonin syndrome, sedation, EPS/NMS, lithium toxicity, seizure risk, or respiratory depression?
+Ask: suicide, serotonin syndrome, sedation, Extrapyramidal Symptoms (EPS) / Neuroleptic malignant syndrome (NMS), lithium toxicity, seizure risk, or respiratory depression?
   </div>
 </div>
 
@@ -559,14 +347,14 @@ Ask: suicide, serotonin syndrome, sedation, EPS/NMS, lithium toxicity, seizure r
 <div class="med-two-col" markdown="1">
 <div class="med-mini-card" markdown="1">
 ### Big picture
-- First-generation meds = more EPS focus.
+- First-generation meds = more Extrapyramidal Symptoms (EPS) focus.
 - Second-generation meds = metabolic monitoring.
-- Any antipsychotic can cause NMS.
+- Any antipsychotic can cause Neuroleptic malignant syndrome (NMS).
 </div>
 
 <div class="med-mini-card" markdown="1">
 ### NCLEX loves
-- EPS vs NMS.
+- Extrapyramidal Symptoms (EPS) vs Neuroleptic malignant syndrome (NMS).
 - Weight, glucose, lipids.
 - Clozapine blood counts.
 - Do not stop meds just because symptoms improve.
@@ -578,10 +366,10 @@ Ask: suicide, serotonin syndrome, sedation, EPS/NMS, lithium toxicity, seizure r
 <div class="med-accordion-body" markdown="1">
 
 **Used for:** Psychosis, hallucinations, delusions, severe agitation.  
-**Monitor:** EPS, NMS, sedation, orthostatic hypotension, anticholinergic effects, cardiac concerns.  
+**Monitor:** Extrapyramidal Symptoms (EPS), Neuroleptic malignant syndrome (NMS), sedation, orthostatic hypotension, anticholinergic effects, cardiac concerns.<br>
 **Teach:** Report stiffness, tremor, abnormal movements, fever, rigidity, confusion, or trouble swallowing.
 
-<div class="med-quick-line"><strong>NCLEX cue:</strong> First-gen = EPS/NMS focus.</div>
+<div class="med-quick-line"><strong>NCLEX cue:</strong> First-gen = Extrapyramidal Symptoms (EPS) / Neuroleptic malignant syndrome (NMS) focus.</div>
 </div>
 </details>
 
@@ -590,10 +378,10 @@ Ask: suicide, serotonin syndrome, sedation, EPS/NMS, lithium toxicity, seizure r
 <div class="med-accordion-body" markdown="1">
 
 **Used for:** Schizophrenia/psychosis, bipolar psychotic features, mood-related psychotic symptoms.  
-**Monitor:** Weight gain, glucose/lipids, metabolic syndrome, sedation, EPS/NMS.  
+**Monitor:** Weight gain, glucose/lipids, metabolic syndrome, sedation, Extrapyramidal Symptoms (EPS) / Neuroleptic malignant syndrome (NMS).<br>
 **Teach:** Keep labs. Report abnormal movements, fever/rigidity, major weight changes, or glucose symptoms.
 
-<div class="med-quick-line"><strong>NCLEX cue:</strong> Second-gen = metabolic monitoring, but still watch EPS/NMS.</div>
+<div class="med-quick-line"><strong>NCLEX cue:</strong> Second-gen = metabolic monitoring, but still watch Extrapyramidal Symptoms (EPS) / Neuroleptic malignant syndrome (NMS).</div>
 </div>
 </details>
 
@@ -614,7 +402,7 @@ Ask: suicide, serotonin syndrome, sedation, EPS/NMS, lithium toxicity, seizure r
 <div class="med-accordion-body" markdown="1">
 
 **Used for:** Class note: can decrease paranoid thoughts.  
-**Monitor:** Antipsychotic-type adverse effects, cardiac concerns, EPS/NMS.  
+**Monitor:** Antipsychotic-type adverse effects, cardiac concerns, Extrapyramidal Symptoms (EPS) / Neuroleptic malignant syndrome (NMS).<br>
 **Teach:** Report abnormal movements, fever, rigidity, or chest symptoms.
 
 <div class="med-quick-line"><strong>NCLEX cue:</strong> Paranoid personality disorder med cue from class.</div>
@@ -744,16 +532,16 @@ Ask: suicide, serotonin syndrome, sedation, EPS/NMS, lithium toxicity, seizure r
 <div class="med-section-header">
   <span class="med-section-icon">🛟</span>
   <div>
-    <h2>EPS Meds + Antidotes</h2>
+    <h2>Extrapyramidal Symptoms (EPS) Meds + Antidotes</h2>
     <p>These are not always “psych treatment meds,” but they matter because they show up with psych-med safety questions.</p>
   </div>
 </div>
 
 <details class="med-accordion" open markdown="1">
-<summary>Benztropine <span>Anticholinergic used for EPS</span></summary>
+<summary>Benztropine <span>Anticholinergic used for Extrapyramidal Symptoms (EPS)</span></summary>
 <div class="med-accordion-body" markdown="1">
 
-**Used for:** EPS from antipsychotics, especially dystonia/parkinsonism-type symptoms.  
+**Used for:** Extrapyramidal Symptoms (EPS) from antipsychotics, especially dystonia/parkinsonism-type symptoms.<br>
 **Monitor:** Anticholinergic effects: urinary retention, constipation, dry mouth, blurred vision, confusion.  
 **Teach:** Report inability to urinate, severe constipation, confusion, or worsening symptoms.
 
@@ -812,11 +600,11 @@ Ask: suicide, serotonin syndrome, sedation, EPS/NMS, lithium toxicity, seizure r
 <tr><td><strong>Lithium Carbonate</strong></td><td>Mood stabilizer</td><td>Level 0.6–1.2; toxicity = hold + notify</td></tr>
 <tr><td><strong>Valproic Acid</strong></td><td>Anticonvulsant mood stabilizer</td><td>Liver, pancreas, platelets/coagulation, pregnancy</td></tr>
 <tr><td><strong>Calcium channel blockers</strong></td><td>Bipolar option from class</td><td>Low BP/dizziness</td></tr>
-<tr><td><strong>Haloperidol / Chlorpromazine / Thiothixene</strong></td><td>First-gen antipsychotics</td><td>EPS/NMS</td></tr>
-<tr><td><strong>Risperidone / Olanzapine / Aripiprazole</strong></td><td>Second-gen antipsychotics</td><td>Metabolic monitoring + EPS/NMS</td></tr>
+<tr><td><strong>Haloperidol / Chlorpromazine / Thiothixene</strong></td><td>First-gen antipsychotics</td><td>Extrapyramidal Symptoms (EPS) / Neuroleptic malignant syndrome (NMS)</td></tr>
+<tr><td><strong>Risperidone / Olanzapine / Aripiprazole</strong></td><td>Second-gen antipsychotics</td><td>Metabolic monitoring + Extrapyramidal Symptoms (EPS) / Neuroleptic malignant syndrome (NMS)</td></tr>
 <tr><td><strong>Clozapine</strong></td><td>High-risk antipsychotic</td><td>WBC/ANC; fever/sore throat</td></tr>
 <tr><td><strong>Pimozide / Orap</strong></td><td>Antipsychotic-type med</td><td>Paranoid thoughts class-note cue</td></tr>
-<tr><td><strong>Benztropine</strong></td><td>EPS medication</td><td>Helps EPS; anticholinergic side effects</td></tr>
+<tr><td><strong>Benztropine</strong></td><td>Extrapyramidal Symptoms (EPS) medication</td><td>Helps Extrapyramidal Symptoms (EPS); anticholinergic side effects</td></tr>
 <tr><td><strong>Flumazenil</strong></td><td>Benzo antagonist</td><td>Airway first; seizure/withdrawal risk</td></tr>
 <tr><td><strong>Naloxone / Narcan</strong></td><td>Opioid antagonist</td><td>Breathing first, then naloxone</td></tr>
 <tr><td><strong>Methadone</strong></td><td>Opioid withdrawal/maintenance</td><td>Sedation/respiratory monitoring</td></tr>
@@ -850,7 +638,7 @@ Ask: suicide, serotonin syndrome, sedation, EPS/NMS, lithium toxicity, seizure r
 3. **Bupropion** → seizure risk.
 4. **Trazodone/benzos** → sedation/falls.
 5. **Lithium** → levels, fluids/salt, kidneys, thyroid.
-6. **Antipsychotics** → EPS/NMS.
+6. **Antipsychotics** → Extrapyramidal Symptoms (EPS) / Neuroleptic malignant syndrome (NMS).
 7. **Second-gen antipsychotics** → metabolic labs.
 8. **Clozapine** → WBC/ANC.
 9. **Opioid overdose** → breathing first, then naloxone.
@@ -860,9 +648,9 @@ Ask: suicide, serotonin syndrome, sedation, EPS/NMS, lithium toxicity, seizure r
 <div class="med-mini-card" markdown="1">
 ### “Which Med Is It?” Cues
 
-- **Fever + rigidity + AMS** → NMS.
+- **Fever + rigidity + AMS** → Neuroleptic malignant syndrome (NMS).
 - **Fever + diarrhea + tremor + hyperreflexia** → serotonin syndrome.
-- **Restless/can’t sit still** → akathisia/EPS.
+- **Restless/can’t sit still** → akathisia / Extrapyramidal Symptoms (EPS).
 - **Sore throat/fever on clozapine** → possible agranulocytosis.
 - **Benzo overdose** → airway/breathing first, flumazenil possible.
 - **Alcohol withdrawal** → chlordiazepoxide/diazepam/lorazepam.
@@ -872,7 +660,7 @@ Ask: suicide, serotonin syndrome, sedation, EPS/NMS, lithium toxicity, seizure r
 </div>
 
 <div class="cheer-banner">
-  Psych meds are easier when you sort them by danger: suicide, sedation, serotonin syndrome, lithium toxicity, EPS/NMS, breathing, seizures, and blood counts.
+  Psych meds are easier when you sort them by danger: suicide, sedation, serotonin syndrome, lithium toxicity, Extrapyramidal Symptoms (EPS) / Neuroleptic malignant syndrome (NMS), breathing, seizures, and blood counts.
 </div>
 
 ---
