@@ -9,9 +9,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Playfair+Display:wght@700;900&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-  <link rel="stylesheet" href="{{ '/assets/css/site-header.css' | relative_url }}">
-  <link rel="stylesheet" href="{{ '/assets/css/mh-cards.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}?v={{ site.time | date: '%s' }}">
+  <link rel="stylesheet" href="{{ '/assets/css/site-header.css' | relative_url }}?v={{ site.time | date: '%s' }}">
+  <link rel="stylesheet" href="{{ '/assets/css/mh-cards.css' | relative_url }}?v={{ site.time | date: '%s' }}">
   <meta name="base-url" content="{{ '/' | relative_url | remove_last: '/' }}">
 </head>
 
@@ -53,23 +53,23 @@
     <button id="font-increase" aria-label="Increase font size">A+</button>
   </div>
 
-  <script src="{{ '/assets/js/dark-mode.js' | relative_url }}"></script>
-  <script src="{{ '/assets/js/mh-cards.js' | relative_url }}"></script>
-  <script src="{{ '/assets/js/search.js' | relative_url }}"></script>
-  <script src="{{ '/assets/js/font-size.js' | relative_url }}"></script>
-  <script src="{{ '/assets/js/back-to-top.js' | relative_url }}"></script>
-  <script src="{{ '/assets/js/annotate.js' | relative_url }}"></script>
+  <script src="{{ '/assets/js/dark-mode.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
+  <script src="{{ '/assets/js/mh-cards.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
+  <script src="{{ '/assets/js/search.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
+  <script src="{{ '/assets/js/font-size.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
+  <script src="{{ '/assets/js/back-to-top.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
+  <script src="{{ '/assets/js/annotate.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
   {% if page.page_type == 'notes' %}
-  <script src="{{ '/assets/js/confidence.js' | relative_url }}"></script>
-  <script src="{{ '/assets/js/print-btn.js' | relative_url }}"></script>
+  <script src="{{ '/assets/js/confidence.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
+  <script src="{{ '/assets/js/print-btn.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
   {% endif %}
-  <script src="{{ '/assets/js/streak.js' | relative_url }}"></script>
-  <script src="{{ '/assets/js/flashcards.js' | relative_url }}"></script>
-  <script src="{{ '/assets/js/highlight-summary.js' | relative_url }}"></script>
-  <script src="{{ '/assets/js/quiz.js' | relative_url }}"></script>
-  <script src="{{ '/assets/js/practice-test.js' | relative_url }}"></script>
-  <script src="{{ '/assets/js/table-highlight.js' | relative_url }}"></script>
-  <script src="{{ '/assets/js/progress.js' | relative_url }}"></script>
-  <script src="{{ '/assets/js/lightbox.js' | relative_url }}"></script>
+  <script src="{{ '/assets/js/streak.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
+  <script src="{{ '/assets/js/flashcards.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
+  <script src="{{ '/assets/js/highlight-summary.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
+  <script src="{{ '/assets/js/quiz.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
+  <script src="{{ '/assets/js/practice-test.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
+  <script src="{{ '/assets/js/table-highlight.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
+  <script src="{{ '/assets/js/progress.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
+  <script src="{{ '/assets/js/lightbox.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
 </body>
 </html>
