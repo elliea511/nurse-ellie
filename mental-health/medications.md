@@ -84,15 +84,15 @@ Ask: suicide, serotonin syndrome, sedation, Extrapyramidal Symptoms (EPS) / Neur
 
 ---
 
-<section id="antidepressants" class="med-section" markdown="1">
+<details id="antidepressants" class="med-section med-class-panel" open markdown="1">
 
-<div class="med-section-header">
+<summary class="med-section-header">
   <span class="med-section-icon">🌧️</span>
   <div>
     <h2>Antidepressants</h2>
     <p>Used for depression, anxiety symptoms, OCD symptoms, PTSD symptoms, PMDD, somatic/illness anxiety treatment, and depression symptoms.</p>
   </div>
-</div>
+</summary>
 
 <div class="med-two-col" markdown="1">
 <div class="med-mini-card" markdown="1">
@@ -208,19 +208,19 @@ Ask: suicide, serotonin syndrome, sedation, Extrapyramidal Symptoms (EPS) / Neur
 </div>
 </details>
 
-</section>
+</details>
 
 ---
 
-<section id="anxiety-ocd" class="med-section" markdown="1">
+<details id="anxiety-ocd" class="med-section med-class-panel" markdown="1">
 
-<div class="med-section-header">
+<summary class="med-section-header">
   <span class="med-section-icon">✿</span>
   <div>
     <h2>Antianxiety + OCD Medications</h2>
     <p>Used for anxiety disorders, panic symptoms, OCD, dissociative anxiety symptoms, and physical anxiety symptoms.</p>
   </div>
-</div>
+</summary>
 
 <details class="med-accordion" open markdown="1">
 <summary>Benzodiazepines <span>Diazepam • Chlordiazepoxide • Lorazepam</span></summary>
@@ -270,19 +270,19 @@ Ask: suicide, serotonin syndrome, sedation, Extrapyramidal Symptoms (EPS) / Neur
 </div>
 </details>
 
-</section>
+</details>
 
 ---
 
-<section id="mood-stabilizers" class="med-section" markdown="1">
+<details id="mood-stabilizers" class="med-section med-class-panel" markdown="1">
 
-<div class="med-section-header">
+<summary class="med-section-header">
   <span class="med-section-icon">⚡</span>
   <div>
     <h2>Mood Stabilizers</h2>
     <p>Used for bipolar disorder, mania, mood stabilization, and schizoaffective/bipolar features.</p>
   </div>
-</div>
+</summary>
 
 <details class="med-accordion" open markdown="1">
 <summary>Lithium Carbonate <span>Drug of choice for bipolar illness</span></summary>
@@ -330,19 +330,19 @@ Ask: suicide, serotonin syndrome, sedation, Extrapyramidal Symptoms (EPS) / Neur
 </div>
 </details>
 
-</section>
+</details>
 
 ---
 
-<section id="antipsychotics" class="med-section" markdown="1">
+<details id="antipsychotics" class="med-section med-class-panel" markdown="1">
 
-<div class="med-section-header">
+<summary class="med-section-header">
   <span class="med-section-icon">🧠</span>
   <div>
     <h2>Antipsychotics</h2>
     <p>Used for schizophrenia, psychosis, hallucinations, delusions, severe agitation, and bipolar/schizoaffective psychotic features.</p>
   </div>
-</div>
+</summary>
 
 <div class="med-two-col" markdown="1">
 <div class="med-mini-card" markdown="1">
@@ -409,19 +409,19 @@ Ask: suicide, serotonin syndrome, sedation, Extrapyramidal Symptoms (EPS) / Neur
 </div>
 </details>
 
-</section>
+</details>
 
 ---
 
-<section id="substance-use" class="med-section" markdown="1">
+<details id="substance-use" class="med-section med-class-panel" markdown="1">
 
-<div class="med-section-header">
+<summary class="med-section-header">
   <span class="med-section-icon">🧪</span>
   <div>
     <h2>Substance Use Medications</h2>
     <p>Used for overdose reversal, withdrawal management, alcohol use disorder, tobacco cessation, and alcohol-related complications.</p>
   </div>
-</div>
+</summary>
 
 <details class="med-accordion" open markdown="1">
 <summary>Opioid Overdose + Withdrawal <span>Naloxone • Methadone • Clonidine • Buprenorphine/Naloxone • Lofexidine</span></summary>
@@ -485,19 +485,19 @@ Ask: suicide, serotonin syndrome, sedation, Extrapyramidal Symptoms (EPS) / Neur
 </div>
 </details>
 
-</section>
+</details>
 
 ---
 
-<section id="eating-special" class="med-section" markdown="1">
+<details id="eating-special" class="med-section med-class-panel" markdown="1">
 
-<div class="med-section-header">
+<summary class="med-section-header">
   <span class="med-section-icon">🍽️</span>
   <div>
     <h2>Eating Disorder + Special Class-Note Medications</h2>
     <p>Medications mentioned with binge eating disorder, somatic/dissociative disorders, and special class-note cues.</p>
   </div>
-</div>
+</summary>
 
 <details class="med-accordion" open markdown="1">
 <summary>Binge Eating Disorder Meds <span>Vyvanse • Topamax/Topiramate • Contrave</span></summary>
@@ -523,19 +523,19 @@ Ask: suicide, serotonin syndrome, sedation, Extrapyramidal Symptoms (EPS) / Neur
 </div>
 </details>
 
-</section>
+</details>
 
 ---
 
-<section id="eps-antidotes" class="med-section" markdown="1">
+<details id="eps-antidotes" class="med-section med-class-panel" markdown="1">
 
-<div class="med-section-header">
+<summary class="med-section-header">
   <span class="med-section-icon">🛟</span>
   <div>
     <h2>Extrapyramidal Symptoms (EPS) Meds + Antidotes</h2>
     <p>These are not always “psych treatment meds,” but they matter because they show up with psych-med safety questions.</p>
   </div>
-</div>
+</summary>
 
 <details class="med-accordion" open markdown="1">
 <summary>Benztropine <span>Anticholinergic used for Extrapyramidal Symptoms (EPS)</span></summary>
@@ -561,19 +561,19 @@ Ask: suicide, serotonin syndrome, sedation, Extrapyramidal Symptoms (EPS) / Neur
 </div>
 </details>
 
-</section>
+</details>
 
 ---
 
-<section id="master-chart" class="med-section" markdown="1">
+<details id="master-chart" class="med-section med-class-panel" markdown="1">
 
-<div class="med-section-header">
+<summary class="med-section-header">
   <span class="med-section-icon">📋</span>
   <div>
     <h2>Master Medication Match-Up</h2>
     <p>Fast review of each medication, category, and biggest NCLEX cue.</p>
   </div>
-</div>
+</summary>
 
 <div class="med-table-scroll">
 <table class="med-master-table">
@@ -624,7 +624,7 @@ Ask: suicide, serotonin syndrome, sedation, Extrapyramidal Symptoms (EPS) / Neur
 </table>
 </div>
 
-</section>
+</details>
 
 ---
 
