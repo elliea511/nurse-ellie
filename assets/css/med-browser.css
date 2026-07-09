@@ -844,6 +844,51 @@ body[data-page-type="med-browser"] .main-content details.med-class[open] > summa
   width: 48%;
 }
 
+#quick-review .med-teaching-grid {
+  grid-template-columns: minmax(320px, .9fr) minmax(560px, 1.35fr);
+  align-items: start;
+}
+
+#quick-review .med-info-box {
+  min-width: 0;
+}
+
+#quick-review .med-info-box.gold {
+  background: linear-gradient(135deg, #fffaf0, #fff);
+}
+
+#quick-review .med-mini-table {
+  table-layout: auto;
+  font-size: .92rem;
+}
+
+#quick-review .med-mini-table th {
+  width: 58%;
+  min-width: 310px;
+  color: #4f2ca6;
+  background: #f1ebff;
+  font-size: .84rem;
+  line-height: 1.35;
+  letter-spacing: .02em;
+  text-transform: none;
+}
+
+#quick-review .med-mini-table td {
+  width: 42%;
+  min-width: 230px;
+  background: rgba(255,255,255,.82);
+  color: #241f46;
+  line-height: 1.4;
+}
+
+#quick-review .med-mini-table tr:nth-child(even) th {
+  background: #f7f2ff;
+}
+
+#quick-review .med-mini-table tr:nth-child(even) td {
+  background: #fffdf8;
+}
+
 @media (max-width: 1100px) {
   .med-browser-card::before {
     display: none;
@@ -851,5 +896,14 @@ body[data-page-type="med-browser"] .main-content details.med-class[open] > summa
 
   .med-toolbar {
     padding-right: 0;
+  }
+
+  #quick-review .med-teaching-grid {
+    grid-template-columns: 1fr;
+  }
+
+  #quick-review .med-mini-table th,
+  #quick-review .med-mini-table td {
+    min-width: 0;
   }
 }
