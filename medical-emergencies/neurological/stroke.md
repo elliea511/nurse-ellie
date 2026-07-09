@@ -276,7 +276,7 @@ Your notes emphasize:
 
 **Time is brain destruction.**
 
-Treatment should be initiated within 3 hours of symptom onset for this review. Some facilities may use up to 4.5 hours for select clients, but remember the 3-hour window for this exam.
+Treatment should be initiated within 3 hours of symptom onset in class notes. Some facilities may use up to 4.5 hours for select clients, but remember the 3-hour window for this exam.
 
 ---
 
@@ -335,7 +335,7 @@ It helps re-establish blood flow, prevent cerebral infarction, and limit seconda
 |---|---|
 | Example | rtPA/alteplase |
 | Route | IV |
-| Timing | Remember within 3 hours of symptom onset |
+| Timing | Class notes emphasize within 3 hours of symptom onset |
 | Note | Some studies support up to 4.5 hours in select clients, but remember 3 hours for this exam |
 
 ---
