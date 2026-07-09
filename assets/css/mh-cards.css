@@ -2921,3 +2921,465 @@ body[data-page-type="med-browser"] #master-chart .med-section-icon { background:
     padding-right: 3rem;
   }
 }
+
+/* Medication browser v2 — closer to the clean mockup layout */
+body[data-page-type="med-browser"] {
+  --med2-purple: #6940c6;
+  --med2-purple-dark: #151847;
+  --med2-purple-soft: #f4edff;
+  --med2-pink: #ec5b9a;
+  --med2-blue: #4d83d8;
+  --med2-green: #2fa574;
+  --med2-gold: #f1a824;
+  --med2-red: #e64545;
+  --med2-text: #151847;
+  --med2-muted: #6d6b8b;
+  --med2-line: #ddd2f2;
+  background: linear-gradient(180deg, #fffaff 0%, #fbf8ff 34%, #ffffff 100%) !important;
+}
+
+body[data-page-type="med-browser"] .page-wrapper {
+  width: min(100% - 1.5rem, 1500px) !important;
+}
+
+body[data-page-type="med-browser"] .main-content {
+  max-width: none !important;
+  padding: clamp(1rem, 2vw, 1.75rem) !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+body[data-page-type="med-browser"] .mh-breadcrumb {
+  max-width: 1320px !important;
+  margin: 0 auto 1rem !important;
+}
+
+body[data-page-type="med-browser"] .med-page-wrap {
+  max-width: 1320px !important;
+  margin: 0 auto !important;
+}
+
+body[data-page-type="med-browser"] .med-page-wrap > h1 {
+  display: flex !important;
+  align-items: center !important;
+  gap: .95rem !important;
+  margin: .4rem 0 .9rem !important;
+  color: var(--med2-purple-dark) !important;
+  font-family: "Plus Jakarta Sans", "Nunito", sans-serif !important;
+  font-size: clamp(2rem, 4vw, 3.3rem) !important;
+  line-height: 1.03 !important;
+  letter-spacing: -.045em !important;
+}
+
+body[data-page-type="med-browser"] .med-page-wrap > h1::before {
+  content: "🧠" !important;
+  width: clamp(54px, 6vw, 70px) !important;
+  height: clamp(54px, 6vw, 70px) !important;
+  border-radius: 18px !important;
+  background: linear-gradient(135deg, #7448d7, #4e2a9d) !important;
+  box-shadow: 0 14px 30px rgba(94, 53, 170, .22) !important;
+  font-size: clamp(1.8rem, 3vw, 2.35rem) !important;
+}
+
+body[data-page-type="med-browser"] .med-hero-card {
+  display: grid !important;
+  grid-template-columns: minmax(280px, 1.05fr) minmax(320px, 1.3fr) auto !important;
+  align-items: center !important;
+  gap: 1rem !important;
+  margin: 0 0 1rem !important;
+  padding: 1rem !important;
+  border: 1px solid var(--med2-line) !important;
+  border-radius: 24px !important;
+  background: rgba(255, 255, 255, .92) !important;
+  box-shadow: 0 18px 50px rgba(65, 47, 105, .08) !important;
+}
+
+body[data-page-type="med-browser"] .med-hero-card::after {
+  content: none !important;
+}
+
+body[data-page-type="med-browser"] .med-hero-card h2 {
+  margin: 0 0 .35rem !important;
+  color: var(--med2-purple) !important;
+  font-size: 1rem !important;
+  letter-spacing: .055em !important;
+  text-transform: uppercase !important;
+}
+
+body[data-page-type="med-browser"] .med-hero-card p {
+  margin: 0 !important;
+  color: var(--med2-muted) !important;
+  font-size: .92rem !important;
+  line-height: 1.45 !important;
+}
+
+body[data-page-type="med-browser"] .med-pills {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  justify-content: center !important;
+  gap: .55rem !important;
+  margin: 0 !important;
+}
+
+body[data-page-type="med-browser"] .med-pills a {
+  min-height: 38px !important;
+  padding: .55rem .82rem !important;
+  border: 1px solid #d6c4f2 !important;
+  border-radius: 999px !important;
+  background: #fff !important;
+  color: var(--med2-purple) !important;
+  box-shadow: none !important;
+  font-size: .82rem !important;
+  font-weight: 900 !important;
+}
+
+body[data-page-type="med-browser"] .med-pills a:hover,
+body[data-page-type="med-browser"] .med-pills a:focus-visible {
+  transform: none !important;
+  background: var(--med2-purple-soft) !important;
+  box-shadow: 0 8px 18px rgba(92, 48, 174, .10) !important;
+}
+
+body[data-page-type="med-browser"] .med-game-launch {
+  justify-self: end !important;
+  margin: 0 !important;
+  white-space: nowrap !important;
+  min-height: 42px !important;
+  padding: .65rem 1rem !important;
+  border-radius: 999px !important;
+  background: linear-gradient(135deg, #7a4bd8, #5b32b2) !important;
+  color: #fff !important;
+  box-shadow: 0 12px 22px rgba(92, 48, 174, .20) !important;
+}
+
+body[data-page-type="med-browser"] .med-page-wrap > hr {
+  display: none !important;
+}
+
+body[data-page-type="med-browser"] .med-section,
+body[data-page-type="med-browser"] .med-study-path {
+  margin: .7rem 0 !important;
+  padding: 0 !important;
+  border: 1px solid var(--med2-line) !important;
+  border-radius: 20px !important;
+  background: rgba(255, 255, 255, .96) !important;
+  box-shadow: 0 12px 34px rgba(65, 47, 105, .055) !important;
+  overflow: hidden !important;
+}
+
+body[data-page-type="med-browser"] .med-section-header {
+  display: grid !important;
+  grid-template-columns: 48px minmax(0, 1fr) !important;
+  align-items: center !important;
+  gap: .8rem !important;
+  margin: 0 !important;
+  padding: .9rem 1rem !important;
+  border-bottom: 1px solid #eee7f8 !important;
+  background: linear-gradient(135deg, #ffffff, #fbf8ff) !important;
+}
+
+body[data-page-type="med-browser"] .med-section-icon {
+  width: 42px !important;
+  height: 42px !important;
+  border-radius: 13px !important;
+  font-size: 1.2rem !important;
+  box-shadow: none !important;
+}
+
+body[data-page-type="med-browser"] .med-section-header h2 {
+  margin: 0 !important;
+  color: var(--med2-purple) !important;
+  font-size: 1.25rem !important;
+  letter-spacing: -.02em !important;
+}
+
+body[data-page-type="med-browser"] .med-section-header p {
+  margin: .16rem 0 0 !important;
+  color: var(--med2-muted) !important;
+  font-size: .88rem !important;
+  line-height: 1.35 !important;
+}
+
+body[data-page-type="med-browser"] .med-danger-grid {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(185px, 1fr)) !important;
+  gap: .65rem !important;
+  padding: 1rem !important;
+  background: linear-gradient(135deg, #fff7f7, #fff) !important;
+}
+
+body[data-page-type="med-browser"] .danger-box {
+  min-height: 0 !important;
+  padding: .82rem .85rem !important;
+  border: 1px solid #ffadad !important;
+  border-left: 4px solid var(--med2-red) !important;
+  border-radius: 14px !important;
+  background: #fff !important;
+  box-shadow: none !important;
+  color: var(--med2-text) !important;
+  font-size: .88rem !important;
+  line-height: 1.42 !important;
+}
+
+body[data-page-type="med-browser"] .danger-box strong {
+  margin-bottom: .24rem !important;
+  color: #c51f2b !important;
+  font-size: .93rem !important;
+}
+
+body[data-page-type="med-browser"] .med-study-path {
+  display: grid !important;
+  grid-template-columns: 210px minmax(0, 1fr) !important;
+  align-items: stretch !important;
+  padding: 1rem !important;
+  background: linear-gradient(135deg, #f8f3ff, #ffffff) !important;
+}
+
+body[data-page-type="med-browser"] .med-study-path h2 {
+  margin: 0 !important;
+  align-self: center !important;
+  color: var(--med2-purple) !important;
+  font-size: 1.2rem !important;
+}
+
+body[data-page-type="med-browser"] .med-two-col {
+  display: grid !important;
+  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  gap: .7rem !important;
+  padding: 1rem !important;
+}
+
+body[data-page-type="med-browser"] .med-study-path .med-two-col {
+  padding: 0 !important;
+}
+
+body[data-page-type="med-browser"] .med-mini-card {
+  padding: .85rem !important;
+  border: 1px solid #dfd2f2 !important;
+  border-radius: 14px !important;
+  background: #fff !important;
+  box-shadow: none !important;
+}
+
+body[data-page-type="med-browser"] .med-mini-card h3 {
+  margin: 0 0 .35rem !important;
+  color: var(--med2-purple) !important;
+  font-size: .84rem !important;
+  letter-spacing: .04em !important;
+  text-transform: uppercase !important;
+}
+
+body[data-page-type="med-browser"] .med-mini-card ul {
+  margin: .3rem 0 0 1rem !important;
+  padding: 0 !important;
+}
+
+body[data-page-type="med-browser"] .med-mini-card li {
+  margin: .22rem 0 !important;
+  line-height: 1.35 !important;
+}
+
+body[data-page-type="med-browser"] .med-accordion {
+  margin: .55rem 1rem !important;
+  border: 1px solid #ded4ef !important;
+  border-radius: 14px !important;
+  background: #fff !important;
+  box-shadow: none !important;
+  overflow: hidden !important;
+}
+
+body[data-page-type="med-browser"] .med-accordion:first-of-type {
+  margin-top: .2rem !important;
+}
+
+body[data-page-type="med-browser"] .med-accordion:last-child {
+  margin-bottom: 1rem !important;
+}
+
+body[data-page-type="med-browser"] .med-accordion summary {
+  display: grid !important;
+  grid-template-columns: minmax(0, 1fr) 34px !important;
+  align-items: center !important;
+  gap: .7rem !important;
+  min-height: 58px !important;
+  padding: .72rem .75rem .72rem 1rem !important;
+  color: var(--med2-purple-dark) !important;
+  background: #fff !important;
+  font-size: 1rem !important;
+  font-weight: 950 !important;
+}
+
+body[data-page-type="med-browser"] .med-accordion summary::after {
+  position: static !important;
+  width: 30px !important;
+  height: 30px !important;
+  transform: none !important;
+  border-color: #b99bef !important;
+  color: var(--med2-purple) !important;
+  background: #fff !important;
+}
+
+body[data-page-type="med-browser"] .med-accordion summary span {
+  margin-top: .15rem !important;
+  color: var(--med2-muted) !important;
+  font-size: .78rem !important;
+  font-weight: 800 !important;
+}
+
+body[data-page-type="med-browser"] .med-accordion[open] {
+  border-color: #a984ef !important;
+  box-shadow: 0 10px 24px rgba(92, 48, 174, .10) !important;
+}
+
+body[data-page-type="med-browser"] .med-accordion[open] summary {
+  background: linear-gradient(135deg, #fbf8ff, #ffffff) !important;
+}
+
+body[data-page-type="med-browser"] .med-accordion-body {
+  display: grid !important;
+  grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+  gap: 0 !important;
+  padding: 0 !important;
+  border-top: 1px solid #eee7f8 !important;
+  background: #fff !important;
+}
+
+body[data-page-type="med-browser"] .med-accordion-body > p {
+  margin: 0 !important;
+  padding: .95rem 1rem !important;
+  border: 0 !important;
+  border-right: 1px solid #eee7f8 !important;
+  border-radius: 0 !important;
+  background: #fff !important;
+  color: #3f3b5d !important;
+  font-size: .9rem !important;
+  line-height: 1.5 !important;
+}
+
+body[data-page-type="med-browser"] .med-accordion-body > p:nth-of-type(3n) {
+  border-right: 0 !important;
+}
+
+body[data-page-type="med-browser"] .med-accordion-body > p strong {
+  display: block !important;
+  margin-bottom: .25rem !important;
+  color: var(--med2-purple) !important;
+  font-size: .76rem !important;
+  letter-spacing: .04em !important;
+  text-transform: uppercase !important;
+}
+
+body[data-page-type="med-browser"] .med-quick-line,
+body[data-page-type="med-browser"] .med-alert {
+  grid-column: 1 / -1 !important;
+  margin: 0 !important;
+  padding: .78rem 1rem !important;
+  border-radius: 0 !important;
+  font-size: .88rem !important;
+  line-height: 1.4 !important;
+}
+
+body[data-page-type="med-browser"] .med-quick-line {
+  border: 0 !important;
+  border-top: 1px solid #cfe2ff !important;
+  background: #eef7ff !important;
+  color: #155ca8 !important;
+}
+
+body[data-page-type="med-browser"] .med-alert {
+  border: 0 !important;
+  border-top: 1px solid #ffcaca !important;
+  background: #fff3f3 !important;
+  color: #a91f2b !important;
+}
+
+body[data-page-type="med-browser"] .med-table-scroll {
+  margin: 1rem !important;
+  border: 1px solid #dfd4f1 !important;
+  border-radius: 14px !important;
+  overflow: auto !important;
+}
+
+body[data-page-type="med-browser"] .med-master-table {
+  min-width: 760px !important;
+  border-collapse: collapse !important;
+}
+
+body[data-page-type="med-browser"] .med-master-table th,
+body[data-page-type="med-browser"] .med-master-table td {
+  padding: .75rem .8rem !important;
+  border: 0 !important;
+  border-bottom: 1px solid #eee7f8 !important;
+}
+
+body[data-page-type="med-browser"] .med-master-table th {
+  background: #f5efff !important;
+  color: var(--med2-purple-dark) !important;
+}
+
+body[data-page-type="med-browser"] .cheer-banner,
+body[data-page-type="med-browser"] .med-focus-footer {
+  margin: 1rem 0 0 !important;
+  padding: .95rem 1rem !important;
+  border: 1px solid #ded2f2 !important;
+  border-radius: 18px !important;
+  background: linear-gradient(135deg, #f7f0ff, #ffffff) !important;
+  color: var(--med2-purple-dark) !important;
+  box-shadow: none !important;
+}
+
+@media (min-width: 920px) {
+  body[data-page-type="med-browser"] #antidepressants,
+  body[data-page-type="med-browser"] #anxiety-ocd,
+  body[data-page-type="med-browser"] #mood-stabilizers,
+  body[data-page-type="med-browser"] #antipsychotics,
+  body[data-page-type="med-browser"] #substance-use,
+  body[data-page-type="med-browser"] #eating-special,
+  body[data-page-type="med-browser"] #eps-antidotes {
+    display: grid !important;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) !important;
+    column-gap: .2rem !important;
+  }
+
+  body[data-page-type="med-browser"] .med-section-header,
+  body[data-page-type="med-browser"] .med-two-col {
+    grid-column: 1 / -1 !important;
+  }
+
+  body[data-page-type="med-browser"] .med-accordion[open] {
+    grid-column: 1 / -1 !important;
+  }
+}
+
+@media (max-width: 1080px) {
+  body[data-page-type="med-browser"] .med-hero-card,
+  body[data-page-type="med-browser"] .med-study-path {
+    grid-template-columns: 1fr !important;
+  }
+
+  body[data-page-type="med-browser"] .med-game-launch {
+    justify-self: start !important;
+  }
+}
+
+@media (max-width: 760px) {
+  body[data-page-type="med-browser"] .med-page-wrap > h1 {
+    align-items: flex-start !important;
+    font-size: 2.1rem !important;
+  }
+
+  body[data-page-type="med-browser"] .med-two-col,
+  body[data-page-type="med-browser"] .med-accordion-body {
+    grid-template-columns: 1fr !important;
+  }
+
+  body[data-page-type="med-browser"] .med-accordion-body > p {
+    border-right: 0 !important;
+    border-bottom: 1px solid #eee7f8 !important;
+  }
+
+  body[data-page-type="med-browser"] .med-pills a,
+  body[data-page-type="med-browser"] .med-game-launch {
+    width: 100% !important;
+  }
+}
