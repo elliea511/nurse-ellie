@@ -265,7 +265,7 @@ These disorders often involve **stress, trauma, anxiety, altered perception, phy
       </tr>
       <tr>
         <td><strong>Amobarbital</strong></td>
-        <td>Class note: may help retrieve memories and treat seizures/insomnia.</td>
+        <td>May help retrieve memories and treat seizures/insomnia in specific clinical contexts.</td>
       </tr>
       <tr>
         <td><strong>Body-oriented psychosocial therapy</strong></td>

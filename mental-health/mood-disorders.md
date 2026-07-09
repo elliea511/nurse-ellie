@@ -498,7 +498,7 @@ Mood disorders affect a patient’s emotional state, energy, sleep, thinking, be
       <tr>
         <td><strong>Newer Antipsychotics</strong></td>
         <td>Bipolar disorder, especially with psychotic features.</td>
-        <td>Monitor cardiac effects, weight gain, insulin resistance, diabetes risk, EPS/NMS.</td>
+        <td>Monitor cardiac effects, weight gain, insulin resistance, diabetes risk, Extrapyramidal Symptoms (EPS) / Neuroleptic malignant syndrome (NMS).</td>
         <td>Report fever, rigidity, abnormal movements, severe restlessness, or major weight changes.</td>
       </tr>
     </tbody>

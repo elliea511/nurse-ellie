@@ -108,7 +108,7 @@ page_type: med-browser
 
           <article class="med-card">
             <header><span>💗</span><div><h4>TCA</h4><small>Imipramine</small></div></header>
-            <p><strong>Used for:</strong> Depression; class notes connect TCAs with somatic disorders and OCD options.</p>
+            <p><strong>Used for:</strong> Depression; TCAs may also appear with somatic disorders and OCD medication options.</p>
             <p><strong>Monitor:</strong> Anticholinergic effects, sedation, orthostatic hypotension, cardiac effects, overdose danger.</p>
             <div class="med-nclex">NCLEX cue: TCA overdose can be fatal/dangerous.</div>
           </article>
@@ -130,7 +130,7 @@ page_type: med-browser
         <div class="med-card-grid">
           <article class="med-card"><header><span>🌸</span><div><h4>Benzodiazepines</h4><small>Diazepam • Chlordiazepoxide • Lorazepam</small></div></header><p><strong>Used for:</strong> Acute anxiety/panic, alcohol withdrawal, severe withdrawal/DTs, stimulant agitation if ordered.</p><p><strong>Monitor:</strong> Sedation, falls, dependence, respiratory depression, withdrawal seizures.</p><div class="med-nclex">NCLEX cue: Fast relief, but big safety risk: breathing, falls, dependence.</div></article>
           <article class="med-card"><header><span>🌿</span><div><h4>Buspirone / BuSpar</h4><small>Long-term anxiety medication</small></div></header><p><strong>Used for:</strong> Long-term anxiety treatment.</p><p><strong>Monitor:</strong> Delayed onset; not useful for immediate panic relief.</p><p><strong>Teach:</strong> Takes weeks. No tolerance/addiction like benzos. Take consistently.</p><div class="med-nclex">NCLEX cue: Not a rescue medication.</div></article>
-          <article class="med-card"><header><span>🧠</span><div><h4>Fluvoxamine / Luvox</h4><small>OCD medication</small></div></header><p><strong>Used for:</strong> OCD.</p><p><strong>Monitor:</strong> Serotonin syndrome, suicide risk early, GI/sleep effects.</p><div class="med-nclex">NCLEX cue: OCD med from class.</div></article>
+          <article class="med-card"><header><span>🧠</span><div><h4>Fluvoxamine / Luvox</h4><small>OCD medication</small></div></header><p><strong>Used for:</strong> OCD.</p><p><strong>Monitor:</strong> Serotonin syndrome, suicide risk early, GI/sleep effects.</p><div class="med-nclex">NCLEX cue: High-yield OCD medication.</div></article>
           <article class="med-card"><header><span>💓</span><div><h4>Propranolol / Inderal</h4><small>Beta blocker for physical anxiety symptoms</small></div></header><p><strong>Used for:</strong> Physical anxiety symptoms like tremor, palpitations, or performance anxiety.</p><p><strong>Monitor:</strong> Low HR, low BP, dizziness.</p><div class="med-nclex">NCLEX cue: Controls body symptoms, not the emotional cause.</div></article>
         </div>
       </div>
@@ -156,10 +156,10 @@ page_type: med-browser
           <div class="med-info-box green"><h3>Teaching Points</h3><ul><li>Report abnormal movements.</li><li>Report fever/rigidity/confusion.</li><li>Keep metabolic labs.</li></ul></div>
         </div>
         <div class="med-card-grid">
-          <article class="med-card"><header><span>⚠</span><div><h4>First-Generation Antipsychotics</h4><small>Haloperidol • Chlorpromazine • Thiothixene</small></div></header><p><strong>Used for:</strong> Psychosis, hallucinations, delusions, severe agitation.</p><p><strong>Monitor:</strong> Extrapyramidal Symptoms (EPS), Neuroleptic malignant syndrome (NMS), sedation, orthostatic hypotension, anticholinergic effects.</p><div class="med-nclex">NCLEX cue: First-gen = EPS/NMS focus.</div></article>
-          <article class="med-card"><header><span>📊</span><div><h4>Second-Generation Antipsychotics</h4><small>Risperidone • Olanzapine • Aripiprazole</small></div></header><p><strong>Used for:</strong> Schizophrenia/psychosis, bipolar psychotic features.</p><p><strong>Monitor:</strong> Weight gain, glucose/lipids, metabolic syndrome, sedation, EPS/NMS.</p><div class="med-nclex">NCLEX cue: Second-gen = metabolic monitoring.</div></article>
+          <article class="med-card"><header><span>⚠</span><div><h4>First-Generation Antipsychotics</h4><small>Haloperidol • Chlorpromazine • Thiothixene</small></div></header><p><strong>Used for:</strong> Psychosis, hallucinations, delusions, severe agitation.</p><p><strong>Monitor:</strong> Extrapyramidal Symptoms (EPS), Neuroleptic malignant syndrome (NMS), sedation, orthostatic hypotension, anticholinergic effects.</p><div class="med-nclex">NCLEX cue: First-gen = Extrapyramidal Symptoms (EPS) / Neuroleptic malignant syndrome (NMS) focus.</div></article>
+          <article class="med-card"><header><span>📊</span><div><h4>Second-Generation Antipsychotics</h4><small>Risperidone • Olanzapine • Aripiprazole</small></div></header><p><strong>Used for:</strong> Schizophrenia/psychosis, bipolar psychotic features.</p><p><strong>Monitor:</strong> Weight gain, glucose/lipids, metabolic syndrome, sedation, Extrapyramidal Symptoms (EPS) / Neuroleptic malignant syndrome (NMS).</p><div class="med-nclex">NCLEX cue: Second-gen = metabolic monitoring.</div></article>
           <article class="med-card"><header><span>🩸</span><div><h4>Clozapine</h4><small>High-risk antipsychotic</small></div></header><p><strong>Used for:</strong> Treatment-resistant schizophrenia/psychosis.</p><p><strong>Monitor:</strong> WBC/ANC, infection symptoms, seizures, myocarditis, metabolic syndrome.</p><div class="med-danger-note">Priority: Clozapine = agranulocytosis risk. Fever/sore throat matters.</div></article>
-          <article class="med-card"><header><span>🧩</span><div><h4>Pimozide / Orap</h4><small>Paranoid thoughts class-note medication</small></div></header><p><strong>Used for:</strong> Class note: can decrease paranoid thoughts.</p><p><strong>Monitor:</strong> Antipsychotic-type adverse effects, cardiac concerns, EPS/NMS.</p></article>
+          <article class="med-card"><header><span>🧩</span><div><h4>Pimozide / Orap</h4><small>Paranoid thoughts medication cue</small></div></header><p><strong>Used for:</strong> May decrease paranoid thoughts.</p><p><strong>Monitor:</strong> Antipsychotic-type adverse effects, cardiac concerns, Extrapyramidal Symptoms (EPS) / Neuroleptic malignant syndrome (NMS).</p></article>
         </div>
       </div>
     </details>
@@ -170,17 +170,17 @@ page_type: med-browser
         <div class="med-card-grid">
           <article class="med-card"><header><span>🚑</span><div><h4>Opioid Overdose + Withdrawal</h4><small>Naloxone • Methadone • Clonidine • Buprenorphine/Naloxone • Lofexidine</small></div></header><p><strong>Naloxone:</strong> Opioid overdose reversal. Breathing/airway first, then naloxone.</p><p><strong>Methadone:</strong> Opioid withdrawal/maintenance. Monitor sedation and respiratory depression.</p><p><strong>Clonidine/Lofexidine:</strong> Helps withdrawal symptoms. Monitor low BP/dizziness.</p><div class="med-danger-note">Priority: Opioid overdose death is usually respiratory arrest → promote breathing first.</div></article>
           <article class="med-card"><header><span>🍷</span><div><h4>Alcohol Withdrawal / DTs</h4><small>Diazepam • Chlordiazepoxide • Lorazepam • B vitamins • IV thiamine</small></div></header><p><strong>Used for:</strong> Alcohol withdrawal seizures, DTs, thiamine deficiency prevention/treatment.</p><p><strong>Monitor:</strong> VS, hallucinations, seizures, delirium, Wernicke/Korsakoff cues.</p><div class="med-nclex">NCLEX cue: Benzos + thiamine focus.</div></article>
-          <article class="med-card"><header><span>🚭</span><div><h4>Tobacco + Gambling Disorder Meds</h4><small>Nicotine replacement • Varenicline • Bupropion • SSRIs • Mood stabilizers</small></div></header><p><strong>Used for:</strong> Tobacco withdrawal/cessation; gambling disorder options from class notes.</p><p><strong>Monitor:</strong> Mood changes, BP/HR depending on product, adherence.</p></article>
+          <article class="med-card"><header><span>🚭</span><div><h4>Tobacco + Gambling Disorder Meds</h4><small>Nicotine replacement • Varenicline • Bupropion • SSRIs • Mood stabilizers</small></div></header><p><strong>Used for:</strong> Tobacco withdrawal/cessation; gambling disorder medication options may include SSRIs, bupropion, mood stabilizers, and anticonvulsants.</p><p><strong>Monitor:</strong> Mood changes, BP/HR depending on product, adherence.</p></article>
         </div>
       </div>
     </details>
 
     <details id="eating-special" class="med-class">
-      <summary><span class="med-class-icon pink">♡</span><span><strong>Eating Disorder + Special Medications</strong><small>Binge eating disorder, somatic/dissociative disorders, and special class-note cues.</small></span></summary>
+      <summary><span class="med-class-icon pink">♡</span><span><strong>Eating Disorder + Special Medications</strong><small>Binge eating disorder, somatic/dissociative disorders, and special medication cues.</small></span></summary>
       <div class="med-class-body">
         <div class="med-card-grid">
           <article class="med-card"><header><span>🍽</span><div><h4>Binge Eating Disorder Meds</h4><small>Vyvanse • Topamax/Topiramate • Contrave</small></div></header><p><strong>Vyvanse:</strong> Monitor stimulant effects, HR/BP, appetite, insomnia, misuse risk.</p><p><strong>Topamax:</strong> Monitor cognitive slowing, dizziness, weight/appetite changes, pregnancy concerns.</p><p><strong>Contrave:</strong> Watch BP, mood changes, and seizure risk.</p></article>
-          <article class="med-card"><header><span>🌙</span><div><h4>Amobarbital</h4><small>Conversion disorder class-note medication</small></div></header><p><strong>Used for:</strong> Class note: may help retrieve memories and treat seizures/insomnia.</p><p><strong>Monitor:</strong> Sedation, respiratory depression, safety.</p></article>
+          <article class="med-card"><header><span>🌙</span><div><h4>Amobarbital</h4><small>Conversion disorder medication cue</small></div></header><p><strong>Used for:</strong> May help retrieve memories and treat seizures/insomnia in specific clinical contexts.</p><p><strong>Monitor:</strong> Sedation, respiratory depression, safety.</p></article>
         </div>
       </div>
     </details>

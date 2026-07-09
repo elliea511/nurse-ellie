@@ -214,7 +214,7 @@ Suicide and abuse questions are **safety-first** questions. Nursing priorities i
 </div>
 
 <div class="detail-callout" markdown="1">
-<strong>Lethality:</strong> A self-inflicted gunshot wound is considered a high-lethality method compared with pills, wrist cutting, or gas inhalation examples from class.
+<strong>Lethality:</strong> A self-inflicted gunshot wound is considered a high-lethality method compared with pills, wrist cutting, or gas inhalation examples.
 </div>
 
 </div>

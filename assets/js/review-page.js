@@ -232,7 +232,7 @@
             statCard(t.manual, 'written notes') +
           '</div>' +
           '<div class="mn-tools">' +
-            '<label class="mn-search"><span>Search</span><input id="mn-search" type="search" placeholder="Search your notes…"></label>' +
+            '<label class="mn-search"><span>Search</span><input id="mn-search" type="search" placeholder="Search saved highlights…"></label>' +
             '<div class="mn-tool-actions"><button id="mn-print" type="button">Save as PDF</button><button id="mn-clear-all" type="button">Clear highlights</button></div>' +
           '</div>' +
           '<div id="mn-card-grid" class="mn-card-grid"></div>' +

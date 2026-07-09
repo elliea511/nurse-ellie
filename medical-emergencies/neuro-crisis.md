@@ -910,7 +910,7 @@ Your notes emphasize:
 
 **Time is brain destruction.**
 
-Treatment should be initiated within 3 hours of symptom onset in class notes. Some facilities may use up to 4.5 hours for select clients, but remember the 3-hour window for this exam.
+Treatment should be initiated within 3 hours of symptom onset for this review. Some facilities may use up to 4.5 hours for select clients, but remember the 3-hour window for this exam.
 
 ---
 
@@ -977,7 +977,7 @@ Given IV.
 
 ## Timing
 
-Class notes emphasize treatment within **3 hours** of symptom onset.
+Remember treatment within **3 hours** of symptom onset.
 
 Some studies support up to 4.5 hours in select clients, but most facilities want it started within 3 hours.
 
@@ -1828,4 +1828,3 @@ Recognize:
 | Shunt types               | VP drains to peritoneum; VA drains to vascular system                             |
 | After shunt               | Do not sit upright immediately                                                    |
 | Shunt malfunction         | High-pitched cry, vomiting, bulging fontanel, decreased LOC                       |
-
