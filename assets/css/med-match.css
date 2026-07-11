@@ -276,6 +276,32 @@ body[data-page-type="mental-health-med-game"] .main-content {
 .mmm-answer-card.is-hint { border-color: #f2b632; box-shadow: 0 0 0 4px rgba(242, 182, 50, .22); animation: mmm-pulse 1s ease infinite alternate; }
 
 .mmm-feedback { margin-top: 1rem; padding: .7rem .9rem; border-radius: 12px; background: #f6f3fc; color: #4c3a75; font-size: .78rem; font-weight: 800; }
+.mmm-complete-card {
+  display: flex;
+  gap: .8rem;
+  align-items: center;
+  margin-top: 1rem;
+  padding: 1rem;
+  border: 1px solid #c9b5ff;
+  border-radius: 16px;
+  background: linear-gradient(135deg, #f6f0ff, #eef7ff);
+  color: #31206f;
+  box-shadow: 0 10px 24px rgba(97, 64, 180, .12);
+}
+.mmm-complete-card[hidden] { display: none; }
+.mmm-complete-card > span {
+  display: grid;
+  place-items: center;
+  flex: 0 0 48px;
+  width: 48px;
+  height: 48px;
+  border-radius: 16px;
+  background: linear-gradient(135deg, #7548df, #f062a0);
+  color: #fff;
+  font-size: 1.55rem;
+}
+.mmm-complete-card strong { display: block; font-size: 1rem; }
+.mmm-complete-card p { margin: .2rem 0 0; color: #5d527c; font-size: .8rem; line-height: 1.4; }
 .mmm-next-round { display: block; margin: .8rem 0 0 auto; padding: .7rem 1rem; border: 0; border-radius: 11px; background: linear-gradient(135deg, #6840cf, #895fe6); color: #fff; font-weight: 900; cursor: pointer; }
 .mmm-next-round[hidden] { display: none; }
 

@@ -58,6 +58,13 @@ page_type: mental-health-med-game
       </div>
 
       <div class="mmm-feedback" id="mmm-feedback" role="status" aria-live="polite">Select a medication to begin.</div>
+      <div class="mmm-complete-card" id="mmm-complete-card" hidden>
+        <span aria-hidden="true">🏆</span>
+        <div>
+          <strong id="mmm-complete-title">Game complete!</strong>
+          <p id="mmm-complete-text">You matched every medication in this set.</p>
+        </div>
+      </div>
       <button class="mmm-next-round" id="mmm-next-round" type="button" hidden>Start next round →</button>
     </section>
 

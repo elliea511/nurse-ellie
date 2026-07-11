@@ -74,11 +74,23 @@
     selectedMedication: null,
     roundMedications: [],
     answers: [],
-    matched: new Set()
+    matched: new Set(),
+    completedMedications: new Set()
   };
 
   function getCategory() {
     return categoryDefinitions.find((category) => category.id === state.category) || categoryDefinitions[0];
+  }
+
+  function getPool() {
+    return medications.filter(getCategory().matches);
+  }
+
+  function resetCurrentGame() {
+    Object.assign(state, { round: 0, score: 0, streak: 0, totalCorrect: 0, hints: 3, selectedMedication: null });
+    state.matched = new Set();
+    state.completedMedications = new Set();
+    $("mmm-complete-card").hidden = true;
   }
 
   function createAnswers(roundMedications) {
@@ -100,13 +112,20 @@
   }
 
   function buildRound() {
+    const pool = getPool();
+    const remaining = pool.filter((medication) => !state.completedMedications.has(medication.medication));
+    if (!remaining.length) {
+      showGameComplete();
+      return;
+    }
+
     state.round += 1;
     state.selectedMedication = null;
     state.matched = new Set();
-    const pool = medications.filter(getCategory().matches);
-    state.roundMedications = shuffle(pool).slice(0, Math.min(5, pool.length));
+    state.roundMedications = shuffle(remaining).slice(0, Math.min(5, remaining.length));
     state.answers = shuffle(createAnswers(state.roundMedications));
     $("mmm-next-round").hidden = true;
+    $("mmm-complete-card").hidden = true;
     $("mmm-feedback").textContent = "Select a medication to begin.";
     renderBoard();
     updateStats();
@@ -135,8 +154,9 @@
   }
 
   function updateStats() {
-    const total = state.roundMedications.length || 1;
-    const complete = state.matched.size;
+    const pool = getPool();
+    const total = pool.length || 1;
+    const complete = pool.filter((medication) => state.completedMedications.has(medication.medication)).length;
     const percent = Math.round((complete / total) * 100);
     const level = Math.max(1, Math.floor(state.totalCorrect / 10) + 1);
     const ranks = ["New Nurse", "Med Rookie", "Safety Scout", "Psych Pro", "NCLEX Ready"];
@@ -144,14 +164,27 @@
     $("mmm-rank").textContent = ranks[Math.min(ranks.length - 1, level - 1)];
     $("mmm-progress-label").textContent = `${percent}%`;
     $("mmm-progress-bar").style.width = `${percent}%`;
-    $("mmm-progress-count").textContent = `${complete} / ${total} matches`;
-    $("mmm-match-count").textContent = `${complete} / ${total} matches`;
+    $("mmm-progress-count").textContent = `${complete} / ${total} total meds`;
+    $("mmm-match-count").textContent = `${state.matched.size} / ${state.roundMedications.length || 0} this round`;
     $("mmm-score").textContent = state.score.toLocaleString();
     $("mmm-streak").textContent = state.streak;
     $("mmm-best").textContent = state.best;
     $("mmm-hints-left").textContent = state.hints;
     $("mmm-streak-note").textContent = state.streak >= 3 ? "Keep it going!" : state.streak ? "Nice match!" : "Start matching!";
     $("mmm-round-type").textContent = `${getCategory().label} · Round ${state.round}`;
+  }
+
+  function showGameComplete() {
+    const pool = getPool();
+    const complete = pool.filter((medication) => state.completedMedications.has(medication.medication)).length;
+    $("mmm-feedback").textContent = `Complete! You matched ${complete} of ${pool.length} medications in ${getCategory().label}.`;
+    $("mmm-complete-title").textContent = getCategory().id === "all" ? "Entire game complete!" : `${getCategory().label} complete!`;
+    $("mmm-complete-text").textContent = getCategory().id === "all"
+      ? `You matched all ${pool.length} mental health medications. Final score: ${state.score.toLocaleString()} points.`
+      : `You matched all ${pool.length} medications in this category. Final score: ${state.score.toLocaleString()} points.`;
+    $("mmm-complete-card").hidden = false;
+    $("mmm-next-round").hidden = true;
+    updateStats();
   }
 
   function selectMedication(name) {
@@ -168,6 +201,7 @@
     }
     if (name === state.selectedMedication) {
       state.matched.add(name);
+      state.completedMedications.add(name);
       state.streak += 1;
       state.totalCorrect += 1;
       state.score += 100 + Math.min(100, (state.streak - 1) * 10);
@@ -180,8 +214,12 @@
       renderBoard();
       updateStats();
       if (state.matched.size === state.roundMedications.length) {
-        $("mmm-feedback").textContent = `Round complete! You earned ${state.score.toLocaleString()} total points.`;
-        $("mmm-next-round").hidden = false;
+        if (state.completedMedications.size >= getPool().length) {
+          showGameComplete();
+        } else {
+          $("mmm-feedback").textContent = `Round complete! ${state.completedMedications.size} of ${getPool().length} total medications matched.`;
+          $("mmm-next-round").hidden = false;
+        }
       }
       return;
     }
@@ -232,6 +270,7 @@
     const category = event.target.closest("[data-category]");
     if (category) {
       state.category = category.dataset.category;
+      resetCurrentGame();
       renderCategories();
       buildRound();
       return;
@@ -250,7 +289,7 @@
   $("mmm-review").addEventListener("click", showReview);
   $("mmm-next-round").addEventListener("click", buildRound);
   $("mmm-new-game").addEventListener("click", () => {
-    Object.assign(state, { round: 0, score: 0, streak: 0, totalCorrect: 0, hints: 3, selectedMedication: null });
+    resetCurrentGame();
     buildRound();
   });
   $("mmm-dialog-close").addEventListener("click", () => $("mmm-review-dialog").close());
