@@ -810,6 +810,30 @@ body {
   margin: 0.35rem 0 0.85rem !important;
 }
 
+/* Infographic launcher — compact banner that opens full-screen on click */
+.main-content figure.infographic-launch {
+  margin: 1rem 0 1.25rem !important;
+  text-align: center !important;
+}
+.main-content figure.infographic-launch img {
+  display: block !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: 120px !important;
+  object-fit: cover !important;
+  object-position: top !important;
+  border: 1px solid var(--border) !important;
+  border-radius: 12px !important;
+  cursor: zoom-in !important;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.10) !important;
+}
+.main-content figure.infographic-launch figcaption {
+  margin-top: 0.4rem !important;
+  font-size: 0.85rem !important;
+  font-weight: 700 !important;
+  color: var(--accent-dark) !important;
+}
+
 /* =========================================================
    BLOCKQUOTES
    ========================================================= */
