@@ -6,6 +6,11 @@ page_type: med-browser
 <div class="med-app">
   <nav class="med-crumbs" aria-label="Breadcrumb"><a href="{{ '/mental-health.html' | relative_url }}">Mental Health</a><span>›</span><span>Mental Health Medications</span></nav>
   <header class="med-hero"><div class="med-hero-icon">🧠</div><div><h1>Mental Health Medications</h1><p>Tap a category, then open a med for quick study notes.</p></div><a class="med-quiz-btn" href="{{ '/mental-health/medication-game.html' | relative_url }}">☆ Quick Quiz</a></header>
+  <details class="study-dropdown infographic">
+  <summary>📊 Infographic: Medication Study Guide</summary>
+  <img src="{{ '/MH-images/Med-study.png' | relative_url }}" alt="Mental health medication study guide infographic">
+  <span class="infographic-hint">Tap the image to enlarge</span>
+  </details>
   <section class="med-browser-card" aria-label="Medication browser">
     <div class="med-toolbar"><label class="med-search"><span>⌕</span><input type="search" placeholder="Search medications..." aria-label="Search medications"></label><div class="med-filters" aria-label="Medication filters"><a href="#antidepressants">All Classes</a><a href="#danger-cues">NCLEX High-Yield</a><a href="#master-chart">Side Effects</a><a href="#teaching">Patient Teaching</a></div></div>
     <section id="danger-cues" class="med-alert-panel"><h2>⚠ High Priority Safety Alerts</h2><div class="med-alert-grid">
