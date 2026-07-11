@@ -21,7 +21,7 @@ page_type: med-browser
       <article><strong>Alcohol Withdrawal</strong><span>Alcohol withdrawal can be fatal and may cause tremors, increased vital signs, hallucinations, seizures, or delirium. Benzodiazepines and thiamine are major medication priorities.</span></article>
     </div></section>
     <div class="med-jump-row"><span>Jump to drug class</span><a href="#antidepressants">Antidepressants</a><a href="#anxiety-ocd">Antianxiety + OCD</a><a href="#mood-stabilizers">Mood Stabilizers</a><a href="#antipsychotics">Antipsychotics</a><a href="#substance-use">Substance Use Meds</a><a href="#eating-special">Eating Disorder + Special Meds</a><a href="#eps-antidotes">EPS Meds + Antidotes</a><a href="#master-chart">Master Chart</a></div>
-    <details id="antidepressants" class="med-class" open>
+    <details id="antidepressants" class="med-class">
       <summary><span class="med-class-icon">🙂</span><span><strong>Antidepressants</strong><small>Antidepressants are used for depression and may also be used for anxiety disorders, OCD, PTSD symptoms, PMDD, somatic symptoms, and illness anxiety.</small></span></summary>
       <div class="med-class-body">
         <div class="med-teaching-grid">
