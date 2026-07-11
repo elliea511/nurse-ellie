@@ -601,29 +601,71 @@ body[data-page-type="med-browser"] {
 }
 
 .med-alert-panel {
-  padding: 1rem;
+  position: relative;
+  overflow: hidden;
+  padding: 1.15rem;
   border-color: #dccdf7;
-  border-radius: 24px;
+  border-radius: 28px;
   background:
-    radial-gradient(circle at 0% 0%, rgba(255, 112, 157, .12), transparent 18rem),
-    radial-gradient(circle at 92% 8%, rgba(126, 214, 200, .12), transparent 16rem),
+    radial-gradient(circle at 10% 0%, rgba(255, 112, 157, .16), transparent 16rem),
+    radial-gradient(circle at 92% 8%, rgba(126, 214, 200, .14), transparent 16rem),
+    radial-gradient(circle at 50% -10%, rgba(154, 115, 232, .18), transparent 18rem),
     linear-gradient(135deg, rgba(255,255,255,.98), rgba(250, 246, 255, .96));
   box-shadow: 0 14px 32px rgba(91, 49, 180, .07), inset 0 0 0 1px rgba(255,255,255,.74);
 }
 
 .med-alert-panel h2 {
-  display: flex;
-  align-items: center;
+  position: relative;
+  display: grid;
+  justify-items: center;
   gap: .45rem;
-  min-height: 46px;
-  margin: 0 0 .9rem;
-  padding: .65rem .9rem;
-  border-left: 5px solid #f06292;
-  border-radius: 14px;
-  background: linear-gradient(90deg, #f2ebff, #fff6fa);
+  width: min(100%, 620px);
+  min-height: 0;
+  margin: 0 auto 1.05rem;
+  padding: .3rem 1rem 1rem;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
   color: #5530a6;
-  font-size: 1.05rem;
-  line-height: 1.15;
+  font-family: "Plus Jakarta Sans", "Nunito", sans-serif;
+  font-size: clamp(1.35rem, 2.4vw, 2rem);
+  line-height: 1.05;
+  letter-spacing: -.04em;
+  text-align: center;
+  text-transform: none;
+}
+
+.med-alert-panel h2::before {
+  content: "!";
+  display: grid;
+  place-items: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 18px;
+  background: linear-gradient(135deg, #f36f9a, #8b61e8);
+  color: #fff;
+  font-size: 1.35rem;
+  font-weight: 1000;
+  box-shadow: 0 12px 22px rgba(117, 72, 223, .22);
+}
+
+.med-alert-panel h2::after {
+  content: "Stop-and-think cues for safer psych med questions";
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  max-width: 100%;
+  padding: .38rem .8rem;
+  border: 1px solid #e7d9fb;
+  border-radius: 999px;
+  background: rgba(255,255,255,.78);
+  color: #7a6798;
+  font-family: "Nunito", sans-serif;
+  font-size: .78rem;
+  font-weight: 900;
+  letter-spacing: .01em;
+  line-height: 1.2;
 }
 
 .med-alert-grid {
