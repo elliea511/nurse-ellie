@@ -315,12 +315,18 @@ body[data-page-type="med-browser"] .main-content details.med-class[open] > summa
 .med-class-icon {
   display: grid;
   place-items: center;
-  width: 42px;
+  width: 46px;
   height: 42px;
   border-radius: 13px;
   background: linear-gradient(135deg, #7c4bdd, #5a31b4);
   color: #fff;
-  font-size: 1.2rem;
+  font-family: "Plus Jakarta Sans", "Nunito", sans-serif;
+  font-size: .72rem;
+  font-weight: 1000;
+  letter-spacing: .04em;
+  line-height: 1;
+  text-transform: uppercase;
+  box-shadow: 0 8px 16px rgba(91, 49, 180, .16);
 }
 
 .med-class-icon.pink { background: linear-gradient(135deg, #f174ac, #d84a8a); }
