@@ -46,10 +46,11 @@
     { id: "antidepressants", label: "Antidepressants", icon: "💜", matches: (med) => med.category === "Antidepressant" },
     { id: "antipsychotics", label: "Antipsychotics", icon: "🛡️", matches: (med) => med.category === "Antipsychotic" },
     { id: "mood", label: "Mood stabilizers", icon: "⚡", matches: (med) => med.category.includes("Mood") },
-    { id: "anxiety", label: "Anxiety & sedatives", icon: "🌿", matches: (med) => /Anxiolytic|Sedative/.test(med.category) },
+    { id: "anxiety", label: "Anxiety & sedatives", icon: "🌿", matches: (med) => /Antianxiety|Anxiolytic|Sedative/i.test(med.category) },
     { id: "substance", label: "Substance use", icon: "🚑", matches: (med) => med.category.includes("Substance") },
-    { id: "eating", label: "Eating & weight", icon: "♡", matches: (med) => /Eating|Weight/i.test(`${med.category} ${med.usedFor}`) },
-    { id: "cognition", label: "Cognition & EPS", icon: "🧩", matches: (med) => /Cognitive|EPS/.test(med.category) }
+    { id: "eating", label: "Eating & weight", icon: "♡", matches: (med) => /Eating|Weight/i.test(`${med.category} ${med.usedFor} ${med.class}`) },
+    { id: "eps", label: "EPS & antidotes", icon: "🧩", matches: (med) => /Extrapyramidal Symptoms|EPS|Antidote/i.test(`${med.category} ${med.usedFor}`) },
+    { id: "supportive", label: "Supportive meds", icon: "🩺", matches: (med) => med.category.includes("Supportive") }
   ];
 
   const clueFields = [
