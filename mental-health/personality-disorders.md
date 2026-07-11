@@ -55,6 +55,15 @@ A **personality trait** is a pattern of behavior. A **personality disorder** occ
 
 ### Personality Disorder Big Picture
 
+<details class="study-dropdown infographic" markdown="1">
+<summary>📊 Infographic: Cluster A, B &amp; C Personality Disorders</summary>
+
+<img src="{{ '/MH-images/ABC-disorders.png' | relative_url }}" alt="Cluster A, B, and C personality disorders infographic">
+
+<span class="infographic-hint">Tap the image to enlarge</span>
+
+</details>
+
 <div class="detail-grid" markdown="1">
 
 <div class="detail-mini-card" markdown="1">
