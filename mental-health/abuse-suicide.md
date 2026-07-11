@@ -339,6 +339,15 @@ Suicide and abuse questions are **safety-first** questions. Nursing priorities i
 
 ### Abuse Types
 
+<details class="study-dropdown infographic" markdown="1">
+<summary>📊 Infographic: Cycle of Abuse</summary>
+
+<img src="{{ '/MH-images/Cycle%20of%20abuse.png' | relative_url }}" alt="Cycle of abuse infographic">
+
+<span class="infographic-hint">Tap the image to enlarge</span>
+
+</details>
+
 <div class="detail-table">
   <table>
     <thead>

@@ -61,6 +61,15 @@ page_type: med-browser
         </div>
       </div>
     </details>
+<details class="study-dropdown infographic" markdown="1">
+<summary>📊 Infographic: Lithium Safety</summary>
+
+<img src="{{ '/MH-images/Lithium%20Safety.png' | relative_url }}" alt="Lithium safety infographic">
+
+<span class="infographic-hint">Tap the image to enlarge</span>
+
+</details>
+
     <details id="mood-stabilizers" class="med-class">
       <summary><span class="med-class-icon blue">⚖</span><span><strong>Mood Stabilizers</strong><small>Mood stabilizers are used for bipolar disorder, mania, mood stabilization, and schizoaffective or bipolar features.</small></span></summary>
       <div class="med-class-body">
@@ -145,6 +154,15 @@ page_type: med-browser
         </div>
       </div>
     </details>
+<details class="study-dropdown infographic" markdown="1">
+<summary>📊 Infographic: High-Priority Medication Emergencies</summary>
+
+<img src="{{ '/MH-images/Medication%20Emergencies.png' | relative_url }}" alt="High-priority medication emergencies infographic">
+
+<span class="infographic-hint">Tap the image to enlarge</span>
+
+</details>
+
     <details id="eps-antidotes" class="med-class">
       <summary><span class="med-class-icon gold">🛟</span><span><strong>EPS Meds + Antidotes</strong><small>These medications are used for psych-med side effects or overdose reversal, so they show up in safety questions.</small></span></summary>
       <div class="med-class-body">

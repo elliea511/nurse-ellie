@@ -14,6 +14,15 @@ title: Psychosis & Schizophrenia
 
 Schizophrenia is a mental health disorder marked by **withdrawal from reality, delusions or illusions, illogical thinking, and emotional, intellectual, and behavioral disturbances.** It affects the patient’s ability to **think, communicate, perceive reality, show emotions, and behave in a socially acceptable way.**
 
+<details class="study-dropdown infographic" markdown="1">
+<summary>📊 Infographic: Schizophrenia Spectrum Disorders</summary>
+
+<img src="{{ '/MH-images/Schizophrenia%20spectrum%20disorders.png' | relative_url }}" alt="Schizophrenia spectrum disorders overview infographic">
+
+<span class="infographic-hint">Tap the image to enlarge</span>
+
+</details>
+
 <div class="priority-focus">
   <div>
     <h3>Priority Focus</h3>
@@ -249,6 +258,15 @@ Schizophrenia is a mental health disorder marked by **withdrawal from reality, d
 <a class="mh-detail-close" href="#">✕</a>
 
 ### Delusions + Communication Problems
+
+<details class="study-dropdown infographic" markdown="1">
+<summary>📊 Infographic: Hallucinations vs Delusions — Nursing Response</summary>
+
+<img src="{{ '/MH-images/Hallucinations%20Delusions%20Response.png' | relative_url }}" alt="Hallucinations versus delusions nursing response infographic">
+
+<span class="infographic-hint">Tap the image to enlarge</span>
+
+</details>
 
 <div class="detail-grid" markdown="1">
 

@@ -14,6 +14,15 @@ title: Depression & Bipolar Disorder
 
 Mood disorders affect a patient’s emotional state, energy, sleep, thinking, behavior, relationships, and ability to function. For nursing questions, focus on **suicide risk, safety, sleep, nutrition, hydration, medication teaching, lithium toxicity, and low-stimulation care during mania.**
 
+<details class="study-dropdown infographic" markdown="1">
+<summary>📊 Infographic: Affective Mood Disorders</summary>
+
+<img src="{{ '/MH-images/Affective%20Mood%20Disorders.png' | relative_url }}" alt="Affective mood disorders overview infographic">
+
+<span class="infographic-hint">Tap the image to enlarge</span>
+
+</details>
+
 <div class="priority-focus">
   <div>
     <h3>Priority Focus</h3>
@@ -266,6 +275,15 @@ Mood disorders affect a patient’s emotional state, energy, sleep, thinking, be
 <a class="mh-detail-close" href="#">✕</a>
 
 ### Bipolar + Mania
+
+<details class="study-dropdown infographic" markdown="1">
+<summary>📊 Infographic: Bipolar Disorder Mood Patterns</summary>
+
+<img src="{{ '/MH-images/Bipolar%20Disorder%20Mood%20Patterns.png' | relative_url }}" alt="Bipolar disorder mood patterns infographic">
+
+<span class="infographic-hint">Tap the image to enlarge</span>
+
+</details>
 
 <div class="detail-table">
   <table>

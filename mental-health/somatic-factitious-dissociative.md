@@ -323,6 +323,15 @@ These disorders often involve **stress, trauma, anxiety, altered perception, phy
 
 ### Factitious Disorders + Malingering
 
+<details class="study-dropdown infographic" markdown="1">
+<summary>📊 Infographic: Factitious Disorder vs Malingering</summary>
+
+<img src="{{ '/MH-images/facticious%20disorder%20vs%20malingering.png' | relative_url }}" alt="Factitious disorder versus malingering comparison infographic">
+
+<span class="infographic-hint">Tap the image to enlarge</span>
+
+</details>
+
 <div class="detail-table">
   <table>
     <thead>
@@ -448,6 +457,15 @@ These disorders often involve **stress, trauma, anxiety, altered perception, phy
 <a class="mh-detail-close" href="#">✕</a>
 
 ### Dissociative Disorders
+
+<details class="study-dropdown infographic" markdown="1">
+<summary>📊 Infographic: Dissociative Disorders Comparison</summary>
+
+<img src="{{ '/MH-images/Dissociative%20Disorder%20Comparison.png' | relative_url }}" alt="Dissociative disorders comparison infographic">
+
+<span class="infographic-hint">Tap the image to enlarge</span>
+
+</details>
 
 <div class="detail-grid" markdown="1">
 

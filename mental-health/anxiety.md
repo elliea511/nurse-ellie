@@ -107,6 +107,15 @@ Anxiety is a feeling of **dread, apprehension, or uneasiness.** It becomes a dis
   </table>
 </div>
 
+<details class="study-dropdown infographic" markdown="1">
+<summary>📊 Infographic: Anxiety Levels (Mild → Panic)</summary>
+
+<img src="{{ '/MH-images/Anxiety%20Levels.png' | relative_url }}" alt="Anxiety levels from mild to panic infographic">
+
+<span class="infographic-hint">Tap the image to enlarge</span>
+
+</details>
+
 <div class="detail-table anxiety-levels-table">
   <table>
     <thead>
@@ -199,6 +208,15 @@ Anxiety is a feeling of **dread, apprehension, or uneasiness.** It becomes a dis
 <a class="mh-detail-close" href="#">✕</a>
 
 ### OCD + Related Disorders
+
+<details class="study-dropdown infographic" markdown="1">
+<summary>📊 Infographic: OCD Cycle</summary>
+
+<img src="{{ '/MH-images/OCD%20Cycle.png' | relative_url }}" alt="Obsessive-compulsive disorder cycle infographic">
+
+<span class="infographic-hint">Tap the image to enlarge</span>
+
+</details>
 
 <div class="detail-table">
   <table>

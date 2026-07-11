@@ -14,6 +14,15 @@ title: Eating Disorders
 
 Eating disorders involve disturbed eating patterns that affect **nutrition, weight, body image, physical health, coping, and safety.** Nursing priorities include **medical stability, electrolyte balance, cardiac safety, structured meals, supervision, therapy, nutrition support, and treatment of comorbid anxiety/depression/OCD.**
 
+<details class="study-dropdown infographic" markdown="1">
+<summary>📊 Infographic: Eating Disorders Comparison Chart</summary>
+
+<img src="{{ '/MH-images/Eating%20Disorder%20Chart.png' | relative_url }}" alt="Eating disorders comparison chart infographic">
+
+<span class="infographic-hint">Tap the image to enlarge</span>
+
+</details>
+
 <div class="priority-focus">
   <div>
     <h3>Priority Focus</h3>
@@ -55,6 +64,15 @@ Eating disorders involve disturbed eating patterns that affect **nutrition, weig
 <a class="mh-detail-close" href="#">✕</a>
 
 ### Anorexia Nervosa
+
+<details class="study-dropdown infographic" markdown="1">
+<summary>📊 Infographic: Anorexia Nervosa</summary>
+
+<img src="{{ '/MH-images/Anorexia%20Final.png' | relative_url }}" alt="Anorexia nervosa infographic">
+
+<span class="infographic-hint">Tap the image to enlarge</span>
+
+</details>
 
 <div class="detail-grid" markdown="1">
 
@@ -230,6 +248,15 @@ Eating disorders involve disturbed eating patterns that affect **nutrition, weig
 <a class="mh-detail-close" href="#">✕</a>
 
 ### Bulimia Nervosa
+
+<details class="study-dropdown infographic" markdown="1">
+<summary>📊 Infographic: Bulimia Nervosa</summary>
+
+<img src="{{ '/MH-images/Bulimia.png' | relative_url }}" alt="Bulimia nervosa infographic">
+
+<span class="infographic-hint">Tap the image to enlarge</span>
+
+</details>
 
 <div class="detail-grid" markdown="1">
 
