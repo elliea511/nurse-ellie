@@ -596,12 +596,13 @@ body[data-page-type="med-browser"] {
 
 .med-alert-panel {
   padding: 1rem;
-  border-color: #ff9a9a;
-  border-radius: 22px;
+  border-color: #dccdf7;
+  border-radius: 24px;
   background:
-    linear-gradient(135deg, rgba(255, 246, 246, .95), rgba(255,255,255,.98)),
-    radial-gradient(circle at 4% 0%, rgba(255, 107, 118, .16), transparent 14rem);
-  box-shadow: inset 0 0 0 1px rgba(255,255,255,.7);
+    radial-gradient(circle at 0% 0%, rgba(255, 112, 157, .12), transparent 18rem),
+    radial-gradient(circle at 92% 8%, rgba(126, 214, 200, .12), transparent 16rem),
+    linear-gradient(135deg, rgba(255,255,255,.98), rgba(250, 246, 255, .96));
+  box-shadow: 0 14px 32px rgba(91, 49, 180, .07), inset 0 0 0 1px rgba(255,255,255,.74);
 }
 
 .med-alert-panel h2 {
@@ -611,10 +612,10 @@ body[data-page-type="med-browser"] {
   min-height: 46px;
   margin: 0 0 .9rem;
   padding: .65rem .9rem;
-  border-left: 5px solid #7d55dc;
-  border-radius: 10px;
-  background: #eee8ff;
-  color: #d71927;
+  border-left: 5px solid #f06292;
+  border-radius: 14px;
+  background: linear-gradient(90deg, #f2ebff, #fff6fa);
+  color: #5530a6;
   font-size: 1.05rem;
   line-height: 1.15;
 }
@@ -633,10 +634,11 @@ body[data-page-type="med-browser"] {
   column-gap: .72rem;
   min-height: 172px;
   padding: .95rem;
-  border-color: #ff8d8d;
-  border-radius: 16px;
-  background: linear-gradient(145deg, #fff, #fff7f7);
-  box-shadow: 0 10px 22px rgba(224, 63, 73, .07);
+  border-color: #eadff8;
+  border-left: 4px solid #f07ba2;
+  border-radius: 18px;
+  background: linear-gradient(145deg, #ffffff, #fffafd);
+  box-shadow: 0 10px 22px rgba(84, 57, 141, .06);
 }
 
 .med-alert-grid article::before {
@@ -648,10 +650,10 @@ body[data-page-type="med-browser"] {
   grid-column: 1;
   grid-row: 1 / span 2;
   border-radius: 999px;
-  background: linear-gradient(135deg, #ff4f5d, #df1f2f);
+  background: linear-gradient(135deg, #f36f9a, #8b61e8);
   color: #fff;
   font-weight: 950;
-  box-shadow: 0 8px 18px rgba(223, 31, 47, .20);
+  box-shadow: 0 8px 18px rgba(117, 72, 223, .18);
 }
 
 .med-alert-grid article:nth-child(2)::before { content: "🔥"; font-size: .95rem; }
@@ -665,7 +667,7 @@ body[data-page-type="med-browser"] {
 .med-alert-grid strong {
   grid-column: 2;
   margin: 0 0 .35rem;
-  color: #d71927;
+  color: #5530a6;
   font-family: "Plus Jakarta Sans", "Nunito", sans-serif;
   font-size: .9rem;
   line-height: 1.16;
