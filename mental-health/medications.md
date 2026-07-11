@@ -6,10 +6,9 @@ page_type: med-browser
 <div class="med-app">
   <nav class="med-crumbs" aria-label="Breadcrumb"><a href="{{ '/mental-health.html' | relative_url }}">Mental Health</a><span>›</span><span>Mental Health Medications</span></nav>
   <header class="med-hero"><div class="med-hero-icon">🧠</div><div><h1>Mental Health Medications</h1><p>Tap a category, then open a med for quick study notes.</p></div><a class="med-quiz-btn" href="{{ '/mental-health/medication-game.html' | relative_url }}">☆ Quick Quiz</a></header>
-  <figure class="infographic-launch">
-  <img src="{{ '/MH-images/Med-study.png' | relative_url }}" alt="Mental health medication study guide infographic">
-  <figcaption>📊 Tap to open the full Medication Study Guide</figcaption>
-  </figure>
+  <button type="button" class="infographic-btn" onclick="this.nextElementSibling.click()">📊 Open Medication Study Guide</button>
+  <img class="infographic-btn-img" src="{{ '/MH-images/Med-study.png' | relative_url }}" alt="Mental health medication study guide infographic">
+
   <section class="med-browser-card" aria-label="Medication browser">
     <section id="danger-cues" class="med-alert-panel"><h2>⚠ High Priority Safety Alerts</h2><div class="med-alert-grid">
       <article><strong>Suicide Risk</strong><span>Antidepressants may improve energy before mood, which can increase suicide risk early in treatment. Monitor closely during the first few weeks and after dose changes.</span></article>
