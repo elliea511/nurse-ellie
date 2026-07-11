@@ -614,29 +614,34 @@ body[data-page-type="med-browser"] {
   box-shadow: 0 14px 32px rgba(91, 49, 180, .07), inset 0 0 0 1px rgba(255,255,255,.74);
 }
 
-.med-alert-panel h2 {
-  position: relative;
+body[data-page-type="med-browser"] .main-content .med-alert-panel h2 {
+  position: relative !important;
   display: grid;
   justify-items: center;
-  gap: .45rem;
-  width: min(100%, 620px);
-  min-height: 0;
-  margin: 0 auto 1.05rem;
-  padding: .3rem 1rem 1rem;
-  border: 0;
-  border-radius: 0;
-  background: transparent;
-  color: #5530a6;
-  font-family: "Plus Jakarta Sans", "Nunito", sans-serif;
-  font-size: clamp(1.35rem, 2.4vw, 2rem);
-  line-height: 1.05;
-  letter-spacing: -.04em;
-  text-align: center;
-  text-transform: none;
+  gap: .5rem;
+  width: min(100%, 660px) !important;
+  max-width: 660px !important;
+  min-height: 0 !important;
+  margin: 0 auto 1.1rem !important;
+  padding: .45rem 1rem 1.05rem !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  color: #5530a6 !important;
+  font-family: "Plus Jakarta Sans", "Nunito", sans-serif !important;
+  line-height: 1.05 !important;
+  text-align: center !important;
+  text-transform: none !important;
+  letter-spacing: 0 !important;
 }
 
-.med-alert-panel h2::before {
-  content: "!";
+body[data-page-type="med-browser"] .main-content .med-alert-panel h2::before,
+body[data-page-type="med-browser"] .main-content .med-alert-panel h2::after {
+  content: none !important;
+}
+
+.med-alert-badge {
   display: grid;
   place-items: center;
   width: 48px;
@@ -649,8 +654,15 @@ body[data-page-type="med-browser"] {
   box-shadow: 0 12px 22px rgba(117, 72, 223, .22);
 }
 
-.med-alert-panel h2::after {
-  content: "Stop-and-think cues for safer psych med questions";
+.med-alert-title {
+  display: block;
+  color: #5530a6;
+  font-size: clamp(1.45rem, 2.5vw, 2.15rem);
+  font-weight: 1000;
+  letter-spacing: -.055em;
+}
+
+.med-alert-subtitle {
   display: inline-flex;
   align-items: center;
   justify-content: center;

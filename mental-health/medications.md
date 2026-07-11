@@ -10,7 +10,7 @@ page_type: med-browser
   <img class="infographic-btn-img" src="{{ '/MH-images/Med-study.png' | relative_url }}" alt="Mental health medication study guide infographic">
 
   <section class="med-browser-card" aria-label="Medication browser">
-    <section id="danger-cues" class="med-alert-panel"><h2>High Priority Safety Alerts</h2><div class="med-alert-grid">
+    <section id="danger-cues" class="med-alert-panel"><h2><span class="med-alert-badge">!</span><span class="med-alert-title">High Priority Safety Alerts</span><span class="med-alert-subtitle">Stop-and-think cues for safer psych med questions</span></h2><div class="med-alert-grid">
       <article><strong>Suicide Risk</strong><span>Antidepressants may improve energy before mood, which can increase suicide risk early in treatment. Monitor closely during the first few weeks and after dose changes.</span></article>
       <article><strong>Serotonin Syndrome</strong><span>A dangerous buildup of serotonin can cause fever, agitation, confusion, sweating, diarrhea, tremor, rigidity, or hyperreflexia. This is a priority finding with SSRIs, SNRIs, MAOIs, St. John’s Wort, and other serotonergic meds.</span></article>
       <article><strong>Lithium Toxicity</strong><span>Lithium toxicity can cause GI upset, tremor, confusion, ataxia, seizures, or worsening mental status. Hold the next dose and notify the provider if toxicity is suspected.</span></article>
