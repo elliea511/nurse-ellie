@@ -38,7 +38,7 @@ title: Nursing Study Studio
     <a class="access-card card-purple" href="{{ '/all-topics.html' | relative_url }}"><span class="card-icon">▤</span><span><strong>Browse all notes</strong><small>Find any topic in one place</small></span><b>→</b></a>
     <a class="access-card card-orange" href="{{ '/practice-hub.html' | relative_url }}"><span class="card-icon">⚡</span><span><strong>Practice hub</strong><small>Quizzes, review, and mock tests</small></span><b>→</b></a>
     <a class="access-card card-mint" href="{{ '/review.html' | relative_url }}"><span class="card-icon">✓</span><span><strong>My review list</strong><small>Return to marked topics</small></span><b>→</b></a>
-    <a class="access-card card-pink" href="{{ '/medical-emergencies/medications.html' | relative_url }}"><span class="card-icon">✚</span><span><strong>Medications</strong><small>Key considerations & cues</small></span><b>→</b></a>
+    <a class="access-card card-pink" href="{{ '/mental-health/medications.html' | relative_url }}"><span class="card-icon">✚</span><span><strong>Medications</strong><small>Key considerations & cues</small></span><b>→</b></a>
   </div>
 </section>
 
