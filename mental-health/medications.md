@@ -12,7 +12,6 @@ page_type: med-browser
   <span class="infographic-hint">Tap the image to enlarge</span>
   </details>
   <section class="med-browser-card" aria-label="Medication browser">
-    <div class="med-toolbar"><label class="med-search"><span>⌕</span><input type="search" placeholder="Search medications..." aria-label="Search medications"></label><div class="med-filters" aria-label="Medication filters"><a href="#antidepressants">All Classes</a><a href="#danger-cues">NCLEX High-Yield</a><a href="#master-chart">Side Effects</a><a href="#teaching">Patient Teaching</a></div></div>
     <section id="danger-cues" class="med-alert-panel"><h2>⚠ High Priority Safety Alerts</h2><div class="med-alert-grid">
       <article><strong>Suicide Risk</strong><span>Antidepressants may improve energy before mood, which can increase suicide risk early in treatment. Monitor closely during the first few weeks and after dose changes.</span></article>
       <article><strong>Serotonin Syndrome</strong><span>A dangerous buildup of serotonin can cause fever, agitation, confusion, sweating, diarrhea, tremor, rigidity, or hyperreflexia. This is a priority finding with SSRIs, SNRIs, MAOIs, St. John’s Wort, and other serotonergic meds.</span></article>
