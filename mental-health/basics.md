@@ -183,15 +183,6 @@ Mental health nursing focuses on **safety, trust, therapeutic communication, bou
 ### Safety First
 
 <details class="study-dropdown infographic" markdown="1">
-<summary>📊 Infographic: Mental Health Safety Tree</summary>
-
-<img src="{{ '/MH-images/Mental%20Health%20Safety%20Tree.png' | relative_url }}" alt="Mental health safety priorities tree infographic">
-
-<span class="infographic-hint">Tap the image to enlarge</span>
-
-</details>
-
-<details class="study-dropdown infographic" markdown="1">
 <summary>📊 Infographic: Restraints &amp; Seclusion Safety</summary>
 
 <img src="{{ '/MH-images/Restraints%20Safety.png' | relative_url }}" alt="Restraints and seclusion safety infographic">

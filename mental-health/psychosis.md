@@ -259,15 +259,6 @@ Schizophrenia is a mental health disorder marked by **withdrawal from reality, d
 
 ### Delusions + Communication Problems
 
-<details class="study-dropdown infographic" markdown="1">
-<summary>📊 Infographic: Hallucinations vs Delusions — Nursing Response</summary>
-
-<img src="{{ '/MH-images/Hallucinations%20Delusions%20Response.png' | relative_url }}" alt="Hallucinations versus delusions nursing response infographic">
-
-<span class="infographic-hint">Tap the image to enlarge</span>
-
-</details>
-
 <div class="detail-grid" markdown="1">
 
 <div class="detail-mini-card" markdown="1">
