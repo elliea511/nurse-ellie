@@ -110,7 +110,7 @@ Suicide and abuse questions are **safety-first** questions. Nursing priorities i
 <details class="study-dropdown infographic" markdown="1">
 <summary>📊 Infographic: Suicide Risk Factors</summary>
 
-![Suicide risk factors infographic — biological, cognitive theories (Freud, Menninger, Beck), environmental, cultural, and social factors, plus ATI/NCLEX high-yield risk factors to memorize]({{ '/assets/images/suicide-risk-factors.png' | relative_url }})
+![Suicide risk factors infographic — biological, cognitive theories (Freud, Menninger, Beck), environmental, cultural, and social factors, plus ATI/NCLEX high-yield risk factors to memorize]({{ '/MH-images/Suicideriskfactors.png' | relative_url }})
 
 <span class="infographic-hint">Tap the image to enlarge</span>
 
