@@ -13,16 +13,6 @@ title: Personality Disorders
 <p class="mh-subtitle">ATI-style review for Cluster A, Cluster B, Cluster C, limit setting, safety, and therapeutic boundaries</p>
 
 A **personality trait** is a pattern of behavior. A **personality disorder** occurs when personality traits become **rigid, maladaptive, and cause distress or impaired functioning.** Patients with personality disorders often have long-standing problems with behavior, mood, perception, relationships, empathy, and impulse control.
-
-<details class="study-dropdown infographic" markdown="1">
-<summary>📊 Infographic: Personality Disorder Comparison</summary>
-
-<img src="{{ '/MH-images/Personality%20Disorder%20Comparison.png' | relative_url }}" alt="Personality disorder comparison infographic">
-
-<span class="infographic-hint">Tap the image to enlarge</span>
-
-</details>
-
 <div class="priority-focus">
   <div>
     <h3>Priority Focus</h3>

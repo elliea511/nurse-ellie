@@ -14,15 +14,6 @@ title: Eating Disorders
 
 Eating disorders involve disturbed eating patterns that affect **nutrition, weight, body image, physical health, coping, and safety.** Nursing priorities include **medical stability, electrolyte balance, cardiac safety, structured meals, supervision, therapy, nutrition support, and treatment of comorbid anxiety/depression/OCD.**
 
-<details class="study-dropdown infographic" markdown="1">
-<summary>📊 Infographic: Eating Disorders Comparison Chart</summary>
-
-<img src="{{ '/MH-images/Eating%20Disorder%20Chart.png' | relative_url }}" alt="Eating disorders comparison chart infographic">
-
-<span class="infographic-hint">Tap the image to enlarge</span>
-
-</details>
-
 <div class="priority-focus">
   <div>
     <h3>Priority Focus</h3>

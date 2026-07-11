@@ -13,16 +13,6 @@ title: Psychosis & Schizophrenia
 <p class="mh-subtitle">ATI-style review for schizophrenia, positive/negative symptoms, delusions, communication problems, phases, safety, and antipsychotic care</p>
 
 Schizophrenia is a mental health disorder marked by **withdrawal from reality, delusions or illusions, illogical thinking, and emotional, intellectual, and behavioral disturbances.** It affects the patient’s ability to **think, communicate, perceive reality, show emotions, and behave in a socially acceptable way.**
-
-<details class="study-dropdown infographic" markdown="1">
-<summary>📊 Infographic: Schizophrenia Spectrum Disorders</summary>
-
-<img src="{{ '/MH-images/Schizophrenia%20spectrum%20disorders.png' | relative_url }}" alt="Schizophrenia spectrum disorders overview infographic">
-
-<span class="infographic-hint">Tap the image to enlarge</span>
-
-</details>
-
 <div class="priority-focus">
   <div>
     <h3>Priority Focus</h3>

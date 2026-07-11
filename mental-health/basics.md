@@ -56,15 +56,6 @@ Mental health nursing focuses on **safety, trust, therapeutic communication, bou
 
 ### Therapeutic Communication
 
-<details class="study-dropdown infographic" markdown="1">
-<summary>📊 Infographic: Therapeutic Communication Big Picture</summary>
-
-<img src="{{ '/MH-images/Therapeutic%20Communication%20Big%20Picture.png' | relative_url }}" alt="Therapeutic communication big picture infographic">
-
-<span class="infographic-hint">Tap the image to enlarge</span>
-
-</details>
-
 <div class="detail-grid" markdown="1">
 
 <div class="detail-mini-card" markdown="1">

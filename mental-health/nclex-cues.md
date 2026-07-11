@@ -322,15 +322,6 @@ Alcohol withdrawal and benzodiazepine/barbiturate withdrawal can be life-threate
 
 # Medication Emergency Cues
 
-<details class="study-dropdown infographic" markdown="1">
-<summary>📊 Infographic: High-Priority Medication Emergencies</summary>
-
-<img src="{{ '/MH-images/Medication%20Emergencies.png' | relative_url }}" alt="High-priority medication emergencies infographic">
-
-<span class="infographic-hint">Tap the image to enlarge</span>
-
-</details>
-
 | Emergency | Clues | Priority |
 |---|---|---|
 | **Lithium toxicity** | Vomiting, diarrhea, tremor, confusion, ataxia, seizures | Hold lithium, notify provider |

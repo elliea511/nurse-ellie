@@ -321,15 +321,6 @@ Addictive disorders involve repeated substance use or behaviors that continue de
 
 ### Alcohol Use Disorder
 
-<details class="study-dropdown infographic" markdown="1">
-<summary>📊 Infographic: Alcohol Withdrawal Timeline</summary>
-
-<img src="{{ '/MH-images/alcohol%20withdrawal%20timeline.png' | relative_url }}" alt="Alcohol withdrawal timeline infographic">
-
-<span class="infographic-hint">Tap the image to enlarge</span>
-
-</details>
-
 <div class="detail-grid" markdown="1">
 
 <div class="detail-mini-card" markdown="1">
