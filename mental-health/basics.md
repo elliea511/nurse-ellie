@@ -182,15 +182,6 @@ Mental health nursing focuses on **safety, trust, therapeutic communication, bou
 
 ### Safety First
 
-<details class="study-dropdown infographic" markdown="1">
-<summary>📊 Infographic: Restraints &amp; Seclusion Safety</summary>
-
-<img src="{{ '/MH-images/Restraints%20Safety.png' | relative_url }}" alt="Restraints and seclusion safety infographic">
-
-<span class="infographic-hint">Tap the image to enlarge</span>
-
-</details>
-
 <div class="detail-grid" markdown="1">
 
 <div class="detail-mini-card" markdown="1">
