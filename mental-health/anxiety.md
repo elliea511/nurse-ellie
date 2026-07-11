@@ -56,6 +56,15 @@ Anxiety is a feeling of **dread, apprehension, or uneasiness.** It becomes a dis
 
 ### Anxiety Disorders
 
+<details class="study-dropdown infographic" markdown="1">
+<summary>📊 Infographic: Anxiety Disorders</summary>
+
+<img src="{{ '/MH-images/anxiety-disorder.png' | relative_url }}" alt="Anxiety disorders infographic">
+
+<span class="infographic-hint">Tap the image to enlarge</span>
+
+</details>
+
 <div class="detail-table">
   <table>
     <thead>
