@@ -18,7 +18,7 @@ page_type: practice-hub
 
     <nav class="practice-side-nav">
       <a class="is-active" href="#practice-topics"><span>▦</span> Topic tests</a>
-      <a href="#recent-attempts"><span>↺</span> Recent attempts</a>
+      <a href="#test-status"><span>↺</span> Test status</a>
       <a href="#performance"><span>◌</span> Progress snapshot</a>
       <a href="{{ '/review.html' | relative_url }}"><span>♡</span> My review list</a>
     </nav>
@@ -39,19 +39,8 @@ page_type: practice-hub
         <h1 id="practice-hub-title">Practice Tests</h1>
         <p>Build confidence with topic-based quizzes, mock exams, and quick reviews.</p>
       </div>
-      <a class="practice-start-button" href="#practice-topics"><span>＋</span> Start New Test</a>
+      <a class="practice-start-button" href="{{ '/medical-emergencies/practice-quiz.html' | relative_url }}"><span>＋</span> Start Medical Emergencies</a>
     </header>
-
-    <div class="practice-toolbar" aria-label="Practice filters preview">
-      <label class="practice-search">
-        <span aria-hidden="true">⌕</span>
-        <input type="search" placeholder="Search tests by topic or keyword..." disabled>
-      </label>
-      <button type="button" disabled>All Topics <span>⌄</span></button>
-      <button type="button" disabled>Timed & Untimed <span>⌄</span></button>
-      <button type="button" disabled>All Difficulties <span>⌄</span></button>
-      <div class="practice-view-toggle" aria-hidden="true"><span>▦</span><span>☰</span></div>
-    </div>
 
     <section class="practice-topic-grid" id="practice-topics" aria-label="Practice topic cards">
       <article class="practice-test-card theme-purple">
@@ -76,10 +65,10 @@ page_type: practice-hub
     </section>
 
     <div class="practice-lower-grid">
-      <section class="practice-panel recent" id="recent-attempts" aria-labelledby="recent-title">
+      <section class="practice-panel recent" id="test-status" aria-labelledby="status-title">
         <div class="practice-panel-heading">
-          <h2 id="recent-title">↺ Recent Attempts</h2>
-          <a href="{{ '/review.html' | relative_url }}">View all →</a>
+          <h2 id="status-title">↺ Test Status</h2>
+          <a href="{{ '/medical-emergencies/practice-quiz.html' | relative_url }}">Open active test →</a>
         </div>
         <div class="practice-attempt-list">
           <div><span>⚕️ Medical Emergencies</span><small>Practice test</small><strong>Ready</strong><b>Active</b><a href="{{ '/medical-emergencies/practice-quiz.html' | relative_url }}">Start</a></div>
@@ -90,7 +79,6 @@ page_type: practice-hub
       <section class="practice-panel performance" id="performance" aria-labelledby="performance-title">
         <div class="practice-panel-heading">
           <h2 id="performance-title">⌁ Performance Overview</h2>
-          <button type="button" disabled>This Month ⌄</button>
         </div>
         <div class="practice-score-ring" aria-label="Average score 81 percent">
           <span>1/2</span>
@@ -108,7 +96,6 @@ page_type: practice-hub
     <aside class="practice-tip">
       <span>💡</span>
       <p><strong>Tip:</strong> Start with Medical Emergencies now. Mental Health will unlock here once the question set is added.</p>
-      <button type="button" aria-label="Dismiss tip">×</button>
     </aside>
   </div>
 </section>
