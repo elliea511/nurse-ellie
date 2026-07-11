@@ -315,17 +315,17 @@ body[data-page-type="med-browser"] .main-content details.med-class[open] > summa
 .med-class-icon {
   display: grid;
   place-items: center;
-  width: 46px;
+  width: 42px;
   height: 42px;
   border-radius: 13px;
   background: linear-gradient(135deg, #7c4bdd, #5a31b4);
   color: #fff;
-  font-family: "Plus Jakarta Sans", "Nunito", sans-serif;
-  font-size: .72rem;
+  font-family: "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", "Plus Jakarta Sans", "Nunito", sans-serif;
+  font-size: 1.18rem;
   font-weight: 1000;
-  letter-spacing: .04em;
+  letter-spacing: 0;
   line-height: 1;
-  text-transform: uppercase;
+  text-transform: none;
   box-shadow: 0 8px 16px rgba(91, 49, 180, .16);
 }
 

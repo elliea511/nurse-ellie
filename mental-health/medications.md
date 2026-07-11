@@ -22,7 +22,7 @@ page_type: med-browser
     </div></section>
     <div class="med-jump-row"><span>Jump to drug class</span><a href="#antidepressants">Antidepressants</a><a href="#anxiety-ocd">Antianxiety + OCD</a><a href="#mood-stabilizers">Mood Stabilizers</a><a href="#antipsychotics">Antipsychotics</a><a href="#substance-use">Substance Use Meds</a><a href="#eating-special">Eating Disorder + Special Meds</a><a href="#eps-antidotes">EPS Meds + Antidotes</a><a href="#master-chart">Master Chart</a></div>
     <details id="antidepressants" class="med-class">
-      <summary><span class="med-class-icon">AD</span><span><strong>Antidepressants</strong><small>Antidepressants are used for depression and may also be used for anxiety disorders, OCD, PTSD symptoms, PMDD, somatic symptoms, and illness anxiety.</small></span></summary>
+      <summary><span class="med-class-icon">🙂</span><span><strong>Antidepressants</strong><small>Antidepressants are used for depression and may also be used for anxiety disorders, OCD, PTSD symptoms, PMDD, somatic symptoms, and illness anxiety.</small></span></summary>
       <div class="med-class-body">
         <div class="med-teaching-grid">
           <div class="med-info-box purple"><h3>Class Big Picture</h3><ul><li>Most antidepressants take <strong>weeks</strong> to fully work.</li><li>Monitor for <strong>suicide risk early</strong>, especially when energy improves before mood.</li><li>Do not stop abruptly unless told by the provider.</li><li>Watch for <strong>serotonin syndrome</strong> with serotonergic medications.</li><li>Teach patients that side effects often show up before full mood improvement.</li></ul></div>
@@ -45,7 +45,7 @@ page_type: med-browser
       </div>
     </details>
     <details id="anxiety-ocd" class="med-class">
-      <summary><span class="med-class-icon pink">OCD</span><span><strong>Antianxiety + OCD</strong><small>Antianxiety and OCD medications reduce anxiety symptoms, panic symptoms, obsessive thoughts, compulsive behaviors, and physical anxiety symptoms.</small></span></summary>
+      <summary><span class="med-class-icon pink">✿</span><span><strong>Antianxiety + OCD</strong><small>Antianxiety and OCD medications reduce anxiety symptoms, panic symptoms, obsessive thoughts, compulsive behaviors, and physical anxiety symptoms.</small></span></summary>
       <div class="med-class-body">
         <div class="med-teaching-grid">
           <div class="med-info-box purple"><h3>Class Big Picture</h3><ul><li>Benzodiazepines work fast but have major safety concerns.</li><li>Buspirone is for long-term anxiety control, not immediate panic relief.</li><li>OCD medications often overlap with antidepressants.</li><li>Some meds treat body symptoms of anxiety instead of the emotional cause.</li></ul></div>
@@ -64,7 +64,7 @@ page_type: med-browser
       </div>
     </details>
     <details id="mood-stabilizers" class="med-class">
-      <summary><span class="med-class-icon blue">MS</span><span><strong>Mood Stabilizers</strong><small>Mood stabilizers are used for bipolar disorder, mania, mood stabilization, and schizoaffective or bipolar features.</small></span></summary>
+      <summary><span class="med-class-icon blue">⚖</span><span><strong>Mood Stabilizers</strong><small>Mood stabilizers are used for bipolar disorder, mania, mood stabilization, and schizoaffective or bipolar features.</small></span></summary>
       <div class="med-class-body">
         <div class="med-teaching-grid">
           <div class="med-info-box purple"><h3>Class Big Picture</h3><ul><li>Lithium is the major bipolar “big hitter.”</li><li>Mood stabilizers often require labs and close monitoring.</li><li>Toxicity and organ effects matter more than memorizing every side effect.</li><li>Anticonvulsants may be used as mood stabilizers.</li></ul></div>
@@ -79,7 +79,7 @@ page_type: med-browser
       </div>
     </details>
     <details id="antipsychotics" class="med-class">
-      <summary><span class="med-class-icon">AP</span><span><strong>Antipsychotics</strong><small>Antipsychotics are used for schizophrenia, psychosis, hallucinations, delusions, severe agitation, and bipolar or schizoaffective psychotic features.</small></span></summary>
+      <summary><span class="med-class-icon">🧠</span><span><strong>Antipsychotics</strong><small>Antipsychotics are used for schizophrenia, psychosis, hallucinations, delusions, severe agitation, and bipolar or schizoaffective psychotic features.</small></span></summary>
       <div class="med-class-body">
         <div class="med-teaching-grid">
           <div class="med-info-box purple"><h3>Class Big Picture</h3><ul><li>First-generation antipsychotics have a stronger Extrapyramidal Symptoms (EPS) focus.</li><li>Second-generation antipsychotics have a stronger metabolic monitoring focus.</li><li>Any antipsychotic can cause Neuroleptic malignant syndrome (NMS).</li><li>Clozapine is high risk because of blood count suppression.</li><li>Patients may need to continue meds even when symptoms improve.</li></ul></div>
@@ -100,7 +100,7 @@ page_type: med-browser
       </div>
     </details>
     <details id="substance-use" class="med-class">
-      <summary><span class="med-class-icon green">SU</span><span><strong>Substance Use Medications</strong><small>Substance use medications are used for overdose reversal, withdrawal management, alcohol use disorder, tobacco cessation, and complications related to substance use.</small></span></summary>
+      <summary><span class="med-class-icon green">🌿</span><span><strong>Substance Use Medications</strong><small>Substance use medications are used for overdose reversal, withdrawal management, alcohol use disorder, tobacco cessation, and complications related to substance use.</small></span></summary>
       <div class="med-class-body">
         <div class="med-teaching-grid">
           <div class="med-info-box purple"><h3>Class Big Picture</h3><ul><li>Overdose questions are always airway/breathing first.</li><li>Alcohol withdrawal can be fatal.</li><li>Benzodiazepines are common for alcohol withdrawal.</li><li>Thiamine is a major priority with chronic alcohol use.</li><li>Relapse-prevention meds require strict teaching.</li></ul></div>
@@ -131,7 +131,7 @@ page_type: med-browser
       </div>
     </details>
     <details id="eating-special" class="med-class">
-      <summary><span class="med-class-icon pink">ED</span><span><strong>Eating Disorder + Special Medications</strong><small>These medications are connected with binge eating disorder, weight-related medication notes, and special mental health high-yield cues.</small></span></summary>
+      <summary><span class="med-class-icon pink">♡</span><span><strong>Eating Disorder + Special Medications</strong><small>These medications are connected with binge eating disorder, weight-related medication notes, and special mental health high-yield cues.</small></span></summary>
       <div class="med-class-body">
         <div class="med-teaching-grid">
           <div class="med-info-box purple"><h3>Class Big Picture</h3><ul><li>Eating disorder care is not only medication.</li><li>Nutrition, therapy, cardiac safety, electrolyte safety, and structure are priorities.</li><li>Some eating disorder medications affect appetite, weight, mood, and seizure risk.</li><li>Stimulant effects require heart rate and blood pressure monitoring.</li></ul></div>
@@ -148,7 +148,7 @@ page_type: med-browser
       </div>
     </details>
     <details id="eps-antidotes" class="med-class">
-      <summary><span class="med-class-icon gold">EPS</span><span><strong>EPS Meds + Antidotes</strong><small>These medications are used for psych-med side effects or overdose reversal, so they show up in safety questions.</small></span></summary>
+      <summary><span class="med-class-icon gold">✚</span><span><strong>EPS Meds + Antidotes</strong><small>These medications are used for psych-med side effects or overdose reversal, so they show up in safety questions.</small></span></summary>
       <div class="med-class-body">
         <div class="med-teaching-grid">
           <div class="med-info-box purple"><h3>Class Big Picture</h3><ul><li>Benztropine treats some antipsychotic-related Extrapyramidal Symptoms (EPS).</li><li>Flumazenil reverses benzodiazepine effects but does not replace airway support.</li><li>Naloxone reverses opioid overdose but breathing is still the priority.</li><li>Antidote questions still follow ABCs first.</li></ul></div>
@@ -163,7 +163,7 @@ page_type: med-browser
         </div>
       </div>
     </details>
-    <details id="master-chart" class="med-class"><summary><span class="med-class-icon blue">MC</span><span><strong>Master Medication Match-Up</strong><small>Fast review of each medication, category, and biggest NCLEX cue.</small></span></summary><div class="med-class-body"><div class="med-table-wrap"><table><thead><tr><th>Medication</th><th>Category</th><th>Biggest NCLEX Cue</th></tr></thead><tbody>
+    <details id="master-chart" class="med-class"><summary><span class="med-class-icon blue">▦</span><span><strong>Master Medication Match-Up</strong><small>Fast review of each medication, category, and biggest NCLEX cue.</small></span></summary><div class="med-class-body"><div class="med-table-wrap"><table><thead><tr><th>Medication</th><th>Category</th><th>Biggest NCLEX Cue</th></tr></thead><tbody>
 <tr><td>Fluoxetine</td><td>SSRI</td><td>Suicide risk early; serotonin syndrome</td></tr>
 <tr><td>Sertraline</td><td>SSRI</td><td>Suicide risk early; serotonin syndrome</td></tr>
 <tr><td>Paroxetine</td><td>SSRI</td><td>Suicide risk early; serotonin syndrome</td></tr>
@@ -214,7 +214,7 @@ page_type: med-browser
 <tr><td>Contrave</td><td>Weight-related/binge eating medication</td><td>BP, mood changes, seizure risk</td></tr>
 <tr><td>Amobarbital</td><td>Barbiturate/sedative</td><td>Respiratory depression and sedation</td></tr>
 </tbody></table></div></div></details>
-    <details id="quick-review" class="med-class"><summary><span class="med-class-icon gold">QR</span><span><strong>Quick Review Cues</strong><small>Fast “what should I think of?” medication cues.</small></span></summary><div class="med-class-body"><div class="med-teaching-grid"><div class="med-info-box purple"><h3>Quick Review</h3><ul><li><strong>SSRIs/SNRIs</strong> → suicide risk early + serotonin syndrome.</li><li><strong>SNRIs</strong> → also watch blood pressure.</li><li><strong>Bupropion</strong> → seizure risk.</li><li><strong>Trazodone</strong> → sedation and falls.</li><li><strong>Benzodiazepines</strong> → sedation, falls, dependence, respiratory depression.</li><li><strong>Lithium</strong> → levels, fluids/salt, kidneys, thyroid, toxicity.</li><li><strong>Antipsychotics</strong> → Extrapyramidal Symptoms (EPS) and Neuroleptic malignant syndrome (NMS).</li><li><strong>Second-generation antipsychotics</strong> → metabolic labs.</li><li><strong>Clozapine</strong> → WBC/ANC and infection symptoms.</li><li><strong>Opioid overdose</strong> → breathing first, then naloxone.</li><li><strong>Alcohol withdrawal</strong> → benzodiazepines, seizure precautions, and thiamine.</li><li><strong>Disulfiram</strong> → no alcohol from any source.</li></ul></div><div class="med-info-box gold"><h3>Which Med Is It?</h3><table class="med-mini-table"><tbody><tr><th>Fever + severe muscle rigidity + altered mental status</th><td>Neuroleptic malignant syndrome (NMS)</td></tr><tr><th>Fever + diarrhea + tremor + hyperreflexia</th><td>Serotonin syndrome</td></tr><tr><th>Restless/cannot sit still</th><td>Extrapyramidal Symptoms (EPS), especially akathisia</td></tr><tr><th>Stiff neck, muscle spasms, abnormal movements</th><td>Extrapyramidal Symptoms (EPS)</td></tr><tr><th>Sore throat or fever on clozapine</th><td>Agranulocytosis risk</td></tr><tr><th>GI upset + tremor + confusion + ataxia on lithium</th><td>Lithium toxicity</td></tr><tr><th>Benzo overdose/oversedation</th><td>Airway first, flumazenil possible</td></tr><tr><th>Opioid overdose</th><td>Breathing first, naloxone</td></tr><tr><th>Alcohol withdrawal</th><td>Benzodiazepines + seizure precautions</td></tr><tr><th>Chronic alcohol use + confusion/gait/eye changes</th><td>Thiamine</td></tr><tr><th>Taking MAOI + severe headache/chest pain</th><td>Hypertensive crisis</td></tr><tr><th>Taking disulfiram and drank alcohol</th><td>Severe alcohol reaction</td></tr></tbody></table></div></div></div></details>
+    <details id="quick-review" class="med-class"><summary><span class="med-class-icon gold">★</span><span><strong>Quick Review Cues</strong><small>Fast “what should I think of?” medication cues.</small></span></summary><div class="med-class-body"><div class="med-teaching-grid"><div class="med-info-box purple"><h3>Quick Review</h3><ul><li><strong>SSRIs/SNRIs</strong> → suicide risk early + serotonin syndrome.</li><li><strong>SNRIs</strong> → also watch blood pressure.</li><li><strong>Bupropion</strong> → seizure risk.</li><li><strong>Trazodone</strong> → sedation and falls.</li><li><strong>Benzodiazepines</strong> → sedation, falls, dependence, respiratory depression.</li><li><strong>Lithium</strong> → levels, fluids/salt, kidneys, thyroid, toxicity.</li><li><strong>Antipsychotics</strong> → Extrapyramidal Symptoms (EPS) and Neuroleptic malignant syndrome (NMS).</li><li><strong>Second-generation antipsychotics</strong> → metabolic labs.</li><li><strong>Clozapine</strong> → WBC/ANC and infection symptoms.</li><li><strong>Opioid overdose</strong> → breathing first, then naloxone.</li><li><strong>Alcohol withdrawal</strong> → benzodiazepines, seizure precautions, and thiamine.</li><li><strong>Disulfiram</strong> → no alcohol from any source.</li></ul></div><div class="med-info-box gold"><h3>Which Med Is It?</h3><table class="med-mini-table"><tbody><tr><th>Fever + severe muscle rigidity + altered mental status</th><td>Neuroleptic malignant syndrome (NMS)</td></tr><tr><th>Fever + diarrhea + tremor + hyperreflexia</th><td>Serotonin syndrome</td></tr><tr><th>Restless/cannot sit still</th><td>Extrapyramidal Symptoms (EPS), especially akathisia</td></tr><tr><th>Stiff neck, muscle spasms, abnormal movements</th><td>Extrapyramidal Symptoms (EPS)</td></tr><tr><th>Sore throat or fever on clozapine</th><td>Agranulocytosis risk</td></tr><tr><th>GI upset + tremor + confusion + ataxia on lithium</th><td>Lithium toxicity</td></tr><tr><th>Benzo overdose/oversedation</th><td>Airway first, flumazenil possible</td></tr><tr><th>Opioid overdose</th><td>Breathing first, naloxone</td></tr><tr><th>Alcohol withdrawal</th><td>Benzodiazepines + seizure precautions</td></tr><tr><th>Chronic alcohol use + confusion/gait/eye changes</th><td>Thiamine</td></tr><tr><th>Taking MAOI + severe headache/chest pain</th><td>Hypertensive crisis</td></tr><tr><th>Taking disulfiram and drank alcohol</th><td>Severe alcohol reaction</td></tr></tbody></table></div></div></div></details>
     <footer id="teaching" class="med-footer-tip"><span>💡</span><p><strong>Tip:</strong> Know the class, the key side effects, and what to teach. Sort psych meds by danger: suicide, sedation, serotonin syndrome, lithium toxicity, Extrapyramidal Symptoms (EPS), Neuroleptic malignant syndrome (NMS), breathing, seizures, and blood counts.</p></footer>
   </section>
   <nav class="page-nav"><a href="{{ '/mental-health/somatic-factitious-dissociative.html' | relative_url }}" class="page-nav-back">← Somatic, Factitious & Dissociative</a><a href="{{ '/mental-health.html' | relative_url }}" class="page-nav-next">Back to Mental Health →</a></nav>
