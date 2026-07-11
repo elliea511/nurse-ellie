@@ -791,6 +791,25 @@ body {
 .main-content details.study-dropdown.pink   { border-color: var(--accent-mid) !important; }
 .main-content details.study-dropdown.pink > summary { background: var(--accent-soft) !important; }
 
+/* Infographic reveal — image sits inside a study-dropdown toggle */
+.main-content details.infographic img {
+  display: block !important;
+  margin: 0.4rem auto !important;
+  width: auto !important;
+  max-width: 100% !important;
+  max-height: 70vh !important;      /* cap tall infographics; lightbox shows full */
+  border: 1px solid var(--border) !important;
+  border-radius: 10px !important;
+  cursor: zoom-in !important;
+}
+.main-content details.infographic .infographic-hint {
+  display: block !important;
+  text-align: center !important;
+  font-size: 0.8rem !important;
+  color: var(--muted) !important;
+  margin: 0.35rem 0 0.85rem !important;
+}
+
 /* =========================================================
    BLOCKQUOTES
    ========================================================= */
