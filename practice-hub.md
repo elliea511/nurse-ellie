@@ -58,60 +58,20 @@ page_type: practice-hub
         <span class="practice-card-icon">🧠</span>
         <div>
           <h2>Mental Health</h2>
-          <p>Anxiety disorders, mood disorders, medications, safety, and priority cues.</p>
-          <div class="practice-meta"><span>▤ 20 Questions</span><b>Moderate</b></div>
+          <p>Psych safety, disorders, medications, communication, and NCLEX priority cues.</p>
+          <div class="practice-meta"><span>▤ Questions coming soon</span><b>Planned</b></div>
         </div>
-        <footer><span>Last score: <strong>82%</strong></span><a href="{{ '/mental-health/basics-quiz.html' | relative_url }}">Review</a></footer>
-      </article>
-
-      <article class="practice-test-card theme-mint">
-        <span class="practice-card-icon">💊</span>
-        <div>
-          <h2>Pharmacology</h2>
-          <p>Med classes, side effects, patient teaching, and NCLEX safety priorities.</p>
-          <div class="practice-meta"><span>▤ 25 Questions</span><b>Moderate</b></div>
-        </div>
-        <footer><span>Last score: <strong>88%</strong></span><a href="{{ '/mental-health/medication-game.html' | relative_url }}">Resume</a></footer>
-      </article>
-
-      <article class="practice-test-card theme-pink">
-        <span class="practice-card-icon">👶</span>
-        <div>
-          <h2>Maternity</h2>
-          <p>Pregnancy, labor and delivery, postpartum, and newborn care basics.</p>
-          <div class="practice-meta"><span>▤ 20 Questions</span><b>Easy</b></div>
-        </div>
-        <footer><span>Last score: <strong>76%</strong></span><a href="{{ '/maternity.html' | relative_url }}">Start</a></footer>
-      </article>
-
-      <article class="practice-test-card theme-rose">
-        <span class="practice-card-icon">🩸</span>
-        <div>
-          <h2>Perfusion</h2>
-          <p>Cardiovascular system, blood flow, perfusion concepts, and interventions.</p>
-          <div class="practice-meta"><span>▤ 15 Questions</span><b>Hard</b></div>
-        </div>
-        <footer><span>Last score: <strong>70%</strong></span><a href="{{ '/medical-emergencies.html' | relative_url }}">Start</a></footer>
+        <footer><span>Status: <strong>Coming soon</strong></span><a href="{{ '/mental-health.html' | relative_url }}">Study</a></footer>
       </article>
 
       <article class="practice-test-card theme-blue">
-        <span class="practice-card-icon">🫁</span>
+        <span class="practice-card-icon">⚕️</span>
         <div>
-          <h2>Respiratory</h2>
-          <p>Gas exchange, airway priorities, respiratory distress, and oxygenation.</p>
-          <div class="practice-meta"><span>▤ 20 Questions</span><b>Moderate</b></div>
+          <h2>Medical Emergencies</h2>
+          <p>Cardiac, respiratory, neuro, trauma, environmental, and priority interventions.</p>
+          <div class="practice-meta"><span>▤ Practice test ready</span><b>Active</b></div>
         </div>
-        <footer><span>Last score: <strong>84%</strong></span><a href="{{ '/medical-emergencies/practice-quiz.html' | relative_url }}">Resume</a></footer>
-      </article>
-
-      <article class="practice-test-card theme-orange">
-        <span class="practice-card-icon">🩺</span>
-        <div>
-          <h2>Med-Surg</h2>
-          <p>Priority decisions across body systems, acute changes, and nursing care.</p>
-          <div class="practice-meta"><span>◔ 14/30 completed</span><b>Hard</b></div>
-        </div>
-        <footer><span>In progress</span><a href="{{ '/all-topics.html' | relative_url }}">Resume</a></footer>
+        <footer><span>Ready now</span><a href="{{ '/medical-emergencies/practice-quiz.html' | relative_url }}">Start</a></footer>
       </article>
     </section>
 
@@ -122,10 +82,8 @@ page_type: practice-hub
           <a href="{{ '/review.html' | relative_url }}">View all →</a>
         </div>
         <div class="practice-attempt-list">
-          <div><span>🧠 Mental Health</span><small>Timed</small><strong>82%</strong><b>Completed</b><a href="{{ '/mental-health/basics-quiz.html' | relative_url }}">Review</a></div>
-          <div><span>💊 Pharmacology</span><small>Timed</small><strong>88%</strong><b>Completed</b><a href="{{ '/mental-health/medication-game.html' | relative_url }}">Review</a></div>
-          <div><span>🫁 Respiratory</span><small>Untimed</small><strong>84%</strong><b>Completed</b><a href="{{ '/medical-emergencies/practice-quiz.html' | relative_url }}">Review</a></div>
-          <div><span>🩺 Med-Surg</span><small>Timed</small><strong>—</strong><b class="in-progress">In progress</b><a href="{{ '/all-topics.html' | relative_url }}">Resume</a></div>
+          <div><span>⚕️ Medical Emergencies</span><small>Practice test</small><strong>Ready</strong><b>Active</b><a href="{{ '/medical-emergencies/practice-quiz.html' | relative_url }}">Start</a></div>
+          <div><span>🧠 Mental Health</span><small>Question set</small><strong>—</strong><b class="in-progress">Coming soon</b><a href="{{ '/mental-health.html' | relative_url }}">Study</a></div>
         </div>
       </section>
 
@@ -135,21 +93,21 @@ page_type: practice-hub
           <button type="button" disabled>This Month ⌄</button>
         </div>
         <div class="practice-score-ring" aria-label="Average score 81 percent">
-          <span>81%</span>
-          <small>Average Score</small>
+          <span>1/2</span>
+          <small>Tests Ready</small>
         </div>
         <ul>
-          <li><span>✓ Quizzes completed</span><strong>12</strong></li>
-          <li><span>◎ Average score</span><strong>81%</strong></li>
-          <li><span>🔥 Best score</span><strong>92%</strong></li>
-          <li><span>▣ Study streak</span><strong>7 days</strong></li>
+          <li><span>✓ Active tests</span><strong>1</strong></li>
+          <li><span>◎ Planned tests</span><strong>1</strong></li>
+          <li><span>🔥 Available now</span><strong>Medical Emergencies</strong></li>
+          <li><span>▣ Coming next</span><strong>Mental Health</strong></li>
         </ul>
       </section>
     </div>
 
     <aside class="practice-tip">
       <span>💡</span>
-      <p><strong>Tip:</strong> Use timed tests to simulate exam day, then save missed concepts to your review list.</p>
+      <p><strong>Tip:</strong> Start with Medical Emergencies now. Mental Health will unlock here once the question set is added.</p>
       <button type="button" aria-label="Dismiss tip">×</button>
     </aside>
   </div>

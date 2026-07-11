@@ -299,7 +299,7 @@ body[data-page-type="practice-hub"] .main-content {
 
 .practice-topic-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1rem;
 }
 
@@ -575,6 +575,7 @@ body[data-page-type="practice-hub"] .main-content {
 .performance li strong {
   color: #141a40;
   font-size: 1rem;
+  text-align: right;
 }
 
 .practice-tip {
