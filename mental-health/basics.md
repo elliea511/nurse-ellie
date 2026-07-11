@@ -166,6 +166,35 @@ Mental health nursing focuses on **safety, trust, therapeutic communication, bou
 <strong>NCLEX:</strong> The best communication answer usually keeps the focus on the patient’s feelings and safety. Avoid advice, judgment, and false reassurance.
 </div>
 
+<div class="mh-table-card" markdown="1">
+
+<h3>🧠 Types of Therapy</h3>
+
+| Therapy | Think... | Best Used For | NCLEX Cue |
+|---|---|---|---|
+| **CBT** | Change thoughts → change behaviors | Anxiety, Depression, OCD, Stress | Challenges negative thought patterns. |
+| **DBT** | CBT + Mindfulness | Borderline Personality Disorder, Self-harm | Emotional regulation and distress tolerance. |
+| **ACT** | Accept thoughts | Anxiety, Depression, OCD | Accept thoughts while committing to personal values. |
+| **Psychodynamic** | The past affects the present | Personality disorders, Relationship issues | Explores unconscious conflict and childhood experiences. |
+| **EMDR** | Eye movements | PTSD, Trauma | Uses guided eye movements during trauma processing. |
+| **IPT** | Relationships | Depression, Grief, Life transitions | Improves communication and interpersonal functioning. |
+| **Humanistic (Person-Centered)** | Unconditional positive regard | Self-esteem, Personal growth | Therapist provides empathy and nonjudgmental support. |
+
+</div>
+
+<div class="detail-callout" markdown="1">
+<strong>ATI Memory Tricks</strong>
+
+- **CBT** → Change Thoughts
+- **DBT** → Borderline Personality Disorder
+- **ACT** → Accept Thoughts
+- **EMDR** → Eye Movements = Trauma/PTSD
+- **IPT** → Interpersonal Relationships
+- **Psychodynamic** → Childhood & Unconscious Conflict
+- **Humanistic** → Empathy & Unconditional Positive Regard
+
+</div>
+
 </div>
 
 <div class="mh-detail blue" id="panel-safety" markdown="1">
