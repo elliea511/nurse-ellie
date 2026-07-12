@@ -172,13 +172,13 @@ Mental health nursing focuses on **safety, trust, therapeutic communication, bou
 
 | Therapy | Think... | Best Used For | NCLEX Cue |
 |---|---|---|---|
-| **CBT** | Change thoughts → change behaviors | Anxiety, Depression, OCD, Stress | Challenges negative thought patterns. |
-| **DBT** | CBT + Mindfulness | Borderline Personality Disorder, Self-harm | Emotional regulation and distress tolerance. |
-| **ACT** | Accept thoughts | Anxiety, Depression, OCD | Accept thoughts while committing to personal values. |
-| **Psychodynamic** | The past affects the present | Personality disorders, Relationship issues | Explores unconscious conflict and childhood experiences. |
-| **EMDR** | Eye movements | PTSD, Trauma | Uses guided eye movements during trauma processing. |
-| **IPT** | Relationships | Depression, Grief, Life transitions | Improves communication and interpersonal functioning. |
-| **Humanistic (Person-Centered)** | Unconditional positive regard | Self-esteem, Personal growth | Therapist provides empathy and nonjudgmental support. |
+| **Cognitive Behavioral Therapy (CBT)** | Change thoughts → change behaviors | Anxiety, Depression, OCD, Stress | Challenges negative thought patterns. |
+| **Dialectical Behavior Therapy (DBT)** | CBT + Mindfulness | Borderline Personality Disorder, Self-harm | Emotional regulation and distress tolerance. |
+| **Acceptance and Commitment Therapy (ACT)** | Accept thoughts | Anxiety, Depression, OCD | Accept thoughts while committing to personal values. |
+| **Psychodynamic Therapy** | The past affects the present | Personality disorders, Relationship issues | Explores unconscious conflict and childhood experiences. |
+| **Eye Movement Desensitization and Reprocessing (EMDR)** | Eye movements | PTSD, Trauma | Uses guided eye movements during trauma processing. |
+| **Interpersonal Therapy (IPT)** | Relationships | Depression, Grief, Life transitions | Improves communication and interpersonal functioning. |
+| **Humanistic (Person-Centered) Therapy** | Unconditional positive regard | Self-esteem, Personal growth | Therapist provides empathy and nonjudgmental support. |
 
 </div>
 
