@@ -23,12 +23,31 @@
     { id: 'prep',       label: 'Emergency Preparedness & Crisis', cat: 'Other',              url: '/medical-emergencies/emergency-prep-quiz.html',               n: 23 },
   ];
 
-  var MENTAL_HEALTH_TOPICS = [
+  var MENTAL_HEALTH_SOURCE_TOPICS = [
     { id: 'anxiety-ocd', label: 'Anxiety, OCD & Trauma', cat: 'Mental Health', url: '/mental-health/anxiety-ocd-quiz.html', n: 35 },
     { id: 'depression',  label: 'Depression',            cat: 'Mental Health', url: '/mental-health/depression-quiz.html',  n: 40 },
   ];
 
+  var MENTAL_HEALTH_DERIVED_TOPICS = [
+    {
+      id: 'mh-medications',
+      label: 'Medication Questions',
+      cat: 'Focused Review',
+      n: 38,
+      derived: true,
+      filter: 'medications',
+      sourceCounts: {
+        'anxiety-ocd': 15,
+        depression: 23
+      }
+    },
+  ];
+
+  var MENTAL_HEALTH_TOPICS = MENTAL_HEALTH_SOURCE_TOPICS.concat(MENTAL_HEALTH_DERIVED_TOPICS);
+
   var TOPICS = IS_MENTAL_HEALTH ? MENTAL_HEALTH_TOPICS : MEDICAL_EMERGENCY_TOPICS;
+
+  var MEDICATION_QUESTION_RE = /\b(medication|medications|prescription|prescribed|dose|doses|administer|ssri|ssris|snri|snris|tca|tcas|maoi|maois|antidepressant|antidepressants|benzodiazepine|benzodiazepines|buspirone|lorazepam|diazepam|alprazolam|fluoxetine|sertraline|escitalopram|citalopram|venlafaxine|duloxetine|bupropion|phenelzine|nortriptyline|amitriptyline|hydroxyzine|propranolol|tricyclic|serotonin syndrome|st\. john|linezolid|meperidine|pseudoephedrine|tyramine|discontinuation syndrome|side effect|adverse effect|adverse effects|toxicity|therapeutic response)\b/i;
 
   var CATS = [];
   TOPICS.forEach(function (t) { if (CATS.indexOf(t.cat) === -1) CATS.push(t.cat); });
@@ -76,6 +95,9 @@
       out.push({
         topic: topicId,
         topicLabel: topicLabel,
+        sourceTopic: topicId,
+        sourceTopicLabel: topicLabel,
+        questionKey: topicId + '|' + (stemParts.join('') + choiceEls.map(function (el) { return el.textContent.trim(); }).join('|')).replace(/\s+/g, ' ').trim(),
         stemHTML: stemParts.join(''),
         choiceTexts: choiceEls.map(function (el) { return el.textContent.trim(); }),
         answerText: answerText,
@@ -85,6 +107,30 @@
       });
     });
     return out;
+  }
+
+  function isMedicationQuestion(q) {
+    return MEDICATION_QUESTION_RE.test((q.stemHTML || '') + ' ' + (q.choiceTexts || []).join(' '));
+  }
+
+  function loadTopicQuestions(topic) {
+    if (topic.derived && topic.filter === 'medications') {
+      return Promise.all(MENTAL_HEALTH_SOURCE_TOPICS.map(function (sourceTopic) {
+        return fetch(BASE + sourceTopic.url)
+          .then(function (r) { return r.text(); })
+          .then(function (html) { return parseHTML(html, sourceTopic.id, sourceTopic.label); });
+      })).then(function (results) {
+        return [].concat.apply([], results).filter(isMedicationQuestion).map(function (q) {
+          q.topic = topic.id;
+          q.topicLabel = topic.label + ' • ' + q.sourceTopicLabel;
+          return q;
+        });
+      });
+    }
+
+    return fetch(BASE + topic.url)
+      .then(function (r) { return r.text(); })
+      .then(function (html) { return parseHTML(html, topic.id, topic.label); });
   }
 
   function shuffle(arr) {
@@ -104,7 +150,15 @@
   }
 
   function totalSelected() {
-    return TOPICS.reduce(function (s, t) { return selectedIds[t.id] ? s + t.n : s; }, 0);
+    return TOPICS.reduce(function (s, t) {
+      if (!selectedIds[t.id]) return s;
+      if (t.derived && t.sourceCounts) {
+        return s + Object.keys(t.sourceCounts).reduce(function (sum, sourceId) {
+          return sum + (selectedIds[sourceId] ? 0 : t.sourceCounts[sourceId]);
+        }, 0);
+      }
+      return s + t.n;
+    }, 0);
   }
 
   // ── SELECT phase ───────────────────────────────────────────────────────────
@@ -252,14 +306,16 @@
     phase = 'LOADING';
     ROOT.innerHTML = '<div class="pt-loading">Loading questions…</div>';
 
-    var fetches = chosen.map(function (topic) {
-      return fetch(BASE + topic.url)
-        .then(function (r) { return r.text(); })
-        .then(function (html) { return parseHTML(html, topic.id, topic.label); });
-    });
+    var fetches = chosen.map(loadTopicQuestions);
 
     Promise.all(fetches).then(function (results) {
-      var all = shuffle([].concat.apply([], results));
+      var seen = {};
+      var all = shuffle([].concat.apply([], results).filter(function (q) {
+        var key = q.questionKey || ((q.sourceTopic || q.topic) + '|' + q.stemHTML);
+        if (seen[key]) return false;
+        seen[key] = true;
+        return true;
+      }));
       questions = (desiredCount > 0 && desiredCount < all.length) ? all.slice(0, desiredCount) : all;
       currentIdx   = 0;
       studyCorrect = 0;

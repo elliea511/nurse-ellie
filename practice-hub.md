@@ -50,8 +50,8 @@ page_type: practice-hub
         <span class="practice-card-icon">🧠</span>
         <div>
           <h2>Mental Health</h2>
-          <p>Anxiety/OCD, trauma, depression, suicide safety, antidepressants, and priority cues.</p>
-          <div class="practice-meta"><span>▤ 75 Questions</span><b>Active</b></div>
+          <p>Anxiety/OCD, depression, suicide safety, antidepressants, plus a focused medication review filter.</p>
+          <div class="practice-meta"><span>▤ 75 Questions + Med Filter</span><b>Active</b></div>
         </div>
         <footer><span>Ready now</span><a href="{{ '/mental-health/practice-quiz.html' | relative_url }}">Start</a></footer>
       </article>
@@ -74,7 +74,7 @@ page_type: practice-hub
         </div>
         <div class="practice-attempt-list">
           <div><span>⚕️ Medical Emergencies</span><small>Practice test</small><strong>Ready</strong><b>Active</b><a href="{{ '/medical-emergencies/practice-quiz.html' | relative_url }}">Start</a></div>
-          <div><span>🧠 Mental Health</span><small>Anxiety/OCD + Depression</small><strong>75 questions</strong><b>Active</b><a href="{{ '/mental-health/practice-quiz.html' | relative_url }}">Start</a></div>
+          <div><span>🧠 Mental Health</span><small>Anxiety/OCD + Depression + Med Filter</small><strong>75 questions</strong><b>Active</b><a href="{{ '/mental-health/practice-quiz.html' | relative_url }}">Start</a></div>
         </div>
       </section>
 
@@ -97,7 +97,7 @@ page_type: practice-hub
 
     <aside class="practice-tip">
       <span>💡</span>
-      <p><strong>Tip:</strong> Mental Health now has Anxiety/OCD and Depression. Select one topic or mix both for a custom practice test.</p>
+      <p><strong>Tip:</strong> Mental Health now has Anxiety/OCD, Depression, and a Medication Questions filter that pulls med questions from the topic sets.</p>
     </aside>
   </div>
 </section>
