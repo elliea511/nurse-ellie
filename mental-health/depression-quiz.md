@@ -1000,3 +1000,181 @@ A nurse is teaching a client who is starting venlafaxine. Which instructions sho
 <p><strong>E. Incorrect:</strong> Antidepressant effects generally take several weeks rather than several hours.</p>
 </div>
 </details>
+
+---
+
+## Question 41
+A nurse is assessing a client who reports severe irritability, depressed mood, breast tenderness, poor concentration, and feelings of hopelessness that begin during the week before menstruation and improve within several days after menstruation starts. The symptoms interfere with work and relationships. Which disorder should the nurse suspect?
+
+<p class="answer-choice"><strong>A.</strong> Persistent depressive disorder</p>
+<p class="answer-choice"><strong>B.</strong> Premenstrual dysphoric disorder</p>
+<p class="answer-choice"><strong>C.</strong> Cyclothymic disorder</p>
+<p class="answer-choice"><strong>D.</strong> Major depressive disorder with seasonal pattern</p>
+
+<details class="quiz-answer-block">
+<summary>Click to see answer and rationale</summary>
+<p class="quiz-answer"><strong>Answer: B</strong></p>
+
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+
+<p><strong>A. Incorrect:</strong> Persistent depressive disorder involves chronic depressive symptoms lasting at least 2 years in adults and is not limited to the menstrual cycle.</p>
+<p><strong>B. Correct:</strong> PMDD causes significant mood and physical symptoms during the late luteal phase, with improvement shortly after menstruation begins.</p>
+<p><strong>C. Incorrect:</strong> Cyclothymic disorder involves chronic fluctuations between hypomanic and depressive symptoms.</p>
+<p><strong>D. Incorrect:</strong> Seasonal-pattern depression follows a recurring seasonal pattern rather than the menstrual cycle.</p>
+
+
+</div>
+</details>
+---
+
+## Question 42
+A client who has major depressive disorder tells the nurse, “I used to love painting and spending time with my friends, but now none of it feels enjoyable.” Which term should the nurse use to document this finding?
+
+<p class="answer-choice"><strong>A.</strong> Anergia</p>
+<p class="answer-choice"><strong>B.</strong> Avolition</p>
+<p class="answer-choice"><strong>C.</strong> Anhedonia</p>
+<p class="answer-choice"><strong>D.</strong> Echolalia</p>
+
+<details class="quiz-answer-block">
+<summary>Click to see answer and rationale</summary>
+<p class="quiz-answer"><strong>Answer: C</strong></p>
+
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+
+<p><strong>A. Incorrect:</strong> Anergia refers to a lack of energy.</p>
+<p><strong>B. Incorrect:</strong> Avolition refers to reduced motivation or inability to initiate purposeful activity.</p>
+<p><strong>C. Correct:</strong> Anhedonia is the inability to experience pleasure from activities that were previously enjoyable.</p>
+<p><strong>D. Incorrect:</strong> Echolalia is the repetition of another person’s words and is not a typical depressive symptom.</p>
+
+
+</div>
+</details>
+---
+
+## Question 43
+A nurse is assessing a client who has major depressive disorder. The client states, “Even getting out of bed feels impossible because I have no energy at all.” Which finding is the nurse identifying?
+
+<p class="answer-choice"><strong>A.</strong> Anergia</p>
+<p class="answer-choice"><strong>B.</strong> Grandiosity</p>
+<p class="answer-choice"><strong>C.</strong> Flight of ideas</p>
+<p class="answer-choice"><strong>D.</strong> Perseveration</p>
+
+<details class="quiz-answer-block">
+<summary>Click to see answer and rationale</summary>
+<p class="quiz-answer"><strong>Answer: A</strong></p>
+
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+
+<p><strong>A. Correct:</strong> Anergia is a pronounced lack of physical or emotional energy.</p>
+<p><strong>B. Incorrect:</strong> Grandiosity is an inflated sense of importance and is associated more often with mania.</p>
+<p><strong>C. Incorrect:</strong> Flight of ideas involves rapid shifts between topics and is associated with mania.</p>
+<p><strong>D. Incorrect:</strong> Perseveration is the persistent repetition of words, thoughts, or actions.</p>
+
+
+</div>
+</details>
+---
+
+## Question 44
+A nurse is observing a client who has severe depression. The client walks slowly, takes several seconds to answer questions, and requires extra time to complete simple tasks. Which finding should the nurse document?
+
+<p class="answer-choice"><strong>A.</strong> Akathisia</p>
+<p class="answer-choice"><strong>B.</strong> Psychomotor retardation</p>
+<p class="answer-choice"><strong>C.</strong> Tardive dyskinesia</p>
+<p class="answer-choice"><strong>D.</strong> Hypervigilance</p>
+
+<details class="quiz-answer-block">
+<summary>Click to see answer and rationale</summary>
+<p class="quiz-answer"><strong>Answer: B</strong></p>
+
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+
+<p><strong>A. Incorrect:</strong> Akathisia causes inner restlessness and an inability to remain still.</p>
+<p><strong>B. Correct:</strong> Psychomotor retardation involves slowed movement, speech, and thought processes.</p>
+<p><strong>C. Incorrect:</strong> Tardive dyskinesia causes involuntary repetitive movements, often involving the face and tongue.</p>
+<p><strong>D. Incorrect:</strong> Hypervigilance is increased alertness to potential threats and is commonly associated with trauma-related disorders.</p>
+
+
+</div>
+</details>
+---
+
+## Question 45 — Select All That Apply
+A nurse is assessing a client who may have premenstrual dysphoric disorder. Which findings support this diagnosis?
+
+<p class="answer-choice"><strong>A.</strong> Symptoms occur during the week before menstruation</p>
+<p class="answer-choice"><strong>B.</strong> Symptoms are present continuously throughout the entire month</p>
+<p class="answer-choice"><strong>C.</strong> The client reports marked irritability and depressed mood</p>
+<p class="answer-choice"><strong>D.</strong> Symptoms significantly interfere with work or relationships</p>
+<p class="answer-choice"><strong>E.</strong> Symptoms improve within several days after menstruation begins</p>
+
+<details class="quiz-answer-block">
+<summary>Click to see answer and rationale</summary>
+<p class="quiz-answer"><strong>Answer: A, C, D, E</strong></p>
+
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+
+<p><strong>A. Correct:</strong> PMDD symptoms occur during the late luteal phase before menstruation.</p>
+<p><strong>B. Incorrect:</strong> Continuous symptoms throughout the month suggest another mood disorder rather than PMDD.</p>
+<p><strong>C. Correct:</strong> Irritability, mood lability, anxiety, and depressed mood are common PMDD manifestations.</p>
+<p><strong>D. Correct:</strong> PMDD causes clinically significant impairment in functioning.</p>
+<p><strong>E. Correct:</strong> Symptoms typically improve shortly after menstruation begins.</p>
+
+
+</div>
+</details>
+---
+
+## Question 46 — Select All That Apply
+A nurse is assessing a client for risk factors associated with major depressive disorder. Which findings should the nurse identify as increasing the client’s risk?
+
+<p class="answer-choice"><strong>A.</strong> A first-degree relative with major depressive disorder</p>
+<p class="answer-choice"><strong>B.</strong> Recent loss of a spouse</p>
+<p class="answer-choice"><strong>C.</strong> Strong social support and stable housing</p>
+<p class="answer-choice"><strong>D.</strong> Chronic pain that limits daily functioning</p>
+<p class="answer-choice"><strong>E.</strong> Misuse of alcohol to cope with stress</p>
+
+<details class="quiz-answer-block">
+<summary>Click to see answer and rationale</summary>
+<p class="quiz-answer"><strong>Answer: A, B, D, E</strong></p>
+
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+
+<p><strong>A. Correct:</strong> A family history of depression increases vulnerability due to genetic and environmental factors.</p>
+<p><strong>B. Correct:</strong> Bereavement and major life losses can precipitate depressive episodes.</p>
+<p><strong>C. Incorrect:</strong> Strong support and stable housing are protective factors.</p>
+<p><strong>D. Correct:</strong> Chronic pain and functional impairment increase depression risk.</p>
+<p><strong>E. Correct:</strong> Alcohol misuse can worsen mood symptoms, impair coping, and increase suicide risk.</p>
+
+
+</div>
+</details>
+---
+
+## Question 47
+A nurse is assessing four clients for risk of developing depression. Which client has the **greatest risk**?
+
+<p class="answer-choice"><strong>A.</strong> A client who recently started a new job and reports mild situational stress</p>
+<p class="answer-choice"><strong>B.</strong> A client who exercises regularly and has strong family support</p>
+<p class="answer-choice"><strong>C.</strong> A client with chronic kidney disease who recently lost a partner and lives alone</p>
+<p class="answer-choice"><strong>D.</strong> A client who reports occasional sadness before menstruation that resolves within 1 day</p>
+
+<details class="quiz-answer-block">
+<summary>Click to see answer and rationale</summary>
+<p class="quiz-answer"><strong>Answer: C</strong></p>
+
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+
+<p><strong>A. Incorrect:</strong> Mild situational stress can affect mood, but this client has fewer cumulative risk factors.</p>
+<p><strong>B. Incorrect:</strong> Exercise and social support are protective factors.</p>
+<p><strong>C. Correct:</strong> Chronic illness, bereavement, and social isolation together create a high cumulative risk for depression.</p>
+<p><strong>D. Incorrect:</strong> Brief, mild premenstrual mood changes that resolve quickly are common and do not indicate the highest depression risk.</p>
+</div>
+</details>

@@ -25,7 +25,7 @@
 
   var MENTAL_HEALTH_SOURCE_TOPICS = [
     { id: 'anxiety-ocd', label: 'Anxiety, OCD & Trauma', cat: 'Mental Health', url: '/mental-health/anxiety-ocd-quiz.html', n: 35 },
-    { id: 'depression',  label: 'Depression',            cat: 'Mental Health', url: '/mental-health/depression-quiz.html',  n: 40 },
+    { id: 'depression',  label: 'Depression',            cat: 'Mental Health', url: '/mental-health/depression-quiz.html',  n: 47 },
   ];
 
   var MENTAL_HEALTH_DERIVED_TOPICS = [
