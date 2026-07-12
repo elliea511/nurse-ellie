@@ -214,6 +214,13 @@ body[data-page-type="practice-hub"] .main-content {
   line-height: 1.45 !important;
 }
 
+.practice-hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .65rem;
+  justify-content: flex-end;
+}
+
 .practice-start-button {
   display: inline-flex;
   gap: .55rem;
@@ -226,6 +233,19 @@ body[data-page-type="practice-hub"] .main-content {
   font-weight: 1000;
   text-decoration: none;
   box-shadow: 0 12px 26px rgba(90, 54, 189, .22);
+}
+
+.practice-start-button.secondary {
+  border: 1px solid #d9ccf2;
+  background: rgba(255, 255, 255, .86);
+  color: #5a35b7;
+  box-shadow: 0 10px 22px rgba(76, 55, 145, .1);
+}
+
+.practice-start-button:hover,
+.practice-test-card footer a:hover,
+.practice-attempt-list a:hover {
+  transform: translateY(-1px);
 }
 
 .practice-topic-grid {
@@ -558,9 +578,10 @@ body[data-page-type="practice-hub"] .main-content {
     grid-template-columns: auto minmax(0, 1fr);
   }
 
-  .practice-start-button {
+  .practice-hero-actions {
     grid-column: 1 / -1;
     justify-self: start;
+    justify-content: flex-start;
   }
 
   .practice-lower-grid,

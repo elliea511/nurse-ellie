@@ -17,9 +17,9 @@ page_type: practice-hub
     </div>
 
     <nav class="practice-side-nav">
-      <a class="is-active" href="#practice-topics"><span>▦</span> Topic tests</a>
-      <a href="#test-status"><span>↺</span> Test status</a>
-      <a href="#performance"><span>◌</span> Progress snapshot</a>
+      <a class="is-active" href="{{ '/practice-hub.html' | relative_url }}"><span>▦</span> Practice hub</a>
+      <a href="{{ '/mental-health/practice-quiz.html' | relative_url }}"><span>🧠</span> Mental Health</a>
+      <a href="{{ '/medical-emergencies/practice-quiz.html' | relative_url }}"><span>⚕️</span> Medical Emergencies</a>
       <a href="{{ '/review.html' | relative_url }}"><span>♡</span> My review list</a>
     </nav>
 
@@ -39,7 +39,10 @@ page_type: practice-hub
         <h1 id="practice-hub-title">Practice Tests</h1>
         <p>Build confidence with topic-based quizzes, mock exams, and quick reviews.</p>
       </div>
-      <a class="practice-start-button" href="{{ '/mental-health/practice-quiz.html' | relative_url }}"><span>＋</span> Start Mental Health</a>
+      <div class="practice-hero-actions" aria-label="Start a practice test">
+        <a class="practice-start-button" href="{{ '/mental-health/practice-quiz.html' | relative_url }}"><span>＋</span> Mental Health</a>
+        <a class="practice-start-button secondary" href="{{ '/medical-emergencies/practice-quiz.html' | relative_url }}"><span>＋</span> Medical Emergencies</a>
+      </div>
     </header>
 
     <section class="practice-topic-grid" id="practice-topics" aria-label="Practice topic cards">
@@ -67,8 +70,7 @@ page_type: practice-hub
     <div class="practice-lower-grid">
       <section class="practice-panel recent" id="test-status" aria-labelledby="status-title">
         <div class="practice-panel-heading">
-          <h2 id="status-title">↺ Test Status</h2>
-          <a href="{{ '/mental-health/practice-quiz.html' | relative_url }}">Open Mental Health →</a>
+          <h2 id="status-title">↺ Available Tests</h2>
         </div>
         <div class="practice-attempt-list">
           <div><span>⚕️ Medical Emergencies</span><small>Practice test</small><strong>Ready</strong><b>Active</b><a href="{{ '/medical-emergencies/practice-quiz.html' | relative_url }}">Start</a></div>
