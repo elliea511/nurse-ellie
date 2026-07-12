@@ -6,7 +6,10 @@
 
   var BASE = (document.querySelector('meta[name="base-url"]') || {}).content || '';
 
-  var TOPICS = [
+  var PATH = window.location.pathname || '';
+  var IS_MENTAL_HEALTH = /\/mental-health\/practice-quiz(\.html)?\/?$/.test(PATH);
+
+  var MEDICAL_EMERGENCY_TOPICS = [
     { id: 'chf',        label: 'CHF & Pulmonary Edema',         cat: 'Cardiac & Perfusion', url: '/medical-emergencies/cardiac-perfusion/chf-quiz.html',        n: 32 },
     { id: 'mi',         label: 'Angina & Myocardial Infarction', cat: 'Cardiac & Perfusion', url: '/medical-emergencies/cardiac-perfusion/mi-quiz.html',         n: 32 },
     { id: 'hemophilia', label: 'Hemophilia & ITP',               cat: 'Cardiac & Perfusion', url: '/medical-emergencies/cardiac-perfusion/hemophilia-quiz.html', n: 20 },
@@ -19,6 +22,13 @@
     { id: 'burns',      label: 'Basic Burns',                    cat: 'Other',               url: '/medical-emergencies/burns-quiz.html',                        n: 26 },
     { id: 'prep',       label: 'Emergency Preparedness & Crisis', cat: 'Other',              url: '/medical-emergencies/emergency-prep-quiz.html',               n: 23 },
   ];
+
+  var MENTAL_HEALTH_TOPICS = [
+    { id: 'anxiety-ocd', label: 'Anxiety, OCD & Trauma', cat: 'Mental Health', url: '/mental-health/anxiety-ocd-quiz.html', n: 35 },
+    { id: 'depression',  label: 'Depression',            cat: 'Mental Health', url: '/mental-health/depression-quiz.html',  n: 40 },
+  ];
+
+  var TOPICS = IS_MENTAL_HEALTH ? MENTAL_HEALTH_TOPICS : MEDICAL_EMERGENCY_TOPICS;
 
   var CATS = [];
   TOPICS.forEach(function (t) { if (CATS.indexOf(t.cat) === -1) CATS.push(t.cat); });
@@ -104,7 +114,7 @@
     ROOT.innerHTML = '';
     var wrap = el('div', 'pt-select-wrap');
 
-    var title = el('h2', 'pt-select-title', 'Build Your Practice Test');
+    var title = el('h2', 'pt-select-title', IS_MENTAL_HEALTH ? 'Build Your Mental Health Practice Test' : 'Build Your Practice Test');
     var sub   = el('p',  'pt-select-sub',   'Choose the topics you want to include, then select a mode.');
     wrap.appendChild(title);
     wrap.appendChild(sub);

@@ -137,7 +137,7 @@ A nurse is assessing a client with severe anxiety and a history of trauma. Which
 
 <details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
-<p class="quiz-answer"><strong>Answers: A, B, D, E</strong></p>
+<p class="quiz-answer"><strong>Answer: A, B, D, E</strong></p>
 
 <div class="quiz-rationale">
 <p><strong>Rationale:</strong></p>
@@ -223,7 +223,7 @@ A nurse is caring for a client experiencing panic-level anxiety. Which intervent
 
 <details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
-<p class="quiz-answer"><strong>Answers: A, B, D</strong></p>
+<p class="quiz-answer"><strong>Answer: A, B, D</strong></p>
 
 <div class="quiz-rationale">
 <p><strong>Rationale:</strong></p>
@@ -365,7 +365,7 @@ A nurse is planning care for a client with obsessive-compulsive disorder who per
 
 <details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
-<p class="quiz-answer"><strong>Answers: A, C, D, E</strong></p>
+<p class="quiz-answer"><strong>Answer: A, C, D, E</strong></p>
 
 <div class="quiz-rationale">
 <p><strong>Rationale:</strong></p>
@@ -505,7 +505,7 @@ A nurse is caring for a child who repeatedly pulls out hair and picks at areas o
 
 <details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
-<p class="quiz-answer"><strong>Answers: A, B, D, E</strong></p>
+<p class="quiz-answer"><strong>Answer: A, B, D, E</strong></p>
 
 <div class="quiz-rationale">
 <p><strong>Rationale:</strong></p>
@@ -647,7 +647,7 @@ A nurse is caring for a client who has severe anxiety with psychotic symptoms an
 
 <details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
-<p class="quiz-answer"><strong>Answers: A, C, D</strong></p>
+<p class="quiz-answer"><strong>Answer: A, C, D</strong></p>
 
 <div class="quiz-rationale">
 <p><strong>Rationale:</strong></p>
@@ -705,7 +705,7 @@ A nurse is reviewing medication teaching with a group of clients who have anxiet
 
 <details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
-<p class="quiz-answer"><strong>Answers: A, C, E</strong></p>
+<p class="quiz-answer"><strong>Answer: A, C, E</strong></p>
 
 <div class="quiz-rationale">
 <p><strong>Rationale:</strong></p>
