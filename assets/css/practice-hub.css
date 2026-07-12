@@ -162,7 +162,7 @@ body[data-page-type="practice-hub"] .main-content {
 
 .practice-hero {
   display: grid;
-  grid-template-columns: auto minmax(0, 1fr) auto;
+  grid-template-columns: auto minmax(0, 1fr);
   gap: 1.15rem;
   align-items: center;
   margin-bottom: 1.45rem;
@@ -214,13 +214,6 @@ body[data-page-type="practice-hub"] .main-content {
   line-height: 1.45 !important;
 }
 
-.practice-hero-actions {
-  display: flex;
-  flex-wrap: wrap;
-  gap: .65rem;
-  justify-content: flex-end;
-}
-
 .practice-start-button {
   display: inline-flex;
   gap: .55rem;
@@ -233,13 +226,6 @@ body[data-page-type="practice-hub"] .main-content {
   font-weight: 1000;
   text-decoration: none;
   box-shadow: 0 12px 26px rgba(90, 54, 189, .22);
-}
-
-.practice-start-button.secondary {
-  border: 1px solid #d9ccf2;
-  background: rgba(255, 255, 255, .86);
-  color: #5a35b7;
-  box-shadow: 0 10px 22px rgba(76, 55, 145, .1);
 }
 
 .practice-start-button:hover,
@@ -361,6 +347,10 @@ body[data-page-type="practice-hub"] .main-content {
   grid-template-columns: minmax(0, 1.2fr) minmax(330px, .75fr);
   gap: 1rem;
   margin-top: 1rem;
+}
+
+.practice-lower-grid.single-panel {
+  grid-template-columns: minmax(0, 1fr);
 }
 
 .practice-panel {
@@ -553,7 +543,7 @@ body[data-page-type="practice-hub"] .main-content {
   }
 
   .practice-side-nav {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .practice-streak-card {
@@ -576,12 +566,6 @@ body[data-page-type="practice-hub"] .main-content {
 
   .practice-hero {
     grid-template-columns: auto minmax(0, 1fr);
-  }
-
-  .practice-hero-actions {
-    grid-column: 1 / -1;
-    justify-self: start;
-    justify-content: flex-start;
   }
 
   .practice-lower-grid,

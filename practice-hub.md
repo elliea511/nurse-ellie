@@ -18,8 +18,6 @@ page_type: practice-hub
 
     <nav class="practice-side-nav">
       <a class="is-active" href="{{ '/practice-hub.html' | relative_url }}"><span>▦</span> Practice hub</a>
-      <a href="{{ '/mental-health/practice-quiz.html' | relative_url }}"><span>🧠</span> Mental Health</a>
-      <a href="{{ '/medical-emergencies/practice-quiz.html' | relative_url }}"><span>⚕️</span> Medical Emergencies</a>
       <a href="{{ '/review.html' | relative_url }}"><span>♡</span> My review list</a>
     </nav>
 
@@ -38,10 +36,6 @@ page_type: practice-hub
         <p class="practice-eyebrow">Practice tools</p>
         <h1 id="practice-hub-title">Practice Tests</h1>
         <p>Build confidence with topic-based quizzes, mock exams, and quick reviews.</p>
-      </div>
-      <div class="practice-hero-actions" aria-label="Start a practice test">
-        <a class="practice-start-button" href="{{ '/mental-health/practice-quiz.html' | relative_url }}"><span>＋</span> Mental Health</a>
-        <a class="practice-start-button secondary" href="{{ '/medical-emergencies/practice-quiz.html' | relative_url }}"><span>＋</span> Medical Emergencies</a>
       </div>
     </header>
 
@@ -67,20 +61,10 @@ page_type: practice-hub
       </article>
     </section>
 
-    <div class="practice-lower-grid">
-      <section class="practice-panel recent" id="test-status" aria-labelledby="status-title">
-        <div class="practice-panel-heading">
-          <h2 id="status-title">↺ Available Tests</h2>
-        </div>
-        <div class="practice-attempt-list">
-          <div><span>⚕️ Medical Emergencies</span><small>Practice test</small><strong>Ready</strong><b>Active</b><a href="{{ '/medical-emergencies/practice-quiz.html' | relative_url }}">Start</a></div>
-          <div><span>🧠 Mental Health</span><small>Anxiety/OCD + Depression + Med Filter</small><strong>82 questions</strong><b>Active</b><a href="{{ '/mental-health/practice-quiz.html' | relative_url }}">Start</a></div>
-        </div>
-      </section>
-
+    <div class="practice-lower-grid single-panel">
       <section class="practice-panel performance" id="performance" aria-labelledby="performance-title">
         <div class="practice-panel-heading">
-          <h2 id="performance-title">⌁ Performance Overview</h2>
+          <h2 id="performance-title">⌁ Practice Snapshot</h2>
         </div>
         <div class="practice-score-ring" aria-label="Two of two practice areas are ready">
           <span>2/2</span>
