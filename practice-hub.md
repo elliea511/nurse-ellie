@@ -39,7 +39,7 @@ page_type: practice-hub
         <h1 id="practice-hub-title">Practice Tests</h1>
         <p>Build confidence with topic-based quizzes, mock exams, and quick reviews.</p>
       </div>
-      <a class="practice-start-button" href="{{ '/medical-emergencies/practice-quiz.html' | relative_url }}"><span>＋</span> Start Medical Emergencies</a>
+      <a class="practice-start-button" href="{{ '/mental-health/anxiety-ocd-quiz.html' | relative_url }}"><span>＋</span> Start Mental Health</a>
     </header>
 
     <section class="practice-topic-grid" id="practice-topics" aria-label="Practice topic cards">
@@ -47,10 +47,10 @@ page_type: practice-hub
         <span class="practice-card-icon">🧠</span>
         <div>
           <h2>Mental Health</h2>
-          <p>Psych safety, disorders, medications, communication, and NCLEX priority cues.</p>
-          <div class="practice-meta"><span>▤ Questions coming soon</span><b>Planned</b></div>
+          <p>Anxiety, OCD, trauma responses, medication teaching, and safety-priority cues.</p>
+          <div class="practice-meta"><span>▤ 35 Questions</span><b>Active</b></div>
         </div>
-        <footer><span>Status: <strong>Coming soon</strong></span><a href="{{ '/mental-health.html' | relative_url }}">Study</a></footer>
+        <footer><span>Ready now</span><a href="{{ '/mental-health/anxiety-ocd-quiz.html' | relative_url }}">Start</a></footer>
       </article>
 
       <article class="practice-test-card theme-blue">
@@ -68,11 +68,11 @@ page_type: practice-hub
       <section class="practice-panel recent" id="test-status" aria-labelledby="status-title">
         <div class="practice-panel-heading">
           <h2 id="status-title">↺ Test Status</h2>
-          <a href="{{ '/medical-emergencies/practice-quiz.html' | relative_url }}">Open active test →</a>
+          <a href="{{ '/mental-health/anxiety-ocd-quiz.html' | relative_url }}">Open Mental Health →</a>
         </div>
         <div class="practice-attempt-list">
           <div><span>⚕️ Medical Emergencies</span><small>Practice test</small><strong>Ready</strong><b>Active</b><a href="{{ '/medical-emergencies/practice-quiz.html' | relative_url }}">Start</a></div>
-          <div><span>🧠 Mental Health</span><small>Question set</small><strong>—</strong><b class="in-progress">Coming soon</b><a href="{{ '/mental-health.html' | relative_url }}">Study</a></div>
+          <div><span>🧠 Mental Health</span><small>Anxiety/OCD set</small><strong>35 questions</strong><b>Active</b><a href="{{ '/mental-health/anxiety-ocd-quiz.html' | relative_url }}">Start</a></div>
         </div>
       </section>
 
@@ -80,22 +80,22 @@ page_type: practice-hub
         <div class="practice-panel-heading">
           <h2 id="performance-title">⌁ Performance Overview</h2>
         </div>
-        <div class="practice-score-ring" aria-label="Average score 81 percent">
-          <span>1/2</span>
+        <div class="practice-score-ring" aria-label="Two of two practice areas are ready">
+          <span>2/2</span>
           <small>Tests Ready</small>
         </div>
         <ul>
-          <li><span>✓ Active tests</span><strong>1</strong></li>
-          <li><span>◎ Planned tests</span><strong>1</strong></li>
-          <li><span>🔥 Available now</span><strong>Medical Emergencies</strong></li>
-          <li><span>▣ Coming next</span><strong>Mental Health</strong></li>
+          <li><span>✓ Active tests</span><strong>2</strong></li>
+          <li><span>◎ Mental Health questions</span><strong>35</strong></li>
+          <li><span>🔥 Available now</span><strong>Mental Health + Medical Emergencies</strong></li>
+          <li><span>▣ Next set</span><strong>More Mental Health topics</strong></li>
         </ul>
       </section>
     </div>
 
     <aside class="practice-tip">
       <span>💡</span>
-      <p><strong>Tip:</strong> Start with Medical Emergencies now. Mental Health will unlock here once the question set is added.</p>
+      <p><strong>Tip:</strong> Mental Health now starts with Anxiety/OCD. Add more topic sets here as you send them.</p>
     </aside>
   </div>
 </section>
