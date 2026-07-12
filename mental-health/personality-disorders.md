@@ -214,6 +214,15 @@ A **personality trait** is a pattern of behavior. A **personality disorder** occ
 
 ### Cluster A: Odd / Eccentric Disorders
 
+<details class="study-dropdown infographic" markdown="1">
+<summary>📊 Infographic: Cluster A Personality Disorders</summary>
+
+<img src="{{ '/MH-images/clustera.png' | relative_url }}" alt="Cluster A personality disorders infographic">
+
+<span class="infographic-hint">Tap the image to enlarge</span>
+
+</details>
+
 <div class="detail-table">
   <table>
     <thead>
