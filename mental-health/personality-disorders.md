@@ -318,6 +318,15 @@ A **personality trait** is a pattern of behavior. A **personality disorder** occ
 
 ### Cluster B: Dramatic / Erratic Disorders
 
+<details class="study-dropdown infographic" markdown="1">
+<summary>📊 Infographic: Cluster B Personality Disorders</summary>
+
+<img src="{{ '/MH-images/clusterb.png' | relative_url }}" alt="Cluster B personality disorders infographic">
+
+<span class="infographic-hint">Tap the image to enlarge</span>
+
+</details>
+
 <div class="detail-table">
   <table>
     <thead>
@@ -453,6 +462,15 @@ A **personality trait** is a pattern of behavior. A **personality disorder** occ
 <a class="mh-detail-close" href="#">✕</a>
 
 ### Cluster C: Anxious / Fearful Disorders
+
+<details class="study-dropdown infographic" markdown="1">
+<summary>📊 Infographic: Cluster C Personality Disorders</summary>
+
+<img src="{{ '/MH-images/clusterc.png' | relative_url }}" alt="Cluster C personality disorders infographic">
+
+<span class="infographic-hint">Tap the image to enlarge</span>
+
+</details>
 
 <div class="detail-table">
   <table>
