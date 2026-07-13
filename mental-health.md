@@ -64,6 +64,7 @@ page_type: mental-health-hub
       <a href="{{ '/mental-health/basics.html' | relative_url }}"><span>♡</span><strong>Mental Health Basics</strong></a>
       <a href="{{ '/mental-health/abuse-suicide.html' | relative_url }}"><span>🛡</span><strong>Abuse &amp; Suicide</strong></a>
       <a href="{{ '/mental-health/medications.html' | relative_url }}"><span>Rx</span><strong>Mental Health Medications</strong></a>
+      <a href="{{ '/mental-health/practice-quiz.html' | relative_url }}"><span>✓</span><strong>Practice Test</strong></a>
     </nav>
     </div>
 

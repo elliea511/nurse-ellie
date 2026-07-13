@@ -26,6 +26,7 @@
   var MENTAL_HEALTH_SOURCE_TOPICS = [
     { id: 'anxiety-ocd', label: 'Anxiety, OCD & Trauma', cat: 'Mental Health', url: '/mental-health/anxiety-ocd-quiz.html', n: 35 },
     { id: 'depression',  label: 'Depression',            cat: 'Mental Health', url: '/mental-health/depression-quiz.html',  n: 47 },
+    { id: 'personality', label: 'Personality Disorders', cat: 'Mental Health', url: '/mental-health/personality-disorders-quiz.html', n: 35 },
   ];
 
   var MENTAL_HEALTH_DERIVED_TOPICS = [
@@ -33,12 +34,13 @@
       id: 'mh-medications',
       label: 'Medication Questions',
       cat: 'Focused Review',
-      n: 38,
+      n: 39,
       derived: true,
       filter: 'medications',
       sourceCounts: {
         'anxiety-ocd': 15,
-        depression: 23
+        depression: 23,
+        personality: 1
       }
     },
   ];

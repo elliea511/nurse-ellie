@@ -44,8 +44,8 @@ page_type: practice-hub
         <span class="practice-card-icon">🧠</span>
         <div>
           <h2>Mental Health</h2>
-          <p>Anxiety/OCD, depression, suicide safety, antidepressants, plus a focused medication review filter.</p>
-          <div class="practice-meta"><span>▤ 82 Questions + Med Filter</span><b>Active</b></div>
+          <p>Anxiety/OCD, depression, personality disorders, safety priorities, plus a focused medication review filter.</p>
+          <div class="practice-meta"><span>▤ 117 Questions + Med Filter</span><b>Active</b></div>
         </div>
         <footer><span>Ready now</span><a href="{{ '/mental-health/practice-quiz.html' | relative_url }}">Start</a></footer>
       </article>
@@ -72,7 +72,7 @@ page_type: practice-hub
         </div>
         <ul>
           <li><span>✓ Active tests</span><strong>2</strong></li>
-          <li><span>◎ Mental Health questions</span><strong>82</strong></li>
+          <li><span>◎ Mental Health questions</span><strong>117</strong></li>
           <li><span>🔥 Available now</span><strong>Mental Health + Medical Emergencies</strong></li>
           <li><span>▣ Next set</span><strong>More Mental Health topics</strong></li>
         </ul>
@@ -81,7 +81,7 @@ page_type: practice-hub
 
     <aside class="practice-tip">
       <span>💡</span>
-      <p><strong>Tip:</strong> Mental Health now has Anxiety/OCD, Depression, and a Medication Questions filter that pulls med questions from the topic sets.</p>
+      <p><strong>Tip:</strong> Mental Health now has Anxiety/OCD, Depression, Personality Disorders, and a Medication Questions filter that pulls med questions from the topic sets.</p>
     </aside>
   </div>
 </section>
