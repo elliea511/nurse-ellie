@@ -3478,3 +3478,74 @@ body[data-page-type="pharmacology-home"] .pharm-mobile-home {
     grid-template-columns: 1fr;
   }
 }
+
+/* Dark mode for the custom Pharmacology homepage. */
+[data-theme="dark"] body[data-page-type="pharmacology-home"],
+[data-theme="dark"] body[data-page-type="pharmacology-home"] .page-wrapper,
+[data-theme="dark"] body[data-page-type="pharmacology-home"] .main-content,
+[data-theme="dark"] body[data-page-type="pharmacology-home"] .pharm-mockup-home,
+[data-theme="dark"] body[data-page-type="pharmacology-home"] .pharm-mockup-stage {
+  background: #171522 !important;
+}
+
+[data-theme="dark"] body[data-page-type="pharmacology-home"] .pharm-mockup-art {
+  filter: brightness(.72) saturate(.86);
+}
+
+[data-theme="dark"] body[data-page-type="pharmacology-home"] .pharm-map-home:hover,
+[data-theme="dark"] body[data-page-type="pharmacology-home"] .pharm-map-link:hover {
+  background: rgba(124, 92, 214, .16);
+}
+
+[data-theme="dark"] body[data-page-type="pharmacology-home"] .pharm-map-home:focus-visible,
+[data-theme="dark"] body[data-page-type="pharmacology-home"] .pharm-map-link:focus-visible {
+  outline-color: rgba(212, 196, 255, .9);
+  box-shadow: 0 0 0 7px rgba(20, 17, 34, .72);
+}
+
+@media (max-width: 820px) {
+  [data-theme="dark"] body[data-page-type="pharmacology-home"] .pharm-mobile-home-link {
+    background: #28223f;
+    color: #eee8ff !important;
+  }
+
+  [data-theme="dark"] body[data-page-type="pharmacology-home"] .pharm-mobile-hero {
+    border-color: #4c426a;
+    background:
+      radial-gradient(circle at 15% 10%, rgba(255, 118, 181, .16), transparent 11rem),
+      radial-gradient(circle at 90% 18%, rgba(139, 105, 230, .18), transparent 12rem),
+      #211d32;
+    box-shadow: 0 14px 36px rgba(0, 0, 0, .25);
+  }
+
+  [data-theme="dark"] body[data-page-type="pharmacology-home"] .pharm-mobile-kicker {
+    color: #d6c7ff;
+  }
+
+  [data-theme="dark"] body[data-page-type="pharmacology-home"] .pharm-mobile-hero h2 {
+    color: #f4f0ff;
+  }
+
+  [data-theme="dark"] body[data-page-type="pharmacology-home"] .pharm-mobile-hero p:not(.pharm-mobile-kicker) {
+    color: #c9c2dc;
+  }
+
+  [data-theme="dark"] body[data-page-type="pharmacology-home"] .pharm-mobile-focus {
+    border-color: #6a4f78;
+    background: #2d2237;
+    color: #f7eaff;
+  }
+
+  [data-theme="dark"] body[data-page-type="pharmacology-home"] .pharm-mobile-card {
+    background: color-mix(in srgb, var(--mobile-bg) 18%, #211d32) !important;
+    border-color: color-mix(in srgb, var(--mobile-border) 46%, #4c426a) !important;
+    color: #f4f0ff !important;
+    box-shadow: 0 10px 22px rgba(0, 0, 0, .24);
+  }
+
+  [data-theme="dark"] body[data-page-type="pharmacology-home"] .pharm-mobile-card span,
+  [data-theme="dark"] body[data-page-type="pharmacology-home"] .pharm-mobile-card small {
+    background: rgba(255, 255, 255, .08);
+    color: #f4f0ff;
+  }
+}
