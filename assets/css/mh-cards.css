@@ -3197,17 +3197,23 @@ body[data-page-type="pharmacology-home"] .page-wrapper {
   background: #fff !important;
 }
 
+body[data-page-type="pharmacology-home"] {
+  overflow-x: auto;
+}
+
 body[data-page-type="pharmacology-home"] .main-content {
   max-width: none !important;
   width: 100% !important;
   margin: 0 !important;
   padding: 0 !important;
   background: #fff !important;
-  overflow: hidden;
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
 }
 
 body[data-page-type="pharmacology-home"] .pharm-mockup-home {
-  width: 100vw;
+  width: max(100vw, 1120px);
   max-width: none;
   margin-left: calc(50% - 50vw);
   margin-right: calc(50% - 50vw);
@@ -3217,6 +3223,7 @@ body[data-page-type="pharmacology-home"] .pharm-mockup-home {
 body[data-page-type="pharmacology-home"] .pharm-mockup-stage {
   position: relative;
   width: 100%;
+  min-width: 1120px;
   aspect-ratio: 1672 / 850;
   overflow: hidden;
   background: #fff;
@@ -3301,13 +3308,9 @@ body[data-page-type="pharmacology-home"] .sr-only {
   border: 0;
 }
 
-@media (max-width: 900px) {
-  body[data-page-type="pharmacology-home"] .pharm-mockup-stage {
-    min-width: 900px;
-  }
-
+@media (max-width: 1120px) {
   body[data-page-type="pharmacology-home"] .pharm-mockup-home {
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
+    margin-left: 0;
+    margin-right: 0;
   }
 }
