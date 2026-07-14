@@ -28,4 +28,28 @@ page_type: pharmacology-home
       <a class="pharm-map-link card-10" href="{{ '/pharmacology/master-review.html' | relative_url }}">Quick Review</a>
     </div>
   </div>
+
+  <div class="pharm-mobile-home" aria-label="ATI PN Pharmacology mobile navigation">
+    <a class="pharm-mobile-home-link" href="{{ '/' | relative_url }}">⌂ Home</a>
+
+    <div class="pharm-mobile-hero">
+      <p class="pharm-mobile-kicker">ATI PN Pharmacology</p>
+      <h2>Study meds by priority.</h2>
+      <p>High-yield meds, toxicities, safety, and ATI test cues.</p>
+      <div class="pharm-mobile-focus">🎯 High-alert meds • toxicities • hold parameters • antidotes • patient teaching</div>
+    </div>
+
+    <div class="pharm-mobile-grid">
+      <a class="pharm-mobile-card red" href="{{ '/pharmacology/high-alert-medications.html' | relative_url }}"><span>🚨</span><small>1</small><strong>High-Alert Meds</strong></a>
+      <a class="pharm-mobile-card pink" href="{{ '/pharmacology/cardiovascular-blood.html' | relative_url }}"><span>💗</span><small>2</small><strong>Cardio &amp; Blood</strong></a>
+      <a class="pharm-mobile-card teal" href="{{ '/pharmacology/endocrine-diabetes.html' | relative_url }}"><span>💧</span><small>3</small><strong>Endocrine &amp; Diabetes</strong></a>
+      <a class="pharm-mobile-card purple" href="{{ '/pharmacology/neuro-psych-substance-use.html' | relative_url }}"><span>🧠</span><small>4</small><strong>Neuro/Psych</strong></a>
+      <a class="pharm-mobile-card green" href="{{ '/pharmacology/anti-infectives.html' | relative_url }}"><span>🦠</span><small>5</small><strong>Anti-Infectives</strong></a>
+      <a class="pharm-mobile-card blue" href="{{ '/pharmacology/respiratory-allergy-eye-ent.html' | relative_url }}"><span>🫁</span><small>6</small><strong>Respiratory &amp; ENT</strong></a>
+      <a class="pharm-mobile-card orange" href="{{ '/pharmacology/gi-pain-musculoskeletal.html' | relative_url }}"><span>🧡</span><small>7</small><strong>GI/Pain</strong></a>
+      <a class="pharm-mobile-card rose" href="{{ '/pharmacology/vaccines-pregnancy.html' | relative_url }}"><span>🤰</span><small>8</small><strong>Vaccines &amp; Pregnancy</strong></a>
+      <a class="pharm-mobile-card navy" href="{{ '/pharmacology/medication-safety.html' | relative_url }}"><span>🛡️</span><small>9</small><strong>Med Safety</strong></a>
+      <a class="pharm-mobile-card lavender" href="{{ '/pharmacology/master-review.html' | relative_url }}"><span>📋</span><small>10</small><strong>Quick Review</strong></a>
+    </div>
+  </div>
 </section>
