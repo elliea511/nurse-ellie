@@ -28,13 +28,10 @@ Which action should the nurse take **first**?
 
 <div class="quiz-rationale">
 <p><strong>Rationale:</strong></p>
-A is correct. This client is experiencing **panic-level anxiety**, so the priority is to **stay with the client, maintain safety, reduce stimuli, and use short directions**. The client cannot process teaching or detailed questions during panic.
-
-B is incorrect. Teaching coping skills is appropriate **after** the panic decreases.
-C is incorrect. Asking for details requires concentration the client does not currently have.
-D is incorrect. This is false reassurance and may make the client feel dismissed.
-
-
+<p>A is correct. This client is experiencing <strong>panic-level anxiety</strong>, so the priority is to <strong>stay with the client, maintain safety, reduce stimuli, and use short directions</strong>. The client cannot process teaching or detailed questions during panic.</p>
+<p>B is incorrect. Teaching coping skills is appropriate <strong>after</strong> the panic decreases.</p>
+<p>C is incorrect. Asking for details requires concentration the client does not currently have.</p>
+<p>D is incorrect. This is false reassurance and may make the client feel dismissed.</p>
 </div>
 </details>
 ---
@@ -56,13 +53,10 @@ Which nursing response is most appropriate?
 
 <div class="quiz-rationale">
 <p><strong>Rationale:</strong></p>
-B is correct. OCD rituals should **not be abruptly blocked**. The nurse should help the client gradually reduce ritual time while teaching coping strategies.
-
-A is incorrect. Suddenly stopping the ritual can increase anxiety and worsen behavior.
-C is incorrect. This argues with the client’s belief and may increase defensiveness.
-D is incorrect. “Why” questions are nontherapeutic and can make the client feel judged.
-
-
+<p>B is correct. OCD rituals should <strong>not be abruptly blocked</strong>. The nurse should help the client gradually reduce ritual time while teaching coping strategies.</p>
+<p>A is incorrect. Suddenly stopping the ritual can increase anxiety and worsen behavior.</p>
+<p>C is incorrect. This argues with the client’s belief and may increase defensiveness.</p>
+<p>D is incorrect. “Why” questions are nontherapeutic and can make the client feel judged.</p>
 </div>
 </details>
 ---
@@ -84,13 +78,10 @@ Which response should the nurse make?
 
 <div class="quiz-rationale">
 <p><strong>Rationale:</strong></p>
-B is correct. During a flashback, the priority is **grounding and reorientation to the present**. The nurse should use calm, clear statements that promote safety and reality orientation.
-
-A is incorrect. Forcing trauma details can worsen distress and is not appropriate during a flashback.
-C is incorrect. This gives advice and dismisses the client’s experience.
-D is incorrect. “Why” questions are nontherapeutic and not useful during acute distress.
-
-
+<p>B is correct. During a flashback, the priority is <strong>grounding and reorientation to the present</strong>. The nurse should use calm, clear statements that promote safety and reality orientation.</p>
+<p>A is incorrect. Forcing trauma details can worsen distress and is not appropriate during a flashback.</p>
+<p>C is incorrect. This gives advice and dismisses the client’s experience.</p>
+<p>D is incorrect. “Why” questions are nontherapeutic and not useful during acute distress.</p>
 </div>
 </details>
 ---
@@ -112,13 +103,10 @@ Which client statement indicates an understanding of the teaching?
 
 <div class="quiz-rationale">
 <p><strong>Rationale:</strong></p>
-C is correct. Buspirone is used for **long-term anxiety treatment** and takes **weeks** to reach therapeutic effect. It must be taken consistently.
-
-A is incorrect. Buspirone is **not** a rescue medication for panic.
-B is incorrect. Buspirone does **not** cause tolerance or addiction like benzodiazepines.
-D is incorrect. The client should not stop medication without provider guidance.
-
-
+<p>C is correct. Buspirone is used for <strong>long-term anxiety treatment</strong> and takes <strong>weeks</strong> to reach therapeutic effect. It must be taken consistently.</p>
+<p>A is incorrect. Buspirone is <strong>not</strong> a rescue medication for panic.</p>
+<p>B is incorrect. Buspirone does <strong>not</strong> cause tolerance or addiction like benzodiazepines.</p>
+<p>D is incorrect. The client should not stop medication without provider guidance.</p>
 </div>
 </details>
 ---
@@ -141,14 +129,11 @@ A nurse is assessing a client with severe anxiety and a history of trauma. Which
 
 <div class="quiz-rationale">
 <p><strong>Rationale:</strong></p>
-A is correct. Substance use with anxiety or trauma increases safety risk and requires further assessment.
-B is correct. Passive suicidal statements require suicide risk assessment.
-D is correct. Severe sleep disturbance with trauma symptoms can worsen mood, anxiety, and safety risk.
-E is correct. Thinking about a method indicates increased suicide risk and requires immediate focused assessment.
-
-C is incorrect. Avoidance is common with anxiety or agoraphobia and affects functioning, but by itself it is not the highest immediate safety cue compared with suicidality, substance use, and severe sleep disruption.
-
-
+<p>A is correct. Substance use with anxiety or trauma increases safety risk and requires further assessment.</p>
+<p>B is correct. Passive suicidal statements require suicide risk assessment.</p>
+<p>D is correct. Severe sleep disturbance with trauma symptoms can worsen mood, anxiety, and safety risk.</p>
+<p>E is correct. Thinking about a method indicates increased suicide risk and requires immediate focused assessment.</p>
+<p>C is incorrect. Avoidance is common with anxiety or agoraphobia and affects functioning, but by itself it is not the highest immediate safety cue compared with suicidality, substance use, and severe sleep disruption.</p>
 </div>
 </details>
 ---
@@ -170,13 +155,10 @@ Which action should the nurse take **first**?
 
 <div class="quiz-rationale">
 <p><strong>Rationale:</strong></p>
-C is correct. Severe anxiety narrows the client’s ability to concentrate. The nurse should **reduce stimuli, stay calm, and use simple communication** before teaching.
-
-A is incorrect. Written teaching is not priority while the client cannot process information.
-B is incorrect. This assessment may be useful later, but the client is too anxious to problem-solve right now.
-D is incorrect. This is false reassurance and dismisses the client’s fear.
-
-
+<p>C is correct. Severe anxiety narrows the client’s ability to concentrate. The nurse should <strong>reduce stimuli, stay calm, and use simple communication</strong> before teaching.</p>
+<p>A is incorrect. Written teaching is not priority while the client cannot process information.</p>
+<p>B is incorrect. This assessment may be useful later, but the client is too anxious to problem-solve right now.</p>
+<p>D is incorrect. This is false reassurance and dismisses the client’s fear.</p>
 </div>
 </details>
 ---
@@ -198,13 +180,10 @@ Which statement by the client indicates the **greatest need for further teaching
 
 <div class="quiz-rationale">
 <p><strong>Rationale:</strong></p>
-D is correct. The client should take benzodiazepines **only as prescribed**. Extra doses increase risk for excessive sedation, falls, dependence, and respiratory depression.
-
-A is incorrect. Avoiding alcohol is correct because alcohol increases CNS depression.
-B is incorrect. Changing positions slowly is appropriate because sedation and dizziness can increase fall risk.
-C is incorrect. Benzodiazepines should not be stopped abruptly after regular use due to withdrawal risk.
-
-
+<p>D is correct. The client should take benzodiazepines <strong>only as prescribed</strong>. Extra doses increase risk for excessive sedation, falls, dependence, and respiratory depression.</p>
+<p>A is incorrect. Avoiding alcohol is correct because alcohol increases CNS depression.</p>
+<p>B is incorrect. Changing positions slowly is appropriate because sedation and dizziness can increase fall risk.</p>
+<p>C is incorrect. Benzodiazepines should not be stopped abruptly after regular use due to withdrawal risk.</p>
 </div>
 </details>
 ---
@@ -227,14 +206,11 @@ A nurse is caring for a client experiencing panic-level anxiety. Which intervent
 
 <div class="quiz-rationale">
 <p><strong>Rationale:</strong></p>
-A is correct. The nurse should stay with a client experiencing panic to promote safety.
-B is correct. Reducing stimuli helps lower anxiety.
-D is correct. Short directions are appropriate because the client cannot process complex information.
-
-C is incorrect. Teaching should occur **after** anxiety decreases.
-E is incorrect. Offering several decisions can overwhelm the client during panic.
-
-
+<p>A is correct. The nurse should stay with a client experiencing panic to promote safety.</p>
+<p>B is correct. Reducing stimuli helps lower anxiety.</p>
+<p>D is correct. Short directions are appropriate because the client cannot process complex information.</p>
+<p>C is incorrect. Teaching should occur <strong>after</strong> anxiety decreases.</p>
+<p>E is incorrect. Offering several decisions can overwhelm the client during panic.</p>
 </div>
 </details>
 ---
@@ -256,13 +232,10 @@ Which response should the nurse make?
 
 <div class="quiz-rationale">
 <p><strong>Rationale:</strong></p>
-D is correct. The nurse should **focus on the client’s feelings and distress** without reinforcing the distorted belief.
-
-A is incorrect. This argues with the client’s perception and may increase defensiveness.
-B is incorrect. This gives advice and does not assess the client’s distress or functioning.
-C is incorrect. This minimizes the client’s experience.
-
-
+<p>D is correct. The nurse should <strong>focus on the client’s feelings and distress</strong> without reinforcing the distorted belief.</p>
+<p>A is incorrect. This argues with the client’s perception and may increase defensiveness.</p>
+<p>B is incorrect. This gives advice and does not assess the client’s distress or functioning.</p>
+<p>C is incorrect. This minimizes the client’s experience.</p>
 </div>
 </details>
 ---
@@ -284,13 +257,10 @@ Which assessment is the nurse’s priority?
 
 <div class="quiz-rationale">
 <p><strong>Rationale:</strong></p>
-B is correct. PTSD increases risk for depression, substance use, and suicide. The priority is a focused **safety assessment**.
-
-A is incorrect. Therapy attendance is important but not the immediate priority.
-C is incorrect. Coping skills are relevant after safety risks are assessed.
-D is incorrect. Support groups can help, but safety and substance use assessment come first.
-
-
+<p>B is correct. PTSD increases risk for depression, substance use, and suicide. The priority is a focused <strong>safety assessment</strong>.</p>
+<p>A is incorrect. Therapy attendance is important but not the immediate priority.</p>
+<p>C is incorrect. Coping skills are relevant after safety risks are assessed.</p>
+<p>D is incorrect. Support groups can help, but safety and substance use assessment come first.</p>
 </div>
 </details>
 ---
@@ -312,13 +282,10 @@ Which response should the nurse make?
 
 <div class="quiz-rationale">
 <p><strong>Rationale:</strong></p>
-C is correct. Systematic desensitization uses **gradual exposure** paired with relaxation to reduce anxiety over time.
-
-A is incorrect. Avoidance can worsen anxiety and interfere with ADLs.
-B is incorrect. This describes **flooding**, which is direct and intense exposure, not gradual exposure.
-D is incorrect. Medications can be used, but therapy and exposure-based treatment are important.
-
-
+<p>C is correct. Systematic desensitization uses <strong>gradual exposure</strong> paired with relaxation to reduce anxiety over time.</p>
+<p>A is incorrect. Avoidance can worsen anxiety and interfere with ADLs.</p>
+<p>B is incorrect. This describes <strong>flooding</strong>, which is direct and intense exposure, not gradual exposure.</p>
+<p>D is incorrect. Medications can be used, but therapy and exposure-based treatment are important.</p>
 </div>
 </details>
 ---
@@ -340,13 +307,10 @@ Which action should the nurse take **first**?
 
 <div class="quiz-rationale">
 <p><strong>Rationale:</strong></p>
-B is correct. The nurse should provide support, stay with the client, and help reduce anxiety before moving toward exposure or independence.
-
-A is incorrect. This may be true, but it is not therapeutic in the moment and can increase shame.
-C is incorrect. Medication changes are not the first action for acute anxiety in this scenario.
-D is incorrect. Forcing independence too quickly can increase panic and avoidance.
-
-
+<p>B is correct. The nurse should provide support, stay with the client, and help reduce anxiety before moving toward exposure or independence.</p>
+<p>A is incorrect. This may be true, but it is not therapeutic in the moment and can increase shame.</p>
+<p>C is incorrect. Medication changes are not the first action for acute anxiety in this scenario.</p>
+<p>D is incorrect. Forcing independence too quickly can increase panic and avoidance.</p>
 </div>
 </details>
 ---
@@ -369,14 +333,11 @@ A nurse is planning care for a client with obsessive-compulsive disorder who per
 
 <div class="quiz-rationale">
 <p><strong>Rationale:</strong></p>
-A is correct. Structure and routine can decrease anxiety and support treatment.
-C is correct. Rituals should be reduced **gradually**, not suddenly stopped.
-D is correct. Relaxation helps keep anxiety lower as rituals are decreased.
-E is correct. Reinforcement supports continued participation in therapy.
-
-B is incorrect. Abruptly blocking rituals can increase anxiety and worsen symptoms.
-
-
+<p>A is correct. Structure and routine can decrease anxiety and support treatment.</p>
+<p>C is correct. Rituals should be reduced <strong>gradually</strong>, not suddenly stopped.</p>
+<p>D is correct. Relaxation helps keep anxiety lower as rituals are decreased.</p>
+<p>E is correct. Reinforcement supports continued participation in therapy.</p>
+<p>B is incorrect. Abruptly blocking rituals can increase anxiety and worsen symptoms.</p>
 </div>
 </details>
 ---
@@ -398,13 +359,10 @@ Which action should the nurse take **first**?
 
 <div class="quiz-rationale">
 <p><strong>Rationale:</strong></p>
-C is correct. The priority is **safety assessment**. Hoarding can create fire, fall, and infection risks, so the nurse should identify immediate hazards first.
-
-A is incorrect. Sudden forced cleanout can severely increase distress and damage trust unless there is an immediate emergency.
-B is incorrect. This is confrontational and may increase anxiety or resistance.
-D is incorrect. This goal is too broad and unrealistic. Hoarding interventions should be gradual.
-
-
+<p>C is correct. The priority is <strong>safety assessment</strong>. Hoarding can create fire, fall, and infection risks, so the nurse should identify immediate hazards first.</p>
+<p>A is incorrect. Sudden forced cleanout can severely increase distress and damage trust unless there is an immediate emergency.</p>
+<p>B is incorrect. This is confrontational and may increase anxiety or resistance.</p>
+<p>D is incorrect. This goal is too broad and unrealistic. Hoarding interventions should be gradual.</p>
 </div>
 </details>
 ---
@@ -424,13 +382,10 @@ A client with social anxiety disorder receives a prescription for propranolol to
 
 <div class="quiz-rationale">
 <p><strong>Rationale:</strong></p>
-D is correct. Propranolol is a beta blocker used to reduce physical anxiety symptoms such as palpitations or tremors. The nurse should monitor **heart rate and blood pressure**. A pulse of 52/min may indicate bradycardia and should be addressed before administration.
-
-A is incorrect. This supports the diagnosis but is not the priority before giving a beta blocker.
-B is incorrect. Avoidance is expected with social anxiety but does not affect medication safety first.
-C is incorrect. This blood pressure is within expected range.
-
-
+<p>D is correct. Propranolol is a beta blocker used to reduce physical anxiety symptoms such as palpitations or tremors. The nurse should monitor <strong>heart rate and blood pressure</strong>. A pulse of 52/min may indicate bradycardia and should be addressed before administration.</p>
+<p>A is incorrect. This supports the diagnosis but is not the priority before giving a beta blocker.</p>
+<p>B is incorrect. Avoidance is expected with social anxiety but does not affect medication safety first.</p>
+<p>C is incorrect. This blood pressure is within expected range.</p>
 </div>
 </details>
 ---
@@ -452,13 +407,10 @@ Which level of anxiety is the client experiencing?
 
 <div class="quiz-rationale">
 <p><strong>Rationale:</strong></p>
-A is correct. Mild anxiety can sharpen focus and allows the client to learn, ask questions, and problem-solve.
-
-B is incorrect. Moderate anxiety causes a narrowed perceptual field and requires refocusing.
-C is incorrect. Severe anxiety causes poor concentration and difficulty processing teaching.
-D is incorrect. Panic-level anxiety causes inability to process the environment and requires immediate calming and safety.
-
-
+<p>A is correct. Mild anxiety can sharpen focus and allows the client to learn, ask questions, and problem-solve.</p>
+<p>B is incorrect. Moderate anxiety causes a narrowed perceptual field and requires refocusing.</p>
+<p>C is incorrect. Severe anxiety causes poor concentration and difficulty processing teaching.</p>
+<p>D is incorrect. Panic-level anxiety causes inability to process the environment and requires immediate calming and safety.</p>
 </div>
 </details>
 ---
@@ -480,13 +432,10 @@ Which condition should the nurse identify as most consistent with these findings
 
 <div class="quiz-rationale">
 <p><strong>Rationale:</strong></p>
-B is correct. Acute stress disorder occurs after a recent traumatic event and includes symptoms such as intrusive thoughts, derealization, avoidance, hypervigilance, restlessness, and difficulty discussing what happened.
-
-A is incorrect. Adjustment disorder is an emotional or behavioral response to a stressful life event, but this client’s symptoms are specifically trauma-related and occurring soon after a traumatic event.
-C is incorrect. OCD involves obsessions and compulsions, not trauma-related intrusive memories and avoidance.
-D is incorrect. GAD involves excessive worry about many things, not trauma symptoms following a specific event.
-
-
+<p>B is correct. Acute stress disorder occurs after a recent traumatic event and includes symptoms such as intrusive thoughts, derealization, avoidance, hypervigilance, restlessness, and difficulty discussing what happened.</p>
+<p>A is incorrect. Adjustment disorder is an emotional or behavioral response to a stressful life event, but this client’s symptoms are specifically trauma-related and occurring soon after a traumatic event.</p>
+<p>C is incorrect. OCD involves obsessions and compulsions, not trauma-related intrusive memories and avoidance.</p>
+<p>D is incorrect. GAD involves excessive worry about many things, not trauma symptoms following a specific event.</p>
 </div>
 </details>
 ---
@@ -509,14 +458,11 @@ A nurse is caring for a child who repeatedly pulls out hair and picks at areas o
 
 <div class="quiz-rationale">
 <p><strong>Rationale:</strong></p>
-A is correct. Trichotillomania involves repeated hair pulling and can cause visible hair loss.
-B is correct. Excoriation involves repeated skin picking, which can cause wounds, scarring, and infection.
-D is correct. These disorders are often associated with anxiety, shame, and distress.
-E is correct. A client with trichotillomania may swallow pulled hair.
-
-C is incorrect. Contamination fears and rituals are more consistent with OCD handwashing, not the defining issue in this scenario.
-
-
+<p>A is correct. Trichotillomania involves repeated hair pulling and can cause visible hair loss.</p>
+<p>B is correct. Excoriation involves repeated skin picking, which can cause wounds, scarring, and infection.</p>
+<p>D is correct. These disorders are often associated with anxiety, shame, and distress.</p>
+<p>E is correct. A client with trichotillomania may swallow pulled hair.</p>
+<p>C is incorrect. Contamination fears and rituals are more consistent with OCD handwashing, not the defining issue in this scenario.</p>
 </div>
 </details>
 ---
@@ -538,13 +484,10 @@ Which response should the nurse make **first**?
 
 <div class="quiz-rationale">
 <p><strong>Rationale:</strong></p>
-B is correct. Antidepressants can increase energy before mood improves, which can increase suicide risk early in treatment. The nurse should assess suicide risk first.
-
-A is incorrect. This statement is true, but it misses the immediate safety concern.
-C is incorrect. This gives advice and does not address potential suicide risk.
-D is incorrect. The client should not stop an SSRI abruptly unless directed by the provider.
-
-
+<p>B is correct. Antidepressants can increase energy before mood improves, which can increase suicide risk early in treatment. The nurse should assess suicide risk first.</p>
+<p>A is incorrect. This statement is true, but it misses the immediate safety concern.</p>
+<p>C is incorrect. This gives advice and does not address potential suicide risk.</p>
+<p>D is incorrect. The client should not stop an SSRI abruptly unless directed by the provider.</p>
 </div>
 </details>
 ---
@@ -566,13 +509,10 @@ Which condition should the nurse identify as most consistent with these findings
 
 <div class="quiz-rationale">
 <p><strong>Rationale:</strong></p>
-C is correct. Adjustment disorder is an emotional or behavioral response within **3 months** of a stressful life event that disrupts normal routine. Symptoms can include depression, anxiety, anger, withdrawal, impaired functioning, emptiness, and difficulty planning.
-
-A is incorrect. Panic disorder involves repeated episodes of panic-level anxiety.
-B is incorrect. Body dysmorphic disorder involves obsessive thoughts about a perceived body defect.
-D is incorrect. Separation anxiety involves excessive distress related to separation from attachment figures.
-
-
+<p>C is correct. Adjustment disorder is an emotional or behavioral response within <strong>3 months</strong> of a stressful life event that disrupts normal routine. Symptoms can include depression, anxiety, anger, withdrawal, impaired functioning, emptiness, and difficulty planning.</p>
+<p>A is incorrect. Panic disorder involves repeated episodes of panic-level anxiety.</p>
+<p>B is incorrect. Body dysmorphic disorder involves obsessive thoughts about a perceived body defect.</p>
+<p>D is incorrect. Separation anxiety involves excessive distress related to separation from attachment figures.</p>
 </div>
 </details>
 ---
@@ -594,13 +534,10 @@ Which action should the nurse take **first**?
 
 <div class="quiz-rationale">
 <p><strong>Rationale:</strong></p>
-B is correct. For GAD, nursing care focuses on lowering anxiety, promoting routine and sleep, teaching relaxation, and supporting manageable choices.
-
-A is incorrect. Listing all worries can increase rumination and anxiety if not guided therapeutically.
-C is incorrect. This gives advice and minimizes the client’s anxiety.
-D is incorrect. Benzodiazepines may be used short-term, but they are not preferred as long-term control due to tolerance, dependence, sedation, and fall risk.
-
-
+<p>B is correct. For GAD, nursing care focuses on lowering anxiety, promoting routine and sleep, teaching relaxation, and supporting manageable choices.</p>
+<p>A is incorrect. Listing all worries can increase rumination and anxiety if not guided therapeutically.</p>
+<p>C is incorrect. This gives advice and minimizes the client’s anxiety.</p>
+<p>D is incorrect. Benzodiazepines may be used short-term, but they are not preferred as long-term control due to tolerance, dependence, sedation, and fall risk.</p>
 </div>
 </details>
 ---
@@ -622,13 +559,10 @@ Which condition should the nurse identify as most consistent with these findings
 
 <div class="quiz-rationale">
 <p><strong>Rationale:</strong></p>
-C is correct. Panic disorder involves repeated episodes of panic-level anxiety that may occur without a clear trigger. Symptoms can include chest pain, shortness of breath, palpitations, fear of dying, and poor concentration.
-
-A is incorrect. Social anxiety disorder involves fear of embarrassment, judgment, or public ridicule.
-B is incorrect. Agoraphobia involves fear of open spaces, crowds, transportation, or being unable to escape or get help.
-D is incorrect. Adjustment disorder occurs after a stressful life event and disrupts functioning within 3 months.
-
-
+<p>C is correct. Panic disorder involves repeated episodes of panic-level anxiety that may occur without a clear trigger. Symptoms can include chest pain, shortness of breath, palpitations, fear of dying, and poor concentration.</p>
+<p>A is incorrect. Social anxiety disorder involves fear of embarrassment, judgment, or public ridicule.</p>
+<p>B is incorrect. Agoraphobia involves fear of open spaces, crowds, transportation, or being unable to escape or get help.</p>
+<p>D is incorrect. Adjustment disorder occurs after a stressful life event and disrupts functioning within 3 months.</p>
 </div>
 </details>
 ---
@@ -651,14 +585,11 @@ A nurse is caring for a client who has severe anxiety with psychotic symptoms an
 
 <div class="quiz-rationale">
 <p><strong>Rationale:</strong></p>
-A is correct. Fever and muscle rigidity can indicate **neuroleptic malignant syndrome**, which is life-threatening.
-C is correct. Severe restlessness can indicate EPS or akathisia and should be reported.
-D is correct. Abnormal involuntary movements can indicate EPS or tardive dyskinesia.
-
-B is incorrect. Mild sleepiness can occur with antipsychotics, but it is not the priority finding unless severe or causing safety concerns.
-E is incorrect. Mild dry mouth can occur but is not the priority compared with NMS or EPS symptoms.
-
-
+<p>A is correct. Fever and muscle rigidity can indicate <strong>neuroleptic malignant syndrome</strong>, which is life-threatening.</p>
+<p>C is correct. Severe restlessness can indicate EPS or akathisia and should be reported.</p>
+<p>D is correct. Abnormal involuntary movements can indicate EPS or tardive dyskinesia.</p>
+<p>B is incorrect. Mild sleepiness can occur with antipsychotics, but it is not the priority finding unless severe or causing safety concerns.</p>
+<p>E is incorrect. Mild dry mouth can occur but is not the priority compared with NMS or EPS symptoms.</p>
 </div>
 </details>
 ---
@@ -680,13 +611,10 @@ Which response should the nurse make?
 
 <div class="quiz-rationale">
 <p><strong>Rationale:</strong></p>
-D is correct. Trauma care focuses on safety, trust, and allowing the client control. The nurse should not force the client to describe the trauma before they are ready.
-
-A is incorrect. This pressures the client and may worsen distress.
-B is incorrect. This makes the nurse’s need more important than the client’s readiness and sense of safety.
-C is incorrect. “Why” questions are nontherapeutic and can sound judgmental.
-
-
+<p>D is correct. Trauma care focuses on safety, trust, and allowing the client control. The nurse should not force the client to describe the trauma before they are ready.</p>
+<p>A is incorrect. This pressures the client and may worsen distress.</p>
+<p>B is incorrect. This makes the nurse’s need more important than the client’s readiness and sense of safety.</p>
+<p>C is incorrect. “Why” questions are nontherapeutic and can sound judgmental.</p>
 </div>
 </details>
 ---
@@ -709,14 +637,11 @@ A nurse is reviewing medication teaching with a group of clients who have anxiet
 
 <div class="quiz-rationale">
 <p><strong>Rationale:</strong></p>
-A is correct. Buspirone takes weeks and is not a rescue medication for panic.
-C is correct. Alcohol increases CNS depression with benzodiazepines and raises risk for sedation, falls, and respiratory depression.
-E is correct. Propranolol can lower heart rate and blood pressure, so dizziness or a very low pulse should be reported.
-
-B is incorrect. SSRIs should not be stopped abruptly, and they do not cause dependence like benzodiazepines.
-D is incorrect. Benzodiazepines should only be taken as prescribed because extra doses increase sedation, fall risk, dependence, and respiratory depression risk.
-
-
+<p>A is correct. Buspirone takes weeks and is not a rescue medication for panic.</p>
+<p>C is correct. Alcohol increases CNS depression with benzodiazepines and raises risk for sedation, falls, and respiratory depression.</p>
+<p>E is correct. Propranolol can lower heart rate and blood pressure, so dizziness or a very low pulse should be reported.</p>
+<p>B is incorrect. SSRIs should not be stopped abruptly, and they do not cause dependence like benzodiazepines.</p>
+<p>D is incorrect. Benzodiazepines should only be taken as prescribed because extra doses increase sedation, fall risk, dependence, and respiratory depression risk.</p>
 </div>
 </details>
 ---
@@ -738,13 +663,10 @@ Which action should the nurse take?
 
 <div class="quiz-rationale">
 <p><strong>Rationale:</strong></p>
-B is correct. Moderate anxiety narrows the perceptual field, but the client can still learn with **simple explanations, refocusing, and support**.
-
-A is incorrect. Teaching does not always need to stop with moderate anxiety; it should be adjusted.
-C is incorrect. This is not priority and may increase anxiety.
-D is incorrect. Leaving the client alone is not therapeutic and does not support learning.
-
-
+<p>B is correct. Moderate anxiety narrows the perceptual field, but the client can still learn with <strong>simple explanations, refocusing, and support</strong>.</p>
+<p>A is incorrect. Teaching does not always need to stop with moderate anxiety; it should be adjusted.</p>
+<p>C is incorrect. This is not priority and may increase anxiety.</p>
+<p>D is incorrect. Leaving the client alone is not therapeutic and does not support learning.</p>
 </div>
 </details>
 ---
@@ -766,13 +688,10 @@ Which disorder should the nurse identify as most consistent with these findings?
 
 <div class="quiz-rationale">
 <p><strong>Rationale:</strong></p>
-D is correct. Social anxiety disorder involves fear of embarrassment, judgment, public ridicule, or being watched in social situations.
-
-A is incorrect. Agoraphobia involves fear of open spaces, crowds, transportation, or being unable to escape or get help.
-B is incorrect. Panic disorder involves repeated panic attacks that may occur without a clear trigger.
-C is incorrect. GAD involves excessive worry about many things, not primarily fear of social judgment.
-
-
+<p>D is correct. Social anxiety disorder involves fear of embarrassment, judgment, public ridicule, or being watched in social situations.</p>
+<p>A is incorrect. Agoraphobia involves fear of open spaces, crowds, transportation, or being unable to escape or get help.</p>
+<p>B is incorrect. Panic disorder involves repeated panic attacks that may occur without a clear trigger.</p>
+<p>C is incorrect. GAD involves excessive worry about many things, not primarily fear of social judgment.</p>
 </div>
 </details>
 ---
@@ -794,13 +713,10 @@ Which action should the nurse take **first**?
 
 <div class="quiz-rationale">
 <p><strong>Rationale:</strong></p>
-A is correct. Separation anxiety can be abnormal in adolescents when it interferes with functioning. The nurse should assess trauma and loss history and coping before planning interventions.
-
-B is incorrect. Abrupt separation can worsen distress and does not support gradual independence.
-C is incorrect. Separation anxiety is normal in toddlers, but not automatically normal in adolescents.
-D is incorrect. Avoiding discussion does not address the underlying distress or coping needs.
-
-
+<p>A is correct. Separation anxiety can be abnormal in adolescents when it interferes with functioning. The nurse should assess trauma and loss history and coping before planning interventions.</p>
+<p>B is incorrect. Abrupt separation can worsen distress and does not support gradual independence.</p>
+<p>C is incorrect. Separation anxiety is normal in toddlers, but not automatically normal in adolescents.</p>
+<p>D is incorrect. Avoiding discussion does not address the underlying distress or coping needs.</p>
 </div>
 </details>
 ---
@@ -822,13 +738,10 @@ Which client statement indicates correct understanding?
 
 <div class="quiz-rationale">
 <p><strong>Rationale:</strong></p>
-A is correct. Thought stopping uses a cue, such as saying “stop” or gently snapping a rubber band, to interrupt the unwanted thought and replace it with a more positive or helpful thought.
-
-B is incorrect. The rubber band is a cue to interrupt the thought, not a way to punish the client or make anxiety disappear instantly.
-C is incorrect. Thought stopping is a coping strategy, not a replacement for prescribed medication or therapy.
-D is incorrect. The cue is used to interrupt obsessive thoughts, not to reinforce compulsive rituals.
-
-
+<p>A is correct. Thought stopping uses a cue, such as saying “stop” or gently snapping a rubber band, to interrupt the unwanted thought and replace it with a more positive or helpful thought.</p>
+<p>B is incorrect. The rubber band is a cue to interrupt the thought, not a way to punish the client or make anxiety disappear instantly.</p>
+<p>C is incorrect. Thought stopping is a coping strategy, not a replacement for prescribed medication or therapy.</p>
+<p>D is incorrect. The cue is used to interrupt obsessive thoughts, not to reinforce compulsive rituals.</p>
 </div>
 </details>
 ---
@@ -848,13 +761,10 @@ A client receives a prescription for hydroxyzine for anxiety symptoms. Which sta
 
 <div class="quiz-rationale">
 <p><strong>Rationale:</strong></p>
-C is correct. Hydroxyzine is an antihistamine that can cause sedation. Alcohol can increase CNS depression and should be avoided.
-
-A is incorrect. This is correct teaching because antihistamines can cause sleepiness.
-B is incorrect. This is correct safety teaching.
-D is incorrect. This is correct because the medication can impair alertness.
-
-
+<p>C is correct. Hydroxyzine is an antihistamine that can cause sedation. Alcohol can increase CNS depression and should be avoided.</p>
+<p>A is incorrect. This is correct teaching because antihistamines can cause sleepiness.</p>
+<p>B is incorrect. This is correct safety teaching.</p>
+<p>D is incorrect. This is correct because the medication can impair alertness.</p>
 </div>
 </details>
 ---
@@ -876,13 +786,10 @@ Which complication should the nurse be most concerned about?
 
 <div class="quiz-rationale">
 <p><strong>Rationale:</strong></p>
-B is correct. Eating pulled hair is called **trichophagia**. Hair can collect in the gastrointestinal tract and form a mass, which can lead to **bowel obstruction**. Abdominal pain, nausea, and decreased appetite are concerning findings.
-
-A is incorrect. Serotonin syndrome is related to serotonergic medications, not hair ingestion.
-C is incorrect. Neuroleptic malignant syndrome is a serious antipsychotic reaction with fever and rigidity.
-D is incorrect. Panic attacks can cause physical symptoms, but this scenario is specifically pointing to hair ingestion and GI obstruction.
-
-
+<p>B is correct. Eating pulled hair is called <strong>trichophagia</strong>. Hair can collect in the gastrointestinal tract and form a mass, which can lead to <strong>bowel obstruction</strong>. Abdominal pain, nausea, and decreased appetite are concerning findings.</p>
+<p>A is incorrect. Serotonin syndrome is related to serotonergic medications, not hair ingestion.</p>
+<p>C is incorrect. Neuroleptic malignant syndrome is a serious antipsychotic reaction with fever and rigidity.</p>
+<p>D is incorrect. Panic attacks can cause physical symptoms, but this scenario is specifically pointing to hair ingestion and GI obstruction.</p>
 </div>
 </details>
 ---
@@ -904,13 +811,10 @@ Which action should the nurse take **first**?
 
 <div class="quiz-rationale">
 <p><strong>Rationale:</strong></p>
-C is correct. Claustrophobia is a specific phobia. The client is escalating, so the nurse should **stay with the client, reduce anxiety, use a calm approach, and support coping** before attempting teaching or transport.
-
-A is incorrect. This gives reassurance but does not address the client’s immediate anxiety.
-B is incorrect. Detailed discussion may increase anxiety when the client is escalating.
-D is incorrect. Avoidance can worsen phobias and interfere with treatment.
-
-
+<p>C is correct. Claustrophobia is a specific phobia. The client is escalating, so the nurse should <strong>stay with the client, reduce anxiety, use a calm approach, and support coping</strong> before attempting teaching or transport.</p>
+<p>A is incorrect. This gives reassurance but does not address the client’s immediate anxiety.</p>
+<p>B is incorrect. Detailed discussion may increase anxiety when the client is escalating.</p>
+<p>D is incorrect. Avoidance can worsen phobias and interfere with treatment.</p>
 </div>
 </details>
 ---
@@ -932,13 +836,10 @@ Which client statement indicates a need for further teaching?
 
 <div class="quiz-rationale">
 <p><strong>Rationale:</strong></p>
-C is correct. Clients with anxiety disorders should avoid or limit **stimulants**, such as caffeine, because they can worsen restlessness, insomnia, palpitations, and anxiety symptoms.
-
-A is incorrect. Relaxation techniques should be practiced early, before anxiety reaches panic.
-B is incorrect. Alcohol should not be used to manage anxiety because it can worsen symptoms and increase substance-use risk.
-D is incorrect. Taking medications as prescribed is correct teaching.
-
-
+<p>C is correct. Clients with anxiety disorders should avoid or limit <strong>stimulants</strong>, such as caffeine, because they can worsen restlessness, insomnia, palpitations, and anxiety symptoms.</p>
+<p>A is incorrect. Relaxation techniques should be practiced early, before anxiety reaches panic.</p>
+<p>B is incorrect. Alcohol should not be used to manage anxiety because it can worsen symptoms and increase substance-use risk.</p>
+<p>D is incorrect. Taking medications as prescribed is correct teaching.</p>
 </div>
 </details>
 ---
@@ -960,13 +861,10 @@ Which response should the nurse make?
 
 <div class="quiz-rationale">
 <p><strong>Rationale:</strong></p>
-A is correct. Panic attacks often peak around **10 to 15 minutes** and usually do not last longer than **30 minutes**. This teaching can help the client understand what to expect when they are calm enough to learn.
-
-B is incorrect. During panic, the client cannot think clearly enough to analyze triggers. Trigger identification can happen later.
-C is incorrect. This sounds dismissive and may feel like false reassurance.
-D is incorrect. Avoidance can worsen anxiety and interfere with functioning.
-
-
+<p>A is correct. Panic attacks often peak around <strong>10 to 15 minutes</strong> and usually do not last longer than <strong>30 minutes</strong>. This teaching can help the client understand what to expect when they are calm enough to learn.</p>
+<p>B is incorrect. During panic, the client cannot think clearly enough to analyze triggers. Trigger identification can happen later.</p>
+<p>C is incorrect. This sounds dismissive and may feel like false reassurance.</p>
+<p>D is incorrect. Avoidance can worsen anxiety and interfere with functioning.</p>
 </div>
 </details>
 ---
@@ -988,13 +886,10 @@ Which action should the nurse take **first**?
 
 <div class="quiz-rationale">
 <p><strong>Rationale:</strong></p>
-B is correct. Any statement suggesting hopelessness or not wanting to live requires a **direct suicide risk assessment**. Asking about suicide does not “put the idea” in the client’s head; it helps identify immediate safety risk.
-
-A is incorrect. Deep breathing may help anxiety, but safety assessment comes first with suicidal cues.
-C is incorrect. Teaching is not priority during severe anxiety and possible suicide risk.
-D is incorrect. Decreasing stimulation can help anxiety, but the nurse must assess suicide risk before leaving or isolating the client.
-
-
+<p>B is correct. Any statement suggesting hopelessness or not wanting to live requires a <strong>direct suicide risk assessment</strong>. Asking about suicide does not “put the idea” in the client’s head; it helps identify immediate safety risk.</p>
+<p>A is incorrect. Deep breathing may help anxiety, but safety assessment comes first with suicidal cues.</p>
+<p>C is incorrect. Teaching is not priority during severe anxiety and possible suicide risk.</p>
+<p>D is incorrect. Decreasing stimulation can help anxiety, but the nurse must assess suicide risk before leaving or isolating the client.</p>
 </div>
 </details>
 ---

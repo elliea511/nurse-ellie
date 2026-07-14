@@ -1426,6 +1426,46 @@ body {
 .answer-choices p { margin: 0.3rem 0; line-height: 1.6; }
 .answer-choice { display: block !important; margin: 0.6rem 0 !important; line-height: 1.65 !important; }
 
+.main-content details.quiz-answer-block {
+  background: linear-gradient(135deg, #ffffff 0%, #fbf8ff 100%) !important;
+  border: 1.5px solid #d9c6ff !important;
+  border-radius: 18px !important;
+  padding: 1rem !important;
+  margin: 1.1rem 0 1.75rem !important;
+  box-shadow: 0 12px 28px rgba(108, 73, 188, 0.08) !important;
+  overflow: hidden !important;
+}
+
+.main-content details.quiz-answer-block > summary {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 0.45rem !important;
+  width: auto !important;
+  padding: 0.55rem 1rem !important;
+  border: 1px solid #c9b2f5 !important;
+  border-radius: 999px !important;
+  background: #f5efff !important;
+  color: #5f35c8 !important;
+  font-size: 0 !important;
+  font-weight: 900 !important;
+  letter-spacing: 0.01em !important;
+}
+
+.main-content details.quiz-answer-block > summary::before {
+  content: "Show answer + rationale" !important;
+  color: #5f35c8 !important;
+  font-size: 0.88rem !important;
+}
+
+.main-content details.quiz-answer-block[open] > summary {
+  background: #efe6ff !important;
+  border-color: #b895f0 !important;
+}
+
+.main-content details.quiz-answer-block[open] > summary::before {
+  content: "Hide answer + rationale" !important;
+}
+
 .quiz-answer {
   display: inline-block !important;
   margin: 0.85rem 0 0.75rem 0 !important;
@@ -1440,14 +1480,31 @@ body {
 }
 
 .quiz-rationale {
-  margin: 0.5rem 0 0.5rem 0 !important;
-  padding: 0.75rem 1rem !important;
-  line-height: 1.85 !important;
-  background: #f8f9ff !important;
-  border-left: 3px solid var(--accent-mid, #c0a0d0) !important;
-  border-radius: 0 8px 8px 0 !important;
+  margin: 0.5rem 0 0.25rem 0 !important;
+  padding: 1rem 1.1rem !important;
+  line-height: 1.65 !important;
+  background: #f8f6ff !important;
+  border: 1px solid #e3d9fb !important;
+  border-left: 5px solid #8a63df !important;
+  border-radius: 16px !important;
   font-size: 0.93rem !important;
   color: var(--ink) !important;
+}
+
+.quiz-rationale p {
+  margin: 0.55rem 0 !important;
+}
+
+.quiz-rationale p:first-child {
+  margin-top: 0 !important;
+}
+
+.quiz-rationale p:last-child {
+  margin-bottom: 0 !important;
+}
+
+.quiz-rationale strong {
+  color: #5a35b1 !important;
 }
 
 /* =========================================================
