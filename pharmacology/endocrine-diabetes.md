@@ -661,5 +661,5 @@ For diabetes medications, distinguish **expected GI effects** from dangerous fin
 
 <div class="page-nav">
   <a href="{{ '/pharmacology/cardiovascular-blood.html' | relative_url }}" class="page-nav-back">← Cardiovascular & Blood</a>
-  <a href="{{ '/pharmacology.html' | relative_url }}" class="page-nav-next">More Pharmacology Coming Soon →</a>
+  <a href="{{ '/pharmacology/neuro-psych-substance-use.html' | relative_url }}" class="page-nav-next">Neurologic & Psychiatric →</a>
 </div>

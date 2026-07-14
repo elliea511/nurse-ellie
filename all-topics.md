@@ -171,12 +171,12 @@ page_type: all-topics
             <a href="{{ '/pharmacology/high-alert-medications.html' | relative_url }}">High-Alert Medications</a>
             <a href="{{ '/pharmacology/cardiovascular-blood.html' | relative_url }}">Cardiovascular &amp; Blood Medications</a>
             <a href="{{ '/pharmacology/endocrine-diabetes.html' | relative_url }}">Endocrine &amp; Diabetes Medications</a>
+            <a href="{{ '/pharmacology/neuro-psych-substance-use.html' | relative_url }}">Neurologic, Psychiatric &amp; Substance-Use Medications</a>
           </div>
         </div>
         <div class="at-topic-group">
           <h3>Coming Soon</h3>
           <div class="at-links">
-            <span>Neurologic, Psychiatric &amp; Substance-Use Medications</span>
             <span>Anti-Infective Medications</span>
             <span>Respiratory, Allergy, Eye &amp; ENT Medications</span>
             <span>GI, Pain &amp; Musculoskeletal Medications</span>

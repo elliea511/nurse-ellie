@@ -48,9 +48,9 @@ This guide is organized by medication purpose and body system so you can focus o
 
   <div class="mh-card purple">
     <div class="mh-card-icon">🧠</div>
-    <h3>Neurologic & Psychiatric</h3>
+    <h3>Neurologic, Psychiatric & Substance-Use</h3>
     <p>Antidepressants, antipsychotics, mood stabilizers, seizure drugs, Parkinson’s drugs, and substance-use medications.</p>
-    <span class="mh-btn pharm-coming-soon">Coming Soon</span>
+    <a class="mh-btn" href="{{ '/pharmacology/neuro-psych-substance-use.html' | relative_url }}">Study Neuro/Psych Meds</a>
   </div>
 
   <div class="mh-card green">
