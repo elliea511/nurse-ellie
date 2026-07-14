@@ -680,5 +680,5 @@ When an antibiotic question lists several expected effects, prioritize **allergy
 
 <div class="page-nav">
   <a href="{{ '/pharmacology/neuro-psych-substance-use.html' | relative_url }}" class="page-nav-back">← Neurologic & Psychiatric</a>
-  <a href="{{ '/pharmacology.html' | relative_url }}" class="page-nav-next">More Pharmacology Coming Soon →</a>
+  <a href="{{ '/pharmacology/respiratory-allergy-eye-ent.html' | relative_url }}" class="page-nav-next">Respiratory, Allergy, Eye & ENT →</a>
 </div>

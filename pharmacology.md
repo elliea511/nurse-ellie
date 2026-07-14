@@ -64,7 +64,7 @@ This guide is organized by medication purpose and body system so you can focus o
     <div class="mh-card-icon">🫁</div>
     <h3>Respiratory, Allergy, Eye & ENT</h3>
     <p>Inhalers, glucocorticoids, decongestants, anticholinergics, antihistamines, and eye-drop safety.</p>
-    <span class="mh-btn pharm-coming-soon">Coming Soon</span>
+    <a class="mh-btn" href="{{ '/pharmacology/respiratory-allergy-eye-ent.html' | relative_url }}">Study Respiratory Meds</a>
   </div>
 
   <div class="mh-card orange">
