@@ -735,5 +735,5 @@ Medication-safety questions often ask for the **first action**. Protect and asse
 
 <div class="page-nav">
   <a href="{{ '/pharmacology/vaccines-pregnancy.html' | relative_url }}" class="page-nav-back">← Vaccines & Pregnancy</a>
-  <a href="{{ '/pharmacology.html' | relative_url }}" class="page-nav-next">More Pharmacology Coming Soon →</a>
+  <a href="{{ '/pharmacology/master-review.html' | relative_url }}" class="page-nav-next">Master Quick Review →</a>
 </div>

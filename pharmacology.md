@@ -92,7 +92,7 @@ This guide is organized by medication purpose and body system so you can focus o
     <div class="mh-card-icon">⚡</div>
     <h3>Master Quick Review</h3>
     <p>Antidotes, toxicities, suffixes, hold parameters, interactions, and last-minute ATI cues.</p>
-    <span class="mh-btn pharm-coming-soon">Coming Soon</span>
+    <a class="mh-btn" href="{{ '/pharmacology/master-review.html' | relative_url }}">Review Everything</a>
   </div>
 
 </div>
