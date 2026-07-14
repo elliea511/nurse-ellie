@@ -3235,14 +3235,15 @@ body[data-page-type="pharmacology-home"] .pharm-link-map {
 
 body[data-page-type="pharmacology-home"] .pharm-map-link {
   position: absolute;
-  top: 74.2%;
-  width: 9.1%;
-  height: 21.4%;
+  top: 74.05%;
+  width: 8.05%;
+  height: 22%;
   overflow: hidden;
   border-radius: 18px;
   color: transparent !important;
   text-decoration: none !important;
   font-size: 0;
+  transform: translateX(-50%);
 }
 
 body[data-page-type="pharmacology-home"] .pharm-map-link:focus-visible {
@@ -3255,16 +3256,16 @@ body[data-page-type="pharmacology-home"] .pharm-map-link:hover {
   background: rgba(255, 255, 255, .12);
 }
 
-body[data-page-type="pharmacology-home"] .pharm-map-link.card-1 { left: 3.1%; }
-body[data-page-type="pharmacology-home"] .pharm-map-link.card-2 { left: 12.9%; }
-body[data-page-type="pharmacology-home"] .pharm-map-link.card-3 { left: 22.7%; }
-body[data-page-type="pharmacology-home"] .pharm-map-link.card-4 { left: 32.55%; }
-body[data-page-type="pharmacology-home"] .pharm-map-link.card-5 { left: 42.4%; }
-body[data-page-type="pharmacology-home"] .pharm-map-link.card-6 { left: 52.25%; }
-body[data-page-type="pharmacology-home"] .pharm-map-link.card-7 { left: 62.1%; }
-body[data-page-type="pharmacology-home"] .pharm-map-link.card-8 { left: 71.95%; }
-body[data-page-type="pharmacology-home"] .pharm-map-link.card-9 { left: 81.8%; }
-body[data-page-type="pharmacology-home"] .pharm-map-link.card-10 { left: 91.65%; width: 7.2%; }
+body[data-page-type="pharmacology-home"] .pharm-map-link.card-1 { left: 7.55%; }
+body[data-page-type="pharmacology-home"] .pharm-map-link.card-2 { left: 17.35%; }
+body[data-page-type="pharmacology-home"] .pharm-map-link.card-3 { left: 27.15%; }
+body[data-page-type="pharmacology-home"] .pharm-map-link.card-4 { left: 36.95%; }
+body[data-page-type="pharmacology-home"] .pharm-map-link.card-5 { left: 46.75%; }
+body[data-page-type="pharmacology-home"] .pharm-map-link.card-6 { left: 56.55%; }
+body[data-page-type="pharmacology-home"] .pharm-map-link.card-7 { left: 66.35%; }
+body[data-page-type="pharmacology-home"] .pharm-map-link.card-8 { left: 76.15%; }
+body[data-page-type="pharmacology-home"] .pharm-map-link.card-9 { left: 85.95%; }
+body[data-page-type="pharmacology-home"] .pharm-map-link.card-10 { left: 95.45%; }
 
 body[data-page-type="pharmacology-home"] .sr-only {
   position: absolute;
