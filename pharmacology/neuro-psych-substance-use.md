@@ -798,5 +798,5 @@ Differentiate **expected effects** from emergencies: mild dry mouth is expected,
 
 <div class="page-nav">
   <a href="{{ '/pharmacology/endocrine-diabetes.html' | relative_url }}" class="page-nav-back">← Endocrine & Diabetes</a>
-  <a href="{{ '/pharmacology.html' | relative_url }}" class="page-nav-next">More Pharmacology Coming Soon →</a>
+  <a href="{{ '/pharmacology/anti-infectives.html' | relative_url }}" class="page-nav-next">Anti-Infective Medications →</a>
 </div>

@@ -172,12 +172,12 @@ page_type: all-topics
             <a href="{{ '/pharmacology/cardiovascular-blood.html' | relative_url }}">Cardiovascular &amp; Blood Medications</a>
             <a href="{{ '/pharmacology/endocrine-diabetes.html' | relative_url }}">Endocrine &amp; Diabetes Medications</a>
             <a href="{{ '/pharmacology/neuro-psych-substance-use.html' | relative_url }}">Neurologic, Psychiatric &amp; Substance-Use Medications</a>
+            <a href="{{ '/pharmacology/anti-infectives.html' | relative_url }}">Anti-Infective Medications</a>
           </div>
         </div>
         <div class="at-topic-group">
           <h3>Coming Soon</h3>
           <div class="at-links">
-            <span>Anti-Infective Medications</span>
             <span>Respiratory, Allergy, Eye &amp; ENT Medications</span>
             <span>GI, Pain &amp; Musculoskeletal Medications</span>
           </div>

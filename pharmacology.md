@@ -57,7 +57,7 @@ This guide is organized by medication purpose and body system so you can focus o
     <div class="mh-card-icon">🦠</div>
     <h3>Anti-Infective Medications</h3>
     <p>Antibiotics, antivirals, antifungals, tuberculosis drugs, allergies, and class-specific toxicities.</p>
-    <span class="mh-btn pharm-coming-soon">Coming Soon</span>
+    <a class="mh-btn" href="{{ '/pharmacology/anti-infectives.html' | relative_url }}">Study Anti-Infectives</a>
   </div>
 
   <div class="mh-card teal">
