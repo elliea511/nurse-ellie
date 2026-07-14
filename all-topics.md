@@ -14,7 +14,7 @@ page_type: all-topics
       <h1>All Topics</h1>
       <p>Every note page on the site, organized by section. Find what you need and jump straight into studying.</p>
     </div>
-    <div class="at-hero-count"><strong>5</strong><span>Study areas</span></div>
+    <div class="at-hero-count"><strong>6</strong><span>Study areas</span></div>
   </header>
 
   <nav class="at-jump-nav" aria-label="Jump to a study area">
@@ -22,6 +22,7 @@ page_type: all-topics
     <a href="#heme-onc"><span>🩸</span>Heme / Onc</a>
     <a href="#emergencies"><span>🚨</span>Emergencies</a>
     <a href="#mental-health"><span>🧠</span>Mental Health</a>
+    <a href="#pharmacology"><span>💊</span>Pharmacology</a>
     <a href="#ati"><span>📖</span>ATI Review</a>
   </nav>
 
@@ -156,10 +157,38 @@ page_type: all-topics
       </div>
     </section>
 
+    <section class="at-section at-ati" id="pharmacology">
+      <header class="at-section-header">
+        <span aria-hidden="true">💊</span>
+        <div><p>Study Area 05</p><h2>Pharmacology</h2><small>ATI PN medication safety, toxicities, monitoring, and patient teaching</small></div>
+        <a href="{{ '/pharmacology.html' | relative_url }}">Open hub →</a>
+      </header>
+      <div class="at-subgrid">
+        <div class="at-topic-group">
+          <h3>Available Now</h3>
+          <div class="at-links">
+            <a href="{{ '/pharmacology.html' | relative_url }}">Pharmacology Home</a>
+            <a href="{{ '/pharmacology/high-alert-medications.html' | relative_url }}">High-Alert Medications</a>
+            <a href="{{ '/pharmacology/cardiovascular-blood.html' | relative_url }}">Cardiovascular &amp; Blood Medications</a>
+            <a href="{{ '/pharmacology/endocrine-diabetes.html' | relative_url }}">Endocrine &amp; Diabetes Medications</a>
+          </div>
+        </div>
+        <div class="at-topic-group">
+          <h3>Coming Soon</h3>
+          <div class="at-links">
+            <span>Neurologic, Psychiatric &amp; Substance-Use Medications</span>
+            <span>Anti-Infective Medications</span>
+            <span>Respiratory, Allergy, Eye &amp; ENT Medications</span>
+            <span>GI, Pain &amp; Musculoskeletal Medications</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section class="at-section at-ati" id="ati">
       <header class="at-section-header">
         <span aria-hidden="true">📖</span>
-        <div><p>Study Area 05</p><h2>ATI Exam Review</h2><small>Nutrition concepts organized for focused review</small></div>
+        <div><p>Study Area 06</p><h2>ATI Exam Review</h2><small>Nutrition concepts organized for focused review</small></div>
         <a href="{{ '/ati/' | relative_url }}">Open hub →</a>
       </header>
       <div class="at-links at-link-columns at-three-columns">

@@ -1,11 +1,11 @@
 /* =========================================================
    MENTAL HEALTH — "Nurse Ellie Study Notes" card design
-   Scoped to body[data-section="mental-health"] only.
+   Scoped to :is(body[data-section="mental-health"], body[data-section="pharmacology"]) only.
    Component guide + copy-paste snippets:
    /mental-health/style-guide.html
    ========================================================= */
 
-body[data-section="mental-health"] {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) {
   --mh-ink:           #221c50;
   --mh-muted:         #6f6a92;
   --mh-card-bg:       #ffffff;
@@ -421,7 +421,7 @@ body[data-page-type="mental-health-hub"] .main-content .mh-guide-icon img {
   .mh-hub-guide { padding: 1.6rem; }
 }
 
-[data-theme="dark"] body[data-section="mental-health"] {
+[data-theme="dark"] :is(body[data-section="mental-health"], body[data-section="pharmacology"]) {
   --mh-ink:           #e8e5f7;
   --mh-muted:         #a7a3c8;
   --mh-card-bg:       #232134;
@@ -461,7 +461,7 @@ body[data-page-type="mental-health-hub"] .main-content .mh-guide-icon img {
    PAGE TOP — title, subtitle, breadcrumb
    ========================================================= */
 
-body[data-section="mental-health"] .main-content h1 {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .main-content h1 {
   font-family: "Playfair Display", Georgia, serif !important;
   font-size: 2.7rem !important;
   font-weight: 900 !important;
@@ -469,14 +469,14 @@ body[data-section="mental-health"] .main-content h1 {
   line-height: 1.15 !important;
 }
 
-body[data-section="mental-health"] .mh-subtitle {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-subtitle {
   margin: -0.5rem 0 0.6rem;
   font-size: 1.15rem;
   font-weight: 800;
   color: var(--mh-purple);
 }
 
-body[data-section="mental-health"] .mh-breadcrumb {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-breadcrumb {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -487,18 +487,18 @@ body[data-section="mental-health"] .mh-breadcrumb {
   color: var(--mh-muted);
 }
 
-body[data-section="mental-health"] .mh-breadcrumb a {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-breadcrumb a {
   color: var(--mh-purple) !important;
   text-decoration: none !important;
 }
 
-body[data-section="mental-health"] .mh-breadcrumb a:hover {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-breadcrumb a:hover {
   text-decoration: underline !important;
 }
 
-body[data-section="mental-health"] .mh-breadcrumb a + a::before,
-body[data-section="mental-health"] .mh-breadcrumb a + span::before,
-body[data-section="mental-health"] .mh-breadcrumb span + span::before {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-breadcrumb a + a::before,
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-breadcrumb a + span::before,
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-breadcrumb span + span::before {
   content: "›";
   margin-right: 0.45rem;
   color: var(--mh-muted);
@@ -508,15 +508,15 @@ body[data-section="mental-health"] .mh-breadcrumb span + span::before {
    SHARED CARD BASICS
    ========================================================= */
 
-body[data-section="mental-health"] .priority-focus,
-body[data-section="mental-health"] .mh-card,
-body[data-section="mental-health"] .key-findings,
-body[data-section="mental-health"] .report-now,
-body[data-section="mental-health"] .nclex-tip,
-body[data-section="mental-health"] .quick-review,
-body[data-section="mental-health"] .do-not-miss,
-body[data-section="mental-health"] .mh-table-card,
-body[data-section="mental-health"] .cheer-banner {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .priority-focus,
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-card,
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .key-findings,
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .report-now,
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .nclex-tip,
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .quick-review,
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .do-not-miss,
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-table-card,
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .cheer-banner {
   border-radius: 16px;
   padding: 1.15rem 1.35rem;
   margin: 1.25rem 0;
@@ -525,37 +525,37 @@ body[data-section="mental-health"] .cheer-banner {
   box-shadow: 0 1px 4px rgba(34, 28, 80, 0.06);
 }
 
-body[data-section="mental-health"] .priority-focus > :first-child,
-body[data-section="mental-health"] .mh-card > :first-child,
-body[data-section="mental-health"] .key-findings > :first-child,
-body[data-section="mental-health"] .report-now > :first-child,
-body[data-section="mental-health"] .nclex-tip > :first-child,
-body[data-section="mental-health"] .quick-review > :first-child,
-body[data-section="mental-health"] .do-not-miss > :first-child,
-body[data-section="mental-health"] .mh-table-card > :first-child {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .priority-focus > :first-child,
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-card > :first-child,
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .key-findings > :first-child,
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .report-now > :first-child,
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .nclex-tip > :first-child,
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .quick-review > :first-child,
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .do-not-miss > :first-child,
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-table-card > :first-child {
   margin-top: 0 !important;
 }
 
-body[data-section="mental-health"] .priority-focus > :last-child,
-body[data-section="mental-health"] .mh-card > :last-child,
-body[data-section="mental-health"] .key-findings > :last-child,
-body[data-section="mental-health"] .report-now > :last-child,
-body[data-section="mental-health"] .nclex-tip > :last-child,
-body[data-section="mental-health"] .quick-review > :last-child,
-body[data-section="mental-health"] .do-not-miss > :last-child,
-body[data-section="mental-health"] .mh-table-card > :last-child {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .priority-focus > :last-child,
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-card > :last-child,
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .key-findings > :last-child,
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .report-now > :last-child,
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .nclex-tip > :last-child,
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .quick-review > :last-child,
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .do-not-miss > :last-child,
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-table-card > :last-child {
   margin-bottom: 0 !important;
 }
 
 /* Card headings: compact, sans, colored per component */
-body[data-section="mental-health"] .priority-focus h3,
-body[data-section="mental-health"] .mh-card h3,
-body[data-section="mental-health"] .key-findings h3,
-body[data-section="mental-health"] .report-now h3,
-body[data-section="mental-health"] .nclex-tip h3,
-body[data-section="mental-health"] .quick-review h3,
-body[data-section="mental-health"] .do-not-miss h3,
-body[data-section="mental-health"] .mh-table-card h3 {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .priority-focus h3,
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-card h3,
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .key-findings h3,
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .report-now h3,
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .nclex-tip h3,
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .quick-review h3,
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .do-not-miss h3,
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-table-card h3 {
   font-family: "Nunito", sans-serif !important;
   font-size: 1.05rem !important;
   font-weight: 800 !important;
@@ -569,18 +569,18 @@ body[data-section="mental-health"] .mh-table-card h3 {
   gap: 0.5rem;
 }
 
-body[data-section="mental-health"] .priority-focus ul,
-body[data-section="mental-health"] .mh-card ul,
-body[data-section="mental-health"] .report-now ul,
-body[data-section="mental-health"] .nclex-tip ul,
-body[data-section="mental-health"] .do-not-miss ul {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .priority-focus ul,
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-card ul,
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .report-now ul,
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .nclex-tip ul,
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .do-not-miss ul {
   margin: 0.3rem 0 0;
   padding-left: 1.15rem;
 }
 
-body[data-section="mental-health"] .mh-card li,
-body[data-section="mental-health"] .report-now li,
-body[data-section="mental-health"] .do-not-miss li {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-card li,
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .report-now li,
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .do-not-miss li {
   margin-bottom: 0.3rem;
 }
 
@@ -588,7 +588,7 @@ body[data-section="mental-health"] .do-not-miss li {
    PRIORITY FOCUS — yellow banner with star
    ========================================================= */
 
-body[data-section="mental-health"] .priority-focus {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .priority-focus {
   background: var(--mh-amber-soft);
   border: 1.5px solid var(--mh-amber-border);
   display: flex;
@@ -596,7 +596,7 @@ body[data-section="mental-health"] .priority-focus {
   gap: 0.9rem;
 }
 
-body[data-section="mental-health"] .priority-focus::before {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .priority-focus::before {
   content: "⭐";
   flex: 0 0 auto;
   width: 2.5rem;
@@ -610,7 +610,7 @@ body[data-section="mental-health"] .priority-focus::before {
   box-shadow: 0 1px 4px rgba(34, 28, 80, 0.10);
 }
 
-body[data-section="mental-health"] .priority-focus h3 {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .priority-focus h3 {
   color: var(--mh-amber-deep) !important;
   text-transform: uppercase;
   letter-spacing: 0.5px;
@@ -621,25 +621,25 @@ body[data-section="mental-health"] .priority-focus h3 {
    CARD GRID — .mh-cards > .mh-card.purple/.pink/.blue/.green
    ========================================================= */
 
-body[data-section="mental-health"] .mh-cards {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(195px, 1fr));
   gap: 1rem;
   margin: 1.25rem 0;
 }
 
-body[data-section="mental-health"] .mh-cards .mh-card {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-cards .mh-card {
   margin: 0;
 }
 
-body[data-section="mental-health"] .mh-card {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-card {
   background: var(--mh-card-bg);
   border: 1.5px solid var(--mh-purple-border);
   display: flex;
   flex-direction: column;
 }
 
-body[data-section="mental-health"] .mh-card-icon {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-card-icon {
   width: 2.9rem;
   height: 2.9rem;
   display: flex;
@@ -651,38 +651,38 @@ body[data-section="mental-health"] .mh-card-icon {
   background: var(--mh-purple-soft);
 }
 
-body[data-section="mental-health"] .mh-card li {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-card li {
   font-size: 0.93rem;
 }
 
-body[data-section="mental-health"] .mh-card p {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-card p {
   font-size: 0.95rem;
   margin: 0.25rem 0;
 }
 
 /* Color variants */
-body[data-section="mental-health"] .mh-card.purple { background: var(--mh-purple-soft); border-color: var(--mh-purple-border); }
-body[data-section="mental-health"] .mh-card.purple h3 { color: var(--mh-purple-deep) !important; }
-body[data-section="mental-health"] .mh-card.purple .mh-card-icon { background: var(--mh-card-bg); }
-body[data-section="mental-health"] .mh-card.purple li::marker { color: var(--mh-purple); }
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-card.purple { background: var(--mh-purple-soft); border-color: var(--mh-purple-border); }
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-card.purple h3 { color: var(--mh-purple-deep) !important; }
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-card.purple .mh-card-icon { background: var(--mh-card-bg); }
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-card.purple li::marker { color: var(--mh-purple); }
 
-body[data-section="mental-health"] .mh-card.pink { background: var(--mh-pink-soft); border-color: var(--mh-pink-border); }
-body[data-section="mental-health"] .mh-card.pink h3 { color: var(--mh-pink-deep) !important; }
-body[data-section="mental-health"] .mh-card.pink .mh-card-icon { background: var(--mh-card-bg); }
-body[data-section="mental-health"] .mh-card.pink li::marker { color: var(--mh-pink); }
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-card.pink { background: var(--mh-pink-soft); border-color: var(--mh-pink-border); }
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-card.pink h3 { color: var(--mh-pink-deep) !important; }
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-card.pink .mh-card-icon { background: var(--mh-card-bg); }
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-card.pink li::marker { color: var(--mh-pink); }
 
-body[data-section="mental-health"] .mh-card.blue { background: var(--mh-blue-soft); border-color: var(--mh-blue-border); }
-body[data-section="mental-health"] .mh-card.blue h3 { color: var(--mh-blue-deep) !important; }
-body[data-section="mental-health"] .mh-card.blue .mh-card-icon { background: var(--mh-card-bg); }
-body[data-section="mental-health"] .mh-card.blue li::marker { color: var(--mh-blue); }
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-card.blue { background: var(--mh-blue-soft); border-color: var(--mh-blue-border); }
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-card.blue h3 { color: var(--mh-blue-deep) !important; }
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-card.blue .mh-card-icon { background: var(--mh-card-bg); }
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-card.blue li::marker { color: var(--mh-blue); }
 
-body[data-section="mental-health"] .mh-card.green { background: var(--mh-green-soft); border-color: var(--mh-green-border); }
-body[data-section="mental-health"] .mh-card.green h3 { color: var(--mh-green-deep) !important; }
-body[data-section="mental-health"] .mh-card.green .mh-card-icon { background: var(--mh-card-bg); }
-body[data-section="mental-health"] .mh-card.green li::marker { color: var(--mh-green); }
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-card.green { background: var(--mh-green-soft); border-color: var(--mh-green-border); }
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-card.green h3 { color: var(--mh-green-deep) !important; }
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-card.green .mh-card-icon { background: var(--mh-card-bg); }
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-card.green li::marker { color: var(--mh-green); }
 
 /* Optional outline button pinned to card bottom */
-body[data-section="mental-health"] .mh-btn {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-btn {
   display: inline-block;
   align-self: center;
   margin-top: auto;
@@ -696,20 +696,31 @@ body[data-section="mental-health"] .mh-btn {
   background: var(--mh-card-bg);
 }
 
-body[data-section="mental-health"] .mh-card .mh-btn { margin-top: 0.85rem; }
-body[data-section="mental-health"] .mh-btn:hover { background: var(--mh-purple-soft); }
-body[data-section="mental-health"] .mh-card.pink .mh-btn { border-color: var(--mh-pink); color: var(--mh-pink-deep) !important; }
-body[data-section="mental-health"] .mh-card.pink .mh-btn:hover { background: var(--mh-pink-soft); }
-body[data-section="mental-health"] .mh-card.blue .mh-btn { border-color: var(--mh-blue); color: var(--mh-blue-deep) !important; }
-body[data-section="mental-health"] .mh-card.blue .mh-btn:hover { background: var(--mh-blue-soft); }
-body[data-section="mental-health"] .mh-card.green .mh-btn { border-color: var(--mh-green); color: var(--mh-green-deep) !important; }
-body[data-section="mental-health"] .mh-card.green .mh-btn:hover { background: var(--mh-green-soft); }
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-card .mh-btn { margin-top: 0.85rem; }
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-btn:hover { background: var(--mh-purple-soft); }
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-card.pink .mh-btn { border-color: var(--mh-pink); color: var(--mh-pink-deep) !important; }
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-card.pink .mh-btn:hover { background: var(--mh-pink-soft); }
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-card.blue .mh-btn { border-color: var(--mh-blue); color: var(--mh-blue-deep) !important; }
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-card.blue .mh-btn:hover { background: var(--mh-blue-soft); }
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-card.green .mh-btn { border-color: var(--mh-green); color: var(--mh-green-deep) !important; }
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-card.green .mh-btn:hover { background: var(--mh-green-soft); }
+
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-btn.pharm-coming-soon {
+  cursor: default;
+  opacity: 0.68;
+  border-style: dashed;
+  background: rgba(255, 255, 255, 0.55);
+}
+
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-btn.pharm-coming-soon:hover {
+  background: rgba(255, 255, 255, 0.55);
+}
 
 /* Filled "active" state while its panel is open */
-body[data-section="mental-health"] .mh-btn.mh-active { background: var(--mh-purple); color: #fff !important; border-color: var(--mh-purple); }
-body[data-section="mental-health"] .mh-card.pink .mh-btn.mh-active { background: var(--mh-pink); border-color: var(--mh-pink); }
-body[data-section="mental-health"] .mh-card.blue .mh-btn.mh-active { background: var(--mh-blue); border-color: var(--mh-blue); }
-body[data-section="mental-health"] .mh-card.green .mh-btn.mh-active { background: var(--mh-green); border-color: var(--mh-green); }
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-btn.mh-active { background: var(--mh-purple); color: #fff !important; border-color: var(--mh-purple); }
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-card.pink .mh-btn.mh-active { background: var(--mh-pink); border-color: var(--mh-pink); }
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-card.blue .mh-btn.mh-active { background: var(--mh-blue); border-color: var(--mh-blue); }
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-card.green .mh-btn.mh-active { background: var(--mh-green); border-color: var(--mh-green); }
 
 /* =========================================================
    EXPANDABLE DETAIL PANELS
@@ -719,7 +730,7 @@ body[data-section="mental-health"] .mh-card.green .mh-btn.mh-active { background
    upgrades it to a smooth open/close toggle.
    ========================================================= */
 
-body[data-section="mental-health"] .mh-detail {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-detail {
   display: none;
   background: var(--mh-card-bg);
   border: 1.5px solid var(--mh-purple-border);
@@ -730,8 +741,8 @@ body[data-section="mental-health"] .mh-detail {
   scroll-margin-top: 1.5rem;
 }
 
-body[data-section="mental-health"] .mh-detail:target,
-body[data-section="mental-health"] .mh-detail.mh-open {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-detail:target,
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-detail.mh-open {
   display: block;
   animation: mh-fade 0.25s ease;
 }
@@ -741,10 +752,10 @@ body[data-section="mental-health"] .mh-detail.mh-open {
   to   { opacity: 1; transform: none; }
 }
 
-body[data-section="mental-health"] .mh-detail > :first-child { margin-top: 0 !important; }
-body[data-section="mental-health"] .mh-detail > :last-child { margin-bottom: 0 !important; }
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-detail > :first-child { margin-top: 0 !important; }
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-detail > :last-child { margin-bottom: 0 !important; }
 
-body[data-section="mental-health"] .mh-detail h3 {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-detail h3 {
   font-family: "Nunito", sans-serif !important;
   font-size: 1.15rem !important;
   font-weight: 800 !important;
@@ -756,15 +767,15 @@ body[data-section="mental-health"] .mh-detail h3 {
 }
 
 /* Color variants — match the card that opened them */
-body[data-section="mental-health"] .mh-detail.pink  { border-color: var(--mh-pink-border); }
-body[data-section="mental-health"] .mh-detail.pink h3  { color: var(--mh-pink-deep) !important; }
-body[data-section="mental-health"] .mh-detail.blue  { border-color: var(--mh-blue-border); }
-body[data-section="mental-health"] .mh-detail.blue h3  { color: var(--mh-blue-deep) !important; }
-body[data-section="mental-health"] .mh-detail.green { border-color: var(--mh-green-border); }
-body[data-section="mental-health"] .mh-detail.green h3 { color: var(--mh-green-deep) !important; }
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-detail.pink  { border-color: var(--mh-pink-border); }
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-detail.pink h3  { color: var(--mh-pink-deep) !important; }
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-detail.blue  { border-color: var(--mh-blue-border); }
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-detail.blue h3  { color: var(--mh-blue-deep) !important; }
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-detail.green { border-color: var(--mh-green-border); }
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-detail.green h3 { color: var(--mh-green-deep) !important; }
 
 /* Optional close link (a with class mh-detail-close) */
-body[data-section="mental-health"] .mh-detail-close {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-detail-close {
   float: right;
   margin: -0.35rem -0.5rem 0 0.5rem;
   width: 1.7rem;
@@ -780,33 +791,33 @@ body[data-section="mental-health"] .mh-detail-close {
   color: var(--mh-muted) !important;
   background: var(--mh-purple-soft);
 }
-body[data-section="mental-health"] .mh-detail-close:hover { color: var(--mh-ink) !important; }
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-detail-close:hover { color: var(--mh-ink) !important; }
 
 /* =========================================================
    KEY FINDINGS — white card with purple check circles
    ========================================================= */
 
-body[data-section="mental-health"] .key-findings {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .key-findings {
   background: var(--mh-card-bg);
   border: 1.5px solid var(--mh-purple-border);
 }
 
-body[data-section="mental-health"] .key-findings h3 {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .key-findings h3 {
   color: var(--mh-ink) !important;
 }
 
-body[data-section="mental-health"] .key-findings ul {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .key-findings ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-body[data-section="mental-health"] .key-findings li {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .key-findings li {
   position: relative;
   padding: 0.28rem 0 0.28rem 2.1rem;
 }
 
-body[data-section="mental-health"] .key-findings li::before {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .key-findings li::before {
   content: "✓";
   position: absolute;
   left: 0;
@@ -827,21 +838,21 @@ body[data-section="mental-health"] .key-findings li::before {
    REPORT IMMEDIATELY — red alert card
    ========================================================= */
 
-body[data-section="mental-health"] .report-now {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .report-now {
   background: var(--mh-red-soft);
   border: 1.5px solid var(--mh-red-border);
 }
 
-body[data-section="mental-health"] .report-now h3 {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .report-now h3 {
   color: var(--mh-red-deep) !important;
 }
 
-body[data-section="mental-health"] .report-now h3::before {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .report-now h3::before {
   content: "⚠️";
   font-size: 1.15rem;
 }
 
-body[data-section="mental-health"] .report-now li::marker {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .report-now li::marker {
   color: var(--mh-red);
 }
 
@@ -849,16 +860,16 @@ body[data-section="mental-health"] .report-now li::marker {
    NCLEX TIP — yellow tip card
    ========================================================= */
 
-body[data-section="mental-health"] .nclex-tip {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .nclex-tip {
   background: var(--mh-amber-soft);
   border: 1.5px solid var(--mh-amber-border);
 }
 
-body[data-section="mental-health"] .nclex-tip h3 {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .nclex-tip h3 {
   color: var(--mh-amber-deep) !important;
 }
 
-body[data-section="mental-health"] .nclex-tip h3::before {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .nclex-tip h3::before {
   content: "💡";
   font-size: 1.1rem;
 }
@@ -867,31 +878,31 @@ body[data-section="mental-health"] .nclex-tip h3::before {
    QUICK REVIEW — mint card with numbered steps
    ========================================================= */
 
-body[data-section="mental-health"] .quick-review {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .quick-review {
   background: var(--mh-green-soft);
   border: 1.5px solid var(--mh-green-border);
 }
 
-body[data-section="mental-health"] .quick-review h3 {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .quick-review h3 {
   color: var(--mh-green-deep) !important;
 }
 
-body[data-section="mental-health"] .quick-review h3::before {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .quick-review h3::before {
   content: "✅";
   font-size: 1rem;
 }
 
-body[data-section="mental-health"] .quick-review ol {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .quick-review ol {
   margin: 0;
   padding-left: 1.35rem;
 }
 
-body[data-section="mental-health"] .quick-review li {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .quick-review li {
   margin-bottom: 0.3rem;
   padding-left: 0.25rem;
 }
 
-body[data-section="mental-health"] .quick-review li::marker {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .quick-review li::marker {
   font-weight: 800;
   color: var(--mh-green-deep);
 }
@@ -900,21 +911,21 @@ body[data-section="mental-health"] .quick-review li::marker {
    DO NOT MISS — pale blue card with star
    ========================================================= */
 
-body[data-section="mental-health"] .do-not-miss {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .do-not-miss {
   background: var(--mh-blue-soft);
   border: 1.5px solid var(--mh-blue-border);
 }
 
-body[data-section="mental-health"] .do-not-miss h3 {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .do-not-miss h3 {
   color: var(--mh-blue-deep) !important;
 }
 
-body[data-section="mental-health"] .do-not-miss h3::before {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .do-not-miss h3::before {
   content: "🌟";
   font-size: 1.05rem;
 }
 
-body[data-section="mental-health"] .do-not-miss li::marker {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .do-not-miss li::marker {
   color: var(--mh-blue);
 }
 
@@ -922,18 +933,18 @@ body[data-section="mental-health"] .do-not-miss li::marker {
    TABLE CARD — white panel around a markdown table
    ========================================================= */
 
-body[data-section="mental-health"] .mh-table-card {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-table-card {
   background: var(--mh-card-bg);
   border: 1.5px solid var(--mh-purple-border);
   padding: 1.25rem 1.35rem;
   overflow-x: auto;
 }
 
-body[data-section="mental-health"] .mh-table-card h3 {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-table-card h3 {
   font-size: 1.15rem !important;
 }
 
-body[data-section="mental-health"] .mh-table-card table {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-table-card table {
   margin: 0 !important;
   box-shadow: none !important;
   border: none !important;
@@ -943,7 +954,7 @@ body[data-section="mental-health"] .mh-table-card table {
    TABLES — rounded lavender style for all MH tables
    ========================================================= */
 
-body[data-section="mental-health"] .main-content table {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .main-content table {
   border-collapse: separate !important;
   border-spacing: 0 !important;
   border-radius: 12px !important;
@@ -951,7 +962,7 @@ body[data-section="mental-health"] .main-content table {
   border: 1px solid var(--mh-purple-border) !important;
 }
 
-body[data-section="mental-health"] .main-content th {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .main-content th {
   background: var(--mh-purple-soft) !important;
   color: var(--mh-purple-deep) !important;
   border: none !important;
@@ -959,18 +970,18 @@ body[data-section="mental-health"] .main-content th {
   font-weight: 800 !important;
 }
 
-body[data-section="mental-health"] .main-content td {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .main-content td {
   border: none !important;
   border-bottom: 1px solid var(--mh-purple-border) !important;
   background: var(--mh-card-bg) !important;
   color: var(--mh-ink) !important;
 }
 
-body[data-section="mental-health"] .main-content tr:last-child td {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .main-content tr:last-child td {
   border-bottom: none !important;
 }
 
-body[data-section="mental-health"] .main-content td:first-child {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .main-content td:first-child {
   font-weight: 700 !important;
 }
 
@@ -978,7 +989,7 @@ body[data-section="mental-health"] .main-content td:first-child {
    CHEER BANNER — motivational footer
    ========================================================= */
 
-body[data-section="mental-health"] .cheer-banner {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .cheer-banner {
   background: var(--mh-purple-soft);
   border: 1.5px solid var(--mh-purple-border);
   text-align: center;
@@ -993,10 +1004,10 @@ body[data-section="mental-health"] .cheer-banner {
    on Mental Health pages to match the card look
    ========================================================= */
 
-body[data-section="mental-health"] .main-content .note,
-body[data-section="mental-health"] .main-content .warning,
-body[data-section="mental-health"] .main-content .tip,
-body[data-section="mental-health"] .main-content .nclex {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .main-content .note,
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .main-content .warning,
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .main-content .tip,
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .main-content .nclex {
   border-radius: 16px !important;
   border-width: 1.5px !important;
   border-style: solid !important;
@@ -1008,10 +1019,10 @@ body[data-section="mental-health"] .main-content .nclex {
   color: var(--mh-ink) !important;
 }
 
-body[data-section="mental-health"] .main-content .note::before,
-body[data-section="mental-health"] .main-content .warning::before,
-body[data-section="mental-health"] .main-content .tip::before,
-body[data-section="mental-health"] .main-content .nclex::before {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .main-content .note::before,
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .main-content .warning::before,
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .main-content .tip::before,
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .main-content .nclex::before {
   display: block !important;
   font-size: 0.72rem !important;
   font-weight: 900 !important;
@@ -1022,39 +1033,39 @@ body[data-section="mental-health"] .main-content .nclex::before {
   margin: 0 0 0.35rem !important;
 }
 
-body[data-section="mental-health"] .main-content .note {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .main-content .note {
   background: var(--mh-blue-soft) !important;
   border-color: var(--mh-blue-border) !important;
 }
-body[data-section="mental-health"] .main-content .note::before {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .main-content .note::before {
   content: "📘 Note" !important;
   color: var(--mh-blue-deep) !important;
 }
 
-body[data-section="mental-health"] .main-content .warning {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .main-content .warning {
   background: var(--mh-red-soft) !important;
   border-color: var(--mh-red-border) !important;
 }
-body[data-section="mental-health"] .main-content .warning::before {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .main-content .warning::before {
   content: "⚠️ Do Not Miss" !important;
   color: var(--mh-red-deep) !important;
 }
 
-body[data-section="mental-health"] .main-content .tip,
-body[data-section="mental-health"] .main-content .nclex {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .main-content .tip,
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .main-content .nclex {
   background: var(--mh-amber-soft) !important;
   border-color: var(--mh-amber-border) !important;
 }
-body[data-section="mental-health"] .main-content .tip::before,
-body[data-section="mental-health"] .main-content .nclex::before {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .main-content .tip::before,
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .main-content .nclex::before {
   content: "💡 NCLEX Tip" !important;
   color: var(--mh-amber-deep) !important;
 }
 
-body[data-section="mental-health"] .main-content .warning strong,
-body[data-section="mental-health"] .main-content .note strong,
-body[data-section="mental-health"] .main-content .tip strong,
-body[data-section="mental-health"] .main-content .nclex strong {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .main-content .warning strong,
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .main-content .note strong,
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .main-content .tip strong,
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .main-content .nclex strong {
   color: inherit !important;
 }
 
@@ -1063,11 +1074,11 @@ body[data-section="mental-health"] .main-content .nclex strong {
    ========================================================= */
 
 @media (max-width: 640px) {
-  body[data-section="mental-health"] .main-content h1 {
+  :is(body[data-section="mental-health"], body[data-section="pharmacology"]) .main-content h1 {
     font-size: 2rem !important;
   }
 
-  body[data-section="mental-health"] .priority-focus {
+  :is(body[data-section="mental-health"], body[data-section="pharmacology"]) .priority-focus {
     flex-direction: column;
     align-items: flex-start;
   }
@@ -1077,7 +1088,7 @@ body[data-section="mental-health"] .main-content .nclex strong {
    Makes real pages match the MH Card Preview top style
    ========================================================= */
 
-body[data-section="mental-health"] .main-content h1 {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .main-content h1 {
   font-family: "Playfair Display", Georgia, serif !important;
   font-size: 2.7rem !important;
   font-weight: 900 !important;
@@ -1097,7 +1108,7 @@ body[data-section="mental-health"] .main-content h1 {
 }
 
 /* Subtitle should look like the sample page */
-body[data-section="mental-health"] .mh-subtitle {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-subtitle {
   margin: -0.35rem 0 1.35rem !important;
   font-size: 1.15rem !important;
   font-weight: 800 !important;
@@ -1105,7 +1116,7 @@ body[data-section="mental-health"] .mh-subtitle {
 }
 
 /* Make the breadcrumb sit like the sample */
-body[data-section="mental-health"] .mh-breadcrumb {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-breadcrumb {
   margin: 0 0 1rem !important;
 }
 
@@ -1117,7 +1128,7 @@ body[data-section="mental-health"] .mh-breadcrumb {
    Collapses to a single column on narrow screens.
    ========================================================= */
 
-body[data-section="mental-health"] .mh-columns {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-columns {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 1.25rem;
@@ -1126,27 +1137,27 @@ body[data-section="mental-health"] .mh-columns {
 }
 
 /* Optional: wider first column (e.g. a table beside a narrow stack) */
-body[data-section="mental-health"] .mh-columns.wide-left {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-columns.wide-left {
   grid-template-columns: 1.5fr 1fr;
 }
 
 /* Direct children drop their own vertical margins; the grid gap spaces them */
-body[data-section="mental-health"] .mh-columns > * {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-columns > * {
   margin: 0 !important;
   min-width: 0;
 }
 
 /* A vertical stack of cards that lives inside one column */
-body[data-section="mental-health"] .mh-col {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-col {
   display: flex;
   flex-direction: column;
   gap: 1.25rem;
 }
-body[data-section="mental-health"] .mh-col > * { margin: 0 !important; }
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-col > * { margin: 0 !important; }
 
 @media (max-width: 720px) {
-  body[data-section="mental-health"] .mh-columns,
-  body[data-section="mental-health"] .mh-columns.wide-left {
+  :is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-columns,
+  :is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-columns.wide-left {
     grid-template-columns: 1fr;
   }
 }
@@ -1156,7 +1167,7 @@ body[data-section="mental-health"] .mh-col > * { margin: 0 !important; }
    .detail-grid, .detail-mini-card, .detail-callout
    ========================================================= */
 
-body[data-section="mental-health"] .mh-detail {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-detail {
   position: relative;
   border-radius: 18px;
   padding: 1.25rem 1.35rem;
@@ -1168,27 +1179,27 @@ body[data-section="mental-health"] .mh-detail {
   line-height: 1.6;
 }
 
-body[data-section="mental-health"] .mh-detail.purple {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-detail.purple {
   border-color: var(--mh-purple-border);
   background: var(--mh-purple-soft);
 }
 
-body[data-section="mental-health"] .mh-detail.pink {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-detail.pink {
   border-color: var(--mh-pink-border);
   background: var(--mh-pink-soft);
 }
 
-body[data-section="mental-health"] .mh-detail.blue {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-detail.blue {
   border-color: var(--mh-blue-border);
   background: var(--mh-blue-soft);
 }
 
-body[data-section="mental-health"] .mh-detail.green {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-detail.green {
   border-color: var(--mh-green-border);
   background: var(--mh-green-soft);
 }
 
-body[data-section="mental-health"] .mh-detail h3 {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-detail h3 {
   margin-top: 0 !important;
   margin-bottom: 0.85rem !important;
   padding-right: 2.25rem;
@@ -1199,7 +1210,7 @@ body[data-section="mental-health"] .mh-detail h3 {
   background: none !important;
 }
 
-body[data-section="mental-health"] .mh-detail-close {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-detail-close {
   position: absolute;
   top: 0.85rem;
   right: 0.85rem;
@@ -1217,14 +1228,14 @@ body[data-section="mental-health"] .mh-detail-close {
   box-shadow: 0 1px 4px rgba(34, 28, 80, 0.14);
 }
 
-body[data-section="mental-health"] .detail-grid {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .detail-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
   gap: 0.85rem;
   margin: 1rem 0;
 }
 
-body[data-section="mental-health"] .detail-mini-card {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .detail-mini-card {
   background: var(--mh-card-bg);
   border: 1px solid rgba(34, 28, 80, 0.12);
   border-radius: 14px;
@@ -1233,7 +1244,7 @@ body[data-section="mental-health"] .detail-mini-card {
   box-shadow: 0 1px 4px rgba(34, 28, 80, 0.05);
 }
 
-body[data-section="mental-health"] .detail-mini-card strong:first-child {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .detail-mini-card strong:first-child {
   display: block;
   margin-bottom: 0.35rem;
   font-size: 0.95rem;
@@ -1241,17 +1252,17 @@ body[data-section="mental-health"] .detail-mini-card strong:first-child {
   color: var(--mh-ink);
 }
 
-body[data-section="mental-health"] .detail-mini-card ul,
-body[data-section="mental-health"] .detail-mini-card ol {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .detail-mini-card ul,
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .detail-mini-card ol {
   margin: 0.25rem 0 0;
   padding-left: 1.1rem;
 }
 
-body[data-section="mental-health"] .detail-mini-card li {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .detail-mini-card li {
   margin-bottom: 0.25rem;
 }
 
-body[data-section="mental-health"] .detail-callout {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .detail-callout {
   margin-top: 1rem;
   padding: 0.85rem 1rem;
   border-radius: 14px;
@@ -1262,57 +1273,57 @@ body[data-section="mental-health"] .detail-callout {
   box-shadow: 0 1px 4px rgba(34, 28, 80, 0.05);
 }
 
-body[data-section="mental-health"] .mh-detail.purple .detail-callout {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-detail.purple .detail-callout {
   border-left-color: var(--mh-purple);
 }
 
-body[data-section="mental-health"] .mh-detail.pink .detail-callout {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-detail.pink .detail-callout {
   border-left-color: var(--mh-pink);
 }
 
-body[data-section="mental-health"] .mh-detail.blue .detail-callout {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-detail.blue .detail-callout {
   border-left-color: var(--mh-blue);
 }
 
-body[data-section="mental-health"] .detail-table {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .detail-table {
   overflow-x: auto;
   margin: 1rem 0;
   border-radius: 10px;
 }
-body[data-section="mental-health"] .detail-table table {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .detail-table table {
   width: 100%;
   border-collapse: collapse;
   font-size: 0.93rem;
 }
-body[data-section="mental-health"] .detail-table th {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .detail-table th {
   background: rgba(34, 28, 80, 0.08);
   font-weight: 700;
   padding: 0.55rem 0.8rem;
   text-align: left;
   border-bottom: 2px solid rgba(34, 28, 80, 0.15);
 }
-body[data-section="mental-health"] .detail-table td {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .detail-table td {
   padding: 0.5rem 0.8rem;
   border-bottom: 1px solid rgba(34, 28, 80, 0.08);
   line-height: 1.55;
 }
 
-body[data-section="mental-health"] .mh-detail.green .detail-callout {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-detail.green .detail-callout {
   border-left-color: var(--mh-green);
 }
 
-body[data-section="mental-health"] .mh-detail table {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-detail table {
   background: var(--mh-card-bg);
   margin-top: 0.75rem !important;
 }
 
 /* Mobile detail panels */
 @media (max-width: 640px) {
-  body[data-section="mental-health"] .mh-detail {
+  :is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-detail {
     padding: 1rem;
   }
 
-  body[data-section="mental-health"] .detail-grid {
+  :is(body[data-section="mental-health"], body[data-section="pharmacology"]) .detail-grid {
     grid-template-columns: 1fr;
   }
 }
@@ -1402,14 +1413,14 @@ body[data-page-type="mental-health-hub"] .mh-topic-10 { left: 78%; top: 79%; }
   body[data-page-type="mental-health-hub"] .mh-topic-orbit .mh-topic-card strong { font-size: .76rem; }
   .mh-hub-shortcuts { grid-template-columns: 1fr; }
 }
-body[data-section="mental-health"] .med-warning-strip {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .med-warning-strip {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
   gap: 14px;
   margin: 24px 0 28px;
 }
 
-body[data-section="mental-health"] .med-warning-strip > div {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .med-warning-strip > div {
   background: #fff4f4;
   border: 1px solid #f2b5b5;
   border-left: 6px solid #e35d5d;
@@ -1418,21 +1429,21 @@ body[data-section="mental-health"] .med-warning-strip > div {
   box-shadow: 0 8px 20px rgba(120, 40, 40, 0.08);
 }
 
-body[data-section="mental-health"] .med-warning-strip span {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .med-warning-strip span {
   display: block;
   margin-top: 6px;
   font-size: 0.92rem;
   line-height: 1.45;
 }
 
-body[data-section="mental-health"] .med-nav-pills {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .med-nav-pills {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
   margin: 22px 0 30px;
 }
 
-body[data-section="mental-health"] .med-nav-pills a {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .med-nav-pills a {
   text-decoration: none;
   background: #f6f1ff;
   color: #5d4778;
@@ -1443,12 +1454,12 @@ body[data-section="mental-health"] .med-nav-pills a {
   font-size: 0.92rem;
 }
 
-body[data-section="mental-health"] .med-nav-pills a:hover {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .med-nav-pills a:hover {
   background: #efe4ff;
   transform: translateY(-1px);
 }
 
-body[data-section="mental-health"] .med-game-launch {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .med-game-launch {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1466,15 +1477,15 @@ body[data-section="mental-health"] .med-game-launch {
   transition: transform .18s ease, box-shadow .18s ease;
 }
 
-body[data-section="mental-health"] .med-game-launch:hover,
-body[data-section="mental-health"] .med-game-launch:focus-visible {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .med-game-launch:hover,
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .med-game-launch:focus-visible {
   transform: translateY(-2px);
   box-shadow: 0 13px 25px rgba(91, 53, 185, .27);
   outline: 3px solid rgba(111, 67, 215, .2);
   outline-offset: 2px;
 }
 
-body[data-section="mental-health"] .med-class-section {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .med-class-section {
   margin: 34px 0;
   padding: 24px;
   border-radius: 26px;
@@ -1483,7 +1494,7 @@ body[data-section="mental-health"] .med-class-section {
   box-shadow: 0 12px 30px rgba(80, 60, 120, 0.08);
 }
 
-body[data-section="mental-health"] .med-class-header {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .med-class-header {
   display: flex;
   gap: 16px;
   align-items: center;
@@ -1492,7 +1503,7 @@ body[data-section="mental-health"] .med-class-header {
   border-bottom: 1px solid #eee5f5;
 }
 
-body[data-section="mental-health"] .med-class-icon {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .med-class-icon {
   font-size: 2rem;
   background: #f6f1ff;
   border-radius: 18px;
@@ -1500,49 +1511,49 @@ body[data-section="mental-health"] .med-class-icon {
   line-height: 1;
 }
 
-body[data-section="mental-health"] .med-class-header h2 {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .med-class-header h2 {
   margin: 0;
 }
 
-body[data-section="mental-health"] .med-class-header p {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .med-class-header p {
   margin: 4px 0 0;
   color: #665b72;
 }
 
-body[data-section="mental-health"] .med-class-grid {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .med-class-grid {
   display: grid;
   grid-template-columns: 1.2fr 1fr;
   gap: 16px;
   margin-bottom: 18px;
 }
 
-body[data-section="mental-health"] .med-class-overview,
-body[data-section="mental-health"] .med-nclex-box,
-body[data-section="mental-health"] .med-teaching-box {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .med-class-overview,
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .med-nclex-box,
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .med-teaching-box {
   border-radius: 18px;
   padding: 16px;
   background: #faf7ff;
   border: 1px solid #eadff5;
 }
 
-body[data-section="mental-health"] .med-class-overview h3,
-body[data-section="mental-health"] .med-nclex-box h3,
-body[data-section="mental-health"] .med-teaching-box h3 {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .med-class-overview h3,
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .med-nclex-box h3,
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .med-teaching-box h3 {
   margin-top: 0;
 }
 
-body[data-section="mental-health"] .med-nclex-box {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .med-nclex-box {
   background: #fff9ed;
   border-color: #f2d7a3;
 }
 
-body[data-section="mental-health"] .med-teaching-box {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .med-teaching-box {
   margin-top: 18px;
   background: #f3fbf8;
   border-color: #cce8dc;
 }
 
-body[data-section="mental-health"] .med-subheading {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .med-subheading {
   margin: 28px 0 14px;
   padding: 10px 14px;
   border-radius: 14px;
@@ -1551,13 +1562,13 @@ body[data-section="mental-health"] .med-subheading {
   font-size: 1.05rem;
 }
 
-body[data-section="mental-health"] .drug-card-grid {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .drug-card-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 16px;
 }
 
-body[data-section="mental-health"] .drug-card {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .drug-card {
   background: #fbfbff;
   border: 1px solid #e4ddf0;
   border-radius: 20px;
@@ -1565,17 +1576,17 @@ body[data-section="mental-health"] .drug-card {
   box-shadow: 0 8px 18px rgba(80, 60, 120, 0.06);
 }
 
-body[data-section="mental-health"] .drug-card-top {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .drug-card-top {
   border-bottom: 1px solid #eee7f5;
   padding-bottom: 10px;
   margin-bottom: 12px;
 }
 
-body[data-section="mental-health"] .drug-card-top h3 {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .drug-card-top h3 {
   margin: 0;
 }
 
-body[data-section="mental-health"] .drug-card-top span {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .drug-card-top span {
   display: block;
   margin-top: 4px;
   font-size: 0.9rem;
@@ -1583,12 +1594,12 @@ body[data-section="mental-health"] .drug-card-top span {
   color: #6f5c85;
 }
 
-body[data-section="mental-health"] .drug-card p {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .drug-card p {
   margin: 8px 0;
   line-height: 1.5;
 }
 
-body[data-section="mental-health"] .drug-nclex {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .drug-nclex {
   margin-top: 12px;
   padding: 10px;
   border-radius: 14px;
@@ -1598,55 +1609,55 @@ body[data-section="mental-health"] .drug-nclex {
   font-size: 0.92rem;
 }
 
-body[data-section="mental-health"] .lithium-card {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .lithium-card {
   background: #fffaf1;
   border-color: #efd59d;
 }
 
-body[data-section="mental-health"] .med-class-section.antidepressants .med-class-icon {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .med-class-section.antidepressants .med-class-icon {
   background: #f4edff;
 }
 
-body[data-section="mental-health"] .med-class-section.anxiety .med-class-icon {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .med-class-section.anxiety .med-class-icon {
   background: #fff0f6;
 }
 
-body[data-section="mental-health"] .med-class-section.mood .med-class-icon {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .med-class-section.mood .med-class-icon {
   background: #eef6ff;
 }
 
-body[data-section="mental-health"] .med-class-section.antipsychotics .med-class-icon {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .med-class-section.antipsychotics .med-class-icon {
   background: #f1f6ff;
 }
 
-body[data-section="mental-health"] .med-class-section.substance .med-class-icon {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .med-class-section.substance .med-class-icon {
   background: #effaf4;
 }
 
-body[data-section="mental-health"] .med-class-section.special .med-class-icon {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .med-class-section.special .med-class-icon {
   background: #fff7e8;
 }
 
-body[data-section="mental-health"] .med-class-section.master .med-class-icon {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .med-class-section.master .med-class-icon {
   background: #f7f2ff;
 }
 
 @media (max-width: 800px) {
-  body[data-section="mental-health"] .med-class-grid {
+  :is(body[data-section="mental-health"], body[data-section="pharmacology"]) .med-class-grid {
     grid-template-columns: 1fr;
   }
 
-  body[data-section="mental-health"] .med-class-header {
+  :is(body[data-section="mental-health"], body[data-section="pharmacology"]) .med-class-header {
     align-items: flex-start;
   }
 }
 
 /* Medication cheat-sheet visual system. Content and order stay unchanged. */
-body[data-section="mental-health"]:has(.med-warning-strip) .main-content {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]):has(.med-warning-strip) .main-content {
   max-width: 1480px !important;
 }
 
-body[data-section="mental-health"]:has(.med-warning-strip) .main-content > h1 {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]):has(.med-warning-strip) .main-content > h1 {
   margin: .6rem 0 0 !important;
   padding: 1.3rem 1.5rem .35rem !important;
   border: 0 !important;
@@ -1660,7 +1671,7 @@ body[data-section="mental-health"]:has(.med-warning-strip) .main-content > h1 {
   text-transform: uppercase;
 }
 
-body[data-section="mental-health"]:has(.med-warning-strip) .main-content > .mh-subtitle {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]):has(.med-warning-strip) .main-content > .mh-subtitle {
   margin: 0 0 1.2rem !important;
   padding: 0 1.5rem 1.25rem !important;
   border-radius: 0 0 20px 20px;
@@ -1671,23 +1682,23 @@ body[data-section="mental-health"]:has(.med-warning-strip) .main-content > .mh-s
   text-transform: uppercase;
 }
 
-body[data-section="mental-health"]:has(.med-warning-strip) .priority-focus {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]):has(.med-warning-strip) .priority-focus {
   padding: .9rem 1.1rem;
   border-color: #dbc8f5;
   border-radius: 16px;
   background: linear-gradient(90deg, #f8f2ff, #fff7fb);
 }
 
-body[data-section="mental-health"]:has(.med-warning-strip) .priority-focus::before {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]):has(.med-warning-strip) .priority-focus::before {
   background: #ece1ff;
 }
 
-body[data-section="mental-health"] .med-warning-strip {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .med-warning-strip {
   grid-template-columns: repeat(auto-fit, minmax(175px, 1fr));
   gap: 10px;
 }
 
-body[data-section="mental-health"] .med-warning-strip::before {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .med-warning-strip::before {
   content: "⚠ High Priority Safety Alerts";
   grid-column: 1 / -1;
   color: #b4232c;
@@ -1697,7 +1708,7 @@ body[data-section="mental-health"] .med-warning-strip::before {
   text-transform: uppercase;
 }
 
-body[data-section="mental-health"] .med-warning-strip > div {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .med-warning-strip > div {
   min-height: 126px;
   padding: 14px;
   border: 1px solid #f0a5aa;
@@ -1707,24 +1718,24 @@ body[data-section="mental-health"] .med-warning-strip > div {
   box-shadow: 0 5px 14px rgba(154, 43, 53, .07);
 }
 
-body[data-section="mental-health"] .med-warning-strip strong {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .med-warning-strip strong {
   color: #35161d;
   font-size: .93rem;
 }
 
-body[data-section="mental-health"] .med-warning-strip span {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .med-warning-strip span {
   color: #46333a;
   font-size: .82rem;
 }
 
-body[data-section="mental-health"] .med-nav-pills {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .med-nav-pills {
   display: grid;
   grid-template-columns: repeat(7, minmax(120px, 1fr));
   gap: 8px;
   margin: 1.1rem 0 1.8rem;
 }
 
-body[data-section="mental-health"] .med-nav-pills::before {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .med-nav-pills::before {
   content: "Jump to drug class ↷";
   grid-column: 1 / -1;
   color: #4f2b87;
@@ -1734,7 +1745,7 @@ body[data-section="mental-health"] .med-nav-pills::before {
   text-transform: uppercase;
 }
 
-body[data-section="mental-health"] .med-nav-pills a {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .med-nav-pills a {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1750,7 +1761,7 @@ body[data-section="mental-health"] .med-nav-pills a {
   box-shadow: 0 3px 8px rgba(86, 47, 137, .06);
 }
 
-body[data-section="mental-health"] .med-class-section {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .med-class-section {
   --med-accent: #7041b7;
   --med-accent-deep: #4d287f;
   --med-soft: #f5efff;
@@ -1765,43 +1776,43 @@ body[data-section="mental-health"] .med-class-section {
   box-shadow: 0 8px 22px rgba(68, 43, 103, .06);
 }
 
-body[data-section="mental-health"] .med-class-section.anxiety {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .med-class-section.anxiety {
   --med-accent: #e05299;
   --med-accent-deep: #a62f70;
   --med-soft: #fff0f7;
 }
 
-body[data-section="mental-health"] .med-class-section.mood {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .med-class-section.mood {
   --med-accent: #3e82c6;
   --med-accent-deep: #245c95;
   --med-soft: #edf6ff;
 }
 
-body[data-section="mental-health"] .med-class-section.antipsychotics {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .med-class-section.antipsychotics {
   --med-accent: #6657bd;
   --med-accent-deep: #40338d;
   --med-soft: #f0efff;
 }
 
-body[data-section="mental-health"] .med-class-section.substance {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .med-class-section.substance {
   --med-accent: #39a36b;
   --med-accent-deep: #217246;
   --med-soft: #edfaf3;
 }
 
-body[data-section="mental-health"] .med-class-section.special {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .med-class-section.special {
   --med-accent: #d38a2b;
   --med-accent-deep: #995d12;
   --med-soft: #fff7e9;
 }
 
-body[data-section="mental-health"] .med-class-section.master {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .med-class-section.master {
   --med-accent: #6e4bb2;
   --med-accent-deep: #49287e;
   --med-soft: #f5f0ff;
 }
 
-body[data-section="mental-health"] .med-class-header {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .med-class-header {
   grid-column: 1 / -1;
   gap: 12px;
   margin: 0;
@@ -1809,7 +1820,7 @@ body[data-section="mental-health"] .med-class-header {
   border-bottom: 2px solid color-mix(in srgb, var(--med-accent) 20%, white);
 }
 
-body[data-section="mental-health"] .med-class-icon {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .med-class-icon {
   display: grid;
   flex: 0 0 52px;
   place-items: center;
@@ -1823,7 +1834,7 @@ body[data-section="mental-health"] .med-class-icon {
   box-shadow: 0 6px 13px color-mix(in srgb, var(--med-accent) 22%, transparent);
 }
 
-body[data-section="mental-health"] .med-class-header h2 {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .med-class-header h2 {
   margin: 0 !important;
   padding: 0 !important;
   border: 0 !important;
@@ -1836,19 +1847,19 @@ body[data-section="mental-health"] .med-class-header h2 {
   text-transform: uppercase;
 }
 
-body[data-section="mental-health"] .med-class-header p {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .med-class-header p {
   color: var(--med-accent-deep);
   font-size: .85rem;
   line-height: 1.35;
 }
 
-body[data-section="mental-health"] .med-class-grid {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .med-class-grid {
   display: contents;
 }
 
-body[data-section="mental-health"] .med-class-overview,
-body[data-section="mental-health"] .med-nclex-box,
-body[data-section="mental-health"] .med-teaching-box {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .med-class-overview,
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .med-nclex-box,
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .med-teaching-box {
   min-width: 0;
   margin: 0;
   padding: 14px;
@@ -1856,31 +1867,31 @@ body[data-section="mental-health"] .med-teaching-box {
   box-shadow: none;
 }
 
-body[data-section="mental-health"] .med-class-overview {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .med-class-overview {
   grid-column: 1;
   grid-row: 2;
   border-color: color-mix(in srgb, var(--med-accent) 38%, white);
   background: var(--med-soft);
 }
 
-body[data-section="mental-health"] .med-nclex-box {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .med-nclex-box {
   grid-column: 2;
   grid-row: 2;
   border-color: #edc866;
   background: linear-gradient(145deg, #fffdf6, #fff7dc);
 }
 
-body[data-section="mental-health"] .med-teaching-box {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .med-teaching-box {
   grid-column: 3;
   grid-row: 2;
   border-color: #9ed2ac;
   background: linear-gradient(145deg, #f8fff9, #eaf8ee);
 }
 
-body[data-section="mental-health"] .med-class-overview h3,
-body[data-section="mental-health"] .med-nclex-box h3,
-body[data-section="mental-health"] .med-teaching-box h3,
-body[data-section="mental-health"] .drug-card-top h3 {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .med-class-overview h3,
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .med-nclex-box h3,
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .med-teaching-box h3,
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .drug-card-top h3 {
   margin: 0 0 .55rem !important;
   padding: 0 !important;
   border: 0 !important;
@@ -1891,26 +1902,26 @@ body[data-section="mental-health"] .drug-card-top h3 {
   line-height: 1.2 !important;
 }
 
-body[data-section="mental-health"] .med-class-overview h3 { color: var(--med-accent-deep) !important; }
-body[data-section="mental-health"] .med-nclex-box h3 { color: #a96800 !important; }
-body[data-section="mental-health"] .med-teaching-box h3 { color: #287544 !important; }
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .med-class-overview h3 { color: var(--med-accent-deep) !important; }
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .med-nclex-box h3 { color: #a96800 !important; }
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .med-teaching-box h3 { color: #287544 !important; }
 
-body[data-section="mental-health"] .med-class-overview li,
-body[data-section="mental-health"] .med-nclex-box li,
-body[data-section="mental-health"] .med-teaching-box li,
-body[data-section="mental-health"] .med-teaching-box p {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .med-class-overview li,
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .med-nclex-box li,
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .med-teaching-box li,
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .med-teaching-box p {
   font-size: .82rem;
   line-height: 1.38;
 }
 
-body[data-section="mental-health"] .med-subheading,
-body[data-section="mental-health"] .drug-card-grid,
-body[data-section="mental-health"] .detail-table,
-body[data-section="mental-health"] .med-class-section > .mh-table-card {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .med-subheading,
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .drug-card-grid,
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .detail-table,
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .med-class-section > .mh-table-card {
   grid-column: 1 / -1;
 }
 
-body[data-section="mental-health"] .med-subheading {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .med-subheading {
   margin: 8px 0 0;
   padding: 0;
   border: 0;
@@ -1921,12 +1932,12 @@ body[data-section="mental-health"] .med-subheading {
   text-transform: uppercase;
 }
 
-body[data-section="mental-health"] .drug-card-grid {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .drug-card-grid {
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 10px;
 }
 
-body[data-section="mental-health"] .drug-card {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .drug-card {
   display: flex;
   flex-direction: column;
   min-width: 0;
@@ -1937,30 +1948,30 @@ body[data-section="mental-health"] .drug-card {
   box-shadow: 0 4px 12px rgba(52, 43, 84, .05);
 }
 
-body[data-section="mental-health"] .drug-card-top {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .drug-card-top {
   margin-bottom: 8px;
   padding-bottom: 7px;
   border-color: color-mix(in srgb, var(--med-accent) 18%, white);
 }
 
-body[data-section="mental-health"] .drug-card-top h3 {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .drug-card-top h3 {
   color: #211836 !important;
   font-size: .98rem !important;
 }
 
-body[data-section="mental-health"] .drug-card-top span {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .drug-card-top span {
   margin-top: 2px;
   color: var(--med-accent-deep);
   font-size: .76rem;
 }
 
-body[data-section="mental-health"] .drug-card p {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .drug-card p {
   margin: 4px 0;
   font-size: .78rem;
   line-height: 1.4;
 }
 
-body[data-section="mental-health"] .drug-nclex {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .drug-nclex {
   margin: auto -12px -12px;
   padding: 9px 11px;
   border: 0;
@@ -1972,89 +1983,89 @@ body[data-section="mental-health"] .drug-nclex {
   line-height: 1.25;
 }
 
-body[data-section="mental-health"] .lithium-card {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .lithium-card {
   border: 2px solid #e3ad39;
   background: linear-gradient(150deg, #fffdf8, #fff4d9);
   box-shadow: 0 6px 15px rgba(181, 123, 24, .11);
 }
 
 @media (max-width: 1100px) {
-  body[data-section="mental-health"] .med-nav-pills {
+  :is(body[data-section="mental-health"], body[data-section="pharmacology"]) .med-nav-pills {
     grid-template-columns: repeat(4, minmax(130px, 1fr));
   }
 
-  body[data-section="mental-health"] .med-class-section {
+  :is(body[data-section="mental-health"], body[data-section="pharmacology"]) .med-class-section {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  body[data-section="mental-health"] .med-class-overview { grid-column: 1; grid-row: 2; }
-  body[data-section="mental-health"] .med-nclex-box { grid-column: 2; grid-row: 2; }
-  body[data-section="mental-health"] .med-teaching-box { grid-column: 1 / -1; grid-row: 3; }
+  :is(body[data-section="mental-health"], body[data-section="pharmacology"]) .med-class-overview { grid-column: 1; grid-row: 2; }
+  :is(body[data-section="mental-health"], body[data-section="pharmacology"]) .med-nclex-box { grid-column: 2; grid-row: 2; }
+  :is(body[data-section="mental-health"], body[data-section="pharmacology"]) .med-teaching-box { grid-column: 1 / -1; grid-row: 3; }
 }
 
 @media (max-width: 680px) {
-  body[data-section="mental-health"]:has(.med-warning-strip) .main-content > h1 {
+  :is(body[data-section="mental-health"], body[data-section="pharmacology"]):has(.med-warning-strip) .main-content > h1 {
     padding: 1rem 1rem .3rem !important;
     font-size: 1.55rem !important;
   }
 
-  body[data-section="mental-health"]:has(.med-warning-strip) .main-content > .mh-subtitle {
+  :is(body[data-section="mental-health"], body[data-section="pharmacology"]):has(.med-warning-strip) .main-content > .mh-subtitle {
     padding: 0 1rem 1rem !important;
     font-size: .75rem !important;
   }
 
-  body[data-section="mental-health"] .med-nav-pills {
+  :is(body[data-section="mental-health"], body[data-section="pharmacology"]) .med-nav-pills {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  body[data-section="mental-health"] .med-class-section {
+  :is(body[data-section="mental-health"], body[data-section="pharmacology"]) .med-class-section {
     display: block;
     padding: 12px;
   }
 
-  body[data-section="mental-health"] .med-class-grid {
+  :is(body[data-section="mental-health"], body[data-section="pharmacology"]) .med-class-grid {
     display: grid;
     grid-template-columns: 1fr;
     gap: 10px;
   }
 
-  body[data-section="mental-health"] .med-class-overview,
-  body[data-section="mental-health"] .med-nclex-box,
-  body[data-section="mental-health"] .med-teaching-box,
-  body[data-section="mental-health"] .drug-card-grid,
-  body[data-section="mental-health"] .med-subheading {
+  :is(body[data-section="mental-health"], body[data-section="pharmacology"]) .med-class-overview,
+  :is(body[data-section="mental-health"], body[data-section="pharmacology"]) .med-nclex-box,
+  :is(body[data-section="mental-health"], body[data-section="pharmacology"]) .med-teaching-box,
+  :is(body[data-section="mental-health"], body[data-section="pharmacology"]) .drug-card-grid,
+  :is(body[data-section="mental-health"], body[data-section="pharmacology"]) .med-subheading {
     margin-top: 10px;
   }
 
-  body[data-section="mental-health"] .med-class-header h2 {
+  :is(body[data-section="mental-health"], body[data-section="pharmacology"]) .med-class-header h2 {
     font-size: 1.08rem !important;
   }
 
-  body[data-section="mental-health"] .drug-card-grid {
+  :is(body[data-section="mental-health"], body[data-section="pharmacology"]) .drug-card-grid {
     grid-template-columns: 1fr;
   }
 }
 
 /* Medication browser refresh — mockup-inspired layout, content preserved */
-body[data-section="mental-health"].med-browser-ready {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]).med-browser-ready {
   background:
     radial-gradient(circle at 8% 16%, rgba(239, 120, 173, .08), transparent 20%),
     radial-gradient(circle at 84% 12%, rgba(128, 96, 191, .12), transparent 22%),
     #fbfaff !important;
 }
 
-body[data-section="mental-health"].med-browser-ready .main-content {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]).med-browser-ready .main-content {
   max-width: 1480px !important;
   border: 0 !important;
   background: transparent !important;
   box-shadow: none !important;
 }
 
-body[data-section="mental-health"].med-browser-ready .mh-breadcrumb {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]).med-browser-ready .mh-breadcrumb {
   margin-bottom: 1.2rem !important;
 }
 
-body[data-section="mental-health"].med-browser-ready:has(.med-warning-strip) .main-content > h1 {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]).med-browser-ready:has(.med-warning-strip) .main-content > h1 {
   display: flex !important;
   align-items: center !important;
   gap: 1rem !important;
@@ -2072,7 +2083,7 @@ body[data-section="mental-health"].med-browser-ready:has(.med-warning-strip) .ma
   -webkit-text-fill-color: #5630a0 !important;
 }
 
-body[data-section="mental-health"].med-browser-ready:has(.med-warning-strip) .main-content > h1::before {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]).med-browser-ready:has(.med-warning-strip) .main-content > h1::before {
   content: "🧠";
   display: grid;
   place-items: center;
@@ -2087,7 +2098,7 @@ body[data-section="mental-health"].med-browser-ready:has(.med-warning-strip) .ma
   -webkit-text-fill-color: #fff;
 }
 
-body[data-section="mental-health"].med-browser-ready:has(.med-warning-strip) .main-content > .mh-subtitle {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]).med-browser-ready:has(.med-warning-strip) .main-content > .mh-subtitle {
   margin: 0 0 .7rem 85px !important;
   padding: 0 !important;
   border-radius: 0 !important;
@@ -2099,13 +2110,13 @@ body[data-section="mental-health"].med-browser-ready:has(.med-warning-strip) .ma
   text-transform: none !important;
 }
 
-body[data-section="mental-health"].med-browser-ready .main-content > p:not(.mh-subtitle) {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]).med-browser-ready .main-content > p:not(.mh-subtitle) {
   max-width: 760px;
   margin: .4rem 0 1rem 85px;
   color: #3f3a5c;
 }
 
-body[data-section="mental-health"].med-browser-ready .priority-focus {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]).med-browser-ready .priority-focus {
   margin: 1rem 0 1rem !important;
   padding: .9rem 1.1rem !important;
   border: 1px solid #eadff6 !important;
@@ -2114,7 +2125,7 @@ body[data-section="mental-health"].med-browser-ready .priority-focus {
   box-shadow: 0 12px 30px rgba(65, 45, 100, .05) !important;
 }
 
-body[data-section="mental-health"].med-browser-ready .med-warning-strip {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]).med-browser-ready .med-warning-strip {
   margin: 1rem 0 1.1rem !important;
   padding: 1rem !important;
   border: 1px solid #f4c4cb !important;
@@ -2123,13 +2134,13 @@ body[data-section="mental-health"].med-browser-ready .med-warning-strip {
   box-shadow: 0 16px 42px rgba(100, 43, 80, .07) !important;
 }
 
-body[data-section="mental-health"].med-browser-ready .med-warning-strip > div {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]).med-browser-ready .med-warning-strip > div {
   min-height: 0 !important;
   border-radius: 18px !important;
   background: rgba(255, 246, 248, .84) !important;
 }
 
-body[data-section="mental-health"].med-browser-ready .med-browser-tools {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]).med-browser-ready .med-browser-tools {
   display: grid;
   grid-template-columns: minmax(260px, 410px) minmax(0, 1fr);
   gap: 1rem;
@@ -2143,12 +2154,12 @@ body[data-section="mental-health"].med-browser-ready .med-browser-tools {
   box-shadow: 0 16px 44px rgba(56, 43, 94, .07);
 }
 
-body[data-section="mental-health"].med-browser-ready .med-browser-search {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]).med-browser-ready .med-browser-search {
   display: grid;
   gap: .35rem;
 }
 
-body[data-section="mental-health"].med-browser-ready .med-browser-search span {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]).med-browser-ready .med-browser-search span {
   color: #6946ab;
   font-size: .72rem;
   font-weight: 900;
@@ -2156,7 +2167,7 @@ body[data-section="mental-health"].med-browser-ready .med-browser-search span {
   text-transform: uppercase;
 }
 
-body[data-section="mental-health"].med-browser-ready .med-browser-search input {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]).med-browser-ready .med-browser-search input {
   min-height: 48px;
   padding: .78rem 1rem;
   border: 1px solid #dcd3ea;
@@ -2167,20 +2178,20 @@ body[data-section="mental-health"].med-browser-ready .med-browser-search input {
   box-shadow: 0 8px 20px rgba(56, 43, 94, .04);
 }
 
-body[data-section="mental-health"].med-browser-ready .med-browser-search input:focus {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]).med-browser-ready .med-browser-search input:focus {
   outline: none;
   border-color: #9b79df;
   box-shadow: 0 0 0 4px rgba(123, 82, 201, .14);
 }
 
-body[data-section="mental-health"].med-browser-ready .med-browser-filters {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]).med-browser-ready .med-browser-filters {
   display: flex;
   flex-wrap: wrap;
   gap: .55rem;
   justify-content: flex-end;
 }
 
-body[data-section="mental-health"].med-browser-ready .med-browser-filters button {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]).med-browser-ready .med-browser-filters button {
   min-height: 42px;
   padding: .55rem 1rem;
   border: 1px solid #e2dceb;
@@ -2193,14 +2204,14 @@ body[data-section="mental-health"].med-browser-ready .med-browser-filters button
   font-weight: 800;
 }
 
-body[data-section="mental-health"].med-browser-ready .med-browser-filters button.active,
-body[data-section="mental-health"].med-browser-ready .med-browser-filters button:hover {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]).med-browser-ready .med-browser-filters button.active,
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]).med-browser-ready .med-browser-filters button:hover {
   border-color: #a47fe4;
   background: #f4edff;
   color: #6335b0;
 }
 
-body[data-section="mental-health"].med-browser-ready .med-nav-pills {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]).med-browser-ready .med-nav-pills {
   display: flex !important;
   flex-wrap: wrap;
   gap: .55rem;
@@ -2213,7 +2224,7 @@ body[data-section="mental-health"].med-browser-ready .med-nav-pills {
   box-shadow: 0 20px 44px rgba(56, 43, 94, .07);
 }
 
-body[data-section="mental-health"].med-browser-ready .med-nav-pills::before {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]).med-browser-ready .med-nav-pills::before {
   content: "Jump to drug class";
   flex: 0 0 100%;
   margin-top: .2rem;
@@ -2221,7 +2232,7 @@ body[data-section="mental-health"].med-browser-ready .med-nav-pills::before {
   font-size: .72rem;
 }
 
-body[data-section="mental-health"].med-browser-ready .med-nav-pills a {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]).med-browser-ready .med-nav-pills a {
   min-height: 36px !important;
   padding: .45rem .8rem !important;
   border-radius: 999px !important;
@@ -2229,7 +2240,7 @@ body[data-section="mental-health"].med-browser-ready .med-nav-pills a {
   box-shadow: none !important;
 }
 
-body[data-section="mental-health"].med-browser-ready .med-game-launch {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]).med-browser-ready .med-game-launch {
   width: fit-content;
   margin: 1rem 0 1.2rem auto !important;
   border-radius: 999px !important;
@@ -2238,7 +2249,7 @@ body[data-section="mental-health"].med-browser-ready .med-game-launch {
   box-shadow: 0 12px 24px rgba(103, 65, 178, .2) !important;
 }
 
-body[data-section="mental-health"].med-browser-ready .med-class-section {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]).med-browser-ready .med-class-section {
   display: grid !important;
   grid-template-columns: 1fr !important;
   gap: .85rem !important;
@@ -2251,7 +2262,7 @@ body[data-section="mental-health"].med-browser-ready .med-class-section {
   overflow: hidden;
 }
 
-body[data-section="mental-health"].med-browser-ready .med-class-header {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]).med-browser-ready .med-class-header {
   display: grid !important;
   grid-template-columns: 50px minmax(0, 1fr) auto !important;
   align-items: center !important;
@@ -2262,7 +2273,7 @@ body[data-section="mental-health"].med-browser-ready .med-class-header {
   cursor: pointer;
 }
 
-body[data-section="mental-health"].med-browser-ready .med-class-icon {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]).med-browser-ready .med-class-icon {
   width: 42px !important;
   height: 42px !important;
   flex-basis: 42px !important;
@@ -2270,20 +2281,20 @@ body[data-section="mental-health"].med-browser-ready .med-class-icon {
   font-size: 1.2rem !important;
 }
 
-body[data-section="mental-health"].med-browser-ready .med-class-header h2 {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]).med-browser-ready .med-class-header h2 {
   color: var(--med-accent-deep) !important;
   font-size: 1.12rem !important;
   letter-spacing: -.02em !important;
   text-transform: none !important;
 }
 
-body[data-section="mental-health"].med-browser-ready .med-class-header p {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]).med-browser-ready .med-class-header p {
   margin: .18rem 0 0 !important;
   color: #77708e !important;
   font-size: .82rem !important;
 }
 
-body[data-section="mental-health"].med-browser-ready .med-section-toggle {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]).med-browser-ready .med-section-toggle {
   display: grid;
   place-items: center;
   width: 34px;
@@ -2298,44 +2309,44 @@ body[data-section="mental-health"].med-browser-ready .med-section-toggle {
   line-height: 1;
 }
 
-body[data-section="mental-health"].med-browser-ready .med-section-collapsed > :not(.med-class-header) {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]).med-browser-ready .med-section-collapsed > :not(.med-class-header) {
   display: none !important;
 }
 
-body[data-section="mental-health"].med-browser-ready .med-class-grid,
-body[data-section="mental-health"].med-browser-ready .drug-card-grid,
-body[data-section="mental-health"].med-browser-ready .med-teaching-box,
-body[data-section="mental-health"].med-browser-ready .med-subheading,
-body[data-section="mental-health"].med-browser-ready .detail-table,
-body[data-section="mental-health"].med-browser-ready .mh-table-card,
-body[data-section="mental-health"].med-browser-ready .quick-review,
-body[data-section="mental-health"].med-browser-ready .do-not-miss {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]).med-browser-ready .med-class-grid,
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]).med-browser-ready .drug-card-grid,
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]).med-browser-ready .med-teaching-box,
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]).med-browser-ready .med-subheading,
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]).med-browser-ready .detail-table,
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]).med-browser-ready .mh-table-card,
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]).med-browser-ready .quick-review,
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]).med-browser-ready .do-not-miss {
   margin-left: 1.05rem !important;
   margin-right: 1.05rem !important;
 }
 
-body[data-section="mental-health"].med-browser-ready .med-class-grid {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]).med-browser-ready .med-class-grid {
   display: grid !important;
   grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
   gap: .85rem !important;
 }
 
-body[data-section="mental-health"].med-browser-ready .med-class-overview,
-body[data-section="mental-health"].med-browser-ready .med-nclex-box,
-body[data-section="mental-health"].med-browser-ready .med-teaching-box {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]).med-browser-ready .med-class-overview,
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]).med-browser-ready .med-nclex-box,
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]).med-browser-ready .med-teaching-box {
   grid-column: auto !important;
   grid-row: auto !important;
   border-radius: 16px !important;
 }
 
-body[data-section="mental-health"].med-browser-ready .drug-card-grid {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]).med-browser-ready .drug-card-grid {
   display: grid !important;
   grid-template-columns: 1fr !important;
   gap: .7rem !important;
   padding-bottom: 1rem;
 }
 
-body[data-section="mental-health"].med-browser-ready .drug-card {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]).med-browser-ready .drug-card {
   display: grid !important;
   grid-template-columns: minmax(210px, 260px) minmax(0, 1fr) minmax(170px, 240px) !important;
   align-items: stretch;
@@ -2346,11 +2357,11 @@ body[data-section="mental-health"].med-browser-ready .drug-card {
   overflow: hidden;
 }
 
-body[data-section="mental-health"].med-browser-ready .drug-card[hidden] {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]).med-browser-ready .drug-card[hidden] {
   display: none !important;
 }
 
-body[data-section="mental-health"].med-browser-ready .drug-card-top {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]).med-browser-ready .drug-card-top {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -2361,18 +2372,18 @@ body[data-section="mental-health"].med-browser-ready .drug-card-top {
   background: linear-gradient(135deg, #fff, var(--med-soft));
 }
 
-body[data-section="mental-health"].med-browser-ready .drug-card-top h3 {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]).med-browser-ready .drug-card-top h3 {
   color: var(--med-accent-deep) !important;
   font-size: 1.02rem !important;
 }
 
-body[data-section="mental-health"].med-browser-ready .med-fact-grid {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]).med-browser-ready .med-fact-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   min-width: 0;
 }
 
-body[data-section="mental-health"].med-browser-ready .med-fact {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]).med-browser-ready .med-fact {
   display: grid;
   grid-template-columns: 28px minmax(0, 1fr);
   gap: .55rem;
@@ -2380,7 +2391,7 @@ body[data-section="mental-health"].med-browser-ready .med-fact {
   border-right: 1px solid #e8e2f0;
 }
 
-body[data-section="mental-health"].med-browser-ready .med-fact > span {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]).med-browser-ready .med-fact > span {
   display: grid;
   place-items: center;
   width: 25px;
@@ -2392,7 +2403,7 @@ body[data-section="mental-health"].med-browser-ready .med-fact > span {
   font-weight: 900;
 }
 
-body[data-section="mental-health"].med-browser-ready .med-fact strong {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]).med-browser-ready .med-fact strong {
   display: block;
   margin-bottom: .25rem;
   color: #25234f;
@@ -2401,14 +2412,14 @@ body[data-section="mental-health"].med-browser-ready .med-fact strong {
   text-transform: uppercase;
 }
 
-body[data-section="mental-health"].med-browser-ready .med-fact p {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]).med-browser-ready .med-fact p {
   margin: 0 !important;
   color: #3f3a5c;
   font-size: .8rem !important;
   line-height: 1.42 !important;
 }
 
-body[data-section="mental-health"].med-browser-ready .drug-nclex {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]).med-browser-ready .drug-nclex {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -2422,7 +2433,7 @@ body[data-section="mental-health"].med-browser-ready .drug-nclex {
   font-size: .78rem !important;
 }
 
-body[data-section="mental-health"].med-browser-ready .med-no-card-matches::after {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]).med-browser-ready .med-no-card-matches::after {
   content: "No medication cards match this search/filter in this class.";
   display: block;
   margin: 0 1.05rem 1rem;
@@ -2436,20 +2447,20 @@ body[data-section="mental-health"].med-browser-ready .med-no-card-matches::after
 }
 
 @media (max-width: 1050px) {
-  body[data-section="mental-health"].med-browser-ready .med-browser-tools,
-  body[data-section="mental-health"].med-browser-ready .med-class-grid,
-  body[data-section="mental-health"].med-browser-ready .drug-card,
-  body[data-section="mental-health"].med-browser-ready .med-fact-grid {
+  :is(body[data-section="mental-health"], body[data-section="pharmacology"]).med-browser-ready .med-browser-tools,
+  :is(body[data-section="mental-health"], body[data-section="pharmacology"]).med-browser-ready .med-class-grid,
+  :is(body[data-section="mental-health"], body[data-section="pharmacology"]).med-browser-ready .drug-card,
+  :is(body[data-section="mental-health"], body[data-section="pharmacology"]).med-browser-ready .med-fact-grid {
     grid-template-columns: 1fr !important;
   }
 
-  body[data-section="mental-health"].med-browser-ready .med-browser-filters {
+  :is(body[data-section="mental-health"], body[data-section="pharmacology"]).med-browser-ready .med-browser-filters {
     justify-content: flex-start;
   }
 
-  body[data-section="mental-health"].med-browser-ready .drug-card-top,
-  body[data-section="mental-health"].med-browser-ready .med-fact,
-  body[data-section="mental-health"].med-browser-ready .drug-nclex {
+  :is(body[data-section="mental-health"], body[data-section="pharmacology"]).med-browser-ready .drug-card-top,
+  :is(body[data-section="mental-health"], body[data-section="pharmacology"]).med-browser-ready .med-fact,
+  :is(body[data-section="mental-health"], body[data-section="pharmacology"]).med-browser-ready .drug-nclex {
     border-right: 0 !important;
     border-left: 0 !important;
     border-bottom: 1px solid #e8e2f0 !important;
@@ -2457,22 +2468,22 @@ body[data-section="mental-health"].med-browser-ready .med-no-card-matches::after
 }
 
 @media (max-width: 680px) {
-  body[data-section="mental-health"].med-browser-ready:has(.med-warning-strip) .main-content > h1 {
+  :is(body[data-section="mental-health"], body[data-section="pharmacology"]).med-browser-ready:has(.med-warning-strip) .main-content > h1 {
     display: block !important;
     padding: 1rem 0 .3rem !important;
   }
 
-  body[data-section="mental-health"].med-browser-ready:has(.med-warning-strip) .main-content > h1::before {
+  :is(body[data-section="mental-health"], body[data-section="pharmacology"]).med-browser-ready:has(.med-warning-strip) .main-content > h1::before {
     margin-bottom: .75rem;
   }
 
-  body[data-section="mental-health"].med-browser-ready:has(.med-warning-strip) .main-content > .mh-subtitle,
-  body[data-section="mental-health"].med-browser-ready .main-content > p:not(.mh-subtitle) {
+  :is(body[data-section="mental-health"], body[data-section="pharmacology"]).med-browser-ready:has(.med-warning-strip) .main-content > .mh-subtitle,
+  :is(body[data-section="mental-health"], body[data-section="pharmacology"]).med-browser-ready .main-content > p:not(.mh-subtitle) {
     margin-left: 0 !important;
   }
 
-  body[data-section="mental-health"].med-browser-ready .med-browser-tools,
-  body[data-section="mental-health"].med-browser-ready .med-nav-pills {
+  :is(body[data-section="mental-health"], body[data-section="pharmacology"]).med-browser-ready .med-browser-tools,
+  :is(body[data-section="mental-health"], body[data-section="pharmacology"]).med-browser-ready .med-nav-pills {
     padding-left: .8rem;
     padding-right: .8rem;
   }
