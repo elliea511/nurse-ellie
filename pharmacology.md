@@ -34,9 +34,9 @@ page_type: pharmacology-home
 
     <div class="pharm-mobile-hero">
       <p class="pharm-mobile-kicker">ATI PN Pharmacology</p>
-      <h2>Study meds by priority.</h2>
-      <p>High-yield meds, toxicities, safety, and ATI test cues.</p>
-      <div class="pharm-mobile-focus">🎯 High-alert meds • toxicities • hold parameters • antidotes • patient teaching</div>
+      <h2>ATI PN Pharmacology</h2>
+      <p>High-yield meds, toxicities, safety, and ATI test cues</p>
+      <div class="pharm-mobile-focus"><strong>🎯 Priority Focus:</strong> High-alert meds • toxicities • hold parameters • antidotes • patient teaching</div>
     </div>
 
     <div class="pharm-mobile-grid">

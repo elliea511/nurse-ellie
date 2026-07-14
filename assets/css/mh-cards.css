@@ -3358,7 +3358,10 @@ body[data-page-type="pharmacology-home"] .pharm-mobile-home {
   }
 
   body[data-page-type="pharmacology-home"] .pharm-mobile-hero {
-    padding: 1.35rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.45rem 1.15rem;
     border: 1px solid #eadcf9;
     border-radius: 28px;
     background:
@@ -3379,30 +3382,43 @@ body[data-page-type="pharmacology-home"] .pharm-mobile-home {
   }
 
   body[data-page-type="pharmacology-home"] .pharm-mobile-hero h2 {
-    margin: 0;
-    color: #4c2aa4;
-    font-family: "Plus Jakarta Sans", "Nunito", sans-serif;
-    font-size: clamp(2rem, 9vw, 3.1rem);
-    font-weight: 1000;
-    line-height: 1;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 0 !important;
+    background: transparent !important;
+    color: #4c2aa4 !important;
+    font-family: "Plus Jakarta Sans", "Nunito", sans-serif !important;
+    font-size: clamp(2.25rem, 10vw, 3.55rem) !important;
+    font-weight: 1000 !important;
+    letter-spacing: -.055em;
+    line-height: .98 !important;
+    text-align: center;
   }
 
   body[data-page-type="pharmacology-home"] .pharm-mobile-hero p:not(.pharm-mobile-kicker) {
-    margin: .55rem 0 0;
+    max-width: 30rem;
+    margin: .65rem auto 0;
     color: #5b5a8b;
+    font-size: 1.02rem;
     font-weight: 850;
   }
 
   body[data-page-type="pharmacology-home"] .pharm-mobile-focus {
+    width: min(100%, 38rem);
     margin-top: 1rem;
-    padding: .72rem .9rem;
+    padding: .78rem 1rem;
     border: 1px solid #f4bdd9;
-    border-radius: 18px;
+    border-radius: 999px;
     background: #fff2f8;
     color: #342766;
     font-size: .9rem;
     font-weight: 900;
     line-height: 1.35;
+    text-align: center;
+  }
+
+  body[data-page-type="pharmacology-home"] .pharm-mobile-focus strong {
+    color: #f0529b;
   }
 
   body[data-page-type="pharmacology-home"] .pharm-mobile-grid {
@@ -3474,6 +3490,10 @@ body[data-page-type="pharmacology-home"] .pharm-mobile-home {
 }
 
 @media (max-width: 430px) {
+  body[data-page-type="pharmacology-home"] .pharm-mobile-focus {
+    border-radius: 22px;
+  }
+
   body[data-page-type="pharmacology-home"] .pharm-mobile-grid {
     grid-template-columns: 1fr;
   }
