@@ -176,12 +176,12 @@ page_type: all-topics
             <a href="{{ '/pharmacology/respiratory-allergy-eye-ent.html' | relative_url }}">Respiratory, Allergy, Eye &amp; ENT Medications</a>
             <a href="{{ '/pharmacology/gi-pain-musculoskeletal.html' | relative_url }}">GI, Pain &amp; Musculoskeletal Medications</a>
             <a href="{{ '/pharmacology/vaccines-pregnancy.html' | relative_url }}">Vaccines &amp; Pregnancy</a>
+            <a href="{{ '/pharmacology/medication-safety.html' | relative_url }}">Medication Administration &amp; Safety</a>
           </div>
         </div>
         <div class="at-topic-group">
           <h3>Coming Soon</h3>
           <div class="at-links">
-            <span>Medication Administration &amp; Safety</span>
             <span>Master Quick Review</span>
           </div>
         </div>

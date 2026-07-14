@@ -85,7 +85,7 @@ This guide is organized by medication purpose and body system so you can focus o
     <div class="mh-card-icon">✅</div>
     <h3>Medication Administration & Safety</h3>
     <p>Medication rights, controlled substances, dosage notation, routes, errors, enteral medications, and transfusion safety.</p>
-    <span class="mh-btn pharm-coming-soon">Coming Soon</span>
+    <a class="mh-btn" href="{{ '/pharmacology/medication-safety.html' | relative_url }}">Study Med Safety</a>
   </div>
 
   <div class="mh-card lavender">

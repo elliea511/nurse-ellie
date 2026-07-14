@@ -525,5 +525,5 @@ Most vaccine questions can be solved by checking three things: **age, live-vacci
 
 <div class="page-nav">
   <a href="{{ '/pharmacology/gi-pain-musculoskeletal.html' | relative_url }}" class="page-nav-back">← GI, Pain & Musculoskeletal</a>
-  <a href="{{ '/pharmacology.html' | relative_url }}" class="page-nav-next">More Pharmacology Coming Soon →</a>
+  <a href="{{ '/pharmacology/medication-safety.html' | relative_url }}" class="page-nav-next">Medication Administration & Safety →</a>
 </div>
