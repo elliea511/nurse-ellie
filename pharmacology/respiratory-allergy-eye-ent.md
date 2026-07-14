@@ -615,5 +615,5 @@ When inhalers are prescribed together, think: **open the airway first, then deli
 
 <div class="page-nav">
   <a href="{{ '/pharmacology/anti-infectives.html' | relative_url }}" class="page-nav-back">← Anti-Infective Medications</a>
-  <a href="{{ '/pharmacology.html' | relative_url }}" class="page-nav-next">More Pharmacology Coming Soon →</a>
+  <a href="{{ '/pharmacology/gi-pain-musculoskeletal.html' | relative_url }}" class="page-nav-next">GI, Pain & Musculoskeletal →</a>
 </div>

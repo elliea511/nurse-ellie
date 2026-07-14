@@ -71,7 +71,7 @@ This guide is organized by medication purpose and body system so you can focus o
     <div class="mh-card-icon">💊</div>
     <h3>GI, Pain & Musculoskeletal</h3>
     <p>Opioids, NSAIDs, PPIs, gout medications, muscle relaxants, and osteoporosis medications.</p>
-    <span class="mh-btn pharm-coming-soon">Coming Soon</span>
+    <a class="mh-btn" href="{{ '/pharmacology/gi-pain-musculoskeletal.html' | relative_url }}">Study GI/Pain Meds</a>
   </div>
 
   <div class="mh-card yellow">
