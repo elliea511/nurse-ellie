@@ -78,7 +78,7 @@ This guide is organized by medication purpose and body system so you can focus o
     <div class="mh-card-icon">💉</div>
     <h3>Vaccines & Pregnancy</h3>
     <p>Vaccine schedules, live-vaccine precautions, pregnancy contraindications, and common vaccine allergies.</p>
-    <span class="mh-btn pharm-coming-soon">Coming Soon</span>
+    <a class="mh-btn" href="{{ '/pharmacology/vaccines-pregnancy.html' | relative_url }}">Study Vaccines</a>
   </div>
 
   <div class="mh-card gray">

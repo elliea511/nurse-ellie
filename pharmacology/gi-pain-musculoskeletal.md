@@ -569,5 +569,5 @@ When pain-medication findings are listed together, prioritize **respiratory depr
 
 <div class="page-nav">
   <a href="{{ '/pharmacology/respiratory-allergy-eye-ent.html' | relative_url }}" class="page-nav-back">← Respiratory, Allergy, Eye & ENT</a>
-  <a href="{{ '/pharmacology.html' | relative_url }}" class="page-nav-next">More Pharmacology Coming Soon →</a>
+  <a href="{{ '/pharmacology/vaccines-pregnancy.html' | relative_url }}" class="page-nav-next">Vaccines & Pregnancy →</a>
 </div>
