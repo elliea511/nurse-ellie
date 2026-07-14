@@ -3190,3 +3190,101 @@ body[data-page-type="pharmacology-home"] .pharm-hang-card strong {
     grid-template-columns: repeat(5, minmax(120px, 1fr));
   }
 }
+
+/* Exact mockup mode for the ATI PN Pharmacology homepage. */
+body[data-page-type="pharmacology-home"] .main-content {
+  max-width: none !important;
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  background: #fff !important;
+  overflow: hidden;
+}
+
+body[data-page-type="pharmacology-home"] .pharm-mockup-home {
+  max-width: 1672px;
+  margin: 0 auto;
+  background: #fff;
+}
+
+body[data-page-type="pharmacology-home"] .pharm-mockup-stage {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1672 / 850;
+  overflow: hidden;
+  background: #fff;
+}
+
+body[data-page-type="pharmacology-home"] .pharm-mockup-art {
+  position: absolute;
+  left: 0;
+  top: -90px;
+  width: 100%;
+  height: auto;
+  max-width: none;
+  display: block;
+  user-select: none;
+  pointer-events: none;
+}
+
+body[data-page-type="pharmacology-home"] .pharm-link-map {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+}
+
+body[data-page-type="pharmacology-home"] .pharm-map-link {
+  position: absolute;
+  top: 74.2%;
+  width: 9.1%;
+  height: 21.4%;
+  overflow: hidden;
+  border-radius: 18px;
+  color: transparent !important;
+  text-decoration: none !important;
+  font-size: 0;
+}
+
+body[data-page-type="pharmacology-home"] .pharm-map-link:focus-visible {
+  outline: 4px solid rgba(111, 62, 214, .7);
+  outline-offset: -4px;
+  box-shadow: 0 0 0 7px rgba(255, 255, 255, .78);
+}
+
+body[data-page-type="pharmacology-home"] .pharm-map-link:hover {
+  background: rgba(255, 255, 255, .12);
+}
+
+body[data-page-type="pharmacology-home"] .pharm-map-link.card-1 { left: 3.1%; }
+body[data-page-type="pharmacology-home"] .pharm-map-link.card-2 { left: 12.9%; }
+body[data-page-type="pharmacology-home"] .pharm-map-link.card-3 { left: 22.7%; }
+body[data-page-type="pharmacology-home"] .pharm-map-link.card-4 { left: 32.55%; }
+body[data-page-type="pharmacology-home"] .pharm-map-link.card-5 { left: 42.4%; }
+body[data-page-type="pharmacology-home"] .pharm-map-link.card-6 { left: 52.25%; }
+body[data-page-type="pharmacology-home"] .pharm-map-link.card-7 { left: 62.1%; }
+body[data-page-type="pharmacology-home"] .pharm-map-link.card-8 { left: 71.95%; }
+body[data-page-type="pharmacology-home"] .pharm-map-link.card-9 { left: 81.8%; }
+body[data-page-type="pharmacology-home"] .pharm-map-link.card-10 { left: 91.65%; width: 7.2%; }
+
+body[data-page-type="pharmacology-home"] .sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+@media (max-width: 900px) {
+  body[data-page-type="pharmacology-home"] .pharm-mockup-stage {
+    min-width: 900px;
+  }
+
+  body[data-page-type="pharmacology-home"] .pharm-mockup-home {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+}
