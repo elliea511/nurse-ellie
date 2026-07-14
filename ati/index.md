@@ -37,7 +37,7 @@ These notes are designed to help with:
   <p>Adult health topics, disease processes, complications, labs, nursing interventions, and priority care.</p>
 </a>
 
-<a class="study-card coming-soon" href="#">
+<a class="study-card" href="{{ '/pharmacology.html' | relative_url }}">
   <h2>Pharmacology</h2>
   <p>Medication classes, side effects, contraindications, antidotes, teaching, and safety considerations.</p>
 </a>
