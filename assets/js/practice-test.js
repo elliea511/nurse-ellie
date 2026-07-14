@@ -27,6 +27,7 @@
     { id: 'anxiety-ocd', label: 'Anxiety, OCD & Trauma', cat: 'Mental Health', url: '/mental-health/anxiety-ocd-quiz.html', n: 35 },
     { id: 'depression',  label: 'Depression',            cat: 'Mental Health', url: '/mental-health/depression-quiz.html',  n: 47 },
     { id: 'personality', label: 'Personality Disorders', cat: 'Mental Health', url: '/mental-health/personality-disorders-quiz.html', n: 35 },
+    { id: 'psychosis',   label: 'Schizophrenia & Psychosis', cat: 'Mental Health', url: '/mental-health/schizophrenia-psychosis-quiz.html', n: 40 },
   ];
 
   var MENTAL_HEALTH_DERIVED_TOPICS = [
@@ -34,13 +35,14 @@
       id: 'mh-medications',
       label: 'Medication Questions',
       cat: 'Focused Review',
-      n: 39,
+      n: 54,
       derived: true,
       filter: 'medications',
       sourceCounts: {
         'anxiety-ocd': 15,
-        depression: 23,
-        personality: 1
+        depression: 24,
+        personality: 1,
+        psychosis: 14
       }
     },
   ];
@@ -49,7 +51,7 @@
 
   var TOPICS = IS_MENTAL_HEALTH ? MENTAL_HEALTH_TOPICS : MEDICAL_EMERGENCY_TOPICS;
 
-  var MEDICATION_QUESTION_RE = /\b(medication|medications|prescription|prescribed|dose|doses|administer|ssri|ssris|snri|snris|tca|tcas|maoi|maois|antidepressant|antidepressants|benzodiazepine|benzodiazepines|buspirone|lorazepam|diazepam|alprazolam|fluoxetine|sertraline|escitalopram|citalopram|venlafaxine|duloxetine|bupropion|phenelzine|nortriptyline|amitriptyline|hydroxyzine|propranolol|tricyclic|serotonin syndrome|st\. john|linezolid|meperidine|pseudoephedrine|tyramine|discontinuation syndrome|side effect|adverse effect|adverse effects|toxicity|therapeutic response)\b/i;
+  var MEDICATION_QUESTION_RE = /\b(medication|medications|prescription|prescribed|dose|doses|administer|ssri|ssris|snri|snris|tca|tcas|maoi|maois|antidepressant|antidepressants|benzodiazepine|benzodiazepines|buspirone|lorazepam|diazepam|alprazolam|fluoxetine|sertraline|escitalopram|citalopram|venlafaxine|duloxetine|bupropion|phenelzine|nortriptyline|amitriptyline|hydroxyzine|propranolol|tricyclic|serotonin syndrome|st\. john|linezolid|meperidine|pseudoephedrine|tyramine|discontinuation syndrome|side effect|adverse effect|adverse effects|toxicity|therapeutic response|antipsychotic|antipsychotics|clozapine|haloperidol|risperidone|fluphenazine|benztropine|diphenhydramine|long-acting injectable|prolactin|agranulocytosis|neutropenia|extrapyramidal|tardive dyskinesia|akathisia|dystonia|pseudoparkinsonism|neuroleptic malignant syndrome|nms)\b/i;
 
   var CATS = [];
   TOPICS.forEach(function (t) { if (CATS.indexOf(t.cat) === -1) CATS.push(t.cat); });
