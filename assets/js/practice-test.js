@@ -31,6 +31,7 @@
     { id: 'abuse-suicide', label: 'Abuse & Suicide', cat: 'Mental Health', url: '/mental-health/abuse-suicide-quiz.html', n: 40 },
     { id: 'eating', label: 'Eating Disorders', cat: 'Mental Health', url: '/mental-health/eating-disorders-quiz.html', n: 40 },
     { id: 'addiction', label: 'Addiction & Substance Use', cat: 'Mental Health', url: '/mental-health/addiction-substance-use-quiz.html', n: 40 },
+    { id: 'somatic', label: 'Somatic, Factitious & Dissociative', cat: 'Mental Health', url: '/mental-health/somatic-factitious-dissociative-quiz.html', n: 40 },
   ];
 
   var MENTAL_HEALTH_DERIVED_TOPICS = [
@@ -38,7 +39,7 @@
       id: 'mh-medications',
       label: 'Medication Questions',
       cat: 'Focused Review',
-      n: 84,
+      n: 85,
       derived: true,
       filter: 'medications',
       sourceCounts: {
@@ -48,7 +49,8 @@
         psychosis: 14,
         'abuse-suicide': 7,
         eating: 6,
-        addiction: 17
+        addiction: 17,
+        somatic: 1
       }
     },
   ];
