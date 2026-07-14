@@ -3122,9 +3122,71 @@ body[data-page-type="pharmacology-home"] .main-content .pharm-title-block h1 {
   margin: 0;
   color: var(--pharm-purple-dark) !important;
   font-family: "Plus Jakarta Sans", "Nunito", sans-serif !important;
-  font-size: clamp(3.2rem, 6.5vw, 6rem) !important;
+  font-size: clamp(2.9rem, 5.2vw, 5.15rem) !important;
   font-weight: 900 !important;
   letter-spacing: -.06em;
   line-height: .98 !important;
   text-shadow: 0 8px 22px rgba(117, 70, 199, .14);
+}
+
+/* Desktop polish after preview: keep the title/card rail from overflowing the visible page. */
+body[data-page-type="pharmacology-home"] .pharm-title-block {
+  max-width: min(1080px, 92vw);
+}
+
+body[data-page-type="pharmacology-home"] .pharm-title-block p {
+  font-size: clamp(1.05rem, 1.55vw, 1.45rem);
+}
+
+body[data-page-type="pharmacology-home"] .pharm-focus-pill {
+  max-width: min(900px, 84vw);
+  padding: .65rem 1.25rem;
+  font-size: clamp(.9rem, 1.12vw, 1.08rem);
+}
+
+body[data-page-type="pharmacology-home"] .pharm-hero {
+  min-height: 565px;
+}
+
+body[data-page-type="pharmacology-home"] .pharm-counter-scene {
+  bottom: -6px;
+}
+
+body[data-page-type="pharmacology-home"] .pharm-card-rail {
+  grid-template-columns: repeat(10, minmax(86px, 1fr));
+  gap: .65rem;
+  padding: 1.8rem 1.15rem 2rem;
+}
+
+body[data-page-type="pharmacology-home"] .pharm-hang-card {
+  min-height: 150px;
+  padding: 1rem .45rem .75rem;
+  border-width: 2px;
+}
+
+body[data-page-type="pharmacology-home"] .pharm-card-icon {
+  width: 48px;
+  height: 48px;
+  font-size: 1.65rem;
+}
+
+body[data-page-type="pharmacology-home"] .pharm-hang-card small {
+  min-width: 24px;
+  height: 24px;
+  font-size: .9rem;
+}
+
+body[data-page-type="pharmacology-home"] .pharm-hang-card strong {
+  font-size: clamp(.72rem, .95vw, .95rem);
+}
+
+@media (max-width: 1180px) {
+  body[data-page-type="pharmacology-home"] .main-content .pharm-title-block h1 {
+    white-space: normal;
+    font-size: clamp(3rem, 7.5vw, 4.75rem) !important;
+  }
+
+  body[data-page-type="pharmacology-home"] .pharm-card-rail {
+    grid-template-columns: repeat(5, minmax(120px, 1fr));
+  }
 }
