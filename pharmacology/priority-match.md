@@ -8,67 +8,91 @@ page_type: pharm-priority-match
 
 <div class="ppm-app" id="pharm-priority-match">
   <header class="ppm-hero">
-    <div>
-      <a class="ppm-back" href="{{ '/game-hub.html' | relative_url }}">← Game Hub</a>
-      <p class="ppm-eyebrow">ATI Pharmacology Review</p>
-      <h1>Priority Match</h1>
-      <p>Match medications with toxicities, monitoring, antidotes, nursing actions, and patient teaching.</p>
+    <div class="ppm-title-block">
+      <span class="ppm-logo" aria-hidden="true">🎯</span>
+      <div>
+        <a class="ppm-back-link" href="{{ '/game-hub.html' | relative_url }}">← Game Hub</a>
+        <p class="ppm-eyebrow">ATI Pharmacology Review Game</p>
+        <h1>Priority Match</h1>
+        <p>Match each med with its danger cue, monitor, antidote, action, or teaching.</p>
+      </div>
     </div>
-    <div class="ppm-hero-badge" aria-hidden="true">🎯</div>
+
+    <div class="ppm-stats" aria-label="Game statistics">
+      <div><span>Level</span><strong id="ppm-level">1</strong><small id="ppm-rank">New Review</small></div>
+      <div class="ppm-progress-stat">
+        <span>Progress</span>
+        <strong id="ppm-progress-label">0%</strong>
+        <div class="ppm-progress-track"><i id="ppm-progress-bar"></i></div>
+        <small id="ppm-progress-count">0 / 5 cues</small>
+      </div>
+      <div><span>Score</span><strong id="ppm-score">0</strong><small>points</small></div>
+      <div><span>Streak</span><strong id="ppm-streak">0</strong><small id="ppm-streak-note">Start matching!</small></div>
+      <div><span>Best streak</span><strong id="ppm-best">0</strong><small>saved here</small></div>
+    </div>
   </header>
 
-  <section class="ppm-shell" aria-label="ATI Pharmacology Priority Match game">
-    <div class="ppm-controls">
-      <div>
-        <p class="ppm-eyebrow">Choose a game mode</p>
-        <div class="ppm-mode-grid" aria-label="Game modes"></div>
+  <div class="ppm-layout">
+    <aside class="ppm-panel ppm-categories" aria-label="ATI pharmacology game modes">
+      <h2>Categories</h2>
+      <div id="ppm-category-list"></div>
+      <div class="ppm-tip-card">
+        <span aria-hidden="true">💡</span>
+        <div><strong>ATI Tip</strong><p>Think: biggest danger, what to monitor, when to hold, and what reverses toxicity.</p></div>
       </div>
-      <div class="ppm-round-tools">
-        <label>
-          Round length
-          <select class="ppm-length">
-            <option value="10">10 questions</option>
-            <option value="15" selected>15 questions</option>
-            <option value="25">25 questions</option>
-            <option value="all">All questions</option>
-          </select>
-        </label>
-        <button type="button" class="ppm-start">Start round</button>
-        <button type="button" class="ppm-restart">Restart</button>
-      </div>
-    </div>
+    </aside>
 
-    <div class="ppm-status" aria-label="Game progress">
-      <div class="ppm-score"><span>Score</span><strong>0</strong></div>
-      <div class="ppm-progress"><span>Progress</span><strong>0 / 0</strong></div>
-      <div class="ppm-percent"><span>Percent</span><strong>0%</strong></div>
-      <div class="ppm-bar" aria-hidden="true"><i class="ppm-bar-fill"></i></div>
-    </div>
-
-    <article class="ppm-game-card">
-      <div class="ppm-card-head">
+    <section class="ppm-board" aria-labelledby="ppm-board-title">
+      <div class="ppm-board-heading">
         <div>
-          <span class="ppm-tag">Pharmacology</span>
-          <h2 class="ppm-card-title">Medication</h2>
-          <p class="ppm-card-subtitle">Class</p>
+          <p class="ppm-eyebrow" id="ppm-round-type">Match the medication</p>
+          <h2 id="ppm-board-title">Choose a medication, then choose its matching ATI cue.</h2>
         </div>
-        <strong class="ppm-question-count">Question 1 of 15</strong>
+        <span class="ppm-match-count" id="ppm-match-count">0 / 5 matches</span>
       </div>
-      <p class="ppm-prompt">Question prompt</p>
-      <div class="ppm-answers" aria-label="Answer choices"></div>
-      <div class="ppm-feedback" role="status" aria-live="polite" hidden></div>
-      <button type="button" class="ppm-next" hidden>Next question →</button>
-    </article>
 
-    <section class="ppm-results" hidden>
-      <h2 class="ppm-results-title">Round complete</h2>
-      <p class="ppm-results-score">0 / 0 correct</p>
-      <p class="ppm-results-text">Review missed medications below.</p>
-      <div class="ppm-missed-list"></div>
-      <button type="button" class="ppm-results-restart">Play again</button>
+      <div class="ppm-column-labels" aria-hidden="true"><span>Medications / situations</span><span>Match to the priority cue</span></div>
+      <div class="ppm-game-grid">
+        <div class="ppm-med-list" id="ppm-med-list" aria-label="Medications and situations"></div>
+        <div class="ppm-answer-list" id="ppm-answer-list" aria-label="Priority cues"></div>
+      </div>
+
+      <div class="ppm-feedback" id="ppm-feedback" role="status" aria-live="polite">Select a medication or situation to begin.</div>
+      <div class="ppm-complete-card" id="ppm-complete-card" hidden>
+        <span aria-hidden="true">🏆</span>
+        <div>
+          <strong id="ppm-complete-title">Game complete!</strong>
+          <p id="ppm-complete-text">You matched every priority cue in this set.</p>
+          <div class="ppm-missed-review" id="ppm-missed-review"></div>
+        </div>
+      </div>
+      <button class="ppm-next-round" id="ppm-next-round" type="button" hidden>Start next round →</button>
     </section>
-  </section>
+
+    <aside class="ppm-panel ppm-tools" aria-label="Game tools">
+      <h2>⚡ Power-ups</h2>
+      <button type="button" id="ppm-hint"><span>💡</span><strong>Hint<small>Reveal one correct match</small></strong><b id="ppm-hints-left">3</b></button>
+      <button type="button" id="ppm-shuffle"><span>🔀</span><strong>Shuffle<small>Reorder the cue cards</small></strong></button>
+      <button type="button" id="ppm-review"><span>📖</span><strong>Review<small>See the selected medication</small></strong></button>
+      <button type="button" id="ppm-new-game"><span>↻</span><strong>New game<small>Reset score and progress</small></strong></button>
+
+      <div class="ppm-confidence-card">
+        <span aria-hidden="true">💊</span>
+        <p>Know the danger.<br>Check the monitor.<br>Teach it clearly.</p>
+      </div>
+    </aside>
+  </div>
+
+  <footer class="ppm-pro-tip"><strong>🛡️ Pro Tip:</strong> ATI pharmacology loves safety patterns: hold parameters, toxicities, antidotes, and patient teaching.</footer>
 </div>
 
-<script src="{{ '/assets/js/pharm-priority-match-data.js' | relative_url }}"></script>
-<script src="{{ '/assets/js/pharm-priority-match.js' | relative_url }}"></script>
+<dialog class="ppm-review-dialog" id="ppm-review-dialog">
+  <button class="ppm-dialog-close" id="ppm-dialog-close" type="button" aria-label="Close review">×</button>
+  <p class="ppm-eyebrow">Priority Cue Review</p>
+  <h2 id="ppm-review-name">Choose a medication first</h2>
+  <div id="ppm-review-content"></div>
+</dialog>
+
+<noscript><p class="warning">ATI Pharmacology Priority Match needs JavaScript enabled to play.</p></noscript>
+<script src="{{ '/assets/js/pharm-priority-match-data.js' | relative_url }}" defer></script>
+<script src="{{ '/assets/js/pharm-priority-match.js' | relative_url }}" defer></script>
