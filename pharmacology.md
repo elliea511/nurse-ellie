@@ -16,7 +16,6 @@ page_type: pharmacology-home
 
     <div class="pharm-link-map" aria-label="ATI PN Pharmacology study sections">
       <a class="pharm-map-home" href="{{ '/' | relative_url }}">Home</a>
-      <a class="pharm-map-game" href="{{ '/pharmacology/priority-match.html' | relative_url }}">Priority Match</a>
       <a class="pharm-map-link card-1" href="{{ '/pharmacology/high-alert-medications.html' | relative_url }}">High-Alert Medications</a>
       <a class="pharm-map-link card-2" href="{{ '/pharmacology/cardiovascular-blood.html' | relative_url }}">Cardiovascular &amp; Blood</a>
       <a class="pharm-map-link card-3" href="{{ '/pharmacology/endocrine-diabetes.html' | relative_url }}">Endocrine &amp; Diabetes</a>
@@ -38,7 +37,6 @@ page_type: pharmacology-home
       <h2>ATI PN Pharmacology</h2>
       <p>High-yield meds, toxicities, safety, and ATI test cues</p>
       <div class="pharm-mobile-focus"><strong>🎯 Priority Focus:</strong> High-alert meds • toxicities • hold parameters • antidotes • patient teaching</div>
-      <a class="pharm-mobile-game-link" href="{{ '/pharmacology/priority-match.html' | relative_url }}">Play Priority Match</a>
     </div>
 
     <div class="pharm-mobile-grid">
