@@ -120,7 +120,6 @@
       return `<button type="button" class="ppm-med-card is-${palette[index % palette.length]}${selected ? " is-selected" : ""}${matched ? " is-matched" : ""}" data-key="${escapeHtml(key)}" ${matched ? "disabled" : ""}>
         <span class="ppm-med-icon">${modes.find((mode) => mode.id === item.promptType)?.icon || "💊"}</span>
         <strong>${escapeHtml(item.medication)}</strong>
-        <small>${escapeHtml(item.class)}</small>
         <i aria-hidden="true">${matched ? "✓" : "›"}</i>
       </button>`;
     }).join("");
