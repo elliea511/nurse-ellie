@@ -16,7 +16,7 @@ body[data-page-type="pharm-priority-match"] {
 body[data-page-type="pharm-priority-match"] .page-wrapper {
   width: min(100% - 2rem, 1660px) !important;
   max-width: 1660px !important;
-  margin: 1.4rem auto !important;
+  margin: .65rem auto !important;
   padding: 0 !important;
 }
 
@@ -41,30 +41,30 @@ body[data-page-type="pharm-priority-match"] .main-content {
 
 .ppm-hero {
   display: grid;
-  grid-template-columns: minmax(310px, .7fr) minmax(680px, 1.7fr);
-  gap: 1.25rem;
+  grid-template-columns: minmax(380px, .8fr) minmax(680px, 1.7fr);
+  gap: .8rem;
   align-items: center;
-  margin-bottom: 1.25rem;
+  margin-bottom: .75rem;
 }
 
 .ppm-title-block {
   display: flex;
   align-items: center;
-  gap: 1rem;
-  padding: .6rem;
+  gap: .75rem;
+  padding: .25rem .35rem;
 }
 
 .ppm-logo {
   display: grid;
-  flex: 0 0 78px;
+  flex: 0 0 58px;
   place-items: center;
-  width: 78px;
-  height: 78px;
+  width: 58px;
+  height: 58px;
   border: 2px solid #e89ac9;
-  border-radius: 26px;
+  border-radius: 20px;
   background: linear-gradient(145deg, #fff0f7, #e9edff);
   box-shadow: var(--ppm-shadow);
-  font-size: 2.8rem;
+  font-size: 2rem;
 }
 
 .ppm-title-block h1 {
@@ -75,20 +75,21 @@ body[data-page-type="pharm-priority-match"] .main-content {
   box-shadow: none !important;
   color: var(--ppm-ink) !important;
   font-family: "Nunito", sans-serif !important;
-  font-size: clamp(2rem, 3.2vw, 3.35rem) !important;
-  line-height: 1 !important;
+  font-size: clamp(2rem, 2.7vw, 2.85rem) !important;
+  line-height: .95 !important;
 }
 
 .ppm-title-block > div > p:last-child {
-  margin: .5rem 0 0;
+  margin: .3rem 0 0;
   color: var(--ppm-muted);
-  font-size: 1.12rem;
+  font-size: .98rem;
   font-weight: 700;
+  line-height: 1.35;
 }
 
 .ppm-back-link {
   display: inline-block;
-  margin-bottom: .35rem;
+  margin-bottom: .15rem;
   color: #6540bd !important;
   font-size: .72rem;
   font-weight: 900;
@@ -98,7 +99,7 @@ body[data-page-type="pharm-priority-match"] .main-content {
 .ppm-back-link:hover { text-decoration: underline !important; }
 
 .ppm-eyebrow {
-  margin: 0 0 .35rem;
+  margin: 0 0 .2rem;
   color: var(--ppm-purple);
   font-size: .75rem;
   font-weight: 900;
@@ -109,8 +110,8 @@ body[data-page-type="pharm-priority-match"] .main-content {
 .ppm-stats {
   display: grid;
   grid-template-columns: .7fr 1.65fr repeat(3, .8fr);
-  min-height: 116px;
-  padding: 1rem;
+  min-height: 86px;
+  padding: .65rem;
   border: 1px solid var(--ppm-line);
   border-radius: 20px;
   background: rgba(255, 255, 255, .96);
@@ -122,7 +123,7 @@ body[data-page-type="pharm-priority-match"] .main-content {
   flex-direction: column;
   justify-content: center;
   min-width: 0;
-  padding: 0 1rem;
+  padding: 0 .8rem;
   border-left: 1px solid var(--ppm-line);
 }
 
@@ -137,7 +138,7 @@ body[data-page-type="pharm-priority-match"] .main-content {
 .ppm-progress-track {
   grid-column: 1 / -1;
   height: 10px;
-  margin: .4rem 0;
+  margin: .25rem 0;
   overflow: hidden;
   border-radius: 999px;
   background: #e7e9f2;
@@ -155,7 +156,7 @@ body[data-page-type="pharm-priority-match"] .main-content {
 .ppm-layout {
   display: grid;
   grid-template-columns: 230px minmax(820px, 1fr) 250px;
-  gap: 1.25rem;
+  gap: .9rem;
   align-items: start;
 }
 
