@@ -1,0 +1,551 @@
+body[data-page-type="pharm-priority-match"] {
+  background:
+    radial-gradient(circle at 10% 12%, rgba(255, 126, 180, 0.16), transparent 28%),
+    radial-gradient(circle at 90% 10%, rgba(139, 92, 246, 0.18), transparent 30%),
+    linear-gradient(180deg, #fff 0%, #fff8fc 48%, #f7f2ff 100%);
+}
+
+.ppm-app {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 42px 18px 56px;
+  color: #111746;
+  font-family: "Nunito", system-ui, sans-serif;
+}
+
+.ppm-hero,
+.ppm-shell,
+.ppm-game-card,
+.ppm-results {
+  border: 1px solid rgba(178, 145, 238, 0.38);
+  background: rgba(255, 255, 255, 0.88);
+  box-shadow: 0 22px 50px rgba(93, 61, 158, 0.12);
+  backdrop-filter: blur(12px);
+}
+
+.ppm-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 22px;
+  align-items: center;
+  border-radius: 34px;
+  padding: 30px;
+  margin-bottom: 22px;
+}
+
+.ppm-back {
+  display: inline-flex;
+  width: fit-content;
+  margin-bottom: 12px;
+  color: #6c35d4;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.ppm-eyebrow,
+.ppm-tag,
+.ppm-question-count {
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: #7b45dc;
+  font-weight: 900;
+  font-size: 0.78rem;
+}
+
+.ppm-hero h1 {
+  margin: 6px 0 10px;
+  font-size: clamp(2.3rem, 8vw, 5.4rem);
+  line-height: 0.95;
+  color: #552bb4;
+  letter-spacing: -0.06em;
+}
+
+.ppm-hero p:last-child {
+  margin: 0;
+  max-width: 680px;
+  color: #586087;
+  font-size: 1.12rem;
+  font-weight: 800;
+}
+
+.ppm-hero-badge {
+  display: grid;
+  place-items: center;
+  width: 142px;
+  height: 142px;
+  border-radius: 40px;
+  background: linear-gradient(135deg, #ffeaf4, #ede5ff 48%, #e7fff8);
+  color: #6e35d3;
+  font-size: 4rem;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.8), 0 18px 36px rgba(109, 73, 170, 0.14);
+}
+
+.ppm-shell {
+  border-radius: 32px;
+  padding: 24px;
+}
+
+.ppm-controls {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 220px;
+  gap: 18px;
+  align-items: end;
+  margin-bottom: 22px;
+}
+
+.ppm-mode-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  gap: 12px;
+}
+
+.ppm-mode {
+  border: 1px solid #d9c9ff;
+  border-radius: 20px;
+  background: #fff;
+  padding: 14px;
+  text-align: left;
+  color: #1b1b4f;
+  cursor: pointer;
+  transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+}
+
+.ppm-mode strong,
+.ppm-mode span,
+.ppm-mode small {
+  display: block;
+}
+
+.ppm-mode strong {
+  color: #522ab7;
+  font-size: 1rem;
+}
+
+.ppm-mode span {
+  margin: 5px 0;
+  color: #5d6388;
+  font-weight: 800;
+  font-size: 0.88rem;
+}
+
+.ppm-mode small {
+  color: #d94f9a;
+  font-weight: 900;
+}
+
+.ppm-mode:hover,
+.ppm-mode:focus-visible,
+.ppm-mode.is-active {
+  transform: translateY(-2px);
+  border-color: #7c43df;
+  box-shadow: 0 14px 28px rgba(109, 73, 170, 0.16);
+  outline: none;
+}
+
+.ppm-round-tools {
+  display: grid;
+  gap: 12px;
+}
+
+.ppm-round-tools label {
+  display: grid;
+  gap: 8px;
+  font-size: 0.84rem;
+  font-weight: 900;
+  color: #5c5980;
+}
+
+.ppm-length,
+.ppm-start,
+.ppm-restart,
+.ppm-next,
+.ppm-results-restart {
+  min-height: 48px;
+  border-radius: 999px;
+  border: 1px solid #d8c8ff;
+  font: inherit;
+  font-weight: 900;
+}
+
+.ppm-length {
+  padding: 0 16px;
+  color: #27215d;
+  background: #fff;
+}
+
+.ppm-start,
+.ppm-next,
+.ppm-results-restart {
+  border: none;
+  color: #fff;
+  background: linear-gradient(135deg, #8e55ec, #5b2bb9);
+  box-shadow: 0 14px 28px rgba(91, 43, 185, 0.22);
+  cursor: pointer;
+}
+
+.ppm-restart {
+  color: #5b2bb9;
+  background: #f7f1ff;
+  cursor: pointer;
+}
+
+.ppm-status {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.ppm-status div {
+  border: 1px solid #eadfff;
+  border-radius: 20px;
+  padding: 14px;
+  background: linear-gradient(135deg, #fff, #fbf7ff);
+}
+
+.ppm-status span {
+  display: block;
+  color: #73789c;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 0.72rem;
+  font-weight: 900;
+}
+
+.ppm-status strong {
+  display: block;
+  margin-top: 4px;
+  color: #15184a;
+  font-size: 1.35rem;
+}
+
+.ppm-bar {
+  grid-column: 1 / -1;
+  height: 12px;
+  border-radius: 999px;
+  overflow: hidden;
+  background: #ede7fb;
+}
+
+.ppm-bar-fill {
+  display: block;
+  height: 100%;
+  width: 0;
+  border-radius: inherit;
+  background: linear-gradient(90deg, #fb5aa5, #7c43df, #5ccbd0);
+  transition: width 0.25s ease;
+}
+
+.ppm-game-card,
+.ppm-results {
+  border-radius: 28px;
+  padding: 24px;
+}
+
+.ppm-card-head {
+  display: flex;
+  gap: 14px;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 18px;
+}
+
+.ppm-tag {
+  display: inline-flex;
+  padding: 8px 12px;
+  border-radius: 999px;
+  background: #fff0f8;
+  color: #d94f9a;
+}
+
+.ppm-card-title {
+  margin: 6px 0 2px;
+  color: #15184a;
+  font-size: clamp(1.7rem, 4vw, 3rem);
+}
+
+.ppm-card-subtitle {
+  margin: 0;
+  color: #6c6e91;
+  font-weight: 900;
+}
+
+.ppm-prompt {
+  margin: 0 0 18px;
+  padding: 18px;
+  border-radius: 22px;
+  background: linear-gradient(135deg, #f8f1ff, #fff3fa);
+  color: #28265d;
+  font-size: 1.14rem;
+  font-weight: 900;
+}
+
+.ppm-answers {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.ppm-answer {
+  display: grid;
+  grid-template-columns: 44px minmax(0, 1fr);
+  gap: 12px;
+  align-items: center;
+  min-height: 82px;
+  border: 1px solid #dcd1f6;
+  border-radius: 22px;
+  padding: 14px;
+  background: #fff;
+  color: #171a4d;
+  text-align: left;
+  cursor: pointer;
+  box-shadow: 0 10px 22px rgba(45, 40, 80, 0.06);
+}
+
+.ppm-answer span {
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 16px;
+  background: #f2eaff;
+  color: #6a35d5;
+  font-weight: 1000;
+}
+
+.ppm-answer strong {
+  font-size: 1.02rem;
+  line-height: 1.25;
+}
+
+.ppm-answer:hover,
+.ppm-answer:focus-visible {
+  border-color: #7c43df;
+  box-shadow: 0 14px 26px rgba(124, 67, 223, 0.16);
+  outline: none;
+}
+
+.ppm-answer.is-correct {
+  border-color: #56bf80;
+  background: #effcf4;
+}
+
+.ppm-answer.is-correct span {
+  background: #c9f4d9;
+  color: #16733b;
+}
+
+.ppm-answer.is-wrong {
+  border-color: #f06a8e;
+  background: #fff0f4;
+}
+
+.ppm-answer.is-wrong span {
+  background: #ffd7e3;
+  color: #b32149;
+}
+
+.ppm-feedback {
+  margin-top: 18px;
+  border-radius: 22px;
+  padding: 18px;
+  border: 1px solid #dcd1f6;
+  background: #f9f5ff;
+}
+
+.ppm-feedback strong {
+  display: block;
+  margin-bottom: 6px;
+  color: #4e25aa;
+  font-size: 1.2rem;
+}
+
+.ppm-feedback p {
+  margin: 6px 0;
+  color: #27265b;
+  font-weight: 800;
+}
+
+.ppm-feedback small {
+  display: block;
+  margin-top: 10px;
+  color: #0f5d78;
+  font-weight: 900;
+}
+
+.ppm-feedback.is-correct {
+  border-color: #aee7c1;
+  background: #f0fff5;
+}
+
+.ppm-feedback.is-wrong {
+  border-color: #ffc0d1;
+  background: #fff4f7;
+}
+
+.ppm-next {
+  display: block;
+  margin: 18px 0 0 auto;
+  padding: 0 24px;
+}
+
+.ppm-results h2 {
+  margin: 0;
+  color: #552bb4;
+  font-size: clamp(2rem, 5vw, 3.6rem);
+}
+
+.ppm-results-score {
+  margin: 8px 0;
+  color: #d94f9a;
+  font-size: 1.35rem;
+  font-weight: 1000;
+}
+
+.ppm-missed-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 14px;
+  margin: 20px 0;
+}
+
+.ppm-missed-list article {
+  border: 1px solid #eadfff;
+  border-radius: 20px;
+  padding: 14px;
+  background: #fff;
+}
+
+.ppm-missed-list strong {
+  color: #5626b9;
+  font-size: 1.06rem;
+}
+
+.ppm-missed-list p {
+  margin: 8px 0;
+  color: #27265b;
+  font-weight: 800;
+}
+
+.ppm-missed-list small {
+  color: #64708f;
+  font-weight: 800;
+}
+
+.ppm-perfect {
+  grid-column: 1 / -1;
+  text-align: center;
+}
+
+[data-theme="dark"] body[data-page-type="pharm-priority-match"] {
+  background:
+    radial-gradient(circle at 10% 12%, rgba(255, 126, 180, 0.12), transparent 28%),
+    radial-gradient(circle at 90% 10%, rgba(139, 92, 246, 0.18), transparent 30%),
+    #141021;
+}
+
+[data-theme="dark"] .ppm-app {
+  color: #f8f4ff;
+}
+
+[data-theme="dark"] .ppm-hero,
+[data-theme="dark"] .ppm-shell,
+[data-theme="dark"] .ppm-game-card,
+[data-theme="dark"] .ppm-results,
+[data-theme="dark"] .ppm-mode,
+[data-theme="dark"] .ppm-status div,
+[data-theme="dark"] .ppm-answer,
+[data-theme="dark"] .ppm-missed-list article {
+  background: rgba(27, 22, 45, 0.92);
+  border-color: rgba(196, 166, 255, 0.32);
+}
+
+[data-theme="dark"] .ppm-hero h1,
+[data-theme="dark"] .ppm-card-title,
+[data-theme="dark"] .ppm-status strong,
+[data-theme="dark"] .ppm-answer,
+[data-theme="dark"] .ppm-answer strong,
+[data-theme="dark"] .ppm-prompt,
+[data-theme="dark"] .ppm-feedback p,
+[data-theme="dark"] .ppm-missed-list p {
+  color: #fff;
+}
+
+[data-theme="dark"] .ppm-hero p:last-child,
+[data-theme="dark"] .ppm-card-subtitle,
+[data-theme="dark"] .ppm-mode span,
+[data-theme="dark"] .ppm-missed-list small {
+  color: #d7cfee;
+}
+
+[data-theme="dark"] .ppm-prompt,
+[data-theme="dark"] .ppm-feedback {
+  background: rgba(67, 47, 105, 0.55);
+}
+
+@media (max-width: 860px) {
+  .ppm-app {
+    padding: 28px 12px 44px;
+  }
+
+  .ppm-hero,
+  .ppm-controls {
+    grid-template-columns: 1fr;
+  }
+
+  .ppm-hero {
+    text-align: center;
+    justify-items: center;
+    border-radius: 28px;
+    padding: 24px 18px;
+  }
+
+  .ppm-back {
+    margin-inline: auto;
+  }
+
+  .ppm-hero-badge {
+    width: 96px;
+    height: 96px;
+    border-radius: 30px;
+    font-size: 3rem;
+  }
+
+  .ppm-shell {
+    padding: 16px;
+  }
+
+  .ppm-status {
+    grid-template-columns: 1fr;
+  }
+
+  .ppm-answers {
+    grid-template-columns: 1fr;
+  }
+
+  .ppm-card-head {
+    display: grid;
+  }
+}
+
+@media (max-width: 520px) {
+  .ppm-mode-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .ppm-game-card,
+  .ppm-results {
+    padding: 18px;
+  }
+
+  .ppm-answer {
+    grid-template-columns: 38px minmax(0, 1fr);
+    min-height: 72px;
+  }
+
+  .ppm-answer span {
+    width: 38px;
+    height: 38px;
+  }
+}

@@ -3270,15 +3270,30 @@ body[data-page-type="pharmacology-home"] .pharm-map-home {
 }
 
 body[data-page-type="pharmacology-home"] .pharm-map-home:hover,
+body[data-page-type="pharmacology-home"] .pharm-map-game:hover,
 body[data-page-type="pharmacology-home"] .pharm-map-link:hover {
   background: rgba(255, 255, 255, .12);
 }
 
 body[data-page-type="pharmacology-home"] .pharm-map-home:focus-visible,
+body[data-page-type="pharmacology-home"] .pharm-map-game:focus-visible,
 body[data-page-type="pharmacology-home"] .pharm-map-link:focus-visible {
   outline: 4px solid rgba(111, 62, 214, .7);
   outline-offset: -4px;
   box-shadow: 0 0 0 7px rgba(255, 255, 255, .78);
+}
+
+body[data-page-type="pharmacology-home"] .pharm-map-game {
+  position: absolute;
+  left: 39.5%;
+  top: 32.25%;
+  width: 21.5%;
+  height: 6.2%;
+  overflow: hidden;
+  border-radius: 999px;
+  color: transparent !important;
+  text-decoration: none !important;
+  font-size: 0;
 }
 
 body[data-page-type="pharmacology-home"] .pharm-map-link {
@@ -3421,6 +3436,22 @@ body[data-page-type="pharmacology-home"] .pharm-mobile-home {
     color: #f0529b;
   }
 
+  body[data-page-type="pharmacology-home"] .pharm-mobile-game-link {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: min(100%, 22rem);
+    min-height: 48px;
+    margin-top: 1rem;
+    padding: .8rem 1.1rem;
+    border-radius: 999px;
+    background: linear-gradient(135deg, #f25ba0, #6e3ed6);
+    color: #fff !important;
+    font-weight: 1000;
+    text-decoration: none !important;
+    box-shadow: 0 14px 28px rgba(111, 62, 214, .22);
+  }
+
   body[data-page-type="pharmacology-home"] .pharm-mobile-grid {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -3513,11 +3544,13 @@ body[data-page-type="pharmacology-home"] .pharm-mobile-home {
 }
 
 [data-theme="dark"] body[data-page-type="pharmacology-home"] .pharm-map-home:hover,
+[data-theme="dark"] body[data-page-type="pharmacology-home"] .pharm-map-game:hover,
 [data-theme="dark"] body[data-page-type="pharmacology-home"] .pharm-map-link:hover {
   background: rgba(124, 92, 214, .16);
 }
 
 [data-theme="dark"] body[data-page-type="pharmacology-home"] .pharm-map-home:focus-visible,
+[data-theme="dark"] body[data-page-type="pharmacology-home"] .pharm-map-game:focus-visible,
 [data-theme="dark"] body[data-page-type="pharmacology-home"] .pharm-map-link:focus-visible {
   outline-color: rgba(212, 196, 255, .9);
   box-shadow: 0 0 0 7px rgba(20, 17, 34, .72);
@@ -3556,6 +3589,10 @@ body[data-page-type="pharmacology-home"] .pharm-mobile-home {
     color: #f7eaff;
   }
 
+  [data-theme="dark"] body[data-page-type="pharmacology-home"] .pharm-mobile-game-link {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, .26);
+  }
+
   [data-theme="dark"] body[data-page-type="pharmacology-home"] .pharm-mobile-card {
     background: color-mix(in srgb, var(--mobile-bg) 18%, #211d32) !important;
     border-color: color-mix(in srgb, var(--mobile-border) 46%, #4c426a) !important;
@@ -3567,5 +3604,167 @@ body[data-page-type="pharmacology-home"] .pharm-mobile-home {
   [data-theme="dark"] body[data-page-type="pharmacology-home"] .pharm-mobile-card small {
     background: rgba(255, 255, 255, .08);
     color: #f4f0ff;
+  }
+}
+
+body[data-page-type="game-hub"] {
+  background:
+    radial-gradient(circle at 12% 15%, rgba(255, 118, 181, .16), transparent 28%),
+    radial-gradient(circle at 85% 12%, rgba(119, 78, 216, .16), transparent 30%),
+    linear-gradient(180deg, #fff 0%, #fff8fc 52%, #f6f0ff 100%);
+}
+
+.game-hub-page {
+  max-width: 1050px;
+  margin: 0 auto;
+  padding: 46px 18px 60px;
+  font-family: "Nunito", system-ui, sans-serif;
+}
+
+.game-hub-hero {
+  margin-bottom: 24px;
+  padding: 34px;
+  border: 1px solid rgba(182, 150, 236, .45);
+  border-radius: 34px;
+  background: rgba(255, 255, 255, .88);
+  box-shadow: 0 22px 50px rgba(93, 61, 158, .12);
+  text-align: center;
+}
+
+.game-hub-hero p {
+  margin: 0 0 .35rem;
+  color: #7b45dc;
+  font-size: .82rem;
+  font-weight: 1000;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+}
+
+.game-hub-hero h1 {
+  margin: 0;
+  color: #552bb4;
+  font-family: "Plus Jakarta Sans", "Nunito", sans-serif;
+  font-size: clamp(2.7rem, 9vw, 5.6rem);
+  line-height: .95;
+  letter-spacing: -.055em;
+}
+
+.game-hub-hero span {
+  display: block;
+  max-width: 650px;
+  margin: .8rem auto 0;
+  color: #5e6387;
+  font-size: 1.1rem;
+  font-weight: 850;
+}
+
+.game-hub-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.game-hub-card {
+  display: grid;
+  gap: .65rem;
+  min-height: 270px;
+  padding: 26px;
+  border: 1px solid var(--hub-border, #dfcff6);
+  border-radius: 30px;
+  background: var(--hub-bg, #fff);
+  color: #141746 !important;
+  text-decoration: none !important;
+  box-shadow: 0 18px 40px rgba(69, 48, 118, .1);
+  transition: transform .18s ease, box-shadow .18s ease;
+}
+
+.game-hub-card:hover,
+.game-hub-card:focus-visible {
+  transform: translateY(-3px);
+  box-shadow: 0 24px 48px rgba(69, 48, 118, .16);
+  outline: 3px solid rgba(124, 67, 223, .28);
+}
+
+.game-hub-card > span {
+  display: grid;
+  place-items: center;
+  width: 72px;
+  height: 72px;
+  border-radius: 24px;
+  background: rgba(255, 255, 255, .78);
+  font-size: 2.2rem;
+}
+
+.game-hub-card small {
+  color: var(--hub-accent, #7b45dc);
+  font-weight: 1000;
+  letter-spacing: .09em;
+  text-transform: uppercase;
+}
+
+.game-hub-card strong {
+  color: #16174b;
+  font-size: clamp(1.65rem, 4vw, 2.3rem);
+  line-height: 1;
+}
+
+.game-hub-card p {
+  margin: 0;
+  color: #5d6388;
+  font-weight: 800;
+}
+
+.game-hub-card b {
+  align-self: end;
+  color: var(--hub-accent, #7b45dc);
+}
+
+.game-hub-card.purple {
+  --hub-bg: linear-gradient(135deg, #f7f1ff, #fff);
+  --hub-border: #d7c3ff;
+  --hub-accent: #6e3ed6;
+}
+
+.game-hub-card.pink {
+  --hub-bg: linear-gradient(135deg, #fff0f7, #fff);
+  --hub-border: #f4bdd9;
+  --hub-accent: #e34d96;
+}
+
+[data-theme="dark"] body[data-page-type="game-hub"] {
+  background:
+    radial-gradient(circle at 12% 15%, rgba(255, 118, 181, .12), transparent 28%),
+    radial-gradient(circle at 85% 12%, rgba(119, 78, 216, .18), transparent 30%),
+    #171522;
+}
+
+[data-theme="dark"] .game-hub-hero,
+[data-theme="dark"] .game-hub-card {
+  background: rgba(30, 25, 48, .92);
+  border-color: rgba(196, 166, 255, .3);
+}
+
+[data-theme="dark"] .game-hub-hero h1,
+[data-theme="dark"] .game-hub-card strong,
+[data-theme="dark"] .game-hub-card {
+  color: #fff !important;
+}
+
+[data-theme="dark"] .game-hub-hero span,
+[data-theme="dark"] .game-hub-card p {
+  color: #d7cfee;
+}
+
+@media (max-width: 720px) {
+  .game-hub-page {
+    padding: 30px 12px 48px;
+  }
+
+  .game-hub-hero {
+    padding: 26px 18px;
+  }
+
+  .game-hub-grid {
+    grid-template-columns: 1fr;
   }
 }

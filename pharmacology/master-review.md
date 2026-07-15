@@ -13,6 +13,10 @@ title: Master Pharmacology Quick Review
 
 Use this page for a **fast final review**. Focus on the medication clue, the biggest danger, what to monitor, and the nursing action that prevents harm.
 
+<div class="cheer-banner">
+  🎯 Want to practice it? <a href="{{ '/pharmacology/priority-match.html' | relative_url }}">Play ATI Pharmacology Priority Match</a>
+</div>
+
 <div class="priority-focus">
   <div>
     <h3>Priority Focus</h3>
