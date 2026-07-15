@@ -118,7 +118,7 @@
       const matched = state.matched.has(key);
       const selected = state.selected === key;
       return `<button type="button" class="ppm-med-card is-${palette[index % palette.length]}${selected ? " is-selected" : ""}${matched ? " is-matched" : ""}" data-key="${escapeHtml(key)}" ${matched ? "disabled" : ""}>
-        <span class="ppm-med-icon">${modes.find((mode) => mode.id === item.promptType)?.icon || "💊"}</span>
+        <span class="ppm-med-icon">💊</span>
         <strong>${escapeHtml(item.medication)}</strong>
         <i aria-hidden="true">${matched ? "✓" : "›"}</i>
       </button>`;
