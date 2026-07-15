@@ -74,6 +74,30 @@
     return labels[item.promptType] || "ATI cue";
   }
 
+  function answerText(item) {
+    return String(item.correctAnswer || "")
+      .replace(/\bheparin-induced thrombocytopenia\b/gi, "medication-induced thrombocytopenia")
+      .replace(/\bdigoxin toxicity\b/gi, "cardiac glycoside toxicity")
+      .replace(/\bDigoxin immune Fab\b/g, "immune Fab antidote")
+      .replace(/\blithium level\b/gi, "serum medication level")
+      .replace(/\bmagnesium accumulation\b/gi, "medication accumulation")
+      .replace(/\bMonitor potassium\b/g, "Monitor the serum electrolyte level")
+      .replace(/\bRegular insulin is clear and is the insulin commonly administered IV\./g, "The clear short-acting insulin is the one commonly administered IV.")
+      .replace(/\bclear regular insulin\b/gi, "clear short-acting insulin")
+      .replace(/\bDo not mix glargine with other insulins\./gi, "Do not mix this long-acting insulin with other insulins.")
+      .replace(/\bcloudy NPH\b/gi, "cloudy insulin")
+      .replace(/\bNPH is cloudy\./gi, "This insulin is cloudy.")
+      .replace(/\btaking naltrexone\b/gi, "taking this medication")
+      .replace(/\bAlbuterol is rescue, not maintenance\./gi, "This is rescue, not maintenance.")
+      .replace(/\bEye drops can still cause systemic beta-blocker effects\./gi, "This medication can still cause systemic beta-blocker effects.")
+      .replace(/\bAvoid combining multiple NSAIDs\./gi, "Avoid combining multiple medications from this class.")
+      .replace(/\bNever give benzathine penicillin IV\./gi, "Never give this long-acting formulation IV.")
+      .replace(/\bMMR and varicella are live\./gi, "These are live vaccines.")
+      .replace(/\bInactivated vaccine that prevents hepatitis B\./gi, "Inactivated vaccine that prevents a bloodborne liver infection.")
+      .replace(/\bAnnual vaccine used to prevent influenza\./gi, "Annual vaccine used to prevent seasonal respiratory viral illness.")
+      .replace(/\bAssess vaccine history and contraindications\./gi, "Assess immunization history and contraindications.");
+  }
+
   function itemKey(item) {
     return `${item.medication}|${item.prompt}|${item.correctAnswer}`;
   }
@@ -135,7 +159,7 @@
       const matched = state.matched.has(key);
       return `<button type="button" class="ppm-answer-card${matched ? " is-matched" : ""}" data-answer-key="${escapeHtml(key)}" ${matched ? "disabled" : ""}>
         <span>${escapeHtml(cueLabel(item))}</span>
-        <strong>${escapeHtml(item.correctAnswer)}</strong>
+        <strong>${escapeHtml(answerText(item))}</strong>
       </button>`;
     }).join("");
   }
@@ -172,7 +196,7 @@
       ? `Final score: ${state.score.toLocaleString()} points. Review your missed cues below.`
       : `Final score: ${state.score.toLocaleString()} points. No missed cues in this run.`;
     $("ppm-missed-review").innerHTML = missed.length
-      ? missed.map((item) => `<article><strong>${escapeHtml(item.medication)}</strong><p>${escapeHtml(item.correctAnswer)}</p><small>${escapeHtml(item.atiCue || item.rationale)}</small></article>`).join("")
+      ? missed.map((item) => `<article><strong>${escapeHtml(item.medication)}</strong><p>${escapeHtml(answerText(item))}</p><small>${escapeHtml(item.atiCue || item.rationale)}</small></article>`).join("")
       : "";
     $("ppm-complete-card").hidden = false;
     $("ppm-next-round").hidden = true;
@@ -203,7 +227,7 @@
         state.best = state.streak;
         localStorage.setItem("pharmPriorityMatchBestStreak", String(state.best));
       }
-      $("ppm-feedback").innerHTML = `<strong>Correct!</strong> ${escapeHtml(selectedItem.medication)} → ${escapeHtml(selectedItem.correctAnswer)} <span>${escapeHtml(selectedItem.atiCue || selectedItem.rationale)}</span>`;
+      $("ppm-feedback").innerHTML = `<strong>Correct!</strong> ${escapeHtml(selectedItem.medication)} → ${escapeHtml(answerText(selectedItem))} <span>${escapeHtml(selectedItem.atiCue || selectedItem.rationale)}</span>`;
       state.selected = null;
       renderBoard();
       updateStats();
@@ -256,7 +280,7 @@
     $("ppm-review-content").innerHTML = [
       ["Class", item.class],
       ["Mode", cueLabel(item)],
-      ["Correct match", item.correctAnswer],
+      ["Correct match", answerText(item)],
       ["Rationale", item.rationale],
       ["ATI cue", item.atiCue]
     ].map(([label, value]) => value ? `<div><strong>${escapeHtml(label)}</strong><p>${escapeHtml(value)}</p></div>` : "").join("");
