@@ -10,12 +10,11 @@
 
   const modes = [
     { id: "mixed", label: "Mixed Review", icon: "🎲", hint: "Every priority cue", matches: () => true },
+    { id: "use-class", label: "Use / Class", icon: "💊", hint: "What it is used for", matches: (item) => item.promptType === "use-class" },
     { id: "priority-danger", label: "Priority Danger", icon: "🚨", hint: "Toxicities + adverse effects", matches: (item) => item.promptType === "priority-danger" },
-    { id: "nursing-action", label: "Nursing Action", icon: "🩺", hint: "Hold, stop, assess, notify", matches: (item) => item.promptType === "nursing-action" },
-    { id: "monitor", label: "Monitor", icon: "📊", hint: "Labs + assessments", matches: (item) => item.promptType === "monitor" },
-    { id: "antidote", label: "Antidote", icon: "🛡️", hint: "Reversal agents", matches: (item) => item.promptType === "antidote" },
-    { id: "patient-teaching", label: "Teaching", icon: "💬", hint: "Client education", matches: (item) => item.promptType === "patient-teaching" },
-    { id: "contraindication-interaction", label: "Interactions", icon: "⚠️", hint: "Unsafe combos", matches: (item) => item.promptType === "contraindication-interaction" }
+    { id: "monitor-hold", label: "Monitor / Hold", icon: "📊", hint: "Labs + hold cues", matches: (item) => item.promptType === "monitor-hold" },
+    { id: "action-antidote", label: "Action / Antidote", icon: "🛡️", hint: "What to do next", matches: (item) => item.promptType === "action-antidote" },
+    { id: "patient-teaching", label: "Teaching Cue", icon: "💬", hint: "Client education", matches: (item) => item.promptType === "patient-teaching" }
   ];
 
   const palette = ["pink", "purple", "mint", "blue", "peach"];
@@ -66,12 +65,11 @@
 
   function cueLabel(item) {
     const labels = {
+      "use-class": "Use / class",
       "priority-danger": "Priority danger",
-      "nursing-action": "Nursing action",
-      monitor: "Monitor",
-      antidote: "Antidote",
-      "patient-teaching": "Teaching",
-      "contraindication-interaction": "Interaction"
+      "monitor-hold": "Monitor / hold",
+      "action-antidote": "Action / antidote",
+      "patient-teaching": "Teaching"
     };
     return labels[item.promptType] || "ATI cue";
   }
@@ -103,7 +101,15 @@
     state.round += 1;
     state.selected = null;
     state.matched = new Set();
-    state.roundItems = shuffle(remaining).slice(0, Math.min(5, remaining.length));
+    const usedMedications = new Set();
+    state.roundItems = [];
+    for (const item of shuffle(remaining)) {
+      if (usedMedications.has(item.medication)) continue;
+      usedMedications.add(item.medication);
+      state.roundItems.push(item);
+      if (state.roundItems.length >= Math.min(5, remaining.length)) break;
+    }
+    if (!state.roundItems.length) state.roundItems = shuffle(remaining).slice(0, Math.min(5, remaining.length));
     state.answerItems = shuffle(state.roundItems);
     $("ppm-next-round").hidden = true;
     $("ppm-complete-card").hidden = true;
