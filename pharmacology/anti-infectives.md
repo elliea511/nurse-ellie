@@ -1,8 +1,7 @@
 ---
-
 layout: default
 title: Anti-Infective Medications
----------------------------------
+---
 
 <div class="mh-breadcrumb">
   <a href="{{ '/pharmacology.html' | relative_url }}">ATI PN Pharmacology</a>
