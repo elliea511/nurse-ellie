@@ -284,6 +284,9 @@ body.prototype {
 .line-heme,.dot-heme { stroke: #ef709a; fill: #ef709a; }
 .line-emergency,.dot-emergency { stroke: #ed8278; fill: #ed8278; }
 .line-maternity,.dot-maternity { stroke: #72bdb5; fill: #72bdb5; }
+.line-sensory,.dot-sensory { stroke: #6d9bd2; fill: #6d9bd2; }
+.line-renal,.dot-renal { stroke: #4fa6c7; fill: #4fa6c7; }
+.line-immune,.dot-immune { stroke: #8abf63; fill: #8abf63; }
 .body-callout {
   position: absolute;
   z-index: 5;
@@ -306,9 +309,12 @@ body.prototype {
 .body-callout strong { font-size: .78rem; line-height: 1.2; }
 .body-callout small { color: var(--proto-muted); font-size: .62rem; line-height: 1.25; }
 .callout-mental { left: 0; top: 60px; background: #eee6fa; }
+.callout-sensory { right: 0; top: 46px; background: #edf3fb; }
 .callout-heme { left: 3px; top: 208px; background: #fff0f5; }
 .callout-emergency { right: 0; top: 164px; background: #fff0ed; }
+.callout-renal { left: 0; top: 355px; background: #e8f5fb; }
 .callout-maternity { right: 0; top: 331px; background: #e9f6f3; }
+.callout-immune { right: 0; top: 462px; background: #f1f8ed; }
 .ati-foundation {
   position: absolute;
   z-index: 6;
@@ -414,7 +420,7 @@ body.prototype {
   .map-emergency { right: 0; top: 63%; }
   .map-mental { right: auto; left: 0; bottom: 2%; }
   .map-ati { left: 0; bottom: auto; top: 42%; }
-  .body-map { min-height: 720px; width: 100%; }
+  .body-map { min-height: 790px; width: 100%; }
   .body-aura { width: 270px; height: 455px; top: 74px; }
   .anatomy-body { height: 455px; top: 60px; }
   .connector-lines { display: none; }
@@ -423,9 +429,12 @@ body.prototype {
   .body-callout strong { font-size: .69rem; }
   .body-callout small { font-size: .57rem; }
   .callout-mental { left: 0; top: 0; }
+  .callout-sensory { right: 0; top: 0; }
   .callout-heme { left: 0; top: 178px; }
   .callout-emergency { right: 0; top: 104px; }
+  .callout-renal { left: 0; top: 286px; }
   .callout-maternity { right: 0; top: 332px; }
+  .callout-immune { right: 0; top: 454px; }
   .ati-foundation { width: min(330px,94%); bottom: 75px; }
   .quick-access { padding: 85px 20px 50px; }
   .access-grid { grid-template-columns: 1fr; }
