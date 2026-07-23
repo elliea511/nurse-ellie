@@ -25,7 +25,7 @@ ATI usually tests anti-infective medications by asking about **allergic reaction
 
 <div class="key-findings" markdown="1">
 
-### Core Rules for All Anti-Infectives
+<h3>Core Rules for All Anti-Infectives</h3>
 
 1. Obtain ordered cultures **before the first dose** whenever possible.
 2. Do not delay emergency treatment when cultures cannot be obtained immediately.
@@ -40,7 +40,7 @@ ATI usually tests anti-infective medications by asking about **allergic reaction
 
 <div class="do-not-miss" markdown="1">
 
-### Birth-Control Clarification
+<h3>Birth-Control Clarification</h3>
 
 Most antibiotics do **not** directly make hormonal contraception ineffective.
 
@@ -57,8 +57,6 @@ Vomiting or severe diarrhea can also reduce absorption of oral contraceptive pil
 </div>
 
 </div>
-
-## Choose a Medication Group
 
 <div class="mh-cards">
 
@@ -156,8 +154,7 @@ Vomiting or severe diarrhea can also reduce absorption of oral contraceptive pil
 <div class="detail-grid" markdown="1">
 
 <div class="detail-mini-card" markdown="1">
-
-**Common Penicillins**
+<strong>Common Penicillins</strong>
 
 * Penicillin G
 * Penicillin V
@@ -168,8 +165,7 @@ Vomiting or severe diarrhea can also reduce absorption of oral contraceptive pil
 </div>
 
 <div class="detail-mini-card" markdown="1">
-
-**Common Cephalosporins**
+<strong>Common Cephalosporins</strong>
 
 * Cephalexin
 * Cefazolin
@@ -180,8 +176,7 @@ Vomiting or severe diarrhea can also reduce absorption of oral contraceptive pil
 </div>
 
 <div class="detail-mini-card" markdown="1">
-
-**Most-Tested Risks**
+<strong>Most-Tested Risks</strong>
 
 * Rash
 * Urticaria
@@ -193,8 +188,7 @@ Vomiting or severe diarrhea can also reduce absorption of oral contraceptive pil
 </div>
 
 <div class="detail-mini-card" markdown="1">
-
-**Patient Teaching**
+<strong>Patient Teaching</strong>
 
 * Complete the entire prescription.
 * Report rash, wheezing, or swelling.
@@ -260,8 +254,7 @@ GI upset is an adverse effect, but it is not the same as an immediate hypersensi
 * Probenecid decreases renal excretion of penicillin and can increase penicillin levels.
 
 <div class="detail-callout" markdown="1">
-
-**ATI Priority:** A client who develops throat tightness, wheezing, hypotension, or facial swelling after an antibiotic requires immediate treatment for possible anaphylaxis.
+<strong>ATI Priority:</strong> A client who develops throat tightness, wheezing, hypotension, or facial swelling after an antibiotic requires immediate treatment for possible anaphylaxis.
 
 </div>
 
@@ -275,8 +268,7 @@ GI upset is an adverse effect, but it is not the same as an immediate hypersensi
 <div class="detail-grid" markdown="1">
 
 <div class="detail-mini-card" markdown="1">
-
-**Common Examples**
+<strong>Common Examples</strong>
 
 * Gentamicin
 * Amikacin
@@ -287,8 +279,7 @@ GI upset is an adverse effect, but it is not the same as an immediate hypersensi
 </div>
 
 <div class="detail-mini-card" markdown="1">
-
-**Priority Dangers**
+<strong>Priority Dangers</strong>
 
 * Nephrotoxicity
 * Ototoxicity
@@ -299,8 +290,7 @@ GI upset is an adverse effect, but it is not the same as an immediate hypersensi
 </div>
 
 <div class="detail-mini-card" markdown="1">
-
-**Monitor**
+<strong>Monitor</strong>
 
 * Serum creatinine
 * BUN
@@ -313,8 +303,7 @@ GI upset is an adverse effect, but it is not the same as an immediate hypersensi
 </div>
 
 <div class="detail-mini-card" markdown="1">
-
-**Report Immediately**
+<strong>Report Immediately</strong>
 
 * Tinnitus
 * Hearing loss
@@ -357,14 +346,12 @@ Use cautiously in clients with:
 * Concurrent neuromuscular-blocking medications
 
 <div class="detail-callout" markdown="1">
-
-**Memory Cue:** Aminoglycosides damage the organs shaped like beans or ears: **kidneys and hearing**.
+<strong>Memory Cue:</strong> Aminoglycosides damage the organs shaped like beans or ears: **kidneys and hearing**.
 
 </div>
 
 <div class="detail-callout" markdown="1">
-
-**ATI Priority:** Tinnitus or reduced urine output is more urgent than mild nausea because it can indicate permanent ototoxicity or nephrotoxicity.
+<strong>ATI Priority:</strong> Tinnitus or reduced urine output is more urgent than mild nausea because it can indicate permanent ototoxicity or nephrotoxicity.
 
 </div>
 
@@ -378,8 +365,7 @@ Use cautiously in clients with:
 <div class="detail-grid" markdown="1">
 
 <div class="detail-mini-card" markdown="1">
-
-**Common Uses**
+<strong>Common Uses</strong>
 
 * Serious gram-positive infections
 * MRSA
@@ -389,8 +375,7 @@ Use cautiously in clients with:
 </div>
 
 <div class="detail-mini-card" markdown="1">
-
-**Priority Dangers**
+<strong>Priority Dangers</strong>
 
 * Nephrotoxicity
 * Vancomycin infusion reaction
@@ -401,8 +386,7 @@ Use cautiously in clients with:
 </div>
 
 <div class="detail-mini-card" markdown="1">
-
-**Infusion Reaction**
+<strong>Infusion Reaction</strong>
 
 * Flushing
 * Itching
@@ -415,8 +399,7 @@ Use cautiously in clients with:
 </div>
 
 <div class="detail-mini-card" markdown="1">
-
-**Monitor**
+<strong>Monitor</strong>
 
 * Serum creatinine
 * Urine output
@@ -447,14 +430,12 @@ Use cautiously in clients with:
 5. Restart at a slower rate only when ordered and clinically appropriate.
 
 <div class="detail-callout" markdown="1">
-
-**Do Not Confuse:** A vancomycin infusion reaction is related to rapid histamine release and does not automatically mean the client has a true IgE-mediated allergy.
+<strong>Do Not Confuse:</strong> A vancomycin infusion reaction is related to rapid histamine release and does not automatically mean the client has a true IgE-mediated allergy.
 
 </div>
 
 <div class="detail-callout" markdown="1">
-
-**ATI Priority:** Hypotension, airway symptoms, or extensive flushing during an infusion requires immediate assessment and intervention.
+<strong>ATI Priority:</strong> Hypotension, airway symptoms, or extensive flushing during an infusion requires immediate assessment and intervention.
 
 </div>
 
@@ -468,8 +449,7 @@ Use cautiously in clients with:
 <div class="detail-grid" markdown="1">
 
 <div class="detail-mini-card" markdown="1">
-
-**Common Examples**
+<strong>Common Examples</strong>
 
 * Azithromycin
 * Clarithromycin
@@ -479,8 +459,7 @@ Use cautiously in clients with:
 </div>
 
 <div class="detail-mini-card" markdown="1">
-
-**Common Uses**
+<strong>Common Uses</strong>
 
 * Respiratory infections
 * Atypical pneumonia
@@ -492,8 +471,7 @@ Use cautiously in clients with:
 </div>
 
 <div class="detail-mini-card" markdown="1">
-
-**Priority Risks**
+<strong>Priority Risks</strong>
 
 * GI upset
 * Hepatotoxicity
@@ -504,8 +482,7 @@ Use cautiously in clients with:
 </div>
 
 <div class="detail-mini-card" markdown="1">
-
-**Patient Teaching**
+<strong>Patient Teaching</strong>
 
 * Take exactly as directed.
 * Report palpitations or fainting.
@@ -535,8 +512,7 @@ Use cautiously in clients with:
 * History of serious ventricular dysrhythmias
 
 <div class="detail-callout" markdown="1">
-
-**ATI Priority:** Palpitations, syncope, or a new dysrhythmia is more urgent than expected nausea.
+<strong>ATI Priority:</strong> Palpitations, syncope, or a new dysrhythmia is more urgent than expected nausea.
 
 </div>
 
@@ -550,8 +526,7 @@ Use cautiously in clients with:
 <div class="detail-grid" markdown="1">
 
 <div class="detail-mini-card" markdown="1">
-
-**Common Examples**
+<strong>Common Examples</strong>
 
 * Doxycycline
 * Tetracycline
@@ -561,8 +536,7 @@ Use cautiously in clients with:
 </div>
 
 <div class="detail-mini-card" markdown="1">
-
-**Common Uses**
+<strong>Common Uses</strong>
 
 * Acne
 * Chlamydia
@@ -573,8 +547,7 @@ Use cautiously in clients with:
 </div>
 
 <div class="detail-mini-card" markdown="1">
-
-**Priority Teaching**
+<strong>Priority Teaching</strong>
 
 * Take with a full glass of water.
 * Remain upright for at least 30 minutes.
@@ -585,8 +558,7 @@ Use cautiously in clients with:
 </div>
 
 <div class="detail-mini-card" markdown="1">
-
-**Separate From**
+<strong>Separate From</strong>
 
 * Antacids
 * Calcium supplements
@@ -618,8 +590,7 @@ They are generally avoided during:
 Doxycycline may still be used for certain serious infections, such as some tick-borne diseases, when clinically indicated.
 
 <div class="detail-callout" markdown="1">
-
-**ATI Priority:** Taking doxycycline with little water immediately before lying down increases the risk of esophagitis and esophageal ulceration.
+<strong>ATI Priority:</strong> Taking doxycycline with little water immediately before lying down increases the risk of esophagitis and esophageal ulceration.
 
 </div>
 
@@ -633,8 +604,7 @@ Doxycycline may still be used for certain serious infections, such as some tick-
 <div class="detail-grid" markdown="1">
 
 <div class="detail-mini-card" markdown="1">
-
-**Common Examples**
+<strong>Common Examples</strong>
 
 * Ciprofloxacin
 * Levofloxacin
@@ -644,8 +614,7 @@ Doxycycline may still be used for certain serious infections, such as some tick-
 </div>
 
 <div class="detail-mini-card" markdown="1">
-
-**Priority Dangers**
+<strong>Priority Dangers</strong>
 
 * Tendinitis
 * Tendon rupture
@@ -658,8 +627,7 @@ Doxycycline may still be used for certain serious infections, such as some tick-
 </div>
 
 <div class="detail-mini-card" markdown="1">
-
-**Higher Tendon Risk**
+<strong>Higher Tendon Risk</strong>
 
 * Older adults
 * Corticosteroid use
@@ -670,8 +638,7 @@ Doxycycline may still be used for certain serious infections, such as some tick-
 </div>
 
 <div class="detail-mini-card" markdown="1">
-
-**Patient Teaching**
+<strong>Patient Teaching</strong>
 
 * Report tendon pain immediately.
 * Stop strenuous activity if symptoms occur.
@@ -699,14 +666,12 @@ Separate fluoroquinolones from:
 These products can significantly reduce medication absorption.
 
 <div class="detail-callout" markdown="1">
-
-**ATI Priority:** New heel, shoulder, or tendon pain is not expected exercise soreness. Hold the medication, restrict stress on the tendon, and notify the provider.
+<strong>ATI Priority:</strong> New heel, shoulder, or tendon pain is not expected exercise soreness. Hold the medication, restrict stress on the tendon, and notify the provider.
 
 </div>
 
 <div class="detail-callout" markdown="1">
-
-**Also Report:** Burning, numbness, tingling, confusion, hallucinations, severe blood-glucose changes, or palpitations.
+<strong>Also Report:</strong> Burning, numbness, tingling, confusion, hallucinations, severe blood-glucose changes, or palpitations.
 
 </div>
 
@@ -717,13 +682,12 @@ These products can significantly reduce medication absorption.
 
 ### Sulfonamides and Urinary Anti-Infectives
 
-## Sulfonamides
+#### Sulfonamides
 
 <div class="detail-grid" markdown="1">
 
 <div class="detail-mini-card" markdown="1">
-
-**Common Examples**
+<strong>Common Examples</strong>
 
 * Trimethoprim-sulfamethoxazole
 * Bactrim
@@ -733,8 +697,7 @@ These products can significantly reduce medication absorption.
 </div>
 
 <div class="detail-mini-card" markdown="1">
-
-**Priority Dangers**
+<strong>Priority Dangers</strong>
 
 * Severe rash
 * Stevens-Johnson syndrome
@@ -747,8 +710,7 @@ These products can significantly reduce medication absorption.
 </div>
 
 <div class="detail-mini-card" markdown="1">
-
-**Patient Teaching**
+<strong>Patient Teaching</strong>
 
 * Drink adequate fluids if not restricted.
 * Use sunscreen.
@@ -759,8 +721,7 @@ These products can significantly reduce medication absorption.
 </div>
 
 <div class="detail-mini-card" markdown="1">
-
-**Monitor**
+<strong>Monitor</strong>
 
 * Kidney function
 * Urine output
@@ -774,18 +735,16 @@ These products can significantly reduce medication absorption.
 </div>
 
 <div class="detail-callout" markdown="1">
-
-**ATI Priority:** A rash with blistering, mucosal sores, fever, or skin peeling can indicate Stevens-Johnson syndrome and requires immediate action.
+<strong>ATI Priority:</strong> A rash with blistering, mucosal sores, fever, or skin peeling can indicate Stevens-Johnson syndrome and requires immediate action.
 
 </div>
 
-## Nitrofurantoin
+#### Nitrofurantoin
 
 <div class="detail-grid" markdown="1">
 
 <div class="detail-mini-card" markdown="1">
-
-**Use**
+<strong>Use</strong>
 
 * Primarily treats lower urinary-tract infections.
 * Does not achieve adequate tissue levels for many systemic infections.
@@ -794,8 +753,7 @@ These products can significantly reduce medication absorption.
 </div>
 
 <div class="detail-mini-card" markdown="1">
-
-**Teaching**
+<strong>Teaching</strong>
 
 * Take with food when directed.
 * Complete the prescription.
@@ -805,8 +763,7 @@ These products can significantly reduce medication absorption.
 </div>
 
 <div class="detail-mini-card" markdown="1">
-
-**Serious Risks**
+<strong>Serious Risks</strong>
 
 * Pulmonary toxicity
 * Hepatotoxicity
@@ -816,8 +773,7 @@ These products can significantly reduce medication absorption.
 </div>
 
 <div class="detail-mini-card" markdown="1">
-
-**Monitor**
+<strong>Monitor</strong>
 
 * Kidney function
 * Respiratory symptoms
@@ -828,7 +784,7 @@ These products can significantly reduce medication absorption.
 
 </div>
 
-## Methenamine
+#### Methenamine
 
 * Used for prevention or suppression of recurrent UTIs in selected clients.
 * Works best when the urine remains acidic.
@@ -837,8 +793,7 @@ These products can significantly reduce medication absorption.
 * Do not automatically recommend large amounts of cranberry juice without checking for contraindications and medication interactions.
 
 <div class="detail-callout" markdown="1">
-
-**ATI Distinction:** Phenazopyridine relieves urinary pain. It does not kill the organism and does not replace an antibiotic.
+<strong>ATI Distinction:</strong> Phenazopyridine relieves urinary pain. It does not kill the organism and does not replace an antibiotic.
 
 </div>
 
@@ -854,8 +809,7 @@ Chloramphenicol is generally reserved for serious infections when safer alternat
 <div class="detail-grid" markdown="1">
 
 <div class="detail-mini-card" markdown="1">
-
-**Potential Uses**
+<strong>Potential Uses</strong>
 
 * Selected severe bacterial infections
 * Serious infections when alternatives are ineffective or contraindicated
@@ -864,8 +818,7 @@ Chloramphenicol is generally reserved for serious infections when safer alternat
 </div>
 
 <div class="detail-mini-card" markdown="1">
-
-**Priority Dangers**
+<strong>Priority Dangers</strong>
 
 * Reversible bone-marrow suppression
 * Irreversible aplastic anemia
@@ -876,8 +829,7 @@ Chloramphenicol is generally reserved for serious infections when safer alternat
 </div>
 
 <div class="detail-mini-card" markdown="1">
-
-**Gray Baby Syndrome**
+<strong>Gray Baby Syndrome</strong>
 
 * Abdominal distention
 * Vomiting
@@ -888,8 +840,7 @@ Chloramphenicol is generally reserved for serious infections when safer alternat
 </div>
 
 <div class="detail-mini-card" markdown="1">
-
-**Monitor**
+<strong>Monitor</strong>
 
 * CBC
 * Reticulocyte count when ordered
@@ -903,8 +854,7 @@ Chloramphenicol is generally reserved for serious infections when safer alternat
 </div>
 
 <div class="detail-callout" markdown="1">
-
-**ATI Priority:** Fever, sore throat, unusual bleeding, bruising, or profound fatigue can indicate bone-marrow toxicity.
+<strong>ATI Priority:</strong> Fever, sore throat, unusual bleeding, bruising, or profound fatigue can indicate bone-marrow toxicity.
 
 </div>
 
@@ -963,8 +913,7 @@ Treatment length varies according to the regimen, drug susceptibility, age, dise
 <div class="detail-grid" markdown="1">
 
 <div class="detail-mini-card" markdown="1">
-
-**Rifampin**
+<strong>Rifampin</strong>
 
 * Orange-red urine, sweat, saliva, and tears are expected.
 * Soft contact lenses can become permanently stained.
@@ -975,8 +924,7 @@ Treatment length varies according to the regimen, drug susceptibility, age, dise
 </div>
 
 <div class="detail-mini-card" markdown="1">
-
-**Isoniazid**
+<strong>Isoniazid</strong>
 
 * Monitor liver function when indicated.
 * Avoid alcohol.
@@ -987,8 +935,7 @@ Treatment length varies according to the regimen, drug susceptibility, age, dise
 </div>
 
 <div class="detail-mini-card" markdown="1">
-
-**Pyrazinamide**
+<strong>Pyrazinamide</strong>
 
 * Can increase uric-acid levels.
 * Can trigger joint pain or gout.
@@ -998,8 +945,7 @@ Treatment length varies according to the regimen, drug susceptibility, age, dise
 </div>
 
 <div class="detail-mini-card" markdown="1">
-
-**Ethambutol**
+<strong>Ethambutol</strong>
 
 * Obtain baseline and follow-up visual assessment as ordered.
 * Report blurred vision.
@@ -1036,8 +982,7 @@ Treatment length varies according to the regimen, drug susceptibility, age, dise
 * Failure to adhere can result in treatment failure and drug resistance.
 
 <div class="detail-callout" markdown="1">
-
-**ATI Priority:** Vision changes with ethambutol, numbness with isoniazid, jaundice with RIPE medications, or severe medication interactions with rifampin require prompt reporting.
+<strong>ATI Priority:</strong> Vision changes with ethambutol, numbness with isoniazid, jaundice with RIPE medications, or severe medication interactions with rifampin require prompt reporting.
 
 </div>
 
@@ -1048,13 +993,12 @@ Treatment length varies according to the regimen, drug susceptibility, age, dise
 
 ### Antivirals and HIV Therapy
 
-## Herpes Antivirals
+#### Herpes Antivirals
 
 <div class="detail-grid" markdown="1">
 
 <div class="detail-mini-card" markdown="1">
-
-**Common Examples**
+<strong>Common Examples</strong>
 
 * Acyclovir
 * Valacyclovir
@@ -1063,8 +1007,7 @@ Treatment length varies according to the regimen, drug susceptibility, age, dise
 </div>
 
 <div class="detail-mini-card" markdown="1">
-
-**Purpose**
+<strong>Purpose</strong>
 
 * Reduce severity and duration of outbreaks
 * Reduce viral shedding
@@ -1074,8 +1017,7 @@ Treatment length varies according to the regimen, drug susceptibility, age, dise
 </div>
 
 <div class="detail-mini-card" markdown="1">
-
-**Safety**
+<strong>Safety</strong>
 
 * Encourage hydration if not contraindicated.
 * Monitor kidney function.
@@ -1085,8 +1027,7 @@ Treatment length varies according to the regimen, drug susceptibility, age, dise
 </div>
 
 <div class="detail-mini-card" markdown="1">
-
-**Teaching**
+<strong>Teaching</strong>
 
 * The medication does not cure herpes.
 * Transmission can occur without visible lesions.
@@ -1098,20 +1039,18 @@ Treatment length varies according to the regimen, drug susceptibility, age, dise
 </div>
 
 <div class="detail-callout" markdown="1">
-
-**ATI Priority:** Decreased urine output or rising creatinine during IV acyclovir can indicate kidney injury or crystalluria.
+<strong>ATI Priority:</strong> Decreased urine output or rising creatinine during IV acyclovir can indicate kidney injury or crystalluria.
 
 </div>
 
-## HIV Antiretroviral Therapy
+#### HIV Antiretroviral Therapy
 
 Antiretroviral therapy, or **ART**, suppresses HIV replication and helps preserve immune function.
 
 <div class="detail-grid" markdown="1">
 
 <div class="detail-mini-card" markdown="1">
-
-**ART Goals**
+<strong>ART Goals</strong>
 
 * Achieve viral suppression
 * Maintain or improve CD4 count
@@ -1122,8 +1061,7 @@ Antiretroviral therapy, or **ART**, suppresses HIV replication and helps preserv
 </div>
 
 <div class="detail-mini-card" markdown="1">
-
-**Adherence**
+<strong>Adherence</strong>
 
 * Take medications exactly as prescribed.
 * Missing doses allows HIV to replicate.
@@ -1133,8 +1071,7 @@ Antiretroviral therapy, or **ART**, suppresses HIV replication and helps preserv
 </div>
 
 <div class="detail-mini-card" markdown="1">
-
-**Monitor**
+<strong>Monitor</strong>
 
 * Viral load
 * CD4 count
@@ -1146,8 +1083,7 @@ Antiretroviral therapy, or **ART**, suppresses HIV replication and helps preserv
 </div>
 
 <div class="detail-mini-card" markdown="1">
-
-**Transmission Teaching**
+<strong>Transmission Teaching</strong>
 
 * Sustained viral suppression prevents sexual HIV transmission.
 * ART does not prevent other sexually transmitted infections.
@@ -1158,7 +1094,7 @@ Antiretroviral therapy, or **ART**, suppresses HIV replication and helps preserv
 
 </div>
 
-### Zidovudine
+#### Zidovudine
 
 Zidovudine is an older nucleoside reverse transcriptase inhibitor that may still appear in ATI questions.
 
@@ -1179,8 +1115,7 @@ Zidovudine is an older nucleoside reverse transcriptase inhibitor that may still
 * Pallor and fatigue
 
 <div class="detail-callout" markdown="1">
-
-**ATI Correction:** A client who achieves and maintains an undetectable viral load does not sexually transmit HIV. This is known as **U=U: Undetectable = Untransmittable**.
+<strong>ATI Correction:</strong> A client who achieves and maintains an undetectable viral load does not sexually transmit HIV. This is known as **U=U: Undetectable = Untransmittable**.
 
 </div>
 
@@ -1197,13 +1132,12 @@ For the full disease process, transmission, stages, laboratory findings, opportu
 
 ### Antifungals
 
-## Amphotericin B
+#### Amphotericin B
 
 <div class="detail-grid" markdown="1">
 
 <div class="detail-mini-card" markdown="1">
-
-**Use**
+<strong>Use</strong>
 
 * Serious systemic fungal infections
 * Potentially life-threatening fungal disease
@@ -1212,8 +1146,7 @@ For the full disease process, transmission, stages, laboratory findings, opportu
 </div>
 
 <div class="detail-mini-card" markdown="1">
-
-**Infusion Reactions**
+<strong>Infusion Reactions</strong>
 
 * Fever
 * Chills
@@ -1225,8 +1158,7 @@ For the full disease process, transmission, stages, laboratory findings, opportu
 </div>
 
 <div class="detail-mini-card" markdown="1">
-
-**Major Toxicities**
+<strong>Major Toxicities</strong>
 
 * Nephrotoxicity
 * Hypokalemia
@@ -1238,8 +1170,7 @@ For the full disease process, transmission, stages, laboratory findings, opportu
 </div>
 
 <div class="detail-mini-card" markdown="1">
-
-**Monitor**
+<strong>Monitor</strong>
 
 * Creatinine and BUN
 * Urine output
@@ -1262,18 +1193,16 @@ For the full disease process, transmission, stages, laboratory findings, opportu
 * Report decreased urine output, palpitations, severe weakness, or hypotension.
 
 <div class="detail-callout" markdown="1">
-
-**Memory Cue:** “Ampho-terrible” affects the **kidneys, potassium, magnesium, blood count, and blood pressure**.
+<strong>Memory Cue:</strong> “Ampho-terrible” affects the **kidneys, potassium, magnesium, blood count, and blood pressure**.
 
 </div>
 
-## Nystatin
+#### Nystatin
 
 <div class="detail-grid" markdown="1">
 
 <div class="detail-mini-card" markdown="1">
-
-**Common Uses**
+<strong>Common Uses</strong>
 
 * Oral candidiasis
 * Skin candidiasis
@@ -1283,8 +1212,7 @@ For the full disease process, transmission, stages, laboratory findings, opportu
 </div>
 
 <div class="detail-mini-card" markdown="1">
-
-**Oral Suspension Teaching**
+<strong>Oral Suspension Teaching</strong>
 
 * Shake the suspension.
 * Swish thoroughly around the mouth.
@@ -1295,8 +1223,7 @@ For the full disease process, transmission, stages, laboratory findings, opportu
 </div>
 
 <div class="detail-mini-card" markdown="1">
-
-**Topical Teaching**
+<strong>Topical Teaching</strong>
 
 * Clean and dry the affected area.
 * Apply as prescribed.
@@ -1306,8 +1233,7 @@ For the full disease process, transmission, stages, laboratory findings, opportu
 </div>
 
 <div class="detail-mini-card" markdown="1">
-
-**Expected Outcome**
+<strong>Expected Outcome</strong>
 
 * Decreased white patches
 * Reduced oral discomfort
@@ -1318,7 +1244,7 @@ For the full disease process, transmission, stages, laboratory findings, opportu
 
 </div>
 
-## Azole Antifungals
+#### Azole Antifungals
 
 Common examples include:
 
@@ -1335,8 +1261,7 @@ Priority considerations can include:
 * Monitoring liver function with systemic therapy
 
 <div class="detail-callout" markdown="1">
-
-**ATI Priority:** Decreased urine output during amphotericin B therapy is more urgent than expected fever or chills because it can indicate nephrotoxicity.
+<strong>ATI Priority:</strong> Decreased urine output during amphotericin B therapy is more urgent than expected fever or chills because it can indicate nephrotoxicity.
 
 </div>
 
@@ -1346,7 +1271,7 @@ Priority considerations can include:
 
 <div class="mh-table-card" markdown="1">
 
-### Master Anti-Infective Comparison
+<h3>Master Anti-Infective Comparison</h3>
 
 | Medication or Class  | Main ATI Danger                          | Important Monitoring                                 | Essential Teaching                                          |
 | -------------------- | ---------------------------------------- | ---------------------------------------------------- | ----------------------------------------------------------- |
@@ -1375,7 +1300,7 @@ Priority considerations can include:
 
 <div class="key-findings" markdown="1">
 
-### Anti-Infective Big Picture
+<h3>📋 Anti-Infective Big Picture</h3>
 
 * Obtain cultures before the first dose whenever possible.
 * Maintain evenly spaced medication levels.
@@ -1396,7 +1321,7 @@ Priority considerations can include:
 
 <div class="report-now" markdown="1">
 
-### Report Immediately
+<h3>Report Immediately</h3>
 
 * Wheezing, facial swelling, or throat tightness
 * Severe watery diarrhea
@@ -1415,7 +1340,7 @@ Priority considerations can include:
 
 <div class="nclex-tip" markdown="1">
 
-### ATI Priority Rule
+<h3>ATI Priority Rule</h3>
 
 When several adverse effects are listed, prioritize:
 
@@ -1437,7 +1362,7 @@ When several adverse effects are listed, prioritize:
 
 <div class="quick-review" markdown="1">
 
-### Quick Review
+<h3>Quick Review</h3>
 
 1. Culture before therapy when possible.
 2. Verify allergies before administration.
@@ -1456,7 +1381,7 @@ When several adverse effects are listed, prioritize:
 
 <div class="do-not-miss" markdown="1">
 
-### Do Not Miss
+<h3>Do Not Miss</h3>
 
 * Never administer benzathine penicillin IV.
 * Do not dismiss a new antibiotic rash.
