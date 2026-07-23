@@ -27,14 +27,14 @@ ATI usually tests anti-infective medications by asking about **allergic reaction
 
 <h3>Core Rules for All Anti-Infectives</h3>
 
-1. Obtain ordered cultures **before the first dose** whenever possible.
-2. Do not delay emergency treatment when cultures cannot be obtained immediately.
-3. Give doses at evenly spaced intervals to maintain therapeutic medication levels.
-4. Complete the entire prescribed course unless the provider discontinues it.
-5. Never save leftover antibiotics or take medication prescribed for someone else.
-6. Monitor for allergic reactions, organ toxicity, and superinfection.
-7. Severe or persistent diarrhea can indicate **antibiotic-associated colitis or C. difficile**.
-8. Review pregnancy status, allergies, kidney function, liver function, and medication interactions.
+* Obtain ordered cultures **before the first dose** whenever possible.
+* Do not delay emergency treatment when cultures cannot be obtained immediately.
+* Give doses at evenly spaced intervals to maintain therapeutic medication levels.
+* Complete the entire prescribed course unless the provider discontinues it.
+* Never save leftover antibiotics or take medication prescribed for someone else.
+* Monitor for allergic reactions, organ toxicity, and superinfection.
+* Severe or persistent diarrhea can indicate **antibiotic-associated colitis or C. difficile**.
+* Review pregnancy status, allergies, kidney function, liver function, and medication interactions.
 
 </div>
 
@@ -67,35 +67,35 @@ Vomiting or severe diarrhea can also reduce absorption of oral contraceptive pil
     <a class="mh-btn" href="#panel-penicillins">Study This Group</a>
   </div>
 
-  <div class="mh-card red">
+  <div class="mh-card green">
     <div class="mh-card-icon">👂</div>
     <h3>Aminoglycosides</h3>
     <p>Nephrotoxicity, ototoxicity, neuromuscular blockade, and medication levels.</p>
     <a class="mh-btn" href="#panel-aminoglycosides">Study Aminoglycosides</a>
   </div>
 
-  <div class="mh-card purple">
+  <div class="mh-card pink">
     <div class="mh-card-icon">🩸</div>
     <h3>Vancomycin</h3>
     <p>Infusion reaction, kidney injury, route differences, and slow administration.</p>
     <a class="mh-btn" href="#panel-vancomycin">Study Vancomycin</a>
   </div>
 
-  <div class="mh-card coral">
+  <div class="mh-card purple">
     <div class="mh-card-icon">🦠</div>
     <h3>Macrolides</h3>
     <p>GI effects, QT prolongation, liver injury, and administration teaching.</p>
     <a class="mh-btn" href="#panel-macrolides">Study Macrolides</a>
   </div>
 
-  <div class="mh-card yellow">
+  <div class="mh-card blue">
     <div class="mh-card-icon">☀️</div>
     <h3>Tetracyclines</h3>
     <p>Photosensitivity, mineral interactions, esophageal injury, and tooth discoloration.</p>
     <a class="mh-btn" href="#panel-tetracyclines">Study Tetracyclines</a>
   </div>
 
-  <div class="mh-card orange">
+  <div class="mh-card green">
     <div class="mh-card-icon">🦵</div>
     <h3>Fluoroquinolones</h3>
     <p>Tendon injury, neurologic effects, absorption interactions, and client teaching.</p>
@@ -109,35 +109,35 @@ Vomiting or severe diarrhea can also reduce absorption of oral contraceptive pil
     <a class="mh-btn" href="#panel-sulfonamides">Study UTI Meds</a>
   </div>
 
-  <div class="mh-card slate">
+  <div class="mh-card purple">
     <div class="mh-card-icon">⚠️</div>
     <h3>Chloramphenicol</h3>
     <p>Bone-marrow suppression, aplastic anemia, and gray baby syndrome.</p>
     <a class="mh-btn" href="#panel-chloramphenicol">Study Chloramphenicol</a>
   </div>
 
-  <div class="mh-card teal">
+  <div class="mh-card blue">
     <div class="mh-card-icon">🫁</div>
     <h3>Tuberculosis Medications</h3>
     <p>RIPE therapy, liver injury, vitamin B6, vision changes, and orange fluids.</p>
     <a class="mh-btn" href="#panel-tb-meds">Study TB Meds</a>
   </div>
 
-  <div class="mh-card pink">
+  <div class="mh-card green">
     <div class="mh-card-icon">🧬</div>
     <h3>Antivirals & HIV Therapy</h3>
     <p>Herpes treatment, kidney safety, ART adherence, viral suppression, and CBC monitoring.</p>
     <a class="mh-btn" href="#panel-antivirals">Study Antivirals</a>
   </div>
 
-  <div class="mh-card green">
+  <div class="mh-card pink">
     <div class="mh-card-icon">🍄</div>
     <h3>Antifungals</h3>
     <p>Amphotericin B, nystatin, azoles, kidney injury, electrolytes, and liver monitoring.</p>
     <a class="mh-btn" href="#panel-antifungals">Study Antifungals</a>
   </div>
 
-  <div class="mh-card lavender">
+  <div class="mh-card purple">
     <div class="mh-card-icon">📋</div>
     <h3>Master Comparison</h3>
     <p>Quickly compare the most-tested danger, monitoring, and teaching for each class.</p>
@@ -260,7 +260,7 @@ GI upset is an adverse effect, but it is not the same as an immediate hypersensi
 
 </div>
 
-<div class="mh-detail red" id="panel-aminoglycosides" markdown="1">
+<div class="mh-detail green" id="panel-aminoglycosides" markdown="1">
 <a class="mh-detail-close" href="#">✕</a>
 
 ### Aminoglycosides
@@ -357,7 +357,7 @@ Use cautiously in clients with:
 
 </div>
 
-<div class="mh-detail purple" id="panel-vancomycin" markdown="1">
+<div class="mh-detail pink" id="panel-vancomycin" markdown="1">
 <a class="mh-detail-close" href="#">✕</a>
 
 ### Vancomycin
@@ -441,7 +441,7 @@ Use cautiously in clients with:
 
 </div>
 
-<div class="mh-detail coral" id="panel-macrolides" markdown="1">
+<div class="mh-detail purple" id="panel-macrolides" markdown="1">
 <a class="mh-detail-close" href="#">✕</a>
 
 ### Macrolides
@@ -518,7 +518,7 @@ Use cautiously in clients with:
 
 </div>
 
-<div class="mh-detail yellow" id="panel-tetracyclines" markdown="1">
+<div class="mh-detail blue" id="panel-tetracyclines" markdown="1">
 <a class="mh-detail-close" href="#">✕</a>
 
 ### Tetracyclines
@@ -596,7 +596,7 @@ Doxycycline may still be used for certain serious infections, such as some tick-
 
 </div>
 
-<div class="mh-detail orange" id="panel-fluoroquinolones" markdown="1">
+<div class="mh-detail green" id="panel-fluoroquinolones" markdown="1">
 <a class="mh-detail-close" href="#">✕</a>
 
 ### Fluoroquinolones
@@ -799,7 +799,7 @@ These products can significantly reduce medication absorption.
 
 </div>
 
-<div class="mh-detail slate" id="panel-chloramphenicol" markdown="1">
+<div class="mh-detail purple" id="panel-chloramphenicol" markdown="1">
 <a class="mh-detail-close" href="#">✕</a>
 
 ### Chloramphenicol
@@ -860,7 +860,7 @@ Chloramphenicol is generally reserved for serious infections when safer alternat
 
 </div>
 
-<div class="mh-detail teal" id="panel-tb-meds" markdown="1">
+<div class="mh-detail blue" id="panel-tb-meds" markdown="1">
 <a class="mh-detail-close" href="#">✕</a>
 
 ### Tuberculosis Medications
@@ -988,7 +988,7 @@ Treatment length varies according to the regimen, drug susceptibility, age, dise
 
 </div>
 
-<div class="mh-detail pink" id="panel-antivirals" markdown="1">
+<div class="mh-detail green" id="panel-antivirals" markdown="1">
 <a class="mh-detail-close" href="#">✕</a>
 
 ### Antivirals and HIV Therapy
@@ -1127,7 +1127,7 @@ For the full disease process, transmission, stages, laboratory findings, opportu
 
 </div>
 
-<div class="mh-detail green" id="panel-antifungals" markdown="1">
+<div class="mh-detail pink" id="panel-antifungals" markdown="1">
 <a class="mh-detail-close" href="#">✕</a>
 
 ### Antifungals
