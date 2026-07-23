@@ -31,52 +31,59 @@ page_type: renal-hub
   }
 
   .renal-page {
-    min-height: 100vh;
+    min-height: calc(100vh - 92px);
     font-family: "Nunito", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
     background:
-      radial-gradient(circle at 50% 28%, rgba(255,255,255,.96) 0 23rem, rgba(232,244,255,.64) 41rem, transparent 60rem),
+      radial-gradient(circle at 50% 28%, rgba(255,255,255,.96) 0 21rem, rgba(232,244,255,.64) 39rem, transparent 58rem),
       linear-gradient(180deg, #fafdff 0%, #edf7ff 100%);
   }
 
   .renal-hero {
     width: min(100%, 1440px);
     margin: 0 auto;
-    padding: clamp(2.9rem, 5vw, 4.6rem) clamp(1.2rem, 4vw, 4.2rem) 4.4rem;
+    padding: clamp(.9rem, 2vh, 1.35rem) clamp(1.2rem, 4vw, 4.2rem) .95rem;
   }
 
   .renal-title {
     text-align: center;
-    margin-bottom: clamp(1.7rem, 3vw, 2.3rem);
+    margin-bottom: clamp(.75rem, 1.6vh, 1rem);
   }
 
   .renal-title h1 {
-    margin: 0;
+    display: block !important;
+    margin: 0 auto !important;
+    padding: 0 !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+    background: transparent !important;
+    box-shadow: none !important;
     font-family: "Playfair Display", Georgia, serif !important;
-    font-size: clamp(4rem, 7.1vw, 6.75rem) !important;
-    line-height: .92;
+    font-size: clamp(3.35rem, 5.6vw, 5.25rem) !important;
+    line-height: .9 !important;
     letter-spacing: -.04em;
     color: #102a55 !important;
+    -webkit-text-fill-color: #102a55 !important;
     text-shadow: 0 6px 18px rgba(28, 72, 129, .14);
   }
 
   .renal-title p {
-    margin: 1rem 0 0;
+    margin: .45rem 0 0;
     color: #59617f;
-    font-size: clamp(1.25rem, 2.1vw, 1.9rem);
+    font-size: clamp(1.08rem, 1.75vw, 1.45rem);
     font-weight: 900;
   }
 
   .renal-map {
     position: relative;
-    min-height: 600px;
+    min-height: min(49vh, 430px);
   }
 
   .renal-anatomy {
     position: absolute;
     left: 50%;
-    top: 1.2rem;
-    width: min(38vw, 430px);
-    min-width: 340px;
+    top: .15rem;
+    width: min(30vw, 300px);
+    min-width: 255px;
     transform: translateX(-50%);
     z-index: 2;
     filter: drop-shadow(0 20px 34px rgba(66, 121, 173, .16));
@@ -86,7 +93,7 @@ page_type: renal-hub
     position: absolute;
     inset: 0;
     width: 100%;
-    height: 590px;
+    height: min(49vh, 430px);
     pointer-events: none;
     z-index: 3;
     overflow: visible;
@@ -94,14 +101,14 @@ page_type: renal-hub
 
   .renal-connectors path {
     fill: none;
-    stroke-width: 4;
+    stroke-width: 3.4;
     stroke-linecap: round;
     stroke-linejoin: round;
   }
 
   .renal-connectors circle {
     stroke: #f7fbff;
-    stroke-width: 4;
+    stroke-width: 3.4;
   }
 
   .renal-line-uti,
@@ -122,15 +129,15 @@ page_type: renal-hub
   .renal-topic-card {
     position: absolute;
     z-index: 4;
-    width: min(32vw, 380px);
-    min-width: 300px;
-    min-height: 128px;
+    width: min(31vw, 340px);
+    min-width: 275px;
+    min-height: 96px;
     display: grid;
-    grid-template-columns: 5.9rem 1fr;
+    grid-template-columns: 4.35rem 1fr;
     align-items: center;
-    gap: 1.15rem;
-    padding: 1.15rem 1.35rem;
-    border-radius: 1.35rem;
+    gap: .95rem;
+    padding: .8rem 1rem;
+    border-radius: 1rem;
     background: rgba(255,255,255,.76);
     border: 2px solid currentColor;
     color: var(--renal-card-color);
@@ -149,14 +156,14 @@ page_type: renal-hub
 
   .renal-topic-card strong {
     font-family: "Playfair Display", Georgia, serif !important;
-    font-size: clamp(1.65rem, 2.4vw, 2.1rem);
+    font-size: clamp(1.3rem, 2vw, 1.72rem);
     line-height: 1.13;
     color: currentColor;
   }
 
   .renal-topic-icon {
-    width: 5.45rem;
-    height: 5.45rem;
+    width: 3.95rem;
+    height: 3.95rem;
     display: grid;
     place-items: center;
     border-radius: 999px;
@@ -164,8 +171,8 @@ page_type: renal-hub
   }
 
   .renal-topic-icon svg {
-    width: 3.35rem;
-    height: 3.35rem;
+    width: 2.55rem;
+    height: 2.55rem;
     stroke: currentColor;
     fill: none;
     stroke-width: 2.3;
@@ -176,52 +183,52 @@ page_type: renal-hub
   .renal-card-uti {
     --renal-card-color: #276ad6;
     left: 1.2rem;
-    top: 1.1rem;
+    top: .85rem;
     background: linear-gradient(135deg, rgba(255,255,255,.84), rgba(231,242,255,.86));
   }
 
   .renal-card-stones {
     --renal-card-color: #2e8e5b;
     left: 1.2rem;
-    top: 12.75rem;
+    top: 10.15rem;
     background: linear-gradient(135deg, rgba(255,255,255,.82), rgba(231,247,237,.88));
   }
 
   .renal-card-glom {
     --renal-card-color: #159eb2;
     left: 1.2rem;
-    top: 24.7rem;
+    top: 19.45rem;
     background: linear-gradient(135deg, rgba(255,255,255,.82), rgba(228,248,251,.9));
   }
 
   .renal-card-procedure {
     --renal-card-color: #f0604b;
     right: 1.2rem;
-    top: 6.65rem;
+    top: 5.9rem;
     background: linear-gradient(135deg, rgba(255,255,255,.84), rgba(255,239,235,.88));
   }
 
   .renal-card-disease {
     --renal-card-color: #845cc2;
     right: 1.2rem;
-    top: 24.7rem;
+    top: 20.35rem;
     background: linear-gradient(135deg, rgba(255,255,255,.84), rgba(243,236,255,.9));
   }
 
   .renal-home-link {
-    width: min(480px, 92%);
-    min-height: 88px;
-    margin: 2.2rem auto 0;
+    width: min(410px, 92%);
+    min-height: 58px;
+    margin: .55rem auto 0;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 1.2rem;
     border: 2px solid #91bff5;
-    border-radius: 1.05rem;
+    border-radius: .85rem;
     background: rgba(255,255,255,.68);
     color: #236ed6 !important;
     text-decoration: none !important;
-    font-size: clamp(1.15rem, 2vw, 1.55rem);
+    font-size: clamp(1rem, 1.45vw, 1.22rem);
     font-weight: 1000;
     box-shadow: 0 10px 24px rgba(62, 112, 170, .11);
     backdrop-filter: blur(12px);
@@ -234,8 +241,8 @@ page_type: renal-hub
   }
 
   .renal-home-link svg {
-    width: 2.55rem;
-    height: 2.55rem;
+    width: 1.8rem;
+    height: 1.8rem;
     stroke: currentColor;
     fill: none;
     stroke-width: 2.5;
