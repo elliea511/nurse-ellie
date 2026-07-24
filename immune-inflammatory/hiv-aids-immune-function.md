@@ -458,8 +458,8 @@ The client may also need:
 
 <section class="renal-note-section" markdown="1">
 
-<a class="notes-figure" href="{{ '/assets/images/hiv-stages.png' | relative_url }}" target="_blank" rel="noopener">
-<img src="{{ '/assets/images/hiv-stages.png' | relative_url }}" alt="HIV stages infographic: Stage 1 acute infection with flu-like symptoms 2 to 4 weeks after infection; Stage 2 latency, often asymptomatic with low-level replication and healthy CD4 counts, lasting 8 years or longer; Stage 3 AIDS with CD4 below 200 cells/mm3, opportunistic infections, and survival usually 1 to 3 years; Stage 4 HIV infection with stage not yet determined; plus quick memory cues for each stage.">
+<a class="notes-figure" href="{{ '/Exam5/hiv-stages.png' | relative_url }}" target="_blank" rel="noopener">
+<img src="{{ '/Exam5/hiv-stages.png' | relative_url }}" alt="HIV stages infographic: Stage 1 acute infection with flu-like symptoms 2 to 4 weeks after infection; Stage 2 latency, often asymptomatic with low-level replication and healthy CD4 counts, lasting 8 years or longer; Stage 3 AIDS with CD4 below 200 cells/mm3, opportunistic infections, and survival usually 1 to 3 years; Stage 4 HIV infection with stage not yet determined; plus quick memory cues for each stage.">
 </a>
 <p class="notes-figure-caption">HIV stages at a glance — select the image to open it full size.</p>
 
