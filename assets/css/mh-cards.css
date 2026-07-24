@@ -2188,6 +2188,29 @@ body[data-page-type="mental-health-hub"] .main-content .mh-guide-icon img {
   :is(body[data-section="renal-urinary"], body[data-section="sensory-perception"], body[data-section="immune-inflammatory"]) .renal-strip > div:first-child { border-top: none; }
 }
 
+/* Inline note figures (infographics): shown inline, click/tap to open full size. */
+.notes-figure {
+  display: block;
+  max-width: 620px;
+  margin: 0.75rem auto 0.4rem;
+  border-radius: 14px;
+  overflow: hidden;
+  border: 1px solid #e9e9f1;
+  box-shadow: 0 4px 16px rgba(34, 28, 80, 0.08);
+  cursor: zoom-in;
+}
+.notes-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.notes-figure-caption {
+  text-align: center;
+  font-size: 0.85rem;
+  color: var(--mh-muted, #5b5f82);
+  margin: 0 0 0.5rem;
+}
+
 /* Landing hub final composition: disorders orbit the brain; support topics sit below. */
 body[data-page-type="mental-health-hub"] .mh-hub-main { min-width: 0; }
 
