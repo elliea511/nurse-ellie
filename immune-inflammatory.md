@@ -16,7 +16,7 @@ page_type: immune-hub
     width: 100% !important;
     max-width: 100% !important;
     margin: 0 !important;
-    padding: 1.35rem 0 2rem !important;
+    padding: 1.25rem 0 2rem !important;
     border: 0 !important;
     border-radius: 0 !important;
     box-shadow: none !important;
@@ -47,10 +47,10 @@ page_type: immune-hub
 
   .immune-layout {
     display: grid;
-    grid-template-columns: minmax(0, 1fr) 300px;
-    gap: 28px;
-    align-items: start;
-    width: min(100% - 32px, 1320px);
+    grid-template-columns: minmax(720px, 1fr) 320px;
+    gap: 2.2rem;
+    align-items: stretch;
+    width: min(100% - 64px, 1320px);
     margin-inline: auto;
   }
 
@@ -60,7 +60,7 @@ page_type: immune-hub
   }
 
   .immune-heading {
-    margin: 0 0 0.9rem;
+    margin: 0 0 1.1rem;
     text-align: center;
   }
 
@@ -69,9 +69,9 @@ page_type: immune-hub
     align-items: center;
     justify-content: center;
     gap: 0.75rem;
-    margin: 0 0 0.25rem;
+    margin: 0 0 0.15rem;
     color: var(--immune-purple);
-    font-size: 1.7rem;
+    font-size: 1.45rem;
   }
 
   .immune-heading h1 {
@@ -87,7 +87,7 @@ page_type: immune-hub
     color: var(--immune-navy) !important;
     -webkit-text-fill-color: var(--immune-navy) !important;
     font-family: "Nunito", sans-serif !important;
-    font-size: clamp(2.35rem, 4.4vw, 3.75rem) !important;
+    font-size: clamp(2rem, 3vw, 3.15rem) !important;
     font-weight: 900 !important;
     letter-spacing: -0.045em;
     line-height: 1 !important;
@@ -101,17 +101,17 @@ page_type: immune-hub
   }
 
   .immune-heading p {
-    margin: 0.35rem 0 0;
-    color: #65708f;
-    font-size: clamp(1.05rem, 1.6vw, 1.28rem);
-    font-weight: 800;
-    line-height: 1.3;
+    margin: 0.25rem 0 0;
+    color: #8060bf;
+    font-size: 1.12rem;
+    font-weight: 700;
+    line-height: 1.4;
   }
 
   .immune-stage {
     position: relative;
-    width: min(100%, 990px);
-    min-height: 640px;
+    width: min(100%, 1000px);
+    min-height: 700px;
     margin-inline: auto;
   }
 
@@ -129,7 +129,7 @@ page_type: immune-hub
     fill: none;
     stroke: #a48fd6;
     stroke-width: 2;
-    stroke-dasharray: 7 8;
+    stroke-dasharray: 5 7;
     stroke-linecap: round;
     stroke-linejoin: round;
     vector-effect: non-scaling-stroke;
@@ -146,7 +146,7 @@ page_type: immune-hub
     z-index: 2;
     left: 50%;
     bottom: 0;
-    width: min(43vw, 440px);
+    width: min(37vw, 390px);
     transform: translateX(-50%);
     pointer-events: none;
   }
@@ -154,7 +154,7 @@ page_type: immune-hub
   .immune-body-image {
     display: block;
     width: 100%;
-    max-width: 440px;
+    max-width: 390px;
     max-height: 650px;
     object-fit: contain;
     filter: drop-shadow(0 22px 22px rgba(29, 60, 106, .14));
@@ -167,10 +167,10 @@ page_type: immune-hub
     grid-template-columns: 3.2rem minmax(0, 1fr) auto;
     align-items: center;
     gap: .85rem;
-    width: min(286px, 29%);
-    min-height: 112px;
-    padding: .85rem 1rem;
-    border: 1px solid #d8ccf4;
+    width: min(245px, 28%);
+    min-height: 72px;
+    padding: .8rem 1rem;
+    border: 1px solid #dbe5e9;
     border-radius: 18px;
     background: rgba(255,255,255,.96);
     box-shadow: 0 8px 20px rgba(27, 50, 82, .10);
@@ -235,49 +235,50 @@ page_type: immune-hub
   .immune-topic-hiv {
     --card-accent: #8060bf;
     --icon-bg: #e7e0fb;
-    left: 0;
-    top: 7%;
+    left: 2%;
+    top: 10%;
   }
 
   .immune-topic-ra {
     --card-accent: #2876e8;
     --icon-bg: #dceeff;
     left: 0;
-    top: 39%;
+    top: 37%;
   }
 
   .immune-topic-gout {
     --card-accent: #2d9c73;
     --icon-bg: #dff5e9;
     left: 3%;
-    top: 72%;
+    top: 66%;
   }
 
   .immune-topic-lupus {
     --card-accent: #e65a8d;
     --icon-bg: #ffe3ef;
-    right: 4%;
-    top: 8%;
+    right: 5%;
+    top: 10%;
   }
 
-  .immune-topic-allergy {
+  .immune-topic-antimicrobials {
     --card-accent: #d9922f;
     --icon-bg: #fff0d8;
     right: 0;
-    top: 39%;
+    top: 37%;
   }
 
   .immune-topic-meds {
     --card-accent: #20a7a8;
     --icon-bg: #dff7f7;
     right: 3%;
-    top: 72%;
+    top: 66%;
   }
 
   .immune-sidebar {
     display: flex;
     flex-direction: column;
     align-self: start;
+    margin-top: 5.05rem;
     min-height: 590px;
     padding: 2.1rem 1.9rem;
     border: 1px solid #cbdde2;
@@ -352,7 +353,7 @@ page_type: immune-hub
   }
 
   .immune-nclex-link,
-  .immune-guide-tip {
+  .immune-basics-link {
     display: flex;
     align-items: center;
     gap: .75rem;
@@ -406,15 +407,33 @@ page_type: immune-hub
     font-weight: 700;
   }
 
-  .immune-guide-tip {
+  .immune-basics-link {
     margin-top: auto;
     color: #4a3b74 !important;
     font-size: .9rem;
     font-weight: 800;
   }
 
-  .immune-guide-tip span {
+  .immune-basics-link span:first-child {
     font-size: 1.5rem;
+  }
+
+  .immune-basics-link strong,
+  .immune-basics-link small {
+    display: block;
+    line-height: 1.2;
+  }
+
+  .immune-basics-link strong {
+    color: #382875;
+    font-size: .9rem;
+  }
+
+  .immune-basics-link small {
+    margin-top: .18rem;
+    color: #716898;
+    font-size: .7rem;
+    font-weight: 700;
   }
 
   .immune-back {
@@ -482,7 +501,7 @@ page_type: immune-hub
   }
 
   [data-theme="dark"] .immune-nclex-link,
-  [data-theme="dark"] .immune-guide-tip {
+  [data-theme="dark"] .immune-basics-link {
     background: #302849;
     border-color: #544679;
     color: #eee8ff !important;
@@ -503,19 +522,19 @@ page_type: immune-hub
     }
   }
 
-  @media (max-width: 1180px) {
+  @media (max-width: 1250px) {
     .immune-layout {
-      grid-template-columns: minmax(0, 1fr) 260px;
-      gap: 1rem;
+      grid-template-columns: minmax(0, 1fr) 245px;
+      gap: 1.2rem;
     }
 
     .immune-stage {
-      min-height: 610px;
+      min-height: 660px;
     }
 
     .immune-card {
       width: min(245px, 28%);
-      min-height: 100px;
+      min-height: 72px;
       padding: .7rem .8rem;
       gap: .6rem;
     }
@@ -531,11 +550,12 @@ page_type: immune-hub
     }
 
     .immune-card-description {
-      font-size: .68rem;
+      display: none;
     }
 
     .immune-sidebar {
       min-height: 560px;
+      margin-top: 4.9rem;
       padding: 1.6rem 1.3rem;
     }
   }
@@ -549,6 +569,7 @@ page_type: immune-hub
     .immune-sidebar {
       width: min(100%, 680px);
       min-height: auto;
+      margin-top: 0;
       margin-inline: auto;
     }
 
@@ -653,24 +674,24 @@ page_type: immune-hub
       </header>
 
       <div class="immune-stage" aria-label="Immune and inflammatory study topics">
-        <svg class="immune-connectors" viewBox="0 0 1000 640" preserveAspectRatio="none" aria-hidden="true">
-          <path d="M250 112 C340 112 365 205 445 230"></path>
-          <circle cx="250" cy="112" r="6"></circle><circle cx="445" cy="230" r="6"></circle>
+        <svg class="immune-connectors" viewBox="0 0 1000 700" preserveAspectRatio="none" aria-hidden="true">
+          <path d="M270 110 C345 118 380 195 452 238"></path>
+          <circle cx="270" cy="110" r="6"></circle><circle cx="452" cy="238" r="6"></circle>
 
-          <path d="M250 315 C330 315 335 450 410 470"></path>
-          <circle cx="250" cy="315" r="6"></circle><circle cx="410" cy="470" r="6"></circle>
+          <path d="M270 295 C340 310 340 500 404 532"></path>
+          <circle cx="270" cy="295" r="6"></circle><circle cx="404" cy="532" r="6"></circle>
 
-          <path d="M280 525 C370 525 450 520 525 545"></path>
-          <circle cx="280" cy="525" r="6"></circle><circle cx="525" cy="545" r="6"></circle>
+          <path d="M300 500 C390 500 455 545 548 572"></path>
+          <circle cx="300" cy="500" r="6"></circle><circle cx="548" cy="572" r="6"></circle>
 
-          <path d="M760 112 C670 112 640 118 558 122"></path>
-          <circle cx="760" cy="112" r="6"></circle><circle cx="558" cy="122" r="6"></circle>
+          <path d="M725 110 C670 108 615 110 535 128"></path>
+          <circle cx="725" cy="110" r="6"></circle><circle cx="535" cy="128" r="6"></circle>
 
-          <path d="M760 315 C690 315 655 270 602 255"></path>
-          <circle cx="760" cy="315" r="6"></circle><circle cx="602" cy="255" r="6"></circle>
+          <path d="M730 295 C705 320 690 348 652 372"></path>
+          <circle cx="730" cy="295" r="6"></circle><circle cx="652" cy="372" r="6"></circle>
 
-          <path d="M750 525 C675 525 655 438 620 410"></path>
-          <circle cx="750" cy="525" r="6"></circle><circle cx="620" cy="410" r="6"></circle>
+          <path d="M730 500 C680 490 650 360 608 270"></path>
+          <circle cx="730" cy="500" r="6"></circle><circle cx="608" cy="270" r="6"></circle>
         </svg>
 
         <div class="immune-body-wrap">
@@ -701,15 +722,15 @@ page_type: immune-hub
           <span class="immune-card-chevron" aria-hidden="true">›</span>
         </a>
 
-        <a class="immune-card immune-topic-allergy" href="{{ '/immune-inflammatory/hypersensitivity-allergic-reactions.html' | relative_url }}">
+        <a class="immune-card immune-topic-antimicrobials" href="{{ '/immune-inflammatory/antimicrobials.html' | relative_url }}">
           <span class="immune-card-icon" aria-hidden="true">✺</span>
-          <span><strong class="immune-card-title">Hypersensitivity &amp; Allergic Reactions</strong><small class="immune-card-description">Allergic responses, anaphylaxis &amp; nursing care</small></span>
+          <span><strong class="immune-card-title">Antimicrobials</strong><small class="immune-card-description">Drug classes, resistance, adverse effects &amp; patient teaching</small></span>
           <span class="immune-card-chevron" aria-hidden="true">›</span>
         </a>
 
-        <a class="immune-card immune-topic-meds" href="{{ '/immune-inflammatory/antimicrobials-immunosuppressants.html' | relative_url }}">
+        <a class="immune-card immune-topic-meds" href="{{ '/immune-inflammatory/anti-inflammatory-immunosuppressive-medications.html' | relative_url }}">
           <span class="immune-card-icon" aria-hidden="true">💊</span>
-          <span><strong class="immune-card-title">Antimicrobials &amp; Immunosuppressants</strong><small class="immune-card-description">Medications, safety monitoring &amp; patient education</small></span>
+          <span><strong class="immune-card-title">Anti-Inflammatory &amp; Immunosuppressive Medications</strong><small class="immune-card-description">Corticosteroids, DMARDs, biologics, safety monitoring &amp; education</small></span>
           <span class="immune-card-chevron" aria-hidden="true">›</span>
         </a>
       </div>
@@ -733,7 +754,10 @@ page_type: immune-hub
         <span aria-hidden="true">✓</span>
         <span><strong>NCLEX Quick Cues</strong><small>Mnemonics &amp; priority rules</small></span>
       </a>
-      <div class="immune-guide-tip"><span aria-hidden="true">💡</span> Pick any topic around the body to get started.</div>
+      <a class="immune-basics-link" href="{{ '/immune-inflammatory/immune-system-basics.html' | relative_url }}">
+        <span aria-hidden="true">💡</span>
+        <span><strong>Immune System Basics</strong><small>Innate vs. adaptive immunity, T cells, B cells, antibodies &amp; inflammation</small></span>
+      </a>
     </aside>
   </div>
 </section>
