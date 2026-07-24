@@ -69,7 +69,7 @@ Observe:
 | **Tonometry** | Measures intraocular pressure |
 | **Ophthalmoscopy** | Examines internal eye structures |
 
-<div class="report-now">
+<div class="report-now" markdown="1">
   <h3>Report Immediately</h3>
 
 - Sudden loss of vision
@@ -134,7 +134,7 @@ Common causes include:
 - Administer prescribed drops or ointment.
 - Teach the client to complete antibiotic treatment.
 
-<div class="nclex-tip">
+<div class="nclex-tip" markdown="1">
   <h3>NCLEX Tip</h3>
 
 Purulent drainage and lashes stuck together suggest **bacterial conjunctivitis**. Watery drainage associated with a cold suggests **viral conjunctivitis**.
@@ -199,7 +199,7 @@ Teach the client to:
 - Avoid driving until cleared.
 - Report severe pain or sudden vision loss.
 
-<div class="report-now">
+<div class="report-now" markdown="1">
   <h3>Report After Cataract Surgery</h3>
 
 - Severe eye pain
@@ -210,7 +210,7 @@ Teach the client to:
 - Flashes, floaters, or curtain-like vision
 </div>
 
-<div class="nclex-tip">
+<div class="nclex-tip" markdown="1">
   <h3>NCLEX Tip</h3>
 
 Cataracts cause **gradual, painless** vision loss. Severe pain after cataract surgery is not expected.
@@ -279,7 +279,7 @@ This is an emergency.
 - Report wheezing, slow pulse, faintness, or severe eye pain.
 - Use punctal occlusion to reduce systemic medication absorption.
 
-<div class="nclex-tip">
+<div class="nclex-tip" markdown="1">
   <h3>NCLEX Tip</h3>
 
 Open-angle glaucoma is gradual and painless. Sudden eye pain, halos, headache, nausea, and vomiting suggest **acute angle-closure glaucoma**, which is an emergency.
@@ -333,7 +333,7 @@ The client may need to:
 - Wear an identification bracelet or carry a card about the gas bubble.
 - Report increasing pain or decreased vision.
 
-<div class="report-now">
+<div class="report-now" markdown="1">
   <h3>Retinal Emergency</h3>
 
 New flashes, many floaters, or a curtain across the visual field require immediate evaluation—even when there is no pain.
@@ -379,7 +379,7 @@ New flashes, many floaters, or a curtain across the visual field require immedia
 - Promote fall prevention.
 - Refer to low-vision resources.
 
-<div class="nclex-tip">
+<div class="nclex-tip" markdown="1">
   <h3>NCLEX Tip</h3>
 
 Macular degeneration affects **central vision**. Glaucoma commonly affects **peripheral vision** first.
@@ -423,7 +423,7 @@ Assess for:
 - Blood in the anterior chamber
 - Restricted eye movement
 
-<div class="nclex-tip">
+<div class="nclex-tip" markdown="1">
   <h3>NCLEX Tip</h3>
 
 Chemical injury: irrigate immediately. Penetrating injury: do not remove the object and do not apply pressure.
@@ -452,7 +452,7 @@ Chemical injury: irrigate immediately. Penetrating injury: do not remove the obj
 - Temporary blurred vision is expected.
 - Apply drops before ointment when both are ordered.
 
-<div class="nclex-tip">
+<div class="nclex-tip" markdown="1">
   <h3>Medication Order</h3>
 
 Use eye drops before eye ointment because ointment can prevent drops from being absorbed properly.
@@ -511,7 +511,7 @@ Example:
 | **Chemical injury** | Exposure and burning | Immediate irrigation |
 | **Penetrating injury** | Embedded object | Protect eye; no pressure or removal |
 
-<div class="report-now">
+<div class="report-now" markdown="1">
   <h3>Report Immediately</h3>
 
 - Sudden vision loss
@@ -525,7 +525,7 @@ Example:
 - Purulent drainage after surgery
 </div>
 
-<div class="quick-review">
+<div class="quick-review" markdown="1">
   <h3>Quick Review</h3>
 
 1. Bacterial conjunctivitis causes purulent drainage and crusted lashes.
@@ -542,7 +542,7 @@ Example:
 12. Keep the environment consistent for visually impaired clients.
 </div>
 
-<div class="do-not-miss">
+<div class="do-not-miss" markdown="1">
   <h3>Do Not Miss</h3>
 
 - Do not place eye drops directly on the cornea.

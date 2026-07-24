@@ -69,7 +69,7 @@ Observe and assess:
 - Facial movement
 - Response to sound
 
-<div class="report-now">
+<div class="report-now" markdown="1">
   <h3>Report Immediately</h3>
 
 - Sudden hearing loss
@@ -138,7 +138,7 @@ The client has both conductive and sensorineural impairment.
 | **Weber test** | Compares sound between the ears |
 | **Rinne test** | Compares air conduction with bone conduction |
 
-<div class="nclex-tip">
+<div class="nclex-tip" markdown="1">
   <h3>NCLEX Tip</h3>
 
 Conductive hearing loss involves a problem carrying sound to the inner ear. Sensorineural hearing loss involves damage to the inner ear or auditory nerve.
@@ -247,7 +247,7 @@ Treatment may include:
 - Report persistent hearing difficulty.
 - Keep water out of the ears when tympanostomy-tube precautions are prescribed.
 
-<div class="report-now">
+<div class="report-now" markdown="1">
   <h3>Report With Otitis Media</h3>
 
 - Swelling or tenderness behind the ear
@@ -260,7 +260,7 @@ Treatment may include:
 - Foul drainage
 </div>
 
-<div class="nclex-tip">
+<div class="nclex-tip" markdown="1">
   <h3>NCLEX Tip</h3>
 
 Persistent middle-ear fluid can interfere with hearing and speech development even when the child no longer has fever or severe pain.
@@ -326,7 +326,7 @@ A **myringotomy** is a small incision made in the tympanic membrane to drain flu
 - Encourage gradual position changes.
 - Monitor hearing changes.
 
-<div class="nclex-tip">
+<div class="nclex-tip" markdown="1">
   <h3>NCLEX Tip</h3>
 
 Labyrinthitis affects both balance and hearing. Vertigo with tinnitus, nystagmus, and sensorineural hearing loss supports inner-ear involvement.
@@ -391,13 +391,13 @@ Treatment may include:
 - Use assistive devices when necessary.
 - Keep a record of possible triggers.
 
-<div class="report-now">
+<div class="report-now" markdown="1">
   <h3>Safety During Vertigo</h3>
 
 The priority is preventing falls and injury. The client should not walk independently during an active attack.
 </div>
 
-<div class="nclex-tip">
+<div class="nclex-tip" markdown="1">
   <h3>NCLEX Tip</h3>
 
 Ménière disease is remembered by the combination of **vertigo, tinnitus, fluctuating hearing loss, and ear fullness**.
@@ -465,7 +465,7 @@ Teach the client to:
 - Report facial weakness.
 - Report drainage or fever.
 
-<div class="nclex-tip">
+<div class="nclex-tip" markdown="1">
   <h3>NCLEX Tip</h3>
 
 After stapes surgery, prevent increased middle-ear pressure. The client should sneeze with the mouth open and avoid forceful nose blowing.
@@ -559,7 +559,7 @@ A button battery is an emergency.
 - Obtain immediate emergency treatment.
 - Tissue damage can occur quickly.
 
-<div class="report-now">
+<div class="report-now" markdown="1">
   <h3>Ear Trauma Emergency</h3>
 
 Clear or bloody drainage from the ear after head trauma may indicate a skull fracture. Do not pack the ear tightly or stop the drainage.
@@ -597,7 +597,7 @@ Possible ototoxic medications include:
 - Avoid combining ototoxic medications when possible.
 - Teach the client not to ignore new ringing in the ears.
 
-<div class="nclex-tip">
+<div class="nclex-tip" markdown="1">
   <h3>NCLEX Tip</h3>
 
 Tinnitus may be an early warning sign of ototoxicity. Report it before hearing loss becomes more severe.
@@ -641,7 +641,7 @@ Tinnitus may be an early warning sign of ototoxicity. Report it before hearing l
 - Do not force medication against severe resistance.
 - Report severe burning, pain, rash, or worsening symptoms.
 
-<div class="nclex-tip">
+<div class="nclex-tip" markdown="1">
   <h3>Medication Memory Cue</h3>
 
 Adults and older children: **up and back**.  
@@ -688,7 +688,7 @@ Young children: **down and back**.
 - Do not assume hearing impairment means cognitive impairment.
 - Encourage use of prescribed assistive devices.
 
-<div class="nclex-tip">
+<div class="nclex-tip" markdown="1">
   <h3>NCLEX Tip</h3>
 
 Do not shout at a hearing-impaired client. Face the client, lower background noise, speak clearly, and use a lower-pitched voice.
@@ -709,7 +709,7 @@ Do not shout at a hearing-impaired client. Face the client, lower background noi
 | **Tympanic perforation** | Pain, drainage, and hearing loss after injury | Keep dry; do not irrigate |
 | **Foreign body** | Object in canal | Avoid pushing deeper; do not irrigate expanding objects |
 
-<div class="report-now">
+<div class="report-now" markdown="1">
   <h3>Report Immediately</h3>
 
 - Sudden hearing loss
@@ -723,7 +723,7 @@ Do not shout at a hearing-impaired client. Face the client, lower background noi
 - Severe postoperative vertigo
 </div>
 
-<div class="quick-review">
+<div class="quick-review" markdown="1">
   <h3>Quick Review</h3>
 
 1. Conductive hearing loss involves the external or middle ear.
@@ -742,7 +742,7 @@ Do not shout at a hearing-impaired client. Face the client, lower background noi
 14. Use fall precautions during vertigo.
 </div>
 
-<div class="do-not-miss">
+<div class="do-not-miss" markdown="1">
   <h3>Do Not Miss</h3>
 
 - Do not shout at a hearing-impaired client.
