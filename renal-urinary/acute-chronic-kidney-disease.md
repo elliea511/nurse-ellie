@@ -153,7 +153,10 @@ AKI was previously called **acute renal failure**.
   </table>
 </div>
 
-#### Prerenal AKI
+<div class="detail-grid" markdown="1">
+
+<div class="detail-mini-card" markdown="1">
+<strong>Prerenal AKI</strong>
 
 Think: **The kidneys are not receiving enough blood.**
 
@@ -171,7 +174,10 @@ Possible causes:
 
 Treatment focuses on restoring circulation and correcting the cause without producing fluid overload.
 
-#### Intrarenal AKI
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Intrarenal AKI</strong>
 
 Think: **The kidney tissue itself is damaged.**
 
@@ -189,7 +195,10 @@ Possible causes:
 
 Treatment includes stopping the damaging cause when possible and supporting kidney function.
 
-#### Postrenal AKI
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Postrenal AKI</strong>
 
 Think: **Urine is blocked after it is formed.**
 
@@ -204,6 +213,10 @@ Possible causes:
 * Kinked or obstructed catheter
 
 Treatment focuses on relieving the obstruction.
+
+</div>
+
+</div>
 
 <div class="detail-callout" markdown="1">
 <strong>Memory Cue:</strong> Prerenal = before the kidney. Intrarenal = inside the kidney. Postrenal = after the kidney.
@@ -668,7 +681,10 @@ Nursing actions:
 <strong>Priority Cue:</strong> A potassium of 6.5 mEq/L with ECG changes is more urgent than an elevated creatinine.
 </div>
 
-#### Metabolic Acidosis
+<div class="detail-grid" markdown="1">
+
+<div class="detail-mini-card" markdown="1">
+<strong>Metabolic Acidosis</strong>
 
 Damaged kidneys cannot remove enough acid or conserve bicarbonate properly.
 
@@ -690,7 +706,10 @@ Treatment may include:
 * Dialysis in severe cases
 * Monitoring respiratory and neurologic status
 
-#### Fluid Volume Excess
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Fluid Volume Excess</strong>
 
 Possible findings:
 
@@ -703,6 +722,10 @@ Possible findings:
 * Crackles
 * Dyspnea
 * Decreased oxygen saturation
+
+</div>
+
+</div>
 
 <div class="report-now" markdown="1">
 <h3>Pulmonary Edema Warning Signs</h3>
@@ -719,7 +742,10 @@ These findings require immediate intervention.
 
 </div>
 
-#### Anemia
+<div class="detail-grid" markdown="1">
+
+<div class="detail-mini-card" markdown="1">
+<strong>Anemia</strong>
 
 The kidneys normally produce **erythropoietin**, which stimulates red blood cell production.
 
@@ -730,7 +756,10 @@ When kidney function decreases:
 * The client develops anemia.
 * Fatigue, pallor, weakness, and activity intolerance occur.
 
-#### Epoetin Alfa
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Epoetin Alfa</strong>
 
 Epoetin alfa may be prescribed to stimulate red blood cell production.
 
@@ -749,11 +778,18 @@ Teaching:
 * Report severe headache, chest pain, or leg swelling.
 * Blood pressure must be monitored.
 
+</div>
+
+</div>
+
 <div class="detail-callout" markdown="1">
 <strong>Class Cue:</strong> Dialysis can remove wastes and fluid, but it does not replace the kidney’s erythropoietin production.
 </div>
 
-#### Calcium and Phosphorus Imbalance
+<div class="detail-grid" markdown="1">
+
+<div class="detail-mini-card" markdown="1">
+<strong>Calcium and Phosphorus Imbalance</strong>
 
 Damaged kidneys cannot remove phosphorus effectively or activate enough vitamin D.
 
@@ -768,7 +804,10 @@ This can lead to:
 * Fractures
 * Vascular calcification
 
-#### Phosphate Binders
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Phosphate Binders</strong>
 
 Examples may include:
 
@@ -782,6 +821,10 @@ Teaching:
 * The medication binds phosphorus from food in the intestine.
 * Follow prescribed calcium and phosphorus monitoring.
 * Avoid taking the binder at random times away from meals.
+
+</div>
+
+</div>
 
 <div class="detail-callout" markdown="1">
 <strong>Important Update:</strong> Older notes may mention routine aluminum hydroxide. Aluminum-containing binders are generally avoided for long-term use because aluminum can accumulate in kidney failure.
@@ -903,7 +946,10 @@ The renal diet is individualized according to labs and urine output.
   </table>
 </div>
 
-#### Protein Teaching
+<div class="detail-grid" markdown="1">
+
+<div class="detail-mini-card" markdown="1">
+<strong>Protein Teaching</strong>
 
 Do not apply one protein rule to every renal client.
 
@@ -912,7 +958,10 @@ Do not apply one protein rule to every renal client.
 * Follow the individualized renal diet.
 * Encourage adequate calories so the body does not break down muscle for energy.
 
-#### Fluid Allowance
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Fluid Allowance</strong>
 
 A common class formula may be:
 
@@ -931,6 +980,10 @@ Fluids include:
 * Ice cream
 * Ice chips
 * Frozen treats
+
+</div>
+
+</div>
 
 #### Medication Safety
 
@@ -994,7 +1047,10 @@ Monitor:
 
 </div>
 
-#### Skin and Comfort Care
+<div class="detail-grid" markdown="1">
+
+<div class="detail-mini-card" markdown="1">
+<strong>Skin and Comfort Care</strong>
 
 For dry skin and pruritus:
 
@@ -1008,7 +1064,10 @@ For dry skin and pruritus:
 * Reposition regularly.
 * Keep linens clean and smooth.
 
-#### Safety
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Safety</strong>
 
 Clients with uremia or electrolyte imbalance may be confused or weak.
 
@@ -1019,6 +1078,10 @@ Clients with uremia or electrolyte imbalance may be confused or weak.
 * Use seizure precautions when indicated.
 * Avoid restraints unless absolutely necessary and ordered.
 * Cluster care to reduce fatigue.
+
+</div>
+
+</div>
 
 #### When Dialysis May Be Needed
 

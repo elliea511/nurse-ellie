@@ -528,7 +528,10 @@ The costovertebral angle is located over the kidney area at the back, below the 
 
 </div>
 
-#### Nursing Interventions
+<div class="detail-grid" markdown="1">
+
+<div class="detail-mini-card" markdown="1">
+<strong>Nursing Interventions</strong>
 
 * Monitor temperature, pulse, respirations, blood pressure, and oxygen saturation.
 * Assess flank pain and costovertebral-angle tenderness.
@@ -542,7 +545,10 @@ The costovertebral angle is located over the kidney area at the back, below the 
 * Assess for urinary obstruction.
 * Watch closely for sepsis.
 
-#### Sepsis Warning Signs
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Sepsis Warning Signs</strong>
 
 Report or escalate immediately for:
 
@@ -555,6 +561,10 @@ Report or escalate immediately for:
 * Chills or rigors
 * Weakness or mottled skin
 * Worsening pain despite treatment
+
+</div>
+
+</div>
 
 <div class="detail-callout" markdown="1">
 <strong>NCLEX Priority:</strong> A client with pyelonephritis who develops hypotension, confusion, tachycardia, or decreased urine output may be developing sepsis.

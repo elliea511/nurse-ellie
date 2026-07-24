@@ -137,7 +137,10 @@ Dialysis replaces part of the kidney’s filtering function, but it does not ful
 
 #### Hemodialysis Access
 
-#### Arteriovenous Fistula
+<div class="detail-grid" markdown="1">
+
+<div class="detail-mini-card" markdown="1">
+<strong>Arteriovenous Fistula</strong>
 
 An **AV fistula** is created surgically by connecting an artery directly to a vein.
 
@@ -147,7 +150,10 @@ An **AV fistula** is created surgically by connecting an artery directly to a ve
 * Requires time to mature before use
 * Produces a palpable thrill and audible bruit
 
-#### Arteriovenous Graft
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Arteriovenous Graft</strong>
 
 An **AV graft** uses a synthetic tube to connect an artery and vein.
 
@@ -155,7 +161,10 @@ An **AV graft** uses a synthetic tube to connect an artery and vein.
 * More likely to become infected or clotted than a fistula
 * Should also have a thrill and bruit
 
-#### Central Venous Dialysis Catheter
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Central Venous Dialysis Catheter</strong>
 
 A dialysis catheter is inserted into a large central vein.
 
@@ -164,6 +173,10 @@ A dialysis catheter is inserted into a large central vein.
 * Has the highest infection risk
 * Dressing must remain sterile, clean, and dry
 * Should only be accessed by trained personnel
+
+</div>
+
+</div>
 
 <div class="detail-table">
   <table>
@@ -196,7 +209,10 @@ A dialysis catheter is inserted into a large central vein.
 
 #### Assessing a Fistula or Graft
 
-#### Look
+<div class="detail-grid" markdown="1">
+
+<div class="detail-mini-card" markdown="1">
+<strong>Look</strong>
 
 Assess for:
 
@@ -209,7 +225,10 @@ Assess for:
 * Enlarged areas
 * Signs of infection
 
-#### Listen
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Listen</strong>
 
 Use a stethoscope to auscultate for a **bruit**.
 
@@ -217,13 +236,20 @@ Use a stethoscope to auscultate for a **bruit**.
 * It should be present.
 * An absent or changed bruit may indicate clotting or obstruction.
 
-#### Feel
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Feel</strong>
 
 Palpate gently for a **thrill**.
 
 * A thrill is a buzzing or vibrating sensation.
 * It should be present.
 * An absent or changed thrill requires immediate reporting.
+
+</div>
+
+</div>
 
 <div class="detail-callout" markdown="1">
 <strong>Memory Cue:</strong> Feel the thrill and hear the bruit.
@@ -333,7 +359,10 @@ Do not independently hold every medication. Follow the provider’s and dialysis
 <strong>PN Safety:</strong> Check the medication administration record and dialysis orders rather than assuming all blood-pressure or water-soluble medications must always be held.
 </div>
 
-#### During Hemodialysis
+<div class="detail-grid" markdown="1">
+
+<div class="detail-mini-card" markdown="1">
+<strong>During Hemodialysis</strong>
 
 Monitor for:
 
@@ -349,7 +378,10 @@ Monitor for:
 * Access disconnection
 * Mental-status changes
 
-#### Hypotension
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Hypotension</strong>
 
 Possible findings:
 
@@ -370,7 +402,10 @@ Nursing actions may include:
 * Notify the dialysis nurse or provider.
 * Recheck vital signs.
 
-#### Bleeding
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Bleeding</strong>
 
 Heparin may be used during hemodialysis to prevent clotting in the circuit.
 
@@ -384,7 +419,10 @@ Monitor:
 * Blood pressure
 * Hemoglobin and hematocrit when ordered
 
-#### Dialysis Disequilibrium Syndrome
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Dialysis Disequilibrium Syndrome</strong>
 
 This uncommon complication can occur when wastes are removed too rapidly, especially during early treatments.
 
@@ -400,7 +438,10 @@ Possible findings:
 
 Report neurologic changes immediately.
 
-#### After Hemodialysis
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>After Hemodialysis</strong>
 
 * Obtain post-dialysis weight.
 * Reassess vital signs.
@@ -411,6 +452,10 @@ Report neurologic changes immediately.
 * Assist with ambulation if weak.
 * Administer medications scheduled after dialysis.
 * Compare pre- and post-dialysis findings.
+
+</div>
+
+</div>
 
 <div class="detail-table">
   <table>
@@ -509,7 +554,10 @@ Dialysate flows into the abdomen, remains for a prescribed period, and then drai
 
 #### Types of Peritoneal Dialysis
 
-#### Continuous Ambulatory Peritoneal Dialysis
+<div class="detail-grid" markdown="1">
+
+<div class="detail-mini-card" markdown="1">
+<strong>Continuous Ambulatory Peritoneal Dialysis</strong>
 
 **CAPD** is performed manually throughout the day.
 
@@ -518,7 +566,10 @@ Dialysate flows into the abdomen, remains for a prescribed period, and then drai
 * A longer dwell may occur overnight.
 * No machine is required during the exchange.
 
-#### Automated Peritoneal Dialysis
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Automated Peritoneal Dialysis</strong>
 
 A machine called a cycler completes exchanges, usually while the client sleeps.
 
@@ -527,7 +578,10 @@ A machine called a cycler completes exchanges, usually while the client sleeps.
 * Requires clean technique and training
 * Treatment schedule is individualized
 
-#### Dialysate Safety
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Dialysate Safety</strong>
 
 Before administration:
 
@@ -548,11 +602,18 @@ Cold dialysate can cause:
 
 Overheated dialysate can injure the peritoneum.
 
+</div>
+
+</div>
+
 <div class="detail-callout" markdown="1">
 <strong>Safety:</strong> The dialysate should be warmed with approved equipment—not a microwave, hot water bath, or heating pad.
 </div>
 
-#### Expected Drainage
+<div class="detail-grid" markdown="1">
+
+<div class="detail-mini-card" markdown="1">
+<strong>Expected Drainage</strong>
 
 Expected effluent is:
 
@@ -564,7 +625,10 @@ Expected effluent is:
 
 A small amount of blood may occur during the first exchanges after catheter placement or during menstruation, but unexpected blood should still be assessed.
 
-#### Peritonitis
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Peritonitis</strong>
 
 **Peritonitis is the major emergency complication of peritoneal dialysis.**
 
@@ -579,6 +643,10 @@ Possible findings:
 * Vomiting
 * Malaise
 * Rebound tenderness in severe cases
+
+</div>
+
+</div>
 
 <div class="report-now" markdown="1">
 <h3>Cloudy Dialysate = Report Immediately</h3>
@@ -621,7 +689,10 @@ Nursing actions:
 <strong>NCLEX:</strong> Reposition the client and check the tubing before assuming the catheter has failed.
 </div>
 
-#### Respiratory Difficulty
+<div class="detail-grid" markdown="1">
+
+<div class="detail-mini-card" markdown="1">
+<strong>Respiratory Difficulty</strong>
 
 Dialysate in the abdomen can push upward against the diaphragm.
 
@@ -641,7 +712,10 @@ Interventions may include:
 * Notify the provider.
 * Anticipate a lower fill volume.
 
-#### Protein Loss and Nutrition
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Protein Loss and Nutrition</strong>
 
 Protein can pass into the dialysate.
 
@@ -656,7 +730,10 @@ The client may need:
 
 The client should not automatically increase protein without following the renal diet plan.
 
-#### Glucose and Weight Gain
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Glucose and Weight Gain</strong>
 
 Peritoneal dialysate contains glucose.
 
@@ -669,7 +746,10 @@ Possible effects:
 
 Monitor blood glucose as ordered.
 
-#### Catheter and Exit-Site Care
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Catheter and Exit-Site Care</strong>
 
 * Perform hand hygiene.
 * Wear a mask during connections when instructed.
@@ -680,6 +760,10 @@ Monitor blood glucose as ordered.
 * Inspect for redness, drainage, swelling, or pain.
 * Avoid pulling or twisting.
 * Report fever or drainage.
+
+</div>
+
+</div>
 
 <div class="detail-table">
   <table>
@@ -839,7 +923,10 @@ Monitor:
 
 </div>
 
-#### Massive Diuresis
+<div class="detail-grid" markdown="1">
+
+<div class="detail-mini-card" markdown="1">
+<strong>Massive Diuresis</strong>
 
 A transplanted kidney may begin removing retained fluid quickly.
 
@@ -854,7 +941,10 @@ Risks include:
 
 Do not assume very high urine output is automatically harmless. Replace fluid and electrolytes exactly as ordered.
 
-#### Immunosuppressive Medications
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Immunosuppressive Medications</strong>
 
 The client must take anti-rejection medications for the life of the transplant.
 
@@ -866,6 +956,10 @@ Possible medications include:
 * Azathioprine
 * Corticosteroids
 * Other prescribed immunosuppressants
+
+</div>
+
+</div>
 
 <div class="detail-grid" markdown="1">
 
@@ -1099,11 +1193,17 @@ Laboratory ranges vary slightly by facility.
 
 Use the facility’s listed range on the exam when one is provided.
 
-#### Contrast Imaging
+<div class="detail-grid" markdown="1">
+
+<div class="detail-mini-card" markdown="1">
+<strong>Contrast Imaging</strong>
 
 An intravenous pyelogram is an older contrast x-ray study of the urinary tract. CT and other imaging are now often used instead, but contrast precautions remain testable.
 
-#### Before Iodinated Contrast
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Before Iodinated Contrast</strong>
 
 Assess:
 
@@ -1116,11 +1216,18 @@ Assess:
 * Metformin use
 * Other nephrotoxic medications
 
+</div>
+
+</div>
+
 <div class="detail-callout" markdown="1">
 <strong>Important Correction:</strong> Shellfish allergy does not automatically mean the client is allergic to iodinated contrast. Ask specifically about a previous contrast reaction.
 </div>
 
-#### Metformin and Contrast
+<div class="detail-grid" markdown="1">
+
+<div class="detail-mini-card" markdown="1">
+<strong>Metformin and Contrast</strong>
 
 Metformin instructions depend on:
 
@@ -1134,7 +1241,10 @@ The medication may need to be withheld around contrast exposure when kidney impa
 
 Do not automatically apply one 48-hour rule to every client. Follow the current order and policy.
 
-#### After Contrast
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>After Contrast</strong>
 
 * Encourage prescribed fluids if not restricted.
 * Monitor urine output.
@@ -1142,7 +1252,10 @@ Do not automatically apply one 48-hour rule to every client. Follow the current 
 * Observe for delayed reaction.
 * Report decreased urine output.
 
-#### Cystoscopy
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Cystoscopy</strong>
 
 A **cystoscopy** uses a scope inserted through the urethra to examine the urethra and bladder.
 
@@ -1155,14 +1268,20 @@ It may be used to:
 * Obtain a biopsy
 * Insert or remove a ureteral stent
 
-#### Expected After Cystoscopy
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Expected After Cystoscopy</strong>
 
 * Mild burning with urination
 * Urinary frequency
 * Pink-tinged urine
 * Mild bladder discomfort
 
-#### Report After Cystoscopy
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Report After Cystoscopy</strong>
 
 * Inability to urinate
 * Fever or chills
@@ -1172,7 +1291,10 @@ It may be used to:
 * Foul-smelling urine
 * Worsening symptoms
 
-#### Nursing Care
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Nursing Care</strong>
 
 * Monitor urine output.
 * Encourage prescribed fluids.
@@ -1181,11 +1303,17 @@ It may be used to:
 * Monitor for infection.
 * Teach expected versus abnormal findings.
 
-#### Urinary Catheterization
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Urinary Catheterization</strong>
 
 Catheter insertion is a sterile procedure.
 
-#### Male Client
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Male Client</strong>
 
 * Hold the penis upward, approximately perpendicular to the body.
 * Clean from the urinary meatus outward.
@@ -1194,7 +1322,10 @@ Catheter insertion is a sterile procedure.
 * Return the foreskin after care to prevent paraphimosis.
 * Secure the catheter to avoid urethral traction.
 
-#### Female Client
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Female Client</strong>
 
 * Separate the labia.
 * Clean front to back.
@@ -1203,7 +1334,10 @@ Catheter insertion is a sterile procedure.
 * Advance the catheter until urine appears and according to procedure.
 * Secure the catheter to the thigh.
 
-#### Catheter Safety
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Catheter Safety</strong>
 
 * Maintain a closed drainage system.
 * Keep the drainage bag below the bladder.
@@ -1213,13 +1347,20 @@ Catheter insertion is a sterile procedure.
 * Perform routine perineal care.
 * Remove the catheter as soon as possible.
 
-#### Catheter Urine Culture
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Catheter Urine Culture</strong>
 
 * Clamp the tubing below the sampling port briefly when required.
 * Clean the port.
 * Aspirate fresh urine with sterile technique.
 * Transfer to the sterile container.
 * Never collect a culture from the drainage bag.
+
+</div>
+
+</div>
 
 <div class="detail-callout" markdown="1">
 <strong>NCLEX:</strong> Pink urine can be expected briefly after cystoscopy. Large clots, inability to void, fever, or bright-red bleeding are not expected.
@@ -1245,7 +1386,10 @@ The kidneys receive a large blood supply, so bleeding is an important postoperat
 
 Upper abdominal or flank incisions may also make deep breathing and coughing painful.
 
-#### General Postoperative Priorities
+<div class="detail-grid" markdown="1">
+
+<div class="detail-mini-card" markdown="1">
+<strong>General Postoperative Priorities</strong>
 
 * Monitor vital signs.
 * Assess for bleeding.
@@ -1260,7 +1404,10 @@ Upper abdominal or flank incisions may also make deep breathing and coughing pai
 
 A common minimum adult urine-output goal is approximately **0.5 mL/kg/hr**, rather than one fixed number for every client.
 
-#### Ileal Conduit
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Ileal Conduit</strong>
 
 An **ileal conduit** is an incontinent urinary diversion.
 
@@ -1270,6 +1417,10 @@ A short section of ileum is separated from the intestinal tract and used as a pa
 * One end forms a stoma on the abdomen.
 * Urine drains continuously into an external pouch.
 * The client does not voluntarily control urine flow through the stoma.
+
+</div>
+
+</div>
 
 <div class="detail-grid" markdown="1">
 
@@ -1344,7 +1495,10 @@ Report:
 <strong>NCLEX:</strong> A dark or dusky stoma suggests reduced blood flow and requires immediate reporting.
 </div>
 
-#### Appliance Care
+<div class="detail-grid" markdown="1">
+
+<div class="detail-mini-card" markdown="1">
+<strong>Appliance Care</strong>
 
 * Empty the pouch when it is approximately one-third to one-half full.
 * Avoid allowing the pouch to become heavy.
@@ -1356,7 +1510,10 @@ Report:
 * Avoid harsh soaps and oily lotions under the barrier.
 * Connect to a bedside drainage bag at night when instructed.
 
-#### Urine Specimens
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Urine Specimens</strong>
 
 For a fresh specimen:
 
@@ -1364,7 +1521,10 @@ For a fresh specimen:
 * Collect urine directly from the stoma using the ordered technique.
 * Do not collect a culture from an old pouch or drainage bag.
 
-#### Patient Teaching
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Patient Teaching</strong>
 
 * Mucus is expected.
 * Maintain prescribed hydration.
@@ -1376,7 +1536,10 @@ For a fresh specimen:
 * Maintain skin care.
 * Participate in ostomy education and support.
 
-#### Indiana Pouch
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Indiana Pouch</strong>
 
 The **Indiana pouch** is a continent urinary reservoir created from intestinal tissue.
 
@@ -1385,7 +1548,10 @@ The **Indiana pouch** is a continent urinary reservoir created from intestinal t
 * The client inserts a catheter through the stoma to drain the pouch.
 * No continuously draining external urine pouch is required.
 
-#### Teaching
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Teaching</strong>
 
 * Catheterize at the prescribed intervals.
 * Do not allow the pouch to overfill.
@@ -1404,7 +1570,10 @@ Failure to drain the pouch can cause:
 * Kidney damage
 * Absorption of waste products
 
-#### Ureterosigmoidostomy
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Ureterosigmoidostomy</strong>
 
 In a **ureterosigmoidostomy**, the ureters are connected to the sigmoid colon.
 
@@ -1422,6 +1591,10 @@ Possible complications:
 * Kidney infection
 * Skin irritation
 * Malignancy risk over time
+
+</div>
+
+</div>
 
 #### Comparing Urinary Diversions
 

@@ -638,7 +638,10 @@ The client does not need to eliminate every plant food unless specifically instr
 
 </div>
 
-#### Uric Acid Stone Teaching
+<div class="detail-grid" markdown="1">
+
+<div class="detail-mini-card" markdown="1">
+<strong>Uric Acid Stone Teaching</strong>
 
 * Reduce excessive red meat and organ meat.
 * Limit large amounts of shellfish and certain fish.
@@ -648,7 +651,10 @@ The client does not need to eliminate every plant food unless specifically instr
 * Medications may be prescribed to make the urine less acidic.
 * Manage gout, diabetes, and metabolic conditions.
 
-#### Struvite Stone Teaching
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Struvite Stone Teaching</strong>
 
 * Report UTI symptoms promptly.
 * Complete prescribed antibiotics.
@@ -656,13 +662,20 @@ The client does not need to eliminate every plant food unless specifically instr
 * The stone may require removal because antibiotics alone may not eliminate it.
 * Recurrent infection increases recurrence risk.
 
-#### Cystine Stone Teaching
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Cystine Stone Teaching</strong>
 
 * Very high fluid intake may be prescribed.
 * Fluids may be needed throughout the day and at bedtime.
 * Medications may be prescribed to alkalinize the urine.
 * Keep all specialist and laboratory appointments.
 * Family members may require evaluation for the inherited condition.
+
+</div>
+
+</div>
 
 <div class="detail-callout" markdown="1">
 <strong>ATI Priority:</strong> The most universal prevention strategy is adequate fluid intake, but diet and medication teaching must be based on the actual stone type.

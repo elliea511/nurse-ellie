@@ -334,7 +334,10 @@ Testing may include:
 
 </div>
 
-#### Acute Edematous Phase
+<div class="detail-grid" markdown="1">
+
+<div class="detail-mini-card" markdown="1">
+<strong>Acute Edematous Phase</strong>
 
 This is the early phase in which kidney filtration is reduced.
 
@@ -350,7 +353,10 @@ Expected findings include:
 * Possible hyperkalemia
 * Possible fluid overload
 
-#### Recovery or Diuretic Phase
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Recovery or Diuretic Phase</strong>
 
 As kidney filtration improves:
 
@@ -368,6 +374,10 @@ The client still requires monitoring because excessive diuresis can cause:
 * Electrolyte imbalance
 * Weakness
 * Falls
+
+</div>
+
+</div>
 
 <div class="detail-callout" markdown="1">
 <strong>Phase Comparison:</strong> The acute phase produces oliguria and edema. Improvement is marked by increased urine output and decreasing edema.
@@ -611,7 +621,10 @@ Dialysis is rarely needed but may be required if severe kidney failure develops.
 
 </div>
 
-#### Nursing Interventions
+<div class="detail-grid" markdown="1">
+
+<div class="detail-mini-card" markdown="1">
+<strong>Nursing Interventions</strong>
 
 * Maintain accurate intake and output.
 * Obtain daily weights.
@@ -629,7 +642,10 @@ Dialysis is rarely needed but may be required if severe kidney failure develops.
 * Use seizure precautions if severe hypertension or neurologic symptoms occur.
 * Teach the client and family what findings require immediate attention.
 
-#### Activity and Rest
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Activity and Rest</strong>
 
 During the acute phase:
 
@@ -640,7 +656,10 @@ During the acute phase:
 * Increase activity gradually as edema and blood pressure improve.
 * Use fall precautions if weakness or diuresis causes dizziness.
 
-#### Patient and Family Education
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Patient and Family Education</strong>
 
 * Monitor urine amount and color.
 * Monitor blood pressure if instructed.
@@ -654,6 +673,10 @@ During the acute phase:
 * Report shortness of breath.
 * Report severe headache, confusion, or vision changes.
 * Seek treatment for future symptoms of strep throat or skin infection.
+
+</div>
+
+</div>
 
 <div class="detail-callout" markdown="1">
 <strong>Teaching Cue:</strong> Daily weight is the best simple measure of overall fluid gain or loss. Intake and output help explain where the fluid is going.
