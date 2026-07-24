@@ -651,6 +651,72 @@ page_type: sensory-hub
       margin-inline: auto;
     }
   }
+
+  /* Final polish: keep the hub background white and make topic cards match the sleeker Mental Health style. */
+  body[data-page-type="sensory-hub"],
+  body[data-page-type="sensory-hub"] .page-wrapper,
+  body[data-page-type="sensory-hub"] .main-content,
+  body[data-page-type="sensory-hub"] .sensory-page {
+    background: #fff !important;
+    background-image: none !important;
+  }
+
+  body[data-page-type="sensory-hub"] .sensory-card {
+    display: flex;
+    align-items: center;
+    grid-template-columns: none;
+    width: 225px;
+    min-height: 66px;
+    padding: .62rem .75rem;
+    gap: .62rem;
+    border: 1px solid #dbe5e9;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, .96);
+    box-shadow: 0 7px 17px rgba(27, 50, 82, .08);
+  }
+
+  body[data-page-type="sensory-hub"] .sensory-card:hover,
+  body[data-page-type="sensory-hub"] .sensory-card:focus-visible {
+    box-shadow: 0 11px 22px rgba(27, 50, 82, .13);
+  }
+
+  body[data-page-type="sensory-hub"] .sensory-card-icon {
+    flex: 0 0 2.65rem;
+    width: 2.65rem;
+    height: 2.65rem;
+    font-size: 1.12rem;
+  }
+
+  body[data-page-type="sensory-hub"] .sensory-card strong {
+    font-size: .9rem;
+    line-height: 1.18;
+    font-weight: 900;
+  }
+
+  body[data-page-type="sensory-hub"] .sensory-card small {
+    margin-top: .18rem;
+    font-size: .68rem;
+    line-height: 1.22;
+    font-weight: 700;
+  }
+
+  body[data-page-type="sensory-hub"] .sensory-card-chevron {
+    display: none;
+  }
+
+  @media (max-width: 1250px) {
+    body[data-page-type="sensory-hub"] .sensory-card {
+      width: 205px;
+      min-height: 64px;
+      padding: .58rem .68rem;
+    }
+  }
+
+  @media (max-width: 740px) {
+    body[data-page-type="sensory-hub"] .sensory-card {
+      width: 100%;
+    }
+  }
 </style>
 
 <section class="sensory-page" aria-labelledby="sensory-title">

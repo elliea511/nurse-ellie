@@ -1039,6 +1039,73 @@ page_type: immune-hub
       grid-template-columns: 1fr;
     }
   }
+
+  /* Final polish: white Mental Health-style background and slimmer, sleeker topic cards. */
+  body[data-page-type="immune-hub"],
+  body[data-page-type="immune-hub"] .page-wrapper,
+  body[data-page-type="immune-hub"] .main-content,
+  body[data-page-type="immune-hub"] .immune-page {
+    background: #fff !important;
+    background-image: none !important;
+  }
+
+  body[data-page-type="immune-hub"] .immune-card {
+    width: 225px;
+    min-height: 66px;
+    padding: .62rem .75rem;
+    gap: .62rem;
+    border: 1px solid #dbe5e9;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, .96);
+    box-shadow: 0 7px 17px rgba(27, 50, 82, .08);
+  }
+
+  body[data-page-type="immune-hub"] .immune-card:hover,
+  body[data-page-type="immune-hub"] .immune-card:focus-visible {
+    border-color: #8060bf;
+    box-shadow: 0 11px 22px rgba(27, 50, 82, .13);
+  }
+
+  body[data-page-type="immune-hub"] .immune-card-icon {
+    flex: 0 0 2.65rem;
+    width: 2.65rem;
+    height: 2.65rem;
+    font-size: 1.12rem;
+  }
+
+  body[data-page-type="immune-hub"] .immune-card-title {
+    font-size: .9rem;
+    line-height: 1.18;
+    font-weight: 900;
+  }
+
+  body[data-page-type="immune-hub"] .immune-card-description {
+    margin-top: .18rem;
+    font-size: .68rem;
+    line-height: 1.22;
+    font-weight: 700;
+  }
+
+  body[data-page-type="immune-hub"] .immune-topic-hiv { left: 18%; top: 18%; }
+  body[data-page-type="immune-hub"] .immune-topic-ra { left: 13%; top: 42%; }
+  body[data-page-type="immune-hub"] .immune-topic-gout { left: 18%; top: 68%; }
+  body[data-page-type="immune-hub"] .immune-topic-lupus { left: 82%; top: 18%; }
+  body[data-page-type="immune-hub"] .immune-topic-antimicrobials { left: 87%; top: 42%; }
+  body[data-page-type="immune-hub"] .immune-topic-meds { left: 82%; top: 68%; }
+
+  @media (max-width: 1250px) {
+    body[data-page-type="immune-hub"] .immune-card {
+      width: 205px;
+      min-height: 64px;
+      padding: .58rem .68rem;
+    }
+  }
+
+  @media (max-width: 740px) {
+    body[data-page-type="immune-hub"] .immune-card {
+      width: 100%;
+    }
+  }
 </style>
 
 <div class="mh-breadcrumb">
