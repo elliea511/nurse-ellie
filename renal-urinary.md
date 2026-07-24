@@ -16,7 +16,7 @@ page_type: renal-hub
     width: 100% !important;
     max-width: 100% !important;
     margin: 0 !important;
-    padding: 2.25rem 0 3rem !important;
+    padding: 1.75rem 0 2.25rem !important;
     border-radius: 0 !important;
     box-shadow: none !important;
   }
@@ -58,8 +58,8 @@ page_type: renal-hub
   }
 
   body[data-page-type="renal-hub"] .system-hub .mh-brain-center {
-    width: 27rem;
-    height: 28rem;
+    width: clamp(19rem, 31vw, 24rem);
+    height: clamp(22rem, 38vw, 27rem);
     filter: drop-shadow(0 22px 24px rgba(47, 112, 168, .18));
   }
 
@@ -84,13 +84,13 @@ page_type: renal-hub
 
   body[data-page-type="renal-hub"] .system-hub .mh-topic-orbit {
     display: block;
-    min-height: 760px;
+    min-height: 700px;
   }
 
   body[data-page-type="renal-hub"] .system-hub .mh-topic-orbit .mh-topic-card {
     position: absolute;
-    width: min(250px, 29%);
-    min-height: 76px;
+    width: min(245px, 28%);
+    min-height: 72px;
     transform: translate(-50%, -50%);
   }
 
@@ -100,10 +100,16 @@ page_type: renal-hub
   }
 
   body[data-page-type="renal-hub"] .renal-topic-uti { left: 18%; top: 25%; }
-  body[data-page-type="renal-hub"] .renal-topic-stones { left: 12%; top: 48%; }
-  body[data-page-type="renal-hub"] .renal-topic-glom { left: 20%; top: 72%; }
+  body[data-page-type="renal-hub"] .renal-topic-stones { left: 14%; top: 48%; }
+  body[data-page-type="renal-hub"] .renal-topic-glom { left: 20%; top: 71%; }
   body[data-page-type="renal-hub"] .renal-topic-procedures { left: 84%; top: 34%; }
-  body[data-page-type="renal-hub"] .renal-topic-disease { left: 82%; top: 66%; }
+  body[data-page-type="renal-hub"] .renal-topic-disease { left: 82%; top: 65%; }
+
+  body[data-page-type="renal-hub"] .system-hub .mh-hub-shortcuts {
+    grid-template-columns: 1fr;
+    width: min(360px, 100%);
+    margin: 1rem auto 0;
+  }
 
   body[data-page-type="renal-hub"] .renal-line-uti,
   body[data-page-type="renal-hub"] .renal-dot-uti { stroke: #3177e8 !important; fill: #3177e8 !important; }

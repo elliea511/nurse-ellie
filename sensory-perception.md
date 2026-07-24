@@ -40,7 +40,7 @@ page_type: sensory-hub
     --sensory-pink: #f24f87;
     min-height: auto;
     color: var(--sensory-navy);
-    background: linear-gradient(180deg, #fff 0%, #fbf9ff 100%);
+    background: transparent;
   }
 
   .sensory-page * {
@@ -50,8 +50,8 @@ page_type: sensory-hub
   .sensory-layout {
     display: grid;
     grid-template-columns: minmax(0, 1fr) 300px;
-    gap: 28px;
-    align-items: start;
+    gap: 2.2rem;
+    align-items: stretch;
     width: min(100% - 32px, 1280px);
     margin-inline: auto;
   }
@@ -62,7 +62,7 @@ page_type: sensory-hub
   }
 
   .sensory-title {
-    margin: 0 auto 1.1rem;
+    margin: 0 0 2.2rem;
     padding: 0 !important;
     background: transparent !important;
     border: 0 !important;
@@ -74,7 +74,7 @@ page_type: sensory-hub
     display: block !important;
     width: auto !important;
     max-width: none !important;
-    margin: 0 0 0.25rem !important;
+    margin: 0 !important;
     padding: 0 !important;
     background: transparent !important;
     border: 0 !important;
@@ -83,7 +83,7 @@ page_type: sensory-hub
     color: var(--sensory-navy) !important;
     -webkit-text-fill-color: var(--sensory-navy) !important;
     font-family: "Nunito", sans-serif !important;
-    font-size: clamp(3rem, 4.5vw, 3.55rem) !important;
+    font-size: clamp(2rem, 3vw, 3.15rem) !important;
     font-weight: 900 !important;
     letter-spacing: -0.045em;
     line-height: 1 !important;
@@ -98,21 +98,21 @@ page_type: sensory-hub
 
   .sensory-title p {
     margin: 0;
-    color: var(--sensory-purple);
-    font-size: clamp(1.08rem, 1.8vw, 1.22rem);
-    font-weight: 800;
-    line-height: 1.25;
+    color: #8060bf;
+    font-size: 1.12rem;
+    font-weight: 700;
+    line-height: 1.4;
   }
 
   .sensory-stage {
     position: relative;
     display: grid;
-    grid-template-columns: 230px minmax(300px, 380px) 230px;
-    gap: 18px;
+    grid-template-columns: 245px minmax(300px, 380px) 245px;
+    gap: 1.4rem;
     align-items: center;
     justify-content: center;
     width: 100%;
-    max-width: 880px;
+    max-width: 930px;
     margin: 0.65rem auto 0;
   }
 
@@ -128,7 +128,7 @@ page_type: sensory-hub
 
   .sensory-connectors path {
     fill: none;
-    stroke-width: 2.15;
+    stroke-width: 2;
     stroke-linecap: round;
     stroke-linejoin: round;
   }
@@ -154,16 +154,16 @@ page_type: sensory-hub
     position: relative;
     z-index: 3;
     display: grid;
-    grid-template-columns: 3.15rem minmax(0, 1fr) auto;
+    grid-template-columns: 3.2rem minmax(0, 1fr) auto;
     align-items: center;
-    gap: 0.75rem;
-    width: 230px;
-    min-height: 96px;
-    padding: 0.75rem 0.85rem;
+    gap: .85rem;
+    width: 245px;
+    min-height: 78px;
+    padding: .8rem 1rem;
     border: 1px solid var(--card-border);
-    border-radius: 21px;
-    background: rgba(255, 255, 255, 0.97);
-    box-shadow: 0 9px 20px rgba(27, 50, 82, 0.1);
+    border-radius: 18px;
+    background: rgba(255,255,255,.96);
+    box-shadow: 0 8px 20px rgba(27, 50, 82, .10);
     color: var(--sensory-navy) !important;
     text-align: left;
     text-decoration: none !important;
@@ -195,12 +195,12 @@ page_type: sensory-hub
   .sensory-card-icon {
     display: grid;
     place-items: center;
-    width: 3.15rem;
-    height: 3.15rem;
+    width: 3.2rem;
+    height: 3.2rem;
     border-radius: 999px;
     background: var(--icon-bg);
     color: var(--card-accent);
-    font-size: 1.35rem;
+    font-size: 1.45rem;
     font-weight: 900;
   }
 
@@ -214,16 +214,16 @@ page_type: sensory-hub
 
   .sensory-card strong {
     color: var(--sensory-navy) !important;
-    font-size: 1rem;
+    font-size: .99rem;
     font-weight: 900;
     line-height: 1.2;
   }
 
   .sensory-card small {
-    margin-top: 0.18rem;
-    color: var(--sensory-muted);
-    font-size: 0.73rem;
-    font-weight: 800;
+    margin-top: .22rem;
+    color: #68728c;
+    font-size: .74rem;
+    font-weight: 700;
     line-height: 1.25;
   }
 
@@ -255,17 +255,17 @@ page_type: sensory-hub
     align-items: center;
     justify-content: center;
     gap: 0.7rem;
-    width: min(350px, 92%);
-    min-height: 52px;
+    width: min(360px, 92%);
+    min-height: 58px;
     margin: 1rem auto 0;
-    padding: 0.72rem 1rem;
-    border: 1px solid #cdbff2;
-    border-radius: 16px;
+    padding: .7rem;
+    border: 1px solid #e7e3ed;
+    border-radius: 14px;
     background: #fff;
-    box-shadow: 0 10px 24px rgba(76, 47, 168, 0.1);
-    color: #6848c2 !important;
+    box-shadow: 0 6px 16px rgba(27, 50, 82, .08);
+    color: #172153 !important;
     text-decoration: none !important;
-    font-size: 0.98rem;
+    font-size: .9rem;
     font-weight: 900;
   }
 
@@ -285,7 +285,7 @@ page_type: sensory-hub
     display: flex;
     flex-direction: column;
     align-self: start;
-    padding: 1.55rem 1.45rem;
+    padding: 2.1rem 1.9rem;
     border: 1px solid #cbdde2;
     border-radius: 24px;
     background: linear-gradient(155deg, #fff, #fbfefe);
@@ -296,7 +296,7 @@ page_type: sensory-hub
     margin: 0 !important;
     color: #0c174d !important;
     font-family: "Nunito", sans-serif !important;
-    font-size: 1.45rem !important;
+    font-size: 1.55rem !important;
     line-height: 1.2 !important;
     text-align: center;
     border: 0 !important;
@@ -350,13 +350,13 @@ page_type: sensory-hub
     display: flex;
     align-items: center;
     gap: 0.7rem;
-    margin-top: 0.8rem;
-    padding: 0.9rem;
+    margin-top: auto;
+    padding: 1rem;
     border: 1px solid #e6ddf7;
     border-radius: 15px;
     background: #f5f1fd;
     color: #4a3b74;
-    font-size: 0.88rem;
+    font-size: .9rem;
     font-weight: 800;
   }
 
@@ -410,12 +410,13 @@ page_type: sensory-hub
   @media (max-width: 1050px) {
     .sensory-layout {
       grid-template-columns: 1fr;
-      width: min(100% - 24px, 860px);
+      width: min(100% - 1.5rem, 860px);
     }
 
     .sensory-sidebar {
       width: min(100%, 680px);
       margin-inline: auto;
+      align-self: auto;
     }
 
     .sensory-connectors {
@@ -425,7 +426,7 @@ page_type: sensory-hub
 
   @media (max-width: 760px) {
     body[data-page-type="sensory-hub"] .main-content {
-      padding: 1.2rem 0 2rem !important;
+      padding-top: 1.25rem !important;
     }
 
     .sensory-layout {
@@ -433,17 +434,17 @@ page_type: sensory-hub
     }
 
     .sensory-title h1 {
-      font-size: clamp(2.35rem, 11vw, 3rem) !important;
+      font-size: 1.8rem !important;
     }
 
     .sensory-title p {
-      font-size: 1rem;
+      font-size: .95rem;
     }
 
     .sensory-stage {
       grid-template-columns: 1fr;
       max-width: 380px;
-      gap: 0.85rem;
+      gap: .7rem;
     }
 
     .sensory-profile-wrap {
@@ -460,7 +461,23 @@ page_type: sensory-hub
 
     .sensory-card {
       width: 100%;
-      min-height: 92px;
+      min-height: 70px;
+      padding: .65rem .7rem;
+      border-radius: 15px;
+    }
+
+    .sensory-card-icon {
+      width: 2.5rem;
+      height: 2.5rem;
+      font-size: 1.05rem;
+    }
+
+    .sensory-card strong {
+      font-size: .82rem;
+    }
+
+    .sensory-card small {
+      display: none;
     }
 
     .sensory-profile {
