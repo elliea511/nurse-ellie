@@ -16,215 +16,512 @@ page_type: sensory-hub
     width: 100% !important;
     max-width: 100% !important;
     margin: 0 !important;
-    padding: 2.25rem 0 3rem !important;
+    padding: 1.45rem 0 1.75rem !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    background: transparent !important;
+    overflow-x: hidden !important;
+  }
+
+  body[data-page-type="sensory-hub"] .main-content img {
+    border: 0 !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    background: transparent !important;
+  }
+
+  .sensory-page {
+    --sensory-navy: #0b174e;
+    --sensory-muted: #65708f;
+    --sensory-purple: #8060bf;
+    --sensory-border: #d7e5eb;
+    --sensory-blue: #2876e8;
+    --sensory-pink: #f24f87;
+    min-height: auto;
+    color: var(--sensory-navy);
+    background: linear-gradient(180deg, #fff 0%, #fbf9ff 100%);
+  }
+
+  .sensory-page * {
+    box-sizing: border-box;
+  }
+
+  .sensory-layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 300px;
+    gap: 28px;
+    align-items: start;
+    width: min(100% - 32px, 1280px);
+    margin-inline: auto;
+  }
+
+  .sensory-main {
+    min-width: 0;
+    text-align: center;
+  }
+
+  .sensory-title {
+    margin: 0 auto 1.1rem;
+    padding: 0 !important;
+    background: transparent !important;
+    border: 0 !important;
     border-radius: 0 !important;
     box-shadow: none !important;
   }
 
-  body[data-page-type="sensory-hub"] .system-hub {
-    padding: 0 2rem;
-  }
-
-  body[data-page-type="sensory-hub"] .system-hub .mh-hub-header h1 {
+  .sensory-title h1 {
     display: block !important;
     width: auto !important;
     max-width: none !important;
-    margin: 0 !important;
+    margin: 0 0 0.25rem !important;
     padding: 0 !important;
+    background: transparent !important;
     border: 0 !important;
     border-radius: 0 !important;
-    background: transparent !important;
     box-shadow: none !important;
-    color: #0b174e !important;
-    -webkit-text-fill-color: #0b174e !important;
+    color: var(--sensory-navy) !important;
+    -webkit-text-fill-color: var(--sensory-navy) !important;
     font-family: "Nunito", sans-serif !important;
-    font-size: clamp(2rem, 3vw, 3.15rem) !important;
-    line-height: 1.05 !important;
-    letter-spacing: -0.04em;
+    font-size: clamp(3rem, 4.5vw, 3.55rem) !important;
+    font-weight: 900 !important;
+    letter-spacing: -0.045em;
+    line-height: 1 !important;
     text-shadow: none !important;
   }
 
-  body[data-page-type="sensory-hub"] .system-hub .mh-hub-header h1::before,
-  body[data-page-type="sensory-hub"] .system-hub .mh-hub-header h1::after {
+  .sensory-title h1::before,
+  .sensory-title h1::after {
     display: none !important;
     content: none !important;
   }
 
-  body[data-page-type="sensory-hub"] .system-hub .mh-hub-header p {
-    margin: 0.25rem 0 0;
-    color: #8060bf;
-    font-size: 1.12rem;
-    font-weight: 700;
+  .sensory-title p {
+    margin: 0;
+    color: var(--sensory-purple);
+    font-size: clamp(1.08rem, 1.8vw, 1.22rem);
+    font-weight: 800;
+    line-height: 1.25;
   }
 
-  body[data-page-type="sensory-hub"] .system-hub .mh-brain-center {
-    width: 29rem;
-    height: 31rem;
-    filter: drop-shadow(0 22px 24px rgba(85, 65, 150, .15));
+  .sensory-stage {
+    position: relative;
+    display: grid;
+    grid-template-columns: 230px minmax(300px, 380px) 230px;
+    gap: 18px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 880px;
+    margin: 0.65rem auto 0;
   }
 
-  body[data-page-type="sensory-hub"] .system-hub .mh-brain-center img,
-  body[data-page-type="sensory-hub"] .system-hub .mh-hub-brandmark img,
-  body[data-page-type="sensory-hub"] .system-hub .mh-guide-icon img {
+  .sensory-connectors {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
     width: 100%;
     height: 100%;
-    object-fit: contain;
-    margin: 0 auto !important;
-    border: 0 !important;
-    border-radius: 0 !important;
-    background: transparent !important;
-    box-shadow: none !important;
+    overflow: visible;
+    pointer-events: none;
   }
 
-  body[data-page-type="sensory-hub"] .system-hub .mh-brain-center img {
-    filter: saturate(1.08) contrast(1.04);
+  .sensory-connectors path {
+    fill: none;
+    stroke-width: 2.15;
+    stroke-linecap: round;
+    stroke-linejoin: round;
   }
 
-  body[data-page-type="sensory-hub"] .system-hub .mh-hub-brandmark img,
-  body[data-page-type="sensory-hub"] .system-hub .mh-guide-icon img {
-    width: 4rem;
-    height: 4rem;
+  .sensory-line-eye,
+  .sensory-dot-eye {
+    stroke: var(--sensory-blue);
+    fill: var(--sensory-blue);
   }
 
-  body[data-page-type="sensory-hub"] .system-hub .mh-topic-orbit {
+  .sensory-line-ear,
+  .sensory-dot-ear {
+    stroke: var(--sensory-pink);
+    fill: var(--sensory-pink);
+  }
+
+  .sensory-connectors circle {
+    stroke: #fff;
+    stroke-width: 3;
+  }
+
+  .sensory-card {
+    position: relative;
+    z-index: 3;
+    display: grid;
+    grid-template-columns: 3.15rem minmax(0, 1fr) auto;
+    align-items: center;
+    gap: 0.75rem;
+    width: 230px;
+    min-height: 96px;
+    padding: 0.75rem 0.85rem;
+    border: 1px solid var(--card-border);
+    border-radius: 21px;
+    background: rgba(255, 255, 255, 0.97);
+    box-shadow: 0 9px 20px rgba(27, 50, 82, 0.1);
+    color: var(--sensory-navy) !important;
+    text-align: left;
+    text-decoration: none !important;
+    transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+  }
+
+  .sensory-card:hover,
+  .sensory-card:focus-visible {
+    transform: translateY(-3px);
+    border-color: var(--card-accent);
+    box-shadow: 0 13px 26px rgba(27, 50, 82, 0.15);
+    outline: none;
+  }
+
+  .sensory-card:focus-visible {
+    box-shadow: 0 0 0 4px rgba(128, 96, 191, 0.18), 0 13px 26px rgba(27, 50, 82, 0.15);
+  }
+
+  .sensory-card-eye {
+    --card-accent: var(--sensory-blue);
+    --card-border: #c7dcff;
+  }
+
+  .sensory-card-ear {
+    --card-accent: var(--sensory-pink);
+    --card-border: #ffc3d5;
+  }
+
+  .sensory-card-icon {
+    display: grid;
+    place-items: center;
+    width: 3.15rem;
+    height: 3.15rem;
+    border-radius: 999px;
+    background: var(--icon-bg);
+    color: var(--card-accent);
+    font-size: 1.35rem;
+    font-weight: 900;
+  }
+
+  .sensory-card-eye .sensory-card-icon { --icon-bg: #e8f2ff; }
+  .sensory-card-ear .sensory-card-icon { --icon-bg: #ffe6ef; }
+
+  .sensory-card strong,
+  .sensory-card small {
     display: block;
-    min-height: 700px;
   }
 
-  body[data-page-type="sensory-hub"] .system-hub .mh-topic-orbit::before {
-    inset: 18% 20%;
+  .sensory-card strong {
+    color: var(--sensory-navy) !important;
+    font-size: 1rem;
+    font-weight: 900;
+    line-height: 1.2;
   }
 
-  body[data-page-type="sensory-hub"] .system-hub .mh-topic-card {
+  .sensory-card small {
+    margin-top: 0.18rem;
+    color: var(--sensory-muted);
+    font-size: 0.73rem;
+    font-weight: 800;
+    line-height: 1.25;
+  }
+
+  .sensory-card-chevron {
+    color: var(--card-accent);
+    font-size: 1.25rem;
+    font-weight: 900;
+    opacity: 0.65;
+  }
+
+  .sensory-profile-wrap {
+    position: relative;
+    z-index: 2;
+    min-width: 0;
+  }
+
+  .sensory-profile {
+    display: block;
+    width: 100%;
+    max-width: 360px;
+    max-height: 420px;
+    object-fit: contain;
+    margin-inline: auto;
+    filter: saturate(1.08) contrast(1.04) drop-shadow(0 18px 22px rgba(85, 65, 150, 0.1));
+  }
+
+  .sensory-back {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.7rem;
+    width: min(350px, 92%);
+    min-height: 52px;
+    margin: 1rem auto 0;
+    padding: 0.72rem 1rem;
+    border: 1px solid #cdbff2;
+    border-radius: 16px;
+    background: #fff;
+    box-shadow: 0 10px 24px rgba(76, 47, 168, 0.1);
+    color: #6848c2 !important;
+    text-decoration: none !important;
+    font-size: 0.98rem;
+    font-weight: 900;
+  }
+
+  .sensory-back svg {
+    width: 1.45rem;
+    height: 1.45rem;
+  }
+
+  .sensory-back:hover,
+  .sensory-back:focus-visible {
+    transform: translateY(-2px);
+    box-shadow: 0 13px 28px rgba(76, 47, 168, 0.15);
+    outline: none;
+  }
+
+  .sensory-sidebar {
+    display: flex;
+    flex-direction: column;
+    align-self: start;
+    padding: 1.55rem 1.45rem;
+    border: 1px solid #cbdde2;
+    border-radius: 24px;
+    background: linear-gradient(155deg, #fff, #fbfefe);
+    box-shadow: 0 12px 30px rgba(27, 50, 82, 0.07);
+  }
+
+  .sensory-sidebar h2 {
+    margin: 0 !important;
+    color: #0c174d !important;
+    font-family: "Nunito", sans-serif !important;
+    font-size: 1.45rem !important;
+    line-height: 1.2 !important;
+    text-align: center;
+    border: 0 !important;
+    background: none !important;
+  }
+
+  .sensory-guide-rule {
+    height: 1px;
+    margin: 1.45rem 0;
+    background: #e0d6f5;
+  }
+
+  .sensory-sidebar > p {
+    margin: 0 0 0.7rem;
+    font-weight: 900;
+    color: var(--sensory-navy);
+  }
+
+  .sensory-sidebar ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .sensory-sidebar li {
+    position: relative;
+    margin: 0 0 0.75rem;
+    padding-left: 2rem;
+    color: var(--sensory-navy);
+    font-weight: 800;
+    line-height: 1.3;
+  }
+
+  .sensory-sidebar li::before {
+    content: "✓";
     position: absolute;
-    width: min(250px, 30%);
-    min-height: 76px;
-    transform: translate(-50%, -50%);
+    left: 0;
+    top: 0.05rem;
+    display: grid;
+    place-items: center;
+    width: 1.2rem;
+    height: 1.2rem;
+    border: 1.5px solid var(--sensory-purple);
+    border-radius: 50%;
+    color: #6a4bb0;
+    font-size: 0.75rem;
+    font-weight: 900;
   }
 
-  body[data-page-type="sensory-hub"] .system-hub .mh-topic-card:hover,
-  body[data-page-type="sensory-hub"] .system-hub .mh-topic-card:focus-visible {
-    transform: translate(-50%, calc(-50% - 3px));
+  .sensory-guide-tip {
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+    margin-top: 0.8rem;
+    padding: 0.9rem;
+    border: 1px solid #e6ddf7;
+    border-radius: 15px;
+    background: #f5f1fd;
+    color: #4a3b74;
+    font-size: 0.88rem;
+    font-weight: 800;
   }
 
-  body[data-page-type="sensory-hub"] .system-topic-eye { left: 15%; top: 50%; }
-  body[data-page-type="sensory-hub"] .system-topic-ear { left: 85%; top: 50%; }
-
-  body[data-page-type="sensory-hub"] .system-hub .mh-connector-lines line {
-    stroke-dasharray: none;
-    stroke-width: 2.5;
+  .sensory-guide-tip span {
+    font-size: 1.35rem;
   }
 
-  body[data-page-type="sensory-hub"] .system-eye-line,
-  body[data-page-type="sensory-hub"] .system-eye-dot { stroke: #2876e8 !important; fill: #2876e8 !important; }
-
-  body[data-page-type="sensory-hub"] .system-ear-line,
-  body[data-page-type="sensory-hub"] .system-ear-dot { stroke: #f24f87 !important; fill: #f24f87 !important; }
-
-  body[data-page-type="sensory-hub"] .system-hub .mh-topic-card:nth-of-type(odd),
-  body[data-page-type="sensory-hub"] .system-hub .mh-topic-card:nth-of-type(even) {
-    justify-self: auto;
+  [data-theme="dark"] .sensory-page {
+    background: #171522;
   }
 
-  @media (max-width: 980px) {
-    body[data-page-type="sensory-hub"] .system-hub .mh-topic-orbit {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 1rem;
-      min-height: auto;
+  [data-theme="dark"] .sensory-title h1,
+  [data-theme="dark"] .sensory-sidebar h2,
+  [data-theme="dark"] .sensory-sidebar > p,
+  [data-theme="dark"] .sensory-sidebar li,
+  [data-theme="dark"] .sensory-card strong {
+    color: #eef7ff !important;
+    -webkit-text-fill-color: #eef7ff !important;
+  }
+
+  [data-theme="dark"] .sensory-card,
+  [data-theme="dark"] .sensory-sidebar,
+  [data-theme="dark"] .sensory-back {
+    background: #242a3c;
+    border-color: #45526c;
+  }
+
+  [data-theme="dark"] .sensory-card small {
+    color: #b5bfd1;
+  }
+
+  [data-theme="dark"] .sensory-guide-tip {
+    background: #2f2749;
+    color: #e7dfff;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .sensory-card,
+    .sensory-back {
+      transition: none;
     }
 
-    body[data-page-type="sensory-hub"] .system-hub .mh-orbit-connectors,
-    body[data-page-type="sensory-hub"] .system-hub .mh-topic-orbit::before {
+    .sensory-card:hover,
+    .sensory-card:focus-visible,
+    .sensory-back:hover,
+    .sensory-back:focus-visible {
+      transform: none;
+    }
+  }
+
+  @media (max-width: 1050px) {
+    .sensory-layout {
+      grid-template-columns: 1fr;
+      width: min(100% - 24px, 860px);
+    }
+
+    .sensory-sidebar {
+      width: min(100%, 680px);
+      margin-inline: auto;
+    }
+
+    .sensory-connectors {
       display: none;
     }
-
-    body[data-page-type="sensory-hub"] .system-hub .mh-brain-center {
-      position: relative;
-      grid-column: 1 / -1;
-      top: auto;
-      left: auto;
-      width: min(28rem, 100%);
-      height: 24rem;
-      transform: none;
-      margin: 0 auto;
-    }
-
-    body[data-page-type="sensory-hub"] .system-hub .mh-topic-orbit .mh-topic-card {
-      position: relative;
-      left: auto;
-      top: auto;
-      width: 100%;
-      transform: none;
-    }
-
-    body[data-page-type="sensory-hub"] .system-hub .mh-topic-orbit .mh-topic-card:hover,
-    body[data-page-type="sensory-hub"] .system-hub .mh-topic-orbit .mh-topic-card:focus-visible {
-      transform: translateY(-3px);
-    }
   }
 
-  @media (max-width: 620px) {
-    body[data-page-type="sensory-hub"] .system-hub .mh-topic-orbit {
-      grid-template-columns: 1fr;
+  @media (max-width: 760px) {
+    body[data-page-type="sensory-hub"] .main-content {
+      padding: 1.2rem 0 2rem !important;
     }
 
-    body[data-page-type="sensory-hub"] .system-hub .mh-brain-center {
-      height: 19rem;
+    .sensory-layout {
+      width: min(100% - 20px, 520px);
+    }
+
+    .sensory-title h1 {
+      font-size: clamp(2.35rem, 11vw, 3rem) !important;
+    }
+
+    .sensory-title p {
+      font-size: 1rem;
+    }
+
+    .sensory-stage {
+      grid-template-columns: 1fr;
+      max-width: 380px;
+      gap: 0.85rem;
+    }
+
+    .sensory-profile-wrap {
+      order: 1;
+    }
+
+    .sensory-card-eye {
+      order: 2;
+    }
+
+    .sensory-card-ear {
+      order: 3;
+    }
+
+    .sensory-card {
+      width: 100%;
+      min-height: 92px;
+    }
+
+    .sensory-profile {
+      max-height: 310px;
+    }
+
+    .sensory-back {
+      margin-top: 0.9rem;
     }
   }
 </style>
 
-<section class="mh-hub system-hub sensory-system-hub" aria-labelledby="sensory-hub-title">
-  <header class="mh-hub-header">
-    <div class="mh-hub-brandmark" aria-hidden="true">
-      <img src="{{ '/assets/images/sensory-profile-woman.png' | relative_url }}" alt="" data-no-lb>
-    </div>
-    <div>
-      <h1 id="sensory-hub-title">Sensory Perception</h1>
-      <p>Your simple hub for vision and hearing nursing.</p>
-    </div>
-  </header>
+<section class="sensory-page" aria-labelledby="sensory-title">
+  <div class="sensory-layout">
+    <div class="sensory-main">
+      <header class="sensory-title">
+        <h1 id="sensory-title">Sensory Perception</h1>
+        <p>Your simple hub for vision and hearing nursing.</p>
+      </header>
 
-  <div class="mh-hub-layout">
-    <div class="mh-hub-main">
-      <div class="mh-topic-orbit" aria-label="Sensory perception study topics">
-        <svg class="mh-orbit-connectors" viewBox="0 0 1000 700" preserveAspectRatio="none" aria-hidden="true">
-          <g class="mh-connector-lines">
-            <line class="system-eye-line" x1="150" y1="350" x2="420" y2="330"></line>
-            <line class="system-ear-line" x1="850" y1="350" x2="610" y2="350"></line>
-          </g>
-          <g class="mh-connector-dots">
-            <circle class="system-eye-dot" cx="150" cy="350" r="6"></circle>
-            <circle class="system-eye-dot" cx="420" cy="330" r="6"></circle>
-            <circle class="system-ear-dot" cx="850" cy="350" r="6"></circle>
-            <circle class="system-ear-dot" cx="610" cy="350" r="6"></circle>
-          </g>
+      <div class="sensory-stage" aria-label="Sensory perception study topics">
+        <svg class="sensory-connectors" viewBox="0 0 856 420" preserveAspectRatio="none" aria-hidden="true">
+          <path class="sensory-line-eye" d="M230 188 C275 188 320 168 374 164"></path>
+          <circle class="sensory-dot-eye" cx="230" cy="188" r="5"></circle>
+          <circle class="sensory-dot-eye" cx="374" cy="164" r="5"></circle>
+
+          <path class="sensory-line-ear" d="M626 208 C585 208 540 216 469 216"></path>
+          <circle class="sensory-dot-ear" cx="626" cy="208" r="5"></circle>
+          <circle class="sensory-dot-ear" cx="469" cy="216" r="5"></circle>
         </svg>
 
-        <div class="mh-brain-center" aria-hidden="true">
-          <img src="{{ '/assets/images/sensory-profile-woman.png' | relative_url }}" alt="" data-no-lb>
+        <a class="sensory-card sensory-card-eye" href="{{ '/sensory-perception/eye-disorders.html' | relative_url }}">
+          <span class="sensory-card-icon" aria-hidden="true">👁</span>
+          <span><strong>Eye Disorders</strong><small>Vision changes &amp; safety</small></span>
+          <span class="sensory-card-chevron" aria-hidden="true">›</span>
+        </a>
+
+        <div class="sensory-profile-wrap">
+          <img class="sensory-profile" src="{{ '/assets/images/sensory-profile-woman.png' | relative_url }}" alt="Side-profile woman with eye and ear highlighted for sensory perception study" data-no-lb>
         </div>
 
-        <a class="mh-topic-card system-topic-eye" href="{{ '/sensory-perception/eye-disorders.html' | relative_url }}">
-          <span class="mh-topic-icon">👁</span><span><strong>Eye Disorders</strong><small>Vision changes &amp; safety</small></span>
-        </a>
-        <a class="mh-topic-card system-topic-ear" href="{{ '/sensory-perception/ear-disorders.html' | relative_url }}">
-          <span class="mh-topic-icon">👂</span><span><strong>Ear Disorders</strong><small>Hearing changes &amp; care</small></span>
+        <a class="sensory-card sensory-card-ear" href="{{ '/sensory-perception/ear-disorders.html' | relative_url }}">
+          <span class="sensory-card-icon" aria-hidden="true">👂</span>
+          <span><strong>Ear Disorders</strong><small>Hearing changes &amp; care</small></span>
+          <span class="sensory-card-chevron" aria-hidden="true">›</span>
         </a>
       </div>
 
-      <nav class="mh-hub-shortcuts" aria-label="Sensory perception shortcuts">
-        <a href="{{ '/all-topics.html' | relative_url }}"><span>⌂</span><strong>Back to Nursing School Hub</strong></a>
-      </nav>
+      <a class="sensory-back" href="{{ '/all-topics.html' | relative_url }}">
+        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M3 11.4 12 4l9 7.4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M6 10.8V20h12v-9.2" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M10 20v-5h4v5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        Back to Nursing School Hub
+      </a>
     </div>
 
-    <aside class="mh-hub-guide">
-      <div class="mh-guide-icon" aria-hidden="true">
-        <img src="{{ '/assets/images/sensory-profile-woman.png' | relative_url }}" alt="" data-no-lb>
-      </div>
+    <aside class="sensory-sidebar">
       <h2>Select a topic<br>to open notes</h2>
-      <div class="mh-guide-rule"></div>
+      <div class="sensory-guide-rule"></div>
       <p>Study resources include:</p>
       <ul>
         <li>Overview &amp; key concepts</li>
@@ -233,7 +530,7 @@ page_type: sensory-hub
         <li>Patient education</li>
         <li>NCLEX tips &amp; memory cues</li>
       </ul>
-      <div class="mh-guide-tip"><span aria-hidden="true">💡</span> Pick either topic around the profile to get started.</div>
+      <div class="sensory-guide-tip"><span aria-hidden="true">💡</span> Choose the eye or ear topic to start reviewing.</div>
     </aside>
   </div>
 </section>
