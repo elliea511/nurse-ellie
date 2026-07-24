@@ -21,11 +21,76 @@ Ear disorders may affect **hearing, balance, communication, mobility, and safety
   </div>
 </div>
 
----
+<div class="mh-cards">
 
-## Ear Anatomy and Assessment
+  <div class="mh-card blue">
+    <div class="mh-card-icon">👂</div>
+    <h3>Anatomy & Assessment</h3>
+    <p>External, middle, and inner ear structures plus subjective and objective assessment.</p>
+    <a class="mh-btn" href="#panel-assessment">Study Assessment</a>
+  </div>
 
-The ear has three major sections:
+  <div class="mh-card green">
+    <div class="mh-card-icon">🔊</div>
+    <h3>Hearing Loss</h3>
+    <p>Conductive, sensorineural, and mixed hearing loss and common hearing tests.</p>
+    <a class="mh-btn" href="#panel-hearing-loss">Study Hearing Loss</a>
+  </div>
+
+  <div class="mh-card pink">
+    <div class="mh-card-icon">🦠</div>
+    <h3>Otitis Media & Tubes</h3>
+    <p>Acute otitis media, effusion, treatment, nursing care, and tympanostomy tubes.</p>
+    <a class="mh-btn" href="#panel-otitis">Study Otitis Media</a>
+  </div>
+
+  <div class="mh-card purple">
+    <div class="mh-card-icon">🌀</div>
+    <h3>Inner-Ear Disorders</h3>
+    <p>Labyrinthitis and Ménière disease: vertigo, tinnitus, and fall safety.</p>
+    <a class="mh-btn" href="#panel-inner-ear">Study Inner-Ear Disorders</a>
+  </div>
+
+  <div class="mh-card blue">
+    <div class="mh-card-icon">🦴</div>
+    <h3>Otosclerosis & Surgery</h3>
+    <p>Otosclerosis, stapedectomy, and postoperative pressure precautions.</p>
+    <a class="mh-btn" href="#panel-otosclerosis">Study Otosclerosis</a>
+  </div>
+
+  <div class="mh-card green">
+    <div class="mh-card-icon">🚑</div>
+    <h3>Trauma & Foreign Bodies</h3>
+    <p>External trauma, tympanic perforation, foreign bodies, and button-battery emergencies.</p>
+    <a class="mh-btn" href="#panel-trauma">Study Ear Trauma</a>
+  </div>
+
+  <div class="mh-card pink">
+    <div class="mh-card-icon">💊</div>
+    <h3>Medications & Ototoxicity</h3>
+    <p>Ototoxic medications and correct ear-drop administration technique.</p>
+    <a class="mh-btn" href="#panel-medications">Study Medications</a>
+  </div>
+
+  <div class="mh-card purple">
+    <div class="mh-card-icon">🧏</div>
+    <h3>Hearing Impairment Care</h3>
+    <p>Communication, hearing-aid care, and safety for hearing-impaired clients.</p>
+    <a class="mh-btn" href="#panel-impairment">Study Impairment Care</a>
+  </div>
+
+</div>
+
+<div class="mh-detail blue" id="panel-assessment" markdown="1">
+<a class="mh-detail-close" href="#">✕</a>
+
+### Ear Anatomy and Assessment
+
+<section class="renal-note-section" markdown="1">
+
+The ear has three major sections.
+
+<div class="detail-table" markdown="1">
 
 | Section | Main Structures | Main Function |
 |---|---|---|
@@ -33,92 +98,106 @@ The ear has three major sections:
 | **Middle ear** | Tympanic membrane and ossicles | Transmits sound vibrations |
 | **Inner ear** | Cochlea and vestibular system | Hearing and balance |
 
-### Subjective Assessment
-
-Ask about:
-
-- Ear pain
-- Hearing loss
-- Tinnitus
-- Fullness or pressure
-- Dizziness or vertigo
-- Nausea or vomiting
-- Ear drainage
-- Recent respiratory infection
-- Ear trauma
-- Loud-noise exposure
-- Medication use
-- Previous ear surgery
-- Use of hearing aids
-- Recent swimming
-- Foreign-body exposure
-
-### Objective Assessment
-
-Observe and assess:
-
-- External ear position and symmetry
-- Redness or swelling
-- Drainage
-- Tenderness
-- Ear canal
-- Tympanic membrane
-- Ability to hear conversation
-- Gait and balance
-- Nystagmus
-- Facial movement
-- Response to sound
-
-<div class="report-now" markdown="1">
-  <h3>Report Immediately</h3>
-
-- Sudden hearing loss
-- Severe vertigo with neurologic changes
-- Clear or bloody drainage after head trauma
-- Foreign object deeply embedded in the ear
-- Severe ear pain with swelling behind the ear
-- Facial weakness
-- High fever with worsening ear symptoms
 </div>
 
----
+</section>
 
-## Hearing Loss
+<section class="renal-note-section" markdown="1">
 
-Hearing loss may be **conductive, sensorineural, or mixed**.
+<div class="renal-two-column" markdown="1">
+<div markdown="1">
+##### Subjective — Ask About
 
-### Conductive Hearing Loss
+* Ear pain
+* Hearing loss
+* Tinnitus
+* Fullness or pressure
+* Dizziness or vertigo
+* Nausea or vomiting
+* Ear drainage
+* Recent respiratory infection
+* Ear trauma
+* Loud-noise exposure
+* Medication use
+* Previous ear surgery
+* Use of hearing aids
+* Recent swimming
+* Foreign-body exposure
 
-Sound is blocked from reaching the inner ear.
+</div>
+<div markdown="1">
+##### Objective — Observe and Assess
 
-Possible causes:
+* External ear position and symmetry
+* Redness or swelling
+* Drainage
+* Tenderness
+* Ear canal
+* Tympanic membrane
+* Ability to hear conversation
+* Gait and balance
+* Nystagmus
+* Facial movement
+* Response to sound
 
-- Cerumen impaction
-- Foreign body
-- Otitis media
-- Fluid behind the tympanic membrane
-- Perforated tympanic membrane
-- Otosclerosis
-- External or middle-ear trauma
+</div>
+</div>
 
-### Sensorineural Hearing Loss
+<div class="report-now" markdown="1">
+<h3>Report Immediately</h3>
 
-Damage affects the cochlea, inner ear, or auditory nerve.
+* Sudden hearing loss
+* Severe vertigo with neurologic changes
+* Clear or bloody drainage after head trauma
+* Foreign object deeply embedded in the ear
+* Severe ear pain with swelling behind the ear
+* Facial weakness
+* High fever with worsening ear symptoms
 
-Possible causes:
+</div>
 
-- Aging
-- Prolonged loud-noise exposure
-- Ototoxic medications
-- Ménière disease
-- Labyrinthitis
-- Infection
-- Head trauma
-- Genetic conditions
+</section>
 
-### Mixed Hearing Loss
+</div>
 
-The client has both conductive and sensorineural impairment.
+<div class="mh-detail green" id="panel-hearing-loss" markdown="1">
+<a class="mh-detail-close" href="#">✕</a>
+
+### Hearing Loss
+
+<section class="renal-note-section" markdown="1">
+
+Hearing loss may be **conductive, sensorineural, or mixed**. In mixed hearing loss, the client has both conductive and sensorineural impairment.
+
+<div class="renal-two-column" markdown="1">
+<div markdown="1">
+##### Conductive — Sound Blocked From Reaching the Inner Ear
+
+* Cerumen impaction
+* Foreign body
+* Otitis media
+* Fluid behind the tympanic membrane
+* Perforated tympanic membrane
+* Otosclerosis
+* External or middle-ear trauma
+
+</div>
+<div markdown="1">
+##### Sensorineural — Damage to Cochlea, Inner Ear, or Auditory Nerve
+
+* Aging
+* Prolonged loud-noise exposure
+* Ototoxic medications
+* Ménière disease
+* Labyrinthitis
+* Infection
+* Head trauma
+* Genetic conditions
+
+</div>
+</div>
+
+<div class="detail-table" markdown="1">
 
 | Conductive Hearing Loss | Sensorineural Hearing Loss |
 |---|---|
@@ -128,7 +207,15 @@ The client has both conductive and sensorineural impairment.
 | May improve when obstruction is corrected | Often permanent |
 | Hearing aid may help | Hearing aid or cochlear implant may help |
 
-### Common Hearing Tests
+</div>
+
+</section>
+
+<section class="renal-note-section" markdown="1">
+
+#### Common Hearing Tests
+
+<div class="detail-table" markdown="1">
 
 | Test | Purpose |
 |---|---|
@@ -138,492 +225,555 @@ The client has both conductive and sensorineural impairment.
 | **Weber test** | Compares sound between the ears |
 | **Rinne test** | Compares air conduction with bone conduction |
 
+</div>
+
 <div class="nclex-tip" markdown="1">
-  <h3>NCLEX Tip</h3>
+<h3>NCLEX Tip</h3>
 
 Conductive hearing loss involves a problem carrying sound to the inner ear. Sensorineural hearing loss involves damage to the inner ear or auditory nerve.
+
 </div>
 
----
+</section>
 
-## Otitis Media
+</div>
 
-**Otitis media** is inflammation or infection of the middle ear. It is especially common in infants and young children because their eustachian tubes are shorter and more horizontal.
+<div class="mh-detail pink" id="panel-otitis" markdown="1">
+<a class="mh-detail-close" href="#">✕</a>
 
-### Risk Factors
+### Otitis Media
 
-- Recent upper respiratory infection
-- Young age
-- Daycare exposure
-- Bottle-feeding while lying flat
-- Passive-smoke exposure
-- Lack of recommended vaccinations
-- Craniofacial abnormalities
-- Enlarged adenoids
-- Previous ear infections
+<section class="renal-note-section" markdown="1">
 
-## Acute Otitis Media
+**Otitis media** is inflammation or infection of the middle ear. It is especially common in infants and young children because their eustachian tubes are shorter and more horizontal. Risk factors include a recent upper respiratory infection, young age, daycare exposure, bottle-feeding while lying flat, passive-smoke exposure, lack of recommended vaccinations, craniofacial abnormalities, enlarged adenoids, and previous ear infections.
 
-Acute otitis media usually begins suddenly and may involve bacterial or viral infection.
+<div class="renal-two-column" markdown="1">
+<div markdown="1">
+##### Acute Otitis Media
 
-### Expected Findings
+Begins suddenly and may involve bacterial or viral infection.
 
-- Ear pain
-- Fever
-- Irritability
-- Crying
-- Pulling or rubbing the ear
-- Poor feeding
-- Difficulty sleeping
-- Decreased hearing
-- Red or bulging tympanic membrane
-- Fluid behind the tympanic membrane
+* Ear pain
+* Fever
+* Irritability
+* Crying
+* Pulling or rubbing the ear
+* Poor feeding
+* Difficulty sleeping
+* Decreased hearing
+* Red or bulging tympanic membrane
+* Fluid behind the tympanic membrane
 
-Infants may show nonspecific symptoms such as:
+Infants may show nonspecific symptoms such as restlessness, poor feeding, vomiting, diarrhea, and increased crying.
 
-- Restlessness
-- Poor feeding
-- Vomiting
-- Diarrhea
-- Increased crying
+</div>
+<div markdown="1">
+##### Otitis Media With Effusion
 
-## Otitis Media With Effusion
+Fluid remains behind the tympanic membrane without signs of an acute infection.
 
-**Otitis media with effusion** means fluid remains behind the tympanic membrane without signs of an acute infection.
+* Ear fullness
+* Muffled hearing
+* Delayed speech or language development
+* Poor response to sound
+* Balance problems
+* Usually little or no fever
+* Usually less pain than acute otitis media
 
-Possible findings:
+</div>
+</div>
 
-- Ear fullness
-- Muffled hearing
-- Delayed speech or language development
-- Poor response to sound
-- Balance problems
-- Usually little or no fever
-- Usually less pain than acute otitis media
+</section>
 
-### Diagnostic Tests
+<section class="renal-note-section" markdown="1">
 
-- Otoscopic examination
-- Pneumatic otoscopy
-- Tympanometry
-- Acoustic reflectometry
-- Hearing evaluation when infections are recurrent
+#### Diagnosis and Treatment
 
-### Treatment
+<div class="renal-two-column" markdown="1">
+<div markdown="1">
+##### Diagnostic Tests
 
-Treatment may include:
+* Otoscopic examination
+* Pneumatic otoscopy
+* Tympanometry
+* Acoustic reflectometry
+* Hearing evaluation when infections are recurrent
 
-- Analgesics
-- Antipyretics
-- Antibiotics when prescribed
-- Topical anesthetic drops when appropriate
-- Warm compresses
-- Observation for selected mild cases
-- Myringotomy with tympanostomy tubes for recurrent infection or persistent fluid
+</div>
+<div markdown="1">
+##### Treatment
 
-### Nursing Care
+* Analgesics
+* Antipyretics
+* Antibiotics when prescribed
+* Topical anesthetic drops when appropriate
+* Warm compresses
+* Observation for selected mild cases
+* Myringotomy with tympanostomy tubes for recurrent infection or persistent fluid
 
-- Assess pain and temperature.
-- Administer analgesics as prescribed.
-- Apply warmth over the affected ear.
-- Position the client upright when possible.
-- The client may lie on the affected side to promote drainage if the tympanic membrane has ruptured.
-- Clean drainage gently from the outer ear.
-- Keep ear wicks loose and dry when used.
-- Monitor for hearing loss.
-- Encourage fluids.
-- Provide comfort and rest.
-- Monitor response to antibiotics.
+</div>
+</div>
 
-### Patient and Caregiver Education
+</section>
 
-- Complete the full antibiotic prescription.
-- Do not place unapproved drops into an ear with a possible perforation.
-- Avoid bottle propping.
-- Feed infants in an upright position.
-- Avoid passive-smoke exposure.
-- Maintain recommended vaccinations.
-- Keep follow-up appointments.
-- Report persistent hearing difficulty.
-- Keep water out of the ears when tympanostomy-tube precautions are prescribed.
+<section class="renal-note-section" markdown="1">
+
+#### Nursing Care and Education
+
+<div class="renal-two-column" markdown="1">
+<div markdown="1">
+##### Nursing Care
+
+* Assess pain and temperature.
+* Administer analgesics as prescribed.
+* Apply warmth over the affected ear.
+* Position the client upright when possible.
+* The client may lie on the affected side to promote drainage if the tympanic membrane has ruptured.
+* Clean drainage gently from the outer ear.
+* Keep ear wicks loose and dry when used.
+* Monitor for hearing loss.
+* Encourage fluids.
+* Provide comfort and rest.
+* Monitor response to antibiotics.
+
+</div>
+<div markdown="1">
+##### Patient and Caregiver Education
+
+* Complete the full antibiotic prescription.
+* Do not place unapproved drops into an ear with a possible perforation.
+* Avoid bottle propping.
+* Feed infants in an upright position.
+* Avoid passive-smoke exposure.
+* Maintain recommended vaccinations.
+* Keep follow-up appointments.
+* Report persistent hearing difficulty.
+* Keep water out of the ears when tympanostomy-tube precautions are prescribed.
+
+</div>
+</div>
 
 <div class="report-now" markdown="1">
-  <h3>Report With Otitis Media</h3>
+<h3>Report With Otitis Media</h3>
 
-- Swelling or tenderness behind the ear
-- Ear pushed outward from the head
-- Persistent high fever
-- Severe headache
-- Stiff neck
-- Facial weakness
-- Continued hearing loss
-- Foul drainage
+* Swelling or tenderness behind the ear
+* Ear pushed outward from the head
+* Persistent high fever
+* Severe headache
+* Stiff neck
+* Facial weakness
+* Continued hearing loss
+* Foul drainage
+
 </div>
 
 <div class="nclex-tip" markdown="1">
-  <h3>NCLEX Tip</h3>
+<h3>NCLEX Tip</h3>
 
 Persistent middle-ear fluid can interfere with hearing and speech development even when the child no longer has fever or severe pain.
+
 </div>
 
----
+</section>
 
-## Myringotomy and Tympanostomy Tubes
+<section class="renal-note-section" markdown="1">
+
+#### Myringotomy and Tympanostomy Tubes
 
 A **myringotomy** is a small incision made in the tympanic membrane to drain fluid. A small tympanostomy tube may be inserted to keep the middle ear ventilated.
 
-### Why Tubes May Be Needed
+<div class="renal-two-column" markdown="1">
+<div markdown="1">
+##### Why Tubes May Be Needed
 
-- Recurrent acute otitis media
-- Persistent middle-ear fluid
-- Conductive hearing loss
-- Delayed speech related to impaired hearing
-- Poor response to other treatment
+* Recurrent acute otitis media
+* Persistent middle-ear fluid
+* Conductive hearing loss
+* Delayed speech related to impaired hearing
+* Poor response to other treatment
 
-### Expected After Tube Placement
+</div>
+<div markdown="1">
+##### Expected After Tube Placement
 
-- Improved hearing
-- Small amount of drainage initially
-- Reduced pressure or discomfort
-- Tubes eventually fall out naturally in many clients
+* Improved hearing
+* Small amount of drainage initially
+* Reduced pressure or discomfort
+* Tubes eventually fall out naturally in many clients
 
-### Teaching
+</div>
+</div>
 
-- Administer prescribed ear drops correctly.
-- Keep follow-up appointments.
-- Follow instructions about swimming and bathing.
-- Use ear protection if prescribed.
-- Do not insert objects into the ear.
-- Report persistent or foul-smelling drainage.
-- Report fever, increasing pain, or hearing loss.
+<h5>Teaching</h5>
 
----
+* Administer prescribed ear drops correctly.
+* Keep follow-up appointments.
+* Follow instructions about swimming and bathing.
+* Use ear protection if prescribed.
+* Do not insert objects into the ear.
+* Report persistent or foul-smelling drainage.
+* Report fever, increasing pain, or hearing loss.
 
-## Labyrinthitis
+</section>
+
+</div>
+
+<div class="mh-detail purple" id="panel-inner-ear" markdown="1">
+<a class="mh-detail-close" href="#">✕</a>
+
+### Inner-Ear Disorders
+
+<section class="renal-note-section" markdown="1">
+
+#### Labyrinthitis
 
 **Labyrinthitis** is inflammation of the inner ear. It can affect both balance and hearing.
 
-### Expected Findings
+<div class="renal-two-column" markdown="1">
+<div markdown="1">
+##### Expected Findings
 
-- Sudden vertigo
-- Tinnitus
-- Sensorineural hearing loss
-- Nystagmus
-- Nausea
-- Vomiting
-- Unsteady gait
-- Difficulty maintaining balance
+* Sudden vertigo
+* Tinnitus
+* Sensorineural hearing loss
+* Nystagmus
+* Nausea
+* Vomiting
+* Unsteady gait
+* Difficulty maintaining balance
 
-### Nursing Priorities
+</div>
+<div markdown="1">
+##### Nursing Priorities
 
-- Implement fall precautions.
-- Assist with ambulation.
-- Keep the environment quiet.
-- Reduce sudden head movement.
-- Keep the call light within reach.
-- Monitor hydration.
-- Administer antiemetics and vestibular suppressants as prescribed.
-- Encourage gradual position changes.
-- Monitor hearing changes.
+* Implement fall precautions.
+* Assist with ambulation.
+* Keep the environment quiet.
+* Reduce sudden head movement.
+* Keep the call light within reach.
+* Monitor hydration.
+* Administer antiemetics and vestibular suppressants as prescribed.
+* Encourage gradual position changes.
+* Monitor hearing changes.
+
+</div>
+</div>
 
 <div class="nclex-tip" markdown="1">
-  <h3>NCLEX Tip</h3>
+<h3>NCLEX Tip</h3>
 
 Labyrinthitis affects both balance and hearing. Vertigo with tinnitus, nystagmus, and sensorineural hearing loss supports inner-ear involvement.
+
 </div>
 
----
+</section>
 
-## Ménière Disease
+<section class="renal-note-section" markdown="1">
 
-**Ménière disease** is a chronic inner-ear disorder associated with excess inner-ear fluid.
+#### Ménière Disease
 
-### Classic Findings
+**Ménière disease** is a chronic inner-ear disorder associated with excess inner-ear fluid. Classic findings are episodic vertigo, tinnitus, fluctuating sensorineural hearing loss, and a feeling of fullness or pressure in the ear. Vertigo attacks may also cause nausea, vomiting, diaphoresis, nystagmus, loss of balance, and anxiety.
 
-- Episodic vertigo
-- Tinnitus
-- Fluctuating sensorineural hearing loss
-- Feeling of fullness or pressure in the ear
+<div class="renal-two-column" markdown="1">
+<div markdown="1">
+##### Nursing Care During an Attack
 
-Vertigo attacks may also cause:
+* Assist the client to bed.
+* Reduce light and noise.
+* Keep the client still.
+* Raise side rails as appropriate.
+* Provide an emesis basin.
+* Administer prescribed antiemetics or vestibular suppressants.
+* Assist with all ambulation.
+* Monitor hydration.
 
-- Nausea
-- Vomiting
-- Diaphoresis
-- Nystagmus
-- Loss of balance
-- Anxiety
+</div>
+<div markdown="1">
+##### Long-Term Management
 
-### Nursing Care During an Attack
+* Low-sodium diet
+* Diuretics
+* Antihistamines
+* Antiemetics
+* Vestibular-suppressant medications
+* Avoidance of triggers
+* Hearing aids
+* Procedures or surgery for severe disease
 
-- Assist the client to bed.
-- Reduce light and noise.
-- Keep the client still.
-- Raise side rails as appropriate.
-- Provide an emesis basin.
-- Administer prescribed antiemetics or vestibular suppressants.
-- Assist with all ambulation.
-- Monitor hydration.
+</div>
+</div>
 
-### Long-Term Management
+<h5>Patient education</h5>
 
-Treatment may include:
-
-- Low-sodium diet
-- Diuretics
-- Antihistamines
-- Antiemetics
-- Vestibular-suppressant medications
-- Avoidance of triggers
-- Hearing aids
-- Procedures or surgery for severe disease
-
-### Patient Education
-
-- Follow the prescribed low-sodium diet.
-- Take diuretics as ordered.
-- Avoid excessive caffeine.
-- Avoid alcohol if it triggers symptoms.
-- Avoid nicotine.
-- Change positions slowly.
-- Sit or lie down when vertigo begins.
-- Avoid driving during attacks.
-- Use assistive devices when necessary.
-- Keep a record of possible triggers.
+* Follow the prescribed low-sodium diet.
+* Take diuretics as ordered.
+* Avoid excessive caffeine.
+* Avoid alcohol if it triggers symptoms.
+* Avoid nicotine.
+* Change positions slowly.
+* Sit or lie down when vertigo begins.
+* Avoid driving during attacks.
+* Use assistive devices when necessary.
+* Keep a record of possible triggers.
 
 <div class="report-now" markdown="1">
-  <h3>Safety During Vertigo</h3>
+<h3>Safety During Vertigo</h3>
 
 The priority is preventing falls and injury. The client should not walk independently during an active attack.
+
 </div>
 
 <div class="nclex-tip" markdown="1">
-  <h3>NCLEX Tip</h3>
+<h3>NCLEX Tip</h3>
 
 Ménière disease is remembered by the combination of **vertigo, tinnitus, fluctuating hearing loss, and ear fullness**.
+
 </div>
 
----
+</section>
 
-## Otosclerosis
+</div>
+
+<div class="mh-detail blue" id="panel-otosclerosis" markdown="1">
+<a class="mh-detail-close" href="#">✕</a>
+
+### Otosclerosis and Stapes Surgery
+
+<section class="renal-note-section" markdown="1">
 
 **Otosclerosis** is abnormal bone growth around the stapes in the middle ear. The stapes cannot move normally, causing conductive hearing loss.
 
-### Expected Findings
+<div class="renal-two-column" markdown="1">
+<div markdown="1">
+##### Expected Findings
 
-- Gradual conductive hearing loss
-- Tinnitus
-- Difficulty hearing low tones
-- Hearing may seem better in noisy environments
-- Usually no pain
-- Often affects both ears over time
+* Gradual conductive hearing loss
+* Tinnitus
+* Difficulty hearing low tones
+* Hearing may seem better in noisy environments
+* Usually no pain
+* Often affects both ears over time
 
-### Treatment
+</div>
+<div markdown="1">
+##### Treatment
 
-Treatment may include:
+* Hearing aids
+* Sodium fluoride in selected cases
+* Stapedectomy or stapedotomy
 
-- Hearing aids
-- Sodium fluoride in selected cases
-- Stapedectomy or stapedotomy
+</div>
+</div>
 
-## Stapedectomy
+</section>
+
+<section class="renal-note-section" markdown="1">
+
+#### Stapedectomy
 
 During a stapedectomy, the abnormal stapes is removed or bypassed and replaced with a prosthesis.
 
-### Postoperative Nursing Care
+<div class="renal-two-column" markdown="1">
+<div markdown="1">
+##### Postoperative Nursing Care
 
-- Maintain prescribed positioning.
-- Protect the operative ear.
-- Monitor for dizziness.
-- Assist with ambulation.
-- Administer antiemetics.
-- Prevent straining.
-- Avoid sudden pressure changes.
-- Assess for facial weakness.
-- Monitor hearing.
+* Maintain prescribed positioning.
+* Protect the operative ear.
+* Monitor for dizziness.
+* Assist with ambulation.
+* Administer antiemetics.
+* Prevent straining.
+* Avoid sudden pressure changes.
+* Assess for facial weakness.
+* Monitor hearing.
 
-### Patient Teaching
+</div>
+<div markdown="1">
+##### Avoid Until Cleared
 
-Avoid until cleared:
+* Blowing the nose forcefully
+* Sneezing with the mouth closed
+* Bending at the waist
+* Heavy lifting
+* Straining
+* Air travel
+* Swimming
+* Getting water into the operative ear
 
-- Blowing the nose forcefully
-- Sneezing with the mouth closed
-- Bending at the waist
-- Heavy lifting
-- Straining
-- Air travel
-- Swimming
-- Getting water into the operative ear
-
-Teach the client to:
-
-- Sneeze with the mouth open.
-- Change position slowly.
-- Avoid sleeping on the operative ear if instructed.
-- Report severe vertigo.
-- Report sudden hearing loss.
-- Report facial weakness.
-- Report drainage or fever.
-
-<div class="nclex-tip" markdown="1">
-  <h3>NCLEX Tip</h3>
-
-After stapes surgery, prevent increased middle-ear pressure. The client should sneeze with the mouth open and avoid forceful nose blowing.
+</div>
 </div>
 
----
+<h5>Teach the client to</h5>
 
-## Ear Trauma and Foreign Bodies
+* Sneeze with the mouth open.
+* Change position slowly.
+* Avoid sleeping on the operative ear if instructed.
+* Report severe vertigo.
+* Report sudden hearing loss.
+* Report facial weakness.
+* Report drainage or fever.
+
+<div class="nclex-tip" markdown="1">
+<h3>NCLEX Tip</h3>
+
+After stapes surgery, prevent increased middle-ear pressure. The client should sneeze with the mouth open and avoid forceful nose blowing.
+
+</div>
+
+</section>
+
+</div>
+
+<div class="mh-detail green" id="panel-trauma" markdown="1">
+<a class="mh-detail-close" href="#">✕</a>
+
+### Ear Trauma and Foreign Bodies
+
+<section class="renal-note-section" markdown="1">
 
 Ear trauma may damage the external ear, tympanic membrane, middle ear, or inner ear.
 
-### External Ear Trauma
+<div class="renal-two-column" markdown="1">
+<div markdown="1">
+##### External Ear Trauma
 
-Possible effects:
+Possible effects include pain, bleeding, swelling, hematoma, deformity, and conductive hearing loss. An untreated external-ear hematoma can damage cartilage and cause permanent deformity.
 
-- Pain
-- Bleeding
-- Swelling
-- Hematoma
-- Deformity
-- Conductive hearing loss
+</div>
+<div markdown="1">
+##### Tympanic-Membrane Perforation
 
-An untreated external-ear hematoma can damage cartilage and cause permanent deformity.
+**Causes:** foreign object, blast injury, loud noise, a slap to the ear, water pressure, infection, or cotton-swab injury.
 
-### Tympanic-Membrane Perforation
+**Findings:** sudden pain, hearing loss, tinnitus, bloody drainage, dizziness.
 
-Possible causes:
+**Nursing care:** keep the ear dry, do not irrigate, do not place drops unless specifically ordered, avoid nose blowing, protect the ear, and refer for evaluation.
 
-- Foreign object
-- Blast injury
-- Loud noise
-- Slap to the ear
-- Water pressure
-- Infection
-- Cotton-swab injury
+</div>
+</div>
 
-Possible findings:
+</section>
 
-- Sudden pain
-- Hearing loss
-- Tinnitus
-- Bloody drainage
-- Dizziness
+<section class="renal-note-section" markdown="1">
 
-Nursing care:
+#### Foreign Body in the Ear
 
-- Keep the ear dry.
-- Do not irrigate.
-- Do not place drops unless specifically ordered.
-- Avoid nose blowing.
-- Protect the ear.
-- Refer for evaluation.
+<div class="renal-two-column" markdown="1">
+<div markdown="1">
+##### General Care
 
-## Foreign Body in the Ear
+* Do not blindly probe the ear.
+* Do not push the object deeper.
+* Assess the type of object.
+* Assess hearing and drainage.
+* Use proper lighting and equipment.
+* Refer if the object is deep, sharp, or difficult to remove.
 
-### General Care
+</div>
+<div markdown="1">
+##### Beans, Peas, and Organic Materials
 
-- Do not blindly probe the ear.
-- Do not push the object deeper.
-- Assess the type of object.
-- Assess hearing and drainage.
-- Use proper lighting and equipment.
-- Refer if the object is deep, sharp, or difficult to remove.
+Do not irrigate objects such as beans, peas, seeds, or peanuts. These materials can absorb water, swell, and become more difficult to remove.
 
-### Beans, Peas, and Other Organic Materials
+</div>
+<div markdown="1">
+##### Insects
 
-Do not irrigate objects such as:
+For a live insect, keep the client calm. A light may attract some insects toward the opening, and prescribed oil or solution may be used to immobilize the insect when appropriate. Avoid irrigation when the tympanic membrane may be perforated.
 
-- Beans
-- Peas
-- Seeds
-- Peanuts
+</div>
+<div markdown="1">
+##### Button Battery — Emergency
 
-These materials can absorb water, swell, and become more difficult to remove.
+A button battery is an emergency. Do not delay removal, do not irrigate, and obtain immediate emergency treatment. Tissue damage can occur quickly.
 
-### Insects
-
-For a live insect:
-
-- Keep the client calm.
-- A light may attract some insects toward the opening.
-- Prescribed oil or solution may be used to immobilize the insect when appropriate.
-- Avoid irrigation when the tympanic membrane may be perforated.
-
-### Button Battery
-
-A button battery is an emergency.
-
-- Do not delay removal.
-- Do not irrigate.
-- Obtain immediate emergency treatment.
-- Tissue damage can occur quickly.
+</div>
+</div>
 
 <div class="report-now" markdown="1">
-  <h3>Ear Trauma Emergency</h3>
+<h3>Ear Trauma Emergency</h3>
 
 Clear or bloody drainage from the ear after head trauma may indicate a skull fracture. Do not pack the ear tightly or stop the drainage.
+
 </div>
 
----
+</section>
 
-## Ototoxic Medications
+</div>
 
-**Ototoxicity** means medication-related damage to hearing or balance structures.
+<div class="mh-detail pink" id="panel-medications" markdown="1">
+<a class="mh-detail-close" href="#">✕</a>
 
-Possible ototoxic medications include:
+### Ear Medications and Ototoxicity
 
-- Aminoglycosides
-- Some loop diuretics
-- High-dose salicylates
-- Certain chemotherapy medications
-- Vancomycin in some situations
+<section class="renal-note-section" markdown="1">
 
-### Warning Signs
+#### Ototoxic Medications
 
-- Tinnitus
-- New hearing loss
-- Ear fullness
-- Dizziness
-- Vertigo
-- Balance problems
+**Ototoxicity** means medication-related damage to hearing or balance structures. Possible ototoxic medications include aminoglycosides, some loop diuretics, high-dose salicylates, certain chemotherapy medications, and vancomycin in some situations.
 
-### Nursing Care
+<div class="renal-two-column" markdown="1">
+<div markdown="1">
+##### Warning Signs
 
-- Obtain baseline hearing assessment when ordered.
-- Monitor medication levels when required.
-- Monitor kidney function.
-- Report tinnitus or hearing changes.
-- Avoid combining ototoxic medications when possible.
-- Teach the client not to ignore new ringing in the ears.
+* Tinnitus
+* New hearing loss
+* Ear fullness
+* Dizziness
+* Vertigo
+* Balance problems
+
+</div>
+<div markdown="1">
+##### Nursing Care
+
+* Obtain baseline hearing assessment when ordered.
+* Monitor medication levels when required.
+* Monitor kidney function.
+* Report tinnitus or hearing changes.
+* Avoid combining ototoxic medications when possible.
+* Teach the client not to ignore new ringing in the ears.
+
+</div>
+</div>
 
 <div class="nclex-tip" markdown="1">
-  <h3>NCLEX Tip</h3>
+<h3>NCLEX Tip</h3>
 
 Tinnitus may be an early warning sign of ototoxicity. Report it before hearing loss becomes more severe.
+
 </div>
 
----
+</section>
 
-## Administering Ear Drops
+<section class="renal-note-section" markdown="1">
 
-### Before Administration
+#### Administering Ear Drops
 
-- Verify the medication and correct ear.
-- Warm the medication in the hands.
-- Do not use drops that are excessively cold.
-- Position the client on the unaffected side.
-- Clean only the outer ear as needed.
-- Do not insert applicators deeply into the canal.
+<div class="renal-two-column" markdown="1">
+<div markdown="1">
+##### Before Administration
 
-### Straightening the Ear Canal
+* Verify the medication and correct ear.
+* Warm the medication in the hands.
+* Do not use drops that are excessively cold.
+* Position the client on the unaffected side.
+* Clean only the outer ear as needed.
+* Do not insert applicators deeply into the canal.
+
+</div>
+<div markdown="1">
+##### Straightening the Ear Canal
 
 | Client | Technique |
 |---|---|
 | **Adult or child older than 3 years** | Pull the pinna up and back |
 | **Child younger than 3 years** | Pull the pinna down and back |
 
-### Administration Steps
+</div>
+</div>
+
+<h5>Administration steps</h5>
 
 1. Perform hand hygiene.
 2. Position the client with the affected ear upward.
@@ -635,68 +785,87 @@ Tinnitus may be an early warning sign of ototoxicity. Report it before hearing l
 8. Place a loose cotton ball at the opening if prescribed.
 9. Do not pack the cotton deeply.
 
-### Important Safety
+<h5>Important safety</h5>
 
-- Do not place unapproved drops into an ear with a perforated tympanic membrane.
-- Do not force medication against severe resistance.
-- Report severe burning, pain, rash, or worsening symptoms.
+* Do not place unapproved drops into an ear with a perforated tympanic membrane.
+* Do not force medication against severe resistance.
+* Report severe burning, pain, rash, or worsening symptoms.
 
 <div class="nclex-tip" markdown="1">
-  <h3>Medication Memory Cue</h3>
+<h3>Medication Memory Cue</h3>
 
-Adults and older children: **up and back**.  
-Young children: **down and back**.
+Adults and older children: **up and back**. Young children: **down and back**.
+
 </div>
 
----
+</section>
 
-## Caring for a Client With Hearing Impairment
+</div>
 
-### Communication
+<div class="mh-detail purple" id="panel-impairment" markdown="1">
+<a class="mh-detail-close" href="#">✕</a>
 
-- Gain the client’s attention before speaking.
-- Face the client directly.
-- Maintain eye contact.
-- Speak clearly and at a normal pace.
-- Lower the pitch of your voice rather than shouting.
-- Do not cover your mouth.
-- Reduce background noise.
-- Use short, clear sentences.
-- Rephrase rather than repeating the same words.
-- Confirm understanding.
-- Use writing or visual aids when needed.
-- Obtain a qualified sign-language interpreter when appropriate.
+### Caring for a Client With Hearing Impairment
 
-### Hearing-Aid Care
+<section class="renal-note-section" markdown="1">
 
-- Check that the hearing aid is turned on.
-- Check the battery.
-- Insert it correctly.
-- Keep it dry.
-- Remove it before bathing unless waterproof.
-- Store it safely.
-- Clean it according to instructions.
-- Reduce volume if whistling occurs.
-- Do not expose it to extreme heat.
+<div class="renal-two-column" markdown="1">
+<div markdown="1">
+##### Communication
 
-### Safety
+* Gain the client’s attention before speaking.
+* Face the client directly.
+* Maintain eye contact.
+* Speak clearly and at a normal pace.
+* Lower the pitch of your voice rather than shouting.
+* Do not cover your mouth.
+* Reduce background noise.
+* Use short, clear sentences.
+* Rephrase rather than repeating the same words.
+* Confirm understanding.
+* Use writing or visual aids when needed.
+* Obtain a qualified sign-language interpreter when appropriate.
 
-- Approach from the front.
-- Ensure alarms have visual or vibrating features when available.
-- Keep the call light visible.
-- Explain procedures before beginning.
-- Do not assume hearing impairment means cognitive impairment.
-- Encourage use of prescribed assistive devices.
+</div>
+<div markdown="1">
+##### Hearing-Aid Care
+
+* Check that the hearing aid is turned on.
+* Check the battery.
+* Insert it correctly.
+* Keep it dry.
+* Remove it before bathing unless waterproof.
+* Store it safely.
+* Clean it according to instructions.
+* Reduce volume if whistling occurs.
+* Do not expose it to extreme heat.
+
+</div>
+</div>
+
+<h5>Safety</h5>
+
+* Approach from the front.
+* Ensure alarms have visual or vibrating features when available.
+* Keep the call light visible.
+* Explain procedures before beginning.
+* Do not assume hearing impairment means cognitive impairment.
+* Encourage use of prescribed assistive devices.
 
 <div class="nclex-tip" markdown="1">
-  <h3>NCLEX Tip</h3>
+<h3>NCLEX Tip</h3>
 
 Do not shout at a hearing-impaired client. Face the client, lower background noise, speak clearly, and use a lower-pitched voice.
+
 </div>
 
----
+</section>
 
-## Ear Disorders Big Picture
+</div>
+
+<div class="mh-table-card" markdown="1">
+
+<h3>Ear Disorders Big Picture</h3>
 
 | Disorder | Main Clue | Priority |
 |---|---|---|
@@ -709,8 +878,10 @@ Do not shout at a hearing-impaired client. Face the client, lower background noi
 | **Tympanic perforation** | Pain, drainage, and hearing loss after injury | Keep dry; do not irrigate |
 | **Foreign body** | Object in canal | Avoid pushing deeper; do not irrigate expanding objects |
 
+</div>
+
 <div class="report-now" markdown="1">
-  <h3>Report Immediately</h3>
+<h3>Report Immediately</h3>
 
 - Sudden hearing loss
 - Clear or bloody drainage after head injury
@@ -724,7 +895,7 @@ Do not shout at a hearing-impaired client. Face the client, lower background noi
 </div>
 
 <div class="quick-review" markdown="1">
-  <h3>Quick Review</h3>
+<h3>Quick Review</h3>
 
 1. Conductive hearing loss involves the external or middle ear.
 2. Sensorineural hearing loss involves the inner ear or auditory nerve.
@@ -743,7 +914,7 @@ Do not shout at a hearing-impaired client. Face the client, lower background noi
 </div>
 
 <div class="do-not-miss" markdown="1">
-  <h3>Do Not Miss</h3>
+<h3>Do Not Miss</h3>
 
 - Do not shout at a hearing-impaired client.
 - Do not assume hearing loss means confusion.

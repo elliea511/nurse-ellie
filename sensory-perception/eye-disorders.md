@@ -21,44 +21,118 @@ Eye disorders can affect the client’s ability to see clearly, move safely, adm
   </div>
 </div>
 
----
+<div class="mh-cards">
 
-## Eye Assessment
+  <div class="mh-card blue">
+    <div class="mh-card-icon">🔎</div>
+    <h3>Eye Assessment</h3>
+    <p>Subjective and objective assessment, acuity, pupils, visual fields, and red-flag findings.</p>
+    <a class="mh-btn" href="#panel-assessment">Study Assessment</a>
+  </div>
+
+  <div class="mh-card green">
+    <div class="mh-card-icon">🦠</div>
+    <h3>Conjunctivitis</h3>
+    <p>Bacterial, viral, allergic, and chemical types, plus infection-control nursing care.</p>
+    <a class="mh-btn" href="#panel-conjunctivitis">Study Conjunctivitis</a>
+  </div>
+
+  <div class="mh-card pink">
+    <div class="mh-card-icon">🌫️</div>
+    <h3>Cataracts</h3>
+    <p>Gradual painless cloudy vision, surgery, and postoperative pressure precautions.</p>
+    <a class="mh-btn" href="#panel-cataracts">Study Cataracts</a>
+  </div>
+
+  <div class="mh-card purple">
+    <div class="mh-card-icon">💧</div>
+    <h3>Glaucoma</h3>
+    <p>Open-angle vs angle-closure, intraocular pressure, medications, and teaching.</p>
+    <a class="mh-btn" href="#panel-glaucoma">Study Glaucoma</a>
+  </div>
+
+  <div class="mh-card blue">
+    <div class="mh-card-icon">⚡</div>
+    <h3>Retinal & Macular Disorders</h3>
+    <p>Retinal detachment and macular degeneration: flashes, floaters, and vision loss.</p>
+    <a class="mh-btn" href="#panel-retina">Study Retinal Disorders</a>
+  </div>
+
+  <div class="mh-card green">
+    <div class="mh-card-icon">🚑</div>
+    <h3>Eye Trauma</h3>
+    <p>Chemical, penetrating, and blunt eye injuries and emergency nursing actions.</p>
+    <a class="mh-btn" href="#panel-trauma">Study Eye Trauma</a>
+  </div>
+
+  <div class="mh-card pink">
+    <div class="mh-card-icon">💊</div>
+    <h3>Eye Medications</h3>
+    <p>Administering eye drops and ointment safely and in the correct order.</p>
+    <a class="mh-btn" href="#panel-medications">Study Eye Medications</a>
+  </div>
+
+  <div class="mh-card purple">
+    <div class="mh-card-icon">🦯</div>
+    <h3>Visual Impairment Care</h3>
+    <p>Communication, environmental safety, guiding technique, and the clock-face method.</p>
+    <a class="mh-btn" href="#panel-impairment">Study Impairment Care</a>
+  </div>
+
+</div>
+
+<div class="mh-detail blue" id="panel-assessment" markdown="1">
+<a class="mh-detail-close" href="#">✕</a>
+
+### Eye Assessment
+
+<section class="renal-note-section" markdown="1">
 
 Assess each eye separately and then together.
 
-### Subjective Assessment
+<div class="renal-two-column" markdown="1">
+<div markdown="1">
+##### Subjective — Ask About
 
-Ask about:
+* Blurred or decreased vision
+* Double vision
+* Eye pain or pressure
+* Redness or drainage
+* Itching or burning
+* Halos around lights
+* Floaters or flashing lights
+* A curtain or shadow across vision
+* Recent eye injury
+* Contact-lens use
+* Previous eye surgery
+* Current eye medications
+* Diabetes or hypertension
 
-- Blurred or decreased vision
-- Double vision
-- Eye pain or pressure
-- Redness or drainage
-- Itching or burning
-- Halos around lights
-- Floaters or flashing lights
-- A curtain or shadow across vision
-- Recent eye injury
-- Contact-lens use
-- Previous eye surgery
-- Current eye medications
-- Diabetes or hypertension
+</div>
+<div markdown="1">
+##### Objective — Observe
 
-### Objective Assessment
+* Eyelid position
+* Redness
+* Swelling
+* Drainage
+* Pupil size and equality
+* Reaction to light
+* Eye movement
+* Ability to identify objects
+* Visual-field changes
+* Use of corrective lenses
 
-Observe:
+</div>
+</div>
 
-- Eyelid position
-- Redness
-- Swelling
-- Drainage
-- Pupil size and equality
-- Reaction to light
-- Eye movement
-- Ability to identify objects
-- Visual-field changes
-- Use of corrective lenses
+</section>
+
+<section class="renal-note-section" markdown="1">
+
+#### Assessment Techniques
+
+<div class="detail-table" markdown="1">
 
 | Assessment | Purpose |
 |---|---|
@@ -69,49 +143,72 @@ Observe:
 | **Tonometry** | Measures intraocular pressure |
 | **Ophthalmoscopy** | Examines internal eye structures |
 
-<div class="report-now" markdown="1">
-  <h3>Report Immediately</h3>
-
-- Sudden loss of vision
-- Severe eye pain
-- New flashes or many floaters
-- Curtain or shadow over vision
-- Chemical exposure
-- Penetrating eye injury
-- Severe headache with halos and nausea
-- Fixed or irregular pupil after injury
 </div>
 
----
+<div class="report-now" markdown="1">
+<h3>Report Immediately</h3>
 
-## Conjunctivitis
+* Sudden loss of vision
+* Severe eye pain
+* New flashes or many floaters
+* Curtain or shadow over vision
+* Chemical exposure
+* Penetrating eye injury
+* Severe headache with halos and nausea
+* Fixed or irregular pupil after injury
+
+</div>
+
+</section>
+
+</div>
+
+<div class="mh-detail green" id="panel-conjunctivitis" markdown="1">
+<a class="mh-detail-close" href="#">✕</a>
+
+### Conjunctivitis
+
+<section class="renal-note-section" markdown="1">
 
 **Conjunctivitis** is inflammation or infection of the conjunctiva, the thin membrane covering the white part of the eye and inner eyelid.
 
-Common causes include:
+<div class="renal-two-column" markdown="1">
+<div markdown="1">
+##### Common Causes
 
-- Bacterial infection
-- Viral infection
-- Allergies
-- Chlamydial infection
-- Chemical irritation
-- Contact-lens irritation
-- Foreign body
-- Trauma
+* Bacterial infection
+* Viral infection
+* Allergies
+* Chlamydial infection
+* Chemical irritation
+* Contact-lens irritation
+* Foreign body
+* Trauma
 
-### Common Findings
+</div>
+<div markdown="1">
+##### Common Findings
 
-- Red or pink conjunctiva
-- Tearing
-- Irritation
-- Burning
-- Itching
-- Drainage
-- Crusted eyelids
-- Gritty sensation
-- Mild light sensitivity
+* Red or pink conjunctiva
+* Tearing
+* Irritation
+* Burning
+* Itching
+* Drainage
+* Crusted eyelids
+* Gritty sensation
+* Mild light sensitivity
 
-### Types of Conjunctivitis
+</div>
+</div>
+
+</section>
+
+<section class="renal-note-section" markdown="1">
+
+#### Types of Conjunctivitis
+
+<div class="detail-table" markdown="1">
 
 | Type | Expected Findings | Treatment / Nursing Focus |
 |---|---|---|
@@ -121,129 +218,171 @@ Common causes include:
 | **Chlamydial** | Persistent drainage; may occur in newborns or after sexual exposure | Systemic antibiotics are usually required |
 | **Chemical** | Redness, pain, tearing after irritant exposure | Immediate irrigation and emergency evaluation |
 
-### Nursing Care
+</div>
 
-- Perform careful hand hygiene.
-- Wear gloves when cleaning drainage.
-- Clean from the **inner canthus toward the outer canthus**.
-- Use a separate clean cloth or gauze for each stroke.
-- Do not touch the medication applicator to the eye.
-- Avoid sharing towels, washcloths, pillows, makeup, or eye drops.
-- Avoid contact lenses until cleared.
-- Discard contaminated eye makeup or contact-lens supplies.
-- Administer prescribed drops or ointment.
-- Teach the client to complete antibiotic treatment.
+</section>
+
+<section class="renal-note-section" markdown="1">
+
+#### Nursing Care
+
+* Perform careful hand hygiene.
+* Wear gloves when cleaning drainage.
+* Clean from the **inner canthus toward the outer canthus**.
+* Use a separate clean cloth or gauze for each stroke.
+* Do not touch the medication applicator to the eye.
+* Avoid sharing towels, washcloths, pillows, makeup, or eye drops.
+* Avoid contact lenses until cleared.
+* Discard contaminated eye makeup or contact-lens supplies.
+* Administer prescribed drops or ointment.
+* Teach the client to complete antibiotic treatment.
 
 <div class="nclex-tip" markdown="1">
-  <h3>NCLEX Tip</h3>
+<h3>NCLEX Tip</h3>
 
 Purulent drainage and lashes stuck together suggest **bacterial conjunctivitis**. Watery drainage associated with a cold suggests **viral conjunctivitis**.
+
 </div>
 
----
+</section>
 
-## Cataracts
+</div>
 
-A **cataract** is clouding of the lens that gradually decreases vision.
+<div class="mh-detail pink" id="panel-cataracts" markdown="1">
+<a class="mh-detail-close" href="#">✕</a>
 
-### Risk Factors
+### Cataracts
 
-- Aging
-- Diabetes mellitus
-- Smoking
-- Long-term corticosteroid use
-- Eye trauma
-- Excessive ultraviolet exposure
-- Previous eye surgery
+<section class="renal-note-section" markdown="1">
 
-### Expected Findings
+A **cataract** is clouding of the lens that gradually decreases vision. The definitive treatment is surgical removal of the cloudy lens and placement of an artificial intraocular lens.
 
-- Gradual painless vision loss
-- Blurred or cloudy vision
-- Glare
-- Halos around lights
-- Poor night vision
-- Colors appear faded
-- Frequent changes in eyeglass prescription
-- Reduced red reflex
+<div class="renal-two-column" markdown="1">
+<div markdown="1">
+##### Risk Factors
 
-### Treatment
+* Aging
+* Diabetes mellitus
+* Smoking
+* Long-term corticosteroid use
+* Eye trauma
+* Excessive ultraviolet exposure
+* Previous eye surgery
 
-The definitive treatment is surgical removal of the cloudy lens and placement of an artificial intraocular lens.
+</div>
+<div markdown="1">
+##### Expected Findings
 
-### After Cataract Surgery
+* Gradual painless vision loss
+* Blurred or cloudy vision
+* Glare
+* Halos around lights
+* Poor night vision
+* Colors appear faded
+* Frequent changes in eyeglass prescription
+* Reduced red reflex
 
-Expected:
+</div>
+</div>
 
-- Mild discomfort
-- Mild itching or foreign-body sensation
-- Temporary blurred vision
-- Prescribed eye shield
-- Prescribed eye drops
+</section>
 
-Avoid activities that increase pressure inside the eye:
+<section class="renal-note-section" markdown="1">
 
-- Bending at the waist
-- Heavy lifting
-- Straining with bowel movements
-- Forceful coughing
-- Rubbing the eye
-- Sleeping on the operative side when restricted
+#### After Cataract Surgery
 
-Teach the client to:
+<div class="renal-two-column" markdown="1">
+<div markdown="1">
+##### Expected
 
-- Bend at the knees rather than the waist.
-- Use stool softeners if prescribed.
-- Wear the eye shield as directed.
-- Use medications exactly as ordered.
-- Avoid driving until cleared.
-- Report severe pain or sudden vision loss.
+* Mild discomfort
+* Mild itching or foreign-body sensation
+* Temporary blurred vision
+* Prescribed eye shield
+* Prescribed eye drops
+
+</div>
+<div markdown="1">
+##### Avoid Activities That Increase Eye Pressure
+
+* Bending at the waist
+* Heavy lifting
+* Straining with bowel movements
+* Forceful coughing
+* Rubbing the eye
+* Sleeping on the operative side when restricted
+
+</div>
+</div>
+
+<h5>Teach the client to</h5>
+
+* Bend at the knees rather than the waist.
+* Use stool softeners if prescribed.
+* Wear the eye shield as directed.
+* Use medications exactly as ordered.
+* Avoid driving until cleared.
+* Report severe pain or sudden vision loss.
 
 <div class="report-now" markdown="1">
-  <h3>Report After Cataract Surgery</h3>
+<h3>Report After Cataract Surgery</h3>
 
-- Severe eye pain
-- Sudden decrease in vision
-- Increasing redness
-- Purulent drainage
-- Nausea and vomiting
-- Flashes, floaters, or curtain-like vision
+* Severe eye pain
+* Sudden decrease in vision
+* Increasing redness
+* Purulent drainage
+* Nausea and vomiting
+* Flashes, floaters, or curtain-like vision
+
 </div>
 
 <div class="nclex-tip" markdown="1">
-  <h3>NCLEX Tip</h3>
+<h3>NCLEX Tip</h3>
 
 Cataracts cause **gradual, painless** vision loss. Severe pain after cataract surgery is not expected.
+
 </div>
 
----
+</section>
 
-## Glaucoma
+</div>
+
+<div class="mh-detail purple" id="panel-glaucoma" markdown="1">
+<a class="mh-detail-close" href="#">✕</a>
+
+### Glaucoma
+
+<section class="renal-note-section" markdown="1">
 
 **Glaucoma** causes optic-nerve damage, often related to increased intraocular pressure.
 
-### Open-Angle Glaucoma
+<div class="renal-two-column" markdown="1">
+<div markdown="1">
+##### Open-Angle Glaucoma (more common)
 
-This is the more common form.
+* Develops slowly
+* Usually painless
+* Causes gradual peripheral-vision loss
+* May go unnoticed until advanced
+* Requires lifelong treatment
 
-- Develops slowly
-- Usually painless
-- Causes gradual peripheral-vision loss
-- May go unnoticed until advanced
-- Requires lifelong treatment
+</div>
+<div markdown="1">
+##### Angle-Closure Glaucoma (emergency)
 
-### Angle-Closure Glaucoma
+* Sudden severe eye pain
+* Red eye
+* Blurred vision
+* Halos around lights
+* Headache
+* Nausea and vomiting
+* Fixed or mid-dilated pupil
+* Rapid vision loss
 
-This is an emergency.
+</div>
+</div>
 
-- Sudden severe eye pain
-- Red eye
-- Blurred vision
-- Halos around lights
-- Headache
-- Nausea and vomiting
-- Fixed or mid-dilated pupil
-- Rapid vision loss
+<div class="detail-table" markdown="1">
 
 | Open-Angle | Angle-Closure |
 |---|---|
@@ -253,14 +392,17 @@ This is an emergency.
 | Lifelong medication management | Immediate emergency treatment |
 | Often discovered during screening | Headache, halos, nausea, vomiting |
 
-### Treatment Goals
+</div>
 
-- Lower intraocular pressure
-- Protect the optic nerve
-- Slow vision loss
-- Maintain medication adherence
+Treatment goals are to lower intraocular pressure, protect the optic nerve, slow vision loss, and maintain medication adherence.
 
-### Common Glaucoma Medications
+</section>
+
+<section class="renal-note-section" markdown="1">
+
+#### Common Glaucoma Medications
+
+<div class="detail-table" markdown="1">
 
 | Medication Class | Examples | Key Nursing Points |
 |---|---|---|
@@ -270,126 +412,150 @@ This is an emergency.
 | **Carbonic anhydrase inhibitors** | Acetazolamide, dorzolamide | Decrease aqueous-humor production |
 | **Miotics** | Pilocarpine | Constricts pupil; may reduce night vision |
 
-### Glaucoma Teaching
+</div>
 
-- Use medications every day, even when vision seems unchanged.
-- Glaucoma medications control the disease but do not cure it.
-- Keep follow-up appointments for pressure checks.
-- Do not stop drops without the provider’s instructions.
-- Report wheezing, slow pulse, faintness, or severe eye pain.
-- Use punctal occlusion to reduce systemic medication absorption.
+<h5>Glaucoma teaching</h5>
+
+* Use medications every day, even when vision seems unchanged.
+* Glaucoma medications control the disease but do not cure it.
+* Keep follow-up appointments for pressure checks.
+* Do not stop drops without the provider’s instructions.
+* Report wheezing, slow pulse, faintness, or severe eye pain.
+* Use punctal occlusion to reduce systemic medication absorption.
 
 <div class="nclex-tip" markdown="1">
-  <h3>NCLEX Tip</h3>
+<h3>NCLEX Tip</h3>
 
 Open-angle glaucoma is gradual and painless. Sudden eye pain, halos, headache, nausea, and vomiting suggest **acute angle-closure glaucoma**, which is an emergency.
+
 </div>
 
----
+</section>
 
-## Retinal Detachment
+</div>
 
-A **retinal detachment** occurs when the retina separates from the tissue beneath it.
+<div class="mh-detail blue" id="panel-retina" markdown="1">
+<a class="mh-detail-close" href="#">✕</a>
 
-### Risk Factors
+### Retinal & Macular Disorders
 
-- Eye trauma
-- Previous eye surgery
-- Severe nearsightedness
-- Aging
-- Diabetes-related retinal disease
-- Previous retinal detachment
+<section class="renal-note-section" markdown="1">
 
-### Warning Signs
+#### Retinal Detachment
 
-- Sudden flashes of light
-- Sudden increase in floaters
-- Cobweb-like visual changes
-- Curtain, veil, or shadow over vision
-- Sudden loss of part of the visual field
+A **retinal detachment** occurs when the retina separates from the tissue beneath it. It is usually **painless**.
 
-Retinal detachment is usually **painless**.
+<div class="renal-two-column" markdown="1">
+<div markdown="1">
+##### Risk Factors
 
-### Nursing Priorities
+* Eye trauma
+* Previous eye surgery
+* Severe nearsightedness
+* Aging
+* Diabetes-related retinal disease
+* Previous retinal detachment
 
-- Treat as an ophthalmic emergency.
-- Limit unnecessary activity.
-- Protect the affected eye.
-- Prepare for urgent ophthalmologic evaluation.
-- Follow prescribed positioning.
-- Administer medications as ordered.
-- Teach postoperative restrictions.
+</div>
+<div markdown="1">
+##### Warning Signs
 
-### After Retinal Repair
+* Sudden flashes of light
+* Sudden increase in floaters
+* Cobweb-like visual changes
+* Curtain, veil, or shadow over vision
+* Sudden loss of part of the visual field
 
-A gas bubble may be placed inside the eye to hold the retina in position.
+</div>
+</div>
 
-The client may need to:
+<h5>Nursing priorities</h5>
 
-- Maintain a prescribed head position.
-- Avoid lying in an unapproved position.
-- Avoid air travel until the gas bubble is absorbed.
-- Avoid high altitude.
-- Wear an identification bracelet or carry a card about the gas bubble.
-- Report increasing pain or decreased vision.
+* Treat as an ophthalmic emergency.
+* Limit unnecessary activity.
+* Protect the affected eye.
+* Prepare for urgent ophthalmologic evaluation.
+* Follow prescribed positioning.
+* Administer medications as ordered.
+* Teach postoperative restrictions.
+
+<h5>After retinal repair</h5>
+
+A gas bubble may be placed inside the eye to hold the retina in position. The client may need to:
+
+* Maintain a prescribed head position.
+* Avoid lying in an unapproved position.
+* Avoid air travel until the gas bubble is absorbed.
+* Avoid high altitude.
+* Wear an identification bracelet or carry a card about the gas bubble.
+* Report increasing pain or decreased vision.
 
 <div class="report-now" markdown="1">
-  <h3>Retinal Emergency</h3>
+<h3>Retinal Emergency</h3>
 
 New flashes, many floaters, or a curtain across the visual field require immediate evaluation—even when there is no pain.
+
 </div>
 
----
+</section>
 
-## Age-Related Macular Degeneration
+<section class="renal-note-section" markdown="1">
 
-**Macular degeneration** damages the macula, which controls central vision.
+#### Age-Related Macular Degeneration
 
-### Expected Findings
+**Macular degeneration** damages the macula, which controls central vision. Expected findings include loss of central vision, difficulty reading, difficulty recognizing faces, straight lines that may appear wavy, usually preserved peripheral vision, and no eye pain.
 
-- Loss of central vision
-- Difficulty reading
-- Difficulty recognizing faces
-- Straight lines may appear wavy
-- Peripheral vision is usually preserved
-- No eye pain
+<div class="renal-two-column" markdown="1">
+<div markdown="1">
+##### Dry Macular Degeneration
 
-### Dry Macular Degeneration
+* More common
+* Develops gradually
+* Caused by thinning and degeneration of the macula
+* May progress to the wet form
 
-- More common
-- Develops gradually
-- Caused by thinning and degeneration of the macula
-- May progress to the wet form
+</div>
+<div markdown="1">
+##### Wet Macular Degeneration
 
-### Wet Macular Degeneration
+* Less common but more severe
+* Abnormal blood vessels leak beneath the retina
+* Can cause rapid central-vision loss
+* May be treated with injections into the eye
 
-- Less common but more severe
-- Abnormal blood vessels leak beneath the retina
-- Can cause rapid central-vision loss
-- May be treated with injections into the eye
+</div>
+</div>
 
-### Nursing and Patient Education
+<h5>Nursing and patient education</h5>
 
-- Use an Amsler grid if prescribed.
-- Report new wavy lines or blank spots.
-- Improve lighting.
-- Use magnifying devices.
-- Reduce glare.
-- Encourage smoking cessation.
-- Promote fall prevention.
-- Refer to low-vision resources.
+* Use an Amsler grid if prescribed.
+* Report new wavy lines or blank spots.
+* Improve lighting.
+* Use magnifying devices.
+* Reduce glare.
+* Encourage smoking cessation.
+* Promote fall prevention.
+* Refer to low-vision resources.
 
 <div class="nclex-tip" markdown="1">
-  <h3>NCLEX Tip</h3>
+<h3>NCLEX Tip</h3>
 
 Macular degeneration affects **central vision**. Glaucoma commonly affects **peripheral vision** first.
+
 </div>
 
----
+</section>
 
-## Eye Trauma
+</div>
 
-### Chemical Exposure
+<div class="mh-detail green" id="panel-trauma" markdown="1">
+<a class="mh-detail-close" href="#">✕</a>
+
+### Eye Trauma
+
+<section class="renal-note-section" markdown="1">
+
+#### Chemical Exposure
 
 Chemical exposure is an emergency.
 
@@ -401,37 +567,56 @@ Chemical exposure is an emergency.
 6. Notify the provider or emergency service.
 7. Monitor eye pH when ordered.
 
-### Penetrating Injury
+</section>
 
-- Do not remove the object.
-- Do not apply pressure.
-- Do not irrigate.
-- Cover both eyes lightly to reduce eye movement.
-- Keep the client calm.
-- Maintain NPO status if surgery is possible.
-- Obtain immediate emergency treatment.
+<section class="renal-note-section" markdown="1">
 
-### Blunt Trauma
+<div class="renal-two-column" markdown="1">
+<div markdown="1">
+##### Penetrating Injury
 
-Assess for:
+* Do not remove the object.
+* Do not apply pressure.
+* Do not irrigate.
+* Cover both eyes lightly to reduce eye movement.
+* Keep the client calm.
+* Maintain NPO status if surgery is possible.
+* Obtain immediate emergency treatment.
 
-- Pain
-- Swelling
-- Bruising
-- Vision changes
-- Unequal pupils
-- Blood in the anterior chamber
-- Restricted eye movement
+</div>
+<div markdown="1">
+##### Blunt Trauma — Assess For
 
-<div class="nclex-tip" markdown="1">
-  <h3>NCLEX Tip</h3>
+* Pain
+* Swelling
+* Bruising
+* Vision changes
+* Unequal pupils
+* Blood in the anterior chamber
+* Restricted eye movement
 
-Chemical injury: irrigate immediately. Penetrating injury: do not remove the object and do not apply pressure.
+</div>
 </div>
 
----
+<div class="nclex-tip" markdown="1">
+<h3>NCLEX Tip</h3>
 
-## Administering Eye Drops
+Chemical injury: irrigate immediately. Penetrating injury: do not remove the object and do not apply pressure.
+
+</div>
+
+</section>
+
+</div>
+
+<div class="mh-detail pink" id="panel-medications" markdown="1">
+<a class="mh-detail-close" href="#">✕</a>
+
+### Administering Eye Medications
+
+<section class="renal-note-section" markdown="1">
+
+#### Eye Drops
 
 1. Perform hand hygiene.
 2. Verify the medication and correct eye.
@@ -445,60 +630,83 @@ Chemical injury: irrigate immediately. Penetrating injury: do not remove the obj
 10. Apply gentle pressure to the nasolacrimal duct when indicated.
 11. Wait the prescribed time between different medications.
 
-### Eye Ointment
+</section>
 
-- Apply a thin ribbon from inner to outer canthus.
-- Do not touch the applicator to the eye.
-- Temporary blurred vision is expected.
-- Apply drops before ointment when both are ordered.
+<section class="renal-note-section" markdown="1">
+
+#### Eye Ointment
+
+* Apply a thin ribbon from inner to outer canthus.
+* Do not touch the applicator to the eye.
+* Temporary blurred vision is expected.
+* Apply drops before ointment when both are ordered.
 
 <div class="nclex-tip" markdown="1">
-  <h3>Medication Order</h3>
+<h3>Medication Order</h3>
 
 Use eye drops before eye ointment because ointment can prevent drops from being absorbed properly.
+
 </div>
 
----
+</section>
 
-## Caring for a Client With Visual Impairment
+</div>
 
-### Communication
+<div class="mh-detail purple" id="panel-impairment" markdown="1">
+<a class="mh-detail-close" href="#">✕</a>
 
-- Identify yourself when entering.
-- Explain before touching the client.
-- Speak directly to the client.
-- Tell the client when you are leaving.
-- Use normal speech.
-- Describe the environment clearly.
+### Caring for a Client With Visual Impairment
 
-### Safety
+<section class="renal-note-section" markdown="1">
 
-- Keep furniture in consistent locations.
-- Keep pathways clear.
-- Place the call light within reach.
-- Orient the client to the room.
-- Keep personal items in consistent locations.
-- Provide adequate lighting without glare.
-- Use fall precautions.
-- Encourage use of prescribed glasses or assistive devices.
+<div class="renal-two-column" markdown="1">
+<div markdown="1">
+##### Communication
 
-### Guiding the Client
+* Identify yourself when entering.
+* Explain before touching the client.
+* Speak directly to the client.
+* Tell the client when you are leaving.
+* Use normal speech.
+* Describe the environment clearly.
 
-- Allow the client to hold your arm just above the elbow.
-- Walk slightly ahead.
-- Describe stairs, curbs, doors, and narrow spaces.
-- Do not pull or push the client.
-- Use the clock-face method to describe food placement.
+</div>
+<div markdown="1">
+##### Safety
 
-Example:
+* Keep furniture in consistent locations.
+* Keep pathways clear.
+* Place the call light within reach.
+* Orient the client to the room.
+* Keep personal items in consistent locations.
+* Provide adequate lighting without glare.
+* Use fall precautions.
+* Encourage use of prescribed glasses or assistive devices.
 
-- Meat at 6 o’clock
-- Vegetables at 3 o’clock
-- Potatoes at 9 o’clock
+</div>
+</div>
 
----
+</section>
 
-## Eye Disorders Big Picture
+<section class="renal-note-section" markdown="1">
+
+#### Guiding the Client
+
+* Allow the client to hold your arm just above the elbow.
+* Walk slightly ahead.
+* Describe stairs, curbs, doors, and narrow spaces.
+* Do not pull or push the client.
+* Use the clock-face method to describe food placement.
+
+For example: meat at 6 o’clock, vegetables at 3 o’clock, and potatoes at 9 o’clock.
+
+</section>
+
+</div>
+
+<div class="mh-table-card" markdown="1">
+
+<h3>Eye Disorders Big Picture</h3>
 
 | Disorder | Main Clue | Priority |
 |---|---|---|
@@ -511,8 +719,10 @@ Example:
 | **Chemical injury** | Exposure and burning | Immediate irrigation |
 | **Penetrating injury** | Embedded object | Protect eye; no pressure or removal |
 
+</div>
+
 <div class="report-now" markdown="1">
-  <h3>Report Immediately</h3>
+<h3>Report Immediately</h3>
 
 - Sudden vision loss
 - Severe eye pain
@@ -526,7 +736,7 @@ Example:
 </div>
 
 <div class="quick-review" markdown="1">
-  <h3>Quick Review</h3>
+<h3>Quick Review</h3>
 
 1. Bacterial conjunctivitis causes purulent drainage and crusted lashes.
 2. Clean infected eyes from inner to outer canthus.
@@ -543,7 +753,7 @@ Example:
 </div>
 
 <div class="do-not-miss" markdown="1">
-  <h3>Do Not Miss</h3>
+<h3>Do Not Miss</h3>
 
 - Do not place eye drops directly on the cornea.
 - Do not touch the dropper to the eye.
