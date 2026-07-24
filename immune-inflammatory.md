@@ -656,6 +656,389 @@ page_type: immune-hub
       padding: 1.6rem;
     }
   }
+
+  /* Final Immune homepage alignment: match the Mental Health hub system without altering Mental Health. */
+  body[data-page-type="immune-hub"] .main-content {
+    padding: 2.25rem 0 3rem !important;
+  }
+
+  body[data-page-type="immune-hub"] .immune-page {
+    padding: 0 2rem;
+    color: #0d194f;
+  }
+
+  body[data-page-type="immune-hub"] .mh-breadcrumb {
+    width: 100%;
+    padding: 0 2rem;
+    margin: 0 0 1.25rem;
+  }
+
+  .immune-layout {
+    width: 100%;
+    margin: 0;
+    grid-template-columns: minmax(720px, 1fr) 320px;
+    gap: 2.2rem;
+    align-items: stretch;
+  }
+
+  .immune-main {
+    text-align: left;
+  }
+
+  .immune-heading {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 0 0 2.2rem;
+    text-align: left;
+  }
+
+  .immune-kicker {
+    display: none;
+  }
+
+  .immune-brandmark {
+    display: grid;
+    flex: 0 0 4.6rem;
+    place-items: center;
+    width: 4.6rem;
+    height: 4.6rem;
+    border-radius: 0;
+    background: transparent;
+    overflow: visible;
+  }
+
+  .immune-brandmark img {
+    width: 4.2rem;
+    height: 4.2rem;
+    object-fit: contain;
+    filter: drop-shadow(0 10px 14px rgba(128, 96, 191, .18));
+  }
+
+  .immune-heading h1 {
+    font-family: "Nunito", sans-serif !important;
+    font-size: clamp(2rem, 3vw, 3.15rem) !important;
+    font-weight: 900 !important;
+    line-height: 1.05 !important;
+    letter-spacing: -0.04em;
+    color: #0b174e !important;
+    -webkit-text-fill-color: #0b174e !important;
+  }
+
+  .immune-heading p {
+    margin: 0.25rem 0 0;
+    color: #8060bf;
+    font-size: 1.12rem;
+    font-weight: 700;
+  }
+
+  .immune-stage {
+    display: block;
+    width: 100%;
+    min-height: 820px;
+    margin: 0;
+  }
+
+  .immune-stage::before {
+    content: "";
+    position: absolute;
+    inset: 9% 17%;
+    border: 2px dashed rgba(128, 96, 191, 0.28);
+    border-radius: 50%;
+    pointer-events: none;
+  }
+
+  .immune-connectors path {
+    stroke: #a48fd6;
+    stroke-width: 2;
+    stroke-dasharray: 5 7;
+    opacity: 1;
+    vector-effect: non-scaling-stroke;
+  }
+
+  .immune-connectors circle {
+    fill: #8060bf;
+    stroke: none;
+  }
+
+  .immune-body-wrap {
+    z-index: 1;
+    top: 50%;
+    bottom: auto;
+    width: 27rem;
+    height: 39rem;
+    transform: translate(-50%, -50%);
+  }
+
+  .immune-body-image {
+    width: 100%;
+    height: 100%;
+    max-width: none;
+    max-height: none;
+    object-fit: contain;
+    filter: drop-shadow(0 22px 22px rgba(29, 60, 106, .16));
+  }
+
+  .immune-card {
+    display: flex;
+    align-items: center;
+    gap: .85rem;
+    width: min(245px, 28%);
+    min-height: 72px;
+    padding: .8rem 1rem;
+    border: 1px solid #dbe5e9;
+    border-radius: 18px;
+    background: rgba(255,255,255,.96);
+    box-shadow: 0 8px 20px rgba(27, 50, 82, .10);
+    transform: translate(-50%, -50%);
+  }
+
+  .immune-card:hover,
+  .immune-card:focus-visible {
+    transform: translate(-50%, calc(-50% - 3px));
+    border-color: #8060bf;
+    box-shadow: 0 13px 26px rgba(27, 50, 82, .15);
+  }
+
+  .immune-card-icon {
+    flex: 0 0 3.2rem;
+    width: 3.2rem;
+    height: 3.2rem;
+    font-size: 1.45rem;
+  }
+
+  .immune-card-title {
+    font-size: .99rem;
+    line-height: 1.2;
+    font-weight: 900;
+  }
+
+  .immune-card-description {
+    margin-top: .22rem;
+    color: #68728c;
+    font-size: .74rem;
+    line-height: 1.25;
+    font-weight: 700;
+  }
+
+  .immune-card-chevron {
+    display: none;
+  }
+
+  .immune-topic-hiv { left: 18%; top: 18%; }
+  .immune-topic-ra { left: 12%; top: 42%; }
+  .immune-topic-gout { left: 18%; top: 68%; }
+  .immune-topic-lupus { right: auto; left: 82%; top: 18%; }
+  .immune-topic-antimicrobials { right: auto; left: 88%; top: 42%; }
+  .immune-topic-meds { right: auto; left: 82%; top: 68%; }
+
+  .immune-sidebar {
+    align-self: stretch;
+    margin-top: 0;
+    min-height: 0;
+    padding: 2.1rem 1.9rem;
+    border: 1px solid #cbdde2;
+    border-radius: 24px;
+    background: linear-gradient(155deg, #fff, #fbfefe);
+    box-shadow: 0 12px 30px rgba(27, 50, 82, .07);
+  }
+
+  .immune-sidebar-icon {
+    width: 4.4rem;
+    height: 4.4rem;
+    margin: 0 auto 1rem;
+    border-radius: 0;
+    background: transparent;
+    font-size: 2.25rem;
+  }
+
+  .immune-guide-rule {
+    margin: 1.8rem 0;
+  }
+
+  .immune-nclex-link {
+    margin: 1.1rem 0;
+  }
+
+  .immune-basics-link {
+    margin-top: auto;
+    border: 1px solid #e6ddf7;
+    border-radius: 15px;
+    background: #f5f1fd;
+  }
+
+  .immune-back-row {
+    grid-template-columns: 1fr;
+    width: min(360px, 100%);
+    margin: 1rem auto 0;
+  }
+
+  .immune-back-row .immune-back {
+    width: 100%;
+    margin: 0;
+  }
+
+  .immune-back-row .immune-back span {
+    width: auto;
+    height: auto;
+    border-radius: 0;
+    background: transparent;
+    font-size: 1.25rem;
+  }
+
+  @media (max-width: 1250px) {
+    .immune-layout {
+      grid-template-columns: minmax(0, 1fr) 245px;
+      gap: 1.2rem;
+    }
+
+    .immune-stage {
+      min-height: 760px;
+    }
+
+    .immune-body-wrap {
+      width: 24rem;
+      height: 36rem;
+    }
+
+    .immune-card {
+      min-height: 72px;
+      padding: .7rem .8rem;
+      gap: .6rem;
+    }
+
+    .immune-card-icon {
+      flex-basis: 2.65rem;
+      width: 2.65rem;
+      height: 2.65rem;
+      font-size: 1.15rem;
+    }
+
+    .immune-card-title {
+      font-size: .86rem;
+    }
+
+    .immune-card-description {
+      display: none;
+    }
+
+    .immune-sidebar {
+      padding: 1.6rem 1.3rem;
+    }
+  }
+
+  @media (max-width: 980px) {
+    .immune-layout {
+      grid-template-columns: minmax(0, 1fr) 235px;
+      gap: 1rem;
+      width: 100%;
+    }
+
+    .immune-stage {
+      min-height: 720px;
+    }
+
+    .immune-body-wrap {
+      width: 21rem;
+      height: 32rem;
+    }
+
+    .immune-card {
+      min-height: 70px;
+      padding: .65rem .7rem;
+      gap: .55rem;
+      border-radius: 15px;
+    }
+
+    .immune-card-icon {
+      flex-basis: 2.5rem;
+      width: 2.5rem;
+      height: 2.5rem;
+      font-size: 1.05rem;
+    }
+
+    .immune-card-title {
+      font-size: .82rem;
+    }
+  }
+
+  @media (max-width: 740px) {
+    .immune-layout {
+      grid-template-columns: 1fr;
+    }
+
+    .immune-heading {
+      align-items: flex-start;
+      margin-bottom: 1.5rem;
+    }
+
+    .immune-brandmark {
+      flex-basis: 3.5rem;
+      width: 3.5rem;
+      height: 3.5rem;
+    }
+
+    .immune-brandmark img {
+      width: 3.2rem;
+      height: 3.2rem;
+    }
+
+    .immune-heading h1 {
+      font-size: 1.8rem !important;
+    }
+
+    .immune-heading p {
+      font-size: .95rem;
+    }
+
+    .immune-stage {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(125px, 1fr));
+      gap: .7rem;
+      min-height: auto;
+    }
+
+    .immune-stage::before,
+    .immune-connectors {
+      display: none;
+    }
+
+    .immune-body-wrap {
+      position: relative;
+      grid-column: 1 / -1;
+      top: auto;
+      left: auto;
+      width: min(20rem, 100%);
+      height: 26rem;
+      margin: 0 auto;
+      transform: none;
+    }
+
+    .immune-card,
+    .immune-card:hover,
+    .immune-card:focus-visible {
+      position: relative;
+      left: auto;
+      right: auto;
+      top: auto;
+      width: 100%;
+      transform: none;
+    }
+  }
+
+  @media (max-width: 520px) {
+    body[data-page-type="immune-hub"] .immune-page {
+      padding: 0 1rem;
+    }
+
+    body[data-page-type="immune-hub"] .mh-breadcrumb {
+      padding: 0 1rem;
+    }
+
+    .immune-stage {
+      grid-template-columns: 1fr;
+    }
+  }
 </style>
 
 <div class="mh-breadcrumb">
@@ -669,8 +1052,13 @@ page_type: immune-hub
     <div class="immune-main">
       <header class="immune-heading">
         <div class="immune-kicker" aria-hidden="true">✣ ⚕ ✣</div>
-        <h1 id="immune-title">Immune &amp; Inflammatory</h1>
-        <p>Choose a topic to study.</p>
+        <div class="immune-brandmark" aria-hidden="true">
+          <img src="{{ '/assets/images/immune-inflammatory-body.png' | relative_url }}" alt="" data-no-lb>
+        </div>
+        <div>
+          <h1 id="immune-title">Immune &amp; Inflammatory</h1>
+          <p>Choose a topic to study.</p>
+        </div>
       </header>
 
       <div class="immune-stage" aria-label="Immune and inflammatory study topics">
@@ -735,7 +1123,9 @@ page_type: immune-hub
         </a>
       </div>
 
-      <a class="immune-back" href="{{ '/all-topics.html' | relative_url }}"><span aria-hidden="true">⌂</span>Back to Nursing School Hub</a>
+      <nav class="mh-hub-shortcuts immune-back-row" aria-label="Immune and inflammatory shortcuts">
+        <a class="immune-back" href="{{ '/all-topics.html' | relative_url }}"><span aria-hidden="true">⌂</span><strong>Back to Nursing School Hub</strong></a>
+      </nav>
     </div>
 
     <aside class="immune-sidebar">

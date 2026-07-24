@@ -16,7 +16,7 @@ page_type: renal-hub
     width: 100% !important;
     max-width: 100% !important;
     margin: 0 !important;
-    padding: 1.75rem 0 2.25rem !important;
+    padding: 2.25rem 0 3rem !important;
     border-radius: 0 !important;
     box-shadow: none !important;
   }

@@ -488,14 +488,182 @@ page_type: sensory-hub
       margin-top: 0.9rem;
     }
   }
+
+  /* Match the Mental Health hub composition while keeping Sensory-specific art and links. */
+  body[data-page-type="sensory-hub"] .main-content {
+    padding: 2.25rem 0 3rem !important;
+  }
+
+  .sensory-page {
+    padding: 0 2rem;
+  }
+
+  .sensory-layout {
+    grid-template-columns: minmax(720px, 1fr) 320px;
+    gap: 2.2rem;
+    width: 100%;
+    margin: 0;
+  }
+
+  .sensory-main {
+    text-align: left;
+  }
+
+  .sensory-title {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 0 0 2.2rem;
+    text-align: left;
+  }
+
+  .sensory-brandmark {
+    display: grid;
+    flex: 0 0 4.6rem;
+    place-items: center;
+    width: 4.6rem;
+    height: 4.6rem;
+    overflow: visible;
+  }
+
+  .sensory-brandmark img {
+    width: 4.2rem;
+    height: 4.2rem;
+    object-fit: contain;
+    filter: drop-shadow(0 10px 14px rgba(128, 96, 191, .14));
+  }
+
+  .sensory-title h1 {
+    letter-spacing: -0.04em;
+    line-height: 1.05 !important;
+  }
+
+  .sensory-title p {
+    margin: 0.25rem 0 0;
+  }
+
+  .sensory-stage {
+    width: 100%;
+    max-width: 1000px;
+    min-height: 560px;
+    margin: 0;
+    grid-template-columns: minmax(190px, 245px) minmax(300px, 410px) minmax(190px, 245px);
+    gap: clamp(1rem, 3vw, 2.2rem);
+  }
+
+  .sensory-profile {
+    max-width: 410px;
+    max-height: 470px;
+  }
+
+  .sensory-sidebar {
+    align-self: stretch;
+  }
+
+  .sensory-sidebar-icon {
+    display: grid;
+    place-items: center;
+    width: 4.4rem;
+    height: 4.4rem;
+    margin: 0 auto 1rem;
+  }
+
+  .sensory-sidebar-icon img {
+    width: 3.7rem;
+    height: 3.7rem;
+    object-fit: contain;
+  }
+
+  @media (max-width: 1250px) {
+    .sensory-layout {
+      grid-template-columns: minmax(0, 1fr) 245px;
+      gap: 1.2rem;
+    }
+
+    .sensory-stage {
+      min-height: 520px;
+      grid-template-columns: minmax(160px, 210px) minmax(250px, 360px) minmax(160px, 210px);
+      gap: 1rem;
+    }
+
+    .sensory-card {
+      min-height: 72px;
+      padding: .7rem .8rem;
+      gap: .6rem;
+    }
+
+    .sensory-card-icon {
+      width: 2.65rem;
+      height: 2.65rem;
+      font-size: 1.15rem;
+    }
+
+    .sensory-card strong {
+      font-size: .86rem;
+    }
+
+    .sensory-card small {
+      display: none;
+    }
+
+    .sensory-sidebar {
+      padding: 1.6rem 1.3rem;
+    }
+  }
+
+  @media (max-width: 980px) {
+    .sensory-layout {
+      grid-template-columns: 1fr;
+      width: 100%;
+    }
+
+    .sensory-sidebar {
+      width: min(100%, 680px);
+      margin-inline: auto;
+    }
+  }
+
+  @media (max-width: 740px) {
+    .sensory-page {
+      padding: 0 1rem;
+    }
+
+    .sensory-title {
+      align-items: flex-start;
+      margin-bottom: 1.5rem;
+    }
+
+    .sensory-brandmark {
+      flex-basis: 3.5rem;
+      width: 3.5rem;
+      height: 3.5rem;
+    }
+
+    .sensory-brandmark img {
+      width: 3.2rem;
+      height: 3.2rem;
+    }
+
+    .sensory-stage {
+      grid-template-columns: 1fr;
+      max-width: 380px;
+      min-height: auto;
+      margin-inline: auto;
+    }
+  }
 </style>
 
 <section class="sensory-page" aria-labelledby="sensory-title">
   <div class="sensory-layout">
     <div class="sensory-main">
       <header class="sensory-title">
-        <h1 id="sensory-title">Sensory Perception</h1>
-        <p>Your simple hub for vision and hearing nursing.</p>
+        <div class="sensory-brandmark" aria-hidden="true">
+          <img src="{{ '/assets/images/sensory-profile-woman.png' | relative_url }}" alt="" data-no-lb>
+        </div>
+        <div>
+          <h1 id="sensory-title">Sensory Perception</h1>
+          <p>Your simple hub for vision and hearing nursing.</p>
+        </div>
       </header>
 
       <div class="sensory-stage" aria-label="Sensory perception study topics">
@@ -537,6 +705,9 @@ page_type: sensory-hub
     </div>
 
     <aside class="sensory-sidebar">
+      <div class="sensory-sidebar-icon" aria-hidden="true">
+        <img src="{{ '/assets/images/sensory-profile-woman.png' | relative_url }}" alt="" data-no-lb>
+      </div>
       <h2>Select a topic<br>to open notes</h2>
       <div class="sensory-guide-rule"></div>
       <p>Study resources include:</p>
