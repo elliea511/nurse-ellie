@@ -25,6 +25,38 @@ page_type: renal-hub
     padding: 0 2rem;
   }
 
+  body[data-page-type="renal-hub"] .system-hub .mh-hub-header h1 {
+    display: block !important;
+    width: auto !important;
+    max-width: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    color: #0b174e !important;
+    -webkit-text-fill-color: #0b174e !important;
+    font-family: "Nunito", sans-serif !important;
+    font-size: clamp(2rem, 3vw, 3.15rem) !important;
+    line-height: 1.05 !important;
+    letter-spacing: -0.04em;
+    text-shadow: none !important;
+  }
+
+  body[data-page-type="renal-hub"] .system-hub .mh-hub-header h1::before,
+  body[data-page-type="renal-hub"] .system-hub .mh-hub-header h1::after {
+    display: none !important;
+    content: none !important;
+  }
+
+  body[data-page-type="renal-hub"] .system-hub .mh-hub-header p {
+    margin: 0.25rem 0 0;
+    color: #8060bf;
+    font-size: 1.12rem;
+    font-weight: 700;
+  }
+
   body[data-page-type="renal-hub"] .system-hub .mh-brain-center {
     width: 27rem;
     height: 28rem;
