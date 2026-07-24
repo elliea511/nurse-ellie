@@ -64,10 +64,10 @@ When kidney function decreases, the client can develop **fluid overload, electro
 
 AKI was previously called **acute renal failure**.
 
-<div class="detail-grid" markdown="1">
+<div class="renal-two-column" markdown="1">
 
-<div class="detail-mini-card" markdown="1">
-<strong>What It Is</strong>
+<div markdown="1">
+##### What It Is
 
 * Develops over hours to days.
 * Kidney filtration suddenly decreases.
@@ -78,8 +78,8 @@ AKI was previously called **acute renal failure**.
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Priority Risks</strong>
+<div markdown="1">
+##### Priority Risks
 
 * Hyperkalemia
 * Cardiac dysrhythmias
@@ -92,8 +92,8 @@ AKI was previously called **acute renal failure**.
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Common Manifestations</strong>
+<div markdown="1">
+##### Common Manifestations
 
 * Oliguria or anuria
 * Edema
@@ -108,8 +108,8 @@ AKI was previously called **acute renal failure**.
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Possible Outcomes</strong>
+<div markdown="1">
+##### Possible Outcomes
 
 * Complete recovery
 * Partial recovery
@@ -153,10 +153,10 @@ AKI was previously called **acute renal failure**.
   </table>
 </div>
 
-<div class="detail-grid" markdown="1">
+<div class="renal-two-column" markdown="1">
 
-<div class="detail-mini-card" markdown="1">
-<strong>Prerenal AKI</strong>
+<div markdown="1">
+##### Prerenal AKI
 
 Think: **The kidneys are not receiving enough blood.**
 
@@ -176,8 +176,8 @@ Treatment focuses on restoring circulation and correcting the cause without prod
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Intrarenal AKI</strong>
+<div markdown="1">
+##### Intrarenal AKI
 
 Think: **The kidney tissue itself is damaged.**
 
@@ -197,8 +197,8 @@ Treatment includes stopping the damaging cause when possible and supporting kidn
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Postrenal AKI</strong>
+<div markdown="1">
+##### Postrenal AKI
 
 Think: **Urine is blocked after it is formed.**
 
@@ -228,10 +228,10 @@ Not every client follows every phase exactly, but this pattern is commonly teste
 
 #### Oliguric Phase
 
-<div class="detail-grid" markdown="1">
+<div class="renal-two-column" markdown="1">
 
-<div class="detail-mini-card" markdown="1">
-<strong>Urine Output</strong>
+<div markdown="1">
+##### Urine Output
 
 * Urine output is reduced.
 * Class notes may define oliguria as less than 400 mL in 24 hours.
@@ -240,8 +240,8 @@ Not every client follows every phase exactly, but this pattern is commonly teste
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>What Builds Up?</strong>
+<div markdown="1">
+##### What Builds Up?
 
 * Fluid
 * Potassium
@@ -253,8 +253,8 @@ Not every client follows every phase exactly, but this pattern is commonly teste
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Expected Problems</strong>
+<div markdown="1">
+##### Expected Problems
 
 * Edema
 * Hypertension
@@ -267,8 +267,8 @@ Not every client follows every phase exactly, but this pattern is commonly teste
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Nursing Priority</strong>
+<div markdown="1">
+##### Nursing Priority
 
 * Strict intake and output
 * Daily weights
@@ -313,10 +313,10 @@ Expected findings:
 
 #### Diagnostics
 
-<div class="detail-grid" markdown="1">
+<div class="renal-two-column" markdown="1">
 
-<div class="detail-mini-card" markdown="1">
-<strong>Blood Tests</strong>
+<div markdown="1">
+##### Blood Tests
 
 * BUN
 * Serum creatinine
@@ -329,8 +329,8 @@ Expected findings:
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Urine Assessment</strong>
+<div markdown="1">
+##### Urine Assessment
 
 * Hourly urine output
 * Urinalysis
@@ -341,8 +341,8 @@ Expected findings:
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Imaging</strong>
+<div markdown="1">
+##### Imaging
 
 May include:
 
@@ -354,8 +354,8 @@ May include:
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Medication Review</strong>
+<div markdown="1">
+##### Medication Review
 
 Assess for:
 
@@ -402,10 +402,10 @@ Assess for:
 
 CKD was previously called **chronic renal insufficiency** or **chronic renal failure**.
 
-<div class="detail-grid" markdown="1">
+<div class="renal-two-column" markdown="1">
 
-<div class="detail-mini-card" markdown="1">
-<strong>What It Is</strong>
+<div markdown="1">
+##### What It Is
 
 * Progressive loss of functioning nephrons.
 * Usually develops slowly.
@@ -416,8 +416,8 @@ CKD was previously called **chronic renal insufficiency** or **chronic renal fai
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Most Common Causes</strong>
+<div markdown="1">
+##### Most Common Causes
 
 * Diabetes mellitus
 * Hypertension
@@ -429,8 +429,8 @@ CKD was previously called **chronic renal insufficiency** or **chronic renal fai
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Early Findings</strong>
+<div markdown="1">
+##### Early Findings
 
 * May be asymptomatic
 * Nocturia
@@ -443,8 +443,8 @@ CKD was previously called **chronic renal insufficiency** or **chronic renal fai
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Advanced Findings</strong>
+<div markdown="1">
+##### Advanced Findings
 
 * Oliguria
 * Edema
@@ -681,10 +681,10 @@ Nursing actions:
 <strong>Priority Cue:</strong> A potassium of 6.5 mEq/L with ECG changes is more urgent than an elevated creatinine.
 </div>
 
-<div class="detail-grid" markdown="1">
+<div class="renal-two-column" markdown="1">
 
-<div class="detail-mini-card" markdown="1">
-<strong>Metabolic Acidosis</strong>
+<div markdown="1">
+##### Metabolic Acidosis
 
 Damaged kidneys cannot remove enough acid or conserve bicarbonate properly.
 
@@ -708,8 +708,8 @@ Treatment may include:
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Fluid Volume Excess</strong>
+<div markdown="1">
+##### Fluid Volume Excess
 
 Possible findings:
 
@@ -742,10 +742,10 @@ These findings require immediate intervention.
 
 </div>
 
-<div class="detail-grid" markdown="1">
+<div class="renal-two-column" markdown="1">
 
-<div class="detail-mini-card" markdown="1">
-<strong>Anemia</strong>
+<div markdown="1">
+##### Anemia
 
 The kidneys normally produce **erythropoietin**, which stimulates red blood cell production.
 
@@ -758,8 +758,8 @@ When kidney function decreases:
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Epoetin Alfa</strong>
+<div markdown="1">
+##### Epoetin Alfa
 
 Epoetin alfa may be prescribed to stimulate red blood cell production.
 
@@ -786,10 +786,10 @@ Teaching:
 <strong>Class Cue:</strong> Dialysis can remove wastes and fluid, but it does not replace the kidney’s erythropoietin production.
 </div>
 
-<div class="detail-grid" markdown="1">
+<div class="renal-two-column" markdown="1">
 
-<div class="detail-mini-card" markdown="1">
-<strong>Calcium and Phosphorus Imbalance</strong>
+<div markdown="1">
+##### Calcium and Phosphorus Imbalance
 
 Damaged kidneys cannot remove phosphorus effectively or activate enough vitamin D.
 
@@ -806,8 +806,8 @@ This can lead to:
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Phosphate Binders</strong>
+<div markdown="1">
+##### Phosphate Binders
 
 Examples may include:
 
@@ -855,10 +855,10 @@ Treatment depends on whether the client has AKI or CKD, the cause, laboratory re
 
 #### Core Nursing Monitoring
 
-<div class="detail-grid" markdown="1">
+<div class="renal-two-column" markdown="1">
 
-<div class="detail-mini-card" markdown="1">
-<strong>Intake and Output</strong>
+<div markdown="1">
+##### Intake and Output
 
 * Measure all intake.
 * Measure urine accurately.
@@ -869,8 +869,8 @@ Treatment depends on whether the client has AKI or CKD, the cause, laboratory re
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Daily Weight</strong>
+<div markdown="1">
+##### Daily Weight
 
 * Same scale
 * Same time
@@ -881,8 +881,8 @@ Treatment depends on whether the client has AKI or CKD, the cause, laboratory re
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Cardiopulmonary Assessment</strong>
+<div markdown="1">
+##### Cardiopulmonary Assessment
 
 * Blood pressure
 * Heart rate and rhythm
@@ -894,8 +894,8 @@ Treatment depends on whether the client has AKI or CKD, the cause, laboratory re
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Neurologic Assessment</strong>
+<div markdown="1">
+##### Neurologic Assessment
 
 * Orientation
 * Level of consciousness
@@ -946,10 +946,10 @@ The renal diet is individualized according to labs and urine output.
   </table>
 </div>
 
-<div class="detail-grid" markdown="1">
+<div class="renal-two-column" markdown="1">
 
-<div class="detail-mini-card" markdown="1">
-<strong>Protein Teaching</strong>
+<div markdown="1">
+##### Protein Teaching
 
 Do not apply one protein rule to every renal client.
 
@@ -960,8 +960,8 @@ Do not apply one protein rule to every renal client.
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Fluid Allowance</strong>
+<div markdown="1">
+##### Fluid Allowance
 
 A common class formula may be:
 
@@ -987,10 +987,10 @@ Fluids include:
 
 #### Medication Safety
 
-<div class="detail-grid" markdown="1">
+<div class="renal-two-column" markdown="1">
 
-<div class="detail-mini-card" markdown="1">
-<strong>Avoid Nephrotoxins</strong>
+<div markdown="1">
+##### Avoid Nephrotoxins
 
 Use caution with:
 
@@ -1004,8 +1004,8 @@ Use caution with:
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Renal Dosing</strong>
+<div markdown="1">
+##### Renal Dosing
 
 * Many drugs leave through the kidneys.
 * Doses may need to be reduced.
@@ -1015,8 +1015,8 @@ Use caution with:
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Blood Pressure Medications</strong>
+<div markdown="1">
+##### Blood Pressure Medications
 
 * Control of hypertension slows CKD progression.
 * Monitor blood pressure.
@@ -1026,8 +1026,8 @@ Use caution with:
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Diuretics</strong>
+<div markdown="1">
+##### Diuretics
 
 May reduce:
 
@@ -1047,10 +1047,10 @@ Monitor:
 
 </div>
 
-<div class="detail-grid" markdown="1">
+<div class="renal-two-column" markdown="1">
 
-<div class="detail-mini-card" markdown="1">
-<strong>Skin and Comfort Care</strong>
+<div markdown="1">
+##### Skin and Comfort Care
 
 For dry skin and pruritus:
 
@@ -1066,8 +1066,8 @@ For dry skin and pruritus:
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Safety</strong>
+<div markdown="1">
+##### Safety
 
 Clients with uremia or electrolyte imbalance may be confused or weak.
 

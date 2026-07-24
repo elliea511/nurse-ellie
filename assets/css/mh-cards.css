@@ -2069,6 +2069,125 @@ body[data-section="renal-urinary"] .detail-table td {
   }
 }
 
+/* ============================================================
+   RENAL-URINARY — flat "notes article" layout for expanded panels
+   Panels read as one organized article (white body, colored top
+   accent) instead of a dashboard of nested tinted cards. Cards are
+   reserved for the five topic selectors at the top of each page.
+   Scoped to the renal section only; no other page is affected.
+   ============================================================ */
+body[data-section="renal-urinary"] .mh-detail,
+body[data-section="renal-urinary"] .mh-detail.blue,
+body[data-section="renal-urinary"] .mh-detail.green,
+body[data-section="renal-urinary"] .mh-detail.pink,
+body[data-section="renal-urinary"] .mh-detail.purple {
+  background: #ffffff;
+  border: 1px solid #e9e9f1;
+  border-top: 4px solid var(--mh-purple);
+  border-radius: 20px;
+  padding: 1.9rem 2.15rem;
+  margin: 1.25rem auto 1.5rem;
+  max-width: 1080px;
+  box-shadow: 0 6px 20px rgba(34, 28, 80, 0.07);
+  color: var(--mh-ink);
+  line-height: 1.55;
+}
+body[data-section="renal-urinary"] .mh-detail.blue   { border-top-color: var(--mh-blue); }
+body[data-section="renal-urinary"] .mh-detail.green  { border-top-color: var(--mh-green); }
+body[data-section="renal-urinary"] .mh-detail.pink   { border-top-color: var(--mh-pink); }
+body[data-section="renal-urinary"] .mh-detail.purple { border-top-color: var(--mh-purple); }
+
+/* Section rhythm inside a panel */
+body[data-section="renal-urinary"] .renal-note-section { margin-top: 2rem; }
+body[data-section="renal-urinary"] .renal-note-section:first-of-type { margin-top: 1rem; }
+body[data-section="renal-urinary"] .mh-detail h4 {
+  margin: 0 0 0.65rem !important;
+  font-family: "Nunito", sans-serif !important;
+  font-size: 1.08rem !important;
+  font-weight: 800 !important;
+  color: var(--mh-ink) !important;
+  line-height: 1.3 !important;
+}
+body[data-section="renal-urinary"] .mh-detail h5 {
+  margin: 0 0 0.4rem !important;
+  font-family: "Nunito", sans-serif !important;
+  font-size: 0.98rem !important;
+  font-weight: 800 !important;
+  color: var(--mh-ink) !important;
+  line-height: 1.3 !important;
+}
+/* Flat section headings that sit directly in a panel (pages without
+   <section> wrappers) get top spacing so sections read as separated. */
+body[data-section="renal-urinary"] .mh-detail > h4 { margin-top: 1.75rem !important; }
+body[data-section="renal-urinary"] .mh-detail p { margin: 0.5rem 0; }
+body[data-section="renal-urinary"] .mh-detail ul,
+body[data-section="renal-urinary"] .mh-detail ol { margin: 0.5rem 0; padding-left: 1.2rem; }
+body[data-section="renal-urinary"] .mh-detail li { margin-bottom: 0.25rem; }
+
+/* Plain two-column text section — NOT cards (spacing/divider only) */
+body[data-section="renal-urinary"] .renal-two-column {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.4rem 2.25rem;
+  margin: 0.75rem 0;
+}
+body[data-section="renal-urinary"] .renal-two-column > div { min-width: 0; }
+
+/* Process / assessment strip — dividers only, no floating cards */
+body[data-section="renal-urinary"] .renal-strip {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+  margin: 1rem 0;
+  border: 1px solid #ececf3;
+  border-radius: 14px;
+  overflow: hidden;
+  background: #fff;
+}
+body[data-section="renal-urinary"] .renal-strip > div {
+  padding: 0.9rem 1.15rem;
+  border-left: 1px solid #ececf3;
+  min-width: 0;
+}
+body[data-section="renal-urinary"] .renal-strip > div:first-child { border-left: none; }
+body[data-section="renal-urinary"] .renal-strip ul { margin: 0.35rem 0 0; }
+
+/* Do / Do-Not helper headings */
+body[data-section="renal-urinary"] .renal-do h5   { color: var(--mh-green-deep, #1c7a4d) !important; }
+body[data-section="renal-urinary"] .renal-dont h5 { color: #b3261e !important; }
+
+/* Tables inside renal panels: clean white, tinted header, compact */
+body[data-section="renal-urinary"] .mh-detail table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  margin: 1rem 0 !important;
+  font-size: 0.93rem;
+}
+body[data-section="renal-urinary"] .mh-detail thead th {
+  background: rgba(34, 28, 80, 0.05);
+  text-align: left;
+  padding: 0.55rem 0.8rem;
+  border-bottom: 2px solid rgba(34, 28, 80, 0.12);
+}
+body[data-section="renal-urinary"] .mh-detail tbody td {
+  padding: 0.5rem 0.8rem;
+  border-bottom: 1px solid rgba(34, 28, 80, 0.08);
+  line-height: 1.45;
+  vertical-align: top;
+}
+
+/* Compact in-panel callouts / alert boxes */
+body[data-section="renal-urinary"] .mh-detail .detail-callout { margin: 1.25rem 0; }
+body[data-section="renal-urinary"] .mh-detail .report-now { margin: 1.25rem 0; }
+
+@media (max-width: 760px) {
+  body[data-section="renal-urinary"] .renal-two-column { grid-template-columns: 1fr; gap: 0.25rem; }
+  body[data-section="renal-urinary"] .renal-strip { grid-auto-flow: row; grid-auto-columns: auto; }
+  body[data-section="renal-urinary"] .renal-strip > div { border-left: none; border-top: 1px solid #ececf3; }
+  body[data-section="renal-urinary"] .renal-strip > div:first-child { border-top: none; }
+}
+
 /* Landing hub final composition: disorders orbit the brain; support topics sit below. */
 body[data-page-type="mental-health-hub"] .mh-hub-main { min-width: 0; }
 

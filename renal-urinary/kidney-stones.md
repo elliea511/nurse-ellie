@@ -69,10 +69,10 @@ The four major stone types covered at the PN level are:
 
 Calcium stones, especially calcium oxalate stones, are the most common type. The stone should be strained and sent to the laboratory whenever possible because prevention teaching depends on its composition.
 
-<div class="detail-grid" markdown="1">
+<div class="renal-two-column" markdown="1">
 
-<div class="detail-mini-card" markdown="1">
-<strong>Calcium Oxalate Stones</strong>
+<div markdown="1">
+##### Calcium Oxalate Stones
 
 * Most common kidney stone.
 * Form when calcium combines with oxalate in the urine.
@@ -82,8 +82,8 @@ Calcium stones, especially calcium oxalate stones, are the most common type. The
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Uric Acid Stones</strong>
+<div markdown="1">
+##### Uric Acid Stones
 
 * Form when the urine contains too much uric acid and is overly acidic.
 * May occur with gout.
@@ -94,8 +94,8 @@ Calcium stones, especially calcium oxalate stones, are the most common type. The
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Struvite Stones</strong>
+<div markdown="1">
+##### Struvite Stones
 
 * Associated with certain urinary tract infections.
 * Bacteria cause the urine to become more alkaline.
@@ -106,8 +106,8 @@ Calcium stones, especially calcium oxalate stones, are the most common type. The
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Cystine Stones</strong>
+<div markdown="1">
+##### Cystine Stones
 
 * Rare.
 * Caused by an inherited condition called cystinuria.
@@ -156,10 +156,10 @@ Calcium stones, especially calcium oxalate stones, are the most common type. The
 
 #### Calcium Stone Risk Factors
 
-<div class="detail-grid" markdown="1">
+<div class="renal-two-column" markdown="1">
 
-<div class="detail-mini-card" markdown="1">
-<strong>Hypercalcemia / Hypercalciuria</strong>
+<div markdown="1">
+##### Hypercalcemia / Hypercalciuria
 
 Possible causes include:
 
@@ -171,8 +171,8 @@ Possible causes include:
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>High Sodium Intake</strong>
+<div markdown="1">
+##### High Sodium Intake
 
 * Sodium increases calcium excretion into the urine.
 * More urinary calcium can increase stone formation.
@@ -181,8 +181,8 @@ Possible causes include:
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>High Oxalate Intake</strong>
+<div markdown="1">
+##### High Oxalate Intake
 
 High-oxalate foods may include:
 
@@ -198,8 +198,8 @@ Restriction depends on the confirmed stone type and provider or dietitian instru
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Intestinal Disorders</strong>
+<div markdown="1">
+##### Intestinal Disorders
 
 * Crohn disease
 * Ulcerative colitis
@@ -226,10 +226,10 @@ These conditions can increase oxalate absorption and calcium oxalate stone risk.
 
 A stone may cause no symptoms while it remains still. Severe pain often begins when the stone moves, blocks urine flow, or irritates the urinary tract.
 
-<div class="detail-grid" markdown="1">
+<div class="renal-two-column" markdown="1">
 
-<div class="detail-mini-card" markdown="1">
-<strong>Renal Colic</strong>
+<div markdown="1">
+##### Renal Colic
 
 * Stone is located in or near the kidney.
 * Deep, dull, aching pain.
@@ -238,8 +238,8 @@ A stone may cause no symptoms while it remains still. Severe pain often begins w
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Ureteral Colic</strong>
+<div markdown="1">
+##### Ureteral Colic
 
 * Stone moves into the ureter.
 * Sudden, severe, sharp, wave-like pain.
@@ -249,8 +249,8 @@ A stone may cause no symptoms while it remains still. Severe pain often begins w
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Urinary Findings</strong>
+<div markdown="1">
+##### Urinary Findings
 
 * Hematuria
 * Urinary urgency
@@ -262,8 +262,8 @@ A stone may cause no symptoms while it remains still. Severe pain often begins w
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>GI and Systemic Findings</strong>
+<div markdown="1">
+##### GI and Systemic Findings
 
 * Nausea
 * Vomiting
@@ -319,10 +319,10 @@ A stone may cause no symptoms while it remains still. Severe pain often begins w
 
 #### Complications
 
-<div class="detail-grid" markdown="1">
+<div class="renal-two-column" markdown="1">
 
-<div class="detail-mini-card" markdown="1">
-<strong>Urinary Obstruction</strong>
+<div markdown="1">
+##### Urinary Obstruction
 
 * The stone blocks the flow of urine.
 * Urine backs up above the obstruction.
@@ -331,8 +331,8 @@ A stone may cause no symptoms while it remains still. Severe pain often begins w
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Hydronephrosis</strong>
+<div markdown="1">
+##### Hydronephrosis
 
 * Dilation and swelling of the kidney from backed-up urine.
 * Can result from a ureteral obstruction.
@@ -340,8 +340,8 @@ A stone may cause no symptoms while it remains still. Severe pain often begins w
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Infection</strong>
+<div markdown="1">
+##### Infection
 
 * Stagnant urine allows bacteria to multiply.
 * Infection may progress to pyelonephritis.
@@ -350,8 +350,8 @@ A stone may cause no symptoms while it remains still. Severe pain often begins w
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Kidney Damage</strong>
+<div markdown="1">
+##### Kidney Damage
 
 * Prolonged obstruction
 * Recurrent infection
@@ -386,10 +386,10 @@ A stone that blocks infected urine is an emergency because the infection cannot 
 
 #### Diagnostics
 
-<div class="detail-grid" markdown="1">
+<div class="renal-two-column" markdown="1">
 
-<div class="detail-mini-card" markdown="1">
-<strong>Urinalysis</strong>
+<div markdown="1">
+##### Urinalysis
 
 May show:
 
@@ -401,8 +401,8 @@ May show:
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Urine Culture</strong>
+<div markdown="1">
+##### Urine Culture
 
 * Obtained if infection is suspected.
 * Identifies the organism.
@@ -411,8 +411,8 @@ May show:
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Imaging</strong>
+<div markdown="1">
+##### Imaging
 
 Possible studies include:
 
@@ -425,8 +425,8 @@ CT commonly identifies the stone’s size and location.
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Laboratory Tests</strong>
+<div markdown="1">
+##### Laboratory Tests
 
 * BUN and creatinine
 * CBC
@@ -463,10 +463,10 @@ CT commonly identifies the stone’s size and location.
 
 Treatment depends on the stone’s size, location, composition, symptoms, and whether it is obstructing the urinary tract. Larger or obstructing stones may require urgent treatment.
 
-<div class="detail-grid" markdown="1">
+<div class="renal-two-column" markdown="1">
 
-<div class="detail-mini-card" markdown="1">
-<strong>Pain Control</strong>
+<div markdown="1">
+##### Pain Control
 
 Possible medications include:
 
@@ -479,8 +479,8 @@ Reassess pain and response to medication.
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Hydration</strong>
+<div markdown="1">
+##### Hydration
 
 * Encourage prescribed fluid intake.
 * Many clients are instructed to produce a high urine volume.
@@ -490,8 +490,8 @@ Reassess pain and response to medication.
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Strain All Urine</strong>
+<div markdown="1">
+##### Strain All Urine
 
 * Use a urine strainer with every void.
 * Save any stone or fragments.
@@ -501,8 +501,8 @@ Reassess pain and response to medication.
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Mobility</strong>
+<div markdown="1">
+##### Mobility
 
 * Ambulate as tolerated.
 * Change position frequently.
@@ -516,10 +516,10 @@ Reassess pain and response to medication.
 
 #### Medications
 
-<div class="detail-grid" markdown="1">
+<div class="renal-two-column" markdown="1">
 
-<div class="detail-mini-card" markdown="1">
-<strong>Alpha Blocker</strong>
+<div markdown="1">
+##### Alpha Blocker
 
 Example: **Tamsulosin**
 
@@ -530,8 +530,8 @@ Example: **Tamsulosin**
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Allopurinol</strong>
+<div markdown="1">
+##### Allopurinol
 
 * Decreases uric acid production.
 * May prevent recurrent uric acid stones.
@@ -541,8 +541,8 @@ Example: **Tamsulosin**
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Thiazide Diuretic</strong>
+<div markdown="1">
+##### Thiazide Diuretic
 
 Example: **Hydrochlorothiazide**
 
@@ -553,8 +553,8 @@ Example: **Hydrochlorothiazide**
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Antibiotics</strong>
+<div markdown="1">
+##### Antibiotics
 
 * Used when a urinary infection is present.
 * Obtain urine culture when possible.
@@ -580,10 +580,10 @@ Example: **Hydrochlorothiazide**
 
 #### Calcium Oxalate Stone Teaching
 
-<div class="detail-grid" markdown="1">
+<div class="renal-two-column" markdown="1">
 
-<div class="detail-mini-card" markdown="1">
-<strong>Limit Excess Sodium</strong>
+<div markdown="1">
+##### Limit Excess Sodium
 
 High sodium intake increases urinary calcium.
 
@@ -598,8 +598,8 @@ Limit:
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Oxalate Foods</strong>
+<div markdown="1">
+##### Oxalate Foods
 
 The provider or dietitian may instruct the client to limit:
 
@@ -615,8 +615,8 @@ The client does not need to eliminate every plant food unless specifically instr
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Calcium Intake</strong>
+<div markdown="1">
+##### Calcium Intake
 
 * Maintain normal calcium from food.
 * Food calcium binds oxalate in the intestine.
@@ -626,8 +626,8 @@ The client does not need to eliminate every plant food unless specifically instr
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Fluids</strong>
+<div markdown="1">
+##### Fluids
 
 * Water is the main prevention measure.
 * Spread fluids throughout the day.
@@ -638,10 +638,10 @@ The client does not need to eliminate every plant food unless specifically instr
 
 </div>
 
-<div class="detail-grid" markdown="1">
+<div class="renal-two-column" markdown="1">
 
-<div class="detail-mini-card" markdown="1">
-<strong>Uric Acid Stone Teaching</strong>
+<div markdown="1">
+##### Uric Acid Stone Teaching
 
 * Reduce excessive red meat and organ meat.
 * Limit large amounts of shellfish and certain fish.
@@ -653,8 +653,8 @@ The client does not need to eliminate every plant food unless specifically instr
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Struvite Stone Teaching</strong>
+<div markdown="1">
+##### Struvite Stone Teaching
 
 * Report UTI symptoms promptly.
 * Complete prescribed antibiotics.
@@ -664,8 +664,8 @@ The client does not need to eliminate every plant food unless specifically instr
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Cystine Stone Teaching</strong>
+<div markdown="1">
+##### Cystine Stone Teaching
 
 * Very high fluid intake may be prescribed.
 * Fluids may be needed throughout the day and at bedtime.
@@ -701,10 +701,10 @@ Procedures may be needed when a stone:
 
 **ESWL** uses shock waves from outside the body to break a stone into smaller fragments that can pass through the urinary tract.
 
-<div class="detail-grid" markdown="1">
+<div class="renal-two-column" markdown="1">
 
-<div class="detail-mini-card" markdown="1">
-<strong>Before the Procedure</strong>
+<div markdown="1">
+##### Before the Procedure
 
 * Verify informed consent.
 * Review anticoagulant use.
@@ -714,8 +714,8 @@ Procedures may be needed when a stone:
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Expected Afterward</strong>
+<div markdown="1">
+##### Expected Afterward
 
 * Flank soreness
 * Mild bruising
@@ -725,8 +725,8 @@ Procedures may be needed when a stone:
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Nursing Care</strong>
+<div markdown="1">
+##### Nursing Care
 
 * Encourage prescribed fluids.
 * Strain all urine.
@@ -737,8 +737,8 @@ Procedures may be needed when a stone:
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Report</strong>
+<div markdown="1">
+##### Report
 
 * Fever or chills
 * Inability to urinate
@@ -766,10 +766,10 @@ The provider may:
 * Place a ureteral stent
 * Remove fragments
 
-<div class="detail-grid" markdown="1">
+<div class="renal-two-column" markdown="1">
 
-<div class="detail-mini-card" markdown="1">
-<strong>Expected Afterward</strong>
+<div markdown="1">
+##### Expected Afterward
 
 * Burning with urination
 * Urinary frequency
@@ -779,8 +779,8 @@ The provider may:
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Nursing Care</strong>
+<div markdown="1">
+##### Nursing Care
 
 * Monitor urine output.
 * Encourage fluids as ordered.
@@ -791,8 +791,8 @@ The provider may:
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Stent Teaching</strong>
+<div markdown="1">
+##### Stent Teaching
 
 * A stent keeps urine flowing around swelling or fragments.
 * Frequency and urgency may occur.
@@ -802,8 +802,8 @@ The provider may:
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Report</strong>
+<div markdown="1">
+##### Report
 
 * Fever
 * Inability to urinate
@@ -820,10 +820,10 @@ The provider may:
 
 A small incision is made through the back into the kidney to remove a large or complex stone.
 
-<div class="detail-grid" markdown="1">
+<div class="renal-two-column" markdown="1">
 
-<div class="detail-mini-card" markdown="1">
-<strong>Why It Is Used</strong>
+<div markdown="1">
+##### Why It Is Used
 
 * Large stones
 * Staghorn stones
@@ -833,8 +833,8 @@ A small incision is made through the back into the kidney to remove a large or c
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Postoperative Care</strong>
+<div markdown="1">
+##### Postoperative Care
 
 * Monitor vital signs.
 * Monitor urine output.
@@ -846,8 +846,8 @@ A small incision is made through the back into the kidney to remove a large or c
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Nephrostomy Tube</strong>
+<div markdown="1">
+##### Nephrostomy Tube
 
 A tube may drain urine directly from the kidney.
 
@@ -859,8 +859,8 @@ A tube may drain urine directly from the kidney.
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Report</strong>
+<div markdown="1">
+##### Report
 
 * Sudden loss of drainage
 * Tube dislodgment

@@ -65,23 +65,15 @@ When the kidneys cannot adequately remove **fluid, electrolytes, acids, and meta
 
 ### Hemodialysis
 
-**Hemodialysis** removes blood from the body, passes it through a dialyzer that removes wastes and excess fluid, and returns the filtered blood to the client.
+<section class="renal-note-section" markdown="1">
 
-Hemodialysis helps:
+Hemodialysis removes blood from the body, passes it through a dialyzer that removes wastes and excess fluid, and returns the filtered blood to the client. It replaces part of the kidney's filtering function but does not fully replace all kidney functions. Hemodialysis helps remove nitrogen wastes and excess fluid, correct metabolic acidosis, manage electrolyte imbalance, lower dangerously high potassium, and reduce symptoms of uremia.
 
-* Remove nitrogen wastes
-* Remove excess fluid
-* Correct metabolic acidosis
-* Manage electrolyte imbalance
-* Lower dangerously high potassium
-* Reduce symptoms of uremia
+Ongoing monitoring includes blood pressure, heart rate, weight, lung sounds, edema, mental status, the access site, bleeding, and electrolytes.
 
-Dialysis replaces part of the kidney’s filtering function, but it does not fully replace all kidney functions.
-
-<div class="detail-grid" markdown="1">
-
-<div class="detail-mini-card" markdown="1">
-<strong>What Dialysis Removes</strong>
+<div class="renal-two-column" markdown="1">
+<div markdown="1">
+##### Removes
 
 * Excess water
 * Potassium
@@ -92,9 +84,8 @@ Dialysis replaces part of the kidney’s filtering function, but it does not ful
 * Some medications and toxins
 
 </div>
-
-<div class="detail-mini-card" markdown="1">
-<strong>What Dialysis Does Not Replace</strong>
+<div markdown="1">
+##### Does Not Replace
 
 * Erythropoietin production
 * Full vitamin D activation
@@ -103,185 +94,91 @@ Dialysis replaces part of the kidney’s filtering function, but it does not ful
 * All endocrine kidney functions
 
 </div>
-
-<div class="detail-mini-card" markdown="1">
-<strong>Common Complications</strong>
-
-* Hypotension
-* Muscle cramps
-* Bleeding
-* Dysrhythmias
-* Infection
-* Access clotting
-* Fatigue
-* Disequilibrium syndrome
-
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Monitor</strong>
+</section>
 
-* Blood pressure
-* Heart rate
-* Weight
-* Lung sounds
-* Edema
-* Mental status
-* Access site
-* Bleeding
-* Electrolytes
-
-</div>
-
-</div>
+<section class="renal-note-section" markdown="1">
 
 #### Hemodialysis Access
 
-<div class="detail-grid" markdown="1">
+<div class="detail-table" markdown="1">
 
-<div class="detail-mini-card" markdown="1">
-<strong>Arteriovenous Fistula</strong>
-
-An **AV fistula** is created surgically by connecting an artery directly to a vein.
-
-* Preferred long-term access
-* Uses the client’s own blood vessels
-* Has a lower infection risk than a catheter
-* Requires time to mature before use
-* Produces a palpable thrill and audible bruit
+| Access | What It Is | Main Advantage | Main Concern |
+|---|---|---|---|
+| **AV fistula** | Surgical connection of the client's own artery to a vein; produces a palpable thrill and audible bruit | Preferred long-term access with the best patency and lowest infection risk | Requires time to mature before it can be used |
+| **AV graft** | Synthetic tube connecting an artery and a vein; should also have a thrill and bruit | Can often be used sooner than a fistula | More likely to become infected or clotted than a fistula |
+| **Central venous dialysis catheter** | Catheter inserted into a large central vein; often used for urgent or temporary dialysis | Can be used immediately | Highest infection risk; keep the dressing sterile, clean, and dry, and have only trained personnel access it |
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Arteriovenous Graft</strong>
+</section>
 
-An **AV graft** uses a synthetic tube to connect an artery and vein.
+<section class="renal-note-section" markdown="1">
 
-* Can often be used sooner than a fistula
-* More likely to become infected or clotted than a fistula
-* Should also have a thrill and bruit
+#### Assessing the Access
 
-</div>
+<div class="renal-strip" markdown="1">
+<div markdown="1">
+##### Look
 
-<div class="detail-mini-card" markdown="1">
-<strong>Central Venous Dialysis Catheter</strong>
-
-A dialysis catheter is inserted into a large central vein.
-
-* Can be used immediately
-* Often used for urgent or temporary dialysis
-* Has the highest infection risk
-* Dressing must remain sterile, clean, and dry
-* Should only be accessed by trained personnel
+Assess for redness, swelling, drainage, bleeding, bruising, skin breakdown, enlarged areas, and other signs of infection.
 
 </div>
+<div markdown="1">
+##### Listen
+
+Auscultate for a **bruit**, the swishing sound of blood flow. It should be present. An absent or changed bruit may indicate clotting or obstruction.
 
 </div>
+<div markdown="1">
+##### Feel
 
-<div class="detail-table">
-  <table>
-    <thead>
-      <tr>
-        <th>Access</th>
-        <th>Advantage</th>
-        <th>Main Concern</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><strong>AV fistula</strong></td>
-        <td>Best long-term patency and lowest infection risk</td>
-        <td>Requires time to mature</td>
-      </tr>
-      <tr>
-        <td><strong>AV graft</strong></td>
-        <td>Can be used sooner than a fistula</td>
-        <td>Higher infection and clot risk</td>
-      </tr>
-      <tr>
-        <td><strong>Central catheter</strong></td>
-        <td>Immediate access</td>
-        <td>Highest infection risk</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
-
-#### Assessing a Fistula or Graft
-
-<div class="detail-grid" markdown="1">
-
-<div class="detail-mini-card" markdown="1">
-<strong>Look</strong>
-
-Assess for:
-
-* Redness
-* Swelling
-* Drainage
-* Bleeding
-* Bruising
-* Skin breakdown
-* Enlarged areas
-* Signs of infection
+Palpate gently for a **thrill**, a buzzing or vibrating sensation. It should be present. An absent or changed thrill requires immediate reporting.
 
 </div>
-
-<div class="detail-mini-card" markdown="1">
-<strong>Listen</strong>
-
-Use a stethoscope to auscultate for a **bruit**.
-
-* A bruit is a swishing sound from blood flow.
-* It should be present.
-* An absent or changed bruit may indicate clotting or obstruction.
-
-</div>
-
-<div class="detail-mini-card" markdown="1">
-<strong>Feel</strong>
-
-Palpate gently for a **thrill**.
-
-* A thrill is a buzzing or vibrating sensation.
-* It should be present.
-* An absent or changed thrill requires immediate reporting.
-
-</div>
-
 </div>
 
 <div class="detail-callout" markdown="1">
 <strong>Memory Cue:</strong> Feel the thrill and hear the bruit.
 </div>
 
+</section>
+
+<section class="renal-note-section" markdown="1">
+
 #### Protecting the Access Arm
 
-Do not:
+<div class="renal-two-column" markdown="1">
+<div class="renal-do" markdown="1">
+##### Do
 
-* Measure blood pressure on the access arm
-* Draw blood from the access arm
-* Start an IV in the access arm
-* Inject medication into the access
-* Apply tight clothing or jewelry
-* Sleep on the access arm
-* Carry heavy objects that compress the access
-* Apply prolonged or excessive pressure
+* Check the thrill daily.
+* Keep the site clean.
+* Protect the arm from cuts.
+* Report redness or drainage.
+* Report an absent thrill or bruit.
+* Apply gentle pressure after needle removal.
+* Rotate needle sites according to dialysis practice.
 
-Do:
+</div>
+<div class="renal-dont" markdown="1">
+##### Do Not
 
-* Check the thrill daily
-* Keep the site clean
-* Protect the arm from cuts
-* Report redness or drainage
-* Report an absent thrill or bruit
-* Apply gentle pressure after needle removal
-* Rotate needle sites according to dialysis practice
+* Measure blood pressure on the access arm.
+* Draw blood from the access arm.
+* Start an IV in the access arm.
+* Inject medication into the access.
+* Apply tight clothing or jewelry.
+* Sleep on the access arm.
+* Carry heavy objects that compress the access.
+* Apply prolonged or excessive pressure.
+
+</div>
+</div>
 
 <div class="report-now" markdown="1">
-<h3>Access Emergency</h3>
-
-Report immediately:
+<h3>Access Emergency — Report Immediately</h3>
 
 * Absent thrill
 * Absent bruit
@@ -294,82 +191,30 @@ Report immediately:
 
 </div>
 
-#### Before Hemodialysis
+</section>
 
-<div class="detail-grid" markdown="1">
+<section class="renal-note-section" markdown="1">
 
-<div class="detail-mini-card" markdown="1">
-<strong>Weight</strong>
+#### Before, During, and After Hemodialysis
 
-* Obtain the pre-dialysis weight.
-* Use the same scale when possible.
-* Compare with the previous post-dialysis weight.
-* Weight helps determine fluid removal.
+<div class="renal-strip" markdown="1">
+<div markdown="1">
+##### Before
 
-</div>
-
-<div class="detail-mini-card" markdown="1">
-<strong>Vital Signs</strong>
-
-* Check blood pressure.
-* Check heart rate.
-* Assess respirations.
-* Assess oxygen saturation.
-* Assess for hypotension or severe hypertension.
+* Obtain the pre-dialysis weight using the same scale and compare it with the previous post-dialysis weight to help determine fluid removal.
+* Check blood pressure, heart rate, respirations, and oxygen saturation; assess for hypotension or severe hypertension.
+* Assess lung sounds and edema.
+* Inspect the access and confirm the thrill and bruit.
+* Review potassium and other labs, ask about bleeding, and encourage the client to void if able.
+* Review medications, follow orders for food and fluid, confirm the prescribed dialysis settings, and ensure the access is protected.
 
 </div>
-
-<div class="detail-mini-card" markdown="1">
-<strong>Assessment</strong>
-
-* Assess lung sounds.
-* Assess edema.
-* Inspect the access.
-* Check thrill and bruit.
-* Review potassium and other labs.
-* Ask about bleeding.
-
-</div>
-
-<div class="detail-mini-card" markdown="1">
-<strong>Preparation</strong>
-
-* Encourage the client to void if able.
-* Review medications.
-* Follow orders for food and fluid.
-* Confirm prescribed dialysis settings.
-* Ensure access is protected.
-
-</div>
-
-</div>
-
-#### Medication Timing
-
-Some medications may be held before dialysis because:
-
-* Antihypertensives can worsen intradialytic hypotension.
-* Water-soluble medications may be removed by dialysis.
-* Certain medications are scheduled after dialysis.
-* Anticoagulants or diabetes medications may require adjustment.
-
-Do not independently hold every medication. Follow the provider’s and dialysis team’s instructions.
-
-<div class="detail-callout" markdown="1">
-<strong>PN Safety:</strong> Check the medication administration record and dialysis orders rather than assuming all blood-pressure or water-soluble medications must always be held.
-</div>
-
-<div class="detail-grid" markdown="1">
-
-<div class="detail-mini-card" markdown="1">
-<strong>During Hemodialysis</strong>
-
-Monitor for:
+<div markdown="1">
+##### During
 
 * Hypotension
 * Dizziness
-* Nausea
-* Vomiting
+* Nausea and vomiting
 * Muscle cramps
 * Headache
 * Chest pain
@@ -379,120 +224,70 @@ Monitor for:
 * Mental-status changes
 
 </div>
+<div markdown="1">
+##### After
 
-<div class="detail-mini-card" markdown="1">
-<strong>Hypotension</strong>
-
-Possible findings:
-
-* Dizziness
-* Weakness
-* Nausea
-* Diaphoresis
-* Confusion
-* Syncope
-* Low blood pressure
-
-Nursing actions may include:
-
-* Stop or reduce fluid removal as directed.
-* Place the client supine.
-* Assess airway and circulation.
-* Administer prescribed normal saline.
-* Notify the dialysis nurse or provider.
-* Recheck vital signs.
-
-</div>
-
-<div class="detail-mini-card" markdown="1">
-<strong>Bleeding</strong>
-
-Heparin may be used during hemodialysis to prevent clotting in the circuit.
-
-Monitor:
-
-* Needle sites
-* Gums
-* Urine
-* Stool
-* Bruising
-* Blood pressure
-* Hemoglobin and hematocrit when ordered
-
-</div>
-
-<div class="detail-mini-card" markdown="1">
-<strong>Dialysis Disequilibrium Syndrome</strong>
-
-This uncommon complication can occur when wastes are removed too rapidly, especially during early treatments.
-
-Possible findings:
-
-* Headache
-* Nausea
-* Restlessness
-* Confusion
-* Muscle twitching
-* Seizures
-* Decreased level of consciousness
-
-Report neurologic changes immediately.
-
-</div>
-
-<div class="detail-mini-card" markdown="1">
-<strong>After Hemodialysis</strong>
-
-* Obtain post-dialysis weight.
-* Reassess vital signs.
-* Assess for dizziness and hypotension.
+* Obtain the post-dialysis weight and reassess vital signs.
+* Assess for dizziness and hypotension; use fall precautions and assist with ambulation if the client is weak.
+* Check the access for bleeding and verify the thrill and bruit.
 * Reassess lung sounds and edema.
-* Check access bleeding.
-* Verify thrill and bruit.
-* Assist with ambulation if weak.
 * Administer medications scheduled after dialysis.
 * Compare pre- and post-dialysis findings.
 
 </div>
+</div>
+
+Expected improvement after treatment includes lower weight from fluid removal, reduced edema, clearer lung sounds, easier breathing, and lower potassium and wastes.
+
+<h5>Medication timing</h5>
+
+Some medications may be held before dialysis because antihypertensives can worsen intradialytic hypotension, water-soluble medications may be removed by dialysis, certain medications are scheduled after dialysis, and anticoagulants or diabetes medications may require adjustment. Do not independently hold every medication—follow the provider's and dialysis team's instructions.
+
+<div class="detail-callout" markdown="1">
+<strong>PN Safety:</strong> Check the medication administration record and dialysis orders rather than assuming all blood-pressure or water-soluble medications must always be held.
+</div>
+
+</section>
+
+<section class="renal-note-section" markdown="1">
+
+#### Common Complications
+
+Common complications include hypotension, muscle cramps, bleeding, dysrhythmias, infection, access clotting, fatigue, and disequilibrium syndrome.
+
+<div class="detail-table" markdown="1">
+
+| Complication | Findings | Priority Nursing Action |
+|---|---|---|
+| **Hypotension** | Dizziness, weakness, nausea, diaphoresis, confusion, syncope, low blood pressure | Stop or reduce fluid removal as directed, place the client supine, assess airway and circulation, give prescribed normal saline, recheck vital signs, and notify the dialysis nurse or provider |
+| **Bleeding** | Bleeding at needle sites, gums, urine, or stool; bruising; falling hemoglobin and hematocrit (heparin is used to prevent clotting in the circuit) | Monitor needle sites and labs, apply pressure, and report abnormal bleeding |
+| **Muscle cramps** | Painful cramping during treatment | Report and treat with prescribed measures as ordered |
+| **Dysrhythmias** | Irregular heartbeat, palpitations, or chest pain | Monitor heart rhythm and report promptly |
+| **Disequilibrium syndrome** | Headache, nausea, restlessness, confusion, muscle twitching, seizures, or decreased level of consciousness when wastes are removed too rapidly, especially during early treatments | Report neurologic changes immediately |
+| **Access clotting or infection** | Absent thrill or bruit, cool or pale extremity, redness, drainage, or fever | Report immediately for access evaluation |
 
 </div>
 
-<div class="detail-table">
-  <table>
-    <thead>
-      <tr>
-        <th>Expected Improvement</th>
-        <th>Concerning Finding</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Lower weight from fluid removal</td>
-        <td>Severe hypotension</td>
-      </tr>
-      <tr>
-        <td>Reduced edema</td>
-        <td>Chest pain or dysrhythmia</td>
-      </tr>
-      <tr>
-        <td>Clearer lung sounds</td>
-        <td>New neurologic changes</td>
-      </tr>
-      <tr>
-        <td>Improved breathing</td>
-        <td>Prolonged access bleeding</td>
-      </tr>
-      <tr>
-        <td>Lower potassium and wastes</td>
-        <td>Absent thrill or bruit</td>
-      </tr>
-    </tbody>
-  </table>
+</section>
+
+<section class="renal-note-section" markdown="1">
+
+<div class="report-now" markdown="1">
+<h3>Report Immediately</h3>
+
+* Severe hypotension during dialysis
+* Chest pain or new dysrhythmia
+* New neurologic changes (possible disequilibrium syndrome)
+* Uncontrolled access bleeding
+* Absent thrill or bruit
+
 </div>
 
 <div class="detail-callout" markdown="1">
 <strong>NCLEX:</strong> The post-dialysis client who is dizzy and hypotensive requires assistance and fall precautions. The client with an absent thrill requires immediate access evaluation.
 </div>
+
+</section>
 
 </div>
 
@@ -501,14 +296,21 @@ Report neurologic changes immediately.
 
 ### Peritoneal Dialysis
 
-**Peritoneal dialysis** uses the client’s peritoneal membrane as the filtering surface.
+<section class="renal-note-section" markdown="1">
 
-Dialysate flows into the abdomen, remains for a prescribed period, and then drains out while carrying excess fluid and wastes.
+Peritoneal dialysis uses the client's peritoneal membrane as the filtering surface. Dialysate flows into the abdomen, remains for a prescribed period, and then drains out while carrying excess fluid and wastes.
 
-<div class="detail-grid" markdown="1">
+Main risks include peritonitis, exit-site infection, poor drainage, protein loss, hernia, hyperglycemia, and respiratory discomfort.
 
-<div class="detail-mini-card" markdown="1">
-<strong>Inflow</strong>
+</section>
+
+<section class="renal-note-section" markdown="1">
+
+#### The Exchange: Inflow → Dwell → Drain
+
+<div class="renal-strip" markdown="1">
+<div markdown="1">
+##### Inflow
 
 * Dialysate enters the peritoneal cavity.
 * Usually flows by gravity.
@@ -516,9 +318,8 @@ Dialysate flows into the abdomen, remains for a prescribed period, and then drai
 * Inflow should occur without severe pain.
 
 </div>
-
-<div class="detail-mini-card" markdown="1">
-<strong>Dwell</strong>
+<div markdown="1">
+##### Dwell
 
 * Dialysate remains in the abdomen.
 * Wastes and fluid move into the solution.
@@ -526,9 +327,8 @@ Dialysate flows into the abdomen, remains for a prescribed period, and then drai
 * The catheter remains closed during dwell.
 
 </div>
-
-<div class="detail-mini-card" markdown="1">
-<strong>Drain</strong>
+<div markdown="1">
+##### Drain
 
 * Used dialysate drains by gravity.
 * The drainage bag is placed below the abdomen.
@@ -536,117 +336,63 @@ Dialysate flows into the abdomen, remains for a prescribed period, and then drai
 * Observe color, clarity, and amount.
 
 </div>
-
-<div class="detail-mini-card" markdown="1">
-<strong>Main Risks</strong>
-
-* Peritonitis
-* Exit-site infection
-* Poor drainage
-* Protein loss
-* Hernia
-* Hyperglycemia
-* Respiratory discomfort
-
 </div>
 
-</div>
+<div class="renal-two-column" markdown="1">
+<div markdown="1">
+##### Continuous Ambulatory PD (CAPD)
 
-#### Types of Peritoneal Dialysis
-
-<div class="detail-grid" markdown="1">
-
-<div class="detail-mini-card" markdown="1">
-<strong>Continuous Ambulatory Peritoneal Dialysis</strong>
-
-**CAPD** is performed manually throughout the day.
-
-* The client completes several exchanges.
-* Dialysate dwells while the client performs normal activities.
-* A longer dwell may occur overnight.
-* No machine is required during the exchange.
+CAPD is performed manually throughout the day. The client completes several exchanges while dialysate dwells during normal activities, a longer dwell may occur overnight, and no machine is required during the exchange.
 
 </div>
+<div markdown="1">
+##### Automated PD (APD)
 
-<div class="detail-mini-card" markdown="1">
-<strong>Automated Peritoneal Dialysis</strong>
-
-A machine called a cycler completes exchanges, usually while the client sleeps.
-
-* Provides repeated nighttime exchanges
-* May allow greater daytime freedom
-* Requires clean technique and training
-* Treatment schedule is individualized
+A cycler machine completes exchanges, usually while the client sleeps. It provides repeated nighttime exchanges, may allow greater daytime freedom, requires clean technique and training, and follows an individualized schedule.
 
 </div>
-
-<div class="detail-mini-card" markdown="1">
-<strong>Dialysate Safety</strong>
-
-Before administration:
-
-* Verify the correct solution and concentration.
-* Inspect the bag for leaks.
-* Check the expiration date.
-* Ensure the fluid is clear.
-* Warm the dialysate to body temperature using the approved warmer.
-* Never microwave the bag.
-* Maintain aseptic technique.
-
-Cold dialysate can cause:
-
-* Abdominal discomfort
-* Cramping
-* Vasoconstriction
-* Reduced flow
-
-Overheated dialysate can injure the peritoneum.
-
 </div>
 
-</div>
+</section>
+
+<section class="renal-note-section" markdown="1">
+
+#### Dialysate Safety
+
+Before administration, verify the correct solution and concentration, inspect the bag for leaks, check the expiration date, ensure the fluid is clear, warm the dialysate to body temperature using the approved warmer, never microwave the bag, and maintain aseptic technique.
+
+Cold dialysate can cause abdominal discomfort, cramping, vasoconstriction, and reduced flow. Overheated dialysate can injure the peritoneum.
 
 <div class="detail-callout" markdown="1">
-<strong>Safety:</strong> The dialysate should be warmed with approved equipment—not a microwave, hot water bath, or heating pad.
+<strong>Safety:</strong> Warm the dialysate with approved equipment—not a microwave, hot water bath, or heating pad.
 </div>
 
-<div class="detail-grid" markdown="1">
+</section>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Expected Drainage</strong>
+<section class="renal-note-section" markdown="1">
 
-Expected effluent is:
+#### Reading the Effluent
 
-* Clear
-* Pale yellow
-* Free from fibrin clumps unless otherwise assessed
-* Similar to urine in appearance
-* Measured accurately
+Expected effluent is clear, pale yellow, similar to urine in appearance, free from fibrin clumps unless otherwise assessed, and measured accurately.
 
-A small amount of blood may occur during the first exchanges after catheter placement or during menstruation, but unexpected blood should still be assessed.
+<div class="detail-table" markdown="1">
 
-</div>
-
-<div class="detail-mini-card" markdown="1">
-<strong>Peritonitis</strong>
-
-**Peritonitis is the major emergency complication of peritoneal dialysis.**
-
-Possible findings:
-
-* Cloudy dialysate
-* Abdominal pain
-* Abdominal tenderness
-* Fever
-* Chills
-* Nausea
-* Vomiting
-* Malaise
-* Rebound tenderness in severe cases
+| Drainage | Meaning | Action |
+|---|---|---|
+| **Clear, pale-yellow** | Expected normal effluent | Continue therapy and measure output accurately |
+| **Cloudy** | Possible peritonitis, the major emergency complication | Do not discard the drainage; save the bag or obtain a specimen as directed; notify the provider or dialysis team; assess temperature and abdominal pain; anticipate culture and antibiotic therapy |
+| **Less than inflow** | Poor drainage (see troubleshooting below) | Check position, tubing, bladder, and constipation |
+| **Bloody** | A small amount can occur during the first exchanges after catheter placement or during menstruation; otherwise unexpected | Assess any unexpected blood |
 
 </div>
 
-</div>
+</section>
+
+<section class="renal-note-section" markdown="1">
+
+#### Peritonitis
+
+Peritonitis is the major emergency complication of peritoneal dialysis. Possible findings include cloudy dialysate, abdominal pain, abdominal tenderness, fever, chills, nausea, vomiting, malaise, and rebound tenderness in severe cases.
 
 <div class="report-now" markdown="1">
 <h3>Cloudy Dialysate = Report Immediately</h3>
@@ -661,9 +407,15 @@ If used dialysate is cloudy:
 
 </div>
 
-#### Poor Drainage
+</section>
 
-Possible causes:
+<section class="renal-note-section" markdown="1">
+
+#### Poor Drainage Troubleshooting
+
+<div class="renal-two-column" markdown="1">
+<div markdown="1">
+##### Possible Causes
 
 * Kinked tubing
 * Closed clamp
@@ -673,138 +425,74 @@ Possible causes:
 * Incorrect body position
 * Catheter obstruction
 
-Nursing actions:
+</div>
+<div markdown="1">
+##### Nursing Actions
 
 * Check clamps and tubing.
 * Lower the drainage bag.
-* Reposition the client.
-* Turn side to side.
+* Reposition the client and turn side to side.
 * Assist the client to sit or ambulate if allowed.
-* Encourage voiding.
-* Assess for constipation.
+* Encourage voiding and assess for constipation.
 * Never force fluid into the catheter.
 * Notify the provider if drainage does not improve.
+
+</div>
+</div>
 
 <div class="detail-callout" markdown="1">
 <strong>NCLEX:</strong> Reposition the client and check the tubing before assuming the catheter has failed.
 </div>
 
-<div class="detail-grid" markdown="1">
+</section>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Respiratory Difficulty</strong>
+<section class="renal-note-section" markdown="1">
 
-Dialysate in the abdomen can push upward against the diaphragm.
+#### Respiratory Difficulty
 
-Assess for:
+Dialysate in the abdomen can push upward against the diaphragm. Assess for shortness of breath, reduced oxygen saturation, tachypnea, abdominal distention, and inability to tolerate the prescribed fill volume.
 
-* Shortness of breath
-* Reduced oxygen saturation
-* Tachypnea
-* Abdominal distention
-* Inability to tolerate the prescribed fill volume
+Interventions may include elevating the head of the bed, assessing respiratory status, slowing or stopping inflow as directed, notifying the provider, and anticipating a lower fill volume.
 
-Interventions may include:
+</section>
 
-* Elevate the head of the bed.
-* Assess respiratory status.
-* Slow or stop inflow as directed.
-* Notify the provider.
-* Anticipate a lower fill volume.
+<section class="renal-note-section" markdown="1">
 
-</div>
+#### Catheter and Exit-Site Care
 
-<div class="detail-mini-card" markdown="1">
-<strong>Protein Loss and Nutrition</strong>
-
-Protein can pass into the dialysate.
-
-The client may need:
-
-* Increased dietary protein
-* Adequate calories
-* Dietitian consultation
-* Monitoring of albumin
-* Monitoring for poor wound healing
-* Individualized potassium and phosphorus intake
-
-The client should not automatically increase protein without following the renal diet plan.
-
-</div>
-
-<div class="detail-mini-card" markdown="1">
-<strong>Glucose and Weight Gain</strong>
-
-Peritoneal dialysate contains glucose.
-
-Possible effects:
-
-* Hyperglycemia
-* Weight gain
-* Increased triglycerides
-* Need for diabetes medication adjustments
-
-Monitor blood glucose as ordered.
-
-</div>
-
-<div class="detail-mini-card" markdown="1">
-<strong>Catheter and Exit-Site Care</strong>
-
-* Perform hand hygiene.
-* Wear a mask during connections when instructed.
-* Use aseptic technique.
-* Keep supplies in a clean, dry area.
-* Clean the exit site as instructed.
-* Keep the catheter secured.
+* Perform hand hygiene and wear a mask during connections when instructed.
+* Use aseptic technique and keep supplies in a clean, dry area.
+* Clean the exit site as instructed and keep the catheter secured.
 * Inspect for redness, drainage, swelling, or pain.
-* Avoid pulling or twisting.
+* Avoid pulling or twisting the catheter.
 * Report fever or drainage.
 
-</div>
+</section>
+
+<section class="renal-note-section" markdown="1">
+
+#### Nutrition and Glucose Concerns
+
+<div class="renal-two-column" markdown="1">
+<div markdown="1">
+##### Protein Loss
+
+Protein can pass into the dialysate. The client may need increased dietary protein, adequate calories, dietitian consultation, monitoring of albumin, monitoring for poor wound healing, and individualized potassium and phosphorus intake. The client should not automatically increase protein without following the renal diet plan.
 
 </div>
+<div markdown="1">
+##### Glucose and Weight Gain
 
-<div class="detail-table">
-  <table>
-    <thead>
-      <tr>
-        <th>Finding</th>
-        <th>Meaning / Action</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><strong>Cloudy drainage</strong></td>
-        <td>Possible peritonitis; report immediately</td>
-      </tr>
-      <tr>
-        <td><strong>Clear pale-yellow drainage</strong></td>
-        <td>Expected</td>
-      </tr>
-      <tr>
-        <td><strong>Drainage less than inflow</strong></td>
-        <td>Check position, tubing, bladder, and constipation</td>
-      </tr>
-      <tr>
-        <td><strong>Abdominal pain and fever</strong></td>
-        <td>Possible infection</td>
-      </tr>
-      <tr>
-        <td><strong>Dyspnea during inflow</strong></td>
-        <td>Dialysate may be pressing against the diaphragm</td>
-      </tr>
-      <tr>
-        <td><strong>Redness at exit site</strong></td>
-        <td>Possible exit-site infection</td>
-      </tr>
-    </tbody>
-  </table>
+Peritoneal dialysate contains glucose, which can cause hyperglycemia, weight gain, increased triglycerides, and a need for diabetes medication adjustments. Monitor blood glucose as ordered.
+
+</div>
 </div>
 
 <div class="detail-callout" markdown="1">
 <strong>NCLEX Priority:</strong> Cloudy effluent with abdominal pain takes priority over slow drainage without pain or fever.
 </div>
+
+</section>
 
 </div>
 
@@ -813,168 +501,67 @@ Monitor blood glucose as ordered.
 
 ### Kidney Transplant
 
-A kidney transplant places a healthy donor kidney into a client with kidney failure. The transplanted kidney takes over many of the failed kidneys’ functions.
+<section class="renal-note-section" markdown="1">
 
-The client’s original kidneys are often left in place unless they cause infection, uncontrolled hypertension, cancer, or another problem.
+A kidney transplant places a healthy donor kidney into a client with kidney failure, and the transplanted kidney takes over many of the failed kidneys' functions. The client's original kidneys are often left in place unless they cause infection, uncontrolled hypertension, cancer, or another problem.
 
-<div class="detail-grid" markdown="1">
+<div class="renal-two-column" markdown="1">
+<div markdown="1">
+##### Donor Selection and Matching
 
-<div class="detail-mini-card" markdown="1">
-<strong>Potential Donors</strong>
-
-* Living related donor
-* Living unrelated donor
-* Deceased donor
-* Donor selected through matching and safety evaluation
+Donors may be living related, living unrelated, or deceased, and are selected through matching and safety evaluation. Matching may include blood type, tissue typing, human leukocyte antigens, antibody screening, crossmatch testing, and donor health evaluation.
 
 </div>
+<div markdown="1">
+##### Transplant Location and Risks
 
-<div class="detail-mini-card" markdown="1">
-<strong>Matching</strong>
-
-Matching may include:
-
-* Blood type
-* Tissue typing
-* Human leukocyte antigens
-* Antibody screening
-* Crossmatch testing
-* Donor health evaluation
+The new kidney is usually placed in the lower abdomen, its blood vessels are connected to pelvic vessels, and the donor ureter is connected to the bladder; the original kidneys usually remain. Major risks include rejection, infection, bleeding, urinary complications, medication toxicity, delayed graft function, and cardiovascular complications.
 
 </div>
-
-<div class="detail-mini-card" markdown="1">
-<strong>Transplant Location</strong>
-
-* New kidney is usually placed in the lower abdomen.
-* Blood vessels are connected to pelvic vessels.
-* The donor ureter is connected to the bladder.
-* The original kidneys usually remain.
-
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Major Risks</strong>
+</section>
 
-* Rejection
-* Infection
-* Bleeding
-* Urinary complications
-* Medication toxicity
-* Delayed graft function
-* Cardiovascular complications
+<section class="renal-note-section" markdown="1">
 
-</div>
+#### Immediate Postoperative Priorities
 
-</div>
+<div class="renal-two-column" markdown="1">
+<div markdown="1">
+##### Urine Output and Fluid Balance
 
-#### Immediate Postoperative Care
-
-<div class="detail-grid" markdown="1">
-
-<div class="detail-mini-card" markdown="1">
-<strong>Urine Output</strong>
-
-* Measure hourly.
-* The new kidney may produce urine immediately.
-* Massive diuresis may occur.
-* Replace fluids and electrolytes as ordered.
-* Report sudden decreases.
+* Measure urine output hourly; the new kidney may produce urine immediately, and massive diuresis may occur.
+* Replace fluids and electrolytes as ordered and report sudden decreases.
+* Maintain strict intake and output and daily weight.
+* Monitor for dehydration and fluid overload, and monitor sodium and potassium.
 
 </div>
+<div markdown="1">
+##### Kidney Function and Surgical Care
 
-<div class="detail-mini-card" markdown="1">
-<strong>Fluid Balance</strong>
-
-* Strict intake and output
-* Daily weight
-* IV fluids as ordered
-* Monitor dehydration
-* Monitor fluid overload
-* Monitor sodium and potassium
+* Monitor serum creatinine, BUN, eGFR, potassium, and urine amount and appearance.
+* Assess the incision and monitor for bleeding.
+* Monitor temperature and assess the graft area.
+* Provide pain management and encourage pulmonary hygiene and mobility.
 
 </div>
-
-<div class="detail-mini-card" markdown="1">
-<strong>Kidney Function</strong>
-
-Monitor:
-
-* Serum creatinine
-* BUN
-* eGFR
-* Potassium
-* Urine amount
-* Urine appearance
-
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Surgical Care</strong>
+<h5>Massive diuresis</h5>
 
-* Assess incision.
-* Assess for bleeding.
-* Monitor temperature.
-* Assess graft area.
-* Provide pain management.
-* Encourage pulmonary hygiene and mobility.
+A transplanted kidney may begin removing retained fluid quickly, creating risk for dehydration, hypotension, hypokalemia, hyponatremia, reduced kidney perfusion, and dysrhythmias. Do not assume very high urine output is automatically harmless—replace fluid and electrolytes exactly as ordered.
 
-</div>
+</section>
 
-</div>
+<section class="renal-note-section" markdown="1">
 
-<div class="detail-grid" markdown="1">
+#### Immunosuppressant Therapy
 
-<div class="detail-mini-card" markdown="1">
-<strong>Massive Diuresis</strong>
+The client must take anti-rejection medications for the life of the transplant. Examples include tacrolimus, cyclosporine, mycophenolate, azathioprine, corticosteroids, and other prescribed immunosuppressants. These suppress the immune response, prevent organ rejection, preserve graft function, and treat rejection episodes when they occur.
 
-A transplanted kidney may begin removing retained fluid quickly.
-
-Risks include:
-
-* Dehydration
-* Hypotension
-* Hypokalemia
-* Hyponatremia
-* Reduced kidney perfusion
-* Dysrhythmias
-
-Do not assume very high urine output is automatically harmless. Replace fluid and electrolytes exactly as ordered.
-
-</div>
-
-<div class="detail-mini-card" markdown="1">
-<strong>Immunosuppressive Medications</strong>
-
-The client must take anti-rejection medications for the life of the transplant.
-
-Possible medications include:
-
-* Tacrolimus
-* Cyclosporine
-* Mycophenolate
-* Azathioprine
-* Corticosteroids
-* Other prescribed immunosuppressants
-
-</div>
-
-</div>
-
-<div class="detail-grid" markdown="1">
-
-<div class="detail-mini-card" markdown="1">
-<strong>Purpose</strong>
-
-* Suppress immune response
-* Prevent organ rejection
-* Preserve graft function
-* Treat rejection episodes when they occur
-
-</div>
-
-<div class="detail-mini-card" markdown="1">
-<strong>Major Risks</strong>
+<div class="renal-two-column" markdown="1">
+<div markdown="1">
+##### Major Risks
 
 * Infection
 * Kidney toxicity
@@ -985,126 +572,80 @@ Possible medications include:
 * Bone-marrow suppression
 
 </div>
+<div markdown="1">
+##### Teaching and Infection Prevention
 
-<div class="detail-mini-card" markdown="1">
-<strong>Teaching</strong>
-
-* Never skip doses.
-* Take at the same time every day.
-* Keep laboratory appointments.
-* Do not stop medication independently.
+* Never skip doses and take at the same time every day.
+* Do not stop medication independently and keep laboratory appointments.
 * Review OTC and herbal products.
-
-</div>
-
-<div class="detail-mini-card" markdown="1">
-<strong>Infection Prevention</strong>
-
-* Avoid sick contacts.
-* Perform hand hygiene.
+* Avoid sick contacts and perform hand hygiene.
 * Report fever promptly.
-* Avoid live vaccines unless specifically approved.
-* Follow food-safety precautions.
+* Avoid live vaccines unless specifically approved and follow food-safety precautions.
+
+</div>
+</div>
+
+</section>
+
+<section class="renal-note-section" markdown="1">
+
+#### Rejection vs. Infection
+
+Rejection occurs when the recipient's immune system attacks the transplanted kidney and may be identified through laboratory testing before obvious symptoms appear. Possible findings include rising serum creatinine, decreasing urine output, hypertension, edema, weight gain, fever, malaise, graft-site tenderness, and flu-like symptoms.
+
+<div class="detail-table" markdown="1">
+
+| Infection | Rejection |
+|---|---|
+| Fever may occur | Fever may occur |
+| Wound drainage, cough, dysuria, sore throat | Reduced kidney function and rising creatinine |
+| Caused by suppressed immunity | Caused by immune attack on the graft |
+| May have localized infection findings | May have decreased urine, edema, hypertension, or graft tenderness |
+| Treated with antimicrobial therapy | Treated by adjusting immunosuppression |
 
 </div>
 
-</div>
-
-#### Transplant Rejection
-
-Rejection occurs when the recipient’s immune system attacks the transplanted kidney.
-
-Early rejection may be identified through laboratory testing before obvious symptoms appear.
-
-Possible findings:
-
-* Rising serum creatinine
-* Decreasing urine output
-* Hypertension
-* Edema
-* Weight gain
-* Fever
-* Malaise
-* Graft-site tenderness
-* Flu-like symptoms
+The client can have both infection and rejection. Report all concerning findings rather than attempting to diagnose the cause independently.
 
 <div class="detail-callout" markdown="1">
 <strong>Most Reliable Early Cue:</strong> A rising creatinine may identify reduced graft function before dramatic symptoms develop.
 </div>
 
-#### Infection vs. Rejection
+</section>
 
-<div class="detail-table">
-  <table>
-    <thead>
-      <tr>
-        <th>Infection</th>
-        <th>Rejection</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Fever may occur</td>
-        <td>Fever may occur</td>
-      </tr>
-      <tr>
-        <td>Wound drainage, cough, dysuria, sore throat</td>
-        <td>Reduced kidney function and rising creatinine</td>
-      </tr>
-      <tr>
-        <td>Caused by suppressed immunity</td>
-        <td>Caused by immune attack on the graft</td>
-      </tr>
-      <tr>
-        <td>May have localized infection findings</td>
-        <td>May have decreased urine, edema, hypertension, or graft tenderness</td>
-      </tr>
-      <tr>
-        <td>Treated with antimicrobial therapy</td>
-        <td>Treated by adjusting immunosuppression</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+<section class="renal-note-section" markdown="1">
 
-The client can have both infection and rejection. Report all concerning findings rather than attempting to diagnose the cause independently.
+#### Long-Term Patient Education
+
+* Take all immunosuppressants exactly as prescribed; do not skip or double doses.
+* Monitor temperature, and blood pressure if instructed.
+* Track weight and urine output if instructed, and maintain hydration as prescribed.
+* Use sunscreen and complete skin examinations.
+* Avoid contact with contagious illness and ask before receiving vaccines.
+* Avoid grapefruit with medications that interact with it.
+* Keep transplant-clinic appointments and obtain laboratory tests as scheduled.
+* Report infection or rejection findings promptly.
 
 <div class="report-now" markdown="1">
 <h3>Report Immediately After Transplant</h3>
 
-* Fever
-* Chills
+* Fever or chills
 * Incision drainage
 * Burning with urination
 * Persistent cough
 * Reduced urine output
-* Rapid weight gain
-* Increasing edema
+* Rapid weight gain or increasing edema
 * Rising blood pressure
 * Graft-site pain or tenderness
 * Missed immunosuppressant doses
 
 </div>
 
-#### Patient Education
-
-* Take all immunosuppressants exactly as prescribed.
-* Do not skip or double doses.
-* Monitor temperature.
-* Monitor blood pressure if instructed.
-* Track weight and urine output if instructed.
-* Maintain hydration as prescribed.
-* Use sunscreen and complete skin examinations.
-* Avoid contact with contagious illness.
-* Ask before receiving vaccines.
-* Avoid grapefruit with medications that interact with it.
-* Keep transplant-clinic appointments.
-* Obtain laboratory tests as scheduled.
-* Report infection or rejection findings promptly.
-
 <div class="detail-callout" markdown="1">
 <strong>NCLEX:</strong> A transplant client with a rising creatinine and reduced urine output requires prompt evaluation even when there is no pain or fever.
 </div>
+
+</section>
 
 </div>
 
@@ -1113,165 +654,94 @@ The client can have both infection and rejection. Report all concerning findings
 
 ### Renal Diagnostics and Procedures
 
-#### Clean-Catch Urine
+<section class="renal-note-section" markdown="1">
 
-A clean-catch specimen is a **midstream** urine collection designed to reduce contamination.
+#### Kidney-Function Labs
 
-Key points:
+<div class="detail-table" markdown="1">
 
-* Clean the urinary opening.
-* Begin urinating into the toilet.
-* Collect the middle portion.
-* Avoid touching the inside of the cup.
-* Send the specimen promptly.
-
-Detailed clean-catch and catheter-culture instructions are included on the UTI page.
-
-#### Kidney-Function Blood Tests
-
-<div class="detail-grid" markdown="1">
-
-<div class="detail-mini-card" markdown="1">
-<strong>BUN</strong>
-
-**Blood urea nitrogen**
-
-* Measures nitrogen waste in blood.
-* Often rises when kidney filtration decreases.
-* Can also rise with dehydration, GI bleeding, high protein breakdown, or corticosteroids.
-* May decrease with severe liver dysfunction or poor protein intake.
+| Test | What It Shows | Key Points |
+|---|---|---|
+| **BUN** | Nitrogen waste in the blood | Often rises when kidney filtration decreases; can also rise with dehydration, GI bleeding, high protein breakdown, or corticosteroids; may decrease with severe liver dysfunction or poor protein intake |
+| **Serum creatinine** | Waste product from muscle metabolism; common indicator of kidney filtration | Usually more kidney-specific than BUN, but still affected by muscle mass, age, sex, nutrition, and some medications; trends are more useful than one isolated result |
+| **Estimated GFR (eGFR)** | How well the kidneys filter blood | Lower values indicate poorer filtration; used to stage chronic kidney disease; interpreted with creatinine and clinical findings |
+| **Creatinine clearance** | Filtration estimated from blood and urine creatinine | May require a timed urine collection; missing urine makes the test inaccurate; used less often when eGFR provides enough information |
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Serum Creatinine</strong>
+<div class="detail-table" markdown="1">
 
-* Waste product from muscle metabolism.
-* Common indicator of kidney filtration.
-* Usually more kidney-specific than BUN.
-* Still affected by muscle mass, age, sex, nutrition, and some medications.
-* Trends are more useful than one isolated result.
-
-</div>
-
-<div class="detail-mini-card" markdown="1">
-<strong>Estimated GFR</strong>
-
-* Estimates how well the kidneys filter blood.
-* Lower values indicate poorer filtration.
-* Used to stage chronic kidney disease.
-* Interpreted with creatinine and clinical findings.
+| Test | Common Adult Reference |
+|---|---|
+| **BUN** | Approximately 7–20 mg/dL |
+| **Serum creatinine** | Approximately 0.6–1.3 mg/dL |
+| **Urine output** | At least about 0.5 mL/kg/hr |
+| **Urine specific gravity** | Approximately 1.005–1.030 |
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Creatinine Clearance</strong>
-
-* Estimates filtration using blood and urine creatinine.
-* May require a timed urine collection.
-* Missing urine makes the test inaccurate.
-* Used less often when eGFR provides enough information.
-
-</div>
-
-</div>
+Use the facility's listed range on the exam when one is provided.
 
 <div class="detail-callout" markdown="1">
 <strong>Important Correction:</strong> Serum creatinine is strongly related to kidney function, but it is not affected only by the kidneys. Muscle mass and other factors can change the level.
 </div>
 
-#### Common PN-Level Reference Values
+</section>
 
-Laboratory ranges vary slightly by facility.
+<section class="renal-note-section" markdown="1">
 
-| Test                       | Common Adult Reference      |
-| -------------------------- | --------------------------- |
-| **BUN**                    | Approximately 7–20 mg/dL    |
-| **Serum creatinine**       | Approximately 0.6–1.3 mg/dL |
-| **Urine output**           | At least about 0.5 mL/kg/hr |
-| **Urine specific gravity** | Approximately 1.005–1.030   |
+#### Urine Collection (Clean-Catch)
 
-Use the facility’s listed range on the exam when one is provided.
+A clean-catch specimen is a **midstream** collection designed to reduce contamination:
 
-<div class="detail-grid" markdown="1">
+1. Clean the urinary opening.
+2. Begin urinating into the toilet.
+3. Collect the middle (midstream) portion.
+4. Avoid touching the inside of the cup.
+5. Send the specimen promptly.
 
-<div class="detail-mini-card" markdown="1">
-<strong>Contrast Imaging</strong>
+Detailed clean-catch and catheter-culture instructions are included on the UTI page.
+
+</section>
+
+<section class="renal-note-section" markdown="1">
+
+#### Contrast Studies
 
 An intravenous pyelogram is an older contrast x-ray study of the urinary tract. CT and other imaging are now often used instead, but contrast precautions remain testable.
 
-</div>
-
-<div class="detail-mini-card" markdown="1">
-<strong>Before Iodinated Contrast</strong>
-
-Assess:
+<h5>Before iodinated contrast, assess</h5>
 
 * Previous reaction to iodinated contrast
 * Asthma or severe allergies
-* Kidney function
-* Hydration status
+* Kidney function and hydration status
 * Pregnancy status
-* Diabetes
-* Metformin use
+* Diabetes and metformin use
 * Other nephrotoxic medications
 
-</div>
+<h5>Metformin and contrast</h5>
 
-</div>
+Metformin instructions depend on kidney function, the type and route of the contrast study, facility policy, and the provider order. The medication may need to be withheld around contrast exposure when kidney impairment or other risk factors are present. Do not automatically apply one 48-hour rule to every client—follow the current order and policy.
+
+<h5>After contrast</h5>
+
+Encourage prescribed fluids if not restricted, monitor urine output, monitor kidney function in at-risk clients, observe for a delayed reaction, and report decreased urine output.
 
 <div class="detail-callout" markdown="1">
 <strong>Important Correction:</strong> Shellfish allergy does not automatically mean the client is allergic to iodinated contrast. Ask specifically about a previous contrast reaction.
 </div>
 
-<div class="detail-grid" markdown="1">
+</section>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Metformin and Contrast</strong>
+<section class="renal-note-section" markdown="1">
 
-Metformin instructions depend on:
+#### Cystoscopy
 
-* Kidney function
-* Type of contrast study
-* Route of contrast
-* Facility policy
-* Provider order
+A cystoscopy uses a scope inserted through the urethra to examine the urethra and bladder. It may be used to inspect the bladder, identify tumors, evaluate bleeding, remove small stones, obtain a biopsy, or insert or remove a ureteral stent.
 
-The medication may need to be withheld around contrast exposure when kidney impairment or other risk factors are present.
-
-Do not automatically apply one 48-hour rule to every client. Follow the current order and policy.
-
-</div>
-
-<div class="detail-mini-card" markdown="1">
-<strong>After Contrast</strong>
-
-* Encourage prescribed fluids if not restricted.
-* Monitor urine output.
-* Monitor kidney function in at-risk clients.
-* Observe for delayed reaction.
-* Report decreased urine output.
-
-</div>
-
-<div class="detail-mini-card" markdown="1">
-<strong>Cystoscopy</strong>
-
-A **cystoscopy** uses a scope inserted through the urethra to examine the urethra and bladder.
-
-It may be used to:
-
-* Inspect the bladder
-* Identify tumors
-* Evaluate bleeding
-* Remove small stones
-* Obtain a biopsy
-* Insert or remove a ureteral stent
-
-</div>
-
-<div class="detail-mini-card" markdown="1">
-<strong>Expected After Cystoscopy</strong>
+<div class="renal-two-column" markdown="1">
+<div markdown="1">
+##### Expected Afterward
 
 * Mild burning with urination
 * Urinary frequency
@@ -1279,9 +749,8 @@ It may be used to:
 * Mild bladder discomfort
 
 </div>
-
-<div class="detail-mini-card" markdown="1">
-<strong>Report After Cystoscopy</strong>
+<div markdown="1">
+##### Report Afterward
 
 * Inability to urinate
 * Fever or chills
@@ -1292,28 +761,21 @@ It may be used to:
 * Worsening symptoms
 
 </div>
-
-<div class="detail-mini-card" markdown="1">
-<strong>Nursing Care</strong>
-
-* Monitor urine output.
-* Encourage prescribed fluids.
-* Administer pain medication.
-* Provide warm sitz bath if prescribed.
-* Monitor for infection.
-* Teach expected versus abnormal findings.
-
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Urinary Catheterization</strong>
+Nursing care: monitor urine output, encourage prescribed fluids, administer pain medication, provide a warm sitz bath if prescribed, monitor for infection, and teach expected versus abnormal findings.
+
+</section>
+
+<section class="renal-note-section" markdown="1">
+
+#### Urinary Catheterization
 
 Catheter insertion is a sterile procedure.
 
-</div>
-
-<div class="detail-mini-card" markdown="1">
-<strong>Male Client</strong>
+<div class="renal-two-column" markdown="1">
+<div markdown="1">
+##### Male Client
 
 * Hold the penis upward, approximately perpendicular to the body.
 * Clean from the urinary meatus outward.
@@ -1323,9 +785,8 @@ Catheter insertion is a sterile procedure.
 * Secure the catheter to avoid urethral traction.
 
 </div>
-
-<div class="detail-mini-card" markdown="1">
-<strong>Female Client</strong>
+<div markdown="1">
+##### Female Client
 
 * Separate the labia.
 * Clean front to back.
@@ -1335,22 +796,27 @@ Catheter insertion is a sterile procedure.
 * Secure the catheter to the thigh.
 
 </div>
+</div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Catheter Safety</strong>
+</section>
+
+<section class="renal-note-section" markdown="1">
+
+#### Catheter Safety and Specimen Collection
+
+<div class="renal-two-column" markdown="1">
+<div markdown="1">
+##### Catheter Safety
 
 * Maintain a closed drainage system.
 * Keep the drainage bag below the bladder.
-* Keep tubing free from kinks.
-* Avoid dependent loops.
-* Secure the catheter.
-* Perform routine perineal care.
+* Keep tubing free from kinks and avoid dependent loops.
+* Secure the catheter and perform routine perineal care.
 * Remove the catheter as soon as possible.
 
 </div>
-
-<div class="detail-mini-card" markdown="1">
-<strong>Catheter Urine Culture</strong>
+<div markdown="1">
+##### Catheter Urine Culture
 
 * Clamp the tubing below the sampling port briefly when required.
 * Clean the port.
@@ -1359,12 +825,13 @@ Catheter insertion is a sterile procedure.
 * Never collect a culture from the drainage bag.
 
 </div>
-
 </div>
 
 <div class="detail-callout" markdown="1">
 <strong>NCLEX:</strong> Pink urine can be expected briefly after cystoscopy. Large clots, inability to void, fever, or bright-red bleeding are not expected.
 </div>
+
+</section>
 
 </div>
 
@@ -1373,59 +840,52 @@ Catheter insertion is a sterile procedure.
 
 ### Urinary Surgery and Diversions
 
-Kidney and urinary surgery can cause:
+<section class="renal-note-section" markdown="1">
 
-* Bleeding
-* Respiratory complications
-* Infection
-* Reduced urine output
-* Urinary obstruction
-* Fluid and electrolyte imbalance
+Kidney and urinary surgery can cause bleeding, respiratory complications, infection, reduced urine output, urinary obstruction, and fluid and electrolyte imbalance. The kidneys receive a large blood supply, so bleeding is an important postoperative concern. Upper abdominal or flank incisions may also make deep breathing and coughing painful.
 
-The kidneys receive a large blood supply, so bleeding is an important postoperative concern.
+</section>
 
-Upper abdominal or flank incisions may also make deep breathing and coughing painful.
+<section class="renal-note-section" markdown="1">
 
-<div class="detail-grid" markdown="1">
+#### General Postoperative Priorities
 
-<div class="detail-mini-card" markdown="1">
-<strong>General Postoperative Priorities</strong>
-
-* Monitor vital signs.
-* Assess for bleeding.
+* Monitor vital signs and assess for bleeding.
 * Monitor hemoglobin and hematocrit.
-* Measure intake and output.
-* Assess urine amount and appearance.
-* Monitor respiratory status.
-* Encourage prescribed pulmonary hygiene.
-* Manage pain.
-* Assess the incision and drains.
+* Measure intake and output, and assess urine amount and appearance.
+* Monitor respiratory status and encourage prescribed pulmonary hygiene.
+* Manage pain and assess the incision and drains.
 * Report low urine output.
 
 A common minimum adult urine-output goal is approximately **0.5 mL/kg/hr**, rather than one fixed number for every client.
 
-</div>
+</section>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Ileal Conduit</strong>
+<section class="renal-note-section" markdown="1">
 
-An **ileal conduit** is an incontinent urinary diversion.
+#### Comparing Urinary Diversions
 
-A short section of ileum is separated from the intestinal tract and used as a passageway for urine.
+<div class="detail-table" markdown="1">
 
-* Ureters are connected to the ileal segment.
-* One end forms a stoma on the abdomen.
-* Urine drains continuously into an external pouch.
-* The client does not voluntarily control urine flow through the stoma.
-
-</div>
+| Diversion | How Urine Leaves | Key Nursing Focus |
+|---|---|---|
+| **Ileal conduit** | Continuous drainage through an abdominal stoma into an external pouch | Stoma, pouch, skin, urine output |
+| **Indiana pouch** | Intermittent catheterization through an abdominal stoma | Scheduled emptying and catheterization |
+| **Ureterosigmoidostomy** | Urine empties through the rectum with stool | Infection and electrolyte imbalance |
 
 </div>
 
-<div class="detail-grid" markdown="1">
+</section>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Expected Findings</strong>
+<section class="renal-note-section" markdown="1">
+
+#### Ileal Conduit
+
+An ileal conduit is an incontinent urinary diversion. A short section of ileum is separated from the intestinal tract and used as a passageway for urine: the ureters are connected to the ileal segment, one end forms a stoma on the abdomen, urine drains continuously into an external pouch, and the client does not voluntarily control urine flow through the stoma.
+
+<div class="renal-two-column" markdown="1">
+<div markdown="1">
+##### Expected Findings
 
 * Continuous urine drainage
 * Pink or red moist stoma
@@ -1434,9 +894,8 @@ A short section of ileum is separated from the intestinal tract and used as a pa
 * Ureteral stents early after surgery
 
 </div>
-
-<div class="detail-mini-card" markdown="1">
-<strong>Concerning Findings</strong>
+<div markdown="1">
+##### Concerning Findings
 
 * Dusky, purple, brown, or black stoma
 * No urine output
@@ -1447,185 +906,74 @@ A short section of ileum is separated from the intestinal tract and used as a pa
 * Stent stops draining
 
 </div>
-
-<div class="detail-mini-card" markdown="1">
-<strong>Immediate Nursing Care</strong>
-
-* Measure urine hourly.
-* Assess stoma color.
-* Monitor stents.
-* Assess for leakage.
-* Protect the skin.
-* Monitor mucus and urine.
-* Maintain ordered fluids.
-
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Why Mucus Occurs</strong>
+Immediate nursing care: measure urine hourly, assess stoma color, monitor stents, assess for leakage, protect the skin, monitor mucus and urine, and maintain ordered fluids.
 
-* The conduit is made from intestinal tissue.
-* Intestinal tissue continues producing mucus.
-* Mucus strands in urine are expected.
-* Excess obstruction or foul mucus requires assessment.
+Mucus in the urine is expected because the conduit is made from intestinal tissue, which continues producing mucus. Excess obstruction or foul mucus requires assessment.
+
+</section>
+
+<section class="renal-note-section" markdown="1">
+
+#### Stoma Assessment and Pouch Care
+
+A healthy stoma should be pink to red, moist, slightly shiny, and mildly edematous immediately after surgery. Report a pale, dusky, purple, or black stoma, a dry stoma, severe swelling, or no urine drainage.
+
+<div class="renal-two-column" markdown="1">
+<div markdown="1">
+##### Appliance Care
+
+* Empty the pouch when it is approximately one-third to one-half full and avoid letting it become heavy.
+* Measure the stoma during healing because its size changes.
+* Cut the skin barrier slightly larger than the stoma.
+* Avoid exposing surrounding skin to urine.
+* Clean with water or approved products and dry the skin completely.
+* Avoid harsh soaps and oily lotions under the barrier.
+* Connect to a bedside drainage bag at night when instructed.
 
 </div>
+<div markdown="1">
+##### Specimens and Teaching
+
+* For a fresh specimen, clean the stoma and collect urine directly from the stoma using the ordered technique; do not collect a culture from an old pouch or drainage bag.
+* Teach that mucus is expected and to maintain prescribed hydration.
+* Observe the stoma daily and report reduced drainage, fever, or flank pain.
+* Carry extra supplies, empty the pouch before it becomes heavy, and maintain skin care.
+* Participate in ostomy education and support.
 
 </div>
-
-#### Stoma Assessment
-
-A healthy stoma should be:
-
-* Pink to red
-* Moist
-* Slightly shiny
-* Mildly edematous immediately after surgery
-
-Report:
-
-* Pale stoma
-* Dusky stoma
-* Purple or black stoma
-* Dry stoma
-* Severe swelling
-* No urine drainage
+</div>
 
 <div class="detail-callout" markdown="1">
 <strong>NCLEX:</strong> A dark or dusky stoma suggests reduced blood flow and requires immediate reporting.
 </div>
 
-<div class="detail-grid" markdown="1">
+</section>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Appliance Care</strong>
+<section class="renal-note-section" markdown="1">
 
-* Empty the pouch when it is approximately one-third to one-half full.
-* Avoid allowing the pouch to become heavy.
-* Measure the stoma during healing because its size changes.
-* Cut the skin barrier slightly larger than the stoma.
-* Avoid exposing surrounding skin to urine.
-* Clean with water or approved products.
-* Dry the skin completely.
-* Avoid harsh soaps and oily lotions under the barrier.
-* Connect to a bedside drainage bag at night when instructed.
+#### Indiana Pouch
 
-</div>
+The Indiana pouch is a continent urinary reservoir created from intestinal tissue. Urine is stored internally, a small stoma is created on the abdomen, the client inserts a catheter through the stoma to drain the pouch, and no continuously draining external urine pouch is required.
 
-<div class="detail-mini-card" markdown="1">
-<strong>Urine Specimens</strong>
+Teaching: catheterize at the prescribed intervals, do not allow the pouch to overfill, use clean technique as instructed, irrigate mucus only when prescribed, maintain hydration, and report inability to catheterize or any fever, pain, leakage, or reduced output.
 
-For a fresh specimen:
+Failure to drain the pouch can cause overdistention, leakage, infection, reflux toward the kidneys, kidney damage, and absorption of waste products.
 
-* Clean the stoma.
-* Collect urine directly from the stoma using the ordered technique.
-* Do not collect a culture from an old pouch or drainage bag.
+</section>
 
-</div>
+<section class="renal-note-section" markdown="1">
 
-<div class="detail-mini-card" markdown="1">
-<strong>Patient Teaching</strong>
+#### Ureterosigmoidostomy
 
-* Mucus is expected.
-* Maintain prescribed hydration.
-* Observe the stoma daily.
-* Report reduced drainage.
-* Report fever or flank pain.
-* Carry extra supplies.
-* Empty the pouch before it becomes heavy.
-* Maintain skin care.
-* Participate in ostomy education and support.
+In a ureterosigmoidostomy, the ureters are connected to the sigmoid colon, so urine drains into the colon and urine and stool leave through the rectum. The client may have frequent watery stools, and nighttime drainage and continence may be difficult; this procedure is less commonly used because of complications.
 
-</div>
+Possible complications include ascending infection, electrolyte imbalance, metabolic acidosis, kidney infection, skin irritation, and malignancy risk over time.
 
-<div class="detail-mini-card" markdown="1">
-<strong>Indiana Pouch</strong>
+</section>
 
-The **Indiana pouch** is a continent urinary reservoir created from intestinal tissue.
-
-* Urine is stored internally.
-* A small stoma is created on the abdomen.
-* The client inserts a catheter through the stoma to drain the pouch.
-* No continuously draining external urine pouch is required.
-
-</div>
-
-<div class="detail-mini-card" markdown="1">
-<strong>Teaching</strong>
-
-* Catheterize at the prescribed intervals.
-* Do not allow the pouch to overfill.
-* Use clean technique as instructed.
-* Irrigate mucus only when prescribed.
-* Maintain hydration.
-* Report inability to catheterize.
-* Report fever, pain, leakage, or reduced output.
-
-Failure to drain the pouch can cause:
-
-* Overdistention
-* Leakage
-* Infection
-* Reflux toward the kidneys
-* Kidney damage
-* Absorption of waste products
-
-</div>
-
-<div class="detail-mini-card" markdown="1">
-<strong>Ureterosigmoidostomy</strong>
-
-In a **ureterosigmoidostomy**, the ureters are connected to the sigmoid colon.
-
-* Urine drains into the colon.
-* Urine and stool leave through the rectum.
-* The client may have frequent watery stools.
-* Nighttime drainage and continence may be difficult.
-* This procedure is less commonly used because of complications.
-
-Possible complications:
-
-* Ascending infection
-* Electrolyte imbalance
-* Metabolic acidosis
-* Kidney infection
-* Skin irritation
-* Malignancy risk over time
-
-</div>
-
-</div>
-
-#### Comparing Urinary Diversions
-
-<div class="detail-table">
-  <table>
-    <thead>
-      <tr>
-        <th>Diversion</th>
-        <th>How Urine Leaves</th>
-        <th>Key Nursing Focus</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><strong>Ileal conduit</strong></td>
-        <td>Continuous drainage through abdominal stoma into pouch</td>
-        <td>Stoma, pouch, skin, urine output</td>
-      </tr>
-      <tr>
-        <td><strong>Indiana pouch</strong></td>
-        <td>Intermittent catheterization through abdominal stoma</td>
-        <td>Scheduled emptying and catheterization</td>
-      </tr>
-      <tr>
-        <td><strong>Ureterosigmoidostomy</strong></td>
-        <td>Urine empties through the rectum with stool</td>
-        <td>Infection and electrolyte imbalance</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+<section class="renal-note-section" markdown="1">
 
 <div class="report-now" markdown="1">
 <h3>Report Immediately</h3>
@@ -1636,7 +984,7 @@ Possible complications:
 * Bright-red heavy bleeding
 * Fever or chills
 * Flank pain
-* Severe leakage around appliance
+* Severe leakage around the appliance
 * Stent stops draining
 * Inability to catheterize an Indiana pouch
 * Severe abdominal distention
@@ -1646,6 +994,8 @@ Possible complications:
 <div class="detail-callout" markdown="1">
 <strong>PN Priority:</strong> The first concerns after urinary diversion surgery are circulation to the stoma, urine output, bleeding, infection, and protection of the surrounding skin.
 </div>
+
+</section>
 
 </div>
 

@@ -51,10 +51,10 @@ A **urinary tract infection (UTI)** occurs when microorganisms enter and multipl
 
 ### Cystitis: Lower Urinary Tract Infection
 
-<div class="detail-grid" markdown="1">
+<div class="renal-two-column" markdown="1">
 
-<div class="detail-mini-card" markdown="1">
-<strong>What It Is</strong>
+<div markdown="1">
+##### What It Is
 
 * Infection and inflammation of the bladder.
 * Usually caused by bacteria entering through the urethra.
@@ -64,8 +64,8 @@ A **urinary tract infection (UTI)** occurs when microorganisms enter and multipl
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Common Causes / Risk Factors</strong>
+<div markdown="1">
+##### Common Causes / Risk Factors
 
 * Female anatomy
 * Previous UTI
@@ -83,8 +83,8 @@ A **urinary tract infection (UTI)** occurs when microorganisms enter and multipl
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Expected Manifestations</strong>
+<div markdown="1">
+##### Expected Manifestations
 
 * Urinary frequency
 * Urinary urgency
@@ -98,8 +98,8 @@ A **urinary tract infection (UTI)** occurs when microorganisms enter and multipl
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Priority Concerns</strong>
+<div markdown="1">
+##### Priority Concerns
 
 * Infection spreading to the kidneys
 * Fever or systemic symptoms
@@ -160,10 +160,10 @@ A **urinary tract infection (UTI)** occurs when microorganisms enter and multipl
 
 #### Diagnostics
 
-<div class="detail-grid" markdown="1">
+<div class="renal-two-column" markdown="1">
 
-<div class="detail-mini-card" markdown="1">
-<strong>Urinalysis</strong>
+<div markdown="1">
+##### Urinalysis
 
 May show:
 
@@ -178,8 +178,8 @@ A urinalysis supports the diagnosis but does not identify the exact antibiotic s
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Urine Culture & Sensitivity</strong>
+<div markdown="1">
+##### Urine Culture & Sensitivity
 
 * Identifies the infecting organism.
 * Determines which antibiotics will treat it.
@@ -188,8 +188,8 @@ A urinalysis supports the diagnosis but does not identify the exact antibiotic s
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Additional Testing</strong>
+<div markdown="1">
+##### Additional Testing
 
 May be needed for:
 
@@ -203,8 +203,8 @@ May be needed for:
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Monitor</strong>
+<div markdown="1">
+##### Monitor
 
 * Temperature
 * Pain
@@ -221,10 +221,10 @@ May be needed for:
 
 #### Medications
 
-<div class="detail-grid" markdown="1">
+<div class="renal-two-column" markdown="1">
 
-<div class="detail-mini-card" markdown="1">
-<strong>Antibiotics</strong>
+<div markdown="1">
+##### Antibiotics
 
 Possible medications include:
 
@@ -238,8 +238,8 @@ The medication selected depends on the organism, culture results, allergies, kid
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Antibiotic Teaching</strong>
+<div markdown="1">
+##### Antibiotic Teaching
 
 * Take at evenly spaced times.
 * Complete the full prescribed course.
@@ -250,8 +250,8 @@ The medication selected depends on the organism, culture results, allergies, kid
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Phenazopyridine</strong>
+<div markdown="1">
+##### Phenazopyridine
 
 Trade name: **Pyridium**
 
@@ -263,8 +263,8 @@ Trade name: **Pyridium**
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Phenazopyridine Teaching</strong>
+<div markdown="1">
+##### Phenazopyridine Teaching
 
 * Urine becomes bright orange or red-orange.
 * May stain clothing.
@@ -283,10 +283,10 @@ Trade name: **Pyridium**
 
 #### Nursing Interventions
 
-<div class="detail-grid" markdown="1">
+<div class="renal-two-column" markdown="1">
 
-<div class="detail-mini-card" markdown="1">
-<strong>Assessment</strong>
+<div markdown="1">
+##### Assessment
 
 * Assess urinary frequency, urgency, and dysuria.
 * Assess suprapubic and flank pain.
@@ -297,8 +297,8 @@ Trade name: **Pyridium**
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Hydration</strong>
+<div markdown="1">
+##### Hydration
 
 * Encourage fluids unless contraindicated.
 * Water is generally preferred.
@@ -308,8 +308,8 @@ Trade name: **Pyridium**
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Comfort Measures</strong>
+<div markdown="1">
+##### Comfort Measures
 
 * Give prescribed urinary analgesic.
 * Give prescribed pain medication.
@@ -319,8 +319,8 @@ Trade name: **Pyridium**
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Evaluation</strong>
+<div markdown="1">
+##### Evaluation
 
 Expected improvement includes:
 
@@ -362,10 +362,10 @@ Expected improvement includes:
 
 ### Pyelonephritis: Kidney Infection
 
-<div class="detail-grid" markdown="1">
+<div class="renal-two-column" markdown="1">
 
-<div class="detail-mini-card" markdown="1">
-<strong>What It Is</strong>
+<div markdown="1">
+##### What It Is
 
 * Infection and inflammation of the renal pelvis and kidney tissue.
 * Often begins as a lower UTI or bladder infection.
@@ -375,8 +375,8 @@ Expected improvement includes:
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Risk Factors / Causes</strong>
+<div markdown="1">
+##### Risk Factors / Causes
 
 * Untreated or recurrent bladder infection
 * Urinary obstruction
@@ -391,8 +391,8 @@ Expected improvement includes:
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Expected Manifestations</strong>
+<div markdown="1">
+##### Expected Manifestations
 
 * Fever
 * Chills
@@ -407,8 +407,8 @@ Expected improvement includes:
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Priority Concerns</strong>
+<div markdown="1">
+##### Priority Concerns
 
 * Sepsis
 * Dehydration
@@ -474,10 +474,10 @@ The costovertebral angle is located over the kidney area at the back, below the 
 
 #### Diagnostics and Treatment
 
-<div class="detail-grid" markdown="1">
+<div class="renal-two-column" markdown="1">
 
-<div class="detail-mini-card" markdown="1">
-<strong>Diagnostics</strong>
+<div markdown="1">
+##### Diagnostics
 
 * Urinalysis
 * Urine culture and sensitivity
@@ -488,8 +488,8 @@ The costovertebral angle is located over the kidney area at the back, below the 
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Antibiotic Therapy</strong>
+<div markdown="1">
+##### Antibiotic Therapy
 
 * Antibiotics are the primary treatment.
 * Oral antibiotics may be used for stable clients.
@@ -499,8 +499,8 @@ The costovertebral angle is located over the kidney area at the back, below the 
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Supportive Care</strong>
+<div markdown="1">
+##### Supportive Care
 
 * IV or oral fluids as appropriate
 * Antipyretics
@@ -512,8 +512,8 @@ The costovertebral angle is located over the kidney area at the back, below the 
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Hospitalization May Be Needed</strong>
+<div markdown="1">
+##### Hospitalization May Be Needed
 
 * Severe nausea or vomiting
 * Inability to take oral medication
@@ -528,10 +528,10 @@ The costovertebral angle is located over the kidney area at the back, below the 
 
 </div>
 
-<div class="detail-grid" markdown="1">
+<div class="renal-two-column" markdown="1">
 
-<div class="detail-mini-card" markdown="1">
-<strong>Nursing Interventions</strong>
+<div markdown="1">
+##### Nursing Interventions
 
 * Monitor temperature, pulse, respirations, blood pressure, and oxygen saturation.
 * Assess flank pain and costovertebral-angle tenderness.
@@ -547,8 +547,8 @@ The costovertebral angle is located over the kidney area at the back, below the 
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Sepsis Warning Signs</strong>
+<div markdown="1">
+##### Sepsis Warning Signs
 
 Report or escalate immediately for:
 
@@ -581,10 +581,10 @@ A contaminated specimen can produce inaccurate results. Use proper collection te
 
 #### Clean-Catch Midstream Specimen
 
-<div class="detail-grid" markdown="1">
+<div class="renal-two-column" markdown="1">
 
-<div class="detail-mini-card" markdown="1">
-<strong>Female Client</strong>
+<div markdown="1">
+##### Female Client
 
 1. Perform hand hygiene.
 2. Open the sterile specimen container without touching the inside.
@@ -597,8 +597,8 @@ A contaminated specimen can produce inaccurate results. Use proper collection te
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Male Client</strong>
+<div markdown="1">
+##### Male Client
 
 1. Perform hand hygiene.
 2. Retract the foreskin if present.
@@ -610,8 +610,8 @@ A contaminated specimen can produce inaccurate results. Use proper collection te
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Do Not</strong>
+<div markdown="1">
+##### Do Not
 
 * Touch the inside of the cup.
 * Allow the cup to touch the genital area.
@@ -621,8 +621,8 @@ A contaminated specimen can produce inaccurate results. Use proper collection te
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>After Collection</strong>
+<div markdown="1">
+##### After Collection
 
 * Secure the lid.
 * Label the specimen at the bedside.
@@ -636,10 +636,10 @@ A contaminated specimen can produce inaccurate results. Use proper collection te
 
 #### Specimen From an Indwelling Catheter
 
-<div class="detail-grid" markdown="1">
+<div class="renal-two-column" markdown="1">
 
-<div class="detail-mini-card" markdown="1">
-<strong>Correct Method</strong>
+<div markdown="1">
+##### Correct Method
 
 * Use the catheter sampling port.
 * Clamp the tubing below the port briefly if required by policy.
@@ -650,8 +650,8 @@ A contaminated specimen can produce inaccurate results. Use proper collection te
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Never Collect From</strong>
+<div markdown="1">
+##### Never Collect From
 
 * The drainage bag
 * Urine that has been standing in the tubing
@@ -662,8 +662,8 @@ Urine in the drainage bag is old and may be contaminated.
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Catheter Care</strong>
+<div markdown="1">
+##### Catheter Care
 
 * Maintain a closed drainage system.
 * Keep the bag below bladder level.
@@ -674,8 +674,8 @@ Urine in the drainage bag is old and may be contaminated.
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Why It Matters</strong>
+<div markdown="1">
+##### Why It Matters
 
 Indwelling catheters increase the risk of infection because microorganisms can enter the urinary tract along the catheter.
 

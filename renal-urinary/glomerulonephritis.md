@@ -53,10 +53,10 @@ For the PN unit exam, the major focus is **acute post-streptococcal glomerulonep
 
 ### Cause and Pathophysiology
 
-<div class="detail-grid" markdown="1">
+<div class="renal-two-column" markdown="1">
 
-<div class="detail-mini-card" markdown="1">
-<strong>What It Is</strong>
+<div markdown="1">
+##### What It Is
 
 * Inflammation of the glomeruli.
 * The glomeruli normally filter the blood.
@@ -67,8 +67,8 @@ For the PN unit exam, the major focus is **acute post-streptococcal glomerulonep
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Post-Streptococcal Cause</strong>
+<div markdown="1">
+##### Post-Streptococcal Cause
 
 May occur after:
 
@@ -82,8 +82,8 @@ It commonly develops after the original infection has already begun improving.
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Immune Response</strong>
+<div markdown="1">
+##### Immune Response
 
 * The body produces antibodies against group A streptococcus.
 * Antigen-antibody complexes become trapped in the glomeruli.
@@ -93,8 +93,8 @@ It commonly develops after the original infection has already begun improving.
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Who Is Commonly Affected?</strong>
+<div markdown="1">
+##### Who Is Commonly Affected?
 
 * More common in children.
 * Often follows a recent throat or skin infection.
@@ -172,10 +172,10 @@ The major findings result from:
 2. Decreased kidney filtration
 3. Sodium and water retention
 
-<div class="detail-grid" markdown="1">
+<div class="renal-two-column" markdown="1">
 
-<div class="detail-mini-card" markdown="1">
-<strong>Urinary Findings</strong>
+<div markdown="1">
+##### Urinary Findings
 
 * Hematuria
 * Dark, smoky, tea-colored, or cola-colored urine
@@ -186,8 +186,8 @@ The major findings result from:
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Fluid Retention</strong>
+<div markdown="1">
+##### Fluid Retention
 
 * Periorbital edema
 * Facial puffiness
@@ -199,8 +199,8 @@ The major findings result from:
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>General Findings</strong>
+<div markdown="1">
+##### General Findings
 
 * Fatigue
 * Lethargy
@@ -213,8 +213,8 @@ The major findings result from:
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Priority Dangers</strong>
+<div markdown="1">
+##### Priority Dangers
 
 * Severe hypertension
 * Pulmonary edema
@@ -280,10 +280,10 @@ The major findings result from:
 
 #### Expected Laboratory and Diagnostic Findings
 
-<div class="detail-grid" markdown="1">
+<div class="renal-two-column" markdown="1">
 
-<div class="detail-mini-card" markdown="1">
-<strong>Urinalysis</strong>
+<div markdown="1">
+##### Urinalysis
 
 May show:
 
@@ -296,8 +296,8 @@ May show:
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Kidney Function</strong>
+<div markdown="1">
+##### Kidney Function
 
 May show:
 
@@ -309,8 +309,8 @@ May show:
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Evidence of Recent Strep</strong>
+<div markdown="1">
+##### Evidence of Recent Strep
 
 Testing may include:
 
@@ -321,8 +321,8 @@ Testing may include:
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Other Possible Findings</strong>
+<div markdown="1">
+##### Other Possible Findings
 
 * Decreased complement C3
 * Mild anemia
@@ -334,10 +334,10 @@ Testing may include:
 
 </div>
 
-<div class="detail-grid" markdown="1">
+<div class="renal-two-column" markdown="1">
 
-<div class="detail-mini-card" markdown="1">
-<strong>Acute Edematous Phase</strong>
+<div markdown="1">
+##### Acute Edematous Phase
 
 This is the early phase in which kidney filtration is reduced.
 
@@ -355,8 +355,8 @@ Expected findings include:
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Recovery or Diuretic Phase</strong>
+<div markdown="1">
+##### Recovery or Diuretic Phase
 
 As kidney filtration improves:
 
@@ -441,10 +441,10 @@ Treatment focuses on:
 * Treating any remaining streptococcal infection
 * Supporting the client until kidney function improves
 
-<div class="detail-grid" markdown="1">
+<div class="renal-two-column" markdown="1">
 
-<div class="detail-mini-card" markdown="1">
-<strong>Intake and Output</strong>
+<div markdown="1">
+##### Intake and Output
 
 * Measure all oral and IV intake.
 * Measure urine output accurately.
@@ -455,8 +455,8 @@ Treatment focuses on:
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Daily Weight</strong>
+<div markdown="1">
+##### Daily Weight
 
 * Weigh at the same time every day.
 * Use the same scale.
@@ -467,8 +467,8 @@ Treatment focuses on:
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Vital Signs</strong>
+<div markdown="1">
+##### Vital Signs
 
 * Monitor blood pressure frequently.
 * Assess for severe headache or visual changes.
@@ -478,8 +478,8 @@ Treatment focuses on:
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Edema and Respiratory Status</strong>
+<div markdown="1">
+##### Edema and Respiratory Status
 
 * Assess periorbital and dependent edema.
 * Check lung sounds.
@@ -494,10 +494,10 @@ Treatment focuses on:
 
 #### Diet and Fluid Management
 
-<div class="detail-grid" markdown="1">
+<div class="renal-two-column" markdown="1">
 
-<div class="detail-mini-card" markdown="1">
-<strong>Low-Sodium Diet</strong>
+<div markdown="1">
+##### Low-Sodium Diet
 
 Sodium may be limited to reduce:
 
@@ -510,8 +510,8 @@ Avoid heavily salted and processed foods.
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Fluid Restriction</strong>
+<div markdown="1">
+##### Fluid Restriction
 
 May be ordered when the client has:
 
@@ -525,8 +525,8 @@ Include liquids that become fluid at room temperature.
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Potassium Restriction</strong>
+<div markdown="1">
+##### Potassium Restriction
 
 May be needed when:
 
@@ -539,8 +539,8 @@ Do not restrict potassium without an order or laboratory indication.
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Protein</strong>
+<div markdown="1">
+##### Protein
 
 * Protein needs depend on kidney function and losses.
 * A moderate restriction may be ordered if nitrogen waste rises.
@@ -554,10 +554,10 @@ Do not restrict potassium without an order or laboratory indication.
 
 #### Medications
 
-<div class="detail-grid" markdown="1">
+<div class="renal-two-column" markdown="1">
 
-<div class="detail-mini-card" markdown="1">
-<strong>Diuretics</strong>
+<div markdown="1">
+##### Diuretics
 
 Example: **Furosemide**
 
@@ -578,8 +578,8 @@ Monitor:
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Antihypertensives</strong>
+<div markdown="1">
+##### Antihypertensives
 
 May be prescribed to control blood pressure.
 
@@ -593,8 +593,8 @@ Monitor:
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Antibiotics</strong>
+<div markdown="1">
+##### Antibiotics
 
 * Antibiotics do not reverse glomerular inflammation.
 * They may be prescribed if group A strep is still present.
@@ -604,8 +604,8 @@ Monitor:
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Emergency Medications</strong>
+<div markdown="1">
+##### Emergency Medications
 
 Severe complications may require treatment for:
 
@@ -621,10 +621,10 @@ Dialysis is rarely needed but may be required if severe kidney failure develops.
 
 </div>
 
-<div class="detail-grid" markdown="1">
+<div class="renal-two-column" markdown="1">
 
-<div class="detail-mini-card" markdown="1">
-<strong>Nursing Interventions</strong>
+<div markdown="1">
+##### Nursing Interventions
 
 * Maintain accurate intake and output.
 * Obtain daily weights.
@@ -644,8 +644,8 @@ Dialysis is rarely needed but may be required if severe kidney failure develops.
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Activity and Rest</strong>
+<div markdown="1">
+##### Activity and Rest
 
 During the acute phase:
 
@@ -658,8 +658,8 @@ During the acute phase:
 
 </div>
 
-<div class="detail-mini-card" markdown="1">
-<strong>Patient and Family Education</strong>
+<div markdown="1">
+##### Patient and Family Education
 
 * Monitor urine amount and color.
 * Monitor blood pressure if instructed.
