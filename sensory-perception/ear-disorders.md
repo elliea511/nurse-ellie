@@ -894,6 +894,8 @@ Do not shout at a hearing-impaired client. Face the client, lower background noi
 - Severe postoperative vertigo
 </div>
 
+<div class="mh-columns" markdown="1">
+
 <div class="quick-review" markdown="1">
 <h3>Quick Review</h3>
 
@@ -925,6 +927,8 @@ Do not shout at a hearing-impaired client. Face the client, lower background noi
 - Do not ignore new tinnitus with an ototoxic medication.
 - Do not place cold ear drops directly into the canal.
 - Do not let children with tympanostomy tubes get water in the ear when restrictions are prescribed.
+</div>
+
 </div>
 
 <div class="cheer-banner">

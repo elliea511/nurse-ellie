@@ -964,6 +964,8 @@ Postoperative nursing care includes:
 - Hot swollen joint with systemic illness
 </div>
 
+<div class="mh-columns" markdown="1">
+
 <div class="quick-review" markdown="1">
 <h3>Quick Review</h3>
 
@@ -996,6 +998,8 @@ Postoperative nursing care includes:
 - Do not use prolonged bed rest.
 - Do not ignore severe neck pain or neurologic changes.
 - Do not apply heat to an acutely inflamed joint if it worsens swelling.
+</div>
+
 </div>
 
 <div class="cheer-banner">

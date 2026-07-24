@@ -917,6 +917,8 @@ Nursing care:
 - Suicidal thoughts
 </div>
 
+<div class="mh-columns" markdown="1">
+
 <div class="quick-review" markdown="1">
 <h3>Quick Review</h3>
 
@@ -947,6 +949,8 @@ Nursing care:
 - Do not overlook respiratory symptoms, neurologic changes, or vision changes.
 - Do not use stigmatizing or judgmental language.
 - Do not disclose HIV status without authorization except as required by law.
+</div>
+
 </div>
 
 <div class="cheer-banner">

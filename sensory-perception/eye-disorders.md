@@ -735,6 +735,8 @@ For example: meat at 6 o’clock, vegetables at 3 o’clock, and potatoes at 9 o
 - Purulent drainage after surgery
 </div>
 
+<div class="mh-columns" markdown="1">
+
 <div class="quick-review" markdown="1">
 <h3>Quick Review</h3>
 
@@ -763,6 +765,8 @@ For example: meat at 6 o’clock, vegetables at 3 o’clock, and potatoes at 9 o
 - Do not remove an embedded object.
 - Do not delay irrigation after chemical exposure.
 - Do not rearrange furniture without orienting a visually impaired client.
+</div>
+
 </div>
 
 <div class="cheer-banner">
