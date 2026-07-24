@@ -60,162 +60,59 @@ Small stones may pass without a procedure. Larger stones, obstructing stones, in
 
 ### Types of Kidney Stones
 
-The four major stone types covered at the PN level are:
+<section class="renal-note-section" markdown="1">
 
-1. Calcium stones
-2. Uric acid stones
-3. Struvite stones
-4. Cystine stones
+The four major stone types covered at the PN level are calcium, uric acid, struvite, and cystine stones. Calcium stones, especially calcium oxalate stones, are the most common type. The stone should be strained and sent to the laboratory whenever possible, because prevention teaching depends on its composition.
 
-Calcium stones, especially calcium oxalate stones, are the most common type. The stone should be strained and sent to the laboratory whenever possible because prevention teaching depends on its composition.
+<div class="detail-table" markdown="1">
 
-<div class="renal-two-column" markdown="1">
-
-<div markdown="1">
-##### Calcium Oxalate Stones
-
-* Most common kidney stone.
-* Form when calcium combines with oxalate in the urine.
-* May be associated with high urinary calcium or oxalate.
-* Risks include dehydration, high sodium intake, hyperparathyroidism, excess calcium supplementation, and some intestinal disorders.
-* Do not automatically eliminate normal dietary calcium.
+| Stone Type | Cause / Association | Key Points | Prevention Focus |
+|---|---|---|---|
+| **Calcium oxalate** (most common) | Calcium combines with oxalate in the urine; high urinary calcium or oxalate | Risks include dehydration, high sodium intake, hyperparathyroidism, excess calcium supplementation, and some intestinal disorders; do not automatically eliminate normal dietary calcium | Fluids, lower sodium, avoid excess supplements, limit high-oxalate foods when instructed |
+| **Uric acid** | Too much uric acid and overly acidic urine; gout, dehydration, purine-rich animal protein, metabolic syndrome, or type 2 diabetes | Allopurinol may be prescribed for recurrent uric acid stones | Fluids, reduce excess animal protein, allopurinol or urine alkalinization if prescribed |
+| **Struvite** | Certain urinary tract infections; bacteria make the urine more alkaline | Composed of magnesium, ammonium, and phosphate; can grow rapidly into a large branching or staghorn stone | Treat the infection and remove the stone when indicated |
+| **Cystine** | Inherited condition (cystinuria); too much cystine enters the urine | Rare; often begins earlier in life and frequently recurs; needs high fluid intake and specialist management | Very high fluid intake and prescribed urine changes |
 
 </div>
 
-<div markdown="1">
-##### Uric Acid Stones
+</section>
 
-* Form when the urine contains too much uric acid and is overly acidic.
-* May occur with gout.
-* May occur with dehydration.
-* Associated with high intake of purine-rich animal protein.
-* May be associated with metabolic syndrome or type 2 diabetes.
-* Allopurinol may be prescribed for recurrent uric acid stones.
-
-</div>
-
-<div markdown="1">
-##### Struvite Stones
-
-* Associated with certain urinary tract infections.
-* Bacteria cause the urine to become more alkaline.
-* Composed mainly of magnesium, ammonium, and phosphate.
-* Can grow rapidly.
-* May become a large branching or staghorn stone.
-* Treat the infection and remove the stone when indicated.
-
-</div>
-
-<div markdown="1">
-##### Cystine Stones
-
-* Rare.
-* Caused by an inherited condition called cystinuria.
-* Too much cystine enters the urine.
-* Often begins earlier in life.
-* Frequently recurs.
-* Requires high fluid intake and specialist management.
-
-</div>
-
-</div>
-
-<div class="detail-table">
-  <table>
-    <thead>
-      <tr>
-        <th>Stone Type</th>
-        <th>Think</th>
-        <th>Common Prevention Focus</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><strong>Calcium oxalate</strong></td>
-        <td>Most common; calcium plus oxalate</td>
-        <td>Fluids, lower sodium, avoid excess supplements, limit high-oxalate foods when instructed</td>
-      </tr>
-      <tr>
-        <td><strong>Uric acid</strong></td>
-        <td>Gout, acidic urine, purines</td>
-        <td>Fluids, reduce excess animal protein, allopurinol or urine alkalinization if prescribed</td>
-      </tr>
-      <tr>
-        <td><strong>Struvite</strong></td>
-        <td>Chronic or recurrent UTI</td>
-        <td>Treat infection and remove stone if needed</td>
-      </tr>
-      <tr>
-        <td><strong>Cystine</strong></td>
-        <td>Inherited cystinuria</td>
-        <td>Very high fluid intake and prescribed urine changes</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+<section class="renal-note-section" markdown="1">
 
 #### Calcium Stone Risk Factors
 
 <div class="renal-two-column" markdown="1">
-
 <div markdown="1">
 ##### Hypercalcemia / Hypercalciuria
 
-Possible causes include:
-
-* Hyperparathyroidism
-* Immobility
-* Excess calcium supplements
-* Excess vitamin D supplements
-* Some metabolic disorders
+Possible causes include hyperparathyroidism, immobility, excess calcium supplements, excess vitamin D supplements, and some metabolic disorders.
 
 </div>
-
 <div markdown="1">
 ##### High Sodium Intake
 
-* Sodium increases calcium excretion into the urine.
-* More urinary calcium can increase stone formation.
-* Lowering sodium may help prevent calcium stones.
-* Read food labels and limit highly processed foods.
+Sodium increases calcium excretion into the urine, and more urinary calcium can increase stone formation. Lowering sodium may help prevent calcium stones—read food labels and limit highly processed foods.
 
 </div>
-
 <div markdown="1">
 ##### High Oxalate Intake
 
-High-oxalate foods may include:
-
-* Spinach
-* Rhubarb
-* Beets
-* Nuts
-* Wheat bran
-* Chocolate
-* Tea
-
-Restriction depends on the confirmed stone type and provider or dietitian instructions.
+High-oxalate foods may include spinach, rhubarb, beets, nuts, wheat bran, chocolate, and tea. Restriction depends on the confirmed stone type and provider or dietitian instructions.
 
 </div>
-
 <div markdown="1">
 ##### Intestinal Disorders
 
-* Crohn disease
-* Ulcerative colitis
-* Bowel resection
-* Chronic diarrhea
-* Fat malabsorption
-
-These conditions can increase oxalate absorption and calcium oxalate stone risk.
+Crohn disease, ulcerative colitis, bowel resection, chronic diarrhea, and fat malabsorption can increase oxalate absorption and calcium oxalate stone risk.
 
 </div>
-
 </div>
 
 <div class="detail-callout" markdown="1">
 <strong>Important Correction:</strong> Clients with calcium stones should not automatically follow a severely calcium-restricted diet. Normal calcium from food can bind oxalate in the intestine and may help prevent calcium oxalate stones. Limit calcium supplements only when instructed.
 </div>
+
+</section>
 
 </div>
 
@@ -224,10 +121,11 @@ These conditions can increase oxalate absorption and calcium oxalate stone risk.
 
 ### Assessment and Manifestations
 
+<section class="renal-note-section" markdown="1">
+
 A stone may cause no symptoms while it remains still. Severe pain often begins when the stone moves, blocks urine flow, or irritates the urinary tract.
 
 <div class="renal-two-column" markdown="1">
-
 <div markdown="1">
 ##### Renal Colic
 
@@ -237,7 +135,6 @@ A stone may cause no symptoms while it remains still. Severe pain often begins w
 * May become severe when the stone begins moving.
 
 </div>
-
 <div markdown="1">
 ##### Ureteral Colic
 
@@ -248,199 +145,123 @@ A stone may cause no symptoms while it remains still. Severe pain often begins w
 * Client may be restless and unable to find a comfortable position.
 
 </div>
-
 <div markdown="1">
 ##### Urinary Findings
 
 * Hematuria
-* Urinary urgency
-* Urinary frequency
+* Urinary urgency and frequency
 * Dysuria
 * Small urine amounts
 * Cloudy urine
 * Crystals in urine
 
 </div>
-
 <div markdown="1">
 ##### GI and Systemic Findings
 
-* Nausea
-* Vomiting
+* Nausea and vomiting
 * Diaphoresis
 * Abdominal discomfort
 * Fever and chills if infection is present
 * Weakness or dehydration
 
 </div>
+</div>
+
+</section>
+
+<section class="renal-note-section" markdown="1">
+
+#### Interpreting Findings
+
+<div class="detail-table" markdown="1">
+
+| Finding | What It May Mean |
+|---|---|
+| **Severe wave-like flank pain** | The ureter is contracting around a moving stone. |
+| **Pain radiating to groin** | The stone may be moving lower through the ureter. |
+| **Hematuria** | The stone may be scraping or irritating urinary tissue. |
+| **Low urine output** | May indicate obstruction, dehydration, or impaired kidney function. |
+| **Fever and chills** | May indicate infection behind an obstructing stone. |
+| **Anuria** | Possible complete obstruction or severe kidney impairment; emergency. |
+| **Persistent vomiting** | Increases dehydration and may prevent oral medication use. |
 
 </div>
 
-<div class="detail-table">
-  <table>
-    <thead>
-      <tr>
-        <th>Finding</th>
-        <th>What It May Mean</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><strong>Severe wave-like flank pain</strong></td>
-        <td>The ureter is contracting around a moving stone.</td>
-      </tr>
-      <tr>
-        <td><strong>Pain radiating to groin</strong></td>
-        <td>The stone may be moving lower through the ureter.</td>
-      </tr>
-      <tr>
-        <td><strong>Hematuria</strong></td>
-        <td>The stone may be scraping or irritating urinary tissue.</td>
-      </tr>
-      <tr>
-        <td><strong>Low urine output</strong></td>
-        <td>May indicate obstruction, dehydration, or impaired kidney function.</td>
-      </tr>
-      <tr>
-        <td><strong>Fever and chills</strong></td>
-        <td>May indicate infection behind an obstructing stone.</td>
-      </tr>
-      <tr>
-        <td><strong>Anuria</strong></td>
-        <td>Possible complete obstruction or severe kidney impairment; emergency.</td>
-      </tr>
-      <tr>
-        <td><strong>Persistent vomiting</strong></td>
-        <td>Increases dehydration and may prevent oral medication use.</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+</section>
+
+<section class="renal-note-section" markdown="1">
 
 #### Complications
 
 <div class="renal-two-column" markdown="1">
-
 <div markdown="1">
 ##### Urinary Obstruction
 
-* The stone blocks the flow of urine.
-* Urine backs up above the obstruction.
-* Pressure increases within the urinary tract.
-* Kidney filtration and tissue can be damaged.
+The stone blocks the flow of urine, urine backs up above the obstruction, pressure increases within the urinary tract, and kidney filtration and tissue can be damaged.
 
 </div>
-
 <div markdown="1">
 ##### Hydronephrosis
 
-* Dilation and swelling of the kidney from backed-up urine.
-* Can result from a ureteral obstruction.
-* Prolonged hydronephrosis can damage nephrons.
+Dilation and swelling of the kidney from backed-up urine, which can result from a ureteral obstruction. Prolonged hydronephrosis can damage nephrons.
 
 </div>
-
 <div markdown="1">
 ##### Infection
 
-* Stagnant urine allows bacteria to multiply.
-* Infection may progress to pyelonephritis.
-* Infection behind an obstruction can rapidly become severe.
-* Sepsis is possible.
+Stagnant urine allows bacteria to multiply, infection may progress to pyelonephritis, infection behind an obstruction can rapidly become severe, and sepsis is possible.
 
 </div>
-
 <div markdown="1">
 ##### Kidney Damage
 
-* Prolonged obstruction
-* Recurrent infection
-* Bilateral stones
-* Recurrent stone formation
-* Delayed treatment
-
-These can decrease kidney function.
+Prolonged obstruction, recurrent infection, bilateral stones, recurrent stone formation, and delayed treatment can decrease kidney function.
 
 </div>
-
 </div>
 
 <div class="report-now" markdown="1">
 <h3>Emergency: Stone Plus Infection</h3>
 
-Report or escalate immediately for:
-
-* Fever or chills
-* Hypotension
-* Tachycardia
-* New confusion
-* Decreased urine output
-* Anuria
-* Uncontrolled pain
-* Persistent vomiting
-* Signs of sepsis
-
-A stone that blocks infected urine is an emergency because the infection cannot drain normally.
+Report or escalate immediately for fever or chills, hypotension, tachycardia, new confusion, decreased urine output, anuria, uncontrolled pain, persistent vomiting, or signs of sepsis. A stone that blocks infected urine is an emergency because the infection cannot drain normally.
 
 </div>
+
+</section>
+
+<section class="renal-note-section" markdown="1">
 
 #### Diagnostics
 
 <div class="renal-two-column" markdown="1">
-
 <div markdown="1">
 ##### Urinalysis
 
-May show:
-
-* Blood
-* Crystals
-* White blood cells
-* Bacteria
-* Urine pH changes
+May show blood, crystals, white blood cells, bacteria, and urine pH changes.
 
 </div>
-
 <div markdown="1">
 ##### Urine Culture
 
-* Obtained if infection is suspected.
-* Identifies the organism.
-* Guides antibiotic therapy.
-* Obtain before antibiotics when possible.
+Obtained if infection is suspected; identifies the organism, guides antibiotic therapy, and should be obtained before antibiotics when possible.
 
 </div>
-
 <div markdown="1">
 ##### Imaging
 
-Possible studies include:
-
-* Noncontrast CT
-* Ultrasound
-* KUB x-ray
-* Other imaging based on pregnancy status and condition
-
-CT commonly identifies the stone’s size and location.
+Noncontrast CT, ultrasound, KUB x-ray, or other imaging based on pregnancy status and condition. CT commonly identifies the stone's size and location.
 
 </div>
-
 <div markdown="1">
 ##### Laboratory Tests
 
-* BUN and creatinine
-* CBC
-* Serum calcium
-* Uric acid
-* Electrolytes
-* Stone analysis
-* Twenty-four-hour urine for recurrent stones
+BUN and creatinine, CBC, serum calcium, uric acid, electrolytes, stone analysis, and a twenty-four-hour urine for recurrent stones.
 
 </div>
-
 </div>
 
-#### Twenty-Four-Hour Urine Collection
+<h5>Twenty-four-hour urine collection</h5>
 
 1. Begin at the ordered time.
 2. Have the client void and discard the first specimen.
@@ -454,6 +275,8 @@ CT commonly identifies the stone’s size and location.
 <strong>NCLEX:</strong> Severe flank pain plus fever, chills, or decreased urine output is more urgent than pain alone because it may indicate infection with obstruction.
 </div>
 
+</section>
+
 </div>
 
 <div class="mh-detail pink" id="panel-treatment" markdown="1">
@@ -461,225 +284,155 @@ CT commonly identifies the stone’s size and location.
 
 ### Treatment and Nursing Care
 
-Treatment depends on the stone’s size, location, composition, symptoms, and whether it is obstructing the urinary tract. Larger or obstructing stones may require urgent treatment.
+<section class="renal-note-section" markdown="1">
+
+Treatment depends on the stone's size, location, composition, symptoms, and whether it is obstructing the urinary tract. Larger or obstructing stones may require urgent treatment.
 
 <div class="renal-two-column" markdown="1">
-
 <div markdown="1">
 ##### Pain Control
 
-Possible medications include:
-
-* NSAIDs
-* Opioids for severe pain
-* Antispasmodics when prescribed
-* Antiemetics for nausea and vomiting
-
-Reassess pain and response to medication.
+Possible medications include NSAIDs, opioids for severe pain, antispasmodics when prescribed, and antiemetics for nausea and vomiting. Reassess pain and response to medication.
 
 </div>
-
 <div markdown="1">
 ##### Hydration
 
-* Encourage prescribed fluid intake.
-* Many clients are instructed to produce a high urine volume.
+* Encourage prescribed fluid intake; many clients are instructed to produce a high urine volume.
 * Fluids dilute urine and help prevent recurrence.
 * Do not force large fluid volumes during complete obstruction.
 * Follow restrictions for heart or kidney failure.
 
 </div>
-
 <div markdown="1">
 ##### Strain All Urine
 
 * Use a urine strainer with every void.
-* Save any stone or fragments.
-* Send stones to the laboratory.
+* Save any stone or fragments and send them to the laboratory.
 * Stone composition guides prevention teaching.
 * Continue straining after procedures if ordered.
 
 </div>
-
 <div markdown="1">
 ##### Mobility
 
-* Ambulate as tolerated.
-* Change position frequently.
+* Ambulate as tolerated and change position frequently.
 * Movement may help a small stone progress.
 * Follow activity restrictions after a procedure.
 * Do not force activity during severe pain or instability.
 
 </div>
-
 </div>
+
+</section>
+
+<section class="renal-note-section" markdown="1">
 
 #### Medications
 
 <div class="renal-two-column" markdown="1">
-
 <div markdown="1">
-##### Alpha Blocker
+##### Alpha Blocker (Tamsulosin)
 
-Example: **Tamsulosin**
-
-* Relaxes smooth muscle in the ureter.
-* May help some ureteral stones pass.
-* Monitor for dizziness and orthostatic hypotension.
-* Teach the client to rise slowly.
+Relaxes smooth muscle in the ureter and may help some ureteral stones pass. Monitor for dizziness and orthostatic hypotension, and teach the client to rise slowly.
 
 </div>
-
 <div markdown="1">
 ##### Allopurinol
 
-* Decreases uric acid production.
-* May prevent recurrent uric acid stones.
-* Not an immediate pain medication.
-* Encourage prescribed fluids.
-* Report rash immediately.
+Decreases uric acid production and may prevent recurrent uric acid stones. It is not an immediate pain medication. Encourage prescribed fluids and report rash immediately.
 
 </div>
-
 <div markdown="1">
-##### Thiazide Diuretic
+##### Thiazide Diuretic (Hydrochlorothiazide)
 
-Example: **Hydrochlorothiazide**
-
-* May reduce urinary calcium.
-* May help prevent recurrent calcium stones.
-* Monitor blood pressure and electrolytes.
-* Teach about dizziness and dehydration.
+May reduce urinary calcium and help prevent recurrent calcium stones. Monitor blood pressure and electrolytes, and teach about dizziness and dehydration.
 
 </div>
-
 <div markdown="1">
 ##### Antibiotics
 
-* Used when a urinary infection is present.
-* Obtain urine culture when possible.
-* Complete the full prescription.
-* Antibiotics do not remove an obstructing stone.
-* Infected obstruction may require urgent drainage.
+Used when a urinary infection is present; obtain a urine culture when possible and complete the full prescription. Antibiotics do not remove an obstructing stone, and an infected obstruction may require urgent drainage.
 
 </div>
-
 </div>
+
+</section>
+
+<section class="renal-note-section" markdown="1">
 
 #### General Prevention Teaching
 
 * Drink enough fluid to maintain pale urine unless restricted.
 * Increase water intake during exercise, hot weather, fever, or heavy sweating.
-* Reduce excess sodium.
-* Avoid excessive animal-protein intake.
+* Reduce excess sodium and avoid excessive animal-protein intake.
 * Maintain a healthy weight.
 * Do not take unnecessary calcium or vitamin D supplements.
 * Maintain normal dietary calcium unless instructed otherwise.
 * Follow teaching based on the confirmed stone type.
 * Report recurrent pain, blood in urine, fever, or difficulty urinating.
 
-#### Calcium Oxalate Stone Teaching
+</section>
+
+<section class="renal-note-section" markdown="1">
+
+#### Stone-Specific Prevention Teaching
+
+<h5>Calcium oxalate stones</h5>
 
 <div class="renal-two-column" markdown="1">
-
 <div markdown="1">
 ##### Limit Excess Sodium
 
-High sodium intake increases urinary calcium.
-
-Limit:
-
-* Processed meat
-* Canned soup
-* Fast food
-* Chips
-* Frozen meals
-* Highly salted foods
+High sodium intake increases urinary calcium. Limit processed meat, canned soup, fast food, chips, frozen meals, and highly salted foods.
 
 </div>
-
 <div markdown="1">
 ##### Oxalate Foods
 
-The provider or dietitian may instruct the client to limit:
-
-* Spinach
-* Rhubarb
-* Beets
-* Nuts
-* Wheat bran
-* Chocolate
-* Tea
-
-The client does not need to eliminate every plant food unless specifically instructed.
+The provider or dietitian may instruct the client to limit spinach, rhubarb, beets, nuts, wheat bran, chocolate, and tea. The client does not need to eliminate every plant food unless specifically instructed.
 
 </div>
-
 <div markdown="1">
 ##### Calcium Intake
 
-* Maintain normal calcium from food.
-* Food calcium binds oxalate in the intestine.
-* Avoid excessive calcium supplements.
-* Take supplements with meals if prescribed.
-* Follow the provider’s individualized plan.
+Maintain normal calcium from food because food calcium binds oxalate in the intestine. Avoid excessive calcium supplements, take supplements with meals if prescribed, and follow the provider's individualized plan.
 
 </div>
-
 <div markdown="1">
 ##### Fluids
 
-* Water is the main prevention measure.
-* Spread fluids throughout the day.
-* Additional fluid may be required in hot weather.
-* Follow provider instructions for daily volume.
+Water is the main prevention measure. Spread fluids throughout the day, add fluid in hot weather, and follow provider instructions for daily volume.
 
 </div>
-
 </div>
 
 <div class="renal-two-column" markdown="1">
-
 <div markdown="1">
-##### Uric Acid Stone Teaching
+##### Uric Acid Stones
 
-* Reduce excessive red meat and organ meat.
-* Limit large amounts of shellfish and certain fish.
-* Limit beer and excessive alcohol.
-* Maintain hydration.
-* Take allopurinol if prescribed.
-* Medications may be prescribed to make the urine less acidic.
-* Manage gout, diabetes, and metabolic conditions.
+Reduce excessive red meat and organ meat; limit large amounts of shellfish and certain fish; limit beer and excessive alcohol; maintain hydration; take allopurinol if prescribed; medications may be prescribed to make the urine less acidic; and manage gout, diabetes, and metabolic conditions.
 
 </div>
-
 <div markdown="1">
-##### Struvite Stone Teaching
+##### Struvite Stones
 
-* Report UTI symptoms promptly.
-* Complete prescribed antibiotics.
-* Attend follow-up imaging and urine testing.
-* The stone may require removal because antibiotics alone may not eliminate it.
-* Recurrent infection increases recurrence risk.
+Report UTI symptoms promptly, complete prescribed antibiotics, and attend follow-up imaging and urine testing. The stone may require removal because antibiotics alone may not eliminate it, and recurrent infection increases recurrence risk.
 
 </div>
-
 <div markdown="1">
-##### Cystine Stone Teaching
+##### Cystine Stones
 
-* Very high fluid intake may be prescribed.
-* Fluids may be needed throughout the day and at bedtime.
-* Medications may be prescribed to alkalinize the urine.
-* Keep all specialist and laboratory appointments.
-* Family members may require evaluation for the inherited condition.
+Very high fluid intake may be prescribed, including fluids throughout the day and at bedtime. Medications may be prescribed to alkalinize the urine, keep all specialist and laboratory appointments, and family members may require evaluation for the inherited condition.
 
 </div>
-
 </div>
 
 <div class="detail-callout" markdown="1">
 <strong>ATI Priority:</strong> The most universal prevention strategy is adequate fluid intake, but diet and medication teaching must be based on the actual stone type.
 </div>
+
+</section>
 
 </div>
 
@@ -688,21 +441,19 @@ The client does not need to eliminate every plant food unless specifically instr
 
 ### Procedures for Kidney Stones
 
-Procedures may be needed when a stone:
+<section class="renal-note-section" markdown="1">
 
-* Is too large to pass
-* Causes severe or uncontrolled pain
-* Blocks urine flow
-* Causes infection
-* Damages kidney function
-* Does not pass with conservative treatment
+Procedures may be needed when a stone is too large to pass, causes severe or uncontrolled pain, blocks urine flow, causes infection, damages kidney function, or does not pass with conservative treatment.
 
-#### Extracorporeal Shock-Wave Lithotripsy
+</section>
 
-**ESWL** uses shock waves from outside the body to break a stone into smaller fragments that can pass through the urinary tract.
+<section class="renal-note-section" markdown="1">
+
+#### Extracorporeal Shock-Wave Lithotripsy (ESWL)
+
+ESWL uses shock waves from outside the body to break a stone into smaller fragments that can pass through the urinary tract.
 
 <div class="renal-two-column" markdown="1">
-
 <div markdown="1">
 ##### Before the Procedure
 
@@ -713,7 +464,6 @@ Procedures may be needed when a stone:
 * Explain that fragments must still pass afterward.
 
 </div>
-
 <div markdown="1">
 ##### Expected Afterward
 
@@ -724,19 +474,16 @@ Procedures may be needed when a stone:
 * Colicky discomfort as fragments move
 
 </div>
-
 <div markdown="1">
 ##### Nursing Care
 
 * Encourage prescribed fluids.
-* Strain all urine.
+* Strain all urine and save stone fragments.
 * Administer pain medication.
 * Encourage mobility as allowed.
 * Monitor urine output.
-* Save stone fragments.
 
 </div>
-
 <div markdown="1">
 ##### Report
 
@@ -748,26 +495,21 @@ Procedures may be needed when a stone:
 * Persistent vomiting
 
 </div>
-
 </div>
 
 <div class="detail-callout" markdown="1">
 <strong>Key Point:</strong> Lithotripsy breaks the stone into smaller pieces, but the client usually still has to pass the fragments. Hematuria can occur after treatment.
 </div>
 
+</section>
+
+<section class="renal-note-section" markdown="1">
+
 #### Ureteroscopy
 
-A thin scope is inserted through the urethra and bladder into the ureter or kidney.
-
-The provider may:
-
-* Remove the stone with a basket
-* Break the stone with a laser
-* Place a ureteral stent
-* Remove fragments
+A thin scope is inserted through the urethra and bladder into the ureter or kidney. The provider may remove the stone with a basket, break the stone with a laser, place a ureteral stent, or remove fragments.
 
 <div class="renal-two-column" markdown="1">
-
 <div markdown="1">
 ##### Expected Afterward
 
@@ -778,7 +520,6 @@ The provider may:
 * Stent awareness
 
 </div>
-
 <div markdown="1">
 ##### Nursing Care
 
@@ -790,18 +531,15 @@ The provider may:
 * Teach stent follow-up.
 
 </div>
-
 <div markdown="1">
 ##### Stent Teaching
 
 * A stent keeps urine flowing around swelling or fragments.
-* Frequency and urgency may occur.
-* Mild blood in urine can occur.
+* Frequency and urgency may occur, and mild blood in urine can occur.
 * The stent must be removed or exchanged as scheduled.
 * Do not miss the follow-up appointment.
 
 </div>
-
 <div markdown="1">
 ##### Report
 
@@ -813,52 +551,38 @@ The provider may:
 * Stent displacement
 
 </div>
-
 </div>
+
+</section>
+
+<section class="renal-note-section" markdown="1">
 
 #### Percutaneous Nephrolithotomy
 
 A small incision is made through the back into the kidney to remove a large or complex stone.
 
 <div class="renal-two-column" markdown="1">
-
 <div markdown="1">
 ##### Why It Is Used
 
-* Large stones
-* Staghorn stones
-* Stones not suitable for ESWL
-* Complex kidney stones
-* Need for direct removal
+Large stones, staghorn stones, stones not suitable for ESWL, complex kidney stones, and the need for direct removal.
 
 </div>
-
 <div markdown="1">
 ##### Postoperative Care
 
-* Monitor vital signs.
-* Monitor urine output.
-* Assess dressing and incision.
-* Monitor for bleeding.
-* Manage pain.
-* Monitor kidney function.
+* Monitor vital signs and urine output.
+* Assess the dressing and incision, and monitor for bleeding.
+* Manage pain and monitor kidney function.
 * Encourage prescribed fluids.
 
 </div>
-
 <div markdown="1">
 ##### Nephrostomy Tube
 
-A tube may drain urine directly from the kidney.
-
-* Keep tubing secure.
-* Keep drainage bag below kidney level.
-* Avoid kinks.
-* Measure output.
-* Assess color and clarity.
+A tube may drain urine directly from the kidney. Keep tubing secure, keep the drainage bag below kidney level, avoid kinks, measure output, and assess color and clarity.
 
 </div>
-
 <div markdown="1">
 ##### Report
 
@@ -870,14 +594,12 @@ A tube may drain urine directly from the kidney.
 * Urine leaking around the tube
 
 </div>
-
 </div>
 
-#### Nephrostomy Tube Safety
+<h5>Nephrostomy tube safety</h5>
 
 * Do not clamp the tube unless specifically ordered.
-* Do not irrigate unless prescribed.
-* Use sterile technique for ordered irrigation.
+* Do not irrigate unless prescribed, and use sterile technique for ordered irrigation.
 * Never force irrigation against resistance.
 * Secure the tube to prevent pulling.
 * Document output separately from bladder urine.
@@ -886,6 +608,8 @@ A tube may drain urine directly from the kidney.
 <div class="detail-callout" markdown="1">
 <strong>NCLEX:</strong> After any stone procedure, fever, absent urine output, uncontrolled pain, or heavy bleeding is more concerning than mild hematuria or temporary burning.
 </div>
+
+</section>
 
 </div>
 

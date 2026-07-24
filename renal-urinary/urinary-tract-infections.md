@@ -51,19 +51,11 @@ A **urinary tract infection (UTI)** occurs when microorganisms enter and multipl
 
 ### Cystitis: Lower Urinary Tract Infection
 
+<section class="renal-note-section" markdown="1">
+
+Cystitis is infection and inflammation of the bladder, usually caused by bacteria entering through the urethra. It is the most common type of UTI and can spread upward into the kidneys if untreated. Women are affected more often because the urethra is shorter and closer to the rectum.
+
 <div class="renal-two-column" markdown="1">
-
-<div markdown="1">
-##### What It Is
-
-* Infection and inflammation of the bladder.
-* Usually caused by bacteria entering through the urethra.
-* The most common type of UTI.
-* Can spread upward into the kidneys if untreated.
-* Women are affected more often because the urethra is shorter and closer to the rectum.
-
-</div>
-
 <div markdown="1">
 ##### Common Causes / Risk Factors
 
@@ -73,8 +65,7 @@ A **urinary tract infection (UTI)** occurs when microorganisms enter and multipl
 * Pregnancy
 * Menopause
 * Poor perineal hygiene
-* Urinary retention
-* Incomplete bladder emptying
+* Urinary retention or incomplete bladder emptying
 * Enlarged prostate
 * Kidney stones or obstruction
 * Diabetes mellitus
@@ -82,22 +73,6 @@ A **urinary tract infection (UTI)** occurs when microorganisms enter and multipl
 * Dehydration
 
 </div>
-
-<div markdown="1">
-##### Expected Manifestations
-
-* Urinary frequency
-* Urinary urgency
-* Dysuria: pain or burning with urination
-* Suprapubic pain or tenderness
-* Small amounts of urine with each void
-* Cloudy urine
-* Strong-smelling urine
-* Hematuria
-* Pyuria
-
-</div>
-
 <div markdown="1">
 ##### Priority Concerns
 
@@ -110,74 +85,44 @@ A **urinary tract infection (UTI)** occurs when microorganisms enter and multipl
 * Sepsis in a vulnerable client
 
 </div>
+</div>
+
+</section>
+
+<section class="renal-note-section" markdown="1">
+
+#### Manifestations
+
+Typical findings include urinary frequency, urgency, dysuria, suprapubic pain or tenderness, small amounts of urine with each void, cloudy or strong-smelling urine, hematuria, and pyuria.
+
+<div class="detail-table" markdown="1">
+
+| Finding | PN-Level Meaning |
+|---|---|
+| **Frequency** | The client urinates more often than usual. |
+| **Urgency** | The client feels a sudden, strong need to urinate. |
+| **Dysuria** | Burning or pain occurs during urination. |
+| **Suprapubic tenderness** | Pain or pressure is felt over the bladder. |
+| **Pyuria** | White blood cells or pus are present in the urine. |
+| **Hematuria** | Blood is present in the urine. |
+| **Cloudy or strong-smelling urine** | May occur with infection, but should be considered with the complete assessment. |
+| **Fever or flank pain** | May indicate the infection has moved upward to the kidneys. |
 
 </div>
 
-<div class="detail-table">
-  <table>
-    <thead>
-      <tr>
-        <th>Finding</th>
-        <th>PN-Level Meaning</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><strong>Frequency</strong></td>
-        <td>The client urinates more often than usual.</td>
-      </tr>
-      <tr>
-        <td><strong>Urgency</strong></td>
-        <td>The client feels a sudden, strong need to urinate.</td>
-      </tr>
-      <tr>
-        <td><strong>Dysuria</strong></td>
-        <td>Burning or pain occurs during urination.</td>
-      </tr>
-      <tr>
-        <td><strong>Suprapubic tenderness</strong></td>
-        <td>Pain or pressure is felt over the bladder.</td>
-      </tr>
-      <tr>
-        <td><strong>Pyuria</strong></td>
-        <td>White blood cells or pus are present in the urine.</td>
-      </tr>
-      <tr>
-        <td><strong>Hematuria</strong></td>
-        <td>Blood is present in the urine.</td>
-      </tr>
-      <tr>
-        <td><strong>Cloudy or strong-smelling urine</strong></td>
-        <td>May occur with infection, but should be considered with the complete assessment.</td>
-      </tr>
-      <tr>
-        <td><strong>Fever or flank pain</strong></td>
-        <td>May indicate the infection has moved upward to the kidneys.</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+</section>
+
+<section class="renal-note-section" markdown="1">
 
 #### Diagnostics
 
 <div class="renal-two-column" markdown="1">
-
 <div markdown="1">
 ##### Urinalysis
 
-May show:
-
-* Leukocyte esterase
-* Nitrites
-* White blood cells
-* Bacteria
-* Blood
-* Cloudy appearance
-
-A urinalysis supports the diagnosis but does not identify the exact antibiotic sensitivity.
+May show leukocyte esterase, nitrites, white blood cells, bacteria, blood, and a cloudy appearance. A urinalysis supports the diagnosis but does not identify the exact antibiotic sensitivity.
 
 </div>
-
 <div markdown="1">
 ##### Urine Culture & Sensitivity
 
@@ -187,57 +132,33 @@ A urinalysis supports the diagnosis but does not identify the exact antibiotic s
 * Do not delay emergency treatment in a severely ill client.
 
 </div>
-
 <div markdown="1">
 ##### Additional Testing
 
-May be needed for:
-
-* Recurrent UTIs
-* Suspected obstruction
-* Kidney stones
-* Male clients
-* Pregnancy
-* Unusual organisms
-* Failure to improve
+May be needed for recurrent UTIs, suspected obstruction, kidney stones, male clients, pregnancy, unusual organisms, or failure to improve.
 
 </div>
-
 <div markdown="1">
 ##### Monitor
 
-* Temperature
-* Pain
-* Urinary symptoms
-* Intake and output
-* Urine appearance
-* Hydration
-* Response to antibiotics
-* Signs of kidney involvement
+Temperature, pain, urinary symptoms, intake and output, urine appearance, hydration, response to antibiotics, and signs of kidney involvement.
 
 </div>
-
 </div>
+
+</section>
+
+<section class="renal-note-section" markdown="1">
 
 #### Medications
 
 <div class="renal-two-column" markdown="1">
-
 <div markdown="1">
 ##### Antibiotics
 
-Possible medications include:
-
-* Nitrofurantoin
-* Trimethoprim-sulfamethoxazole
-* Fosfomycin
-* Cephalosporins
-* Amoxicillin or other antibiotics when appropriate
-
-The medication selected depends on the organism, culture results, allergies, kidney function, pregnancy status, and local resistance patterns.
+Possible medications include nitrofurantoin, trimethoprim-sulfamethoxazole, fosfomycin, cephalosporins, and amoxicillin or others. The medication selected depends on the organism, culture results, allergies, kidney function, pregnancy status, and local resistance patterns.
 
 </div>
-
 <div markdown="1">
 ##### Antibiotic Teaching
 
@@ -249,42 +170,36 @@ The medication selected depends on the organism, culture results, allergies, kid
 * A culture may cause the provider to change the antibiotic.
 
 </div>
-
 <div markdown="1">
-##### Phenazopyridine
+##### Phenazopyridine (Pyridium)
 
-Trade name: **Pyridium**
-
-* Urinary tract analgesic.
-* Relieves burning, pain, urgency, and frequency.
-* Does not kill bacteria.
-* Does not replace an antibiotic.
+* Urinary tract analgesic that relieves burning, pain, urgency, and frequency.
+* Does not kill bacteria and does not replace an antibiotic.
 * Usually used only for short-term symptom relief.
 
 </div>
-
 <div markdown="1">
 ##### Phenazopyridine Teaching
 
-* Urine becomes bright orange or red-orange.
-* May stain clothing.
-* May stain contact lenses.
+* Urine becomes bright orange or red-orange and may stain clothing and contact lenses.
 * Take with or after food to reduce GI upset.
 * Report yellow skin or sclera.
 * Avoid in significant renal impairment.
 
 </div>
-
 </div>
 
 <div class="detail-callout" markdown="1">
 <strong>Medication Distinction:</strong> The antibiotic treats the organism. Phenazopyridine only decreases urinary discomfort while the antibiotic begins working.
 </div>
 
+</section>
+
+<section class="renal-note-section" markdown="1">
+
 #### Nursing Interventions
 
 <div class="renal-two-column" markdown="1">
-
 <div markdown="1">
 ##### Assessment
 
@@ -296,64 +211,53 @@ Trade name: **Pyridium**
 * Review UTI history and antibiotic allergies.
 
 </div>
-
 <div markdown="1">
 ##### Hydration
 
-* Encourage fluids unless contraindicated.
-* Water is generally preferred.
+* Encourage fluids unless contraindicated; water is generally preferred.
 * Increased fluid intake promotes urine flow.
 * Monitor carefully if the client has heart failure or kidney disease.
 * Do not push fluids when the client has a fluid restriction.
 
 </div>
-
 <div markdown="1">
 ##### Comfort Measures
 
-* Give prescribed urinary analgesic.
-* Give prescribed pain medication.
+* Give the prescribed urinary analgesic and pain medication.
 * Encourage regular bladder emptying.
 * A heating pad may be ordered for suprapubic discomfort.
 * Avoid bladder irritants if they worsen symptoms.
 
 </div>
-
 <div markdown="1">
-##### Evaluation
+##### Expected Improvement
 
-Expected improvement includes:
-
-* Less burning
-* Less urgency and frequency
-* Decreased suprapubic discomfort
-* Afebrile status
-* Clearer urine
-* Adequate urine output
-* No flank pain
+Less burning, less urgency and frequency, decreased suprapubic discomfort, afebrile status, clearer urine, adequate urine output, and no flank pain.
 
 </div>
-
 </div>
+
+</section>
+
+<section class="renal-note-section" markdown="1">
 
 #### Patient Education and Prevention
 
 * Drink adequate fluids unless restricted.
-* Do not delay urination when the urge occurs.
-* Empty the bladder completely.
+* Do not delay urination when the urge occurs, and empty the bladder completely.
 * Wipe from front to back.
 * Avoid irritating feminine hygiene products.
 * Urinate after sexual activity.
-* Wear breathable cotton underwear.
-* Avoid prolonged exposure to wet clothing.
+* Wear breathable cotton underwear and avoid prolonged exposure to wet clothing.
 * Take showers rather than prolonged baths if baths worsen recurrent infections.
-* Complete all prescribed antibiotics.
-* Contact the provider if symptoms return.
+* Complete all prescribed antibiotics and contact the provider if symptoms return.
 * Seek care promptly for fever, chills, flank pain, nausea, or vomiting.
 
 <div class="detail-callout" markdown="1">
 <strong>NCLEX:</strong> Frequency, urgency, dysuria, and suprapubic discomfort suggest a lower UTI. Fever, chills, nausea, vomiting, or flank pain suggest kidney involvement.
 </div>
+
+</section>
 
 </div>
 
@@ -362,19 +266,11 @@ Expected improvement includes:
 
 ### Pyelonephritis: Kidney Infection
 
+<section class="renal-note-section" markdown="1">
+
+Pyelonephritis is infection and inflammation of the renal pelvis and kidney tissue. It often begins as a lower UTI or bladder infection, with bacteria traveling upward through the ureters. It is more serious than cystitis and can cause kidney damage or sepsis if not treated.
+
 <div class="renal-two-column" markdown="1">
-
-<div markdown="1">
-##### What It Is
-
-* Infection and inflammation of the renal pelvis and kidney tissue.
-* Often begins as a lower UTI or bladder infection.
-* Bacteria travel upward through the ureters.
-* More serious than cystitis.
-* Can cause kidney damage or sepsis if not treated.
-
-</div>
-
 <div markdown="1">
 ##### Risk Factors / Causes
 
@@ -390,23 +286,6 @@ Expected improvement includes:
 * Immunosuppression
 
 </div>
-
-<div markdown="1">
-##### Expected Manifestations
-
-* Fever
-* Chills
-* Flank or back pain
-* Costovertebral-angle tenderness
-* Nausea
-* Vomiting
-* Malaise
-* Dysuria
-* Frequency and urgency
-* Cloudy or bloody urine
-
-</div>
-
 <div markdown="1">
 ##### Priority Concerns
 
@@ -419,63 +298,44 @@ Expected improvement includes:
 * Permanent kidney damage
 
 </div>
+</div>
+
+Expected manifestations include fever, chills, flank or back pain, costovertebral-angle tenderness, nausea, vomiting, malaise, dysuria, frequency and urgency, and cloudy or bloody urine.
+
+</section>
+
+<section class="renal-note-section" markdown="1">
+
+#### Cystitis vs. Pyelonephritis
+
+<div class="detail-table" markdown="1">
+
+| Cystitis | Pyelonephritis |
+|---|---|
+| Lower urinary tract | Upper urinary tract and kidneys |
+| Frequency and urgency | Frequency and urgency may still occur |
+| Burning with urination | Burning may occur with systemic symptoms |
+| Suprapubic discomfort | Flank, back, or costovertebral pain |
+| Usually no significant systemic illness | Fever, chills, nausea, vomiting, and malaise |
+| Usually treated as an outpatient | May require hospitalization and IV therapy |
 
 </div>
 
-<div class="detail-table">
-  <table>
-    <thead>
-      <tr>
-        <th>Cystitis</th>
-        <th>Pyelonephritis</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Lower urinary tract</td>
-        <td>Upper urinary tract and kidneys</td>
-      </tr>
-      <tr>
-        <td>Frequency and urgency</td>
-        <td>Frequency and urgency may still occur</td>
-      </tr>
-      <tr>
-        <td>Burning with urination</td>
-        <td>Burning may occur with systemic symptoms</td>
-      </tr>
-      <tr>
-        <td>Suprapubic discomfort</td>
-        <td>Flank, back, or costovertebral pain</td>
-      </tr>
-      <tr>
-        <td>Usually no significant systemic illness</td>
-        <td>Fever, chills, nausea, vomiting, and malaise</td>
-      </tr>
-      <tr>
-        <td>Usually treated as an outpatient</td>
-        <td>May require hospitalization and IV therapy</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+<h5>Costovertebral-angle (CVA) tenderness</h5>
 
-#### Costovertebral-Angle Tenderness
-
-The costovertebral angle is located over the kidney area at the back, below the ribs.
-
-* Tenderness with gentle percussion supports possible kidney involvement.
-* Do not repeatedly or forcefully strike a painful area.
-* Assess both sides and compare.
-* Document the location and severity of pain.
+The costovertebral angle is located over the kidney area at the back, below the ribs. Tenderness with gentle percussion supports possible kidney involvement. Do not repeatedly or forcefully strike a painful area; assess both sides and compare, and document the location and severity of pain.
 
 <div class="detail-callout" markdown="1">
 <strong>Class Cue:</strong> A history of bladder infection plus fever, flank pain, and costovertebral-angle tenderness points toward pyelonephritis.
 </div>
 
+</section>
+
+<section class="renal-note-section" markdown="1">
+
 #### Diagnostics and Treatment
 
 <div class="renal-two-column" markdown="1">
-
 <div markdown="1">
 ##### Diagnostics
 
@@ -487,7 +347,6 @@ The costovertebral angle is located over the kidney area at the back, below the 
 * Imaging if obstruction, stone, or abscess is suspected
 
 </div>
-
 <div markdown="1">
 ##### Antibiotic Therapy
 
@@ -498,59 +357,37 @@ The costovertebral angle is located over the kidney area at the back, below the 
 * Complete the entire prescribed course.
 
 </div>
-
 <div markdown="1">
 ##### Supportive Care
 
-* IV or oral fluids as appropriate
-* Antipyretics
-* Pain control
-* Antiemetics
-* Rest
-* Monitoring intake and output
-* Treatment of obstruction when present
+IV or oral fluids as appropriate, antipyretics, pain control, antiemetics, rest, monitoring of intake and output, and treatment of obstruction when present.
 
 </div>
-
 <div markdown="1">
 ##### Hospitalization May Be Needed
 
-* Severe nausea or vomiting
-* Inability to take oral medication
-* Dehydration
-* Pregnancy
-* Sepsis
-* Obstruction
-* Unstable vital signs
-* Significant comorbid illness
+Severe nausea or vomiting, inability to take oral medication, dehydration, pregnancy, sepsis, obstruction, unstable vital signs, or significant comorbid illness.
 
 </div>
-
 </div>
 
-<div class="renal-two-column" markdown="1">
-
-<div markdown="1">
-##### Nursing Interventions
+<h5>Nursing interventions</h5>
 
 * Monitor temperature, pulse, respirations, blood pressure, and oxygen saturation.
-* Assess flank pain and costovertebral-angle tenderness.
-* Monitor mental status.
+* Assess flank pain and costovertebral-angle tenderness, and monitor mental status.
 * Obtain urine and blood cultures as ordered before antibiotics when possible.
 * Administer antibiotics on schedule.
-* Monitor intake and output.
-* Encourage fluids if not contraindicated.
+* Monitor intake and output and encourage fluids if not contraindicated.
 * Monitor kidney-function tests.
 * Administer antipyretics, analgesics, and antiemetics as ordered.
-* Assess for urinary obstruction.
-* Watch closely for sepsis.
+* Assess for urinary obstruction and watch closely for sepsis.
 
-</div>
+</section>
 
-<div markdown="1">
-##### Sepsis Warning Signs
+<section class="renal-note-section" markdown="1">
 
-Report or escalate immediately for:
+<div class="report-now" markdown="1">
+<h3>Sepsis Warning Signs — Report Immediately</h3>
 
 * Hypotension
 * Tachycardia
@@ -564,11 +401,11 @@ Report or escalate immediately for:
 
 </div>
 
-</div>
-
 <div class="detail-callout" markdown="1">
 <strong>NCLEX Priority:</strong> A client with pyelonephritis who develops hypotension, confusion, tachycardia, or decreased urine output may be developing sepsis.
 </div>
+
+</section>
 
 </div>
 
@@ -577,12 +414,17 @@ Report or escalate immediately for:
 
 ### Urine Collection and Culture
 
+<section class="renal-note-section" markdown="1">
+
 A contaminated specimen can produce inaccurate results. Use proper collection technique and send the specimen to the laboratory promptly.
+
+</section>
+
+<section class="renal-note-section" markdown="1">
 
 #### Clean-Catch Midstream Specimen
 
 <div class="renal-two-column" markdown="1">
-
 <div markdown="1">
 ##### Female Client
 
@@ -596,7 +438,6 @@ A contaminated specimen can produce inaccurate results. Use proper collection te
 8. Finish voiding into the toilet.
 
 </div>
-
 <div markdown="1">
 ##### Male Client
 
@@ -609,7 +450,6 @@ A contaminated specimen can produce inaccurate results. Use proper collection te
 7. Return the foreskin to its normal position.
 
 </div>
-
 <div markdown="1">
 ##### Do Not
 
@@ -620,7 +460,6 @@ A contaminated specimen can produce inaccurate results. Use proper collection te
 * Leave the specimen sitting at room temperature for an extended period.
 
 </div>
-
 <div markdown="1">
 ##### After Collection
 
@@ -631,13 +470,15 @@ A contaminated specimen can produce inaccurate results. Use proper collection te
 * Refrigerate according to policy if transport is delayed.
 
 </div>
-
 </div>
+
+</section>
+
+<section class="renal-note-section" markdown="1">
 
 #### Specimen From an Indwelling Catheter
 
 <div class="renal-two-column" markdown="1">
-
 <div markdown="1">
 ##### Correct Method
 
@@ -649,7 +490,6 @@ A contaminated specimen can produce inaccurate results. Use proper collection te
 * Transfer it to the specimen container.
 
 </div>
-
 <div markdown="1">
 ##### Never Collect From
 
@@ -661,7 +501,6 @@ A contaminated specimen can produce inaccurate results. Use proper collection te
 Urine in the drainage bag is old and may be contaminated.
 
 </div>
-
 <div markdown="1">
 ##### Catheter Care
 
@@ -673,21 +512,19 @@ Urine in the drainage bag is old and may be contaminated.
 * Remove the catheter as soon as it is no longer needed.
 
 </div>
-
 <div markdown="1">
 ##### Why It Matters
 
-Indwelling catheters increase the risk of infection because microorganisms can enter the urinary tract along the catheter.
-
-The best prevention is avoiding unnecessary catheterization and removing the catheter promptly.
+Indwelling catheters increase the risk of infection because microorganisms can enter the urinary tract along the catheter. The best prevention is avoiding unnecessary catheterization and removing the catheter promptly.
 
 </div>
-
 </div>
 
 <div class="detail-callout" markdown="1">
 <strong>NCLEX:</strong> Never obtain a urine culture from the drainage bag. Clean the sampling port and collect fresh urine using sterile technique.
 </div>
+
+</section>
 
 </div>
 

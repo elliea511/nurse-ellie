@@ -53,111 +53,60 @@ For the PN unit exam, the major focus is **acute post-streptococcal glomerulonep
 
 ### Cause and Pathophysiology
 
+<section class="renal-note-section" markdown="1">
+
+Glomerulonephritis is inflammation of the glomeruli, the structures that normally filter the blood. Inflammation makes the filters more permeable, so blood and protein leak into the urine, kidney filtration decreases, and sodium, water, and wastes remain in the body.
+
 <div class="renal-two-column" markdown="1">
-
-<div markdown="1">
-##### What It Is
-
-* Inflammation of the glomeruli.
-* The glomeruli normally filter the blood.
-* Inflammation makes the filters more permeable.
-* Blood and protein leak into the urine.
-* Kidney filtration decreases.
-* Sodium, water, and wastes remain in the body.
-
-</div>
-
 <div markdown="1">
 ##### Post-Streptococcal Cause
 
-May occur after:
-
-* Streptococcal pharyngitis
-* Strep throat
-* Scarlet fever
-* Streptococcal skin infection
-* Impetigo
-
-It commonly develops after the original infection has already begun improving.
+May occur after streptococcal pharyngitis, strep throat, scarlet fever, a streptococcal skin infection, or impetigo. It commonly develops after the original infection has already begun improving.
 
 </div>
-
 <div markdown="1">
 ##### Immune Response
 
-* The body produces antibodies against group A streptococcus.
-* Antigen-antibody complexes become trapped in the glomeruli.
-* The immune response causes inflammation.
-* The kidney itself is not directly infected with strep bacteria.
-* This is different from pyelonephritis.
+The body produces antibodies against group A streptococcus, and antigen-antibody complexes become trapped in the glomeruli, causing inflammation. The kidney itself is not directly infected with strep bacteria—this is different from pyelonephritis.
+
+</div>
+</div>
+
+Glomerulonephritis is more common in children and often follows a recent throat or skin infection, but adults can also develop it and may have a greater risk of lasting kidney impairment.
+
+</section>
+
+<section class="renal-note-section" markdown="1">
+
+#### Pyelonephritis vs. Glomerulonephritis
+
+<div class="detail-table" markdown="1">
+
+| Pyelonephritis | Glomerulonephritis |
+|---|---|
+| Kidney infection | Inflammation of the kidney filters |
+| Usually caused by bacteria ascending from the bladder | Often caused by an immune reaction after strep |
+| Fever, chills, flank pain, and CVA tenderness | Edema, hypertension, hematuria, and proteinuria |
+| Urinary frequency, urgency, and dysuria may occur | Urine output may decrease |
+| Antibiotics treat the kidney infection | Treatment mainly controls fluid retention and blood pressure |
 
 </div>
 
-<div markdown="1">
-##### Who Is Commonly Affected?
+</section>
 
-* More common in children.
-* Often follows a recent throat or skin infection.
-* Adults can also develop it.
-* Adults may have a greater risk of lasting kidney impairment.
-
-</div>
-
-</div>
-
-<div class="detail-table">
-  <table>
-    <thead>
-      <tr>
-        <th>Pyelonephritis</th>
-        <th>Glomerulonephritis</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Kidney infection</td>
-        <td>Inflammation of the kidney filters</td>
-      </tr>
-      <tr>
-        <td>Usually caused by bacteria ascending from the bladder</td>
-        <td>Often caused by an immune reaction after strep</td>
-      </tr>
-      <tr>
-        <td>Fever, chills, flank pain, and CVA tenderness</td>
-        <td>Edema, hypertension, hematuria, and proteinuria</td>
-      </tr>
-      <tr>
-        <td>Urinary frequency, urgency, and dysuria may occur</td>
-        <td>Urine output may decrease</td>
-      </tr>
-      <tr>
-        <td>Antibiotics treat the kidney infection</td>
-        <td>Treatment mainly controls fluid retention and blood pressure</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+<section class="renal-note-section" markdown="1">
 
 #### Timing After Infection
 
-Post-streptococcal glomerulonephritis may develop:
+Post-streptococcal glomerulonephritis may develop approximately 1 to 2 weeks after strep throat, up to several weeks after a streptococcal skin infection, and after the client thinks the original infection has resolved.
 
-* Approximately 1 to 2 weeks after strep throat
-* Up to several weeks after a streptococcal skin infection
-* After the client thinks the original infection has resolved
-
-Ask about:
-
-* Recent sore throat
-* Recent fever
-* Recent impetigo
-* Recent skin infection
-* Recent antibiotic treatment
-* Family or school exposure to strep
+Ask about a recent sore throat, recent fever, recent impetigo, recent skin infection, recent antibiotic treatment, and family or school exposure to strep.
 
 <div class="detail-callout" markdown="1">
 <strong>Class Cue:</strong> A child who recently had strep throat and now has puffy eyes, hypertension, decreased urine output, and dark urine should be evaluated for acute post-streptococcal glomerulonephritis.
 </div>
+
+</section>
 
 </div>
 
@@ -166,14 +115,11 @@ Ask about:
 
 ### Assessment Findings
 
-The major findings result from:
+<section class="renal-note-section" markdown="1">
 
-1. Blood and protein leaking through the damaged glomeruli
-2. Decreased kidney filtration
-3. Sodium and water retention
+The major findings result from blood and protein leaking through the damaged glomeruli, decreased kidney filtration, and sodium and water retention.
 
 <div class="renal-two-column" markdown="1">
-
 <div markdown="1">
 ##### Urinary Findings
 
@@ -185,7 +131,6 @@ The major findings result from:
 * Increased urine concentration in some clients
 
 </div>
-
 <div markdown="1">
 ##### Fluid Retention
 
@@ -198,7 +143,6 @@ The major findings result from:
 * Possible lung crackles
 
 </div>
-
 <div markdown="1">
 ##### General Findings
 
@@ -212,7 +156,6 @@ The major findings result from:
 * Generalized discomfort
 
 </div>
-
 <div markdown="1">
 ##### Priority Dangers
 
@@ -226,182 +169,95 @@ The major findings result from:
 * Fluid overload
 
 </div>
+</div>
+
+</section>
+
+<section class="renal-note-section" markdown="1">
+
+#### Why the Findings Occur
+
+<div class="detail-table" markdown="1">
+
+| Finding | Why It Occurs |
+|---|---|
+| **Hematuria** | Inflamed glomeruli allow red blood cells to leak into the urine. |
+| **Cola-colored urine** | Blood inside the urine creates a dark or smoky appearance. |
+| **Proteinuria** | Protein leaks through the damaged filtration membrane. |
+| **Oliguria** | Glomerular filtration decreases, producing less urine. |
+| **Edema** | Sodium and water remain in the body. |
+| **Periorbital edema** | Fluid commonly collects around the eyes, especially in the morning. |
+| **Hypertension** | Excess circulating fluid raises blood pressure. |
+| **Weight gain** | Rapid gain usually reflects retained fluid rather than fat. |
+| **Elevated BUN and creatinine** | The kidneys are not filtering metabolic waste effectively. |
 
 </div>
 
-<div class="detail-table">
-  <table>
-    <thead>
-      <tr>
-        <th>Finding</th>
-        <th>Why It Occurs</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><strong>Hematuria</strong></td>
-        <td>Inflamed glomeruli allow red blood cells to leak into the urine.</td>
-      </tr>
-      <tr>
-        <td><strong>Cola-colored urine</strong></td>
-        <td>Blood inside the urine creates a dark or smoky appearance.</td>
-      </tr>
-      <tr>
-        <td><strong>Proteinuria</strong></td>
-        <td>Protein leaks through the damaged filtration membrane.</td>
-      </tr>
-      <tr>
-        <td><strong>Oliguria</strong></td>
-        <td>Glomerular filtration decreases, producing less urine.</td>
-      </tr>
-      <tr>
-        <td><strong>Edema</strong></td>
-        <td>Sodium and water remain in the body.</td>
-      </tr>
-      <tr>
-        <td><strong>Periorbital edema</strong></td>
-        <td>Fluid commonly collects around the eyes, especially in the morning.</td>
-      </tr>
-      <tr>
-        <td><strong>Hypertension</strong></td>
-        <td>Excess circulating fluid raises blood pressure.</td>
-      </tr>
-      <tr>
-        <td><strong>Weight gain</strong></td>
-        <td>Rapid gain usually reflects retained fluid rather than fat.</td>
-      </tr>
-      <tr>
-        <td><strong>Elevated BUN and creatinine</strong></td>
-        <td>The kidneys are not filtering metabolic waste effectively.</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+</section>
 
-#### Expected Laboratory and Diagnostic Findings
+<section class="renal-note-section" markdown="1">
+
+#### Laboratory and Diagnostic Findings
 
 <div class="renal-two-column" markdown="1">
-
 <div markdown="1">
 ##### Urinalysis
 
-May show:
-
-* Blood
-* Protein
-* Red blood cells
-* Red blood cell casts
-* Increased concentration
-* Reduced urine volume
+Blood, protein, red blood cells, red blood cell casts, increased concentration, and reduced urine volume.
 
 </div>
-
 <div markdown="1">
 ##### Kidney Function
 
-May show:
-
-* Elevated BUN
-* Elevated serum creatinine
-* Decreased estimated filtration
-* Electrolyte changes
-* Possible hyperkalemia
+Elevated BUN, elevated serum creatinine, decreased estimated filtration, electrolyte changes, and possible hyperkalemia.
 
 </div>
-
 <div markdown="1">
 ##### Evidence of Recent Strep
 
-Testing may include:
-
-* Throat or skin culture
-* Antistreptolysin O titer
-* Other streptococcal antibody testing
-* History of recent infection
+Throat or skin culture, antistreptolysin O titer, other streptococcal antibody testing, and a history of recent infection.
 
 </div>
-
 <div markdown="1">
 ##### Other Possible Findings
 
-* Decreased complement C3
-* Mild anemia
-* Decreased serum protein
-* Elevated inflammatory markers
-* Chest x-ray if pulmonary edema is suspected
+Decreased complement C3, mild anemia, decreased serum protein, elevated inflammatory markers, and a chest x-ray if pulmonary edema is suspected.
 
 </div>
-
 </div>
+
+</section>
+
+<section class="renal-note-section" markdown="1">
+
+#### Phases
 
 <div class="renal-two-column" markdown="1">
-
 <div markdown="1">
 ##### Acute Edematous Phase
 
-This is the early phase in which kidney filtration is reduced.
-
-Expected findings include:
-
-* Oliguria
-* Hematuria
-* Proteinuria
-* Edema
-* Rapid weight gain
-* Hypertension
-* Elevated BUN and creatinine
-* Possible hyperkalemia
-* Possible fluid overload
+The early phase in which kidney filtration is reduced. Expected findings include oliguria, hematuria, proteinuria, edema, rapid weight gain, hypertension, elevated BUN and creatinine, possible hyperkalemia, and possible fluid overload.
 
 </div>
-
 <div markdown="1">
 ##### Recovery or Diuretic Phase
 
-As kidney filtration improves:
-
-* Urine output increases.
-* Excess fluid begins leaving the body.
-* Edema decreases.
-* Weight decreases.
-* Blood pressure may improve.
-* Kidney-function labs gradually improve.
-
-The client still requires monitoring because excessive diuresis can cause:
-
-* Dehydration
-* Hypotension
-* Electrolyte imbalance
-* Weakness
-* Falls
+As kidney filtration improves, urine output increases, excess fluid begins leaving the body, edema decreases, weight decreases, blood pressure may improve, and kidney-function labs gradually improve. The client still requires monitoring because excessive diuresis can cause dehydration, hypotension, electrolyte imbalance, weakness, and falls.
 
 </div>
-
 </div>
 
 <div class="detail-callout" markdown="1">
 <strong>Phase Comparison:</strong> The acute phase produces oliguria and edema. Improvement is marked by increased urine output and decreasing edema.
 </div>
 
+</section>
+
+<section class="renal-note-section" markdown="1">
+
 #### Focused Nursing Assessment
 
-Assess:
-
-* Blood pressure
-* Heart rate
-* Respiratory rate
-* Oxygen saturation
-* Lung sounds
-* Edema location and severity
-* Daily weight
-* Intake and output
-* Urine color and amount
-* Neurologic status
-* Headache
-* Vision changes
-* Seizure activity
-* Potassium
-* BUN and creatinine
+Assess blood pressure, heart rate, respiratory rate, oxygen saturation, lung sounds, edema location and severity, daily weight, intake and output, urine color and amount, neurologic status, headache, vision changes, seizure activity, potassium, and BUN and creatinine.
 
 <div class="report-now" markdown="1">
 <h3>Report Immediately</h3>
@@ -425,6 +281,8 @@ Assess:
 <strong>NCLEX Priority:</strong> New crackles or shortness of breath in a client with glomerulonephritis can indicate pulmonary edema and takes priority over urine discoloration.
 </div>
 
+</section>
+
 </div>
 
 <div class="mh-detail pink" id="panel-treatment" markdown="1">
@@ -432,41 +290,30 @@ Assess:
 
 ### Treatment and Nursing Care
 
-Treatment focuses on:
+<section class="renal-note-section" markdown="1">
 
-* Controlling fluid retention
-* Managing hypertension
-* Monitoring kidney function
-* Preventing complications
-* Treating any remaining streptococcal infection
-* Supporting the client until kidney function improves
+Treatment focuses on controlling fluid retention, managing hypertension, monitoring kidney function, preventing complications, treating any remaining streptococcal infection, and supporting the client until kidney function improves.
 
 <div class="renal-two-column" markdown="1">
-
 <div markdown="1">
 ##### Intake and Output
 
 * Measure all oral and IV intake.
 * Measure urine output accurately.
-* Note oliguria or anuria.
-* Observe urine color.
+* Note oliguria or anuria and observe urine color.
 * Report sudden changes.
-* Follow prescribed fluid restriction.
+* Follow the prescribed fluid restriction.
 
 </div>
-
 <div markdown="1">
 ##### Daily Weight
 
 * Weigh at the same time every day.
-* Use the same scale.
-* Use similar clothing.
+* Use the same scale and similar clothing.
 * Weigh after voiding when possible.
-* Record trends.
-* Rapid gain suggests fluid retention.
+* Record trends—rapid gain suggests fluid retention.
 
 </div>
-
 <div markdown="1">
 ##### Vital Signs
 
@@ -477,222 +324,131 @@ Treatment focuses on:
 * Report worsening hypertension.
 
 </div>
-
 <div markdown="1">
 ##### Edema and Respiratory Status
 
 * Assess periorbital and dependent edema.
-* Check lung sounds.
-* Monitor oxygen saturation.
+* Check lung sounds and monitor oxygen saturation.
 * Elevate swollen extremities when appropriate.
-* Reposition regularly.
-* Protect edematous skin.
+* Reposition regularly and protect edematous skin.
 
 </div>
-
 </div>
+
+</section>
+
+<section class="renal-note-section" markdown="1">
 
 #### Diet and Fluid Management
 
 <div class="renal-two-column" markdown="1">
-
 <div markdown="1">
 ##### Low-Sodium Diet
 
-Sodium may be limited to reduce:
-
-* Fluid retention
-* Edema
-* Hypertension
-* Cardiac workload
-
-Avoid heavily salted and processed foods.
+Sodium may be limited to reduce fluid retention, edema, hypertension, and cardiac workload. Avoid heavily salted and processed foods.
 
 </div>
-
 <div markdown="1">
 ##### Fluid Restriction
 
-May be ordered when the client has:
-
-* Oliguria
-* Significant edema
-* Hypertension
-* Pulmonary congestion
-* Rapid weight gain
-
-Include liquids that become fluid at room temperature.
+May be ordered when the client has oliguria, significant edema, hypertension, pulmonary congestion, or rapid weight gain. Include liquids that become fluid at room temperature.
 
 </div>
-
 <div markdown="1">
 ##### Potassium Restriction
 
-May be needed when:
-
-* Urine output is low
-* Serum potassium is elevated
-* Kidney filtration is reduced
-* The client has ECG changes
-
-Do not restrict potassium without an order or laboratory indication.
+May be needed when urine output is low, serum potassium is elevated, kidney filtration is reduced, or the client has ECG changes. Do not restrict potassium without an order or laboratory indication.
 
 </div>
-
 <div markdown="1">
 ##### Protein
 
-* Protein needs depend on kidney function and losses.
-* A moderate restriction may be ordered if nitrogen waste rises.
-* Adequate nutrition is still required.
-* Follow the prescribed renal diet.
-* Avoid giving a blanket high- or low-protein instruction.
+Protein needs depend on kidney function and losses. A moderate restriction may be ordered if nitrogen waste rises, but adequate nutrition is still required. Follow the prescribed renal diet and avoid giving a blanket high- or low-protein instruction.
 
 </div>
-
 </div>
+
+</section>
+
+<section class="renal-note-section" markdown="1">
 
 #### Medications
 
 <div class="renal-two-column" markdown="1">
-
 <div markdown="1">
-##### Diuretics
+##### Diuretics (Furosemide)
 
-Example: **Furosemide**
-
-Purpose:
-
-* Increase urine output
-* Reduce edema
-* Reduce blood pressure
-* Decrease pulmonary congestion
-
-Monitor:
-
-* Blood pressure
-* Intake and output
-* Daily weight
-* Potassium
-* Dehydration
+Increase urine output, reduce edema, reduce blood pressure, and decrease pulmonary congestion. Monitor blood pressure, intake and output, daily weight, potassium, and for dehydration.
 
 </div>
-
 <div markdown="1">
 ##### Antihypertensives
 
-May be prescribed to control blood pressure.
-
-Monitor:
-
-* Blood pressure before administration
-* Dizziness
-* Orthostatic hypotension
-* Kidney function
-* Potassium with certain medications
+May be prescribed to control blood pressure. Monitor blood pressure before administration, dizziness, orthostatic hypotension, kidney function, and potassium with certain medications.
 
 </div>
-
 <div markdown="1">
 ##### Antibiotics
 
-* Antibiotics do not reverse glomerular inflammation.
-* They may be prescribed if group A strep is still present.
-* Treatment helps eliminate remaining bacteria.
-* Complete the full course.
-* Follow infection-control teaching.
+Antibiotics do not reverse glomerular inflammation, but they may be prescribed if group A strep is still present. Treatment helps eliminate remaining bacteria—complete the full course and follow infection-control teaching.
 
 </div>
-
 <div markdown="1">
 ##### Emergency Medications
 
-Severe complications may require treatment for:
-
-* Hypertensive emergency
-* Hyperkalemia
-* Pulmonary edema
-* Seizure
-* Acute kidney injury
-
-Dialysis is rarely needed but may be required if severe kidney failure develops.
+Severe complications may require treatment for a hypertensive emergency, hyperkalemia, pulmonary edema, seizure, or acute kidney injury. Dialysis is rarely needed but may be required if severe kidney failure develops.
 
 </div>
-
 </div>
 
-<div class="renal-two-column" markdown="1">
+</section>
 
-<div markdown="1">
-##### Nursing Interventions
+<section class="renal-note-section" markdown="1">
 
-* Maintain accurate intake and output.
-* Obtain daily weights.
-* Monitor blood pressure frequently.
-* Monitor urine appearance and output.
-* Assess edema.
-* Auscultate lung sounds.
-* Monitor oxygen saturation.
+#### Nursing Interventions
+
+* Maintain accurate intake and output and obtain daily weights.
+* Monitor blood pressure frequently and monitor urine appearance and output.
+* Assess edema, auscultate lung sounds, and monitor oxygen saturation.
 * Review BUN, creatinine, potassium, and urinalysis results.
-* Administer medications as ordered.
-* Implement sodium, fluid, or potassium restrictions as prescribed.
-* Provide rest during the acute phase.
-* Cluster care to reduce fatigue.
+* Administer medications as ordered and implement sodium, fluid, or potassium restrictions as prescribed.
+* Provide rest during the acute phase and cluster care to reduce fatigue.
 * Protect edematous skin.
 * Use seizure precautions if severe hypertension or neurologic symptoms occur.
 * Teach the client and family what findings require immediate attention.
 
-</div>
+<h5>Activity and rest</h5>
 
-<div markdown="1">
-##### Activity and Rest
+During the acute phase, rest may be needed and activity may be limited with severe edema or hypertension. Cluster nursing care, allow quiet periods, increase activity gradually as edema and blood pressure improve, and use fall precautions if weakness or diuresis causes dizziness.
 
-During the acute phase:
+</section>
 
-* Rest may be needed.
-* Activity may be limited with severe edema or hypertension.
-* Cluster nursing care.
-* Allow quiet periods.
-* Increase activity gradually as edema and blood pressure improve.
-* Use fall precautions if weakness or diuresis causes dizziness.
+<section class="renal-note-section" markdown="1">
 
-</div>
+#### Patient and Family Education
 
-<div markdown="1">
-##### Patient and Family Education
-
-* Monitor urine amount and color.
-* Monitor blood pressure if instructed.
+* Monitor urine amount and color, and blood pressure if instructed.
 * Record daily weights when prescribed.
 * Follow sodium and fluid restrictions.
-* Take all medications exactly as directed.
-* Complete prescribed antibiotics.
+* Take all medications exactly as directed and complete prescribed antibiotics.
 * Keep follow-up laboratory appointments.
-* Report reduced urine output.
-* Report sudden weight gain or worsening swelling.
-* Report shortness of breath.
+* Report reduced urine output, sudden weight gain or worsening swelling, and shortness of breath.
 * Report severe headache, confusion, or vision changes.
 * Seek treatment for future symptoms of strep throat or skin infection.
-
-</div>
-
-</div>
 
 <div class="detail-callout" markdown="1">
 <strong>Teaching Cue:</strong> Daily weight is the best simple measure of overall fluid gain or loss. Intake and output help explain where the fluid is going.
 </div>
 
-#### Prognosis
+<h5>Prognosis</h5>
 
-* Most children recover completely.
-* Urine findings may take time to return fully to normal.
-* Blood pressure and kidney function require follow-up.
-* Some adults have a greater risk of lasting kidney damage.
-* A small number of clients may develop chronic kidney disease or kidney failure.
+Most children recover completely, though urine findings may take time to return fully to normal and blood pressure and kidney function require follow-up. Some adults have a greater risk of lasting kidney damage, and a small number of clients may develop chronic kidney disease or kidney failure.
 
 <div class="detail-callout" markdown="1">
 <strong>NCLEX:</strong> Improvement is shown by increased urine output, reduced edema, decreasing weight, improving blood pressure, and improving BUN and creatinine—not simply by lighter urine color.
 </div>
+
+</section>
 
 </div>
 
