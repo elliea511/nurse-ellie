@@ -40,6 +40,7 @@ page_type: sensory-hub
     --sensory-pink: #f24f87;
     min-height: auto;
     color: var(--sensory-navy);
+    background: linear-gradient(180deg, #fff 0%, #fbf9ff 100%);
   }
 
   .sensory-page * {
@@ -51,6 +52,8 @@ page_type: sensory-hub
     grid-template-columns: minmax(0, 1fr) 300px;
     gap: 28px;
     align-items: start;
+    width: min(100% - 32px, 1280px);
+    margin-inline: auto;
   }
 
   .sensory-main {
@@ -59,6 +62,7 @@ page_type: sensory-hub
   }
 
   .sensory-title {
+    margin: 0 auto 1.1rem;
     padding: 0 !important;
     background: transparent !important;
     border: 0 !important;
@@ -70,7 +74,7 @@ page_type: sensory-hub
     display: block !important;
     width: auto !important;
     max-width: none !important;
-    margin: 0 !important;
+    margin: 0 0 0.25rem !important;
     padding: 0 !important;
     background: transparent !important;
     border: 0 !important;
@@ -78,11 +82,11 @@ page_type: sensory-hub
     box-shadow: none !important;
     color: var(--sensory-navy) !important;
     -webkit-text-fill-color: var(--sensory-navy) !important;
-    font-family: var(--site-display-font) !important;
-    font-size: clamp(3rem, 5.5vw, 4.5rem) !important;
-    font-weight: 700 !important;
-    letter-spacing: -0.025em;
-    line-height: 0.98 !important;
+    font-family: "Nunito", sans-serif !important;
+    font-size: clamp(3rem, 4.5vw, 3.55rem) !important;
+    font-weight: 900 !important;
+    letter-spacing: -0.045em;
+    line-height: 1 !important;
     text-shadow: none !important;
   }
 
@@ -94,11 +98,10 @@ page_type: sensory-hub
 
   .sensory-title p {
     margin: 0;
-    color: var(--text-muted);
-    font-family: var(--site-body-font);
-    font-size: clamp(1.05rem, 1.8vw, 1.35rem);
-    font-weight: 600;
-    line-height: 1.4;
+    color: var(--sensory-purple);
+    font-size: clamp(1.08rem, 1.8vw, 1.22rem);
+    font-weight: 800;
+    line-height: 1.25;
   }
 
   .sensory-stage {
@@ -151,16 +154,16 @@ page_type: sensory-hub
     position: relative;
     z-index: 3;
     display: grid;
-    grid-template-columns: 58px minmax(0, 1fr) auto;
+    grid-template-columns: 3.15rem minmax(0, 1fr) auto;
     align-items: center;
-    gap: 1rem;
+    gap: 0.75rem;
     width: 230px;
     min-height: 96px;
-    padding: 1rem 1.15rem;
-    border: 1px solid var(--card-accent-soft);
-    border-radius: 22px;
-    background: rgba(255, 255, 255, 0.94);
-    box-shadow: 0 10px 28px rgba(20, 31, 65, 0.08);
+    padding: 0.75rem 0.85rem;
+    border: 1px solid var(--card-border);
+    border-radius: 21px;
+    background: rgba(255, 255, 255, 0.97);
+    box-shadow: 0 9px 20px rgba(27, 50, 82, 0.1);
     color: var(--sensory-navy) !important;
     text-align: left;
     text-decoration: none !important;
@@ -169,39 +172,40 @@ page_type: sensory-hub
 
   .sensory-card:hover,
   .sensory-card:focus-visible {
-    transform: translateY(-4px);
+    transform: translateY(-3px);
     border-color: var(--card-accent);
-    box-shadow: 0 16px 34px rgba(20, 31, 65, 0.12);
+    box-shadow: 0 13px 26px rgba(27, 50, 82, 0.15);
     outline: none;
   }
 
   .sensory-card:focus-visible {
-    box-shadow: 0 0 0 4px rgba(128, 96, 191, 0.18), 0 16px 34px rgba(20, 31, 65, 0.12);
+    box-shadow: 0 0 0 4px rgba(128, 96, 191, 0.18), 0 13px 26px rgba(27, 50, 82, 0.15);
   }
 
   .sensory-card-eye {
     --card-accent: var(--sensory-blue);
-    --card-accent-soft: #c7dcff;
-    --card-icon-bg: #e8f2ff;
+    --card-border: #c7dcff;
   }
 
   .sensory-card-ear {
     --card-accent: var(--sensory-pink);
-    --card-accent-soft: #ffc3d5;
-    --card-icon-bg: #ffe6ef;
+    --card-border: #ffc3d5;
   }
 
   .sensory-card-icon {
     display: grid;
     place-items: center;
-    width: 58px;
-    height: 58px;
+    width: 3.15rem;
+    height: 3.15rem;
     border-radius: 999px;
-    background: var(--card-icon-bg);
+    background: var(--icon-bg);
     color: var(--card-accent);
-    font-size: 1.75rem;
+    font-size: 1.35rem;
     font-weight: 900;
   }
+
+  .sensory-card-eye .sensory-card-icon { --icon-bg: #e8f2ff; }
+  .sensory-card-ear .sensory-card-icon { --icon-bg: #ffe6ef; }
 
   .sensory-card strong,
   .sensory-card small {
@@ -210,19 +214,17 @@ page_type: sensory-hub
 
   .sensory-card strong {
     color: var(--sensory-navy) !important;
-    font-family: var(--site-body-font);
-    font-size: clamp(1.25rem, 1.8vw, 1.65rem);
-    font-weight: 750;
-    line-height: 1.15;
+    font-size: 1rem;
+    font-weight: 900;
+    line-height: 1.2;
   }
 
   .sensory-card small {
-    margin-top: 0.25rem;
-    color: var(--text-muted);
-    font-family: var(--site-body-font);
-    font-size: 0.9rem;
-    font-weight: 500;
-    line-height: 1.4;
+    margin-top: 0.18rem;
+    color: var(--sensory-muted);
+    font-size: 0.73rem;
+    font-weight: 800;
+    line-height: 1.25;
   }
 
   .sensory-card-chevron {
@@ -253,19 +255,18 @@ page_type: sensory-hub
     align-items: center;
     justify-content: center;
     gap: 0.7rem;
-    width: min(100%, 360px);
-    min-height: 54px;
-    margin: 1.1rem auto 0;
+    width: min(350px, 92%);
+    min-height: 52px;
+    margin: 1rem auto 0;
     padding: 0.72rem 1rem;
-    border: 1px solid var(--hub-accent-soft);
+    border: 1px solid #cdbff2;
     border-radius: 16px;
     background: #fff;
-    box-shadow: 0 8px 22px rgba(20, 31, 65, 0.07);
-    color: var(--navy) !important;
+    box-shadow: 0 10px 24px rgba(76, 47, 168, 0.1);
+    color: #6848c2 !important;
     text-decoration: none !important;
-    font-family: var(--site-body-font);
-    font-size: 1rem;
-    font-weight: 700;
+    font-size: 0.98rem;
+    font-weight: 900;
   }
 
   .sensory-back svg {
@@ -284,17 +285,17 @@ page_type: sensory-hub
     display: flex;
     flex-direction: column;
     align-self: start;
-    padding: 1.25rem;
-    border: 1px solid var(--border-soft);
-    border-radius: 22px;
-    background: rgba(255, 255, 255, 0.94);
-    box-shadow: 0 10px 28px rgba(20, 31, 65, 0.08);
+    padding: 1.55rem 1.45rem;
+    border: 1px solid #cbdde2;
+    border-radius: 24px;
+    background: linear-gradient(155deg, #fff, #fbfefe);
+    box-shadow: 0 12px 30px rgba(27, 50, 82, 0.07);
   }
 
   .sensory-sidebar h2 {
     margin: 0 !important;
     color: #0c174d !important;
-    font-family: var(--site-body-font) !important;
+    font-family: "Nunito", sans-serif !important;
     font-size: 1.45rem !important;
     line-height: 1.2 !important;
     text-align: center;
@@ -472,15 +473,15 @@ page_type: sensory-hub
   }
 </style>
 
-<section class="subject-hub subject-hub--sensory sensory-page" aria-labelledby="sensory-title">
-  <div class="subject-hub__inner sensory-layout">
+<section class="sensory-page" aria-labelledby="sensory-title">
+  <div class="sensory-layout">
     <div class="sensory-main">
-      <header class="subject-hub__heading sensory-title">
-        <h1 class="subject-hub__title" id="sensory-title">Sensory Perception</h1>
-        <p class="subject-hub__subtitle">Your simple hub for vision and hearing nursing.</p>
+      <header class="sensory-title">
+        <h1 id="sensory-title">Sensory Perception</h1>
+        <p>Your simple hub for vision and hearing nursing.</p>
       </header>
 
-      <div class="subject-hub__stage sensory-stage" aria-label="Sensory perception study topics">
+      <div class="sensory-stage" aria-label="Sensory perception study topics">
         <svg class="sensory-connectors" viewBox="0 0 856 420" preserveAspectRatio="none" aria-hidden="true">
           <path class="sensory-line-eye" d="M230 188 C275 188 320 168 374 164"></path>
           <circle class="sensory-dot-eye" cx="230" cy="188" r="5"></circle>
@@ -491,9 +492,9 @@ page_type: sensory-hub
           <circle class="sensory-dot-ear" cx="469" cy="216" r="5"></circle>
         </svg>
 
-        <a class="subject-hub__card sensory-card sensory-card-eye" href="{{ '/sensory-perception/eye-disorders.html' | relative_url }}">
-          <span class="subject-hub__card-icon sensory-card-icon" aria-hidden="true">👁</span>
-          <span><strong class="subject-hub__card-title">Eye Disorders</strong><small class="subject-hub__card-description">Vision changes &amp; safety</small></span>
+        <a class="sensory-card sensory-card-eye" href="{{ '/sensory-perception/eye-disorders.html' | relative_url }}">
+          <span class="sensory-card-icon" aria-hidden="true">👁</span>
+          <span><strong>Eye Disorders</strong><small>Vision changes &amp; safety</small></span>
           <span class="sensory-card-chevron" aria-hidden="true">›</span>
         </a>
 
@@ -501,14 +502,14 @@ page_type: sensory-hub
           <img class="sensory-profile" src="{{ '/assets/images/sensory-profile-woman.png' | relative_url }}" alt="Side-profile woman with eye and ear highlighted for sensory perception study" data-no-lb>
         </div>
 
-        <a class="subject-hub__card sensory-card sensory-card-ear" href="{{ '/sensory-perception/ear-disorders.html' | relative_url }}">
-          <span class="subject-hub__card-icon sensory-card-icon" aria-hidden="true">👂</span>
-          <span><strong class="subject-hub__card-title">Ear Disorders</strong><small class="subject-hub__card-description">Hearing changes &amp; care</small></span>
+        <a class="sensory-card sensory-card-ear" href="{{ '/sensory-perception/ear-disorders.html' | relative_url }}">
+          <span class="sensory-card-icon" aria-hidden="true">👂</span>
+          <span><strong>Ear Disorders</strong><small>Hearing changes &amp; care</small></span>
           <span class="sensory-card-chevron" aria-hidden="true">›</span>
         </a>
       </div>
 
-      <a class="subject-hub__back sensory-back" href="{{ '/all-topics.html' | relative_url }}">
+      <a class="sensory-back" href="{{ '/all-topics.html' | relative_url }}">
         <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
           <path d="M3 11.4 12 4l9 7.4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
           <path d="M6 10.8V20h12v-9.2" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -518,7 +519,7 @@ page_type: sensory-hub
       </a>
     </div>
 
-    <aside class="subject-hub__sidebar sensory-sidebar">
+    <aside class="sensory-sidebar">
       <h2>Select a topic<br>to open notes</h2>
       <div class="sensory-guide-rule"></div>
       <p>Study resources include:</p>

@@ -4,13 +4,12 @@ title: Mental Health
 page_type: mental-health-hub
 ---
 
-<section class="subject-hub subject-hub--mental-health mh-hub" aria-labelledby="mh-hub-title">
-  <div class="subject-hub__inner">
-  <header class="subject-hub__heading mh-hub-header">
+<section class="mh-hub" aria-labelledby="mh-hub-title">
+  <header class="mh-hub-header">
     <div class="mh-hub-brandmark" aria-hidden="true"><img src="{{ '/assets/images/mental-health-brain.png' | relative_url }}" alt="" data-no-lb></div>
     <div>
-      <h1 class="subject-hub__title" id="mh-hub-title">Mental Health Study Hub</h1>
-      <p class="subject-hub__subtitle">Your simple hub for mental health nursing.</p>
+      <h1 id="mh-hub-title">Mental Health Study Hub</h1>
+      <p>Your simple hub for mental health nursing.</p>
     </div>
   </header>
 
@@ -38,26 +37,26 @@ page_type: mental-health-hub
         <img src="{{ '/assets/images/mental-health-brain.png' | relative_url }}" alt="" data-no-lb>
       </div>
 
-      <a class="subject-hub__card mh-topic-card mh-topic-4" href="{{ '/mental-health/mood-disorders.html' | relative_url }}">
-        <span class="subject-hub__card-icon mh-topic-icon">↕</span><span><strong class="subject-hub__card-title">Depression &amp; Bipolar</strong><small class="subject-hub__card-description">Mood patterns &amp; interventions</small></span>
+      <a class="mh-topic-card mh-topic-4" href="{{ '/mental-health/mood-disorders.html' | relative_url }}">
+        <span class="mh-topic-icon">↕</span><span><strong>Depression &amp; Bipolar</strong><small>Mood patterns &amp; interventions</small></span>
       </a>
-      <a class="subject-hub__card mh-topic-card mh-topic-5" href="{{ '/mental-health/anxiety.html' | relative_url }}">
-        <span class="subject-hub__card-icon mh-topic-icon">☁</span><span><strong class="subject-hub__card-title">Anxiety, OCD &amp; Trauma</strong><small class="subject-hub__card-description">Symptoms, disorders &amp; care</small></span>
+      <a class="mh-topic-card mh-topic-5" href="{{ '/mental-health/anxiety.html' | relative_url }}">
+        <span class="mh-topic-icon">☁</span><span><strong>Anxiety, OCD &amp; Trauma</strong><small>Symptoms, disorders &amp; care</small></span>
       </a>
-      <a class="subject-hub__card mh-topic-card mh-topic-6" href="{{ '/mental-health/somatic-factitious-dissociative.html' | relative_url }}">
-        <span class="subject-hub__card-icon mh-topic-icon">◌</span><span><strong class="subject-hub__card-title">Somatic &amp; Dissociative</strong><small class="subject-hub__card-description">Factitious, somatic &amp; dissociative</small></span>
+      <a class="mh-topic-card mh-topic-6" href="{{ '/mental-health/somatic-factitious-dissociative.html' | relative_url }}">
+        <span class="mh-topic-icon">◌</span><span><strong>Somatic &amp; Dissociative</strong><small>Factitious, somatic &amp; dissociative</small></span>
       </a>
-      <a class="subject-hub__card mh-topic-card mh-topic-7" href="{{ '/mental-health/personality-disorders.html' | relative_url }}">
-        <span class="subject-hub__card-icon mh-topic-icon">◐</span><span><strong class="subject-hub__card-title">Personality Disorders</strong><small class="subject-hub__card-description">Patterns &amp; nursing priorities</small></span>
+      <a class="mh-topic-card mh-topic-7" href="{{ '/mental-health/personality-disorders.html' | relative_url }}">
+        <span class="mh-topic-icon">◐</span><span><strong>Personality Disorders</strong><small>Patterns &amp; nursing priorities</small></span>
       </a>
-      <a class="subject-hub__card mh-topic-card mh-topic-8" href="{{ '/mental-health/eating-disorders.html' | relative_url }}">
-        <span class="subject-hub__card-icon mh-topic-icon">♧</span><span><strong class="subject-hub__card-title">Eating Disorders</strong><small class="subject-hub__card-description">Assessment &amp; care priorities</small></span>
+      <a class="mh-topic-card mh-topic-8" href="{{ '/mental-health/eating-disorders.html' | relative_url }}">
+        <span class="mh-topic-icon">♧</span><span><strong>Eating Disorders</strong><small>Assessment &amp; care priorities</small></span>
       </a>
-      <a class="subject-hub__card mh-topic-card mh-topic-9" href="{{ '/mental-health/addiction.html' | relative_url }}">
-        <span class="subject-hub__card-icon mh-topic-icon">⌁</span><span><strong class="subject-hub__card-title">Addiction &amp; Substance Use</strong><small class="subject-hub__card-description">Withdrawal, treatment &amp; care</small></span>
+      <a class="mh-topic-card mh-topic-9" href="{{ '/mental-health/addiction.html' | relative_url }}">
+        <span class="mh-topic-icon">⌁</span><span><strong>Addiction &amp; Substance Use</strong><small>Withdrawal, treatment &amp; care</small></span>
       </a>
-      <a class="subject-hub__card mh-topic-card mh-topic-10" href="{{ '/mental-health/psychosis.html' | relative_url }}">
-        <span class="subject-hub__card-icon mh-topic-icon">◎</span><span><strong class="subject-hub__card-title">Schizophrenia &amp; Psychosis</strong><small class="subject-hub__card-description">Symptoms, responses &amp; priorities</small></span>
+      <a class="mh-topic-card mh-topic-10" href="{{ '/mental-health/psychosis.html' | relative_url }}">
+        <span class="mh-topic-icon">◎</span><span><strong>Schizophrenia &amp; Psychosis</strong><small>Symptoms, responses &amp; priorities</small></span>
       </a>
     </div>
 
@@ -69,7 +68,7 @@ page_type: mental-health-hub
     </nav>
     </div>
 
-    <aside class="subject-hub__sidebar mh-hub-guide">
+    <aside class="mh-hub-guide">
       <div class="mh-guide-icon" aria-hidden="true"><img src="{{ '/assets/images/mental-health-brain.png' | relative_url }}" alt="" data-no-lb></div>
       <h2>Select a topic<br>to open notes</h2>
       <div class="mh-guide-rule"></div>
@@ -87,6 +86,5 @@ page_type: mental-health-hub
       </a>
       <div class="mh-guide-tip"><span aria-hidden="true">💡</span> Pick any topic around the brain to get started.</div>
     </aside>
-  </div>
   </div>
 </section>
