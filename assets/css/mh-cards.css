@@ -3963,3 +3963,424 @@ body[data-page-type="game-hub"] {
     grid-template-columns: 1fr;
   }
 }
+
+/* =========================================================
+   SHARED SUBJECT HUB SYSTEM
+   Mental Health, Sensory Perception, Renal & Urinary
+   ========================================================= */
+
+:root {
+  --site-display-font: "Playfair Display", Georgia, "Times New Roman", serif;
+  --site-body-font: "Nunito", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --navy: #0b174e;
+  --text-muted: #65708f;
+  --border-soft: #d7e5eb;
+}
+
+body[data-page-type="mental-health-hub"] .main-content,
+body[data-page-type="sensory-hub"] .main-content,
+body[data-page-type="renal-hub"] .main-content {
+  background: transparent !important;
+  overflow-x: hidden !important;
+}
+
+.subject-hub {
+  --hub-accent: #8060bf;
+  --hub-accent-soft: #cdbff2;
+  --card-accent: var(--hub-accent);
+  --card-accent-soft: var(--hub-accent-soft);
+  --card-icon-bg: #f1ebfb;
+  min-height: auto;
+  padding: 0;
+  color: var(--navy);
+  background:
+    radial-gradient(circle at 20% 20%, rgba(118, 161, 255, 0.07), transparent 35%),
+    radial-gradient(circle at 80% 25%, rgba(210, 126, 195, 0.06), transparent 35%),
+    #fff;
+  font-family: var(--site-body-font);
+}
+
+.subject-hub--mental-health {
+  --hub-accent: #8060bf;
+  --hub-accent-soft: #d8ccf4;
+}
+
+.subject-hub--sensory {
+  --hub-accent: #8060bf;
+  --hub-accent-soft: #d8ccf4;
+}
+
+.subject-hub--renal {
+  --hub-accent: #3177e8;
+  --hub-accent-soft: #b8d4ff;
+}
+
+.subject-hub__inner {
+  width: min(100% - 32px, 1280px);
+  margin-inline: auto;
+}
+
+.subject-hub__heading,
+.subject-hub .mh-hub-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin: 0 0 1.25rem;
+  text-align: center;
+}
+
+.subject-hub__heading > div:last-child,
+.subject-hub .mh-hub-header > div:last-child {
+  min-width: 0;
+}
+
+.subject-hub__title,
+.subject-hub .mh-hub-header h1,
+.subject-hub .sensory-title h1 {
+  display: block !important;
+  width: auto !important;
+  max-width: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  color: var(--navy) !important;
+  -webkit-text-fill-color: var(--navy) !important;
+  font-family: var(--site-display-font) !important;
+  font-size: clamp(3rem, 5.5vw, 4.5rem) !important;
+  font-weight: 700 !important;
+  line-height: 0.98 !important;
+  letter-spacing: -0.025em !important;
+  text-shadow: none !important;
+}
+
+.subject-hub__title::before,
+.subject-hub__title::after,
+.subject-hub .mh-hub-header h1::before,
+.subject-hub .mh-hub-header h1::after,
+.subject-hub .sensory-title h1::before,
+.subject-hub .sensory-title h1::after {
+  display: none !important;
+  content: none !important;
+}
+
+.subject-hub__subtitle,
+.subject-hub .mh-hub-header p,
+.subject-hub .sensory-title p {
+  margin: 0.5rem 0 0 !important;
+  color: var(--text-muted) !important;
+  font-family: var(--site-body-font) !important;
+  font-size: clamp(1.05rem, 1.8vw, 1.35rem) !important;
+  font-weight: 600 !important;
+  line-height: 1.4 !important;
+}
+
+.subject-hub__stage {
+  position: relative;
+}
+
+.subject-hub__card,
+.subject-hub .mh-topic-card,
+.subject-hub .sensory-card {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  min-height: 96px;
+  padding: 1rem 1.15rem;
+  border: 1px solid var(--card-accent-soft);
+  border-radius: 22px;
+  background: rgba(255, 255, 255, 0.94);
+  box-shadow: 0 10px 28px rgba(20, 31, 65, 0.08);
+  color: var(--navy) !important;
+  text-align: left;
+  text-decoration: none !important;
+  transition:
+    transform 180ms ease,
+    box-shadow 180ms ease,
+    border-color 180ms ease;
+}
+
+.subject-hub .sensory-card {
+  display: grid;
+  grid-template-columns: 58px minmax(0, 1fr) auto;
+}
+
+.subject-hub__card:hover,
+.subject-hub__card:focus-visible,
+.subject-hub .mh-topic-card:hover,
+.subject-hub .mh-topic-card:focus-visible,
+.subject-hub .sensory-card:hover,
+.subject-hub .sensory-card:focus-visible {
+  border-color: var(--card-accent);
+  box-shadow: 0 16px 34px rgba(20, 31, 65, 0.12);
+  outline: none;
+}
+
+.subject-hub__card:focus-visible,
+.subject-hub .mh-topic-card:focus-visible,
+.subject-hub .sensory-card:focus-visible {
+  outline: 3px solid color-mix(in srgb, var(--card-accent) 35%, transparent);
+  outline-offset: 3px;
+}
+
+.subject-hub__card-icon,
+.subject-hub .mh-topic-icon,
+.subject-hub .sensory-card-icon {
+  display: grid;
+  flex: 0 0 58px;
+  place-items: center;
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  background: var(--card-icon-bg);
+  color: var(--card-accent);
+  font-size: 1.75rem;
+  font-weight: 900;
+}
+
+.subject-hub__card-title,
+.subject-hub .mh-topic-card strong,
+.subject-hub .sensory-card strong {
+  display: block;
+  margin: 0;
+  color: var(--navy) !important;
+  font-family: var(--site-body-font) !important;
+  font-size: clamp(1.25rem, 1.8vw, 1.65rem) !important;
+  font-weight: 750 !important;
+  line-height: 1.15 !important;
+}
+
+.subject-hub__card-description,
+.subject-hub .mh-topic-card small,
+.subject-hub .sensory-card small {
+  display: block;
+  margin-top: 0.25rem;
+  color: var(--text-muted) !important;
+  font-family: var(--site-body-font) !important;
+  font-size: 0.9rem !important;
+  font-weight: 500 !important;
+  line-height: 1.4 !important;
+}
+
+.subject-hub__back,
+.subject-hub .mh-hub-shortcuts a,
+.subject-hub .sensory-back {
+  width: min(100%, 360px);
+  min-height: 54px;
+  margin: 1.1rem auto 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.65rem;
+  border: 1px solid var(--hub-accent-soft);
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.94);
+  box-shadow: 0 8px 22px rgba(20, 31, 65, 0.07);
+  color: var(--navy) !important;
+  font-family: var(--site-body-font);
+  font-size: 1rem;
+  font-weight: 700;
+  text-decoration: none !important;
+  transition:
+    transform 180ms ease,
+    box-shadow 180ms ease,
+    border-color 180ms ease;
+}
+
+.subject-hub__back:hover,
+.subject-hub__back:focus-visible,
+.subject-hub .mh-hub-shortcuts a:hover,
+.subject-hub .mh-hub-shortcuts a:focus-visible,
+.subject-hub .sensory-back:hover,
+.subject-hub .sensory-back:focus-visible {
+  transform: translateY(-2px);
+  border-color: var(--hub-accent);
+  box-shadow: 0 13px 28px rgba(20, 31, 65, 0.11);
+  outline: none;
+}
+
+.subject-hub__sidebar,
+.subject-hub .mh-hub-guide,
+.subject-hub .sensory-sidebar {
+  border: 1px solid var(--border-soft);
+  border-radius: 22px;
+  background: rgba(255, 255, 255, 0.94);
+  box-shadow: 0 10px 28px rgba(20, 31, 65, 0.08);
+  padding: 1.25rem;
+  font-family: var(--site-body-font);
+}
+
+.subject-hub__sidebar h2,
+.subject-hub .mh-hub-guide h2,
+.subject-hub .sensory-sidebar h2 {
+  margin: 0 !important;
+  border: 0 !important;
+  background: none !important;
+  color: var(--navy) !important;
+  font-family: var(--site-body-font) !important;
+  font-size: 1.45rem !important;
+  font-weight: 900 !important;
+  line-height: 1.2 !important;
+  text-align: center;
+}
+
+.subject-hub .mh-guide-rule,
+.subject-hub .sensory-guide-rule {
+  height: 1px;
+  margin: 1.45rem 0;
+  background: #e0d6f5;
+}
+
+.subject-hub .mh-hub-guide > p,
+.subject-hub .sensory-sidebar > p {
+  margin: 0 0 0.7rem;
+  color: var(--navy);
+  font-weight: 900;
+}
+
+.subject-hub .mh-hub-guide ul,
+.subject-hub .sensory-sidebar ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.subject-hub .mh-hub-guide li,
+.subject-hub .sensory-sidebar li {
+  position: relative;
+  margin: 0 0 0.75rem;
+  padding-left: 2rem;
+  color: var(--navy);
+  font-weight: 800;
+  line-height: 1.3;
+}
+
+.subject-hub .mh-hub-guide li::before,
+.subject-hub .sensory-sidebar li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  top: 0.05rem;
+  display: grid;
+  place-items: center;
+  width: 1.2rem;
+  height: 1.2rem;
+  border: 1.5px solid var(--hub-accent);
+  border-radius: 50%;
+  color: var(--hub-accent);
+  font-size: 0.75rem;
+  font-weight: 900;
+}
+
+.subject-hub .mh-guide-tip,
+.subject-hub .sensory-guide-tip {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  margin-top: 0.8rem;
+  padding: 0.9rem;
+  border: 1px solid #e6ddf7;
+  border-radius: 15px;
+  background: #f5f1fd;
+  color: #4a3b74;
+  font-size: 0.88rem;
+  font-weight: 800;
+}
+
+.subject-hub .mh-hub-shortcuts {
+  justify-items: center;
+}
+
+.subject-hub .mh-hub-shortcuts a {
+  width: 100%;
+}
+
+[data-theme="dark"] .subject-hub {
+  --navy: #eef7ff;
+  --text-muted: #b5bfd1;
+  --border-soft: #45526c;
+  background:
+    radial-gradient(circle at 20% 20%, rgba(118, 161, 255, 0.11), transparent 35%),
+    radial-gradient(circle at 80% 25%, rgba(210, 126, 195, 0.09), transparent 35%),
+    #171522;
+  color: #eef7ff;
+}
+
+[data-theme="dark"] .subject-hub__card,
+[data-theme="dark"] .subject-hub .mh-topic-card,
+[data-theme="dark"] .subject-hub .sensory-card,
+[data-theme="dark"] .subject-hub__back,
+[data-theme="dark"] .subject-hub .mh-hub-shortcuts a,
+[data-theme="dark"] .subject-hub .sensory-back,
+[data-theme="dark"] .subject-hub__sidebar,
+[data-theme="dark"] .subject-hub .mh-hub-guide,
+[data-theme="dark"] .subject-hub .sensory-sidebar {
+  background: #242a3c;
+  border-color: #45526c;
+}
+
+[data-theme="dark"] .subject-hub .mh-guide-tip,
+[data-theme="dark"] .subject-hub .sensory-guide-tip {
+  background: #2f2749;
+  color: #e7dfff;
+}
+
+@media (max-width: 1050px) {
+  .subject-hub__inner {
+    width: min(100% - 24px, 860px);
+  }
+
+  .subject-hub__heading,
+  .subject-hub .mh-hub-header {
+    margin-bottom: 1.1rem;
+  }
+
+  .subject-hub .mh-orbit-connectors {
+    display: none;
+  }
+}
+
+@media (max-width: 700px) {
+  .subject-hub__inner {
+    width: min(100% - 20px, 520px);
+  }
+
+  .subject-hub__heading,
+  .subject-hub .mh-hub-header {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .subject-hub__title,
+  .subject-hub .mh-hub-header h1,
+  .subject-hub .sensory-title h1 {
+    font-size: clamp(2.35rem, 11vw, 3rem) !important;
+  }
+
+  .subject-hub__card,
+  .subject-hub .mh-topic-card,
+  .subject-hub .sensory-card {
+    min-height: 92px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .subject-hub__card,
+  .subject-hub__back,
+  .subject-hub .mh-topic-card,
+  .subject-hub .mh-hub-shortcuts a,
+  .subject-hub .sensory-card,
+  .subject-hub .sensory-back {
+    transition: none;
+  }
+
+  .subject-hub__card:hover,
+  .subject-hub__back:hover,
+  .subject-hub .sensory-card:hover,
+  .subject-hub .sensory-back:hover {
+    transform: none;
+  }
+}

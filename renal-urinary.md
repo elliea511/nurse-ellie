@@ -16,50 +16,18 @@ page_type: renal-hub
     width: 100% !important;
     max-width: 100% !important;
     margin: 0 !important;
-    padding: 2.25rem 0 3rem !important;
+    padding: 1.75rem 0 2.25rem !important;
     border-radius: 0 !important;
     box-shadow: none !important;
   }
 
   body[data-page-type="renal-hub"] .system-hub {
-    padding: 0 2rem;
-  }
-
-  body[data-page-type="renal-hub"] .system-hub .mh-hub-header h1 {
-    display: block !important;
-    width: auto !important;
-    max-width: none !important;
-    margin: 0 !important;
-    padding: 0 !important;
-    border: 0 !important;
-    border-radius: 0 !important;
-    background: transparent !important;
-    box-shadow: none !important;
-    color: #0b174e !important;
-    -webkit-text-fill-color: #0b174e !important;
-    font-family: "Nunito", sans-serif !important;
-    font-size: clamp(2rem, 3vw, 3.15rem) !important;
-    line-height: 1.05 !important;
-    letter-spacing: -0.04em;
-    text-shadow: none !important;
-  }
-
-  body[data-page-type="renal-hub"] .system-hub .mh-hub-header h1::before,
-  body[data-page-type="renal-hub"] .system-hub .mh-hub-header h1::after {
-    display: none !important;
-    content: none !important;
-  }
-
-  body[data-page-type="renal-hub"] .system-hub .mh-hub-header p {
-    margin: 0.25rem 0 0;
-    color: #8060bf;
-    font-size: 1.12rem;
-    font-weight: 700;
+    padding: 0;
   }
 
   body[data-page-type="renal-hub"] .system-hub .mh-brain-center {
-    width: 27rem;
-    height: 28rem;
+    width: clamp(17rem, 32vw, 24rem);
+    height: clamp(20rem, 39vw, 29rem);
     filter: drop-shadow(0 22px 24px rgba(47, 112, 168, .18));
   }
 
@@ -84,13 +52,12 @@ page_type: renal-hub
 
   body[data-page-type="renal-hub"] .system-hub .mh-topic-orbit {
     display: block;
-    min-height: 760px;
+    min-height: 610px;
   }
 
   body[data-page-type="renal-hub"] .system-hub .mh-topic-orbit .mh-topic-card {
     position: absolute;
-    width: min(250px, 29%);
-    min-height: 76px;
+    width: min(300px, 28%);
     transform: translate(-50%, -50%);
   }
 
@@ -99,11 +66,11 @@ page_type: renal-hub
     transform: translate(-50%, calc(-50% - 3px));
   }
 
-  body[data-page-type="renal-hub"] .renal-topic-uti { left: 18%; top: 25%; }
-  body[data-page-type="renal-hub"] .renal-topic-stones { left: 12%; top: 48%; }
-  body[data-page-type="renal-hub"] .renal-topic-glom { left: 20%; top: 72%; }
+  body[data-page-type="renal-hub"] .renal-topic-uti { left: 18%; top: 24%; }
+  body[data-page-type="renal-hub"] .renal-topic-stones { left: 15%; top: 47%; }
+  body[data-page-type="renal-hub"] .renal-topic-glom { left: 19%; top: 70%; }
   body[data-page-type="renal-hub"] .renal-topic-procedures { left: 84%; top: 34%; }
-  body[data-page-type="renal-hub"] .renal-topic-disease { left: 82%; top: 66%; }
+  body[data-page-type="renal-hub"] .renal-topic-disease { left: 83%; top: 65%; }
 
   body[data-page-type="renal-hub"] .renal-line-uti,
   body[data-page-type="renal-hub"] .renal-dot-uti { stroke: #3177e8 !important; fill: #3177e8 !important; }
@@ -116,7 +83,7 @@ page_type: renal-hub
   body[data-page-type="renal-hub"] .renal-line-disease,
   body[data-page-type="renal-hub"] .renal-dot-disease { stroke: #8c60cf !important; fill: #8c60cf !important; }
 
-  @media (max-width: 980px) {
+  @media (max-width: 1050px) {
     body[data-page-type="renal-hub"] .system-hub .mh-topic-orbit {
       display: grid;
       grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -165,14 +132,15 @@ page_type: renal-hub
   }
 </style>
 
-<section class="mh-hub system-hub renal-system-hub" aria-labelledby="renal-hub-title">
-  <header class="mh-hub-header">
+<section class="subject-hub subject-hub--renal mh-hub system-hub renal-system-hub" aria-labelledby="renal-hub-title">
+  <div class="subject-hub__inner">
+  <header class="subject-hub__heading mh-hub-header">
     <div class="mh-hub-brandmark" aria-hidden="true">
       <img src="{{ '/assets/images/renal-urinary-system.png' | relative_url }}" alt="" data-no-lb>
     </div>
     <div>
-      <h1 id="renal-hub-title">Renal &amp; Urinary Study Hub</h1>
-      <p>Your simple hub for kidney and urinary nursing.</p>
+      <h1 class="subject-hub__title" id="renal-hub-title">Renal &amp; Urinary Study Hub</h1>
+      <p class="subject-hub__subtitle">Your simple hub for kidney and urinary nursing.</p>
     </div>
   </header>
 
@@ -200,20 +168,20 @@ page_type: renal-hub
           <img src="{{ '/assets/images/renal-urinary-system.png' | relative_url }}" alt="" data-no-lb>
         </div>
 
-        <a class="mh-topic-card renal-topic-uti" href="{{ '/renal-urinary/urinary-tract-infections.html' | relative_url }}">
-          <span class="mh-topic-icon">⌁</span><span><strong>Urinary Tract Infections</strong><small>Infection cues &amp; care</small></span>
+        <a class="subject-hub__card mh-topic-card renal-topic-uti" href="{{ '/renal-urinary/urinary-tract-infections.html' | relative_url }}">
+          <span class="subject-hub__card-icon mh-topic-icon">⌁</span><span><strong class="subject-hub__card-title">Urinary Tract Infections</strong><small class="subject-hub__card-description">Infection cues &amp; care</small></span>
         </a>
-        <a class="mh-topic-card renal-topic-stones" href="{{ '/renal-urinary/kidney-stones.html' | relative_url }}">
-          <span class="mh-topic-icon">◌</span><span><strong>Kidney Stones</strong><small>Pain, fluids &amp; teaching</small></span>
+        <a class="subject-hub__card mh-topic-card renal-topic-stones" href="{{ '/renal-urinary/kidney-stones.html' | relative_url }}">
+          <span class="subject-hub__card-icon mh-topic-icon">◌</span><span><strong class="subject-hub__card-title">Kidney Stones</strong><small class="subject-hub__card-description">Pain, fluids &amp; teaching</small></span>
         </a>
-        <a class="mh-topic-card renal-topic-glom" href="{{ '/renal-urinary/glomerulonephritis.html' | relative_url }}">
-          <span class="mh-topic-icon">✣</span><span><strong>Glomerulonephritis</strong><small>Inflammation &amp; findings</small></span>
+        <a class="subject-hub__card mh-topic-card renal-topic-glom" href="{{ '/renal-urinary/glomerulonephritis.html' | relative_url }}">
+          <span class="subject-hub__card-icon mh-topic-icon">✣</span><span><strong class="subject-hub__card-title">Glomerulonephritis</strong><small class="subject-hub__card-description">Inflammation &amp; findings</small></span>
         </a>
-        <a class="mh-topic-card renal-topic-procedures" href="{{ '/renal-urinary/dialysis-transplant-procedures.html' | relative_url }}">
-          <span class="mh-topic-icon">▣</span><span><strong>Dialysis, Transplant &amp; Procedures</strong><small>Priority procedure care</small></span>
+        <a class="subject-hub__card mh-topic-card renal-topic-procedures" href="{{ '/renal-urinary/dialysis-transplant-procedures.html' | relative_url }}">
+          <span class="subject-hub__card-icon mh-topic-icon">▣</span><span><strong class="subject-hub__card-title">Dialysis, Transplant &amp; Procedures</strong><small class="subject-hub__card-description">Priority procedure care</small></span>
         </a>
-        <a class="mh-topic-card renal-topic-disease" href="{{ '/renal-urinary/acute-chronic-kidney-disease.html' | relative_url }}">
-          <span class="mh-topic-icon">♢</span><span><strong>Acute &amp; Chronic Kidney Disease</strong><small>Kidney failure priorities</small></span>
+        <a class="subject-hub__card mh-topic-card renal-topic-disease" href="{{ '/renal-urinary/acute-chronic-kidney-disease.html' | relative_url }}">
+          <span class="subject-hub__card-icon mh-topic-icon">♢</span><span><strong class="subject-hub__card-title">Acute &amp; Chronic Kidney Disease</strong><small class="subject-hub__card-description">Kidney failure priorities</small></span>
         </a>
       </div>
 
@@ -222,7 +190,7 @@ page_type: renal-hub
       </nav>
     </div>
 
-    <aside class="mh-hub-guide">
+    <aside class="subject-hub__sidebar mh-hub-guide">
       <div class="mh-guide-icon" aria-hidden="true">
         <img src="{{ '/assets/images/renal-urinary-system.png' | relative_url }}" alt="" data-no-lb>
       </div>
@@ -238,5 +206,6 @@ page_type: renal-hub
       </ul>
       <div class="mh-guide-tip"><span aria-hidden="true">💡</span> Pick any topic around the urinary system to get started.</div>
     </aside>
+  </div>
   </div>
 </section>
