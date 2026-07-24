@@ -377,64 +377,7 @@ page_type: renal-hub
         <circle class="renal-dot-disease" cx="675" cy="396" r="9"/>
       </svg>
 
-      <svg class="renal-anatomy" viewBox="0 0 360 520" role="img" aria-label="Soft illustration of the torso, kidneys, ureters, and bladder">
-        <defs>
-          <radialGradient id="renalBodyGlow" cx="50%" cy="46%" r="62%">
-            <stop offset="0%" stop-color="#ffffff" stop-opacity="1"/>
-            <stop offset="58%" stop-color="#edf7ff" stop-opacity=".92"/>
-            <stop offset="100%" stop-color="#dcecff" stop-opacity=".08"/>
-          </radialGradient>
-          <linearGradient id="renalBodyLine" x1="0%" y1="0%" x2="100%" y2="100%">
-            <stop offset="0%" stop-color="#b7d4ff"/>
-            <stop offset="100%" stop-color="#7aaeff"/>
-          </linearGradient>
-          <linearGradient id="renalKidney" x1="0%" y1="0%" x2="100%" y2="100%">
-            <stop offset="0%" stop-color="#ffa8ac"/>
-            <stop offset="48%" stop-color="#ee6876"/>
-            <stop offset="100%" stop-color="#d94f62"/>
-          </linearGradient>
-          <linearGradient id="renalBladder" x1="0%" y1="0%" x2="100%" y2="100%">
-            <stop offset="0%" stop-color="#ffc1c6"/>
-            <stop offset="100%" stop-color="#ed7683"/>
-          </linearGradient>
-          <filter id="renalSoftShadow" x="-25%" y="-25%" width="150%" height="150%">
-            <feDropShadow dx="0" dy="10" stdDeviation="9" flood-color="#4679bd" flood-opacity=".14"/>
-          </filter>
-          <filter id="organSoftShadow" x="-30%" y="-30%" width="160%" height="160%">
-            <feDropShadow dx="0" dy="8" stdDeviation="7" flood-color="#cc5264" flood-opacity=".25"/>
-          </filter>
-        </defs>
-
-        <ellipse cx="180" cy="252" rx="145" ry="218" fill="url(#renalBodyGlow)" filter="url(#renalSoftShadow)"/>
-
-        <g fill="none" stroke-linecap="round" stroke-linejoin="round">
-          <path d="M128 18c-.5 30-10 49-34 65-26 17-38 47-42 86-5 54-16 93-27 135-9 36-3 76 2 119 3 25 5 49 2 73" stroke="url(#renalBodyLine)" stroke-width="2.2" opacity=".82"/>
-          <path d="M232 18c.5 30 10 49 34 65 26 17 38 47 42 86 5 54 16 93 27 135 9 36 3 76-2 119-3 25-5 49-2 73" stroke="url(#renalBodyLine)" stroke-width="2.2" opacity=".82"/>
-          <path d="M105 71c41 15 109 15 150 0" stroke="#bdd8ff" stroke-width="1.8" opacity=".75"/>
-          <path d="M85 150c30-42 160-42 190 0" stroke="#cde0fb" stroke-width="1.7" opacity=".82"/>
-          <path d="M89 195c31-32 151-32 182 0M96 238c30-25 138-25 168 0" stroke="#d7e7ff" stroke-width="1.55" opacity=".78"/>
-          <path d="M96 359c25-34 55-51 84-51s59 17 84 51" stroke="#c7dcfa" stroke-width="1.9" opacity=".82"/>
-          <path d="M112 386c18-24 41-35 68-35s50 11 68 35" stroke="#d8e8ff" stroke-width="1.45" opacity=".74"/>
-          <path d="M180 78v328" stroke="#c6ddfb" stroke-width="1.5" opacity=".7"/>
-        </g>
-
-        <g fill="none" stroke="#c4dcff" stroke-linecap="round" stroke-linejoin="round" opacity=".62">
-          <path d="M111 118c21 8 44 13 69 14 25-1 48-6 69-14" stroke-width="1.4"/>
-          <path d="M104 145c24 8 49 13 76 14 27-1 52-6 76-14" stroke-width="1.4"/>
-          <path d="M101 172c25 8 51 13 79 14 28-1 54-6 79-14" stroke-width="1.4"/>
-          <path d="M127 88c-8 34-3 66 53 91M233 88c8 34 3 66-53 91" stroke-width="1.35"/>
-        </g>
-
-        <g filter="url(#organSoftShadow)">
-          <path d="M132 219c-24-5-42 22-38 56 4 32 24 53 48 43 23-9 30-42 19-71-6-16-16-25-29-28Z" fill="url(#renalKidney)" stroke="#cc4b5c" stroke-width="2.6"/>
-          <path d="M228 219c24-5 42 22 38 56-4 32-24 53-48 43-23-9-30-42-19-71 6-16 16-25 29-28Z" fill="url(#renalKidney)" stroke="#cc4b5c" stroke-width="2.6"/>
-          <path d="M141 245c-12 11-15 36-6 54M219 245c12 11 15 36 6 54" fill="none" stroke="#ffbcc2" stroke-width="4.4" stroke-linecap="round" opacity=".72"/>
-          <path d="M157 296c0 29 5 55 17 78M203 296c0 29-5 55-17 78" fill="none" stroke="#d85966" stroke-width="6" stroke-linecap="round"/>
-          <path d="M157 296c0 29 5 55 17 78M203 296c0 29-5 55-17 78" fill="none" stroke="#ffbdc2" stroke-width="2.3" stroke-linecap="round"/>
-          <path d="M149 389c2-14 13-24 31-24s29 10 31 24c3 26-8 45-26 51v33c0 8-10 8-10 0v-33c-18-6-29-25-26-51Z" fill="url(#renalBladder)" stroke="#cf5260" stroke-width="2.8"/>
-          <path d="M161 397c13 8 25 8 38 0" fill="none" stroke="#ffc0c5" stroke-width="4" stroke-linecap="round" opacity=".75"/>
-        </g>
-      </svg>
+      <img class="renal-anatomy" src="{{ '/assets/images/renal-urinary-system.png' | relative_url }}" alt="Soft illustration of the torso, kidneys, ureters, and bladder" data-no-lb>
 
       <a class="renal-topic-card renal-card-uti" href="{{ '/renal-urinary/urinary-tract-infections.html' | relative_url }}">
         <span class="renal-topic-icon" aria-hidden="true">
