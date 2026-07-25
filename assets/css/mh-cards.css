@@ -2127,10 +2127,11 @@ body[data-page-type="mental-health-hub"] .main-content .mh-guide-icon img {
 /* Two-column section rendered as skinny mini-cards (matches mental-health) */
 :is(body[data-section="renal-urinary"], body[data-section="sensory-perception"], body[data-section="immune-inflammatory"]) .renal-two-column {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
   gap: 0.85rem;
   margin: 1rem 0;
   align-items: start;
+  justify-content: start;
 }
 :is(body[data-section="renal-urinary"], body[data-section="sensory-perception"], body[data-section="immune-inflammatory"]) .renal-two-column > div {
   min-width: 0;
