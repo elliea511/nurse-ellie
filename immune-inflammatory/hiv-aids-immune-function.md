@@ -10,14 +10,14 @@ title: HIV/AIDS & Immune Function
 
 # HIV/AIDS & Immune Function
 
-<p class="mh-subtitle">PN-level review of immune function, HIV transmission, testing, disease progression, opportunistic infections, antiretroviral therapy, safety, and patient education</p>
+<p class="mh-subtitle">ATI-focused review of immune suppression, HIV transmission, testing, disease progression, opportunistic disease, antiretroviral therapy, and priority nursing care</p>
 
-**Human immunodeficiency virus (HIV)** attacks the immune system, especially the **CD4 T-helper lymphocytes**. As the CD4 count decreases, the client becomes increasingly vulnerable to unusual infections and cancers. **Acquired immunodeficiency syndrome (AIDS)** is the most advanced stage of HIV infection.
+**Human immunodeficiency virus (HIV)** attacks the immune system, especially the **CD4 T-helper lymphocytes**. As the CD4 count decreases, the client becomes increasingly vulnerable to opportunistic infections, unusual cancers, wasting, poor healing, and neurologic complications. **Acquired immunodeficiency syndrome (AIDS)** is the most advanced stage of HIV infection.
 
 <div class="priority-focus">
   <div>
     <h3>Priority Focus</h3>
-    Transmission Prevention • CD4 Count • Viral Load • Antiretroviral Adherence • Opportunistic Infections • Nutrition • Infection Safety • Psychosocial Support
+    CD4 Count • Viral Load • Transmission Prevention • Standard Precautions • Opportunistic Infections • Medication Adherence • Nutrition • Infection Safety
   </div>
 </div>
 
@@ -25,428 +25,600 @@ title: HIV/AIDS & Immune Function
 
   <div class="mh-card purple">
     <div class="mh-card-icon">🛡️</div>
-    <h3>Immune Function & HIV</h3>
-    <p>CD4 cells, immune suppression, HIV progression, and the difference between HIV and AIDS.</p>
-    <a class="mh-btn" href="#panel-immune-function">Study Immune Function</a>
+    <h3>HIV Basics & Progression</h3>
+    <p>Immune function, CD4 destruction, HIV versus AIDS, and how the disease progresses.</p>
+    <a class="mh-btn" href="#panel-hiv-basics">Study HIV Basics</a>
   </div>
 
   <div class="mh-card blue">
     <div class="mh-card-icon">🩸</div>
-    <h3>Transmission & Prevention</h3>
-    <p>Body-fluid transmission, exposure risks, prevention, pregnancy, and standard precautions.</p>
+    <h3>Transmission & Precautions</h3>
+    <p>Body-fluid transmission, casual contact, standard precautions, pregnancy, and exposure care.</p>
     <a class="mh-btn" href="#panel-transmission">Study Transmission</a>
   </div>
 
   <div class="mh-card green">
     <div class="mh-card-icon">🧪</div>
     <h3>Testing & Monitoring</h3>
-    <p>Antibody and antigen testing, viral load, CD4 count, and laboratory monitoring.</p>
+    <p>ELISA, Western assay, CD4 count, viral load, HIV RNA/DNA, and laboratory trends.</p>
     <a class="mh-btn" href="#panel-testing">Study Testing</a>
   </div>
 
   <div class="mh-card pink">
     <div class="mh-card-icon">🦠</div>
     <h3>Manifestations & Complications</h3>
-    <p>Stages of HIV, opportunistic infections, cancers, wasting, and neurologic complications.</p>
+    <p>HIV stages, opportunistic disease, Kaposi’s sarcoma, wasting, and neurologic decline.</p>
     <a class="mh-btn" href="#panel-complications">Study Complications</a>
   </div>
 
   <div class="mh-card purple">
     <div class="mh-card-icon">💊</div>
     <h3>Antiretroviral Therapy</h3>
-    <p>Combination therapy, adherence, adverse effects, resistance, and medication safety.</p>
+    <p>Combination therapy, adherence, resistance, treatment goals, and priority medication teaching.</p>
     <a class="mh-btn" href="#panel-art">Study Treatment</a>
   </div>
 
   <div class="mh-card blue">
     <div class="mh-card-icon">🩺</div>
     <h3>Nursing Care & Education</h3>
-    <p>Infection prevention, nutrition, oral care, psychosocial support, and patient teaching.</p>
+    <p>Infection prevention, nutrition, skin and oral care, psychosocial support, and home teaching.</p>
     <a class="mh-btn" href="#panel-nursing-care">Study Nursing Care</a>
   </div>
 
 </div>
 
-<div class="mh-detail purple" id="panel-immune-function" markdown="1">
+<div class="mh-detail purple" id="panel-hiv-basics" markdown="1">
 <a class="mh-detail-close" href="#">✕</a>
 
-### Immune Function and HIV
+### HIV Basics & Disease Progression
 
-<section class="renal-note-section" markdown="1">
+<div class="detail-grid" markdown="1">
 
-#### Normal Immune Function
+<div class="detail-mini-card" markdown="1">
+<strong>T Lymphocytes</strong>
 
-The immune system protects the body from infection, abnormal cells, and foreign substances.
+- Provide **cell-mediated immunity**.
+- Recognize infected or abnormal cells.
+- Help destroy cells that could harm the body.
+- **CD4 T-helper cells** coordinate the immune response.
+- HIV primarily targets CD4 cells.
+</div>
 
-<div class="renal-two-column" markdown="1">
+<div class="detail-mini-card" markdown="1">
+<strong>B Lymphocytes</strong>
 
-<div markdown="1">
+- Provide **humoral immunity**.
+- Produce antibodies.
+- Antibodies recognize specific antigens.
+- Help protect against future exposure.
+- Depend on effective immune coordination.
+</div>
 
-##### T Lymphocytes
+<div class="detail-mini-card" markdown="1">
+<strong>CD4 T-Helper Cells</strong>
 
-* Part of cell-mediated immunity.
-* Help recognize and destroy infected or abnormal cells.
-* CD4 T-helper cells coordinate the immune response.
-* HIV primarily targets CD4 cells.
+- Direct and organize the immune response.
+- Help activate B cells and other T cells.
+- Strengthen the response against infection.
+- Falling CD4 = weakening immunity.
+- Severe loss allows unusual disease to develop.
+</div>
 
 </div>
 
-<div markdown="1">
+<div class="detail-callout" markdown="1">
+<strong>Normal Immune Response:</strong> An antigen enters the body → immune cells recognize it as foreign → CD4 T-helper cells help organize the response → B cells produce antibodies and T cells attack infected or abnormal cells.
+</div>
 
-##### B Lymphocytes
+<div class="detail-table">
+  <table>
+    <thead>
+      <tr>
+        <th>Immune Component</th>
+        <th>Main Function</th>
+        <th>HIV Connection</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>T lymphocytes</strong></td>
+        <td>Provide cell-mediated immunity.</td>
+        <td>HIV weakens this part of the immune response.</td>
+      </tr>
+      <tr>
+        <td><strong>CD4 T-helper cells</strong></td>
+        <td>Coordinate and direct other immune cells.</td>
+        <td>Primary cells targeted and destroyed by HIV.</td>
+      </tr>
+      <tr>
+        <td><strong>B lymphocytes</strong></td>
+        <td>Produce antibodies against specific antigens.</td>
+        <td>Antibody production remains possible, but immune coordination becomes less effective.</td>
+      </tr>
+      <tr>
+        <td><strong>Antibodies</strong></td>
+        <td>Recognize and bind to a specific antigen.</td>
+        <td>HIV antibody tests detect the body’s response to HIV.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
-* Part of humoral immunity.
-* Produce antibodies.
-* Antibodies recognize specific antigens.
-* Help protect against future exposure.
+<div class="detail-grid" markdown="1">
 
+<div class="detail-mini-card" markdown="1">
+<strong>What HIV Is</strong>
+
+- **Human immunodeficiency virus**
+- Attacks the immune system.
+- Primarily infects **CD4 T-helper lymphocytes**.
+- Suppresses the cellular immune response.
+- Remains in the body once infection occurs.
+- Can be transmitted without symptoms.
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>What HIV Does</strong>
+
+- Enters a CD4 cell.
+- Uses the cell to replicate.
+- New virus infects more CD4 cells.
+- Infected cells are damaged or destroyed.
+- The CD4 count gradually falls.
+- Infection control becomes more difficult.
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Why the Patient Becomes Ill</strong>
+
+The major threats are:
+
+- Opportunistic infections
+- Unusual cancers
+- Severe wasting
+- Poor wound healing
+- Organ complications
+- Late neurologic decline
 </div>
 
 </div>
 
-</section>
+<div class="detail-callout" markdown="1">
+<strong>HIV Disease Process:</strong> HIV enters CD4 cells → HIV replicates → CD4 cells are destroyed → CD4 count falls → cellular immunity weakens → opportunistic infections and unusual cancers become more likely.
+</div>
 
-<section class="renal-note-section" markdown="1">
-
-#### What HIV Does
-
-HIV enters CD4 T-helper cells, uses the cells to replicate, and gradually damages or destroys them.
-
-As the CD4 count decreases:
-
-* Cell-mediated immunity becomes weaker.
-* The body has more difficulty controlling infection.
-* Opportunistic infections become more likely.
-* Certain cancers become more common.
-* The client may eventually meet the criteria for AIDS.
+<div class="detail-table">
+  <table>
+    <thead>
+      <tr>
+        <th>HIV Infection</th>
+        <th>AIDS</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>The virus is present in the body.</td>
+        <td>The most advanced stage of HIV infection.</td>
+      </tr>
+      <tr>
+        <td>The client may have few or no symptoms.</td>
+        <td>Severe immune suppression is present.</td>
+      </tr>
+      <tr>
+        <td>CD4 may remain above 200 cells/mm³.</td>
+        <td><strong>CD4 below 200 cells/mm³</strong> is the major test cue.</td>
+      </tr>
+      <tr>
+        <td>Opportunistic disease may not yet be present.</td>
+        <td>Opportunistic infections and unusual cancers are more likely.</td>
+      </tr>
+      <tr>
+        <td>Antiretroviral therapy slows progression.</td>
+        <td>Antiretroviral therapy continues while complications are treated.</td>
+      </tr>
+      <tr>
+        <td>The client can transmit HIV.</td>
+        <td>The client can still transmit HIV.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 <div class="nclex-tip" markdown="1">
-<h3>Memory Cue</h3>
+A client does not have to appear ill to have or transmit HIV. The asymptomatic stage can last for years while the virus continues reproducing.
+</div>
 
-HIV attacks the **CD4 T-helper cell**, which normally helps organize the immune response.
+<div class="detail-table">
+  <table>
+    <thead>
+      <tr>
+        <th>Stage</th>
+        <th>Main Findings</th>
+        <th>Key Test Connection</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Stage 1: Acute Infection</strong></td>
+        <td>Flu-like illness may occur <strong>2–4 weeks after infection</strong>. Fever, fatigue, sore throat, rash, muscle aches, diarrhea, night sweats, and lymph-node swelling may occur.</td>
+        <td>May look like an ordinary viral illness. Some clients have no noticeable symptoms.</td>
+      </tr>
+      <tr>
+        <td><strong>Stage 2: Latency</strong></td>
+        <td>Usually asymptomatic. HIV reproduces at low levels and the CD4 count may remain at healthier levels for years.</td>
+        <td>The client can still transmit HIV despite having no symptoms.</td>
+      </tr>
+      <tr>
+        <td><strong>Stage 3: AIDS</strong></td>
+        <td>CD4 below <strong>200 cells/mm³</strong>, opportunistic infections, unusual cancers, wasting, poor healing, lesions, night sweats, fatigue, and late neurologic changes.</td>
+        <td>Severe immune suppression makes infection the priority.</td>
+      </tr>
+      <tr>
+        <td><strong>Stage 4: Stage Unknown</strong></td>
+        <td>HIV is confirmed, but the available clinical or laboratory information is not enough to determine the stage.</td>
+        <td>More assessment and laboratory information are needed.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="detail-grid" markdown="1">
+
+<div class="detail-mini-card" markdown="1">
+<strong>CD4 Count</strong>
+
+- Measures immune-system strength.
+- Lower CD4 = weaker cellular immunity.
+- Falling CD4 = worsening suppression.
+- **Below 200 cells/mm³ = AIDS cue.**
+- Helps estimate opportunistic-infection risk.
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Viral Load</strong>
+
+- Measures the amount of HIV in the blood.
+- High viral load = greater viral activity.
+- Falling viral load = treatment is working.
+- Rising viral load may suggest missed doses or resistance.
+- Does not measure immune strength.
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Do Not Confuse Them</strong>
+
+- **CD4:** How strong is the immune system?
+- **Viral load:** How much virus is present?
+- Low CD4 = higher infection risk.
+- High viral load = more viral replication.
+- Treatment should lower viral load and preserve CD4 cells.
+</div>
 
 </div>
 
-</section>
-
-<section class="renal-note-section" markdown="1">
-
-#### HIV vs. AIDS
-
-<div class="detail-table" markdown="1">
-
-| HIV Infection | AIDS |
-|---|---|
-| The virus is present in the body | Most advanced stage of HIV infection |
-| Client may have few or no symptoms | Severe immune suppression is present |
-| CD4 count may still be above 200 cells/mm³ | CD4 count is usually below 200 cells/mm³ or an AIDS-defining condition is present |
-| Antiretroviral treatment is required | Antiretroviral treatment plus management of complications is required |
-| Client can still transmit HIV | Client can still transmit HIV |
-
+<div class="memory" markdown="1">
+HIV attacks the <strong>CD4 T-helper cell</strong>—the cell that helps organize the immune response. As CD4 cells disappear, the body loses its ability to protect itself.
 </div>
-
-A client does not have to appear ill to have HIV. With effective treatment, many clients remain healthy and may never progress to AIDS.
-
-</section>
-
-<section class="renal-note-section" markdown="1">
-
-#### Important Immune Terms
-
-<div class="detail-table" markdown="1">
-
-| Term | Simple Meaning |
-|---|---|
-| **Antigen** | A substance the immune system recognizes as foreign |
-| **Antibody** | Protein produced to recognize a specific antigen |
-| **CD4 cell** | T-helper cell targeted by HIV |
-| **Cell-mediated immunity** | Immune response involving T cells |
-| **Humoral immunity** | Immune response involving antibodies and B cells |
-| **Immunodeficiency** | Reduced ability to fight infection |
-| **Opportunistic infection** | Infection that occurs because immunity is weakened |
-| **Seroconversion** | Development of detectable antibodies after infection |
-| **Viral load** | Amount of HIV RNA in the blood |
-
-</div>
-
-</section>
 
 </div>
 
 <div class="mh-detail blue" id="panel-transmission" markdown="1">
 <a class="mh-detail-close" href="#">✕</a>
 
-### HIV Transmission and Prevention
+### HIV Transmission & Precautions
 
-<section class="renal-note-section" markdown="1">
+<div class="detail-grid" markdown="1">
 
-HIV is transmitted through specific infected body fluids entering another person’s bloodstream or contacting vulnerable tissue.
+<div class="detail-mini-card" markdown="1">
+<strong>Fluids That Transmit HIV</strong>
 
-#### Fluids That Can Transmit HIV
+- Blood
+- Semen
+- Vaginal fluids
+- Rectal fluids
+- Breast milk
+- Transmission requires infected fluid to enter the bloodstream or contact vulnerable tissue.
+</div>
 
-* Blood
-* Semen
-* Vaginal fluids
-* Rectal fluids
-* Breast milk
+<div class="detail-mini-card" markdown="1">
+<strong>Common Routes</strong>
 
-#### Common Routes of Transmission
+- Unprotected sexual contact
+- Sharing needles or injection equipment
+- Occupational needlestick or blood exposure
+- Pregnancy and birth
+- Breastfeeding
+- Exposure to contaminated blood products
+</div>
 
-* Unprotected sexual contact
-* Sharing needles or injection equipment
-* Occupational needlestick or blood exposure
-* Pregnancy, birth, or breastfeeding
-* Exposure to contaminated blood products, although screening has made this uncommon
+<div class="detail-mini-card" markdown="1">
+<strong>Not Spread by Casual Contact</strong>
 
-</section>
+- Hugging or shaking hands
+- Sharing dishes or toilets
+- Coughing or sneezing
+- Sweat or tears
+- Insect bites
+- Touching intact skin
+- Being in the same room
+</div>
 
-<section class="renal-note-section" markdown="1">
+</div>
 
-#### HIV Is Not Spread Through Casual Contact
+<div class="detail-callout" markdown="1">
+<strong>Transmission Principle:</strong> HIV requires exposure to infected blood or certain body fluids. Normal social contact does not transmit the virus.
+</div>
 
-HIV is not spread by:
+<div class="detail-table">
+  <table>
+    <thead>
+      <tr>
+        <th>Prevention Area</th>
+        <th>Priority Teaching</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Sexual transmission</strong></td>
+        <td>Abstinence, monogamy, condoms, regular HIV/STI testing, and avoiding exposure to blood or open lesions.</td>
+      </tr>
+      <tr>
+        <td><strong>Needles and equipment</strong></td>
+        <td>Never share needles. Use sterile equipment and dispose of sharps immediately.</td>
+      </tr>
+      <tr>
+        <td><strong>Pregnancy</strong></td>
+        <td>Antiretroviral adherence and viral-load monitoring reduce perinatal transmission.</td>
+      </tr>
+      <tr>
+        <td><strong>Breastfeeding</strong></td>
+        <td>Do not breastfeed because HIV can be transmitted through breast milk.</td>
+      </tr>
+      <tr>
+        <td><strong>Home safety</strong></td>
+        <td>Do not share razors, toothbrushes, or needles. Cover open wounds and clean blood spills safely.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
-* Hugging
-* Shaking hands
-* Sharing dishes
-* Sharing toilets
-* Coughing or sneezing
-* Insect bites
-* Sweat
-* Tears
-* Casual contact with intact skin
-* Being in the same room
+<div class="detail-grid" markdown="1">
+
+<div class="detail-mini-card" markdown="1">
+<strong>Standard Precautions</strong>
+
+- Use with every client.
+- Perform hand hygiene.
+- Wear gloves for possible blood or body-fluid contact.
+- Add gown, mask, or eye protection based on expected exposure.
+- Dispose of sharps safely.
+- Handle contaminated linen carefully.
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>What Is Not Required</strong>
+
+- No automatic private room.
+- No mask just for entering the room.
+- No gloves for normal contact with intact skin.
+- No special isolation solely because of HIV.
+- A back rub does not require gloves unless skin or fluid exposure is expected.
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Protecting the Client</strong>
+
+When severe immune suppression is present:
+
+- Strict hand hygiene
+- Avoid sick visitors
+- Avoid crowds when instructed
+- No fresh flowers or plants
+- Avoid standing water
+- Follow protective-isolation orders
+</div>
+
+</div>
 
 <div class="nclex-tip" markdown="1">
-<h3>NCLEX Tip</h3>
-
-HIV requires exposure to an infected body fluid. Normal social contact does not transmit the virus.
-
+<strong>Do Not Confuse Them:</strong> Standard precautions protect against blood and body-fluid exposure. Protective or reverse isolation protects the immunocompromised client from other people.
 </div>
 
-</section>
-
-<section class="renal-note-section" markdown="1">
-
-#### Prevention
-
-<div class="renal-two-column" markdown="1">
-
-<div markdown="1">
-
-##### Sexual Transmission Prevention
-
-* Use condoms correctly.
-* Limit exposure to multiple sexual partners.
-* Obtain regular HIV and STI testing.
-* Take prescribed pre-exposure prophylaxis when appropriate.
-* Maintain viral suppression through antiretroviral therapy.
-* Avoid sexual exposure when open sores or active infections are present.
-
+<div class="detail-table">
+  <table>
+    <thead>
+      <tr>
+        <th>Blood Spill Care</th>
+        <th>Needlestick or Blood Exposure</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          Wear appropriate PPE.<br>
+          Remove visible material first.<br>
+          Disinfect with the course-specified bleach solution.<br>
+          Dispose of contaminated supplies safely.
+        </td>
+        <td>
+          Wash the exposed area immediately.<br>
+          Flush mucous membranes with water.<br>
+          Report the exposure immediately.<br>
+          Obtain baseline testing as ordered.<br>
+          Begin post-exposure medication promptly when prescribed.
+        </td>
+      </tr>
+    </tbody>
+  </table>
 </div>
-
-<div markdown="1">
-
-##### Blood Exposure Prevention
-
-* Never share needles.
-* Use sterile injection equipment.
-* Follow standard precautions.
-* Dispose of sharps immediately.
-* Do not recap used needles unless required by a specific safety procedure.
-* Report occupational exposure immediately.
-
-</div>
-
-</div>
-
-</section>
-
-<section class="renal-note-section" markdown="1">
-
-#### Standard Precautions
-
-Use standard precautions with every client regardless of diagnosis.
-
-* Perform hand hygiene.
-* Wear gloves when contact with blood or body fluids is possible.
-* Wear gown, mask, or eye protection based on the expected exposure.
-* Dispose of sharps safely.
-* Clean blood spills using approved disinfectant.
-* Handle contaminated linen carefully.
-* Do not place an HIV-positive client in isolation solely because of HIV.
-
-<div class="nclex-tip" markdown="1">
-<h3>NCLEX Tip</h3>
-
-HIV does not require special isolation. Use **standard precautions** unless another infection requires additional precautions.
-
-</div>
-
-</section>
-
-<section class="renal-note-section" markdown="1">
-
-#### Pregnancy and Newborn Transmission
-
-Antiretroviral treatment during pregnancy greatly reduces transmission risk.
-
-Care may include:
-
-* Antiretroviral therapy throughout pregnancy
-* Viral-load monitoring
-* Medication during labor when indicated
-* Newborn antiretroviral prophylaxis
-* Follow-up HIV testing of the infant
-* Feeding guidance based on provider and public-health recommendations
-
-The infant may initially have maternal HIV antibodies, so specialized virologic testing is used rather than relying only on a standard antibody test.
-
-</section>
-
-<section class="renal-note-section" markdown="1">
-
-#### Post-Exposure Prophylaxis
-
-After a needlestick or other significant exposure:
-
-1. Wash the area immediately.
-2. Flush exposed mucous membranes with water.
-3. Report the exposure immediately.
-4. Document the source and type of exposure.
-5. Obtain baseline laboratory testing as ordered.
-6. Begin post-exposure prophylaxis as soon as possible when indicated.
-7. Complete follow-up testing.
 
 <div class="report-now" markdown="1">
 <h3>Occupational Exposure</h3>
 
-Do not wait until the end of the shift to report a needlestick. Post-exposure medication works best when started promptly.
-
+Do not wait until the end of the shift to report a needlestick. Antiretroviral medication may be started after exposure to reduce the likelihood that HIV will establish infection.
 </div>
-
-</section>
 
 </div>
 
 <div class="mh-detail green" id="panel-testing" markdown="1">
 <a class="mh-detail-close" href="#">✕</a>
 
-### HIV Testing and Monitoring
+### HIV Testing & Monitoring
 
-<section class="renal-note-section" markdown="1">
+<div class="detail-grid" markdown="1">
 
-#### Screening and Diagnostic Testing
+<div class="detail-mini-card" markdown="1">
+<strong>ELISA</strong>
 
-Modern HIV testing may look for antibodies, antigen, or viral genetic material.
-
-<div class="detail-table" markdown="1">
-
-| Test | What It Detects | Key Point |
-|---|---|---|
-| **Antigen/antibody test** | HIV p24 antigen plus HIV antibodies | Common screening test |
-| **Antibody test** | Antibodies formed against HIV | May be negative early during the window period |
-| **Nucleic acid test** | HIV RNA | Can detect infection earlier; used in selected cases |
-| **Supplemental differentiation test** | Confirms and differentiates HIV type | Used after a reactive screening result |
-
+- Detects antibodies against HIV.
+- Used as a screening test in the course notes.
+- A reactive result requires confirmation.
+- Antibodies show that the body has responded to HIV.
 </div>
 
-Your class notes may refer to **ELISA followed by Western blot** as the traditional testing sequence. For the unit exam, remember that these tests identify evidence of HIV infection, while current clinical testing commonly uses antigen/antibody screening with supplemental confirmation.
+<div class="detail-mini-card" markdown="1">
+<strong>Western Assay</strong>
 
-</section>
-
-<section class="renal-note-section" markdown="1">
-
-#### Window Period
-
-The **window period** is the time after infection when the client may have HIV but the test is not yet positive.
-
-During this period:
-
-* The client can still transmit HIV.
-* Antibodies may not yet be detectable.
-* Repeat testing may be needed.
-* A nucleic acid test may detect infection earlier.
-
-</section>
-
-<section class="renal-note-section" markdown="1">
-
-#### CD4 Count and Viral Load
-
-<div class="renal-two-column" markdown="1">
-
-<div markdown="1">
-
-##### CD4 Count
-
-Shows the strength of cell-mediated immunity.
-
-* Normal is generally much higher than 200 cells/mm³.
-* A falling count indicates worsening immune suppression.
-* Below 200 cells/mm³ is associated with AIDS.
-* Helps determine opportunistic-infection risk.
-* Helps determine when prophylactic medications are needed.
-
+- Confirms HIV antibodies.
+- Follows a positive screening test in the course sequence.
+- Helps verify that the initial result is truly positive.
 </div>
 
-<div markdown="1">
+<div class="detail-mini-card" markdown="1">
+<strong>HIV RNA/DNA</strong>
 
-##### Viral Load
-
-Shows the amount of HIV RNA in the blood.
-
-* High viral load means active viral replication.
-* Falling viral load shows treatment effectiveness.
-* Undetectable viral load is the treatment goal.
-* Rising viral load may indicate nonadherence or drug resistance.
-
+- Detects viral genetic material.
+- Shows that the virus itself is present.
+- Can identify infection before antibodies are fully detectable.
+- May be used for early or specialized testing.
 </div>
 
 </div>
 
-<div class="nclex-tip" markdown="1">
-<h3>Memory Cue</h3>
+<div class="detail-table">
+  <table>
+    <thead>
+      <tr>
+        <th>Test</th>
+        <th>What It Shows</th>
+        <th>Main Exam Cue</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>ELISA</strong></td>
+        <td>HIV antibodies</td>
+        <td>Screening test</td>
+      </tr>
+      <tr>
+        <td><strong>Western assay</strong></td>
+        <td>HIV antibodies</td>
+        <td>Confirmation after a positive screening result</td>
+      </tr>
+      <tr>
+        <td><strong>HIV RNA/DNA</strong></td>
+        <td>Viral genetic material</td>
+        <td>Evidence that the virus is present</td>
+      </tr>
+      <tr>
+        <td><strong>CD4 count</strong></td>
+        <td>Strength of cellular immunity</td>
+        <td>Below 200 cells/mm³ = AIDS cue</td>
+      </tr>
+      <tr>
+        <td><strong>Viral load</strong></td>
+        <td>Amount of HIV in the blood</td>
+        <td>Used to evaluate viral activity and treatment response</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
-**CD4 tells immune strength. Viral load tells how much virus is reproducing.**
+<div class="detail-grid" markdown="1">
+
+<div class="detail-mini-card" markdown="1">
+<strong>Window Period</strong>
+
+- Time after infection before antibodies are detectable.
+- The client may have HIV while the antibody test is negative.
+- The client can still transmit HIV.
+- Repeat testing may be needed.
+- HIV RNA/DNA may detect infection earlier.
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Seroconversion</strong>
+
+- Development of detectable HIV antibodies.
+- Occurs after the immune system responds to the virus.
+- Before seroconversion, antibody testing may be negative.
+- Does not mean the virus has disappeared.
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Testing Priority</strong>
+
+- A negative early test does not always rule out infection.
+- Ask about the timing of exposure.
+- Reinforce follow-up testing.
+- Continue transmission precautions during the window period.
+</div>
 
 </div>
 
-</section>
+<div class="detail-callout" markdown="1">
+<strong>Trend Interpretation:</strong> Falling CD4 = weakening immunity. Rising viral load = increasing viral activity. Falling viral load = treatment is suppressing HIV.
+</div>
 
-<section class="renal-note-section" markdown="1">
-
-#### Additional Monitoring
-
-The client may also need:
-
-* CBC
-* Liver-function tests
-* Kidney-function tests
-* Lipid panel
-* Blood glucose
-* Hepatitis screening
-* Tuberculosis screening
-* STI screening
-* Pregnancy testing
-* Medication-resistance testing
-* Weight and nutrition assessment
-
-</section>
+<div class="detail-table">
+  <table>
+    <thead>
+      <tr>
+        <th>Monitoring Area</th>
+        <th>Why It Matters</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>CD4 count</strong></td>
+        <td>Shows immune-system strength and risk for opportunistic infection.</td>
+      </tr>
+      <tr>
+        <td><strong>Viral load</strong></td>
+        <td>Shows treatment effectiveness and viral activity.</td>
+      </tr>
+      <tr>
+        <td><strong>CBC</strong></td>
+        <td>Monitors red cells, white cells, and platelets because HIV and treatment may affect blood-cell lines.</td>
+      </tr>
+      <tr>
+        <td><strong>Kidney function</strong></td>
+        <td>Helps identify disease or medication-related renal problems.</td>
+      </tr>
+      <tr>
+        <td><strong>Liver function</strong></td>
+        <td>Helps monitor medication effects and associated liver disease.</td>
+      </tr>
+      <tr>
+        <td><strong>Weight and nutrition</strong></td>
+        <td>Identifies wasting, poor intake, and treatment needs.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 <div class="report-now" markdown="1">
 <h3>Report or Follow Up</h3>
 
-* Falling CD4 count
-* Rising viral load
-* New fever
-* Persistent diarrhea
-* Unexplained weight loss
-* Shortness of breath
-* New neurologic changes
-* Medication toxicity
-* Missed antiretroviral doses
-
+- Falling CD4 count
+- Rising viral load
+- New fever
+- Persistent diarrhea
+- Unexplained weight loss
+- Shortness of breath
+- New neurologic changes
+- Medication toxicity
+- Missed antiretroviral doses
 </div>
 
 </div>
@@ -454,162 +626,215 @@ The client may also need:
 <div class="mh-detail pink" id="panel-complications" markdown="1">
 <a class="mh-detail-close" href="#">✕</a>
 
-### HIV Manifestations and Complications
+### HIV Manifestations & Complications
 
-<section class="renal-note-section" markdown="1">
+<div class="detail-grid" markdown="1">
 
-<a class="notes-figure" href="{{ '/Exam5/hiv-stages.png' | relative_url }}" target="_blank" rel="noopener">
-<img src="{{ '/Exam5/hiv-stages.png' | relative_url }}" alt="HIV stages infographic: Stage 1 acute infection with flu-like symptoms 2 to 4 weeks after infection; Stage 2 latency, often asymptomatic with low-level replication and healthy CD4 counts, lasting 8 years or longer; Stage 3 AIDS with CD4 below 200 cells/mm3, opportunistic infections, and survival usually 1 to 3 years; Stage 4 HIV infection with stage not yet determined; plus quick memory cues for each stage.">
-</a>
-<p class="notes-figure-caption">HIV stages at a glance — select the image to open it full size.</p>
-
-</section>
-
-<section class="renal-note-section" markdown="1">
-
-#### Acute HIV Infection
-
-Shortly after infection, some clients develop a flu-like illness.
+<div class="detail-mini-card" markdown="1">
+<strong>Acute Infection</strong>
 
 Possible findings:
 
-* Fever
-* Fatigue
-* Sore throat
-* Rash
-* Swollen lymph nodes
-* Headache
-* Muscle aches
-* Diarrhea
-* Night sweats
+- Fever
+- Fatigue
+- Sore throat
+- Rash
+- Headache
+- Muscle aches
+- Diarrhea
+- Night sweats
+- Swollen lymph nodes
+</div>
 
-Other clients have no noticeable symptoms.
+<div class="detail-mini-card" markdown="1">
+<strong>Chronic or Latent Stage</strong>
 
-</section>
+- May remain asymptomatic for years.
+- HIV continues reproducing.
+- Lymph nodes may remain enlarged.
+- Fatigue or recurrent infections may appear as immunity declines.
+- The client remains capable of transmission.
+</div>
 
-<section class="renal-note-section" markdown="1">
+<div class="detail-mini-card" markdown="1">
+<strong>Advanced HIV/AIDS</strong>
 
-#### Chronic HIV Infection
-
-The client may remain asymptomatic for years while the virus continues to replicate.
-
-Possible findings as immunity declines:
-
-* Persistent lymph-node enlargement
-* Fatigue
-* Recurrent infections
-* Fever
-* Night sweats
-* Weight loss
-* Diarrhea
-* Oral lesions
-* Skin problems
-
-</section>
-
-<section class="renal-note-section" markdown="1">
-
-#### Opportunistic Infections and Conditions
-
-Opportunistic infections become more likely as the CD4 count falls.
-
-<div class="detail-table" markdown="1">
-
-| Condition | Common Clues | Nursing Focus |
-|---|---|---|
-| **Pneumocystis jirovecii pneumonia** | Dry cough, fever, progressive shortness of breath, low oxygen level | Respiratory assessment, oxygen, prescribed TMP-SMX |
-| **Tuberculosis** | Cough, fever, night sweats, weight loss | Airborne precautions when active TB is suspected |
-| **Candidiasis** | White oral plaques, painful swallowing | Oral care and prescribed antifungal treatment |
-| **Cytomegalovirus** | Vision changes, retinitis, systemic illness | Report vision changes immediately |
-| **Toxoplasmosis** | Headache, confusion, seizures, neurologic changes | Neurologic assessment and seizure precautions |
-| **Cryptococcal meningitis** | Headache, fever, neck stiffness, confusion | Neurologic monitoring and antifungal therapy |
-| **Chronic diarrhea infections** | Frequent watery stools, dehydration, weight loss | Hydration, electrolyte monitoring, skin protection |
+- CD4 below 200 cells/mm³
+- Opportunistic infections
+- Unusual cancers
+- Wasting
+- Poor wound healing
+- Skin or mouth lesions
+- Late confusion or dementia
+</div>
 
 </div>
 
-</section>
+<div class="detail-table">
+  <table>
+    <thead>
+      <tr>
+        <th>Assessment Finding</th>
+        <th>Why It Matters</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Recurrent or unusual infection</strong></td>
+        <td>Suggests weakened cellular immunity.</td>
+      </tr>
+      <tr>
+        <td><strong>Persistent fever or night sweats</strong></td>
+        <td>May indicate infection or disease progression.</td>
+      </tr>
+      <tr>
+        <td><strong>Weight loss or wasting</strong></td>
+        <td>Reflects poor intake, chronic infection, diarrhea, or increased metabolic demand.</td>
+      </tr>
+      <tr>
+        <td><strong>Poor wound healing</strong></td>
+        <td>May result from immune suppression and poor nutrition.</td>
+      </tr>
+      <tr>
+        <td><strong>Skin or mouth lesions</strong></td>
+        <td>May represent fungal infection, viral disease, or malignancy.</td>
+      </tr>
+      <tr>
+        <td><strong>Persistent diarrhea</strong></td>
+        <td>Creates dehydration, electrolyte imbalance, skin breakdown, and weight loss.</td>
+      </tr>
+      <tr>
+        <td><strong>Confusion or dementia</strong></td>
+        <td>May occur late with neurologic involvement.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
-<section class="renal-note-section" markdown="1">
+<div class="detail-grid" markdown="1">
 
-#### HIV-Associated Cancers
+<div class="detail-mini-card" markdown="1">
+<strong>Pneumocystis Infection</strong>
 
-##### Kaposi Sarcoma
+- Opportunistic respiratory infection.
+- Associated with severe immune suppression.
+- Watch for dry cough, fever, dyspnea, and low oxygen saturation.
+- Respiratory assessment becomes the priority.
+- TMP-SMX may be prescribed.
+</div>
 
-* Purple, red, or brown skin lesions
-* May affect skin, mouth, lungs, or GI tract
-* Associated with severe immune suppression
+<div class="detail-mini-card" markdown="1">
+<strong>Kaposi’s Sarcoma</strong>
 
-##### Lymphoma
+- Unusual malignancy associated with AIDS.
+- May cause purple, red, or brown lesions.
+- Can affect skin, mouth, lungs, or GI tract.
+- New lesions should be assessed and reported.
+</div>
 
-* Enlarged lymph nodes
-* Fever
-* Night sweats
-* Unexplained weight loss
-* Fatigue
+<div class="detail-mini-card" markdown="1">
+<strong>Oral Candidiasis</strong>
 
-##### Cervical Cancer
+- White oral plaques
+- Mouth soreness
+- Painful swallowing
+- Reduced intake
+- Requires oral care and prescribed antifungal treatment
+</div>
 
-Clients with HIV require regular cervical-cancer screening because immune suppression increases risk.
+</div>
 
-</section>
+<div class="detail-table">
+  <table>
+    <thead>
+      <tr>
+        <th>Complication</th>
+        <th>Common Clues</th>
+        <th>Nursing Priority</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Respiratory infection</strong></td>
+        <td>Cough, dyspnea, fever, low oxygen saturation</td>
+        <td>Assess airway, breathing, oxygenation, and respiratory status.</td>
+      </tr>
+      <tr>
+        <td><strong>Neurologic infection or involvement</strong></td>
+        <td>Headache, confusion, weakness, seizure, behavior change</td>
+        <td>Perform neurologic assessment and institute safety precautions.</td>
+      </tr>
+      <tr>
+        <td><strong>GI infection</strong></td>
+        <td>Persistent diarrhea, dehydration, weight loss</td>
+        <td>Monitor fluids, electrolytes, nutrition, and skin integrity.</td>
+      </tr>
+      <tr>
+        <td><strong>Vision complication</strong></td>
+        <td>Blurred vision, floaters, loss of vision</td>
+        <td>Report vision changes immediately.</td>
+      </tr>
+      <tr>
+        <td><strong>Wasting syndrome</strong></td>
+        <td>Unintentional weight loss, muscle wasting, weakness</td>
+        <td>Provide nutrition support and evaluate for infection.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
-<section class="renal-note-section" markdown="1">
+<div class="detail-grid" markdown="1">
 
-#### Wasting Syndrome
+<div class="detail-mini-card" markdown="1">
+<strong>Wasting Syndrome</strong>
 
-Possible findings:
+- Significant unintentional weight loss
+- Muscle wasting
+- Weakness
+- Chronic diarrhea
+- Poor appetite
+- Fever
+- Requires calorie and protein support
+</div>
 
-* Significant unintentional weight loss
-* Muscle wasting
-* Weakness
-* Chronic diarrhea
-* Poor appetite
-* Fever
+<div class="detail-mini-card" markdown="1">
+<strong>Neurologic Complications</strong>
 
-Nursing care includes:
+- Confusion
+- Memory changes
+- Difficulty concentrating
+- Peripheral neuropathy
+- Headache
+- Seizures
+- Behavior or coordination changes
+</div>
 
-* Daily or regular weights
-* High-calorie, high-protein foods
-* Small frequent meals
-* Oral supplements when prescribed
-* Antiemetics or antidiarrheals as ordered
-* Dietitian consultation
-* Evaluation for infection
+<div class="detail-mini-card" markdown="1">
+<strong>Skin & Healing Problems</strong>
 
-</section>
+- Poor wound healing
+- Increased infection risk
+- Lesions
+- Dry or fragile skin
+- Breakdown from diarrhea or immobility
+- Requires frequent assessment and protection
+</div>
 
-<section class="renal-note-section" markdown="1">
-
-#### Neurologic Complications
-
-HIV may affect the nervous system.
-
-Possible findings:
-
-* Confusion
-* Memory changes
-* Difficulty concentrating
-* Weakness
-* Peripheral neuropathy
-* Headache
-* Seizures
-* Changes in behavior or coordination
+</div>
 
 <div class="report-now" markdown="1">
 <h3>Report Immediately</h3>
 
-* New confusion
-* Seizure
-* Severe headache
-* Vision loss
-* New weakness
-* Difficulty breathing
-* Very low oxygen saturation
-* High fever with severe immune suppression
-
+- New confusion or seizure
+- Severe headache
+- New weakness
+- Vision changes
+- Difficulty breathing
+- Falling oxygen saturation
+- High fever
+- Severe dehydration
+- Rapid unexplained weight loss
 </div>
-
-</section>
 
 </div>
 
@@ -618,278 +843,334 @@ Possible findings:
 
 ### Antiretroviral Therapy
 
-<section class="renal-note-section" markdown="1">
+<div class="detail-grid" markdown="1">
 
-Antiretroviral medications do not cure HIV. They suppress viral replication, improve immune function, and reduce the risk of transmission and disease progression.
+<div class="detail-mini-card" markdown="1">
+<strong>Purpose of Therapy</strong>
 
-#### Goals of Treatment
+- Inhibits HIV replication.
+- Lowers viral load.
+- Preserves CD4 cells.
+- Delays progression to AIDS.
+- Prevents opportunistic disease.
+- Prolongs life.
+</div>
 
-* Reduce viral load to undetectable
-* Increase or preserve CD4 count
-* Prevent opportunistic infections
-* Prevent progression to AIDS
-* Reduce HIV transmission
-* Improve quality and length of life
+<div class="detail-mini-card" markdown="1">
+<strong>What Therapy Does Not Do</strong>
 
-</section>
+- Does not cure HIV.
+- Does not remove HIV from the body.
+- Does not make missed doses safe.
+- Does not eliminate the need for follow-up.
+- Does not replace transmission teaching.
+</div>
 
-<section class="renal-note-section" markdown="1">
+<div class="detail-mini-card" markdown="1">
+<strong>Main Course Classes</strong>
 
-#### Combination Therapy
-
-Clients take medications from more than one drug class because HIV can develop resistance quickly when treatment is incomplete or inconsistent.
-
-Common drug groups include:
-
-* Nucleoside/nucleotide reverse transcriptase inhibitors
-* Non-nucleoside reverse transcriptase inhibitors
-* Protease inhibitors
-* Integrase inhibitors
-* Entry or fusion inhibitors
-* Pharmacokinetic enhancers
-
-The exact regimen is selected based on resistance, other illnesses, kidney and liver function, pregnancy, interactions, and tolerance.
-
-</section>
-
-<section class="renal-note-section" markdown="1">
-
-#### Medication Adherence
-
-Strict adherence is essential.
-
-Missing doses can cause:
-
-* Increased viral replication
-* Rising viral load
-* Falling CD4 count
-* Drug resistance
-* Treatment failure
-* Increased transmission risk
-
-<div class="nclex-tip" markdown="1">
-<h3>NCLEX Tip</h3>
-
-The most important long-term teaching is to take antiretroviral medications exactly as prescribed and avoid skipping doses.
+- Nucleoside analogues
+- Nonnucleoside analogues
+- Protease inhibitors
+- Drugs are usually given in combinations.
+- Individual medication details belong on the medication page.
+</div>
 
 </div>
 
-</section>
+<div class="detail-callout" markdown="1">
+<strong>Combination Therapy:</strong> Several drugs are used together to suppress HIV at different points in replication and reduce the development of drug resistance.
+</div>
 
-<section class="renal-note-section" markdown="1">
+<div class="detail-table">
+  <table>
+    <thead>
+      <tr>
+        <th>Treatment Goal</th>
+        <th>What Shows Improvement</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Suppress viral replication</td>
+        <td>Viral load decreases.</td>
+      </tr>
+      <tr>
+        <td>Preserve immune function</td>
+        <td>CD4 count remains stable or rises.</td>
+      </tr>
+      <tr>
+        <td>Prevent progression</td>
+        <td>Fewer infections and complications occur.</td>
+      </tr>
+      <tr>
+        <td>Prevent resistance</td>
+        <td>The client takes every dose exactly as prescribed.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
-#### Common Adverse Effects
+<div class="detail-grid" markdown="1">
 
-Possible effects vary by medication and may include:
+<div class="detail-mini-card" markdown="1">
+<strong>Why Adherence Is Critical</strong>
 
-* Nausea
-* Diarrhea
-* Fatigue
-* Headache
-* Rash
-* Liver injury
-* Kidney injury
-* Bone-marrow suppression
-* Hyperglycemia
-* Lipid changes
-* Fat redistribution
-* Peripheral neuropathy
-* Medication interactions
+Missing doses can cause:
 
-</section>
+- Increased viral replication
+- Rising viral load
+- Falling CD4 count
+- Drug resistance
+- Treatment failure
+- Faster disease progression
+</div>
 
-<section class="renal-note-section" markdown="1">
+<div class="detail-mini-card" markdown="1">
+<strong>Adherence Strategies</strong>
 
-#### Patient Teaching
+- Take doses at the same time daily.
+- Use alarms or phone reminders.
+- Use pillboxes or medication schedules.
+- Plan ahead for work or travel.
+- Refill medications before running out.
+- Discuss barriers without judgment.
+</div>
 
-* Take medications at the same time every day.
-* Do not stop medications when feeling better.
-* Do not double a dose unless instructed.
-* Use pillboxes, alarms, or medication schedules.
-* Ask before taking OTC drugs or herbal products.
-* Report severe rash, jaundice, decreased urination, persistent vomiting, or unusual weakness.
-* Keep laboratory appointments.
-* Continue safer-sex practices.
-* Do not share medications.
+<div class="detail-mini-card" markdown="1">
+<strong>Medication Safety</strong>
 
-</section>
+- Report all prescription drugs.
+- Report OTC drugs and herbal products.
+- Avoid **St. John’s wort**.
+- Keep kidney and liver laboratory appointments.
+- Report severe or persistent adverse effects.
+- Do not stop therapy independently.
+</div>
 
-<section class="renal-note-section" markdown="1">
+</div>
 
-#### Undetectable Viral Load
+<div class="detail-table">
+  <table>
+    <thead>
+      <tr>
+        <th>Possible Adverse Effect</th>
+        <th>Priority Nursing Focus</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Nausea, vomiting, or diarrhea</td>
+        <td>Monitor intake, hydration, weight, and adherence.</td>
+      </tr>
+      <tr>
+        <td>Rash</td>
+        <td>Assess severity and report severe rash or systemic symptoms.</td>
+      </tr>
+      <tr>
+        <td>Kidney injury</td>
+        <td>Monitor urine output, BUN, and creatinine.</td>
+      </tr>
+      <tr>
+        <td>Liver injury</td>
+        <td>Monitor liver tests and report jaundice or dark urine.</td>
+      </tr>
+      <tr>
+        <td>Bone-marrow suppression</td>
+        <td>Monitor CBC and infection, bleeding, or fatigue findings.</td>
+      </tr>
+      <tr>
+        <td>Metabolic changes</td>
+        <td>Monitor glucose, lipids, and body-fat changes as ordered.</td>
+      </tr>
+      <tr>
+        <td>Peripheral neuropathy</td>
+        <td>Assess numbness, tingling, pain, and safety concerns.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
-When treatment keeps the viral load undetectable, sexual transmission risk is effectively eliminated as long as viral suppression is maintained.
+<div class="nclex-tip" markdown="1">
+The most important long-term teaching is to take antiretroviral medications exactly as prescribed. Feeling better is not a reason to stop treatment.
+</div>
 
-The client must still:
-
-* Continue medication every day.
-* Attend follow-up appointments.
-* Continue recommended STI prevention and testing.
-* Avoid sharing needles.
-* Discuss pregnancy and breastfeeding plans with the healthcare team.
-
-</section>
+<div class="teaching" markdown="1">
+Take every dose on time. Do not skip, stop, share, or double medications unless specifically instructed. Keep CD4, viral-load, kidney, liver, and CBC follow-up appointments.
+</div>
 
 </div>
 
 <div class="mh-detail blue" id="panel-nursing-care" markdown="1">
 <a class="mh-detail-close" href="#">✕</a>
 
-### Nursing Care and Patient Education
+### Nursing Care & Patient Education
 
-<section class="renal-note-section" markdown="1">
+<div class="detail-grid" markdown="1">
 
-#### Infection Prevention
+<div class="detail-mini-card" markdown="1">
+<strong>Monitor</strong>
 
-* Perform hand hygiene.
-* Avoid people with contagious illness when immune suppression is severe.
-* Avoid raw or undercooked meat, eggs, or seafood.
-* Wash fruits and vegetables.
-* Avoid unpasteurized foods.
-* Use safe food-storage practices.
-* Avoid cleaning cat litter when possible.
-* Avoid exposure to animal feces.
-* Maintain dental and oral hygiene.
-* Receive recommended vaccines as directed.
-
-Live vaccines may be avoided in severe immune suppression. Follow provider recommendations.
-
-</section>
-
-<section class="renal-note-section" markdown="1">
-
-#### Nutrition
-
-<div class="renal-two-column" markdown="1">
-
-<div markdown="1">
-
-##### Encourage
-
-* High-calorie foods
-* High-protein foods
-* Small frequent meals
-* Oral nutrition supplements
-* Adequate fluids
-* Foods the client tolerates
-* Dietitian consultation
-
+- Vital signs and temperature
+- Respiratory status
+- CD4 count
+- Viral load
+- CBC
+- Kidney and liver function
+- Weight and intake
+- Skin, mouth, and wounds
+- Mental status
 </div>
 
-<div markdown="1">
+<div class="detail-mini-card" markdown="1">
+<strong>Prevent Infection</strong>
 
-##### Monitor
+- Strict hand hygiene
+- Standard precautions
+- Avoid unnecessary invasive procedures
+- Maintain skin and oral care
+- Limit exposure to sick people
+- Report fever promptly
+- Follow protective-isolation orders when prescribed
+</div>
 
-* Weight
-* Muscle loss
-* Appetite
-* Nausea
-* Vomiting
-* Diarrhea
-* Oral sores
-* Hydration
-* Electrolytes
+<div class="detail-mini-card" markdown="1">
+<strong>Support Nutrition</strong>
 
+- High-calorie foods
+- High-protein foods
+- Small frequent meals
+- Oral supplements as ordered
+- Adequate fluids
+- Treat nausea, diarrhea, and mouth pain
+- Dietitian consultation
 </div>
 
 </div>
 
-</section>
+<div class="detail-table">
+  <table>
+    <thead>
+      <tr>
+        <th>Care Area</th>
+        <th>Priority Nursing Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Oral care</strong></td>
+        <td>Inspect the mouth, use a soft toothbrush, avoid irritating foods, provide gentle mouth care, and report painful swallowing.</td>
+      </tr>
+      <tr>
+        <td><strong>Skin care</strong></td>
+        <td>Keep skin clean and dry, reposition weak clients, protect wounds, and use barrier products with diarrhea.</td>
+      </tr>
+      <tr>
+        <td><strong>Diarrhea care</strong></td>
+        <td>Monitor frequency, hydration, electrolytes, weight, and perineal skin. Obtain specimens as ordered.</td>
+      </tr>
+      <tr>
+        <td><strong>Respiratory care</strong></td>
+        <td>Assess cough, breath sounds, respiratory rate, oxygen saturation, and dyspnea.</td>
+      </tr>
+      <tr>
+        <td><strong>Neurologic care</strong></td>
+        <td>Monitor orientation, memory, strength, behavior, headache, and seizure activity.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
-<section class="renal-note-section" markdown="1">
+<div class="detail-grid" markdown="1">
 
-#### Oral Care
+<div class="detail-mini-card" markdown="1">
+<strong>Food Safety</strong>
 
-HIV-related oral problems may reduce intake.
+- Avoid raw or undercooked meat, eggs, and seafood.
+- Wash fruits and vegetables.
+- Avoid unpasteurized foods.
+- Store food safely.
+- Avoid spoiled food.
+- Use safe water and food preparation.
+</div>
 
-Nursing care:
+<div class="detail-mini-card" markdown="1">
+<strong>Exposure Safety</strong>
 
-* Inspect the mouth regularly.
-* Use a soft toothbrush.
-* Avoid alcohol-containing mouthwash.
-* Provide frequent gentle mouth care.
-* Offer soft, moist foods.
-* Avoid spicy, acidic, or rough foods when lesions are present.
-* Administer antifungal or antiviral medication as ordered.
-* Report painful swallowing.
+- Avoid sick contacts when immunity is severely suppressed.
+- Avoid cleaning cat litter when possible.
+- Avoid animal feces.
+- Avoid standing water and fresh plants when protective precautions are ordered.
+- Report infection exposure.
+</div>
 
-</section>
+<div class="detail-mini-card" markdown="1">
+<strong>Home Transmission Teaching</strong>
 
-<section class="renal-note-section" markdown="1">
+- Use condoms.
+- Do not share needles.
+- Do not share razors or toothbrushes.
+- Cover open wounds.
+- Clean blood spills safely.
+- Do not donate blood or semen.
+- Do not breastfeed.
+</div>
 
-#### Skin and Diarrhea Care
+</div>
 
-* Keep skin clean and dry.
-* Use gentle cleansers.
-* Reposition weak clients.
-* Protect perineal skin with barrier products.
-* Monitor stool frequency and appearance.
-* Monitor fluid and electrolyte loss.
-* Obtain stool specimens as ordered.
-* Administer prescribed antidiarrheal or antimicrobial treatment.
+<div class="detail-grid" markdown="1">
 
-</section>
+<div class="detail-mini-card" markdown="1">
+<strong>Psychosocial Concerns</strong>
 
-<section class="renal-note-section" markdown="1">
+- Fear
+- Depression
+- Anxiety
+- Stigma
+- Grief
+- Financial stress
+- Relationship concerns
+- Social isolation
+</div>
 
-#### Psychosocial Care
+<div class="detail-mini-card" markdown="1">
+<strong>Therapeutic Nursing Care</strong>
 
-Clients may experience:
+- Use nonjudgmental communication.
+- Maintain confidentiality.
+- Assess coping and support systems.
+- Screen for depression and suicide risk.
+- Encourage counseling and community resources.
+- Respect the client’s choices.
+</div>
 
-* Fear
-* Depression
-* Anxiety
-* Social stigma
-* Financial stress
-* Relationship concerns
-* Grief
-* Isolation
-* Concerns about disclosure
+<div class="detail-mini-card" markdown="1">
+<strong>Follow-Up Teaching</strong>
 
-Nursing care:
+- Take medications exactly as prescribed.
+- Keep laboratory appointments.
+- Monitor for infection.
+- Report fever or respiratory symptoms.
+- Maintain nutrition and hydration.
+- Continue dental, eye, and preventive care.
+</div>
 
-* Use nonjudgmental communication.
-* Maintain confidentiality.
-* Assess for depression and suicide risk.
-* Encourage support systems.
-* Refer to counseling and community resources.
-* Support advance-care planning when appropriate.
-* Respect the client’s choices regarding disclosure while following required public-health laws.
-
-</section>
-
-<section class="renal-note-section" markdown="1">
-
-#### Home and Follow-Up Teaching
-
-* Take medications exactly as prescribed.
-* Keep all laboratory and provider appointments.
-* Monitor for infection.
-* Report fever or new respiratory symptoms.
-* Maintain nutrition and hydration.
-* Practice safer sex.
-* Do not donate blood, semen, organs, or breast milk unless specifically permitted under current guidance.
-* Do not share razors, toothbrushes, or needles.
-* Cover open wounds.
-* Clean blood spills safely.
-* Maintain regular dental, eye, and preventive care.
-
-</section>
+</div>
 
 <div class="report-now" markdown="1">
 <h3>Report Immediately</h3>
 
-* Fever with severe immune suppression
-* New shortness of breath
-* Persistent cough
-* New confusion or seizure
-* Vision changes
-* Persistent vomiting or diarrhea
-* Severe weight loss
-* Painful swallowing
-* Medication reaction
-* Suicidal thoughts
-
+- Fever with severe immune suppression
+- New shortness of breath
+- Persistent cough
+- Falling oxygen saturation
+- New confusion or seizure
+- Vision changes
+- Persistent vomiting or diarrhea
+- Severe weight loss
+- Painful swallowing
+- Severe medication reaction
+- Suicidal thoughts
 </div>
 
 </div>
@@ -901,13 +1182,13 @@ Nursing care:
 | Concept | Main Point | Priority |
 |---|---|---|
 | **HIV** | Virus that attacks CD4 T-helper cells | Start and maintain antiretroviral treatment |
-| **AIDS** | Advanced immune suppression | Prevent and treat opportunistic disease |
+| **AIDS** | Advanced HIV with severe immune suppression | Prevent and treat opportunistic disease |
 | **CD4 count** | Measures immune-system strength | Lower count means higher infection risk |
-| **Viral load** | Measures amount of HIV in blood | Goal is undetectable |
+| **Viral load** | Measures amount of HIV in the blood | Falling level means treatment is working |
 | **Opportunistic infection** | Infection occurring because immunity is weak | Recognize symptoms early |
+| **Kaposi’s sarcoma** | Unusual cancer associated with AIDS | Assess and report new lesions |
 | **ART** | Combination antiretroviral treatment | Strict adherence prevents resistance |
-| **Standard precautions** | Used with all clients | No special isolation for HIV alone |
-| **Undetectable viral load** | Effective viral suppression | Continue medications and monitoring |
+| **Standard precautions** | Used for routine care | No special isolation for HIV alone |
 
 </div>
 
@@ -926,24 +1207,46 @@ Nursing care:
 - Suicidal thoughts
 </div>
 
+<div class="mh-table-card" markdown="1">
+
+<h3>Quick Terms</h3>
+
+| Concept | Simple Meaning |
+|---|---|
+| **HIV** | Virus that attacks CD4 T-helper cells |
+| **AIDS** | Advanced HIV with severe immune suppression |
+| **Antigen** | Substance the immune system recognizes as foreign |
+| **Antibody** | Protein produced to recognize a specific antigen |
+| **CD4 cell** | T-helper cell targeted by HIV |
+| **Cell-mediated immunity** | Immune response involving T lymphocytes |
+| **Humoral immunity** | Immune response involving B lymphocytes and antibodies |
+| **Immunodeficiency** | Reduced ability to fight infection |
+| **Opportunistic infection** | Infection that develops because immunity is weak |
+| **Seroconversion** | Development of detectable HIV antibodies |
+| **Viral load** | Amount of HIV in the blood |
+| **ART** | Antiretroviral therapy used to suppress HIV |
+| **Standard precautions** | Routine protection from blood and body-fluid exposure |
+| **Protective isolation** | Measures used to protect a severely immunocompromised client |
+
+</div>
+
 <div class="mh-columns" markdown="1">
 
 <div class="quick-review" markdown="1">
 <h3>Quick Review</h3>
 
 1. HIV attacks CD4 T-helper lymphocytes.
-2. AIDS is advanced HIV with severe immune suppression or an AIDS-defining illness.
-3. HIV is transmitted through blood, sexual fluids, and breast milk.
-4. HIV is not spread by casual contact.
-5. Use standard precautions.
-6. CD4 count measures immune strength.
-7. Viral load measures how much virus is present.
+2. Falling CD4 means weakening cellular immunity.
+3. CD4 below 200 cells/mm³ is the major AIDS cue.
+4. Viral load measures how much HIV is present.
+5. HIV is transmitted through blood, sexual fluids, and breast milk.
+6. HIV is not spread through casual contact.
+7. Use standard precautions for routine care.
 8. Antiretroviral therapy suppresses HIV but does not cure it.
-9. Combination treatment decreases resistance.
-10. Missing doses can cause resistance and treatment failure.
-11. Opportunistic infections become more likely as CD4 count falls.
-12. Undetectable viral load is the treatment goal.
-13. Nutrition, oral care, infection prevention, and psychosocial support are major nursing priorities.
+9. Missing doses can cause resistance and treatment failure.
+10. Opportunistic infections become more likely as CD4 falls.
+11. Pneumocystis infection and Kaposi’s sarcoma are major course examples.
+12. Nutrition, oral care, infection prevention, and psychosocial support are major nursing priorities.
 </div>
 
 <div class="do-not-miss" markdown="1">
@@ -951,13 +1254,13 @@ Nursing care:
 
 - Do not isolate a client solely because of HIV.
 - Do not assume an asymptomatic client cannot transmit HIV.
+- Do not confuse CD4 count with viral load.
 - Do not delay reporting an occupational exposure.
 - Do not stop antiretroviral medications when symptoms improve.
 - Do not ignore a rising viral load.
-- Do not give live vaccines without checking immune status and provider recommendations.
-- Do not overlook respiratory symptoms, neurologic changes, or vision changes.
+- Do not overlook respiratory, neurologic, or vision changes.
 - Do not use stigmatizing or judgmental language.
-- Do not disclose HIV status without authorization except as required by law.
+- Do not disclose HIV status without authorization.
 </div>
 
 </div>
