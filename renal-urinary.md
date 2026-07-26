@@ -206,20 +206,20 @@ page_type: renal-hub
           <img src="{{ '/assets/images/renal-urinary-system.png' | relative_url }}" alt="" data-no-lb>
         </div>
 
-        <a class="mh-topic-card renal-topic-uti" href="{{ '/renal-urinary/urinary-tract-infections.html' | relative_url }}">
-          <span class="mh-topic-icon">⌁</span><span><strong>Urinary Tract Infections</strong><small>Infection cues &amp; care</small></span>
+        <a class="mh-topic-card renal-topic-uti" href="{{ '/renal-urinary/renal-diagnostics-catheter-care.html' | relative_url }}">
+          <span class="mh-topic-icon">⌁</span><span><strong>Renal Diagnostics &amp; Catheter Care</strong><small>Labs, urine tests &amp; catheters</small></span>
         </a>
-        <a class="mh-topic-card renal-topic-stones" href="{{ '/renal-urinary/kidney-stones.html' | relative_url }}">
-          <span class="mh-topic-icon">◌</span><span><strong>Kidney Stones</strong><small>Pain, fluids &amp; teaching</small></span>
+        <a class="mh-topic-card renal-topic-stones" href="{{ '/renal-urinary/urinary-infections-glomerulonephritis.html' | relative_url }}">
+          <span class="mh-topic-icon">⌁</span><span><strong>Urinary Infections &amp; Glomerulonephritis</strong><small>UTI, pyelonephritis &amp; GN</small></span>
         </a>
-        <a class="mh-topic-card renal-topic-glom" href="{{ '/renal-urinary/glomerulonephritis.html' | relative_url }}">
-          <span class="mh-topic-icon">✣</span><span><strong>Glomerulonephritis</strong><small>Inflammation &amp; findings</small></span>
+        <a class="mh-topic-card renal-topic-glom" href="{{ '/renal-urinary/urolithiasis.html' | relative_url }}">
+          <span class="mh-topic-icon">◌</span><span><strong>Urolithiasis</strong><small>Stones, pain &amp; fluids</small></span>
         </a>
-        <a class="mh-topic-card renal-topic-procedures" href="{{ '/renal-urinary/dialysis-transplant-procedures.html' | relative_url }}">
-          <span class="mh-topic-icon">▣</span><span><strong>Dialysis, Transplant &amp; Procedures</strong><small>Priority procedure care</small></span>
+        <a class="mh-topic-card renal-topic-procedures" href="{{ '/renal-urinary/renal-surgery-urinary-diversions.html' | relative_url }}">
+          <span class="mh-topic-icon">▣</span><span><strong>Renal Surgery &amp; Urinary Diversions</strong><small>Post-op &amp; stoma care</small></span>
         </a>
-        <a class="mh-topic-card renal-topic-disease" href="{{ '/renal-urinary/acute-chronic-kidney-disease.html' | relative_url }}">
-          <span class="mh-topic-icon">♢</span><span><strong>Acute &amp; Chronic Kidney Disease</strong><small>Kidney failure priorities</small></span>
+        <a class="mh-topic-card renal-topic-disease" href="{{ '/renal-urinary/kidney-failure-dialysis.html' | relative_url }}">
+          <span class="mh-topic-icon">♢</span><span><strong>Kidney Failure &amp; Dialysis</strong><small>AKI, CKD &amp; dialysis</small></span>
         </a>
       </div>
 
