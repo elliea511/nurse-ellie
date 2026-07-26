@@ -2036,10 +2036,15 @@ body[data-page-type="mental-health-hub"] .main-content .mh-guide-icon img {
 }
 
 /* Tint mini-cards and two-column boxes to match the parent panel color */
-:is(body[data-section="renal-urinary"], body[data-section="sensory-perception"], body[data-section="immune-inflammatory"]) .mh-detail.blue :is(.detail-mini-card, .renal-two-column > div)     { background: var(--mh-blue-soft);   border-color: var(--mh-blue-border); }
-:is(body[data-section="renal-urinary"], body[data-section="sensory-perception"], body[data-section="immune-inflammatory"]) .mh-detail.green :is(.detail-mini-card, .renal-two-column > div)    { background: var(--mh-green-soft);  border-color: var(--mh-green-border); }
-:is(body[data-section="renal-urinary"], body[data-section="sensory-perception"], body[data-section="immune-inflammatory"]) .mh-detail.pink :is(.detail-mini-card, .renal-two-column > div)     { background: var(--mh-pink-soft);   border-color: var(--mh-pink-border); }
-:is(body[data-section="renal-urinary"], body[data-section="sensory-perception"], body[data-section="immune-inflammatory"]) .mh-detail.purple :is(.detail-mini-card, .renal-two-column > div)   { background: var(--mh-purple-soft); border-color: var(--mh-purple-border); }
+:is(body[data-section="renal-urinary"], body[data-section="sensory-perception"], body[data-section="immune-inflammatory"]) .mh-detail.blue :is(.detail-mini-card, .renal-two-column > div, .renal-strip)     { background: var(--mh-blue-soft);   border-color: var(--mh-blue-border); }
+:is(body[data-section="renal-urinary"], body[data-section="sensory-perception"], body[data-section="immune-inflammatory"]) .mh-detail.green :is(.detail-mini-card, .renal-two-column > div, .renal-strip)    { background: var(--mh-green-soft);  border-color: var(--mh-green-border); }
+:is(body[data-section="renal-urinary"], body[data-section="sensory-perception"], body[data-section="immune-inflammatory"]) .mh-detail.pink :is(.detail-mini-card, .renal-two-column > div, .renal-strip)     { background: var(--mh-pink-soft);   border-color: var(--mh-pink-border); }
+:is(body[data-section="renal-urinary"], body[data-section="sensory-perception"], body[data-section="immune-inflammatory"]) .mh-detail.purple :is(.detail-mini-card, .renal-two-column > div, .renal-strip)   { background: var(--mh-purple-soft); border-color: var(--mh-purple-border); }
+/* Strip inner dividers follow the panel color */
+:is(body[data-section="renal-urinary"], body[data-section="sensory-perception"], body[data-section="immune-inflammatory"]) .mh-detail.blue   .renal-strip > div { border-left-color: var(--mh-blue-border); }
+:is(body[data-section="renal-urinary"], body[data-section="sensory-perception"], body[data-section="immune-inflammatory"]) .mh-detail.green  .renal-strip > div { border-left-color: var(--mh-green-border); }
+:is(body[data-section="renal-urinary"], body[data-section="sensory-perception"], body[data-section="immune-inflammatory"]) .mh-detail.pink   .renal-strip > div { border-left-color: var(--mh-pink-border); }
+:is(body[data-section="renal-urinary"], body[data-section="sensory-perception"], body[data-section="immune-inflammatory"]) .mh-detail.purple .renal-strip > div { border-left-color: var(--mh-purple-border); }
 
 /* Compact callouts and warning boxes (still visually distinct). */
 :is(body[data-section="renal-urinary"], body[data-section="sensory-perception"], body[data-section="immune-inflammatory"]) .detail-callout {
@@ -2101,10 +2106,10 @@ body[data-page-type="mental-health-hub"] .main-content .mh-guide-icon img {
 /* Tint the whole expanded panel to match its topic-card color:
    a very light background wash (lighter than the inner cards so cards
    still read) plus a deep-colored font and headings. */
-:is(body[data-section="renal-urinary"], body[data-section="sensory-perception"], body[data-section="immune-inflammatory"]) .mh-detail.blue   { border-top-color: var(--mh-blue);   background: color-mix(in srgb, var(--mh-blue-soft)   45%, #fff); color: var(--mh-blue-deep); }
-:is(body[data-section="renal-urinary"], body[data-section="sensory-perception"], body[data-section="immune-inflammatory"]) .mh-detail.green  { border-top-color: var(--mh-green);  background: color-mix(in srgb, var(--mh-green-soft)  45%, #fff); color: var(--mh-green-deep); }
-:is(body[data-section="renal-urinary"], body[data-section="sensory-perception"], body[data-section="immune-inflammatory"]) .mh-detail.pink   { border-top-color: var(--mh-pink);   background: color-mix(in srgb, var(--mh-pink-soft)   45%, #fff); color: var(--mh-pink-deep); }
-:is(body[data-section="renal-urinary"], body[data-section="sensory-perception"], body[data-section="immune-inflammatory"]) .mh-detail.purple { border-top-color: var(--mh-purple); background: color-mix(in srgb, var(--mh-purple-soft) 45%, #fff); color: var(--mh-purple-deep); }
+:is(body[data-section="renal-urinary"], body[data-section="sensory-perception"], body[data-section="immune-inflammatory"]) .mh-detail.blue   { border-top-color: var(--mh-blue);   background: color-mix(in srgb, var(--mh-blue-soft)   45%, var(--mh-card-bg)); color: var(--mh-blue-deep); }
+:is(body[data-section="renal-urinary"], body[data-section="sensory-perception"], body[data-section="immune-inflammatory"]) .mh-detail.green  { border-top-color: var(--mh-green);  background: color-mix(in srgb, var(--mh-green-soft)  45%, var(--mh-card-bg)); color: var(--mh-green-deep); }
+:is(body[data-section="renal-urinary"], body[data-section="sensory-perception"], body[data-section="immune-inflammatory"]) .mh-detail.pink   { border-top-color: var(--mh-pink);   background: color-mix(in srgb, var(--mh-pink-soft)   45%, var(--mh-card-bg)); color: var(--mh-pink-deep); }
+:is(body[data-section="renal-urinary"], body[data-section="sensory-perception"], body[data-section="immune-inflammatory"]) .mh-detail.purple { border-top-color: var(--mh-purple); background: color-mix(in srgb, var(--mh-purple-soft) 45%, var(--mh-card-bg)); color: var(--mh-purple-deep); }
 
 /* Headings inside a tinted panel take the panel's deep color */
 :is(body[data-section="renal-urinary"], body[data-section="sensory-perception"], body[data-section="immune-inflammatory"]) .mh-detail.blue   :is(h3, h4, h5) { color: var(--mh-blue-deep) !important; }
@@ -2180,14 +2185,14 @@ body[data-page-type="mental-health-hub"] .main-content .mh-guide-icon img {
   grid-auto-flow: column;
   grid-auto-columns: 1fr;
   margin: 1rem 0;
-  border: 1px solid #ececf3;
+  border: 1px solid color-mix(in srgb, var(--mh-ink) 14%, transparent);
   border-radius: 14px;
   overflow: hidden;
-  background: #fff;
+  background: var(--mh-card-bg);
 }
 :is(body[data-section="renal-urinary"], body[data-section="sensory-perception"], body[data-section="immune-inflammatory"]) .renal-strip > div {
   padding: 0.9rem 1.15rem;
-  border-left: 1px solid #ececf3;
+  border-left: 1px solid color-mix(in srgb, var(--mh-ink) 14%, transparent);
   min-width: 0;
 }
 :is(body[data-section="renal-urinary"], body[data-section="sensory-perception"], body[data-section="immune-inflammatory"]) .renal-strip > div:first-child { border-left: none; }
@@ -2201,22 +2206,32 @@ body[data-page-type="mental-health-hub"] .main-content .mh-guide-icon img {
 :is(body[data-section="renal-urinary"], body[data-section="sensory-perception"], body[data-section="immune-inflammatory"]) .mh-detail table {
   width: 100%;
   border-collapse: collapse;
-  background: #fff;
+  background: var(--mh-card-bg);
   margin: 1rem 0 !important;
   font-size: 0.93rem;
 }
 :is(body[data-section="renal-urinary"], body[data-section="sensory-perception"], body[data-section="immune-inflammatory"]) .mh-detail thead th {
-  background: rgba(34, 28, 80, 0.05);
+  background: color-mix(in srgb, var(--mh-ink) 6%, transparent);
   text-align: left;
   padding: 0.55rem 0.8rem;
-  border-bottom: 2px solid rgba(34, 28, 80, 0.12);
+  border-bottom: 2px solid color-mix(in srgb, var(--mh-ink) 14%, transparent);
 }
 :is(body[data-section="renal-urinary"], body[data-section="sensory-perception"], body[data-section="immune-inflammatory"]) .mh-detail tbody td {
   padding: 0.5rem 0.8rem;
-  border-bottom: 1px solid rgba(34, 28, 80, 0.08);
+  border-bottom: 1px solid color-mix(in srgb, var(--mh-ink) 10%, transparent);
   line-height: 1.45;
   vertical-align: top;
 }
+
+/* Tint tables to the panel color to match the cards */
+:is(body[data-section="renal-urinary"], body[data-section="sensory-perception"], body[data-section="immune-inflammatory"]) .mh-detail.blue   table { background: var(--mh-blue-soft); }
+:is(body[data-section="renal-urinary"], body[data-section="sensory-perception"], body[data-section="immune-inflammatory"]) .mh-detail.green  table { background: var(--mh-green-soft); }
+:is(body[data-section="renal-urinary"], body[data-section="sensory-perception"], body[data-section="immune-inflammatory"]) .mh-detail.pink   table { background: var(--mh-pink-soft); }
+:is(body[data-section="renal-urinary"], body[data-section="sensory-perception"], body[data-section="immune-inflammatory"]) .mh-detail.purple table { background: var(--mh-purple-soft); }
+:is(body[data-section="renal-urinary"], body[data-section="sensory-perception"], body[data-section="immune-inflammatory"]) .mh-detail.blue   thead th { background: var(--mh-blue-border); }
+:is(body[data-section="renal-urinary"], body[data-section="sensory-perception"], body[data-section="immune-inflammatory"]) .mh-detail.green  thead th { background: var(--mh-green-border); }
+:is(body[data-section="renal-urinary"], body[data-section="sensory-perception"], body[data-section="immune-inflammatory"]) .mh-detail.pink   thead th { background: var(--mh-pink-border); }
+:is(body[data-section="renal-urinary"], body[data-section="sensory-perception"], body[data-section="immune-inflammatory"]) .mh-detail.purple thead th { background: var(--mh-purple-border); }
 
 /* Compact in-panel callouts / alert boxes */
 :is(body[data-section="renal-urinary"], body[data-section="sensory-perception"], body[data-section="immune-inflammatory"]) .mh-detail .detail-callout { margin: 1.25rem 0; }
