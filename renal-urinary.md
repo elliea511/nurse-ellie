@@ -169,6 +169,12 @@ page_type: renal-hub
       height: 20rem;
     }
   }
+
+  /* Dark mode: the heading is forced navy above; make it light */
+  [data-theme="dark"] body[data-page-type="renal-hub"] .system-hub .mh-hub-header h1 {
+    color: #eef7ff !important;
+    -webkit-text-fill-color: #eef7ff !important;
+  }
 </style>
 
 <section class="mh-hub system-hub renal-system-hub" aria-labelledby="renal-hub-title">

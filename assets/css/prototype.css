@@ -452,3 +452,28 @@ body.prototype {
   .prototype-note #back-to-top { bottom: 16px !important; right: 14px !important; }
   .prototype-note #hl-summary-btn { bottom: 68px !important; right: 14px !important; }
 }
+
+/* ============================================================
+   Dark mode for the prototype homepage. Colorful body-map
+   callouts stay as light pastel chips (kept readable); the
+   surrounding surfaces and hero text go dark.
+   ============================================================ */
+[data-theme="dark"] body.prototype { background: #15121f !important; color: #e8e5f7; }
+[data-theme="dark"] .prototype-topbar { background: rgba(28,24,40,.94) !important; border-color: #332b47 !important; }
+[data-theme="dark"] .prototype-topbar nav a { color: #d7d2ea; }
+[data-theme="dark"] .prototype-topbar nav a:hover { background: #2a2340; }
+[data-theme="dark"] .prototype-brand strong { color: #f2f0fb; }
+[data-theme="dark"] .prototype-hero { background: #1c1830 !important; }
+[data-theme="dark"] .prototype-hero::before,
+[data-theme="dark"] .prototype-hero::after { opacity: .18; }
+[data-theme="dark"] .hero-copy h1 { color: #f2f0fb; }
+[data-theme="dark"] .hero-copy h1 em { color: #f5a3cd; }
+[data-theme="dark"] .hero-copy > p { color: #b5b0ce; }
+[data-theme="dark"] .soft-label { background: #2a2340; color: #c9b8f5; }
+[data-theme="dark"] .button-secondary { background: #242033; color: #eee8ff !important; border-color: #453a6e; }
+[data-theme="dark"] .encouragement { background: #241d33 !important; }
+[data-theme="dark"] .encouragement p { color: #b5b0ce; }
+[data-theme="dark"] .encouragement strong { color: #f2f0fb; }
+[data-theme="dark"] .map-center { background: #242033; }
+[data-theme="dark"] .map-center strong { color: #f2f0fb; }
+[data-theme="dark"] .body-callout small { color: #4a4560; }

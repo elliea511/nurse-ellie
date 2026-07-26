@@ -5850,3 +5850,43 @@ mark.hl { background: #e8e8e8 !important; color: #111 !important; -webkit-print-
     font-style: italic !important;
   }
 }
+
+/* ============================================================
+   Dark mode for the My Notes (review) page. The .mn-* component
+   hardcodes white surfaces; flip the shell variables and the
+   hardcoded backgrounds for a readable dark theme.
+   ============================================================ */
+[data-theme="dark"] .mn-shell {
+  --mn-ink: #e9e6f6;
+  --mn-muted: #a9a3c4;
+  --mn-purple: #c3aef7;
+  --mn-purple-soft: #2c2547;
+  --mn-line: #39324f;
+  background: #1a1626 !important;
+  border-color: #39324f !important;
+}
+[data-theme="dark"] .mn-rail,
+[data-theme="dark"] .mn-legend,
+[data-theme="dark"] .mn-tip,
+[data-theme="dark"] .mn-stats div,
+[data-theme="dark"] .mn-search input,
+[data-theme="dark"] .mn-tool-actions button,
+[data-theme="dark"] .mn-note-card,
+[data-theme="dark"] .mn-dialog,
+[data-theme="dark"] .mn-editor {
+  background: #221d33 !important;
+  border-color: #39324f !important;
+}
+[data-theme="dark"] .mn-hero h1 {
+  color: var(--mn-ink) !important;
+  -webkit-text-fill-color: var(--mn-ink) !important;
+}
+[data-theme="dark"] .mn-search span { color: #b7a8dd !important; }
+[data-theme="dark"] .mn-tool-actions button { color: #ccbff0 !important; }
+[data-theme="dark"] .mn-nav a,
+[data-theme="dark"] .mn-nav button { color: #d7d2ea !important; }
+/* Colored highlight tints inside note detail: darken for dark mode */
+[data-theme="dark"] .mn-detail-item.mn-tone-yellow { background: #322c14 !important; }
+[data-theme="dark"] .mn-detail-item.mn-tone-pink   { background: #331f2b !important; }
+[data-theme="dark"] .mn-detail-item.mn-tone-blue   { background: #1e2740 !important; }
+[data-theme="dark"] .mn-detail-item.mn-tone-green  { background: #16301f !important; }
