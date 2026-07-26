@@ -1183,9 +1183,9 @@ page_type: immune-hub
           <span class="immune-card-chevron" aria-hidden="true">›</span>
         </a>
 
-        <a class="immune-card immune-topic-meds" href="{{ '/immune-inflammatory/anti-inflammatory-immunosuppressive-medications.html' | relative_url }}">
+        <a class="immune-card immune-topic-meds" href="{{ '/Exam5/immune-med-study.png' | relative_url }}" target="_blank" rel="noopener">
           <span class="immune-card-icon" aria-hidden="true">💊</span>
-          <span><strong class="immune-card-title">Anti-Inflammatory &amp; Immunosuppressive Medications</strong><small class="immune-card-description">Corticosteroids, DMARDs, biologics, safety monitoring &amp; education</small></span>
+          <span><strong class="immune-card-title">Immune Medication Quick Review</strong><small class="immune-card-description">Open the medication study sheet</small></span>
           <span class="immune-card-chevron" aria-hidden="true">›</span>
         </a>
       </div>
