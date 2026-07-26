@@ -2133,11 +2133,16 @@ body[data-page-type="mental-health-hub"] .main-content .mh-guide-icon img {
 /* Two-column section rendered as skinny mini-cards (matches mental-health) */
 :is(body[data-section="renal-urinary"], body[data-section="sensory-perception"], body[data-section="immune-inflammatory"]) .renal-two-column {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 240px));
   gap: 0.85rem;
   margin: 1rem 0;
-  align-items: start;
-  justify-content: start;
+  align-items: stretch;
+  justify-content: center;
+}
+/* A card grid holding exactly two cards: keep them 4-up width and centered */
+:is(body[data-section="renal-urinary"], body[data-section="sensory-perception"], body[data-section="immune-inflammatory"]) .detail-grid:has(> .detail-mini-card:nth-child(2):last-child) {
+  grid-template-columns: repeat(2, minmax(0, 240px));
+  justify-content: center;
 }
 :is(body[data-section="renal-urinary"], body[data-section="sensory-perception"], body[data-section="immune-inflammatory"]) .renal-two-column > div {
   min-width: 0;
