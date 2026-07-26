@@ -10,16 +10,14 @@ title: Systemic Lupus Erythematosus
 
 # Systemic Lupus Erythematosus
 
-<p class="mh-subtitle">PN-level review of lupus pathophysiology, butterfly rash, systemic manifestations, diagnostics, medications, kidney involvement, flare prevention, and priority nursing care</p>
+<p class="mh-subtitle">ATI-focused review of systemic autoimmune connective-tissue inflammation, butterfly rash, photosensitivity, Raynaud’s phenomenon, organ damage, diagnostics, medication safety, and patient education</p>
 
-**Systemic lupus erythematosus (SLE)** is a chronic autoimmune inflammatory disease. The immune system mistakenly attacks the body’s own tissues, causing periods of increased symptoms called **flares** and periods of improvement called **remission**.
-
-Because lupus is systemic, it may affect the **skin, joints, kidneys, blood cells, heart, lungs, nervous system, and blood vessels**.
+**Systemic lupus erythematosus (SLE)** is a chronic **autoimmune collagen or connective-tissue disorder**. The disease can affect the skin, joints, blood vessels, kidneys, heart, lungs, blood cells, and nervous system. There is **no known prevention and no cure**, so care focuses on controlling inflammation, preventing flares, protecting organs, and recognizing complications early.
 
 <div class="priority-focus">
   <div>
     <h3>Priority Focus</h3>
-    Autoimmune Inflammation • Butterfly Rash • Photosensitivity • Kidney Function • Infection Risk • Medication Safety • Flare Prevention • Fatigue Management
+    Autoimmune Inflammation • Butterfly Rash • Photosensitivity • Raynaud’s • Renal Function • Cardiac Function • Infection • Medication Toxicity • Flare Prevention
   </div>
 </div>
 
@@ -27,1066 +25,742 @@ Because lupus is systemic, it may affect the **skin, joints, kidneys, blood cell
 
   <div class="mh-card purple">
     <div class="mh-card-icon">🦋</div>
-    <h3>Pathophysiology & Risk Factors</h3>
-    <p>Autoimmune inflammation, antibody formation, tissue damage, flares, and common risks.</p>
-    <a class="mh-btn" href="#panel-pathophysiology">Study Pathophysiology</a>
+    <h3>Lupus Basics & Progression</h3>
+    <p>Autoimmune connective-tissue disease, chronic flares, remission, and long-term organ injury.</p>
+    <a class="mh-btn" href="#panel-sle-basics">Study Lupus Basics</a>
   </div>
 
-  <div class="mh-card pink">
-    <div class="mh-card-icon">🌸</div>
-    <h3>Assessment Findings</h3>
-    <p>Butterfly rash, photosensitivity, joint pain, fatigue, oral ulcers, and systemic symptoms.</p>
-    <a class="mh-btn" href="#panel-assessment">Study Assessment</a>
+  <div class="mh-card blue">
+    <div class="mh-card-icon">☀️</div>
+    <h3>Skin, Raynaud’s & Joints</h3>
+    <p>Butterfly rash, photosensitivity, hair loss, cold-induced vasospasm, and joint pain.</p>
+    <a class="mh-btn" href="#panel-sle-manifestations">Study Manifestations</a>
   </div>
 
   <div class="mh-card green">
     <div class="mh-card-icon">🧪</div>
-    <h3>Diagnostics & Monitoring</h3>
-    <p>ANA, anti-dsDNA, anti-Smith antibodies, complement levels, CBC, urine, and kidney tests.</p>
-    <a class="mh-btn" href="#panel-diagnostics">Study Diagnostics</a>
+    <h3>Diagnostics & Labs</h3>
+    <p>ANA, anti-DNA, LE prep, ESR, CRP, urinalysis, CBC, kidney function, and trends.</p>
+    <a class="mh-btn" href="#panel-sle-diagnostics">Study Diagnostics</a>
   </div>
 
-  <div class="mh-card blue">
-    <div class="mh-card-icon">🫘</div>
-    <h3>Lupus Nephritis</h3>
-    <p>Proteinuria, hematuria, edema, hypertension, kidney monitoring, and biopsy.</p>
-    <a class="mh-btn" href="#panel-nephritis">Study Lupus Nephritis</a>
+  <div class="mh-card pink">
+    <div class="mh-card-icon">🫀</div>
+    <h3>Organ Complications</h3>
+    <p>Renal, cardiac, pulmonary, neurologic, and blood-cell complications.</p>
+    <a class="mh-btn" href="#panel-sle-complications">Study Complications</a>
   </div>
 
   <div class="mh-card purple">
     <div class="mh-card-icon">💊</div>
-    <h3>Medications</h3>
-    <p>NSAIDs, hydroxychloroquine, corticosteroids, immunosuppressants, and biologic therapy.</p>
-    <a class="mh-btn" href="#panel-medications">Study Medications</a>
+    <h3>Medications & Safety</h3>
+    <p>NSAIDs, steroids, hydroxychloroquine, methotrexate, cyclophosphamide, and monitoring.</p>
+    <a class="mh-btn" href="#panel-sle-medications">Study Medications</a>
   </div>
 
-  <div class="mh-card pink">
-    <div class="mh-card-icon">☀️</div>
-    <h3>Nursing Care & Flare Prevention</h3>
-    <p>Sun protection, energy conservation, infection prevention, pregnancy, and teaching.</p>
-    <a class="mh-btn" href="#panel-nursing-care">Study Nursing Care</a>
+  <div class="mh-card blue">
+    <div class="mh-card-icon">🏠</div>
+    <h3>Nursing Care & Education</h3>
+    <p>Sun protection, energy conservation, infection prevention, organ monitoring, and flare control.</p>
+    <a class="mh-btn" href="#panel-sle-care">Study Nursing Care</a>
   </div>
 
 </div>
 
-<div class="mh-detail purple" id="panel-pathophysiology" markdown="1">
+<div class="mh-detail purple" id="panel-sle-basics" markdown="1">
 <a class="mh-detail-close" href="#">✕</a>
 
-### Pathophysiology and Risk Factors
+### Lupus Basics & Disease Progression
 
-<section class="renal-note-section" markdown="1">
+<div class="detail-grid" markdown="1">
 
-#### What Lupus Is
+<div class="detail-mini-card" markdown="1">
+<strong>What Lupus Is</strong>
 
-In lupus, the immune system produces antibodies against the body’s own cells and tissues.
+- Chronic autoimmune disease
+- Collagen or connective-tissue disorder
+- Can affect many body systems
+- Cause is unknown
+- No known prevention
+- No cure
+</div>
 
-This may lead to:
+<div class="detail-mini-card" markdown="1">
+<strong>Highest-Risk Group in the Course Notes</strong>
 
-1. Formation of autoantibodies
-2. Antigen-antibody complexes
-3. Inflammation in tissues and blood vessels
-4. Damage to affected organs
-5. Periods of flares and remission
+- Young African American women
+- Lupus can affect any race.
+- Lupus can affect any gender.
+- Risk-group knowledge does not exclude other clients.
+- Diagnosis depends on findings and testing.
+</div>
 
-The symptoms vary because different organs may be involved in each client.
+<div class="detail-mini-card" markdown="1">
+<strong>Chronic Course</strong>
 
-</section>
-
-<section class="renal-note-section" markdown="1">
-
-#### Flares and Remission
-
-<div class="renal-two-column" markdown="1">
-
-<div markdown="1">
-
-##### Flare
-
-A flare is a period of increased disease activity.
-
-Possible findings:
-
-* Increased fatigue
-* Increased joint pain
-* New or worsening rash
-* Fever
-* Joint swelling
-* Oral ulcers
-* Headache
-* Kidney changes
-* Chest discomfort
-* Neurologic symptoms
+- Periods of flare
+- Periods of remission
+- Symptoms may vary over time.
+- Organ damage may develop gradually.
+- Long-term follow-up is required.
+- Treatment controls symptoms and injury.
+</div>
 
 </div>
 
-<div markdown="1">
-
-##### Remission
-
-During remission:
-
-* Symptoms improve.
-* Inflammation decreases.
-* Energy may improve.
-* Organ function may stabilize.
-* Medication may still be required.
-* Follow-up monitoring remains necessary.
-
+<div class="detail-callout" markdown="1">
+<strong>Lupus Disease Process:</strong> The immune system attacks connective tissue and organs → inflammation develops in skin, joints, vessels, kidneys, heart, and other tissues → flares cause symptoms → repeated injury may lead to permanent organ damage.
 </div>
 
+<div class="detail-table">
+  <table>
+    <thead>
+      <tr>
+        <th>Concept</th>
+        <th>Key Point</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Autoimmune</strong></td>
+        <td>The immune system attacks the client’s own tissues.</td>
+      </tr>
+      <tr>
+        <td><strong>Systemic</strong></td>
+        <td>The disease can affect the entire body rather than one local joint.</td>
+      </tr>
+      <tr>
+        <td><strong>Collagen disorder</strong></td>
+        <td>Connective tissues throughout the body may be involved.</td>
+      </tr>
+      <tr>
+        <td><strong>Flare</strong></td>
+        <td>Symptoms and inflammation become more active.</td>
+      </tr>
+      <tr>
+        <td><strong>Remission</strong></td>
+        <td>Symptoms and disease activity decrease.</td>
+      </tr>
+      <tr>
+        <td><strong>Prevention</strong></td>
+        <td>There is no known way to prevent lupus.</td>
+      </tr>
+    </tbody>
+  </table>
 </div>
 
 <div class="nclex-tip" markdown="1">
-<h3>NCLEX Tip</h3>
+When asked how lupus could have been prevented, the correct teaching is that lupus is an autoimmune disease with no known prevention.
+</div>
 
-Remission does not mean lupus is cured. The client should continue medications and monitoring as prescribed.
+<div class="detail-callout" markdown="1">
+<strong>SLE = Systemic, Long-term, Everywhere:</strong> Think chronic autoimmune inflammation that can affect skin, joints, vessels, kidneys, heart, lungs, blood, and brain.
+</div>
 
 </div>
 
-</section>
-
-<section class="renal-note-section" markdown="1">
-
-#### Risk Factors
-
-Lupus can occur in anyone, but risk is increased with:
-
-* Female sex
-* Childbearing age
-* Family history
-* Genetic susceptibility
-* Certain environmental exposures
-* Hormonal influences
-* Smoking
-* Ultraviolet-light exposure
-* Selected medications
-* Previous immune-system activation
-
-The exact cause is unknown and is likely a combination of genetic, hormonal, environmental, and immune factors.
-
-</section>
-
-<section class="renal-note-section" markdown="1">
-
-#### Possible Flare Triggers
-
-* Sunlight or ultraviolet exposure
-* Infection
-* Emotional stress
-* Physical stress
-* Lack of sleep
-* Overexertion
-* Smoking
-* Medication nonadherence
-* Hormonal changes
-* Pregnancy or postpartum changes
-* Certain medications
-
-Not every client has the same triggers.
-
-</section>
-
-<section class="renal-note-section" markdown="1">
-
-#### Systemic Disease
-
-Lupus may involve several systems at the same time.
-
-<div class="detail-table" markdown="1">
-
-| System | Possible Effect |
-|---|---|
-| **Skin** | Butterfly rash, photosensitivity, lesions |
-| **Musculoskeletal** | Joint pain, stiffness, swelling |
-| **Renal** | Lupus nephritis |
-| **Hematologic** | Anemia, leukopenia, thrombocytopenia |
-| **Cardiac** | Pericarditis and cardiovascular risk |
-| **Respiratory** | Pleuritis and pleural effusion |
-| **Neurologic** | Headache, confusion, seizure |
-| **Vascular** | Blood clots and vasculitis |
-| **General** | Fatigue, fever, weight change |
-
-</div>
-
-</section>
-
-</div>
-
-<div class="mh-detail pink" id="panel-assessment" markdown="1">
+<div class="mh-detail blue" id="panel-sle-manifestations" markdown="1">
 <a class="mh-detail-close" href="#">✕</a>
 
-### Assessment Findings
+### Skin, Raynaud’s & Joint Manifestations
 
-<section class="renal-note-section" markdown="1">
+<div class="detail-grid" markdown="1">
 
-#### General Manifestations
+<div class="detail-mini-card" markdown="1">
+<strong>Butterfly Rash</strong>
 
-Common findings include:
+- Rash across the cheeks
+- May cross the bridge of the nose
+- Resembles butterfly wings
+- May worsen with sunlight
+- Protect skin during outdoor exposure
+- Report worsening lesions
+</div>
 
-* Severe fatigue
-* Weakness
-* Low-grade fever
-* Malaise
-* Loss of appetite
-* Weight change
-* Enlarged lymph nodes
-* Sleep disturbance
-* Decreased activity tolerance
+<div class="detail-mini-card" markdown="1">
+<strong>Photosensitivity</strong>
 
-Symptoms may come and go and may differ greatly between clients.
+- Sunlight can trigger or worsen symptoms.
+- Use long sleeves.
+- Wear sunglasses.
+- Use sunscreen.
+- Avoid peak sunlight.
+- Plan outdoor activity carefully.
+</div>
 
-</section>
+<div class="detail-mini-card" markdown="1">
+<strong>Hair and Skin Changes</strong>
 
-<section class="renal-note-section" markdown="1">
-
-#### Skin Manifestations
-
-<div class="renal-two-column" markdown="1">
-
-<div markdown="1">
-
-##### Butterfly Rash
-
-* Red rash across the cheeks and bridge of the nose
-* Also called a malar rash
-* May worsen after sun exposure
-* Usually does not affect the folds beside the nose in the classic pattern
+- Hair loss
+- Fragile or inflamed skin
+- Rashes
+- Lesions
+- Sensitivity to sunlight
+- Body-image concerns
+</div>
 
 </div>
 
-<div markdown="1">
+<div class="detail-grid" markdown="1">
 
-##### Other Skin Findings
+<div class="detail-mini-card" markdown="1">
+<strong>Raynaud’s Phenomenon</strong>
 
-* Photosensitivity
-* Raised or scaly lesions
-* Discoid lesions
-* Hair loss
-* Mouth or nose ulcers
-* Raynaud phenomenon
-* Vasculitic lesions
-* Delayed wound healing
+- Intense vasoconstriction in fingers or toes
+- Triggered by cold
+- Color changes may occur
+- Pain, numbness, or tingling may occur
+- Protect hands and feet from cold
+- Avoid smoking
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Joint Findings</strong>
+
+- Joint pain
+- Stiffness
+- Inflammation
+- Reduced movement
+- Fatigue
+- Similar symptom-management principles to RA
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>General Flare Findings</strong>
+
+- Fatigue
+- Fever
+- Increased joint pain
+- Increased rash
+- Hair loss
+- Malaise
+- Reduced activity tolerance
+</div>
 
 </div>
 
+<div class="detail-table">
+  <table>
+    <thead>
+      <tr>
+        <th>Finding</th>
+        <th>Priority Teaching</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Photosensitivity</strong></td>
+        <td>Avoid excessive sunlight and use protective clothing, sunglasses, and sunscreen.</td>
+      </tr>
+      <tr>
+        <td><strong>Raynaud’s phenomenon</strong></td>
+        <td>Keep extremities warm, avoid sudden temperature changes, and reduce vasoconstricting triggers.</td>
+      </tr>
+      <tr>
+        <td><strong>Joint pain</strong></td>
+        <td>Balance activity with rest, use prescribed anti-inflammatory therapy, and perform gentle ROM.</td>
+      </tr>
+      <tr>
+        <td><strong>Fatigue</strong></td>
+        <td>Plan activity, schedule rest, and avoid overexertion during flares.</td>
+      </tr>
+      <tr>
+        <td><strong>Hair loss</strong></td>
+        <td>Use gentle hair care and support coping and body image.</td>
+      </tr>
+    </tbody>
+  </table>
 </div>
 
 <div class="nclex-tip" markdown="1">
-<h3>Memory Cue</h3>
-
-The classic lupus skin clue is a **butterfly-shaped rash across the cheeks and nose** that may worsen with sunlight.
-
-</div>
-
-</section>
-
-<section class="renal-note-section" markdown="1">
-
-#### Musculoskeletal Findings
-
-* Joint pain
-* Joint stiffness
-* Joint swelling
-* Muscle aches
-* Muscle weakness
-* Reduced range of motion
-* Symmetric joint symptoms
-* Morning stiffness
-* Difficulty completing activities
-
-Lupus joint inflammation is painful but is often less destructive than rheumatoid arthritis.
-
-</section>
-
-<section class="renal-note-section" markdown="1">
-
-#### Cardiac and Respiratory Findings
-
-<div class="renal-two-column" markdown="1">
-
-<div markdown="1">
-
-##### Cardiac
-
-* Pericarditis
-* Chest pain
-* Tachycardia
-* Pericardial friction rub
-* Increased cardiovascular risk
-* Possible myocarditis
-
-</div>
-
-<div markdown="1">
-
-##### Respiratory
-
-* Pleuritis
-* Sharp pain with breathing
-* Shortness of breath
-* Pleural effusion
-* Cough
-* Reduced breath sounds
-* Possible pulmonary inflammation
-
+Photosensitivity is not just a comfort issue. Sun exposure can trigger a lupus flare.
 </div>
 
 </div>
 
-Chest pain that worsens with deep breathing may indicate inflammation of the lining around the lungs or heart.
+<div class="mh-detail green" id="panel-sle-diagnostics" markdown="1">
+<a class="mh-detail-close" href="#">✕</a>
 
-</section>
+### Diagnostics & Laboratory Monitoring
 
-<section class="renal-note-section" markdown="1">
+<div class="detail-grid" markdown="1">
 
-#### Hematologic Findings
+<div class="detail-mini-card" markdown="1">
+<strong>ANA</strong>
 
-Lupus may cause:
+- Antinuclear antibody
+- Often abnormal in lupus
+- Supports autoimmune disease
+- Not specific enough to diagnose lupus alone
+- Must be interpreted with manifestations
+</div>
 
-* Anemia
-* Leukopenia
-* Lymphopenia
-* Thrombocytopenia
-* Easy bruising
-* Bleeding
-* Increased infection risk
-* Abnormal clotting
+<div class="detail-mini-card" markdown="1">
+<strong>Anti-DNA</strong>
 
-Some clients develop **antiphospholipid antibodies**, which increase the risk for blood clots and pregnancy complications.
+- Antibody pattern associated with lupus
+- Supports the diagnosis
+- May help follow disease activity
+- Important when renal involvement is suspected
+</div>
 
-</section>
+<div class="detail-mini-card" markdown="1">
+<strong>LE Prep</strong>
 
-<section class="renal-note-section" markdown="1">
+- Lupus erythematosus preparation
+- Older course-associated lupus test
+- May show an abnormal lupus pattern
+- Included because it may appear on the instructor exam
+</div>
 
-#### Neurologic Findings
+</div>
 
-Possible manifestations include:
+<div class="detail-table">
+  <table>
+    <thead>
+      <tr>
+        <th>Test</th>
+        <th>What It Evaluates</th>
+        <th>Lupus Connection</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>ANA</strong></td>
+        <td>Antinuclear antibody pattern</td>
+        <td>Often abnormal in lupus.</td>
+      </tr>
+      <tr>
+        <td><strong>Anti-DNA</strong></td>
+        <td>Autoantibodies associated with lupus</td>
+        <td>Supports diagnosis and disease monitoring.</td>
+      </tr>
+      <tr>
+        <td><strong>LE prep</strong></td>
+        <td>Older lupus-associated blood finding</td>
+        <td>May appear in course testing.</td>
+      </tr>
+      <tr>
+        <td><strong>ESR</strong></td>
+        <td>General inflammation</td>
+        <td>May rise during active systemic inflammation.</td>
+      </tr>
+      <tr>
+        <td><strong>C-reactive protein</strong></td>
+        <td>General inflammation</td>
+        <td>May rise with active inflammatory disease.</td>
+      </tr>
+      <tr>
+        <td><strong>CBC</strong></td>
+        <td>Red cells, white cells, and platelets</td>
+        <td>Detects anemia, infection risk, low platelets, and medication toxicity.</td>
+      </tr>
+      <tr>
+        <td><strong>Urinalysis</strong></td>
+        <td>Protein, blood, and urine abnormalities</td>
+        <td>Helps identify renal involvement.</td>
+      </tr>
+      <tr>
+        <td><strong>BUN and creatinine</strong></td>
+        <td>Kidney function</td>
+        <td>Monitor for lupus-related renal damage.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
-* Headache
-* Confusion
-* Memory changes
-* Difficulty concentrating
-* Mood changes
-* Depression
-* Psychosis
-* Peripheral neuropathy
-* Seizure
-* Stroke-like symptoms
+<div class="detail-grid" markdown="1">
+
+<div class="detail-mini-card" markdown="1">
+<strong>Monitor for Kidney Injury</strong>
+
+- Urine output
+- Proteinuria
+- Hematuria
+- Edema
+- Blood pressure
+- BUN
+- Creatinine
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Monitor for Blood Changes</strong>
+
+- Anemia
+- Low white blood cells
+- Low platelets
+- Fatigue
+- Infection
+- Bruising
+- Bleeding
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Trend Interpretation</strong>
+
+- Rising inflammatory markers may suggest active disease.
+- New protein or blood in urine suggests renal involvement.
+- Rising creatinine suggests worsening kidney function.
+- Falling blood counts may reflect disease or medication toxicity.
+</div>
+
+</div>
+
+</div>
+
+<div class="mh-detail pink" id="panel-sle-complications" markdown="1">
+<a class="mh-detail-close" href="#">✕</a>
+
+### Organ Complications
+
+<div class="detail-grid" markdown="1">
+
+<div class="detail-mini-card" markdown="1">
+<strong>Renal Damage</strong>
+
+- May develop gradually over years
+- Proteinuria
+- Hematuria
+- Edema
+- Hypertension
+- Reduced urine output
+- Rising BUN and creatinine
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Cardiac Damage</strong>
+
+- Chest pain
+- Shortness of breath
+- Edema
+- Fatigue
+- Inflammatory cardiac injury
+- Fluid-volume concerns
+- Requires prompt assessment
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Pulmonary Involvement</strong>
+
+- Dyspnea
+- Chest discomfort
+- Reduced activity tolerance
+- Inflammatory lung or pleural involvement
+- Oxygenation changes
+- Cough
+</div>
+
+</div>
+
+<div class="detail-table">
+  <table>
+    <thead>
+      <tr>
+        <th>System</th>
+        <th>Possible Findings</th>
+        <th>Priority Nursing Focus</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Kidneys</strong></td>
+        <td>Proteinuria, hematuria, edema, hypertension, reduced urine output</td>
+        <td>Monitor intake and output, urine, blood pressure, BUN, creatinine, and edema.</td>
+      </tr>
+      <tr>
+        <td><strong>Heart</strong></td>
+        <td>Chest pain, dyspnea, edema, fatigue</td>
+        <td>Assess circulation, fluid status, and cardiopulmonary symptoms.</td>
+      </tr>
+      <tr>
+        <td><strong>Lungs</strong></td>
+        <td>Dyspnea, chest pain, cough, reduced oxygenation</td>
+        <td>Assess breath sounds, respiratory effort, and oxygen saturation.</td>
+      </tr>
+      <tr>
+        <td><strong>Nervous system</strong></td>
+        <td>Headache, confusion, seizure, mood or behavior change</td>
+        <td>Perform neurologic assessment and maintain safety.</td>
+      </tr>
+      <tr>
+        <td><strong>Blood cells</strong></td>
+        <td>Anemia, infection, bruising, bleeding</td>
+        <td>Monitor CBC and report significant count changes.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 <div class="report-now" markdown="1">
 <h3>Report Immediately</h3>
 
-* New confusion
-* Seizure
-* Sudden weakness
-* Facial droop
-* Difficulty speaking
-* Severe headache
-* New vision change
-* Loss of consciousness
+- Abrupt decrease in urine output
+- New edema or rapid weight gain
+- Chest pain
+- New shortness of breath
+- Severe hypertension
+- New confusion or seizure
+- Unusual bleeding
+- Fever while immunosuppressed
+</div>
 
 </div>
 
-</section>
-
-<section class="renal-note-section" markdown="1">
-
-#### Raynaud Phenomenon
-
-Raynaud phenomenon causes temporary reduced blood flow to the fingers or toes.
-
-Possible findings:
-
-* White skin
-* Blue skin
-* Red skin as circulation returns
-* Numbness
-* Tingling
-* Pain
-* Triggering by cold or stress
-
-Teaching:
-
-* Keep hands and feet warm.
-* Avoid smoking.
-* Avoid sudden cold exposure.
-* Wear gloves.
-* Reduce stress.
-* Report nonhealing sores.
-
-</section>
-
-</div>
-
-<div class="mh-detail green" id="panel-diagnostics" markdown="1">
+<div class="mh-detail purple" id="panel-sle-medications" markdown="1">
 <a class="mh-detail-close" href="#">✕</a>
 
-### Diagnostics and Monitoring
+### Medications & Safety
 
-<section class="renal-note-section" markdown="1">
+<div class="detail-table">
+  <table>
+    <thead>
+      <tr>
+        <th>Medication</th>
+        <th>Why It Is Used</th>
+        <th>Priority Safety</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Salicylates and NSAIDs</strong></td>
+        <td>Reduce joint pain and inflammation.</td>
+        <td>Monitor GI bleeding, kidney function, blood pressure, and fluid retention.</td>
+      </tr>
+      <tr>
+        <td><strong>Corticosteroids</strong></td>
+        <td>Suppress inflammation during significant flares or organ involvement.</td>
+        <td>Infection, hyperglycemia, osteoporosis, GI irritation, and adrenal suppression.</td>
+      </tr>
+      <tr>
+        <td><strong>Hydroxychloroquine</strong></td>
+        <td>Helps control skin and joint manifestations.</td>
+        <td>Retinal toxicity; keep regular eye examinations.</td>
+      </tr>
+      <tr>
+        <td><strong>Methotrexate</strong></td>
+        <td>Suppresses autoimmune inflammation.</td>
+        <td>Bone-marrow suppression and hepatotoxicity; monitor CBC and liver tests.</td>
+      </tr>
+      <tr>
+        <td><strong>Cyclophosphamide</strong></td>
+        <td>Potent immunosuppression for severe disease.</td>
+        <td>Bone-marrow suppression, infection, hemorrhagic cystitis, and organ toxicity.</td>
+      </tr>
+      <tr>
+        <td><strong>Gold salts</strong></td>
+        <td>Older immune-modifying therapy included in course management.</td>
+        <td>Blood dyscrasias, hepatitis, renal concerns, and pregnancy risk.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
-There is no single test that diagnoses lupus. Diagnosis is based on symptoms, physical examination, laboratory results, and organ involvement.
+<div class="detail-grid" markdown="1">
 
-#### Autoimmune Tests
+<div class="detail-mini-card" markdown="1">
+<strong>Immunosuppression Teaching</strong>
 
-<div class="detail-table" markdown="1">
+- Avoid sick contacts.
+- Report fever.
+- Perform hand hygiene.
+- Avoid live vaccines unless approved.
+- Keep CBC and organ-function appointments.
+- Do not stop medication independently.
+</div>
 
-| Test | Possible Finding | Meaning |
-|---|---|---|
-| **ANA** | Positive | Sensitive screening test but not specific for lupus |
-| **Anti-dsDNA** | Positive or elevated | More specific for lupus; may increase with kidney disease activity |
-| **Anti-Smith antibody** | Positive | Highly specific for lupus |
-| **Antiphospholipid antibodies** | Positive | Increased clotting and pregnancy risk |
-| **Complement C3 and C4** | Decreased | May indicate active immune-complex disease |
-| **Direct Coombs test** | May be positive | May support autoimmune destruction of red blood cells |
+<div class="detail-mini-card" markdown="1">
+<strong>Steroid Teaching</strong>
+
+- Take with food.
+- Monitor glucose.
+- Report infection.
+- Protect bones.
+- Do not stop suddenly after long-term use.
+- Follow taper instructions.
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Hydroxychloroquine Teaching</strong>
+
+- Keep eye examinations.
+- Report visual changes.
+- Use sun protection.
+- Take consistently.
+- Benefit may take time.
+- Do not stop independently.
+</div>
 
 </div>
 
 <div class="nclex-tip" markdown="1">
-<h3>NCLEX Tip</h3>
-
-ANA is sensitive but not specific. Anti-Smith and anti-dsDNA antibodies are more closely associated with lupus.
+Lupus medication priorities are the same safety themes seen in RA: infection, CBC changes, liver injury, kidney injury, and medication adherence.
+</div>
 
 </div>
 
-</section>
-
-<section class="renal-note-section" markdown="1">
-
-#### Inflammation and Blood Tests
-
-Possible findings include:
-
-* Elevated ESR
-* Elevated C-reactive protein
-* Anemia
-* Low white blood cell count
-* Low lymphocyte count
-* Low platelet count
-* Elevated creatinine with kidney involvement
-* Abnormal liver tests from disease or medication
-
-</section>
-
-<section class="renal-note-section" markdown="1">
-
-#### Kidney Monitoring
-
-Monitor:
-
-* Urinalysis
-* Urine protein
-* Urine blood
-* Serum creatinine
-* BUN
-* Estimated GFR
-* Blood pressure
-* Edema
-* Daily or regular weight
-* Intake and output when indicated
-
-Urine abnormalities may appear before the client notices kidney symptoms.
-
-</section>
-
-<section class="renal-note-section" markdown="1">
-
-#### Other Diagnostic Studies
-
-Depending on symptoms, testing may include:
-
-* Chest x-ray
-* Echocardiogram
-* Electrocardiogram
-* Kidney ultrasound
-* Kidney biopsy
-* Skin biopsy
-* Joint assessment
-* Neurologic imaging
-* Pregnancy testing
-* Bone-density testing
-
-</section>
-
-<section class="renal-note-section" markdown="1">
-
-#### Monitoring Disease Activity
-
-Monitor trends in:
-
-* Fatigue
-* Rash
-* Joint pain
-* Fever
-* Weight
-* Blood pressure
-* Urine protein
-* Creatinine
-* CBC
-* Complement levels
-* Anti-dsDNA
-* Medication adverse effects
-
-One isolated laboratory result should be interpreted with the client’s overall symptoms and assessment.
-
-</section>
-
-</div>
-
-<div class="mh-detail blue" id="panel-nephritis" markdown="1">
+<div class="mh-detail blue" id="panel-sle-care" markdown="1">
 <a class="mh-detail-close" href="#">✕</a>
 
-### Lupus Nephritis
+### Nursing Care & Patient Education
 
-<section class="renal-note-section" markdown="1">
+<div class="detail-grid" markdown="1">
 
-**Lupus nephritis** occurs when lupus-related inflammation damages the kidney’s filtering structures.
+<div class="detail-mini-card" markdown="1">
+<strong>Prevent Flares</strong>
 
-Kidney involvement can become serious even when the client initially has few symptoms.
-
-</section>
-
-<section class="renal-note-section" markdown="1">
-
-#### Possible Findings
-
-* Proteinuria
-* Hematuria
-* Foamy urine
-* Dark urine
-* Edema
-* Periorbital swelling
-* Leg or ankle swelling
-* Hypertension
-* Weight gain
-* Reduced urine output
-* Elevated BUN
-* Elevated creatinine
-* Fatigue
-
-<div class="nclex-tip" markdown="1">
-<h3>Priority Cue</h3>
-
-New protein in the urine, swelling, hypertension, or rising creatinine in a client with lupus may indicate lupus nephritis.
-
+- Avoid excessive sunlight.
+- Use sunscreen.
+- Wear protective clothing.
+- Manage stress.
+- Balance activity and rest.
+- Take medications consistently.
+- Keep follow-up appointments.
 </div>
 
-</section>
+<div class="detail-mini-card" markdown="1">
+<strong>Protect Organs</strong>
 
-<section class="renal-note-section" markdown="1">
-
-#### Diagnostic Evaluation
-
-Testing may include:
-
-* Urinalysis
-* Urine protein-to-creatinine ratio
-* Timed urine collection
-* Serum creatinine
-* BUN
-* eGFR
-* Complement levels
-* Anti-dsDNA level
-* Kidney ultrasound
-* Kidney biopsy
-
-A kidney biopsy may determine the type and severity of inflammation and guide treatment.
-
-</section>
-
-<section class="renal-note-section" markdown="1">
-
-#### Nursing Care
-
-* Monitor blood pressure.
-* Measure intake and output when ordered.
-* Obtain regular weights.
-* Assess edema.
-* Monitor lung sounds.
-* Review urine results.
-* Review kidney-function tests.
-* Administer prescribed immunosuppressive medications.
-* Follow sodium or fluid restrictions when ordered.
-* Teach medication adherence.
-* Monitor for infection.
-* Report worsening kidney findings.
-
-</section>
-
-<section class="renal-note-section" markdown="1">
-
-#### Possible Complications
-
-* Chronic kidney disease
-* Nephrotic syndrome
-* Acute kidney injury
-* Severe hypertension
-* Fluid overload
-* Pulmonary edema
-* Kidney failure
-* Need for dialysis or transplant
-
-<div class="report-now" markdown="1">
-<h3>Report Immediately</h3>
-
-* Markedly reduced urine output
-* Sudden weight gain
-* Worsening edema
-* Severe hypertension
-* Shortness of breath
-* Crackles
-* Chest pain
-* Rising creatinine
-* Significant blood or protein in urine
-
+- Monitor urine output.
+- Monitor blood pressure.
+- Report edema.
+- Report chest pain.
+- Report dyspnea.
+- Keep kidney and cardiac follow-up.
+- Complete laboratory testing.
 </div>
 
-</section>
-
-</div>
-
-<div class="mh-detail purple" id="panel-medications" markdown="1">
-<a class="mh-detail-close" href="#">✕</a>
-
-### Lupus Medications
-
-<section class="renal-note-section" markdown="1">
-
-Treatment depends on the organs involved and the severity of the disease.
-
-<div class="detail-table" markdown="1">
-
-| Medication Group | Main Purpose |
-|---|---|
-| **NSAIDs** | Joint pain, fever, and mild inflammation |
-| **Hydroxychloroquine** | Skin, joint, fatigue, and flare control |
-| **Corticosteroids** | Rapid control of moderate or severe inflammation |
-| **Immunosuppressants** | Control serious organ involvement |
-| **Biologics** | Target specific immune pathways |
-| **Anticoagulants** | Prevent or treat clots in selected clients |
-
-</div>
-
-</section>
-
-<section class="renal-note-section" markdown="1">
-
-#### NSAIDs
-
-Examples:
-
-* Ibuprofen
-* Naproxen
-* Celecoxib
-
-May be used for:
-
-* Joint pain
-* Mild inflammation
-* Fever
-* Pleuritic discomfort
-
-Major risks:
-
-* GI bleeding
-* Kidney injury
-* Fluid retention
-* Hypertension
-* Cardiovascular complications
-
-Use cautiously in clients with kidney disease.
-
-</section>
-
-<section class="renal-note-section" markdown="1">
-
-#### Hydroxychloroquine
-
-Hydroxychloroquine is commonly used for:
-
-* Skin manifestations
-* Joint symptoms
-* Fatigue
-* Prevention of flares
-* Long-term disease control
-
-Important teaching:
-
-* Take consistently.
-* Improvement may take several weeks or months.
-* Obtain baseline and regular eye examinations.
-* Report blurred vision or visual-field changes.
-* Take with food if GI upset occurs.
-* Do not stop the medication independently.
-* Review other medications for interactions.
-
-<div class="report-now" markdown="1">
-<h3>Hydroxychloroquine Safety</h3>
-
-Report new vision changes promptly. Long-term therapy can rarely damage the retina, so routine eye monitoring is important.
-
-</div>
-
-</section>
-
-<section class="renal-note-section" markdown="1">
-
-#### Corticosteroids
-
-Examples:
-
-* Prednisone
-* Methylprednisolone
-
-May be used for:
-
-* Significant flare
-* Kidney inflammation
-* Neurologic involvement
-* Cardiac or pulmonary inflammation
-* Severe blood-cell abnormalities
-
-Major risks:
-
-* Infection
-* Hyperglycemia
-* Hypertension
-* Fluid retention
-* Osteoporosis
-* Mood changes
-* GI irritation
-* Poor wound healing
-* Cataracts
-* Adrenal suppression
-
-Teaching:
-
-* Do not stop long-term therapy suddenly.
-* Take with food.
-* Monitor glucose when indicated.
-* Report infection.
-* Follow bone-protection teaching.
-* Avoid unnecessary exposure to illness.
-
-</section>
-
-<section class="renal-note-section" markdown="1">
-
-#### Immunosuppressive Medications
-
-Possible medications include:
-
-* Methotrexate
-* Azathioprine
-* Mycophenolate
-* Cyclophosphamide
-* Calcineurin inhibitors
-* Other prescribed immune-modifying medications
-
-These may be used for:
-
-* Lupus nephritis
-* Severe systemic disease
-* Neurologic involvement
-* Disease not controlled by safer medications
-
-Monitor:
-
-* CBC
-* Kidney function
-* Liver function
-* Infection
-* Pregnancy status
-* Medication-specific adverse effects
-
-</section>
-
-<section class="renal-note-section" markdown="1">
-
-#### Biologic Therapy
-
-Possible biologic medications may target B cells or other immune pathways.
-
-Teaching:
-
-* Screen for infection before treatment.
-* Report fever or cough.
-* Avoid live vaccines unless approved.
-* Keep infusion or injection appointments.
-* Monitor for allergic or infusion reactions.
-* Follow laboratory-monitoring instructions.
-
-</section>
-
-<section class="renal-note-section" markdown="1">
-
-#### Anticoagulation
-
-Clients with antiphospholipid syndrome or a history of blood clots may require anticoagulant therapy.
-
-Monitor for:
-
-* Bleeding
-* Bruising
-* Black stools
-* Hematuria
-* Severe headache
-* Signs of a new clot
-
-</section>
-
-</div>
-
-<div class="mh-detail pink" id="panel-nursing-care" markdown="1">
-<a class="mh-detail-close" href="#">✕</a>
-
-### Nursing Care and Flare Prevention
-
-<section class="renal-note-section" markdown="1">
-
-#### Sun Protection
-
-Ultraviolet exposure can trigger skin symptoms and systemic flares.
-
-Teach the client to:
-
-* Use broad-spectrum sunscreen.
-* Reapply sunscreen as directed.
-* Wear long sleeves.
-* Wear a wide-brimmed hat.
-* Seek shade.
-* Avoid tanning beds.
-* Limit strong midday sun.
-* Use UV protection even on cloudy days.
-* Ask whether indoor fluorescent lighting worsens symptoms.
-
-</section>
-
-<section class="renal-note-section" markdown="1">
-
-#### Fatigue and Energy Conservation
-
-<div class="renal-two-column" markdown="1">
-
-<div markdown="1">
-
-##### Conserve Energy
-
-* Plan activities.
-* Prioritize important tasks.
-* Alternate activity with rest.
-* Sit during tasks when possible.
-* Delegate activities.
-* Use assistive devices.
-* Schedule demanding tasks during peak energy.
-
-</div>
-
-<div markdown="1">
-
-##### Maintain Function
-
-* Perform gentle exercise.
-* Maintain range of motion.
-* Avoid prolonged bed rest.
-* Use low-impact activity.
-* Increase activity gradually.
-* Stop and rest when symptoms worsen.
-
+<div class="detail-mini-card" markdown="1">
+<strong>Prevent Infection</strong>
+
+- Strict hand hygiene
+- Avoid sick contacts
+- Report fever promptly
+- Monitor wounds and mouth
+- Follow food-safety precautions
+- Avoid unnecessary exposure
+- Take immunosuppressants exactly as prescribed
 </div>
 
 </div>
 
-Fatigue may result from inflammation, anemia, poor sleep, pain, medication effects, or depression.
+<div class="detail-table">
+  <table>
+    <thead>
+      <tr>
+        <th>Care Area</th>
+        <th>Priority Intervention</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Fatigue</strong></td>
+        <td>Plan care, alternate activity with rest, and prioritize essential tasks.</td>
+      </tr>
+      <tr>
+        <td><strong>Joint pain</strong></td>
+        <td>Use heat or ice safely, gentle ROM, prescribed medication, and supportive positioning.</td>
+      </tr>
+      <tr>
+        <td><strong>Photosensitivity</strong></td>
+        <td>Use sunscreen, sunglasses, long sleeves, and avoidance of peak sunlight.</td>
+      </tr>
+      <tr>
+        <td><strong>Raynaud’s phenomenon</strong></td>
+        <td>Keep extremities warm, avoid sudden cold, and avoid smoking.</td>
+      </tr>
+      <tr>
+        <td><strong>Skin and hair changes</strong></td>
+        <td>Use gentle skin and hair care and support coping and body image.</td>
+      </tr>
+      <tr>
+        <td><strong>Psychosocial stress</strong></td>
+        <td>Use therapeutic communication and encourage support resources.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
-</section>
+<div class="detail-grid" markdown="1">
 
-<section class="renal-note-section" markdown="1">
+<div class="detail-mini-card" markdown="1">
+<strong>Daily Monitoring</strong>
 
-#### Infection Prevention
+- Temperature
+- Energy level
+- Rash
+- Joint pain
+- Urine output
+- Edema
+- Blood pressure when instructed
+</div>
 
-Lupus and immunosuppressive medications may reduce resistance to infection.
+<div class="detail-mini-card" markdown="1">
+<strong>Flare Cues</strong>
 
-* Perform hand hygiene.
-* Avoid close contact with contagious illness.
-* Monitor temperature.
-* Report infection symptoms early.
-* Maintain oral care.
-* Keep vaccinations current as approved.
-* Avoid live vaccines when contraindicated.
-* Use food-safety precautions.
-* Protect skin from wounds.
-* Complete prescribed antimicrobial treatment.
+- Increased fatigue
+- Fever
+- Worsening rash
+- Increased joint pain
+- New swelling
+- New organ symptoms
+- Reduced activity tolerance
+</div>
 
-A client taking immunosuppressants may not develop a high fever despite a serious infection.
+<div class="detail-mini-card" markdown="1">
+<strong>Long-Term Teaching</strong>
 
-</section>
+- Lupus is chronic.
+- There is no cure.
+- Symptoms can be managed.
+- Organ complications may develop gradually.
+- Early reporting protects function.
+- Medication adherence reduces damage.
+</div>
 
-<section class="renal-note-section" markdown="1">
+</div>
 
-#### Skin and Oral Care
-
-* Use gentle skin products.
-* Avoid harsh soaps.
-* Moisturize dry skin.
-* Protect lesions from trauma.
-* Monitor for infection.
-* Use a soft toothbrush.
-* Avoid irritating mouthwash.
-* Offer soft foods with oral ulcers.
-* Avoid spicy or acidic foods when painful.
-* Report nonhealing lesions.
-
-</section>
-
-<section class="renal-note-section" markdown="1">
-
-#### Joint and Pain Care
-
-* Use warmth for stiffness.
-* Use cold for acutely inflamed joints if helpful.
-* Perform gentle range-of-motion exercise.
-* Avoid overexertion during a flare.
-* Maintain functional joint alignment.
-* Use assistive devices.
-* Administer prescribed pain medication.
-* Encourage adequate sleep.
-
-</section>
-
-<section class="renal-note-section" markdown="1">
-
-#### Pregnancy
-
-Pregnancy with lupus requires careful planning and close monitoring.
-
-Teach the client to:
-
-* Discuss pregnancy plans before conception.
-* Review every medication for pregnancy safety.
-* Avoid pregnancy during severe active disease when advised.
-* Attend high-risk prenatal care.
-* Monitor blood pressure and kidney function.
-* Report swelling, headache, vision changes, or reduced fetal movement.
-* Continue approved medications as prescribed.
-* Avoid stopping medications independently.
-
-Possible pregnancy risks include:
-
-* Hypertension
-* Preeclampsia
-* Preterm birth
-* Blood clots
-* Pregnancy loss
-* Lupus flare
-* Kidney complications
-
-</section>
-
-<section class="renal-note-section" markdown="1">
-
-#### Psychosocial Care
-
-Chronic illness may cause:
-
-* Anxiety
-* Depression
-* Altered body image
-* Social isolation
-* Work or school difficulties
-* Financial stress
-* Concerns about fertility or pregnancy
-* Frustration with unpredictable flares
-
-Nursing care:
-
-* Use supportive communication.
-* Assess coping.
-* Screen for depression.
-* Encourage support groups.
-* Refer to counseling or social services.
-* Help the client identify controllable flare-prevention strategies.
-
-</section>
-
-<section class="renal-note-section" markdown="1">
-
-#### Home Monitoring
-
-Teach the client to monitor for:
-
-* Fever
-* Increased fatigue
-* New rash
-* Joint swelling
-* Mouth ulcers
-* Weight gain
-* Edema
-* Urine changes
-* Increased blood pressure
-* Chest pain
-* Shortness of breath
-* Headache
-* Confusion
-* Medication adverse effects
-
-A symptom journal may help identify flare patterns and triggers.
-
-</section>
-
-<div class="report-now" markdown="1">
-<h3>Report Immediately</h3>
-
-* New shortness of breath
-* Chest pain
-* Severe hypertension
-* Reduced urine output
-* Sudden weight gain or edema
-* Fever while immunosuppressed
-* New confusion or seizure
-* Sudden weakness or speech changes
-* Vision changes
-* Signs of bleeding or clotting
-* Severe medication rash
-
+<div class="detail-callout" markdown="1">
+<strong>Protect from Sun, Protect the Kidneys, Protect from Infection:</strong> These three themes cover many lupus nursing questions.
 </div>
 
 </div>
 
 <div class="mh-table-card" markdown="1">
 
-<h3>Systemic Lupus Erythematosus Big Picture</h3>
+<h3>Systemic Lupus Big Picture</h3>
 
 | Concept | Main Point | Priority |
 |---|---|---|
-| **SLE** | Systemic autoimmune inflammatory disease | Monitor multiple body systems |
-| **Flare** | Increased disease activity | Identify triggers and treat promptly |
-| **Butterfly rash** | Rash across cheeks and nose | Sun protection |
-| **Photosensitivity** | UV light can worsen disease | Sunscreen and protective clothing |
-| **ANA** | Sensitive screening test | Not specific by itself |
-| **Anti-dsDNA** | Associated with lupus and kidney activity | Monitor disease trends |
-| **Anti-Smith** | Highly specific for lupus | Supports diagnosis |
-| **Low complement** | May indicate active disease | Monitor with symptoms |
-| **Lupus nephritis** | Immune damage to kidneys | Monitor urine, BP, edema, and creatinine |
-| **Hydroxychloroquine** | Long-term symptom and flare control | Regular eye examinations |
-| **Corticosteroids** | Rapidly suppress inflammation | Infection, glucose, and bone safety |
-| **Immunosuppressants** | Treat serious organ disease | Infection and laboratory monitoring |
+| **SLE** | Systemic autoimmune connective-tissue disorder | Control inflammation and protect organs |
+| **Butterfly rash** | Rash across cheeks and nose | Sun protection and skin care |
+| **Photosensitivity** | Sunlight may trigger symptoms | Sunscreen, protective clothing, and avoidance |
+| **Raynaud’s phenomenon** | Cold-induced vasoconstriction | Keep extremities warm |
+| **ANA and anti-DNA** | Support autoimmune diagnosis | Interpret with clinical findings |
+| **Renal involvement** | Protein, blood, edema, hypertension, reduced urine | Monitor urine output, BUN, and creatinine |
+| **Immunosuppression** | Reduces autoimmune injury | Monitor infection and blood counts |
+| **Hydroxychloroquine** | Controls skin and joint symptoms | Regular eye examinations |
 
 </div>
 
-<div class="report-now" markdown="1">
-<h3>Report Immediately</h3>
+<div class="mh-table-card" markdown="1">
 
-- Shortness of breath or chest pain
-- Severe hypertension
-- Reduced urine output
-- Rapid weight gain or edema
-- Fever while taking immunosuppressants
-- New confusion or seizure
-- Sudden neurologic changes
-- New vision changes
-- Signs of blood clot or bleeding
-- Severe medication reaction
+<h3>Quick Terms</h3>
+
+| Concept | Simple Meaning |
+|---|---|
+| **SLE** | Systemic lupus erythematosus |
+| **Autoimmune** | Immune system attacks the body’s own tissue |
+| **Collagen disorder** | Connective tissues throughout the body may be affected |
+| **Butterfly rash** | Rash across cheeks and bridge of nose |
+| **Photosensitivity** | Sunlight worsens symptoms |
+| **Raynaud’s phenomenon** | Cold causes intense vasoconstriction in fingers or toes |
+| **ANA** | Antinuclear antibody test associated with autoimmune disease |
+| **Anti-DNA** | Autoantibody associated with lupus |
+| **LE prep** | Older lupus-associated test in the course notes |
+| **Flare** | Increased disease activity |
+| **Remission** | Decreased disease activity |
+| **Lupus nephritis** | Lupus-related kidney inflammation |
+
 </div>
 
 <div class="mh-columns" markdown="1">
@@ -1094,42 +768,38 @@ A symptom journal may help identify flare patterns and triggers.
 <div class="quick-review" markdown="1">
 <h3>Quick Review</h3>
 
-1. Lupus is a systemic autoimmune disease.
-2. Symptoms occur in flares and remission.
-3. The butterfly rash crosses the cheeks and bridge of the nose.
-4. Sun exposure can trigger a flare.
-5. Joint pain and severe fatigue are common.
-6. Lupus can affect the kidneys, heart, lungs, blood, and nervous system.
-7. ANA is sensitive but not specific.
-8. Anti-Smith is highly specific for lupus.
-9. Anti-dsDNA may be associated with lupus nephritis activity.
-10. Low complement may indicate active disease.
-11. Proteinuria, edema, and hypertension may indicate lupus nephritis.
-12. Hydroxychloroquine requires regular eye monitoring.
-13. Corticosteroids should not be stopped abruptly after long-term use.
-14. Immunosuppressants increase infection risk.
-15. Pregnancy should be planned with the healthcare team.
+1. Lupus is a systemic autoimmune collagen or connective-tissue disorder.
+2. There is no known prevention and no cure.
+3. Young African American women are the highest-risk group emphasized in the course notes.
+4. Butterfly rash, photosensitivity, Raynaud’s phenomenon, hair loss, and joint pain are major findings.
+5. Lupus can gradually damage the kidneys and heart.
+6. Monitor urine output, blood pressure, edema, BUN, and creatinine.
+7. ANA, anti-DNA, and LE prep are lupus-associated tests in the course notes.
+8. Sun protection helps prevent flares.
+9. Hydroxychloroquine requires regular eye examinations.
+10. Methotrexate and cyclophosphamide require CBC and organ-toxicity monitoring.
+11. Fever while immunosuppressed requires prompt reporting.
+12. Long-term care focuses on inflammation control and organ protection.
 </div>
 
 <div class="do-not-miss" markdown="1">
 <h3>Do Not Miss</h3>
 
-- Do not treat lupus as only a skin or joint disorder.
-- Do not ignore urine changes or rising blood pressure.
-- Do not ignore chest pain or shortness of breath.
-- Do not stop hydroxychloroquine or steroids independently.
-- Do not skip routine eye examinations.
-- Do not use tanning beds.
-- Do not give live vaccines without checking immune status and medications.
-- Do not assume absence of high fever rules out infection.
-- Do not ignore sudden neurologic symptoms.
-- Do not encourage pregnancy without medication review and disease planning.
+- Do not tell a client lupus could have been prevented.
+- Do not ignore protein, blood, or reduced urine output.
+- Do not overlook chest pain or dyspnea.
+- Do not ignore fever in an immunosuppressed client.
+- Do not forget sun protection.
+- Do not expose Raynaud’s-affected extremities to cold.
+- Do not stop long-term corticosteroids suddenly.
+- Do not skip eye examinations with hydroxychloroquine.
+- Do not overlook blood-count or liver changes with immunosuppressants.
 </div>
 
 </div>
 
 <div class="cheer-banner">
-  Lupus questions usually focus on the butterfly rash, photosensitivity, systemic organ involvement, kidney monitoring, medication safety, infection risk, and flare prevention.
+  Lupus questions usually come down to photosensitivity, Raynaud’s, renal and cardiac monitoring, infection risk, and long-term organ protection.
 </div>
 
 ---

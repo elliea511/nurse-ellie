@@ -10,14 +10,14 @@ title: Antimicrobials
 
 # Antimicrobials
 
-<p class="mh-subtitle">Quick PN-level review of the antimicrobial medications emphasized in class</p>
+<p class="mh-subtitle">ATI-focused review of antimicrobial principles, aminoglycosides, vancomycin, penicillins, cephalosporins, macrolides, tetracyclines, chloramphenicol, quinolones, sulfonamides, antivirals, antifungals, and medication safety</p>
 
-Antimicrobial questions will mainly focus on **culture timing, completing treatment, major toxicities, drug recognition, and important patient teaching.**
+Antimicrobial questions usually test **cultures before treatment, regular dosing, completing therapy, allergy, superinfection, renal toxicity, hearing toxicity, infusion reactions, sun sensitivity, tendon injury, and class-specific administration rules**.
 
 <div class="priority-focus">
   <div>
     <h3>Priority Focus</h3>
-    Culture First • Regular Intervals • Complete Treatment • Allergic Reactions • Kidney & Hearing Safety • Photosensitivity • Major Drug Toxicities
+    Culture First • Regular Intervals • Complete Therapy • Allergy • Superinfection • Renal Function • Hearing • Peaks & Troughs • Infusion Safety
   </div>
 </div>
 
@@ -25,191 +25,82 @@ Antimicrobial questions will mainly focus on **culture timing, completing treatm
 
   <div class="mh-card purple">
     <div class="mh-card-icon">🧫</div>
-    <h3>Antimicrobial Basics</h3>
-    <p>Cultures, regular dosing, resistance, superinfection, and general teaching.</p>
-    <a class="mh-btn" href="#panel-basics">Study Basics</a>
+    <h3>Core Antimicrobial Rules</h3>
+    <p>Cultures, dosing intervals, resistance, superinfection, allergy, and patient education.</p>
+    <a class="mh-btn" href="#panel-antimicrobial-basics">Study Core Rules</a>
   </div>
 
   <div class="mh-card blue">
     <div class="mh-card-icon">👂</div>
     <h3>Aminoglycosides & Vancomycin</h3>
-    <p>Ototoxicity, nephrotoxicity, peaks and troughs, and red man syndrome.</p>
-    <a class="mh-btn" href="#panel-high-risk">Study High-Risk Drugs</a>
+    <p>Ototoxicity, nephrotoxicity, peaks and troughs, red man syndrome, and infusion safety.</p>
+    <a class="mh-btn" href="#panel-amino-vanco">Study High-Risk Drugs</a>
   </div>
 
   <div class="mh-card green">
-    <div class="mh-card-icon">💊</div>
-    <h3>Common Antibiotic Classes</h3>
-    <p>Penicillins, cephalosporins, erythromycin, and tetracyclines.</p>
-    <a class="mh-btn" href="#panel-common">Study Common Classes</a>
+    <div class="mh-card-icon">💉</div>
+    <h3>Penicillins & Cephalosporins</h3>
+    <p>Anaphylaxis, oral administration, cross-allergy, renal toxicity, and assessment priorities.</p>
+    <a class="mh-btn" href="#panel-pcn-ceph">Study Beta-Lactams</a>
   </div>
 
   <div class="mh-card pink">
-    <div class="mh-card-icon">⚠️</div>
-    <h3>Other Antibiotics</h3>
-    <p>Chloramphenicol, quinolones, sulfonamides, and urinary anti-infectives.</p>
-    <a class="mh-btn" href="#panel-other">Study Other Antibiotics</a>
+    <div class="mh-card-icon">🍽️</div>
+    <h3>Macrolides & Tetracyclines</h3>
+    <p>Empty-stomach rules, enteric coating, food interactions, photosensitivity, and teeth effects.</p>
+    <a class="mh-btn" href="#panel-macro-tetra">Study Administration</a>
   </div>
 
   <div class="mh-card purple">
-    <div class="mh-card-icon">🫁</div>
-    <h3>TB, Antivirals & Antifungals</h3>
-    <p>TB medications, acyclovir, HIV drugs, amphotericin B, and nystatin.</p>
-    <a class="mh-btn" href="#panel-special">Study Special Drugs</a>
+    <div class="mh-card-icon">⚠️</div>
+    <h3>Chloramphenicol, Quinolones & Sulfonamides</h3>
+    <p>Aplastic anemia, tendon injury, hydration, photosensitivity, and high-yield warnings.</p>
+    <a class="mh-btn" href="#panel-other-antibiotics">Study Toxicities</a>
+  </div>
+
+  <div class="mh-card blue">
+    <div class="mh-card-icon">🦠</div>
+    <h3>Antivirals & Antifungals</h3>
+    <p>Replication suppression, HIV therapy, acyclovir, amphotericin B, nystatin, and monitoring.</p>
+    <a class="mh-btn" href="#panel-antiviral-antifungal">Study Antiviral & Antifungal</a>
   </div>
 
 </div>
 
-<div class="mh-detail purple" id="panel-basics" markdown="1">
+<div class="mh-detail purple" id="panel-antimicrobial-basics" markdown="1">
 <a class="mh-detail-close" href="#">✕</a>
 
-### Antimicrobial Basics
+### Core Antimicrobial Rules
 
 <div class="detail-grid" markdown="1">
 
 <div class="detail-mini-card" markdown="1">
 <strong>Culture Before Giving</strong>
 
-- Obtain ordered cultures before the first antimicrobial dose when possible.
-- Examples include wound, throat, blood, urine, and sputum cultures.
-- Giving the medication first may interfere with the culture result.
-- Do not delay emergency treatment when immediate antibiotics are ordered.
+- Obtain wound, throat, urine, blood, or other cultures before the first dose when possible.
+- Cultures identify the organism.
+- Sensitivity testing identifies effective drugs.
+- Do not delay emergency treatment when immediate therapy is required.
 </div>
 
 <div class="detail-mini-card" markdown="1">
-<strong>Regular Intervals</strong>
+<strong>Give at Regular Intervals</strong>
 
-- Administer doses at evenly spaced times.
-- Four times daily usually means approximately every 6 hours.
-- Regular dosing maintains an effective blood level.
-- Do not group several doses together for convenience.
+- Space doses evenly.
+- Four times daily means every **6 hours**.
+- Regular intervals maintain therapeutic blood levels.
+- Do not cluster doses for convenience.
+- Follow exact timing instructions.
 </div>
 
 <div class="detail-mini-card" markdown="1">
-<strong>Complete Treatment</strong>
+<strong>Complete the Full Course</strong>
 
-- Take all medication even when symptoms improve.
-- Stopping early can contribute to resistant organisms.
+- Continue after symptoms improve.
 - Do not save leftover medication.
-- Do not share antibiotics with another person.
-</div>
-
-<div class="detail-mini-card" markdown="1">
-<strong>Superinfection</strong>
-
-Antibiotics may disrupt normal flora and cause:
-
-- Oral thrush
-- Vaginal yeast infection
-- New diarrhea
-- Mouth soreness
-- New fever or infection symptoms
-</div>
-
-<div class="detail-mini-card" markdown="1">
-<strong>Birth-Control Teaching</strong>
-
-- Some antimicrobials may interfere with hormonal birth control.
-- Teach the client to ask whether backup contraception is needed.
-- Do not assume every drug has the same interaction.
-</div>
-
-<div class="detail-mini-card" markdown="1">
-<strong>General Safety</strong>
-
-- Check allergies.
-- Review kidney and liver function.
-- Monitor response to treatment.
-- Report rash, swelling, or difficulty breathing.
-- Report severe or persistent diarrhea.
-</div>
-
-</div>
-
-<div class="detail-callout" markdown="1">
-<strong>NCLEX:</strong> When possible, obtain the ordered culture before administering the first antimicrobial dose.
-</div>
-
-</div>
-
-<div class="mh-detail blue" id="panel-high-risk" markdown="1">
-<a class="mh-detail-close" href="#">✕</a>
-
-### Aminoglycosides and Vancomycin
-
-<div class="detail-grid" markdown="1">
-
-<div class="detail-mini-card" markdown="1">
-<strong>Aminoglycosides</strong>
-
-Examples:
-
-- Streptomycin
-- Gentamicin
-- Neomycin
-- Kanamycin
-
-Memory cue: most are **“-mycins,” except erythromycin**.
-
-Oral neomycin or kanamycin may be used to reduce bacteria inside the bowel because they are poorly absorbed from the GI tract.
-</div>
-
-<div class="detail-mini-card" markdown="1">
-<strong>Ototoxicity</strong>
-
-Damage to cranial nerve VIII may cause:
-
-- Tinnitus
-- Hearing loss
-- Vertigo
-- Balance problems
-
-New tinnitus is an important early warning sign.
-</div>
-
-<div class="detail-mini-card" markdown="1">
-<strong>Nephrotoxicity</strong>
-
-Monitor:
-
-- BUN
-- Creatinine
-- Creatinine clearance
-- Intake and output
-- Urine output
-
-Rising creatinine or reduced urine output may indicate kidney damage.
-</div>
-
-<div class="detail-mini-card" markdown="1">
-<strong>Peaks and Troughs</strong>
-
-- **Trough:** lowest drug level.
-- Drawn just before the next dose.
-- **Peak:** highest drug level.
-- Drawn after administration according to facility policy.
-- High levels increase toxicity risk.
-</div>
-
-<div class="detail-mini-card" markdown="1">
-<strong>Neuromuscular Blockade</strong>
-
-- Aminoglycosides can worsen muscle weakness.
-- Use caution with myasthenia gravis.
-- Monitor for severe weakness.
-- Report difficulty breathing.
-</div>
-
-<div class="detail-mini-card" markdown="1">
-<strong>Vancomycin</strong>
-
-Main concerns:
-
-- Nephrotoxicity
-- Ototoxicity
-- Peaks and troughs when ordered
-- Infusion-related reaction
-- Must be administered slowly
+- Do not share medication.
+- Stopping early promotes resistance.
+- Recurrent symptoms require reassessment.
 </div>
 
 </div>
@@ -218,31 +109,34 @@ Main concerns:
   <table>
     <thead>
       <tr>
-        <th>Medication</th>
-        <th>Main Risk</th>
-        <th>What to Monitor</th>
+        <th>General Safety Area</th>
+        <th>Priority Point</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><strong>Gentamicin</strong></td>
-        <td>Kidney and cranial nerve VIII damage</td>
-        <td>BUN, creatinine, urine output, hearing, peaks and troughs</td>
+        <td><strong>Allergy</strong></td>
+        <td>Ask what reaction occurred rather than accepting “allergy” without assessment.</td>
       </tr>
       <tr>
-        <td><strong>Streptomycin</strong></td>
-        <td>Kidney and hearing toxicity</td>
-        <td>Renal function, tinnitus, hearing, balance</td>
+        <td><strong>Superinfection</strong></td>
+        <td>Watch for oral thrush, vaginal yeast infection, new diarrhea, new fever, or a new resistant infection.</td>
       </tr>
       <tr>
-        <td><strong>Neomycin / Kanamycin PO</strong></td>
-        <td>Used mainly for bowel disinfection</td>
-        <td>Purpose of administration and bowel response</td>
+        <td><strong>Pregnancy</strong></td>
+        <td>Review medication safety because several classes affect fetal development.</td>
       </tr>
       <tr>
-        <td><strong>Vancomycin</strong></td>
-        <td>Kidney toxicity and red man syndrome</td>
-        <td>Infusion rate, renal function, flushing, rash, hypotension</td>
+        <td><strong>Kidney function</strong></td>
+        <td>Monitor BUN, creatinine, creatinine clearance, urine output, and hydration with nephrotoxic drugs.</td>
+      </tr>
+      <tr>
+        <td><strong>Oral contraceptives</strong></td>
+        <td>Teach backup contraception when instructed by the course medication guidance.</td>
+      </tr>
+      <tr>
+        <td><strong>Response to therapy</strong></td>
+        <td>Monitor temperature, WBC, symptoms, cultures, and site-specific findings.</td>
       </tr>
     </tbody>
   </table>
@@ -251,165 +145,340 @@ Main concerns:
 <div class="detail-grid" markdown="1">
 
 <div class="detail-mini-card" markdown="1">
-<strong>Red Man Syndrome</strong>
+<strong>Superinfection Findings</strong>
 
-Rapid vancomycin infusion may cause:
-
-- Redness of the face, neck, and upper torso
-- Flushing
-- Itching or burning
-- Dizziness
-- Hypotension
-- Fever or chills
+- White oral plaques
+- Vaginal itching or discharge
+- Severe or persistent diarrhea
+- New fever
+- New rash
+- Symptoms that return
 </div>
 
 <div class="detail-mini-card" markdown="1">
-<strong>Nursing Response</strong>
+<strong>Resistance Prevention</strong>
 
-- Slow or stop the infusion as directed.
-- Assess airway and vital signs.
-- Notify the provider.
-- Administer prescribed treatment.
-- Future doses may need a slower infusion rate.
+- Correct drug
+- Correct dose
+- Correct interval
+- Full treatment course
+- No leftover reuse
+- No sharing
 </div>
 
 <div class="detail-mini-card" markdown="1">
 <strong>Report Immediately</strong>
 
+- Anaphylaxis
+- Severe rash
+- Breathing difficulty
 - Tinnitus
-- Hearing loss
-- Severe vertigo
-- Reduced urine output
-- Rising creatinine
-- Severe muscle weakness
-- Difficulty breathing
-</div>
-
-<div class="detail-mini-card" markdown="1">
-<strong>Memory Cue</strong>
-
-The outer ear and kidney have similar shapes.
-
-Think:
-
-**Aminoglycosides = ears + kidneys**
+- Abrupt urine decrease
+- Severe diarrhea
+- Tendon pain
 </div>
 
 </div>
 
 <div class="detail-callout" markdown="1">
-<strong>NCLEX:</strong> Gentamicin questions usually focus on BUN, creatinine, urine output, tinnitus, and peak/trough levels.
+<strong>Culture, Clock, Complete:</strong> Culture first, give on the clock, and complete the whole prescription.
 </div>
 
 </div>
 
-<div class="mh-detail green" id="panel-common" markdown="1">
+<div class="mh-detail blue" id="panel-amino-vanco" markdown="1">
 <a class="mh-detail-close" href="#">✕</a>
 
-### Common Antibiotic Classes
+### Aminoglycosides & Vancomycin
 
 <div class="detail-grid" markdown="1">
 
 <div class="detail-mini-card" markdown="1">
-<strong>Penicillins</strong>
+<strong>Aminoglycoside Drugs</strong>
 
-Main concern:
+- Gentamicin
+- Streptomycin
+- Neomycin
+- Kanamycin
+- “Mycins” except erythromycin in the course memory cue
+- IV or IM for systemic action
+</div>
 
-- Allergic reaction
-- Rash or hives
+<div class="detail-mini-card" markdown="1">
+<strong>Oral Aminoglycosides</strong>
+
+- Poorly absorbed from the GI tract
+- Used for bowel disinfection
+- May prepare the bowel for surgery
+- May reduce ammonia-producing bacteria in liver failure
+- Oral dosing does not treat systemic infection
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Major Toxicities</strong>
+
+- Ototoxicity
+- Cranial nerve VIII damage
+- Tinnitus
+- Hearing loss
+- Balance problems
+- Nephrotoxicity
+- Neuromuscular blockade
+</div>
+
+</div>
+
+<div class="detail-callout" markdown="1">
+<strong>Ear and Kidney Connection:</strong> Aminoglycosides can damage both hearing and renal function, so tinnitus plus rising creatinine is a major safety warning.
+</div>
+
+<div class="detail-table">
+  <table>
+    <thead>
+      <tr>
+        <th>Monitoring</th>
+        <th>Priority Point</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Trough</strong></td>
+        <td>Draw immediately before the next dose to measure the lowest drug concentration.</td>
+      </tr>
+      <tr>
+        <td><strong>Peak</strong></td>
+        <td>Draw after the infusion according to ordered timing to measure the highest drug concentration.</td>
+      </tr>
+      <tr>
+        <td><strong>High level</strong></td>
+        <td>Increased toxicity risk.</td>
+      </tr>
+      <tr>
+        <td><strong>Low level</strong></td>
+        <td>Medication may not effectively treat the organism.</td>
+      </tr>
+      <tr>
+        <td><strong>Renal tests</strong></td>
+        <td>Monitor BUN, creatinine, creatinine clearance, and intake and output.</td>
+      </tr>
+      <tr>
+        <td><strong>Hearing and balance</strong></td>
+        <td>Ask about tinnitus, hearing changes, dizziness, and imbalance.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="nclex-tip" markdown="1">
+Tinnitus is an early adverse-effect clue with gentamicin. BUN and serum creatinine are priority laboratory tests.
+</div>
+
+<div class="detail-grid" markdown="1">
+
+<div class="detail-mini-card" markdown="1">
+<strong>Vancomycin Uses</strong>
+
+- Severe infections
+- MRSA
+- C. difficile
+- Pseudomembranous colitis
+- Reserved for serious organisms
+- Requires close monitoring
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Vancomycin Safety</strong>
+
+- Infuse slowly over **60–90 minutes**.
+- Monitor renal function.
+- Monitor hearing.
+- Follow peak and trough orders.
+- Assess for infusion reaction.
+- Review allergy history.
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Red Man Syndrome</strong>
+
+- Facial, neck, or upper-torso flushing
+- Itching
+- Burning
+- Fever or chills
+- Headache
+- Dizziness
+- Often related to rapid infusion
+</div>
+
+</div>
+
+<div class="report-now" markdown="1">
+<h3>Hold and Report</h3>
+
+- Tinnitus or hearing loss
+- Rising creatinine
+- Abrupt decrease in urine output
+- Severe balance change
+- Respiratory weakness
+- Red man syndrome findings
 - Anaphylaxis
-- GI upset when taken orally
+</div>
 
-Oral penicillin is commonly taken on an empty stomach when directed.
+</div>
+
+<div class="mh-detail green" id="panel-pcn-ceph" markdown="1">
+<a class="mh-detail-close" href="#">✕</a>
+
+### Penicillins & Cephalosporins
+
+<div class="detail-grid" markdown="1">
+
+<div class="detail-mini-card" markdown="1">
+<strong>Penicillin Uses</strong>
+
+- Gram-positive and gram-negative infections
+- Gonococcus
+- Meningococcus
+- Pneumococcus
+- Streptococcus
+- Treponema
 </div>
 
 <div class="detail-mini-card" markdown="1">
-<strong>Penicillin Assessment</strong>
+<strong>Penicillin Allergy</strong>
 
-Ask:
-
-- Have you taken penicillin before?
-- What reaction occurred?
-- Was there rash, hives, swelling, or breathing difficulty?
-- Was it only nausea or diarrhea?
-
-GI upset alone is not always a true allergy.
+- Rash
+- Hives
+- Wheezing
+- Swelling
+- Anaphylaxis
+- Ask what happened during the previous reaction.
 </div>
 
 <div class="detail-mini-card" markdown="1">
-<strong>Cephalosporins</strong>
+<strong>Oral Penicillin Teaching</strong>
 
-Examples:
+- Take on an empty stomach in the course notes.
+- Give at regular intervals.
+- Complete the prescription.
+- GI upset may occur.
+- Probenecid may increase penicillin blood levels.
+- Monitor for delayed allergy.
+</div>
 
-- Cephalexin — Keflex
-- Cefazolin — Ancef
+</div>
 
-Recognition:
+<div class="detail-callout" markdown="1">
+<strong>Allergy Assessment:</strong> A client may call nausea or diarrhea an allergy. Ask the client to describe the reaction before deciding the next action.
+</div>
 
-- **cef**
-- **ceph**
-- **kef**
+<div class="detail-table">
+  <table>
+    <thead>
+      <tr>
+        <th>Cephalosporin Feature</th>
+        <th>Priority Point</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Name clue</strong></td>
+        <td>Generic or trade names often contain “cef” or “kef.”</td>
+      </tr>
+      <tr>
+        <td><strong>Examples</strong></td>
+        <td>Cephalexin and cefazolin.</td>
+      </tr>
+      <tr>
+        <td><strong>Penicillin cross-allergy</strong></td>
+        <td>Course notes emphasize a **20%–25%** cross-allergy risk.</td>
+      </tr>
+      <tr>
+        <td><strong>Initial action with listed PCN allergy</strong></td>
+        <td>Ask the client to describe the reaction.</td>
+      </tr>
+      <tr>
+        <td><strong>Renal toxicity</strong></td>
+        <td>Monitor kidney function and urine output.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
-Ask about a penicillin allergy and determine the exact reaction.
+<div class="detail-grid" markdown="1">
+
+<div class="detail-mini-card" markdown="1">
+<strong>Anaphylaxis Cues</strong>
+
+- Wheezing
+- Dyspnea
+- Hypotension
+- Facial swelling
+- Generalized hives
+- Rapid deterioration
 </div>
 
 <div class="detail-mini-card" markdown="1">
-<strong>Cephalosporin Risks</strong>
+<strong>Parent Teaching for Amoxicillin</strong>
 
-- Possible cross-sensitivity with penicillin
-- Allergic reaction
-- Renal toxicity
-- GI upset
-- Superinfection
-
-Do not automatically assume every reported penicillin reaction was anaphylaxis.
+- Give all medication in the prescription.
+- Do not stop when fever improves.
+- Do not save leftovers.
+- Do not reuse for a future infection.
+- Follow suspension-storage instructions.
 </div>
 
 <div class="detail-mini-card" markdown="1">
-<strong>Erythromycin</strong>
+<strong>Report Immediately</strong>
 
-- A macrolide, not an aminoglycoside
-- May be used for clients allergic to penicillin
-- Often supplied as an enteric-coated tablet
-- Do not crush enteric-coated tablets
-- Usually taken on an empty stomach with water when directed
+- Wheezing
+- Facial swelling
+- Difficulty breathing
+- Severe rash
+- Abrupt urine decrease
+- Severe diarrhea
 </div>
 
+</div>
+
+</div>
+
+<div class="mh-detail pink" id="panel-macro-tetra" markdown="1">
+<a class="mh-detail-close" href="#">✕</a>
+
+### Macrolides & Tetracyclines
+
+<div class="detail-grid" markdown="1">
+
 <div class="detail-mini-card" markdown="1">
-<strong>Tetracyclines</strong>
+<strong>Macrolide Uses</strong>
 
-Recognition cue:
-
-- **“-cycline”**
-
-Uses from class include:
-
-- Rickettsial infections
+- Alternative for penicillin allergy
+- Legionnaire’s disease
 - Mycoplasma
 - Chlamydia
-- Acne
+- Borrelia
+- H. influenzae
+- H. pylori
 </div>
 
 <div class="detail-mini-card" markdown="1">
-<strong>Tetracycline Teaching</strong>
+<strong>Erythromycin Administration</strong>
 
-- Avoid milk near the dose.
-- Avoid iron and zinc.
-- Avoid calcium and antacids near the dose.
-- Use sunscreen.
-- Take with a full glass of water.
-- Complete treatment.
+- Enteric coated
+- Swallow whole
+- Do not crush or cut
+- Take on an empty stomach in the course notes
+- Take with a full glass of water
+- Avoid meals and acidic drinks
 </div>
 
 <div class="detail-mini-card" markdown="1">
-<strong>Tetracycline Safety</strong>
+<strong>Why Enteric Coating Matters</strong>
 
-Major concerns:
-
-- Photosensitivity
-- Tooth discoloration
-- Effects on developing bones and teeth
-- Generally avoided in pregnancy and children younger than 8 when alternatives are available
+- Stomach acid decreases erythromycin activity.
+- Coating allows release in the small bowel.
+- Crushing destroys the protective coating.
+- Incorrect administration reduces effectiveness.
 </div>
 
 </div>
@@ -418,158 +487,93 @@ Major concerns:
   <table>
     <thead>
       <tr>
-        <th>Class</th>
-        <th>Recognition / Example</th>
-        <th>Main Exam Point</th>
+        <th>Tetracycline Feature</th>
+        <th>Priority Point</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><strong>Penicillins</strong></td>
-        <td>Penicillin, amoxicillin</td>
-        <td>Assess for allergy and anaphylaxis</td>
+        <td><strong>Name clue</strong></td>
+        <td>Drug names commonly contain “cycline.”</td>
       </tr>
       <tr>
-        <td><strong>Cephalosporins</strong></td>
-        <td>Cefazolin, cephalexin</td>
-        <td>Possible penicillin cross-sensitivity</td>
+        <td><strong>Uses</strong></td>
+        <td>Rickettsial disease, mycoplasma, chlamydia, and acne.</td>
       </tr>
       <tr>
-        <td><strong>Macrolide</strong></td>
-        <td>Erythromycin</td>
-        <td>Empty stomach; do not crush enteric coating</td>
+        <td><strong>Food and mineral interaction</strong></td>
+        <td>Do not take with milk, iron, zinc, or antacids.</td>
       </tr>
       <tr>
-        <td><strong>Tetracyclines</strong></td>
-        <td>“-cycline”</td>
-        <td>No milk/minerals, photosensitivity, tooth effects</td>
+        <td><strong>Photosensitivity</strong></td>
+        <td>Use sunscreen and protective clothing.</td>
+      </tr>
+      <tr>
+        <td><strong>Teeth and bone</strong></td>
+        <td>Avoid in the last trimester of pregnancy and children under **8 years** unless no safer effective option exists.</td>
+      </tr>
+      <tr>
+        <td><strong>Administration</strong></td>
+        <td>Take with water and follow exact separation instructions from interacting products.</td>
       </tr>
     </tbody>
   </table>
 </div>
 
 <div class="detail-callout" markdown="1">
-<strong>NCLEX:</strong> Tetracycline questions commonly test dairy/mineral interactions, photosensitivity, and tooth discoloration.
+<strong>Tetracycline:</strong> No milk, no metals, no midday sun, and no young teeth.
+</div>
+
+<div class="report-now" markdown="1">
+<h3>Report Immediately</h3>
+
+- Severe rash
+- Difficulty breathing
+- Severe diarrhea
+- Jaundice
+- Persistent vomiting
+- Severe sun reaction
 </div>
 
 </div>
 
-<div class="mh-detail pink" id="panel-other" markdown="1">
+<div class="mh-detail purple" id="panel-other-antibiotics" markdown="1">
 <a class="mh-detail-close" href="#">✕</a>
 
-### Other Antibiotics
+### Chloramphenicol, Quinolones & Sulfonamides
 
 <div class="detail-grid" markdown="1">
 
 <div class="detail-mini-card" markdown="1">
 <strong>Chloramphenicol</strong>
 
-Also called Chloromycetin.
-
-Used only for selected serious infections because it can cause:
-
-- Severe toxicity
-- Bone-marrow suppression
-- Aplastic anemia
-- Blood dyscrasias
-</div>
-
-<div class="detail-mini-card" markdown="1">
-<strong>Chloramphenicol Uses</strong>
-
-Class examples include:
-
+- Used for serious infections when needed
 - H. influenzae meningitis
 - Typhoid fever
-- Rocky Mountain spotted fever in selected cases
-
-Report unusual bruising, bleeding, weakness, fever, or infection.
+- Rocky Mountain spotted fever
+- Severe toxicity
+- Aplastic anemia risk
 </div>
 
 <div class="detail-mini-card" markdown="1">
 <strong>Quinolones</strong>
 
-Recognition cue:
-
-- **“-floxacin”**
-
-Examples:
-
-- Levofloxacin
-- Norfloxacin
-- Ciprofloxacin
-</div>
-
-<div class="detail-mini-card" markdown="1">
-<strong>Quinolone Safety</strong>
-
-Main concern:
-
-- Tendinitis
-- Tendon rupture
-
-Teach the client to:
-
-- Report tendon pain.
-- Hold the dose as instructed.
-- Avoid strenuous activity.
-- These medications are generally avoided in children unless specifically required.
+- Drug names often contain “floxacin.”
+- Treat many gram-negative organisms and some gram-positive organisms.
+- Levofloxacin may treat pneumonia.
+- Norfloxacin may treat UTI.
+- Ciprofloxacin achieves systemic levels.
 </div>
 
 <div class="detail-mini-card" markdown="1">
 <strong>Sulfonamides</strong>
 
-Examples:
-
-- Sulfisoxazole
-- Bactrim
-- Septra
-- Sulfasalazine
-
-Recognition cues:
-
-- **sulfa**
-- **gant**
-</div>
-
-<div class="detail-mini-card" markdown="1">
-<strong>Sulfonamide Safety</strong>
-
-Major concerns:
-
-- Rash
-- Photosensitivity
-- Nausea and vomiting
-- Kidney stones
-
-Teach:
-
-- Increase prescribed fluids.
+- Drug names often contain “sulfa.”
+- Examples include sulfisoxazole, Bactrim, Septra, and sulfasalazine.
+- Increase fluids.
 - Use sun protection.
-- Report rash.
-- Report flank pain or blood in urine.
-</div>
-
-<div class="detail-mini-card" markdown="1">
-<strong>Urinary Anti-Infectives</strong>
-
-Examples:
-
-- Methenamine mandelate
-- Nalidixic acid
-- Nitrofurantoin
-
-Used mainly for urinary infections.
-</div>
-
-<div class="detail-mini-card" markdown="1">
-<strong>Urinary Teaching</strong>
-
-- Some work best in acidic urine.
-- Cranberry juice may be recommended to acidify urine.
-- Obtain a clean-catch culture before treatment when ordered.
-- A follow-up culture may be obtained after treatment.
-- Complete the prescribed medication.
+- Monitor allergy.
+- Complete therapy.
 </div>
 
 </div>
@@ -578,116 +582,113 @@ Used mainly for urinary infections.
   <table>
     <thead>
       <tr>
-        <th>Medication / Class</th>
-        <th>Main Recognition Cue</th>
-        <th>Major Concern</th>
+        <th>Drug Group</th>
+        <th>Major Danger</th>
+        <th>Priority Nursing Action</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><strong>Chloramphenicol</strong></td>
-        <td>Chloromycetin</td>
-        <td>Aplastic anemia</td>
+        <td>Aplastic anemia and severe toxicity</td>
+        <td>Monitor CBC and report infection, bleeding, or severe fatigue.</td>
       </tr>
       <tr>
         <td><strong>Quinolones</strong></td>
-        <td>“-floxacin”</td>
-        <td>Tendon injury or rupture</td>
+        <td>Tendinitis and tendon rupture</td>
+        <td>Hold the dose and report tendon pain.</td>
+      </tr>
+      <tr>
+        <td><strong>Quinolones in children</strong></td>
+        <td>Skeletal and tendon injury</td>
+        <td>Avoid routine use in children according to course teaching.</td>
       </tr>
       <tr>
         <td><strong>Sulfonamides</strong></td>
-        <td>“sulfa” or “gant”</td>
-        <td>Rash, photosensitivity, kidney stones</td>
-      </tr>
-      <tr>
-        <td><strong>Urinary anti-infectives</strong></td>
-        <td>Methenamine, nalidixic acid, nitrofurantoin</td>
-        <td>Urine culture and acidic urine teaching</td>
+        <td>Allergy, photosensitivity, and crystalluria</td>
+        <td>Increase fluids, avoid excessive sun, and report rash.</td>
       </tr>
     </tbody>
   </table>
 </div>
 
-<div class="detail-callout" markdown="1">
-<strong>NCLEX:</strong> Sulfonamide questions often ask why fluids are encouraged: to decrease crystal and kidney-stone formation.
+<div class="detail-grid" markdown="1">
+
+<div class="detail-mini-card" markdown="1">
+<strong>Tendon Injury Cues</strong>
+
+- New tendon pain
+- Swelling
+- Weakness
+- Difficulty walking
+- Snapping sensation
+- Sudden loss of function
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Bone-Marrow Cues</strong>
+
+- Fever
+- Sore throat
+- Fatigue
+- Pallor
+- Bruising
+- Bleeding
+- Low blood counts
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Sulfa Teaching</strong>
+
+- Drink plenty of water.
+- Use sun protection.
+- Report rash.
+- Report reduced urine output.
+- Complete all doses.
+- Review sulfa allergy history.
 </div>
 
 </div>
 
-<div class="mh-detail purple" id="panel-special" markdown="1">
+</div>
+
+<div class="mh-detail blue" id="panel-antiviral-antifungal" markdown="1">
 <a class="mh-detail-close" href="#">✕</a>
 
-### Tuberculosis, Antivirals, and Antifungals
+### Antivirals & Antifungals
 
 <div class="detail-grid" markdown="1">
 
 <div class="detail-mini-card" markdown="1">
-<strong>Isoniazid — INH</strong>
+<strong>Antiviral Principle</strong>
 
-Major concerns:
-
-- Liver toxicity
-- Peripheral neuritis
-
-Teaching:
-
-- Monitor liver function.
-- Avoid alcohol.
-- Report jaundice or dark urine.
-- Take vitamin B6 as prescribed.
+- Inhibits viral replication
+- Does not cure most viral disease
+- Does not automatically eliminate transmission risk
+- Often works best when started early
+- Adherence is essential
+- Monitor organ toxicity
 </div>
 
 <div class="detail-mini-card" markdown="1">
-<strong>PAS</strong>
+<strong>HIV Antiretrovirals</strong>
 
-Para-aminosalicylic acid:
-
-- Frequently causes GI upset.
-- Give with meals.
-- Continue treatment as prescribed.
-- Do not stop early.
+- Nucleoside analogues
+- Nonnucleoside analogues
+- Protease inhibitors
+- Used in combinations
+- Lower viral load
+- Skipped doses promote resistance
 </div>
 
 <div class="detail-mini-card" markdown="1">
-<strong>Rifampin</strong>
+<strong>Acyclovir-Type Teaching</strong>
 
-- Turns urine, sweat, saliva, and tears red-orange.
-- May stain contact lenses.
-- Interacts with many medications.
-- May reduce birth-control pill effectiveness.
-- Monitor liver function.
-</div>
-
-<div class="detail-mini-card" markdown="1">
-<strong>Ethambutol</strong>
-
-Major concern:
-
-- Optic neuritis
-- Blurred vision
-- Red-green color blindness
-
-Report any visual change promptly.
-</div>
-
-<div class="detail-mini-card" markdown="1">
-<strong>Streptomycin</strong>
-
-- Aminoglycoside used for TB.
-- Often given IM.
+- Begin early when prescribed.
+- Increase fluids when allowed.
 - Monitor kidney function.
-- Monitor hearing and balance.
-- Report tinnitus.
-</div>
-
-<div class="detail-mini-card" markdown="1">
-<strong>TB Treatment Overview</strong>
-
-- Several medications are used together.
-- Treatment lasts many months.
-- Strict adherence prevents resistance.
-- Continue therapy even when symptoms improve.
-- Follow isolation instructions until no longer infectious.
+- Does not eradicate latent virus.
+- Continue transmission precautions.
 </div>
 
 </div>
@@ -696,30 +697,26 @@ Report any visual change promptly.
   <table>
     <thead>
       <tr>
-        <th>TB Medication</th>
-        <th>Main Exam Point</th>
+        <th>Antifungal</th>
+        <th>Use or Feature</th>
+        <th>Priority Safety</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><strong>Isoniazid</strong></td>
-        <td>Liver toxicity and neuropathy; vitamin B6</td>
+        <td><strong>Amphotericin B</strong></td>
+        <td>Serious systemic fungal infection</td>
+        <td>Fever, hypokalemia, azotemia, renal damage, and bone-marrow suppression</td>
       </tr>
       <tr>
-        <td><strong>PAS</strong></td>
-        <td>GI upset; give with meals</td>
+        <td><strong>Nystatin</strong></td>
+        <td>Oral or topical candidiasis</td>
+        <td>For oral use, coat the mouth and follow swallow or spit instructions exactly</td>
       </tr>
       <tr>
-        <td><strong>Rifampin</strong></td>
-        <td>Red-orange body fluids and drug interactions</td>
-      </tr>
-      <tr>
-        <td><strong>Ethambutol</strong></td>
-        <td>Optic neuritis and red-green color changes</td>
-      </tr>
-      <tr>
-        <td><strong>Streptomycin</strong></td>
-        <td>Hearing and kidney toxicity</td>
+        <td><strong>General antifungal care</strong></td>
+        <td>Treats fungal overgrowth or systemic disease</td>
+        <td>Monitor liver, kidney, blood counts, and drug interactions based on the medication</td>
       </tr>
     </tbody>
   </table>
@@ -728,180 +725,93 @@ Report any visual change promptly.
 <div class="detail-grid" markdown="1">
 
 <div class="detail-mini-card" markdown="1">
-<strong>Acyclovir</strong>
+<strong>Amphotericin B Reactions</strong>
 
-Used for:
-
-- Herpes simplex type 1
-- Herpes simplex type 2
-
-Key teaching:
-
-- Does not cure herpes.
-- Reduces the length of outbreaks.
-- Does not fully prevent transmission.
-- Continue precautions to prevent spread.
-</div>
-
-<div class="detail-mini-card" markdown="1">
-<strong>Antiretroviral Drugs</strong>
-
-Classes from the handout:
-
-- Nucleoside analogues
-- Nonnucleoside analogues
-- Protease inhibitors
-
-They inhibit HIV replication but do not cure HIV/AIDS.
-</div>
-
-<div class="detail-mini-card" markdown="1">
-<strong>Antiretroviral Teaching</strong>
-
-- Medications are given in combinations.
-- Take every dose consistently.
-- Missing doses can cause resistance.
-- Treatment slows disease progression.
-- May be used after occupational exposure.
-</div>
-
-<div class="detail-mini-card" markdown="1">
-<strong>Antiretroviral Examples</strong>
-
-Examples from class:
-
-- Zidovudine
-- Lamivudine
-- Didanosine
-- Stavudine
-- Nevirapine
-- Ritonavir
-- Saquinavir
-</div>
-
-<div class="detail-mini-card" markdown="1">
-<strong>Amphotericin B</strong>
-
-Used for serious systemic fungal infections.
-
-Major concerns:
-
-- Fever and chills
-- Nephrotoxicity
-- Elevated BUN
+- Fever
+- Chills
+- Nausea
 - Hypokalemia
-- Bone-marrow suppression
+- Rising BUN and creatinine
+- Anemia or other count changes
 - Infusion reactions
 </div>
 
 <div class="detail-mini-card" markdown="1">
-<strong>Amphotericin B Monitoring</strong>
+<strong>Premedication</strong>
 
-Monitor:
-
-- Vital signs
-- BUN and creatinine
-- Potassium
-- CBC
-- Intake and output
-
-Premedications may include acetaminophen, diphenhydramine, and a corticosteroid.
+- Acetaminophen
+- Diphenhydramine
+- Corticosteroid
+- Other ordered medications
+- Used to reduce infusion reactions
+- Monitor closely during administration
 </div>
 
 <div class="detail-mini-card" markdown="1">
-<strong>Nystatin</strong>
+<strong>Nystatin Oral Care</strong>
 
-Also called Mycostatin.
-
-Used for Candida or yeast infections.
-
-Forms include:
-
-- Oral
-- Topical
-- Vaginal suppository
-</div>
-
-<div class="detail-mini-card" markdown="1">
-<strong>Oral Nystatin Teaching</strong>
-
-- Shake suspension if instructed.
-- Swish around the mouth.
-- Keep medication in contact with affected areas.
-- Avoid food or drink immediately afterward.
-- Complete the full course.
+- Shake suspension.
+- Distribute throughout the mouth.
+- Hold in contact with affected tissue.
+- Avoid immediately washing it away.
+- Complete the prescribed course.
+- Maintain oral hygiene.
 </div>
 
 </div>
-
-<div class="detail-callout" markdown="1">
-<strong>TB Memory:</strong> INH = liver and nerves; Rifampin = red-orange fluids; Ethambutol = eyes; PAS = stomach.
-</div>
-
-</div>
-
-<div class="mh-columns wide-left" markdown="1">
-
-<div class="key-findings" markdown="1">
-<h3>📋 Antimicrobials Big Picture</h3>
-
-- Obtain cultures before the first dose when possible.
-- Give antimicrobials at regular intervals.
-- Teach the client to complete all medication.
-- Watch for yeast infections and other superinfections.
-- Aminoglycosides affect the ears and kidneys.
-- Vancomycin must be infused slowly.
-- Penicillins are strongly associated with allergy and anaphylaxis.
-- Tetracyclines interact with dairy and minerals.
-- Sulfonamides increase kidney-stone risk.
-- TB medications are taken together for a prolonged time.
-</div>
-
-<div class="mh-col" markdown="1">
 
 <div class="report-now" markdown="1">
 <h3>Report Immediately</h3>
 
-- Facial swelling or difficulty breathing
-- Tinnitus or hearing loss
-- Markedly reduced urine output
-- Severe rash or blistering
-- Tendon pain
-- Visual or red-green color changes
-- Jaundice or dark urine
-- Severe weakness or palpitations
+- Severe infusion reaction
+- Hypotension
+- Abrupt urine decrease
+- Rising creatinine
+- Severe hypokalemia
+- Severe rash
+- Respiratory distress
 </div>
 
-<div class="nclex-tip" markdown="1">
-<h3>NCLEX Tip</h3>
-
-For only a few exam questions, focus on matching each medication class with its major toxicity or teaching point.
-</div>
-
-</div>
 </div>
 
 <div class="mh-table-card" markdown="1">
 
-<h3>Fast Medication Match</h3>
+<h3>Antimicrobials Big Picture</h3>
 
-| Medication or Class | Main Point |
+| Class | Main Cue | Priority |
+|---|---|---|
+| **Aminoglycosides** | Ear and kidney toxicity | Peaks, troughs, BUN, creatinine, hearing |
+| **Vancomycin** | Red man syndrome | Infuse slowly over 60–90 minutes |
+| **Penicillins** | Allergy and anaphylaxis | Assess reaction history |
+| **Cephalosporins** | PCN cross-allergy and renal toxicity | Ask what reaction occurred |
+| **Macrolides** | Enteric-coated erythromycin | Empty stomach, full glass of water, do not crush |
+| **Tetracyclines** | Milk, metal, sun, and teeth interactions | Avoid in pregnancy and children under 8 in course teaching |
+| **Chloramphenicol** | Aplastic anemia | Monitor CBC |
+| **Quinolones** | Tendon injury | Hold and report tendon pain |
+| **Sulfonamides** | Crystalluria and sun sensitivity | Increase fluids and use sun protection |
+| **Amphotericin B** | Severe renal and infusion toxicity | Monitor potassium, kidney function, and blood counts |
+
+</div>
+
+<div class="mh-table-card" markdown="1">
+
+<h3>Quick Terms</h3>
+
+| Concept | Simple Meaning |
 |---|---|
-| **Aminoglycosides** | Ototoxicity, nephrotoxicity, peaks and troughs |
-| **Vancomycin** | Infuse slowly; red man syndrome |
-| **Penicillins** | Allergy and anaphylaxis |
-| **Cephalosporins** | Ask about the penicillin reaction |
-| **Erythromycin** | Empty stomach; do not crush enteric coating |
-| **Tetracyclines** | No dairy/minerals; sunlight and teeth |
-| **Chloramphenicol** | Aplastic anemia |
-| **Quinolones** | Tendon injury |
-| **Sulfonamides** | Fluids, photosensitivity, kidney stones |
-| **INH** | Liver toxicity, neuropathy, vitamin B6 |
-| **Rifampin** | Red-orange body fluids |
-| **Ethambutol** | Vision changes |
-| **Acyclovir** | Controls herpes but does not cure it |
-| **Amphotericin B** | Kidney toxicity and hypokalemia |
-| **Nystatin** | Candida treatment |
+| **Culture** | Identifies the organism |
+| **Sensitivity** | Identifies which drug treats the organism |
+| **Superinfection** | New infection caused by disruption of normal organisms |
+| **Resistance** | Organism no longer responds to the drug |
+| **Peak** | Highest drug concentration |
+| **Trough** | Lowest drug concentration |
+| **Ototoxicity** | Damage to hearing or balance |
+| **Nephrotoxicity** | Kidney damage |
+| **Red man syndrome** | Vancomycin infusion reaction with flushing and itching |
+| **Cross-allergy** | Allergy risk between related drug classes |
+| **Aplastic anemia** | Severe failure of blood-cell production |
+| **Crystalluria** | Crystals form in urine |
+| **Tendinitis** | Tendon inflammation that can precede rupture |
 
 </div>
 
@@ -910,41 +820,46 @@ For only a few exam questions, focus on matching each medication class with its 
 <div class="quick-review" markdown="1">
 <h3>Quick Review</h3>
 
-1. Collect cultures before giving the first dose when possible.
-2. Give antimicrobial doses at regular intervals.
-3. Clients should complete all prescribed medication.
-4. Gentamicin can cause hearing and kidney damage.
-5. Vancomycin must be infused slowly.
-6. Tetracyclines should not be taken with milk, iron, or zinc.
-7. Sulfonamides require prescribed fluids to reduce kidney-stone risk.
-8. INH can damage the liver and peripheral nerves.
-9. Rifampin turns body fluids red-orange.
-10. Ethambutol can cause vision changes.
+1. Obtain cultures before the first antimicrobial dose when possible.
+2. Give antimicrobials at regular intervals.
+3. Complete the full prescription.
+4. Monitor for superinfection.
+5. Aminoglycosides cause ototoxicity and nephrotoxicity.
+6. Draw aminoglycoside troughs immediately before the next dose.
+7. Vancomycin is infused slowly over 60–90 minutes.
+8. Penicillin allergy can progress to anaphylaxis.
+9. Ask a client to describe a listed penicillin allergy before giving a cephalosporin.
+10. Erythromycin is enteric coated and should not be crushed.
+11. Tetracyclines are not taken with milk, iron, zinc, or antacids.
+12. Quinolone tendon pain requires holding the dose and reporting.
+13. Sulfonamides require fluids and sun protection.
+14. Amphotericin B requires close kidney, potassium, and blood-count monitoring.
 </div>
 
 <div class="do-not-miss" markdown="1">
 <h3>Do Not Miss</h3>
 
-- Do not give scheduled doses at random times.
+- Do not start routine therapy before obtaining cultures when a culture is ordered.
 - Do not stop medication when symptoms improve.
 - Do not ignore tinnitus with gentamicin.
-- Do not rapidly infuse vancomycin.
-- Do not ignore a true penicillin allergy.
-- Do not give tetracycline with dairy or minerals.
+- Do not infuse vancomycin rapidly.
+- Do not assume every reported “allergy” is anaphylaxis without asking what happened.
+- Do not crush enteric-coated erythromycin.
+- Do not give tetracycline with milk or iron.
 - Do not ignore tendon pain with a quinolone.
-- Do not ignore visual changes with ethambutol.
-- Do not ignore low urine output with amphotericin B.
+- Do not overlook severe diarrhea as possible superinfection.
+- Do not underestimate amphotericin B toxicity.
 </div>
 
 </div>
 
 <div class="cheer-banner">
-  Antimicrobial questions are mostly drug-recognition questions: identify the class, remember its major toxicity, and choose the safest teaching.
+  Antimicrobial questions usually come down to culture timing, dose timing, completing therapy, class recognition, and catching toxicity before permanent harm occurs.
 </div>
 
 ---
 
 <div class="page-nav">
-  <a href="{{ '/immune-inflammatory/lupus.html' | relative_url }}" class="page-nav-back">← Systemic Lupus Erythematosus</a>
-  <a href="{{ '/immune-inflammatory/anti-inflammatory-immunosuppressive-medications.html' | relative_url }}" class="page-nav-next">Anti-Inflammatory & Immunosuppressive Medications →</a>
+  <a href="{{ '/immune-inflammatory/systemic-lupus-erythematosus.html' | relative_url }}" class="page-nav-back">← Systemic Lupus Erythematosus</a>
+  <a href="{{ '/immune-inflammatory.html' | relative_url }}" class="page-nav-next">Immune & Inflammatory Hub →</a>
 </div>

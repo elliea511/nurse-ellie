@@ -10,889 +10,636 @@ title: Osteoarthritis & Gout
 
 # Osteoarthritis & Gout
 
-<p class="mh-subtitle">PN-level review of osteoarthritis, gout, joint assessment, diagnostics, medications, diet teaching, mobility, and priority nursing care</p>
+<p class="mh-subtitle">ATI-focused review of degenerative joint disease, uric-acid crystal inflammation, pain patterns, diagnostics, mobility, diet, medication safety, and patient education</p>
 
-**Osteoarthritis (OA)** is a degenerative joint disorder caused by gradual breakdown of cartilage. **Gout** is an inflammatory arthritis caused by deposits of uric-acid crystals inside a joint. Both can cause pain and reduced mobility, but their causes, symptoms, and treatment are different.
+**Osteoarthritis (OA)** is a local degenerative disorder caused by long-term wear and tear on joints. **Gout** is an inflammatory arthritis caused by uric-acid crystal deposits. Both can cause pain and reduced mobility, but their causes, assessment findings, and treatment priorities are different.
 
 <div class="priority-focus">
   <div>
     <h3>Priority Focus</h3>
-    Joint Pain • Mobility • Fall Prevention • Weight Management • Acute Gout Flare • Uric Acid • Medication Safety • Joint Protection
+    Joint Pain • Mobility • Weight-Bearing Joints • Uric Acid • Acute Inflammation • Diet • Hydration • Medication Safety • Independence
   </div>
 </div>
 
 <div class="mh-cards">
 
-  <div class="mh-card blue">
+  <div class="mh-card purple">
     <div class="mh-card-icon">🦴</div>
-    <h3>Osteoarthritis</h3>
-    <p>Degenerative cartilage loss, activity-related pain, stiffness, crepitus, and mobility care.</p>
-    <a class="mh-btn" href="#panel-osteoarthritis">Study Osteoarthritis</a>
+    <h3>Osteoarthritis Basics</h3>
+    <p>Wear-and-tear joint damage, hypertrophic enlargement, pain patterns, and common joints.</p>
+    <a class="mh-btn" href="#panel-oa-basics">Study OA Basics</a>
   </div>
 
-  <div class="mh-card pink">
-    <div class="mh-card-icon">🔥</div>
-    <h3>Gout</h3>
-    <p>Uric-acid crystals, sudden severe inflammation, podagra, triggers, and flare treatment.</p>
-    <a class="mh-btn" href="#panel-gout">Study Gout</a>
+  <div class="mh-card blue">
+    <div class="mh-card-icon">🔍</div>
+    <h3>OA Assessment & Care</h3>
+    <p>Stiffness, mobility, heat and ice, ROM, weight control, and joint protection.</p>
+    <a class="mh-btn" href="#panel-oa-care">Study OA Care</a>
   </div>
 
   <div class="mh-card green">
-    <div class="mh-card-icon">🧪</div>
-    <h3>Diagnostics & Comparison</h3>
-    <p>Assessment patterns, imaging, uric acid, joint-fluid testing, and OA-versus-gout cues.</p>
-    <a class="mh-btn" href="#panel-diagnostics">Study Diagnostics</a>
+    <div class="mh-card-icon">🔥</div>
+    <h3>Gout Basics</h3>
+    <p>Uric-acid crystals, sudden inflammatory attacks, great-toe pain, and kidney-stone risk.</p>
+    <a class="mh-btn" href="#panel-gout-basics">Study Gout Basics</a>
+  </div>
+
+  <div class="mh-card pink">
+    <div class="mh-card-icon">🥩</div>
+    <h3>Gout Diet & Prevention</h3>
+    <p>Purines, alcohol, fluids, weight control, trigger reduction, and recurrence prevention.</p>
+    <a class="mh-btn" href="#panel-gout-prevention">Study Prevention</a>
   </div>
 
   <div class="mh-card purple">
     <div class="mh-card-icon">💊</div>
     <h3>Medications</h3>
-    <p>Analgesics, NSAIDs, colchicine, corticosteroids, allopurinol, and medication safety.</p>
-    <a class="mh-btn" href="#panel-medications">Study Medications</a>
+    <p>NSAIDs, colchicine, allopurinol, glucosamine, chondroitin, and medication teaching.</p>
+    <a class="mh-btn" href="#panel-oa-gout-meds">Study Medications</a>
   </div>
 
   <div class="mh-card blue">
-    <div class="mh-card-icon">🚶</div>
-    <h3>Nursing Care & Mobility</h3>
-    <p>Exercise, weight reduction, assistive devices, heat and cold, and fall prevention.</p>
-    <a class="mh-btn" href="#panel-nursing-care">Study Nursing Care</a>
-  </div>
-
-  <div class="mh-card green">
-    <div class="mh-card-icon">🥗</div>
-    <h3>Patient Education</h3>
-    <p>Joint protection, nutrition, hydration, purine reduction, and preventing future flares.</p>
-    <a class="mh-btn" href="#panel-education">Study Patient Education</a>
+    <div class="mh-card-icon">⚖️</div>
+    <h3>RA vs. OA vs. Gout</h3>
+    <p>Systemic autoimmune disease, local degeneration, and crystal inflammation compared.</p>
+    <a class="mh-btn" href="#panel-arthritis-comparison">Compare Arthritis</a>
   </div>
 
 </div>
 
-<div class="mh-detail blue" id="panel-osteoarthritis" markdown="1">
+<div class="mh-detail purple" id="panel-oa-basics" markdown="1">
 <a class="mh-detail-close" href="#">✕</a>
 
-### Osteoarthritis
+### Osteoarthritis Basics
 
-<section class="renal-note-section" markdown="1">
+<div class="detail-grid" markdown="1">
 
-**Osteoarthritis** is the most common form of arthritis. It develops when cartilage covering the ends of bones gradually wears down.
+<div class="detail-mini-card" markdown="1">
+<strong>What Osteoarthritis Is</strong>
 
-As cartilage deteriorates:
-
-1. The joint loses smooth cushioning.
-2. Bone surfaces begin rubbing together.
-3. Inflammation and pain may occur.
-4. Bone spurs can develop.
-5. Joint movement becomes limited.
-6. Function may gradually decrease.
-
-OA is primarily a **degenerative disorder**, not a systemic autoimmune disease.
-
-</section>
-
-<section class="renal-note-section" markdown="1">
-
-#### Risk Factors
-
-* Increasing age
-* Obesity
-* Previous joint injury
-* Repetitive joint stress
-* Heavy physical labor
-* High-impact sports
-* Joint deformity
-* Family history
-* Muscle weakness
-* Female sex after menopause
-* Previous joint surgery
-
-Weight-bearing joints are especially affected because they carry repeated mechanical stress.
-
-</section>
-
-<section class="renal-note-section" markdown="1">
-
-#### Commonly Affected Joints
-
-* Knees
-* Hips
-* Lower spine
-* Neck
-* Hands
-* Base of the thumb
-* Distal finger joints
-* Proximal finger joints
-
-OA may affect one side more severely than the other.
-
-</section>
-
-<section class="renal-note-section" markdown="1">
-
-#### Expected Findings
-
-<div class="renal-two-column" markdown="1">
-
-<div markdown="1">
-
-##### Pain Pattern
-
-* Pain worsens with activity.
-* Pain improves with rest.
-* Pain may worsen later in the day.
-* Weight-bearing increases pain.
-* Advanced disease may cause pain at rest.
-
+- Local degenerative joint disease
+- Often called wear-and-tear arthritis
+- Develops from long-term joint use and cartilage breakdown
+- More common with aging
+- Affects joints rather than the whole body
+- Does not cause bony ankylosis in the course comparison
 </div>
 
-<div markdown="1">
+<div class="detail-mini-card" markdown="1">
+<strong>Common Joints</strong>
 
-##### Joint Findings
+- Knees
+- Hips
+- Spine
+- Hands
+- Fingers
+- Other weight-bearing joints
+</div>
 
-* Brief morning stiffness
-* Stiffness after inactivity
-* Crepitus
-* Decreased range of motion
-* Bony enlargement
-* Joint tenderness
-* Reduced function
-* Uneven joint involvement
+<div class="detail-mini-card" markdown="1">
+<strong>Hypertrophic Arthritis</strong>
 
+- OA may be called hypertrophic arthritis.
+- The joint enlarges.
+- Movement becomes stiff and difficult.
+- The joint remains movable.
+- Enlargement is different from RA bony ankylosis.
 </div>
 
 </div>
 
-</section>
+<div class="detail-callout" markdown="1">
+<strong>OA Disease Process:</strong> Repeated joint stress and cartilage breakdown reduce cushioning → bones experience more friction and pressure → pain and stiffness increase → the joint enlarges and movement becomes more difficult.
+</div>
 
-<section class="renal-note-section" markdown="1">
+<div class="detail-table">
+  <table>
+    <thead>
+      <tr>
+        <th>Feature</th>
+        <th>Osteoarthritis Pattern</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Disease type</strong></td>
+        <td>Local degenerative disease rather than systemic autoimmune inflammation.</td>
+      </tr>
+      <tr>
+        <td><strong>Age</strong></td>
+        <td>Often develops in the 40s, 50s, 60s, and later years.</td>
+      </tr>
+      <tr>
+        <td><strong>Joint pattern</strong></td>
+        <td>Weight-bearing joints, spine, and hands are common.</td>
+      </tr>
+      <tr>
+        <td><strong>Pain</strong></td>
+        <td>Often worsens with joint use and improves with rest.</td>
+      </tr>
+      <tr>
+        <td><strong>Stiffness</strong></td>
+        <td>Common after inactivity but usually shorter than inflammatory RA stiffness.</td>
+      </tr>
+      <tr>
+        <td><strong>Joint change</strong></td>
+        <td>Hypertrophic enlargement occurs, but movement remains possible.</td>
+      </tr>
+      <tr>
+        <td><strong>Systemic findings</strong></td>
+        <td>Usually absent because OA is not a systemic inflammatory disease.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
-#### Hand Changes
-
-<div class="detail-table" markdown="1">
-
-| Finding | Location |
-|---|---|
-| **Heberden nodes** | Distal finger joints closest to the fingernails |
-| **Bouchard nodes** | Proximal finger joints in the middle of the fingers |
-| **Thumb-base OA** | Base of the thumb near the wrist |
+<div class="detail-callout" markdown="1">
+<strong>OA = Overused Articulation:</strong> Think local wear and tear, older age, weight-bearing joints, hypertrophic enlargement, and pain with use.
+</div>
 
 </div>
 
-These nodes are hard, bony enlargements rather than the soft inflammatory swelling commonly seen in rheumatoid arthritis.
+<div class="mh-detail blue" id="panel-oa-care" markdown="1">
+<a class="mh-detail-close" href="#">✕</a>
 
-</section>
+### Osteoarthritis Assessment & Nursing Care
 
-<section class="renal-note-section" markdown="1">
+<div class="detail-grid" markdown="1">
 
-#### OA vs. Rheumatoid Arthritis
+<div class="detail-mini-card" markdown="1">
+<strong>Assessment Findings</strong>
 
-<div class="detail-table" markdown="1">
+- Joint pain
+- Stiffness
+- Decreased range of motion
+- Crepitus
+- Enlarged joints
+- Pain with activity
+- Functional difficulty
+</div>
 
-| Osteoarthritis | Rheumatoid Arthritis |
-|---|---|
-| Degenerative cartilage loss | Autoimmune synovial inflammation |
-| Often uneven or asymmetric | Usually symmetric |
-| Pain worsens with activity | Stiffness may improve with gentle activity |
-| Morning stiffness usually brief | Morning stiffness often lasts over 30–60 minutes |
-| Crepitus and bony enlargement | Warmth, swelling, and soft-tissue inflammation |
-| Systemic symptoms uncommon | Fatigue, fever, and systemic effects may occur |
-| Heberden and Bouchard nodes | Ulnar deviation and other inflammatory deformities |
-| Treatment focuses on symptoms and function | DMARDs are needed to slow disease |
+<div class="detail-mini-card" markdown="1">
+<strong>Mobility Concerns</strong>
+
+- Difficulty walking
+- Difficulty climbing stairs
+- Difficulty standing from a chair
+- Reduced grip strength
+- Avoidance of activity because of pain
+- Fall risk
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Main Nursing Goals</strong>
+
+- Promote independence.
+- Maintain function.
+- Improve comfort.
+- Protect the joint.
+- Reduce mechanical stress.
+- Support safe activity.
+</div>
+
+</div>
+
+<div class="detail-table">
+  <table>
+    <thead>
+      <tr>
+        <th>Care Area</th>
+        <th>Priority Teaching</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Heat and ice</strong></td>
+        <td>Apply for **20 minutes** and remove for **20–40 minutes**; never place directly on skin.</td>
+      </tr>
+      <tr>
+        <td><strong>Range of motion</strong></td>
+        <td>Perform **3–4 times/day**; active ROM is best and should never continue beyond pain or resistance.</td>
+      </tr>
+      <tr>
+        <td><strong>Rest</strong></td>
+        <td>Alternate rest with activity rather than remaining continuously inactive.</td>
+      </tr>
+      <tr>
+        <td><strong>Exercise</strong></td>
+        <td>Use low-impact activity such as walking, swimming, or cycling as tolerated.</td>
+      </tr>
+      <tr>
+        <td><strong>Weight management</strong></td>
+        <td>Reducing excess weight decreases stress on knees, hips, and other weight-bearing joints.</td>
+      </tr>
+      <tr>
+        <td><strong>Joint protection</strong></td>
+        <td>Use assistive devices, supportive shoes, proper body mechanics, and larger joints for tasks.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="detail-grid" markdown="1">
+
+<div class="detail-mini-card" markdown="1">
+<strong>Activity Teaching</strong>
+
+- Warm up before exercise.
+- Move slowly.
+- Stop before severe pain.
+- Avoid repetitive high-impact activity.
+- Use supportive footwear.
+- Follow physical-therapy recommendations.
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Home Adaptations</strong>
+
+- Grab bars
+- Raised toilet seat
+- Shower chair
+- Cane or walker
+- Reachers
+- Built-up handles
+- Nonslip flooring
+</div>
+
+<div class="detail-mini-card" markdown="1">
+<strong>Report or Follow Up</strong>
+
+- Sudden hot swollen joint
+- New fever
+- Rapid loss of function
+- Severe medication reaction
+- Fall or injury
+- Pain no longer controlled by the plan
+</div>
 
 </div>
 
 <div class="nclex-tip" markdown="1">
-<h3>NCLEX Tip</h3>
-
-OA pain usually becomes worse with use and improves with rest. RA commonly causes prolonged morning stiffness and symmetric inflammatory swelling.
+The best long-term OA plan combines movement, weight control, joint protection, rest, and pain management rather than relying only on medication.
+</div>
 
 </div>
 
-</section>
-
-</div>
-
-<div class="mh-detail pink" id="panel-gout" markdown="1">
+<div class="mh-detail green" id="panel-gout-basics" markdown="1">
 <a class="mh-detail-close" href="#">✕</a>
 
-### Gout
+### Gout Basics
 
-<section class="renal-note-section" markdown="1">
+<div class="detail-grid" markdown="1">
 
-**Gout** is an inflammatory arthritis caused by monosodium urate crystals collecting inside joints.
+<div class="detail-mini-card" markdown="1">
+<strong>What Gout Is</strong>
 
-Uric acid is produced when the body breaks down purines. Gout may occur when:
-
-* The body produces too much uric acid.
-* The kidneys do not remove enough uric acid.
-* Dehydration concentrates uric acid.
-* Certain medications raise uric-acid levels.
-* Dietary and metabolic factors increase risk.
-
-A high uric-acid level is called **hyperuricemia**.
-
-</section>
-
-<section class="renal-note-section" markdown="1">
-
-#### Risk Factors and Triggers
-
-<div class="renal-two-column" markdown="1">
-
-<div markdown="1">
-
-##### Risk Factors
-
-* Male sex
-* Increasing age
-* Family history
-* Obesity
-* Kidney disease
-* Metabolic syndrome
-* Hypertension
-* Diabetes
-* Heart disease
-* Previous gout attacks
-
+- Inflammatory arthritis
+- Caused by uric-acid crystal deposits
+- Often associated with elevated serum uric acid
+- Attacks may begin suddenly
+- Pain can be severe
+- Repeated attacks can damage joints
 </div>
 
-<div markdown="1">
+<div class="detail-mini-card" markdown="1">
+<strong>Classic Attack</strong>
 
-##### Possible Triggers
+- Sudden severe joint pain
+- Redness
+- Warmth
+- Swelling
+- Extreme tenderness
+- Great toe is a classic site
+- The client may not tolerate light touch
+</div>
 
-* Dehydration
-* Alcohol
-* Large purine-rich meals
-* Trauma
-* Surgery
-* Acute illness
-* Rapid weight loss
-* Fasting
-* Diuretic use
-* Certain medications
+<div class="detail-mini-card" markdown="1">
+<strong>Why Uric Acid Rises</strong>
 
+- Increased purine breakdown
+- Reduced kidney excretion
+- Dehydration
+- High-purine intake
+- Alcohol
+- Certain illnesses or medications
 </div>
 
 </div>
 
-</section>
+<div class="detail-callout" markdown="1">
+<strong>Gout Disease Process:</strong> Purines are broken down into uric acid → uric acid builds up in the blood → crystals deposit in joints → the immune system reacts → sudden severe inflammation and pain develop.
+</div>
 
-<section class="renal-note-section" markdown="1">
+<div class="detail-table">
+  <table>
+    <thead>
+      <tr>
+        <th>Assessment Finding</th>
+        <th>Why It Matters</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Sudden severe pain</strong></td>
+        <td>Supports an acute crystal-inflammatory attack.</td>
+      </tr>
+      <tr>
+        <td><strong>Red hot swollen joint</strong></td>
+        <td>Shows intense local inflammation.</td>
+      </tr>
+      <tr>
+        <td><strong>Great-toe involvement</strong></td>
+        <td>Classic gout location.</td>
+      </tr>
+      <tr>
+        <td><strong>Elevated uric acid</strong></td>
+        <td>Supports the diagnosis but may also occur with kidney stones or other conditions.</td>
+      </tr>
+      <tr>
+        <td><strong>Tophi</strong></td>
+        <td>Firm uric-acid deposits suggest chronic gout.</td>
+      </tr>
+      <tr>
+        <td><strong>Flank pain or hematuria</strong></td>
+        <td>May indicate uric-acid kidney stones.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
-#### Acute Gout Attack
+<div class="detail-grid" markdown="1">
 
-An acute attack often begins suddenly, frequently during the night.
+<div class="detail-mini-card" markdown="1">
+<strong>Acute Attack Care</strong>
 
-Expected findings:
+- Rest the affected joint.
+- Avoid pressure on the joint.
+- Use prescribed anti-inflammatory medication.
+- Apply cold when tolerated.
+- Encourage fluids when not contraindicated.
+- Assess pain response.
+</div>
 
-* Severe joint pain
-* Redness
-* Warmth
-* Swelling
-* Extreme tenderness
-* Limited movement
-* Shiny or tight skin
-* Possible low-grade fever
+<div class="detail-mini-card" markdown="1">
+<strong>Complications</strong>
 
-The pain may be so severe that the client cannot tolerate:
+- Recurrent attacks
+- Joint damage
+- Tophi
+- Reduced mobility
+- Uric-acid kidney stones
+- Chronic kidney problems
+</div>
 
-* A bedsheet touching the joint
-* Clothing over the area
-* Light pressure
-* Walking or standing
+<div class="detail-mini-card" markdown="1">
+<strong>Priority Difference</strong>
 
-</section>
-
-<section class="renal-note-section" markdown="1">
-
-#### Podagra
-
-**Podagra** is gout affecting the first metatarsophalangeal joint—the base of the great toe.
-
-It is a classic gout finding.
-
-Other possible sites include:
-
-* Ankles
-* Knees
-* Wrists
-* Fingers
-* Elbows
-
-<div class="nclex-tip" markdown="1">
-<h3>Memory Cue</h3>
-
-Sudden nighttime pain in a red, hot, extremely tender great toe strongly suggests gout.
+- Acute medications reduce inflammation and pain.
+- Long-term medications reduce uric acid and prevent recurrence.
+- Prevention medication does not replace acute-attack treatment.
+</div>
 
 </div>
 
-</section>
-
-<section class="renal-note-section" markdown="1">
-
-#### Chronic Gout and Tophi
-
-Repeated untreated attacks can cause:
-
-* Joint damage
-* Reduced mobility
-* Chronic pain
-* Kidney stones
-* Kidney injury
-* Tophi
-
-**Tophi** are firm deposits of urate crystals beneath the skin.
-
-Common locations include:
-
-* Fingers
-* Toes
-* Elbows
-* Ears
-* Achilles tendon
-* Around affected joints
-
-Tophi may become large, interfere with function, or break through the skin.
-
-</section>
-
-<section class="renal-note-section" markdown="1">
-
-#### Acute Flare Nursing Care
-
-* Rest the affected joint.
-* Elevate the extremity.
-* Protect the joint from pressure.
-* Apply cold packs as tolerated.
-* Administer prescribed anti-inflammatory medication.
-* Encourage prescribed fluids.
-* Avoid massage.
-* Avoid unnecessary movement.
-* Monitor pain.
-* Assess for fever or infection.
-
-<div class="report-now" markdown="1">
-<h3>Important</h3>
-
-A red, hot, swollen joint with fever may also indicate septic arthritis. Do not assume every painful swollen joint is gout.
-
 </div>
 
-</section>
-
-</div>
-
-<div class="mh-detail green" id="panel-diagnostics" markdown="1">
+<div class="mh-detail pink" id="panel-gout-prevention" markdown="1">
 <a class="mh-detail-close" href="#">✕</a>
 
-### Diagnostics and Comparison
+### Gout Diet & Recurrence Prevention
 
-<section class="renal-note-section" markdown="1">
+<div class="detail-grid" markdown="1">
 
-#### Osteoarthritis Diagnostics
+<div class="detail-mini-card" markdown="1">
+<strong>Limit High-Purine Foods</strong>
 
-Diagnosis is based on:
-
-* History of activity-related pain
-* Joint examination
-* Range-of-motion assessment
-* Crepitus
-* Functional limitations
-* Imaging
-
-X-ray findings may include:
-
-* Joint-space narrowing
-* Bone spurs
-* Cartilage loss
-* Bone changes
-* Joint deformity
-
-Laboratory tests are usually normal because OA is not a systemic inflammatory disorder.
-
-</section>
-
-<section class="renal-note-section" markdown="1">
-
-#### Gout Diagnostics
-
-<div class="detail-table" markdown="1">
-
-| Test | Possible Finding |
-|---|---|
-| **Serum uric acid** | May be elevated, but can be normal during an acute attack |
-| **Joint-fluid aspiration** | Needle-shaped urate crystals |
-| **CBC** | Possible elevated WBC count |
-| **ESR or CRP** | May be elevated during inflammation |
-| **Kidney-function tests** | Evaluate uric-acid excretion and medication safety |
-| **Imaging** | May show chronic joint damage or urate deposits |
-| **Urinalysis** | May help assess kidney stones or kidney involvement |
-
+- Organ meats
+- Large amounts of red meat
+- Certain seafood
+- Meat gravies
+- High-purine animal proteins
+- Excessive protein intake
 </div>
 
-Joint-fluid analysis is the best way to confirm urate crystals and exclude infection.
+<div class="detail-mini-card" markdown="1">
+<strong>Increase or Encourage</strong>
 
-</section>
-
-<section class="renal-note-section" markdown="1">
-
-#### OA vs. Gout
-
-<div class="detail-table" markdown="1">
-
-| Osteoarthritis | Gout |
-|---|---|
-| Gradual onset | Often sudden onset |
-| Degenerative cartilage loss | Urate-crystal inflammation |
-| Pain worsens with activity | Severe pain often begins at rest or overnight |
-| Usually no redness or intense heat | Joint becomes red, hot, swollen, and very tender |
-| Often affects hips, knees, spine, and hands | Often begins in the great toe |
-| No systemic illness expected | Fever may occur |
-| X-ray shows degenerative changes | Joint fluid shows urate crystals |
-| Managed with exercise, weight control, and pain relief | Acute anti-inflammatory treatment plus uric-acid control |
-
+- Water
+- Consistent hydration
+- Balanced meals
+- Weight management
+- Medication adherence
+- Follow-up uric-acid testing
 </div>
 
-</section>
+<div class="detail-mini-card" markdown="1">
+<strong>Avoid or Reduce Triggers</strong>
 
-<div class="report-now" markdown="1">
-<h3>Report Immediately</h3>
-
-* Hot swollen joint with high fever
-* Severe pain after joint trauma
-* Inability to bear weight
-* New loss of circulation or sensation
-* Signs of GI bleeding from NSAIDs
-* Decreased urine output
-* Flank pain or blood in urine
-* Severe medication rash
-
+- Dehydration
+- Alcohol
+- Crash dieting
+- Binge eating
+- Excessive purine intake
+- Stopping preventive medication
 </div>
 
 </div>
 
-<div class="mh-detail purple" id="panel-medications" markdown="1">
+<div class="detail-table">
+  <table>
+    <thead>
+      <tr>
+        <th>Teaching Area</th>
+        <th>Priority Point</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Fluids</strong></td>
+        <td>Increase fluids when not contraindicated to reduce uric-acid concentration and stone risk.</td>
+      </tr>
+      <tr>
+        <td><strong>Weight loss</strong></td>
+        <td>Use gradual weight reduction because fasting and crash diets may trigger an attack.</td>
+      </tr>
+      <tr>
+        <td><strong>Alcohol</strong></td>
+        <td>Alcohol can raise uric acid and trigger attacks.</td>
+      </tr>
+      <tr>
+        <td><strong>Kidney stones</strong></td>
+        <td>Report flank pain, hematuria, nausea, or reduced urine output.</td>
+      </tr>
+      <tr>
+        <td><strong>Medication adherence</strong></td>
+        <td>Continue preventive therapy even when no joint pain is present.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="detail-callout" markdown="1">
+<strong>Gout Prevention:</strong> Lower the purines, raise the fluids, control the uric acid, and do not stop prevention when the pain disappears.
+</div>
+
+</div>
+
+<div class="mh-detail purple" id="panel-oa-gout-meds" markdown="1">
 <a class="mh-detail-close" href="#">✕</a>
 
-### Medications
+### Osteoarthritis & Gout Medications
 
-<section class="renal-note-section" markdown="1">
-
-#### Osteoarthritis Medications
-
-<div class="detail-table" markdown="1">
-
-| Medication | Purpose | Important Safety Points |
-|---|---|---|
-| **Acetaminophen** | Mild pain relief | Monitor total daily dose and liver risk |
-| **NSAIDs** | Reduce pain and inflammation | GI bleeding, kidney injury, hypertension, fluid retention |
-| **Topical NSAIDs** | Local joint-pain relief | Apply only to intact skin; wash hands |
-| **Topical capsaicin** | Reduces localized pain over time | Burning sensation may occur; avoid eyes |
-| **Intra-articular corticosteroids** | Temporary relief of severe joint inflammation | Monitor for infection and blood-glucose elevation |
-| **Other analgesics** | Selected clients with persistent pain | Monitor sedation and fall risk |
-
+<div class="detail-table">
+  <table>
+    <thead>
+      <tr>
+        <th>Medication</th>
+        <th>Why It Is Used</th>
+        <th>Priority Teaching</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>NSAIDs</strong></td>
+        <td>Reduce pain and inflammation in OA and acute gout.</td>
+        <td>Monitor GI bleeding, kidney function, blood pressure, and fluid retention.</td>
+      </tr>
+      <tr>
+        <td><strong>Acetaminophen</strong></td>
+        <td>Relieves OA pain but does not provide strong anti-inflammatory action.</td>
+        <td>Monitor total daily dose and liver safety.</td>
+      </tr>
+      <tr>
+        <td><strong>Topical analgesics</strong></td>
+        <td>Reduce local OA discomfort.</td>
+        <td>Use gloves, avoid broken skin, and wash hands after application.</td>
+      </tr>
+      <tr>
+        <td><strong>Colchicine</strong></td>
+        <td>Reduces inflammation during gout attacks.</td>
+        <td>Monitor diarrhea, vomiting, abdominal pain, and toxicity.</td>
+      </tr>
+      <tr>
+        <td><strong>Allopurinol</strong></td>
+        <td>Reduces uric-acid production and prevents recurrent gout.</td>
+        <td>Increase fluids, report rash, and understand that it is prevention rather than immediate pain relief.</td>
+      </tr>
+      <tr>
+        <td><strong>Glucosamine and chondroitin</strong></td>
+        <td>OTC products discussed for osteoarthritis, especially knee OA.</td>
+        <td>Benefit is limited to OA in the course notes and should not replace prescribed therapy.</td>
+      </tr>
+    </tbody>
+  </table>
 </div>
 
-Medication improves symptoms but does not regrow lost cartilage.
+<div class="detail-grid" markdown="1">
 
-</section>
+<div class="detail-mini-card" markdown="1">
+<strong>NSAID Safety</strong>
 
-<section class="renal-note-section" markdown="1">
-
-#### NSAID Safety
-
-NSAIDs may cause:
-
-* Gastritis
-* Ulcer
-* GI bleeding
-* Kidney injury
-* Fluid retention
-* Increased blood pressure
-* Cardiovascular complications
-
-Teaching:
-
-* Take with food when appropriate.
-* Do not combine multiple NSAIDs.
-* Avoid excess alcohol.
-* Report black stools.
-* Report vomiting blood.
-* Report decreased urine output.
-* Use the lowest effective dose as directed.
-
-</section>
-
-<section class="renal-note-section" markdown="1">
-
-#### Acute Gout Medications
-
-##### NSAIDs
-
-Often used during an acute attack unless contraindicated.
-
-* Reduce pain and inflammation
-* Work best when started early
-* Do not lower long-term uric acid
-* Use caution with kidney disease, GI bleeding, and anticoagulants
-
-##### Colchicine
-
-Colchicine reduces the inflammatory reaction to urate crystals.
-
-Important teaching:
-
-* Most effective when taken early in the attack.
-* It is not a general pain medication.
-* Diarrhea, nausea, and abdominal pain can occur.
-* Severe diarrhea may indicate toxicity.
-* Dose adjustments may be needed with kidney disease.
-* Report muscle weakness or unusual bruising.
-
-##### Corticosteroids
-
-May be given orally, by injection, or into the joint when NSAIDs or colchicine are unsuitable.
-
-Monitor for:
-
-* Hyperglycemia
-* Infection
-* Mood changes
-* GI irritation
-* Fluid retention
-
-</section>
-
-<section class="renal-note-section" markdown="1">
-
-#### Long-Term Uric-Acid Reduction
-
-##### Allopurinol
-
-Allopurinol decreases uric-acid production.
-
-Teaching:
-
-* Used for prevention, not immediate pain relief.
-* Take consistently as prescribed.
-* Encourage prescribed fluid intake.
-* Report rash immediately.
-* Monitor kidney and liver function.
-* Take after meals if GI upset occurs.
-* Do not stop solely because a flare occurs unless directed.
-
-<div class="report-now" markdown="1">
-<h3>Allopurinol Safety</h3>
-
-A rash may signal a serious hypersensitivity reaction. Stop the medication and contact the provider as directed.
-
+- Take with food when instructed.
+- Report black stool.
+- Report vomiting blood.
+- Monitor kidney function.
+- Monitor edema.
+- Avoid taking multiple NSAIDs together.
 </div>
 
-##### Febuxostat
+<div class="detail-mini-card" markdown="1">
+<strong>Colchicine Safety</strong>
 
-* Also decreases uric-acid production.
-* May be used when allopurinol is unsuitable.
-* Requires liver monitoring.
-* Cardiovascular history must be reviewed.
-
-##### Uricosuric Medications
-
-These increase uric-acid excretion through the kidneys.
-
-Teaching may include:
-
-* Maintain adequate hydration.
-* Report flank pain.
-* Monitor for kidney stones.
-* Avoid use in selected clients with significant kidney disease.
-
-</section>
-
-<section class="renal-note-section" markdown="1">
-
-#### Acute Medication vs. Prevention Medication
-
-<div class="detail-table" markdown="1">
-
-| During an Acute Attack | Long-Term Prevention |
-|---|---|
-| NSAID | Allopurinol |
-| Colchicine | Febuxostat |
-| Corticosteroid | Selected uricosuric medication |
-| Rest and cold application | Diet, hydration, weight management |
-| Controls inflammation and pain | Lowers future uric-acid burden |
-
+- GI toxicity is common.
+- Severe diarrhea may indicate toxicity.
+- Report persistent vomiting.
+- Use exactly as prescribed.
+- Monitor kidney and liver function when ordered.
 </div>
 
-<div class="nclex-tip" markdown="1">
-<h3>NCLEX Tip</h3>
+<div class="detail-mini-card" markdown="1">
+<strong>Allopurinol Safety</strong>
 
-Colchicine treats inflammation during a gout flare. Allopurinol lowers uric acid to prevent future attacks—it does not provide immediate pain relief.
-
+- Use for prevention.
+- Continue during symptom-free periods.
+- Increase fluids.
+- Report rash immediately.
+- Keep uric-acid follow-up appointments.
+- Do not expect immediate relief of acute pain.
 </div>
 
-</section>
-
 </div>
-
-<div class="mh-detail blue" id="panel-nursing-care" markdown="1">
-<a class="mh-detail-close" href="#">✕</a>
-
-### Nursing Care and Mobility
-
-<section class="renal-note-section" markdown="1">
-
-#### Pain Management
-
-For OA:
-
-* Use warmth for chronic stiffness.
-* Administer pain medication before activity.
-* Schedule demanding activities when pain is controlled.
-* Encourage joint-friendly movement.
-* Allow rest after activity.
-
-For acute gout:
-
-* Rest the joint.
-* Use cold packs.
-* Elevate the extremity.
-* Avoid pressure from linens.
-* Administer prescribed anti-inflammatory medications.
-* Avoid massage and excessive movement.
-
-</section>
-
-<section class="renal-note-section" markdown="1">
-
-#### Exercise
-
-Exercise is a major part of OA treatment.
-
-Helpful activities include:
-
-* Walking
-* Swimming
-* Water aerobics
-* Cycling
-* Range-of-motion exercise
-* Strengthening exercise
-* Flexibility exercise
-
-Benefits include:
-
-* Increased muscle support
-* Improved range of motion
-* Reduced stiffness
-* Better balance
-* Weight control
-* Improved function
-
-Exercise should be gradual and low impact.
-
-</section>
-
-<section class="renal-note-section" markdown="1">
-
-#### Weight Management
-
-Weight reduction can decrease stress on:
-
-* Hips
-* Knees
-* Ankles
-* Feet
-* Lower back
-
-Even modest weight loss may improve pain and mobility.
-
-Avoid crash diets or fasting in clients with gout because rapid weight loss can trigger an attack.
-
-</section>
-
-<section class="renal-note-section" markdown="1">
-
-#### Assistive Devices
-
-Possible devices include:
-
-* Cane
-* Walker
-* Raised toilet seat
-* Shower chair
-* Grab bars
-* Reacher
-* Shoe inserts
-* Knee or hand braces
-* Supportive footwear
-
-##### Cane Use
-
-The cane is generally held on the **stronger side**.
-
-Sequence:
-
-1. Move the cane.
-2. Move the weaker or painful leg.
-3. Move the stronger leg.
-
-<div class="nclex-tip" markdown="1">
-<h3>Mobility Cue</h3>
-
-Hold the cane on the stronger side to reduce weight placed on the painful joint.
-
-</div>
-
-</section>
-
-<section class="renal-note-section" markdown="1">
-
-#### Fall Prevention
-
-* Assess gait and balance.
-* Keep pathways clear.
-* Provide nonslip footwear.
-* Use assistive devices correctly.
-* Install grab bars.
-* Improve lighting.
-* Rise slowly.
-* Avoid sedating medication when possible.
-* Keep frequently used objects within reach.
-* Refer to physical therapy when indicated.
-
-</section>
-
-<section class="renal-note-section" markdown="1">
-
-#### Joint-Replacement Surgery
-
-Severe hip or knee OA may require total joint replacement.
-
-General postoperative priorities include:
-
-* Neurovascular assessment
-* Pain management
-* DVT prevention
-* Infection prevention
-* Early prescribed ambulation
-* Physical therapy
-* Joint precautions
-* Monitoring the surgical incision
-
-After hip replacement, follow the ordered approach-specific precautions. These may include avoiding extreme hip flexion, adduction, or rotation.
-
-</section>
-
-</div>
-
-<div class="mh-detail green" id="panel-education" markdown="1">
-<a class="mh-detail-close" href="#">✕</a>
-
-### Patient Education
-
-<section class="renal-note-section" markdown="1">
-
-#### Osteoarthritis Self-Care
-
-* Maintain a healthy weight.
-* Perform regular low-impact exercise.
-* Use warmth before activity when stiff.
-* Rest joints during severe pain.
-* Avoid repetitive high-impact movement.
-* Use assistive devices.
-* Wear supportive shoes.
-* Protect joints from injury.
-* Take medication as directed.
-* Keep physical-therapy appointments.
-
-</section>
-
-<section class="renal-note-section" markdown="1">
-
-#### Gout Nutrition
-
-Purine-rich foods may increase uric-acid production.
-
-Foods often limited include:
-
-* Organ meats
-* Large amounts of red meat
-* Anchovies
-* Sardines
-* Some shellfish
-* Certain concentrated meat gravies
-* Beer
-* Excess alcohol
-
-Encourage:
-
-* Prescribed fluid intake
-* Balanced meals
-* Gradual weight loss when needed
-* Low-fat dairy when appropriate
-* Fruits and vegetables
-* Consistent medication use
-
-</section>
-
-<section class="renal-note-section" markdown="1">
-
-#### Hydration
-
-Adequate fluids may help:
-
-* Dilute urine
-* Promote uric-acid excretion
-* Reduce kidney-stone risk
-* Prevent dehydration-triggered flares
-
-Follow fluid restrictions for clients with heart or kidney failure.
-
-</section>
-
-<section class="renal-note-section" markdown="1">
-
-#### Other Gout Teaching
-
-* Avoid binge drinking.
-* Avoid crash diets and prolonged fasting.
-* Take uric-acid medication consistently.
-* Do not start or stop medication independently.
-* Report rash with allopurinol.
-* Report flank pain or blood in urine.
-* Discuss diuretic use with the provider.
-* Keep uric-acid and kidney-function appointments.
-* Recognize early flare symptoms.
-
-</section>
-
-<section class="renal-note-section" markdown="1">
-
-#### Diuretics and Gout
-
-Some diuretics can increase uric acid and trigger gout.
-
-Do not stop a prescribed diuretic independently. The provider may:
-
-* Continue it with monitoring
-* Change the dose
-* Select another medication
-* Add uric-acid-lowering treatment
-
-</section>
 
 <div class="report-now" markdown="1">
 <h3>Report Immediately</h3>
 
-* Hot swollen joint with fever
-* Severe medication rash
-* Black or bloody stool
-* Vomiting blood
-* Decreased urine output
-* Flank pain or hematuria
-* Severe weakness or inability to walk
-* New numbness or loss of circulation
-* Signs of joint-replacement infection
+- Severe medication rash
+- Black stool or vomiting blood
+- Abrupt decrease in urine output
+- Severe persistent diarrhea with colchicine
+- Flank pain with hematuria
+- Red hot joint with fever
+</div>
 
+</div>
+
+<div class="mh-detail blue" id="panel-arthritis-comparison" markdown="1">
+<a class="mh-detail-close" href="#">✕</a>
+
+### RA vs. OA vs. Gout
+
+<div class="detail-table">
+  <table>
+    <thead>
+      <tr>
+        <th>Feature</th>
+        <th>Rheumatoid Arthritis</th>
+        <th>Osteoarthritis</th>
+        <th>Gout</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Cause</strong></td>
+        <td>Autoimmune inflammation</td>
+        <td>Degenerative wear and tear</td>
+        <td>Uric-acid crystal deposits</td>
+      </tr>
+      <tr>
+        <td><strong>Pattern</strong></td>
+        <td>Systemic and often symmetric</td>
+        <td>Local and often weight-bearing joints</td>
+        <td>Sudden attack in one or a few joints</td>
+      </tr>
+      <tr>
+        <td><strong>Age</strong></td>
+        <td>Often earlier onset</td>
+        <td>Usually older onset</td>
+        <td>Varies with uric-acid risk</td>
+      </tr>
+      <tr>
+        <td><strong>Inflammatory labs</strong></td>
+        <td>ESR and CRP may be elevated</td>
+        <td>Systemic markers usually not the main feature</td>
+        <td>Uric acid may be elevated</td>
+      </tr>
+      <tr>
+        <td><strong>End result</strong></td>
+        <td>Bony ankylosis and loss of movement</td>
+        <td>Hypertrophic enlargement with movement still possible</td>
+        <td>Tophi, recurrent attacks, and joint damage</td>
+      </tr>
+      <tr>
+        <td><strong>Treatment focus</strong></td>
+        <td>Suppress autoimmune disease and preserve function</td>
+        <td>Reduce pain and mechanical stress</td>
+        <td>Treat inflammation and lower uric acid</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="nclex-tip" markdown="1">
+Think RA for systemic autoimmune inflammation, OA for local wear and tear, and gout for sudden uric-acid crystal inflammation.
 </div>
 
 </div>
@@ -903,30 +650,34 @@ Do not stop a prescribed diuretic independently. The provider may:
 
 | Concept | Main Point | Priority |
 |---|---|---|
-| **Osteoarthritis** | Degenerative cartilage loss | Maintain mobility and reduce joint stress |
-| **OA pain** | Worse with activity | Balance exercise and rest |
-| **OA stiffness** | Usually brief after rest | Warmth and gentle movement |
-| **Gout** | Uric-acid crystals inflame the joint | Treat acute inflammation |
-| **Podagra** | Gout in the great-toe joint | Classic assessment finding |
-| **Colchicine** | Reduces gout inflammation | Monitor severe GI effects |
-| **Allopurinol** | Prevents future attacks | Report rash immediately |
-| **Weight reduction** | Decreases OA joint stress | Use gradual healthy loss |
-| **Hydration** | Helps lower gout and stone risk | Follow prescribed fluid limits |
-| **Assistive devices** | Improve safety and function | Use correctly |
+| **Osteoarthritis** | Local wear-and-tear disease | Maintain movement and reduce joint stress |
+| **Hypertrophic joint** | Enlarged stiff joint that remains movable | Protect function |
+| **Gout** | Uric-acid crystal inflammation | Treat acute pain and prevent recurrence |
+| **Uric acid** | Purine-breakdown waste | Lower with diet, fluids, and medication |
+| **Allopurinol** | Prevents uric-acid buildup | Continue long-term and report rash |
+| **Colchicine** | Reduces acute gout inflammation | Monitor GI toxicity |
+| **ROM** | Maintains function | Active ROM 3–4 times/day without forcing |
+| **Heat and ice** | Improve comfort | 20 minutes on and 20–40 minutes off |
 
 </div>
 
-<div class="report-now" markdown="1">
-<h3>Report Immediately</h3>
+<div class="mh-table-card" markdown="1">
 
-- Fever with a hot swollen joint
-- Severe allopurinol rash
-- GI bleeding
-- Decreased urine output
-- Flank pain or blood in urine
-- Inability to bear weight
-- New neurovascular changes
-- Signs of postoperative infection
+<h3>Quick Terms</h3>
+
+| Concept | Simple Meaning |
+|---|---|
+| **Osteoarthritis** | Degenerative wear-and-tear joint disease |
+| **Hypertrophic arthritis** | Enlarged stiff joint that remains movable |
+| **Crepitus** | Grating sensation with joint movement |
+| **Gout** | Inflammatory arthritis caused by uric-acid crystals |
+| **Purine** | Substance broken down into uric acid |
+| **Tophi** | Firm deposits of uric-acid crystals |
+| **Colchicine** | Medication used to reduce gout inflammation |
+| **Allopurinol** | Medication that lowers uric-acid production |
+| **Urolithiasis** | Kidney or urinary stones |
+| **Joint protection** | Techniques that reduce stress and damage |
+
 </div>
 
 <div class="mh-columns" markdown="1">
@@ -934,43 +685,37 @@ Do not stop a prescribed diuretic independently. The provider may:
 <div class="quick-review" markdown="1">
 <h3>Quick Review</h3>
 
-1. OA is caused by gradual cartilage breakdown.
-2. OA pain usually worsens with activity and improves with rest.
-3. Crepitus and bony enlargement are common in OA.
-4. Heberden nodes affect distal finger joints.
-5. Bouchard nodes affect proximal finger joints.
+1. Osteoarthritis is a local degenerative wear-and-tear disease.
+2. OA commonly affects weight-bearing joints, the spine, and hands.
+3. OA causes hypertrophic joint enlargement, but the joint remains movable.
+4. Heat or ice is used for 20 minutes and removed for 20–40 minutes.
+5. Active ROM should be performed 3–4 times/day without forcing past pain.
 6. Gout is caused by uric-acid crystal deposits.
-7. Podagra is gout at the base of the great toe.
-8. Acute gout produces severe red, hot, swollen joint pain.
-9. Protect an acute gout joint from pressure.
-10. Colchicine treats gout inflammation.
-11. Allopurinol prevents future attacks.
-12. Report any rash while taking allopurinol.
-13. Encourage prescribed hydration.
-14. Avoid crash diets and excess alcohol.
-15. Use low-impact exercise for OA.
-16. Hold a cane on the stronger side.
+7. Sudden severe great-toe pain is a classic gout cue.
+8. Fluids reduce uric-acid concentration and kidney-stone risk.
+9. Allopurinol prevents attacks but does not provide immediate acute-pain relief.
+10. Colchicine reduces inflammation but can cause serious GI toxicity.
+11. High-purine foods and alcohol can trigger gout.
+12. Gradual weight loss is safer than crash dieting.
 </div>
 
 <div class="do-not-miss" markdown="1">
 <h3>Do Not Miss</h3>
 
-- Do not confuse OA with systemic autoimmune arthritis.
-- Do not assume every red swollen joint is gout.
-- Do not massage an acutely inflamed gout joint.
-- Do not use allopurinol as an immediate pain medication.
+- Do not confuse OA hypertrophy with RA bony ankylosis.
+- Do not force ROM through pain or resistance.
+- Do not use heat or ice directly on skin.
+- Do not use allopurinol as the only immediate treatment for acute gout pain.
+- Do not ignore a rash while taking allopurinol.
 - Do not ignore severe diarrhea with colchicine.
-- Do not ignore rash with allopurinol.
-- Do not combine multiple NSAIDs.
-- Do not encourage crash dieting.
-- Do not push fluids into a client with a fluid restriction.
-- Do not stop prescribed diuretics independently.
+- Do not overlook kidney-stone symptoms in gout.
+- Do not stop preventive therapy when pain improves.
 </div>
 
 </div>
 
 <div class="cheer-banner">
-  Osteoarthritis is gradual wear-and-tear pain that worsens with use. Gout is sudden crystal inflammation—protect the joint, control the flare, and prevent future uric-acid buildup.
+  OA questions focus on movement and mechanical stress. Gout questions focus on uric acid, acute inflammation, fluids, diet, and prevention.
 </div>
 
 ---
