@@ -2098,10 +2098,19 @@ body[data-page-type="mental-health-hub"] .main-content .mh-guide-icon img {
   color: var(--mh-ink);
   line-height: 1.55;
 }
-:is(body[data-section="renal-urinary"], body[data-section="sensory-perception"], body[data-section="immune-inflammatory"]) .mh-detail.blue   { border-top-color: var(--mh-blue); }
-:is(body[data-section="renal-urinary"], body[data-section="sensory-perception"], body[data-section="immune-inflammatory"]) .mh-detail.green  { border-top-color: var(--mh-green); }
-:is(body[data-section="renal-urinary"], body[data-section="sensory-perception"], body[data-section="immune-inflammatory"]) .mh-detail.pink   { border-top-color: var(--mh-pink); }
-:is(body[data-section="renal-urinary"], body[data-section="sensory-perception"], body[data-section="immune-inflammatory"]) .mh-detail.purple { border-top-color: var(--mh-purple); }
+/* Tint the whole expanded panel to match its topic-card color:
+   a very light background wash (lighter than the inner cards so cards
+   still read) plus a deep-colored font and headings. */
+:is(body[data-section="renal-urinary"], body[data-section="sensory-perception"], body[data-section="immune-inflammatory"]) .mh-detail.blue   { border-top-color: var(--mh-blue);   background: color-mix(in srgb, var(--mh-blue-soft)   45%, #fff); color: var(--mh-blue-deep); }
+:is(body[data-section="renal-urinary"], body[data-section="sensory-perception"], body[data-section="immune-inflammatory"]) .mh-detail.green  { border-top-color: var(--mh-green);  background: color-mix(in srgb, var(--mh-green-soft)  45%, #fff); color: var(--mh-green-deep); }
+:is(body[data-section="renal-urinary"], body[data-section="sensory-perception"], body[data-section="immune-inflammatory"]) .mh-detail.pink   { border-top-color: var(--mh-pink);   background: color-mix(in srgb, var(--mh-pink-soft)   45%, #fff); color: var(--mh-pink-deep); }
+:is(body[data-section="renal-urinary"], body[data-section="sensory-perception"], body[data-section="immune-inflammatory"]) .mh-detail.purple { border-top-color: var(--mh-purple); background: color-mix(in srgb, var(--mh-purple-soft) 45%, #fff); color: var(--mh-purple-deep); }
+
+/* Headings inside a tinted panel take the panel's deep color */
+:is(body[data-section="renal-urinary"], body[data-section="sensory-perception"], body[data-section="immune-inflammatory"]) .mh-detail.blue   :is(h3, h4, h5) { color: var(--mh-blue-deep) !important; }
+:is(body[data-section="renal-urinary"], body[data-section="sensory-perception"], body[data-section="immune-inflammatory"]) .mh-detail.green  :is(h3, h4, h5) { color: var(--mh-green-deep) !important; }
+:is(body[data-section="renal-urinary"], body[data-section="sensory-perception"], body[data-section="immune-inflammatory"]) .mh-detail.pink   :is(h3, h4, h5) { color: var(--mh-pink-deep) !important; }
+:is(body[data-section="renal-urinary"], body[data-section="sensory-perception"], body[data-section="immune-inflammatory"]) .mh-detail.purple :is(h3, h4, h5) { color: var(--mh-purple-deep) !important; }
 
 /* Section rhythm inside a panel */
 :is(body[data-section="renal-urinary"], body[data-section="sensory-perception"], body[data-section="immune-inflammatory"]) .renal-note-section { margin-top: 2rem; }
