@@ -296,8 +296,8 @@ A client does not have to appear ill to have or transmit HIV. The asymptomatic s
 
 </div>
 
-<div class="memory" markdown="1">
-HIV attacks the <strong>CD4 T-helper cell</strong>—the cell that helps organize the immune response. As CD4 cells disappear, the body loses its ability to protect itself.
+<div class="nclex-tip" markdown="1">
+HIV attacks the **CD4 T-helper cell** — the cell that helps organize the immune response. As CD4 cells disappear, the body loses its ability to protect itself.
 </div>
 
 </div>
@@ -995,8 +995,8 @@ Missing doses can cause:
 The most important long-term teaching is to take antiretroviral medications exactly as prescribed. Feeling better is not a reason to stop treatment.
 </div>
 
-<div class="teaching" markdown="1">
-Take every dose on time. Do not skip, stop, share, or double medications unless specifically instructed. Keep CD4, viral-load, kidney, liver, and CBC follow-up appointments.
+<div class="detail-callout" markdown="1">
+<strong>Teaching:</strong> Take every dose on time. Do not skip, stop, share, or double medications unless specifically instructed. Keep CD4, viral-load, kidney, liver, and CBC follow-up appointments.
 </div>
 
 </div>
@@ -1190,21 +1190,6 @@ Take every dose on time. Do not skip, stop, share, or double medications unless 
 | **ART** | Combination antiretroviral treatment | Strict adherence prevents resistance |
 | **Standard precautions** | Used for routine care | No special isolation for HIV alone |
 
-</div>
-
-<div class="report-now" markdown="1">
-<h3>Report Immediately</h3>
-
-- New shortness of breath or falling oxygen saturation
-- High fever
-- Severe headache or confusion
-- Seizure
-- Sudden vision changes
-- Persistent vomiting or diarrhea
-- Severe dehydration
-- Rapid unexplained weight loss
-- Severe medication reaction
-- Suicidal thoughts
 </div>
 
 <div class="mh-table-card" markdown="1">
