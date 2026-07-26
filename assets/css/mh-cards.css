@@ -4042,3 +4042,45 @@ body[data-page-type="game-hub"] {
     grid-template-columns: 1fr;
   }
 }
+
+/* ============================================================
+   Apply the tinted-card / tinted-table / tinted-panel treatment
+   to the mental-health and pharmacology note sections too, so
+   they match the renal / immune / sensory pages.
+   ============================================================ */
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .detail-grid { align-items: stretch; }
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .detail-mini-card { align-self: stretch; }
+
+/* Two-card grids: keep 4-up width and center them */
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .detail-grid:has(> .detail-mini-card:nth-child(2):last-child) {
+  grid-template-columns: repeat(2, minmax(0, 240px));
+  justify-content: center;
+}
+
+/* Tint mini-cards to the parent panel color */
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-detail.blue   .detail-mini-card { background: var(--mh-blue-soft);   border-color: var(--mh-blue-border); }
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-detail.green  .detail-mini-card { background: var(--mh-green-soft);  border-color: var(--mh-green-border); }
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-detail.pink   .detail-mini-card { background: var(--mh-pink-soft);   border-color: var(--mh-pink-border); }
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-detail.purple .detail-mini-card { background: var(--mh-purple-soft); border-color: var(--mh-purple-border); }
+
+/* Tint the whole panel + deep font/headings */
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-detail.blue   { background: color-mix(in srgb, var(--mh-blue-soft)   45%, var(--mh-card-bg)); color: var(--mh-blue-deep); }
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-detail.green  { background: color-mix(in srgb, var(--mh-green-soft)  45%, var(--mh-card-bg)); color: var(--mh-green-deep); }
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-detail.pink   { background: color-mix(in srgb, var(--mh-pink-soft)   45%, var(--mh-card-bg)); color: var(--mh-pink-deep); }
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-detail.purple { background: color-mix(in srgb, var(--mh-purple-soft) 45%, var(--mh-card-bg)); color: var(--mh-purple-deep); }
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-detail.blue   :is(h3, h4, h5) { color: var(--mh-blue-deep) !important; }
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-detail.green  :is(h3, h4, h5) { color: var(--mh-green-deep) !important; }
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-detail.pink   :is(h3, h4, h5) { color: var(--mh-pink-deep) !important; }
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-detail.purple :is(h3, h4, h5) { color: var(--mh-purple-deep) !important; }
+
+/* Tint tables to the panel color */
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-detail table { background: var(--mh-card-bg); }
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-detail tbody td { border-bottom: 1px solid color-mix(in srgb, var(--mh-ink) 10%, transparent); }
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-detail.blue   table { background: var(--mh-blue-soft); }
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-detail.green  table { background: var(--mh-green-soft); }
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-detail.pink   table { background: var(--mh-pink-soft); }
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-detail.purple table { background: var(--mh-purple-soft); }
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-detail.blue   thead th { background: var(--mh-blue-border); }
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-detail.green  thead th { background: var(--mh-green-border); }
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-detail.pink   thead th { background: var(--mh-pink-border); }
+:is(body[data-section="mental-health"], body[data-section="pharmacology"]) .mh-detail.purple thead th { background: var(--mh-purple-border); }
