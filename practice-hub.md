@@ -74,7 +74,7 @@ page_type: practice-hub
         <span class="practice-card-icon">🛡️</span>
         <div>
           <h2>Immune System</h2>
-          <p>Lupus, rheumatoid arthritis, gout, immunosuppressive therapy, neutropenia, HIV/AIDS, opportunistic infections, anaphylaxis, transplant precautions, and infection prevention.</p>
+          <p>Lupus, rheumatoid arthritis, gout, immunosuppressive therapy, neutropenia, HIV/AIDS, opportunistic infections, and infection prevention.</p>
           <div class="practice-meta"><span>▤ 43 Questions</span></div>
         </div>
         <footer><a href="{{ '/immune-inflammatory/immune-system-quiz.html' | relative_url }}">Start</a></footer>
