@@ -23,7 +23,10 @@ page_type: all-topics
     <a href="#emergencies"><span>🚨</span>Emergencies</a>
     <a href="#mental-health"><span>🧠</span>Mental Health</a>
     <a href="#pharmacology"><span>💊</span>Pharmacology</a>
-    <a href="#ati"><span>📖</span>ATI Review</a>
+    <a href="#ati"><span>📖</span>Nutrition</a>
+    <a href="#renal-urinary"><span>🫘</span>Renal &amp; Urinary</a>
+    <a href="#immune-inflammatory"><span>🛡️</span>Immune</a>
+    <a href="#sensory-perception"><span>👁️</span>Sensory</a>
   </nav>
 
   <main class="at-sections">
@@ -160,7 +163,7 @@ page_type: all-topics
     <section class="at-section at-ati" id="pharmacology">
       <header class="at-section-header">
         <span aria-hidden="true">💊</span>
-        <div><p>Study Area 05</p><h2>Pharmacology</h2><small>ATI PN medication safety, toxicities, monitoring, and patient teaching</small></div>
+        <div><p>Study Area 05</p><h2>ATI Exam: Pharmacology</h2><small>ATI PN medication safety, toxicities, monitoring, and patient teaching</small></div>
         <a href="{{ '/pharmacology.html' | relative_url }}">Open hub →</a>
       </header>
       <div class="at-subgrid">
@@ -186,7 +189,7 @@ page_type: all-topics
     <section class="at-section at-ati" id="ati">
       <header class="at-section-header">
         <span aria-hidden="true">📖</span>
-        <div><p>Study Area 06</p><h2>ATI Exam Review</h2><small>Nutrition concepts organized for focused review</small></div>
+        <div><p>Study Area 06</p><h2>ATI Exam: Nutrition</h2><small>Nutrition concepts organized for focused review</small></div>
         <a href="{{ '/ati/' | relative_url }}">Open hub →</a>
       </header>
       <div class="at-links at-link-columns at-three-columns">
@@ -202,6 +205,69 @@ page_type: all-topics
         <a href="{{ '/ati/nutrition/special-diets.html' | relative_url }}">Special Diets</a>
         <a href="{{ '/ati/nutrition/parenteral-enteral.html' | relative_url }}">Parenteral &amp; Enteral Nutrition</a>
         <a href="{{ '/ati/nutrition/medication-interactions.html' | relative_url }}">Medication Interactions</a>
+      </div>
+    </section>
+
+    <section class="at-section" id="renal-urinary">
+      <header class="at-section-header">
+        <span aria-hidden="true">🫘</span>
+        <div><p>Study Area 07</p><h2>Renal &amp; Urinary</h2><small>Kidney and urinary nursing, dialysis, and diagnostics</small></div>
+        <a href="{{ '/renal-urinary.html' | relative_url }}">Open hub →</a>
+      </header>
+      <div class="at-subgrid">
+        <div class="at-topic-group">
+          <h3>Available Now</h3>
+          <div class="at-links">
+            <a href="{{ '/renal-urinary.html' | relative_url }}">Renal &amp; Urinary Home</a>
+            <a href="{{ '/renal-urinary/renal-diagnostics-catheter-care.html' | relative_url }}">Renal Diagnostics &amp; Catheter Care</a>
+            <a href="{{ '/renal-urinary/urinary-infections-glomerulonephritis.html' | relative_url }}">Urinary Infections &amp; Glomerulonephritis</a>
+            <a href="{{ '/renal-urinary/urolithiasis.html' | relative_url }}">Urolithiasis</a>
+            <a href="{{ '/renal-urinary/renal-surgery-urinary-diversions.html' | relative_url }}">Renal Surgery &amp; Urinary Diversions</a>
+            <a href="{{ '/renal-urinary/kidney-failure-dialysis.html' | relative_url }}">Kidney Failure &amp; Dialysis</a>
+            <a href="{{ '/renal-urinary/renal-system-quiz.html' | relative_url }}">Renal System Practice Quiz</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="at-section" id="immune-inflammatory">
+      <header class="at-section-header">
+        <span aria-hidden="true">🛡️</span>
+        <div><p>Study Area 08</p><h2>Immune &amp; Inflammatory</h2><small>HIV/AIDS, autoimmune disease, and antimicrobials</small></div>
+        <a href="{{ '/immune-inflammatory.html' | relative_url }}">Open hub →</a>
+      </header>
+      <div class="at-subgrid">
+        <div class="at-topic-group">
+          <h3>Available Now</h3>
+          <div class="at-links">
+            <a href="{{ '/immune-inflammatory.html' | relative_url }}">Immune &amp; Inflammatory Home</a>
+            <a href="{{ '/immune-inflammatory/hiv-aids-immune-function.html' | relative_url }}">HIV/AIDS &amp; Immune Function</a>
+            <a href="{{ '/immune-inflammatory/rheumatoid-arthritis.html' | relative_url }}">Rheumatoid Arthritis</a>
+            <a href="{{ '/immune-inflammatory/osteoarthritis-gout.html' | relative_url }}">Osteoarthritis &amp; Gout</a>
+            <a href="{{ '/immune-inflammatory/systemic-lupus-erythematosus.html' | relative_url }}">Systemic Lupus Erythematosus</a>
+            <a href="{{ '/immune-inflammatory/antimicrobials.html' | relative_url }}">Antimicrobials</a>
+            <a href="{{ '/immune-inflammatory/immune-system-quiz.html' | relative_url }}">Immune System Practice Quiz</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="at-section" id="sensory-perception">
+      <header class="at-section-header">
+        <span aria-hidden="true">👁️</span>
+        <div><p>Study Area 09</p><h2>Sensory Perception</h2><small>Vision and hearing nursing</small></div>
+        <a href="{{ '/sensory-perception.html' | relative_url }}">Open hub →</a>
+      </header>
+      <div class="at-subgrid">
+        <div class="at-topic-group">
+          <h3>Available Now</h3>
+          <div class="at-links">
+            <a href="{{ '/sensory-perception.html' | relative_url }}">Sensory Perception Home</a>
+            <a href="{{ '/sensory-perception/eye-disorders.html' | relative_url }}">Eye Disorders</a>
+            <a href="{{ '/sensory-perception/ear-disorders.html' | relative_url }}">Ear Disorders</a>
+            <a href="{{ '/sensory-perception/sensory-perception-quiz.html' | relative_url }}">Sensory Perception Practice Quiz</a>
+          </div>
+        </div>
       </div>
     </section>
   </main>
