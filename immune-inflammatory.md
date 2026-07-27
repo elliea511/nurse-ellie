@@ -1211,9 +1211,9 @@ page_type: immune-hub
         <span aria-hidden="true">✓</span>
         <span><strong>NCLEX Quick Cues</strong><small>Mnemonics &amp; priority rules</small></span>
       </a>
-      <a class="immune-basics-link" href="{{ '/immune-inflammatory/immune-system-basics.html' | relative_url }}">
-        <span aria-hidden="true">💡</span>
-        <span><strong>Immune System Basics</strong><small>Innate vs. adaptive immunity, T cells, B cells, antibodies &amp; inflammation</small></span>
+      <a class="immune-basics-link" href="{{ '/immune-inflammatory/immune-system-quiz.html' | relative_url }}">
+        <span aria-hidden="true">📝</span>
+        <span><strong>Practice Quiz</strong><small>52 questions to test yourself</small></span>
       </a>
     </aside>
   </div>

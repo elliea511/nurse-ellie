@@ -84,6 +84,10 @@ page_type: mental-health-hub
         <span aria-hidden="true">✓</span>
         <span><strong>NCLEX Quick Cues</strong><small>Mnemonics &amp; priority rules</small></span>
       </a>
+      <a class="mh-nclex-link" href="{{ '/mental-health/practice-quiz.html' | relative_url }}">
+        <span aria-hidden="true">📝</span>
+        <span><strong>Practice Quiz</strong><small>Test yourself across every topic</small></span>
+      </a>
       <div class="mh-guide-tip"><span aria-hidden="true">💡</span> Pick any topic around the brain to get started.</div>
     </aside>
   </div>

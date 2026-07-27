@@ -249,6 +249,10 @@ page_type: renal-hub
         <li>NCLEX tips &amp; memory cues</li>
       </ul>
       <div class="mh-guide-tip"><span aria-hidden="true">💡</span> Pick any topic around the urinary system to get started.</div>
+      <a class="mh-nclex-link" href="{{ '/renal-urinary/renal-system-quiz.html' | relative_url }}">
+        <span aria-hidden="true">📝</span>
+        <span><strong>Practice Quiz</strong><small>50 questions to test yourself</small></span>
+      </a>
     </aside>
   </div>
 </section>
