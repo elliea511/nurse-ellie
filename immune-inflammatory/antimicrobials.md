@@ -390,7 +390,7 @@ Tinnitus is an early adverse-effect clue with gentamicin. BUN and serum creatini
       </tr>
       <tr>
         <td><strong>Penicillin cross-allergy</strong></td>
-        <td>Course notes emphasize a **20%–25%** cross-allergy risk.</td>
+        <td>Course notes emphasize a <strong>20%–25%</strong> cross-allergy risk.</td>
       </tr>
       <tr>
         <td><strong>Initial action with listed PCN allergy</strong></td>
@@ -510,7 +510,7 @@ Tinnitus is an early adverse-effect clue with gentamicin. BUN and serum creatini
       </tr>
       <tr>
         <td><strong>Teeth and bone</strong></td>
-        <td>Avoid in the last trimester of pregnancy and children under **8 years** unless no safer effective option exists.</td>
+        <td>Avoid in the last trimester of pregnancy and children under <strong>8 years</strong> unless no safer effective option exists.</td>
       </tr>
       <tr>
         <td><strong>Administration</strong></td>

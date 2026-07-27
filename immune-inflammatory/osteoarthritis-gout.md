@@ -213,11 +213,11 @@ title: Osteoarthritis & Gout
     <tbody>
       <tr>
         <td><strong>Heat and ice</strong></td>
-        <td>Apply for **20 minutes** and remove for **20–40 minutes**; never place directly on skin.</td>
+        <td>Apply for <strong>20 minutes</strong> and remove for <strong>20–40 minutes</strong>; never place directly on skin.</td>
       </tr>
       <tr>
         <td><strong>Range of motion</strong></td>
-        <td>Perform **3–4 times/day**; active ROM is best and should never continue beyond pain or resistance.</td>
+        <td>Perform <strong>3–4 times/day</strong>; active ROM is best and should never continue beyond pain or resistance.</td>
       </tr>
       <tr>
         <td><strong>Rest</strong></td>
