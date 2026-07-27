@@ -65,7 +65,8 @@
 
 .prototype-topbar .banner-search {
   position: relative;
-  flex: 0 1 210px;
+  flex: 1 1 180px;
+  min-width: 150px;
   margin: 0 !important;
   padding: 0 !important;
 }
@@ -120,6 +121,57 @@
   box-shadow: 0 8px 18px rgba(243, 111, 154, 0.22);
 }
 .prototype-topbar .banner-nav .nav-featured:hover { background: linear-gradient(135deg, #ee6291, #e5537f); }
+
+/* "Sections ▾" dropdown (native <details>, no JS) */
+.prototype-topbar .banner-more { position: relative; }
+.prototype-topbar .banner-more > summary {
+  list-style: none;
+  cursor: pointer;
+  font-family: "Plus Jakarta Sans", "Nunito", sans-serif;
+  color: #172044;
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 8px 10px;
+  border-radius: 999px;
+  white-space: nowrap;
+}
+.prototype-topbar .banner-more > summary::-webkit-details-marker { display: none; }
+.prototype-topbar .banner-more > summary:hover { background: #f1ebfb; }
+.prototype-topbar .banner-more[open] > summary { background: #f1ebfb; }
+.prototype-topbar .banner-more-menu {
+  position: absolute;
+  top: calc(100% + 6px);
+  right: 0;
+  z-index: 60;
+  display: flex;
+  flex-direction: column;
+  min-width: 210px;
+  padding: 6px;
+  background: #ffffff;
+  border: 1px solid #e7e3ed;
+  border-radius: 14px;
+  box-shadow: 0 12px 28px rgba(60, 42, 94, 0.16);
+}
+.prototype-topbar .banner-more-menu a {
+  padding: 8px 12px;
+  border-radius: 9px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: #172044 !important;
+  text-decoration: none !important;
+  white-space: nowrap;
+}
+.prototype-topbar .banner-more-menu a:hover { background: #f1ebfb; }
+
+[data-theme="dark"] .prototype-topbar .banner-more > summary { color: #e4e6f0; }
+[data-theme="dark"] .prototype-topbar .banner-more > summary:hover,
+[data-theme="dark"] .prototype-topbar .banner-more[open] > summary { background: #2c2547; }
+[data-theme="dark"] .prototype-topbar .banner-more-menu {
+  background: #1c1830;
+  border-color: #39324f;
+}
+[data-theme="dark"] .prototype-topbar .banner-more-menu a { color: #e4e6f0 !important; }
+[data-theme="dark"] .prototype-topbar .banner-more-menu a:hover { background: #2c2547; }
 
 /* =========================================================
    MOBILE MENU TOGGLE (checkbox hack, hidden on desktop)
@@ -201,7 +253,23 @@
   }
   .prototype-topbar .banner-nav .nav-featured { text-align: center; }
 
+  /* In the mobile menu, show the "Sections" links inline, not as a floating dropdown */
+  .prototype-topbar .banner-more,
+  .prototype-topbar .banner-more[open] { display: contents; }
+  .prototype-topbar .banner-more > summary { display: none; }
+  .prototype-topbar .banner-more-menu {
+    position: static;
+    display: flex;
+    min-width: 0;
+    padding: 0;
+    background: none;
+    border: 0;
+    box-shadow: none;
+  }
+  .prototype-topbar .banner-more-menu a { padding: 11px 12px; font-size: 0.9rem; }
+
   [data-theme="dark"] .prototype-topbar .banner-nav { border-top-color: #2e2e42; }
+  [data-theme="dark"] .prototype-topbar .banner-more-menu { background: none; }
 }
 
 @media (max-width: 640px) {
