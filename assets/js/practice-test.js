@@ -10,11 +10,57 @@
   var IS_MENTAL_HEALTH = /\/mental-health\/practice-quiz(\.html)?\/?$/.test(PATH);
   var IS_IMMUNE = /\/immune-inflammatory\/practice-quiz(\.html)?\/?$/.test(PATH);
 
+  // Immune & Inflammatory: eight topic selections built by classifying each
+  // existing question. Questions are never rewritten — only assigned a topic.
   var IMMUNE_TOPICS = [
-    { id: 'immune-core',           label: 'Immune System Review',   cat: 'Immune & Inflammatory', url: '/immune-inflammatory/immune-system-quiz.html',          n: 41 },
-    { id: 'hiv-aids',              label: 'HIV/AIDS',               cat: 'Immune & Inflammatory', url: '/immune-inflammatory/hiv-aids-quiz.html',               n: 34 },
-    { id: 'immune-disorders-meds', label: 'Disorders & Medications', cat: 'Immune & Inflammatory', url: '/immune-inflammatory/disorders-medications-quiz.html',  n: 81 }
+    { id: 'hiv',        label: 'HIV & AIDS',                             cat: 'Immune & Inflammatory', immune: true, n: 34 },
+    { id: 'ra',         label: 'Rheumatoid Arthritis',                   cat: 'Immune & Inflammatory', immune: true, n: 11 },
+    { id: 'oa',         label: 'Osteoarthritis',                         cat: 'Immune & Inflammatory', immune: true, n: 7  },
+    { id: 'gout',       label: 'Gout',                                   cat: 'Immune & Inflammatory', immune: true, n: 11 },
+    { id: 'sle',        label: 'Systemic Lupus Erythematosus',           cat: 'Immune & Inflammatory', immune: true, n: 8  },
+    { id: 'antiinflam', label: 'Anti-Inflammatory Medications',          cat: 'Immune & Inflammatory', immune: true, n: 4  },
+    { id: 'dmard',      label: 'DMARDs, Biologics & Immunosuppression',  cat: 'Immune & Inflammatory', immune: true, n: 16 },
+    { id: 'antimicro',  label: 'Antimicrobials',                         cat: 'Immune & Inflammatory', immune: true, n: 24 }
   ];
+
+  // Source quizzes feeding the immune topics, and the topic each question maps
+  // to (in the order the questions appear on each page). 'hiv' source → all HIV.
+  var IMMUNE_SOURCES = [
+    { id: 'immune-hiv',       url: '/immune-inflammatory/hiv-aids-quiz.html' },
+    { id: 'immune-disorders', url: '/immune-inflammatory/disorders-medications-quiz.html' }
+  ];
+  var IMMUNE_DISORDER_MAP = [
+    'ra','ra','ra','ra','ra','ra','ra','ra','ra','ra','ra',                         // Q1–11
+    'oa','oa','oa','oa','oa','oa',                                                   // Q12–17
+    'gout','gout','gout','gout','gout','gout','gout','gout','gout',                  // Q18–26
+    'sle','sle','sle','sle','sle','sle','sle','sle',                                 // Q27–34
+    'antiinflam','antiinflam','antiinflam','antiinflam',                            // Q35–38
+    'dmard','dmard','dmard','dmard','dmard','dmard','dmard','dmard','dmard','dmard','dmard','dmard','dmard','dmard', // Q39–52
+    'antimicro','antimicro','antimicro','antimicro','antimicro','antimicro','antimicro','antimicro','antimicro','antimicro','antimicro','antimicro','antimicro','antimicro','antimicro','antimicro','antimicro','antimicro','antimicro','antimicro','antimicro','antimicro', // Q53–74
+    'gout',       // Q75  (see-first: allopurinol hypersensitivity)
+    'dmard',      // Q76  methotrexate SATA
+    'oa',         // Q77  osteoarthritis SATA
+    'gout',       // Q78  gout SATA
+    'dmard',      // Q79  biologic therapy SATA
+    'antimicro',  // Q80  gentamicin toxicity SATA
+    'antimicro'   // Q81  antimicrobial therapy SATA
+  ];
+  var immunePoolPromise = null;
+  function loadImmunePool() {
+    if (immunePoolPromise) return immunePoolPromise;
+    immunePoolPromise = Promise.all(IMMUNE_SOURCES.map(function (src) {
+      return fetch(BASE + src.url)
+        .then(function (r) { return r.text(); })
+        .then(function (html) {
+          var qs = parseHTML(html, src.id, src.id);
+          qs.forEach(function (q, i) {
+            q.immuneCat = (src.id === 'immune-hiv') ? 'hiv' : IMMUNE_DISORDER_MAP[i];
+          });
+          return qs;
+        });
+    })).then(function (results) { return [].concat.apply([], results); });
+    return immunePoolPromise;
+  }
 
   var MEDICAL_EMERGENCY_TOPICS = [
     { id: 'chf',        label: 'CHF & Pulmonary Edema',         cat: 'Cardiac & Perfusion', url: '/medical-emergencies/cardiac-perfusion/chf-quiz.html',        n: 32 },
@@ -133,6 +179,13 @@
   }
 
   function loadTopicQuestions(topic) {
+    if (topic.immune) {
+      return loadImmunePool().then(function (pool) {
+        return pool.filter(function (q) { return q.immuneCat === topic.id; })
+          .map(function (q) { q.topic = topic.id; q.topicLabel = topic.label; return q; });
+      });
+    }
+
     if (topic.derived && topic.filter === 'medications') {
       return Promise.all(MENTAL_HEALTH_SOURCE_TOPICS.map(function (sourceTopic) {
         return fetch(BASE + sourceTopic.url)

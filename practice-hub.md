@@ -74,8 +74,8 @@ page_type: practice-hub
         <span class="practice-card-icon">🛡️</span>
         <div>
           <h2>Immune &amp; Inflammatory</h2>
-          <p>Immune system review, HIV/AIDS, lupus, rheumatoid arthritis, osteoarthritis, gout, immunosuppressive and anti-inflammatory medications, and antimicrobial safety — pick your topics.</p>
-          <div class="practice-meta"><span>▤ 156 Questions • choose topics</span></div>
+          <p>HIV/AIDS, rheumatoid arthritis, osteoarthritis, gout, lupus, anti-inflammatory medications, DMARDs and biologics, and antimicrobials — pick your topics.</p>
+          <div class="practice-meta"><span>▤ 115 Questions • 8 topics</span></div>
         </div>
         <footer><a href="{{ '/immune-inflammatory/practice-quiz.html' | relative_url }}">Start</a></footer>
       </article>
