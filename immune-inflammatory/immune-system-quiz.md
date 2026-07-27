@@ -5,9 +5,10 @@ title: Immune System Practice Quiz
 
 # Immune System Practice Quiz
 
-<p class="quiz-subtitle">These questions cover systemic lupus erythematosus, rheumatoid arthritis, gout, immunosuppressive therapy, neutropenia, HIV/AIDS, opportunistic infections, allergic reactions, anaphylaxis, transplant precautions, and infection prevention.</p>
+<p class="quiz-subtitle">These questions cover systemic lupus erythematosus, rheumatoid arthritis, gout, immunosuppressive therapy, neutropenia, HIV/AIDS, opportunistic infections, and infection prevention.</p>
 
 ---
+
 ## Question 1
 
 <p>A nurse is assessing a client who has systemic lupus erythematosus. Which finding most strongly suggests development of lupus nephritis?</p>
@@ -30,7 +31,6 @@ title: Immune System Practice Quiz
 </details>
 
 ---
-
 ## Question 2
 
 <p>A nurse is teaching a client who takes hydroxychloroquine for systemic lupus erythematosus. Which instruction is most important?</p>
@@ -53,7 +53,6 @@ title: Immune System Practice Quiz
 </details>
 
 ---
-
 ## Question 3
 
 <p>A client taking prednisone for an autoimmune disorder says, “I feel better, so I plan to stop it tomorrow.” Which response should the nurse make?</p>
@@ -76,7 +75,6 @@ title: Immune System Practice Quiz
 </details>
 
 ---
-
 ## Question 4
 
 <p>A nurse is caring for a client who has systemic lupus erythematosus and reports increasing fatigue. Which finding requires the nurse's <strong>immediate</strong> action?</p>
@@ -99,7 +97,6 @@ title: Immune System Practice Quiz
 </details>
 
 ---
-
 ## Question 5
 
 <p>A nurse is teaching a client with systemic lupus erythematosus about skin protection. Which statement by the client indicates understanding?</p>
@@ -122,7 +119,6 @@ title: Immune System Practice Quiz
 </details>
 
 ---
-
 ## Question 6
 
 <p>A nurse is assessing a client who has rheumatoid arthritis. Which finding is most characteristic of this disorder?</p>
@@ -145,7 +141,6 @@ title: Immune System Practice Quiz
 </details>
 
 ---
-
 ## Question 7
 
 <p>A client with rheumatoid arthritis reports severe morning stiffness. Which intervention should the nurse recommend <strong>first</strong> after waking?</p>
@@ -168,7 +163,6 @@ title: Immune System Practice Quiz
 </details>
 
 ---
-
 ## Question 8
 
 <p>A nurse is teaching joint-protection strategies to a client with rheumatoid arthritis. Which action should the nurse recommend?</p>
@@ -191,7 +185,6 @@ title: Immune System Practice Quiz
 </details>
 
 ---
-
 ## Question 9
 
 <p>A nurse is reviewing laboratory results for a client taking methotrexate for rheumatoid arthritis. Which finding should the nurse report?</p>
@@ -214,7 +207,6 @@ title: Immune System Practice Quiz
 </details>
 
 ---
-
 ## Question 10
 
 <p>A nurse is teaching a client who takes methotrexate. Which instruction is most important?</p>
@@ -237,7 +229,6 @@ title: Immune System Practice Quiz
 </details>
 
 ---
-
 ## Question 11
 
 <p>A client is prescribed etanercept for rheumatoid arthritis. Which screening test should the nurse verify before therapy begins?</p>
@@ -260,7 +251,6 @@ title: Immune System Practice Quiz
 </details>
 
 ---
-
 ## Question 12
 
 <p>A nurse is caring for a client receiving infliximab. Which finding requires the nurse's <strong>priority</strong> response?</p>
@@ -283,7 +273,6 @@ title: Immune System Practice Quiz
 </details>
 
 ---
-
 ## Question 13
 
 <p>A client who has gout reports sudden severe pain in the great toe. Which medication should the nurse expect for treatment of the acute attack?</p>
@@ -306,7 +295,6 @@ title: Immune System Practice Quiz
 </details>
 
 ---
-
 ## Question 14
 
 <p>A nurse is teaching a client who takes allopurinol. Which instruction should the nurse include?</p>
@@ -329,7 +317,6 @@ title: Immune System Practice Quiz
 </details>
 
 ---
-
 ## Question 15
 
 <p>A client with gout asks which food to avoid. Which choice should the nurse identify?</p>
@@ -352,7 +339,6 @@ title: Immune System Practice Quiz
 </details>
 
 ---
-
 ## Question 16
 
 <p>A nurse is caring for a client with systemic lupus erythematosus who is taking long-term corticosteroids. Which complication should the nurse monitor for most closely?</p>
@@ -375,7 +361,6 @@ title: Immune System Practice Quiz
 </details>
 
 ---
-
 ## Question 17
 
 <p>A nurse is reviewing the complete blood count of a client receiving chemotherapy. The absolute neutrophil count is 400/mm³. Which action is the <strong>priority</strong>?</p>
@@ -398,7 +383,6 @@ title: Immune System Practice Quiz
 </details>
 
 ---
-
 ## Question 18
 
 <p>A nurse is caring for a neutropenic client. Which visitor should the nurse ask to postpone the visit?</p>
@@ -421,7 +405,6 @@ title: Immune System Practice Quiz
 </details>
 
 ---
-
 ## Question 19
 
 <p>A neutropenic client has an oral temperature of 38.3°C (100.9°F). Which action should the nurse take <strong>first</strong>?</p>
@@ -444,7 +427,6 @@ title: Immune System Practice Quiz
 </details>
 
 ---
-
 ## Question 20
 
 <p>A nurse is planning care for a client who has severe neutropenia. Which meal is most appropriate?</p>
@@ -467,7 +449,6 @@ title: Immune System Practice Quiz
 </details>
 
 ---
-
 ## Question 21
 
 <p>A nurse is teaching a client with HIV about CD4 counts. Which statement is accurate?</p>
@@ -490,7 +471,6 @@ title: Immune System Practice Quiz
 </details>
 
 ---
-
 ## Question 22
 
 <p>A client with HIV has a CD4 count of 180 cells/mm³. Which medication should the nurse expect for prevention of Pneumocystis jirovecii pneumonia?</p>
@@ -513,7 +493,6 @@ title: Immune System Practice Quiz
 </details>
 
 ---
-
 ## Question 23
 
 <p>A client with AIDS reports progressive dyspnea, nonproductive cough, and fever. Which opportunistic infection should the nurse suspect?</p>
@@ -536,7 +515,6 @@ title: Immune System Practice Quiz
 </details>
 
 ---
-
 ## Question 24
 
 <p>A client taking antiretroviral therapy asks why every dose matters. Which response should the nurse make?</p>
@@ -559,7 +537,6 @@ title: Immune System Practice Quiz
 </details>
 
 ---
-
 ## Question 25
 
 <p>A nurse is providing education to a client newly diagnosed with HIV. Which statement by the client indicates understanding?</p>
@@ -582,7 +559,6 @@ title: Immune System Practice Quiz
 </details>
 
 ---
-
 ## Question 26
 
 <p>A client with HIV has white patches on the tongue that scrape off and leave a red surface. Which condition should the nurse suspect?</p>
@@ -605,7 +581,6 @@ title: Immune System Practice Quiz
 </details>
 
 ---
-
 ## Question 27
 
 <p>A client with AIDS reports new blurred vision and floaters. Which action is the nurse's <strong>priority</strong>?</p>
@@ -628,7 +603,6 @@ title: Immune System Practice Quiz
 </details>
 
 ---
-
 ## Question 28
 
 <p>A client with HIV develops confusion, headache, and unilateral weakness. Which opportunistic condition should the nurse suspect?</p>
@@ -651,7 +625,6 @@ title: Immune System Practice Quiz
 </details>
 
 ---
-
 ## Question 29
 
 <p>A nurse sustains a needlestick from a needle used on a client with HIV. Which action should the nurse take <strong>first</strong>?</p>
@@ -674,7 +647,6 @@ title: Immune System Practice Quiz
 </details>
 
 ---
-
 ## Question 30
 
 <p>A nurse is teaching standard precautions to a client with HIV. Which statement is correct?</p>
@@ -697,100 +669,7 @@ title: Immune System Practice Quiz
 </details>
 
 ---
-
 ## Question 31
-
-<p>A client develops wheezing, hypotension, and generalized hives after receiving an antibiotic. Which medication should the nurse administer <strong>first</strong>?</p>
-
-<p class="answer-choice"><strong>A.</strong> Diphenhydramine IV</p>
-<p class="answer-choice"><strong>B.</strong> Methylprednisolone IV</p>
-<p class="answer-choice"><strong>C.</strong> Epinephrine IM</p>
-<p class="answer-choice"><strong>D.</strong> Albuterol nebulizer</p>
-
-<details class="quiz-answer-block">
-<summary>Click to see answer and rationale</summary>
-<p class="quiz-answer"><strong>Answer: C</strong></p>
-<div class="quiz-rationale">
-<p><strong>Rationale:</strong></p>
-<p><strong>A. Incorrect:</strong> This can reduce histamine effects but is not the first-line treatment for anaphylaxis.</p>
-<p><strong>B. Incorrect:</strong> This has a delayed onset and does not immediately reverse airway or circulatory collapse.</p>
-<p><strong>C. Correct:</strong> Intramuscular epinephrine is the priority medication for anaphylaxis.</p>
-<p><strong>D. Incorrect:</strong> This may help bronchospasm but does not treat the full systemic reaction.</p>
-</div>
-</details>
-
----
-
-## Question 32
-
-<p>A nurse is caring for a client with anaphylaxis. Which finding indicates the greatest immediate threat?</p>
-
-<p class="answer-choice"><strong>A.</strong> Generalized itching</p>
-<p class="answer-choice"><strong>B.</strong> Facial flushing</p>
-<p class="answer-choice"><strong>C.</strong> Nausea and cramping</p>
-<p class="answer-choice"><strong>D.</strong> Stridor and difficulty speaking</p>
-
-<details class="quiz-answer-block">
-<summary>Click to see answer and rationale</summary>
-<p class="quiz-answer"><strong>Answer: D</strong></p>
-<div class="quiz-rationale">
-<p><strong>Rationale:</strong></p>
-<p><strong>A. Incorrect:</strong> This is uncomfortable but does not indicate the most immediate threat.</p>
-<p><strong>B. Incorrect:</strong> This reflects vasodilation but is less urgent than airway obstruction.</p>
-<p><strong>C. Incorrect:</strong> This can occur during anaphylaxis but is not the highest priority.</p>
-<p><strong>D. Correct:</strong> These findings indicate upper-airway narrowing and impending obstruction.</p>
-</div>
-</details>
-
----
-
-## Question 33
-
-<p>A client with a latex allergy is admitted for surgery. Which nursing action is appropriate?</p>
-
-<p class="answer-choice"><strong>A.</strong> Place a latex-allergy alert on the chart and room</p>
-<p class="answer-choice"><strong>B.</strong> Use powdered latex gloves for brief procedures</p>
-<p class="answer-choice"><strong>C.</strong> Schedule the case after multiple latex procedures</p>
-<p class="answer-choice"><strong>D.</strong> Store latex supplies at the bedside</p>
-
-<details class="quiz-answer-block">
-<summary>Click to see answer and rationale</summary>
-<p class="quiz-answer"><strong>Answer: A</strong></p>
-<div class="quiz-rationale">
-<p><strong>Rationale:</strong></p>
-<p><strong>A. Correct:</strong> Clear identification helps prevent accidental exposure throughout care.</p>
-<p><strong>B. Incorrect:</strong> Any latex exposure can trigger a serious reaction.</p>
-<p><strong>C. Incorrect:</strong> Scheduling earlier can reduce airborne latex exposure in facilities where latex is present.</p>
-<p><strong>D. Incorrect:</strong> Latex products should be removed from the environment.</p>
-</div>
-</details>
-
----
-
-## Question 34
-
-<p>A client reports allergy to bananas, avocados, and kiwis. Which additional allergy should the nurse assess for?</p>
-
-<p class="answer-choice"><strong>A.</strong> Shellfish</p>
-<p class="answer-choice"><strong>B.</strong> Latex</p>
-<p class="answer-choice"><strong>C.</strong> Penicillin</p>
-<p class="answer-choice"><strong>D.</strong> Iodine</p>
-
-<details class="quiz-answer-block">
-<summary>Click to see answer and rationale</summary>
-<p class="quiz-answer"><strong>Answer: B</strong></p>
-<div class="quiz-rationale">
-<p><strong>Rationale:</strong></p>
-<p><strong>A. Incorrect:</strong> This is not the classic cross-reactive pattern described.</p>
-<p><strong>B. Correct:</strong> These foods can cross-react with latex proteins.</p>
-<p><strong>C. Incorrect:</strong> This antibiotic allergy is unrelated to the food pattern.</p>
-<p><strong>D. Incorrect:</strong> Iodine is not an allergen and does not explain this pattern.</p>
-</div>
-</details>
-
----
-
-## Question 35
 
 <p>A client receiving a blood transfusion develops chills, fever, and low back pain. Which action should the nurse take <strong>first</strong>?</p>
 
@@ -812,8 +691,7 @@ title: Immune System Practice Quiz
 </details>
 
 ---
-
-## Question 36
+## Question 32
 
 <p>After stopping a blood transfusion because of a suspected reaction, which action should the nurse take next?</p>
 
@@ -835,8 +713,7 @@ title: Immune System Practice Quiz
 </details>
 
 ---
-
-## Question 37
+## Question 33
 
 <p>A nurse is caring for a client who had a splenectomy. Which infection-prevention measure is most important?</p>
 
@@ -858,8 +735,7 @@ title: Immune System Practice Quiz
 </details>
 
 ---
-
-## Question 38
+## Question 34
 
 <p>A nurse is teaching a client with asplenia. Which symptom should the client report immediately?</p>
 
@@ -881,31 +757,7 @@ title: Immune System Practice Quiz
 </details>
 
 ---
-
-## Question 39
-
-<p>A client receiving immunosuppressive therapy after organ transplantation develops a temperature of 38.1°C (100.6°F). Which action is the <strong>priority</strong>?</p>
-
-<p class="answer-choice"><strong>A.</strong> Recheck the temperature tomorrow</p>
-<p class="answer-choice"><strong>B.</strong> Encourage exercise to raise immunity</p>
-<p class="answer-choice"><strong>C.</strong> Notify the transplant team promptly</p>
-<p class="answer-choice"><strong>D.</strong> Stop all immunosuppressive medications</p>
-
-<details class="quiz-answer-block">
-<summary>Click to see answer and rationale</summary>
-<p class="quiz-answer"><strong>Answer: C</strong></p>
-<div class="quiz-rationale">
-<p><strong>Rationale:</strong></p>
-<p><strong>A. Incorrect:</strong> Delaying evaluation can allow rapid infection progression.</p>
-<p><strong>B. Incorrect:</strong> Exercise does not treat possible infection.</p>
-<p><strong>C. Correct:</strong> Fever may be the only early sign of infection in an immunosuppressed client.</p>
-<p><strong>D. Incorrect:</strong> Stopping therapy without direction can precipitate rejection.</p>
-</div>
-</details>
-
----
-
-## Question 40
+## Question 35
 
 <p>A nurse is teaching a client taking tacrolimus. Which statement indicates understanding?</p>
 
@@ -927,8 +779,7 @@ title: Immune System Practice Quiz
 </details>
 
 ---
-
-## Question 41
+## Question 36
 
 <p>A nurse is assessing a client with suspected sepsis who is immunocompromised. Which finding requires the most urgent action?</p>
 
@@ -950,77 +801,7 @@ title: Immune System Practice Quiz
 </details>
 
 ---
-
-## Question 42
-
-<p>A nurse is teaching a client who has allergic rhinitis. Which intervention should the nurse recommend?</p>
-
-<p class="answer-choice"><strong>A.</strong> Keep windows open during high-pollen days</p>
-<p class="answer-choice"><strong>B.</strong> Use a high-efficiency particulate air filter</p>
-<p class="answer-choice"><strong>C.</strong> Dry bedding outdoors during pollen season</p>
-<p class="answer-choice"><strong>D.</strong> Use feather pillows without covers</p>
-
-<details class="quiz-answer-block">
-<summary>Click to see answer and rationale</summary>
-<p class="quiz-answer"><strong>Answer: B</strong></p>
-<div class="quiz-rationale">
-<p><strong>Rationale:</strong></p>
-<p><strong>A. Incorrect:</strong> This increases allergen exposure.</p>
-<p><strong>B. Correct:</strong> This can reduce airborne particles and allergens.</p>
-<p><strong>C. Incorrect:</strong> Outdoor drying allows pollen to collect on linens.</p>
-<p><strong>D. Incorrect:</strong> Feather bedding can worsen symptoms in sensitive clients.</p>
-</div>
-</details>
-
----
-
-## Question 43
-
-<p>A client takes diphenhydramine for allergies. Which instruction should the nurse include?</p>
-
-<p class="answer-choice"><strong>A.</strong> Drive immediately after the first dose</p>
-<p class="answer-choice"><strong>B.</strong> Expect increased alertness</p>
-<p class="answer-choice"><strong>C.</strong> Avoid alcohol and use caution with driving</p>
-<p class="answer-choice"><strong>D.</strong> Take an additional dose for urinary retention</p>
-
-<details class="quiz-answer-block">
-<summary>Click to see answer and rationale</summary>
-<p class="quiz-answer"><strong>Answer: C</strong></p>
-<div class="quiz-rationale">
-<p><strong>Rationale:</strong></p>
-<p><strong>A. Incorrect:</strong> This medication can cause sedation and impair reaction time.</p>
-<p><strong>B. Incorrect:</strong> Sedation is more common than increased alertness.</p>
-<p><strong>C. Correct:</strong> Alcohol increases central nervous system depression and driving may be unsafe.</p>
-<p><strong>D. Incorrect:</strong> Anticholinergic effects can worsen urinary retention.</p>
-</div>
-</details>
-
----
-
-## Question 44
-
-<p>A nurse is teaching a client how to use an epinephrine autoinjector. Which statement indicates understanding?</p>
-
-<p class="answer-choice"><strong>A.</strong> “I will inject it into my abdomen.”</p>
-<p class="answer-choice"><strong>B.</strong> “I will use it only after antihistamines fail.”</p>
-<p class="answer-choice"><strong>C.</strong> “I will store it in the freezer.”</p>
-<p class="answer-choice"><strong>D.</strong> “I will inject it into the outer thigh and seek emergency care.”</p>
-
-<details class="quiz-answer-block">
-<summary>Click to see answer and rationale</summary>
-<p class="quiz-answer"><strong>Answer: D</strong></p>
-<div class="quiz-rationale">
-<p><strong>Rationale:</strong></p>
-<p><strong>A. Incorrect:</strong> The recommended site is the outer mid-thigh.</p>
-<p><strong>B. Incorrect:</strong> Epinephrine should be used promptly for anaphylaxis rather than delayed.</p>
-<p><strong>C. Incorrect:</strong> Extreme temperatures can damage the medication.</p>
-<p><strong>D. Correct:</strong> Correct use includes thigh injection followed by emergency evaluation.</p>
-</div>
-</details>
-
----
-
-## Question 45
+## Question 37
 
 <p>A nurse is caring for a client with systemic lupus erythematosus. Which findings should the nurse recognize as possible manifestations? <strong>Select all that apply.</strong></p>
 
@@ -1046,8 +827,7 @@ title: Immune System Practice Quiz
 </details>
 
 ---
-
-## Question 46
+## Question 38
 
 <p>A nurse is teaching a client taking methotrexate for rheumatoid arthritis. Which instructions should the nurse include? <strong>Select all that apply.</strong></p>
 
@@ -1073,8 +853,7 @@ title: Immune System Practice Quiz
 </details>
 
 ---
-
-## Question 47
+## Question 39
 
 <p>A nurse is planning care for a client with severe neutropenia. Which interventions are appropriate? <strong>Select all that apply.</strong></p>
 
@@ -1100,8 +879,7 @@ title: Immune System Practice Quiz
 </details>
 
 ---
-
-## Question 48
+## Question 40
 
 <p>A nurse is teaching a client with HIV about reducing transmission. Which statements should the nurse include? <strong>Select all that apply.</strong></p>
 
@@ -1127,35 +905,7 @@ title: Immune System Practice Quiz
 </details>
 
 ---
-
-## Question 49
-
-<p>A nurse is assessing a client for anaphylaxis. Which findings should the nurse recognize? <strong>Select all that apply.</strong></p>
-
-<p class="answer-choice"><strong>A.</strong> Stridor</p>
-<p class="answer-choice"><strong>B.</strong> Hypotension</p>
-<p class="answer-choice"><strong>C.</strong> Generalized urticaria</p>
-<p class="answer-choice"><strong>D.</strong> Bronchospasm</p>
-<p class="answer-choice"><strong>E.</strong> Facial swelling</p>
-<p class="answer-choice"><strong>F.</strong> Localized chronic joint pain</p>
-
-<details class="quiz-answer-block">
-<summary>Click to see answer and rationale</summary>
-<p class="quiz-answer"><strong>Answer: A, B, C, D, E</strong></p>
-<div class="quiz-rationale">
-<p><strong>Rationale:</strong></p>
-<p><strong>A. Correct:</strong> This indicates upper-airway narrowing.</p>
-<p><strong>B. Correct:</strong> Systemic vasodilation can cause circulatory collapse.</p>
-<p><strong>C. Correct:</strong> Diffuse hives are a common cutaneous manifestation.</p>
-<p><strong>D. Correct:</strong> Lower-airway constriction can impair ventilation.</p>
-<p><strong>E. Correct:</strong> Angioedema can threaten the airway.</p>
-<p><strong>F. Incorrect:</strong> This is not an acute manifestation of anaphylaxis.</p>
-</div>
-</details>
-
----
-
-## Question 50
+## Question 41
 
 <p>A nurse is reviewing findings for a client with AIDS. Which findings suggest opportunistic infection and require follow-up? <strong>Select all that apply.</strong></p>
 
@@ -1181,8 +931,7 @@ title: Immune System Practice Quiz
 </details>
 
 ---
-
-## Question 51
+## Question 42
 
 <p>A nurse is caring for a client who is receiving long-term corticosteroid therapy. Which findings should the nurse monitor? <strong>Select all that apply.</strong></p>
 
@@ -1208,8 +957,7 @@ title: Immune System Practice Quiz
 </details>
 
 ---
-
-## Question 52
+## Question 43
 
 <p>A nurse is assessing four clients. Which client should the nurse see <strong>first</strong>?</p>
 
@@ -1229,5 +977,3 @@ title: Immune System Practice Quiz
 <p><strong>D. Incorrect:</strong> Severe pain requires treatment but does not outrank life-threatening infection.</p>
 </div>
 </details>
-
----

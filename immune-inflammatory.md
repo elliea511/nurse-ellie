@@ -1213,7 +1213,7 @@ page_type: immune-hub
       </a>
       <a class="immune-basics-link" href="{{ '/immune-inflammatory/immune-system-quiz.html' | relative_url }}">
         <span aria-hidden="true">📝</span>
-        <span><strong>Practice Quiz</strong><small>52 questions to test yourself</small></span>
+        <span><strong>Practice Quiz</strong><small>43 questions to test yourself</small></span>
       </a>
     </aside>
   </div>
