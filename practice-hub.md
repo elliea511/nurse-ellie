@@ -79,6 +79,16 @@ page_type: practice-hub
         </div>
         <footer><span>Ready now</span><a href="{{ '/immune-inflammatory/immune-system-quiz.html' | relative_url }}">Start</a></footer>
       </article>
+
+      <article class="practice-test-card theme-blue">
+        <span class="practice-card-icon">👁️</span>
+        <div>
+          <h2>Sensory Perception</h2>
+          <p>Glaucoma, cataracts, retinal disorders, eye emergencies, ophthalmic medications, hearing loss, Ménière disease, ototoxicity, ear care, aphasia, and neuropathy.</p>
+          <div class="practice-meta"><span>▤ 56 Questions</span><b>Active</b></div>
+        </div>
+        <footer><span>Ready now</span><a href="{{ '/sensory-perception/sensory-perception-quiz.html' | relative_url }}">Start</a></footer>
+      </article>
     </section>
 
     <div class="practice-lower-grid single-panel">
@@ -86,14 +96,14 @@ page_type: practice-hub
         <div class="practice-panel-heading">
           <h2 id="performance-title">⌁ Practice Snapshot</h2>
         </div>
-        <div class="practice-score-ring" aria-label="Four of four practice areas are ready">
-          <span>4/4</span>
+        <div class="practice-score-ring" aria-label="Five of five practice areas are ready">
+          <span>5/5</span>
           <small>Tests Ready</small>
         </div>
         <ul>
-          <li><span>✓ Active tests</span><strong>4</strong></li>
+          <li><span>✓ Active tests</span><strong>5</strong></li>
           <li><span>◎ Mental Health questions</span><strong>317</strong></li>
-          <li><span>🔥 Available now</span><strong>Mental Health, Medical Emergencies, Renal, Immune</strong></li>
+          <li><span>🔥 Available now</span><strong>Mental Health, Medical Emergencies, Renal, Immune, Sensory</strong></li>
           <li><span>▣ Next set</span><strong>More topic quizzes</strong></li>
         </ul>
       </section>
