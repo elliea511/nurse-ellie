@@ -52,22 +52,23 @@ page_type: maternity-hub
   .maternity-study-header {
     display: flex;
     align-items: flex-start;
-    gap: 1rem;
-    width: min(100%, 1320px);
-    margin: 0 auto 1rem;
+    gap: 0.75rem;
+    width: min(100%, 860px);
+    margin: 0 0 1rem;
+    margin-left: max(0px, calc((100% - 300px - 2rem - 860px) / 2));
     padding: 1.1rem 0 0;
   }
 
   .maternity-study-header__icon {
-    width: 56px;
-    height: 56px;
+    width: 52px;
+    height: 52px;
     object-fit: contain;
     flex: 0 0 auto;
-    margin-top: 0.25rem;
+    margin-top: 0.35rem;
     filter: none;
   }
 
-  .maternity-study-header > div {
+  .maternity-study-header__text {
     min-width: 0;
   }
 
@@ -164,10 +165,19 @@ page_type: maternity-hub
     z-index: 3;
     width: clamp(270px, 33%, 350px);
     transform: translate(-50%, -50%);
-    border: 0;
-    outline: 0;
-    box-shadow: none;
-    background: transparent;
+    border: 0 !important;
+    outline: 0 !important;
+    box-shadow: none !important;
+    background: transparent !important;
+    opacity: 1 !important;
+    filter: none !important;
+    mix-blend-mode: normal !important;
+  }
+
+  .maternity-hub__center::before,
+  .maternity-hub__center::after {
+    content: none !important;
+    display: none !important;
   }
 
   .maternity-hub__center-glow {
@@ -190,13 +200,13 @@ page_type: maternity-hub
     width: 100%;
     height: auto;
     object-fit: contain;
-    opacity: 1;
-    filter: none;
-    border: 0;
-    outline: 0;
-    box-shadow: none;
-    background: transparent;
-    mix-blend-mode: normal;
+    opacity: 1 !important;
+    filter: none !important;
+    border: 0 !important;
+    outline: 0 !important;
+    box-shadow: none !important;
+    background: transparent !important;
+    mix-blend-mode: normal !important;
   }
 
   .maternity-topic-card {
@@ -514,6 +524,9 @@ page_type: maternity-hub
 
   @media (max-width: 1220px) {
     .maternity-study-page { width: min(100% - 2rem, 1180px); }
+    .maternity-study-header {
+      margin-inline: auto;
+    }
     .maternity-study-layout { grid-template-columns: 1fr; }
     .maternity-sidebar {
       position: static;
@@ -583,6 +596,7 @@ page_type: maternity-hub
     .maternity-study-header {
       align-items: flex-start;
       gap: 0.8rem;
+      margin-inline: auto;
     }
     .maternity-study-header h1 {
       white-space: normal;
@@ -625,7 +639,7 @@ page_type: maternity-hub
       aria-hidden="true"
       data-no-lb
     >
-    <div>
+    <div class="maternity-study-header__text">
       <h1 id="maternity-study-title">Maternity Study Hub</h1>
       <p>Your simple hub for maternity nursing.</p>
     </div>
