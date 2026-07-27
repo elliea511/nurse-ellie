@@ -1872,7 +1872,9 @@ body[data-page-type="mental-health-hub"] .main-content .mh-guide-icon img {
   box-shadow: 0 1px 4px rgba(34, 28, 80, 0.05);
 }
 
-:is(body[data-section="mental-health"], body[data-section="pharmacology"], body[data-section="renal-urinary"], body[data-section="sensory-perception"], body[data-section="immune-inflammatory"]) .detail-mini-card > strong:first-child {
+/* Card title = the first bold line (kramdown may wrap it in a <p>) */
+:is(body[data-section="mental-health"], body[data-section="pharmacology"], body[data-section="renal-urinary"], body[data-section="sensory-perception"], body[data-section="immune-inflammatory"]) .detail-mini-card > strong:first-child,
+:is(body[data-section="mental-health"], body[data-section="pharmacology"], body[data-section="renal-urinary"], body[data-section="sensory-perception"], body[data-section="immune-inflammatory"]) .detail-mini-card > p:first-child > strong:first-child {
   display: block;
   margin: 0 0 0.55rem;
   padding-bottom: 0.4rem;
@@ -1882,8 +1884,11 @@ body[data-page-type="mental-health-hub"] .main-content .mh-guide-icon img {
   letter-spacing: 0.01em;
   color: var(--mh-ink);
 }
-/* Bold inside bullets/paragraphs must stay inline (never become a block heading) */
-:is(body[data-section="mental-health"], body[data-section="pharmacology"], body[data-section="renal-urinary"], body[data-section="sensory-perception"], body[data-section="immune-inflammatory"]) .detail-mini-card :is(li, p) strong {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"], body[data-section="renal-urinary"], body[data-section="sensory-perception"], body[data-section="immune-inflammatory"]) .detail-mini-card > p:first-child {
+  margin: 0 0 0.55rem;
+}
+/* Bold that leads a bullet must stay inline (never become a block heading) */
+:is(body[data-section="mental-health"], body[data-section="pharmacology"], body[data-section="renal-urinary"], body[data-section="sensory-perception"], body[data-section="immune-inflammatory"]) .detail-mini-card li strong {
   display: inline;
   margin: 0;
   font-size: inherit;
