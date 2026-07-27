@@ -1,0 +1,378 @@
+---
+layout: default
+title: Study for Our Next Exam
+page_type: next-exam
+---
+
+<style>
+  body[data-page-type="next-exam"] .page-wrapper {
+    width: min(100% - 2rem, 1320px);
+  }
+
+  body[data-page-type="next-exam"] .main-content {
+    max-width: none;
+    margin: 0 auto;
+    padding: clamp(1.25rem, 3vw, 2.25rem) 0 !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+
+  .next-exam-panel,
+  .next-exam-panel * {
+    box-sizing: border-box;
+  }
+
+  .next-exam-panel {
+    --exam-plum: #332844;
+    --exam-plum-deep: #241b36;
+    --exam-muted: #66627f;
+    --exam-border: #e2e2eb;
+    --exam-card-border: #e8e6ee;
+    --exam-teal: #20a7b4;
+    --exam-purple: #7c5cd6;
+    --exam-blue: #2f75df;
+
+    width: min(100%, 1120px);
+    margin: clamp(1rem, 4vw, 3rem) auto;
+    padding: clamp(2.25rem, 5vw, 4.25rem) clamp(1.25rem, 4vw, 3rem);
+    border: 1px solid var(--exam-border);
+    border-radius: 28px;
+    background: rgba(255, 255, 255, .96);
+    box-shadow: 0 20px 45px rgba(42, 35, 66, .08);
+    color: var(--exam-plum-deep);
+    text-align: center;
+  }
+
+  .next-exam-label {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: .55rem;
+    margin: 0 0 1.15rem;
+    color: var(--exam-purple);
+    font-size: .9rem;
+    font-weight: 900;
+    letter-spacing: .16em;
+    text-transform: uppercase;
+  }
+
+  .next-exam-title {
+    display: inline-block !important;
+    width: auto !important;
+    max-width: min(100%, 680px);
+    margin: 0 !important;
+    padding: .55rem clamp(1.4rem, 4vw, 3.25rem) .72rem !important;
+    border: 0 !important;
+    border-radius: 999px !important;
+    background: linear-gradient(135deg, var(--exam-plum), var(--exam-plum-deep)) !important;
+    box-shadow: 0 16px 28px rgba(36, 27, 54, .16);
+    color: #fff !important;
+    -webkit-text-fill-color: #fff !important;
+    font-family: "Playfair Display", Georgia, serif !important;
+    font-size: clamp(2rem, 5vw, 3.45rem) !important;
+    font-weight: 900 !important;
+    line-height: 1.06 !important;
+    letter-spacing: -.035em;
+    text-align: center !important;
+  }
+
+  .next-exam-title::before,
+  .next-exam-title::after {
+    display: none !important;
+    content: none !important;
+  }
+
+  .next-exam-subtitle {
+    margin: 1.7rem 0 2.5rem;
+    color: var(--exam-muted);
+    font-family: "Nunito", system-ui, sans-serif;
+    font-size: clamp(1.05rem, 2vw, 1.32rem);
+    font-weight: 750;
+  }
+
+  .next-exam-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: clamp(1rem, 2.2vw, 1.55rem);
+    text-align: left;
+  }
+
+  .next-exam-card {
+    --card-accent: var(--exam-purple);
+    --card-soft: #f4efff;
+    display: flex;
+    flex-direction: column;
+    min-height: 310px;
+    padding: clamp(1.25rem, 2.4vw, 1.65rem);
+    border: 1px solid var(--exam-card-border);
+    border-top: 4px solid var(--card-accent);
+    border-radius: 20px;
+    background: linear-gradient(180deg, #fff, #fff);
+    box-shadow: 0 14px 30px rgba(38, 32, 58, .07);
+    color: var(--exam-plum-deep);
+    transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+  }
+
+  .next-exam-card:hover,
+  .next-exam-card:focus-within {
+    transform: translateY(-4px);
+    border-color: var(--card-accent);
+    border-top-color: var(--card-accent);
+    box-shadow: 0 20px 38px rgba(38, 32, 58, .11);
+  }
+
+  .next-exam-card.renal {
+    --card-accent: var(--exam-teal);
+    --card-soft: #e7f8fa;
+  }
+
+  .next-exam-card.immune {
+    --card-accent: var(--exam-purple);
+    --card-soft: #f0ebff;
+  }
+
+  .next-exam-card.sensory {
+    --card-accent: var(--exam-blue);
+    --card-soft: #eaf2ff;
+  }
+
+  .next-exam-icon {
+    display: grid;
+    place-items: center;
+    width: 4rem;
+    height: 4rem;
+    margin: 0 0 1.6rem;
+    border-radius: 50%;
+    background: var(--card-soft);
+    color: var(--card-accent);
+  }
+
+  .next-exam-icon svg {
+    width: 2.35rem;
+    height: 2.35rem;
+    stroke: currentColor;
+  }
+
+  .next-exam-card h2 {
+    position: relative;
+    margin: 0 !important;
+    padding: 0 0 0 .9rem !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    color: var(--exam-plum) !important;
+    -webkit-text-fill-color: var(--exam-plum) !important;
+    font-family: "Playfair Display", Georgia, serif !important;
+    font-size: clamp(1.45rem, 2.3vw, 1.95rem) !important;
+    font-weight: 900 !important;
+    line-height: 1.12 !important;
+    letter-spacing: -.02em;
+  }
+
+  .next-exam-card h2::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: .18em;
+    width: 4px;
+    height: 1.4em;
+    border-radius: 999px;
+    background: var(--card-accent);
+  }
+
+  .next-exam-rule {
+    width: 3.8rem;
+    height: 2px;
+    margin: 1.35rem 0 1.5rem;
+    border-radius: 999px;
+    background: #e0dfe8;
+  }
+
+  .next-exam-card p {
+    margin: 0 0 1.6rem;
+    color: var(--exam-muted);
+    font-size: 1rem;
+    font-weight: 650;
+    line-height: 1.72;
+  }
+
+  .next-exam-card a {
+    display: inline-flex;
+    align-items: center;
+    gap: .35rem;
+    width: max-content;
+    margin-top: auto;
+    color: var(--card-accent) !important;
+    font-size: 1.02rem;
+    font-weight: 850;
+    text-decoration: none !important;
+  }
+
+  .next-exam-card a .arrow {
+    transition: transform .18s ease;
+  }
+
+  .next-exam-card a:hover .arrow,
+  .next-exam-card a:focus-visible .arrow {
+    transform: translateX(4px);
+  }
+
+  .next-exam-card a:focus-visible {
+    outline: 3px solid rgba(124, 92, 214, .28);
+    outline-offset: 4px;
+    border-radius: 8px;
+  }
+
+  [data-theme="dark"] body[data-page-type="next-exam"] .main-content,
+  [data-theme="dark"] body[data-page-type="next-exam"] .page-wrapper {
+    background: transparent !important;
+  }
+
+  [data-theme="dark"] .next-exam-panel {
+    border-color: #3d3856;
+    background: rgba(31, 28, 44, .96);
+    box-shadow: 0 20px 45px rgba(0, 0, 0, .22);
+  }
+
+  [data-theme="dark"] .next-exam-title {
+    background: linear-gradient(135deg, #463762, #2d2444) !important;
+  }
+
+  [data-theme="dark"] .next-exam-subtitle,
+  [data-theme="dark"] .next-exam-card p {
+    color: #c8c3dd;
+  }
+
+  [data-theme="dark"] .next-exam-card {
+    border-color: #45405d;
+    background: #262238;
+    box-shadow: 0 14px 30px rgba(0, 0, 0, .16);
+  }
+
+  [data-theme="dark"] .next-exam-card h2 {
+    color: #f2eaff !important;
+    -webkit-text-fill-color: #f2eaff !important;
+  }
+
+  [data-theme="dark"] .next-exam-icon {
+    background: rgba(255, 255, 255, .08);
+  }
+
+  @media (max-width: 940px) {
+    .next-exam-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .next-exam-card.sensory {
+      grid-column: 1 / -1;
+    }
+  }
+
+  @media (max-width: 640px) {
+    body[data-page-type="next-exam"] .page-wrapper {
+      width: min(100% - 1rem, 1320px);
+    }
+
+    .next-exam-panel {
+      margin: .75rem auto 1.5rem;
+      padding: 1.65rem 1rem;
+      border-radius: 22px;
+    }
+
+    .next-exam-label {
+      margin-bottom: .9rem;
+      font-size: .76rem;
+    }
+
+    .next-exam-title {
+      max-width: 100%;
+      padding: .55rem 1.1rem .66rem !important;
+      font-size: clamp(1.65rem, 8vw, 2.1rem) !important;
+    }
+
+    .next-exam-subtitle {
+      margin: 1.2rem 0 1.55rem;
+      font-size: .98rem;
+    }
+
+    .next-exam-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .next-exam-card.sensory {
+      grid-column: auto;
+    }
+
+    .next-exam-card {
+      min-height: 0;
+      padding: 1.1rem;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .next-exam-card,
+    .next-exam-card a .arrow {
+      transition: none;
+    }
+
+    .next-exam-card:hover,
+    .next-exam-card:focus-within {
+      transform: none;
+    }
+  }
+</style>
+
+<section class="next-exam-panel" aria-labelledby="next-exam-title">
+  <p class="next-exam-label">✦ NEXT EXAM</p>
+  <h1 id="next-exam-title" class="next-exam-title">Study for Our Next Exam</h1>
+  <p class="next-exam-subtitle">Pick a section to open its topic notes.</p>
+
+  <div class="next-exam-grid">
+    <article class="next-exam-card renal">
+      <span class="next-exam-icon" aria-hidden="true">
+        <svg viewBox="0 0 48 48" fill="none" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M18 10c-5 0-8 5-8 12v4c0 5 3 8 7 8 3 0 5-2 5-5V15c0-3-1-5-4-5Z"/>
+          <path d="M30 10c5 0 8 5 8 12v4c0 5-3 8-7 8-3 0-5-2-5-5V15c0-3 1-5 4-5Z"/>
+          <path d="M22 26h4"/>
+          <path d="M24 26v12"/>
+          <path d="M17 34c0 4 3 6 7 6s7-2 7-6"/>
+        </svg>
+      </span>
+      <h2>Renal &amp; Urinary</h2>
+      <div class="next-exam-rule" aria-hidden="true"></div>
+      <p>Kidney and urinary nursing — dialysis, kidney failure, stones, infections, diagnostics, and surgery.</p>
+      <a href="{{ '/renal-urinary.html' | relative_url }}" aria-label="Open Renal and Urinary notes">Open notes <span class="arrow" aria-hidden="true">→</span></a>
+    </article>
+
+    <article class="next-exam-card immune">
+      <span class="next-exam-icon" aria-hidden="true">
+        <svg viewBox="0 0 48 48" fill="none" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M24 5 38 10v11c0 10-6 17-14 22-8-5-14-12-14-22V10L24 5Z"/>
+          <path d="M24 16v14"/>
+          <path d="M17 23h14"/>
+        </svg>
+      </span>
+      <h2>Immune &amp; Inflammatory</h2>
+      <div class="next-exam-rule" aria-hidden="true"></div>
+      <p>HIV/AIDS, rheumatoid arthritis, osteoarthritis, gout, lupus, and antimicrobials.</p>
+      <a href="{{ '/immune-inflammatory.html' | relative_url }}" aria-label="Open Immune and Inflammatory notes">Open notes <span class="arrow" aria-hidden="true">→</span></a>
+    </article>
+
+    <article class="next-exam-card sensory">
+      <span class="next-exam-icon" aria-hidden="true">
+        <svg viewBox="0 0 48 48" fill="none" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M4 24s7-12 20-12 20 12 20 12-7 12-20 12S4 24 4 24Z"/>
+          <circle cx="24" cy="24" r="6"/>
+          <path d="M24 18v2"/>
+        </svg>
+      </span>
+      <h2>Sensory Perception</h2>
+      <div class="next-exam-rule" aria-hidden="true"></div>
+      <p>Vision and hearing nursing — eye disorders and ear disorders.</p>
+      <a href="{{ '/sensory-perception.html' | relative_url }}" aria-label="Open Sensory Perception notes">Open notes <span class="arrow" aria-hidden="true">→</span></a>
+    </article>
+  </div>
+</section>
