@@ -14,7 +14,7 @@ page_type: all-topics
       <h1>All Topics</h1>
       <p>Every note page on the site, organized by section. Find what you need and jump straight into studying.</p>
     </div>
-    <div class="at-hero-count"><strong>6</strong><span>Study areas</span></div>
+    <div class="at-hero-count"><strong>9</strong><span>Study areas</span></div>
   </header>
 
   <nav class="at-jump-nav" aria-label="Jump to a study area">
@@ -169,7 +169,6 @@ page_type: all-topics
       <div class="at-subgrid">
         <div class="at-topic-group">
           <div class="at-links">
-            <a href="{{ '/pharmacology.html' | relative_url }}">Pharmacology Home</a>
             <a href="{{ '/pharmacology/high-alert-medications.html' | relative_url }}">High-Alert Medications</a>
             <a href="{{ '/pharmacology/cardiovascular-blood.html' | relative_url }}">Cardiovascular &amp; Blood Medications</a>
             <a href="{{ '/pharmacology/endocrine-diabetes.html' | relative_url }}">Endocrine &amp; Diabetes Medications</a>
@@ -216,7 +215,6 @@ page_type: all-topics
       <div class="at-subgrid">
         <div class="at-topic-group">
           <div class="at-links">
-            <a href="{{ '/renal-urinary.html' | relative_url }}">Renal &amp; Urinary Home</a>
             <a href="{{ '/renal-urinary/renal-diagnostics-catheter-care.html' | relative_url }}">Renal Diagnostics &amp; Catheter Care</a>
             <a href="{{ '/renal-urinary/urinary-infections-glomerulonephritis.html' | relative_url }}">Urinary Infections &amp; Glomerulonephritis</a>
             <a href="{{ '/renal-urinary/urolithiasis.html' | relative_url }}">Urolithiasis</a>
@@ -237,7 +235,6 @@ page_type: all-topics
       <div class="at-subgrid">
         <div class="at-topic-group">
           <div class="at-links">
-            <a href="{{ '/immune-inflammatory.html' | relative_url }}">Immune &amp; Inflammatory Home</a>
             <a href="{{ '/immune-inflammatory/hiv-aids-immune-function.html' | relative_url }}">HIV/AIDS &amp; Immune Function</a>
             <a href="{{ '/immune-inflammatory/rheumatoid-arthritis.html' | relative_url }}">Rheumatoid Arthritis</a>
             <a href="{{ '/immune-inflammatory/osteoarthritis-gout.html' | relative_url }}">Osteoarthritis &amp; Gout</a>
@@ -258,7 +255,6 @@ page_type: all-topics
       <div class="at-subgrid">
         <div class="at-topic-group">
           <div class="at-links">
-            <a href="{{ '/sensory-perception.html' | relative_url }}">Sensory Perception Home</a>
             <a href="{{ '/sensory-perception/eye-disorders.html' | relative_url }}">Eye Disorders</a>
             <a href="{{ '/sensory-perception/ear-disorders.html' | relative_url }}">Ear Disorders</a>
             <a href="{{ '/sensory-perception/sensory-perception-quiz.html' | relative_url }}">Sensory Perception Practice Quiz</a>
