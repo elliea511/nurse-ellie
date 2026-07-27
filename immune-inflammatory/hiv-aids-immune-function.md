@@ -262,6 +262,8 @@ A client does not have to appear ill to have or transmit HIV. The asymptomatic s
   </table>
 </div>
 
+<p><a class="infographic-btn" href="{{ '/Exam5/hiv-stages.png' | relative_url }}" target="_blank" rel="noopener">📊 View HIV Stages Infographic</a></p>
+
 <div class="detail-grid" markdown="1">
 
 <div class="detail-mini-card" markdown="1">
