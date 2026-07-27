@@ -79,11 +79,21 @@ page_type: medical-emergencies-hub
     height: 4.7rem;
   }
 
+  .emergency-hub-header__text {
+    padding: 0 !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+
   .emergency-hub-header h1 {
     margin: 0 !important;
     padding: 0 !important;
     border: 0 !important;
+    border-radius: 0 !important;
     background: none !important;
+    box-shadow: none !important;
     color: var(--em-ink) !important;
     -webkit-text-fill-color: var(--em-ink) !important;
     font-family: "Playfair Display", Georgia, serif !important;
