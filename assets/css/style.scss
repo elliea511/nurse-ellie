@@ -5890,3 +5890,75 @@ mark.hl { background: #e8e8e8 !important; color: #111 !important; -webkit-print-
 [data-theme="dark"] .mn-detail-item.mn-tone-pink   { background: #331f2b !important; }
 [data-theme="dark"] .mn-detail-item.mn-tone-blue   { background: #1e2740 !important; }
 [data-theme="dark"] .mn-detail-item.mn-tone-green  { background: #16301f !important; }
+
+/* =========================================================
+   PRACTICE TEST — match the site look (Nunito, purple/pink
+   accents, rounder cards). Structure/classes unchanged so
+   quiz.js keeps working; correct=green / incorrect=red kept.
+   ========================================================= */
+.quiz-config-title,
+.qmb-label,
+.quiz-mode-btn,
+.quiz-choice-btn,
+.quiz-check-btn,
+.quiz-retake-btn,
+.quiz-mode-btn * { font-family: "Nunito", sans-serif !important; }
+
+.quiz-mode-btn {
+  border-radius: 18px !important;
+  border-color: #e7e0f2 !important;
+  background: #faf8ff !important;
+}
+.quiz-mode-btn:hover,
+.quiz-mode-btn.selected {
+  border-color: #8060bf !important;
+  background: #f1ebfb !important;
+  box-shadow: 0 8px 20px rgba(128,96,191,0.16) !important;
+}
+
+.quiz-choice-btn {
+  border-radius: 13px !important;
+  border-color: #e7e0f2 !important;
+  padding: 0.7rem 1rem !important;
+}
+.quiz-choice-btn:hover:not(:disabled) {
+  border-color: #b79ee8 !important;
+  background: #f6f1ff !important;
+}
+.quiz-choice-btn.selected {
+  border-color: #8060bf !important;
+  background: #f1ebfb !important;
+}
+
+.quiz-check-btn {
+  border-radius: 999px !important;
+  border-color: #8060bf !important;
+  background: #f1ebfb !important;
+  color: #6a4bc0 !important;
+}
+.quiz-check-btn:hover {
+  background: linear-gradient(135deg, #8060bf, #6a4bc0) !important;
+  color: #fff !important;
+}
+
+.quiz-retake-btn {
+  border-radius: 999px !important;
+  background: linear-gradient(135deg, #f36f9a, #ee6291) !important;
+  box-shadow: 0 8px 18px rgba(243,111,154,0.22) !important;
+}
+
+/* Quiz-page subtitle matches the site's page subtitles */
+.quiz-subtitle {
+  color: var(--mh-muted, #5a5a72) !important;
+  font-size: 1.05rem !important;
+  line-height: 1.5 !important;
+  margin: 0 0 1.25rem !important;
+}
+
+/* Dark mode: retint the purple accents (green/red states unchanged) */
+[data-theme="dark"] .quiz-mode-btn { background: #221d33 !important; border-color: #39324f !important; }
+[data-theme="dark"] .quiz-mode-btn:hover,
+[data-theme="dark"] .quiz-mode-btn.selected { border-color: #a68bf0 !important; background: #2c2547 !important; }
+[data-theme="dark"] .quiz-choice-btn.selected { border-color: #a68bf0 !important; background: #2c2547 !important; }
+[data-theme="dark"] .quiz-choice-btn:hover:not(:disabled) { border-color: #7a63b0 !important; background: #262039 !important; }
+[data-theme="dark"] .quiz-check-btn { background: #2c2547 !important; border-color: #a68bf0 !important; color: #d8c8ff !important; }
