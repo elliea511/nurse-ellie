@@ -140,14 +140,41 @@ page_type: maternity-hub
     display: none !important;
   }
 
+  body[data-page-type="maternity-hub"] .mh-hub-header {
+    align-items: center;
+  }
+
   body[data-page-type="maternity-hub"] .mh-hub-header h1 {
+    display: block !important;
+    width: auto !important;
+    max-width: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+    background: transparent !important;
+    background-image: none !important;
+    box-shadow: none !important;
     color: #10124a !important;
     -webkit-text-fill-color: #10124a !important;
+    font-family: "Nunito", sans-serif !important;
+    font-size: clamp(2.35rem, 3.35vw, 3.45rem) !important;
+    line-height: 1 !important;
+    letter-spacing: 0;
+    text-shadow: none !important;
     white-space: nowrap;
   }
 
+  body[data-page-type="maternity-hub"] .mh-hub-header h1::before,
+  body[data-page-type="maternity-hub"] .mh-hub-header h1::after {
+    display: none !important;
+    content: none !important;
+  }
+
   body[data-page-type="maternity-hub"] .mh-hub-header p {
+    margin: 0.28rem 0 0;
     color: #f45b9b;
+    font-size: 1.12rem;
     font-weight: 800;
   }
 
