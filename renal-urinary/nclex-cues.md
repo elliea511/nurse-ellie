@@ -8,11 +8,7 @@ title: Renal & Urinary NCLEX Quick Cues
   <span>NCLEX Quick Cues</span>
 </div>
 
-<!-- NCLEX QUICK CUES: RENAL & URINARY -->
-
-<section class="mh-table-card" id="renal-nclex-quick-cues" markdown="1">
-
-## NCLEX Quick Cues: Renal & Urinary
+# NCLEX Quick Cues: Renal & Urinary
 
 <div class="priority-focus">
   <div>
@@ -101,4 +97,3 @@ title: Renal & Urinary NCLEX Quick Cues
 <strong>Renal NCLEX Rule:</strong> Check urine flow, potassium, fluid status, infection, and access patency before anything less urgent.
 </div>
 
-</section>

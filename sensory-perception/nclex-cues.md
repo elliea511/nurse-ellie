@@ -8,11 +8,7 @@ title: Sensory Perception NCLEX Quick Cues
   <span>NCLEX Quick Cues</span>
 </div>
 
-<!-- NCLEX QUICK CUES: SENSORY PERCEPTION -->
-
-<section class="mh-table-card" id="sensory-nclex-quick-cues" markdown="1">
-
-## NCLEX Quick Cues: Sensory Perception
+# NCLEX Quick Cues: Sensory Perception
 
 <div class="priority-focus">
   <div>
@@ -105,4 +101,3 @@ title: Sensory Perception NCLEX Quick Cues
 <strong>Sensory NCLEX Rule:</strong> Sudden changes, severe pain, pressure, retinal symptoms, and fall risk always outrank routine teaching.
 </div>
 
-</section>

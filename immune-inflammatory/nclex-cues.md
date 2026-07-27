@@ -8,11 +8,7 @@ title: Immune & Inflammatory NCLEX Quick Cues
   <span>NCLEX Quick Cues</span>
 </div>
 
-<!-- NCLEX QUICK CUES: IMMUNE & INFLAMMATORY -->
-
-<section class="mh-table-card" id="immune-nclex-quick-cues" markdown="1">
-
-## NCLEX Quick Cues: Immune & Inflammatory
+# NCLEX Quick Cues: Immune & Inflammatory
 
 <div class="priority-focus">
   <div>
@@ -107,4 +103,3 @@ title: Immune & Inflammatory NCLEX Quick Cues
 <strong>Immune NCLEX Rule:</strong> Infection and organ toxicity outrank chronic pain, and immunosuppressive medications always require monitoring.
 </div>
 
-</section>
