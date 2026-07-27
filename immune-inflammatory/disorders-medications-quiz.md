@@ -1208,18 +1208,18 @@ title: Immune & Inflammatory Disorders Supplemental Practice Quiz
 
 <p>Before administering the first dose of an antimicrobial, which action should the nurse take when possible?</p>
 
-<p class="answer-choice"><strong>A.</strong> Obtain ordered cultures</p>
-<p class="answer-choice"><strong>B.</strong> Administer an antidiarrheal</p>
+<p class="answer-choice"><strong>A.</strong> Administer an antidiarrheal</p>
+<p class="answer-choice"><strong>B.</strong> Obtain ordered cultures</p>
 <p class="answer-choice"><strong>C.</strong> Give a probiotic instead</p>
 <p class="answer-choice"><strong>D.</strong> Wait for fever to resolve</p>
 
 <details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
-<p class="quiz-answer"><strong>Answer: A</strong></p>
+<p class="quiz-answer"><strong>Answer: B</strong></p>
 <div class="quiz-rationale">
 <p><strong>Rationale:</strong></p>
-<p><strong>A. Correct:</strong> Cultures obtained before therapy improve organism identification.</p>
-<p><strong>B. Incorrect:</strong> This does not identify the pathogen.</p>
+<p><strong>A. Incorrect:</strong> This does not identify the pathogen.</p>
+<p><strong>B. Correct:</strong> Cultures obtained before therapy improve organism identification.</p>
 <p><strong>C. Incorrect:</strong> A probiotic does not replace treatment.</p>
 <p><strong>D. Incorrect:</strong> Treatment should not wait for spontaneous resolution.</p>
 </div>
@@ -1231,19 +1231,19 @@ title: Immune & Inflammatory Disorders Supplemental Practice Quiz
 
 <p>A client says, “I feel better, so I stopped the antibiotic.” Which response should the nurse make?</p>
 
-<p class="answer-choice"><strong>A.</strong> Complete the full prescribed course to reduce recurrence and resistance.</p>
+<p class="answer-choice"><strong>A.</strong> Take double doses if symptoms return.</p>
 <p class="answer-choice"><strong>B.</strong> Save the remaining doses for another infection.</p>
-<p class="answer-choice"><strong>C.</strong> Take double doses if symptoms return.</p>
+<p class="answer-choice"><strong>C.</strong> Complete the full prescribed course to reduce recurrence and resistance.</p>
 <p class="answer-choice"><strong>D.</strong> Stop whenever the fever resolves.</p>
 
 <details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
-<p class="quiz-answer"><strong>Answer: A</strong></p>
+<p class="quiz-answer"><strong>Answer: C</strong></p>
 <div class="quiz-rationale">
 <p><strong>Rationale:</strong></p>
-<p><strong>A. Correct:</strong> Completing therapy helps eradicate the organism and reduce resistance.</p>
+<p><strong>A. Incorrect:</strong> Doubling doses can cause toxicity.</p>
 <p><strong>B. Incorrect:</strong> Leftover drugs should not be reused.</p>
-<p><strong>C. Incorrect:</strong> Doubling doses can cause toxicity.</p>
+<p><strong>C. Correct:</strong> Completing therapy helps eradicate the organism and reduce resistance.</p>
 <p><strong>D. Incorrect:</strong> Symptom improvement does not prove eradication.</p>
 </div>
 </details>
@@ -1254,20 +1254,20 @@ title: Immune & Inflammatory Disorders Supplemental Practice Quiz
 
 <p>A client taking an antibiotic develops oral thrush and new watery diarrhea. Which complication should the nurse suspect?</p>
 
-<p class="answer-choice"><strong>A.</strong> Superinfection</p>
+<p class="answer-choice"><strong>A.</strong> Dehydration from exercise</p>
 <p class="answer-choice"><strong>B.</strong> Expected drug effectiveness</p>
 <p class="answer-choice"><strong>C.</strong> Improved immune function</p>
-<p class="answer-choice"><strong>D.</strong> Dehydration from exercise</p>
+<p class="answer-choice"><strong>D.</strong> Superinfection</p>
 
 <details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
-<p class="quiz-answer"><strong>Answer: A</strong></p>
+<p class="quiz-answer"><strong>Answer: D</strong></p>
 <div class="quiz-rationale">
 <p><strong>Rationale:</strong></p>
-<p><strong>A. Correct:</strong> Disruption of normal flora can permit fungal or resistant-organism overgrowth.</p>
+<p><strong>A. Incorrect:</strong> The timing suggests antimicrobial-associated complications.</p>
 <p><strong>B. Incorrect:</strong> These findings are not evidence of desired effect.</p>
 <p><strong>C. Incorrect:</strong> They do not indicate stronger immunity.</p>
-<p><strong>D. Incorrect:</strong> The timing suggests antimicrobial-associated complications.</p>
+<p><strong>D. Correct:</strong> Disruption of normal flora can permit fungal or resistant-organism overgrowth.</p>
 </div>
 </details>
 
@@ -1300,18 +1300,18 @@ title: Immune & Inflammatory Disorders Supplemental Practice Quiz
 
 <p>A client receiving gentamicin reports tinnitus and has rising creatinine. Which action should the nurse take?</p>
 
-<p class="answer-choice"><strong>A.</strong> Hold the medication and notify the provider</p>
-<p class="answer-choice"><strong>B.</strong> Administer the dose with a loop diuretic</p>
+<p class="answer-choice"><strong>A.</strong> Administer the dose with a loop diuretic</p>
+<p class="answer-choice"><strong>B.</strong> Hold the medication and notify the provider</p>
 <p class="answer-choice"><strong>C.</strong> Reassure the client that these are expected</p>
 <p class="answer-choice"><strong>D.</strong> Increase the dose to maintain the peak</p>
 
 <details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
-<p class="quiz-answer"><strong>Answer: A</strong></p>
+<p class="quiz-answer"><strong>Answer: B</strong></p>
 <div class="quiz-rationale">
 <p><strong>Rationale:</strong></p>
-<p><strong>A. Correct:</strong> These findings indicate ototoxicity and nephrotoxicity.</p>
-<p><strong>B. Incorrect:</strong> Loop diuretics can worsen ototoxicity.</p>
+<p><strong>A. Incorrect:</strong> Loop diuretics can worsen ototoxicity.</p>
+<p><strong>B. Correct:</strong> These findings indicate ototoxicity and nephrotoxicity.</p>
 <p><strong>C. Incorrect:</strong> The findings are serious.</p>
 <p><strong>D. Incorrect:</strong> A dose increase can worsen toxicity.</p>
 </div>
@@ -1323,19 +1323,19 @@ title: Immune & Inflammatory Disorders Supplemental Practice Quiz
 
 <p>A nurse reviews a prescription for gentamicin in a client with myasthenia gravis. Which action is appropriate?</p>
 
-<p class="answer-choice"><strong>A.</strong> Question the prescription because of neuromuscular blockade risk</p>
+<p class="answer-choice"><strong>A.</strong> Administer it rapidly IV push</p>
 <p class="answer-choice"><strong>B.</strong> Give the medication with a sedative</p>
-<p class="answer-choice"><strong>C.</strong> Administer it rapidly IV push</p>
+<p class="answer-choice"><strong>C.</strong> Question the prescription because of neuromuscular blockade risk</p>
 <p class="answer-choice"><strong>D.</strong> Encourage strenuous activity after dosing</p>
 
 <details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
-<p class="quiz-answer"><strong>Answer: A</strong></p>
+<p class="quiz-answer"><strong>Answer: C</strong></p>
 <div class="quiz-rationale">
 <p><strong>Rationale:</strong></p>
-<p><strong>A. Correct:</strong> Aminoglycosides can worsen neuromuscular weakness.</p>
+<p><strong>A. Incorrect:</strong> Rapid IV push is unsafe.</p>
 <p><strong>B. Incorrect:</strong> Sedation does not prevent blockade.</p>
-<p><strong>C. Incorrect:</strong> Rapid IV push is unsafe.</p>
+<p><strong>C. Correct:</strong> Aminoglycosides can worsen neuromuscular weakness.</p>
 <p><strong>D. Incorrect:</strong> Activity can increase risk if weakness develops.</p>
 </div>
 </details>
@@ -1346,20 +1346,20 @@ title: Immune & Inflammatory Disorders Supplemental Practice Quiz
 
 <p>A client receiving vancomycin develops flushing and itching of the face and upper torso during the infusion. Which action should the nurse take?</p>
 
-<p class="answer-choice"><strong>A.</strong> Slow or stop the infusion and notify the provider</p>
+<p class="answer-choice"><strong>A.</strong> Apply a heating pad and continue</p>
 <p class="answer-choice"><strong>B.</strong> Increase the infusion rate</p>
 <p class="answer-choice"><strong>C.</strong> Administer the next dose as an IV push</p>
-<p class="answer-choice"><strong>D.</strong> Apply a heating pad and continue</p>
+<p class="answer-choice"><strong>D.</strong> Slow or stop the infusion and notify the provider</p>
 
 <details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
-<p class="quiz-answer"><strong>Answer: A</strong></p>
+<p class="quiz-answer"><strong>Answer: D</strong></p>
 <div class="quiz-rationale">
 <p><strong>Rationale:</strong></p>
-<p><strong>A. Correct:</strong> This pattern suggests vancomycin infusion reaction, requiring interruption and slower administration as prescribed.</p>
+<p><strong>A. Incorrect:</strong> Heat does not address the reaction.</p>
 <p><strong>B. Incorrect:</strong> Faster infusion worsens the reaction.</p>
 <p><strong>C. Incorrect:</strong> Vancomycin should not be given IV push.</p>
-<p><strong>D. Incorrect:</strong> Heat does not address the reaction.</p>
+<p><strong>D. Correct:</strong> This pattern suggests vancomycin infusion reaction, requiring interruption and slower administration as prescribed.</p>
 </div>
 </details>
 
@@ -1392,18 +1392,18 @@ title: Immune & Inflammatory Disorders Supplemental Practice Quiz
 
 <p>A client reports a penicillin allergy before receiving cephalexin. Which action should the nurse take <strong>first</strong>?</p>
 
-<p class="answer-choice"><strong>A.</strong> Ask the client to describe the previous reaction</p>
-<p class="answer-choice"><strong>B.</strong> Administer the medication and observe later</p>
+<p class="answer-choice"><strong>A.</strong> Administer the medication and observe later</p>
+<p class="answer-choice"><strong>B.</strong> Ask the client to describe the previous reaction</p>
 <p class="answer-choice"><strong>C.</strong> Change the prescribed interval</p>
 <p class="answer-choice"><strong>D.</strong> Tell the client cross-reactions do not occur</p>
 
 <details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
-<p class="quiz-answer"><strong>Answer: A</strong></p>
+<p class="quiz-answer"><strong>Answer: B</strong></p>
 <div class="quiz-rationale">
 <p><strong>Rationale:</strong></p>
-<p><strong>A. Correct:</strong> Clarifying the reaction distinguishes intolerance from a true severe allergy and guides provider notification.</p>
-<p><strong>B. Incorrect:</strong> Giving before assessment may be unsafe.</p>
+<p><strong>A. Incorrect:</strong> Giving before assessment may be unsafe.</p>
+<p><strong>B. Correct:</strong> Clarifying the reaction distinguishes intolerance from a true severe allergy and guides provider notification.</p>
 <p><strong>C. Incorrect:</strong> The nurse cannot independently change the schedule.</p>
 <p><strong>D. Incorrect:</strong> Cross-allergy is possible.</p>
 </div>
@@ -1415,19 +1415,19 @@ title: Immune & Inflammatory Disorders Supplemental Practice Quiz
 
 <p>A client receiving penicillin develops wheezing, hypotension, and hives. Which medication should the nurse expect to administer <strong>first</strong>?</p>
 
-<p class="answer-choice"><strong>A.</strong> Intramuscular epinephrine</p>
+<p class="answer-choice"><strong>A.</strong> Calcium carbonate</p>
 <p class="answer-choice"><strong>B.</strong> Oral acetaminophen</p>
-<p class="answer-choice"><strong>C.</strong> Calcium carbonate</p>
+<p class="answer-choice"><strong>C.</strong> Intramuscular epinephrine</p>
 <p class="answer-choice"><strong>D.</strong> Topical hydrocortisone</p>
 
 <details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
-<p class="quiz-answer"><strong>Answer: A</strong></p>
+<p class="quiz-answer"><strong>Answer: C</strong></p>
 <div class="quiz-rationale">
 <p><strong>Rationale:</strong></p>
-<p><strong>A. Correct:</strong> Epinephrine is first-line treatment for anaphylaxis.</p>
+<p><strong>A. Incorrect:</strong> This is unrelated.</p>
 <p><strong>B. Incorrect:</strong> This does not treat airway or circulatory collapse.</p>
-<p><strong>C. Incorrect:</strong> This is unrelated.</p>
+<p><strong>C. Correct:</strong> Epinephrine is first-line treatment for anaphylaxis.</p>
 <p><strong>D. Incorrect:</strong> Topical therapy is inadequate.</p>
 </div>
 </details>
@@ -1438,20 +1438,20 @@ title: Immune & Inflammatory Disorders Supplemental Practice Quiz
 
 <p>A nurse is teaching a client about oral erythromycin in the course notes. Which instruction should the nurse include?</p>
 
-<p class="answer-choice"><strong>A.</strong> Take the enteric-coated tablet on an empty stomach with water and do not crush it.</p>
+<p class="answer-choice"><strong>A.</strong> Stop the medication when the cough improves.</p>
 <p class="answer-choice"><strong>B.</strong> Crush the tablet into an acidic beverage.</p>
 <p class="answer-choice"><strong>C.</strong> Take it with milk and antacids.</p>
-<p class="answer-choice"><strong>D.</strong> Stop the medication when the cough improves.</p>
+<p class="answer-choice"><strong>D.</strong> Take the enteric-coated tablet on an empty stomach with water and do not crush it.</p>
 
 <details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
-<p class="quiz-answer"><strong>Answer: A</strong></p>
+<p class="quiz-answer"><strong>Answer: D</strong></p>
 <div class="quiz-rationale">
 <p><strong>Rationale:</strong></p>
-<p><strong>A. Correct:</strong> The coating protects the drug from stomach acid and the tablet should remain intact.</p>
+<p><strong>A. Incorrect:</strong> The full prescription should be completed.</p>
 <p><strong>B. Incorrect:</strong> Crushing destroys the coating.</p>
 <p><strong>C. Incorrect:</strong> These instructions can reduce absorption.</p>
-<p><strong>D. Incorrect:</strong> The full prescription should be completed.</p>
+<p><strong>D. Correct:</strong> The coating protects the drug from stomach acid and the tablet should remain intact.</p>
 </div>
 </details>
 
@@ -1484,18 +1484,18 @@ title: Immune & Inflammatory Disorders Supplemental Practice Quiz
 
 <p>A pregnant client has a new prescription for tetracycline. Which action should the nurse take?</p>
 
-<p class="answer-choice"><strong>A.</strong> Question the prescription because of fetal tooth and bone effects</p>
-<p class="answer-choice"><strong>B.</strong> Administer it with milk</p>
+<p class="answer-choice"><strong>A.</strong> Administer it with milk</p>
+<p class="answer-choice"><strong>B.</strong> Question the prescription because of fetal tooth and bone effects</p>
 <p class="answer-choice"><strong>C.</strong> Tell the client photosensitivity is the only concern</p>
 <p class="answer-choice"><strong>D.</strong> Advise doubling calcium intake with the dose</p>
 
 <details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
-<p class="quiz-answer"><strong>Answer: A</strong></p>
+<p class="quiz-answer"><strong>Answer: B</strong></p>
 <div class="quiz-rationale">
 <p><strong>Rationale:</strong></p>
-<p><strong>A. Correct:</strong> Tetracyclines are generally avoided during pregnancy when alternatives exist.</p>
-<p><strong>B. Incorrect:</strong> Milk reduces absorption.</p>
+<p><strong>A. Incorrect:</strong> Milk reduces absorption.</p>
+<p><strong>B. Correct:</strong> Tetracyclines are generally avoided during pregnancy when alternatives exist.</p>
 <p><strong>C. Incorrect:</strong> The fetal effects are important.</p>
 <p><strong>D. Incorrect:</strong> Calcium taken with the dose impairs absorption.</p>
 </div>
@@ -1507,19 +1507,19 @@ title: Immune & Inflammatory Disorders Supplemental Practice Quiz
 
 <p>A nurse is monitoring a client receiving chloramphenicol. Which finding is most concerning?</p>
 
-<p class="answer-choice"><strong>A.</strong> Pancytopenia on the CBC</p>
+<p class="answer-choice"><strong>A.</strong> Brief joint stiffness</p>
 <p class="answer-choice"><strong>B.</strong> Mild thirst</p>
-<p class="answer-choice"><strong>C.</strong> Brief joint stiffness</p>
+<p class="answer-choice"><strong>C.</strong> Pancytopenia on the CBC</p>
 <p class="answer-choice"><strong>D.</strong> Increased appetite</p>
 
 <details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
-<p class="quiz-answer"><strong>Answer: A</strong></p>
+<p class="quiz-answer"><strong>Answer: C</strong></p>
 <div class="quiz-rationale">
 <p><strong>Rationale:</strong></p>
-<p><strong>A. Correct:</strong> Chloramphenicol can cause severe aplastic anemia and marrow suppression.</p>
+<p><strong>A. Incorrect:</strong> This is unrelated.</p>
 <p><strong>B. Incorrect:</strong> This is nonspecific.</p>
-<p><strong>C. Incorrect:</strong> This is unrelated.</p>
+<p><strong>C. Correct:</strong> Chloramphenicol can cause severe aplastic anemia and marrow suppression.</p>
 <p><strong>D. Incorrect:</strong> This is unrelated.</p>
 </div>
 </details>
@@ -1530,20 +1530,20 @@ title: Immune & Inflammatory Disorders Supplemental Practice Quiz
 
 <p>A client taking ciprofloxacin reports Achilles tendon pain. Which instruction should the nurse give?</p>
 
-<p class="answer-choice"><strong>A.</strong> Hold the dose and notify the provider</p>
+<p class="answer-choice"><strong>A.</strong> Take the medication with an antacid</p>
 <p class="answer-choice"><strong>B.</strong> Continue the drug and begin running exercises</p>
 <p class="answer-choice"><strong>C.</strong> Massage the tendon vigorously</p>
-<p class="answer-choice"><strong>D.</strong> Take the medication with an antacid</p>
+<p class="answer-choice"><strong>D.</strong> Hold the dose and notify the provider</p>
 
 <details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
-<p class="quiz-answer"><strong>Answer: A</strong></p>
+<p class="quiz-answer"><strong>Answer: D</strong></p>
 <div class="quiz-rationale">
 <p><strong>Rationale:</strong></p>
-<p><strong>A. Correct:</strong> Tendon pain can precede rupture and requires prompt action.</p>
+<p><strong>A. Incorrect:</strong> Antacids can reduce absorption and do not treat toxicity.</p>
 <p><strong>B. Incorrect:</strong> Exercise increases rupture risk.</p>
 <p><strong>C. Incorrect:</strong> Massage may worsen injury.</p>
-<p><strong>D. Incorrect:</strong> Antacids can reduce absorption and do not treat toxicity.</p>
+<p><strong>D. Correct:</strong> Tendon pain can precede rupture and requires prompt action.</p>
 </div>
 </details>
 
@@ -1576,18 +1576,18 @@ title: Immune & Inflammatory Disorders Supplemental Practice Quiz
 
 <p>A nurse is teaching a client taking a sulfonamide. Which instruction should the nurse include?</p>
 
-<p class="answer-choice"><strong>A.</strong> Increase fluids and use sun protection.</p>
-<p class="answer-choice"><strong>B.</strong> Restrict fluids to prevent crystalluria.</p>
+<p class="answer-choice"><strong>A.</strong> Restrict fluids to prevent crystalluria.</p>
+<p class="answer-choice"><strong>B.</strong> Increase fluids and use sun protection.</p>
 <p class="answer-choice"><strong>C.</strong> Take the medication only when symptoms occur.</p>
 <p class="answer-choice"><strong>D.</strong> Ignore any new rash.</p>
 
 <details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
-<p class="quiz-answer"><strong>Answer: A</strong></p>
+<p class="quiz-answer"><strong>Answer: B</strong></p>
 <div class="quiz-rationale">
 <p><strong>Rationale:</strong></p>
-<p><strong>A. Correct:</strong> Hydration reduces crystalluria and sun protection limits photosensitivity.</p>
-<p><strong>B. Incorrect:</strong> Restriction increases stone risk.</p>
+<p><strong>A. Incorrect:</strong> Restriction increases stone risk.</p>
+<p><strong>B. Correct:</strong> Hydration reduces crystalluria and sun protection limits photosensitivity.</p>
 <p><strong>C. Incorrect:</strong> The medication should follow the prescribed schedule.</p>
 <p><strong>D. Incorrect:</strong> A rash may signal a serious reaction.</p>
 </div>
@@ -1599,19 +1599,19 @@ title: Immune & Inflammatory Disorders Supplemental Practice Quiz
 
 <p>A client taking trimethoprim-sulfamethoxazole develops a widespread blistering rash. Which action should the nurse take?</p>
 
-<p class="answer-choice"><strong>A.</strong> Hold the medication and seek immediate evaluation</p>
+<p class="answer-choice"><strong>A.</strong> Increase sun exposure</p>
 <p class="answer-choice"><strong>B.</strong> Apply lotion and take the next dose</p>
-<p class="answer-choice"><strong>C.</strong> Increase sun exposure</p>
+<p class="answer-choice"><strong>C.</strong> Hold the medication and seek immediate evaluation</p>
 <p class="answer-choice"><strong>D.</strong> Reduce fluid intake</p>
 
 <details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
-<p class="quiz-answer"><strong>Answer: A</strong></p>
+<p class="quiz-answer"><strong>Answer: C</strong></p>
 <div class="quiz-rationale">
 <p><strong>Rationale:</strong></p>
-<p><strong>A. Correct:</strong> A severe rash can indicate Stevens-Johnson syndrome.</p>
+<p><strong>A. Incorrect:</strong> Sun exposure can worsen reactions.</p>
 <p><strong>B. Incorrect:</strong> Continuing the drug is unsafe.</p>
-<p><strong>C. Incorrect:</strong> Sun exposure can worsen reactions.</p>
+<p><strong>C. Correct:</strong> A severe rash can indicate Stevens-Johnson syndrome.</p>
 <p><strong>D. Incorrect:</strong> Fluid restriction is not appropriate.</p>
 </div>
 </details>
@@ -1622,20 +1622,20 @@ title: Immune & Inflammatory Disorders Supplemental Practice Quiz
 
 <p>A client receiving amphotericin B develops chills, hypotension, and dyspnea. Which action is the <strong>priority</strong>?</p>
 
-<p class="answer-choice"><strong>A.</strong> Stop or pause the infusion and initiate the reaction protocol</p>
+<p class="answer-choice"><strong>A.</strong> Document the reaction after completion</p>
 <p class="answer-choice"><strong>B.</strong> Increase the infusion rate</p>
 <p class="answer-choice"><strong>C.</strong> Encourage ambulation</p>
-<p class="answer-choice"><strong>D.</strong> Document the reaction after completion</p>
+<p class="answer-choice"><strong>D.</strong> Stop or pause the infusion and initiate the reaction protocol</p>
 
 <details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
-<p class="quiz-answer"><strong>Answer: A</strong></p>
+<p class="quiz-answer"><strong>Answer: D</strong></p>
 <div class="quiz-rationale">
 <p><strong>Rationale:</strong></p>
-<p><strong>A. Correct:</strong> These findings indicate a severe infusion reaction.</p>
+<p><strong>A. Incorrect:</strong> Treatment must occur immediately.</p>
 <p><strong>B. Incorrect:</strong> Faster administration can worsen instability.</p>
 <p><strong>C. Incorrect:</strong> Ambulation is unsafe.</p>
-<p><strong>D. Incorrect:</strong> Treatment must occur immediately.</p>
+<p><strong>D. Correct:</strong> These findings indicate a severe infusion reaction.</p>
 </div>
 </details>
 
@@ -1668,18 +1668,18 @@ title: Immune & Inflammatory Disorders Supplemental Practice Quiz
 
 <p>A nurse is teaching a client to use nystatin oral suspension. Which instruction should the nurse include?</p>
 
-<p class="answer-choice"><strong>A.</strong> Shake it, distribute it throughout the mouth, and keep it in contact with lesions.</p>
-<p class="answer-choice"><strong>B.</strong> Swallow it immediately without coating the mouth.</p>
+<p class="answer-choice"><strong>A.</strong> Swallow it immediately without coating the mouth.</p>
+<p class="answer-choice"><strong>B.</strong> Shake it, distribute it throughout the mouth, and keep it in contact with lesions.</p>
 <p class="answer-choice"><strong>C.</strong> Rinse the mouth with water immediately afterward.</p>
 <p class="answer-choice"><strong>D.</strong> Stop when the plaques begin to improve.</p>
 
 <details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
-<p class="quiz-answer"><strong>Answer: A</strong></p>
+<p class="quiz-answer"><strong>Answer: B</strong></p>
 <div class="quiz-rationale">
 <p><strong>Rationale:</strong></p>
-<p><strong>A. Correct:</strong> Contact with affected mucosa improves local treatment.</p>
-<p><strong>B. Incorrect:</strong> Immediate swallowing reduces contact time.</p>
+<p><strong>A. Incorrect:</strong> Immediate swallowing reduces contact time.</p>
+<p><strong>B. Correct:</strong> Contact with affected mucosa improves local treatment.</p>
 <p><strong>C. Incorrect:</strong> Immediate rinsing removes the drug.</p>
 <p><strong>D. Incorrect:</strong> The prescribed course should be completed.</p>
 </div>
@@ -1691,19 +1691,19 @@ title: Immune & Inflammatory Disorders Supplemental Practice Quiz
 
 <p>A client taking antimicrobials develops frequent watery diarrhea and abdominal cramping. Which action should the nurse take?</p>
 
-<p class="answer-choice"><strong>A.</strong> Report possible Clostridioides difficile infection</p>
+<p class="answer-choice"><strong>A.</strong> Encourage sharing the bathroom with roommates</p>
 <p class="answer-choice"><strong>B.</strong> Administer an antidiarrheal without evaluation</p>
-<p class="answer-choice"><strong>C.</strong> Encourage sharing the bathroom with roommates</p>
+<p class="answer-choice"><strong>C.</strong> Report possible Clostridioides difficile infection</p>
 <p class="answer-choice"><strong>D.</strong> Stop hand hygiene because gloves are sufficient</p>
 
 <details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
-<p class="quiz-answer"><strong>Answer: A</strong></p>
+<p class="quiz-answer"><strong>Answer: C</strong></p>
 <div class="quiz-rationale">
 <p><strong>Rationale:</strong></p>
-<p><strong>A. Correct:</strong> Severe antibiotic-associated diarrhea requires evaluation for C. difficile.</p>
+<p><strong>A. Incorrect:</strong> Contact precautions may be required.</p>
 <p><strong>B. Incorrect:</strong> Antimotility drugs may be unsafe without assessment.</p>
-<p><strong>C. Incorrect:</strong> Contact precautions may be required.</p>
+<p><strong>C. Correct:</strong> Severe antibiotic-associated diarrhea requires evaluation for C. difficile.</p>
 <p><strong>D. Incorrect:</strong> Hand hygiene remains essential.</p>
 </div>
 </details>
