@@ -1872,12 +1872,18 @@ body[data-page-type="mental-health-hub"] .main-content .mh-guide-icon img {
   box-shadow: 0 1px 4px rgba(34, 28, 80, 0.05);
 }
 
-:is(body[data-section="mental-health"], body[data-section="pharmacology"], body[data-section="renal-urinary"], body[data-section="sensory-perception"], body[data-section="immune-inflammatory"]) .detail-mini-card strong:first-child {
+:is(body[data-section="mental-health"], body[data-section="pharmacology"], body[data-section="renal-urinary"], body[data-section="sensory-perception"], body[data-section="immune-inflammatory"]) .detail-mini-card > strong:first-child {
   display: block;
   margin-bottom: 0.35rem;
   font-size: 0.95rem;
   font-weight: 900;
   color: var(--mh-ink);
+}
+/* Bold inside bullets/paragraphs must stay inline (never become a block heading) */
+:is(body[data-section="mental-health"], body[data-section="pharmacology"], body[data-section="renal-urinary"], body[data-section="sensory-perception"], body[data-section="immune-inflammatory"]) .detail-mini-card :is(li, p) strong {
+  display: inline;
+  margin: 0;
+  font-size: inherit;
 }
 
 :is(body[data-section="mental-health"], body[data-section="pharmacology"], body[data-section="renal-urinary"], body[data-section="sensory-perception"], body[data-section="immune-inflammatory"]) .detail-mini-card ul,
