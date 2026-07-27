@@ -91,23 +91,6 @@ page_type: practice-hub
       </article>
     </section>
 
-    <div class="practice-lower-grid single-panel">
-      <section class="practice-panel performance" id="performance" aria-labelledby="performance-title">
-        <div class="practice-panel-heading">
-          <h2 id="performance-title">⌁ Practice Snapshot</h2>
-        </div>
-        <div class="practice-score-ring" aria-label="Five practice tests">
-          <span>5</span>
-          <small>Practice Tests</small>
-        </div>
-        <ul>
-          <li><span>✓ Practice tests</span><strong>5</strong></li>
-          <li><span>◎ Mental Health questions</span><strong>317</strong></li>
-          <li><span>🔥 Sections</span><strong>Mental Health, Medical Emergencies, Renal, Immune, Sensory</strong></li>
-        </ul>
-      </section>
-    </div>
-
     <aside class="practice-tip">
       <span>💡</span>
       <p><strong>Tip:</strong> Mental Health now includes eight topic sets plus a Medication Questions filter that pulls med-related questions from every set.</p>
