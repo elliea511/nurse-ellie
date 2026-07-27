@@ -606,3 +606,51 @@ body[data-page-type="practice-hub"] .main-content {
     display: none;
   }
 }
+
+/* ============================================================
+   Dark mode for the Practice Hub. Flip the shell variables and
+   the hardcoded light surfaces; keep the colorful theme chips
+   (card icons / meta badges) as bright accents.
+   ============================================================ */
+[data-theme="dark"] body[data-page-type="practice-hub"] {
+  background:
+    radial-gradient(circle at top left, rgba(142,105,232,.20), transparent 32rem),
+    linear-gradient(135deg, #16121f 0%, #191428 60%, #141a24 100%) !important;
+}
+[data-theme="dark"] .practice-hub {
+  --practice-ink: #e9e6f6;
+  --practice-muted: #a9a3c4;
+  --practice-purple: #c3aef7;
+  --practice-purple-deep: #d8c8ff;
+  --practice-purple-soft: #2c2547;
+  --practice-line: #39324f;
+  --practice-card: #221d33;
+}
+[data-theme="dark"] .practice-sidebar {
+  background: #1c1830 !important;
+  border-color: #39324f !important;
+}
+[data-theme="dark"] .practice-test-card,
+[data-theme="dark"] .practice-panel,
+[data-theme="dark"] .practice-streak-card,
+[data-theme="dark"] .practice-attempt-list li {
+  background: #221d33 !important;
+  border-color: #39324f !important;
+}
+[data-theme="dark"] .practice-side-nav a {
+  background: #2a2340 !important;
+  color: #d7d2ea !important;
+}
+[data-theme="dark"] .practice-side-nav a.is-active {
+  background: linear-gradient(135deg, #3a2f63, #2c2547) !important;
+  color: #eee8ff !important;
+}
+[data-theme="dark"] .practice-mini-brand strong { color: #d8c8ff !important; }
+[data-theme="dark"] .practice-mini-brand small { color: #a9a3c4 !important; }
+[data-theme="dark"] .practice-panel-heading h2,
+[data-theme="dark"] .practice-hero h1,
+[data-theme="dark"] .practice-test-card h2 { color: #f2f0fb !important; }
+[data-theme="dark"] .practice-score-ring {
+  background: #2a2340 !important;
+  color: #eee8ff !important;
+}
