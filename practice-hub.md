@@ -69,6 +69,16 @@ page_type: practice-hub
         </div>
         <footer><span>Ready now</span><a href="{{ '/renal-urinary/renal-system-quiz.html' | relative_url }}">Start</a></footer>
       </article>
+
+      <article class="practice-test-card theme-pink">
+        <span class="practice-card-icon">🛡️</span>
+        <div>
+          <h2>Immune System</h2>
+          <p>Lupus, rheumatoid arthritis, gout, immunosuppressive therapy, neutropenia, HIV/AIDS, opportunistic infections, anaphylaxis, transplant precautions, and infection prevention.</p>
+          <div class="practice-meta"><span>▤ 52 Questions</span><b>Active</b></div>
+        </div>
+        <footer><span>Ready now</span><a href="{{ '/immune-inflammatory/immune-system-quiz.html' | relative_url }}">Start</a></footer>
+      </article>
     </section>
 
     <div class="practice-lower-grid single-panel">
@@ -76,14 +86,14 @@ page_type: practice-hub
         <div class="practice-panel-heading">
           <h2 id="performance-title">⌁ Practice Snapshot</h2>
         </div>
-        <div class="practice-score-ring" aria-label="Three of three practice areas are ready">
-          <span>3/3</span>
+        <div class="practice-score-ring" aria-label="Four of four practice areas are ready">
+          <span>4/4</span>
           <small>Tests Ready</small>
         </div>
         <ul>
-          <li><span>✓ Active tests</span><strong>3</strong></li>
+          <li><span>✓ Active tests</span><strong>4</strong></li>
           <li><span>◎ Mental Health questions</span><strong>317</strong></li>
-          <li><span>🔥 Available now</span><strong>Mental Health + Medical Emergencies + Renal</strong></li>
+          <li><span>🔥 Available now</span><strong>Mental Health, Medical Emergencies, Renal, Immune</strong></li>
           <li><span>▣ Next set</span><strong>More topic quizzes</strong></li>
         </ul>
       </section>
