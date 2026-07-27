@@ -16,250 +16,391 @@ page_type: maternity-hub
     width: 100% !important;
     max-width: 100% !important;
     margin: 0 !important;
-    padding: 2.25rem 0 3rem !important;
+    padding: 2rem 0 3rem !important;
     border-radius: 0 !important;
     box-shadow: none !important;
     background: transparent !important;
   }
 
-  .maternity-hub,
-  .maternity-hub * {
+  .maternity-study-page,
+  .maternity-study-page * {
     box-sizing: border-box;
   }
 
-  .maternity-hub {
-    --mat-navy: #0b174e;
-    --mat-rose: #f35a9a;
-    --mat-rose-deep: #d83378;
-    --mat-blush: #fff0f6;
-    --mat-blush-2: #fde8f2;
-    --mat-lavender: #8060bf;
-    --mat-lavender-soft: #f2ecff;
-    --mat-peach: #f47b4f;
-    --mat-peach-soft: #fff0e8;
-    --mat-mint: #35a96f;
-    --mat-mint-soft: #e8f8ef;
-    --mat-aqua: #25b5c8;
-    --mat-aqua-soft: #e8f9fc;
-    --mat-blue: #5f6fea;
-    --mat-blue-soft: #efefff;
-    --mat-muted: #68728c;
-    padding: 0 2rem;
-    color: var(--mat-navy);
+  .maternity-study-page {
+    --mat-navy: #10124a;
+    --mat-ink: #161850;
+    --mat-muted: #65708f;
+    --mat-rose: #f45b9b;
+    --mat-rose-deep: #d7377e;
+    --mat-rose-soft: #fff0f7;
+    --mat-border: rgba(226, 150, 193, 0.42);
+    --mat-shadow: 0 14px 34px rgba(49, 33, 82, 0.09);
+    width: min(100% - 3rem, 1420px);
+    margin: 0 auto;
+    color: var(--mat-ink);
   }
 
-  .maternity-hub .mh-hub-header h1 {
+  .maternity-study-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 0 0 1rem;
+    padding-left: 0.25rem;
+  }
+
+  .maternity-study-header__icon {
+    width: clamp(3.1rem, 5vw, 4.4rem);
+    height: clamp(3.1rem, 5vw, 4.4rem);
+    object-fit: contain;
+    flex: 0 0 auto;
+    filter: drop-shadow(0 10px 16px rgba(244, 91, 155, 0.14));
+  }
+
+  .maternity-study-header h1 {
+    margin: 0;
     color: var(--mat-navy) !important;
     -webkit-text-fill-color: var(--mat-navy) !important;
     font-family: "Playfair Display", Georgia, serif !important;
-    font-size: clamp(2.45rem, 4.6vw, 4.35rem) !important;
+    font-size: clamp(2.45rem, 4vw, 4.35rem) !important;
     font-weight: 900 !important;
-    line-height: .98 !important;
-    letter-spacing: -.04em;
+    line-height: 0.98 !important;
+    letter-spacing: -0.045em;
+    white-space: nowrap;
   }
 
-  .maternity-hub .mh-hub-header p {
+  .maternity-study-header p {
+    margin: 0.45rem 0 0;
     color: var(--mat-rose);
+    font-size: clamp(1rem, 1.4vw, 1.28rem);
     font-weight: 900;
   }
 
-  .maternity-brandmark,
-  .maternity-sidebar-icon,
-  .maternity-topic-icon,
-  .maternity-shortcut-icon {
-    color: var(--mat-rose);
-  }
-
-  .maternity-brandmark svg {
-    width: 4.15rem;
-    height: 4.15rem;
-    stroke: currentColor;
-    filter: drop-shadow(0 10px 14px rgba(243, 90, 154, .14));
-  }
-
-  .maternity-orbit {
-    min-height: 820px;
-  }
-
-  .maternity-orbit::before {
-    inset: 10% 18%;
-    border-color: rgba(243, 90, 154, .38);
-  }
-
-  .maternity-orbit .mh-connector-lines line {
-    stroke: rgba(243, 90, 154, .64);
-    stroke-width: 2;
-    stroke-dasharray: 5 8;
-  }
-
-  .maternity-orbit .mh-connector-dots circle {
-    fill: var(--mat-rose);
-  }
-
-  .maternity-center {
-    position: absolute;
-    z-index: 1;
-    top: 50%;
-    left: 50%;
-    width: 29rem;
-    height: 34rem;
-    transform: translate(-50%, -50%);
-    color: var(--mat-rose);
-  }
-
-  .maternity-hub__illustration-wrap {
-    position: relative;
+  .maternity-study-layout {
     display: grid;
-    place-items: center;
-    width: 100%;
-    height: 100%;
+    grid-template-columns: minmax(0, 1fr) minmax(280px, 320px);
+    gap: clamp(1.75rem, 3.5vw, 3.5rem);
+    align-items: start;
   }
 
-  .maternity-hub__illustration-glow {
-    position: absolute;
-    inset: 11% 11% 12%;
-    border: 1px solid rgba(243, 90, 154, .1);
-    border-radius: 50%;
-    background: radial-gradient(circle, rgba(253, 232, 242, .9), rgba(242, 236, 255, .5) 58%, rgba(255, 255, 255, 0) 72%);
-  }
-
-  .maternity-hub__illustration {
+  .maternity-study-diagram {
     position: relative;
-    z-index: 1;
-    width: 100%;
-    height: 100%;
-    overflow: visible;
-    color: var(--mat-rose);
-    filter: drop-shadow(0 20px 22px rgba(122, 56, 96, .12));
-  }
-
-  .maternity-hub__illustration .soft-fill {
-    fill: rgba(243, 90, 154, .055);
-    stroke: none;
-  }
-
-  .maternity-hub__illustration .womb-fill {
-    fill: rgba(243, 90, 154, .075);
-    stroke: rgba(243, 90, 154, .72);
-  }
-
-  .maternity-hub__illustration .line {
-    fill: none;
-    stroke: currentColor;
-    stroke-width: 2.6;
-    stroke-linecap: round;
-    stroke-linejoin: round;
-  }
-
-  .maternity-hub__illustration .line-soft {
-    fill: none;
-    stroke: currentColor;
-    stroke-width: 1.55;
-    stroke-linecap: round;
-    stroke-linejoin: round;
-    opacity: .44;
-  }
-
-  .maternity-orbit .mh-topic-card {
-    width: min(245px, 28%);
-    border-color: rgba(243, 178, 207, .75);
-    box-shadow: 0 8px 20px rgba(84, 45, 74, .09);
-  }
-
-  .maternity-orbit .mh-topic-card:hover,
-  .maternity-orbit .mh-topic-card:focus-visible {
-    border-color: var(--mat-rose);
-    box-shadow: 0 13px 26px rgba(84, 45, 74, .14);
-  }
-
-  .maternity-orbit .mh-topic-card strong {
-    color: var(--mat-navy);
-  }
-
-  .maternity-orbit .mh-topic-card small {
-    color: var(--mat-muted);
-  }
-
-  .maternity-topic-antepartum { left: 50%; top: 15%; }
-  .maternity-topic-intrapartum { left: 17%; top: 33%; }
-  .maternity-topic-newborn { left: 14%; top: 58%; }
-  .maternity-topic-meds { left: 28%; top: 82%; }
-  .maternity-topic-labs { left: 72%; top: 82%; }
-  .maternity-topic-role { left: 86%; top: 58%; }
-  .maternity-topic-postpartum { left: 83%; top: 33%; }
-
-  .maternity-icon-rose { background: var(--mat-blush-2); color: var(--mat-rose-deep); }
-  .maternity-icon-lavender { background: var(--mat-lavender-soft); color: var(--mat-lavender); }
-  .maternity-icon-peach { background: var(--mat-peach-soft); color: var(--mat-peach); }
-  .maternity-icon-mint { background: var(--mat-mint-soft); color: var(--mat-mint); }
-  .maternity-icon-aqua { background: var(--mat-aqua-soft); color: var(--mat-aqua); }
-  .maternity-icon-blue { background: var(--mat-blue-soft); color: var(--mat-blue); }
-
-  .maternity-topic-icon svg,
-  .maternity-sidebar-icon svg,
-  .maternity-shortcut-icon svg {
-    width: 1.75rem;
-    height: 1.75rem;
-    stroke: currentColor;
-  }
-
-  .maternity-sidebar {
-    border-color: rgba(243, 178, 207, .7);
-    background: linear-gradient(155deg, #fff, #fffafb);
-  }
-
-  .maternity-sidebar h2 {
-    color: var(--mat-navy) !important;
-  }
-
-  .maternity-sidebar .mh-guide-rule {
-    background: rgba(243, 90, 154, .25);
-  }
-
-  .maternity-sidebar li::before {
-    border-color: var(--mat-rose);
-    color: var(--mat-rose-deep);
-  }
-
-  .maternity-sidebar .mh-nclex-link {
-    border-color: rgba(243, 178, 207, .9);
-    background: var(--mat-blush);
-    color: #a61f62 !important;
-  }
-
-  .maternity-sidebar .mh-nclex-link > span:first-child {
-    color: var(--mat-rose);
-  }
-
-  .maternity-sidebar .mh-guide-tip {
-    border-color: rgba(243, 178, 207, .75);
-    background: #fff6fa;
-    color: #7d2d5a;
-  }
-
-  .maternity-shortcuts {
-    grid-template-columns: 1fr;
-    width: min(360px, 100%);
+    width: min(100%, 930px);
+    aspect-ratio: 1.18 / 1;
+    min-height: 650px;
     margin-inline: auto;
   }
 
-  .maternity-shortcuts a {
-    border-color: rgba(243, 178, 207, .72);
+  .maternity-study-diagram::before {
+    content: "";
+    position: absolute;
+    inset: 13% 20% 10%;
+    border: 2px dashed rgba(244, 91, 155, 0.36);
+    border-radius: 50%;
+    pointer-events: none;
+  }
+
+  .maternity-connector {
+    position: absolute;
+    z-index: 1;
+    width: var(--line-width, 170px);
+    height: 2px;
+    border-top: 2px dashed rgba(244, 91, 155, 0.48);
+    transform: rotate(var(--line-angle, 0deg));
+    transform-origin: left center;
+    pointer-events: none;
+  }
+
+  .maternity-connector::after {
+    content: "";
+    position: absolute;
+    top: -5px;
+    right: -3px;
+    width: 10px;
+    height: 10px;
+    border-radius: 999px;
+    background: var(--mat-rose);
+    box-shadow: 0 0 0 5px rgba(244, 91, 155, 0.1);
+  }
+
+  .maternity-connector--top { left: 49.5%; top: 22%; --line-width: 100px; --line-angle: 90deg; }
+  .maternity-connector--upper-left { left: 31%; top: 37%; --line-width: 176px; --line-angle: 18deg; }
+  .maternity-connector--upper-right { left: 58%; top: 37%; --line-width: 176px; --line-angle: -18deg; }
+  .maternity-connector--middle-left { left: 26%; top: 58%; --line-width: 195px; --line-angle: -10deg; }
+  .maternity-connector--middle-right { left: 59%; top: 58%; --line-width: 195px; --line-angle: 10deg; }
+  .maternity-connector--bottom-left { left: 39%; top: 75%; --line-width: 126px; --line-angle: -52deg; }
+  .maternity-connector--bottom-right { left: 54%; top: 75%; --line-width: 126px; --line-angle: -128deg; }
+
+  .maternity-hub__center {
+    position: absolute;
+    left: 50%;
+    top: 52%;
+    z-index: 3;
+    width: clamp(235px, 29%, 330px);
+    transform: translate(-50%, -50%);
+  }
+
+  .maternity-hub__center-glow {
+    position: absolute;
+    inset: 5% -10% 7%;
+    z-index: 1;
+    border: 1px solid rgba(225, 134, 184, 0.16);
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(253, 232, 242, 0.42), rgba(242, 158, 201, 0.11) 62%, rgba(255, 255, 255, 0) 73%);
+  }
+
+  .maternity-hub__center-image {
+    position: relative;
+    z-index: 2;
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    filter: drop-shadow(0 18px 24px rgba(124, 49, 92, 0.1));
+  }
+
+  .maternity-topic-card {
+    position: absolute;
+    z-index: 4;
+    display: flex;
+    align-items: center;
+    gap: 0.82rem;
+    width: clamp(215px, 27%, 270px);
+    min-height: 88px;
+    padding: 0.85rem 0.95rem;
+    border: 1px solid var(--mat-border);
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.96);
+    box-shadow: var(--mat-shadow);
+    color: inherit;
+    text-decoration: none;
+    transition: transform 160ms ease, box-shadow 160ms ease, border-color 160ms ease;
+  }
+
+  .maternity-topic-card:hover {
+    transform: translateY(-3px);
+    border-color: rgba(244, 91, 155, 0.72);
+    box-shadow: 0 18px 34px rgba(49, 33, 82, 0.14);
+  }
+
+  .maternity-topic-card:focus-visible {
+    outline: 3px solid rgba(216, 74, 148, 0.35);
+    outline-offset: 3px;
+  }
+
+  .maternity-topic-card__icon-wrap {
+    display: grid;
+    place-items: center;
+    flex: 0 0 54px;
+    width: 54px;
+    height: 54px;
+    overflow: hidden;
+    border-radius: 50%;
+    background: var(--mat-rose-soft);
+  }
+
+  .maternity-topic-card__icon {
+    display: block;
+    width: 120%;
+    height: 120%;
+    object-fit: contain;
+  }
+
+  .maternity-topic-card__title {
+    display: block;
+    color: var(--mat-navy);
+    font-weight: 900;
+    line-height: 1.16;
+  }
+
+  .maternity-topic-card__description {
+    display: block;
+    margin-top: 0.24rem;
+    color: var(--mat-muted);
+    font-size: 0.78rem;
+    font-weight: 750;
+    line-height: 1.35;
+  }
+
+  .maternity-topic-card--antepartum {
+    top: 2%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .maternity-topic-card--antepartum:hover {
+    transform: translateX(-50%) translateY(-3px);
+  }
+
+  .maternity-topic-card--intrapartum { top: 25%; left: 1%; }
+  .maternity-topic-card--postpartum { top: 25%; right: 1%; }
+  .maternity-topic-card--newborn { top: 54%; left: 0; }
+  .maternity-topic-card--nurses-role { top: 54%; right: 0; }
+  .maternity-topic-card--medications { bottom: 1%; left: 15%; }
+  .maternity-topic-card--labs { bottom: 1%; right: 15%; }
+
+  .maternity-back-link {
+    position: absolute;
+    left: 50%;
+    bottom: -4.25rem;
+    z-index: 5;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.7rem;
+    width: min(360px, 72%);
+    min-height: 58px;
+    padding: 0.8rem 1.25rem;
+    border: 1px solid rgba(226, 150, 193, 0.55);
+    border-radius: 17px;
+    background: rgba(255, 255, 255, 0.94);
+    box-shadow: 0 10px 24px rgba(49, 33, 82, 0.08);
+    color: var(--mat-navy);
+    font-weight: 900;
+    text-decoration: none;
+    transform: translateX(-50%);
+  }
+
+  .maternity-back-link:hover {
+    border-color: rgba(244, 91, 155, 0.65);
+    color: var(--mat-rose-deep);
+  }
+
+  .maternity-sidebar {
+    position: sticky;
+    top: 6.25rem;
+    align-self: start;
+    padding: 2.2rem 1.65rem;
+    border: 1px solid rgba(226, 150, 193, 0.54);
+    border-radius: 26px;
+    background: linear-gradient(155deg, rgba(255, 255, 255, 0.98), rgba(255, 250, 253, 0.95));
+    box-shadow: 0 16px 36px rgba(49, 33, 82, 0.09);
+  }
+
+  .maternity-sidebar__icon {
+    display: block;
+    width: 74px;
+    height: 74px;
+    margin: 0 auto 1.5rem;
+    object-fit: contain;
+  }
+
+  .maternity-sidebar h2 {
+    margin: 0;
+    color: var(--mat-navy) !important;
+    -webkit-text-fill-color: var(--mat-navy) !important;
+    font-family: inherit;
+    font-size: 1.78rem;
+    font-weight: 950;
+    line-height: 1.12;
+    text-align: center;
+  }
+
+  .maternity-sidebar__rule {
+    width: 100%;
+    height: 1px;
+    margin: 1.7rem 0;
+    background: rgba(244, 91, 155, 0.22);
+  }
+
+  .maternity-sidebar p {
+    margin: 0 0 1rem;
+    color: var(--mat-navy);
+    font-weight: 900;
+  }
+
+  .maternity-sidebar ul {
+    display: grid;
+    gap: 0.8rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .maternity-sidebar li {
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+    color: var(--mat-navy);
+    font-weight: 850;
+    line-height: 1.35;
+  }
+
+  .maternity-sidebar li img {
+    width: 23px;
+    height: 23px;
+    object-fit: contain;
+    flex: 0 0 auto;
+  }
+
+  .maternity-quick-link {
+    display: flex;
+    align-items: center;
+    gap: 0.85rem;
+    margin-top: 1.8rem;
+    padding: 1rem;
+    border: 1px solid rgba(226, 150, 193, 0.62);
+    border-radius: 18px;
+    background: #fff1f7;
+    color: var(--mat-rose-deep);
+    text-decoration: none;
+  }
+
+  .maternity-quick-link:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 22px rgba(124, 49, 92, 0.12);
+  }
+
+  .maternity-quick-link:focus-visible,
+  .maternity-back-link:focus-visible {
+    outline: 3px solid rgba(216, 74, 148, 0.35);
+    outline-offset: 3px;
+  }
+
+  .maternity-quick-link img {
+    width: 42px;
+    height: 42px;
+    object-fit: contain;
+    flex: 0 0 auto;
+  }
+
+  .maternity-quick-link strong,
+  .maternity-quick-link small {
+    display: block;
+  }
+
+  .maternity-quick-link small {
+    margin-top: 0.15rem;
+    color: #a12f67;
+    font-weight: 750;
+  }
+
+  .maternity-sidebar__tip {
+    display: flex;
+    gap: 0.7rem;
+    margin-top: 1.15rem;
+    padding: 1rem;
+    border: 1px solid rgba(226, 150, 193, 0.48);
+    border-radius: 16px;
+    background: rgba(255, 246, 250, 0.92);
+    color: #77315c;
+    font-weight: 800;
+    line-height: 1.45;
   }
 
   .maternity-quick-cues {
-    width: min(100% - 4rem, 980px);
-    margin: 1.5rem auto 0;
+    width: min(100% - 3rem, 980px);
+    margin: 5.8rem auto 0;
     padding: 1.35rem;
     scroll-margin-top: 7rem;
-    border: 1px solid rgba(243, 178, 207, .72);
+    border: 1px solid rgba(226, 150, 193, 0.54);
     border-radius: 22px;
-    background: rgba(255, 255, 255, .96);
-    box-shadow: 0 10px 26px rgba(84, 45, 74, .07);
+    background: rgba(255, 255, 255, 0.96);
+    box-shadow: 0 10px 26px rgba(49, 33, 82, 0.07);
   }
 
   .maternity-quick-cues h2 {
-    margin: 0 0 .75rem !important;
+    margin: 0 0 0.75rem !important;
     padding: 0 !important;
     border: 0 !important;
     background: transparent !important;
@@ -272,7 +413,7 @@ page_type: maternity-hub
   .maternity-quick-cues ul {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: .55rem 1rem;
+    gap: 0.55rem 1rem;
     margin: 0;
     padding-left: 1.2rem;
   }
@@ -283,252 +424,288 @@ page_type: maternity-hub
     line-height: 1.45;
   }
 
-  [data-theme="dark"] .maternity-hub .mh-hub-header h1,
-  [data-theme="dark"] .maternity-hub .mh-topic-card strong,
+  [data-theme="dark"] .maternity-study-header h1,
+  [data-theme="dark"] .maternity-topic-card__title,
   [data-theme="dark"] .maternity-sidebar h2,
+  [data-theme="dark"] .maternity-sidebar p,
+  [data-theme="dark"] .maternity-sidebar li,
+  [data-theme="dark"] .maternity-back-link,
   [data-theme="dark"] .maternity-quick-cues h2 {
     color: #f7edff !important;
     -webkit-text-fill-color: #f7edff !important;
   }
 
-  [data-theme="dark"] .maternity-orbit .mh-topic-card,
+  [data-theme="dark"] .maternity-topic-card,
   [data-theme="dark"] .maternity-sidebar,
-  [data-theme="dark"] .maternity-shortcuts a,
+  [data-theme="dark"] .maternity-back-link,
   [data-theme="dark"] .maternity-quick-cues {
-    background: #242a3c;
-    border-color: #56394d;
+    background: rgba(36, 42, 60, 0.96);
+    border-color: rgba(226, 150, 193, 0.28);
   }
 
-  [data-theme="dark"] .maternity-orbit .mh-topic-card small,
+  [data-theme="dark"] .maternity-topic-card__description,
   [data-theme="dark"] .maternity-quick-cues li {
-    color: #c9bfd1;
+    color: #cfc7d7;
   }
 
-  [data-theme="dark"] .maternity-hub__illustration-glow {
-    background: radial-gradient(circle, rgba(126, 54, 96, .36), rgba(82, 62, 128, .24) 58%, rgba(255,255,255,0) 72%);
+  [data-theme="dark"] .maternity-quick-link,
+  [data-theme="dark"] .maternity-sidebar__tip {
+    background: rgba(102, 45, 84, 0.32);
+    border-color: rgba(226, 150, 193, 0.32);
+    color: #ffd6e8;
   }
 
-  @media (max-width: 1250px) {
-    .maternity-center { width: 25rem; height: 30rem; }
-    .maternity-orbit { min-height: 760px; }
+  [data-theme="dark"] .maternity-quick-link small {
+    color: #f4b8d4;
   }
 
-  @media (max-width: 980px) {
-    .maternity-center { width: 21rem; height: 27rem; }
-    .maternity-orbit { min-height: 720px; }
-    .maternity-quick-cues { width: min(100% - 1.5rem, 820px); }
+  [data-theme="dark"] .maternity-hub__center-glow {
+    background: radial-gradient(circle, rgba(126, 54, 96, 0.28), rgba(82, 62, 128, 0.18) 60%, rgba(255, 255, 255, 0) 74%);
   }
 
-  @media (max-width: 740px) {
-    .maternity-hub { padding: 0 1rem; }
-    .maternity-brandmark svg { width: 3.2rem; height: 3.2rem; }
-    .maternity-orbit {
+  @media (max-width: 1220px) {
+    .maternity-study-page { width: min(100% - 2rem, 1180px); }
+    .maternity-study-layout { grid-template-columns: 1fr; }
+    .maternity-sidebar {
+      position: static;
+      width: min(100%, 740px);
+      margin-inline: auto;
+    }
+  }
+
+  @media (max-width: 900px) {
+    .maternity-study-diagram {
+      min-height: 0;
+      aspect-ratio: auto;
+    }
+
+    .maternity-study-diagram::before,
+    .maternity-connector {
+      display: none;
+    }
+
+    .maternity-hub__center {
+      position: relative;
+      left: auto;
+      top: auto;
+      width: min(330px, 78vw);
+      margin: 0 auto 1.2rem;
+      transform: none;
+    }
+
+    .maternity-study-diagram {
       display: grid;
-      grid-template-columns: repeat(2, minmax(125px, 1fr));
-      gap: .7rem;
-      min-height: auto;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 0.78rem;
     }
-    .maternity-orbit::before,
-    .maternity-orbit .mh-orbit-connectors { display: none; }
-    .maternity-center {
+
+    .maternity-topic-card,
+    .maternity-topic-card:hover,
+    .maternity-topic-card--antepartum,
+    .maternity-topic-card--antepartum:hover {
       position: relative;
-      grid-column: 1 / -1;
-      top: auto;
-      left: auto;
-      width: min(22rem, 100%);
-      height: 25rem;
-      margin: 0 auto;
-      transform: none;
-    }
-    .maternity-orbit .mh-topic-card,
-    .maternity-orbit .mh-topic-card:hover,
-    .maternity-orbit .mh-topic-card:focus-visible {
-      position: relative;
-      left: auto;
-      top: auto;
+      inset: auto;
       width: 100%;
+      min-height: 92px;
       transform: none;
     }
-    .maternity-quick-cues ul { grid-template-columns: 1fr; }
+
+    .maternity-hub__center,
+    .maternity-back-link {
+      grid-column: 1 / -1;
+    }
+
+    .maternity-back-link {
+      position: relative;
+      left: auto;
+      bottom: auto;
+      width: 100%;
+      margin-top: 0.3rem;
+      transform: none;
+    }
+
+    .maternity-quick-cues {
+      margin-top: 1.5rem;
+    }
   }
 
-  @media (max-width: 520px) {
-    .maternity-orbit { grid-template-columns: 1fr; }
-    .maternity-center { height: 22rem; }
-    .maternity-quick-cues { width: min(100% - 1rem, 820px); }
+  @media (max-width: 620px) {
+    .maternity-study-page { width: min(100% - 1rem, 1180px); }
+    .maternity-study-header {
+      align-items: flex-start;
+      gap: 0.8rem;
+    }
+    .maternity-study-header h1 {
+      white-space: normal;
+      font-size: clamp(2.2rem, 12vw, 3.15rem) !important;
+    }
+    .maternity-study-header__icon {
+      width: 3.15rem;
+      height: 3.15rem;
+      margin-top: 0.2rem;
+    }
+    .maternity-study-diagram { grid-template-columns: 1fr; }
+    .maternity-topic-card { min-height: 86px; }
+    .maternity-quick-cues {
+      width: min(100% - 1rem, 980px);
+    }
+    .maternity-quick-cues ul {
+      grid-template-columns: 1fr;
+    }
   }
 
   @media (prefers-reduced-motion: reduce) {
-    .maternity-hub .mh-topic-card,
-    .maternity-hub .mh-nclex-link,
-    .maternity-hub .mh-hub-shortcuts a {
+    .maternity-topic-card,
+    .maternity-quick-link {
       transition: none;
+    }
+
+    .maternity-topic-card:hover,
+    .maternity-quick-link:hover {
+      transform: none;
     }
   }
 </style>
 
-<section class="mh-hub maternity-hub" aria-labelledby="maternity-hub-title">
-  <header class="mh-hub-header">
-    <div class="mh-hub-brandmark maternity-brandmark" aria-hidden="true">
-      <svg viewBox="0 0 64 64" fill="none" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round">
-        <path d="M29 8c-6 2-10 7-10 14 0 4 1 8 4 11"></path>
-        <path d="M35 10c8 3 12 11 9 20"></path>
-        <path d="M27 21c4-5 10-5 14-1"></path>
-        <path d="M31 22c-2 4-1 8 2 11"></path>
-        <path d="M24 34c-5 4-8 9-8 15 0 5 4 8 10 8h17c5 0 8-3 8-8 0-9-7-17-16-17"></path>
-        <path d="M34 38c7 1 11 5 11 11 0 4-3 6-8 6"></path>
-        <path d="M30 42c-5 2-8 6-8 10"></path>
-        <path d="M31 49c1-4 4-6 8-5"></path>
-      </svg>
-    </div>
+<section class="maternity-study-page" aria-labelledby="maternity-study-title">
+  <header class="maternity-study-header">
+    <img
+      class="maternity-study-header__icon"
+      src="{{ '/assets/images/maternity/rose_pink_mother_and_baby_icon.png' | relative_url }}"
+      alt=""
+      aria-hidden="true"
+      data-no-lb
+    >
     <div>
-      <h1 id="maternity-hub-title">Maternity Study Hub</h1>
+      <h1 id="maternity-study-title">Maternity Study Hub</h1>
       <p>Your simple hub for maternity nursing.</p>
     </div>
   </header>
 
-  <div class="mh-hub-layout">
-    <div class="mh-hub-main">
-      <div class="mh-topic-orbit maternity-orbit" aria-label="Maternity study topics">
-        <svg class="mh-orbit-connectors" viewBox="0 0 1000 700" preserveAspectRatio="none" aria-hidden="true">
-          <g class="mh-connector-lines">
-            <line x1="500" y1="105" x2="500" y2="240"></line>
-            <line x1="170" y1="240" x2="410" y2="320"></line>
-            <line x1="140" y1="405" x2="390" y2="375"></line>
-            <line x1="280" y1="575" x2="455" y2="440"></line>
-            <line x1="720" y1="575" x2="545" y2="440"></line>
-            <line x1="860" y1="405" x2="610" y2="375"></line>
-            <line x1="830" y1="240" x2="590" y2="320"></line>
-          </g>
-          <g class="mh-connector-dots">
-            <circle cx="500" cy="105" r="6"></circle>
-            <circle cx="170" cy="240" r="6"></circle><circle cx="140" cy="405" r="6"></circle><circle cx="280" cy="575" r="6"></circle>
-            <circle cx="720" cy="575" r="6"></circle><circle cx="860" cy="405" r="6"></circle><circle cx="830" cy="240" r="6"></circle>
-          </g>
-        </svg>
+  <main class="maternity-study-layout">
+    <section class="maternity-study-diagram" aria-label="Maternity study topics">
+      <span class="maternity-connector maternity-connector--top" aria-hidden="true"></span>
+      <span class="maternity-connector maternity-connector--upper-left" aria-hidden="true"></span>
+      <span class="maternity-connector maternity-connector--upper-right" aria-hidden="true"></span>
+      <span class="maternity-connector maternity-connector--middle-left" aria-hidden="true"></span>
+      <span class="maternity-connector maternity-connector--middle-right" aria-hidden="true"></span>
+      <span class="maternity-connector maternity-connector--bottom-left" aria-hidden="true"></span>
+      <span class="maternity-connector maternity-connector--bottom-right" aria-hidden="true"></span>
 
-        <div class="maternity-center">
-          <div class="maternity-hub__illustration-wrap">
-            <div class="maternity-hub__illustration-glow" aria-hidden="true"></div>
-            <svg class="maternity-hub__illustration" viewBox="0 0 420 520" role="img" aria-labelledby="maternity-illustration-title">
-              <title id="maternity-illustration-title">Outline illustration of a pregnant mother and baby</title>
-              <ellipse class="soft-fill" cx="226" cy="294" rx="138" ry="180"></ellipse>
-              <g class="maternity-svg__hair">
-                <path class="line" d="M220 86c-38 4-69 31-76 69-7 36 9 72 35 91"></path>
-                <path class="line" d="M252 94c44 18 67 55 65 102-1 36-20 66-47 84"></path>
-                <path class="line-soft" d="M159 161c31-7 57-17 77-45"></path>
-                <path class="line-soft" d="M162 186c40-5 72-24 95-60"></path>
-                <path class="line-soft" d="M170 215c40-7 73-26 98-59"></path>
-                <path class="line-soft" d="M181 238c43-8 74-29 96-63"></path>
-                <path class="line-soft" d="M141 197c-19 25-21 55-8 82"></path>
-              </g>
-              <g class="maternity-svg__face">
-                <path class="line" d="M249 151c-13 1-24 9-29 21-4 12 0 25 10 33"></path>
-                <path class="line" d="M246 154c18 6 30 21 31 39 1 22-13 38-33 43"></path>
-                <path class="line-soft" d="M237 171c10 4 18 12 23 23"></path>
-                <path class="line-soft" d="M234 188c8 5 17 7 27 6"></path>
-                <path class="line" d="M231 201c6 4 13 5 21 3"></path>
-              </g>
-              <g class="maternity-svg__body">
-                <path class="line" d="M233 237c-7 24-6 47 3 70"></path>
-                <path class="line" d="M275 238c21 34 31 71 31 109"></path>
-                <path class="line" d="M216 275c-23 36-31 74-23 114"></path>
-                <path class="line" d="M202 334c-27 36-45 77-54 122"></path>
-                <path class="line" d="M296 330c32 42 48 85 47 130"></path>
-                <path class="line" d="M186 381c21 38 56 61 101 71"></path>
-                <path class="line" d="M191 401c32 51 77 74 135 69"></path>
-              </g>
-              <g class="maternity-svg__hands">
-                <path class="line" d="M167 286c-18 52-21 103-8 151"></path>
-                <path class="line" d="M158 432c20 17 41 27 63 31"></path>
-                <path class="line" d="M314 355c21 24 31 53 30 85"></path>
-                <path class="line" d="M343 440c-10 13-24 20-42 20"></path>
-                <path class="line-soft" d="M278 454c9 8 19 11 31 9"></path>
-                <path class="line-soft" d="M291 459c4 5 10 7 17 7"></path>
-                <path class="line-soft" d="M304 461c4 3 8 4 13 3"></path>
-              </g>
-              <g class="maternity-svg__womb">
-                <path class="line womb-fill" d="M231 318c24-39 86-31 103 15 13 35-5 83-43 99-37 15-77-8-83-46-4-25 4-49 23-68Z"></path>
-                <path class="line-soft" d="M247 330c19-19 55-15 69 10 16 28 2 67-28 78"></path>
-              </g>
-              <g class="maternity-svg__baby">
-                <path class="line" d="M274 349c-17-3-32 7-36 23-4 18 8 35 27 37"></path>
-                <path class="line" d="M272 348c16 1 29 12 32 27 3 16-5 31-20 38"></path>
-                <path class="line-soft" d="M262 365c8 3 14 8 17 16"></path>
-                <path class="line-soft" d="M250 386c12 5 25 4 36-3"></path>
-                <path class="line" d="M274 395c-7 8-7 18 0 27"></path>
-                <path class="line" d="M259 407c-11 6-20 4-29-5"></path>
-                <path class="line" d="M285 415c11 5 21 4 30-3"></path>
-                <path class="line-soft" d="M309 370c-8 11-9 23-3 36"></path>
-                <path class="line-soft" d="M241 330c18 27 48 42 88 45"></path>
-                <path class="line-soft" d="M222 399c23 19 50 25 80 18"></path>
-                <path class="line-soft" d="M288 356c5-4 10-5 16-2"></path>
-              </g>
-            </svg>
-          </div>
-        </div>
-
-        <a class="mh-topic-card maternity-topic-antepartum" href="{{ '/maternity/antepartum.html' | relative_url }}">
-          <span class="mh-topic-icon maternity-topic-icon maternity-icon-rose" aria-hidden="true"><svg viewBox="0 0 48 48" fill="none" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 17c4-5 8-6 12-1 4-5 8-4 12 1"></path><path d="M14 18c0 13 4 20 10 22 6-2 10-9 10-22"></path><path d="M18 24h12"></path><path d="M24 16v21"></path></svg></span>
-          <span><strong>Antepartum</strong><small>Prenatal assessment &amp; high-risk pregnancy care</small></span>
-        </a>
-        <a class="mh-topic-card maternity-topic-intrapartum" href="{{ '/maternity/intrapartum.html' | relative_url }}">
-          <span class="mh-topic-icon maternity-topic-icon maternity-icon-lavender" aria-hidden="true"><svg viewBox="0 0 48 48" fill="none" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M7 30h8l4-13 6 21 4-14 4 6h8"></path><path d="M8 12h32v24H8z"></path></svg></span>
-          <span><strong>Intrapartum</strong><small>Labor stages, fetal monitoring &amp; delivery priorities</small></span>
-        </a>
-        <a class="mh-topic-card maternity-topic-newborn" href="{{ '/maternity/newborn.html' | relative_url }}">
-          <span class="mh-topic-icon maternity-topic-icon maternity-icon-mint" aria-hidden="true"><svg viewBox="0 0 48 48" fill="none" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M29 13c8 2 13 9 13 17 0 9-7 16-16 16H13V34"></path><path d="M18 30c-7-2-11-7-11-13 0-7 5-12 12-12 6 0 11 4 12 10"></path><path d="M17 16h.1"></path><path d="M22 22c4 4 9 6 15 6"></path><path d="M15 34c5 2 10 2 15 0"></path></svg></span>
-          <span><strong>Newborn</strong><small>APGAR, thermoregulation, feeding &amp; jaundice</small></span>
-        </a>
-        <a class="mh-topic-card maternity-topic-meds" href="{{ '/maternity/medications.html' | relative_url }}">
-          <span class="mh-topic-icon maternity-topic-icon maternity-icon-rose" aria-hidden="true"><svg viewBox="0 0 48 48" fill="none" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M17 6h14"></path><path d="M20 6v9l-5 5v19c0 2 2 4 4 4h10c2 0 4-2 4-4V20l-5-5V6"></path><path d="M17 28h14"></path><path d="M24 24v10"></path><path d="M19 29h10"></path></svg></span>
-          <span><strong>OB Medications</strong><small>Oxytocin, magnesium sulfate, tocolytics &amp; hemorrhage meds</small></span>
-        </a>
-        <a class="mh-topic-card maternity-topic-labs" href="{{ '/maternity/maternity-labs.html' | relative_url }}">
-          <span class="mh-topic-icon maternity-topic-icon maternity-icon-lavender" aria-hidden="true"><svg viewBox="0 0 48 48" fill="none" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M19 5h10"></path><path d="M21 5v13L11 38c-1 3 1 5 4 5h18c3 0 5-2 4-5L27 18V5"></path><path d="M16 34h16"></path><path d="M20 28h8"></path></svg></span>
-          <span><strong>Maternity Labs</strong><small>Prenatal screening, Group B Strep &amp; key lab changes</small></span>
-        </a>
-        <a class="mh-topic-card maternity-topic-role" href="{{ '/maternity/nurses-role-ob-ward.html' | relative_url }}">
-          <span class="mh-topic-icon maternity-topic-icon maternity-icon-aqua" aria-hidden="true"><svg viewBox="0 0 48 48" fill="none" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M17 8h14l3 6v28H14V14l3-6Z"></path><path d="M18 17h12"></path><path d="M19 26l3 3 7-8"></path><path d="M19 36h12"></path></svg></span>
-          <span><strong>Nurse's Role on OB</strong><small>Triage, workflow &amp; unit responsibilities</small></span>
-        </a>
-        <a class="mh-topic-card maternity-topic-postpartum" href="{{ '/maternity/postpartum.html' | relative_url }}">
-          <span class="mh-topic-icon maternity-topic-icon maternity-icon-peach" aria-hidden="true"><svg viewBox="0 0 48 48" fill="none" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M24 8c7 0 13 6 13 13 0 10-8 18-13 22-5-4-13-12-13-22 0-7 6-13 13-13Z"></path><path d="M18 25c3 4 9 4 12 0"></path><path d="M20 18h.1"></path><path d="M28 18h.1"></path></svg></span>
-          <span><strong>Postpartum</strong><small>Recovery, lochia &amp; postpartum complications</small></span>
-        </a>
+      <div class="maternity-hub__center">
+        <div class="maternity-hub__center-glow" aria-hidden="true"></div>
+        <img
+          class="maternity-hub__center-image"
+          src="{{ '/assets/images/maternity/rose_pink_motherhood_and_fetal_portrait.png' | relative_url }}"
+          alt="Pregnant mother with a baby visible inside the womb"
+          data-no-lb
+        >
       </div>
 
-      <nav class="mh-hub-shortcuts maternity-shortcuts" aria-label="Maternity extra resources">
-        <a href="{{ '/all-topics.html' | relative_url }}"><span aria-hidden="true">⌂</span><strong>Back to Nursing School Hub</strong></a>
-      </nav>
-    </div>
+      <a class="maternity-topic-card maternity-topic-card--antepartum" href="{{ '/maternity/antepartum.html' | relative_url }}">
+        <span class="maternity-topic-card__icon-wrap" aria-hidden="true">
+          <img class="maternity-topic-card__icon" src="{{ '/assets/images/maternity/prenatal_care_uterus_and_fetus_icon.png' | relative_url }}" alt="" data-no-lb>
+        </span>
+        <span class="maternity-topic-card__text">
+          <span class="maternity-topic-card__title">Antepartum</span>
+          <span class="maternity-topic-card__description">Prenatal assessment &amp; high-risk pregnancy care</span>
+        </span>
+      </a>
 
-    <aside class="mh-hub-guide maternity-sidebar">
-      <div class="mh-guide-icon maternity-sidebar-icon" aria-hidden="true">
-        <svg viewBox="0 0 64 64" fill="none" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round">
-          <path d="M29 8c-6 2-10 7-10 14 0 4 1 8 4 11"></path>
-          <path d="M35 10c8 3 12 11 9 20"></path>
-          <path d="M24 34c-5 4-8 9-8 15 0 5 4 8 10 8h17c5 0 8-3 8-8 0-9-7-17-16-17"></path>
-          <path d="M34 38c7 1 11 5 11 11 0 4-3 6-8 6"></path>
-        </svg>
-      </div>
+      <a class="maternity-topic-card maternity-topic-card--intrapartum" href="{{ '/maternity/intrapartum.html' | relative_url }}">
+        <span class="maternity-topic-card__icon-wrap" aria-hidden="true">
+          <img class="maternity-topic-card__icon" src="{{ '/assets/images/maternity/fetal_monitor_waveform_icon.png' | relative_url }}" alt="" data-no-lb>
+        </span>
+        <span class="maternity-topic-card__text">
+          <span class="maternity-topic-card__title">Intrapartum</span>
+          <span class="maternity-topic-card__description">Labor stages, fetal monitoring &amp; delivery priorities</span>
+        </span>
+      </a>
+
+      <a class="maternity-topic-card maternity-topic-card--postpartum" href="{{ '/maternity/postpartum.html' | relative_url }}">
+        <span class="maternity-topic-card__icon-wrap" aria-hidden="true">
+          <img class="maternity-topic-card__icon" src="{{ '/assets/images/maternity/mother_cradling_sleeping_baby.png' | relative_url }}" alt="" data-no-lb>
+        </span>
+        <span class="maternity-topic-card__text">
+          <span class="maternity-topic-card__title">Postpartum</span>
+          <span class="maternity-topic-card__description">Recovery, lochia &amp; postpartum complications</span>
+        </span>
+      </a>
+
+      <a class="maternity-topic-card maternity-topic-card--newborn" href="{{ '/maternity/newborn.html' | relative_url }}">
+        <span class="maternity-topic-card__icon-wrap" aria-hidden="true">
+          <img class="maternity-topic-card__icon" src="{{ '/assets/images/maternity/mint_baby_in_sparkling_swaddle.png' | relative_url }}" alt="" data-no-lb>
+        </span>
+        <span class="maternity-topic-card__text">
+          <span class="maternity-topic-card__title">Newborn</span>
+          <span class="maternity-topic-card__description">APGAR, thermoregulation, feeding &amp; jaundice</span>
+        </span>
+      </a>
+
+      <a class="maternity-topic-card maternity-topic-card--nurses-role" href="{{ '/maternity/nurses-role-ob-ward.html' | relative_url }}">
+        <span class="maternity-topic-card__icon-wrap" aria-hidden="true">
+          <img class="maternity-topic-card__icon" src="{{ '/assets/images/maternity/clipboard_and_fetal_care_badge.png' | relative_url }}" alt="" data-no-lb>
+        </span>
+        <span class="maternity-topic-card__text">
+          <span class="maternity-topic-card__title">Nurse's Role on OB</span>
+          <span class="maternity-topic-card__description">Triage, workflow &amp; unit responsibilities</span>
+        </span>
+      </a>
+
+      <a class="maternity-topic-card maternity-topic-card--medications" href="{{ '/maternity/medications.html' | relative_url }}">
+        <span class="maternity-topic-card__icon-wrap" aria-hidden="true">
+          <img class="maternity-topic-card__icon" src="{{ '/assets/images/maternity/rose_pink_ob_medication_icon.png' | relative_url }}" alt="" data-no-lb>
+        </span>
+        <span class="maternity-topic-card__text">
+          <span class="maternity-topic-card__title">OB Medications</span>
+          <span class="maternity-topic-card__description">Oxytocin, magnesium sulfate, tocolytics &amp; hemorrhage meds</span>
+        </span>
+      </a>
+
+      <a class="maternity-topic-card maternity-topic-card--labs" href="{{ '/maternity/maternity-labs.html' | relative_url }}">
+        <span class="maternity-topic-card__icon-wrap" aria-hidden="true">
+          <img class="maternity-topic-card__icon" src="{{ '/assets/images/maternity/lavender_chemistry_flask_badge.png' | relative_url }}" alt="" data-no-lb>
+        </span>
+        <span class="maternity-topic-card__text">
+          <span class="maternity-topic-card__title">Maternity Labs</span>
+          <span class="maternity-topic-card__description">Prenatal screening, Group B Strep &amp; key lab changes</span>
+        </span>
+      </a>
+
+      <a class="maternity-back-link" href="{{ '/all-topics.html' | relative_url }}">
+        <span aria-hidden="true">⌂</span>
+        <span>Back to Nursing School Hub</span>
+      </a>
+    </section>
+
+    <aside class="maternity-sidebar">
+      <img
+        class="maternity-sidebar__icon"
+        src="{{ '/assets/images/maternity/rose_pink_mother_and_baby_icon.png' | relative_url }}"
+        alt=""
+        aria-hidden="true"
+        data-no-lb
+      >
       <h2>Select a topic<br>to open notes</h2>
-      <div class="mh-guide-rule"></div>
+      <div class="maternity-sidebar__rule"></div>
       <p>Study resources include:</p>
       <ul>
-        <li>Overview &amp; key concepts</li>
-        <li>Assessment &amp; nursing priorities</li>
-        <li>Safety interventions</li>
-        <li>Patient education</li>
-        <li>NCLEX tips &amp; memory cues</li>
+        <li><img src="{{ '/assets/images/maternity/pink_checkmark_study_badge.png' | relative_url }}" alt="" aria-hidden="true" data-no-lb><span>Overview &amp; key concepts</span></li>
+        <li><img src="{{ '/assets/images/maternity/pink_checkmark_study_badge.png' | relative_url }}" alt="" aria-hidden="true" data-no-lb><span>Assessment &amp; nursing priorities</span></li>
+        <li><img src="{{ '/assets/images/maternity/pink_checkmark_study_badge.png' | relative_url }}" alt="" aria-hidden="true" data-no-lb><span>Safety interventions</span></li>
+        <li><img src="{{ '/assets/images/maternity/pink_checkmark_study_badge.png' | relative_url }}" alt="" aria-hidden="true" data-no-lb><span>Patient education</span></li>
+        <li><img src="{{ '/assets/images/maternity/pink_checkmark_study_badge.png' | relative_url }}" alt="" aria-hidden="true" data-no-lb><span>NCLEX tips &amp; memory cues</span></li>
       </ul>
-      <a class="mh-nclex-link" href="{{ '/maternity.html#nclex-quick-cues' | relative_url }}">
-        <span aria-hidden="true">✓</span>
-        <span><strong>NCLEX Quick Cues</strong><small>Mnemonics &amp; priority rules</small></span>
+      <a class="maternity-quick-link" href="{{ '/maternity.html#nclex-quick-cues' | relative_url }}">
+        <img src="{{ '/assets/images/maternity/pink_checkmark_study_badge.png' | relative_url }}" alt="" aria-hidden="true" data-no-lb>
+        <span>
+          <strong>NCLEX Quick Cues</strong>
+          <small>Mnemonics &amp; priority rules</small>
+        </span>
       </a>
-      <div class="mh-guide-tip"><span aria-hidden="true">💡</span> Pick any topic around the mother and baby to get started.</div>
+      <div class="maternity-sidebar__tip"><span aria-hidden="true">💡</span><span>Pick any topic around the mother and baby to get started.</span></div>
     </aside>
-  </div>
+  </main>
 </section>
 
 <section id="nclex-quick-cues" class="maternity-quick-cues" aria-labelledby="maternity-quick-cues-title">
