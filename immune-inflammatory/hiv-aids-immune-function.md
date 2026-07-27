@@ -21,6 +21,8 @@ title: HIV/AIDS & Immune Function
   </div>
 </div>
 
+<p><a class="infographic-btn" href="{{ '/immune-inflammatory/hiv-aids-quiz.html' | relative_url }}">📝 HIV/AIDS Practice Quiz (34 questions)</a></p>
+
 <div class="mh-cards">
 
   <div class="mh-card purple">

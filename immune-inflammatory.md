@@ -1211,9 +1211,9 @@ page_type: immune-hub
         <span aria-hidden="true">✓</span>
         <span><strong>NCLEX Quick Cues</strong><small>Mnemonics &amp; priority rules</small></span>
       </a>
-      <a class="immune-basics-link" href="{{ '/immune-inflammatory/immune-system-quiz.html' | relative_url }}">
+      <a class="immune-basics-link" href="{{ '/immune-inflammatory/practice-quiz.html' | relative_url }}">
         <span aria-hidden="true">📝</span>
-        <span><strong>Practice Quiz</strong><small>41 questions to test yourself</small></span>
+        <span><strong>Practice Test</strong><small>Choose topics across the whole section</small></span>
       </a>
     </aside>
   </div>

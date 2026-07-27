@@ -73,11 +73,11 @@ page_type: practice-hub
       <article class="practice-test-card theme-pink">
         <span class="practice-card-icon">🛡️</span>
         <div>
-          <h2>Immune System</h2>
-          <p>Lupus, rheumatoid arthritis, gout, immunosuppressive therapy, neutropenia, HIV/AIDS, opportunistic infections, and infection prevention.</p>
-          <div class="practice-meta"><span>▤ 41 Questions</span></div>
+          <h2>Immune &amp; Inflammatory</h2>
+          <p>Immune system review, HIV/AIDS, lupus, rheumatoid arthritis, osteoarthritis, gout, immunosuppressive and anti-inflammatory medications, and antimicrobial safety — pick your topics.</p>
+          <div class="practice-meta"><span>▤ 156 Questions • choose topics</span></div>
         </div>
-        <footer><a href="{{ '/immune-inflammatory/immune-system-quiz.html' | relative_url }}">Start</a></footer>
+        <footer><a href="{{ '/immune-inflammatory/practice-quiz.html' | relative_url }}">Start</a></footer>
       </article>
 
       <article class="practice-test-card theme-blue">
