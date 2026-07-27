@@ -206,8 +206,8 @@ page_type: maternity-hub
     stroke: rgba(244, 91, 155, 0.56);
   }
 
-  body[data-page-type="maternity-hub"] .mh-connector-dots circle {
-    fill: #f45b9b;
+  body[data-page-type="maternity-hub"] .mh-connector-dots {
+    display: none;
   }
 
   body[data-page-type="maternity-hub"] .mh-brain-center {
