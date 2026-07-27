@@ -38,71 +38,6 @@ page_type: medical-emergencies-hub
     display: none !important;
   }
 
-  body[data-page-type="medical-emergencies-hub"] .font-controls {
-    position: fixed !important;
-    left: 1.35rem !important;
-    bottom: 1.35rem !important;
-    z-index: 9000 !important;
-    display: flex !important;
-    flex-direction: row !important;
-    gap: 0.45rem !important;
-    width: auto !important;
-    height: auto !important;
-    margin: 0 !important;
-    padding: 0 !important;
-  }
-
-  body[data-page-type="medical-emergencies-hub"] .font-controls button {
-    display: inline-flex !important;
-    align-items: center !important;
-    justify-content: center !important;
-    min-width: 2.45rem !important;
-    height: 2.1rem !important;
-    padding: 0 0.7rem !important;
-    border: 1.5px solid rgba(174, 186, 213, 0.8) !important;
-    border-radius: 999px !important;
-    background: #fff !important;
-    box-shadow: 0 3px 12px rgba(18, 25, 66, 0.12) !important;
-    color: var(--em-ink) !important;
-    font-family: "Nunito", sans-serif !important;
-    font-size: 0.88rem !important;
-    font-weight: 900 !important;
-    line-height: 1 !important;
-    cursor: pointer !important;
-  }
-
-  body[data-page-type="medical-emergencies-hub"] .font-controls button:hover,
-  body[data-page-type="medical-emergencies-hub"] .font-controls button:focus-visible,
-  body[data-page-type="medical-emergencies-hub"] .dark-mode-toggle:hover,
-  body[data-page-type="medical-emergencies-hub"] .dark-mode-toggle:focus-visible {
-    border-color: var(--em-red) !important;
-    background: var(--em-red-soft) !important;
-    color: var(--em-red-deep) !important;
-    outline: 2px solid rgba(224, 28, 36, 0.22) !important;
-    outline-offset: 2px !important;
-  }
-
-  body[data-page-type="medical-emergencies-hub"] .dark-mode-toggle {
-    position: fixed !important;
-    right: 1.35rem !important;
-    bottom: 1.35rem !important;
-    z-index: 9000 !important;
-    display: inline-flex !important;
-    align-items: center !important;
-    justify-content: center !important;
-    width: 2.55rem !important;
-    height: 2.55rem !important;
-    padding: 0 !important;
-    border: 1.5px solid rgba(174, 186, 213, 0.8) !important;
-    border-radius: 50% !important;
-    background: #fff !important;
-    box-shadow: 0 3px 12px rgba(18, 25, 66, 0.12) !important;
-    color: var(--em-ink) !important;
-    font-size: 1.08rem !important;
-    line-height: 1 !important;
-    cursor: pointer !important;
-  }
-
   .emergency-hub,
   .emergency-hub * {
     box-sizing: border-box;
@@ -476,13 +411,6 @@ page_type: medical-emergencies-hub
   [data-theme="dark"] .emergency-guide-tip {
     background: #242a3c;
     border-color: #44516c;
-    color: #eef4ff !important;
-  }
-
-  [data-theme="dark"] body[data-page-type="medical-emergencies-hub"] .font-controls button,
-  [data-theme="dark"] body[data-page-type="medical-emergencies-hub"] .dark-mode-toggle {
-    background: #242a3c !important;
-    border-color: #44516c !important;
     color: #eef4ff !important;
   }
 
