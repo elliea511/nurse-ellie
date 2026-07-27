@@ -887,77 +887,48 @@ Possible findings:
 #### Recognizing HIV Medications
 
 <div class="detail-callout" markdown="1">
-HIV is treated with <strong>antiretroviral therapy (ART)</strong>, usually a combination of <strong>2–3 medications from at least two drug classes</strong>. Missed doses can cause <strong>drug resistance</strong> and a rising viral load, so consistent adherence is essential.
-</div>
-
-<div class="detail-table">
-  <table>
-    <thead>
-      <tr>
-        <th>Drug Class</th>
-        <th>How to Recognize It</th>
-        <th>Common Examples</th>
-        <th>Key Point</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><strong>NRTIs</strong></td>
-        <td>Many end in <strong>-vudine</strong> or contain <strong>tenofovir</strong></td>
-        <td>Zidovudine, lamivudine, emtricitabine, abacavir, tenofovir</td>
-        <td>Usually form the <strong>two-drug backbone</strong> of an HIV regimen</td>
-      </tr>
-      <tr>
-        <td><strong>NNRTIs</strong></td>
-        <td>Many end in <strong>-virine</strong></td>
-        <td>Efavirenz, rilpivirine, doravirine, etravirine</td>
-        <td>Block reverse transcriptase; monitor for rash and liver problems</td>
-      </tr>
-      <tr>
-        <td><strong>Protease Inhibitors</strong></td>
-        <td>Usually end in <strong>-navir</strong></td>
-        <td>Darunavir, atazanavir, ritonavir</td>
-        <td>Can cause hyperglycemia, hyperlipidemia, and abnormal fat distribution</td>
-      </tr>
-      <tr>
-        <td><strong>Integrase Inhibitors</strong></td>
-        <td>Usually end in <strong>-tegravir</strong></td>
-        <td>Dolutegravir, bictegravir, raltegravir, cabotegravir</td>
-        <td>Prevent HIV from inserting its genetic material into human cells</td>
-      </tr>
-      <tr>
-        <td><strong>Entry/Fusion Inhibitors</strong></td>
-        <td>No reliable ending</td>
-        <td>Maraviroc, enfuvirtide</td>
-        <td>Prevent HIV from entering the CD4 cell</td>
-      </tr>
-    </tbody>
-  </table>
+Most HIV medications contain <strong>"vir"</strong> somewhere in the name.
 </div>
 
 <div class="detail-grid" markdown="1">
 
 <div class="detail-mini-card" markdown="1">
-<strong>High-Yield Medication Clues</strong>
+<strong>Common Examples</strong>
 
-- **Zidovudine:** watch for **bone-marrow suppression and anemia**.
-- **Abacavir:** requires **HLA-B\*5701 testing** because of a severe hypersensitivity risk.
-- **Tenofovir:** monitor **kidney function and bone health**.
-- **Efavirenz:** may cause **vivid dreams, dizziness, or CNS effects**.
+- **Zidovudine**
+- **Lamivudine**
+- **Emtricitabine**
+- **Tenofovir**
+- **Abacavir**
+- **Efavirenz**
+- **Rilpivirine**
+- **Darunavir**
+- **Ritonavir**
+- **Raltegravir**
+- **Dolutegravir**
+- **Bictegravir**
 </div>
 
 <div class="detail-mini-card" markdown="1">
-<strong>Boosters & Key Reminders</strong>
+<strong>Quick Recognition Clues</strong>
 
-- **Ritonavir** or **cobicistat** are often used as a **booster** to raise the level of another HIV medication.
-- **ART does not cure HIV**, but it can suppress the viral load to an undetectable level.
-- Never abruptly stop ART or skip individual medications in the regimen.
+- **-navir** = HIV protease inhibitor
+- **-tegravir** = HIV integrase inhibitor
+- **-virine** = HIV medication
+- Names containing **-vudine** are commonly used HIV medications
 </div>
 
+<div class="detail-mini-card" markdown="1">
+<strong>Priority Points</strong>
+
+- HIV is treated with a **combination of medications**, called antiretroviral therapy or **ART**.
+- Take every dose at the same time each day.
+- **Do not skip doses or stop medications**, because HIV can become drug-resistant.
+- Monitor the **viral load, CD4 count, liver function, and kidney function**.
+- ART controls HIV but does not cure it.
+- Report severe rash, jaundice, fever, or signs of infection.
 </div>
 
-<div class="nclex-tip" markdown="1">
-<strong>NCLEX Quick Cue:</strong> <strong>-navir</strong> = protease inhibitor, <strong>-tegravir</strong> = integrase inhibitor, and <strong>-virine</strong> = NNRTI. Never abruptly stop ART or skip individual medications in the regimen.
 </div>
 
 <div class="detail-table">
