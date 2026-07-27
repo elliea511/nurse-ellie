@@ -785,6 +785,10 @@ page_type: sensory-hub
         <li>NCLEX tips &amp; memory cues</li>
       </ul>
       <div class="sensory-guide-tip"><span aria-hidden="true">💡</span> Choose the eye or ear topic to start reviewing.</div>
+      <a class="mh-nclex-link" href="{{ '/sensory-perception/nclex-cues.html' | relative_url }}">
+        <span aria-hidden="true">✓</span>
+        <span><strong>NCLEX Quick Cues</strong><small>Mnemonics &amp; priority rules</small></span>
+      </a>
       <a class="mh-nclex-link" href="{{ '/sensory-perception/sensory-perception-quiz.html' | relative_url }}">
         <span aria-hidden="true">📝</span>
         <span><strong>Practice Quiz</strong><small>56 questions to test yourself</small></span>
