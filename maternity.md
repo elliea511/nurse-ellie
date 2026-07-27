@@ -5,6 +5,13 @@ page_type: maternity-hub
 ---
 
 <style>
+  body[data-page-type="maternity-hub"] {
+    background:
+      radial-gradient(circle at 15% 20%, rgba(244, 186, 215, 0.08), transparent 28rem),
+      radial-gradient(circle at 85% 15%, rgba(191, 220, 255, 0.08), transparent 24rem),
+      #fffefe !important;
+  }
+
   body[data-page-type="maternity-hub"] .page-wrapper {
     width: 100% !important;
     max-width: 100% !important;
@@ -16,7 +23,7 @@ page_type: maternity-hub
     width: 100% !important;
     max-width: 100% !important;
     margin: 0 !important;
-    padding: 2rem 0 3rem !important;
+    padding: 1.35rem 0 2rem !important;
     border-radius: 0 !important;
     box-shadow: none !important;
     background: transparent !important;
@@ -35,68 +42,86 @@ page_type: maternity-hub
     --mat-rose-deep: #d7377e;
     --mat-rose-soft: #fff0f7;
     --mat-border: rgba(226, 150, 193, 0.42);
-    --mat-shadow: 0 14px 34px rgba(49, 33, 82, 0.09);
-    width: min(100% - 3rem, 1420px);
+    --mat-shadow: 0 10px 24px rgba(39, 31, 78, 0.08);
+    width: min(100%, 1320px);
     margin: 0 auto;
+    padding: 0 2rem 2rem;
     color: var(--mat-ink);
   }
 
   .maternity-study-header {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     gap: 1rem;
-    margin: 0 0 1rem;
-    padding-left: 0.25rem;
+    width: min(100%, 1320px);
+    margin: 0 auto 1.25rem;
+    padding: 0;
   }
 
   .maternity-study-header__icon {
-    width: clamp(3.1rem, 5vw, 4.4rem);
-    height: clamp(3.1rem, 5vw, 4.4rem);
+    width: 56px;
+    height: 56px;
     object-fit: contain;
     flex: 0 0 auto;
-    filter: drop-shadow(0 10px 16px rgba(244, 91, 155, 0.14));
+    margin-top: 0.25rem;
+    filter: none;
+  }
+
+  .maternity-study-header > div {
+    min-width: 0;
   }
 
   .maternity-study-header h1 {
-    margin: 0;
+    display: block !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+    background: none !important;
+    box-shadow: none !important;
     color: var(--mat-navy) !important;
     -webkit-text-fill-color: var(--mat-navy) !important;
     font-family: "Playfair Display", Georgia, serif !important;
-    font-size: clamp(2.45rem, 4vw, 4.35rem) !important;
-    font-weight: 900 !important;
+    font-size: clamp(3rem, 4.8vw, 5.2rem) !important;
+    font-weight: 800 !important;
     line-height: 0.98 !important;
-    letter-spacing: -0.045em;
+    letter-spacing: -0.04em;
     white-space: nowrap;
+    overflow: visible !important;
   }
 
   .maternity-study-header p {
-    margin: 0.45rem 0 0;
+    margin: 0.55rem 0 0;
     color: var(--mat-rose);
-    font-size: clamp(1rem, 1.4vw, 1.28rem);
-    font-weight: 900;
+    font-size: 1.1rem;
+    font-weight: 800;
   }
 
   .maternity-study-layout {
     display: grid;
-    grid-template-columns: minmax(0, 1fr) minmax(280px, 320px);
-    gap: clamp(1.75rem, 3.5vw, 3.5rem);
+    grid-template-columns: minmax(0, 1fr) 300px;
+    gap: 2.25rem;
     align-items: start;
   }
 
   .maternity-study-diagram {
     position: relative;
-    width: min(100%, 930px);
-    aspect-ratio: 1.18 / 1;
-    min-height: 650px;
+    width: min(100%, 860px);
+    height: 660px;
     margin-inline: auto;
   }
 
   .maternity-study-diagram::before {
     content: "";
     position: absolute;
-    inset: 13% 20% 10%;
-    border: 2px dashed rgba(244, 91, 155, 0.36);
+    left: 50%;
+    top: 50%;
+    width: 610px;
+    height: 610px;
+    transform: translate(-50%, -50%);
+    border: 2px dashed rgba(230, 109, 171, 0.42);
     border-radius: 50%;
+    z-index: 0;
     pointer-events: none;
   }
 
@@ -123,30 +148,34 @@ page_type: maternity-hub
     box-shadow: 0 0 0 5px rgba(244, 91, 155, 0.1);
   }
 
-  .maternity-connector--top { left: 49.5%; top: 22%; --line-width: 100px; --line-angle: 90deg; }
-  .maternity-connector--upper-left { left: 31%; top: 37%; --line-width: 176px; --line-angle: 18deg; }
-  .maternity-connector--upper-right { left: 58%; top: 37%; --line-width: 176px; --line-angle: -18deg; }
-  .maternity-connector--middle-left { left: 26%; top: 58%; --line-width: 195px; --line-angle: -10deg; }
-  .maternity-connector--middle-right { left: 59%; top: 58%; --line-width: 195px; --line-angle: 10deg; }
-  .maternity-connector--bottom-left { left: 39%; top: 75%; --line-width: 126px; --line-angle: -52deg; }
-  .maternity-connector--bottom-right { left: 54%; top: 75%; --line-width: 126px; --line-angle: -128deg; }
+  .maternity-connector--top { left: 49.5%; top: 18%; --line-width: 90px; --line-angle: 90deg; }
+  .maternity-connector--upper-left { left: 28%; top: 37%; --line-width: 148px; --line-angle: 16deg; }
+  .maternity-connector--upper-right { left: 60%; top: 37%; --line-width: 148px; --line-angle: -16deg; }
+  .maternity-connector--middle-left { left: 28%; top: 61%; --line-width: 140px; --line-angle: -8deg; }
+  .maternity-connector--middle-right { left: 60%; top: 61%; --line-width: 140px; --line-angle: 8deg; }
+  .maternity-connector--bottom-left { left: 42%; top: 76%; --line-width: 96px; --line-angle: -58deg; }
+  .maternity-connector--bottom-right { left: 55%; top: 76%; --line-width: 96px; --line-angle: -122deg; }
 
   .maternity-hub__center {
     position: absolute;
     left: 50%;
-    top: 52%;
+    top: 51%;
     z-index: 3;
-    width: clamp(235px, 29%, 330px);
+    width: clamp(245px, 30%, 320px);
     transform: translate(-50%, -50%);
   }
 
   .maternity-hub__center-glow {
     position: absolute;
-    inset: 5% -10% 7%;
+    left: 50%;
+    top: 50%;
+    width: 360px;
+    height: 430px;
+    transform: translate(-50%, -50%);
     z-index: 1;
     border: 1px solid rgba(225, 134, 184, 0.16);
     border-radius: 50%;
-    background: radial-gradient(circle, rgba(253, 232, 242, 0.42), rgba(242, 158, 201, 0.11) 62%, rgba(255, 255, 255, 0) 73%);
+    background: rgba(241, 184, 215, 0.13);
   }
 
   .maternity-hub__center-image {
@@ -156,7 +185,8 @@ page_type: maternity-hub
     width: 100%;
     height: auto;
     object-fit: contain;
-    filter: drop-shadow(0 18px 24px rgba(124, 49, 92, 0.1));
+    opacity: 1;
+    filter: none;
   }
 
   .maternity-topic-card {
@@ -164,11 +194,11 @@ page_type: maternity-hub
     z-index: 4;
     display: flex;
     align-items: center;
-    gap: 0.82rem;
-    width: clamp(215px, 27%, 270px);
-    min-height: 88px;
-    padding: 0.85rem 0.95rem;
-    border: 1px solid var(--mat-border);
+    gap: 0.85rem;
+    width: 245px;
+    min-height: 86px;
+    padding: 0.9rem 1rem;
+    border: 1px solid rgba(225, 145, 190, 0.35);
     border-radius: 18px;
     background: rgba(255, 255, 255, 0.96);
     box-shadow: var(--mat-shadow);
@@ -201,29 +231,30 @@ page_type: maternity-hub
 
   .maternity-topic-card__icon {
     display: block;
-    width: 120%;
-    height: 120%;
+    width: 100%;
+    height: 100%;
     object-fit: contain;
   }
 
   .maternity-topic-card__title {
     display: block;
     color: var(--mat-navy);
-    font-weight: 900;
-    line-height: 1.16;
+    font-weight: 800;
+    font-size: 1rem;
+    line-height: 1.15;
   }
 
   .maternity-topic-card__description {
     display: block;
     margin-top: 0.24rem;
     color: var(--mat-muted);
-    font-size: 0.78rem;
-    font-weight: 750;
+    font-size: 0.74rem;
+    font-weight: 700;
     line-height: 1.35;
   }
 
   .maternity-topic-card--antepartum {
-    top: 2%;
+    top: 0;
     left: 50%;
     transform: translateX(-50%);
   }
@@ -232,17 +263,17 @@ page_type: maternity-hub
     transform: translateX(-50%) translateY(-3px);
   }
 
-  .maternity-topic-card--intrapartum { top: 25%; left: 1%; }
-  .maternity-topic-card--postpartum { top: 25%; right: 1%; }
-  .maternity-topic-card--newborn { top: 54%; left: 0; }
-  .maternity-topic-card--nurses-role { top: 54%; right: 0; }
-  .maternity-topic-card--medications { bottom: 1%; left: 15%; }
-  .maternity-topic-card--labs { bottom: 1%; right: 15%; }
+  .maternity-topic-card--intrapartum { top: 180px; left: 0; }
+  .maternity-topic-card--postpartum { top: 180px; right: 0; }
+  .maternity-topic-card--newborn { top: 405px; left: 0; }
+  .maternity-topic-card--nurses-role { top: 405px; right: 0; width: 255px; }
+  .maternity-topic-card--medications { bottom: 0; left: 145px; }
+  .maternity-topic-card--labs { bottom: 0; right: 145px; }
 
   .maternity-back-link {
     position: absolute;
     left: 50%;
-    bottom: -4.25rem;
+    bottom: -3.65rem;
     z-index: 5;
     display: inline-flex;
     align-items: center;
@@ -268,67 +299,74 @@ page_type: maternity-hub
 
   .maternity-sidebar {
     position: sticky;
-    top: 6.25rem;
+    top: 5.25rem;
     align-self: start;
-    padding: 2.2rem 1.65rem;
-    border: 1px solid rgba(226, 150, 193, 0.54);
-    border-radius: 26px;
-    background: linear-gradient(155deg, rgba(255, 255, 255, 0.98), rgba(255, 250, 253, 0.95));
-    box-shadow: 0 16px 36px rgba(49, 33, 82, 0.09);
+    min-height: 610px;
+    padding: 2rem 1.75rem;
+    border: 1px solid rgba(225, 145, 190, 0.3);
+    border-radius: 24px;
+    background: rgba(255, 255, 255, 0.96);
+    box-shadow: 0 12px 32px rgba(39, 31, 78, 0.07);
   }
 
   .maternity-sidebar__icon {
     display: block;
-    width: 74px;
-    height: 74px;
-    margin: 0 auto 1.5rem;
+    width: 58px;
+    height: 58px;
+    margin: 0 auto;
     object-fit: contain;
   }
 
   .maternity-sidebar h2 {
-    margin: 0;
+    margin: 1.2rem 0 1.6rem !important;
+    padding: 0 !important;
+    border: 0 !important;
+    background: none !important;
+    box-shadow: none !important;
     color: var(--mat-navy) !important;
     -webkit-text-fill-color: var(--mat-navy) !important;
     font-family: inherit;
-    font-size: 1.78rem;
-    font-weight: 950;
-    line-height: 1.12;
+    font-size: 1.8rem;
+    font-weight: 900;
+    line-height: 1.2;
     text-align: center;
   }
 
   .maternity-sidebar__rule {
     width: 100%;
     height: 1px;
-    margin: 1.7rem 0;
+    margin: 0 0 1.45rem;
     background: rgba(244, 91, 155, 0.22);
   }
 
   .maternity-sidebar p {
-    margin: 0 0 1rem;
+    margin: 0 0 1.1rem;
     color: var(--mat-navy);
     font-weight: 900;
   }
 
   .maternity-sidebar ul {
     display: grid;
-    gap: 0.8rem;
+    gap: 1rem;
     margin: 0;
     padding: 0;
     list-style: none;
   }
 
   .maternity-sidebar li {
-    display: flex;
+    display: grid;
+    grid-template-columns: 24px 1fr;
     align-items: center;
     gap: 0.7rem;
     color: var(--mat-navy);
-    font-weight: 850;
+    font-size: 0.93rem;
+    font-weight: 650;
     line-height: 1.35;
   }
 
   .maternity-sidebar li img {
-    width: 23px;
-    height: 23px;
+    width: 22px;
+    height: 22px;
     object-fit: contain;
     flex: 0 0 auto;
   }
@@ -337,8 +375,8 @@ page_type: maternity-hub
     display: flex;
     align-items: center;
     gap: 0.85rem;
-    margin-top: 1.8rem;
-    padding: 1rem;
+    margin-top: 1.5rem;
+    padding: 0.9rem;
     border: 1px solid rgba(226, 150, 193, 0.62);
     border-radius: 18px;
     background: #fff1f7;
@@ -358,8 +396,8 @@ page_type: maternity-hub
   }
 
   .maternity-quick-link img {
-    width: 42px;
-    height: 42px;
+    width: 34px;
+    height: 34px;
     object-fit: contain;
     flex: 0 0 auto;
   }
@@ -378,8 +416,8 @@ page_type: maternity-hub
   .maternity-sidebar__tip {
     display: flex;
     gap: 0.7rem;
-    margin-top: 1.15rem;
-    padding: 1rem;
+    margin-top: 1rem;
+    padding: 0.9rem;
     border: 1px solid rgba(226, 150, 193, 0.48);
     border-radius: 16px;
     background: rgba(255, 246, 250, 0.92);
@@ -390,7 +428,7 @@ page_type: maternity-hub
 
   .maternity-quick-cues {
     width: min(100% - 3rem, 980px);
-    margin: 5.8rem auto 0;
+    margin: 5rem auto 0;
     padding: 1.35rem;
     scroll-margin-top: 7rem;
     border: 1px solid rgba(226, 150, 193, 0.54);
