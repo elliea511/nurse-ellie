@@ -23,7 +23,7 @@ page_type: maternity-hub
     width: 100% !important;
     max-width: 100% !important;
     margin: 0 !important;
-    padding: 1.35rem 0 2rem !important;
+    padding: 2.35rem 0 2rem !important;
     border-radius: 0 !important;
     box-shadow: none !important;
     background: transparent !important;
@@ -54,8 +54,8 @@ page_type: maternity-hub
     align-items: flex-start;
     gap: 1rem;
     width: min(100%, 1320px);
-    margin: 0 auto 1.25rem;
-    padding: 0;
+    margin: 0 auto 1rem;
+    padding: 1.1rem 0 0;
   }
 
   .maternity-study-header__icon {
@@ -100,14 +100,15 @@ page_type: maternity-hub
   .maternity-study-layout {
     display: grid;
     grid-template-columns: minmax(0, 1fr) 300px;
-    gap: 2.25rem;
+    gap: 2rem;
     align-items: start;
   }
 
   .maternity-study-diagram {
     position: relative;
     width: min(100%, 860px);
-    height: 660px;
+    height: 620px;
+    margin-bottom: 5rem;
     margin-inline: auto;
   }
 
@@ -116,8 +117,8 @@ page_type: maternity-hub
     position: absolute;
     left: 50%;
     top: 50%;
-    width: 610px;
-    height: 610px;
+    width: 560px;
+    height: 560px;
     transform: translate(-50%, -50%);
     border: 2px dashed rgba(230, 109, 171, 0.42);
     border-radius: 50%;
@@ -148,29 +149,33 @@ page_type: maternity-hub
     box-shadow: 0 0 0 5px rgba(244, 91, 155, 0.1);
   }
 
-  .maternity-connector--top { left: 49.5%; top: 18%; --line-width: 90px; --line-angle: 90deg; }
-  .maternity-connector--upper-left { left: 28%; top: 37%; --line-width: 148px; --line-angle: 16deg; }
-  .maternity-connector--upper-right { left: 60%; top: 37%; --line-width: 148px; --line-angle: -16deg; }
-  .maternity-connector--middle-left { left: 28%; top: 61%; --line-width: 140px; --line-angle: -8deg; }
-  .maternity-connector--middle-right { left: 60%; top: 61%; --line-width: 140px; --line-angle: 8deg; }
-  .maternity-connector--bottom-left { left: 42%; top: 76%; --line-width: 96px; --line-angle: -58deg; }
-  .maternity-connector--bottom-right { left: 55%; top: 76%; --line-width: 96px; --line-angle: -122deg; }
+  .maternity-connector--top { left: 49.5%; top: 18%; --line-width: 80px; --line-angle: 90deg; }
+  .maternity-connector--upper-left { left: 29%; top: 37%; --line-width: 128px; --line-angle: 16deg; }
+  .maternity-connector--upper-right { left: 60%; top: 37%; --line-width: 128px; --line-angle: -16deg; }
+  .maternity-connector--middle-left { left: 30%; top: 61%; --line-width: 118px; --line-angle: -8deg; }
+  .maternity-connector--middle-right { left: 60%; top: 61%; --line-width: 118px; --line-angle: 8deg; }
+  .maternity-connector--bottom-left { left: 43%; top: 74%; --line-width: 82px; --line-angle: -58deg; }
+  .maternity-connector--bottom-right { left: 55%; top: 74%; --line-width: 82px; --line-angle: -122deg; }
 
   .maternity-hub__center {
     position: absolute;
     left: 50%;
-    top: 51%;
+    top: 50.5%;
     z-index: 3;
-    width: clamp(245px, 30%, 320px);
+    width: clamp(270px, 33%, 350px);
     transform: translate(-50%, -50%);
+    border: 0;
+    outline: 0;
+    box-shadow: none;
+    background: transparent;
   }
 
   .maternity-hub__center-glow {
     position: absolute;
     left: 50%;
     top: 50%;
-    width: 360px;
-    height: 430px;
+    width: 350px;
+    height: 420px;
     transform: translate(-50%, -50%);
     z-index: 1;
     border: 1px solid rgba(225, 134, 184, 0.16);
@@ -187,6 +192,11 @@ page_type: maternity-hub
     object-fit: contain;
     opacity: 1;
     filter: none;
+    border: 0;
+    outline: 0;
+    box-shadow: none;
+    background: transparent;
+    mix-blend-mode: normal;
   }
 
   .maternity-topic-card {
@@ -265,15 +275,16 @@ page_type: maternity-hub
 
   .maternity-topic-card--intrapartum { top: 180px; left: 0; }
   .maternity-topic-card--postpartum { top: 180px; right: 0; }
-  .maternity-topic-card--newborn { top: 405px; left: 0; }
-  .maternity-topic-card--nurses-role { top: 405px; right: 0; width: 255px; }
-  .maternity-topic-card--medications { bottom: 0; left: 145px; }
-  .maternity-topic-card--labs { bottom: 0; right: 145px; }
+  .maternity-topic-card--newborn { top: 382px; left: 0; }
+  .maternity-topic-card--nurses-role { top: 382px; right: 0; width: 255px; }
+  .maternity-topic-card--medications { bottom: 28px; left: 145px; }
+  .maternity-topic-card--labs { bottom: 28px; right: 145px; }
 
   .maternity-back-link {
     position: absolute;
     left: 50%;
-    bottom: -3.65rem;
+    top: calc(100% + 1.35rem);
+    bottom: auto;
     z-index: 5;
     display: inline-flex;
     align-items: center;
@@ -301,8 +312,8 @@ page_type: maternity-hub
     position: sticky;
     top: 5.25rem;
     align-self: start;
-    min-height: 610px;
-    padding: 2rem 1.75rem;
+    min-height: 0;
+    padding: 1.55rem 1.45rem;
     border: 1px solid rgba(225, 145, 190, 0.3);
     border-radius: 24px;
     background: rgba(255, 255, 255, 0.96);
@@ -318,7 +329,7 @@ page_type: maternity-hub
   }
 
   .maternity-sidebar h2 {
-    margin: 1.2rem 0 1.6rem !important;
+    margin: 0.9rem 0 1.2rem !important;
     padding: 0 !important;
     border: 0 !important;
     background: none !important;
@@ -326,7 +337,7 @@ page_type: maternity-hub
     color: var(--mat-navy) !important;
     -webkit-text-fill-color: var(--mat-navy) !important;
     font-family: inherit;
-    font-size: 1.8rem;
+    font-size: 1.65rem;
     font-weight: 900;
     line-height: 1.2;
     text-align: center;
@@ -335,19 +346,19 @@ page_type: maternity-hub
   .maternity-sidebar__rule {
     width: 100%;
     height: 1px;
-    margin: 0 0 1.45rem;
+    margin: 0 0 1.1rem;
     background: rgba(244, 91, 155, 0.22);
   }
 
   .maternity-sidebar p {
-    margin: 0 0 1.1rem;
+    margin: 0 0 0.85rem;
     color: var(--mat-navy);
     font-weight: 900;
   }
 
   .maternity-sidebar ul {
     display: grid;
-    gap: 1rem;
+    gap: 0.72rem;
     margin: 0;
     padding: 0;
     list-style: none;
@@ -375,8 +386,8 @@ page_type: maternity-hub
     display: flex;
     align-items: center;
     gap: 0.85rem;
-    margin-top: 1.5rem;
-    padding: 0.9rem;
+    margin-top: 1.15rem;
+    padding: 0.78rem;
     border: 1px solid rgba(226, 150, 193, 0.62);
     border-radius: 18px;
     background: #fff1f7;
@@ -416,8 +427,8 @@ page_type: maternity-hub
   .maternity-sidebar__tip {
     display: flex;
     gap: 0.7rem;
-    margin-top: 1rem;
-    padding: 0.9rem;
+    margin-top: 0.8rem;
+    padding: 0.78rem;
     border: 1px solid rgba(226, 150, 193, 0.48);
     border-radius: 16px;
     background: rgba(255, 246, 250, 0.92);
@@ -428,7 +439,7 @@ page_type: maternity-hub
 
   .maternity-quick-cues {
     width: min(100% - 3rem, 980px);
-    margin: 5rem auto 0;
+    margin: 1.25rem auto 0;
     padding: 1.35rem;
     scroll-margin-top: 7rem;
     border: 1px solid rgba(226, 150, 193, 0.54);
