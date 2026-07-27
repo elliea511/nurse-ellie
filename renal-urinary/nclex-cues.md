@@ -52,7 +52,7 @@ title: Renal & Urinary NCLEX Quick Cues
 
 </div>
 
-<div class="detail-table">
+<div class="detail-table" markdown="1">
 
 | When You See This | Think This | Best Nursing Move |
 |---|---|---|

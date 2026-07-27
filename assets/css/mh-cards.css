@@ -1874,9 +1874,12 @@ body[data-page-type="mental-health-hub"] .main-content .mh-guide-icon img {
 
 :is(body[data-section="mental-health"], body[data-section="pharmacology"], body[data-section="renal-urinary"], body[data-section="sensory-perception"], body[data-section="immune-inflammatory"]) .detail-mini-card > strong:first-child {
   display: block;
-  margin-bottom: 0.35rem;
-  font-size: 0.95rem;
+  margin: 0 0 0.55rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid color-mix(in srgb, currentColor 25%, transparent);
+  font-size: 1.05rem;
   font-weight: 900;
+  letter-spacing: 0.01em;
   color: var(--mh-ink);
 }
 /* Bold inside bullets/paragraphs must stay inline (never become a block heading) */
@@ -2175,9 +2178,12 @@ body[data-page-type="mental-health-hub"] .main-content .mh-guide-icon img {
   box-shadow: 0 1px 4px rgba(34, 28, 80, 0.05);
 }
 :is(body[data-section="renal-urinary"], body[data-section="sensory-perception"], body[data-section="immune-inflammatory"]) .renal-two-column > div > h5 {
-  margin: 0 0 0.4rem !important;
+  margin: 0 0 0.55rem !important;
+  padding-bottom: 0.4rem !important;
+  border-bottom: 1px solid color-mix(in srgb, currentColor 25%, transparent) !important;
   font-weight: 900 !important;
-  font-size: 0.95rem !important;
+  font-size: 1.05rem !important;
+  letter-spacing: 0.01em !important;
   color: var(--mh-ink) !important;
 }
 :is(body[data-section="renal-urinary"], body[data-section="sensory-perception"], body[data-section="immune-inflammatory"]) .renal-two-column > div p { margin: 0.35rem 0; }
