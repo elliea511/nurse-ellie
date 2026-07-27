@@ -59,6 +59,16 @@ page_type: practice-hub
         </div>
         <footer><span>Ready now</span><a href="{{ '/medical-emergencies/practice-quiz.html' | relative_url }}">Start</a></footer>
       </article>
+
+      <article class="practice-test-card theme-orange">
+        <span class="practice-card-icon">🫘</span>
+        <div>
+          <h2>Renal System</h2>
+          <p>Acute and chronic kidney disease, electrolyte emergencies, hemodialysis, peritoneal dialysis, glomerular and urinary disorders, procedures, and transplantation.</p>
+          <div class="practice-meta"><span>▤ 50 Questions</span><b>Active</b></div>
+        </div>
+        <footer><span>Ready now</span><a href="{{ '/renal-urinary/renal-system-quiz.html' | relative_url }}">Start</a></footer>
+      </article>
     </section>
 
     <div class="practice-lower-grid single-panel">
@@ -66,15 +76,15 @@ page_type: practice-hub
         <div class="practice-panel-heading">
           <h2 id="performance-title">⌁ Practice Snapshot</h2>
         </div>
-        <div class="practice-score-ring" aria-label="Two of two practice areas are ready">
-          <span>2/2</span>
+        <div class="practice-score-ring" aria-label="Three of three practice areas are ready">
+          <span>3/3</span>
           <small>Tests Ready</small>
         </div>
         <ul>
-          <li><span>✓ Active tests</span><strong>2</strong></li>
+          <li><span>✓ Active tests</span><strong>3</strong></li>
           <li><span>◎ Mental Health questions</span><strong>317</strong></li>
-          <li><span>🔥 Available now</span><strong>Mental Health + Medical Emergencies</strong></li>
-          <li><span>▣ Next set</span><strong>More Mental Health topics</strong></li>
+          <li><span>🔥 Available now</span><strong>Mental Health + Medical Emergencies + Renal</strong></li>
+          <li><span>▣ Next set</span><strong>More topic quizzes</strong></li>
         </ul>
       </section>
     </div>
