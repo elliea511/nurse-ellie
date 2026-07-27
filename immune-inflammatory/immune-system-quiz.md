@@ -671,50 +671,6 @@ title: Immune System Practice Quiz
 ---
 ## Question 31
 
-<p>A client receiving a blood transfusion develops chills, fever, and low back pain. Which action should the nurse take <strong>first</strong>?</p>
-
-<p class="answer-choice"><strong>A.</strong> Slow the infusion rate</p>
-<p class="answer-choice"><strong>B.</strong> Administer acetaminophen</p>
-<p class="answer-choice"><strong>C.</strong> Stop the transfusion</p>
-<p class="answer-choice"><strong>D.</strong> Obtain another unit of blood</p>
-
-<details class="quiz-answer-block">
-<summary>Click to see answer and rationale</summary>
-<p class="quiz-answer"><strong>Answer: C</strong></p>
-<div class="quiz-rationale">
-<p><strong>Rationale:</strong></p>
-<p><strong>A. Incorrect:</strong> Continuing even slowly can worsen a transfusion reaction.</p>
-<p><strong>B. Incorrect:</strong> Medication should not delay stopping the blood product.</p>
-<p><strong>C. Correct:</strong> Immediate discontinuation prevents further exposure while the reaction is evaluated.</p>
-<p><strong>D. Incorrect:</strong> Another unit should not be started during a suspected reaction.</p>
-</div>
-</details>
-
----
-## Question 32
-
-<p>After stopping a blood transfusion because of a suspected reaction, which action should the nurse take next?</p>
-
-<p class="answer-choice"><strong>A.</strong> Flush the tubing with the remaining blood</p>
-<p class="answer-choice"><strong>B.</strong> Discard the blood bag immediately</p>
-<p class="answer-choice"><strong>C.</strong> Restart the transfusion after symptoms improve</p>
-<p class="answer-choice"><strong>D.</strong> Maintain IV access with new tubing and normal saline</p>
-
-<details class="quiz-answer-block">
-<summary>Click to see answer and rationale</summary>
-<p class="quiz-answer"><strong>Answer: D</strong></p>
-<div class="quiz-rationale">
-<p><strong>Rationale:</strong></p>
-<p><strong>A. Incorrect:</strong> This would expose the client to additional blood product.</p>
-<p><strong>B. Incorrect:</strong> The blood bag and tubing are typically sent for evaluation rather than discarded immediately.</p>
-<p><strong>C. Incorrect:</strong> The same unit should not be restarted.</p>
-<p><strong>D. Correct:</strong> Normal saline through new tubing preserves access without adding more donor blood.</p>
-</div>
-</details>
-
----
-## Question 33
-
 <p>A nurse is caring for a client who had a splenectomy. Which infection-prevention measure is most important?</p>
 
 <p class="answer-choice"><strong>A.</strong> Receive recommended vaccines against encapsulated organisms</p>
@@ -735,7 +691,7 @@ title: Immune System Practice Quiz
 </details>
 
 ---
-## Question 34
+## Question 32
 
 <p>A nurse is teaching a client with asplenia. Which symptom should the client report immediately?</p>
 
@@ -757,7 +713,7 @@ title: Immune System Practice Quiz
 </details>
 
 ---
-## Question 35
+## Question 33
 
 <p>A nurse is teaching a client taking tacrolimus. Which statement indicates understanding?</p>
 
@@ -779,7 +735,7 @@ title: Immune System Practice Quiz
 </details>
 
 ---
-## Question 36
+## Question 34
 
 <p>A nurse is assessing a client with suspected sepsis who is immunocompromised. Which finding requires the most urgent action?</p>
 
@@ -801,7 +757,7 @@ title: Immune System Practice Quiz
 </details>
 
 ---
-## Question 37
+## Question 35
 
 <p>A nurse is caring for a client with systemic lupus erythematosus. Which findings should the nurse recognize as possible manifestations? <strong>Select all that apply.</strong></p>
 
@@ -827,7 +783,7 @@ title: Immune System Practice Quiz
 </details>
 
 ---
-## Question 38
+## Question 36
 
 <p>A nurse is teaching a client taking methotrexate for rheumatoid arthritis. Which instructions should the nurse include? <strong>Select all that apply.</strong></p>
 
@@ -853,7 +809,7 @@ title: Immune System Practice Quiz
 </details>
 
 ---
-## Question 39
+## Question 37
 
 <p>A nurse is planning care for a client with severe neutropenia. Which interventions are appropriate? <strong>Select all that apply.</strong></p>
 
@@ -879,7 +835,7 @@ title: Immune System Practice Quiz
 </details>
 
 ---
-## Question 40
+## Question 38
 
 <p>A nurse is teaching a client with HIV about reducing transmission. Which statements should the nurse include? <strong>Select all that apply.</strong></p>
 
@@ -905,7 +861,7 @@ title: Immune System Practice Quiz
 </details>
 
 ---
-## Question 41
+## Question 39
 
 <p>A nurse is reviewing findings for a client with AIDS. Which findings suggest opportunistic infection and require follow-up? <strong>Select all that apply.</strong></p>
 
@@ -931,7 +887,7 @@ title: Immune System Practice Quiz
 </details>
 
 ---
-## Question 42
+## Question 40
 
 <p>A nurse is caring for a client who is receiving long-term corticosteroid therapy. Which findings should the nurse monitor? <strong>Select all that apply.</strong></p>
 
@@ -957,7 +913,7 @@ title: Immune System Practice Quiz
 </details>
 
 ---
-## Question 43
+## Question 41
 
 <p>A nurse is assessing four clients. Which client should the nurse see <strong>first</strong>?</p>
 
