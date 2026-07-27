@@ -458,6 +458,7 @@
       Array.from(choicesWrap.querySelectorAll('.quiz-choice-btn')).forEach(function (b) {
         var l = b.dataset.letter;
         b.disabled = true;
+        b.classList.remove('selected');
         if (q.correctLetters.indexOf(l) !== -1) b.classList.add('correct');
         else if (selectedLetters.indexOf(l) !== -1) b.classList.add('incorrect');
       });
