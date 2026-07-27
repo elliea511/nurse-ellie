@@ -123,6 +123,7 @@ page_type: medical-emergencies-hub
 
   .emergency-hub img {
     display: block;
+    margin: 0 !important;
     border: 0 !important;
     border-radius: 0 !important;
     background: transparent !important;
