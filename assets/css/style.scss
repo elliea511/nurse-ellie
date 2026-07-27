@@ -5962,3 +5962,38 @@ mark.hl { background: #e8e8e8 !important; color: #111 !important; -webkit-print-
 [data-theme="dark"] .quiz-choice-btn.selected { border-color: #a68bf0 !important; background: #2c2547 !important; }
 [data-theme="dark"] .quiz-choice-btn:hover:not(:disabled) { border-color: #7a63b0 !important; background: #262039 !important; }
 [data-theme="dark"] .quiz-check-btn { background: #2c2547 !important; border-color: #a68bf0 !important; color: #d8c8ff !important; }
+
+/* ---- Practice test: stronger, clearly-visible site match ---- */
+/* Each question reads as a rounded card panel like the rest of the site */
+#quiz-stage .quiz-stem {
+  background: var(--mh-card-bg, #fff) !important;
+  border: 1px solid #ece6f6 !important;
+  border-left: 5px solid #8060bf !important;
+  border-radius: 16px !important;
+  padding: 1.1rem 1.25rem !important;
+  box-shadow: 0 6px 18px rgba(128,96,191,0.08) !important;
+  font-family: "Nunito", sans-serif !important;
+  font-size: 1rem !important;
+}
+/* Answer choices as clear white cards with a soft lift */
+.quiz-choice-btn {
+  background: var(--mh-card-bg, #fff) !important;
+  box-shadow: 0 2px 8px rgba(34,28,80,0.05) !important;
+  margin-bottom: 0.15rem !important;
+}
+.quiz-choice-btn:hover:not(:disabled) {
+  transform: translateY(-1px) !important;
+  box-shadow: 0 6px 16px rgba(128,96,191,0.14) !important;
+}
+/* Progress bar + submit button use the site purple/pink */
+.quiz-progress-fill { background: linear-gradient(90deg, #8060bf, #f36f9a) !important; }
+.quiz-submit-btn {
+  background: linear-gradient(135deg, #8060bf, #6a4bc0) !important;
+  border-radius: 999px !important;
+  box-shadow: 0 8px 18px rgba(128,96,191,0.22) !important;
+  font-family: "Nunito", sans-serif !important;
+}
+.quiz-score-card { border-radius: 20px !important; border-color: #ece6f6 !important; }
+
+[data-theme="dark"] #quiz-stage .quiz-stem { background: #221d33 !important; border-color: #39324f !important; border-left-color: #a68bf0 !important; }
+[data-theme="dark"] .quiz-choice-btn { box-shadow: none !important; }

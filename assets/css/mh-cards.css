@@ -1876,13 +1876,12 @@ body[data-page-type="mental-health-hub"] .main-content .mh-guide-icon img {
 :is(body[data-section="mental-health"], body[data-section="pharmacology"], body[data-section="renal-urinary"], body[data-section="sensory-perception"], body[data-section="immune-inflammatory"]) .detail-mini-card > strong:first-child,
 :is(body[data-section="mental-health"], body[data-section="pharmacology"], body[data-section="renal-urinary"], body[data-section="sensory-perception"], body[data-section="immune-inflammatory"]) .detail-mini-card > p:first-child > strong:first-child {
   display: block !important;
-  margin: 0 0 0.6rem !important;
-  padding-bottom: 0.45rem !important;
-  border-bottom: 2px solid color-mix(in srgb, currentColor 30%, transparent) !important;
-  font-size: 1.1rem !important;
+  margin: 0 0 0.55rem !important;
+  padding-bottom: 0.4rem !important;
+  border-bottom: 1.5px solid color-mix(in srgb, currentColor 28%, transparent) !important;
+  font-size: 1.08rem !important;
   font-weight: 900 !important;
-  letter-spacing: 0.02em !important;
-  text-transform: uppercase !important;
+  letter-spacing: 0.01em !important;
   color: var(--mh-ink) !important;
 }
 :is(body[data-section="mental-health"], body[data-section="pharmacology"], body[data-section="renal-urinary"], body[data-section="sensory-perception"], body[data-section="immune-inflammatory"]) .detail-mini-card > p:first-child {
