@@ -168,7 +168,6 @@ page_type: all-topics
       </header>
       <div class="at-subgrid">
         <div class="at-topic-group">
-          <h3>Available Now</h3>
           <div class="at-links">
             <a href="{{ '/pharmacology.html' | relative_url }}">Pharmacology Home</a>
             <a href="{{ '/pharmacology/high-alert-medications.html' | relative_url }}">High-Alert Medications</a>
@@ -216,7 +215,6 @@ page_type: all-topics
       </header>
       <div class="at-subgrid">
         <div class="at-topic-group">
-          <h3>Available Now</h3>
           <div class="at-links">
             <a href="{{ '/renal-urinary.html' | relative_url }}">Renal &amp; Urinary Home</a>
             <a href="{{ '/renal-urinary/renal-diagnostics-catheter-care.html' | relative_url }}">Renal Diagnostics &amp; Catheter Care</a>
@@ -238,7 +236,6 @@ page_type: all-topics
       </header>
       <div class="at-subgrid">
         <div class="at-topic-group">
-          <h3>Available Now</h3>
           <div class="at-links">
             <a href="{{ '/immune-inflammatory.html' | relative_url }}">Immune &amp; Inflammatory Home</a>
             <a href="{{ '/immune-inflammatory/hiv-aids-immune-function.html' | relative_url }}">HIV/AIDS &amp; Immune Function</a>
@@ -260,7 +257,6 @@ page_type: all-topics
       </header>
       <div class="at-subgrid">
         <div class="at-topic-group">
-          <h3>Available Now</h3>
           <div class="at-links">
             <a href="{{ '/sensory-perception.html' | relative_url }}">Sensory Perception Home</a>
             <a href="{{ '/sensory-perception/eye-disorders.html' | relative_url }}">Eye Disorders</a>

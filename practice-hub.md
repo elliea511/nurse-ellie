@@ -45,9 +45,9 @@ page_type: practice-hub
         <div>
           <h2>Mental Health</h2>
           <p>Anxiety/OCD, depression, personality disorders, psychosis, abuse/suicide, eating disorders, addiction, somatic/dissociative, plus a med filter.</p>
-          <div class="practice-meta"><span>▤ 317 Questions + Med Filter</span><b>Active</b></div>
+          <div class="practice-meta"><span>▤ 317 Questions + Med Filter</span></div>
         </div>
-        <footer><span>Ready now</span><a href="{{ '/mental-health/practice-quiz.html' | relative_url }}">Start</a></footer>
+        <footer><a href="{{ '/mental-health/practice-quiz.html' | relative_url }}">Start</a></footer>
       </article>
 
       <article class="practice-test-card theme-blue">
@@ -55,9 +55,9 @@ page_type: practice-hub
         <div>
           <h2>Medical Emergencies</h2>
           <p>Cardiac, respiratory, neuro, trauma, environmental, and priority interventions.</p>
-          <div class="practice-meta"><span>▤ Practice test ready</span><b>Active</b></div>
+          <div class="practice-meta"><span>▤ Practice test</span></div>
         </div>
-        <footer><span>Ready now</span><a href="{{ '/medical-emergencies/practice-quiz.html' | relative_url }}">Start</a></footer>
+        <footer><a href="{{ '/medical-emergencies/practice-quiz.html' | relative_url }}">Start</a></footer>
       </article>
 
       <article class="practice-test-card theme-orange">
@@ -65,9 +65,9 @@ page_type: practice-hub
         <div>
           <h2>Renal System</h2>
           <p>Acute and chronic kidney disease, electrolyte emergencies, hemodialysis, peritoneal dialysis, glomerular and urinary disorders, procedures, and transplantation.</p>
-          <div class="practice-meta"><span>▤ 50 Questions</span><b>Active</b></div>
+          <div class="practice-meta"><span>▤ 50 Questions</span></div>
         </div>
-        <footer><span>Ready now</span><a href="{{ '/renal-urinary/renal-system-quiz.html' | relative_url }}">Start</a></footer>
+        <footer><a href="{{ '/renal-urinary/renal-system-quiz.html' | relative_url }}">Start</a></footer>
       </article>
 
       <article class="practice-test-card theme-pink">
@@ -75,9 +75,9 @@ page_type: practice-hub
         <div>
           <h2>Immune System</h2>
           <p>Lupus, rheumatoid arthritis, gout, immunosuppressive therapy, neutropenia, HIV/AIDS, opportunistic infections, anaphylaxis, transplant precautions, and infection prevention.</p>
-          <div class="practice-meta"><span>▤ 52 Questions</span><b>Active</b></div>
+          <div class="practice-meta"><span>▤ 52 Questions</span></div>
         </div>
-        <footer><span>Ready now</span><a href="{{ '/immune-inflammatory/immune-system-quiz.html' | relative_url }}">Start</a></footer>
+        <footer><a href="{{ '/immune-inflammatory/immune-system-quiz.html' | relative_url }}">Start</a></footer>
       </article>
 
       <article class="practice-test-card theme-blue">
@@ -85,9 +85,9 @@ page_type: practice-hub
         <div>
           <h2>Sensory Perception</h2>
           <p>Glaucoma, cataracts, retinal disorders, eye emergencies, ophthalmic medications, hearing loss, Ménière disease, ototoxicity, ear care, aphasia, and neuropathy.</p>
-          <div class="practice-meta"><span>▤ 56 Questions</span><b>Active</b></div>
+          <div class="practice-meta"><span>▤ 56 Questions</span></div>
         </div>
-        <footer><span>Ready now</span><a href="{{ '/sensory-perception/sensory-perception-quiz.html' | relative_url }}">Start</a></footer>
+        <footer><a href="{{ '/sensory-perception/sensory-perception-quiz.html' | relative_url }}">Start</a></footer>
       </article>
     </section>
 
@@ -96,15 +96,14 @@ page_type: practice-hub
         <div class="practice-panel-heading">
           <h2 id="performance-title">⌁ Practice Snapshot</h2>
         </div>
-        <div class="practice-score-ring" aria-label="Five of five practice areas are ready">
-          <span>5/5</span>
-          <small>Tests Ready</small>
+        <div class="practice-score-ring" aria-label="Five practice tests">
+          <span>5</span>
+          <small>Practice Tests</small>
         </div>
         <ul>
-          <li><span>✓ Active tests</span><strong>5</strong></li>
+          <li><span>✓ Practice tests</span><strong>5</strong></li>
           <li><span>◎ Mental Health questions</span><strong>317</strong></li>
-          <li><span>🔥 Available now</span><strong>Mental Health, Medical Emergencies, Renal, Immune, Sensory</strong></li>
-          <li><span>▣ Next set</span><strong>More topic quizzes</strong></li>
+          <li><span>🔥 Sections</span><strong>Mental Health, Medical Emergencies, Renal, Immune, Sensory</strong></li>
         </ul>
       </section>
     </div>
