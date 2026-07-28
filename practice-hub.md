@@ -84,10 +84,10 @@ page_type: practice-hub
         <span class="practice-card-icon">👁️</span>
         <div>
           <h2>Sensory Perception</h2>
-          <p>Glaucoma, cataracts, retinal disorders, eye emergencies, ophthalmic medications, hearing loss, Ménière disease, ototoxicity, ear care, aphasia, and neuropathy.</p>
-          <div class="practice-meta"><span>▤ 56 Questions</span></div>
+          <p>Eye disorders — visual acuity, cataracts, glaucoma, retinal detachment, eye trauma, and ophthalmic medications — and ear disorders — hearing loss, otosclerosis, otitis media, ototoxicity, and Ménière disease. Pick your topics.</p>
+          <div class="practice-meta"><span>▤ 117 Questions • 2 topics</span></div>
         </div>
-        <footer><a href="{{ '/sensory-perception/sensory-perception-quiz.html' | relative_url }}">Start</a></footer>
+        <footer><a href="{{ '/sensory-perception/practice-quiz.html' | relative_url }}">Start</a></footer>
       </article>
     </section>
 

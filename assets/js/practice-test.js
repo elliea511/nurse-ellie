@@ -10,6 +10,7 @@
   var IS_MENTAL_HEALTH = /\/mental-health\/practice-quiz(\.html)?\/?$/.test(PATH);
   var IS_IMMUNE = /\/immune-inflammatory\/practice-quiz(\.html)?\/?$/.test(PATH);
   var IS_RENAL = /\/renal-urinary\/practice-quiz(\.html)?\/?$/.test(PATH);
+  var IS_SENSORY = /\/sensory-perception\/practice-quiz(\.html)?\/?$/.test(PATH);
 
   // Immune & Inflammatory: eight topic selections built by classifying each
   // existing question. Questions are never rewritten — only assigned a topic.
@@ -116,6 +117,32 @@
     return renalPoolPromise;
   }
 
+  // Sensory Perception: two topic selections built by classifying each existing
+  // question. Questions are never rewritten — only assigned a topic. In the
+  // source quiz, Q1–76 are eye disorders and Q77–117 are ear disorders.
+  var SENSORY_TOPICS = [
+    { id: 'eye', label: 'Eye Disorders', cat: 'Sensory Perception', sensory: true, n: 76 },
+    { id: 'ear', label: 'Ear Disorders', cat: 'Sensory Perception', sensory: true, n: 41 }
+  ];
+  var SENSORY_SOURCES = [
+    { id: 'sensory', url: '/sensory-perception/sensory-perception-quiz.html' }
+  ];
+  var SENSORY_EYE_COUNT = 76; // first 76 questions are eye disorders
+  var sensoryPoolPromise = null;
+  function loadSensoryPool() {
+    if (sensoryPoolPromise) return sensoryPoolPromise;
+    sensoryPoolPromise = Promise.all(SENSORY_SOURCES.map(function (src) {
+      return fetch(BASE + src.url)
+        .then(function (r) { return r.text(); })
+        .then(function (html) {
+          var qs = parseHTML(html, src.id, src.id);
+          qs.forEach(function (q, i) { q.sensoryCat = (i < SENSORY_EYE_COUNT) ? 'eye' : 'ear'; });
+          return qs;
+        });
+    })).then(function (results) { return [].concat.apply([], results); });
+    return sensoryPoolPromise;
+  }
+
   var MEDICAL_EMERGENCY_TOPICS = [
     { id: 'chf',        label: 'CHF & Pulmonary Edema',         cat: 'Cardiac & Perfusion', url: '/medical-emergencies/cardiac-perfusion/chf-quiz.html',        n: 32 },
     { id: 'mi',         label: 'Angina & Myocardial Infarction', cat: 'Cardiac & Perfusion', url: '/medical-emergencies/cardiac-perfusion/mi-quiz.html',         n: 32 },
@@ -164,7 +191,7 @@
 
   var MENTAL_HEALTH_TOPICS = MENTAL_HEALTH_SOURCE_TOPICS.concat(MENTAL_HEALTH_DERIVED_TOPICS);
 
-  var TOPICS = IS_MENTAL_HEALTH ? MENTAL_HEALTH_TOPICS : IS_IMMUNE ? IMMUNE_TOPICS : IS_RENAL ? RENAL_TOPICS : MEDICAL_EMERGENCY_TOPICS;
+  var TOPICS = IS_MENTAL_HEALTH ? MENTAL_HEALTH_TOPICS : IS_IMMUNE ? IMMUNE_TOPICS : IS_RENAL ? RENAL_TOPICS : IS_SENSORY ? SENSORY_TOPICS : MEDICAL_EMERGENCY_TOPICS;
 
   var MEDICATION_QUESTION_RE = /\b(medication|medications|prescription|prescribed|dose|doses|administer|ssri|ssris|snri|snris|tca|tcas|maoi|maois|antidepressant|antidepressants|benzodiazepine|benzodiazepines|buspirone|lorazepam|diazepam|alprazolam|fluoxetine|sertraline|escitalopram|citalopram|venlafaxine|duloxetine|bupropion|phenelzine|nortriptyline|amitriptyline|hydroxyzine|propranolol|tricyclic|serotonin syndrome|st\. john|linezolid|meperidine|pseudoephedrine|tyramine|discontinuation syndrome|side effect|adverse effect|adverse effects|toxicity|therapeutic response|antipsychotic|antipsychotics|clozapine|haloperidol|risperidone|fluphenazine|benztropine|diphenhydramine|long-acting injectable|prolactin|agranulocytosis|neutropenia|extrapyramidal|tardive dyskinesia|akathisia|dystonia|pseudoparkinsonism|neuroleptic malignant syndrome|nms|naloxone|flumazenil|disulfiram|naltrexone|acamprosate|methadone|buprenorphine|buprenorphine-naloxone|lisdexamfetamine|thiamine|vitamin b1|medication-assisted treatment)\b/i;
 
@@ -247,6 +274,13 @@
       });
     }
 
+    if (topic.sensory) {
+      return loadSensoryPool().then(function (pool) {
+        return pool.filter(function (q) { return q.sensoryCat === topic.id; })
+          .map(function (q) { q.topic = topic.id; q.topicLabel = topic.label; return q; });
+      });
+    }
+
     if (topic.derived && topic.filter === 'medications') {
       return Promise.all(MENTAL_HEALTH_SOURCE_TOPICS.map(function (sourceTopic) {
         return fetch(BASE + sourceTopic.url)
@@ -301,7 +335,7 @@
     ROOT.innerHTML = '';
     var wrap = el('div', 'pt-select-wrap');
 
-    var title = el('h2', 'pt-select-title', IS_MENTAL_HEALTH ? 'Build Your Mental Health Practice Test' : IS_IMMUNE ? 'Build Your Immune & Inflammatory Practice Test' : IS_RENAL ? 'Build Your Renal & Urinary Practice Test' : 'Build Your Practice Test');
+    var title = el('h2', 'pt-select-title', IS_MENTAL_HEALTH ? 'Build Your Mental Health Practice Test' : IS_IMMUNE ? 'Build Your Immune & Inflammatory Practice Test' : IS_RENAL ? 'Build Your Renal & Urinary Practice Test' : IS_SENSORY ? 'Build Your Sensory Perception Practice Test' : 'Build Your Practice Test');
     var sub   = el('p',  'pt-select-sub',   'Choose the topics you want to include, then select a mode.');
     wrap.appendChild(title);
     wrap.appendChild(sub);
