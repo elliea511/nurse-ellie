@@ -430,6 +430,13 @@ Dialysis removes wastes from the blood faster than they leave the brain. Water t
 - Monitor glucose and weight.
 - Follow individualized diet.
 </div>
+<div class="detail-mini-card" markdown="1"><strong>Acute vs Chronic Use</strong>
+
+- Used for acute or chronic kidney disease.
+- Acute may take 24-78 passes to complete.
+- Ambulatory type is used more for chronic.
+- Ambulatory dwells longer.
+</div>
 </div>
 
 <div class="detail-table" markdown="1">
