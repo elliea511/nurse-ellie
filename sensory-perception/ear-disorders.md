@@ -404,7 +404,9 @@ A **myringotomy** is a small incision made in the tympanic membrane to drain flu
 </div>
 </div>
 
-<h5>Teaching</h5>
+<div class="detail-grid" markdown="1">
+<div class="detail-mini-card" markdown="1">
+<strong>Teaching</strong>
 
 * Administer prescribed ear drops correctly.
 * Keep follow-up appointments.
@@ -413,6 +415,8 @@ A **myringotomy** is a small incision made in the tympanic membrane to drain flu
 * Do not insert objects into the ear.
 * Report persistent or foul-smelling drainage.
 * Report fever, increasing pain, or hearing loss.
+</div>
+</div>
 
 </section>
 
@@ -503,7 +507,9 @@ Labyrinthitis affects both balance and hearing. Vertigo with tinnitus, nystagmus
 </div>
 </div>
 
-<h5>Patient education</h5>
+<div class="detail-grid" markdown="1">
+<div class="detail-mini-card" markdown="1">
+<strong>Patient education</strong>
 
 * Follow the prescribed low-sodium diet.
 * Take diuretics as ordered.
@@ -515,6 +521,8 @@ Labyrinthitis affects both balance and hearing. Vertigo with tinnitus, nystagmus
 * Avoid driving during attacks.
 * Use assistive devices when necessary.
 * Keep a record of possible triggers.
+</div>
+</div>
 
 <div class="report-now" markdown="1">
 <h3>Safety During Vertigo</h3>
@@ -603,7 +611,9 @@ During a stapedectomy, the abnormal stapes is removed or bypassed and replaced w
 </div>
 </div>
 
-<h5>Teach the client to</h5>
+<div class="detail-grid" markdown="1">
+<div class="detail-mini-card" markdown="1">
+<strong>Teach the client to</strong>
 
 * Sneeze with the mouth open.
 * Change position slowly.
@@ -612,6 +622,8 @@ During a stapedectomy, the abnormal stapes is removed or bypassed and replaced w
 * Report sudden hearing loss.
 * Report facial weakness.
 * Report drainage or fever.
+</div>
+</div>
 
 <div class="nclex-tip" markdown="1">
 <h3>NCLEX Tip</h3>
@@ -773,7 +785,9 @@ Tinnitus may be an early warning sign of ototoxicity. Report it before hearing l
 </div>
 </div>
 
-<h5>Administration steps</h5>
+<div class="detail-grid" markdown="1">
+<div class="detail-mini-card" markdown="1">
+<strong>Administration steps</strong>
 
 1. Perform hand hygiene.
 2. Position the client with the affected ear upward.
@@ -784,12 +798,18 @@ Tinnitus may be an early warning sign of ototoxicity. Report it before hearing l
 7. Keep the client on the side for approximately 5 to 10 minutes.
 8. Place a loose cotton ball at the opening if prescribed.
 9. Do not pack the cotton deeply.
+</div>
+</div>
 
-<h5>Important safety</h5>
+<div class="detail-grid" markdown="1">
+<div class="detail-mini-card" markdown="1">
+<strong>Important safety</strong>
 
 * Do not place unapproved drops into an ear with a perforated tympanic membrane.
 * Do not force medication against severe resistance.
 * Report severe burning, pain, rash, or worsening symptoms.
+</div>
+</div>
 
 <div class="nclex-tip" markdown="1">
 <h3>Medication Memory Cue</h3>
@@ -843,7 +863,9 @@ Adults and older children: **up and back**. Young children: **down and back**.
 </div>
 </div>
 
-<h5>Safety</h5>
+<div class="detail-grid" markdown="1">
+<div class="detail-mini-card" markdown="1">
+<strong>Safety</strong>
 
 * Approach from the front.
 * Ensure alarms have visual or vibrating features when available.
@@ -851,6 +873,8 @@ Adults and older children: **up and back**. Young children: **down and back**.
 * Explain procedures before beginning.
 * Do not assume hearing impairment means cognitive impairment.
 * Encourage use of prescribed assistive devices.
+</div>
+</div>
 
 <div class="nclex-tip" markdown="1">
 <h3>NCLEX Tip</h3>

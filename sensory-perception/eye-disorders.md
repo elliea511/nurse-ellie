@@ -226,6 +226,8 @@ Assess each eye separately and then together.
 
 #### Nursing Care
 
+<div class="detail-grid" markdown="1">
+<div class="detail-mini-card" markdown="1">
 * Perform careful hand hygiene.
 * Wear gloves when cleaning drainage.
 * Clean from the **inner canthus toward the outer canthus**.
@@ -236,6 +238,8 @@ Assess each eye separately and then together.
 * Discard contaminated eye makeup or contact-lens supplies.
 * Administer prescribed drops or ointment.
 * Teach the client to complete antibiotic treatment.
+</div>
+</div>
 
 <div class="nclex-tip" markdown="1">
 <h3>NCLEX Tip</h3>
@@ -315,7 +319,9 @@ A **cataract** is clouding of the lens that gradually decreases vision. The defi
 </div>
 </div>
 
-<h5>Teach the client to</h5>
+<div class="detail-grid" markdown="1">
+<div class="detail-mini-card" markdown="1">
+<strong>Teach the client to</strong>
 
 * Bend at the knees rather than the waist.
 * Use stool softeners if prescribed.
@@ -323,6 +329,8 @@ A **cataract** is clouding of the lens that gradually decreases vision. The defi
 * Use medications exactly as ordered.
 * Avoid driving until cleared.
 * Report severe pain or sudden vision loss.
+</div>
+</div>
 
 <div class="report-now" markdown="1">
 <h3>Report After Cataract Surgery</h3>
@@ -414,7 +422,9 @@ Treatment goals are to lower intraocular pressure, protect the optic nerve, slow
 
 </div>
 
-<h5>Glaucoma teaching</h5>
+<div class="detail-grid" markdown="1">
+<div class="detail-mini-card" markdown="1">
+<strong>Glaucoma teaching</strong>
 
 * Use medications every day, even when vision seems unchanged.
 * Glaucoma medications control the disease but do not cure it.
@@ -422,6 +432,8 @@ Treatment goals are to lower intraocular pressure, protect the optic nerve, slow
 * Do not stop drops without the provider’s instructions.
 * Report wheezing, slow pulse, faintness, or severe eye pain.
 * Use punctal occlusion to reduce systemic medication absorption.
+</div>
+</div>
 
 <div class="nclex-tip" markdown="1">
 <h3>NCLEX Tip</h3>
@@ -469,7 +481,9 @@ A **retinal detachment** occurs when the retina separates from the tissue beneat
 </div>
 </div>
 
-<h5>Nursing priorities</h5>
+<div class="detail-grid" markdown="1">
+<div class="detail-mini-card" markdown="1">
+<strong>Nursing priorities</strong>
 
 * Treat as an ophthalmic emergency.
 * Limit unnecessary activity.
@@ -478,8 +492,12 @@ A **retinal detachment** occurs when the retina separates from the tissue beneat
 * Follow prescribed positioning.
 * Administer medications as ordered.
 * Teach postoperative restrictions.
+</div>
+</div>
 
-<h5>After retinal repair</h5>
+<div class="detail-grid" markdown="1">
+<div class="detail-mini-card" markdown="1">
+<strong>After retinal repair</strong>
 
 A gas bubble may be placed inside the eye to hold the retina in position. The client may need to:
 
@@ -489,6 +507,8 @@ A gas bubble may be placed inside the eye to hold the retina in position. The cl
 * Avoid high altitude.
 * Wear an identification bracelet or carry a card about the gas bubble.
 * Report increasing pain or decreased vision.
+</div>
+</div>
 
 <div class="report-now" markdown="1">
 <h3>Retinal Emergency</h3>
@@ -526,7 +546,9 @@ New flashes, many floaters, or a curtain across the visual field require immedia
 </div>
 </div>
 
-<h5>Nursing and patient education</h5>
+<div class="detail-grid" markdown="1">
+<div class="detail-mini-card" markdown="1">
+<strong>Nursing and patient education</strong>
 
 * Use an Amsler grid if prescribed.
 * Report new wavy lines or blank spots.
@@ -536,6 +558,8 @@ New flashes, many floaters, or a curtain across the visual field require immedia
 * Encourage smoking cessation.
 * Promote fall prevention.
 * Refer to low-vision resources.
+</div>
+</div>
 
 <div class="nclex-tip" markdown="1">
 <h3>NCLEX Tip</h3>
@@ -618,6 +642,8 @@ Chemical injury: irrigate immediately. Penetrating injury: do not remove the obj
 
 #### Eye Drops
 
+<div class="detail-grid" markdown="1">
+<div class="detail-mini-card" markdown="1">
 1. Perform hand hygiene.
 2. Verify the medication and correct eye.
 3. Position the client with the head tilted back.
@@ -629,6 +655,8 @@ Chemical injury: irrigate immediately. Penetrating injury: do not remove the obj
 9. Ask the client to close the eye gently.
 10. Apply gentle pressure to the nasolacrimal duct when indicated.
 11. Wait the prescribed time between different medications.
+</div>
+</div>
 
 </section>
 
@@ -636,10 +664,14 @@ Chemical injury: irrigate immediately. Penetrating injury: do not remove the obj
 
 #### Eye Ointment
 
+<div class="detail-grid" markdown="1">
+<div class="detail-mini-card" markdown="1">
 * Apply a thin ribbon from inner to outer canthus.
 * Do not touch the applicator to the eye.
 * Temporary blurred vision is expected.
 * Apply drops before ointment when both are ordered.
+</div>
+</div>
 
 <div class="nclex-tip" markdown="1">
 <h3>Medication Order</h3>
@@ -692,6 +724,8 @@ Use eye drops before eye ointment because ointment can prevent drops from being 
 
 #### Guiding the Client
 
+<div class="detail-grid" markdown="1">
+<div class="detail-mini-card" markdown="1">
 * Allow the client to hold your arm just above the elbow.
 * Walk slightly ahead.
 * Describe stairs, curbs, doors, and narrow spaces.
@@ -699,6 +733,8 @@ Use eye drops before eye ointment because ointment can prevent drops from being 
 * Use the clock-face method to describe food placement.
 
 For example: meat at 6 o’clock, vegetables at 3 o’clock, and potatoes at 9 o’clock.
+</div>
+</div>
 
 </section>
 
