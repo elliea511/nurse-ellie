@@ -60,6 +60,7 @@ Kidney failure prevents removal of hydrogen ions, nitrogen wastes, potassium, ph
 - Calcium and vitamin D may be prescribed.
 - Phosphate binders lower phosphorus.
 - Take phosphate binders with meals.
+- Aluminum hydroxide gel is one phosphate binder that binds dietary phosphorus.
 </div>
 <div class="detail-mini-card" markdown="1"><strong>Anemia</strong>
 
@@ -286,7 +287,7 @@ Kidney failure prevents removal of hydrogen ions, nitrogen wastes, potassium, ph
 |---|---|
 | **Epoetin or Epogen** | Replaces erythropoietin effect and treats anemia |
 | **Calcium and vitamin D** | Treat low calcium and bone problems |
-| **Phosphate binders** | Bind phosphorus in the GI tract and are taken with meals |
+| **Phosphate binders** (e.g., aluminum hydroxide gel) | Bind phosphorus in the GI tract and are taken with meals |
 | **Antihypertensives** | Control blood pressure |
 | **Potassium-lowering therapy** | Treat dangerous hyperkalemia |
 | **Dialysis** | Removes wastes, corrects acidosis, balances electrolytes, and removes fluid |
