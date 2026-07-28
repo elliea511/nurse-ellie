@@ -139,6 +139,7 @@ A single missed urine specimen can invalidate a 24-hour collection.
 | Test | Course Value | Main Meaning |
 |---|---:|---|
 | **BUN** | **10–20 mg/dL** | Nitrogen waste; may rise with kidney dysfunction and other conditions |
+| **Serum ammonia** | **15–45 mcg/dL** | Nitrogen waste; retention is toxic to the brain and causes confusion |
 | **Serum creatinine** | **0.6–1.2 mg/dL** | Major routine indicator of kidney filtration |
 | **Urine specific gravity** | **1.015–1.025** | Concentration of urine in the instructor renal notes |
 | **Minimum urine output** | **30 mL/hr** | Minimum adequate output |
