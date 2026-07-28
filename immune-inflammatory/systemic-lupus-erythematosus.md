@@ -575,6 +575,7 @@ Photosensitivity is not just a comfort issue. Sun exposure can trigger a lupus f
 - Monitor glucose.
 - Report infection.
 - Protect bones.
+- Take calcium and vitamin D supplements.
 - Do not stop suddenly after long-term use.
 - Follow taper instructions.
 </div>
