@@ -430,12 +430,13 @@ Dialysis removes wastes from the blood faster than they leave the brain. Water t
 - Monitor glucose and weight.
 - Follow individualized diet.
 </div>
-<div class="detail-mini-card" markdown="1"><strong>Acute vs Chronic Use</strong>
+<div class="detail-mini-card" markdown="1"><strong>Types & Uses</strong>
 
-- Used for acute or chronic kidney disease.
-- Acute may take 24-78 passes to complete.
-- Ambulatory type is used more for chronic.
-- Ambulatory dwells longer.
+- Treats both acute and chronic kidney failure.
+- Acute: many rapid exchanges with short dwells.
+- CAPD (chronic): manual; client stays ambulatory during the dwell.
+- APD (chronic): a machine cycles exchanges overnight.
+- Chronic dwells run longer (about 4-6 hours).
 </div>
 </div>
 
