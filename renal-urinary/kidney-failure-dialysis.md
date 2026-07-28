@@ -23,6 +23,7 @@ Kidney failure prevents removal of hydrogen ions, nitrogen wastes, potassium, ph
   <div class="mh-card pink"><div class="mh-card-icon">🥗</div><h3>Nursing Care & Diet</h3><p>I&O, weights, low protein, high carbohydrate, electrolytes, skin care, and medications.</p><a class="mh-btn" href="#panel-renal-management">Study Management</a></div>
   <div class="mh-card purple"><div class="mh-card-icon">🔄</div><h3>Hemodialysis</h3><p>AV access, thrill and bruit, before and after care, hypotension, bleeding, and drug timing.</p><a class="mh-btn" href="#panel-hemodialysis">Study Hemodialysis</a></div>
   <div class="mh-card blue"><div class="mh-card-icon">💧</div><h3>Peritoneal Dialysis</h3><p>Infuse-dwell-drain cycle, clear versus cloudy dialysate, protein needs, and complications.</p><a class="mh-btn" href="#panel-peritoneal">Study Peritoneal Dialysis</a></div>
+  <div class="mh-card green"><div class="mh-card-icon">🫱</div><h3>Kidney Transplant</h3><p>Donor selection and tissue matching, lifelong immunosuppressants, postoperative care, and signs of rejection.</p><a class="mh-btn" href="#panel-transplant">Study Transplant</a></div>
 </div>
 
 <div class="mh-detail purple" id="panel-failure-physiology" markdown="1">
@@ -488,6 +489,66 @@ Dialysis removes wastes from the blood faster than they leave the brain. Water t
 <h3>Cloudy Dialysate = Report</h3>
 
 Cloudy peritoneal effluent is the classic cue for peritonitis and requires immediate follow-up.
+</div>
+</div>
+
+<div class="mh-detail green" id="panel-transplant" markdown="1">
+<a class="mh-detail-close" href="#">✕</a>
+
+### Kidney Transplant
+
+<div class="detail-grid" markdown="1">
+<div class="detail-mini-card" markdown="1"><strong>Donor Selection</strong>
+
+- Donor and recipient must be tissue compatible (antigen match).
+- More matched antigens mean a better chance of success.
+- Best match is an identical twin, then a sibling.
+- Next best is a parent or child (about half the gene pool).
+- Living donors can give a kidney or part of the liver.
+- Cadaver donors are often previously healthy trauma victims who are now brain dead.
+</div>
+<div class="detail-mini-card" markdown="1"><strong>Organ-Donor Teaching</strong>
+
+- Encourage carrying an organ-donor card and noting it on the driver's license.
+- Encourage discussing wishes with family ahead of time.
+- The next of kin makes the decision, so clear wishes ease that choice.
+</div>
+<div class="detail-mini-card" markdown="1"><strong>Immunosuppressants (For Life)</strong>
+
+- Cyclosporine (Sandimmune)
+- Azathioprine (Imuran)
+- Antilymphocytic globulin (ALG)
+- Corticosteroids
+- Usually a steroid plus one or more of the others.
+- Teach the client about living with long-term immunosuppression and infection risk.
+</div>
+</div>
+
+<div class="detail-callout" markdown="1">
+<strong>Placement:</strong> The transplanted kidney is usually placed in the iliac (hip) fossa, with a ureter and blood supply attached. It often begins working before surgery ends, so a client may have three kidneys total.
+</div>
+
+<div class="detail-grid" markdown="1">
+<div class="detail-mini-card" markdown="1"><strong>Routine Postoperative Care</strong>
+
+- Monitor fluid and electrolyte balance with hourly I&O.
+- Expect possible massive diuresis early.
+- Give immunosuppressive agents for life.
+- Assess continuously for signs of acute rejection.
+</div>
+<div class="detail-mini-card" markdown="1"><strong>Acute Rejection</strong>
+
+- Occurs 4 days to 4 months after transplant.
+- Decreased urine output.
+- Fever.
+- Pain or tenderness over the transplant site.
+- Edema and weight gain.
+- Rising serum creatinine.
+</div>
+</div>
+
+<div class="nclex-tip" markdown="1">
+Acute rejection shows signs of organ failure plus pain and fever. A rising creatinine with decreased urine output over the graft is a key warning.
 </div>
 </div>
 

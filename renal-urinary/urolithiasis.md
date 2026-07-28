@@ -259,6 +259,7 @@ Pain location helps locate the stone. Deep flank pain suggests the renal pelvis,
 - Avoid excessive calcium and vitamin D supplements.
 - Limit sodium to about **2–3 g/day** in the course notes.
 - High sodium increases urinary calcium.
+- Hydrochlorothiazide (HCTZ) may be prescribed to lower urinary calcium.
 </div>
 </div>
 
