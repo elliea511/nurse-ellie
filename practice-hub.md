@@ -63,11 +63,11 @@ page_type: practice-hub
       <article class="practice-test-card theme-orange">
         <span class="practice-card-icon">🫘</span>
         <div>
-          <h2>Renal System</h2>
-          <p>Acute and chronic kidney disease, electrolyte emergencies, hemodialysis, peritoneal dialysis, glomerular and urinary disorders, procedures, and transplantation.</p>
-          <div class="practice-meta"><span>▤ 50 Questions</span></div>
+          <h2>Renal &amp; Urinary</h2>
+          <p>Diagnostics and catheter care, UTI and pyelonephritis, kidney stones, glomerular disorders, AKI and CKD, dialysis and transplant, renal surgery and urinary diversions, and BPH/TURP — pick your topics.</p>
+          <div class="practice-meta"><span>▤ 97 Questions • 8 topics</span></div>
         </div>
-        <footer><a href="{{ '/renal-urinary/renal-system-quiz.html' | relative_url }}">Start</a></footer>
+        <footer><a href="{{ '/renal-urinary/practice-quiz.html' | relative_url }}">Start</a></footer>
       </article>
 
       <article class="practice-test-card theme-pink">

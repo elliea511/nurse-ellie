@@ -9,6 +9,7 @@
   var PATH = window.location.pathname || '';
   var IS_MENTAL_HEALTH = /\/mental-health\/practice-quiz(\.html)?\/?$/.test(PATH);
   var IS_IMMUNE = /\/immune-inflammatory\/practice-quiz(\.html)?\/?$/.test(PATH);
+  var IS_RENAL = /\/renal-urinary\/practice-quiz(\.html)?\/?$/.test(PATH);
 
   // Immune & Inflammatory: eight topic selections built by classifying each
   // existing question. Questions are never rewritten — only assigned a topic.
@@ -62,6 +63,74 @@
     return immunePoolPromise;
   }
 
+  // Renal & Urinary: eight topic selections built by classifying each existing
+  // question. Questions are never rewritten — only assigned a topic.
+  var RENAL_TOPICS = [
+    { id: 'diag',      label: 'Diagnostics & Catheter Care',            cat: 'Renal & Urinary', renal: true, n: 13 },
+    { id: 'uti',       label: 'UTI & Pyelonephritis',                   cat: 'Renal & Urinary', renal: true, n: 7  },
+    { id: 'stones',    label: 'Kidney Stones',                          cat: 'Renal & Urinary', renal: true, n: 11 },
+    { id: 'glom',      label: 'Glomerular Disorders',                   cat: 'Renal & Urinary', renal: true, n: 5  },
+    { id: 'akickd',    label: 'AKI & CKD',                              cat: 'Renal & Urinary', renal: true, n: 24 },
+    { id: 'dialysis',  label: 'Dialysis & Transplant',                  cat: 'Renal & Urinary', renal: true, n: 17 },
+    { id: 'surgery',   label: 'Renal Surgery & Urinary Diversions',     cat: 'Renal & Urinary', renal: true, n: 12 },
+    { id: 'bph',       label: 'BPH, TURP & Prostate Care',              cat: 'Renal & Urinary', renal: true, n: 8  }
+  ];
+
+  // Source quizzes feeding the renal topics, and the topic each question maps to
+  // (in the order the questions appear on each page).
+  var RENAL_SOURCES = [
+    { id: 'renal-core', url: '/renal-urinary/renal-system-quiz.html' },
+    { id: 'renal-supp', url: '/renal-urinary/renal-missing-topics-quiz.html' }
+  ];
+  // Original renal-system-quiz.html (Q1–50)
+  var RENAL_CORE_MAP = [
+    'akickd','akickd','akickd','akickd','akickd','akickd','akickd','akickd','akickd','akickd', // Q1–10
+    'akickd','akickd',                                                                          // Q11–12
+    'dialysis','dialysis','dialysis','dialysis','dialysis','dialysis','dialysis','dialysis',    // Q13–20
+    'glom','glom','glom','glom',                                                                // Q21–24
+    'uti','uti',                                                                                // Q25–26
+    'stones','stones','stones',                                                                 // Q27–29
+    'bph','bph','bph',                                                                          // Q30–32
+    'surgery','surgery',                                                                        // Q33 bladder cancer, Q34 ileal conduit
+    'diag',                                                                                     // Q35 renal biopsy
+    'akickd','akickd',                                                                          // Q36–37
+    'dialysis','dialysis',                                                                      // Q38–39 transplant
+    'akickd',                                                                                   // Q40 uremic pruritus
+    'stones',                                                                                   // Q41 oxalate foods
+    'dialysis',                                                                                 // Q42 protect fistula
+    'glom',                                                                                     // Q43 nephrotic
+    'dialysis',                                                                                 // Q44 PD peritonitis
+    'akickd','akickd','akickd','akickd','akickd',                                               // Q45–49
+    'dialysis'                                                                                  // Q50 see-first: PD peritonitis
+  ];
+  // Renal & Urinary Missing Topics quiz (Q1–47)
+  var RENAL_SUPP_MAP = [
+    'diag','diag','diag','diag','diag','diag','diag','diag','diag','diag','diag','diag',        // Q1–12
+    'surgery',                                                                                  // Q13 postop output target
+    'uti','uti','uti','uti','uti',                                                              // Q14–18
+    'stones','stones','stones','stones','stones','stones','stones',                             // Q19–25
+    'surgery','surgery','surgery','surgery','surgery','surgery','surgery','surgery','surgery',  // Q26–34
+    'bph','bph','bph','bph','bph',                                                              // Q35–39
+    'akickd','akickd','akickd','akickd',                                                        // Q40–43
+    'dialysis','dialysis','dialysis','dialysis'                                                 // Q44–47
+  ];
+  var RENAL_CAT_BY_SOURCE = { 'renal-core': RENAL_CORE_MAP, 'renal-supp': RENAL_SUPP_MAP };
+  var renalPoolPromise = null;
+  function loadRenalPool() {
+    if (renalPoolPromise) return renalPoolPromise;
+    renalPoolPromise = Promise.all(RENAL_SOURCES.map(function (src) {
+      return fetch(BASE + src.url)
+        .then(function (r) { return r.text(); })
+        .then(function (html) {
+          var qs = parseHTML(html, src.id, src.id);
+          var map = RENAL_CAT_BY_SOURCE[src.id];
+          qs.forEach(function (q, i) { q.renalCat = map[i]; });
+          return qs;
+        });
+    })).then(function (results) { return [].concat.apply([], results); });
+    return renalPoolPromise;
+  }
+
   var MEDICAL_EMERGENCY_TOPICS = [
     { id: 'chf',        label: 'CHF & Pulmonary Edema',         cat: 'Cardiac & Perfusion', url: '/medical-emergencies/cardiac-perfusion/chf-quiz.html',        n: 32 },
     { id: 'mi',         label: 'Angina & Myocardial Infarction', cat: 'Cardiac & Perfusion', url: '/medical-emergencies/cardiac-perfusion/mi-quiz.html',         n: 32 },
@@ -110,7 +179,7 @@
 
   var MENTAL_HEALTH_TOPICS = MENTAL_HEALTH_SOURCE_TOPICS.concat(MENTAL_HEALTH_DERIVED_TOPICS);
 
-  var TOPICS = IS_MENTAL_HEALTH ? MENTAL_HEALTH_TOPICS : IS_IMMUNE ? IMMUNE_TOPICS : MEDICAL_EMERGENCY_TOPICS;
+  var TOPICS = IS_MENTAL_HEALTH ? MENTAL_HEALTH_TOPICS : IS_IMMUNE ? IMMUNE_TOPICS : IS_RENAL ? RENAL_TOPICS : MEDICAL_EMERGENCY_TOPICS;
 
   var MEDICATION_QUESTION_RE = /\b(medication|medications|prescription|prescribed|dose|doses|administer|ssri|ssris|snri|snris|tca|tcas|maoi|maois|antidepressant|antidepressants|benzodiazepine|benzodiazepines|buspirone|lorazepam|diazepam|alprazolam|fluoxetine|sertraline|escitalopram|citalopram|venlafaxine|duloxetine|bupropion|phenelzine|nortriptyline|amitriptyline|hydroxyzine|propranolol|tricyclic|serotonin syndrome|st\. john|linezolid|meperidine|pseudoephedrine|tyramine|discontinuation syndrome|side effect|adverse effect|adverse effects|toxicity|therapeutic response|antipsychotic|antipsychotics|clozapine|haloperidol|risperidone|fluphenazine|benztropine|diphenhydramine|long-acting injectable|prolactin|agranulocytosis|neutropenia|extrapyramidal|tardive dyskinesia|akathisia|dystonia|pseudoparkinsonism|neuroleptic malignant syndrome|nms|naloxone|flumazenil|disulfiram|naltrexone|acamprosate|methadone|buprenorphine|buprenorphine-naloxone|lisdexamfetamine|thiamine|vitamin b1|medication-assisted treatment)\b/i;
 
@@ -186,6 +255,13 @@
       });
     }
 
+    if (topic.renal) {
+      return loadRenalPool().then(function (pool) {
+        return pool.filter(function (q) { return q.renalCat === topic.id; })
+          .map(function (q) { q.topic = topic.id; q.topicLabel = topic.label; return q; });
+      });
+    }
+
     if (topic.derived && topic.filter === 'medications') {
       return Promise.all(MENTAL_HEALTH_SOURCE_TOPICS.map(function (sourceTopic) {
         return fetch(BASE + sourceTopic.url)
@@ -240,7 +316,7 @@
     ROOT.innerHTML = '';
     var wrap = el('div', 'pt-select-wrap');
 
-    var title = el('h2', 'pt-select-title', IS_MENTAL_HEALTH ? 'Build Your Mental Health Practice Test' : IS_IMMUNE ? 'Build Your Immune & Inflammatory Practice Test' : 'Build Your Practice Test');
+    var title = el('h2', 'pt-select-title', IS_MENTAL_HEALTH ? 'Build Your Mental Health Practice Test' : IS_IMMUNE ? 'Build Your Immune & Inflammatory Practice Test' : IS_RENAL ? 'Build Your Renal & Urinary Practice Test' : 'Build Your Practice Test');
     var sub   = el('p',  'pt-select-sub',   'Choose the topics you want to include, then select a mode.');
     wrap.appendChild(title);
     wrap.appendChild(sub);
