@@ -55,10 +55,10 @@ Kidney failure prevents removal of hydrogen ions, nitrogen wastes, potassium, ph
 </div>
 <div class="detail-mini-card" markdown="1"><strong>Ammonia & Nitrogen Waste</strong>
 
-- The kidney is supposed to remove ammonia (NH3) from the blood stream.
-- If the kidneys cannot do that and ammonia stays in the blood stream, the patient will have an elevated BUN and elevated serum ammonia level.
-- The normal range for the BUN is 10-20 and the normal range for serum ammonia is 15-45.
-- Ammonia is very toxic to the brain and will cause confusion in your patient.
+- Kidneys normally clear ammonia (NH3).
+- Retained ammonia raises BUN and serum ammonia.
+- Normal BUN is 10-20; serum ammonia is 15-45.
+- Ammonia is toxic to the brain and causes confusion.
 </div>
 <div class="detail-mini-card" markdown="1"><strong>Calcium & Phosphorus</strong>
 
