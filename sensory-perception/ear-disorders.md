@@ -86,8 +86,6 @@ Ear disorders may affect **hearing, balance, communication, mobility, and safety
 
 ### Ear Anatomy and Assessment
 
-<section class="renal-note-section" markdown="1">
-
 The ear has three major sections.
 
 <div class="detail-table" markdown="1">
@@ -99,10 +97,6 @@ The ear has three major sections.
 | **Inner ear** | Cochlea and vestibular system | Hearing and balance |
 
 </div>
-
-</section>
-
-<section class="renal-note-section" markdown="1">
 
 <div class="detail-grid" markdown="1">
 <div class="detail-mini-card" markdown="1">
@@ -156,16 +150,12 @@ The ear has three major sections.
 
 </div>
 
-</section>
-
 </div>
 
 <div class="mh-detail green" id="panel-hearing-loss" markdown="1">
 <a class="mh-detail-close" href="#">✕</a>
 
 ### Hearing Loss
-
-<section class="renal-note-section" markdown="1">
 
 Hearing loss may be **conductive, sensorineural, or mixed**. In mixed hearing loss, the client has both conductive and sensorineural impairment.
 
@@ -209,12 +199,6 @@ Hearing loss may be **conductive, sensorineural, or mixed**. In mixed hearing lo
 
 </div>
 
-</section>
-
-<section class="renal-note-section" markdown="1">
-
-#### Common Hearing Tests
-
 <div class="detail-table" markdown="1">
 
 | Test | Purpose |
@@ -234,16 +218,12 @@ Conductive hearing loss involves a problem carrying sound to the inner ear. Sens
 
 </div>
 
-</section>
-
 </div>
 
 <div class="mh-detail pink" id="panel-otitis" markdown="1">
 <a class="mh-detail-close" href="#">✕</a>
 
 ### Otitis Media
-
-<section class="renal-note-section" markdown="1">
 
 **Otitis media** is inflammation or infection of the middle ear. It is especially common in infants and young children because their eustachian tubes are shorter and more horizontal. Risk factors include a recent upper respiratory infection, young age, daycare exposure, bottle-feeding while lying flat, passive-smoke exposure, lack of recommended vaccinations, craniofacial abnormalities, enlarged adenoids, and previous ear infections.
 
@@ -283,12 +263,6 @@ Fluid remains behind the tympanic membrane without signs of an acute infection.
 </div>
 </div>
 
-</section>
-
-<section class="renal-note-section" markdown="1">
-
-#### Diagnosis and Treatment
-
 <div class="detail-grid" markdown="1">
 <div class="detail-mini-card" markdown="1">
 <strong>Diagnostic Tests</strong>
@@ -313,12 +287,6 @@ Fluid remains behind the tympanic membrane without signs of an acute infection.
 
 </div>
 </div>
-
-</section>
-
-<section class="renal-note-section" markdown="1">
-
-#### Nursing Care and Education
 
 <div class="detail-grid" markdown="1">
 <div class="detail-mini-card" markdown="1">
@@ -374,12 +342,6 @@ Persistent middle-ear fluid can interfere with hearing and speech development ev
 
 </div>
 
-</section>
-
-<section class="renal-note-section" markdown="1">
-
-#### Myringotomy and Tympanostomy Tubes
-
 A **myringotomy** is a small incision made in the tympanic membrane to drain fluid. A small tympanostomy tube may be inserted to keep the middle ear ventilated.
 
 <div class="detail-grid" markdown="1">
@@ -416,18 +378,12 @@ A **myringotomy** is a small incision made in the tympanic membrane to drain flu
 </div>
 </div>
 
-</section>
-
 </div>
 
 <div class="mh-detail purple" id="panel-inner-ear" markdown="1">
 <a class="mh-detail-close" href="#">✕</a>
 
 ### Inner-Ear Disorders
-
-<section class="renal-note-section" markdown="1">
-
-#### Labyrinthitis
 
 **Labyrinthitis** is inflammation of the inner ear. It can affect both balance and hearing.
 
@@ -467,12 +423,6 @@ A **myringotomy** is a small incision made in the tympanic membrane to drain flu
 Labyrinthitis affects both balance and hearing. Vertigo with tinnitus, nystagmus, and sensorineural hearing loss supports inner-ear involvement.
 
 </div>
-
-</section>
-
-<section class="renal-note-section" markdown="1">
-
-#### Ménière Disease
 
 **Ménière disease** is a chronic inner-ear disorder associated with excess inner-ear fluid. Classic findings are episodic vertigo, tinnitus, fluctuating sensorineural hearing loss, and a feeling of fullness or pressure in the ear. Vertigo attacks may also cause nausea, vomiting, diaphoresis, nystagmus, loss of balance, and anxiety.
 
@@ -534,16 +484,12 @@ Ménière disease is remembered by the combination of **vertigo, tinnitus, fluct
 
 </div>
 
-</section>
-
 </div>
 
 <div class="mh-detail blue" id="panel-otosclerosis" markdown="1">
 <a class="mh-detail-close" href="#">✕</a>
 
 ### Otosclerosis and Stapes Surgery
-
-<section class="renal-note-section" markdown="1">
 
 **Otosclerosis** is abnormal bone growth around the stapes in the middle ear. The stapes cannot move normally, causing conductive hearing loss.
 
@@ -568,12 +514,6 @@ Ménière disease is remembered by the combination of **vertigo, tinnitus, fluct
 
 </div>
 </div>
-
-</section>
-
-<section class="renal-note-section" markdown="1">
-
-#### Stapedectomy
 
 During a stapedectomy, the abnormal stapes is removed or bypassed and replaced with a prosthesis.
 
@@ -626,16 +566,12 @@ After stapes surgery, prevent increased middle-ear pressure. The client should s
 
 </div>
 
-</section>
-
 </div>
 
 <div class="mh-detail green" id="panel-trauma" markdown="1">
 <a class="mh-detail-close" href="#">✕</a>
 
 ### Ear Trauma and Foreign Bodies
-
-<section class="renal-note-section" markdown="1">
 
 Ear trauma may damage the external ear, tympanic membrane, middle ear, or inner ear.
 
@@ -657,12 +593,6 @@ Possible effects include pain, bleeding, swelling, hematoma, deformity, and cond
 
 </div>
 </div>
-
-</section>
-
-<section class="renal-note-section" markdown="1">
-
-#### Foreign Body in the Ear
 
 <div class="detail-grid" markdown="1">
 <div class="detail-mini-card" markdown="1">
@@ -703,18 +633,12 @@ Clear or bloody drainage from the ear after head trauma may indicate a skull fra
 
 </div>
 
-</section>
-
 </div>
 
 <div class="mh-detail pink" id="panel-medications" markdown="1">
 <a class="mh-detail-close" href="#">✕</a>
 
 ### Ear Medications and Ototoxicity
-
-<section class="renal-note-section" markdown="1">
-
-#### Ototoxic Medications
 
 **Ototoxicity** means medication-related damage to hearing or balance structures. Possible ototoxic medications include aminoglycosides, some loop diuretics, high-dose salicylates, certain chemotherapy medications, and vancomycin in some situations.
 
@@ -749,12 +673,6 @@ Clear or bloody drainage from the ear after head trauma may indicate a skull fra
 Tinnitus may be an early warning sign of ototoxicity. Report it before hearing loss becomes more severe.
 
 </div>
-
-</section>
-
-<section class="renal-note-section" markdown="1">
-
-#### Administering Ear Drops
 
 <div class="detail-grid" markdown="1">
 <div class="detail-mini-card" markdown="1">
@@ -808,16 +726,12 @@ Adults and older children: **up and back**. Young children: **down and back**.
 
 </div>
 
-</section>
-
 </div>
 
 <div class="mh-detail purple" id="panel-impairment" markdown="1">
 <a class="mh-detail-close" href="#">✕</a>
 
 ### Caring for a Client With Hearing Impairment
-
-<section class="renal-note-section" markdown="1">
 
 <div class="detail-grid" markdown="1">
 <div class="detail-mini-card" markdown="1">
@@ -870,8 +784,6 @@ Adults and older children: **up and back**. Young children: **down and back**.
 Do not shout at a hearing-impaired client. Face the client, lower background noise, speak clearly, and use a lower-pitched voice.
 
 </div>
-
-</section>
 
 </div>
 

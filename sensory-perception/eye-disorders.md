@@ -86,8 +86,6 @@ Eye disorders can affect the client’s ability to see clearly, move safely, adm
 
 ### Eye Assessment
 
-<section class="renal-note-section" markdown="1">
-
 Assess each eye separately and then together.
 
 <div class="detail-grid" markdown="1">
@@ -126,12 +124,6 @@ Assess each eye separately and then together.
 </div>
 </div>
 
-</section>
-
-<section class="renal-note-section" markdown="1">
-
-#### Assessment Techniques
-
 <div class="detail-table" markdown="1">
 
 | Assessment | Purpose |
@@ -159,16 +151,12 @@ Assess each eye separately and then together.
 
 </div>
 
-</section>
-
 </div>
 
 <div class="mh-detail green" id="panel-conjunctivitis" markdown="1">
 <a class="mh-detail-close" href="#">✕</a>
 
 ### Conjunctivitis
-
-<section class="renal-note-section" markdown="1">
 
 **Conjunctivitis** is inflammation or infection of the conjunctiva, the thin membrane covering the white part of the eye and inner eyelid.
 
@@ -202,12 +190,6 @@ Assess each eye separately and then together.
 </div>
 </div>
 
-</section>
-
-<section class="renal-note-section" markdown="1">
-
-#### Types of Conjunctivitis
-
 <div class="detail-table" markdown="1">
 
 | Type | Expected Findings | Treatment / Nursing Focus |
@@ -220,14 +202,10 @@ Assess each eye separately and then together.
 
 </div>
 
-</section>
-
-<section class="renal-note-section" markdown="1">
-
-#### Nursing Care
-
 <div class="detail-grid" markdown="1">
 <div class="detail-mini-card" markdown="1">
+<strong>Nursing Care</strong>
+
 * Perform careful hand hygiene.
 * Wear gloves when cleaning drainage.
 * Clean from the **inner canthus toward the outer canthus**.
@@ -248,16 +226,12 @@ Purulent drainage and lashes stuck together suggest **bacterial conjunctivitis**
 
 </div>
 
-</section>
-
 </div>
 
 <div class="mh-detail pink" id="panel-cataracts" markdown="1">
 <a class="mh-detail-close" href="#">✕</a>
 
 ### Cataracts
-
-<section class="renal-note-section" markdown="1">
 
 A **cataract** is clouding of the lens that gradually decreases vision. The definitive treatment is surgical removal of the cloudy lens and placement of an artificial intraocular lens.
 
@@ -288,12 +262,6 @@ A **cataract** is clouding of the lens that gradually decreases vision. The defi
 
 </div>
 </div>
-
-</section>
-
-<section class="renal-note-section" markdown="1">
-
-#### After Cataract Surgery
 
 <div class="detail-grid" markdown="1">
 <div class="detail-mini-card" markdown="1">
@@ -349,16 +317,12 @@ Cataracts cause **gradual, painless** vision loss. Severe pain after cataract su
 
 </div>
 
-</section>
-
 </div>
 
 <div class="mh-detail purple" id="panel-glaucoma" markdown="1">
 <a class="mh-detail-close" href="#">✕</a>
 
 ### Glaucoma
-
-<section class="renal-note-section" markdown="1">
 
 **Glaucoma** causes optic-nerve damage, often related to increased intraocular pressure.
 
@@ -402,12 +366,6 @@ Cataracts cause **gradual, painless** vision loss. Severe pain after cataract su
 
 Treatment goals are to lower intraocular pressure, protect the optic nerve, slow vision loss, and maintain medication adherence.
 
-</section>
-
-<section class="renal-note-section" markdown="1">
-
-#### Common Glaucoma Medications
-
 <div class="detail-table" markdown="1">
 
 | Medication Class | Examples | Key Nursing Points |
@@ -417,7 +375,6 @@ Treatment goals are to lower intraocular pressure, protect the optic nerve, slow
 | **Alpha-adrenergic agonists** | Brimonidine | May cause dry mouth, fatigue, or low blood pressure |
 | **Carbonic anhydrase inhibitors** | Acetazolamide, dorzolamide | Decrease aqueous-humor production |
 | **Miotics** | Pilocarpine | Constricts pupil; may reduce night vision |
-
 
 <div class="detail-mini-card" markdown="1">
 <strong>Glaucoma teaching</strong>
@@ -438,18 +395,12 @@ Open-angle glaucoma is gradual and painless. Sudden eye pain, halos, headache, n
 
 </div>
 
-</section>
-
 </div>
 
 <div class="mh-detail blue" id="panel-retina" markdown="1">
 <a class="mh-detail-close" href="#">✕</a>
 
 ### Retinal & Macular Disorders
-
-<section class="renal-note-section" markdown="1">
-
-#### Retinal Detachment
 
 A **retinal detachment** occurs when the retina separates from the tissue beneath it. It is usually **painless**.
 
@@ -509,12 +460,6 @@ New flashes, many floaters, or a curtain across the visual field require immedia
 
 </div>
 
-</section>
-
-<section class="renal-note-section" markdown="1">
-
-#### Age-Related Macular Degeneration
-
 **Macular degeneration** damages the macula, which controls central vision. Expected findings include loss of central vision, difficulty reading, difficulty recognizing faces, straight lines that may appear wavy, usually preserved peripheral vision, and no eye pain.
 
 <div class="detail-grid" markdown="1">
@@ -558,18 +503,12 @@ Macular degeneration affects **central vision**. Glaucoma commonly affects **per
 
 </div>
 
-</section>
-
 </div>
 
 <div class="mh-detail green" id="panel-trauma" markdown="1">
 <a class="mh-detail-close" href="#">✕</a>
 
 ### Eye Trauma
-
-<section class="renal-note-section" markdown="1">
-
-#### Chemical Exposure
 
 Chemical exposure is an emergency.
 
@@ -580,10 +519,6 @@ Chemical exposure is an emergency.
 5. Continue irrigation as directed.
 6. Notify the provider or emergency service.
 7. Monitor eye pH when ordered.
-
-</section>
-
-<section class="renal-note-section" markdown="1">
 
 <div class="detail-grid" markdown="1">
 <div class="detail-mini-card" markdown="1">
@@ -619,8 +554,6 @@ Chemical injury: irrigate immediately. Penetrating injury: do not remove the obj
 
 </div>
 
-</section>
-
 </div>
 
 <div class="mh-detail pink" id="panel-medications" markdown="1">
@@ -628,12 +561,10 @@ Chemical injury: irrigate immediately. Penetrating injury: do not remove the obj
 
 ### Administering Eye Medications
 
-<section class="renal-note-section" markdown="1">
-
-#### Eye Drops
-
 <div class="detail-grid" markdown="1">
 <div class="detail-mini-card" markdown="1">
+<strong>Eye Drops</strong>
+
 1. Perform hand hygiene.
 2. Verify the medication and correct eye.
 3. Position the client with the head tilted back.
@@ -646,16 +577,10 @@ Chemical injury: irrigate immediately. Penetrating injury: do not remove the obj
 10. Apply gentle pressure to the nasolacrimal duct when indicated.
 11. Wait the prescribed time between different medications.
 </div>
-</div>
 
-</section>
-
-<section class="renal-note-section" markdown="1">
-
-#### Eye Ointment
-
-<div class="detail-grid" markdown="1">
 <div class="detail-mini-card" markdown="1">
+<strong>Eye Ointment</strong>
+
 * Apply a thin ribbon from inner to outer canthus.
 * Do not touch the applicator to the eye.
 * Temporary blurred vision is expected.
@@ -670,16 +595,12 @@ Use eye drops before eye ointment because ointment can prevent drops from being 
 
 </div>
 
-</section>
-
 </div>
 
 <div class="mh-detail purple" id="panel-impairment" markdown="1">
 <a class="mh-detail-close" href="#">✕</a>
 
 ### Caring for a Client With Visual Impairment
-
-<section class="renal-note-section" markdown="1">
 
 <div class="detail-grid" markdown="1">
 <div class="detail-mini-card" markdown="1">
@@ -708,14 +629,10 @@ Use eye drops before eye ointment because ointment can prevent drops from being 
 </div>
 </div>
 
-</section>
-
-<section class="renal-note-section" markdown="1">
-
-#### Guiding the Client
-
 <div class="detail-grid" markdown="1">
 <div class="detail-mini-card" markdown="1">
+<strong>Guiding the Client</strong>
+
 * Allow the client to hold your arm just above the elbow.
 * Walk slightly ahead.
 * Describe stairs, curbs, doors, and narrow spaces.
@@ -725,8 +642,6 @@ Use eye drops before eye ointment because ointment can prevent drops from being 
 For example: meat at 6 o’clock, vegetables at 3 o’clock, and potatoes at 9 o’clock.
 </div>
 </div>
-
-</section>
 
 </div>
 
