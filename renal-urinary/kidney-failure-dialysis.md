@@ -337,15 +337,12 @@ Daily weight is the best routine indicator of fluid change. One kilogram of weig
 - No heavy lifting
 - Do not sleep on the arm
 </div>
-<div class="detail-mini-card" markdown="1"><strong>New AV Fistula Teaching</strong>
+<div class="detail-mini-card" markdown="1"><strong>Fistula Teaching</strong>
 
-- A new fistula is not used right away; it takes several weeks (about 6 weeks) to mature before it can be accessed for dialysis.
-- Teach the patient to do hand-strengthening exercises, such as squeezing a rubber ball, to help enlarge and strengthen the vein so it matures.
-- Check for a thrill (buzzing) and bruit (whooshing) each day and report if they are absent.
-- Keep the arm clean and watch for infection: redness, warmth, swelling, drainage, or fever.
-- Do not wear tight jewelry, watches, or sleeves over the access.
-- Do not carry heavy bags or lift heavy objects with that arm.
-- Report numbness, tingling, coldness, or a pale hand, which can signal poor circulation (steal syndrome).
+- Matures about 6 weeks before first use.
+- Squeeze a rubber ball to strengthen the vein.
+- Report numbness, tingling, or a pale, cool hand.
+- Watch for infection at the site.
 </div>
 </div>
 
