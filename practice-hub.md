@@ -64,8 +64,8 @@ page_type: practice-hub
         <span class="practice-card-icon">🫘</span>
         <div>
           <h2>Renal &amp; Urinary</h2>
-          <p>Diagnostics and catheter care, UTI and pyelonephritis, kidney stones, glomerular disorders, AKI and CKD, dialysis and transplant, renal surgery and urinary diversions, and BPH/TURP — pick your topics.</p>
-          <div class="practice-meta"><span>▤ 97 Questions • 8 topics</span></div>
+          <p>Diagnostics and catheter care, UTI and pyelonephritis, kidney stones, glomerular disorders, AKI and CKD, dialysis and transplant, and renal surgery and urinary diversions — pick your topics.</p>
+          <div class="practice-meta"><span>▤ 89 Questions • 7 topics</span></div>
         </div>
         <footer><a href="{{ '/renal-urinary/practice-quiz.html' | relative_url }}">Start</a></footer>
       </article>

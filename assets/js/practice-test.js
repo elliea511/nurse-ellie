@@ -72,8 +72,7 @@
     { id: 'glom',      label: 'Glomerular Disorders',                   cat: 'Renal & Urinary', renal: true, n: 5  },
     { id: 'akickd',    label: 'AKI & CKD',                              cat: 'Renal & Urinary', renal: true, n: 24 },
     { id: 'dialysis',  label: 'Dialysis & Transplant',                  cat: 'Renal & Urinary', renal: true, n: 17 },
-    { id: 'surgery',   label: 'Renal Surgery & Urinary Diversions',     cat: 'Renal & Urinary', renal: true, n: 12 },
-    { id: 'bph',       label: 'BPH, TURP & Prostate Care',              cat: 'Renal & Urinary', renal: true, n: 8  }
+    { id: 'surgery',   label: 'Renal Surgery & Urinary Diversions',     cat: 'Renal & Urinary', renal: true, n: 12 }
   ];
 
   // Source quizzes feeding the renal topics, and the topic each question maps to
