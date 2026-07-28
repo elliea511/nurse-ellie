@@ -137,6 +137,54 @@ Kidney surgery carries major **respiratory and bleeding risks** because the kidn
 
 </div>
 
+#### Immediate Postoperative Care
+
+<div class="detail-grid" markdown="1">
+<div class="detail-mini-card" markdown="1"><strong>Monitoring</strong>
+
+- Monitor urine output hourly.
+- Output below 0.5 mL/kg/hr may signal dehydration or conduit obstruction, with backflow or anastomotic leakage.
+- A catheter may be inserted to check for stasis or residual urine.
+- Urine may drain through bilateral ureteral stents; if they are not draining, irrigate with 5–10 mL sterile normal saline if ordered.
+- Hematuria may be noted in the first 48 hours after surgery.
+</div>
+<div class="detail-mini-card" markdown="1"><strong>Stoma & Urine</strong>
+
+- Inspect for a healthy stoma (pink or red).
+- Assess for leakage: moisture in linens or clothing, or urine odor around the patient.
+- Keep urine pH below 6.5 with PO ascorbic acid (test urine draining from the stoma, not the bag).
+- Encourage fluids and reassure that mucus in the urine is normal, since the conduit is made from mucous membrane.
+</div>
+<div class="detail-mini-card" markdown="1"><strong>Sizing the Appliance</strong>
+
+- As postoperative edema subsides, adjust the ostomy appliance.
+- Measure the stoma every 3–6 weeks for the first few months.
+- Measure the widest part of the stoma with a ruler.
+- A permanent appliance should be no more than 1.6 mm (1/8 inch) larger than the stoma and the same shape, to keep drainage off the skin.
+</div>
+</div>
+
+#### Patient Education
+
+<div class="detail-grid" markdown="1">
+<div class="detail-mini-card" markdown="1"><strong>Appliance & Odor Control</strong>
+
+- Change to a new appliance bag every 3 to 7 days.
+- Empty the pouch through the drain valve when it is one-third full.
+- Avoid foods that give urine a strong odor (asparagus, cheese, eggs).
+- Add a liquid deodorizer or diluted white vinegar to the bottom of the pouch with a syringe or eyedropper.
+- PO ascorbic acid acidifies urine and suppresses odor.
+- Never place aspirin tablets in the pouch; they can ulcerate the stoma.
+</div>
+<div class="detail-mini-card" markdown="1"><strong>Cleaning & Storing a Reusable Appliance</strong>
+
+- Rinse the reusable appliance in warm water.
+- Soak 30 minutes in a 3:1 solution of water and white vinegar or a commercial deodorizing solution.
+- Rinse with tepid water and air dry away from direct sunlight.
+- After drying, powder with cornstarch and store.
+</div>
+</div>
+
 <div class="nclex-tip" markdown="1">
 Mucus in ileal-conduit urine is expected. A dusky or black stoma is not expected.
 </div>
