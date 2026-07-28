@@ -379,12 +379,13 @@ Daily weight is the best routine indicator of fluid change. One kilogram of weig
 </div>
 <div class="detail-mini-card" markdown="1"><strong>Disequilibrium Syndrome</strong>
 
+Dialysis removes wastes from the blood faster than they leave the brain. Water then shifts into the brain cells and causes cerebral swelling, usually during or right after treatment. Watch for:
+
 - Headache
 - Nausea
 - Restlessness
 - Confusion
 - Seizure
-- Rapid waste and fluid shifts
 </div>
 </div>
 
