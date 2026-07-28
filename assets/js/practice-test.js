@@ -63,57 +63,43 @@
     return immunePoolPromise;
   }
 
-  // Renal & Urinary: eight topic selections built by classifying each existing
+  // Renal & Urinary: seven topic selections built by classifying each existing
   // question. Questions are never rewritten — only assigned a topic.
   var RENAL_TOPICS = [
-    { id: 'diag',      label: 'Diagnostics & Catheter Care',            cat: 'Renal & Urinary', renal: true, n: 13 },
-    { id: 'uti',       label: 'UTI & Pyelonephritis',                   cat: 'Renal & Urinary', renal: true, n: 7  },
-    { id: 'stones',    label: 'Kidney Stones',                          cat: 'Renal & Urinary', renal: true, n: 11 },
-    { id: 'glom',      label: 'Glomerular Disorders',                   cat: 'Renal & Urinary', renal: true, n: 5  },
-    { id: 'akickd',    label: 'AKI & CKD',                              cat: 'Renal & Urinary', renal: true, n: 24 },
-    { id: 'dialysis',  label: 'Dialysis & Transplant',                  cat: 'Renal & Urinary', renal: true, n: 17 },
-    { id: 'surgery',   label: 'Renal Surgery & Urinary Diversions',     cat: 'Renal & Urinary', renal: true, n: 12 }
+    { id: 'diag',      label: 'Diagnostics & Catheterization',          cat: 'Renal & Urinary', renal: true, n: 12 },
+    { id: 'uti',       label: 'UTI & Pyelonephritis',                   cat: 'Renal & Urinary', renal: true, n: 10 },
+    { id: 'stones',    label: 'Kidney Stones',                          cat: 'Renal & Urinary', renal: true, n: 23 },
+    { id: 'glom',      label: 'Glomerulonephritis',                     cat: 'Renal & Urinary', renal: true, n: 8  },
+    { id: 'surgery',   label: 'Urinary Surgery & Diversions',           cat: 'Renal & Urinary', renal: true, n: 13 },
+    { id: 'arf',       label: 'Acute & Chronic Renal Failure',          cat: 'Renal & Urinary', renal: true, n: 19 },
+    { id: 'dialysis',  label: 'Dialysis & Kidney Transplant',           cat: 'Renal & Urinary', renal: true, n: 20 }
   ];
 
-  // Source quizzes feeding the renal topics, and the topic each question maps to
-  // (in the order the questions appear on each page).
+  // Single source quiz feeding the renal topics, and the topic each question
+  // maps to (in the order the questions appear on the page).
   var RENAL_SOURCES = [
-    { id: 'renal-core', url: '/renal-urinary/renal-system-quiz.html' },
-    { id: 'renal-supp', url: '/renal-urinary/renal-missing-topics-quiz.html' }
+    { id: 'renal', url: '/renal-urinary/renal-disorders-quiz.html' }
   ];
-  // Original renal-system-quiz.html (Q1–50)
-  var RENAL_CORE_MAP = [
-    'akickd','akickd','akickd','akickd','akickd','akickd','akickd','akickd','akickd','akickd', // Q1–10
-    'akickd','akickd',                                                                          // Q11–12
-    'dialysis','dialysis','dialysis','dialysis','dialysis','dialysis','dialysis','dialysis',    // Q13–20
-    'glom','glom','glom','glom',                                                                // Q21–24
-    'uti','uti',                                                                                // Q25–26
-    'stones','stones','stones',                                                                 // Q27–29
-    'bph','bph','bph',                                                                          // Q30–32
-    'surgery','surgery',                                                                        // Q33 bladder cancer, Q34 ileal conduit
-    'diag',                                                                                     // Q35 renal biopsy
-    'akickd','akickd',                                                                          // Q36–37
-    'dialysis','dialysis',                                                                      // Q38–39 transplant
-    'akickd',                                                                                   // Q40 uremic pruritus
-    'stones',                                                                                   // Q41 oxalate foods
-    'dialysis',                                                                                 // Q42 protect fistula
-    'glom',                                                                                     // Q43 nephrotic
-    'dialysis',                                                                                 // Q44 PD peritonitis
-    'akickd','akickd','akickd','akickd','akickd',                                               // Q45–49
-    'dialysis'                                                                                  // Q50 see-first: PD peritonitis
-  ];
-  // Renal & Urinary Missing Topics quiz (Q1–47)
-  var RENAL_SUPP_MAP = [
+  // Renal & Urinary Disorders quiz (Q1–105)
+  var RENAL_MAP = [
     'diag','diag','diag','diag','diag','diag','diag','diag','diag','diag','diag','diag',        // Q1–12
-    'surgery',                                                                                  // Q13 postop output target
-    'uti','uti','uti','uti','uti',                                                              // Q14–18
-    'stones','stones','stones','stones','stones','stones','stones',                             // Q19–25
-    'surgery','surgery','surgery','surgery','surgery','surgery','surgery','surgery','surgery',  // Q26–34
-    'bph','bph','bph','bph','bph',                                                              // Q35–39
-    'akickd','akickd','akickd','akickd',                                                        // Q40–43
-    'dialysis','dialysis','dialysis','dialysis'                                                 // Q44–47
+    'uti','uti','uti','uti','uti','uti','uti','uti','uti','uti',                                // Q13–22
+    'stones','stones','stones','stones','stones','stones','stones','stones','stones','stones',  // Q23–32
+    'stones','stones','stones','stones','stones','stones','stones','stones','stones','stones',  // Q33–42
+    'stones','stones',                                                                          // Q43–44
+    'glom','glom','glom','glom','glom','glom','glom','glom',                                    // Q45–52
+    'surgery','surgery','surgery','surgery','surgery','surgery','surgery','surgery','surgery','surgery', // Q53–62
+    'surgery','surgery',                                                                        // Q63–64
+    'arf','arf','arf','arf','arf','arf','arf','arf','arf','arf',                                // Q65–74
+    'arf','arf','arf','arf','arf','arf','arf','arf',                                            // Q75–82
+    'dialysis','dialysis','dialysis','dialysis','dialysis','dialysis','dialysis','dialysis','dialysis','dialysis', // Q83–92
+    'dialysis','dialysis','dialysis','dialysis','dialysis','dialysis','dialysis','dialysis','dialysis',            // Q93–101
+    'arf',        // Q102 SATA renal failure findings
+    'stones',     // Q103 SATA calcium oxalate stone teaching
+    'dialysis',   // Q104 SATA preparing for hemodialysis
+    'surgery'     // Q105 SATA after kidney surgery
   ];
-  var RENAL_CAT_BY_SOURCE = { 'renal-core': RENAL_CORE_MAP, 'renal-supp': RENAL_SUPP_MAP };
+  var RENAL_CAT_BY_SOURCE = { 'renal': RENAL_MAP };
   var renalPoolPromise = null;
   function loadRenalPool() {
     if (renalPoolPromise) return renalPoolPromise;
