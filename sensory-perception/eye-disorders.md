@@ -317,9 +317,7 @@ A **cataract** is clouding of the lens that gradually decreases vision. The defi
 * Sleeping on the operative side when restricted
 
 </div>
-</div>
 
-<div class="detail-grid" markdown="1">
 <div class="detail-mini-card" markdown="1">
 <strong>Teach the client to</strong>
 
@@ -420,9 +418,7 @@ Treatment goals are to lower intraocular pressure, protect the optic nerve, slow
 | **Carbonic anhydrase inhibitors** | Acetazolamide, dorzolamide | Decrease aqueous-humor production |
 | **Miotics** | Pilocarpine | Constricts pupil; may reduce night vision |
 
-</div>
 
-<div class="detail-grid" markdown="1">
 <div class="detail-mini-card" markdown="1">
 <strong>Glaucoma teaching</strong>
 
@@ -479,9 +475,7 @@ A **retinal detachment** occurs when the retina separates from the tissue beneat
 * Sudden loss of part of the visual field
 
 </div>
-</div>
 
-<div class="detail-grid" markdown="1">
 <div class="detail-mini-card" markdown="1">
 <strong>Nursing priorities</strong>
 
@@ -493,9 +487,7 @@ A **retinal detachment** occurs when the retina separates from the tissue beneat
 * Administer medications as ordered.
 * Teach postoperative restrictions.
 </div>
-</div>
 
-<div class="detail-grid" markdown="1">
 <div class="detail-mini-card" markdown="1">
 <strong>After retinal repair</strong>
 
@@ -544,9 +536,7 @@ New flashes, many floaters, or a curtain across the visual field require immedia
 * May be treated with injections into the eye
 
 </div>
-</div>
 
-<div class="detail-grid" markdown="1">
 <div class="detail-mini-card" markdown="1">
 <strong>Nursing and patient education</strong>
 

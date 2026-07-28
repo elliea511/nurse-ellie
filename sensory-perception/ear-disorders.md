@@ -402,9 +402,7 @@ A **myringotomy** is a small incision made in the tympanic membrane to drain flu
 * Tubes eventually fall out naturally in many clients
 
 </div>
-</div>
 
-<div class="detail-grid" markdown="1">
 <div class="detail-mini-card" markdown="1">
 <strong>Teaching</strong>
 
@@ -505,9 +503,7 @@ Labyrinthitis affects both balance and hearing. Vertigo with tinnitus, nystagmus
 * Procedures or surgery for severe disease
 
 </div>
-</div>
 
-<div class="detail-grid" markdown="1">
 <div class="detail-mini-card" markdown="1">
 <strong>Patient education</strong>
 
@@ -609,9 +605,7 @@ During a stapedectomy, the abnormal stapes is removed or bypassed and replaced w
 * Getting water into the operative ear
 
 </div>
-</div>
 
-<div class="detail-grid" markdown="1">
 <div class="detail-mini-card" markdown="1">
 <strong>Teach the client to</strong>
 
@@ -783,9 +777,7 @@ Tinnitus may be an early warning sign of ototoxicity. Report it before hearing l
 | **Child younger than 3 years** | Pull the pinna down and back |
 
 </div>
-</div>
 
-<div class="detail-grid" markdown="1">
 <div class="detail-mini-card" markdown="1">
 <strong>Administration steps</strong>
 
@@ -799,9 +791,7 @@ Tinnitus may be an early warning sign of ototoxicity. Report it before hearing l
 8. Place a loose cotton ball at the opening if prescribed.
 9. Do not pack the cotton deeply.
 </div>
-</div>
 
-<div class="detail-grid" markdown="1">
 <div class="detail-mini-card" markdown="1">
 <strong>Important safety</strong>
 
@@ -861,9 +851,7 @@ Adults and older children: **up and back**. Young children: **down and back**.
 * Do not expose it to extreme heat.
 
 </div>
-</div>
 
-<div class="detail-grid" markdown="1">
 <div class="detail-mini-card" markdown="1">
 <strong>Safety</strong>
 

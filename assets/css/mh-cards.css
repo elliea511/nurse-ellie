@@ -2033,6 +2033,11 @@ body[data-page-type="mental-health-hub"] .main-content .mh-guide-icon img {
 :is(body[data-section="renal-urinary"], body[data-section="sensory-perception"], body[data-section="immune-inflammatory"]) .detail-grid.compact {
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
 }
+/* A grid holding a single card should not stretch across the whole page. */
+:is(body[data-section="renal-urinary"], body[data-section="sensory-perception"], body[data-section="immune-inflammatory"]) .detail-grid:has(> .detail-mini-card:only-child) {
+  grid-template-columns: 1fr;
+  max-width: 34rem;
+}
 :is(body[data-section="renal-urinary"], body[data-section="sensory-perception"], body[data-section="immune-inflammatory"]) .detail-mini-card {
   align-self: stretch;
   padding: 0.85rem 1rem;
