@@ -90,9 +90,9 @@ Eye disorders can affect the client’s ability to see clearly, move safely, adm
 
 Assess each eye separately and then together.
 
-<div class="renal-two-column" markdown="1">
-<div markdown="1">
-##### Subjective — Ask About
+<div class="detail-grid" markdown="1">
+<div class="detail-mini-card" markdown="1">
+<strong>Subjective — Ask About</strong>
 
 * Blurred or decreased vision
 * Double vision
@@ -109,8 +109,8 @@ Assess each eye separately and then together.
 * Diabetes or hypertension
 
 </div>
-<div markdown="1">
-##### Objective — Observe
+<div class="detail-mini-card" markdown="1">
+<strong>Objective — Observe</strong>
 
 * Eyelid position
 * Redness
@@ -172,9 +172,9 @@ Assess each eye separately and then together.
 
 **Conjunctivitis** is inflammation or infection of the conjunctiva, the thin membrane covering the white part of the eye and inner eyelid.
 
-<div class="renal-two-column" markdown="1">
-<div markdown="1">
-##### Common Causes
+<div class="detail-grid" markdown="1">
+<div class="detail-mini-card" markdown="1">
+<strong>Common Causes</strong>
 
 * Bacterial infection
 * Viral infection
@@ -186,8 +186,8 @@ Assess each eye separately and then together.
 * Trauma
 
 </div>
-<div markdown="1">
-##### Common Findings
+<div class="detail-mini-card" markdown="1">
+<strong>Common Findings</strong>
 
 * Red or pink conjunctiva
 * Tearing
@@ -257,9 +257,9 @@ Purulent drainage and lashes stuck together suggest **bacterial conjunctivitis**
 
 A **cataract** is clouding of the lens that gradually decreases vision. The definitive treatment is surgical removal of the cloudy lens and placement of an artificial intraocular lens.
 
-<div class="renal-two-column" markdown="1">
-<div markdown="1">
-##### Risk Factors
+<div class="detail-grid" markdown="1">
+<div class="detail-mini-card" markdown="1">
+<strong>Risk Factors</strong>
 
 * Aging
 * Diabetes mellitus
@@ -270,8 +270,8 @@ A **cataract** is clouding of the lens that gradually decreases vision. The defi
 * Previous eye surgery
 
 </div>
-<div markdown="1">
-##### Expected Findings
+<div class="detail-mini-card" markdown="1">
+<strong>Expected Findings</strong>
 
 * Gradual painless vision loss
 * Blurred or cloudy vision
@@ -291,9 +291,9 @@ A **cataract** is clouding of the lens that gradually decreases vision. The defi
 
 #### After Cataract Surgery
 
-<div class="renal-two-column" markdown="1">
-<div markdown="1">
-##### Expected
+<div class="detail-grid" markdown="1">
+<div class="detail-mini-card" markdown="1">
+<strong>Expected</strong>
 
 * Mild discomfort
 * Mild itching or foreign-body sensation
@@ -302,8 +302,8 @@ A **cataract** is clouding of the lens that gradually decreases vision. The defi
 * Prescribed eye drops
 
 </div>
-<div markdown="1">
-##### Avoid Activities That Increase Eye Pressure
+<div class="detail-mini-card" markdown="1">
+<strong>Avoid Activities That Increase Eye Pressure</strong>
 
 * Bending at the waist
 * Heavy lifting
@@ -356,9 +356,9 @@ Cataracts cause **gradual, painless** vision loss. Severe pain after cataract su
 
 **Glaucoma** causes optic-nerve damage, often related to increased intraocular pressure.
 
-<div class="renal-two-column" markdown="1">
-<div markdown="1">
-##### Open-Angle Glaucoma (more common)
+<div class="detail-grid" markdown="1">
+<div class="detail-mini-card" markdown="1">
+<strong>Open-Angle Glaucoma (more common)</strong>
 
 * Develops slowly
 * Usually painless
@@ -367,8 +367,8 @@ Cataracts cause **gradual, painless** vision loss. Severe pain after cataract su
 * Requires lifelong treatment
 
 </div>
-<div markdown="1">
-##### Angle-Closure Glaucoma (emergency)
+<div class="detail-mini-card" markdown="1">
+<strong>Angle-Closure Glaucoma (emergency)</strong>
 
 * Sudden severe eye pain
 * Red eye
@@ -445,9 +445,9 @@ Open-angle glaucoma is gradual and painless. Sudden eye pain, halos, headache, n
 
 A **retinal detachment** occurs when the retina separates from the tissue beneath it. It is usually **painless**.
 
-<div class="renal-two-column" markdown="1">
-<div markdown="1">
-##### Risk Factors
+<div class="detail-grid" markdown="1">
+<div class="detail-mini-card" markdown="1">
+<strong>Risk Factors</strong>
 
 * Eye trauma
 * Previous eye surgery
@@ -457,8 +457,8 @@ A **retinal detachment** occurs when the retina separates from the tissue beneat
 * Previous retinal detachment
 
 </div>
-<div markdown="1">
-##### Warning Signs
+<div class="detail-mini-card" markdown="1">
+<strong>Warning Signs</strong>
 
 * Sudden flashes of light
 * Sudden increase in floaters
@@ -505,9 +505,9 @@ New flashes, many floaters, or a curtain across the visual field require immedia
 
 **Macular degeneration** damages the macula, which controls central vision. Expected findings include loss of central vision, difficulty reading, difficulty recognizing faces, straight lines that may appear wavy, usually preserved peripheral vision, and no eye pain.
 
-<div class="renal-two-column" markdown="1">
-<div markdown="1">
-##### Dry Macular Degeneration
+<div class="detail-grid" markdown="1">
+<div class="detail-mini-card" markdown="1">
+<strong>Dry Macular Degeneration</strong>
 
 * More common
 * Develops gradually
@@ -515,8 +515,8 @@ New flashes, many floaters, or a curtain across the visual field require immedia
 * May progress to the wet form
 
 </div>
-<div markdown="1">
-##### Wet Macular Degeneration
+<div class="detail-mini-card" markdown="1">
+<strong>Wet Macular Degeneration</strong>
 
 * Less common but more severe
 * Abnormal blood vessels leak beneath the retina
@@ -571,9 +571,9 @@ Chemical exposure is an emergency.
 
 <section class="renal-note-section" markdown="1">
 
-<div class="renal-two-column" markdown="1">
-<div markdown="1">
-##### Penetrating Injury
+<div class="detail-grid" markdown="1">
+<div class="detail-mini-card" markdown="1">
+<strong>Penetrating Injury</strong>
 
 * Do not remove the object.
 * Do not apply pressure.
@@ -584,8 +584,8 @@ Chemical exposure is an emergency.
 * Obtain immediate emergency treatment.
 
 </div>
-<div markdown="1">
-##### Blunt Trauma — Assess For
+<div class="detail-mini-card" markdown="1">
+<strong>Blunt Trauma — Assess For</strong>
 
 * Pain
 * Swelling
@@ -659,9 +659,9 @@ Use eye drops before eye ointment because ointment can prevent drops from being 
 
 <section class="renal-note-section" markdown="1">
 
-<div class="renal-two-column" markdown="1">
-<div markdown="1">
-##### Communication
+<div class="detail-grid" markdown="1">
+<div class="detail-mini-card" markdown="1">
+<strong>Communication</strong>
 
 * Identify yourself when entering.
 * Explain before touching the client.
@@ -671,8 +671,8 @@ Use eye drops before eye ointment because ointment can prevent drops from being 
 * Describe the environment clearly.
 
 </div>
-<div markdown="1">
-##### Safety
+<div class="detail-mini-card" markdown="1">
+<strong>Safety</strong>
 
 * Keep furniture in consistent locations.
 * Keep pathways clear.

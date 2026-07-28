@@ -104,9 +104,9 @@ The ear has three major sections.
 
 <section class="renal-note-section" markdown="1">
 
-<div class="renal-two-column" markdown="1">
-<div markdown="1">
-##### Subjective — Ask About
+<div class="detail-grid" markdown="1">
+<div class="detail-mini-card" markdown="1">
+<strong>Subjective — Ask About</strong>
 
 * Ear pain
 * Hearing loss
@@ -125,8 +125,8 @@ The ear has three major sections.
 * Foreign-body exposure
 
 </div>
-<div markdown="1">
-##### Objective — Observe and Assess
+<div class="detail-mini-card" markdown="1">
+<strong>Objective — Observe and Assess</strong>
 
 * External ear position and symmetry
 * Redness or swelling
@@ -169,9 +169,9 @@ The ear has three major sections.
 
 Hearing loss may be **conductive, sensorineural, or mixed**. In mixed hearing loss, the client has both conductive and sensorineural impairment.
 
-<div class="renal-two-column" markdown="1">
-<div markdown="1">
-##### Conductive — Sound Blocked From Reaching the Inner Ear
+<div class="detail-grid" markdown="1">
+<div class="detail-mini-card" markdown="1">
+<strong>Conductive — Sound Blocked From Reaching the Inner Ear</strong>
 
 * Cerumen impaction
 * Foreign body
@@ -182,8 +182,8 @@ Hearing loss may be **conductive, sensorineural, or mixed**. In mixed hearing lo
 * External or middle-ear trauma
 
 </div>
-<div markdown="1">
-##### Sensorineural — Damage to Cochlea, Inner Ear, or Auditory Nerve
+<div class="detail-mini-card" markdown="1">
+<strong>Sensorineural — Damage to Cochlea, Inner Ear, or Auditory Nerve</strong>
 
 * Aging
 * Prolonged loud-noise exposure
@@ -247,9 +247,9 @@ Conductive hearing loss involves a problem carrying sound to the inner ear. Sens
 
 **Otitis media** is inflammation or infection of the middle ear. It is especially common in infants and young children because their eustachian tubes are shorter and more horizontal. Risk factors include a recent upper respiratory infection, young age, daycare exposure, bottle-feeding while lying flat, passive-smoke exposure, lack of recommended vaccinations, craniofacial abnormalities, enlarged adenoids, and previous ear infections.
 
-<div class="renal-two-column" markdown="1">
-<div markdown="1">
-##### Acute Otitis Media
+<div class="detail-grid" markdown="1">
+<div class="detail-mini-card" markdown="1">
+<strong>Acute Otitis Media</strong>
 
 Begins suddenly and may involve bacterial or viral infection.
 
@@ -267,8 +267,8 @@ Begins suddenly and may involve bacterial or viral infection.
 Infants may show nonspecific symptoms such as restlessness, poor feeding, vomiting, diarrhea, and increased crying.
 
 </div>
-<div markdown="1">
-##### Otitis Media With Effusion
+<div class="detail-mini-card" markdown="1">
+<strong>Otitis Media With Effusion</strong>
 
 Fluid remains behind the tympanic membrane without signs of an acute infection.
 
@@ -289,9 +289,9 @@ Fluid remains behind the tympanic membrane without signs of an acute infection.
 
 #### Diagnosis and Treatment
 
-<div class="renal-two-column" markdown="1">
-<div markdown="1">
-##### Diagnostic Tests
+<div class="detail-grid" markdown="1">
+<div class="detail-mini-card" markdown="1">
+<strong>Diagnostic Tests</strong>
 
 * Otoscopic examination
 * Pneumatic otoscopy
@@ -300,8 +300,8 @@ Fluid remains behind the tympanic membrane without signs of an acute infection.
 * Hearing evaluation when infections are recurrent
 
 </div>
-<div markdown="1">
-##### Treatment
+<div class="detail-mini-card" markdown="1">
+<strong>Treatment</strong>
 
 * Analgesics
 * Antipyretics
@@ -320,9 +320,9 @@ Fluid remains behind the tympanic membrane without signs of an acute infection.
 
 #### Nursing Care and Education
 
-<div class="renal-two-column" markdown="1">
-<div markdown="1">
-##### Nursing Care
+<div class="detail-grid" markdown="1">
+<div class="detail-mini-card" markdown="1">
+<strong>Nursing Care</strong>
 
 * Assess pain and temperature.
 * Administer analgesics as prescribed.
@@ -337,8 +337,8 @@ Fluid remains behind the tympanic membrane without signs of an acute infection.
 * Monitor response to antibiotics.
 
 </div>
-<div markdown="1">
-##### Patient and Caregiver Education
+<div class="detail-mini-card" markdown="1">
+<strong>Patient and Caregiver Education</strong>
 
 * Complete the full antibiotic prescription.
 * Do not place unapproved drops into an ear with a possible perforation.
@@ -382,9 +382,9 @@ Persistent middle-ear fluid can interfere with hearing and speech development ev
 
 A **myringotomy** is a small incision made in the tympanic membrane to drain fluid. A small tympanostomy tube may be inserted to keep the middle ear ventilated.
 
-<div class="renal-two-column" markdown="1">
-<div markdown="1">
-##### Why Tubes May Be Needed
+<div class="detail-grid" markdown="1">
+<div class="detail-mini-card" markdown="1">
+<strong>Why Tubes May Be Needed</strong>
 
 * Recurrent acute otitis media
 * Persistent middle-ear fluid
@@ -393,8 +393,8 @@ A **myringotomy** is a small incision made in the tympanic membrane to drain flu
 * Poor response to other treatment
 
 </div>
-<div markdown="1">
-##### Expected After Tube Placement
+<div class="detail-mini-card" markdown="1">
+<strong>Expected After Tube Placement</strong>
 
 * Improved hearing
 * Small amount of drainage initially
@@ -429,9 +429,9 @@ A **myringotomy** is a small incision made in the tympanic membrane to drain flu
 
 **Labyrinthitis** is inflammation of the inner ear. It can affect both balance and hearing.
 
-<div class="renal-two-column" markdown="1">
-<div markdown="1">
-##### Expected Findings
+<div class="detail-grid" markdown="1">
+<div class="detail-mini-card" markdown="1">
+<strong>Expected Findings</strong>
 
 * Sudden vertigo
 * Tinnitus
@@ -443,8 +443,8 @@ A **myringotomy** is a small incision made in the tympanic membrane to drain flu
 * Difficulty maintaining balance
 
 </div>
-<div markdown="1">
-##### Nursing Priorities
+<div class="detail-mini-card" markdown="1">
+<strong>Nursing Priorities</strong>
 
 * Implement fall precautions.
 * Assist with ambulation.
@@ -474,9 +474,9 @@ Labyrinthitis affects both balance and hearing. Vertigo with tinnitus, nystagmus
 
 **Ménière disease** is a chronic inner-ear disorder associated with excess inner-ear fluid. Classic findings are episodic vertigo, tinnitus, fluctuating sensorineural hearing loss, and a feeling of fullness or pressure in the ear. Vertigo attacks may also cause nausea, vomiting, diaphoresis, nystagmus, loss of balance, and anxiety.
 
-<div class="renal-two-column" markdown="1">
-<div markdown="1">
-##### Nursing Care During an Attack
+<div class="detail-grid" markdown="1">
+<div class="detail-mini-card" markdown="1">
+<strong>Nursing Care During an Attack</strong>
 
 * Assist the client to bed.
 * Reduce light and noise.
@@ -488,8 +488,8 @@ Labyrinthitis affects both balance and hearing. Vertigo with tinnitus, nystagmus
 * Monitor hydration.
 
 </div>
-<div markdown="1">
-##### Long-Term Management
+<div class="detail-mini-card" markdown="1">
+<strong>Long-Term Management</strong>
 
 * Low-sodium diet
 * Diuretics
@@ -543,9 +543,9 @@ Ménière disease is remembered by the combination of **vertigo, tinnitus, fluct
 
 **Otosclerosis** is abnormal bone growth around the stapes in the middle ear. The stapes cannot move normally, causing conductive hearing loss.
 
-<div class="renal-two-column" markdown="1">
-<div markdown="1">
-##### Expected Findings
+<div class="detail-grid" markdown="1">
+<div class="detail-mini-card" markdown="1">
+<strong>Expected Findings</strong>
 
 * Gradual conductive hearing loss
 * Tinnitus
@@ -555,8 +555,8 @@ Ménière disease is remembered by the combination of **vertigo, tinnitus, fluct
 * Often affects both ears over time
 
 </div>
-<div markdown="1">
-##### Treatment
+<div class="detail-mini-card" markdown="1">
+<strong>Treatment</strong>
 
 * Hearing aids
 * Sodium fluoride in selected cases
@@ -573,9 +573,9 @@ Ménière disease is remembered by the combination of **vertigo, tinnitus, fluct
 
 During a stapedectomy, the abnormal stapes is removed or bypassed and replaced with a prosthesis.
 
-<div class="renal-two-column" markdown="1">
-<div markdown="1">
-##### Postoperative Nursing Care
+<div class="detail-grid" markdown="1">
+<div class="detail-mini-card" markdown="1">
+<strong>Postoperative Nursing Care</strong>
 
 * Maintain prescribed positioning.
 * Protect the operative ear.
@@ -588,8 +588,8 @@ During a stapedectomy, the abnormal stapes is removed or bypassed and replaced w
 * Monitor hearing.
 
 </div>
-<div markdown="1">
-##### Avoid Until Cleared
+<div class="detail-mini-card" markdown="1">
+<strong>Avoid Until Cleared</strong>
 
 * Blowing the nose forcefully
 * Sneezing with the mouth closed
@@ -633,15 +633,15 @@ After stapes surgery, prevent increased middle-ear pressure. The client should s
 
 Ear trauma may damage the external ear, tympanic membrane, middle ear, or inner ear.
 
-<div class="renal-two-column" markdown="1">
-<div markdown="1">
-##### External Ear Trauma
+<div class="detail-grid" markdown="1">
+<div class="detail-mini-card" markdown="1">
+<strong>External Ear Trauma</strong>
 
 Possible effects include pain, bleeding, swelling, hematoma, deformity, and conductive hearing loss. An untreated external-ear hematoma can damage cartilage and cause permanent deformity.
 
 </div>
-<div markdown="1">
-##### Tympanic-Membrane Perforation
+<div class="detail-mini-card" markdown="1">
+<strong>Tympanic-Membrane Perforation</strong>
 
 **Causes:** foreign object, blast injury, loud noise, a slap to the ear, water pressure, infection, or cotton-swab injury.
 
@@ -658,9 +658,9 @@ Possible effects include pain, bleeding, swelling, hematoma, deformity, and cond
 
 #### Foreign Body in the Ear
 
-<div class="renal-two-column" markdown="1">
-<div markdown="1">
-##### General Care
+<div class="detail-grid" markdown="1">
+<div class="detail-mini-card" markdown="1">
+<strong>General Care</strong>
 
 * Do not blindly probe the ear.
 * Do not push the object deeper.
@@ -670,20 +670,20 @@ Possible effects include pain, bleeding, swelling, hematoma, deformity, and cond
 * Refer if the object is deep, sharp, or difficult to remove.
 
 </div>
-<div markdown="1">
-##### Beans, Peas, and Organic Materials
+<div class="detail-mini-card" markdown="1">
+<strong>Beans, Peas, and Organic Materials</strong>
 
 Do not irrigate objects such as beans, peas, seeds, or peanuts. These materials can absorb water, swell, and become more difficult to remove.
 
 </div>
-<div markdown="1">
-##### Insects
+<div class="detail-mini-card" markdown="1">
+<strong>Insects</strong>
 
 For a live insect, keep the client calm. A light may attract some insects toward the opening, and prescribed oil or solution may be used to immobilize the insect when appropriate. Avoid irrigation when the tympanic membrane may be perforated.
 
 </div>
-<div markdown="1">
-##### Button Battery — Emergency
+<div class="detail-mini-card" markdown="1">
+<strong>Button Battery — Emergency</strong>
 
 A button battery is an emergency. Do not delay removal, do not irrigate, and obtain immediate emergency treatment. Tissue damage can occur quickly.
 
@@ -712,9 +712,9 @@ Clear or bloody drainage from the ear after head trauma may indicate a skull fra
 
 **Ototoxicity** means medication-related damage to hearing or balance structures. Possible ototoxic medications include aminoglycosides, some loop diuretics, high-dose salicylates, certain chemotherapy medications, and vancomycin in some situations.
 
-<div class="renal-two-column" markdown="1">
-<div markdown="1">
-##### Warning Signs
+<div class="detail-grid" markdown="1">
+<div class="detail-mini-card" markdown="1">
+<strong>Warning Signs</strong>
 
 * Tinnitus
 * New hearing loss
@@ -724,8 +724,8 @@ Clear or bloody drainage from the ear after head trauma may indicate a skull fra
 * Balance problems
 
 </div>
-<div markdown="1">
-##### Nursing Care
+<div class="detail-mini-card" markdown="1">
+<strong>Nursing Care</strong>
 
 * Obtain baseline hearing assessment when ordered.
 * Monitor medication levels when required.
@@ -750,9 +750,9 @@ Tinnitus may be an early warning sign of ototoxicity. Report it before hearing l
 
 #### Administering Ear Drops
 
-<div class="renal-two-column" markdown="1">
-<div markdown="1">
-##### Before Administration
+<div class="detail-grid" markdown="1">
+<div class="detail-mini-card" markdown="1">
+<strong>Before Administration</strong>
 
 * Verify the medication and correct ear.
 * Warm the medication in the hands.
@@ -762,8 +762,8 @@ Tinnitus may be an early warning sign of ototoxicity. Report it before hearing l
 * Do not insert applicators deeply into the canal.
 
 </div>
-<div markdown="1">
-##### Straightening the Ear Canal
+<div class="detail-mini-card" markdown="1">
+<strong>Straightening the Ear Canal</strong>
 
 | Client | Technique |
 |---|---|
@@ -809,9 +809,9 @@ Adults and older children: **up and back**. Young children: **down and back**.
 
 <section class="renal-note-section" markdown="1">
 
-<div class="renal-two-column" markdown="1">
-<div markdown="1">
-##### Communication
+<div class="detail-grid" markdown="1">
+<div class="detail-mini-card" markdown="1">
+<strong>Communication</strong>
 
 * Gain the client’s attention before speaking.
 * Face the client directly.
@@ -827,8 +827,8 @@ Adults and older children: **up and back**. Young children: **down and back**.
 * Obtain a qualified sign-language interpreter when appropriate.
 
 </div>
-<div markdown="1">
-##### Hearing-Aid Care
+<div class="detail-mini-card" markdown="1">
+<strong>Hearing-Aid Care</strong>
 
 * Check that the hearing aid is turned on.
 * Check the battery.
