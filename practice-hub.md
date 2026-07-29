@@ -20,13 +20,6 @@ page_type: practice-hub
       <a class="is-active" href="{{ '/practice-hub.html' | relative_url }}"><span>▦</span> Practice hub</a>
       <a href="{{ '/review.html' | relative_url }}"><span>♡</span> My review list</a>
     </nav>
-
-    <div class="practice-streak-card">
-      <span>🔥</span>
-      <strong>Study streak</strong>
-      <b>7 days</b>
-      <small>Keep showing up.</small>
-    </div>
   </aside>
 
   <div class="practice-main">
