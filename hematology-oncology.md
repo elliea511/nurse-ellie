@@ -29,16 +29,10 @@ Hematology and oncology nursing covers blood disorders, anemias, and cancer care
 <span class="tl-desc">Cancer staging, chemotherapy, radiation, side effect management, oncologic emergencies, and priority nursing interventions.</span>
 </a></li>
 
-<li><a href="{{ '/hematology-oncology/anemia-practice-quiz.html' | relative_url }}">
+<li><a href="{{ '/hematology-oncology/practice-quiz.html' | relative_url }}">
 <span class="tl-arrow">›</span>
-<span class="tl-title">Anemia Practice Quiz</span>
-<span class="tl-desc">Practice questions on anemia types, lab interpretation, patient teaching, and nursing priorities.</span>
-</a></li>
-
-<li><a href="{{ '/hematology-oncology/oncology-practice-quiz.html' | relative_url }}">
-<span class="tl-arrow">›</span>
-<span class="tl-title">Oncology Practice Quiz</span>
-<span class="tl-desc">Practice questions covering cancer care, chemotherapy safety, and oncologic emergency recognition.</span>
+<span class="tl-title">Practice Test</span>
+<span class="tl-desc">Build a custom quiz from anemia and oncology questions — choose your topics, pick study or test mode, and set how many questions.</span>
 </a></li>
 
 </ul>

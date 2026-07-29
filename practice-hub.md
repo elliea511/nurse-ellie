@@ -80,6 +80,16 @@ page_type: practice-hub
         <footer><a href="{{ '/immune-inflammatory/practice-quiz.html' | relative_url }}">Start</a></footer>
       </article>
 
+      <article class="practice-test-card theme-purple">
+        <span class="practice-card-icon">🩸</span>
+        <div>
+          <h2>Hematology / Oncology</h2>
+          <p>Anemias — iron-deficiency, pernicious, sickle cell, aplastic, and hemolytic — plus oncology: staging, chemotherapy, radiation, side effect management, and oncologic emergencies.</p>
+          <div class="practice-meta"><span>▤ 146 Questions</span></div>
+        </div>
+        <footer><a href="{{ '/hematology-oncology/practice-quiz.html' | relative_url }}">Start</a></footer>
+      </article>
+
       <article class="practice-test-card theme-blue">
         <span class="practice-card-icon">👁️</span>
         <div>

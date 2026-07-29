@@ -42,7 +42,6 @@ page_type: all-topics
           <div class="at-links">
             <a href="{{ '/maternity/antepartum.html' | relative_url }}">Antepartum Notes</a>
             <a href="{{ '/maternity/maternity-labs.html' | relative_url }}">Maternity Labs</a>
-            <a href="{{ '/maternity/antepartum-practice-test.html' | relative_url }}">Antepartum Practice Test</a>
           </div>
         </div>
         <div class="at-topic-group">
@@ -85,8 +84,7 @@ page_type: all-topics
       <div class="at-links at-card-links">
         <a href="{{ '/hematology-oncology/anemias.html' | relative_url }}">Anemias</a>
         <a href="{{ '/hematology-oncology/oncology.html' | relative_url }}">Oncology</a>
-        <a href="{{ '/hematology-oncology/anemia-practice-quiz.html' | relative_url }}">Anemia Practice Quiz</a>
-        <a href="{{ '/hematology-oncology/oncology-practice-quiz.html' | relative_url }}">Oncology Practice Quiz</a>
+        <a href="{{ '/hematology-oncology/practice-quiz.html' | relative_url }}">Practice Test</a>
       </div>
     </section>
 
