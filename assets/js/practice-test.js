@@ -12,6 +12,7 @@
   var IS_RENAL = /\/renal-urinary\/practice-quiz(\.html)?\/?$/.test(PATH);
   var IS_SENSORY = /\/sensory-perception\/practice-quiz(\.html)?\/?$/.test(PATH);
   var IS_HEME_ONC = /\/hematology-oncology\/practice-quiz(\.html)?\/?$/.test(PATH);
+  var IS_MATERNITY = /\/maternity\/practice-quiz(\.html)?\/?$/.test(PATH);
 
   // Immune & Inflammatory: eight topic selections built by classifying each
   // existing question. Questions are never rewritten — only assigned a topic.
@@ -163,6 +164,13 @@
     { id: 'oncology', label: 'Oncology', cat: 'Oncology',   url: '/hematology-oncology/oncology-practice-quiz.html', n: 100 },
   ];
 
+  var MATERNITY_TOPICS = [
+    { id: 'antepartum',  label: 'Antepartum',  cat: 'Maternity / OB', url: '/maternity/antepartum-quiz.html',  n: 60 },
+    { id: 'intrapartum', label: 'Intrapartum', cat: 'Maternity / OB', url: '/maternity/intrapartum-quiz.html', n: 100 },
+    { id: 'postpartum',  label: 'Postpartum',  cat: 'Maternity / OB', url: '/maternity/postpartum-quiz.html',  n: 100 },
+    { id: 'newborn',     label: 'Newborn',     cat: 'Maternity / OB', url: '/maternity/newborn-quiz.html',     n: 100 },
+  ];
+
   var MENTAL_HEALTH_SOURCE_TOPICS = [
     { id: 'anxiety-ocd', label: 'Anxiety, OCD & Trauma', cat: 'Mental Health', url: '/mental-health/anxiety-ocd-quiz.html', n: 35 },
     { id: 'depression',  label: 'Depression',            cat: 'Mental Health', url: '/mental-health/depression-quiz.html',  n: 47 },
@@ -197,7 +205,7 @@
 
   var MENTAL_HEALTH_TOPICS = MENTAL_HEALTH_SOURCE_TOPICS.concat(MENTAL_HEALTH_DERIVED_TOPICS);
 
-  var TOPICS = IS_MENTAL_HEALTH ? MENTAL_HEALTH_TOPICS : IS_IMMUNE ? IMMUNE_TOPICS : IS_RENAL ? RENAL_TOPICS : IS_SENSORY ? SENSORY_TOPICS : IS_HEME_ONC ? HEME_ONC_TOPICS : MEDICAL_EMERGENCY_TOPICS;
+  var TOPICS = IS_MENTAL_HEALTH ? MENTAL_HEALTH_TOPICS : IS_IMMUNE ? IMMUNE_TOPICS : IS_RENAL ? RENAL_TOPICS : IS_SENSORY ? SENSORY_TOPICS : IS_HEME_ONC ? HEME_ONC_TOPICS : IS_MATERNITY ? MATERNITY_TOPICS : MEDICAL_EMERGENCY_TOPICS;
 
   var MEDICATION_QUESTION_RE = /\b(medication|medications|prescription|prescribed|dose|doses|administer|ssri|ssris|snri|snris|tca|tcas|maoi|maois|antidepressant|antidepressants|benzodiazepine|benzodiazepines|buspirone|lorazepam|diazepam|alprazolam|fluoxetine|sertraline|escitalopram|citalopram|venlafaxine|duloxetine|bupropion|phenelzine|nortriptyline|amitriptyline|hydroxyzine|propranolol|tricyclic|serotonin syndrome|st\. john|linezolid|meperidine|pseudoephedrine|tyramine|discontinuation syndrome|side effect|adverse effect|adverse effects|toxicity|therapeutic response|antipsychotic|antipsychotics|clozapine|haloperidol|risperidone|fluphenazine|benztropine|diphenhydramine|long-acting injectable|prolactin|agranulocytosis|neutropenia|extrapyramidal|tardive dyskinesia|akathisia|dystonia|pseudoparkinsonism|neuroleptic malignant syndrome|nms|naloxone|flumazenil|disulfiram|naltrexone|acamprosate|methadone|buprenorphine|buprenorphine-naloxone|lisdexamfetamine|thiamine|vitamin b1|medication-assisted treatment)\b/i;
 
@@ -341,7 +349,7 @@
     ROOT.innerHTML = '';
     var wrap = el('div', 'pt-select-wrap');
 
-    var title = el('h2', 'pt-select-title', IS_MENTAL_HEALTH ? 'Build Your Mental Health Practice Test' : IS_IMMUNE ? 'Build Your Immune & Inflammatory Practice Test' : IS_RENAL ? 'Build Your Renal & Urinary Practice Test' : IS_SENSORY ? 'Build Your Sensory Perception Practice Test' : 'Build Your Practice Test');
+    var title = el('h2', 'pt-select-title', IS_MENTAL_HEALTH ? 'Build Your Mental Health Practice Test' : IS_IMMUNE ? 'Build Your Immune & Inflammatory Practice Test' : IS_RENAL ? 'Build Your Renal & Urinary Practice Test' : IS_SENSORY ? 'Build Your Sensory Perception Practice Test' : IS_MATERNITY ? 'Build Your Maternity / OB Practice Test' : 'Build Your Practice Test');
     var sub   = el('p',  'pt-select-sub',   'Choose the topics you want to include, then select a mode.');
     wrap.appendChild(title);
     wrap.appendChild(sub);

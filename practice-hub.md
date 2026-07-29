@@ -83,6 +83,16 @@ page_type: practice-hub
         <footer><a href="{{ '/hematology-oncology/practice-quiz.html' | relative_url }}">Start</a></footer>
       </article>
 
+      <article class="practice-test-card theme-pink">
+        <span class="practice-card-icon">🤰</span>
+        <div>
+          <h2>Maternity / OB</h2>
+          <p>Antepartum, intrapartum, postpartum, and newborn care — physiologic adaptations, labor and fetal monitoring, postpartum complications, and newborn assessment. Pick your topics.</p>
+          <div class="practice-meta"><span>▤ 360 Questions • 4 topics</span></div>
+        </div>
+        <footer><a href="{{ '/maternity/practice-quiz.html' | relative_url }}">Start</a></footer>
+      </article>
+
       <article class="practice-test-card theme-blue">
         <span class="practice-card-icon">👁️</span>
         <div>
