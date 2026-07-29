@@ -218,8 +218,8 @@
   var selectedIds = {};
   var questions = [];   // parsed question objects
   var currentIdx = 0;
-  var studyCorrect = 0;
   var testAnswers  = []; // { q, gotItRight, userLetters }
+  var studyState   = []; // per-question study state: { selected, submitted, correct }
   var fsWrap = null;    // persistent fullscreen wrapper
 
   // ── Parser (mirrors quiz.js) ───────────────────────────────────────────────
@@ -499,8 +499,8 @@
       }));
       questions = (desiredCount > 0 && desiredCount < all.length) ? all.slice(0, desiredCount) : all;
       currentIdx   = 0;
-      studyCorrect = 0;
       testAnswers  = [];
+      studyState   = questions.map(function () { return { selected: [], submitted: false, correct: false }; });
       phase = 'QUIZ';
       renderQuestion(0);
     }).catch(function (err) {
@@ -572,13 +572,16 @@
 
     // Choices
     var choicesWrap = el('div', 'pt-choices-wrap');
-    var selectedLetters = [];
-    var submitted = false;
+    // Study mode remembers each question's answer so the user can move back and forth.
+    var st = (mode === 'STUDY') ? studyState[idx] : null;
+    var selectedLetters = st ? st.selected.slice() : [];
+    var submitted = st ? st.submitted : false;
 
     q.choiceTexts.forEach(function (text) {
       var letter = text.trim().charAt(0).toUpperCase();
       var btn = el('button', 'quiz-choice-btn', text);
       btn.dataset.letter = letter;
+      if (selectedLetters.indexOf(letter) !== -1) btn.classList.add('selected');
       btn.addEventListener('click', function () {
         if (submitted) return;
         if (q.isSATA) {
@@ -590,6 +593,7 @@
           Array.from(choicesWrap.querySelectorAll('.quiz-choice-btn')).forEach(function (b) { b.classList.remove('selected'); });
           btn.classList.add('selected');
         }
+        if (st) st.selected = selectedLetters.slice();
         if (mode === 'STUDY') submitBtn.disabled = selectedLetters.length === 0;
         if (mode === 'TEST')  nextBtn.disabled   = selectedLetters.length === 0;
       });
@@ -599,24 +603,18 @@
 
     // Rationale panel placeholder
     var ratPanel = el('div', 'quiz-rationale-panel');
-    ratPanel.style.display = 'none';
     fsWrap.appendChild(ratPanel);
 
     // Buttons
+    var prevBtn   = el('button', 'quiz-prev-btn', 'Previous');
+    prevBtn.disabled = idx === 0;
     var submitBtn = el('button', 'quiz-submit-btn', 'Submit Answer');
-    submitBtn.disabled = true;
+    submitBtn.disabled = selectedLetters.length === 0;
     var nextBtn   = el('button', 'quiz-next-btn',   idx + 1 < total ? 'Next Question' : (mode === 'STUDY' ? 'Finish' : 'See Results'));
-    nextBtn.disabled = true;
+    nextBtn.disabled = (mode === 'TEST') ? (selectedLetters.length === 0) : !submitted;
 
-    function doSubmit() {
-      if (submitted) return;
-      submitted = true;
-      clearInterval(timerInterval);
-
-      var correct = q.correctLetters.slice().sort().join(',') === selectedLetters.slice().sort().join(',');
-      if (mode === 'STUDY') studyCorrect += correct ? 1 : 0;
-
-      // Color choices
+    // Reveal the correct answer, color the choices, and show the rationale.
+    function revealAnswer() {
       Array.from(choicesWrap.querySelectorAll('.quiz-choice-btn')).forEach(function (b) {
         var l = b.dataset.letter;
         b.disabled = true;
@@ -624,14 +622,19 @@
         if (q.correctLetters.indexOf(l) !== -1) b.classList.add('correct');
         else if (selectedLetters.indexOf(l) !== -1) b.classList.add('incorrect');
       });
+      ratPanel.classList.add('visible');
+      ratPanel.innerHTML = '<strong>Correct Answer: ' + q.answerText + '</strong><br>' + q.rationaleHTML;
+      submitBtn.style.display = 'none';
+      nextBtn.disabled = false;
+    }
 
-      // Show rationale (study mode)
-      if (mode === 'STUDY') {
-        ratPanel.classList.add('visible');
-        ratPanel.innerHTML = '<strong>Correct Answer: ' + q.answerText + '</strong><br>' + q.rationaleHTML;
-        submitBtn.style.display = 'none';
-        nextBtn.disabled = false;
-      }
+    function doSubmit() {
+      if (submitted) return;
+      submitted = true;
+      clearInterval(timerInterval);
+      var correct = q.correctLetters.slice().sort().join(',') === selectedLetters.slice().sort().join(',');
+      if (st) { st.submitted = true; st.correct = correct; st.selected = selectedLetters.slice(); }
+      if (mode === 'STUDY') revealAnswer();
     }
 
     function doNext() {
@@ -647,10 +650,23 @@
       }
     }
 
+    function doPrev() {
+      clearInterval(timerInterval);
+      if (idx > 0) renderQuestion(idx - 1);
+    }
+
+    prevBtn.addEventListener('click', doPrev);
     submitBtn.addEventListener('click', doSubmit);
     nextBtn.addEventListener('click', doNext);
 
+    // Already-answered study question: restore its revealed state on revisit.
+    if (mode === 'STUDY' && submitted) {
+      clearInterval(timerInterval);
+      revealAnswer();
+    }
+
     var btnRow = el('div', 'pt-btn-row');
+    if (mode === 'STUDY') btnRow.appendChild(prevBtn);
     if (mode === 'STUDY') btnRow.appendChild(submitBtn);
     btnRow.appendChild(nextBtn);
     fsWrap.appendChild(btnRow);
@@ -673,7 +689,7 @@
 
     var correct, total;
     if (mode === 'STUDY') {
-      correct = studyCorrect;
+      correct = studyState.filter(function (s) { return s.submitted && s.correct; }).length;
       total   = questions.length;
     } else {
       correct = testAnswers.filter(function (a) { return a.gotItRight; }).length;
