@@ -48,7 +48,7 @@ page_type: practice-hub
         <div>
           <h2>Medical Emergencies</h2>
           <p>Cardiac, respiratory, neuro, trauma, environmental, and priority interventions.</p>
-          <div class="practice-meta"><span>▤ Practice test</span></div>
+          <div class="practice-meta"><span>▤ 278 Questions • 11 topics</span></div>
         </div>
         <footer><a href="{{ '/medical-emergencies/practice-quiz.html' | relative_url }}">Start</a></footer>
       </article>
