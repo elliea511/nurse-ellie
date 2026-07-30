@@ -33,6 +33,19 @@ page_type: practice-hub
     </header>
 
     <section class="practice-topic-grid" id="practice-topics" aria-label="Practice topic cards">
+      <article class="practice-test-card theme-orange practice-random-card">
+        <span class="practice-card-icon">🎲</span>
+        <div>
+          <h2>Random Quiz</h2>
+          <p>A random mix of questions pulled from every section. Choose how many and go.</p>
+          <div class="practice-meta practice-random-controls">
+            <label for="rand-n">Questions:</label>
+            <input type="number" id="rand-n" class="rand-n-input" min="1" value="25" aria-label="Number of questions">
+          </div>
+        </div>
+        <footer><a href="{{ '/random-quiz.html' | relative_url }}" id="rand-go">Generate</a></footer>
+      </article>
+
       <article class="practice-test-card theme-purple">
         <span class="practice-card-icon">🧠</span>
         <div>
@@ -110,3 +123,18 @@ page_type: practice-hub
     </aside>
   </div>
 </section>
+
+<script>
+(function () {
+  var input = document.getElementById('rand-n');
+  var go = document.getElementById('rand-go');
+  if (!input || !go) return;
+  var base = go.getAttribute('href');
+  function update() {
+    var n = parseInt(input.value, 10);
+    go.setAttribute('href', base + (n > 0 ? ('?n=' + n) : ''));
+  }
+  input.addEventListener('input', update);
+  update();
+})();
+</script>

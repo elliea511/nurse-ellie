@@ -13,6 +13,7 @@
   var IS_SENSORY = /\/sensory-perception\/practice-quiz(\.html)?\/?$/.test(PATH);
   var IS_HEME_ONC = /\/hematology-oncology\/practice-quiz(\.html)?\/?$/.test(PATH);
   var IS_MATERNITY = /\/maternity\/practice-quiz(\.html)?\/?$/.test(PATH);
+  var IS_RANDOM = /\/random-quiz(\.html)?\/?$/.test(PATH);
 
   // Immune & Inflammatory: eight topic selections built by classifying each
   // existing question. Questions are never rewritten — only assigned a topic.
@@ -205,6 +206,18 @@
 
   var MENTAL_HEALTH_TOPICS = MENTAL_HEALTH_SOURCE_TOPICS.concat(MENTAL_HEALTH_DERIVED_TOPICS);
 
+  // Flat list of every quiz source file + its section label, for the random quiz.
+  // Derived from the arrays above so it stays in sync as sections change.
+  function srcs(arr, label) { return arr.map(function (t) { return { url: t.url, label: label }; }); }
+  var ALL_SOURCES = []
+    .concat(srcs(MENTAL_HEALTH_SOURCE_TOPICS, 'Mental Health'))
+    .concat(srcs(MEDICAL_EMERGENCY_TOPICS,    'Medical Emergencies'))
+    .concat(srcs(HEME_ONC_TOPICS,             'Hematology / Oncology'))
+    .concat(srcs(MATERNITY_TOPICS,            'Maternity / OB'))
+    .concat(srcs(IMMUNE_SOURCES,              'Immune & Inflammatory'))
+    .concat(srcs(RENAL_SOURCES,               'Renal & Urinary'))
+    .concat(srcs(SENSORY_SOURCES,             'Sensory Perception'));
+
   var TOPICS = IS_MENTAL_HEALTH ? MENTAL_HEALTH_TOPICS : IS_IMMUNE ? IMMUNE_TOPICS : IS_RENAL ? RENAL_TOPICS : IS_SENSORY ? SENSORY_TOPICS : IS_HEME_ONC ? HEME_ONC_TOPICS : IS_MATERNITY ? MATERNITY_TOPICS : MEDICAL_EMERGENCY_TOPICS;
 
   var MEDICATION_QUESTION_RE = /\b(medication|medications|prescription|prescribed|dose|doses|administer|ssri|ssris|snri|snris|tca|tcas|maoi|maois|antidepressant|antidepressants|benzodiazepine|benzodiazepines|buspirone|lorazepam|diazepam|alprazolam|fluoxetine|sertraline|escitalopram|citalopram|venlafaxine|duloxetine|bupropion|phenelzine|nortriptyline|amitriptyline|hydroxyzine|propranolol|tricyclic|serotonin syndrome|st\. john|linezolid|meperidine|pseudoephedrine|tyramine|discontinuation syndrome|side effect|adverse effect|adverse effects|toxicity|therapeutic response|antipsychotic|antipsychotics|clozapine|haloperidol|risperidone|fluphenazine|benztropine|diphenhydramine|long-acting injectable|prolactin|agranulocytosis|neutropenia|extrapyramidal|tardive dyskinesia|akathisia|dystonia|pseudoparkinsonism|neuroleptic malignant syndrome|nms|naloxone|flumazenil|disulfiram|naltrexone|acamprosate|methadone|buprenorphine|buprenorphine-naloxone|lisdexamfetamine|thiamine|vitamin b1|medication-assisted treatment)\b/i;
@@ -346,6 +359,7 @@
   var desiredCount = 0; // 0 = all
 
   function renderSelect() {
+    if (IS_RANDOM) return renderRandomSelect();
     ROOT.innerHTML = '';
     var wrap = el('div', 'pt-select-wrap');
 
@@ -476,6 +490,82 @@
     wrap.appendChild(modeRow);
 
     ROOT.appendChild(wrap);
+  }
+
+  // ── Random quiz (pulls from every section) ─────────────────────────────────
+  function renderRandomSelect() {
+    ROOT.innerHTML = '';
+    var wrap = el('div', 'pt-select-wrap');
+    wrap.appendChild(el('h2', 'pt-select-title', 'Random Quiz'));
+    wrap.appendChild(el('p', 'pt-select-sub', 'A random mix of questions pulled from every section — Mental Health, Medical Emergencies, Renal & Urinary, Immune & Inflammatory, Sensory Perception, Hematology / Oncology, and Maternity / OB.'));
+
+    var qp = /[?&]n=(\d+)/.exec(window.location.search || '');
+    if (qp && desiredCount === 0) desiredCount = parseInt(qp[1], 10);
+    if (!desiredCount || desiredCount < 1) desiredCount = 25;
+
+    var countWrap = el('div', 'pt-count-wrap');
+    var countLabel = el('label', 'pt-count-label');
+    countLabel.htmlFor = 'pt-q-count';
+    countLabel.textContent = 'Number of questions:';
+    var countInput = document.createElement('input');
+    countInput.type = 'number';
+    countInput.id = 'pt-q-count';
+    countInput.className = 'pt-count-input';
+    countInput.min = '1';
+    countInput.step = '1';
+    countInput.value = desiredCount;
+    countInput.addEventListener('input', function () {
+      var v = parseInt(countInput.value, 10);
+      desiredCount = (v && v > 0) ? v : 0;
+    });
+    countWrap.appendChild(countLabel);
+    countWrap.appendChild(countInput);
+    wrap.appendChild(countWrap);
+
+    var modeRow  = el('div', 'pt-mode-row');
+    var studyBtn = el('button', 'pt-mode-btn', '<span class="qmb-icon">📖</span><span class="qmb-label">Study Mode</span><span class="qmb-desc">See rationale after each question</span>');
+    var testBtn  = el('button', 'pt-mode-btn', '<span class="qmb-icon">📝</span><span class="qmb-label">Test Mode</span><span class="qmb-desc">Get your score at the end</span>');
+    studyBtn.addEventListener('click', function () { startRandom('STUDY'); });
+    testBtn.addEventListener('click',  function () { startRandom('TEST'); });
+    modeRow.appendChild(studyBtn);
+    modeRow.appendChild(testBtn);
+    wrap.appendChild(modeRow);
+
+    ROOT.appendChild(wrap);
+  }
+
+  function startRandom(m) {
+    mode = m;
+    var n = (desiredCount && desiredCount > 0) ? desiredCount : 25;
+    desiredCount = n;
+    phase = 'LOADING';
+    ROOT.innerHTML = '<div class="pt-loading">Loading questions…</div>';
+
+    var fetches = ALL_SOURCES.map(function (src) {
+      return fetch(BASE + src.url)
+        .then(function (r) { return r.text(); })
+        .then(function (html) { return parseHTML(html, 'random', src.label); })
+        .catch(function () { return []; });
+    });
+
+    Promise.all(fetches).then(function (results) {
+      var seen = {};
+      var all = shuffle([].concat.apply([], results).filter(function (q) {
+        var key = q.questionKey || ((q.sourceTopic || q.topic) + '|' + q.stemHTML);
+        if (seen[key]) return false;
+        seen[key] = true;
+        return true;
+      }));
+      questions = (n > 0 && n < all.length) ? all.slice(0, n) : all;
+      currentIdx   = 0;
+      testAnswers  = [];
+      studyState   = questions.map(function () { return { selected: [], submitted: false, correct: false }; });
+      phase = 'QUIZ';
+      renderQuestion(0);
+    }).catch(function (err) {
+      ROOT.innerHTML = '<p class="pt-error">Failed to load questions. Please try again.</p>';
+      console.error(err);
+    });
   }
 
   // ── Load + start ──────────────────────────────────────────────────────────

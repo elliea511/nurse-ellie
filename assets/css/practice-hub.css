@@ -613,3 +613,23 @@ body[data-page-type="practice-hub"] .main-content {
   background: #2a2340 !important;
   color: #eee8ff !important;
 }
+
+/* Random Quiz card count input */
+.practice-random-controls {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.rand-n-input {
+  width: 4.5rem;
+  padding: 0.25rem 0.45rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  font: inherit;
+  text-align: center;
+}
+[data-theme="dark"] .rand-n-input {
+  background: #221d33;
+  border-color: #39324f;
+  color: #eee8ff;
+}
