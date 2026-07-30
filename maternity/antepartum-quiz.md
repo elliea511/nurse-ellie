@@ -372,18 +372,18 @@ title: Antepartum Practice Quiz
 <p class="answer-choice"><strong>B.</strong> Maternal weight</p>
 <p class="answer-choice"><strong>C.</strong> Urinalysis for protein, glucose, and ketones</p>
 <p class="answer-choice"><strong>D.</strong> Fundal height</p>
-<p class="answer-choice"><strong>E.</strong> Fetal heart rate</p>
+<p class="answer-choice"><strong>E.</strong> Routine nonstress test at every visit</p>
 
 <details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
-<p class="quiz-answer"><strong>Answer: A, B, C, D, E</strong></p>
+<p class="quiz-answer"><strong>Answer: A, B, C, D</strong></p>
 <div class="quiz-rationale">
 <p><strong>Rationale:</strong></p>
 <p><strong>A.</strong> Correct. Blood pressure is monitored consistently, ideally using the same arm and position.</p>
 <p><strong>B.</strong> Correct. Weight trends help evaluate maternal and fetal well-being.</p>
 <p><strong>C.</strong> Correct. Urine is commonly checked for protein, glucose, and ketones.</p>
 <p><strong>D.</strong> Correct. Fundal height helps assess fetal growth and amniotic fluid volume.</p>
-<p><strong>E.</strong> Correct. Fetal heart rate is assessed as gestation permits.</p>
+<p><strong>E.</strong> Incorrect. A nonstress test is not part of every routine prenatal visit; it is ordered selectively for higher-risk pregnancies or later gestation.</p>
 </div>
 </details>
 
@@ -505,18 +505,18 @@ title: Antepartum Practice Quiz
 <p class="answer-choice"><strong>A.</strong> G5</p>
 <p class="answer-choice"><strong>B.</strong> T1</p>
 <p class="answer-choice"><strong>C.</strong> P1</p>
-<p class="answer-choice"><strong>D.</strong> A2</p>
+<p class="answer-choice"><strong>D.</strong> A1</p>
 <p class="answer-choice"><strong>E.</strong> L2</p>
 
 <details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
-<p class="quiz-answer"><strong>Answer: A, B, C, D, E</strong></p>
+<p class="quiz-answer"><strong>Answer: A, B, C, E</strong></p>
 <div class="quiz-rationale">
 <p><strong>Rationale:</strong></p>
 <p><strong>A.</strong> Correct. Four prior pregnancies plus the current pregnancy equals G5.</p>
 <p><strong>B.</strong> Correct. One birth occurred at term.</p>
 <p><strong>C.</strong> Correct. One birth occurred preterm.</p>
-<p><strong>D.</strong> Correct. Both pregnancies ending before viability are counted under A.</p>
+<p><strong>D.</strong> Incorrect. Both the elective abortion and the miscarriage ended before viability, so abortions total 2 (A2), not A1.</p>
 <p><strong>E.</strong> Correct. Two children are living.</p>
 </div>
 </details>
@@ -615,18 +615,18 @@ title: Antepartum Practice Quiz
 <p>Which effects should the nurse teach a client may occur with oral iron therapy?</p>
 
 <p class="answer-choice"><strong>A.</strong> Constipation</p>
-<p class="answer-choice"><strong>B.</strong> Black stools</p>
+<p class="answer-choice"><strong>B.</strong> Pale, clay-colored stools</p>
 <p class="answer-choice"><strong>C.</strong> Nausea or epigastric discomfort</p>
 <p class="answer-choice"><strong>D.</strong> Diarrhea</p>
 <p class="answer-choice"><strong>E.</strong> Heartburn</p>
 
 <details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
-<p class="quiz-answer"><strong>Answer: A, B, C, D, E</strong></p>
+<p class="quiz-answer"><strong>Answer: A, C, D, E</strong></p>
 <div class="quiz-rationale">
 <p><strong>Rationale:</strong></p>
 <p><strong>A.</strong> Correct. Constipation is common.</p>
-<p><strong>B.</strong> Correct. Dark stools are expected.</p>
+<p><strong>B.</strong> Incorrect. Oral iron causes dark or black stools, not pale clay-colored stools; pale stools suggest a biliary problem.</p>
 <p><strong>C.</strong> Correct. Nausea and epigastric discomfort can occur.</p>
 <p><strong>D.</strong> Correct. Some clients experience diarrhea rather than constipation.</p>
 <p><strong>E.</strong> Correct. Iron can cause or worsen heartburn.</p>
@@ -750,20 +750,20 @@ title: Antepartum Practice Quiz
 
 <p class="answer-choice"><strong>A.</strong> Vaginal bleeding</p>
 <p class="answer-choice"><strong>B.</strong> Suspected rupture of membranes</p>
-<p class="answer-choice"><strong>C.</strong> Persistent vomiting</p>
+<p class="answer-choice"><strong>C.</strong> Mild ankle swelling at the end of the day</p>
 <p class="answer-choice"><strong>D.</strong> Painful urination</p>
-<p class="answer-choice"><strong>E.</strong> Fever or chills</p>
+<p class="answer-choice"><strong>E.</strong> Increased odorless white vaginal discharge</p>
 
 <details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
-<p class="quiz-answer"><strong>Answer: A, B, C, D, E</strong></p>
+<p class="quiz-answer"><strong>Answer: A, B, D</strong></p>
 <div class="quiz-rationale">
 <p><strong>Rationale:</strong></p>
 <p><strong>A.</strong> Correct. Bleeding can indicate miscarriage, placental complications, or labor.</p>
 <p><strong>B.</strong> Correct. Rupture of membranes increases infection and preterm birth risks.</p>
-<p><strong>C.</strong> Correct. Persistent vomiting can cause dehydration and electrolyte imbalance.</p>
+<p><strong>C.</strong> Incorrect. Mild dependent ankle edema at the end of the day is a common, expected change and does not require prompt reporting.</p>
 <p><strong>D.</strong> Correct. Dysuria can indicate urinary infection, which can progress to pyelonephritis.</p>
-<p><strong>E.</strong> Correct. Fever or chills can indicate infection.</p>
+<p><strong>E.</strong> Incorrect. Increased odorless white discharge (leukorrhea) is expected in pregnancy and is not a danger sign.</p>
 </div>
 </details>
 
@@ -863,18 +863,18 @@ title: Antepartum Practice Quiz
 <p class="answer-choice"><strong>A.</strong> Maternal age older than 35 years</p>
 <p class="answer-choice"><strong>B.</strong> Previous infant with a chromosomal abnormality</p>
 <p class="answer-choice"><strong>C.</strong> Elevated maternal serum AFP</p>
-<p class="answer-choice"><strong>D.</strong> Maternal Rh sensitization</p>
+<p class="answer-choice"><strong>D.</strong> Maternal iron-deficiency anemia</p>
 <p class="answer-choice"><strong>E.</strong> Maternal carrier status for an X-linked disorder</p>
 
 <details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
-<p class="quiz-answer"><strong>Answer: A, B, C, D, E</strong></p>
+<p class="quiz-answer"><strong>Answer: A, B, C, E</strong></p>
 <div class="quiz-rationale">
 <p><strong>Rationale:</strong></p>
 <p><strong>A.</strong> Correct. Advanced maternal age increases aneuploidy risk.</p>
 <p><strong>B.</strong> Correct. A prior affected pregnancy increases recurrence concern.</p>
 <p><strong>C.</strong> Correct. Amniotic-fluid AFP may help evaluate an abnormal serum result.</p>
-<p><strong>D.</strong> Correct. Amniotic fluid can be evaluated when fetal hemolysis is a concern.</p>
+<p><strong>D.</strong> Incorrect. Iron-deficiency anemia is unrelated to amniocentesis and is not an indication for the procedure.</p>
 <p><strong>E.</strong> Correct. Fetal sex and genetic testing may be relevant for X-linked disorders.</p>
 </div>
 </details>
@@ -1016,7 +1016,7 @@ title: Antepartum Practice Quiz
 
 <p>Which fetal activities or findings are evaluated in a full biophysical profile?</p>
 
-<p class="answer-choice"><strong>A.</strong> Reactive nonstress test</p>
+<p class="answer-choice"><strong>A.</strong> Maternal blood pressure</p>
 <p class="answer-choice"><strong>B.</strong> Fetal breathing movement</p>
 <p class="answer-choice"><strong>C.</strong> Gross body movement</p>
 <p class="answer-choice"><strong>D.</strong> Fetal tone</p>
@@ -1024,10 +1024,10 @@ title: Antepartum Practice Quiz
 
 <details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
-<p class="quiz-answer"><strong>Answer: A, B, C, D, E</strong></p>
+<p class="quiz-answer"><strong>Answer: B, C, D, E</strong></p>
 <div class="quiz-rationale">
 <p><strong>Rationale:</strong></p>
-<p><strong>A.</strong> Correct. NST reactivity reflects fetal autonomic function and oxygenation.</p>
+<p><strong>A.</strong> Incorrect. Maternal blood pressure is not one of the five biophysical profile parameters.</p>
 <p><strong>B.</strong> Correct. Fetal breathing activity is assessed by ultrasound.</p>
 <p><strong>C.</strong> Correct. Gross body movement is one of the ultrasound components.</p>
 <p><strong>D.</strong> Correct. Flexion and extension reflect fetal tone.</p>
@@ -1198,18 +1198,18 @@ title: Antepartum Practice Quiz
 <p class="answer-choice"><strong>B.</strong> Cataracts</p>
 <p class="answer-choice"><strong>C.</strong> Patent ductus arteriosus</p>
 <p class="answer-choice"><strong>D.</strong> Intrauterine growth restriction</p>
-<p class="answer-choice"><strong>E.</strong> Thrombocytopenic purpura</p>
+<p class="answer-choice"><strong>E.</strong> Macrosomia (large for gestational age)</p>
 
 <details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
-<p class="quiz-answer"><strong>Answer: A, B, C, D, E</strong></p>
+<p class="quiz-answer"><strong>Answer: A, B, C, D</strong></p>
 <div class="quiz-rationale">
 <p><strong>Rationale:</strong></p>
 <p><strong>A.</strong> Correct. Deafness is a classic effect.</p>
 <p><strong>B.</strong> Correct. Cataracts are part of the congenital rubella pattern.</p>
 <p><strong>C.</strong> Correct. Cardiac defects can include PDA or pulmonary stenosis.</p>
 <p><strong>D.</strong> Correct. Fetal growth restriction can occur.</p>
-<p><strong>E.</strong> Correct. Thrombocytopenic purpura is another possible manifestation.</p>
+<p><strong>E.</strong> Incorrect. Congenital rubella causes intrauterine growth restriction, not macrosomia.</p>
 </div>
 </details>
 
@@ -1309,18 +1309,18 @@ title: Antepartum Practice Quiz
 <p class="answer-choice"><strong>A.</strong> Striae gravidarum</p>
 <p class="answer-choice"><strong>B.</strong> Linea nigra</p>
 <p class="answer-choice"><strong>C.</strong> Melasma</p>
-<p class="answer-choice"><strong>D.</strong> Spider angiomas</p>
+<p class="answer-choice"><strong>D.</strong> Generalized jaundice</p>
 <p class="answer-choice"><strong>E.</strong> Palmar erythema</p>
 
 <details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
-<p class="quiz-answer"><strong>Answer: A, B, C, D, E</strong></p>
+<p class="quiz-answer"><strong>Answer: A, B, C, E</strong></p>
 <div class="quiz-rationale">
 <p><strong>Rationale:</strong></p>
 <p><strong>A.</strong> Correct. Stretching and hormonal changes can produce striae.</p>
 <p><strong>B.</strong> Correct. Increased pigmentation can darken the abdominal midline.</p>
 <p><strong>C.</strong> Correct. Facial hyperpigmentation may occur.</p>
-<p><strong>D.</strong> Correct. Increased estrogen can contribute to vascular spiders.</p>
+<p><strong>D.</strong> Incorrect. Generalized jaundice is not an expected skin change and may indicate intrahepatic cholestasis of pregnancy or liver disease.</p>
 <p><strong>E.</strong> Correct. Redness and itching of the palms can occur.</p>
 </div>
 </details>

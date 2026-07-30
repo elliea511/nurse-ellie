@@ -100,7 +100,7 @@ title: Intrapartum Practice Quiz
 
 <p>Which factors may influence labor contractions?</p>
 
-<p class="answer-choice"><strong>A.</strong> Walking</p>
+<p class="answer-choice"><strong>A.</strong> Maternal blood type</p>
 <p class="answer-choice"><strong>B.</strong> Maternal anxiety</p>
 <p class="answer-choice"><strong>C.</strong> Medications</p>
 <p class="answer-choice"><strong>D.</strong> Vaginal examinations</p>
@@ -108,10 +108,10 @@ title: Intrapartum Practice Quiz
 
 <details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
-<p class="quiz-answer"><strong>Answer: A, B, C, D, E</strong></p>
+<p class="quiz-answer"><strong>Answer: B, C, D, E</strong></p>
 <div class="quiz-rationale">
 <p><strong>Rationale:</strong></p>
-<p><strong>A.</strong> Correct. Activity can alter labor patterns.</p>
+<p><strong>A.</strong> Incorrect. Maternal blood type does not influence uterine contraction patterns.</p>
 <p><strong>B.</strong> Correct. Anxiety can increase catecholamines and interfere with effective contractions.</p>
 <p><strong>C.</strong> Correct. Oxytocin, analgesics, and other medications can change uterine activity.</p>
 <p><strong>D.</strong> Correct. Vaginal examinations and stimulation can affect contractions.</p>
@@ -506,18 +506,18 @@ title: Intrapartum Practice Quiz
 <p class="answer-choice"><strong>B.</strong> Fetal heart rate</p>
 <p class="answer-choice"><strong>C.</strong> Contraction pattern</p>
 <p class="answer-choice"><strong>D.</strong> Cervical dilation and effacement</p>
-<p class="answer-choice"><strong>E.</strong> Birth preferences</p>
+<p class="answer-choice"><strong>E.</strong> Family medical history dating back three generations</p>
 
 <details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
-<p class="quiz-answer"><strong>Answer: A, B, C, D, E</strong></p>
+<p class="quiz-answer"><strong>Answer: A, B, C, D</strong></p>
 <div class="quiz-rationale">
 <p><strong>Rationale:</strong></p>
 <p><strong>A.</strong> Correct. Maternal status must be established.</p>
 <p><strong>B.</strong> Correct. Fetal well-being is a primary concern.</p>
 <p><strong>C.</strong> Correct. Contractions help determine labor status.</p>
 <p><strong>D.</strong> Correct. Cervical findings assess progress.</p>
-<p><strong>E.</strong> Correct. Birth preferences guide individualized care when safe.</p>
+<p><strong>E.</strong> Incorrect. A three-generation family history is not part of essential labor-admission data.</p>
 </div>
 </details>
 
@@ -818,18 +818,18 @@ title: Intrapartum Practice Quiz
 <p class="answer-choice"><strong>B.</strong> Opioids or sedatives</p>
 <p class="answer-choice"><strong>C.</strong> Magnesium sulfate</p>
 <p class="answer-choice"><strong>D.</strong> Maternal or fetal hypoxia</p>
-<p class="answer-choice"><strong>E.</strong> Gestational age under 28 weeks</p>
+<p class="answer-choice"><strong>E.</strong> Fetal scalp stimulation</p>
 
 <details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
-<p class="quiz-answer"><strong>Answer: A, B, C, D, E</strong></p>
+<p class="quiz-answer"><strong>Answer: A, B, C, D</strong></p>
 <div class="quiz-rationale">
 <p><strong>Rationale:</strong></p>
 <p><strong>A.</strong> Correct. Fetal sleep can temporarily decrease variability.</p>
 <p><strong>B.</strong> Correct. CNS-depressant medications can reduce variability.</p>
 <p><strong>C.</strong> Correct. Magnesium sulfate is a CNS depressant.</p>
 <p><strong>D.</strong> Correct. Hypoxia can reduce variability.</p>
-<p><strong>E.</strong> Correct. An immature autonomic nervous system can produce lower variability.</p>
+<p><strong>E.</strong> Incorrect. Fetal scalp stimulation typically increases variability or produces accelerations rather than decreasing it.</p>
 </div>
 </details>
 
@@ -994,20 +994,20 @@ title: Intrapartum Practice Quiz
 
 <p class="answer-choice"><strong>A.</strong> Stop oxytocin</p>
 <p class="answer-choice"><strong>B.</strong> Reposition the client</p>
-<p class="answer-choice"><strong>C.</strong> Increase a nonadditive IV infusion</p>
+<p class="answer-choice"><strong>C.</strong> Increase the oxytocin infusion rate</p>
 <p class="answer-choice"><strong>D.</strong> Notify the provider</p>
-<p class="answer-choice"><strong>E.</strong> Prepare for urgent delivery if unresolved</p>
+<p class="answer-choice"><strong>E.</strong> Encourage the client to bear down and push</p>
 
 <details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
-<p class="quiz-answer"><strong>Answer: A, B, C, D, E</strong></p>
+<p class="quiz-answer"><strong>Answer: A, B, D</strong></p>
 <div class="quiz-rationale">
 <p><strong>Rationale:</strong></p>
 <p><strong>A.</strong> Correct. Oxytocin can worsen excessive contractions.</p>
 <p><strong>B.</strong> Correct. Lateral positioning improves perfusion.</p>
-<p><strong>C.</strong> Correct. Fluids may improve maternal blood pressure and placental flow.</p>
+<p><strong>C.</strong> Incorrect. Oxytocin should be stopped, not increased; increasing it would worsen uteroplacental insufficiency.</p>
 <p><strong>D.</strong> Correct. Persistent nonreassuring patterns require provider notification.</p>
-<p><strong>E.</strong> Correct. Delivery may be necessary when resuscitative measures fail.</p>
+<p><strong>E.</strong> Incorrect. Pushing further reduces fetal oxygenation and is not appropriate for late decelerations.</p>
 </div>
 </details>
 
@@ -1239,18 +1239,18 @@ title: Intrapartum Practice Quiz
 <p class="answer-choice"><strong>A.</strong> Maternal blood pressure</p>
 <p class="answer-choice"><strong>B.</strong> Fetal heart rate</p>
 <p class="answer-choice"><strong>C.</strong> Respiratory status</p>
-<p class="answer-choice"><strong>D.</strong> Ability to move the legs</p>
+<p class="answer-choice"><strong>D.</strong> Maternal blood glucose every 15 minutes</p>
 <p class="answer-choice"><strong>E.</strong> Bladder distention</p>
 
 <details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
-<p class="quiz-answer"><strong>Answer: A, B, C, D, E</strong></p>
+<p class="quiz-answer"><strong>Answer: A, B, C, E</strong></p>
 <div class="quiz-rationale">
 <p><strong>Rationale:</strong></p>
 <p><strong>A.</strong> Correct. Hypotension is a common complication.</p>
 <p><strong>B.</strong> Correct. Maternal hypotension can cause fetal hypoxia.</p>
 <p><strong>C.</strong> Correct. Opioids used with regional blocks can depress respirations.</p>
-<p><strong>D.</strong> Correct. Motor block and fall risk must be assessed.</p>
+<p><strong>D.</strong> Incorrect. Frequent blood glucose monitoring is not a standard requirement after regional anesthesia.</p>
 <p><strong>E.</strong> Correct. Bladder sensation may be reduced, causing retention.</p>
 </div>
 </details>
@@ -1418,18 +1418,18 @@ title: Intrapartum Practice Quiz
 <p class="answer-choice"><strong>B.</strong> Fetal compromise</p>
 <p class="answer-choice"><strong>C.</strong> Uterine rupture</p>
 <p class="answer-choice"><strong>D.</strong> Water intoxication</p>
-<p class="answer-choice"><strong>E.</strong> Reduced placental perfusion</p>
+<p class="answer-choice"><strong>E.</strong> Maternal hyperglycemia</p>
 
 <details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
-<p class="quiz-answer"><strong>Answer: A, B, C, D, E</strong></p>
+<p class="quiz-answer"><strong>Answer: A, B, C, D</strong></p>
 <div class="quiz-rationale">
 <p><strong>Rationale:</strong></p>
 <p><strong>A.</strong> Correct. Excessive contractions are a major risk.</p>
 <p><strong>B.</strong> Correct. Reduced fetal oxygenation can occur.</p>
 <p><strong>C.</strong> Correct. Excessive stimulation can contribute to rupture.</p>
 <p><strong>D.</strong> Correct. Oxytocin has an antidiuretic effect.</p>
-<p><strong>E.</strong> Correct. Excessive contractions decrease blood flow during inadequate resting intervals.</p>
+<p><strong>E.</strong> Incorrect. Hyperglycemia is not an effect of oxytocin; its key metabolic risk is water intoxication from its antidiuretic effect.</p>
 </div>
 </details>
 
@@ -1595,18 +1595,18 @@ title: Intrapartum Practice Quiz
 <p class="answer-choice"><strong>A.</strong> Hemorrhage</p>
 <p class="answer-choice"><strong>B.</strong> Infection</p>
 <p class="answer-choice"><strong>C.</strong> Blood clots</p>
-<p class="answer-choice"><strong>D.</strong> Respiratory complications</p>
+<p class="answer-choice"><strong>D.</strong> Reduced risk of infection compared with vaginal birth</p>
 <p class="answer-choice"><strong>E.</strong> Urinary tract injury</p>
 
 <details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
-<p class="quiz-answer"><strong>Answer: A, B, C, D, E</strong></p>
+<p class="quiz-answer"><strong>Answer: A, B, C, E</strong></p>
 <div class="quiz-rationale">
 <p><strong>Rationale:</strong></p>
 <p><strong>A.</strong> Correct. Surgery increases blood-loss risk.</p>
 <p><strong>B.</strong> Correct. Incisional and uterine infection can occur.</p>
 <p><strong>C.</strong> Correct. Immobility and hypercoagulability increase VTE risk.</p>
-<p><strong>D.</strong> Correct. Anesthesia and postoperative pain can impair ventilation.</p>
+<p><strong>D.</strong> Incorrect. Cesarean birth increases infection risk compared with vaginal birth; it does not reduce it.</p>
 <p><strong>E.</strong> Correct. Bladder or ureter injury is possible.</p>
 </div>
 </details>
@@ -1749,18 +1749,18 @@ title: Intrapartum Practice Quiz
 <p>Which findings suggest intrapartum infection?</p>
 
 <p class="answer-choice"><strong>A.</strong> Maternal temperature 100.4°F or higher</p>
-<p class="answer-choice"><strong>B.</strong> Fetal tachycardia</p>
+<p class="answer-choice"><strong>B.</strong> Fetal bradycardia</p>
 <p class="answer-choice"><strong>C.</strong> Foul-smelling amniotic fluid</p>
 <p class="answer-choice"><strong>D.</strong> Cloudy or yellow amniotic fluid</p>
 <p class="answer-choice"><strong>E.</strong> Maternal uterine tenderness</p>
 
 <details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
-<p class="quiz-answer"><strong>Answer: A, B, C, D, E</strong></p>
+<p class="quiz-answer"><strong>Answer: A, C, D, E</strong></p>
 <div class="quiz-rationale">
 <p><strong>Rationale:</strong></p>
 <p><strong>A.</strong> Correct. Fever is a key sign.</p>
-<p><strong>B.</strong> Correct. Fetal tachycardia commonly accompanies maternal infection.</p>
+<p><strong>B.</strong> Incorrect. Intrapartum infection typically causes fetal tachycardia, not bradycardia.</p>
 <p><strong>C.</strong> Correct. Offensive odor suggests infection.</p>
 <p><strong>D.</strong> Correct. Abnormal color and cloudiness are concerning.</p>
 <p><strong>E.</strong> Correct. Uterine tenderness can suggest chorioamnionitis.</p>
@@ -1906,18 +1906,18 @@ title: Intrapartum Practice Quiz
 
 <p class="answer-choice"><strong>A.</strong> Maternal tachycardia</p>
 <p class="answer-choice"><strong>B.</strong> Hyperglycemia</p>
-<p class="answer-choice"><strong>C.</strong> Hypokalemia</p>
+<p class="answer-choice"><strong>C.</strong> Hyperkalemia</p>
 <p class="answer-choice"><strong>D.</strong> Pulmonary edema</p>
 <p class="answer-choice"><strong>E.</strong> Tremors</p>
 
 <details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
-<p class="quiz-answer"><strong>Answer: A, B, C, D, E</strong></p>
+<p class="quiz-answer"><strong>Answer: A, B, D, E</strong></p>
 <div class="quiz-rationale">
 <p><strong>Rationale:</strong></p>
 <p><strong>A.</strong> Correct. Beta-adrenergic stimulation increases heart rate.</p>
 <p><strong>B.</strong> Correct. Blood glucose may rise.</p>
-<p><strong>C.</strong> Correct. Potassium may shift intracellularly.</p>
+<p><strong>C.</strong> Incorrect. Terbutaline shifts potassium intracellularly and causes hypokalemia, not hyperkalemia.</p>
 <p><strong>D.</strong> Correct. Pulmonary edema is a serious risk.</p>
 <p><strong>E.</strong> Correct. Tremors are common with beta agonists.</p>
 </div>
@@ -2019,18 +2019,18 @@ title: Intrapartum Practice Quiz
 <p class="answer-choice"><strong>A.</strong> Chorioamnionitis</p>
 <p class="answer-choice"><strong>B.</strong> Placental abruption</p>
 <p class="answer-choice"><strong>C.</strong> Fetal demise</p>
-<p class="answer-choice"><strong>D.</strong> Severe preeclampsia</p>
+<p class="answer-choice"><strong>D.</strong> Preterm labor at 30 weeks with a reassuring fetal heart rate</p>
 <p class="answer-choice"><strong>E.</strong> Placenta previa with significant bleeding</p>
 
 <details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
-<p class="quiz-answer"><strong>Answer: A, B, C, D, E</strong></p>
+<p class="quiz-answer"><strong>Answer: A, B, C, E</strong></p>
 <div class="quiz-rationale">
 <p><strong>Rationale:</strong></p>
 <p><strong>A.</strong> Correct. Infection is an indication for delivery, not delaying labor.</p>
 <p><strong>B.</strong> Correct. Abruption can threaten maternal and fetal life.</p>
 <p><strong>C.</strong> Correct. There is no fetal benefit to delaying birth.</p>
-<p><strong>D.</strong> Correct. Severe maternal disease may require delivery.</p>
+<p><strong>D.</strong> Incorrect. Preterm labor with a reassuring fetal status is an indication for tocolysis, not a contraindication.</p>
 <p><strong>E.</strong> Correct. Significant bleeding may require urgent delivery.</p>
 </div>
 </details>
@@ -2129,18 +2129,18 @@ title: Intrapartum Practice Quiz
 <p>Which actions are appropriate for a prolapsed umbilical cord?</p>
 
 <p class="answer-choice"><strong>A.</strong> Manually elevate the presenting part</p>
-<p class="answer-choice"><strong>B.</strong> Administer oxygen at 10 L/min by face mask</p>
+<p class="answer-choice"><strong>B.</strong> Withhold oxygen to avoid fetal hyperoxia</p>
 <p class="answer-choice"><strong>C.</strong> Place the client in knee-chest or Trendelenburg position</p>
 <p class="answer-choice"><strong>D.</strong> Prepare for emergency cesarean birth</p>
 <p class="answer-choice"><strong>E.</strong> Keep the exposed cord moist with sterile saline gauze if visible</p>
 
 <details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
-<p class="quiz-answer"><strong>Answer: A, B, C, D, E</strong></p>
+<p class="quiz-answer"><strong>Answer: A, C, D, E</strong></p>
 <div class="quiz-rationale">
 <p><strong>Rationale:</strong></p>
 <p><strong>A.</strong> Correct. This relieves cord compression.</p>
-<p><strong>B.</strong> Correct. Oxygen supports fetal oxygenation.</p>
+<p><strong>B.</strong> Incorrect. Oxygen by face mask is indicated to improve fetal oxygenation and should not be withheld.</p>
 <p><strong>C.</strong> Correct. Gravity reduces pressure on the cord.</p>
 <p><strong>D.</strong> Correct. Immediate birth is usually necessary if the cervix is not fully dilated.</p>
 <p><strong>E.</strong> Correct. A visible cord should be protected from drying and vasospasm.</p>

@@ -370,18 +370,18 @@ title: Postpartum Practice Quiz
 <p class="answer-choice"><strong>B.</strong> Hydramnios</p>
 <p class="answer-choice"><strong>C.</strong> Retained placental fragments</p>
 <p class="answer-choice"><strong>D.</strong> Full bladder</p>
-<p class="answer-choice"><strong>E.</strong> Excessive anesthesia</p>
+<p class="answer-choice"><strong>E.</strong> Breastfeeding</p>
 
 <details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
-<p class="quiz-answer"><strong>Answer: A, B, C, D, E</strong></p>
+<p class="quiz-answer"><strong>Answer: A, B, C, D</strong></p>
 <div class="quiz-rationale">
 <p><strong>Rationale:</strong></p>
 <p><strong>A.</strong> Correct. Overdistention increases atony risk.</p>
 <p><strong>B.</strong> Correct. Excess amniotic fluid overdistends the uterus.</p>
 <p><strong>C.</strong> Correct. Retained tissue prevents effective contraction.</p>
 <p><strong>D.</strong> Correct. Bladder distention displaces the uterus.</p>
-<p><strong>E.</strong> Correct. Excess anesthesia can reduce uterine tone.</p>
+<p><strong>E.</strong> Incorrect. Breastfeeding stimulates oxytocin release and promotes uterine involution rather than interfering with it.</p>
 </div>
 </details>
 
@@ -548,18 +548,18 @@ title: Postpartum Practice Quiz
 <p class="answer-choice"><strong>B.</strong> Edema</p>
 <p class="answer-choice"><strong>C.</strong> Ecchymosis</p>
 <p class="answer-choice"><strong>D.</strong> Drainage</p>
-<p class="answer-choice"><strong>E.</strong> Approximation</p>
+<p class="answer-choice"><strong>E.</strong> Skin temperature</p>
 
 <details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
-<p class="quiz-answer"><strong>Answer: A, B, C, D, E</strong></p>
+<p class="quiz-answer"><strong>Answer: A, B, C, D</strong></p>
 <div class="quiz-rationale">
 <p><strong>Rationale:</strong></p>
 <p><strong>A.</strong> Correct. Redness may indicate inflammation or infection.</p>
 <p><strong>B.</strong> Correct. Edema is assessed.</p>
 <p><strong>C.</strong> Correct. Bruising is evaluated.</p>
 <p><strong>D.</strong> Correct. Drainage may indicate infection or wound problems.</p>
-<p><strong>E.</strong> Correct. Approximation assesses whether wound edges are together.</p>
+<p><strong>E.</strong> Incorrect. REEDA assesses redness, edema, ecchymosis, drainage, and approximation; skin temperature is not one of its components.</p>
 </div>
 </details>
 
@@ -767,18 +767,18 @@ title: Postpartum Practice Quiz
 <p>Which perineal care instructions are correct?</p>
 
 <p class="answer-choice"><strong>A.</strong> Cleanse after voiding or defecation</p>
-<p class="answer-choice"><strong>B.</strong> Apply and remove pads from front to back</p>
+<p class="answer-choice"><strong>B.</strong> Apply and remove pads from back to front</p>
 <p class="answer-choice"><strong>C.</strong> Pat dry from front to back</p>
 <p class="answer-choice"><strong>D.</strong> Wash hands before and after pad changes</p>
 <p class="answer-choice"><strong>E.</strong> Change perineal pads frequently</p>
 
 <details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
-<p class="quiz-answer"><strong>Answer: A, B, C, D, E</strong></p>
+<p class="quiz-answer"><strong>Answer: A, C, D, E</strong></p>
 <div class="quiz-rationale">
 <p><strong>Rationale:</strong></p>
 <p><strong>A.</strong> Correct. Cleansing reduces bacterial contamination.</p>
-<p><strong>B.</strong> Correct. Front-to-back technique prevents rectal organisms from reaching the vagina.</p>
+<p><strong>B.</strong> Incorrect. Pads should be applied and removed front to back; a back-to-front motion can drag rectal bacteria toward the perineum.</p>
 <p><strong>C.</strong> Correct. This reduces contamination and tissue trauma.</p>
 <p><strong>D.</strong> Correct. Hand hygiene is essential.</p>
 <p><strong>E.</strong> Correct. Frequent pad changes help prevent infection.</p>
@@ -925,18 +925,18 @@ title: Postpartum Practice Quiz
 <p class="answer-choice"><strong>A.</strong> Incision and dressing</p>
 <p class="answer-choice"><strong>B.</strong> Fundus and lochia</p>
 <p class="answer-choice"><strong>C.</strong> Respiratory status</p>
-<p class="answer-choice"><strong>D.</strong> Urinary catheter and output</p>
+<p class="answer-choice"><strong>D.</strong> Restricting all oral fluids for 24 hours</p>
 <p class="answer-choice"><strong>E.</strong> Pain and mobility</p>
 
 <details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
-<p class="quiz-answer"><strong>Answer: A, B, C, D, E</strong></p>
+<p class="quiz-answer"><strong>Answer: A, B, C, E</strong></p>
 <div class="quiz-rationale">
 <p><strong>Rationale:</strong></p>
 <p><strong>A.</strong> Correct. The wound must be assessed for drainage, separation, and infection.</p>
 <p><strong>B.</strong> Correct. Hemorrhage can still occur.</p>
 <p><strong>C.</strong> Correct. Anesthesia and immobility increase pulmonary risk.</p>
-<p><strong>D.</strong> Correct. Urinary output reflects renal perfusion and catheter function.</p>
+<p><strong>D.</strong> Incorrect. Fluids are not restricted after cesarean birth; adequate hydration supports recovery.</p>
 <p><strong>E.</strong> Correct. Pain control and safe mobility are essential.</p>
 </div>
 </details>
@@ -1058,18 +1058,18 @@ title: Postpartum Practice Quiz
 
 <p class="answer-choice"><strong>A.</strong> Fever</p>
 <p class="answer-choice"><strong>B.</strong> Foul-smelling lochia</p>
-<p class="answer-choice"><strong>C.</strong> Burning with urination</p>
+<p class="answer-choice"><strong>C.</strong> Mild uterine cramping while breastfeeding</p>
 <p class="answer-choice"><strong>D.</strong> Warm, tender area of one leg</p>
 <p class="answer-choice"><strong>E.</strong> Separation or foul drainage from a cesarean incision</p>
 
 <details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
-<p class="quiz-answer"><strong>Answer: A, B, C, D, E</strong></p>
+<p class="quiz-answer"><strong>Answer: A, B, D, E</strong></p>
 <div class="quiz-rationale">
 <p><strong>Rationale:</strong></p>
 <p><strong>A.</strong> Correct. Fever can indicate infection.</p>
 <p><strong>B.</strong> Correct. Foul lochia suggests endometritis.</p>
-<p><strong>C.</strong> Correct. Dysuria may indicate UTI.</p>
+<p><strong>C.</strong> Incorrect. Mild uterine cramping during breastfeeding (afterpains) is expected and does not require prompt reporting.</p>
 <p><strong>D.</strong> Correct. This may indicate DVT.</p>
 <p><strong>E.</strong> Correct. These findings suggest wound infection or dehiscence.</p>
 </div>
@@ -1459,18 +1459,18 @@ title: Postpartum Practice Quiz
 <p class="answer-choice"><strong>A.</strong> Systolic blood pressure below 90 mm Hg</p>
 <p class="answer-choice"><strong>B.</strong> Heart rate above 110 beats/min</p>
 <p class="answer-choice"><strong>C.</strong> Respiratory rate above 30/min</p>
-<p class="answer-choice"><strong>D.</strong> Pale, cold, clammy skin</p>
+<p class="answer-choice"><strong>D.</strong> Warm, flushed, dry skin</p>
 <p class="answer-choice"><strong>E.</strong> Anxiety or confusion</p>
 
 <details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
-<p class="quiz-answer"><strong>Answer: A, B, C, D, E</strong></p>
+<p class="quiz-answer"><strong>Answer: A, B, C, E</strong></p>
 <div class="quiz-rationale">
 <p><strong>Rationale:</strong></p>
 <p><strong>A.</strong> Correct. Hypotension is a late and serious sign.</p>
 <p><strong>B.</strong> Correct. Tachycardia reflects compensation.</p>
 <p><strong>C.</strong> Correct. Tachypnea occurs with poor perfusion.</p>
-<p><strong>D.</strong> Correct. Peripheral vasoconstriction produces cool clammy skin.</p>
+<p><strong>D.</strong> Incorrect. Hypovolemic shock causes pale, cool, clammy skin from vasoconstriction, not warm, flushed, dry skin.</p>
 <p><strong>E.</strong> Correct. Cerebral hypoperfusion can cause mental-status changes.</p>
 </div>
 </details>
@@ -1634,7 +1634,7 @@ title: Postpartum Practice Quiz
 
 <p>Which measures help prevent postpartum thromboembolism?</p>
 
-<p class="answer-choice"><strong>A.</strong> Early ambulation</p>
+<p class="answer-choice"><strong>A.</strong> Prolonged bed rest to conserve energy</p>
 <p class="answer-choice"><strong>B.</strong> Avoiding leg crossing</p>
 <p class="answer-choice"><strong>C.</strong> Sequential compression devices when indicated</p>
 <p class="answer-choice"><strong>D.</strong> Adequate hydration</p>
@@ -1642,10 +1642,10 @@ title: Postpartum Practice Quiz
 
 <details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
-<p class="quiz-answer"><strong>Answer: A, B, C, D, E</strong></p>
+<p class="quiz-answer"><strong>Answer: B, C, D, E</strong></p>
 <div class="quiz-rationale">
 <p><strong>Rationale:</strong></p>
-<p><strong>A.</strong> Correct. Ambulation reduces venous stasis.</p>
+<p><strong>A.</strong> Incorrect. Prolonged bed rest increases venous stasis and clot risk; early ambulation is recommended.</p>
 <p><strong>B.</strong> Correct. Leg crossing can impair venous return.</p>
 <p><strong>C.</strong> Correct. SCDs promote circulation.</p>
 <p><strong>D.</strong> Correct. Dehydration increases blood viscosity.</p>
@@ -1836,18 +1836,18 @@ title: Postpartum Practice Quiz
 
 <p class="answer-choice"><strong>A.</strong> Correct latch and breastfeeding technique</p>
 <p class="answer-choice"><strong>B.</strong> Breaking suction before removing the infant</p>
-<p class="answer-choice"><strong>C.</strong> Air drying nipples</p>
+<p class="answer-choice"><strong>C.</strong> Applying tight breast binding between feedings</p>
 <p class="answer-choice"><strong>D.</strong> Handwashing</p>
 <p class="answer-choice"><strong>E.</strong> Treating cracked nipples promptly</p>
 
 <details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
-<p class="quiz-answer"><strong>Answer: A, B, C, D, E</strong></p>
+<p class="quiz-answer"><strong>Answer: A, B, D, E</strong></p>
 <div class="quiz-rationale">
 <p><strong>Rationale:</strong></p>
 <p><strong>A.</strong> Correct. Proper technique prevents trauma and milk stasis.</p>
 <p><strong>B.</strong> Correct. Breaking suction avoids nipple injury.</p>
-<p><strong>C.</strong> Correct. Air drying helps maintain tissue integrity.</p>
+<p><strong>C.</strong> Incorrect. Tight breast binding promotes milk stasis, which can contribute to mastitis.</p>
 <p><strong>D.</strong> Correct. Hand hygiene reduces bacterial transmission.</p>
 <p><strong>E.</strong> Correct. Cracks provide an entry point for organisms.</p>
 </div>
@@ -1971,18 +1971,18 @@ title: Postpartum Practice Quiz
 <p class="answer-choice"><strong>A.</strong> It is given to the mother, not the newborn</p>
 <p class="answer-choice"><strong>B.</strong> It helps prevent maternal Rh sensitization</p>
 <p class="answer-choice"><strong>C.</strong> It is indicated only if the mother is unsensitized</p>
-<p class="answer-choice"><strong>D.</strong> It may be given during pregnancy and postpartum</p>
+<p class="answer-choice"><strong>D.</strong> It provides lifelong immunity after a single dose</p>
 <p class="answer-choice"><strong>E.</strong> Postpartum need depends on the newborn’s Rh status</p>
 
 <details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
-<p class="quiz-answer"><strong>Answer: A, B, C, D, E</strong></p>
+<p class="quiz-answer"><strong>Answer: A, B, C, E</strong></p>
 <div class="quiz-rationale">
 <p><strong>Rationale:</strong></p>
 <p><strong>A.</strong> Correct. The medication is administered to the mother.</p>
 <p><strong>B.</strong> Correct. It prevents maternal antibody formation.</p>
 <p><strong>C.</strong> Correct. It is ineffective after sensitization has occurred.</p>
-<p><strong>D.</strong> Correct. It is commonly given around 28 weeks and again postpartum if indicated.</p>
+<p><strong>D.</strong> Incorrect. Rh immune globulin provides temporary passive protection for each at-risk exposure; it does not confer lifelong immunity.</p>
 <p><strong>E.</strong> Correct. An Rh-positive newborn creates the postpartum indication.</p>
 </div>
 </details>
@@ -2103,18 +2103,18 @@ title: Postpartum Practice Quiz
 <p>Which findings are abnormal postpartum findings requiring follow-up?</p>
 
 <p class="answer-choice"><strong>A.</strong> Fundus boggy with heavy lochia</p>
-<p class="answer-choice"><strong>B.</strong> Foul-smelling lochia</p>
+<p class="answer-choice"><strong>B.</strong> Lochia progressing from red to pink to white</p>
 <p class="answer-choice"><strong>C.</strong> Unilateral calf warmth and tenderness</p>
 <p class="answer-choice"><strong>D.</strong> Incision separation with drainage</p>
 <p class="answer-choice"><strong>E.</strong> Persistent sadness with inability to function</p>
 
 <details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
-<p class="quiz-answer"><strong>Answer: A, B, C, D, E</strong></p>
+<p class="quiz-answer"><strong>Answer: A, C, D, E</strong></p>
 <div class="quiz-rationale">
 <p><strong>Rationale:</strong></p>
 <p><strong>A.</strong> Correct. This suggests uterine atony and hemorrhage.</p>
-<p><strong>B.</strong> Correct. This suggests infection.</p>
+<p><strong>B.</strong> Incorrect. Lochia normally progresses from rubra to serosa to alba; this expected change does not require follow-up.</p>
 <p><strong>C.</strong> Correct. This suggests DVT.</p>
 <p><strong>D.</strong> Correct. This suggests wound dehiscence or infection.</p>
 <p><strong>E.</strong> Correct. This suggests postpartum depression.</p>

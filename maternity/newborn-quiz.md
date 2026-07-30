@@ -103,18 +103,18 @@ title: Newborn Practice Quiz
 <p class="answer-choice"><strong>A.</strong> Heart rate</p>
 <p class="answer-choice"><strong>B.</strong> Respiratory effort</p>
 <p class="answer-choice"><strong>C.</strong> Muscle tone</p>
-<p class="answer-choice"><strong>D.</strong> Reflex response</p>
+<p class="answer-choice"><strong>D.</strong> Blood glucose level</p>
 <p class="answer-choice"><strong>E.</strong> Skin color</p>
 
 <details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
-<p class="quiz-answer"><strong>Answer: A, B, C, D, E</strong></p>
+<p class="quiz-answer"><strong>Answer: A, B, C, E</strong></p>
 <div class="quiz-rationale">
 <p><strong>Rationale:</strong></p>
 <p><strong>A.</strong> Correct. Pulse is assessed.</p>
 <p><strong>B.</strong> Correct. Respiratory effort is assessed.</p>
 <p><strong>C.</strong> Correct. Activity or muscle tone is assessed.</p>
-<p><strong>D.</strong> Correct. Grimace or reflex irritability is assessed.</p>
+<p><strong>D.</strong> Incorrect. The five Apgar parameters are heart rate, respiratory effort, muscle tone, reflex irritability, and color; blood glucose is not included.</p>
 <p><strong>E.</strong> Correct. Appearance or color is assessed.</p>
 </div>
 </details>
@@ -301,18 +301,18 @@ title: Newborn Practice Quiz
 <p>Which consequences can occur with neonatal cold stress?</p>
 
 <p class="answer-choice"><strong>A.</strong> Hypoglycemia</p>
-<p class="answer-choice"><strong>B.</strong> Increased oxygen consumption</p>
+<p class="answer-choice"><strong>B.</strong> Decreased oxygen consumption</p>
 <p class="answer-choice"><strong>C.</strong> Metabolic acidosis</p>
 <p class="answer-choice"><strong>D.</strong> Respiratory distress</p>
 <p class="answer-choice"><strong>E.</strong> Increased bilirubin production</p>
 
 <details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
-<p class="quiz-answer"><strong>Answer: A, B, C, D, E</strong></p>
+<p class="quiz-answer"><strong>Answer: A, C, D, E</strong></p>
 <div class="quiz-rationale">
 <p><strong>Rationale:</strong></p>
 <p><strong>A.</strong> Correct. Glucose is rapidly consumed to generate heat.</p>
-<p><strong>B.</strong> Correct. Oxygen demand rises with nonshivering thermogenesis.</p>
+<p><strong>B.</strong> Incorrect. Cold stress increases oxygen consumption through nonshivering thermogenesis; it does not decrease it.</p>
 <p><strong>C.</strong> Correct. Anaerobic metabolism can cause acidosis.</p>
 <p><strong>D.</strong> Correct. Increased oxygen need can worsen respiratory status.</p>
 <p><strong>E.</strong> Correct. Cold stress can contribute to increased fatty acid release and impaired bilirubin processing.</p>
@@ -526,18 +526,18 @@ title: Newborn Practice Quiz
 <p class="answer-choice"><strong>B.</strong> Retractions</p>
 <p class="answer-choice"><strong>C.</strong> Grunting</p>
 <p class="answer-choice"><strong>D.</strong> Tachypnea</p>
-<p class="answer-choice"><strong>E.</strong> Seesaw respirations</p>
+<p class="answer-choice"><strong>E.</strong> Acrocyanosis of the hands and feet</p>
 
 <details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
-<p class="quiz-answer"><strong>Answer: A, B, C, D, E</strong></p>
+<p class="quiz-answer"><strong>Answer: A, B, C, D</strong></p>
 <div class="quiz-rationale">
 <p><strong>Rationale:</strong></p>
 <p><strong>A.</strong> Correct. Flaring reduces airway resistance.</p>
 <p><strong>B.</strong> Correct. Retractions indicate increased work of breathing.</p>
 <p><strong>C.</strong> Correct. Grunting helps maintain end-expiratory pressure.</p>
 <p><strong>D.</strong> Correct. Respiratory rate above 60/min is abnormal.</p>
-<p><strong>E.</strong> Correct. Paradoxical chest and abdominal movement is concerning.</p>
+<p><strong>E.</strong> Incorrect. Acrocyanosis of the hands and feet is a common, expected newborn finding, not a sign of respiratory distress.</p>
 </div>
 </details>
 
@@ -660,18 +660,18 @@ title: Newborn Practice Quiz
 <p class="answer-choice"><strong>B.</strong> Poor muscle tone</p>
 <p class="answer-choice"><strong>C.</strong> Hypothermia</p>
 <p class="answer-choice"><strong>D.</strong> High-pitched cry</p>
-<p class="answer-choice"><strong>E.</strong> Sweating</p>
+<p class="answer-choice"><strong>E.</strong> Strong, lusty cry</p>
 
 <details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
-<p class="quiz-answer"><strong>Answer: A, B, C, D, E</strong></p>
+<p class="quiz-answer"><strong>Answer: A, B, C, D</strong></p>
 <div class="quiz-rationale">
 <p><strong>Rationale:</strong></p>
 <p><strong>A.</strong> Correct. Tremors or jitteriness are common signs.</p>
 <p><strong>B.</strong> Correct. Hypotonia can occur.</p>
 <p><strong>C.</strong> Correct. Low glucose impairs heat production.</p>
 <p><strong>D.</strong> Correct. A high-pitched cry can occur.</p>
-<p><strong>E.</strong> Correct. Sweating may be present.</p>
+<p><strong>E.</strong> Incorrect. A strong, lusty cry is reassuring; a weak or high-pitched cry, not a strong one, may accompany hypoglycemia.</p>
 </div>
 </details>
 
@@ -924,18 +924,18 @@ title: Newborn Practice Quiz
 
 <p class="answer-choice"><strong>A.</strong> Persistent central cyanosis</p>
 <p class="answer-choice"><strong>B.</strong> Asymmetric chest movement</p>
-<p class="answer-choice"><strong>C.</strong> Respiratory rate 72/min</p>
+<p class="answer-choice"><strong>C.</strong> Respiratory rate 45/min</p>
 <p class="answer-choice"><strong>D.</strong> Severe retractions</p>
 <p class="answer-choice"><strong>E.</strong> Seesaw respirations</p>
 
 <details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
-<p class="quiz-answer"><strong>Answer: A, B, C, D, E</strong></p>
+<p class="quiz-answer"><strong>Answer: A, B, D, E</strong></p>
 <div class="quiz-rationale">
 <p><strong>Rationale:</strong></p>
 <p><strong>A.</strong> Correct. Central cyanosis indicates hypoxemia.</p>
 <p><strong>B.</strong> Correct. Asymmetry can indicate thoracic or respiratory abnormality.</p>
-<p><strong>C.</strong> Correct. This is tachypnea.</p>
+<p><strong>C.</strong> Incorrect. A respiratory rate of 45/min is within the normal newborn range of 30 to 60/min.</p>
 <p><strong>D.</strong> Correct. Retractions indicate increased work of breathing.</p>
 <p><strong>E.</strong> Correct. Paradoxical breathing is abnormal.</p>
 </div>
@@ -1323,18 +1323,18 @@ title: Newborn Practice Quiz
 <p class="answer-choice"><strong>A.</strong> Milia</p>
 <p class="answer-choice"><strong>B.</strong> Erythema toxicum</p>
 <p class="answer-choice"><strong>C.</strong> Nevus simplex</p>
-<p class="answer-choice"><strong>D.</strong> Mongolian spots</p>
+<p class="answer-choice"><strong>D.</strong> Scattered petechiae over the trunk</p>
 <p class="answer-choice"><strong>E.</strong> Vernix caseosa</p>
 
 <details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
-<p class="quiz-answer"><strong>Answer: A, B, C, D, E</strong></p>
+<p class="quiz-answer"><strong>Answer: A, B, C, E</strong></p>
 <div class="quiz-rationale">
 <p><strong>Rationale:</strong></p>
 <p><strong>A.</strong> Correct. Milia resolve spontaneously.</p>
 <p><strong>B.</strong> Correct. Erythema toxicum resolves without treatment.</p>
 <p><strong>C.</strong> Correct. Nevus simplex often fades by early childhood.</p>
-<p><strong>D.</strong> Correct. Mongolian spots usually fade over years.</p>
+<p><strong>D.</strong> Incorrect. Scattered petechiae are not a benign finding and may indicate infection or a bleeding problem.</p>
 <p><strong>E.</strong> Correct. Vernix is a normal protective substance.</p>
 </div>
 </details>
@@ -1500,18 +1500,18 @@ title: Newborn Practice Quiz
 
 <p class="answer-choice"><strong>A.</strong> Verify consent</p>
 <p class="answer-choice"><strong>B.</strong> Check identification bands</p>
-<p class="answer-choice"><strong>C.</strong> Set up sterile equipment</p>
+<p class="answer-choice"><strong>C.</strong> Apply alcohol to the circumcision site after the procedure</p>
 <p class="answer-choice"><strong>D.</strong> Observe for bleeding afterward</p>
 <p class="answer-choice"><strong>E.</strong> Document the first void</p>
 
 <details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
-<p class="quiz-answer"><strong>Answer: A, B, C, D, E</strong></p>
+<p class="quiz-answer"><strong>Answer: A, B, D, E</strong></p>
 <div class="quiz-rationale">
 <p><strong>Rationale:</strong></p>
 <p><strong>A.</strong> Correct. Consent must be verified.</p>
 <p><strong>B.</strong> Correct. Correct infant identification is essential.</p>
-<p><strong>C.</strong> Correct. Sterile preparation is required.</p>
+<p><strong>C.</strong> Incorrect. Alcohol is not applied to a circumcision site; petroleum gauze or gentle care is used depending on the method.</p>
 <p><strong>D.</strong> Correct. Hemorrhage is a key complication.</p>
 <p><strong>E.</strong> Correct. Voiding confirms urinary patency.</p>
 </div>
@@ -1655,18 +1655,18 @@ title: Newborn Practice Quiz
 <p>Which instructions should the nurse include for newborn safety?</p>
 
 <p class="answer-choice"><strong>A.</strong> Never shake the infant</p>
-<p class="answer-choice"><strong>B.</strong> Keep crib free of loose blankets and stuffed animals</p>
+<p class="answer-choice"><strong>B.</strong> Place the infant prone to sleep</p>
 <p class="answer-choice"><strong>C.</strong> Use a firm mattress</p>
 <p class="answer-choice"><strong>D.</strong> Keep smoke detectors functioning</p>
 <p class="answer-choice"><strong>E.</strong> Avoid tobacco smoke exposure</p>
 
 <details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
-<p class="quiz-answer"><strong>Answer: A, B, C, D, E</strong></p>
+<p class="quiz-answer"><strong>Answer: A, C, D, E</strong></p>
 <div class="quiz-rationale">
 <p><strong>Rationale:</strong></p>
 <p><strong>A.</strong> Correct. Shaking can cause fatal brain injury.</p>
-<p><strong>B.</strong> Correct. Loose items increase suffocation risk.</p>
+<p><strong>B.</strong> Incorrect. Infants should be placed supine (on the back) to sleep; prone positioning increases SIDS risk.</p>
 <p><strong>C.</strong> Correct. A firm surface supports safe sleep.</p>
 <p><strong>D.</strong> Correct. Smoke detectors reduce fire-related injury.</p>
 <p><strong>E.</strong> Correct. Smoke exposure increases respiratory illness and SIDS risk.</p>
@@ -1876,7 +1876,7 @@ title: Newborn Practice Quiz
 
 <p>Which are benefits of breastfeeding?</p>
 
-<p class="answer-choice"><strong>A.</strong> Easier digestion</p>
+<p class="answer-choice"><strong>A.</strong> Provides complete vitamin D without the need for supplementation</p>
 <p class="answer-choice"><strong>B.</strong> Protection against infection</p>
 <p class="answer-choice"><strong>C.</strong> Reduced respiratory and GI infections</p>
 <p class="answer-choice"><strong>D.</strong> Reduced risk of some ear infections</p>
@@ -1884,10 +1884,10 @@ title: Newborn Practice Quiz
 
 <details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
-<p class="quiz-answer"><strong>Answer: A, B, C, D, E</strong></p>
+<p class="quiz-answer"><strong>Answer: B, C, D, E</strong></p>
 <div class="quiz-rationale">
 <p><strong>Rationale:</strong></p>
-<p><strong>A.</strong> Correct. Human milk is easily digested.</p>
+<p><strong>A.</strong> Incorrect. Breast milk is low in vitamin D, and breastfed infants generally need a vitamin D supplement.</p>
 <p><strong>B.</strong> Correct. It contains immune factors.</p>
 <p><strong>C.</strong> Correct. Breastfeeding lowers infection incidence.</p>
 <p><strong>D.</strong> Correct. Otitis media risk is reduced.</p>
@@ -2035,18 +2035,18 @@ title: Newborn Practice Quiz
 <p class="answer-choice"><strong>A.</strong> No audible swallowing</p>
 <p class="answer-choice"><strong>B.</strong> Lower lip turned inward</p>
 <p class="answer-choice"><strong>C.</strong> Clicking sounds</p>
-<p class="answer-choice"><strong>D.</strong> Dimpling cheeks</p>
+<p class="answer-choice"><strong>D.</strong> Rhythmic sucking with audible swallowing</p>
 <p class="answer-choice"><strong>E.</strong> Falling asleep after less than 5 minutes</p>
 
 <details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
-<p class="quiz-answer"><strong>Answer: A, B, C, D, E</strong></p>
+<p class="quiz-answer"><strong>Answer: A, B, C, E</strong></p>
 <div class="quiz-rationale">
 <p><strong>Rationale:</strong></p>
 <p><strong>A.</strong> Correct. This suggests poor milk transfer.</p>
 <p><strong>B.</strong> Correct. The lip should be flanged outward.</p>
 <p><strong>C.</strong> Correct. Clicking suggests loss of suction.</p>
-<p><strong>D.</strong> Correct. Dimpling indicates ineffective latch.</p>
+<p><strong>D.</strong> Incorrect. Rhythmic sucking with audible swallowing indicates effective milk transfer, not a feeding difficulty.</p>
 <p><strong>E.</strong> Correct. Very brief sleepy feeds may be inadequate.</p>
 </div>
 </details>
@@ -2189,20 +2189,20 @@ title: Newborn Practice Quiz
 <p>Which findings require immediate newborn follow-up?</p>
 
 <p class="answer-choice"><strong>A.</strong> Central cyanosis</p>
-<p class="answer-choice"><strong>B.</strong> Respiratory rate 68/min</p>
+<p class="answer-choice"><strong>B.</strong> Acrocyanosis of the hands and feet</p>
 <p class="answer-choice"><strong>C.</strong> Failure to pass meconium by 48 hours</p>
-<p class="answer-choice"><strong>D.</strong> Jaundice in the first 24 hours</p>
+<p class="answer-choice"><strong>D.</strong> Jaundice first appearing on day 3</p>
 <p class="answer-choice"><strong>E.</strong> No urine by 24 hours</p>
 
 <details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
-<p class="quiz-answer"><strong>Answer: A, B, C, D, E</strong></p>
+<p class="quiz-answer"><strong>Answer: A, C, E</strong></p>
 <div class="quiz-rationale">
 <p><strong>Rationale:</strong></p>
 <p><strong>A.</strong> Correct. This indicates hypoxemia.</p>
-<p><strong>B.</strong> Correct. This is tachypnea.</p>
+<p><strong>B.</strong> Incorrect. Acrocyanosis is a common, expected newborn finding, unlike central cyanosis.</p>
 <p><strong>C.</strong> Correct. This may indicate obstruction.</p>
-<p><strong>D.</strong> Correct. This is pathologic.</p>
+<p><strong>D.</strong> Incorrect. Jaundice appearing on day 2 to 3 is usually physiologic; jaundice within the first 24 hours is the concerning finding.</p>
 <p><strong>E.</strong> Correct. This requires evaluation.</p>
 </div>
 </details>
