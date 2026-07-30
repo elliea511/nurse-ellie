@@ -601,9 +601,9 @@
     });
     fsWrap.appendChild(choicesWrap);
 
-    // Rationale panel placeholder
+    // Rationale panel placeholder — appended below the button row (further down)
+    // so revealing the answer does not shift the Previous/Next buttons.
     var ratPanel = el('div', 'quiz-rationale-panel');
-    fsWrap.appendChild(ratPanel);
 
     // Buttons
     var prevBtn   = el('button', 'quiz-prev-btn', 'Previous');
@@ -670,6 +670,7 @@
     if (mode === 'STUDY') btnRow.appendChild(submitBtn);
     btnRow.appendChild(nextBtn);
     fsWrap.appendChild(btnRow);
+    fsWrap.appendChild(ratPanel);
   }
 
   // ── RESULTS ───────────────────────────────────────────────────────────────
