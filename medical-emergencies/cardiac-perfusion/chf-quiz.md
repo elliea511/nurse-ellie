@@ -22,12 +22,15 @@ A nurse is caring for a client with heart failure who reports increased shortnes
 <p class="answer-choice"><strong>C.</strong> Administer the prescribed diuretic</p>
 <p class="answer-choice"><strong>D.</strong> Teach the client to restrict sodium intake</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: A</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> The client is showing signs of fluid backing up into the lungs. The first nursing action is to improve breathing by placing the client in high-Fowler's position. Daily weights, diuretics, and sodium restriction are appropriate for heart failure, but airway and breathing come first.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>The client is showing signs of fluid backing up into the lungs. The first nursing action is to improve breathing by placing the client in high-Fowler's position. Daily weights, diuretics, and sodium restriction are appropriate for heart failure, but airway and breathing come first.</p>
+</div>
 
 </details>
 
@@ -42,12 +45,15 @@ A nurse is providing discharge teaching to a client who has heart failure. Which
 <p class="answer-choice"><strong>C.</strong> "I should increase my sodium intake if my legs start swelling."</p>
 <p class="answer-choice"><strong>D.</strong> "I will stop taking my diuretic once my breathing improves."</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: B</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> A sudden weight gain can mean the client is retaining fluid, which can worsen heart failure. Clients should weigh themselves daily and report sudden weight gain, increased swelling, or worsening shortness of breath. Sodium should be limited, and prescribed diuretics should not be stopped without provider instruction.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>A sudden weight gain can mean the client is retaining fluid, which can worsen heart failure. Clients should weigh themselves daily and report sudden weight gain, increased swelling, or worsening shortness of breath. Sodium should be limited, and prescribed diuretics should not be stopped without provider instruction.</p>
+</div>
 
 </details>
 
@@ -62,12 +68,15 @@ A nurse is reviewing assessment findings for four clients. Which client should t
 <p class="answer-choice"><strong>C.</strong> A client with dyspnea on exertion, crackles in the lungs, dependent edema, and recent weight gain</p>
 <p class="answer-choice"><strong>D.</strong> A client with wheezing, prolonged expiration, and a barrel-shaped chest</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: C</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> Heart failure causes fluid overload and poor pumping ability. Common findings include shortness of breath, crackles from fluid in the lungs, dependent edema, and rapid weight gain from fluid retention. The other options point more toward pericarditis, DVT, or COPD.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Heart failure causes fluid overload and poor pumping ability. Common findings include shortness of breath, crackles from fluid in the lungs, dependent edema, and rapid weight gain from fluid retention. The other options point more toward pericarditis, DVT, or COPD.</p>
+</div>
 
 </details>
 
@@ -82,12 +91,15 @@ A nurse is preparing to administer digoxin to a client who has heart failure. Wh
 <p class="answer-choice"><strong>C.</strong> Potassium level of 4.1 mEq/L</p>
 <p class="answer-choice"><strong>D.</strong> Apical pulse of 54/min</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: D</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> Digoxin slows the heart rate and can worsen bradycardia. The nurse should check the apical pulse for one full minute before administration and hold the medication if the pulse is too low, usually less than 60/min in adults. The other findings are not priority concerns before giving digoxin.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Digoxin slows the heart rate and can worsen bradycardia. The nurse should check the apical pulse for one full minute before administration and hold the medication if the pulse is too low, usually less than 60/min in adults. The other findings are not priority concerns before giving digoxin.</p>
+</div>
 
 </details>
 
@@ -102,12 +114,15 @@ A nurse is reviewing laboratory results for a client who takes digoxin and furos
 <p class="answer-choice"><strong>C.</strong> Potassium level of 3.1 mEq/L</p>
 <p class="answer-choice"><strong>D.</strong> BNP level of 620 pg/mL</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: C</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> A low potassium level places the client at increased risk for digoxin toxicity, especially when the client is also taking a loop diuretic such as furosemide. The sodium, hemoglobin, and BNP levels are abnormal and require follow-up, but hypokalemia is the priority because it can trigger dangerous digoxin-related dysrhythmias.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>A low potassium level places the client at increased risk for digoxin toxicity, especially when the client is also taking a loop diuretic such as furosemide. The sodium, hemoglobin, and BNP levels are abnormal and require follow-up, but hypokalemia is the priority because it can trigger dangerous digoxin-related dysrhythmias.</p>
+</div>
 
 </details>
 
@@ -122,12 +137,15 @@ A nurse is caring for a client who takes digoxin for heart failure. The client r
 <p class="answer-choice"><strong>C.</strong> Administer the next dose with food to decrease nausea</p>
 <p class="answer-choice"><strong>D.</strong> Teach the client that visual changes are expected with heart failure</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: B</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> Visual disturbances such as yellow/blurred vision, nausea, vomiting, confusion, bradycardia, or dysrhythmias can indicate digoxin toxicity. The nurse should hold the medication and assess the apical pulse before giving any more digoxin. A toxic digoxin level is concerning, especially if it is greater than 2.5 ng/mL.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Visual disturbances such as yellow/blurred vision, nausea, vomiting, confusion, bradycardia, or dysrhythmias can indicate digoxin toxicity. The nurse should hold the medication and assess the apical pulse before giving any more digoxin. A toxic digoxin level is concerning, especially if it is greater than 2.5 ng/mL.</p>
+</div>
 
 </details>
 
@@ -142,12 +160,15 @@ A nurse is teaching a client who has been prescribed a loading dose of digoxin. 
 <p class="answer-choice"><strong>C.</strong> "A loading dose means I can stop taking digoxin once my symptoms improve."</p>
 <p class="answer-choice"><strong>D.</strong> "A loading dose helps the medication reach a therapeutic level in my body more quickly."</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: D</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> A loading dose is a larger or repeated initial dose given to help the medication reach a therapeutic level faster. It is not the same as taking a larger daily dose forever. Digoxin can slow the heart rate, but the purpose of a loading dose is to reach the therapeutic range more quickly, not simply to rapidly treat a high heart rate. Digoxin should not be stopped without provider instruction.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>A loading dose is a larger or repeated initial dose given to help the medication reach a therapeutic level faster. It is not the same as taking a larger daily dose forever. Digoxin can slow the heart rate, but the purpose of a loading dose is to reach the therapeutic range more quickly, not simply to rapidly treat a high heart rate. Digoxin should not be stopped without provider instruction.</p>
+</div>
 
 </details>
 
@@ -162,12 +183,15 @@ A nurse is providing teaching to a client who has heart failure and is prescribe
 <p class="answer-choice"><strong>C.</strong> "I will report muscle weakness or irregular heartbeats to my provider."</p>
 <p class="answer-choice"><strong>D.</strong> "I will stop taking this medication once the swelling in my ankles goes away."</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: C</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> Furosemide is a loop diuretic that helps remove excess fluid, but it can also cause potassium loss. Low potassium can cause muscle weakness, cramping, and dysrhythmias, so these findings should be reported. The client should usually take furosemide earlier in the day to avoid nighttime urination, should not stop it without instruction, and may need potassium-rich foods or potassium replacement depending on the provider's plan.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Furosemide is a loop diuretic that helps remove excess fluid, but it can also cause potassium loss. Low potassium can cause muscle weakness, cramping, and dysrhythmias, so these findings should be reported. The client should usually take furosemide earlier in the day to avoid nighttime urination, should not stop it without instruction, and may need potassium-rich foods or potassium replacement depending on the provider's plan.</p>
+</div>
 
 </details>
 
@@ -182,12 +206,15 @@ A nurse is evaluating the effectiveness of furosemide for a client who has heart
 <p class="answer-choice"><strong>C.</strong> Heart rate decreased from 110/min to 98/min</p>
 <p class="answer-choice"><strong>D.</strong> Digoxin level decreased from 2.4 ng/mL to 1.8 ng/mL</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: B</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> Furosemide is a loop diuretic that removes excess fluid. It is effective when fluid overload improves, shown by increased urine output, decreased crackles, decreased edema, improved breathing, or weight loss. Potassium correction, heart rate improvement, and digoxin level changes are important, but they do not directly show that furosemide removed excess fluid.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Furosemide is a loop diuretic that removes excess fluid. It is effective when fluid overload improves, shown by increased urine output, decreased crackles, decreased edema, improved breathing, or weight loss. Potassium correction, heart rate improvement, and digoxin level changes are important, but they do not directly show that furosemide removed excess fluid.</p>
+</div>
 
 </details>
 
@@ -202,12 +229,15 @@ A nurse is providing teaching to a client who has heart failure and is prescribe
 <p class="answer-choice"><strong>C.</strong> "I should eat extra bananas and oranges each day to keep my potassium level up."</p>
 <p class="answer-choice"><strong>D.</strong> "I should take this medication as prescribed even if my swelling improves."</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: C</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> Spironolactone is a potassium-sparing diuretic, so it can increase potassium levels. The client should avoid adding extra high-potassium foods or salt substitutes unless approved by the provider. Muscle weakness or irregular heartbeat can be signs of potassium imbalance and should be reported. The medication should not be stopped just because swelling improves.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Spironolactone is a potassium-sparing diuretic, so it can increase potassium levels. The client should avoid adding extra high-potassium foods or salt substitutes unless approved by the provider. Muscle weakness or irregular heartbeat can be signs of potassium imbalance and should be reported. The medication should not be stopped just because swelling improves.</p>
+</div>
 
 </details>
 
@@ -222,12 +252,15 @@ A nurse is caring for a client who is taking furosemide for heart failure. The c
 <p class="answer-choice"><strong>C.</strong> Encourage the client to change positions slowly and assist with ambulation</p>
 <p class="answer-choice"><strong>D.</strong> Place the client flat in bed and restrict all oral fluids</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: C</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> Furosemide can cause fluid loss, which can lead to orthostatic hypotension and dizziness when standing. The priority nursing action is safety: help the client change positions slowly and assist with ambulation to prevent falls. The provider may need to be notified if symptoms continue or worsen, but the immediate action is to protect the client from injury.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Furosemide can cause fluid loss, which can lead to orthostatic hypotension and dizziness when standing. The priority nursing action is safety: help the client change positions slowly and assist with ambulation to prevent falls. The provider may need to be notified if symptoms continue or worsen, but the immediate action is to protect the client from injury.</p>
+</div>
 
 </details>
 
@@ -242,12 +275,15 @@ A nurse is providing dietary teaching to a client who has been prescribed potass
 <p class="answer-choice"><strong>C.</strong> Grilled chicken with white rice, green beans, and lemonade</p>
 <p class="answer-choice"><strong>D.</strong> Oatmeal topped with dried apricots, melon slices, and milk</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: D</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> Melon and apricots are high-potassium foods. A client who needs potassium replacement should be able to identify foods that help increase potassium intake. The other meals may be acceptable foods, but they do not include the high-potassium choices listed in the notes.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Melon and apricots are high-potassium foods. A client who needs potassium replacement should be able to identify foods that help increase potassium intake. The other meals may be acceptable foods, but they do not include the high-potassium choices listed in the notes.</p>
+</div>
 
 </details>
 
@@ -262,12 +298,15 @@ A nurse is providing teaching to a client who has hypertension and receives a ne
 <p class="answer-choice"><strong>C.</strong> "I will take this medication only when my blood pressure is elevated."</p>
 <p class="answer-choice"><strong>D.</strong> "I will take this medication instead of my daily blood pressure medication."</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: C</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> Clonidine may be used as a PRN medication for elevated blood pressure, while many other antihypertensive medications are taken on a scheduled basis. The client should not take clonidine just because of a headache, should not automatically take it every morning unless prescribed that way, and should not use it to replace scheduled blood pressure medications.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Clonidine may be used as a PRN medication for elevated blood pressure, while many other antihypertensive medications are taken on a scheduled basis. The client should not take clonidine just because of a headache, should not automatically take it every morning unless prescribed that way, and should not use it to replace scheduled blood pressure medications.</p>
+</div>
 
 </details>
 
@@ -282,12 +321,15 @@ A nurse is teaching a client who has heart failure about a BNP laboratory test. 
 <p class="answer-choice"><strong>C.</strong> "BNP rises when my heart rhythm becomes too slow."</p>
 <p class="answer-choice"><strong>D.</strong> "BNP rises when the arteries around my heart become blocked."</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: B</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> BNP rises when the ventricles are stretched from increased fluid volume and pressure, which is commonly seen with heart failure. Heart muscle damage from lack of oxygen is more connected with troponin. A slow rhythm or blocked coronary arteries can affect the heart, but they are not what BNP directly measures.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>BNP rises when the ventricles are stretched from increased fluid volume and pressure, which is commonly seen with heart failure. Heart muscle damage from lack of oxygen is more connected with troponin. A slow rhythm or blocked coronary arteries can affect the heart, but they are not what BNP directly measures.</p>
+</div>
 
 </details>
 
@@ -302,12 +344,15 @@ A nurse is providing teaching to a client who has heart failure and receives a n
 <p class="answer-choice"><strong>C.</strong> "I will avoid using salt substitutes unless my provider says it is okay."</p>
 <p class="answer-choice"><strong>D.</strong> "I should take potassium supplements daily to prevent this medication from lowering my potassium."</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: D</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> Captopril is an ACE inhibitor. ACE inhibitors can increase potassium, so the client should not take potassium supplements or use salt substitutes unless prescribed. The client should change positions slowly because hypotension can occur and should report swelling of the lips, face, or tongue because this can indicate angioedema.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Captopril is an ACE inhibitor. ACE inhibitors can increase potassium, so the client should not take potassium supplements or use salt substitutes unless prescribed. The client should change positions slowly because hypotension can occur and should report swelling of the lips, face, or tongue because this can indicate angioedema.</p>
+</div>
 
 </details>
 
@@ -322,12 +367,15 @@ A nurse is providing teaching to a client who has hypertension and receives a ne
 <p class="answer-choice"><strong>C.</strong> "I will use my rescue inhaler more often if this medication makes me wheeze."</p>
 <p class="answer-choice"><strong>D.</strong> "I will not stop taking this medication suddenly."</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: C</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> Propranolol is a nonselective beta blocker, so it can cause bronchoconstriction and worsen wheezing or breathing problems, especially in clients with asthma or COPD. Wheezing should be reported, not managed by simply using the rescue inhaler more often. The client should check the pulse, change positions slowly, and avoid stopping the medication suddenly because rebound hypertension or chest pain can occur.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Propranolol is a nonselective beta blocker, so it can cause bronchoconstriction and worsen wheezing or breathing problems, especially in clients with asthma or COPD. Wheezing should be reported, not managed by simply using the rescue inhaler more often. The client should check the pulse, change positions slowly, and avoid stopping the medication suddenly because rebound hypertension or chest pain can occur.</p>
+</div>
 
 </details>
 
@@ -342,12 +390,15 @@ A nurse is teaching a client who is scheduled for a MUGA scan. Which statement b
 <p class="answer-choice"><strong>C.</strong> "This test will show if my heart rhythm is too fast or too slow."</p>
 <p class="answer-choice"><strong>D.</strong> "This test will measure the pressure inside my pulmonary artery."</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: B</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> A MUGA scan evaluates how well the ventricles are pumping, especially the ejection fraction. It does not directly show blocked coronary arteries, diagnose heart rhythm problems, or measure pulmonary artery pressure.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>A MUGA scan evaluates how well the ventricles are pumping, especially the ejection fraction. It does not directly show blocked coronary arteries, diagnose heart rhythm problems, or measure pulmonary artery pressure.</p>
+</div>
 
 </details>
 
@@ -362,12 +413,15 @@ A nurse is teaching a client who is scheduled for an echocardiogram. Which state
 <p class="answer-choice"><strong>C.</strong> "This test records my heart rhythm for 24 hours while I do my normal activities."</p>
 <p class="answer-choice"><strong>D.</strong> "This test uses a radioactive tracer to measure how much blood my heart pumps."</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: A</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> An echocardiogram uses ultrasound waves to create images of the heart. It can evaluate heart chambers, valves, blood flow, and pumping function. A cardiac catheterization checks for blocked coronary arteries, a Holter monitor records heart rhythm over time, and a MUGA scan uses a radioactive tracer to measure pumping function.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>An echocardiogram uses ultrasound waves to create images of the heart. It can evaluate heart chambers, valves, blood flow, and pumping function. A cardiac catheterization checks for blocked coronary arteries, a Holter monitor records heart rhythm over time, and a MUGA scan uses a radioactive tracer to measure pumping function.</p>
+</div>
 
 </details>
 
@@ -382,12 +436,15 @@ A nurse is assessing a client who has heart failure. Which finding should the nu
 <p class="answer-choice"><strong>C.</strong> Dependent edema and weight gain</p>
 <p class="answer-choice"><strong>D.</strong> Enlarged liver and swelling in the lower legs</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: B</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> Left-sided heart failure causes blood and fluid to back up into the lungs, leading to crackles, dyspnea, orthopnea, cough, and pulmonary congestion. Right-sided heart failure causes fluid to back up into the body, leading to jugular vein distention, peripheral edema, weight gain, ascites, and liver enlargement.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Left-sided heart failure causes blood and fluid to back up into the lungs, leading to crackles, dyspnea, orthopnea, cough, and pulmonary congestion. Right-sided heart failure causes fluid to back up into the body, leading to jugular vein distention, peripheral edema, weight gain, ascites, and liver enlargement.</p>
+</div>
 
 </details>
 
@@ -402,12 +459,15 @@ A nurse is caring for a client who has heart failure. Which assessment finding s
 <p class="answer-choice"><strong>C.</strong> Jugular vein distention, ascites, and dependent edema</p>
 <p class="answer-choice"><strong>D.</strong> Cough, pulmonary congestion, and low oxygen saturation</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: C</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> Right-sided heart failure causes blood to back up into the body, leading to jugular vein distention, ascites, dependent edema, weight gain, and enlarged liver. Left-sided heart failure causes fluid to back up into the lungs, leading to crackles, dyspnea, orthopnea, pulmonary congestion, and pink frothy sputum.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Right-sided heart failure causes blood to back up into the body, leading to jugular vein distention, ascites, dependent edema, weight gain, and enlarged liver. Left-sided heart failure causes fluid to back up into the lungs, leading to crackles, dyspnea, orthopnea, pulmonary congestion, and pink frothy sputum.</p>
+</div>
 
 </details>
 
@@ -423,12 +483,15 @@ A nurse is planning care for a client who has worsening heart failure with short
 <p class="answer-choice"><strong>D.</strong> Monitor daily weight and intake and output</p>
 <p class="answer-choice"><strong>E.</strong> Administer oxygen as prescribed for worsening shortness of breath</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: A, B, D, E</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> Worsening heart failure causes fluid overload and pulmonary congestion. High-Fowler's position and oxygen help breathing, loop diuretics remove excess fluid, and daily weight with intake and output tracks fluid status. Increasing oral fluids may sound helpful for kidney perfusion, but it can worsen fluid overload in heart failure.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Worsening heart failure causes fluid overload and pulmonary congestion. High-Fowler's position and oxygen help breathing, loop diuretics remove excess fluid, and daily weight with intake and output tracks fluid status. Increasing oral fluids may sound helpful for kidney perfusion, but it can worsen fluid overload in heart failure.</p>
+</div>
 
 </details>
 
@@ -443,12 +506,15 @@ A nurse is providing teaching to a client who has heart failure and is taking sp
 <p class="answer-choice"><strong>C.</strong> "I will drink as much water as I can while taking this medication."</p>
 <p class="answer-choice"><strong>D.</strong> "I will watch for increased breast tissue growth while taking this medication."</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: D</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> Spironolactone is a potassium-sparing diuretic that is derived from steroids, so it can cause endocrine-related side effects such as breast tenderness or increased breast tissue growth. The client should also avoid extra potassium from high-potassium foods or salt substitutes unless instructed, because spironolactone can increase potassium levels.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Spironolactone is a potassium-sparing diuretic that is derived from steroids, so it can cause endocrine-related side effects such as breast tenderness or increased breast tissue growth. The client should also avoid extra potassium from high-potassium foods or salt substitutes unless instructed, because spironolactone can increase potassium levels.</p>
+</div>
 
 </details>
 
@@ -463,12 +529,15 @@ A nurse is reviewing documentation for a client who has heart failure. The provi
 <p class="answer-choice"><strong>C.</strong> The amount of blood remaining in the ventricle at the end of diastole</p>
 <p class="answer-choice"><strong>D.</strong> The heart rate multiplied by the stroke volume</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: D</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> Cardiac output is the amount of blood pumped by the heart each minute. It is calculated as heart rate multiplied by stroke volume. Ejection fraction is the percentage of blood ejected with each contraction, stroke volume is the amount pumped with each beat, and end-diastolic volume is the amount of blood in the ventricle at the end of filling.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Cardiac output is the amount of blood pumped by the heart each minute. It is calculated as heart rate multiplied by stroke volume. Ejection fraction is the percentage of blood ejected with each contraction, stroke volume is the amount pumped with each beat, and end-diastolic volume is the amount of blood in the ventricle at the end of filling.</p>
+</div>
 
 </details>
 
@@ -483,12 +552,15 @@ A nurse is monitoring a client who has heart failure related to mitral stenosis.
 <p class="answer-choice"><strong>C.</strong> Decreased left atrial pressure</p>
 <p class="answer-choice"><strong>D.</strong> Decreased pulmonary artery pressure</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: B</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> Mitral stenosis narrows the valve between the left atrium and left ventricle. Blood has trouble moving forward into the left ventricle, so pressure backs up into the left atrium and then into the lungs. This can cause pulmonary congestion and shortness of breath, especially with exertion. Cardiac output would usually decrease, not increase.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Mitral stenosis narrows the valve between the left atrium and left ventricle. Blood has trouble moving forward into the left ventricle, so pressure backs up into the left atrium and then into the lungs. This can cause pulmonary congestion and shortness of breath, especially with exertion. Cardiac output would usually decrease, not increase.</p>
+</div>
 
 </details>
 
@@ -503,12 +575,15 @@ A nurse is teaching an older adult client about risk factors for heart failure. 
 <p class="answer-choice"><strong>C.</strong> "My age does not increase my risk of heart failure."</p>
 <p class="answer-choice"><strong>D.</strong> "My coronary artery disease is a risk factor for heart failure."</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: D</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> Coronary artery disease is a major risk factor for heart failure because decreased blood flow to the heart can weaken the heart muscle over time. Diabetes and older age can also increase risk, so those statements are incorrect. Asthma affects the lungs, but it is not the strongest heart failure risk factor listed in this question.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Coronary artery disease is a major risk factor for heart failure because decreased blood flow to the heart can weaken the heart muscle over time. Diabetes and older age can also increase risk, so those statements are incorrect. Asthma affects the lungs, but it is not the strongest heart failure risk factor listed in this question.</p>
+</div>
 
 </details>
 
@@ -523,12 +598,15 @@ A nurse is reviewing the health history of four clients. Which client should the
 <p class="answer-choice"><strong>C.</strong> A client who has controlled hyperlipidemia and no history of chest pain</p>
 <p class="answer-choice"><strong>D.</strong> A client who has a heart murmur but denies shortness of breath or fatigue</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: B</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> Long-term hypertension makes the heart pump against increased resistance, which can weaken the heart over time. A myocardial infarction can also damage the heart muscle and reduce pumping ability. The other options are cardiac-related findings, but they do not show the strongest risk for heart failure compared with chronic hypertension plus a history of MI.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Long-term hypertension makes the heart pump against increased resistance, which can weaken the heart over time. A myocardial infarction can also damage the heart muscle and reduce pumping ability. The other options are cardiac-related findings, but they do not show the strongest risk for heart failure compared with chronic hypertension plus a history of MI.</p>
+</div>
 
 </details>
 
@@ -543,12 +621,15 @@ A nurse is caring for a client who has hypertension and receives chlorothiazide.
 <p class="answer-choice"><strong>C.</strong> Muscle weakness</p>
 <p class="answer-choice"><strong>D.</strong> Hypoglycemia</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: C</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> Chlorothiazide is a thiazide diuretic that can cause potassium loss. Hypokalemia can cause muscle weakness, fatigue, cramps, and dysrhythmias. Thrombophlebitis and hyperactive reflexes are not expected adverse effects, and thiazide diuretics are more associated with hyperglycemia than hypoglycemia.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Chlorothiazide is a thiazide diuretic that can cause potassium loss. Hypokalemia can cause muscle weakness, fatigue, cramps, and dysrhythmias. Thrombophlebitis and hyperactive reflexes are not expected adverse effects, and thiazide diuretics are more associated with hyperglycemia than hypoglycemia.</p>
+</div>
 
 </details>
 
@@ -563,12 +644,15 @@ A nurse is assessing a client who has late-stage heart failure and is experienci
 <p class="answer-choice"><strong>C.</strong> Client report of a nocturnal cough</p>
 <p class="answer-choice"><strong>D.</strong> BNP level of 100 pg/mL</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: A</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> A rapid weight gain of 1 kg (2.2 lb) in 1 day indicates fluid retention and worsening heart failure. Mild +1 edema and nocturnal cough can occur with heart failure, but they are less specific for late-stage fluid volume overload. A BNP of 100 pg/mL is only at the threshold for concern, while rapid daily weight gain is a clearer sign that fluid is building up.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>A rapid weight gain of 1 kg (2.2 lb) in 1 day indicates fluid retention and worsening heart failure. Mild +1 edema and nocturnal cough can occur with heart failure, but they are less specific for late-stage fluid volume overload. A BNP of 100 pg/mL is only at the threshold for concern, while rapid daily weight gain is a clearer sign that fluid is building up.</p>
+</div>
 
 </details>
 
@@ -583,12 +667,15 @@ A nurse is providing teaching to a client who has heart failure and is taking or
 <p class="answer-choice"><strong>C.</strong> Ringing in the ears</p>
 <p class="answer-choice"><strong>D.</strong> Frontal headache</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: C</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> Furosemide is a loop diuretic that can cause ototoxicity, especially with higher doses, rapid IV administration, or kidney impairment. Ringing in the ears, hearing changes, or tinnitus should be reported. Nasal congestion, tremors, and frontal headache are not the priority adverse effects associated with furosemide.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Furosemide is a loop diuretic that can cause ototoxicity, especially with higher doses, rapid IV administration, or kidney impairment. Ringing in the ears, hearing changes, or tinnitus should be reported. Nasal congestion, tremors, and frontal headache are not the priority adverse effects associated with furosemide.</p>
+</div>
 
 </details>
 
@@ -603,12 +690,15 @@ A nurse is providing discharge teaching to a client who has heart failure and pr
 <p class="answer-choice"><strong>C.</strong> "I will skip a dose of my digoxin if my resting heart rate is below 72 beats per minute."</p>
 <p class="answer-choice"><strong>D.</strong> "I will eat fruits and vegetables that have a high potassium content every day."</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: D</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> Furosemide can cause potassium loss, and low potassium increases the risk for digoxin toxicity. Eating potassium-rich foods can help reduce the risk of hypokalemia if this is part of the client's teaching plan. Blurred vision is not expected with digoxin and can indicate toxicity. Clients usually check their pulse before taking digoxin and hold it if the pulse is below the prescribed limit, commonly less than 60/min, not 72/min. Daily weights are usually more practical and important than measuring urine output at home.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Furosemide can cause potassium loss, and low potassium increases the risk for digoxin toxicity. Eating potassium-rich foods can help reduce the risk of hypokalemia if this is part of the client's teaching plan. Blurred vision is not expected with digoxin and can indicate toxicity. Clients usually check their pulse before taking digoxin and hold it if the pulse is below the prescribed limit, commonly less than 60/min, not 72/min. Daily weights are usually more practical and important than measuring urine output at home.</p>
+</div>
 
 </details>
 
@@ -623,12 +713,15 @@ A nurse is assessing a client who has heart failure. Which finding should the nu
 <p class="answer-choice"><strong>C.</strong> Chest discomfort relieved by rest</p>
 <p class="answer-choice"><strong>D.</strong> Pink, frothy sputum with severe shortness of breath</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: D</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> Pink, frothy sputum is a classic sign of pulmonary edema, which occurs when fluid backs up into the lungs. This is an emergency finding, especially with severe shortness of breath, crackles, anxiety, low oxygen saturation, or cyanosis. Dependent edema and abdominal bloating are more consistent with systemic fluid backup, while chest discomfort relieved by rest is more consistent with stable angina.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Pink, frothy sputum is a classic sign of pulmonary edema, which occurs when fluid backs up into the lungs. This is an emergency finding, especially with severe shortness of breath, crackles, anxiety, low oxygen saturation, or cyanosis. Dependent edema and abdominal bloating are more consistent with systemic fluid backup, while chest discomfort relieved by rest is more consistent with stable angina.</p>
+</div>
 
 </details>
 
@@ -643,11 +736,14 @@ A nurse is caring for a client who has heart failure and suddenly develops sever
 <p class="answer-choice"><strong>C.</strong> Prepare to administer a prescribed loop diuretic</p>
 <p class="answer-choice"><strong>D.</strong> Auscultate bowel sounds before giving medications</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: B</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> Pink frothy sputum, severe shortness of breath, crackles, and anxiety are signs of pulmonary edema. The nurse should first improve breathing by placing the client in high-Fowler's position. Diuretics and further assessment are important, but airway and breathing come first.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Pink frothy sputum, severe shortness of breath, crackles, and anxiety are signs of pulmonary edema. The nurse should first improve breathing by placing the client in high-Fowler's position. Diuretics and further assessment are important, but airway and breathing come first.</p>
+</div>
 
 </details>

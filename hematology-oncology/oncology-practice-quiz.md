@@ -28,12 +28,15 @@ A nurse is reinforcing teaching with a client who has superior vena cava syndrom
 
 <p class="answer-choice"><strong>D.</strong> “This condition is treated with antibiotics until the swelling improves.”</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: A</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> Superior vena cava syndrome is usually caused by obstruction of venous return from the head, neck, and upper body, often from a tumor. Treatment focuses on relieving symptoms and treating the underlying cause, such as cancer therapy, corticosteroids, radiation, chemotherapy, or stent placement as prescribed. B is incorrect because decreased swelling does not mean the underlying cause is cured. C is incorrect because superior vena cava syndrome affects venous return from the upper body, not the lower legs. D is incorrect because antibiotics do not treat the obstruction unless there is a separate infection.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Superior vena cava syndrome is usually caused by obstruction of venous return from the head, neck, and upper body, often from a tumor. Treatment focuses on relieving symptoms and treating the underlying cause, such as cancer therapy, corticosteroids, radiation, chemotherapy, or stent placement as prescribed. B is incorrect because decreased swelling does not mean the underlying cause is cured. C is incorrect because superior vena cava syndrome affects venous return from the upper body, not the lower legs. D is incorrect because antibiotics do not treat the obstruction unless there is a separate infection.</p>
+</div>
 
 </details>
 
@@ -53,12 +56,15 @@ A nurse is caring for a client receiving chemotherapy who has thrombocytopenia.
 
 <p class="answer-choice"><strong>D.</strong> Give injections without applying pressure to prevent bruising.</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: A</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> Thrombocytopenia increases the risk for bleeding. The nurse should avoid unnecessary invasive procedures, use the smallest-gauge needle possible when injections are required, apply gentle pressure afterward, and monitor for bleeding or hematoma formation. B is incorrect because intramuscular injections should be avoided when possible due to bleeding risk. C is incorrect because firm massage can worsen bleeding or bruising. D is incorrect because gentle pressure should be applied after needle removal.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Thrombocytopenia increases the risk for bleeding. The nurse should avoid unnecessary invasive procedures, use the smallest-gauge needle possible when injections are required, apply gentle pressure afterward, and monitor for bleeding or hematoma formation. B is incorrect because intramuscular injections should be avoided when possible due to bleeding risk. C is incorrect because firm massage can worsen bleeding or bruising. D is incorrect because gentle pressure should be applied after needle removal.</p>
+</div>
 
 </details>
 
@@ -78,12 +84,15 @@ A nurse is reinforcing teaching with a client scheduled for teletherapy for canc
 
 <p class="answer-choice"><strong>D.</strong> “I will need the radiation source placed inside my body near the tumor.”</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: C</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> Teletherapy is external beam radiation. Accurate positioning is important because the radiation beam must be directed at the same treatment area each session. The client may need markings, molds, or positioning devices and should remain still during treatment. A is incorrect because the client does not remain in position between treatments. B is incorrect because the client is not radioactive after external radiation. D describes brachytherapy, not teletherapy.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Teletherapy is external beam radiation. Accurate positioning is important because the radiation beam must be directed at the same treatment area each session. The client may need markings, molds, or positioning devices and should remain still during treatment. A is incorrect because the client does not remain in position between treatments. B is incorrect because the client is not radioactive after external radiation. D describes brachytherapy, not teletherapy.</p>
+</div>
 
 </details>
 
@@ -103,12 +112,15 @@ A nurse is caring for a client receiving chemotherapy who has neutropenia. The c
 
 <p class="answer-choice"><strong>D.</strong> Place the client on contact precautions until cultures result.</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: A</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> In a neutropenic client, even a low-grade fever with tachycardia and low blood pressure can indicate early sepsis. The nurse should begin sepsis interventions promptly, including obtaining prescribed cultures before antibiotics when this does not delay antibiotic administration. B may reduce fever but does not address possible sepsis. C delays treatment for an unstable trend. D is not the priority unless a specific transmissible infection is suspected.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>In a neutropenic client, even a low-grade fever with tachycardia and low blood pressure can indicate early sepsis. The nurse should begin sepsis interventions promptly, including obtaining prescribed cultures before antibiotics when this does not delay antibiotic administration. B may reduce fever but does not address possible sepsis. C delays treatment for an unstable trend. D is not the priority unless a specific transmissible infection is suspected.</p>
+</div>
 
 </details>
 
@@ -128,12 +140,15 @@ A nurse is caring for a child in a pediatric clinic. The parent says, “My chil
 
 <p class="answer-choice"><strong>D.</strong> “Cancer-related lymph nodes are always painful and disappear after antibiotics are started.”</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: A</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> Enlarged lymph nodes in children are often caused by infection, especially near the area of infection, such as cervical lymph nodes with an ear or throat infection. The nurse should provide reassurance while teaching the parent to report lymph nodes that are persistent, enlarging, hard, fixed, painless, or associated with fever, night sweats, unexplained weight loss, fatigue, or bruising. B is incorrect because infection is a common cause of lymphadenopathy in children. C is incorrect because lymph nodes do not need investigation after only 24 hours of enlargement. D is incorrect because cancer-related lymph nodes are often painless and do not resolve simply because antibiotics are started.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Enlarged lymph nodes in children are often caused by infection, especially near the area of infection, such as cervical lymph nodes with an ear or throat infection. The nurse should provide reassurance while teaching the parent to report lymph nodes that are persistent, enlarging, hard, fixed, painless, or associated with fever, night sweats, unexplained weight loss, fatigue, or bruising. B is incorrect because infection is a common cause of lymphadenopathy in children. C is incorrect because lymph nodes do not need investigation after only 24 hours of enlargement. D is incorrect because cancer-related lymph nodes are often painless and do not resolve simply because antibiotics are started.</p>
+</div>
 
 </details>
 
@@ -153,12 +168,15 @@ A nurse is reviewing medications for several clients.
 
 <p class="answer-choice"><strong>D.</strong> Allopurinol</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: C</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> Tamoxifen is a selective estrogen receptor modulator used for estrogen receptor-positive breast cancer treatment and risk reduction. The nurse should recognize it as a hormone-related cancer medication. Estrogen can stimulate growth of some hormone-sensitive breast cancers. Filgrastim stimulates neutrophil production. Allopurinol helps reduce uric acid levels and may be used with tumor lysis risk.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Tamoxifen is a selective estrogen receptor modulator used for estrogen receptor-positive breast cancer treatment and risk reduction. The nurse should recognize it as a hormone-related cancer medication. Estrogen can stimulate growth of some hormone-sensitive breast cancers. Filgrastim stimulates neutrophil production. Allopurinol helps reduce uric acid levels and may be used with tumor lysis risk.</p>
+</div>
 
 </details>
 
@@ -178,12 +196,15 @@ A nurse is reinforcing teaching with the parent of a child who had a ventriculop
 
 <p class="answer-choice"><strong>D.</strong> “The shunt removes fluid from the abdomen so pressure does not move up to the brain.”</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: A</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> A ventriculoperitoneal shunt drains excess cerebrospinal fluid from the ventricles of the brain through tubing under the skin into the peritoneal cavity. The abdomen absorbs the fluid, which helps reduce increased intracranial pressure. B is incorrect because the shunt does not filter cancer cells. C is incorrect because the shunt is a drainage device, not a medication-delivery device. D is incorrect because the fluid drains from the brain to the abdomen, not from the abdomen to the brain.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>A ventriculoperitoneal shunt drains excess cerebrospinal fluid from the ventricles of the brain through tubing under the skin into the peritoneal cavity. The abdomen absorbs the fluid, which helps reduce increased intracranial pressure. B is incorrect because the shunt does not filter cancer cells. C is incorrect because the shunt is a drainage device, not a medication-delivery device. D is incorrect because the fluid drains from the brain to the abdomen, not from the abdomen to the brain.</p>
+</div>
 
 </details>
 
@@ -203,12 +224,15 @@ A nurse is teaching a community group about cancer prevention.
 
 <p class="answer-choice"><strong>D.</strong> Completing chemotherapy after surgical tumor removal</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: A</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> Primary prevention focuses on preventing disease before it occurs. Receiving the HPV vaccine helps prevent HPV infection and reduces the risk for HPV-related cancers. B and C are secondary prevention because they involve screening or diagnostic follow-up. D is tertiary prevention because it involves treatment after cancer has been diagnosed.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Primary prevention focuses on preventing disease before it occurs. Receiving the HPV vaccine helps prevent HPV infection and reduces the risk for HPV-related cancers. B and C are secondary prevention because they involve screening or diagnostic follow-up. D is tertiary prevention because it involves treatment after cancer has been diagnosed.</p>
+</div>
 
 </details>
 
@@ -228,12 +252,15 @@ A nurse is reviewing prescriptions for a client receiving chemotherapy who has t
 
 <p class="answer-choice"><strong>D.</strong> Assess skin and mucous membranes for bleeding.</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: B</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> A client with thrombocytopenia is at increased risk for bleeding, so the nurse should avoid unnecessary invasive procedures and needle sticks. Frequent platelet checks should be questioned unless there is a clear clinical need. A, C, and D are appropriate because the nurse should monitor for occult bleeding, apply prolonged pressure after needle removal, and assess for bleeding in the skin and mucous membranes.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>A client with thrombocytopenia is at increased risk for bleeding, so the nurse should avoid unnecessary invasive procedures and needle sticks. Frequent platelet checks should be questioned unless there is a clear clinical need. A, C, and D are appropriate because the nurse should monitor for occult bleeding, apply prolonged pressure after needle removal, and assess for bleeding in the skin and mucous membranes.</p>
+</div>
 
 </details>
 
@@ -255,12 +282,15 @@ A nurse is caring for a child with leukemia who has thrombocytopenia.
 
 <p class="answer-choice"><strong>E.</strong> Use firm brushing to remove dried blood from the gums.</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: A, B, C, D</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> A child with leukemia and thrombocytopenia is at risk for oral bleeding, ulceration, and infection. The nurse should inspect the mouth daily, use gentle oral care, provide prescribed mouth rinses such as diluted hydrogen peroxide and saline, and apply lip balm to prevent cracking. E is incorrect because firm brushing can injure the mucosa and increase bleeding risk.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>A child with leukemia and thrombocytopenia is at risk for oral bleeding, ulceration, and infection. The nurse should inspect the mouth daily, use gentle oral care, provide prescribed mouth rinses such as diluted hydrogen peroxide and saline, and apply lip balm to prevent cracking. E is incorrect because firm brushing can injure the mucosa and increase bleeding risk.</p>
+</div>
 
 </details>
 
@@ -280,12 +310,15 @@ A nurse is reviewing prescriptions for a client receiving chemotherapy who has a
 
 <p class="answer-choice"><strong>D.</strong> Encourage increased intake of iron-rich foods.</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: C</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> A platelet count of 18,000/mm³ with active bleeding signs indicates severe thrombocytopenia. The nurse should anticipate a platelet transfusion and implement bleeding precautions. A is incorrect because filgrastim increases neutrophils, not platelets. B is incorrect because airborne precautions are not used for thrombocytopenia. D may help anemia risk but will not treat severe thrombocytopenia with bleeding.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>A platelet count of 18,000/mm³ with active bleeding signs indicates severe thrombocytopenia. The nurse should anticipate a platelet transfusion and implement bleeding precautions. A is incorrect because filgrastim increases neutrophils, not platelets. B is incorrect because airborne precautions are not used for thrombocytopenia. D may help anemia risk but will not treat severe thrombocytopenia with bleeding.</p>
+</div>
 
 </details>
 
@@ -307,12 +340,15 @@ A nurse is caring for a client receiving chemotherapy who has bone marrow suppre
 
 <p class="answer-choice"><strong>E.</strong> Seizure precautions</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: A, C, D</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> Bone marrow suppression can cause thrombocytopenia, anemia, and neutropenia. The nurse should anticipate bleeding precautions for low platelets, fall precautions for weakness or dizziness related to anemia, and neutropenic precautions for infection risk. B is incorrect because contact precautions are used for certain transmissible infections, not bone marrow suppression alone. E is incorrect because seizure precautions are not routinely indicated unless the client has a seizure risk.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Bone marrow suppression can cause thrombocytopenia, anemia, and neutropenia. The nurse should anticipate bleeding precautions for low platelets, fall precautions for weakness or dizziness related to anemia, and neutropenic precautions for infection risk. B is incorrect because contact precautions are used for certain transmissible infections, not bone marrow suppression alone. E is incorrect because seizure precautions are not routinely indicated unless the client has a seizure risk.</p>
+</div>
 
 </details>
 
@@ -332,12 +368,15 @@ A nurse is assessing a child whose parent reports several recent headaches.
 
 <p class="answer-choice"><strong>D.</strong> Dizziness after standing quickly from a sitting position</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: A</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> Morning nausea and vomiting with headaches is concerning for increased intracranial pressure and can be a hallmark finding of a brain tumor in a child. The nurse should report this finding for further evaluation. B, C, and D may occur for less urgent reasons and are not as concerning as morning vomiting associated with headaches.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Morning nausea and vomiting with headaches is concerning for increased intracranial pressure and can be a hallmark finding of a brain tumor in a child. The nurse should report this finding for further evaluation. B, C, and D may occur for less urgent reasons and are not as concerning as morning vomiting associated with headaches.</p>
+</div>
 
 </details>
 
@@ -357,12 +396,15 @@ A nurse is reviewing laboratory results for a client with leukemia who recently 
 
 <p class="answer-choice"><strong>D.</strong> Albumin 3.2 g/dL, total protein 5.8 g/dL, and glucose 142 mg/dL</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: B</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> Tumor lysis syndrome occurs when many cancer cells break down quickly after treatment, releasing intracellular contents into the bloodstream. Expected laboratory changes include hyperkalemia, hyperphosphatemia, hyperuricemia, hypocalcemia, and increased creatinine. A does not show the classic TLS pattern. C reflects bone marrow suppression. D shows nutrition/metabolic findings but does not best indicate tumor lysis syndrome.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Tumor lysis syndrome occurs when many cancer cells break down quickly after treatment, releasing intracellular contents into the bloodstream. Expected laboratory changes include hyperkalemia, hyperphosphatemia, hyperuricemia, hypocalcemia, and increased creatinine. A does not show the classic TLS pattern. C reflects bone marrow suppression. D shows nutrition/metabolic findings but does not best indicate tumor lysis syndrome.</p>
+</div>
 
 </details>
 
@@ -382,12 +424,15 @@ A nurse is reinforcing teaching with a client who is receiving chemotherapy and 
 
 <p class="answer-choice"><strong>D.</strong> “Chemotherapy-related hair loss is usually permanent after treatment.”</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: C</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> Chemotherapy-related alopecia can affect scalp hair and body hair. The client should use gentle hair care, avoid harsh treatments, and protect the scalp from sun exposure and temperature extremes. A is incorrect because scrubbing can irritate the scalp. B is incorrect because hair loss is a side effect of some chemotherapy medications, but it does not prove the chemotherapy is working. D is incorrect because chemotherapy-related hair loss is usually temporary, although regrowth can vary.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Chemotherapy-related alopecia can affect scalp hair and body hair. The client should use gentle hair care, avoid harsh treatments, and protect the scalp from sun exposure and temperature extremes. A is incorrect because scrubbing can irritate the scalp. B is incorrect because hair loss is a side effect of some chemotherapy medications, but it does not prove the chemotherapy is working. D is incorrect because chemotherapy-related hair loss is usually temporary, although regrowth can vary.</p>
+</div>
 
 </details>
 
@@ -407,12 +452,15 @@ A nurse is reviewing biologic response modifiers with a student nurse.
 
 <p class="answer-choice"><strong>D.</strong> “Interleukins protect the skin from radiation, while interferons prevent chemotherapy alopecia.”</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: A</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> Interleukins and interferons are biologic response modifiers that affect the immune response. Interleukins help stimulate immune cell growth and activity. Interferons help interfere with tumor cell growth and may enhance immune system response against cancer cells. B is incorrect because platelet and red blood cell production are related to hematopoietic growth factors. C is incorrect because antiemetics help nausea and medications such as allopurinol or rasburicase are used for tumor lysis risk. D is incorrect because these medications do not prevent radiation skin injury or chemotherapy-related alopecia.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Interleukins and interferons are biologic response modifiers that affect the immune response. Interleukins help stimulate immune cell growth and activity. Interferons help interfere with tumor cell growth and may enhance immune system response against cancer cells. B is incorrect because platelet and red blood cell production are related to hematopoietic growth factors. C is incorrect because antiemetics help nausea and medications such as allopurinol or rasburicase are used for tumor lysis risk. D is incorrect because these medications do not prevent radiation skin injury or chemotherapy-related alopecia.</p>
+</div>
 
 </details>
 
@@ -432,12 +480,15 @@ A nurse is reviewing prescriptions for a client with tumor lysis syndrome.
 
 <p class="answer-choice"><strong>D.</strong> Administer spironolactone as prescribed.</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: D</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> Spironolactone is potassium-sparing and should be questioned because tumor lysis syndrome places the client at risk for hyperkalemia. The nurse should question medications that may further increase potassium. A may be prescribed to help lower potassium. B may be prescribed to reduce uric acid formation. C may be prescribed in some settings to manage acidosis or alkalinize urine, but the nurse should monitor electrolytes and follow the prescription and facility policy.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Spironolactone is potassium-sparing and should be questioned because tumor lysis syndrome places the client at risk for hyperkalemia. The nurse should question medications that may further increase potassium. A may be prescribed to help lower potassium. B may be prescribed to reduce uric acid formation. C may be prescribed in some settings to manage acidosis or alkalinize urine, but the nurse should monitor electrolytes and follow the prescription and facility policy.</p>
+</div>
 
 </details>
 
@@ -457,12 +508,15 @@ A nurse is reinforcing teaching with a client scheduled for a wide local excisio
 
 <p class="answer-choice"><strong>D.</strong> “The provider will inject medication into the tumor to shrink it before surgery.”</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: A</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> A wide local excision removes the melanoma along with a surrounding margin of normal-appearing tissue to help reduce the risk of remaining cancer cells at the site. B describes radiation therapy. C is incorrect because wide local excision removes more than only the visible lesion. D describes medication treatment, not wide local excision.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>A wide local excision removes the melanoma along with a surrounding margin of normal-appearing tissue to help reduce the risk of remaining cancer cells at the site. B describes radiation therapy. C is incorrect because wide local excision removes more than only the visible lesion. D describes medication treatment, not wide local excision.</p>
+</div>
 
 </details>
 
@@ -482,12 +536,15 @@ A nurse is caring for a client with cancer-related hypercalcemia. The client rep
 
 <p class="answer-choice"><strong>D.</strong> Monitor the client’s cardiac rhythm.</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: C</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> All of these interventions may be appropriate for a client with hypercalcemia. However, hydration is the priority because IV fluids help correct dehydration and promote calcium excretion through the kidneys. A can help reduce further calcium loss from bones when tolerated. B may help constipation related to hypercalcemia. D is important because hypercalcemia can cause dysrhythmias, but hydration is the priority intervention.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>All of these interventions may be appropriate for a client with hypercalcemia. However, hydration is the priority because IV fluids help correct dehydration and promote calcium excretion through the kidneys. A can help reduce further calcium loss from bones when tolerated. B may help constipation related to hypercalcemia. D is important because hypercalcemia can cause dysrhythmias, but hydration is the priority intervention.</p>
+</div>
 
 </details>
 
@@ -507,12 +564,15 @@ A nurse is caring for a client receiving chemotherapy who has neutropenia.
 
 <p class="answer-choice"><strong>D.</strong> Petechiae, bruising on the arms, and bleeding after brushing teeth</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: A</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> In a neutropenic client, infection may present subtly. A low-grade temperature with tachycardia and new weakness is concerning for early sepsis and requires prompt assessment and intervention. B suggests mucositis, which can increase infection risk but is not the strongest sepsis finding listed. C is more consistent with anemia. D is more consistent with thrombocytopenia and bleeding risk.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>In a neutropenic client, infection may present subtly. A low-grade temperature with tachycardia and new weakness is concerning for early sepsis and requires prompt assessment and intervention. B suggests mucositis, which can increase infection risk but is not the strongest sepsis finding listed. C is more consistent with anemia. D is more consistent with thrombocytopenia and bleeding risk.</p>
+</div>
 
 </details>
 
@@ -531,12 +591,15 @@ A nurse is reinforcing teaching with a client who is receiving chemotherapy and 
 
 <p class="answer-choice"><strong>D.</strong> “I will limit fluids after treatment so I do not trigger vomiting.”</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: B</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> Chemotherapy-related nausea is often easier to prevent than to treat once severe. The client should take prescribed antiemetics on schedule, especially if nausea occurred with previous treatments. A is incorrect because waiting can make nausea harder to control. C is incorrect because large meals may worsen nausea; small, frequent meals are usually better tolerated. D is incorrect because hydration is important unless restricted.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Chemotherapy-related nausea is often easier to prevent than to treat once severe. The client should take prescribed antiemetics on schedule, especially if nausea occurred with previous treatments. A is incorrect because waiting can make nausea harder to control. C is incorrect because large meals may worsen nausea; small, frequent meals are usually better tolerated. D is incorrect because hydration is important unless restricted.</p>
+</div>
 
 </details>
 
@@ -556,12 +619,15 @@ A nurse is reinforcing teaching with the parent of a child who is receiving hype
 
 <p class="answer-choice"><strong>D.</strong> “My child will receive one dose of radiation after chemotherapy ends.”</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: B</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> Hyperfractionated radiation divides the total radiation dose into smaller doses given more frequently, often more than once per day. In children, this may be used to improve tumor control while helping limit damage to healthy developing tissue. A is incorrect because hyperfractionation uses smaller, not larger, individual doses. C is incorrect because radiation is given on a planned schedule, not only when symptoms worsen. D is incorrect because hyperfractionated radiation involves repeated scheduled treatments, not a single dose.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Hyperfractionated radiation divides the total radiation dose into smaller doses given more frequently, often more than once per day. In children, this may be used to improve tumor control while helping limit damage to healthy developing tissue. A is incorrect because hyperfractionation uses smaller, not larger, individual doses. C is incorrect because radiation is given on a planned schedule, not only when symptoms worsen. D is incorrect because hyperfractionated radiation involves repeated scheduled treatments, not a single dose.</p>
+</div>
 
 </details>
 
@@ -581,12 +647,15 @@ A nurse is caring for a client who has cancer with bone metastasis.
 
 <p class="answer-choice"><strong>D.</strong> Hypercalcemia</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: D</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> Bone metastasis can cause calcium to be released from the bone into the bloodstream, placing the client at risk for hypercalcemia. The nurse should monitor for weakness, fatigue, confusion, constipation, nausea, dehydration, increased thirst, increased urination, and dysrhythmias. A, B, and C are electrolyte imbalances that can occur in clients with cancer, but bone metastasis is especially associated with hypercalcemia.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Bone metastasis can cause calcium to be released from the bone into the bloodstream, placing the client at risk for hypercalcemia. The nurse should monitor for weakness, fatigue, confusion, constipation, nausea, dehydration, increased thirst, increased urination, and dysrhythmias. A, B, and C are electrolyte imbalances that can occur in clients with cancer, but bone metastasis is especially associated with hypercalcemia.</p>
+</div>
 
 </details>
 
@@ -606,12 +675,15 @@ A nurse is reviewing laboratory results for a child after a hematopoietic stem c
 
 <p class="answer-choice"><strong>D.</strong> White blood cells remain absent from the CBC.</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: C</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> Engraftment occurs when the transplanted stem cells begin producing new blood cells. An increasing absolute neutrophil count is an important sign that the bone marrow is starting to recover and produce infection-fighting cells. A, B, and D do not indicate engraftment. Continued low hemoglobin, severe thrombocytopenia, or absent white blood cells suggest ongoing marrow suppression or delayed recovery.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Engraftment occurs when the transplanted stem cells begin producing new blood cells. An increasing absolute neutrophil count is an important sign that the bone marrow is starting to recover and produce infection-fighting cells. A, B, and D do not indicate engraftment. Continued low hemoglobin, severe thrombocytopenia, or absent white blood cells suggest ongoing marrow suppression or delayed recovery.</p>
+</div>
 
 </details>
 
@@ -631,12 +703,15 @@ A nurse is reinforcing teaching with a client receiving external radiation thera
 
 <p class="answer-choice"><strong>D.</strong> “I will scrub the area daily to prevent bacteria from collecting.”</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: A</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> Clients receiving external radiation should protect the treatment area from irritation. Gentle cleansing with mild soap and lukewarm water is appropriate if allowed by the radiation team. B is incorrect because heat can worsen skin injury. C is incorrect because radiation markings should not be removed. D is incorrect because scrubbing can damage fragile irradiated skin.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Clients receiving external radiation should protect the treatment area from irritation. Gentle cleansing with mild soap and lukewarm water is appropriate if allowed by the radiation team. B is incorrect because heat can worsen skin injury. C is incorrect because radiation markings should not be removed. D is incorrect because scrubbing can damage fragile irradiated skin.</p>
+</div>
 
 </details>
 
@@ -656,12 +731,15 @@ A nurse is reviewing assessment findings for a child with suspected Hodgkin lymp
 
 <p class="answer-choice"><strong>D.</strong> Morning headache with vomiting upon waking</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: C</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> Hodgkin lymphoma commonly presents with painless lymph node enlargement, often in the cervical or supraclavicular area. Systemic “B symptoms” can include fever, night sweats, and unexplained weight loss. A is more concerning for abdominal tumor involvement or obstruction, which is often emphasized with non-Hodgkin lymphoma. B is more consistent with leukemia and bone marrow crowding. D is concerning for increased intracranial pressure, such as with a brain tumor.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Hodgkin lymphoma commonly presents with painless lymph node enlargement, often in the cervical or supraclavicular area. Systemic “B symptoms” can include fever, night sweats, and unexplained weight loss. A is more concerning for abdominal tumor involvement or obstruction, which is often emphasized with non-Hodgkin lymphoma. B is more consistent with leukemia and bone marrow crowding. D is concerning for increased intracranial pressure, such as with a brain tumor.</p>
+</div>
 
 </details>
 
@@ -681,12 +759,15 @@ A nurse is reviewing medications prescribed for a client receiving chemotherapy.
 
 <p class="answer-choice"><strong>D.</strong> The client’s uric acid level decreases after chemotherapy.</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: C</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> Filgrastim is a colony-stimulating factor that stimulates neutrophil production after chemotherapy-related bone marrow suppression. The intended effect is an increased neutrophil count, which helps reduce infection risk. A is incorrect because platelets are related to thrombocytopenia and bleeding risk. B is incorrect because antiemetics help nausea. D is incorrect because allopurinol or rasburicase may be used for elevated uric acid with tumor lysis risk.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Filgrastim is a colony-stimulating factor that stimulates neutrophil production after chemotherapy-related bone marrow suppression. The intended effect is an increased neutrophil count, which helps reduce infection risk. A is incorrect because platelets are related to thrombocytopenia and bleeding risk. B is incorrect because antiemetics help nausea. D is incorrect because allopurinol or rasburicase may be used for elevated uric acid with tumor lysis risk.</p>
+</div>
 
 </details>
 
@@ -706,12 +787,15 @@ A nurse is reinforcing teaching with a client who is at risk for tumor lysis syn
 
 <p class="answer-choice"><strong>D.</strong> “I will keep follow-up appointments for laboratory monitoring.”</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: C</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> Clients at risk for tumor lysis syndrome are often instructed to maintain high fluid intake, commonly 3 to 5 L/day if not contraindicated, to help protect kidney function and promote excretion of uric acid and electrolytes. A, B, and D show correct understanding. Allopurinol may be prescribed to reduce uric acid formation, symptoms such as decreased urine output, muscle weakness, or palpitations should be reported, and laboratory monitoring is needed to evaluate potassium, phosphorus, calcium, uric acid, creatinine, and kidney function.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Clients at risk for tumor lysis syndrome are often instructed to maintain high fluid intake, commonly 3 to 5 L/day if not contraindicated, to help protect kidney function and promote excretion of uric acid and electrolytes. A, B, and D show correct understanding. Allopurinol may be prescribed to reduce uric acid formation, symptoms such as decreased urine output, muscle weakness, or palpitations should be reported, and laboratory monitoring is needed to evaluate potassium, phosphorus, calcium, uric acid, creatinine, and kidney function.</p>
+</div>
 
 </details>
 
@@ -731,12 +815,15 @@ A nurse is caring for a child following surgery to remove a brain tumor.
 
 <p class="answer-choice"><strong>D.</strong> Cluster neurologic checks to promote rest.</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: C</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> After brain tumor surgery, the nurse should elevate the head of the bed as prescribed to promote venous drainage and help reduce increased intracranial pressure. A is incorrect because forceful coughing can increase intracranial pressure. B is incorrect because lying flat can impair venous drainage and increase intracranial pressure. D is incorrect because neurologic assessments should be performed as scheduled and should not be delayed or clustered in a way that misses changes.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>After brain tumor surgery, the nurse should elevate the head of the bed as prescribed to promote venous drainage and help reduce increased intracranial pressure. A is incorrect because forceful coughing can increase intracranial pressure. B is incorrect because lying flat can impair venous drainage and increase intracranial pressure. D is incorrect because neurologic assessments should be performed as scheduled and should not be delayed or clustered in a way that misses changes.</p>
+</div>
 
 </details>
 
@@ -756,12 +843,15 @@ A nurse is reinforcing teaching with a client who has metastatic cancer and is a
 
 <p class="answer-choice"><strong>D.</strong> “Bowel changes occur early, but walking problems usually happen later.”</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: B</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> Spinal cord compression often begins with new or worsening back pain. As compression progresses, the client may develop numbness, tingling, leg weakness, gait changes, and eventually bowel or bladder dysfunction. These findings should be reported immediately because delayed treatment can lead to permanent neurologic injury or paralysis. A is incorrect because bladder dysfunction is usually a later finding. C is incorrect because back pain is commonly an early symptom. D is incorrect because gait changes and weakness can occur as compression progresses and should not be delayed.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Spinal cord compression often begins with new or worsening back pain. As compression progresses, the client may develop numbness, tingling, leg weakness, gait changes, and eventually bowel or bladder dysfunction. These findings should be reported immediately because delayed treatment can lead to permanent neurologic injury or paralysis. A is incorrect because bladder dysfunction is usually a later finding. C is incorrect because back pain is commonly an early symptom. D is incorrect because gait changes and weakness can occur as compression progresses and should not be delayed.</p>
+</div>
 
 </details>
 
@@ -781,12 +871,15 @@ A nurse is assessing a 13-year-old client who received radiation therapy for can
 
 <p class="answer-choice"><strong>D.</strong> Neuropathy related to previous chemotherapy</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: B</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> A child who received radiation therapy has an increased risk for secondary malignancies later in life, including bone tumors such as osteosarcoma. Persistent or worsening localized bone pain, especially in a long bone such as the femur, should be evaluated. Pain may be lessened by flexing the affected extremity. A, C, and D are possible concerns in a childhood cancer survivor, but persistent localized thigh pain after prior radiation is most concerning for a secondary bone malignancy.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>A child who received radiation therapy has an increased risk for secondary malignancies later in life, including bone tumors such as osteosarcoma. Persistent or worsening localized bone pain, especially in a long bone such as the femur, should be evaluated. Pain may be lessened by flexing the affected extremity. A, C, and D are possible concerns in a childhood cancer survivor, but persistent localized thigh pain after prior radiation is most concerning for a secondary bone malignancy.</p>
+</div>
 
 </details>
 
@@ -806,12 +899,15 @@ A nurse is reviewing prescriptions for a client with cancer-related hypercalcemi
 
 <p class="answer-choice"><strong>D.</strong> Administer loperamide as prescribed.</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: D</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> Loperamide should be questioned because it slows intestinal motility and can worsen constipation. Hypercalcemia already increases the risk for constipation, decreased appetite, nausea, weakness, confusion, dehydration, and dysrhythmias. Calcitonin, bisphosphonates, and corticosteroids may be prescribed to help lower calcium levels, depending on the cause and provider plan.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Loperamide should be questioned because it slows intestinal motility and can worsen constipation. Hypercalcemia already increases the risk for constipation, decreased appetite, nausea, weakness, confusion, dehydration, and dysrhythmias. Calcitonin, bisphosphonates, and corticosteroids may be prescribed to help lower calcium levels, depending on the cause and provider plan.</p>
+</div>
 
 </details>
 
@@ -831,12 +927,15 @@ A nurse is reviewing radiation therapy with a student nurse.
 
 <p class="answer-choice"><strong>D.</strong> “Radiation side effects occur because slow-growing cells are destroyed first.”</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: B</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> Radiation therapy is most effective against rapidly dividing cells. This is why cancer cells are targeted, but normal rapidly dividing cells can also be affected, including skin cells, bone marrow cells, hair follicles, and cells lining the mouth and gastrointestinal tract. A is incorrect because normal tissue can also be damaged. C is incorrect because mature nerve cells divide slowly and are generally less sensitive. D is incorrect because rapidly dividing cells are more sensitive, not slow-growing cells.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Radiation therapy is most effective against rapidly dividing cells. This is why cancer cells are targeted, but normal rapidly dividing cells can also be affected, including skin cells, bone marrow cells, hair follicles, and cells lining the mouth and gastrointestinal tract. A is incorrect because normal tissue can also be damaged. C is incorrect because mature nerve cells divide slowly and are generally less sensitive. D is incorrect because rapidly dividing cells are more sensitive, not slow-growing cells.</p>
+</div>
 
 </details>
 
@@ -856,12 +955,15 @@ A nurse is reviewing assessment data for a child who is being evaluated for leuk
 
 <p class="answer-choice"><strong>D.</strong> Bruising on both shins after playing outside</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: C</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> Bone or joint pain that wakes a child at night is concerning because leukemia cells can crowd the bone marrow and cause deep bone pain. This finding requires further evaluation, especially when paired with fatigue, pallor, bruising, fever, recurrent infections, or lymphadenopathy. A can occur with infection and is common in children. B needs follow-up but is less specific. D may be expected after play; unexplained bruising, petechiae, or bleeding would be more concerning.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Bone or joint pain that wakes a child at night is concerning because leukemia cells can crowd the bone marrow and cause deep bone pain. This finding requires further evaluation, especially when paired with fatigue, pallor, bruising, fever, recurrent infections, or lymphadenopathy. A can occur with infection and is common in children. B needs follow-up but is less specific. D may be expected after play; unexplained bruising, petechiae, or bleeding would be more concerning.</p>
+</div>
 
 </details>
 
@@ -881,12 +983,15 @@ A nurse is reviewing cancer-related hypercalcemia with a student nurse.
 
 <p class="answer-choice"><strong>D.</strong> “Cancer-related hypercalcemia usually develops suddenly and should be corrected immediately.”</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: D</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> Cancer-related hypercalcemia often develops gradually and may worsen over time. It is still a serious complication that requires prompt recognition, monitoring, hydration as prescribed, and provider notification. A is correct because bone metastasis can release calcium into the bloodstream. B is correct because hypercalcemia can cause weakness, confusion, constipation, dehydration, increased thirst, increased urination, and dysrhythmias. C is correct because hypercalcemia can become life-threatening if not treated.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Cancer-related hypercalcemia often develops gradually and may worsen over time. It is still a serious complication that requires prompt recognition, monitoring, hydration as prescribed, and provider notification. A is correct because bone metastasis can release calcium into the bloodstream. B is correct because hypercalcemia can cause weakness, confusion, constipation, dehydration, increased thirst, increased urination, and dysrhythmias. C is correct because hypercalcemia can become life-threatening if not treated.</p>
+</div>
 
 </details>
 
@@ -906,12 +1011,15 @@ A client tells the nurse, “My provider said I have stage III colon cancer. Doe
 
 <p class="answer-choice"><strong>D.</strong> “Stage III usually means the cancer has spread to distant organs.”</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: B</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> Stage III colon cancer generally means the cancer has spread beyond the innermost colon layers and may involve nearby lymph nodes, but it does not automatically mean distant metastasis. Distant spread is usually associated with stage IV. A describes cancer grade, not stage. C is incorrect because stage III colon cancer is not benign. D describes stage IV more than stage III.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Stage III colon cancer generally means the cancer has spread beyond the innermost colon layers and may involve nearby lymph nodes, but it does not automatically mean distant metastasis. Distant spread is usually associated with stage IV. A describes cancer grade, not stage. C is incorrect because stage III colon cancer is not benign. D describes stage IV more than stage III.</p>
+</div>
 
 </details>
 
@@ -931,12 +1039,15 @@ A nurse is reinforcing teaching with a client who is prescribed filgrastim after
 
 <p class="answer-choice"><strong>D.</strong> Blood in urine</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: A</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> Filgrastim is a colony-stimulating factor that stimulates neutrophil production in the bone marrow. Bone pain is a common side effect because the bone marrow is being stimulated to produce more white blood cells. B is not a common side effect of filgrastim. C is more associated with mucositis from chemotherapy. D is more concerning for bleeding or urinary tract injury and should be reported.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Filgrastim is a colony-stimulating factor that stimulates neutrophil production in the bone marrow. Bone pain is a common side effect because the bone marrow is being stimulated to produce more white blood cells. B is not a common side effect of filgrastim. C is more associated with mucositis from chemotherapy. D is more concerning for bleeding or urinary tract injury and should be reported.</p>
+</div>
 
 </details>
 
@@ -956,12 +1067,15 @@ A nurse is teaching a client about skin cancer risk factors.
 
 <p class="answer-choice"><strong>D.</strong> “A changing sore or wound should be checked by a provider.”</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: A</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> Old burn scars and chronically irritated or nonhealing wounds can have an increased risk for skin cancer. The client should report changes such as bleeding, enlargement, color change, delayed healing, new drainage, or pain. B, C, and D show correct understanding. Skin changes, nonhealing wounds, and long-term UV exposure should be reported or addressed.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Old burn scars and chronically irritated or nonhealing wounds can have an increased risk for skin cancer. The client should report changes such as bleeding, enlargement, color change, delayed healing, new drainage, or pain. B, C, and D show correct understanding. Skin changes, nonhealing wounds, and long-term UV exposure should be reported or addressed.</p>
+</div>
 
 </details>
 
@@ -981,12 +1095,15 @@ A nurse is caring for a child after a bone marrow aspiration from the posterior 
 
 <p class="answer-choice"><strong>D.</strong> Offer oral fluids and delay assessment until the dressing is removed.</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: A</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> After a bone marrow aspiration, the priority is monitoring for bleeding at the puncture site, especially if the child has thrombocytopenia from leukemia or bone marrow suppression. The nurse should apply pressure as prescribed, keep the dressing intact, assess vital signs, and monitor for swelling, drainage, increased pain, or signs of infection. B is incorrect because ambulation is not the first priority after the procedure. C is not required for a posterior iliac crest aspiration. D is incorrect because the puncture site and dressing should be assessed promptly for bleeding.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>After a bone marrow aspiration, the priority is monitoring for bleeding at the puncture site, especially if the child has thrombocytopenia from leukemia or bone marrow suppression. The nurse should apply pressure as prescribed, keep the dressing intact, assess vital signs, and monitor for swelling, drainage, increased pain, or signs of infection. B is incorrect because ambulation is not the first priority after the procedure. C is not required for a posterior iliac crest aspiration. D is incorrect because the puncture site and dressing should be assessed promptly for bleeding.</p>
+</div>
 
 </details>
 
@@ -1006,12 +1123,15 @@ A nurse is preparing to administer IV chemotherapy to a client.
 
 <p class="answer-choice"><strong>D.</strong> Place the chemotherapy bag in a brown light-protective cover.</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: C</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> A closed-system transfer device helps reduce the risk of hazardous medication exposure by limiting leakage, aerosolization, or contamination during chemotherapy handling. A is incorrect because chemotherapy tubing should be primed according to facility hazardous medication policy, often by pharmacy or with nonhazardous fluid to reduce exposure. B is important to prevent extravasation but does not specifically reduce occupational exposure. D may be needed for light-sensitive medications but does not address hazardous drug exposure.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>A closed-system transfer device helps reduce the risk of hazardous medication exposure by limiting leakage, aerosolization, or contamination during chemotherapy handling. A is incorrect because chemotherapy tubing should be primed according to facility hazardous medication policy, often by pharmacy or with nonhazardous fluid to reduce exposure. B is important to prevent extravasation but does not specifically reduce occupational exposure. D may be needed for light-sensitive medications but does not address hazardous drug exposure.</p>
+</div>
 
 </details>
 
@@ -1031,12 +1151,15 @@ A nurse is caring for a client receiving interleukin therapy for cancer.
 
 <p class="answer-choice"><strong>D.</strong> Bright red blood in the stool</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: B</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> Interleukins are biologic response modifiers that stimulate the immune system. Expected adverse effects can include flu-like symptoms such as fever, chills, malaise, myalgia, and fatigue. C is more concerning because decreased urine output and edema may suggest fluid retention or capillary leak and should be reported. D indicates possible gastrointestinal bleeding and is not an expected finding. A is not the typical expected response after interleukin therapy.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Interleukins are biologic response modifiers that stimulate the immune system. Expected adverse effects can include flu-like symptoms such as fever, chills, malaise, myalgia, and fatigue. C is more concerning because decreased urine output and edema may suggest fluid retention or capillary leak and should be reported. D indicates possible gastrointestinal bleeding and is not an expected finding. A is not the typical expected response after interleukin therapy.</p>
+</div>
 
 </details>
 
@@ -1056,12 +1179,15 @@ A nurse is reviewing dietary teaching with a client about changes that can help 
 
 <p class="answer-choice"><strong>D.</strong> “I should avoid foods with preservatives.”</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: C</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> Increasing animal fat intake indicates a need for further teaching because high animal fat intake is associated with increased cancer risk. Increasing fiber, decreasing red meat, and avoiding foods with preservatives reflect appropriate dietary risk-reduction teaching.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Increasing animal fat intake indicates a need for further teaching because high animal fat intake is associated with increased cancer risk. Increasing fiber, decreasing red meat, and avoiding foods with preservatives reflect appropriate dietary risk-reduction teaching.</p>
+</div>
 
 </details>
 
@@ -1081,12 +1207,15 @@ A nurse is caring for a child in a pediatric clinic. The parent reports noticing
 
 <p class="answer-choice"><strong>D.</strong> Apply warm compresses to the abdomen before reassessment.</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: B</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> A firm, unilateral abdominal mass in a child is concerning for Wilms tumor. Once an abdominal mass is found, the nurse should avoid palpating the abdomen because manipulation can cause tumor rupture and spread malignant cells. The nurse should protect the abdomen from trauma, measure abdominal girth, assess pain and vital signs, and notify the provider. A is incorrect because the abdomen should not be palpated after a mass is identified. C does not address the priority concern and may place pressure on the abdomen. D is not appropriate and delays provider evaluation.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>A firm, unilateral abdominal mass in a child is concerning for Wilms tumor. Once an abdominal mass is found, the nurse should avoid palpating the abdomen because manipulation can cause tumor rupture and spread malignant cells. The nurse should protect the abdomen from trauma, measure abdominal girth, assess pain and vital signs, and notify the provider. A is incorrect because the abdomen should not be palpated after a mass is identified. C does not address the priority concern and may place pressure on the abdomen. D is not appropriate and delays provider evaluation.</p>
+</div>
 
 </details>
 
@@ -1106,12 +1235,15 @@ A nurse is assessing a client with disseminated intravascular coagulation.
 
 <p class="answer-choice"><strong>D.</strong> Mild confusion and restlessness</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: C</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> Early DIC is often associated with microclot formation and impaired tissue perfusion, which can cause cool mottled extremities, decreased pulses, and changes in mental status such as restlessness or confusion. A late manifestation of DIC is bleeding due to consumption of platelets and clotting factors. Blood in the urine, oozing from venipuncture sites, bleeding gums, petechiae, ecchymoses, or hemorrhage are concerning late findings.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Early DIC is often associated with microclot formation and impaired tissue perfusion, which can cause cool mottled extremities, decreased pulses, and changes in mental status such as restlessness or confusion. A late manifestation of DIC is bleeding due to consumption of platelets and clotting factors. Blood in the urine, oozing from venipuncture sites, bleeding gums, petechiae, ecchymoses, or hemorrhage are concerning late findings.</p>
+</div>
 
 </details>
 
@@ -1131,12 +1263,15 @@ A nurse is caring for a child with suspected Wilms tumor.
 
 <p class="answer-choice"><strong>D.</strong> Oxygen saturation</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: A</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> Wilms tumor is a kidney tumor and can cause hypertension due to renal involvement or increased renin activity. The nurse should monitor blood pressure closely and avoid abdominal palpation after a mass is identified. B, C, and D are important vital signs, but blood pressure is the most specific priority vital sign associated with Wilms tumor.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Wilms tumor is a kidney tumor and can cause hypertension due to renal involvement or increased renin activity. The nurse should monitor blood pressure closely and avoid abdominal palpation after a mass is identified. B, C, and D are important vital signs, but blood pressure is the most specific priority vital sign associated with Wilms tumor.</p>
+</div>
 
 </details>
 
@@ -1156,12 +1291,15 @@ A nurse is caring for a terminally ill client who has cancer and is receiving pr
 
 <p class="answer-choice"><strong>D.</strong> “Giving opioids near the end of life usually causes death to occur sooner.”</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: A</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> For a terminally ill client, pain control and comfort are priorities. Prescribed opioids should not be withheld because of fear of addiction when the client is experiencing pain or signs of discomfort. B is incorrect because decreased alertness does not automatically mean pain medication should be stopped. C is incorrect because nonverbal signs of pain should also be assessed. D is incorrect because opioids given appropriately for comfort are not intended to hasten death.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>For a terminally ill client, pain control and comfort are priorities. Prescribed opioids should not be withheld because of fear of addiction when the client is experiencing pain or signs of discomfort. B is incorrect because decreased alertness does not automatically mean pain medication should be stopped. C is incorrect because nonverbal signs of pain should also be assessed. D is incorrect because opioids given appropriately for comfort are not intended to hasten death.</p>
+</div>
 
 </details>
 
@@ -1181,12 +1319,15 @@ A nurse is reviewing medications for a client receiving chemotherapy who has a p
 
 <p class="answer-choice"><strong>D.</strong> Oprelvekin</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: D</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> Oprelvekin stimulates platelet production and may be prescribed for chemotherapy-induced thrombocytopenia to help reduce bleeding risk. Filgrastim stimulates neutrophil production. Sargramostim stimulates granulocyte and macrophage production. Epoetin alfa stimulates red blood cell production and is used for anemia.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Oprelvekin stimulates platelet production and may be prescribed for chemotherapy-induced thrombocytopenia to help reduce bleeding risk. Filgrastim stimulates neutrophil production. Sargramostim stimulates granulocyte and macrophage production. Epoetin alfa stimulates red blood cell production and is used for anemia.</p>
+</div>
 
 </details>
 
@@ -1206,12 +1347,15 @@ A nurse is collecting health histories from several clients.
 
 <p class="answer-choice"><strong>D.</strong> A client who has long-term secondhand smoke exposure</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: C</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> All of the options are lung cancer risk factors, but cigarette smoking is the strongest risk factor listed. Tobacco smoke directly exposes lung tissue to carcinogens and greatly increases lung cancer risk. Radon exposure, asbestos exposure, and secondhand smoke also increase lung cancer risk, but active daily smoking is the greatest risk factor among these choices.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>All of the options are lung cancer risk factors, but cigarette smoking is the strongest risk factor listed. Tobacco smoke directly exposes lung tissue to carcinogens and greatly increases lung cancer risk. Radon exposure, asbestos exposure, and secondhand smoke also increase lung cancer risk, but active daily smoking is the greatest risk factor among these choices.</p>
+</div>
 
 </details>
 
@@ -1231,12 +1375,15 @@ A client has received genetic testing results showing an increased risk for here
 
 <p class="answer-choice"><strong>D.</strong> “Many people have genetic risks, but most are able to live normal lives.”</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: A</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> This response uses therapeutic communication by acknowledging the client’s feelings and inviting the client to share concerns. The priority is emotional support before giving information or reassurance. B and D provide false reassurance and may minimize the client’s fear. C gives information but does not first address the client’s emotional distress.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>This response uses therapeutic communication by acknowledging the client’s feelings and inviting the client to share concerns. The priority is emotional support before giving information or reassurance. B and D provide false reassurance and may minimize the client’s fear. C gives information but does not first address the client’s emotional distress.</p>
+</div>
 
 </details>
 
@@ -1256,12 +1403,15 @@ A nurse is caring for a client receiving radiation therapy for bone metastasis i
 
 <p class="answer-choice"><strong>D.</strong> Flex the affected leg quickly to prevent stiffness.</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: B</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> Bone affected by cancer or radiation can be fragile and at increased risk for pathologic fracture. The nurse should move the client carefully, support the affected area, use assistive devices as needed, and follow weight-bearing restrictions. A is incorrect because full weight-bearing may increase fracture risk unless specifically prescribed. C is incorrect because massage can injure fragile tissue or bone. D is incorrect because quick movement can increase pain and fracture risk.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Bone affected by cancer or radiation can be fragile and at increased risk for pathologic fracture. The nurse should move the client carefully, support the affected area, use assistive devices as needed, and follow weight-bearing restrictions. A is incorrect because full weight-bearing may increase fracture risk unless specifically prescribed. C is incorrect because massage can injure fragile tissue or bone. D is incorrect because quick movement can increase pain and fracture risk.</p>
+</div>
 
 </details>
 
@@ -1281,12 +1431,15 @@ A nurse is assessing a child who has painless cervical lymph node enlargement, i
 
 <p class="answer-choice"><strong>D.</strong> Localized inflammation from a recent throat infection</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: B</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> Painless lymph node enlargement with fever, night sweats, and weight loss is concerning for lymphoma. These systemic “B symptoms” require further evaluation, especially when lymphadenopathy is persistent, enlarging, hard, fixed, or not clearly explained by infection. A, C, and D are plausible because lymph nodes commonly enlarge with infection in children. However, the combination of painless lymphadenopathy with night sweats, fever, and weight loss is more concerning for lymphoma.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Painless lymph node enlargement with fever, night sweats, and weight loss is concerning for lymphoma. These systemic “B symptoms” require further evaluation, especially when lymphadenopathy is persistent, enlarging, hard, fixed, or not clearly explained by infection. A, C, and D are plausible because lymph nodes commonly enlarge with infection in children. However, the combination of painless lymphadenopathy with night sweats, fever, and weight loss is more concerning for lymphoma.</p>
+</div>
 
 </details>
 
@@ -1306,12 +1459,15 @@ A nurse is reinforcing teaching with a client who has cancer and is prescribed a
 
 <p class="answer-choice"><strong>D.</strong> “I will apply the patch to the same site each time.”</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: C</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> The client should remove the old transdermal opioid patch before applying a new patch to prevent excess medication absorption and overdose risk. A is incorrect because the patch should not be cut. B is incorrect because heat can increase medication absorption. D is incorrect because patch sites should be rotated according to instructions.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>The client should remove the old transdermal opioid patch before applying a new patch to prevent excess medication absorption and overdose risk. A is incorrect because the patch should not be cut. B is incorrect because heat can increase medication absorption. D is incorrect because patch sites should be rotated according to instructions.</p>
+</div>
 
 </details>
 
@@ -1331,12 +1487,15 @@ A nurse is caring for a client with disseminated intravascular coagulation.
 
 <p class="answer-choice"><strong>D.</strong> Dark amber urine with decreased oral intake</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: A</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> Disseminated intravascular coagulation involves abnormal clotting and bleeding. The nurse should suspect DIC when a client has unexplained bleeding, oozing from IV or venipuncture sites, petechiae, bruising, hematuria, bloody stools, or signs of impaired perfusion. B suggests infection but does not specifically indicate DIC. C suggests possible fluid overload. D may indicate dehydration or decreased kidney perfusion but is not the strongest DIC finding.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Disseminated intravascular coagulation involves abnormal clotting and bleeding. The nurse should suspect DIC when a client has unexplained bleeding, oozing from IV or venipuncture sites, petechiae, bruising, hematuria, bloody stools, or signs of impaired perfusion. B suggests infection but does not specifically indicate DIC. C suggests possible fluid overload. D may indicate dehydration or decreased kidney perfusion but is not the strongest DIC finding.</p>
+</div>
 
 </details>
 
@@ -1356,12 +1515,15 @@ A client with sepsis asks the nurse, “What does it mean that I might have DIC?
 
 <p class="answer-choice"><strong>D.</strong> “It means your platelets are increasing to protect you from blood loss.”</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: B</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> DIC is a serious clotting disorder that can occur with severe infection or sepsis. Tiny clots may form throughout the body, which uses up platelets and clotting factors. This can lead to both poor tissue perfusion and abnormal bleeding. A describes neutropenia. C describes anemia. D is incorrect because platelets are often decreased or being consumed in DIC.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>DIC is a serious clotting disorder that can occur with severe infection or sepsis. Tiny clots may form throughout the body, which uses up platelets and clotting factors. This can lead to both poor tissue perfusion and abnormal bleeding. A describes neutropenia. C describes anemia. D is incorrect because platelets are often decreased or being consumed in DIC.</p>
+</div>
 
 </details>
 
@@ -1381,12 +1543,15 @@ A nurse is caring for a client who has lung cancer.
 
 <p class="answer-choice"><strong>D.</strong> Chest discomfort when taking deep breaths</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: A</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> Facial swelling and distended neck veins can indicate superior vena cava syndrome. This finding, also called Stokes sign, occurs when venous return from the head, neck, and upper body is obstructed. The nurse should report this immediately because airway compromise and cerebral edema can develop. B, C, and D may occur with lung cancer or respiratory disease, but they are not as urgent as findings suggesting superior vena cava obstruction.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Facial swelling and distended neck veins can indicate superior vena cava syndrome. This finding, also called Stokes sign, occurs when venous return from the head, neck, and upper body is obstructed. The nurse should report this immediately because airway compromise and cerebral edema can develop. B, C, and D may occur with lung cancer or respiratory disease, but they are not as urgent as findings suggesting superior vena cava obstruction.</p>
+</div>
 
 </details>
 
@@ -1406,12 +1571,15 @@ A nurse is reinforcing teaching with a client receiving chemotherapy who is at r
 
 <p class="answer-choice"><strong>D.</strong> “I will save leftover antibiotics in case I develop another infection later.”</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: A</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> A client with neutropenia should monitor temperature accurately and report fever or infection symptoms promptly. Avoiding temperature checks right after hot or cold fluids helps prevent an inaccurate reading. B is incorrect because early reporting is important. C is incorrect because fever should be reported rather than masked with medication. D is incorrect because antibiotics should only be taken as prescribed.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>A client with neutropenia should monitor temperature accurately and report fever or infection symptoms promptly. Avoiding temperature checks right after hot or cold fluids helps prevent an inaccurate reading. B is incorrect because early reporting is important. C is incorrect because fever should be reported rather than masked with medication. D is incorrect because antibiotics should only be taken as prescribed.</p>
+</div>
 
 </details>
 
@@ -1431,12 +1599,15 @@ A nurse is reviewing parent-reported symptoms for four children.
 
 <p class="answer-choice"><strong>D.</strong> A child with a painless swelling near the eye and new vision changes</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: D</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> Rhabdomyosarcoma is a soft tissue tumor that can occur in the head and neck, orbit, genitourinary tract, or extremities. Orbital involvement may cause painless swelling, bulging of the eye, vision changes, or eye movement problems. A is more consistent with musculoskeletal injury or possible bone tumor depending on persistence and findings. B is more concerning for lymphoma. C is concerning for increased intracranial pressure, such as with a brain tumor.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Rhabdomyosarcoma is a soft tissue tumor that can occur in the head and neck, orbit, genitourinary tract, or extremities. Orbital involvement may cause painless swelling, bulging of the eye, vision changes, or eye movement problems. A is more consistent with musculoskeletal injury or possible bone tumor depending on persistence and findings. B is more concerning for lymphoma. C is concerning for increased intracranial pressure, such as with a brain tumor.</p>
+</div>
 
 </details>
 
@@ -1456,12 +1627,15 @@ A nurse is reviewing cancer development with a client who has taken long-term es
 
 <p class="answer-choice"><strong>D.</strong> “Estrogen can promote the growth of cells that already have DNA changes.”</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: D</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> Promotion occurs when factors such as hormones enhance the growth of cells that have already been initiated by DNA damage. Estrogen is considered a promoter because it can stimulate growth of hormone-sensitive tissue. A is incorrect because initiation involves DNA mutation, and estrogen is not best described as directly creating cancer cells. B is incorrect because tumors still need blood supply as they grow. C is incorrect because estrogen does not cause most benign tumors to become metastatic.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Promotion occurs when factors such as hormones enhance the growth of cells that have already been initiated by DNA damage. Estrogen is considered a promoter because it can stimulate growth of hormone-sensitive tissue. A is incorrect because initiation involves DNA mutation, and estrogen is not best described as directly creating cancer cells. B is incorrect because tumors still need blood supply as they grow. C is incorrect because estrogen does not cause most benign tumors to become metastatic.</p>
+</div>
 
 </details>
 
@@ -1481,12 +1655,15 @@ A client is scheduled to have a benign tumor removed and asks the nurse, “If i
 
 <p class="answer-choice"><strong>D.</strong> “Benign tumors always require removal to prevent recurrence.”</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: B</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> Benign tumors do not metastasize, but they may still need removal if they cause pressure, bleeding, pain, obstruction, or problems with function. A is incorrect because benign tumors do not usually become malignant. C is incorrect because benign tumors are not cancer. D is incorrect because not all benign tumors require removal.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Benign tumors do not metastasize, but they may still need removal if they cause pressure, bleeding, pain, obstruction, or problems with function. A is incorrect because benign tumors do not usually become malignant. C is incorrect because benign tumors are not cancer. D is incorrect because not all benign tumors require removal.</p>
+</div>
 
 </details>
 
@@ -1505,12 +1682,15 @@ A nurse is reviewing health histories for several clients.
 
 <p class="answer-choice"><strong>D.</strong> A client who has overexposure to sunlight</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: D</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> Overexposure to ultraviolet light from sunlight is the greatest risk factor listed for skin cancer because UV exposure damages skin cell DNA. Older age, genetic predisposition, and light skin also increase risk, but UV exposure is the priority risk factor among these options.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Overexposure to ultraviolet light from sunlight is the greatest risk factor listed for skin cancer because UV exposure damages skin cell DNA. Older age, genetic predisposition, and light skin also increase risk, but UV exposure is the priority risk factor among these options.</p>
+</div>
 
 </details>
 
@@ -1530,12 +1710,15 @@ A nurse is reviewing health histories for several clients.
 
 <p class="answer-choice"><strong>D.</strong> Productive cough</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: B</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> An early finding of Hodgkin lymphoma is painless enlarged lymph nodes, often in the cervical area. Bone and joint pain, hematuria, and productive cough are not the classic early finding.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>An early finding of Hodgkin lymphoma is painless enlarged lymph nodes, often in the cervical area. Bone and joint pain, hematuria, and productive cough are not the classic early finding.</p>
+</div>
 
 </details>
 
@@ -1555,12 +1738,15 @@ A nurse is reviewing food choices for a client who has multiple myeloma and a WB
 
 <p class="answer-choice"><strong>D.</strong> Fresh fruit basket</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: D</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> A low WBC count places the client at risk for infection. Fresh fruit baskets may contain raw produce that can carry microorganisms and should be avoided depending on neutropenic precautions and facility policy. Canned or factory-sealed foods are generally lower risk.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>A low WBC count places the client at risk for infection. Fresh fruit baskets may contain raw produce that can carry microorganisms and should be avoided depending on neutropenic precautions and facility policy. Canned or factory-sealed foods are generally lower risk.</p>
+</div>
 
 </details>
 
@@ -1582,12 +1768,15 @@ A nurse is reinforcing discharge teaching with an adolescent female client after
 
 <p class="answer-choice"><strong>E.</strong> Avoid tampons.</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: A, C, E</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> After a bone marrow transplant, the client is at high risk for infection and bleeding. The client should monitor temperature, wear shoes to prevent injury and infection, and avoid tampons because of infection and bleeding risk. Returning to school requires provider approval, not just feeling strong enough. Toothbrush care should follow facility instructions; weekly cleaning with isopropyl alcohol is not appropriate teaching.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>After a bone marrow transplant, the client is at high risk for infection and bleeding. The client should monitor temperature, wear shoes to prevent injury and infection, and avoid tampons because of infection and bleeding risk. Returning to school requires provider approval, not just feeling strong enough. Toothbrush care should follow facility instructions; weekly cleaning with isopropyl alcohol is not appropriate teaching.</p>
+</div>
 
 </details>
 
@@ -1607,12 +1796,15 @@ A nurse is reinforcing teaching with a client receiving external radiation thera
 
 <p class="answer-choice"><strong>D.</strong> “I should wash off the skin markings after each treatment.”</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: A</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> Skin exposed to radiation is fragile and should be protected from sunlight. The client should avoid heat, massage, friction, and removing treatment markings unless instructed by the radiation team.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Skin exposed to radiation is fragile and should be protected from sunlight. The client should avoid heat, massage, friction, and removing treatment markings unless instructed by the radiation team.</p>
+</div>
 
 </details>
 
@@ -1632,12 +1824,15 @@ A nurse is reviewing chemotherapy adverse effects with a client.
 
 <p class="answer-choice"><strong>D.</strong> Weight gain</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: C</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> Chemotherapy can suppress the bone marrow and cause pancytopenia, which increases the risk for infection, bleeding, and anemia-related fatigue. Gingival hyperplasia, hirsutism, and weight gain are not the classic chemotherapy adverse effect being tested.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Chemotherapy can suppress the bone marrow and cause pancytopenia, which increases the risk for infection, bleeding, and anemia-related fatigue. Gingival hyperplasia, hirsutism, and weight gain are not the classic chemotherapy adverse effect being tested.</p>
+</div>
 
 </details>
 
@@ -1657,12 +1852,15 @@ A nurse is reinforcing teaching about combination chemotherapy.
 
 <p class="answer-choice"><strong>D.</strong> “The medications eliminate the risk of bone marrow suppression.”</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: B</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> Combination chemotherapy uses medications that work in different ways or during different phases of cell division to destroy more tumor cells and reduce resistance. It does not eliminate toxicity, guarantee shorter treatment, or remove the risk of bone marrow suppression.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Combination chemotherapy uses medications that work in different ways or during different phases of cell division to destroy more tumor cells and reduce resistance. It does not eliminate toxicity, guarantee shorter treatment, or remove the risk of bone marrow suppression.</p>
+</div>
 
 </details>
 
@@ -1682,12 +1880,15 @@ A nurse is reviewing risk factors for bladder cancer.
 
 <p class="answer-choice"><strong>D.</strong> Frequent urinary tract infections</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: B</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> Tobacco use is a major risk factor for bladder cancer because carcinogens are filtered by the kidneys and stored in the bladder before excretion. Occupational exposures, older age, and urinary irritation can also be associated with risk, but tobacco use is the strongest option listed.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Tobacco use is a major risk factor for bladder cancer because carcinogens are filtered by the kidneys and stored in the bladder before excretion. Occupational exposures, older age, and urinary irritation can also be associated with risk, but tobacco use is the strongest option listed.</p>
+</div>
 
 </details>
 
@@ -1707,12 +1908,15 @@ A client asks the nurse what it means that a malignant colon neoplasm is metasta
 
 <p class="answer-choice"><strong>D.</strong> “There is no point in treatment once metastasis occurs.”</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: A</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> Metastasis means cancer cells have spread from the original site to another area of the body. B, C, and D are incorrect because they minimize or misrepresent metastasis and treatment options.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Metastasis means cancer cells have spread from the original site to another area of the body. B, C, and D are incorrect because they minimize or misrepresent metastasis and treatment options.</p>
+</div>
 
 </details>
 
@@ -1732,12 +1936,15 @@ A nurse is reinforcing teaching with a client newly diagnosed with breast cancer
 
 <p class="answer-choice"><strong>D.</strong> Bones</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: D</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> Breast cancer commonly metastasizes to bone, lung, liver, and brain. Bone pain or hypercalcemia symptoms should be reported for further evaluation.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Breast cancer commonly metastasizes to bone, lung, liver, and brain. Bone pain or hypercalcemia symptoms should be reported for further evaluation.</p>
+</div>
 
 </details>
 
@@ -1757,12 +1964,15 @@ A charge nurse is observing care for a client receiving internal radiation thera
 
 <p class="answer-choice"><strong>D.</strong> Removing an extra IV pole from the room for another client</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: C</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> A dosimeter badge is assigned to one staff member and should not be borrowed or shared. Internal radiation requires time, distance, and shielding precautions. Soiled linens and equipment may need to remain in the room depending on radiation safety policy. Visitors should follow distance and time limits.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>A dosimeter badge is assigned to one staff member and should not be borrowed or shared. Internal radiation requires time, distance, and shielding precautions. Soiled linens and equipment may need to remain in the room depending on radiation safety policy. Visitors should follow distance and time limits.</p>
+</div>
 
 </details>
 
@@ -1782,12 +1992,15 @@ A nurse is reinforcing teaching with a group of clients about Gardasil.
 
 <p class="answer-choice"><strong>D.</strong> “Gardasil can help reduce the risk for colon cancer.”</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: D</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> Gardasil is the HPV vaccine. HPV vaccination helps reduce the risk for HPV-related cancers, including cervical, anal, penile, vulvar/vaginal, and oropharyngeal cancers. Colon cancer is not an HPV-related cancer prevented by Gardasil.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Gardasil is the HPV vaccine. HPV vaccination helps reduce the risk for HPV-related cancers, including cervical, anal, penile, vulvar/vaginal, and oropharyngeal cancers. Colon cancer is not an HPV-related cancer prevented by Gardasil.</p>
+</div>
 
 </details>
 
@@ -1807,12 +2020,15 @@ A nurse is assessing a client receiving chemotherapy.
 
 <p class="answer-choice"><strong>D.</strong> Burning pain and tingling in both feet</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: C</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> Anemia decreases the blood’s oxygen-carrying ability. Common findings include fatigue, weakness, pallor, dizziness, tachycardia, and shortness of breath with activity. A is more consistent with thrombocytopenia. B is more consistent with neutropenia or infection. D is more consistent with chemotherapy-induced peripheral neuropathy.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Anemia decreases the blood’s oxygen-carrying ability. Common findings include fatigue, weakness, pallor, dizziness, tachycardia, and shortness of breath with activity. A is more consistent with thrombocytopenia. B is more consistent with neutropenia or infection. D is more consistent with chemotherapy-induced peripheral neuropathy.</p>
+</div>
 
 </details>
 
@@ -1832,12 +2048,15 @@ A nurse is assessing a client receiving chemotherapy who reports numbness and ti
 
 <p class="answer-choice"><strong>D.</strong> Sores on mucous membranes</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: B</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> Peripheral neuropathy can cause numbness, tingling, burning, pain, or weakness in the hands and feet. Thinning hair is alopecia, reduced concentration may be related to cognitive changes, and sores on mucous membranes indicate mucositis.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Peripheral neuropathy can cause numbness, tingling, burning, pain, or weakness in the hands and feet. Thinning hair is alopecia, reduced concentration may be related to cognitive changes, and sores on mucous membranes indicate mucositis.</p>
+</div>
 
 </details>
 
@@ -1857,12 +2076,15 @@ A nurse is caring for a client receiving chemotherapy who has a platelet count o
 
 <p class="answer-choice"><strong>D.</strong> “I will use a rectal suppository if I become constipated.”</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: A</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> Thrombocytopenia increases bleeding risk. Using an electric razor lowers the chance of cuts and bleeding compared with a safety razor. B is incorrect because flossing can injure the gums when platelets are low. C is incorrect because NSAIDs such as ibuprofen can increase bleeding risk. D is incorrect because rectal medications can cause mucosal trauma and bleeding.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Thrombocytopenia increases bleeding risk. Using an electric razor lowers the chance of cuts and bleeding compared with a safety razor. B is incorrect because flossing can injure the gums when platelets are low. C is incorrect because NSAIDs such as ibuprofen can increase bleeding risk. D is incorrect because rectal medications can cause mucosal trauma and bleeding.</p>
+</div>
 
 </details>
 
@@ -1882,12 +2104,15 @@ A nurse is assessing a client with metastatic cancer.
 
 <p class="answer-choice"><strong>D.</strong> A client with lung cancer who reports a persistent cough and decreased appetite</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: A</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> The nurse should assess this client first because new back pain with a gait change can indicate spinal cord compression, an oncologic emergency. Early findings can include new or worsening back pain, leg weakness or heaviness, difficulty walking, sensory changes, and bowel or bladder changes. B, C, and D describe concerning cancer-related symptoms, but they are more expected for those diagnoses and do not suggest an immediate risk for neurologic injury.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>The nurse should assess this client first because new back pain with a gait change can indicate spinal cord compression, an oncologic emergency. Early findings can include new or worsening back pain, leg weakness or heaviness, difficulty walking, sensory changes, and bowel or bladder changes. B, C, and D describe concerning cancer-related symptoms, but they are more expected for those diagnoses and do not suggest an immediate risk for neurologic injury.</p>
+</div>
 
 </details>
 
@@ -1907,12 +2132,15 @@ A nurse is reinforcing teaching with a client who has cancer and is receiving ch
 
 <p class="answer-choice"><strong>D.</strong> “This is when side effects stop because my bone marrow has recovered.”</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: A</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> The nadir is the point after chemotherapy when bone marrow suppression is greatest and blood cell counts are lowest. During this time, the client is at increased risk for infection, bleeding, and anemia-related fatigue. B is incorrect because nadir does not mean the medication has completely cleared. C is incorrect because nadir refers to blood count suppression, not tumor response. D is incorrect because nadir is the lowest point before recovery, not the end of side effects.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>The nadir is the point after chemotherapy when bone marrow suppression is greatest and blood cell counts are lowest. During this time, the client is at increased risk for infection, bleeding, and anemia-related fatigue. B is incorrect because nadir does not mean the medication has completely cleared. C is incorrect because nadir refers to blood count suppression, not tumor response. D is incorrect because nadir is the lowest point before recovery, not the end of side effects.</p>
+</div>
 
 </details>
 
@@ -1932,12 +2160,15 @@ A client is scheduled to receive IV chemotherapy and says, “I had a reaction t
 
 <p class="answer-choice"><strong>D.</strong> Delay the chemotherapy until the client can receive a different medication.</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: B</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> Some clients may still receive a chemotherapy medication after a prior reaction if the provider prescribes it with precautions, such as premedication, slower infusion rate, close monitoring, and resuscitation equipment available. The nurse should follow the prescribed safety plan and be prepared to stop the infusion and intervene if a reaction occurs. A is incorrect because a previous reaction does not always mean the medication is permanently discontinued. C is incorrect because premedication lowers risk but does not guarantee another reaction will not occur. D is incorrect because the nurse should not delay prescribed chemotherapy when the provider has ordered a safety plan.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Some clients may still receive a chemotherapy medication after a prior reaction if the provider prescribes it with precautions, such as premedication, slower infusion rate, close monitoring, and resuscitation equipment available. The nurse should follow the prescribed safety plan and be prepared to stop the infusion and intervene if a reaction occurs. A is incorrect because a previous reaction does not always mean the medication is permanently discontinued. C is incorrect because premedication lowers risk but does not guarantee another reaction will not occur. D is incorrect because the nurse should not delay prescribed chemotherapy when the provider has ordered a safety plan.</p>
+</div>
 
 </details>
 
@@ -1957,12 +2188,15 @@ A client receiving chemotherapy has a prescription for ondansetron.
 
 <p class="answer-choice"><strong>D.</strong> The client has taken ondansetron during prior chemotherapy.</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: B</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> Ondansetron can prolong the QT interval and increase the risk for dysrhythmias. Hypokalemia increases this risk, so the nurse should review electrolyte levels and cardiac risk factors before administering the medication. A and C are expected chemotherapy-related concerns but are not the priority safety issue. D may suggest prior tolerance, but it does not eliminate the need to assess current QT-prolongation risk.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Ondansetron can prolong the QT interval and increase the risk for dysrhythmias. Hypokalemia increases this risk, so the nurse should review electrolyte levels and cardiac risk factors before administering the medication. A and C are expected chemotherapy-related concerns but are not the priority safety issue. D may suggest prior tolerance, but it does not eliminate the need to assess current QT-prolongation risk.</p>
+</div>
 
 </details>
 
@@ -1982,12 +2216,15 @@ A nurse is reinforcing teaching with a client newly diagnosed with myelodysplast
 
 <p class="answer-choice"><strong>D.</strong> “My bone marrow is not making enough healthy blood cells.”</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: D</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> Myelodysplastic syndrome is a bone marrow disorder in which blood cells are poorly formed or ineffective. This can lead to anemia, neutropenia, and thrombocytopenia, causing fatigue, infection risk, and bleeding risk. A is more consistent with some leukemias or lymphomas. B describes increased destruction of blood cells, not ineffective marrow production. C is incorrect because platelet counts are often low, increasing bleeding risk.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Myelodysplastic syndrome is a bone marrow disorder in which blood cells are poorly formed or ineffective. This can lead to anemia, neutropenia, and thrombocytopenia, causing fatigue, infection risk, and bleeding risk. A is more consistent with some leukemias or lymphomas. B describes increased destruction of blood cells, not ineffective marrow production. C is incorrect because platelet counts are often low, increasing bleeding risk.</p>
+</div>
 
 </details>
 
@@ -2009,12 +2246,15 @@ A nurse is reviewing health histories for several clients.
 
 <p class="answer-choice"><strong>E.</strong> “I have ongoing indigestion and trouble swallowing.”</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: A, B, C, D, E</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> All of these findings require further investigation because they are warning signs that may be associated with cancer. A persistent change in bowel habits may be associated with colorectal cancer. A nonhealing sore may indicate skin or oral cancer. Unusual bleeding or discharge requires evaluation. A thickening or lump may indicate a tumor. Ongoing indigestion or difficulty swallowing may be associated with gastrointestinal or esophageal cancer.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>All of these findings require further investigation because they are warning signs that may be associated with cancer. A persistent change in bowel habits may be associated with colorectal cancer. A nonhealing sore may indicate skin or oral cancer. Unusual bleeding or discharge requires evaluation. A thickening or lump may indicate a tumor. Ongoing indigestion or difficulty swallowing may be associated with gastrointestinal or esophageal cancer.</p>
+</div>
 
 </details>
 
@@ -2034,12 +2274,15 @@ A client receiving internal radiation therapy for cervical cancer reports feelin
 
 <p class="answer-choice"><strong>D.</strong> Call the provider before touching or moving the implant.</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: A</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> If a sealed radiation implant becomes dislodged, the nurse should not touch it with bare hands. The priority is radiation safety: use long-handled forceps to place the implant into the lead container kept in the client’s room, then notify the provider and radiation safety personnel. B is incorrect because the nurse should never reinsert the implant. C is incorrect because gauze does not provide radiation shielding. D is incorrect because the implant should be secured safely first to reduce exposure.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>If a sealed radiation implant becomes dislodged, the nurse should not touch it with bare hands. The priority is radiation safety: use long-handled forceps to place the implant into the lead container kept in the client’s room, then notify the provider and radiation safety personnel. B is incorrect because the nurse should never reinsert the implant. C is incorrect because gauze does not provide radiation shielding. D is incorrect because the implant should be secured safely first to reduce exposure.</p>
+</div>
 
 </details>
 
@@ -2059,12 +2302,15 @@ A nurse is reviewing laboratory results for a child with suspected leukemia.
 
 <p class="answer-choice"><strong>D.</strong> Elevated neutrophils, elevated platelets, and low uric acid</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: B</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> Leukemia can crowd the bone marrow with immature abnormal white blood cells, reducing normal red blood cell and platelet production. This can cause anemia, thrombocytopenia, and an abnormal white blood cell count. A is tempting because low platelets and low neutrophils can occur, but elevated hemoglobin is not expected with marrow crowding. C includes anemia, but elevated platelets are not typical. D suggests increased normal cell production, not marrow suppression from leukemia.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Leukemia can crowd the bone marrow with immature abnormal white blood cells, reducing normal red blood cell and platelet production. This can cause anemia, thrombocytopenia, and an abnormal white blood cell count. A is tempting because low platelets and low neutrophils can occur, but elevated hemoglobin is not expected with marrow crowding. C includes anemia, but elevated platelets are not typical. D suggests increased normal cell production, not marrow suppression from leukemia.</p>
+</div>
 
 </details>
 
@@ -2084,12 +2330,15 @@ A nurse is assessing a child whose parent reports fatigue, frequent bruising, an
 
 <p class="answer-choice"><strong>D.</strong> Bone pain and recurrent infections</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: D</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> Children with leukemia may have fatigue, pallor or lemon-yellow skin, bruising, petechiae, bleeding, bone or joint pain, fever, recurrent infections, and lymphadenopathy. These findings occur because abnormal white blood cells crowd the bone marrow and interfere with normal red blood cell, platelet, and white blood cell production. A is more consistent with endocrine or metabolic concerns. B may indicate respiratory infection but does not best fit the leukemia pattern. C may suggest superior vena cava syndrome.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Children with leukemia may have fatigue, pallor or lemon-yellow skin, bruising, petechiae, bleeding, bone or joint pain, fever, recurrent infections, and lymphadenopathy. These findings occur because abnormal white blood cells crowd the bone marrow and interfere with normal red blood cell, platelet, and white blood cell production. A is more consistent with endocrine or metabolic concerns. B may indicate respiratory infection but does not best fit the leukemia pattern. C may suggest superior vena cava syndrome.</p>
+</div>
 
 </details>
 
@@ -2109,12 +2358,15 @@ A parent asks the nurse why the child is receiving chemotherapy “in the spine�
 
 <p class="answer-choice"><strong>D.</strong> “This route is given because spinal chemotherapy has fewer side effects than IV chemotherapy.”</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: B</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> Intrathecal chemotherapy is given into the cerebrospinal fluid so medication can reach the central nervous system. This may be used in leukemia because cancer cells can hide in the brain and spinal cord area, where many IV chemotherapy medications do not reach well. A is incorrect because intrathecal chemotherapy is not used to prevent nausea. C is incorrect because the child may still need systemic chemotherapy. D is incorrect because intrathecal chemotherapy can still have side effects and requires careful monitoring.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Intrathecal chemotherapy is given into the cerebrospinal fluid so medication can reach the central nervous system. This may be used in leukemia because cancer cells can hide in the brain and spinal cord area, where many IV chemotherapy medications do not reach well. A is incorrect because intrathecal chemotherapy is not used to prevent nausea. C is incorrect because the child may still need systemic chemotherapy. D is incorrect because intrathecal chemotherapy can still have side effects and requires careful monitoring.</p>
+</div>
 
 </details>
 
@@ -2134,12 +2386,15 @@ A child with leukemia asks the nurse, “Am I going to die?”
 
 <p class="answer-choice"><strong>D.</strong> “Your parents and provider are the best people to answer that question for you.”</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: B</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> The nurse should acknowledge the child’s fear and invite the child to express concerns. Therapeutic communication uses honesty, presence, and open-ended responses rather than false reassurance or changing the subject. A and C minimize the child’s concern and provide reassurance without exploring feelings. D avoids the child’s question and may make the child feel dismissed, although the nurse can involve the parents and provider after first responding therapeutically.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>The nurse should acknowledge the child’s fear and invite the child to express concerns. Therapeutic communication uses honesty, presence, and open-ended responses rather than false reassurance or changing the subject. A and C minimize the child’s concern and provide reassurance without exploring feelings. D avoids the child’s question and may make the child feel dismissed, although the nurse can involve the parents and provider after first responding therapeutically.</p>
+</div>
 
 </details>
 
@@ -2159,12 +2414,15 @@ A nurse is reinforcing teaching with the parent of a child scheduled for a hemat
 
 <p class="answer-choice"><strong>D.</strong> “Radiation confirms that the stem cells are compatible with the child.”</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: B</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> Radiation may be part of the conditioning regimen before a hematopoietic stem cell transplant. Conditioning helps destroy cancer cells, suppress the immune system, and make space in the bone marrow for the transplanted stem cells to engraft. A is incorrect because antiemetics help prevent nausea. C is incorrect because infection precautions are still needed due to immunosuppression. D is incorrect because compatibility is determined through tissue typing and donor matching, not radiation.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Radiation may be part of the conditioning regimen before a hematopoietic stem cell transplant. Conditioning helps destroy cancer cells, suppress the immune system, and make space in the bone marrow for the transplanted stem cells to engraft. A is incorrect because antiemetics help prevent nausea. C is incorrect because infection precautions are still needed due to immunosuppression. D is incorrect because compatibility is determined through tissue typing and donor matching, not radiation.</p>
+</div>
 
 </details>
 
@@ -2184,12 +2442,15 @@ A nurse is reviewing the diagnostic plan for a child with suspected cancer.
 
 <p class="answer-choice"><strong>D.</strong> To measure pressure inside the brain and spinal cord</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: B</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> A bone marrow aspiration may be performed in children with suspected cancer to help rule out leukemia or determine whether cancer has involved the bone marrow. The sample allows evaluation of blood-forming cells and abnormal or immature cells in the marrow. A is assessed with imaging studies. C may require biopsy of the tumor itself. D is related to cerebrospinal fluid pressure or lumbar puncture findings, not bone marrow aspiration.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>A bone marrow aspiration may be performed in children with suspected cancer to help rule out leukemia or determine whether cancer has involved the bone marrow. The sample allows evaluation of blood-forming cells and abnormal or immature cells in the marrow. A is assessed with imaging studies. C may require biopsy of the tumor itself. D is related to cerebrospinal fluid pressure or lumbar puncture findings, not bone marrow aspiration.</p>
+</div>
 
 </details>
 
@@ -2209,12 +2470,15 @@ A student nurse asks why sodium bicarbonate may be prescribed for a client with 
 
 <p class="answer-choice"><strong>D.</strong> “It increases platelet production to reduce the client’s bleeding risk.”</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: C</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> Sodium bicarbonate may be prescribed in tumor lysis syndrome to help manage metabolic acidosis and alkalinize the urine. Alkalinizing the urine can promote uric acid solubility and excretion, but the nurse should monitor electrolytes, fluid status, kidney function, and the prescription closely. A describes sodium polystyrene sulfonate. B describes allopurinol, which helps reduce uric acid formation. D describes medications that stimulate platelet production, such as oprelvekin.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Sodium bicarbonate may be prescribed in tumor lysis syndrome to help manage metabolic acidosis and alkalinize the urine. Alkalinizing the urine can promote uric acid solubility and excretion, but the nurse should monitor electrolytes, fluid status, kidney function, and the prescription closely. A describes sodium polystyrene sulfonate. B describes allopurinol, which helps reduce uric acid formation. D describes medications that stimulate platelet production, such as oprelvekin.</p>
+</div>
 
 </details>
 
@@ -2234,12 +2498,15 @@ A nurse is reinforcing skin care teaching with a client who completed external r
 
 <p class="answer-choice"><strong>D.</strong> “I should use a PABA-free sunscreen on the treated area when exposed to sunlight.”</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: D</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> Skin that has received radiation can remain sensitive to sunlight. The client should protect the treated area from sun exposure and use a sunscreen as instructed, often a PABA-free sunscreen, because PABA can be irritating for sensitive skin. A is incorrect because tanning beds should be avoided. B is incorrect because sunscreen is used for prevention, not after burning starts. C is incorrect because treated skin should not be scrubbed or irritated.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Skin that has received radiation can remain sensitive to sunlight. The client should protect the treated area from sun exposure and use a sunscreen as instructed, often a PABA-free sunscreen, because PABA can be irritating for sensitive skin. A is incorrect because tanning beds should be avoided. B is incorrect because sunscreen is used for prevention, not after burning starts. C is incorrect because treated skin should not be scrubbed or irritated.</p>
+</div>
 
 </details>
 
@@ -2259,12 +2526,15 @@ A nurse is assessing four children with suspected non-Hodgkin lymphoma.
 
 <p class="answer-choice"><strong>D.</strong> Difficulty breathing when lying flat with neck vein distention</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: D</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> Non-Hodgkin lymphoma can involve the mediastinum and cause compression of airway or major blood vessels. Difficulty breathing when lying flat, neck vein distention, facial swelling, cough, or chest pressure can indicate mediastinal mass effect or superior vena cava compression and should be reported first. A is concerning for lymphoma with systemic symptoms, B may suggest abdominal involvement, and C may indicate thrombocytopenia or bone marrow involvement. These require follow-up, but breathing difficulty and signs of venous compression are the priority.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Non-Hodgkin lymphoma can involve the mediastinum and cause compression of airway or major blood vessels. Difficulty breathing when lying flat, neck vein distention, facial swelling, cough, or chest pressure can indicate mediastinal mass effect or superior vena cava compression and should be reported first. A is concerning for lymphoma with systemic symptoms, B may suggest abdominal involvement, and C may indicate thrombocytopenia or bone marrow involvement. These require follow-up, but breathing difficulty and signs of venous compression are the priority.</p>
+</div>
 
 </details>
 
@@ -2284,12 +2554,15 @@ A nurse is assessing four children with persistent bone pain.
 
 <p class="answer-choice"><strong>D.</strong> Hip pain with stiffness that is worse in the morning</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: B</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> Ewing sarcoma is a malignant bone tumor that often affects the pelvis, femur, ribs, or long bones. Findings can include localized pain, swelling, tenderness, fever, and sometimes symptoms that resemble infection. A may suggest overuse or musculoskeletal strain. C is more consistent with trauma. D may suggest inflammatory or orthopedic causes, but fever with localized swelling and persistent bone pain is more concerning for Ewing sarcoma.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Ewing sarcoma is a malignant bone tumor that often affects the pelvis, femur, ribs, or long bones. Findings can include localized pain, swelling, tenderness, fever, and sometimes symptoms that resemble infection. A may suggest overuse or musculoskeletal strain. C is more consistent with trauma. D may suggest inflammatory or orthopedic causes, but fever with localized swelling and persistent bone pain is more concerning for Ewing sarcoma.</p>
+</div>
 
 </details>
 
@@ -2309,12 +2582,15 @@ A nurse is reinforcing teaching with the parent of a child diagnosed with Ewing 
 
 <p class="answer-choice"><strong>D.</strong> “I will encourage daily stretching until the swelling decreases.”</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: B</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> Ewing sarcoma can weaken bone and increase the risk for pathologic fracture. Teaching should focus on protecting the affected extremity, following prescribed activity or weight-bearing limits, using assistive devices if ordered, and avoiding trauma to the area. A is unsafe because pain medication should not be used to push through activity restrictions. C and D may sound helpful for musculoskeletal discomfort, but heat, stretching, or exercise should not be started over a tumor site unless specifically prescribed.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Ewing sarcoma can weaken bone and increase the risk for pathologic fracture. Teaching should focus on protecting the affected extremity, following prescribed activity or weight-bearing limits, using assistive devices if ordered, and avoiding trauma to the area. A is unsafe because pain medication should not be used to push through activity restrictions. C and D may sound helpful for musculoskeletal discomfort, but heat, stretching, or exercise should not be started over a tumor site unless specifically prescribed.</p>
+</div>
 
 </details>
 
@@ -2334,12 +2610,15 @@ A nurse is reviewing photographs with the parent of a toddler.
 
 <p class="answer-choice"><strong>D.</strong> The sclera appears mildly red after swimming.</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: B</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> Retinoblastoma can cause leukocoria, a white pupillary reflex that may be noticed in photographs. Other concerning findings can include strabismus, vision changes, eye redness, eye pain, or an enlarged eye. A, C, and D may occur with less serious eye irritation or sensitivity. They should be monitored, but a white pupillary reflex requires prompt evaluation.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Retinoblastoma can cause leukocoria, a white pupillary reflex that may be noticed in photographs. Other concerning findings can include strabismus, vision changes, eye redness, eye pain, or an enlarged eye. A, C, and D may occur with less serious eye irritation or sensitivity. They should be monitored, but a white pupillary reflex requires prompt evaluation.</p>
+</div>
 
 </details>
 
@@ -2359,12 +2638,15 @@ A parent asks the nurse, “Why can’t my child receive vaccines during chemoth
 
 <p class="answer-choice"><strong>D.</strong> “Vaccines are avoided because they increase the risk for bleeding when platelet counts are low.”</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: B</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> Chemotherapy can suppress the immune system, so the child may not develop an adequate immune response to vaccines. Live vaccines may be unsafe during significant immunosuppression because they can cause infection. The vaccination plan should be coordinated with the oncology provider. A is incorrect because vaccines do not directly interfere with chemotherapy’s cancer-killing effect. C is incorrect because infection precautions do not replace immunizations. D is incorrect because bleeding risk is related to thrombocytopenia, not the main reason vaccines are delayed during chemotherapy.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Chemotherapy can suppress the immune system, so the child may not develop an adequate immune response to vaccines. Live vaccines may be unsafe during significant immunosuppression because they can cause infection. The vaccination plan should be coordinated with the oncology provider. A is incorrect because vaccines do not directly interfere with chemotherapy’s cancer-killing effect. C is incorrect because infection precautions do not replace immunizations. D is incorrect because bleeding risk is related to thrombocytopenia, not the main reason vaccines are delayed during chemotherapy.</p>
+</div>
 
 </details>
 
@@ -2384,12 +2666,15 @@ A nurse is reinforcing teaching with the parents of an adolescent who is schedul
 
 <p class="answer-choice"><strong>D.</strong> Explain that fertility preservation is only discussed with adult oncology clients.</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: B</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> Some cancer treatments can affect future fertility. For adolescents, fertility preservation should be discussed before chemotherapy, radiation, or surgery begins when possible. Options may include sperm banking, egg or embryo freezing, or other fertility-preservation approaches depending on age, puberty status, urgency of treatment, diagnosis, and family preferences. A is incorrect because fertility recovery is not guaranteed. C is incorrect because fertility preservation is time-sensitive and should be addressed before treatment when possible. D is incorrect because adolescents should be included in age-appropriate fertility discussions.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Some cancer treatments can affect future fertility. For adolescents, fertility preservation should be discussed before chemotherapy, radiation, or surgery begins when possible. Options may include sperm banking, egg or embryo freezing, or other fertility-preservation approaches depending on age, puberty status, urgency of treatment, diagnosis, and family preferences. A is incorrect because fertility recovery is not guaranteed. C is incorrect because fertility preservation is time-sensitive and should be addressed before treatment when possible. D is incorrect because adolescents should be included in age-appropriate fertility discussions.</p>
+</div>
 
 </details>
 
@@ -2409,12 +2694,15 @@ A nurse is reviewing laboratory results for a child being evaluated for leukemia
 
 <p class="answer-choice"><strong>D.</strong> Elevated hemoglobin with normal platelets and low lymphocytes</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: B</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> Leukemia causes abnormal white blood cells to crowd the bone marrow. This decreases normal blood cell production, leading to anemia, thrombocytopenia, and abnormal white blood cell findings. The nurse may see low hemoglobin, low platelets, and elevated or abnormal WBCs with immature blast cells. A is incorrect because platelets are often decreased, not elevated. C is more consistent with electrolyte concerns such as tumor lysis syndrome, not the basic leukemia CBC pattern. D is incorrect because elevated hemoglobin and normal platelets are not expected with marrow crowding.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Leukemia causes abnormal white blood cells to crowd the bone marrow. This decreases normal blood cell production, leading to anemia, thrombocytopenia, and abnormal white blood cell findings. The nurse may see low hemoglobin, low platelets, and elevated or abnormal WBCs with immature blast cells. A is incorrect because platelets are often decreased, not elevated. C is more consistent with electrolyte concerns such as tumor lysis syndrome, not the basic leukemia CBC pattern. D is incorrect because elevated hemoglobin and normal platelets are not expected with marrow crowding.</p>
+</div>
 
 </details>
 
@@ -2434,12 +2722,15 @@ A parent asks the nurse, “Can I stay in the treatment room with my child durin
 
 <p class="answer-choice"><strong>D.</strong> “You should avoid contact with your child for several hours after the treatment.”</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: B</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> During external radiation therapy, parents do not remain in the treatment room while radiation is being delivered. The child is monitored by the radiation team, usually through a camera and intercom. After external radiation, the child is not radioactive and can safely have contact with family. A and C are incorrect because others should not stay in the treatment room during radiation delivery. D is incorrect because contact restrictions are not needed after external radiation therapy.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>During external radiation therapy, parents do not remain in the treatment room while radiation is being delivered. The child is monitored by the radiation team, usually through a camera and intercom. After external radiation, the child is not radioactive and can safely have contact with family. A and C are incorrect because others should not stay in the treatment room during radiation delivery. D is incorrect because contact restrictions are not needed after external radiation therapy.</p>
+</div>
 
 </details>
 
@@ -2459,12 +2750,15 @@ A nurse is reviewing neuroblastoma manifestations with a student nurse.
 
 <p class="answer-choice"><strong>D.</strong> “A pelvic tumor may cause periorbital bruising, fever, and bone pain.”</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: A</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> Neuroblastoma findings depend on tumor location. An abdominal tumor can cause a firm, irregular abdominal mass, abdominal pain or distention, constipation, decreased appetite, or weight loss. B is incorrect because urinary retention, constipation, and leg weakness are more concerning for spinal cord or pelvic involvement, not a chest tumor. C is incorrect because cough, shortness of breath, and chest discomfort are more consistent with a chest tumor, not a spinal tumor. D is incorrect because periorbital bruising, fever, and bone pain are more concerning for metastatic disease, not specifically a pelvic tumor.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Neuroblastoma findings depend on tumor location. An abdominal tumor can cause a firm, irregular abdominal mass, abdominal pain or distention, constipation, decreased appetite, or weight loss. B is incorrect because urinary retention, constipation, and leg weakness are more concerning for spinal cord or pelvic involvement, not a chest tumor. C is incorrect because cough, shortness of breath, and chest discomfort are more consistent with a chest tumor, not a spinal tumor. D is incorrect because periorbital bruising, fever, and bone pain are more concerning for metastatic disease, not specifically a pelvic tumor.</p>
+</div>
 
 </details>
 
@@ -2484,12 +2778,15 @@ A nurse is reinforcing discharge teaching with the parent of a child who had a v
 
 <p class="answer-choice"><strong>D.</strong> Sleepiness after taking prescribed pain medication</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: C</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> A ventriculoperitoneal shunt drains cerebrospinal fluid from the ventricles of the brain into the peritoneal cavity. Abdominal swelling, fullness, pain, or decreased feeding can indicate a shunt complication and should be reported to the provider. A can occur after surgery but is less concerning if mild and improving with rest. B can be expected near an incision, but worsening redness, drainage, fever, or swelling along the shunt tract should be reported. D may occur with prescribed pain medication, but excessive drowsiness, worsening lethargy, vomiting, seizure activity, or neurologic changes should be reported.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>A ventriculoperitoneal shunt drains cerebrospinal fluid from the ventricles of the brain into the peritoneal cavity. Abdominal swelling, fullness, pain, or decreased feeding can indicate a shunt complication and should be reported to the provider. A can occur after surgery but is less concerning if mild and improving with rest. B can be expected near an incision, but worsening redness, drainage, fever, or swelling along the shunt tract should be reported. D may occur with prescribed pain medication, but excessive drowsiness, worsening lethargy, vomiting, seizure activity, or neurologic changes should be reported.</p>
+</div>
 
 </details>
 
@@ -2509,12 +2806,15 @@ A nurse is reinforcing teaching with a client who has a central venous access de
 
 <p class="answer-choice"><strong>D.</strong> “I will cover redness at the site and check it again the next day.”</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 
 <p class="quiz-answer"><strong>Answer: A</strong></p>
 
-<p class="quiz-rationale"><strong>Rationale:</strong> A loose central line dressing increases infection risk because the insertion site may no longer be protected. The client should report a loose, wet, or soiled dressing and any redness, drainage, swelling, tenderness, fever, or chills. B is incorrect because lifting dressing edges should not be managed by cleaning around them at home unless specifically instructed. C is incorrect because flushing should follow the prescribed schedule and policy. D is incorrect because redness at the insertion site should be reported, not covered and delayed.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>A loose central line dressing increases infection risk because the insertion site may no longer be protected. The client should report a loose, wet, or soiled dressing and any redness, drainage, swelling, tenderness, fever, or chills. B is incorrect because lifting dressing edges should not be managed by cleaning around them at home unless specifically instructed. C is incorrect because flushing should follow the prescribed schedule and policy. D is incorrect because redness at the insertion site should be reported, not covered and delayed.</p>
+</div>
 
 </details>
 

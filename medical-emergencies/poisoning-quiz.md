@@ -13,15 +13,18 @@ Test your knowledge of poisoning emergencies, ingestion management, activated ch
 
 A nurse is caring for a client who arrived at the emergency department after an unknown ingestion. Which of the following actions should the nurse take first?
 
-<p class="answer-choice">A. Save the medication bottle for identification.</p>
-<p class="answer-choice">B. Assess airway, breathing, and circulation.</p>
-<p class="answer-choice">C. Ask when the substance was ingested.</p>
-<p class="answer-choice">D. Contact poison control for treatment guidance.</p>
+<p class="answer-choice"><strong>A.</strong> Save the medication bottle for identification.</p>
+<p class="answer-choice"><strong>B.</strong> Assess airway, breathing, and circulation.</p>
+<p class="answer-choice"><strong>C.</strong> Ask when the substance was ingested.</p>
+<p class="answer-choice"><strong>D.</strong> Contact poison control for treatment guidance.</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
-<p class="quiz-answer">Answer: B</p>
-<p class="quiz-rationale">All of these actions are important for a client with poisoning or ingestion, but the nurse should first assess and support airway, breathing, and circulation. Treatment decisions depend on the client being stable first.</p>
+<p class="quiz-answer"><strong>Answer: B</strong></p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>All of these actions are important for a client with poisoning or ingestion, but the nurse should first assess and support airway, breathing, and circulation. Treatment decisions depend on the client being stable first.</p>
+</div>
 </details>
 
 ---
@@ -30,15 +33,18 @@ A nurse is caring for a client who arrived at the emergency department after an 
 
 A nurse is caring for a client with suspected poisoning who has a decreased level of consciousness. Which of the following actions should the nurse avoid?
 
-<p class="answer-choice">A. Contacting poison control before the exact amount ingested is confirmed</p>
-<p class="answer-choice">B. Giving activated charcoal before the airway is protected</p>
-<p class="answer-choice">C. Establishing IV access before the toxicology results are back</p>
-<p class="answer-choice">D. Checking blood glucose before the substance is identified</p>
+<p class="answer-choice"><strong>A.</strong> Contacting poison control before the exact amount ingested is confirmed</p>
+<p class="answer-choice"><strong>B.</strong> Giving activated charcoal before the airway is protected</p>
+<p class="answer-choice"><strong>C.</strong> Establishing IV access before the toxicology results are back</p>
+<p class="answer-choice"><strong>D.</strong> Checking blood glucose before the substance is identified</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
-<p class="quiz-answer">Answer: B</p>
-<p class="quiz-rationale">Activated charcoal should not be given to a client with decreased level of consciousness unless the airway is protected because of aspiration risk. The nurse can contact poison control even if all details are not known yet, establish IV access before toxicology results are back, and check blood glucose because hypoglycemia can mimic poisoning or worsen altered LOC.</p>
+<p class="quiz-answer"><strong>Answer: B</strong></p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Activated charcoal should not be given to a client with decreased level of consciousness unless the airway is protected because of aspiration risk. The nurse can contact poison control even if all details are not known yet, establish IV access before toxicology results are back, and check blood glucose because hypoglycemia can mimic poisoning or worsen altered LOC.</p>
+</div>
 </details>
 
 ---
@@ -47,15 +53,18 @@ A nurse is caring for a client with suspected poisoning who has a decreased leve
 
 A nurse is preparing to administer activated charcoal to a client after an ingestion. Which of the following assessments is most important before giving the medication?
 
-<p class="answer-choice">A. Ability to protect the airway</p>
-<p class="answer-choice">B. Presence of abdominal cramping</p>
-<p class="answer-choice">C. Time of the client's last bowel movement</p>
-<p class="answer-choice">D. Color of the client's emesis</p>
+<p class="answer-choice"><strong>A.</strong> Ability to protect the airway</p>
+<p class="answer-choice"><strong>B.</strong> Presence of abdominal cramping</p>
+<p class="answer-choice"><strong>C.</strong> Time of the client's last bowel movement</p>
+<p class="answer-choice"><strong>D.</strong> Color of the client's emesis</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
-<p class="quiz-answer">Answer: A</p>
-<p class="quiz-rationale">Before giving activated charcoal, the nurse should assess level of consciousness, gag reflex, airway protection, vomiting risk, aspiration risk, and the type of substance ingested. Activated charcoal should not be given to a client who cannot protect their airway unless the airway is protected.</p>
+<p class="quiz-answer"><strong>Answer: A</strong></p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Before giving activated charcoal, the nurse should assess level of consciousness, gag reflex, airway protection, vomiting risk, aspiration risk, and the type of substance ingested. Activated charcoal should not be given to a client who cannot protect their airway unless the airway is protected.</p>
+</div>
 </details>
 
 ---
@@ -64,15 +73,18 @@ A nurse is preparing to administer activated charcoal to a client after an inges
 
 A nurse is reviewing poisoning prevention with the parent of a toddler. Which of the following statements by the parent indicates an understanding of the teaching?
 
-<p class="answer-choice">A. "I should keep medications in their original containers and locked away."</p>
-<p class="answer-choice">B. "I should keep daily medications in my purse so they stay with me."</p>
-<p class="answer-choice">C. "I should store cleaning products under the sink with a child safety lock."</p>
-<p class="answer-choice">D. "I should keep loose batteries in a drawer away from toys."</p>
+<p class="answer-choice"><strong>A.</strong> "I should keep medications in their original containers and locked away."</p>
+<p class="answer-choice"><strong>B.</strong> "I should keep daily medications in my purse so they stay with me."</p>
+<p class="answer-choice"><strong>C.</strong> "I should store cleaning products under the sink with a child safety lock."</p>
+<p class="answer-choice"><strong>D.</strong> "I should keep loose batteries in a drawer away from toys."</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
-<p class="quiz-answer">Answer: A</p>
-<p class="quiz-rationale">Medications should be kept in their original containers, locked up, and stored up and away. Purses and bags can contain medications and should be kept out of reach. Cleaning products and batteries should also be secured, but medications are a common poisoning risk for toddlers and should be locked away.</p>
+<p class="quiz-answer"><strong>Answer: A</strong></p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Medications should be kept in their original containers, locked up, and stored up and away. Purses and bags can contain medications and should be kept out of reach. Cleaning products and batteries should also be secured, but medications are a common poisoning risk for toddlers and should be locked away.</p>
+</div>
 </details>
 
 ---
@@ -81,15 +93,18 @@ A nurse is reviewing poisoning prevention with the parent of a toddler. Which of
 
 A nurse is collecting information to report to poison control after a child ingests an unknown household product. Which of the following information should the nurse have ready?
 
-<p class="answer-choice">A. The child's age and weight, the amount taken, and the time of exposure</p>
-<p class="answer-choice">B. The child's last meal, allergies, and usual daily fluid intake</p>
-<p class="answer-choice">C. The child's developmental milestones and recent sleep pattern</p>
-<p class="answer-choice">D. The child's temperature trend, pain score, and activity level</p>
+<p class="answer-choice"><strong>A.</strong> The child's age and weight, the amount taken, and the time of exposure</p>
+<p class="answer-choice"><strong>B.</strong> The child's last meal, allergies, and usual daily fluid intake</p>
+<p class="answer-choice"><strong>C.</strong> The child's developmental milestones and recent sleep pattern</p>
+<p class="answer-choice"><strong>D.</strong> The child's temperature trend, pain score, and activity level</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
-<p class="quiz-answer">Answer: A</p>
-<p class="quiz-rationale">When contacting poison control, the nurse should have information such as the client's age and weight, substance name, amount taken, time of exposure, symptoms, medical history, and current medications. This information helps guide treatment recommendations.</p>
+<p class="quiz-answer"><strong>Answer: A</strong></p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>When contacting poison control, the nurse should have information such as the client's age and weight, substance name, amount taken, time of exposure, symptoms, medical history, and current medications. This information helps guide treatment recommendations.</p>
+</div>
 </details>
 
 ---
@@ -98,15 +113,18 @@ A nurse is collecting information to report to poison control after a child inge
 
 A nurse is caring for a child who swallowed toilet cleaner and has drooling, difficulty swallowing, and hoarseness. Which of the following actions should the nurse take first?
 
-<p class="answer-choice">A. Prepare to administer activated charcoal as prescribed.</p>
-<p class="answer-choice">B. Assess for airway swelling and prepare for emergency airway support.</p>
-<p class="answer-choice">C. Encourage small sips of water to dilute the cleaner.</p>
-<p class="answer-choice">D. Ask the caregiver to describe the container label.</p>
+<p class="answer-choice"><strong>A.</strong> Prepare to administer activated charcoal as prescribed.</p>
+<p class="answer-choice"><strong>B.</strong> Assess for airway swelling and prepare for emergency airway support.</p>
+<p class="answer-choice"><strong>C.</strong> Encourage small sips of water to dilute the cleaner.</p>
+<p class="answer-choice"><strong>D.</strong> Ask the caregiver to describe the container label.</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
-<p class="quiz-answer">Answer: B</p>
-<p class="quiz-rationale">Toilet cleaners can be caustic and may burn the mouth, throat, airway, esophagus, and stomach. Drooling, difficulty swallowing, and hoarseness are concerning for airway swelling. The priority is airway assessment and preparation for emergency airway support. The nurse should keep the client NPO and should not try to dilute, neutralize, or give activated charcoal unless specifically ordered.</p>
+<p class="quiz-answer"><strong>Answer: B</strong></p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Toilet cleaners can be caustic and may burn the mouth, throat, airway, esophagus, and stomach. Drooling, difficulty swallowing, and hoarseness are concerning for airway swelling. The priority is airway assessment and preparation for emergency airway support. The nurse should keep the client NPO and should not try to dilute, neutralize, or give activated charcoal unless specifically ordered.</p>
+</div>
 </details>
 
 ---
@@ -115,15 +133,18 @@ A nurse is caring for a child who swallowed toilet cleaner and has drooling, dif
 
 A nurse is reinforcing teaching with a parent after a child swallows bleach. Which of the following statements by the parent indicates a need for further teaching?
 
-<p class="answer-choice">A. "I should not try to make my child vomit."</p>
-<p class="answer-choice">B. "I should bring the container with me to the emergency department."</p>
-<p class="answer-choice">C. "I should give my child milk or water to help dilute the bleach."</p>
-<p class="answer-choice">D. "I should seek emergency care if my child is drooling or has trouble swallowing."</p>
+<p class="answer-choice"><strong>A.</strong> "I should not try to make my child vomit."</p>
+<p class="answer-choice"><strong>B.</strong> "I should bring the container with me to the emergency department."</p>
+<p class="answer-choice"><strong>C.</strong> "I should give my child milk or water to help dilute the bleach."</p>
+<p class="answer-choice"><strong>D.</strong> "I should seek emergency care if my child is drooling or has trouble swallowing."</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
-<p class="quiz-answer">Answer: C</p>
-<p class="quiz-rationale">After swallowing bleach or another caustic cleaner, the parent should not try to dilute, neutralize, or induce vomiting unless specifically directed by poison control or a provider. The child should be evaluated for airway swelling, burns, drooling, difficulty swallowing, and worsening symptoms. Bringing the container and seeking emergency care are appropriate.</p>
+<p class="quiz-answer"><strong>Answer: C</strong></p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>After swallowing bleach or another caustic cleaner, the parent should not try to dilute, neutralize, or induce vomiting unless specifically directed by poison control or a provider. The child should be evaluated for airway swelling, burns, drooling, difficulty swallowing, and worsening symptoms. Bringing the container and seeking emergency care are appropriate.</p>
+</div>
 </details>
 
 ---
@@ -132,15 +153,18 @@ A nurse is reinforcing teaching with a parent after a child swallows bleach. Whi
 
 A nurse is caring for a client who swallowed a product containing ammonia. Which of the following prescriptions should the nurse question?
 
-<p class="answer-choice">A. Keep the client NPO.</p>
-<p class="answer-choice">B. Prepare the client for endoscopy as ordered.</p>
-<p class="answer-choice">C. Administer IV fluids as prescribed.</p>
-<p class="answer-choice">D. Induce vomiting to remove the product.</p>
+<p class="answer-choice"><strong>A.</strong> Keep the client NPO.</p>
+<p class="answer-choice"><strong>B.</strong> Prepare the client for endoscopy as ordered.</p>
+<p class="answer-choice"><strong>C.</strong> Administer IV fluids as prescribed.</p>
+<p class="answer-choice"><strong>D.</strong> Induce vomiting to remove the product.</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
-<p class="quiz-answer">Answer: D</p>
-<p class="quiz-rationale">The nurse should question a prescription to induce vomiting after swallowing a caustic cleaner because vomiting can re-expose the esophagus and airway to the chemical and worsen injury. Appropriate care includes maintaining the airway, keeping the client NPO, giving oxygen and IV fluids as prescribed, managing pain, and preparing for endoscopy if ordered.</p>
+<p class="quiz-answer"><strong>Answer: D</strong></p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>The nurse should question a prescription to induce vomiting after swallowing a caustic cleaner because vomiting can re-expose the esophagus and airway to the chemical and worsen injury. Appropriate care includes maintaining the airway, keeping the client NPO, giving oxygen and IV fluids as prescribed, managing pain, and preparing for endoscopy if ordered.</p>
+</div>
 </details>
 
 ---
@@ -149,15 +173,18 @@ A nurse is caring for a client who swallowed a product containing ammonia. Which
 
 A nurse is caring for a child who swallowed lighter fluid and is coughing, gagging, and wheezing. Which of the following complications is the nurse most concerned about?
 
-<p class="answer-choice">A. Liver failure</p>
-<p class="answer-choice">B. Esophageal burns</p>
-<p class="answer-choice">C. Chemical pneumonitis</p>
-<p class="answer-choice">D. Lead toxicity</p>
+<p class="answer-choice"><strong>A.</strong> Liver failure</p>
+<p class="answer-choice"><strong>B.</strong> Esophageal burns</p>
+<p class="answer-choice"><strong>C.</strong> Chemical pneumonitis</p>
+<p class="answer-choice"><strong>D.</strong> Lead toxicity</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
-<p class="quiz-answer">Answer: C</p>
-<p class="quiz-rationale">Lighter fluid is a hydrocarbon. Hydrocarbons can easily enter the lungs if the client vomits or aspirates, causing chemical pneumonitis. Coughing, gagging, wheezing, respiratory distress, and chemical odor are concerning findings.</p>
+<p class="quiz-answer"><strong>Answer: C</strong></p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Lighter fluid is a hydrocarbon. Hydrocarbons can easily enter the lungs if the client vomits or aspirates, causing chemical pneumonitis. Coughing, gagging, wheezing, respiratory distress, and chemical odor are concerning findings.</p>
+</div>
 </details>
 
 ---
@@ -166,15 +193,18 @@ A nurse is caring for a child who swallowed lighter fluid and is coughing, gaggi
 
 A nurse is caring for a child who swallowed toilet cleaner. The child is drooling, hoarse, and having difficulty swallowing. The nurse understands maintaining the airway is the priority for which of the following reasons?
 
-<p class="answer-choice">A. The substance can cause delayed liver damage if it is absorbed.</p>
-<p class="answer-choice">B. The substance can cause respiratory alkalosis from hyperventilation.</p>
-<p class="answer-choice">C. The substance is caustic and can burn tissues it touches, including the esophagus and trachea.</p>
-<p class="answer-choice">D. The substance can bind to lead and increase renal clearance.</p>
+<p class="answer-choice"><strong>A.</strong> The substance can cause delayed liver damage if it is absorbed.</p>
+<p class="answer-choice"><strong>B.</strong> The substance can cause respiratory alkalosis from hyperventilation.</p>
+<p class="answer-choice"><strong>C.</strong> The substance is caustic and can burn tissues it touches, including the esophagus and trachea.</p>
+<p class="answer-choice"><strong>D.</strong> The substance can bind to lead and increase renal clearance.</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
-<p class="quiz-answer">Answer: C</p>
-<p class="quiz-rationale">Toilet cleaner can be caustic and can burn the mouth, throat, esophagus, stomach, and airway structures such as the trachea. Drooling, hoarseness, and difficulty swallowing are concerning for airway swelling, so maintaining the airway is the priority.</p>
+<p class="quiz-answer"><strong>Answer: C</strong></p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Toilet cleaner can be caustic and can burn the mouth, throat, esophagus, stomach, and airway structures such as the trachea. Drooling, hoarseness, and difficulty swallowing are concerning for airway swelling, so maintaining the airway is the priority.</p>
+</div>
 </details>
 
 ---
@@ -183,15 +213,18 @@ A nurse is caring for a child who swallowed toilet cleaner. The child is droolin
 
 A nurse is reviewing examples of hydrocarbons with a parent. Which of the following products should the nurse include?
 
-<p class="answer-choice">A. Acetaminophen and aspirin</p>
-<p class="answer-choice">B. Bleach and toilet cleaner</p>
-<p class="answer-choice">C. Gasoline and paint thinner</p>
-<p class="answer-choice">D. Lead paint and old plumbing</p>
+<p class="answer-choice"><strong>A.</strong> Acetaminophen and aspirin</p>
+<p class="answer-choice"><strong>B.</strong> Bleach and toilet cleaner</p>
+<p class="answer-choice"><strong>C.</strong> Gasoline and paint thinner</p>
+<p class="answer-choice"><strong>D.</strong> Lead paint and old plumbing</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
-<p class="quiz-answer">Answer: C</p>
-<p class="quiz-rationale">Hydrocarbons are oily substances such as gasoline, paint thinner, lighter fluid, turpentine, and furniture polish. The major danger is aspiration, which can lead to chemical pneumonitis.</p>
+<p class="quiz-answer"><strong>Answer: C</strong></p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Hydrocarbons are oily substances such as gasoline, paint thinner, lighter fluid, turpentine, and furniture polish. The major danger is aspiration, which can lead to chemical pneumonitis.</p>
+</div>
 </details>
 
 ---
@@ -200,15 +233,18 @@ A nurse is reviewing examples of hydrocarbons with a parent. Which of the follow
 
 A nurse is caring for a child who has lead poisoning and is prescribed succimer. The nurse understands this medication is given for which of the following reasons?
 
-<p class="answer-choice">A. To protect the airway from swelling after chemical exposure</p>
-<p class="answer-choice">B. To prevent vomiting and aspiration after ingestion</p>
-<p class="answer-choice">C. To reverse liver damage caused by medication overdose</p>
-<p class="answer-choice">D. To bind with lead so it can be removed from the body in urine</p>
+<p class="answer-choice"><strong>A.</strong> To protect the airway from swelling after chemical exposure</p>
+<p class="answer-choice"><strong>B.</strong> To prevent vomiting and aspiration after ingestion</p>
+<p class="answer-choice"><strong>C.</strong> To reverse liver damage caused by medication overdose</p>
+<p class="answer-choice"><strong>D.</strong> To bind with lead so it can be removed from the body in urine</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
-<p class="quiz-answer">Answer: D</p>
-<p class="quiz-rationale">Succimer (Chemet) is used for chelation therapy in lead poisoning. It binds with lead so the body can remove it through the urine. The nurse should monitor renal function, urine output, hydration, and neurologic status.</p>
+<p class="quiz-answer"><strong>Answer: D</strong></p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Succimer (Chemet) is used for chelation therapy in lead poisoning. It binds with lead so the body can remove it through the urine. The nurse should monitor renal function, urine output, hydration, and neurologic status.</p>
+</div>
 </details>
 
 ---
@@ -217,15 +253,18 @@ A nurse is caring for a child who has lead poisoning and is prescribed succimer.
 
 A nurse is screening a child for risk factors related to lead poisoning. Which of the following environmental findings should be the greatest concern?
 
-<p class="answer-choice">A. The child lives near a busy road with frequent traffic.</p>
-<p class="answer-choice">B. The child plays outside in soil after it rains.</p>
-<p class="answer-choice">C. The child lives in an older home with peeling paint.</p>
-<p class="answer-choice">D. The child uses dishes washed with well water.</p>
+<p class="answer-choice"><strong>A.</strong> The child lives near a busy road with frequent traffic.</p>
+<p class="answer-choice"><strong>B.</strong> The child plays outside in soil after it rains.</p>
+<p class="answer-choice"><strong>C.</strong> The child lives in an older home with peeling paint.</p>
+<p class="answer-choice"><strong>D.</strong> The child uses dishes washed with well water.</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
-<p class="quiz-answer">Answer: C</p>
-<p class="quiz-rationale">Lead can be found in older home paint, painted surfaces, dust, soil, old plumbing, and some imported toys or ceramics. Older homes with peeling paint are a major risk factor because children can ingest lead paint chips or inhale contaminated dust.</p>
+<p class="quiz-answer"><strong>Answer: C</strong></p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Lead can be found in older home paint, painted surfaces, dust, soil, old plumbing, and some imported toys or ceramics. Older homes with peeling paint are a major risk factor because children can ingest lead paint chips or inhale contaminated dust.</p>
+</div>
 </details>
 
 ---
@@ -234,15 +273,18 @@ A nurse is screening a child for risk factors related to lead poisoning. Which o
 
 A nurse is reinforcing teaching with a parent of a child who has untreated lead exposure. Which of the following long-term effects should the nurse include?
 
-<p class="answer-choice">A. Improved appetite with rapid weight gain</p>
-<p class="answer-choice">B. Developmental delay and learning problems</p>
-<p class="answer-choice">C. Increased clotting ability and hypertension</p>
-<p class="answer-choice">D. Temporary nausea that resolves without effects</p>
+<p class="answer-choice"><strong>A.</strong> Improved appetite with rapid weight gain</p>
+<p class="answer-choice"><strong>B.</strong> Developmental delay and learning problems</p>
+<p class="answer-choice"><strong>C.</strong> Increased clotting ability and hypertension</p>
+<p class="answer-choice"><strong>D.</strong> Temporary nausea that resolves without effects</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
-<p class="quiz-answer">Answer: B</p>
-<p class="quiz-rationale">Lead poisoning can affect the central nervous system and may cause developmental delay, learning problems, irritability, neurologic changes, and seizures in severe cases. It can also cause GI symptoms, anemia, fatigue, renal problems, and skeletal effects.</p>
+<p class="quiz-answer"><strong>Answer: B</strong></p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Lead poisoning can affect the central nervous system and may cause developmental delay, learning problems, irritability, neurologic changes, and seizures in severe cases. It can also cause GI symptoms, anemia, fatigue, renal problems, and skeletal effects.</p>
+</div>
 </details>
 
 ---
@@ -251,15 +293,18 @@ A nurse is reinforcing teaching with a parent of a child who has untreated lead 
 
 A nurse is reviewing laboratory results for a child who was screened for lead exposure. Which of the following blood lead levels should the nurse identify as within the expected range?
 
-<p class="answer-choice">A. 15 mcg/dL</p>
-<p class="answer-choice">B. 9 mcg/dL</p>
-<p class="answer-choice">C. 6.2 mcg/dL</p>
-<p class="answer-choice">D. 4.6 mcg/dL</p>
+<p class="answer-choice"><strong>A.</strong> 15 mcg/dL</p>
+<p class="answer-choice"><strong>B.</strong> 9 mcg/dL</p>
+<p class="answer-choice"><strong>C.</strong> 6.2 mcg/dL</p>
+<p class="answer-choice"><strong>D.</strong> 4.6 mcg/dL</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
-<p class="quiz-answer">Answer: D</p>
-<p class="quiz-rationale">A blood lead level less than 5 mcg/dL is considered within the expected range. A level of 15 mcg/dL is harmful and requires follow-up, source removal, and treatment as prescribed.</p>
+<p class="quiz-answer"><strong>Answer: D</strong></p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>A blood lead level less than 5 mcg/dL is considered within the expected range. A level of 15 mcg/dL is harmful and requires follow-up, source removal, and treatment as prescribed.</p>
+</div>
 </details>
 
 ---
@@ -268,15 +313,18 @@ A nurse is reviewing laboratory results for a child who was screened for lead ex
 
 A nurse is caring for a client who took an overdose of acetaminophen. Which of the following medications should the nurse anticipate administering as the antidote?
 
-<p class="answer-choice">A. Naloxone</p>
-<p class="answer-choice">B. Vitamin K</p>
-<p class="answer-choice">C. Sodium bicarbonate</p>
-<p class="answer-choice">D. N-acetylcysteine</p>
+<p class="answer-choice"><strong>A.</strong> Naloxone</p>
+<p class="answer-choice"><strong>B.</strong> Vitamin K</p>
+<p class="answer-choice"><strong>C.</strong> Sodium bicarbonate</p>
+<p class="answer-choice"><strong>D.</strong> N-acetylcysteine</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
-<p class="quiz-answer">Answer: D</p>
-<p class="quiz-rationale">N-acetylcysteine (Mucomyst) is the antidote for acetaminophen overdose. Acetaminophen toxicity can cause liver damage, so the nurse should monitor acetaminophen level, AST/ALT, PT/INR, right upper quadrant pain, jaundice, and mental status.</p>
+<p class="quiz-answer"><strong>Answer: D</strong></p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>N-acetylcysteine (Mucomyst) is the antidote for acetaminophen overdose. Acetaminophen toxicity can cause liver damage, so the nurse should monitor acetaminophen level, AST/ALT, PT/INR, right upper quadrant pain, jaundice, and mental status.</p>
+</div>
 </details>
 
 ---
@@ -285,15 +333,18 @@ A nurse is caring for a client who took an overdose of acetaminophen. Which of t
 
 A parent reports that a child drank an entire bottle of adult Pepto-Bismol when the parent was not looking. The child is alert, able to swallow, and is not vomiting at this time. The nurse should anticipate a prescription for which of the following medications?
 
-<p class="answer-choice">A. Activated charcoal</p>
-<p class="answer-choice">B. N-acetylcysteine</p>
-<p class="answer-choice">C. Succimer</p>
-<p class="answer-choice">D. Vitamin K</p>
+<p class="answer-choice"><strong>A.</strong> Activated charcoal</p>
+<p class="answer-choice"><strong>B.</strong> N-acetylcysteine</p>
+<p class="answer-choice"><strong>C.</strong> Succimer</p>
+<p class="answer-choice"><strong>D.</strong> Vitamin K</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
-<p class="quiz-answer">Answer: A</p>
-<p class="quiz-rationale">Adult Pepto-Bismol contains salicylate. Activated charcoal may be prescribed after some ingestions to help bind the toxin in the GI tract and decrease absorption if the client can protect their airway and is not actively vomiting. N-acetylcysteine is used for acetaminophen overdose, succimer is used for lead poisoning, and vitamin K may be used if salicylate toxicity causes clotting problems.</p>
+<p class="quiz-answer"><strong>Answer: A</strong></p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Adult Pepto-Bismol contains salicylate. Activated charcoal may be prescribed after some ingestions to help bind the toxin in the GI tract and decrease absorption if the client can protect their airway and is not actively vomiting. N-acetylcysteine is used for acetaminophen overdose, succimer is used for lead poisoning, and vitamin K may be used if salicylate toxicity causes clotting problems.</p>
+</div>
 </details>
 
 ---
@@ -302,15 +353,18 @@ A parent reports that a child drank an entire bottle of adult Pepto-Bismol when 
 
 A nurse is caring for a child who swallowed a button battery. Which of the following actions should the nurse anticipate?
 
-<p class="answer-choice">A. Teach the parent to monitor stools at home for the next several days.</p>
-<p class="answer-choice">B. Prepare the child for emergency evaluation and x-ray.</p>
-<p class="answer-choice">C. Encourage the child to drink fluids to help move the battery.</p>
-<p class="answer-choice">D. Give activated charcoal to bind the battery contents.</p>
+<p class="answer-choice"><strong>A.</strong> Teach the parent to monitor stools at home for the next several days.</p>
+<p class="answer-choice"><strong>B.</strong> Prepare the child for emergency evaluation and x-ray.</p>
+<p class="answer-choice"><strong>C.</strong> Encourage the child to drink fluids to help move the battery.</p>
+<p class="answer-choice"><strong>D.</strong> Give activated charcoal to bind the battery contents.</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
-<p class="quiz-answer">Answer: B</p>
-<p class="quiz-rationale">A swallowed button battery is an emergency because tissue necrosis can occur within hours. The nurse should maintain the airway, keep the child NPO unless honey is specifically appropriate before arrival, gather information about the time, type, and size of the battery, and prepare for x-ray and urgent removal if the battery is lodged.</p>
+<p class="quiz-answer"><strong>Answer: B</strong></p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>A swallowed button battery is an emergency because tissue necrosis can occur within hours. The nurse should maintain the airway, keep the child NPO unless honey is specifically appropriate before arrival, gather information about the time, type, and size of the battery, and prepare for x-ray and urgent removal if the battery is lodged.</p>
+</div>
 </details>
 
 ---
@@ -319,15 +373,18 @@ A nurse is caring for a child who swallowed a button battery. Which of the follo
 
 A nurse is reinforcing teaching with a parent about preventing button battery ingestion. Which of the following statements by the parent indicates an understanding of the teaching?
 
-<p class="answer-choice">A. "I should choose toys with secure battery compartments."</p>
-<p class="answer-choice">B. "I should store loose batteries in a drawer with other small items."</p>
-<p class="answer-choice">C. "I should let my child play with old remotes if the back cover is taped on."</p>
-<p class="answer-choice">D. "I should check battery compartments only if the toy stops working."</p>
+<p class="answer-choice"><strong>A.</strong> "I should choose toys with secure battery compartments."</p>
+<p class="answer-choice"><strong>B.</strong> "I should store loose batteries in a drawer with other small items."</p>
+<p class="answer-choice"><strong>C.</strong> "I should let my child play with old remotes if the back cover is taped on."</p>
+<p class="answer-choice"><strong>D.</strong> "I should check battery compartments only if the toy stops working."</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
-<p class="quiz-answer">Answer: A</p>
-<p class="quiz-rationale">To prevent button battery ingestion, parents should avoid toys with button batteries when possible, choose toys with secure battery compartments, store loose batteries out of reach, and check items like remotes, key fobs, thermometers, and toys. Taped battery covers may not be secure enough for children.</p>
+<p class="quiz-answer"><strong>Answer: A</strong></p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>To prevent button battery ingestion, parents should avoid toys with button batteries when possible, choose toys with secure battery compartments, store loose batteries out of reach, and check items like remotes, key fobs, thermometers, and toys. Taped battery covers may not be secure enough for children.</p>
+</div>
 </details>
 
 ---
@@ -336,15 +393,18 @@ A nurse is reinforcing teaching with a parent about preventing button battery in
 
 A parent asks if honey should be given after a child swallows a button battery. Which of the following responses should the nurse give?
 
-<p class="answer-choice">A. "Honey should be given to any child who swallows a battery."</p>
-<p class="answer-choice">B. "Honey replaces the need for emergency evaluation if the child swallows well."</p>
-<p class="answer-choice">C. "Honey may be recommended in some cases, but emergency evaluation is still needed immediately."</p>
-<p class="answer-choice">D. "Honey should be given if the child is vomiting or has a decreased level of consciousness."</p>
+<p class="answer-choice"><strong>A.</strong> "Honey should be given to any child who swallows a battery."</p>
+<p class="answer-choice"><strong>B.</strong> "Honey replaces the need for emergency evaluation if the child swallows well."</p>
+<p class="answer-choice"><strong>C.</strong> "Honey may be recommended in some cases, but emergency evaluation is still needed immediately."</p>
+<p class="answer-choice"><strong>D.</strong> "Honey should be given if the child is vomiting or has a decreased level of consciousness."</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
-<p class="quiz-answer">Answer: C</p>
-<p class="quiz-rationale">Honey may be recommended in some cases while going to the hospital, but the child still needs emergency evaluation immediately. Honey should not be given if the child is under 12 months old, cannot swallow, is vomiting, or has a decreased level of consciousness.</p>
+<p class="quiz-answer"><strong>Answer: C</strong></p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Honey may be recommended in some cases while going to the hospital, but the child still needs emergency evaluation immediately. Honey should not be given if the child is under 12 months old, cannot swallow, is vomiting, or has a decreased level of consciousness.</p>
+</div>
 </details>
 
 ---
@@ -353,15 +413,18 @@ A parent asks if honey should be given after a child swallows a button battery. 
 
 A nurse is caring for a client who took an overdose of acetaminophen. Which of the following findings should the nurse recognize as concerning for liver injury?
 
-<p class="answer-choice">A. Tinnitus and hyperventilation</p>
-<p class="answer-choice">B. Right upper quadrant pain and jaundice</p>
-<p class="answer-choice">C. Coughing and wheezing after ingestion</p>
-<p class="answer-choice">D. Drooling and difficulty swallowing</p>
+<p class="answer-choice"><strong>A.</strong> Tinnitus and hyperventilation</p>
+<p class="answer-choice"><strong>B.</strong> Right upper quadrant pain and jaundice</p>
+<p class="answer-choice"><strong>C.</strong> Coughing and wheezing after ingestion</p>
+<p class="answer-choice"><strong>D.</strong> Drooling and difficulty swallowing</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
-<p class="quiz-answer">Answer: B</p>
-<p class="quiz-rationale">Acetaminophen overdose can cause hepatotoxicity. Early symptoms may seem mild, but later findings can include right upper quadrant pain, jaundice, elevated liver enzymes, increased PT/INR, confusion, and signs of liver failure.</p>
+<p class="quiz-answer"><strong>Answer: B</strong></p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Acetaminophen overdose can cause hepatotoxicity. Early symptoms may seem mild, but later findings can include right upper quadrant pain, jaundice, elevated liver enzymes, increased PT/INR, confusion, and signs of liver failure.</p>
+</div>
 </details>
 
 ---
@@ -370,15 +433,18 @@ A nurse is caring for a client who took an overdose of acetaminophen. Which of t
 
 A nurse is assessing a child whose parent reports the child swallowed several aspirin tablets. Which of the following findings should the nurse identify as a clue for salicylate toxicity?
 
-<p class="answer-choice">A. Tinnitus and hyperventilation</p>
-<p class="answer-choice">B. Constipation and developmental delay</p>
-<p class="answer-choice">C. Hoarseness and oral burns</p>
-<p class="answer-choice">D. Coughing and chemical odor</p>
+<p class="answer-choice"><strong>A.</strong> Tinnitus and hyperventilation</p>
+<p class="answer-choice"><strong>B.</strong> Constipation and developmental delay</p>
+<p class="answer-choice"><strong>C.</strong> Hoarseness and oral burns</p>
+<p class="answer-choice"><strong>D.</strong> Coughing and chemical odor</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
-<p class="quiz-answer">Answer: A</p>
-<p class="quiz-rationale">Tinnitus is a major clue for salicylate toxicity. Salicylate poisoning can also cause nausea, vomiting, sweating, fever, hyperventilation, dizziness, confusion, respiratory alkalosis early, and metabolic acidosis later.</p>
+<p class="quiz-answer"><strong>Answer: A</strong></p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Tinnitus is a major clue for salicylate toxicity. Salicylate poisoning can also cause nausea, vomiting, sweating, fever, hyperventilation, dizziness, confusion, respiratory alkalosis early, and metabolic acidosis later.</p>
+</div>
 </details>
 
 ---
@@ -387,15 +453,18 @@ A nurse is assessing a child whose parent reports the child swallowed several as
 
 A nurse is reviewing acid-base changes related to salicylate poisoning. Which of the following patterns should the nurse expect?
 
-<p class="answer-choice">A. Metabolic alkalosis early and respiratory acidosis later</p>
-<p class="answer-choice">B. Respiratory acidosis early and metabolic alkalosis later</p>
-<p class="answer-choice">C. Respiratory alkalosis early and metabolic acidosis later</p>
-<p class="answer-choice">D. Metabolic acidosis early and respiratory alkalosis later</p>
+<p class="answer-choice"><strong>A.</strong> Metabolic alkalosis early and respiratory acidosis later</p>
+<p class="answer-choice"><strong>B.</strong> Respiratory acidosis early and metabolic alkalosis later</p>
+<p class="answer-choice"><strong>C.</strong> Respiratory alkalosis early and metabolic acidosis later</p>
+<p class="answer-choice"><strong>D.</strong> Metabolic acidosis early and respiratory alkalosis later</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
-<p class="quiz-answer">Answer: C</p>
-<p class="quiz-rationale">Salicylate poisoning can cause respiratory alkalosis early because the client may hyperventilate. As toxicity worsens, metabolic acidosis can develop. The nurse should monitor ABGs, electrolytes, salicylate level, kidney function, and mental status.</p>
+<p class="quiz-answer"><strong>Answer: C</strong></p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Salicylate poisoning can cause respiratory alkalosis early because the client may hyperventilate. As toxicity worsens, metabolic acidosis can develop. The nurse should monitor ABGs, electrolytes, salicylate level, kidney function, and mental status.</p>
+</div>
 </details>
 
 ---
@@ -404,13 +473,16 @@ A nurse is reviewing acid-base changes related to salicylate poisoning. Which of
 
 A nurse is reviewing the use of activated charcoal for poisoning. The nurse should understand activated charcoal is generally not effective for which of the following ingestions?
 
-<p class="answer-choice">A. A small amount of an unknown plant</p>
-<p class="answer-choice">B. Several aspirin tablets</p>
-<p class="answer-choice">C. Some medication overdoses when airway is protected</p>
-<p class="answer-choice">D. Iron tablets</p>
+<p class="answer-choice"><strong>A.</strong> A small amount of an unknown plant</p>
+<p class="answer-choice"><strong>B.</strong> Several aspirin tablets</p>
+<p class="answer-choice"><strong>C.</strong> Some medication overdoses when airway is protected</p>
+<p class="answer-choice"><strong>D.</strong> Iron tablets</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
-<p class="quiz-answer">Answer: D</p>
-<p class="quiz-rationale">Activated charcoal binds some toxins in the GI tract, but it is generally not effective for alcohols, iron, lithium, heavy metals, caustic acids or alkalis, or hydrocarbons. The nurse should also make sure the client can protect their airway before giving activated charcoal.</p>
+<p class="quiz-answer"><strong>Answer: D</strong></p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Activated charcoal binds some toxins in the GI tract, but it is generally not effective for alcohols, iron, lithium, heavy metals, caustic acids or alkalis, or hydrocarbons. The nurse should also make sure the client can protect their airway before giving activated charcoal.</p>
+</div>
 </details>

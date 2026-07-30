@@ -22,10 +22,13 @@ A nurse is teaching a client who has stable angina about chest pain. Which state
 <p class="answer-choice"><strong>C.</strong> "Stable angina usually happens because my heart rhythm becomes too slow during activity."</p>
 <p class="answer-choice"><strong>D.</strong> "Stable angina usually means blood is backing up into my lungs when I walk."</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 <p class="quiz-answer"><strong>Answer: A</strong></p>
-<p class="quiz-rationale"><strong>Rationale:</strong> Stable angina occurs when the heart's oxygen demand increases, commonly with activity, stress, or exertion. It is usually relieved by rest or nitroglycerin. The pain is related to decreased oxygen supply to the heart muscle, not the heart pumping too much blood, a slow rhythm, or fluid backing up into the lungs.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Stable angina occurs when the heart's oxygen demand increases, commonly with activity, stress, or exertion. It is usually relieved by rest or nitroglycerin. The pain is related to decreased oxygen supply to the heart muscle, not the heart pumping too much blood, a slow rhythm, or fluid backing up into the lungs.</p>
+</div>
 </details>
 
 ---
@@ -39,10 +42,13 @@ A nurse is teaching a client who has angina about taking nitroglycerin sublingua
 <p class="answer-choice"><strong>C.</strong> "I will take the medication only after chest pain has lasted at least 30 minutes."</p>
 <p class="answer-choice"><strong>D.</strong> "I will take the tablet with food to prevent stomach irritation."</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 <p class="quiz-answer"><strong>Answer: B</strong></p>
-<p class="quiz-rationale"><strong>Rationale:</strong> Sublingual nitroglycerin should be placed under the tongue when chest pain begins, and the client should sit or lie down because the medication can lower blood pressure and cause dizziness. The tablet should not be swallowed, taken with food, or delayed until pain has lasted 30 minutes.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Sublingual nitroglycerin should be placed under the tongue when chest pain begins, and the client should sit or lie down because the medication can lower blood pressure and cause dizziness. The tablet should not be swallowed, taken with food, or delayed until pain has lasted 30 minutes.</p>
+</div>
 </details>
 
 ---
@@ -57,10 +63,13 @@ A nurse is teaching a client who has coronary artery disease about the differenc
 <p class="answer-choice"><strong>D.</strong> Anxiety and a feeling of doom</p>
 <p class="answer-choice"><strong>E.</strong> Chest discomfort that occurs predictably with activity</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 <p class="quiz-answer"><strong>Answer: A, B, D</strong></p>
-<p class="quiz-rationale"><strong>Rationale:</strong> Myocardial infarction can cause nausea, vomiting, diaphoresis, dizziness, anxiety, and a feeling of doom. Chest pain that improves with rest or occurs predictably with activity is more consistent with stable angina. The key difference is that MI symptoms are more concerning because they can indicate heart muscle injury and are not simply predictable oxygen-demand pain.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Myocardial infarction can cause nausea, vomiting, diaphoresis, dizziness, anxiety, and a feeling of doom. Chest pain that improves with rest or occurs predictably with activity is more consistent with stable angina. The key difference is that MI symptoms are more concerning because they can indicate heart muscle injury and are not simply predictable oxygen-demand pain.</p>
+</div>
 </details>
 
 ---
@@ -74,10 +83,13 @@ A nurse is providing teaching to a client who has angina and a new prescription 
 <p class="answer-choice"><strong>C.</strong> "I will store the tablets in the bathroom cabinet so they are easy to find."</p>
 <p class="answer-choice"><strong>D.</strong> "I will keep the tablets in my car so I always have them nearby."</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 <p class="quiz-answer"><strong>Answer: A</strong></p>
-<p class="quiz-rationale"><strong>Rationale:</strong> Sublingual nitroglycerin should be kept in a dark glass container because it is sensitive to light, heat, air, and moisture. It should not be placed in a pill organizer, stored in a bathroom, or left in a hot car because this can reduce the medication's effectiveness.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Sublingual nitroglycerin should be kept in a dark glass container because it is sensitive to light, heat, air, and moisture. It should not be placed in a pill organizer, stored in a bathroom, or left in a hot car because this can reduce the medication's effectiveness.</p>
+</div>
 </details>
 
 ---
@@ -91,10 +103,13 @@ A nurse is preparing to apply nitroglycerin ointment to a client who has angina.
 <p class="answer-choice"><strong>C.</strong> Wear gloves while applying the ointment</p>
 <p class="answer-choice"><strong>D.</strong> Measure the prescribed dose on the application paper</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 <p class="quiz-answer"><strong>Answer: C</strong></p>
-<p class="quiz-rationale"><strong>Rationale:</strong> All of these actions are appropriate when applying nitroglycerin ointment. However, wearing gloves best promotes safe medication administration because nitroglycerin can absorb through the nurse's skin and cause headache, dizziness, or hypotension. The nurse should also remove the old dose, rotate sites, and measure the dose correctly.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>All of these actions are appropriate when applying nitroglycerin ointment. However, wearing gloves best promotes safe medication administration because nitroglycerin can absorb through the nurse's skin and cause headache, dizziness, or hypotension. The nurse should also remove the old dose, rotate sites, and measure the dose correctly.</p>
+</div>
 </details>
 
 ---
@@ -108,10 +123,13 @@ A nurse is reviewing symptoms with a client who has a history of stable angina. 
 <p class="answer-choice"><strong>C.</strong> "My chest pain is lasting longer than usual and is not relieved by nitroglycerin."</p>
 <p class="answer-choice"><strong>D.</strong> "My chest discomfort feels like pressure when I am under stress."</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 <p class="quiz-answer"><strong>Answer: C</strong></p>
-<p class="quiz-rationale"><strong>Rationale:</strong> Stable angina is usually predictable and improves with rest or nitroglycerin. Chest pain that lasts longer than usual, occurs at rest, worsens, or is not relieved by nitroglycerin can indicate unstable angina or myocardial infarction and requires emergency intervention. The other options describe more expected stable angina patterns.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Stable angina is usually predictable and improves with rest or nitroglycerin. Chest pain that lasts longer than usual, occurs at rest, worsens, or is not relieved by nitroglycerin can indicate unstable angina or myocardial infarction and requires emergency intervention. The other options describe more expected stable angina patterns.</p>
+</div>
 </details>
 
 ---
@@ -126,10 +144,13 @@ A nurse is preparing to apply nitroglycerin paste to a client who has angina. Wh
 <p class="answer-choice"><strong>D.</strong> Apply doses back-to-back to maintain medication effectiveness</p>
 <p class="answer-choice"><strong>E.</strong> Massage the paste into the skin to promote absorption</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 <p class="quiz-answer"><strong>Answer: B, C</strong></p>
-<p class="quiz-rationale"><strong>Rationale:</strong> The nurse should rotate nitroglycerin paste application sites and cover the medication with plastic wrap and tape after application. The nurse should not shave the site because this can irritate or break the skin and increase absorption. Doses should not be applied back-to-back because a nitrate-free period helps prevent tolerance. The paste should not be massaged into the skin because this can increase absorption and cause hypotension.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>The nurse should rotate nitroglycerin paste application sites and cover the medication with plastic wrap and tape after application. The nurse should not shave the site because this can irritate or break the skin and increase absorption. Doses should not be applied back-to-back because a nitrate-free period helps prevent tolerance. The paste should not be massaged into the skin because this can increase absorption and cause hypotension.</p>
+</div>
 </details>
 
 ---
@@ -143,10 +164,13 @@ A nurse is providing teaching to a client who has angina and receives a prescrip
 <p class="answer-choice"><strong>C.</strong> "This medication breaks down clots that may be blocking blood flow to my heart."</p>
 <p class="answer-choice"><strong>D.</strong> "This medication makes my heart squeeze harder so more blood leaves with each beat."</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 <p class="quiz-answer"><strong>Answer: B</strong></p>
-<p class="quiz-rationale"><strong>Rationale:</strong> Nifedipine is a calcium channel blocker that relaxes blood vessels, which lowers afterload and decreases the heart's workload. This can help prevent angina by improving the balance between oxygen supply and demand. It does not dissolve clots, increase contractility, or primarily work by slowing AV node conduction like some other cardiac medications.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Nifedipine is a calcium channel blocker that relaxes blood vessels, which lowers afterload and decreases the heart's workload. This can help prevent angina by improving the balance between oxygen supply and demand. It does not dissolve clots, increase contractility, or primarily work by slowing AV node conduction like some other cardiac medications.</p>
+</div>
 </details>
 
 ---
@@ -160,10 +184,13 @@ A nurse is providing dietary teaching to a client who has angina. Which meal cho
 <p class="answer-choice"><strong>C.</strong> Vegetable soup with crackers and canned peaches</p>
 <p class="answer-choice"><strong>D.</strong> Scrambled eggs with turkey bacon, toast, and orange juice</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 <p class="quiz-answer"><strong>Answer: B</strong></p>
-<p class="quiz-rationale"><strong>Rationale:</strong> Dietary teaching for angina focuses on heart-healthy choices that are lower in saturated fat, cholesterol, and sodium. Grilled chicken, vegetables, fruit, olive oil, and water are the best option listed. The other meals are not all "terrible," but they include more processed foods, sodium, refined grains, or higher-fat choices.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Dietary teaching for angina focuses on heart-healthy choices that are lower in saturated fat, cholesterol, and sodium. Grilled chicken, vegetables, fruit, olive oil, and water are the best option listed. The other meals are not all "terrible," but they include more processed foods, sodium, refined grains, or higher-fat choices.</p>
+</div>
 </details>
 
 ---
@@ -177,10 +204,13 @@ A nurse is providing teaching to a client who has angina and asks about taking s
 <p class="answer-choice"><strong>C.</strong> "I can take nitroglycerin after sildenafil if I check my blood pressure first."</p>
 <p class="answer-choice"><strong>D.</strong> "I should avoid using nitroglycerin close to the time I take sildenafil."</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 <p class="quiz-answer"><strong>Answer: C</strong></p>
-<p class="quiz-rationale"><strong>Rationale:</strong> Sildenafil and nitroglycerin should not be taken close together because both can cause vasodilation and a serious drop in blood pressure. Checking blood pressure first does not make the combination safe. The client should avoid combining them and should tell the provider about sildenafil use.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Sildenafil and nitroglycerin should not be taken close together because both can cause vasodilation and a serious drop in blood pressure. Checking blood pressure first does not make the combination safe. The client should avoid combining them and should tell the provider about sildenafil use.</p>
+</div>
 </details>
 
 ---
@@ -194,10 +224,13 @@ A nurse is assessing a client who reports chest pressure that began 40 minutes a
 <p class="answer-choice"><strong>C.</strong> Chest pressure that lasts longer than expected and occurs at rest</p>
 <p class="answer-choice"><strong>D.</strong> Chest tightness that occurs predictably with activity</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 <p class="quiz-answer"><strong>Answer: C</strong></p>
-<p class="quiz-rationale"><strong>Rationale:</strong> Chest pressure that occurs at rest, lasts longer than expected, radiates to the jaw or arm, and is associated with nausea or diaphoresis is concerning for myocardial infarction. Stable angina is usually predictable, occurs with activity or stress, and improves with rest or nitroglycerin.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Chest pressure that occurs at rest, lasts longer than expected, radiates to the jaw or arm, and is associated with nausea or diaphoresis is concerning for myocardial infarction. Stable angina is usually predictable, occurs with activity or stress, and improves with rest or nitroglycerin.</p>
+</div>
 </details>
 
 ---
@@ -211,10 +244,13 @@ A nurse is caring for a client who reports crushing chest pain that radiates to 
 <p class="answer-choice"><strong>C.</strong> Establish IV access for emergency medications</p>
 <p class="answer-choice"><strong>D.</strong> Administer prescribed oxygen if the oxygen saturation is low</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 <p class="quiz-answer"><strong>Answer: B</strong></p>
-<p class="quiz-rationale"><strong>Rationale:</strong> All of these actions may be appropriate for a client with suspected myocardial infarction. The priority is to obtain a 12-lead ECG to quickly identify ischemia or infarction so treatment can begin. Nitroglycerin, IV access, and oxygen may be needed, but the ECG is the priority diagnostic action during suspected MI.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>All of these actions may be appropriate for a client with suspected myocardial infarction. The priority is to obtain a 12-lead ECG to quickly identify ischemia or infarction so treatment can begin. Nitroglycerin, IV access, and oxygen may be needed, but the ECG is the priority diagnostic action during suspected MI.</p>
+</div>
 </details>
 
 ---
@@ -228,10 +264,13 @@ A nurse is caring for a client who had a myocardial infarction 2 hours ago and i
 <p class="answer-choice"><strong>C.</strong> Shortness of breath</p>
 <p class="answer-choice"><strong>D.</strong> Blockage of the central venous catheter</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 <p class="quiz-answer"><strong>Answer: A</strong></p>
-<p class="quiz-rationale"><strong>Rationale:</strong> Alteplase is a thrombolytic medication that dissolves clots. Because it breaks down clots, the major adverse effect is bleeding, including serious internal bleeding. Increased clot formation and catheter blockage are the opposite of the medication's action. Shortness of breath may occur for many reasons, but bleeding is the priority adverse effect to monitor for with alteplase.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Alteplase is a thrombolytic medication that dissolves clots. Because it breaks down clots, the major adverse effect is bleeding, including serious internal bleeding. Increased clot formation and catheter blockage are the opposite of the medication's action. Shortness of breath may occur for many reasons, but bleeding is the priority adverse effect to monitor for with alteplase.</p>
+</div>
 </details>
 
 ---
@@ -245,10 +284,13 @@ A nurse is teaching a group of clients about myocardial infarction warning signs
 <p class="answer-choice"><strong>C.</strong> "Clients with diabetes usually feel chest pain earlier because nerve changes make the heart more sensitive."</p>
 <p class="answer-choice"><strong>D.</strong> "Older adults usually have the same symptoms as younger adults, but the pain is more intense."</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 <p class="quiz-answer"><strong>Answer: A</strong></p>
-<p class="quiz-rationale"><strong>Rationale:</strong> Atypical myocardial infarction symptoms are more common in women, older adults, and clients with diabetes. Clients with diabetes may have decreased pain sensation related to neuropathy, so they might not feel classic crushing chest pain. Instead, they may report fatigue, nausea, shortness of breath, weakness, dizziness, epigastric discomfort, or indigestion. Mild or unusual symptoms should still be taken seriously.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Atypical myocardial infarction symptoms are more common in women, older adults, and clients with diabetes. Clients with diabetes may have decreased pain sensation related to neuropathy, so they might not feel classic crushing chest pain. Instead, they may report fatigue, nausea, shortness of breath, weakness, dizziness, epigastric discomfort, or indigestion. Mild or unusual symptoms should still be taken seriously.</p>
+</div>
 </details>
 
 ---
@@ -262,10 +304,13 @@ A nurse is reviewing the 12-lead ECG for a client who reports chest pressure, na
 <p class="answer-choice"><strong>C.</strong> The finding indicates fluid overload from worsening heart failure</p>
 <p class="answer-choice"><strong>D.</strong> The finding is most consistent with a slow heart rhythm from digoxin toxicity</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 <p class="quiz-answer"><strong>Answer: B</strong></p>
-<p class="quiz-rationale"><strong>Rationale:</strong> ST-segment elevation on a 12-lead ECG is concerning for acute myocardial injury, such as a STEMI, especially when the client has chest pressure, nausea, and diaphoresis. This requires rapid intervention to restore blood flow to the heart muscle. Stable angina is usually relieved by rest or nitroglycerin and should not cause persistent ST elevation.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>ST-segment elevation on a 12-lead ECG is concerning for acute myocardial injury, such as a STEMI, especially when the client has chest pressure, nausea, and diaphoresis. This requires rapid intervention to restore blood flow to the heart muscle. Stable angina is usually relieved by rest or nitroglycerin and should not cause persistent ST elevation.</p>
+</div>
 </details>
 
 ---
@@ -279,10 +324,13 @@ A nurse is preparing to administer IV nitroprusside to a client who requires rap
 <p class="answer-choice"><strong>C.</strong> Ensure the freshly prepared IV solution has a slight greenish tint</p>
 <p class="answer-choice"><strong>D.</strong> Cover the medication with an amber plastic bag to protect it from light</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 <p class="quiz-answer"><strong>Answer: A</strong></p>
-<p class="quiz-rationale"><strong>Rationale:</strong> Nitroprusside is a potent IV vasodilator, so the infusion rate is weight-based and must be carefully regulated with an infusion pump. The nurse should monitor blood pressure closely because the medication can cause a rapid, dangerous drop in blood pressure. The IV bag should usually be changed every 24 hr, not every 48 hr. A freshly prepared nitroprusside solution should be light brown; the nurse should discard the solution if it has a blue, green, or red discoloration. The medication must be protected from light, but an amber plastic bag does not provide enough protection; the solution should be covered with an opaque material according to facility policy.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Nitroprusside is a potent IV vasodilator, so the infusion rate is weight-based and must be carefully regulated with an infusion pump. The nurse should monitor blood pressure closely because the medication can cause a rapid, dangerous drop in blood pressure. The IV bag should usually be changed every 24 hr, not every 48 hr. A freshly prepared nitroprusside solution should be light brown; the nurse should discard the solution if it has a blue, green, or red discoloration. The medication must be protected from light, but an amber plastic bag does not provide enough protection; the solution should be covered with an opaque material according to facility policy.</p>
+</div>
 </details>
 
 ---
@@ -296,10 +344,13 @@ A nurse is teaching a client who had a myocardial infarction about a low-cholest
 <p class="answer-choice"><strong>C.</strong> Cheese omelet and turkey bacon</p>
 <p class="answer-choice"><strong>D.</strong> Liver and onions</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 <p class="quiz-answer"><strong>Answer: A</strong></p>
-<p class="quiz-rationale"><strong>Rationale:</strong> Chicken breast is a lower-cholesterol protein choice, and vegetables such as corn are cholesterol-free. Shrimp, eggs, cheese, liver, and other organ meats are higher in cholesterol, so they are not the best choices for a low-cholesterol diet after myocardial infarction.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Chicken breast is a lower-cholesterol protein choice, and vegetables such as corn are cholesterol-free. Shrimp, eggs, cheese, liver, and other organ meats are higher in cholesterol, so they are not the best choices for a low-cholesterol diet after myocardial infarction.</p>
+</div>
 </details>
 
 ---
@@ -313,10 +364,13 @@ A nurse is reviewing troponin results for a client who reports chest pressure an
 <p class="answer-choice"><strong>C.</strong> Troponin 0.04 ng/mL that decreases to 0.03 ng/mL</p>
 <p class="answer-choice"><strong>D.</strong> Troponin 0.05 ng/mL that increases to 0.12 ng/mL</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 <p class="quiz-answer"><strong>Answer: D</strong></p>
-<p class="quiz-rationale"><strong>Rationale:</strong> Troponin is the key cardiac marker for myocardial infarction. A value above the expected range can indicate heart muscle injury, but the trend matters. A rising troponin is more concerning for active or recent injury than a normal, stable, or falling result. Troponin usually begins to rise about 3 to 6 hours after heart muscle damage and can stay elevated for several days.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Troponin is the key cardiac marker for myocardial infarction. A value above the expected range can indicate heart muscle injury, but the trend matters. A rising troponin is more concerning for active or recent injury than a normal, stable, or falling result. Troponin usually begins to rise about 3 to 6 hours after heart muscle damage and can stay elevated for several days.</p>
+</div>
 </details>
 
 ---
@@ -330,10 +384,13 @@ A client arrives to the emergency department reporting chest pressure that start
 <p class="answer-choice"><strong>C.</strong> Prepare the client for discharge if the 12-lead ECG is unchanged</p>
 <p class="answer-choice"><strong>D.</strong> Request a BNP level to determine whether heart muscle damage occurred</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 <p class="quiz-answer"><strong>Answer: A</strong></p>
-<p class="quiz-rationale"><strong>Rationale:</strong> Troponin is the key cardiac marker for myocardial injury, but it usually begins to rise about 3 to 6 hours after heart muscle damage. A normal troponin 1 hour after chest pain starts does not fully rule out myocardial infarction, so repeat levels are needed to evaluate for a rising trend. BNP is used more for heart failure/fluid overload, not heart muscle damage.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Troponin is the key cardiac marker for myocardial injury, but it usually begins to rise about 3 to 6 hours after heart muscle damage. A normal troponin 1 hour after chest pain starts does not fully rule out myocardial infarction, so repeat levels are needed to evaluate for a rising trend. BNP is used more for heart failure/fluid overload, not heart muscle damage.</p>
+</div>
 </details>
 
 ---
@@ -347,10 +404,13 @@ A nurse is providing discharge teaching to a client who recently had a myocardia
 <p class="answer-choice"><strong>C.</strong> "I will avoid holding my breath when I lift or change positions."</p>
 <p class="answer-choice"><strong>D.</strong> "I will hold my breath briefly when moving in bed so I can use my abdominal muscles."</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 <p class="quiz-answer"><strong>Answer: D</strong></p>
-<p class="quiz-rationale"><strong>Rationale:</strong> Holding the breath during movement can cause the Valsalva maneuver, which is dangerous after a myocardial infarction. Valsalva stimulation can trigger bradycardia, PVCs, dysrhythmias, and decreased cardiac output. Stool softeners, avoiding constipation, exhaling with activity, and not holding the breath help reduce cardiac stress.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Holding the breath during movement can cause the Valsalva maneuver, which is dangerous after a myocardial infarction. Valsalva stimulation can trigger bradycardia, PVCs, dysrhythmias, and decreased cardiac output. Stool softeners, avoiding constipation, exhaling with activity, and not holding the breath help reduce cardiac stress.</p>
+</div>
 </details>
 
 ---
@@ -364,10 +424,13 @@ A nurse is reviewing assessment findings for a client who recently started takin
 <p class="answer-choice"><strong>C.</strong> Swelling in the ankles and constipation</p>
 <p class="answer-choice"><strong>D.</strong> Yellow vision and nausea</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 <p class="quiz-answer"><strong>Answer: C</strong></p>
-<p class="quiz-rationale"><strong>Rationale:</strong> Nifedipine is a calcium channel blocker. Common adverse effects include peripheral edema, flushing, headache, dizziness, hypotension, and constipation. A dry cough is more associated with ACE inhibitors, ringing in the ears can occur with loop diuretics, and yellow vision with nausea is concerning for digoxin toxicity.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Nifedipine is a calcium channel blocker. Common adverse effects include peripheral edema, flushing, headache, dizziness, hypotension, and constipation. A dry cough is more associated with ACE inhibitors, ringing in the ears can occur with loop diuretics, and yellow vision with nausea is concerning for digoxin toxicity.</p>
+</div>
 </details>
 
 ---
@@ -381,10 +444,13 @@ A nurse is providing discharge teaching to a client following open-heart surgery
 <p class="answer-choice"><strong>C.</strong> "I will avoid coughing so I do not put pressure on my incision."</p>
 <p class="answer-choice"><strong>D.</strong> "I will report drainage only if I also have chest pain."</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 <p class="quiz-answer"><strong>Answer: B</strong></p>
-<p class="quiz-rationale"><strong>Rationale:</strong> Sternal precautions protect the healing sternum after open-heart surgery. The client should avoid lifting, pushing, pulling, or using the arms to push up. The client should keep the arms close to the body, use the legs to stand, and splint the chest with a pillow when coughing. The client should report popping, clicking, increased pain, drainage, redness, or separation of the incision.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Sternal precautions protect the healing sternum after open-heart surgery. The client should avoid lifting, pushing, pulling, or using the arms to push up. The client should keep the arms close to the body, use the legs to stand, and splint the chest with a pillow when coughing. The client should report popping, clicking, increased pain, drainage, redness, or separation of the incision.</p>
+</div>
 </details>
 
 ---
@@ -399,10 +465,13 @@ A nurse is reviewing anticipated prescriptions for a client who is being treated
 <p class="answer-choice"><strong>D.</strong> Provide supplemental oxygen if the client is hypoxic or short of breath</p>
 <p class="answer-choice"><strong>E.</strong> Give prescribed opioid analgesia if chest pain is not relieved by other measures</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 <p class="quiz-answer"><strong>Answer: A, C, D, E</strong></p>
-<p class="quiz-rationale"><strong>Rationale:</strong> Initial treatment for myocardial infarction can include aspirin to reduce platelet aggregation, nitroglycerin to improve blood flow and decrease cardiac workload, oxygen if the client is hypoxic or short of breath, and morphine/opioid analgesia if pain is not relieved by other measures. Bed rest may be used to decrease cardiac workload, but it is not part of the MONA medication set and is not the best answer for this question asking about anticipated initial MI treatment measures.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Initial treatment for myocardial infarction can include aspirin to reduce platelet aggregation, nitroglycerin to improve blood flow and decrease cardiac workload, oxygen if the client is hypoxic or short of breath, and morphine/opioid analgesia if pain is not relieved by other measures. Bed rest may be used to decrease cardiac workload, but it is not part of the MONA medication set and is not the best answer for this question asking about anticipated initial MI treatment measures.</p>
+</div>
 </details>
 
 ---
@@ -416,10 +485,13 @@ A nurse is reinforcing teaching with a new nurse about preventing Valsalva maneu
 <p class="answer-choice"><strong>C.</strong> "Holding the breath decreases afterload, which can reduce stress on the injured myocardium."</p>
 <p class="answer-choice"><strong>D.</strong> "Straining improves coronary perfusion by briefly increasing pressure in the chest."</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 <p class="quiz-answer"><strong>Answer: B</strong></p>
-<p class="quiz-rationale"><strong>Rationale:</strong> The Valsalva maneuver occurs when a client bears down against a closed glottis, such as straining during a bowel movement or holding the breath during activity. This can stimulate the vagus nerve and cause bradycardia, PVCs, dysrhythmias, and decreased cardiac output. After an MI, the nurse should prevent straining because the injured heart may not tolerate sudden rhythm or output changes.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>The Valsalva maneuver occurs when a client bears down against a closed glottis, such as straining during a bowel movement or holding the breath during activity. This can stimulate the vagus nerve and cause bradycardia, PVCs, dysrhythmias, and decreased cardiac output. After an MI, the nurse should prevent straining because the injured heart may not tolerate sudden rhythm or output changes.</p>
+</div>
 </details>
 
 ---
@@ -433,10 +505,13 @@ A nurse is reinforcing preoperative teaching for a client who is scheduled for c
 <p class="answer-choice"><strong>C.</strong> "This medication helps prevent swelling in my airway after I am extubated."</p>
 <p class="answer-choice"><strong>D.</strong> "This medication improves blood flow to the graft site before surgery."</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 <p class="quiz-answer"><strong>Answer: A</strong></p>
-<p class="quiz-rationale"><strong>Rationale:</strong> Mupirocin, also called Bactroban, may be applied inside the nares before surgery to reduce bacteria carried in the nose, including MRSA colonization. Reducing nasal bacteria lowers the risk of postoperative infection. It does not work as a nasal moisturizer, airway medication, or medication to improve graft blood flow.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Mupirocin, also called Bactroban, may be applied inside the nares before surgery to reduce bacteria carried in the nose, including MRSA colonization. Reducing nasal bacteria lowers the risk of postoperative infection. It does not work as a nasal moisturizer, airway medication, or medication to improve graft blood flow.</p>
+</div>
 </details>
 
 ---
@@ -450,10 +525,13 @@ A nurse is teaching a client who is scheduled for balloon angioplasty with possi
 <p class="answer-choice"><strong>C.</strong> "The stent will dissolve any blood clots that are blocking my coronary arteries."</p>
 <p class="answer-choice"><strong>D.</strong> "This procedure replaces my blocked artery with a healthy blood vessel from another part of my body."</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 <p class="quiz-answer"><strong>Answer: B</strong></p>
-<p class="quiz-rationale"><strong>Rationale:</strong> Balloon angioplasty opens a narrowed coronary artery by inflating a small balloon at the blockage site. A stent may be placed to help keep the artery open. The balloon does not remove plaque permanently, the stent does not dissolve clots, and replacing a blocked artery with another blood vessel describes coronary artery bypass graft surgery.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Balloon angioplasty opens a narrowed coronary artery by inflating a small balloon at the blockage site. A stent may be placed to help keep the artery open. The balloon does not remove plaque permanently, the stent does not dissolve clots, and replacing a blocked artery with another blood vessel describes coronary artery bypass graft surgery.</p>
+</div>
 </details>
 
 ---
@@ -467,10 +545,13 @@ A nurse is evaluating a client's understanding of coronary artery bypass graft s
 <p class="answer-choice"><strong>C.</strong> "Medication will be given to dissolve the clot blocking blood flow to my heart."</p>
 <p class="answer-choice"><strong>D.</strong> "A blood vessel from another part of my body will be used to create a new route for blood flow around the blockage."</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 <p class="quiz-answer"><strong>Answer: D</strong></p>
-<p class="quiz-rationale"><strong>Rationale:</strong> Coronary artery bypass graft surgery uses a blood vessel graft, often from the leg, arm, or chest, to create a new pathway for blood to flow around a blocked coronary artery. Balloon inflation describes angioplasty, a mesh tube describes a stent, and clot-dissolving medication describes thrombolytic therapy.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Coronary artery bypass graft surgery uses a blood vessel graft, often from the leg, arm, or chest, to create a new pathway for blood to flow around a blocked coronary artery. Balloon inflation describes angioplasty, a mesh tube describes a stent, and clot-dissolving medication describes thrombolytic therapy.</p>
+</div>
 </details>
 
 ---
@@ -484,10 +565,13 @@ A nurse is assessing a client who reports a history of cardiac surgery. The nurs
 <p class="answer-choice"><strong>C.</strong> Cardiac catheterization through the femoral artery</p>
 <p class="answer-choice"><strong>D.</strong> Pacemaker insertion</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 <p class="quiz-answer"><strong>Answer: B</strong></p>
-<p class="quiz-rationale"><strong>Rationale:</strong> A long midline sternotomy scar, sometimes called a "zipper scar," is commonly associated with open-heart surgery such as coronary artery bypass graft surgery. Balloon angioplasty and cardiac catheterization are usually performed through an artery such as the radial or femoral artery, and a pacemaker insertion usually leaves a smaller scar near the upper chest.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>A long midline sternotomy scar, sometimes called a "zipper scar," is commonly associated with open-heart surgery such as coronary artery bypass graft surgery. Balloon angioplasty and cardiac catheterization are usually performed through an artery such as the radial or femoral artery, and a pacemaker insertion usually leaves a smaller scar near the upper chest.</p>
+</div>
 </details>
 
 ---
@@ -501,10 +585,13 @@ A nurse is preparing to give sublingual nitroglycerin to a client who reports ch
 <p class="answer-choice"><strong>C.</strong> Give the medication with a full glass of water</p>
 <p class="answer-choice"><strong>D.</strong> Place the medication in the client's cheek and have the client chew it</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 <p class="quiz-answer"><strong>Answer: A</strong></p>
-<p class="quiz-rationale"><strong>Rationale:</strong> Nitroglycerin can cause vasodilation, hypotension, dizziness, and headache. The client should sit or lie down before taking it to reduce the risk for falls. Sublingual nitroglycerin is placed under the tongue and allowed to dissolve; it should not be swallowed with water or chewed.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Nitroglycerin can cause vasodilation, hypotension, dizziness, and headache. The client should sit or lie down before taking it to reduce the risk for falls. Sublingual nitroglycerin is placed under the tongue and allowed to dissolve; it should not be swallowed with water or chewed.</p>
+</div>
 </details>
 
 ---
@@ -518,10 +605,13 @@ A nurse is reviewing symptoms reported by a client who has a history of angina. 
 <p class="answer-choice"><strong>C.</strong> Chest pain that occurs at rest and is lasting longer than usual</p>
 <p class="answer-choice"><strong>D.</strong> Chest tightness that improves after one dose of nitroglycerin</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 <p class="quiz-answer"><strong>Answer: C</strong></p>
-<p class="quiz-rationale"><strong>Rationale:</strong> Unstable angina is new, worsening, occurs at rest, lasts longer than usual, or is not relieved by rest or nitroglycerin. This requires immediate evaluation because it can progress to myocardial infarction. Predictable chest discomfort with activity or stress that improves with rest is more consistent with stable angina.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Unstable angina is new, worsening, occurs at rest, lasts longer than usual, or is not relieved by rest or nitroglycerin. This requires immediate evaluation because it can progress to myocardial infarction. Predictable chest discomfort with activity or stress that improves with rest is more consistent with stable angina.</p>
+</div>
 </details>
 
 ---
@@ -535,10 +625,13 @@ A nurse is providing teaching to a client who has coronary artery disease and is
 <p class="answer-choice"><strong>C.</strong> "Aspirin works by slowing my heart rate so my heart uses less oxygen."</p>
 <p class="answer-choice"><strong>D.</strong> "Aspirin prevents chest pain by relaxing the arteries around my heart."</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 <p class="quiz-answer"><strong>Answer: B</strong></p>
-<p class="quiz-rationale"><strong>Rationale:</strong> Aspirin reduces platelet aggregation, which helps decrease clot formation during coronary artery disease or myocardial infarction. It does not dissolve existing clots like a thrombolytic, slow the heart rate like some beta blockers, or relax coronary arteries like nitroglycerin.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Aspirin reduces platelet aggregation, which helps decrease clot formation during coronary artery disease or myocardial infarction. It does not dissolve existing clots like a thrombolytic, slow the heart rate like some beta blockers, or relax coronary arteries like nitroglycerin.</p>
+</div>
 </details>
 
 ---
@@ -552,8 +645,11 @@ A nurse is reviewing activity instructions with a client who is recovering from 
 <p class="answer-choice"><strong>C.</strong> "I should return to my usual activity level as soon as I get home."</p>
 <p class="answer-choice"><strong>D.</strong> "I should increase activity gradually and stop if I develop chest pain, shortness of breath, or dizziness."</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 <p class="quiz-answer"><strong>Answer: D</strong></p>
-<p class="quiz-rationale"><strong>Rationale:</strong> After a myocardial infarction, activity should be increased gradually, often through a cardiac rehabilitation plan. The client should stop activity and report symptoms such as chest pain, shortness of breath, dizziness, palpitations, or unusual fatigue. Complete inactivity and suddenly returning to usual activity can both be unsafe.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>After a myocardial infarction, activity should be increased gradually, often through a cardiac rehabilitation plan. The client should stop activity and report symptoms such as chest pain, shortness of breath, dizziness, palpitations, or unusual fatigue. Complete inactivity and suddenly returning to usual activity can both be unsafe.</p>
+</div>
 </details>

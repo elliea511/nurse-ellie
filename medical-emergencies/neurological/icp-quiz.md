@@ -22,10 +22,13 @@ A nurse is caring for a client who is at risk for increased intracranial pressur
 <p class="answer-choice"><strong>C.</strong> Bradycardia with widened pulse pressure</p>
 <p class="answer-choice"><strong>D.</strong> Cheyne-Stokes respirations</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 <p class="quiz-answer"><strong>Answer: A</strong></p>
-<p class="quiz-rationale"><strong>Rationale:</strong> The earliest and most important sign of increased intracranial pressure is a change in level of consciousness. This may appear as restlessness, confusion, drowsiness, irritability, or decreased responsiveness. Fixed pupils, bradycardia with widened pulse pressure, and Cheyne-Stokes respirations are later or more severe findings.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>The earliest and most important sign of increased intracranial pressure is a change in level of consciousness. This may appear as restlessness, confusion, drowsiness, irritability, or decreased responsiveness. Fixed pupils, bradycardia with widened pulse pressure, and Cheyne-Stokes respirations are later or more severe findings.</p>
+</div>
 </details>
 
 ---
@@ -39,10 +42,13 @@ A nurse is reviewing vital signs for a client who has increased intracranial pre
 <p class="answer-choice"><strong>C.</strong> Fever, tachycardia, and narrow pulse pressure</p>
 <p class="answer-choice"><strong>D.</strong> Hypotension, bradycardia, and shallow respirations</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 <p class="quiz-answer"><strong>Answer: B</strong></p>
-<p class="quiz-rationale"><strong>Rationale:</strong> Cushing's triad is a late sign of increased ICP. It includes increased systolic blood pressure or widened pulse pressure, bradycardia, and decreased or abnormal respirations. This is an emergency finding that requires immediate intervention.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Cushing's triad is a late sign of increased ICP. It includes increased systolic blood pressure or widened pulse pressure, bradycardia, and decreased or abnormal respirations. This is an emergency finding that requires immediate intervention.</p>
+</div>
 </details>
 
 ---
@@ -57,10 +63,13 @@ A nurse is caring for a client with increased intracranial pressure. Which of th
 <p class="answer-choice"><strong>D.</strong> Limit unnecessary stimulation.</p>
 <p class="answer-choice"><strong>E.</strong> Avoid extreme hip flexion.</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 <p class="quiz-answer"><strong>Answer: A, B, D, E</strong></p>
-<p class="quiz-rationale"><strong>Rationale:</strong> For increased ICP, the nurse should promote venous drainage by keeping the head neutral and midline, placing the client in Semi-Fowler's position, limiting stimulation, and avoiding extreme hip flexion. Coughing should be avoided when possible because it can increase intracranial pressure.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>For increased ICP, the nurse should promote venous drainage by keeping the head neutral and midline, placing the client in Semi-Fowler's position, limiting stimulation, and avoiding extreme hip flexion. Coughing should be avoided when possible because it can increase intracranial pressure.</p>
+</div>
 </details>
 
 ---
@@ -74,10 +83,13 @@ A nurse is caring for a client with increased intracranial pressure who needs su
 <p class="answer-choice"><strong>C.</strong> Hyperoxygenate before suctioning.</p>
 <p class="answer-choice"><strong>D.</strong> Cluster suctioning with bathing and repositioning.</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 <p class="quiz-answer"><strong>Answer: C</strong></p>
-<p class="quiz-rationale"><strong>Rationale:</strong> The nurse should hyperoxygenate before suctioning because suctioning can decrease oxygenation and increase ICP. Suctioning should not be prolonged, the client should not be placed flat unless specifically ordered, and care should not be clustered because too much stimulation at once can worsen ICP.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>The nurse should hyperoxygenate before suctioning because suctioning can decrease oxygenation and increase ICP. Suctioning should not be prolonged, the client should not be placed flat unless specifically ordered, and care should not be clustered because too much stimulation at once can worsen ICP.</p>
+</div>
 </details>
 
 ---
@@ -91,10 +103,13 @@ A nurse is caring for a client with increased intracranial pressure. Which of th
 <p class="answer-choice"><strong>C.</strong> Restlessness after family members visit</p>
 <p class="answer-choice"><strong>D.</strong> Blood pressure of 168/92 mm Hg</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 <p class="quiz-answer"><strong>Answer: A</strong></p>
-<p class="quiz-rationale"><strong>Rationale:</strong> New confusion and decreased responsiveness indicate a change in level of consciousness, which is the earliest and most important sign of increased ICP. Worsening neurological changes should be reported immediately to the provider.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>New confusion and decreased responsiveness indicate a change in level of consciousness, which is the earliest and most important sign of increased ICP. Worsening neurological changes should be reported immediately to the provider.</p>
+</div>
 </details>
 
 ---
@@ -108,10 +123,13 @@ A nurse is caring for a client who has increased intracranial pressure. Which of
 <p class="answer-choice"><strong>C.</strong> Clear drainage from the ear</p>
 <p class="answer-choice"><strong>D.</strong> Fixed and dilated pupils</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 <p class="quiz-answer"><strong>Answer: A</strong></p>
-<p class="quiz-rationale"><strong>Rationale:</strong> Papilledema is swelling of the optic disc that can occur with increased intracranial pressure. The nurse should continue to monitor neurological status, pupils, level of consciousness, and other signs of worsening ICP.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Papilledema is swelling of the optic disc that can occur with increased intracranial pressure. The nurse should continue to monitor neurological status, pupils, level of consciousness, and other signs of worsening ICP.</p>
+</div>
 </details>
 
 ---
@@ -125,10 +143,13 @@ A nurse is caring for a client with a head injury who has clear drainage from th
 <p class="answer-choice"><strong>C.</strong> Suction the nose to keep the airway clear.</p>
 <p class="answer-choice"><strong>D.</strong> Place the client flat to decrease drainage.</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 <p class="quiz-answer"><strong>Answer: B</strong></p>
-<p class="quiz-rationale"><strong>Rationale:</strong> Clear drainage from the ears or nose after a head injury may indicate cerebrospinal fluid leakage. The nurse should monitor for the halo sign and report the finding. The nurse should not pack the nose, suction unnecessarily, or place the client flat.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Clear drainage from the ears or nose after a head injury may indicate cerebrospinal fluid leakage. The nurse should monitor for the halo sign and report the finding. The nurse should not pack the nose, suction unnecessarily, or place the client flat.</p>
+</div>
 </details>
 
 ---
@@ -142,10 +163,13 @@ A nurse is caring for a client with increased intracranial pressure. Which of th
 <p class="answer-choice"><strong>C.</strong> Leaving the television on continuously in the client's room</p>
 <p class="answer-choice"><strong>D.</strong> Repositioning the client every 2 hours on a strict schedule even when resting</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 <p class="quiz-answer"><strong>Answer: D</strong></p>
-<p class="quiz-rationale"><strong>Rationale:</strong> The nurse should avoid repositioning the client on a strict schedule when the client is resting because unnecessary activity and stimulation can worsen increased ICP. The nurse should still protect the skin and reposition as needed, but rest periods are important. Multiple visitors, unnecessary hygiene care during sleep, and continuous noise should also be avoided because they can increase stimulation.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>The nurse should avoid repositioning the client on a strict schedule when the client is resting because unnecessary activity and stimulation can worsen increased ICP. The nurse should still protect the skin and reposition as needed, but rest periods are important. Multiple visitors, unnecessary hygiene care during sleep, and continuous noise should also be avoided because they can increase stimulation.</p>
+</div>
 </details>
 
 ---
@@ -159,10 +183,13 @@ A nurse is caring for a client with increased intracranial pressure who develops
 <p class="answer-choice"><strong>C.</strong> Fever may occur from hypothalamus injury or infection and should be reported.</p>
 <p class="answer-choice"><strong>D.</strong> Fever indicates the client's intracranial pressure is returning to normal.</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 <p class="quiz-answer"><strong>Answer: C</strong></p>
-<p class="quiz-rationale"><strong>Rationale:</strong> Fever in a client with increased ICP should be reported immediately. It may be caused by infection or injury to the hypothalamus. Fever can increase metabolic demand and worsen the risk for secondary brain injury.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Fever in a client with increased ICP should be reported immediately. It may be caused by infection or injury to the hypothalamus. Fever can increase metabolic demand and worsen the risk for secondary brain injury.</p>
+</div>
 </details>
 
 ---
@@ -176,10 +203,13 @@ A nurse is caring for a client with increased intracranial pressure that has not
 <p class="answer-choice"><strong>C.</strong> Flat supine positioning</p>
 <p class="answer-choice"><strong>D.</strong> Barbiturate coma</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 <p class="quiz-answer"><strong>Answer: D</strong></p>
-<p class="quiz-rationale"><strong>Rationale:</strong> A barbiturate coma may be used when other interventions are unsuccessful for increased ICP. This requires intensive monitoring. Environmental stimulation, prolonged suctioning, and flat positioning can all worsen increased ICP.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>A barbiturate coma may be used when other interventions are unsuccessful for increased ICP. This requires intensive monitoring. Environmental stimulation, prolonged suctioning, and flat positioning can all worsen increased ICP.</p>
+</div>
 </details>
 
 ---
@@ -193,10 +223,13 @@ A nurse is reviewing assessment data for a client who has an intracranial pressu
 <p class="answer-choice"><strong>C.</strong> 12 mm Hg</p>
 <p class="answer-choice"><strong>D.</strong> 28 mm Hg</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 <p class="quiz-answer"><strong>Answer: C</strong></p>
-<p class="quiz-rationale"><strong>Rationale:</strong> A normal intracranial pressure is 0 to 15 mm Hg. An ICP of 20 mm Hg or higher for more than 5 minutes is considered a life-threatening emergency and should be reported immediately.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>A normal intracranial pressure is 0 to 15 mm Hg. An ICP of 20 mm Hg or higher for more than 5 minutes is considered a life-threatening emergency and should be reported immediately.</p>
+</div>
 </details>
 
 ---
@@ -210,10 +243,13 @@ A nurse is caring for a client who has an intracranial pressure reading above 20
 <p class="answer-choice"><strong>C.</strong> Status epilepticus</p>
 <p class="answer-choice"><strong>D.</strong> Cerebral hypoxia</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 <p class="quiz-answer"><strong>Answer: B</strong></p>
-<p class="quiz-rationale"><strong>Rationale:</strong> An ICP of 20 mm Hg or higher for more than 5 minutes is a life-threatening emergency. Sustained increased pressure can decrease cerebral perfusion, damage brain tissue, and lead to brain herniation.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>An ICP of 20 mm Hg or higher for more than 5 minutes is a life-threatening emergency. Sustained increased pressure can decrease cerebral perfusion, damage brain tissue, and lead to brain herniation.</p>
+</div>
 </details>
 
 ---
@@ -227,10 +263,13 @@ A nurse is caring for a client who was admitted after a motor vehicle crash. Whi
 <p class="answer-choice"><strong>C.</strong> Blood pressure 118/76 mm Hg, heart rate 92/min, respirations 18/min</p>
 <p class="answer-choice"><strong>D.</strong> Blood pressure 142/88 mm Hg, heart rate 112/min, respirations 24/min</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 <p class="quiz-answer"><strong>Answer: B</strong></p>
-<p class="quiz-rationale"><strong>Rationale:</strong> This vital sign pattern is concerning for Cushing's triad, a late sign of increased ICP. Cushing's triad includes increased systolic blood pressure with widened pulse pressure, bradycardia, and decreased or abnormal respirations. This is an emergency finding.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>This vital sign pattern is concerning for Cushing's triad, a late sign of increased ICP. Cushing's triad includes increased systolic blood pressure with widened pulse pressure, bradycardia, and decreased or abnormal respirations. This is an emergency finding.</p>
+</div>
 </details>
 
 ---
@@ -244,10 +283,13 @@ A nurse is caring for a client with increased intracranial pressure who develops
 <p class="answer-choice"><strong>C.</strong> Raise the head of the bed and keep the head midline.</p>
 <p class="answer-choice"><strong>D.</strong> Encourage the client to cough to improve oxygenation.</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 <p class="quiz-answer"><strong>Answer: C</strong></p>
-<p class="quiz-rationale"><strong>Rationale:</strong> Cushing's triad is a late emergency sign of increased ICP. The nurse should raise the head of the bed and keep the head midline to promote venous drainage from the brain. Neck flexion, lowering the head of the bed, and coughing can all worsen increased ICP.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Cushing's triad is a late emergency sign of increased ICP. The nurse should raise the head of the bed and keep the head midline to promote venous drainage from the brain. Neck flexion, lowering the head of the bed, and coughing can all worsen increased ICP.</p>
+</div>
 </details>
 
 ---
@@ -261,10 +303,13 @@ A nurse is reviewing the Glasgow Coma Scale score for a client with a head injur
 <p class="answer-choice"><strong>C.</strong> 9</p>
 <p class="answer-choice"><strong>D.</strong> 6</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 <p class="quiz-answer"><strong>Answer: D</strong></p>
-<p class="quiz-rationale"><strong>Rationale:</strong> A Glasgow Coma Scale score of 3 to 8 indicates a severe head injury. A score of 9 to 12 indicates a moderate head injury, and a score of 13 to 15 indicates a mild head injury.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>A Glasgow Coma Scale score of 3 to 8 indicates a severe head injury. A score of 9 to 12 indicates a moderate head injury, and a score of 13 to 15 indicates a mild head injury.</p>
+</div>
 </details>
 
 ---
@@ -278,10 +323,13 @@ A nurse is assessing an infant who may have hydrocephalus. Which of the followin
 <p class="answer-choice"><strong>C.</strong> Pinpoint pupils and flat affect</p>
 <p class="answer-choice"><strong>D.</strong> Decreased urine output and dry mucous membranes</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 <p class="quiz-answer"><strong>Answer: B</strong></p>
-<p class="quiz-rationale"><strong>Rationale:</strong> Hydrocephalus is a buildup of CSF in the brain, which increases pressure on brain tissue. In infants, expected findings include increased head circumference, bulging or tense fontanel, high-pitched cry, poor feeding, vomiting, irritability, seizures, and sunsetting eyes.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Hydrocephalus is a buildup of CSF in the brain, which increases pressure on brain tissue. In infants, expected findings include increased head circumference, bulging or tense fontanel, high-pitched cry, poor feeding, vomiting, irritability, seizures, and sunsetting eyes.</p>
+</div>
 </details>
 
 ---
@@ -295,10 +343,13 @@ A nurse is reinforcing teaching with the parent of an infant who has hydrocephal
 <p class="answer-choice"><strong>C.</strong> "The brain is losing oxygen because the lungs are not exchanging gases well."</p>
 <p class="answer-choice"><strong>D.</strong> "A clot has traveled to the brain and is blocking a cerebral artery."</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 <p class="quiz-answer"><strong>Answer: B</strong></p>
-<p class="quiz-rationale"><strong>Rationale:</strong> Hydrocephalus is a buildup of cerebrospinal fluid (CSF) in the brain. This excess fluid increases pressure on brain tissue and can cause findings such as increased head circumference, bulging fontanel, vomiting, irritability, poor feeding, seizures, and sunsetting eyes.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Hydrocephalus is a buildup of cerebrospinal fluid (CSF) in the brain. This excess fluid increases pressure on brain tissue and can cause findings such as increased head circumference, bulging fontanel, vomiting, irritability, poor feeding, seizures, and sunsetting eyes.</p>
+</div>
 </details>
 
 ---
@@ -312,10 +363,13 @@ A nurse is assessing an infant who has hydrocephalus. Which of the following fin
 <p class="answer-choice"><strong>C.</strong> High-pitched shrill cry</p>
 <p class="answer-choice"><strong>D.</strong> Increased sleepiness after feeding</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 <p class="quiz-answer"><strong>Answer: C</strong></p>
-<p class="quiz-rationale"><strong>Rationale:</strong> A high-pitched or shrill cry can indicate increased intracranial pressure in an infant with hydrocephalus and should be reported immediately. Other concerning findings include bulging fontanel, rapid increase in head size, sunsetting eyes, vomiting, seizures, decreased LOC, or signs of shunt infection or malfunction.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>A high-pitched or shrill cry can indicate increased intracranial pressure in an infant with hydrocephalus and should be reported immediately. Other concerning findings include bulging fontanel, rapid increase in head size, sunsetting eyes, vomiting, seizures, decreased LOC, or signs of shunt infection or malfunction.</p>
+</div>
 </details>
 
 ---
@@ -329,10 +383,13 @@ A nurse is reinforcing teaching with the parent of an infant who is scheduled fo
 <p class="answer-choice"><strong>C.</strong> "The shunt drains extra fluid from the brain into the bladder."</p>
 <p class="answer-choice"><strong>D.</strong> "The shunt drains extra fluid from the brain into the stomach."</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 <p class="quiz-answer"><strong>Answer: A</strong></p>
-<p class="quiz-rationale"><strong>Rationale:</strong> A ventriculoperitoneal shunt drains excess CSF from a ventricle in the brain through tubing under the skin into the peritoneal cavity. This helps remove excess fluid and decrease pressure on brain tissue.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>A ventriculoperitoneal shunt drains excess CSF from a ventricle in the brain through tubing under the skin into the peritoneal cavity. This helps remove excess fluid and decrease pressure on brain tissue.</p>
+</div>
 </details>
 
 ---
@@ -346,10 +403,13 @@ A nurse is caring for an infant after ventriculoperitoneal shunt placement. Whic
 <p class="answer-choice"><strong>C.</strong> Measure head circumference and monitor neurologic status.</p>
 <p class="answer-choice"><strong>D.</strong> Keep the infant sitting upright immediately after surgery.</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 <p class="quiz-answer"><strong>Answer: C</strong></p>
-<p class="quiz-rationale"><strong>Rationale:</strong> After shunt placement, the nurse should monitor vital signs, neurologic status, incision sites, signs of infection, pain, head circumference, and fontanels. The nurse should not place pressure on the shunt side or position the infant directly on the side of the shunt unless ordered.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>After shunt placement, the nurse should monitor vital signs, neurologic status, incision sites, signs of infection, pain, head circumference, and fontanels. The nurse should not place pressure on the shunt side or position the infant directly on the side of the shunt unless ordered.</p>
+</div>
 </details>
 
 ---
@@ -364,10 +424,13 @@ A nurse is reinforcing discharge teaching with the parent of an infant who has a
 <p class="answer-choice"><strong>D.</strong> Mild redness around the healing incision</p>
 <p class="answer-choice"><strong>E.</strong> Bulging fontanel</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 <p class="quiz-answer"><strong>Answer: A, B, C, E</strong></p>
-<p class="quiz-rationale"><strong>Rationale:</strong> Signs of shunt malfunction include high-pitched cry, irritability, vomiting, poor feeding, sleepiness, bulging fontanel, increased head circumference, headache, seizures, decreased LOC, or return of hydrocephalus symptoms. Mild redness around the healing incision is more related to possible incision irritation or infection concern, not shunt malfunction specifically.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Signs of shunt malfunction include high-pitched cry, irritability, vomiting, poor feeding, sleepiness, bulging fontanel, increased head circumference, headache, seizures, decreased LOC, or return of hydrocephalus symptoms. Mild redness around the healing incision is more related to possible incision irritation or infection concern, not shunt malfunction specifically.</p>
+</div>
 </details>
 
 ---
@@ -381,10 +444,13 @@ A nurse is reinforcing discharge teaching with the parent of an infant who had v
 <p class="answer-choice"><strong>C.</strong> "I should massage over the shunt tubing each day to check that it is working."</p>
 <p class="answer-choice"><strong>D.</strong> "I should keep my infant sitting upright at all times to help the shunt drain."</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 <p class="quiz-answer"><strong>Answer: B</strong></p>
-<p class="quiz-rationale"><strong>Rationale:</strong> After shunt placement, the infant should not be positioned directly on the side of the shunt unless ordered. Pressure on the shunt side can cause skin breakdown or shunt problems. The parent should not massage over the tubing or keep the infant sitting upright at all times.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>After shunt placement, the infant should not be positioned directly on the side of the shunt unless ordered. Pressure on the shunt side can cause skin breakdown or shunt problems. The parent should not massage over the tubing or keep the infant sitting upright at all times.</p>
+</div>
 </details>
 
 ---
@@ -398,10 +464,13 @@ A nurse is reinforcing teaching with the parent of an infant who may need a vent
 <p class="answer-choice"><strong>C.</strong> "This shunt drains extra fluid from the brain into the spinal cord."</p>
 <p class="answer-choice"><strong>D.</strong> "This shunt drains extra fluid from the brain into the vascular system near the heart."</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 <p class="quiz-answer"><strong>Answer: D</strong></p>
-<p class="quiz-rationale"><strong>Rationale:</strong> A ventriculoatrial shunt drains CSF from the brain into the vascular system near the heart. A ventriculoperitoneal shunt drains CSF from the brain into the abdominal cavity.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>A ventriculoatrial shunt drains CSF from the brain into the vascular system near the heart. A ventriculoperitoneal shunt drains CSF from the brain into the abdominal cavity.</p>
+</div>
 </details>
 
 ---
@@ -415,10 +484,13 @@ A nurse is caring for a client who has increased intracranial pressure and is pr
 <p class="answer-choice"><strong>C.</strong> Urine output and lung sounds</p>
 <p class="answer-choice"><strong>D.</strong> Bowel sounds and abdominal girth</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 <p class="quiz-answer"><strong>Answer: C</strong></p>
-<p class="quiz-rationale"><strong>Rationale:</strong> Mannitol is an osmotic diuretic that pulls fluid from the brain into the bloodstream so the kidneys can remove it. The nurse should monitor urine output, lung sounds, blood pressure, electrolytes, kidney function, and signs of dehydration.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Mannitol is an osmotic diuretic that pulls fluid from the brain into the bloodstream so the kidneys can remove it. The nurse should monitor urine output, lung sounds, blood pressure, electrolytes, kidney function, and signs of dehydration.</p>
+</div>
 </details>
 
 ---
@@ -432,10 +504,13 @@ A nurse is caring for a client who has increased intracranial pressure and is pr
 <p class="answer-choice"><strong>C.</strong> Mannitol treats infection, and phenytoin prevents swelling around the brain.</p>
 <p class="answer-choice"><strong>D.</strong> Mannitol helps decrease cerebral edema, and phenytoin helps prevent seizure activity.</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 <p class="quiz-answer"><strong>Answer: D</strong></p>
-<p class="quiz-rationale"><strong>Rationale:</strong> Mannitol is an osmotic diuretic that helps pull fluid from the brain into the bloodstream so the kidneys can remove it. Phenytoin (Dilantin) is an anticonvulsant used to prevent or treat seizures. Both may be used in a client with increased intracranial pressure because swelling and seizures can both worsen brain injury.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Mannitol is an osmotic diuretic that helps pull fluid from the brain into the bloodstream so the kidneys can remove it. Phenytoin (Dilantin) is an anticonvulsant used to prevent or treat seizures. Both may be used in a client with increased intracranial pressure because swelling and seizures can both worsen brain injury.</p>
+</div>
 </details>
 
 ---
@@ -449,8 +524,11 @@ A nurse is caring for a client with a head injury who has clear drainage from th
 <p class="answer-choice"><strong>C.</strong> Cerebral hypoxia</p>
 <p class="answer-choice"><strong>D.</strong> Brain herniation</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 <p class="quiz-answer"><strong>Answer: A</strong></p>
-<p class="quiz-rationale"><strong>Rationale:</strong> A halo sign occurs when cerebrospinal fluid mixes with blood or drainage and forms a yellow ring around the fluid on gauze. Clear drainage from the nose or ears after a head injury should be reported because it may indicate a CSF leak.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>A halo sign occurs when cerebrospinal fluid mixes with blood or drainage and forms a yellow ring around the fluid on gauze. Clear drainage from the nose or ears after a head injury should be reported because it may indicate a CSF leak.</p>
+</div>
 </details>

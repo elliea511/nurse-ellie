@@ -22,10 +22,13 @@ A nurse is caring for a child with hemophilia who reports pain and tightness in 
 <p class="answer-choice"><strong>C.</strong> Administer aspirin for pain and inflammation.</p>
 <p class="answer-choice"><strong>D.</strong> Immobilize the joint and apply ice.</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 <p class="quiz-answer"><strong>Answer: D</strong></p>
-<p class="quiz-rationale"><strong>Rationale:</strong> This child is showing signs of bleeding into the joint, also called hemarthrosis. The priority is to stop further bleeding by resting and immobilizing the joint and applying ice. Teaching is important, but it is not first. Aspirin should be avoided because it increases bleeding risk.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>This child is showing signs of bleeding into the joint, also called hemarthrosis. The priority is to stop further bleeding by resting and immobilizing the joint and applying ice. Teaching is important, but it is not first. Aspirin should be avoided because it increases bleeding risk.</p>
+</div>
 </details>
 
 ---
@@ -39,10 +42,13 @@ A nurse is reinforcing discharge teaching with the parent of a child who has hem
 <p class="answer-choice"><strong>C.</strong> "I will have my child wear protective gear during activities."</p>
 <p class="answer-choice"><strong>D.</strong> "I will notify the provider if my child has a headache after hitting his head."</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 <p class="quiz-answer"><strong>Answer: A</strong></p>
-<p class="quiz-rationale"><strong>Rationale:</strong> This statement needs correction because NSAIDs like ibuprofen increase bleeding risk. Children with hemophilia should usually use acetaminophen for pain unless the provider says otherwise. The other statements are appropriate safety measures.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>This statement needs correction because NSAIDs like ibuprofen increase bleeding risk. Children with hemophilia should usually use acetaminophen for pain unless the provider says otherwise. The other statements are appropriate safety measures.</p>
+</div>
 </details>
 
 ---
@@ -57,10 +63,13 @@ A nurse is reviewing safety precautions with the caregivers of a child who has h
 <p class="answer-choice"><strong>D.</strong> Give aspirin for mild pain because it does not affect bleeding.</p>
 <p class="answer-choice"><strong>E.</strong> Report swelling, warmth, or decreased movement of a joint.</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 <p class="quiz-answer"><strong>Answer: B, C, E</strong></p>
-<p class="quiz-rationale"><strong>Rationale:</strong> A soft toothbrush helps prevent gum bleeding. Firm pressure after procedures helps reduce bleeding. Joint swelling, warmth, pain, or decreased movement can mean internal bleeding into the joint and should be reported. Contact sports and aspirin should be avoided because they increase bleeding risk.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>A soft toothbrush helps prevent gum bleeding. Firm pressure after procedures helps reduce bleeding. Joint swelling, warmth, pain, or decreased movement can mean internal bleeding into the joint and should be reported. Contact sports and aspirin should be avoided because they increase bleeding risk.</p>
+</div>
 </details>
 
 ---
@@ -74,10 +83,13 @@ A nurse is teaching the parent of a child who was newly diagnosed with hemophili
 <p class="answer-choice"><strong>C.</strong> "This disorder causes the bone marrow to stop making enough red blood cells."</p>
 <p class="answer-choice"><strong>D.</strong> "This disorder causes bleeding because the blood is missing a clotting factor."</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 <p class="quiz-answer"><strong>Answer: D</strong></p>
-<p class="quiz-rationale"><strong>Rationale:</strong> Hemophilia is a bleeding disorder caused by a deficiency of a clotting factor. Hemophilia A is related to factor VIII deficiency. Platelets may be normal, but the clotting process does not work correctly, so bleeding can last longer.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Hemophilia is a bleeding disorder caused by a deficiency of a clotting factor. Hemophilia A is related to factor VIII deficiency. Platelets may be normal, but the clotting process does not work correctly, so bleeding can last longer.</p>
+</div>
 </details>
 
 ---
@@ -91,10 +103,13 @@ A nurse is reviewing hemophilia with a group of nursing students. Which of the f
 <p class="answer-choice"><strong>C.</strong> "Hemophilia mainly causes delayed clotting after injury or procedures."</p>
 <p class="answer-choice"><strong>D.</strong> "Hemophilia causes high platelet counts that make bleeding more likely."</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 <p class="quiz-answer"><strong>Answer: C</strong></p>
-<p class="quiz-rationale"><strong>Rationale:</strong> Hemophilia causes problems with the clotting cascade, so the client may bleed longer after injury, surgery, injections, or dental work. It is not caused by iron deficiency, high platelets, or excessive clot formation.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Hemophilia causes problems with the clotting cascade, so the client may bleed longer after injury, surgery, injections, or dental work. It is not caused by iron deficiency, high platelets, or excessive clot formation.</p>
+</div>
 </details>
 
 ---
@@ -108,10 +123,13 @@ A nurse is reinforcing teaching with the parents of a child who has hemophilia. 
 <p class="answer-choice"><strong>C.</strong> "Hemophilia occurs only when both parents have the disorder."</p>
 <p class="answer-choice"><strong>D.</strong> "Hemophilia is not inherited and usually develops after frequent childhood injuries."</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 <p class="quiz-answer"><strong>Answer: B</strong></p>
-<p class="quiz-rationale"><strong>Rationale:</strong> Hemophilia is commonly X-linked recessive. A mother can carry the gene on one X chromosome and not show symptoms. Sons who inherit the affected X chromosome can have hemophilia because males only have one X chromosome.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Hemophilia is commonly X-linked recessive. A mother can carry the gene on one X chromosome and not show symptoms. Sons who inherit the affected X chromosome can have hemophilia because males only have one X chromosome.</p>
+</div>
 </details>
 
 ---
@@ -125,10 +143,13 @@ A nurse is reinforcing teaching with a female client who is a carrier for hemoph
 <p class="answer-choice"><strong>C.</strong> "All sons will have hemophilia, and all daughters will be carriers."</p>
 <p class="answer-choice"><strong>D.</strong> "Each son has a 50% chance of having hemophilia."</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 <p class="quiz-answer"><strong>Answer: D</strong></p>
-<p class="quiz-rationale"><strong>Rationale:</strong> Hemophilia is commonly X-linked recessive. If the mother is a carrier and the father does not have hemophilia, each son has a 50% chance of having hemophilia, and each daughter has a 50% chance of being a carrier.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Hemophilia is commonly X-linked recessive. If the mother is a carrier and the father does not have hemophilia, each son has a 50% chance of having hemophilia, and each daughter has a 50% chance of being a carrier.</p>
+</div>
 </details>
 
 ---
@@ -142,10 +163,13 @@ A nurse is reinforcing teaching with the parent of a child who has hemophilia an
 <p class="answer-choice"><strong>C.</strong> "This therapy provides clotting components that help the blood form a more stable clot."</p>
 <p class="answer-choice"><strong>D.</strong> "This therapy replaces red blood cells that are lost during prolonged bleeding episodes."</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 <p class="quiz-answer"><strong>Answer: C</strong></p>
-<p class="quiz-rationale"><strong>Rationale:</strong> Cryoprecipitate is a blood product that contains clotting components, including fibrinogen and factor VIII. In hemophilia, the goal is to help the blood clot more effectively and reduce prolonged bleeding. It does not increase platelets, thin the blood, or primarily replace red blood cells.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Cryoprecipitate is a blood product that contains clotting components, including fibrinogen and factor VIII. In hemophilia, the goal is to help the blood clot more effectively and reduce prolonged bleeding. It does not increase platelets, thin the blood, or primarily replace red blood cells.</p>
+</div>
 </details>
 
 ---
@@ -159,10 +183,13 @@ A nurse is reinforcing teaching with the parent of a child who has hemophilia an
 <p class="answer-choice"><strong>C.</strong> "Cryoprecipitate may be given on a regular schedule or only when bleeding occurs."</p>
 <p class="answer-choice"><strong>D.</strong> "Cryoprecipitate should be stopped once my child no longer bruises easily."</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 <p class="quiz-answer"><strong>Answer: C</strong></p>
-<p class="quiz-rationale"><strong>Rationale:</strong> Cryoprecipitate therapy may be prescribed routinely, such as weekly, or it may be given as needed during a bleeding episode. The parent should not stop or change the therapy schedule without direction from the provider.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Cryoprecipitate therapy may be prescribed routinely, such as weekly, or it may be given as needed during a bleeding episode. The parent should not stop or change the therapy schedule without direction from the provider.</p>
+</div>
 </details>
 
 ---
@@ -176,10 +203,13 @@ A nurse is reinforcing teaching with the parent of a child who has hemophilia. W
 <p class="answer-choice"><strong>C.</strong> "Hemophilia is caused by a lack of hemoglobin, which decreases oxygen delivery to the tissues."</p>
 <p class="answer-choice"><strong>D.</strong> "Hemophilia is caused by weak blood vessels, which makes them rupture more easily."</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 <p class="quiz-answer"><strong>Answer: A</strong></p>
-<p class="quiz-rationale"><strong>Rationale:</strong> Hemophilia A is a factor VIII deficiency. The platelet count may be normal, but the clotting process does not work correctly, so the client can have prolonged bleeding after injury or procedures.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Hemophilia A is a factor VIII deficiency. The platelet count may be normal, but the clotting process does not work correctly, so the client can have prolonged bleeding after injury or procedures.</p>
+</div>
 </details>
 
 ---
@@ -193,10 +223,13 @@ A nurse is caring for a child with hemophilia who has swelling and pain in the l
 <p class="answer-choice"><strong>C.</strong> Apply warm compresses to the leg every 2 hours.</p>
 <p class="answer-choice"><strong>D.</strong> Place a bed cradle over the affected leg.</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 <p class="quiz-answer"><strong>Answer: D</strong></p>
-<p class="quiz-rationale"><strong>Rationale:</strong> A bed cradle keeps the weight of sheets and blankets off the affected extremity, which helps prevent extra pressure, pain, and further bleeding into the tissue or joint. Massage, heat, and unnecessary movement should be avoided because they can increase bleeding.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>A bed cradle keeps the weight of sheets and blankets off the affected extremity, which helps prevent extra pressure, pain, and further bleeding into the tissue or joint. Massage, heat, and unnecessary movement should be avoided because they can increase bleeding.</p>
+</div>
 </details>
 
 ---
@@ -210,10 +243,13 @@ A nurse is reinforcing activity teaching with the parent of a child who has hemo
 <p class="answer-choice"><strong>C.</strong> Joining a hockey league</p>
 <p class="answer-choice"><strong>D.</strong> Playing competitive soccer</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 <p class="quiz-answer"><strong>Answer: A</strong></p>
-<p class="quiz-rationale"><strong>Rationale:</strong> A child with hemophilia can participate in activities that have a lower risk for injury, such as swimming. Contact sports such as football, soccer, and hockey should be avoided because trauma can lead to serious bleeding episodes.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>A child with hemophilia can participate in activities that have a lower risk for injury, such as swimming. Contact sports such as football, soccer, and hockey should be avoided because trauma can lead to serious bleeding episodes.</p>
+</div>
 </details>
 
 ---
@@ -228,10 +264,13 @@ A nurse is reinforcing home and school safety teaching with the caregivers of a 
 <p class="answer-choice"><strong>D.</strong> Allow the child to participate in approved activities using protective equipment.</p>
 <p class="answer-choice"><strong>E.</strong> Treat minor head bumps at home if the child does not have a visible bruise.</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 <p class="quiz-answer"><strong>Answer: A, C, D</strong></p>
-<p class="quiz-rationale"><strong>Rationale:</strong> Caregivers should notify school staff so they can respond quickly if an injury occurs. A medical identification bracelet helps in emergencies. Protective equipment can lower injury risk during approved activities. The child should not be excluded from all play, and any head injury should be reported to the provider because internal bleeding can occur without obvious bruising.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Caregivers should notify school staff so they can respond quickly if an injury occurs. A medical identification bracelet helps in emergencies. Protective equipment can lower injury risk during approved activities. The child should not be excluded from all play, and any head injury should be reported to the provider because internal bleeding can occur without obvious bruising.</p>
+</div>
 </details>
 
 ---
@@ -245,10 +284,13 @@ A nurse is reinforcing teaching with the parent of a child who has hemophilia. T
 <p class="answer-choice"><strong>C.</strong> "Children with hemophilia should only participate in activities when a nurse is present."</p>
 <p class="answer-choice"><strong>D.</strong> "You should let him choose any activity he wants so he does not feel different."</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 <p class="quiz-answer"><strong>Answer: B</strong></p>
-<p class="quiz-rationale"><strong>Rationale:</strong> Children with hemophilia need protection from injury, but they should not be overly restricted. The goal is to allow safe, age-appropriate activities so the child can build confidence, independence, and normal development. The child should avoid high-risk and contact activities, but not all activities.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Children with hemophilia need protection from injury, but they should not be overly restricted. The goal is to allow safe, age-appropriate activities so the child can build confidence, independence, and normal development. The child should avoid high-risk and contact activities, but not all activities.</p>
+</div>
 </details>
 
 ---
@@ -262,10 +304,13 @@ A nurse is reviewing the health history of a child brought to the clinic for bru
 <p class="answer-choice"><strong>C.</strong> Fatigue, pallor, and craving ice</p>
 <p class="answer-choice"><strong>D.</strong> Severe bone pain with enlarged lymph nodes</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 <p class="quiz-answer"><strong>Answer: B</strong></p>
-<p class="quiz-rationale"><strong>Rationale:</strong> Idiopathic thrombocytopenic purpura (ITP) causes a low platelet count, so the child can have petechiae, purpura, bruising, nosebleeds, or gum bleeding. It commonly occurs after a viral illness. Hemophilia is more associated with deep bleeding into joints, not petechiae.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>Idiopathic thrombocytopenic purpura (ITP) causes a low platelet count, so the child can have petechiae, purpura, bruising, nosebleeds, or gum bleeding. It commonly occurs after a viral illness. Hemophilia is more associated with deep bleeding into joints, not petechiae.</p>
+</div>
 </details>
 
 ---
@@ -280,10 +325,13 @@ A nurse is caring for a child who has idiopathic thrombocytopenic purpura. Which
 <p class="answer-choice"><strong>D.</strong> Apply firm pressure after venipuncture.</p>
 <p class="answer-choice"><strong>E.</strong> Administer aspirin for mild pain.</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 <p class="quiz-answer"><strong>Answer: A, B, D</strong></p>
-<p class="quiz-rationale"><strong>Rationale:</strong> ITP causes low platelets, so bleeding precautions are needed. The nurse should use a soft toothbrush, avoid rectal routes, and apply pressure after needle sticks. Contact sports and aspirin should be avoided because they increase the risk for bleeding.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>ITP causes low platelets, so bleeding precautions are needed. The nurse should use a soft toothbrush, avoid rectal routes, and apply pressure after needle sticks. Contact sports and aspirin should be avoided because they increase the risk for bleeding.</p>
+</div>
 </details>
 
 ---
@@ -297,10 +345,13 @@ A nurse is reinforcing teaching with the parent of a child who has idiopathic th
 <p class="answer-choice"><strong>C.</strong> "Removing the spleen will increase red blood cell production in the bone marrow."</p>
 <p class="answer-choice"><strong>D.</strong> "Removing the spleen is done so my child will no longer need bleeding precautions right away."</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 <p class="quiz-answer"><strong>Answer: A</strong></p>
-<p class="quiz-rationale"><strong>Rationale:</strong> In ITP, platelets are destroyed too quickly. A splenectomy may be done when ITP is severe or does not respond to other treatment because the spleen is a major site of platelet destruction. This does not replace a clotting factor, increase red blood cell production, or immediately remove the need for bleeding precautions.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>In ITP, platelets are destroyed too quickly. A splenectomy may be done when ITP is severe or does not respond to other treatment because the spleen is a major site of platelet destruction. This does not replace a clotting factor, increase red blood cell production, or immediately remove the need for bleeding precautions.</p>
+</div>
 </details>
 
 ---
@@ -314,10 +365,13 @@ A nurse is reviewing prescriptions for a child who has idiopathic thrombocytopen
 <p class="answer-choice"><strong>C.</strong> Epoetin alfa</p>
 <p class="answer-choice"><strong>D.</strong> Factor VIII concentrate</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 <p class="quiz-answer"><strong>Answer: B</strong></p>
-<p class="quiz-rationale"><strong>Rationale:</strong> ITP is commonly treated with a corticosteroid such as prednisone to decrease the immune system's destruction of platelets. Ferrous sulfate treats iron deficiency anemia. Epoetin alfa stimulates red blood cell production. Factor VIII concentrate is used for hemophilia, not ITP.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>ITP is commonly treated with a corticosteroid such as prednisone to decrease the immune system's destruction of platelets. Ferrous sulfate treats iron deficiency anemia. Epoetin alfa stimulates red blood cell production. Factor VIII concentrate is used for hemophilia, not ITP.</p>
+</div>
 </details>
 
 ---
@@ -331,10 +385,13 @@ A nurse is caring for a child who has hemophilia. The parent reports that the ch
 <p class="answer-choice"><strong>C.</strong> Encourage the child to rest at home and monitor for bruising.</p>
 <p class="answer-choice"><strong>D.</strong> Notify the provider because internal bleeding can occur without visible bleeding.</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 <p class="quiz-answer"><strong>Answer: D</strong></p>
-<p class="quiz-rationale"><strong>Rationale:</strong> A head injury in a child with hemophilia is serious even if the child appears alert and there is no visible bleeding. Internal bleeding can occur, so the provider should be notified immediately. The nurse should not simply reassure, apply heat, or delay care by only monitoring at home.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>A head injury in a child with hemophilia is serious even if the child appears alert and there is no visible bleeding. Internal bleeding can occur, so the provider should be notified immediately. The nurse should not simply reassure, apply heat, or delay care by only monitoring at home.</p>
+</div>
 </details>
 
 ---
@@ -348,8 +405,11 @@ A nurse is reinforcing teaching with the parent of a child who has hemophilia an
 <p class="answer-choice"><strong>C.</strong> "I should give aspirin before the appointment to prevent pain and swelling."</p>
 <p class="answer-choice"><strong>D.</strong> "The dentist should avoid using pressure after the procedure because it can cause more bleeding."</p>
 
-<details>
+<details class="quiz-answer-block">
 <summary>Click to see answer and rationale</summary>
 <p class="quiz-answer"><strong>Answer: A</strong></p>
-<p class="quiz-rationale"><strong>Rationale:</strong> A child with hemophilia may need factor replacement or cryoprecipitate therapy before dental work, surgery, or procedures to reduce the risk for bleeding. Aspirin should be avoided, and pressure after procedures can help control bleeding rather than cause it.</p>
+<div class="quiz-rationale">
+<p><strong>Rationale:</strong></p>
+<p>A child with hemophilia may need factor replacement or cryoprecipitate therapy before dental work, surgery, or procedures to reduce the risk for bleeding. Aspirin should be avoided, and pressure after procedures can help control bleeding rather than cause it.</p>
+</div>
 </details>
